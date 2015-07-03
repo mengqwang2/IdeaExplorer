@@ -1,0 +1,27 @@
+<ion-view view-title="Sign-In">
+        <ion-content>
+          <center><h1>EMC</h1></center>
+          <div class="list">
+            <label class="item item-input">
+              <span class="input-label">Username</span>
+              <input type="text" ng-model="user.username">
+            </label>
+            <label class="item item-input">
+              <span class="input-label">Password</span>
+              <input type="password" ng-model="user.password">
+            </label>
+          </div>
+          <div class="row">
+      <div class="col">
+        <button class="button button-block button-positive" ng-click="signIn(user)">
+              Sign-In
+            </button>
+      </div>
+      <div class="col">
+        <button class="button button-block button-stable">
+          Forgot Password
+        </button>
+      </div>
+    </div>
+        </ion-content>
+      </ion-view>

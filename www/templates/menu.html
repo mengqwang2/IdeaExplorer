@@ -1,0 +1,56 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    
+    <ion-content>
+      <ion-list>
+      
+        <ion-item class="item-avatar item-positive">
+         <img src="http://placehold.it/100x100" alt="avatar">
+          Alice
+          <br>Shanghai
+        </ion-item>
+        <ion-item class="item-divider"> Fuctions
+    </ion-item>
+        <ion-item menu-close href="#/app/home" class="item-icon-right">
+          Home
+          <i class="icon ion-home positive"></i>
+        </ion-item>
+        <ion-item menu-close href="#/app/search" class="item-icon-right">
+          Search
+          <i class="icon ion-search positive"></i>
+        </ion-item>
+        </ion-item>
+        <ion-item menu-close href="#/app/category" class="item-icon-right">
+          Category
+           <i class="icon ion-ios-keypad positive"></i>
+        </ion-item>
+        <ion-item class="item-divider"> Information
+    </ion-item>
+        <ion-item menu-close href="http://http://www.emc.com/" class="item-icon-right">
+          About Us
+          <i class="icon ion-person-stalker positive"></i>
+        </ion-item>
+        <ion-item menu-close href="http://http://www.emc.com/" class="item-icon-right">
+          Feedback
+          <i class="icon ion-ios-paper positive"></i>
+        </ion-item>
+        <ion-item menu-close href="#/sign-in">
+          <button class="button button-positive button-block" >Logout</button>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
