@@ -1,0 +1,23 @@
+<ion-view view-title="Home">
+  <ion-content>
+    <div class="list card" ng-repeat="playlist in playlists">
+    <div class="item item-avatar">
+      <img src="http://placehold.it/100x100" alt="avatar">  {{playlist.title}}
+    </div>
+    <div class="item item-image">
+      <img src="http://placehold.it/600x200" alt="img">
+    </div>
+    <div class="item item-text-wrap">
+      {{playlist.id}} <a href="#/app/home/{{playlist.id}}">Read More</a>
+    </div>
+    <div class="item item-divider">
+      <div class="button-bar">
+        <button class="button button-clear icon ion-ios-heart-outline"></button>
+        <button class="button button-clear icon ion-ios-compose-outline"></button>
+        <button class="button button-clear icon ion-ios-upload-outline"></button>
+      </div>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>
+

@@ -1,0 +1,10 @@
+<ion-view view-title="Details">
+  <ion-content>
+  <ion-list class="list-inset">
+    <ion-item class="item-text-wrap" ng-repeat="playlist in playlists | filter: {id: whichplaylist}">
+    <h1>{{playlist.title}}</h1>
+    <h3>{{playlist.id}}</h3>
+</ion-item>
+</ion-list>
+  </ion-content>
+</ion-view>
