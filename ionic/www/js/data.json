@@ -1,0 +1,30 @@
+{
+  "Ideas" : [ {"Title": "The EMC Super 'App'",
+  "Description": "When the world is calling (almost) a daily moon shot at Super 'App' WE thought it is worth to aim at one from EMC perspective. This App can become 'the way of life' for every EMCer. Through the traffic, high & frequent usage it can be used to promote important messages, collaboration among teams & have features like SOS for IT Support. thus the App can project contemporary",
+  "Author": "Jimmy",
+  "Date": "12-06-2015",
+  "Tag": ["emc_superapp","coolit","consumerdriven"  ],
+  "HitRate": 123,
+  "Likes": 15,
+  "Comments" : [ {"User":"May","Content": "Good"}, {"User": "Sarah","Content": "I love it."}, {"User": "Tim","Content":"poor"}]
+  },
+  {"Title": "Data Protection - Meta Data Analytic -as-a-Service",
+  "Description": "Meta-Data Analytics capability of DPS Portfolio is becoming a more important differentiator. Current consumption model (purcahse, install, deploy, ongoing) is not 'ideal' to realize the business/technology/operational benefits to our enterprise custoemr set- And thus become a 'prohibitive' factor for the market to truly apperciate the value of our portfolio offering.",
+   "Author": "Jack",
+  "Date": "12-06-2014",
+  "Tag": ["dpa","coolit","cloud"  ],
+  "HitRate": 103,
+  "Likes": 5,
+  "Comments" : [ {"User":"Fiona","Content": "Pod"}, {"User": "Smith","Content": "I'll look at it."}, {"User": "Timmy","Content":"poor"}]
+  },
+  {"Title": "EMC Auto WebX recorder",
+  "Description": "This is an idea to Auto WebX record all the meeting happening in EMC and Keep them for some time in common repository. (6 Months or 12 Months) This will help any team or the members of the meeting go back and refer. Using this we are achieving one centralized repository for all our EMC meetings",
+   "Author": "Mary",
+  "Date": "12-01-2015",
+  "Tag": ["emc","auto","webx", "recorder"  ],
+  "HitRate": 323,
+  "Likes": 105,
+  "Comments" : [ {"User":"May","Content": "Good"}, {"User": "Sarah","Content": "I love it."}, {"User": "Tim","Content":"poor"}]
+  }
+  ]
+}

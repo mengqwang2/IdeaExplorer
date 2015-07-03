@@ -1,0 +1,44 @@
+
+<ion-view>
+<ion-content>
+<div class="list list-inset" ng-repeat='item in data.Ideas | filter: {id: currentPage}' >
+	<div class="item item-divider" href="#/app/playlists/{{item.id}}">{{item.Title}}
+		<p>By {{item.Author}}</p>
+		<p><span style="float:left">Created on {{item.Date}}</span><span style="float:right">Hit rate: {{item.HitRate}}</span></p>
+	</div>
+	<div class="item item-body">
+
+		{{item.Description}} 
+		<br>
+		<p><span ng-repeat="tag in item.Tag">#{{tag}} </span></p>
+
+	</div>
+	<div ng-show="item.Comments">
+		<div class="item item-divider">
+			{{item.Comments.length==1? 'Comment': 'Comments'}}
+		</div>
+		<div class="item item-body" ng-repeat="Comment in item.Comments">
+			<div class="item item-avatar"><img src="http://placehold.it/100x100" alt="Avatar">
+				<h2>{{Comment.User}}</h2>
+				<p>{{Comment.Content}}</p>
+			</div>
+			
+		</div>
+	</div>
+
+</div>
+
+</ion-content>
+<div class="bar bar-footer">
+	<div class="button-bar">
+		<button class="button icon-left ion-android-star-outline" ng-if="!toggleLikes"
+		ng-click="like(currentPage)">{{data.Ideas[currentPage].Likes}}</button>
+				<button class="button icon-left ion-android-star button-assertive" ng-if="toggleLikes" ng-click="unlike(currentPage)">{{data.Ideas[currentPage].Likes}}</button>
+		<button class="button icon-left ion-compose" ng-click="openModal()">Comment</button>
+	</div>
+
+</div>
+
+</ion-view>
+
+

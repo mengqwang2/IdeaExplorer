@@ -58,7 +58,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: "templates/home.html",
-          controller: 'PlaylistsCtrl'
+          controller: 'home'
+        }
+      }
+    })
+      .state('app.details', {
+      url: "/home/:id",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/details.html",
+          controller: "home"
         }
       }
     })

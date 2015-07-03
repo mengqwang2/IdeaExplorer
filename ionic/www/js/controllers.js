@@ -33,6 +33,87 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
+.controller('home', ['$scope','$http', '$stateParams', '$ionicModal', function($scope, $http, $stateParams, $ionicModal) {
+
+
+  $scope.data = null;
+  $scope.doRefresh = function(){
+      $http.get('js/data.json').success(function(data){
+      $scope.data = data;
+      $scope.$broadcast('scroll.refreshComplete');
+     })
+    };
+
+  $http.get("js/data.json").success(function(data){
+      $scope.data = data;
+      for (i=0; i< $scope.data.Ideas.length ; i++){
+        $scope.data.Ideas[i].id = i;
+      }
+  })
+
+  $scope.currentPage = $stateParams.id;
+
+  $scope.like = function(id){
+    if (!$scope.toggleLikes){
+      $scope.data.Ideas[id].Likes+=1;
+      $scope.toggleLikes= !$scope.toggleLikes;
+    }
+      
+  };
+
+    $scope.unlike = function(id){
+    if($scope.toggleLikes){
+    $scope.data.Ideas[id].Likes-=1;
+    $scope.toggleLikes =!$scope.toggleLikes;
+  }
+  };
+
+  $scope.toggleLikes = false;
+
+  $scope.checkComplete = function(text, limit){
+    if (text.length <= limit)
+      return;
+    while (text.charAt(limit)!= ' '){
+      limit+=1;
+    }
+    return limit;
+  }
+
+  
+
+  $scope.changePage = function(id){
+    $scope.currentPage = id;
+  }
+
+$ionicModal.fromTemplateUrl('templates/comment.html', {
+    scope: $scope,
+    animation: 'slide-in-up'
+  }).then(function(modal) {
+    $scope.modal = modal;
+  });
+  $scope.openModal = function() {
+    $scope.modal.show();
+  };
+  $scope.closeModal = function() {
+    $scope.modal.hide();
+  };
+  //Cleanup the modal when we're done with it!
+  $scope.$on('$destroy', function() {
+    $scope.modal.remove();
+  });
+  // Execute action on hide modal
+  $scope.$on('modal.hidden', function() {
+    // Execute action
+  });
+  // Execute action on remove modal
+  $scope.$on('modal.removed', function() {
+    // Execute action
+  });
+
+
+
+}])
+
 .controller('SignInCtrl', function($scope, $state) {
   
   $scope.signIn = function(user) {

@@ -1,0 +1,30 @@
+  <ion-modal-view>
+  <ion-header-bar>
+  <button class="button-clear" ng-click="closeModal()">Close</button>
+  <h1 class="title">Comment</h1>
+</ion-header-bar>
+<ion-content>
+
+<div class="list list-inset" ng-repeat="Comment in data.Ideas[currentPage].Comments">
+  <div class="item item-divider">
+      <h2>{{Comment.User}}</h2>
+
+  </div>
+  <div class="item item-body">
+    {{Comment.Content}}
+  </div>
+
+</div>
+</ion-content>
+<div class="bar bar-footer item-input-inset bar-light">
+  <label class="item-input-wrapper">
+    <input type="text" ng-model="comments" placeholder="Comments">
+
+  </label>
+  <button class="button button-clear ion-paper-airplane">
+
+  </button>
+</div>
+
+</div>
+</ion-modal-view>
