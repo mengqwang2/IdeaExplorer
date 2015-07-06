@@ -55,10 +55,10 @@ def main():
         (docset, articlenames) = \
             wikirandom.get_random_wikipedia_articles(batchsize)
         # Give them to online LDA
-        print docset[0]
-        print docset[1]
-        print docset[2]
-        
+        #print docset[0]
+        #print docset[1]
+        #print docset[2]
+        print len(docset)
         (gamma, bound) = olda.update_lambda(docset)
         # Compute an estimate of held-out perplexity
         (wordids, wordcts) = onlineldavb.parse_doc_list(docset, olda._vocab)

@@ -8,7 +8,7 @@ class dataParse():
 		self.__jp=jsonParser.jsonParser(fp)
 		self.__filePath=fp
 		self.__jp.parse()
-		self.__ideas=jp.getJsonDict()
+		self.__ideas=self.__jp.getJsonDict()
 
 	def parse2file(self,fp):
 		fo=open(fp,"w+")
@@ -17,13 +17,35 @@ class dataParse():
 			if (k1=='data'):
 				for entry in v1:
 					for k2,v2 in entry.iteritems():
-					fo.write(unicode(k2).encode('utf-8')+": "+unicode(v2).encode('utf-8')+"\n")
+						fo.write(unicode(k2).encode('utf-8')+": "+unicode(v2).encode('utf-8')+"\n")
 				fo.write("\n")
 		fo.close()
 
 	def fieldParse(self,fname):
-		fieldList=[]
+		docList=[]
 		for ind in self.__ideas['data']:
-			fieldList.append(ind[fname])
+			docList.append(ind[fname])
 
-		return fieldList
+		return docList
+
+	def concatedField(self,fList):
+		fieldList=[]
+		with open(fList) as fo:
+			for line in fo:
+				fieldList.append(line)
+		
+		docList=[]
+		doc=""
+		for ind in self.__ideas['data']:
+			doc=""
+			for fl in fieldList:
+				fl=fl[:-1]
+				if(ind[fl]==None):
+					doc=doc+""
+				else:
+					doc=doc+ind[fl]
+			docList.append(doc)
+		
+		return docList
+
+

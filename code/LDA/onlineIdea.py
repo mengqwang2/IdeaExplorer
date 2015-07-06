@@ -30,12 +30,11 @@ def main():
     """
     dp=dataParse.dataParse("../../data/ideas.txt")
 
-    des=dp.fieldParse("description")
-
-
+    #des=dp.fieldParse("description")
+    des=dp.concatedField("../../data/fieldList.txt")
 
     # The number of documents to analyze each iteration
-    batchsize = 10
+    batchsize = 50
     # The total number of documents in Wikipedia
     D = 5000
     # The number of topics
@@ -55,10 +54,11 @@ def main():
     olda = onlineldavb.OnlineLDA(vocab, K, D, 1./K, 1./K, 1024., 0.7)
     # Run until we've seen D documents. (Feel free to interrupt *much*
     # sooner than this.)
-    for iteration in range(0, D):
+    for iteration in range(0, documentstoanalyze):
         #Retrieve texts
         docset=des
         # Give them to online LDA
+        
         (gamma, bound) = olda.update_lambda(docset)
         # Compute an estimate of held-out perplexity
         (wordids, wordcts) = onlineldavb.parse_doc_list(docset, olda._vocab)
@@ -71,9 +71,9 @@ def main():
         # distributions over topic weights for the articles analyzed in
         # the last iteration.
         if (iteration % 10 == 0):
-            numpy.savetxt('lambda-%d.dat' % iteration, olda._lambda)
-            numpy.savetxt('gamma-%d.dat' % iteration, gamma)
+            numpy.savetxt('../../data/LDAResult/lambda-%d.dat' % iteration, olda._lambda)
+            numpy.savetxt('../../data/LDAResult/gamma-%d.dat' % iteration, gamma)
     
-
+        
 if __name__ == '__main__':
     main()

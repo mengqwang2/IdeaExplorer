@@ -22,8 +22,30 @@ class dataParse():
 		fo.close()
 
 	def fieldParse(self,fname):
-		fieldList=[]
+		docList=[]
 		for ind in self.__ideas['data']:
-			fieldList.append(ind[fname])
+			docList.append(ind[fname])
 
-		return fieldList
+		return docList
+
+	def concatedField(self,fList):
+		fieldList=[]
+		with open(fList) as fo:
+			for line in fo:
+				fieldList.append(line)
+		
+		docList=[]
+		doc=""
+		for ind in self.__ideas['data']:
+			doc=""
+			for fl in fieldList:
+				fl=fl[:-1]
+				if(ind[fl]==None):
+					doc=doc+""
+				else:
+					doc=doc+ind[fl]
+			docList.append(doc)
+		
+		return docList
+
+
