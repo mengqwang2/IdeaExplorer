@@ -1,0 +1,15 @@
+EMC Universe
+
+Ideation session
+EMC is becoming one of the most popular and diverse companies available, with a wide range number of employees, from all over the world.
+It is really hard to get connected and know everyone around EMC whether personally or professionally
+To solve this problem and get more engaged and connected, my Idea is to create an EMC internal Portal that combines and connects all EMC Employees together either personally or professionally.
+Each Employee will have their own profile page in which they can add all their details and information on.
+The profile will be divided into many various sections, Such as a Personal Information Section which can include the User’s Name, Date of Birth, Nationality, and location. A section including Work Experience Details such as, Previous work experience, Current EMC Role, Department, Certificates and Courses, projects and initiatives etc…., and there could be also a Section for Interests and Hobbies.
+Also there could be a time line added that is linked with the user’s recent activities on social media, such as, Facebook, Twitter, LinkedIn, Instagram, etc…
+From the Personal Side, This will help EMC Employees to get to know each other more; will help in increasing their communication, as well as sharing their knowledge or interests.
+As for the Professional side, each user will also state their direct Manager or Matrix Manager, and then the portal system will automatically relate each user to their Manager and Business Unit, turning and shaping the Portal into an advanced, more featured and easy going organizational chart, linking all the employees and users together.
+The Portal can also have a search bar included in it, in which any user can use to search for anyone with a certain experience, certificate, or even same initiatives and projects.
+Such Portal will eventually save time, and none the less connect all EMC Employees together in one universe, both personally and professionally.
+
+

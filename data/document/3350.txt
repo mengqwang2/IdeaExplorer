@@ -1,0 +1,5 @@
+AC Sensors
+
+The air conditioner will stay on as a long as someone will turn it off.
+There will be a motion sensor that checks if no one is in the area the air conditioner will turn off.
+

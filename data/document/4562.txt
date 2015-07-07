@@ -1,0 +1,5 @@
+ADD-on that detect a phone number and give you the option to call it with the cisco phone 
+
+sometimes i waste my time to call a customer specially when he is not in the same country , or dial a wrong number so what about having a small tool that can make phone call easier and prevent human mistakes 
+User can only hover over the number and when he use the right click the tool detect the number and give him the option to call him from PC , call him using the Cisco phone 
+

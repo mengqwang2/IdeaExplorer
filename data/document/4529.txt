@@ -1,0 +1,14 @@
+Share Nothing Uber Data Node - The 3rd Platform Storage Solution
+
+This idea is a result of consultations over a period of last two years with cloud scale customers who are trying to find a better solution for their Hadoop, Bigdata, Data-warehousing, NoSQL and PaaS applications. These customers include eBay and Walmart.com. This idea has been proposed to EMC's HW design teams in EMSD & Isilon but so far no EMC BU has taken the ownership of the idea.
+Two architectures are proposed at an average EMC cost of ~$1/GB:
+A. 2RU - 2xservers each with one Intel Haswell CPU, 2x40Gbps RNICs (NICs with RDMA support), 128GB RAM, power supply and 60x2.5" EFD slots. With 4TB SanDisk Optimus SSD using eMLC NAND technology. Each SSD can deliver up to 400MBps sequential throughput & 3 full writes per day per SSD. Each Uber node with 2 servers, 2 CPU & 60 SSDs would offer close to 24GBps throughput and close to 4M/1M R/W IOPS.  4x40Gbps RNICs per Uber node would offer efficient sharing of data using object data service as a part of the OS.
+
+B. 4RU - 3xservers with Intel Haswell CPU, 2x40Gbps RNICs, 128GB-256GB RAM and 90 SSD slots. A total of 2 CPUs, 6x40Gbps or 240Gbps IO pipe, 384GB-768GB RAM and 270x4TB SSDs with close to 1PB raw capacity. A Linux/Lustre based SW environment with object data services to move data efficiently across site will make this server the right choice for EMC's data lake.
+
+This share nothing Uber data node architecture allows an elastic storage solution where loss or gain or a data node is transparent to the application. It is an agile storage architecture that allows adding or removing capacity on a per node basis to a scale that the application allows. Hadoop for example can handle up to 2000 nodes per cluster. 
+
+Key SW features to include Linux OS, Lustre like cluster  file system or HDFS like distributed file system and object data service for efficient data sharing over RDMA enabled 40G IO modules. 
+
+The Uber data node will be the ideal solution for several 3rd platform applications such as Hadoop, BigData, Datawarehousing, Virtualization, Paas, Oracle & NoSQL DBs, 
+

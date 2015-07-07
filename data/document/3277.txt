@@ -1,0 +1,9 @@
+Seat sharing with Ease
+
+I have made my cubical in the same way (headless desktop). If the setup remains the same in another cubical, I am roam free. 
+To initially promote, we need to attract with FHD monitors, etc.
+Traditional Desktop is made head less, (No Monitor, mouse, keyboard)
+The seat sharing cubicals are standardized with 2 FHD monitors(Connected to the Docking station), Docking station(DS), Keyboard, Mouse. 
+The Employee comes and connects the laptop to DS and uses the 2 monitor in Extend mode. Calls RDP of the headless desktop machine and works normally.
+Green concept as the monitors will sleep automatically once the Laptop is removed from docking station. (Saves power)
+

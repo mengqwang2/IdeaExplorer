@@ -1,0 +1,23 @@
+Converged Home IT Infrastructure
+This is an idea for a new product/solution. Opening a new market with chances to sell to millions of home consumers. 
+Idea came after vspex was released. A simple , agile and converged product for added value to home consumers.
+Developing a miniature home edition of converged software and hardware infrastructure. All EMC products , specially designed for home use. Smartly presenting the product for home
+use. 
+
+1. A box similar to vspex blue , compact and small in size Suitable for home installation. 
+2. The box Will present a service catalog that contains virtual machines , storage shares and archives. Home consumers can build Multimedia servers for entertainment, Personal computers , application servers for smart homes , data repositories and electronic archives.
+3. The system can contain building blocks that can integrate with smart homes devices. 
+4. EMC can partner with Game consoles like Sony Play station , Microsoft xbox . These consoles can be delivered as Virtual Machines (software only) and sold online , will guarantee low price and fast delivery. 
+5. The box can also virtualize Networking at home. 
+6. Integrating With Pivotal products , analytic programs tailored for home users can be sold on an online market. Codes that can analyse water, gaz , electricity consumption and trends.
+7. Linking Car's computer to upload its data to the box , keeping customers up to date with usage statistics , GPS location , routes and spare parts wear. Cars now incorporate many sensors and generate data that can be analysed to predict and alert customers of possible failures and needed maintenance.  
+8. Archiving documents , protecting personal data and securing it with RSA products. 
+9. Tailoring RSA secure ID to securing door locks , car door locks , garage door and personal home volts for maximum security.
+10. Multimedia servers catalogue can integrate with Apple iTunes , apple tv , Chromecast .. etc 
+11. Telephone home switches can also be software defined and hosted on the home cloud.
+
+If realised, EMC will have a huge base of home customers. A box providing infrastructure to all homes. A product that will Partner with with other consumer electronics companies and media companies to make a good selling point. 
+
+A new market will be created , Selling these boxes will make excellent revenues to EMC. EMC REDEFINES Home IT. 
+
+The same idea can also be realised on a public cloud hosted by EMC , where customers can rent the system from EMC's Cloud. Deployment will be faster and more efficient. EMC Will host the hardware. 

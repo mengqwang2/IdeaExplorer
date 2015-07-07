@@ -1,0 +1,5 @@
+Universal logon's for all EMC Application
+having an universal logon's (NT ID/PWDD)for all EMC Applications (desktop, EAS, Unix password, Oracle, Moxie) will help engineers not having a dozen credentials for each application they use.
+Pain of getting confused with multiple credentials and password.. 
+Integrating NT id with all the applications through AD Or using a single sign on like salesforce login... 
+Pain of getting confused with multiple credentials and password.. 

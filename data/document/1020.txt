@@ -1,0 +1,5 @@
+One place for Pre-requisites, Firewall ports, PEQ's and Best practices
+This idea guide us to one place for gathering the pre-requisites, firewall ports, PEQ's and best practices for DPAD products and modules in Solve Desktop or online Compatibility guide.
+During pre and post design/implementation activities we always look into multiple DPAD documents for pre-requisites, firewall ports and it does add extra time for us to looking into latest documents and do comparisons.
+We already have a tool called Solve Desktop to generate the documents for software/Hardware implementation, upgrades/migrations, etc., and a online compatibility site for Software and Hardware compatibility, using anyone of these we can include the product specific pre-requisites, firewall ports, PEQ's and best practices and thus making availability for DPAD engineers at one place.
+Time saving and accuracy.

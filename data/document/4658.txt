@@ -1,0 +1,12 @@
+True Paperless Office
+
+I have been studying for the last number of years and have been using an iPad coupled with Notability app, stylus and other application in an attempt not to be snowed under in paper. I feel that it has worked to some degree and overall is very positive as about 60% of my 'old paper' in now online. I have tried to bring this into my work environment with mixed results and I wondered why this is not been driven at the corporate level 
+In order to enable this "paperless" mindset I believe that three things would be required in order of priority
+ -1) Executive support, sponsorship and a Cultural shift on what typing on phone/table during a meeting/event is perceived as.
+ -2) Access to cloud and other applications to support this shift (Dropbox, Google drive, Syncplicity, Notability, Pages, Office, Scanners, Stylus)
+ -3) Lighter laptops or greater Tablet availability (Nice to have not not absolute requirement)
+
+I think most of the application and technology issues can be solved. (Notability sync's to Google-Drive, which is blocked by EMC but Notability doesn't sync with Syncplicity and current meeting room equipment doesn't interact well with tablets and phones) 
+I do feel that the perception/cultural issue referenced will need time and support to resolve. Producing a tablet in a meeting is certainly not seen as the norm and garners a very mixed reaction and typing on your phone is often perceived as negative (checking email, surfing internet, etc in stead of engaging in the meeting or event)
+
+

@@ -1,0 +1,32 @@
+Time series model prediction architecture in effective way
+Rapidly evolving businesses generate massive amounts of time-stamped data sequences and cause a demand for both univariate and multivariate time series forecasting. 
+For such data, traditional predictive models based on auto regression are often not sufficient to capture complex non-linear relationships between multidimensional 
+features and the time series outputs. In order to exploit these relationships for improved time series forecasting while also better dealing with a wider variety 
+of prediction scenarios, a forecasting system requires a flexible and generic architecture to accommodate and tune various individual predictors as well as combination methods.
+While Learning data science projects we have some experience with time series analytics and processing massive amount of data, thus we have decided to respond to this challenge and propose an appropriate architecture.    
+an architecture for combined, multilevel time series prediction is proposed which will use neural network predictors, which is suitable for many different universal regressors and combination methods.
+The key strength of this architecture is its ability to build a diversified ensemble of individual neural network predictors that form an input to a multilevel selection and fusion process before the 
+final optimized output is obtained. Excellent generalization ability is achieved due to the highly boosted complementarity of individual models further enforced through 
+cross-validation-linked training on exclusive data subsets and ensemble output postprocessing.
+
+Neural Network predictors:
+
+we have monthly data recorded over several years, so we have 36 values.
+
+Exploratory data analysis: Apply some of the traditional time series analysis methods to estimate the lag dependence in the data (e.g. auto-correlation and partial auto-correlation plots, transformations, differencing).
+we find a given month's value is correlated with the past three month's data.
+Partition  data into training and validation sets: we will Take the first 24 points as  training values and the remaining points as the validation set.
+Create the neural network layout: we will take the past three month's values as inputs and we  want to predict the next month's value. So, we  need a neural network with an input layer containing three nodes and an output layer containing one node. 
+Create the training patterns: Each training pattern will be four values, with the first three corresponding to the input nodes and the last one defining what the correct value is for the output node. For example, if  training data are values
+x1,x2…,x24
+then
+pattern1:x1,x2,x3,x4
+pattern2:x2,x3,x4,x5
+
+Train the neural network on these patterns
+Test the network on the validation set (months 25-36):  we  will pass in the three values the neural network needs for the input layer and see what the output node gets set to. So, to see how well the trained neural network can predict month 32's value we 'll pass in values for months 29, 30, and 31
+
+
+1) It will improve the time series forecasting.
+2)Measure the time taken to predict different time series models and ensure that there is a huge performance improvement because of this architecture
+

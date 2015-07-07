@@ -1,0 +1,11 @@
+Identifying anomalies in physician prescriptions using machine learning
+We suggest a solution for the health care market that contains Data science on top of EMC's Federation products and the BDL Idea
+Dr. Alon Grubshtein and Dr. Raphael Cohen created this Big Data play for a presale meeting with a large Israeli HMO (over 2 million patients). Raphael is an expert in health care analytics and electronic medical records text analysis with a number of academic publication in the field (AMIA, BMC Bioinformatics, ACL). The idea was further honed with the help of Amihai Savir who is an expert on delivering data science applications using the pivotal stack and EMC technology, with proven experience of delivering the ITOA Big Data Science play.
+Our approach introduces a novel method for identifying physicians with abnormal medication prescription patterns that incur a high cost on providers. For this task, simply breaking down physician’s data by cost (the BI approach) is not enough: an Oncologist would normally prescribe significantly more expensive medications in comparison to a General Practitioner, while a GP with many elderly patients would probably prescribe more medication than one with younger patients. Our method is based on the Population Based Ranking (EMC patent request Docket EMC-15-0163) approach used within EMC GS Finance body, but applies healthcare domain knowledge to assess the expected medication prescription costs based on the physician’s expertise, location and patient demographics. In its core, a linear prediction-pricing model is learned from the HMO database and anomalous spending is identified by estimating the divergence of a specific physician from the pricing model.
+EMC:
+Big Data Play for the health care market, integrating multiple EMC technologies (Isilon, BDL and Pivotal).
+
+Costumer:
+Identify anomalies in drug prescriptions with high accuracy
+Save money on unnecessary use of medication
+

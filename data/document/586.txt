@@ -1,0 +1,9 @@
+Part Set up Fix
+The idea was addressed as a Lean Six Sigma project in order to capture the value it brings in terms of time and cost savings.
+The results are impacting many entities, and thereby affecting CSAT.
+
+The idea came after realizing the issue is recurring in the Install Base and discussing its impacts with BTG team.
+After brainstorming with BTG team and system developers, Work Request 412186 was raised to ensure configurations transfer with the correct type (HW and SW) and thereby correct status to the Install Base.
+
+
+Work Request 412186 is in progress, once it's complete the entire issue of child & parent mismatch in the Part-Setup (software & hardware) will be cleared, and a cleanup activity will be performed on the current data to reduce the forecasted number of requests for fixing this issue.

@@ -1,0 +1,25 @@
+Embracing IoT technologies in the transportation sector in the smart cities--- Prototype in progress
+Cities are locations having a high level of accumulation and concentration of economic activities and are complex spatial structures that are supported by transport systems. The larger the city, the greater its complexity and the potential for disruptions, particularly when this complexity is not effectively managed. The most important transport problems are often related to urban areas and take place when transport systems, for a variety of reasons, cannot satisfy the numerous requirements of urban mobility. Urban productivity is highly dependent on the efficiency of its transport system to move labor, consumers and freight between multiple origins and destinations
+I thought about the idea when I noticed -during my travels- to many capitals  that the effectiveness of transportation plays a vital role in attracting new investments and  tourists. The city councils do their best to achieve high standards to satisfy the citizens and make their life better, which is a golden opportunity to employ the IoT to help in achieving such results.
+The solution will concentrate in many areas and can be cascaded to minor small projects
+
+1- To improve safety ----->> Utilize vehicle sensor data for early fault detection, service alerts, and monitor emissions. Driver behavior / patterns monitoring for risk analysis and improved guidance. Sensor data analysis to prevent accidents / automated breaking. Big data analytics will be provided on a sample car.
+
+2- For optimized location services ----->> Smart route guidance and navigation based on real-time traffic patterns. Cabin personalization for operators.This will need an advanced city to be applied like Dubai, London, Paris, Or New York.
+
+example : "Traffic signal synchronization" Tuning the traffic signals to the time and direction of traffic flows based on real data transmitted from the traffic signs. This is particularly effective if the signals can be adjusted on an hourly basis to reflect changes in commuting patterns.
+
+
+3- for Reduced warranty costs----->> Real-time monitoring and remote diagnostics on ongoing basis will have direct cost-avoidance / savings potential in warranty claims. Reduce claims-to-premiums ratio by analyzing risk profile based on real-time driving statistics.
+
+
+
+- Fleet management and warranty efficiencies. Differentiated services and avoidance of costly public recalls.
+
+- Increase service revenue. Ability to launch new and improved personalized and mobility services for higher revenues. Overall cost optimization, better margins / improved price realization.
+
+
+- Effective and personalized marketing campaigns, supply chain optimization, and pro-active customer engagement.
+
+- Improved warehouse and fleet management. Optimized demand & production management. Optimized inventory levels and improved logistics for predictable deliveries of goods and services. Enhanced partner relationships and integration for improved operations across the supply chain.
+

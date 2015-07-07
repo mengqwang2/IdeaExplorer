@@ -1,0 +1,13 @@
+Graphical represented MyVoice Survey on a Central Site for EMC Application and Site access
+
+Primary Idea: Consulting friends who scored the highest in a subject has always helped me.
+Secondary Idea: The idea occured to me from my very first day at EMC. I faced great difficulty remembering and noting down the links and a few other important websites to carry out normal official and non- official work. I was hoping that we had a single user friendly website on which I could access all the other important sub sites without having to explore too much or without the need to bookmark a number of webpages.
+(The link to a sample of the central website - http://one.emc.com/clearspace/docs/DOC-79426?uploadSuccess=true )
+Primary Problem
+The graphical representation displays to Managers, their progressive data - ratings for different criteria on which they were surveyed. Based on every criteria that they are evaluated on, they can choose to consult other peers (managers) who scored highly in those areas or choose to review available information posted by other managers which explains what made them score on those points. This should be quite economical and self sustaining to help circulate the qualities of winners within the company.
+
+Secondary Problem
+The overall solution solves the problem with the help of a central site called the "EMC Bridge" which places the link to sites and applications in a concise and user friendly manner.
+Could be helpful only to the employees (and could be further modified or developed to be helpful to external users as well). There are some internal links such as "my profile" on "employee central" which could be made available to access from this website.
+(The link to a sample of the central website - http://one.emc.com/clearspace/docs/DOC-79426?uploadSuccess=true )
+

@@ -1,0 +1,14 @@
+EMC Storage Device/Simulator as a Service
+
+Our team, EMC CTORnD, is doing some cloud and storage work, such as provides advanced VNX feature to OpenStack. All these work need a VNX device for development, but it is hard build a VNX simulator with both file and block interfaces even we can get the source codes. And our works related to change the source codes of VNX, which is why we won’t use the physical devices. 
+Because we have done a lot work related to cloud, the idea comes up to solve the problem is the cloud way: if we can provide the storage devices as a service, how amazing it is! 
+We propose a centralize labs solution to provides EMC storage development environment as a service. The solution can leverage orchestration, cloud computing and virtual machine technologies, the basic use case shows as bellowing: 
+
+1. Engineers apply a storage, such as VNX 5500 for development in a cloud portal;
+2. The central lab receives the request, and provision a physical storage device or virtual appliance for the request. The detail implements should be case by case. For example, some storage devices, such as VNX can be provided as a virtual appliance with simulator, or even a vVNX installed in a bunch of virtual machines depending on the detail requirement; while some storage devices can be native multi-tenant, and the requester’s usages will not affect other users, we can leverage the itself multi-tenant features; if the requester’s usage expecting to affects other users, and the device cannot be provided by virtual machine, the system should leverage some bare-metal orchestration technologies to provision a standalone storage to requester (refer to my another idea: http://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014001947). In design principal, the system should consider the virtual appliance priority for the easy to recycle and provision. Moreover, requester will apply storage devices for control path programing rather than data path in most case. In these cases a virtual appliance to simulate device will meet their needs. The central lab can prepare different virtual machine templates, which are the virtual appliances of different editions of different storage devices;
+3. After the storage device (or virtual appliance simulator) in central lab ready, the system return the access information to requester. Requester can manage the resources in the cloud portal.
+
+This idea is going to “cloudify” the EMC storage devices, make them provide to developers in EMC, or even to sale who want to demo our storage features to customers as a service. The benefits of this idea are prominent:
+• To developers: it can simplify and rapidly increasing the developer environment building efficiency, which speed up the product development and reduce time to market;
+• To the sale demo purpose: a real-time demo to customer will better than 1000 slides!
+

@@ -1,0 +1,8 @@
+ Eye tracking + Big Data analytics = Unique User Interface experience
+
+ The idea came in from the adaptive keyboard concept. I thought about something that is visual and serves the same target which is adaptation to user needs.
+-	 Use eye-tracking softwares using the laptop camera to capture the user’s eye patterns indicating information on what areas the users focuses on most of the time and what areas are called blind areas. 
+-	Collect the data for analysis by Data Analytics techniques and pattern recognition algorithms to know what is the best design that suits this specific user.
+-	Adjust and customize the web/app design to fit the user needs. For example move the announcement panel from a blind area to another area that is more observed by the user.
+
+

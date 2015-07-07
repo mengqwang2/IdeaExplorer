@@ -1,0 +1,5 @@
+Common management software for storage product.
+N/A
+software defined storage.
+A centralized software to manage all the storage product and supply the common API for other users to access it.
+We can use the centralized software to access different storage product and do self-defined operations. It also defined the common API for upper-level application to use and extend

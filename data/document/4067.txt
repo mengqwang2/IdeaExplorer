@@ -1,0 +1,5 @@
+On demand Performance boost on VPLEX for 3rd Platform workloads
+
+This idea came into being based on observations in customer issues where customers wanted performance to be better during cirtical time of business.
+VPLEX can give a thrust to the performance of applications by intelligent cache management, front end multipathing and increased resources on back end. By requeting a boost for performance , cache is reserved for the data and data is prefetched from Storage array. Front end multipathing will intelligently shut down non-optimized paths and only use paths which give maximum performance. If there is sufficient advance planning , VPLEX can automatically move data to a high performance array as well. In a VPLEX Metro this can be improved by making sync volumes asynch as well as detahcing the leg. This performance boost is for a specific period.
+

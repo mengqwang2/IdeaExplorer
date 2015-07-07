@@ -1,0 +1,5 @@
+IBG-ASC automation process
+The idea is simply to automate the process between two departments
+The idea came out of the huge number of cases opened by the ASC to IBG that stays in  the IBG queue for too long to be processed which will impact the ASC, IBG, and the account manager
+Instead of working the normal way which is the ASC user open a request to IBG and the case stays in the IBG queue for too long we will create a macro that will work on receiving the case and the macro will handle the case automatically after that the macro will close the case and generate a report stating what happened through the case life time
+This idea will save huge time for IBG, ASC, and the account managers. it will also generate new opportunities to let new account managers involved in working with the ASC and the IBG which will lead to more data accuracy and it will same more money

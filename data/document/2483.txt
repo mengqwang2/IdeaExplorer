@@ -1,0 +1,15 @@
+Chat pre-screening by a CST team
+the customer can get in touch with the Support teams today directly via chat and there is no screening.
+
+Also as there is a CST survey associated with 'every' chat, it gets difficult to explain the non-supported scenarios, like End-Of-Support Products, ex
+this idea came up as ( CS-Networker ) team are struggling with End of support life product , and PS engagement chats.
+Pre-screening ( Like CST for Vic\Web cases ) would help identfy the following before the chat hits a Technical engineer:
+- Product versions
+- support contract
+- Skill set \ issue details
+- Special cases -- Dark Sites\ On-site support
+Pre-screening ( Like CST for Vic\Web cases ) would help identfy the following before the chat hits a Technical engineer:
+- Product versions
+- support contract
+- Skill set \ issue details
+- Special cases -- Dark Sites\ On-site support

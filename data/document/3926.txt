@@ -1,0 +1,5 @@
+Tester software updates automated from a single image
+
+For years, testers are updated individually and done via Livestate or Altiris or manually installed. The updating is done every time a production code or a patch is released. When a production code or a patch is released for a certain product, the tester(s) is/are required updating. This can lead to some testers to fall behind a rev or two. This lead to the idea of 
+Have the ESS testers boot into an image stored remotely - think netboot, think Cumulus, think iSCSI. This image is product specific and individual images for each products. The images are updated for each production or patch release. Once an image is updated, it is immediately effective to any tester when rebooted back to an image thereby only a single image is required per product, not per tester. This way, any testers booting to an image is ensured updated.
+

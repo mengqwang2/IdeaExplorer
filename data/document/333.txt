@@ -1,0 +1,8 @@
+RCM CSATs for PCEs/Upgrade Engineers
+This idea will improve the assessment of the employees performance for the service that they provide to the customers. 
+NA
+My solution is to send to the customer's CSATs separately one to assess the performance and the level of service provided by the Scheduling Team and another one that to assess the level of service provided by the Upgrade Engineers.
+
+This will guarantee better assessment for both the Scheduling Team and the Upgrade Engineers and avoid Getting DCATs by mistake. 
+1-Better analysis for customer's feed-backs.
+2-Identifying point of strengths and weakness for the employees.

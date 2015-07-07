@@ -1,0 +1,9 @@
+EMC TCE APP
+Current TCE Challenge is how to get partners / Customers / Engineering in same Forum to discuss and share the information about Product and suggest solutions to customers.
+Today everything is running on smart devices. You can interact with world by having APP / messenger. Companies Like EMC who build enterprise Top Class products should have world class APP to give feel for customer that EMC always there for them.
+Solution is to develop EMC TCE APP and provide accounts to partners / Customers / Engineering / Support and make sure every one connected all the time through that App. App Should behave like messenger and space for discussions and space for troubleshoot sections for every problem we came across with each EMC product.
+Success: 
+1. Easy way to bring partners / Customers / Engineering in same forum
+2. Every one have option to post their technical issues, so every one will be able to access and say something.
+3. Time saving and Money saving with con-calls/Web-ex.
+Benefits

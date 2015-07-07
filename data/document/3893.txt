@@ -1,0 +1,5 @@
+Queue mechanism among product change tracking system
+
+This isn't that new idea and just think it is would be useful for us from my past experience and improve the efficency here, i.e. tracking AR (VNX product codes) / OPT (FW/HW issue).
+Construct queue/bridge DB and implementing the plugins among the involved change tracking systems and implement the queue/map relationship in the bridge/queue DB.
+

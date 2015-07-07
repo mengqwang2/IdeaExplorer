@@ -1,0 +1,7 @@
+COE internal Library & Book Club
+
+Brainstorming session
+We will build an internal library for EMC employees just couple of shelves where employees will share their books with each other so that all people can have access to books.
+and we will create a book club where all members agree to read a specific book and held a gathering to discuss this book.
+This idea will encourage people to read and communicate and engage in EMC activities. 
+

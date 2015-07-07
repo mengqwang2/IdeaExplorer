@@ -1,0 +1,7 @@
+Accident Prevention and Guidance System Using vehicular ad-hoc network
+Accidents due to blind spots, sleeping while driving, drinking and driving make the majority of car accidents to day.
+An intervehicular Accident Prevention and Guidance System using ad-hoc network can be used to decrease the rate of this accedents
+N/A
+
+An intervehicular Accident Prevention and Guidance System using ad-hoc networks
+A functional vendor independent prototype 

@@ -1,0 +1,31 @@
+Migration Database
+The "Migration Database" is a Solution for large migration projects to support migration team during:
+- planning
+- standardizing 
+- optimizing
+- verifying technical information
+- execution
+- finalizing
+- tracking
+- summarizing
+- billing
+- Keeping KPIs
+The Idea came up during the first Analysis of the Topics that have to be migrated.
+Excel-based Tools / Scripts we got from different Migration personnel in EMC showed us that it is not possible for our Project Business case to perform the Migration without any Database solution due to the requested time period.
+The Migration Projects where we got information from were storage-only migrations and did not need to analyze the platform around the source-storage.
+- We can import any customer environmental data that is needed for migration planning (Server,Network,Storage,OS,Application,Firewall,...).
+- Ruleset is defined together with customer for High-Level- (e.g. End-Customers or Business Service) & Detail-Level-Packaging (e.g. Applications migrated within one Downtime)of Migrations.
+- Technical Information can analyzed as of Quality and quantity.
+- Automated generation of Migration-Scripts as of technical data and Chosen Migration-method
+- tracking of Migration progress
+- billing of completed migrations
+The Migration Database is already a GUI supported solution.
+For the future we have a lot of further ideas that shall be implemented.
+Details you can find here:
+https://inside.emc.com/ideas/3466
+Benefits:
+- We can make money (Setup the solution for customers that plan such a Migration by their own).
+- Save money (during Migration e.g. of SAP we can save ~40% of work during Automatisation)
+- improve customer satisfaction (Migration standardization and less human Errors possible during Automatisation)
+- enhance productivity (more then one Migration can be done by same personnel in parallel)
+- process optimization (Migration process tracking helps to find bottlenecks or optimization potential)

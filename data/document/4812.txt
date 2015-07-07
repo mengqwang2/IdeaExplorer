@@ -1,0 +1,6 @@
+Ability to send messages to an administrator when batches are failed.
+
+I encountered a similar problem once. A customer complained that he should re-trigger all batches in error state which were failed a long time ago.
+Let's imagine, batches were failed with Batch Error status. And in this case after a small amount of time an administrator receives SMS and E-mail messages.
+It should help a customer to find a bottleneck more quickly and resolve the issue. So, the customer can save his time and money.
+

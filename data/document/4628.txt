@@ -1,0 +1,20 @@
+Product Knowledge Base
+
+I handle VPLEX escalation from CS and know what kind of issues come to engineering. Lots of issues raised by CS can be fixed by them selves if they have proper information about the product. 
+
+Given that product issues keep coming in different areas of the product, the customer support engineer will not have reference points to cross verify his finding and ends up engaging engineering team.
+There are opensource wiki softwares or we could use EMC's content management software. These softwares host the knowledge base for the product. Both, engineering and customer support co-own this knowledge base and keep it updated.
+
+This knowledge base includes the entire product information, troubleshooting information on specific product issues and any other details that engineering wants to share with customer support team.
+
+This knowledge base will have easy to browse layout and also can provide hashing and tagging.
+
+Customer support engineers can refer to the knowledge base to understand the product much better. We can also add assignments for engineers for evaluating their understanding and the assessment results can be sent to the managers. This way managers can keep track on their team members technical knowledge of the product.
+
+When customer support engineer troubleshoots an issue, he can refer to the knowledge base and resolve the issue. Customer support engineer can update the knowledge base with additional information at any point in time.
+
+If engineering is involved for any customer issues, once the customer issue is resolved, engineering will update the knowledge base with required information and share knowledge with customer support team. This way customer support team can refer to it if the same kind of issue comes in future.
+
+Any new features on the product along with troubleshooting information will be added to the knowledge base by both engineering and customer support. 
+
+

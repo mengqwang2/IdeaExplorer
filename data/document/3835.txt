@@ -1,0 +1,12 @@
+Intelligence to access VPlex CLI from VPlex GUI
+
+Prior Work experience
+From the VPlex GUI built the intelligence to access the VPlex CLI. The GUI should have the option to launch the CLI via an existing protocol such as "Web based SSH".
+
+This enables the system to talk to the underlying system and perform the required operations such as managing the Cluster(s).
+
+There are existing various ways to implement this feature within the browser such as WebShell.
+
+An API can be built and used to interact with the underlying system and manage the clusters.
+
+

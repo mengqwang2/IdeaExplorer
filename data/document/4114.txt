@@ -1,0 +1,16 @@
+Creating a backup of mobile phone Profiles and Applications and automatically configuring onto a newly purchased or formatted mobile device
+
+We hit upon this idea when one of us lost our mobile and had to install apps afresh on the new mobile that we bought. The pain point was not just installation but also configuration of the apps as per our earlier setup, which works out to be quite a tedious task.
+Using a URL, or a Mobile App, the user creates an account that provides them access to the cloud based solution.
+Every time the user installs and configures an app on their device, the information is backed up on the cloud.
+If at any point of time the user changes their mobile, or loses data due to formatting of the mobile device, they only need to install this particular app and authenticate. 
+Once successful, the app will directly pull all app and configuration related data for the user’s device and install them by itself. 
+This will work cross platform, that will ensure that irrespective of whether a user is sticking on to the same platform, or switching platforms when changing phones, the same apps would still get loaded onto their system, for the respective platform. 
+Eg: User downloads and configures his Gmail account on an Android phone, but later switches to an iPhone. Our solution will seamlessly download the Gmail iOS app and install it. 
+In addition to syncing of apps, the user’s personal configurations such as Alarm things, Profile information(Silent mode settings, Airplane mode setting, Contacts) can also be backed up and retrieved by the solution preventing the need to use any other apps to achieve the transfer of this data.  
+
+A pictorial representation of the idea is shared at the URL below:
+https://my.syncplicity.com/share/2x2renopkr587o7/Pic
+
+
+

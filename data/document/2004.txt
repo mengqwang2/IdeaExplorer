@@ -1,0 +1,12 @@
+A dynamic workplace for a dynamic future: Virtual Desktop workplace
+Build a workplace of the future, to demonstrate next generation thinking and showcase EMC as an employer of choice for new talent by deploying a cloud based virtual desktop work environment and enabling employees to access their desktop, anytime, anywhere, while demonstrating "best of breed" technologies.
+The idea came about from a idea generating session in the Ireland COE. The virtual desktop solution encompasses many idea's geared towards how we will interact with IT in the workplace of the future.
+A virtual desktop can be accessed anytime from any location, at any time of day – the user simply signs in, and away they go. The corresponding data and applications that were once stored locally now reside in a remote data center.
+Virtual desktops in a cloud environment provide many benefits for both the Employer and the Employee. 
+lower desktop management costs - all Apps and data are managed in the cloud. Employees are not restricted by hardware.
+Improved data security - Critical security patches can be applied faster in a cloud environment.
+Disaster recovery - Virtualization enables faster and more secure disaster recovery
+Improved productivity - Less downtime during hardware failure's and greater flexibility and mobility options.
+Reduced administrative costs - Management and control of software, licencing and applications at a VM level is considerably more economical than at a client/PC level.
+
+

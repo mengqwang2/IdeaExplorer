@@ -1,0 +1,12 @@
+Insurance Comparison Vertical SAAS Solution
+
+Observed the need for comparison of insurance prices. Having followed up with more folks, it was more clear that the was indeed a necessity. 
+In addition, ideating within the xCP team, I gathered the opportunity to work with Pivotal making use of CloudFoundry, Greenplum and other data analytics softwares.
+The idea is to design a solution for price comparisons across various verticals. To start with, Motor Insurance can be used as it is a segment which consumers find essential information rather than luxury data. The solution would be designed such that the comparison can then work for other consumables like Credit Cards, Home Loans, Petrol/Diesel, and so on.
+Provide a Cloud based solution where 
+Insurance providers can provide insurance data (Excel sheets or other unstructured data) 
+Consumers can enter criteria for comparison and retrieve comparison results and will be re-directed to applicable website to complete fulfillment
+Data aggregation based on Quartz Scheduling and REST Services can be designed to acquire data from the Insurance (data) providers
+System to either provide a mechanism to let data providers provide data or provide a mechanism that integrates directly into a system where data providers broadcast necessary data
+Use of Pivotal technologies to crunch data and provide analysis for comparison results and also promotional or hints to what can get consumers the best available price.
+

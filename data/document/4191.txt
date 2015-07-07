@@ -1,0 +1,5 @@
+Collision avoidance system for mfg
+
+I had the idea while as a result of thinking of different ways to help reduce risk of collisions in mfg.  The idea is at the concept phase.
+Similar to car technology, we would install a (removable where needed) radar detector and warning lights/siren to all pallet trucks, racks etc of a certain size. On motorised units, the radar system could automatically maintain distance to the unit in front, or brake in an emergency fashion if needed. On all racks there would be a device emitting an audible beep, similar to reversing sensors on many cars. As trucks or racks got within a certain distance, the audible beep would activate, increasing in volume and pitch if the gap narrowed to the unit in front (or behind if the operator was moving the load backwards).
+

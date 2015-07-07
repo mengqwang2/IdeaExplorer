@@ -1,0 +1,5 @@
+Using another voice-over-IP system to link between conference rooms
+N/A
+History is simple: i'm tired of unsuccessful tries to decipher all the noise on other side of cord.
+I could say that using TeamSpeak VoIP stations could be nice solution. I don't know about business apps, but TeamSpeak really proved itself with in-games communication. However it's often used with headset, it has simple built-in solutions to improve audio from any source. Another VoIP system could also be found and tested... just throw away the thing you're using for phone meetings.
+Using the new and tested VoIP system would greatly improve the information flow at the meetings, therefore pulling up the efficiency of teamwork.

@@ -1,0 +1,5 @@
+Manufacturing Technical Alliances with Converged Infrastructure Partners
+
+The ADS team has held technical interchanges to share ideas and strategies in the past with external companies as well as with EMC acquisitions. This idea would build on this concept and take it to a deeper level of detail and partnership.
+Develop technical alliances with our Converged Infrastructure partners that allow the sharing of manufacturing strategy and factory/field data for our partner's platforms that will enable us to make informed decisions on the level of verification and testing needed prior to shipping converged systems to our customers. This info would allow us to eliminate testing in areas that are covered well in our partner's processes and focus on areas that are of the greatest risk. NDAs can be established between our partners to facilitate the sharing of this type of information. The benefits are faster cycle times and more focused processes that provide a higher quality product. This alliance with our CI partners could be expanded eventually to include the development of standards for the level of testing expected as part of the partenership.
+

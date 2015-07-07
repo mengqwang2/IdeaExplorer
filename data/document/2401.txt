@@ -1,0 +1,23 @@
+Big Music Library 
+- Our idea is designing and creating a webpage/application for online music streaming/Karokee. This is a very competitive field as there are already hundreds of well established organizations who provide similar type of service, so it is very challenging to come up with a product/idea that really stands out in the crowd.
+- We want to make use of information that wasn't considered important before, this was tackled by introducing Big Data, as the main source of input to our idea.
+- we intend to combine different EMC products/solutions to introduce a new service, which is simple to deploy and affordable.
+- We came up with this idea mostly due to the fact that each of us have a different taste in music and conventional default playlists (Top Hits, Rock, etc...) have become outdated. Just because a justin beiber track got several million hits, doesn't mean that I want to listen to it.
+So how to address this concept ? How to create a dynamic environment that takes into account the user preferences and taste and choosing music to his/her liking.
+
+- instead of everytime need to have fun with friends and have some kareokee time, this solution with offer a big time saving for having all kind and type of music to be added to your list
+The answer lies in Big Data...
+Our service will use Big Data initiative as the main selling point. The website will have normal streaming such as other before it, but the main difference is its automatic custom-ability, the ability to have live challenges and battles with friends for karokee songs, record and save the best part of the song. and best performer for each battle.
+First we needed to specify the sources of data which we will use.
+Upon opening the site, user will be requested to create an account and link it with his youtube page, his facebook account, twitter, gmail etc... These will be our reference when building the user playlist.
+Once done, we will design a pipeline that will query specific music related events (hashtags in twitter or facebook, recent clips viewed on youtube, music listen to by friend with most common exchanges on social network etc...) 
+This Data will be then stored in our database then analysed to produce the user's dynamic playlist. 
+Even when the user is not currently logged in, data analysis is still running in the background to update his/her playlist with the latest changes.
+- implementing the idea: 
+- using the XtremeIO as the main platform for handling real time analytic of the users social media data, upon logging into his account, XtremeIO allows the use of the  Big Data in the real time environment such that the user doesn't sense any delays.
+- make use of the cloud array to be the online backup for all users accounts to be saved and easy to be accessed any time by retrieving any of the required songs.
+- cloud array will be more useful and elastic to be migrated to another vendor or to be extended the capacity of it if needed.
+After establishing a vision workshop to help stress on the most important challenges we are facing.
+- Why should I (as a user) be interested in the specific webpage
+- How do I (as a provider) stand out among the competition.
+There is no website that offers a dynamic playlist that changes every time the user logins in automatically and based on his taste. There is no need to have a predefined playlist anymore or to skip needlessly through undesired tracks. By integrating Big data, we now have an edge on our competitors in the market and a podium on which we can stand. 

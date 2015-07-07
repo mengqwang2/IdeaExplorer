@@ -1,0 +1,10 @@
+Setup xCAT tool into RD lab to automate deployment and adminestering procedures of wide range of machines both HW and VMs
+I can help to implement xCAT based infrastructure for lab equipment setup and administering. Such infrastructure can reduce a lot of manual work performed to setup test environments and its following remote control (including changing middleware if needed).
+I use these tool ase base for node orchestration in automated hardware mass production and QA test framework couple of years ago.
+There is Extreme Cloud Administration Toolkit (xCAT) tool created to deploy and administer cluster of machines (primarily Hw but also can be adapted for VMs) including 
+features to remote control lab equipment (especially useful with additional hand made serial console handling devices to track embedded boards if needed).
+
+Adding open sourced RFWeb test framework enabled easy to create, launch and analize test suites especially for mass production testing.
+
+Both *nix and win machines are supported. 
+xCAT usage can significantly reduce costs of test lab equipment administering. this is wide spread tool for HPC cluster administering. Adding RFWeb test framework will allow easy to create, launch analyze test suites especially for HW, middleware testing (including burn-in procedures and inventory). 

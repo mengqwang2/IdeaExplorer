@@ -1,0 +1,11 @@
+Exploration system for Unity incidents with Deep Text Analytics
+We think it can improve the quality of service, and also be part of the IT proven program. (part of the "other suggestions")
+Raphael Cohen has worked on the GS Service Reuqests deep text analytics project, Amihai has worked on text analytics for Unity request. This has been prompted by Barbara Latulllipe (Director of the MDM program last year) due to a report on the volume of MDM incidents.
+1. Provide Search based Exploration capability capability using GP-Text by exporting the data into GPDB (for Root Cause Analysis and Call Volume Drivers)
+Index problem/solution descriptions with GP-Text and use a simple GUI for free text search, combine with filters on the structured fields (e.g. "calendar duration" > 10 days or Severity = High).
+2. Use Content Analysis methods to identify the topic of different incidents
+A similar approach was created by IT's Data Science team for GS service requests using a Topic Modeling pipeline.
+3. Combine with text classification algorithms for tagging incidents with a specific topic (e.g. "MDM") 
+Use an active learning approach to choose good training examples- the positive ones can be gathered through the search engine (see 1). Tag new incidents automatically for identifying trends and volume of different incident type.
+Improve the QoS of IT
+Decrease the time for solution to a given issue 

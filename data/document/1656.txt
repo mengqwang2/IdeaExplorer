@@ -1,0 +1,23 @@
+E-Infopreneur scheme for the developing and under developed countries
+As EMC is thriving for Data Science and Analytics business,  this could be a vast opportunity for EMC to grow its new business because of the rising demand of the countries to solve some of the predicted problems which are native to the small town and villages in these countries.
+In the underdeveloped and developing countries , the needs and problems of urban city are different from the village area and countryside.The government come to know about the problem when something worse has already affected the place like an endemic disease or any crime prevalent over the area or any bad social practices prevalent over the village .But, now these things can be easily analyzed and predicted and thus be prevented
+The concept of e-Infopreneur (who can be person)is basically gathering the data about the people living in the small towns or villages.And most of the data would be given by the people who are residing  in the village and the small towns .A third party local person or a group people can be made the master infopreneur who owns the responsibility of collecting data about data and feeding it to the system.
+
+Now, EMC work starts in the following stages 
+
+EMC could do business in 3 stages:
+
+Data Storage : As the data would be massive, EMC can sell its storage boxes which is used to store the data in a location which were fed by the e-infopreneurs of different places .
+
+Hybrid cloud concept : Concept of hybrid cloud comes here as the classified data like people primary bank account and people personal information and can keep the some non important data on public cloud like information about a village literacy rate.
+
+Big data and Analytics (new and important aspect):The data collected are in many forms ,like photos, videos, or text where we requires Hadoop cluster to store and extract these data efficiently.
+
+And the next important part is doing predictive analysis over the data which is collected.
+
+Use cases  :
+
+If the cases of infant mortality rate is gradually increasing in some village, this will be shown and predicted through some data visualization tool like d3.js or Matplotlib and the authority can take some preventive measure over it by providing necessary medicine or facilities to the child and pregnant women.
+
+Other example could be analyzing the crime level, the roads and transport facilities, other amenities. The information source would be the people or some government authorized institutions who will be providing these information  to the infopreneur  and accordingly the authority would be gratifying the needs of the villagers and the respective authority should be held accountable for completing the work
+Success will be with respect to making money and the maturity of EMC business in predictive analysis and data mining as there is an immense opportunity in the developing and under developed country and the government would  like to implement these kind of ideas.

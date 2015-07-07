@@ -1,0 +1,26 @@
+Cloud manager For IBM Power Systems
+Complexity of Power Systems virtualization management
+      LPAR deployment is "MANUAL" which requires intervention of lab administrator
+      Time taken to provision the business requirements
+      Difficulty in managing virtual workloads
+      Unavailability of Self Service portal and quota/lease system.
+      Unable to clone & copy the business critical environments
+
+
+
+India EOS2 LAB Experience
+ 
+We spend lot of time in provisioning & recreating the IBM AIX setup for test & DEV environments
+
+Implementing IBM Cloud manager with IBM Power VC & IBM  Hardware management console
+
+Improved Productivity in creating the test & DEV environments from "6 hours to 10 Minutes" by having the LPAR templates & snapshot options
+
+Automated IP management
+
+Dependency on LAB Admins reduced with User self-provisioning
+
+Can have utilization reports on demand which will help for feature procurement
+ 
+Saving in CAPEX by using IBM Power VM virtualization feature (maximum utilization of resources)
+

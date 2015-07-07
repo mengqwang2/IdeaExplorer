@@ -1,0 +1,39 @@
+Software-defined NVRAM
+It matches with APJ COE "Solutions Platform" Challenge. This idea is a Cost Efficiency solution, which can give EMC better profits for storage platform design, with lower cost.  
+
+When investigate Intel NVDIMM, I realized that it could be a good replacement for NVRAM.
+
+My new idea is based on NVDIMM, but it extend the NVDIMM capabilities by following two key points,
+
+a. Using read/write load balance algorithm to address NVDIMM endurance problem.
+b. Add a virtualization layer to let software define the NVRAM device
+There are two parts in this new solution.
+
+1. A hardware management layer to provide persistent data store
+
+Next generation Intel NVDIMM can be used for the data store.
+NVDIMM has following advantages than other solutions,
+
+a. Very low latency. The latency is higher than DRAM but lower than SSD.
+
+b. Will be available on commodity x86 platforms, which is much cheaper than NVRAM card
+
+The disadvantage is, NVDIMM has the endurance problem.  
+However, we can use 2 or 3 times capacity to gain very good endurance if we use software to read/write balance for NVDIMM IO. 
+
+2. A NVRAM emulation layer to provide generic NVRAM interface to storage stack.
+
+Because we add a software emulation layer between NVRAM user and NVDIMM hardware, we actually gain follow benefits from this level virtualization,
+
+a. On the fly capacity provisioning 
+
+b. NVRAM provisioning could be integrated with any existing software defined storage solution.
+
+c. Possibility to add extra erasure code solution for NVRAM itself data protection
+
+All these features could be provided by traditional NVRAM.
+Meeting with one of following conditions could be considered as success,
+
+a. Lower storage box manufacture cost
+b. Better DDVE performance
+c. Integration with software defined storage solution to increase the deployment and support efficiency

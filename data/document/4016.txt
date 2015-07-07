@@ -1,0 +1,20 @@
+Devices as a Service
+
+-We encounter these issues throughout the year.
+-This idea came during our brain storming session to solve this problem.
+Collect and group all available lab devices and software’s in cloud and provide each engineering groups the access to request for necessary devices and software’s through it. And the process of obtaining the access should be automatic and without any delay. The allocation for a specific group should be monitored for SLA and QOS.
+
+Below are the few requirements which is needed during a sample project development
+- new VM’s and its operations [cloning, reimaging, increasing its CPU, HD capacity ..etc]
+Existing process : Open Lab Ticket, there is no way to identify the QOS,SLA. Open another ticket to solve the issues of operations which takes few days.
+Improved Process        : Open request for VM in cloud interface with necessary approval, VM should be configured or cloned as requested and should be available in next 30 min. And its SLA, QOS updated run time in cloud interface.
+
+- Specific LAB hardware and software read-only , read-write access [Like HP Blade, Cisco UCS, VCenter, VSphere, Switch, Router, VNX, VMAX ..etc] and enabling specific features in it.
+Existing Process:       Open Lab ticket, takes weeks to get the access if other group using approves it. Though it is in LAB we will end up using customer lab which is outside of EMC network because of this inaccessibility. No centralized management. Also a very slow process which delay development.
+Improved Process:       Open specific request like VNX read-only access for few days in Cloud interface, The access should get automatically get created and provided to the user based on approval in next 30 minutes. This can be more granular, like LUN creation, Port Down  etc..
+
+- Make device simulators and other useful software’s created and used by different groups in centralized cloud platform as a service.
+Existing Process:       Very difficult to know other team developed tools and no way to share them easily.
+Improved Process:       Collect the Tools and its related operations which are developed by different teams in cloud platform and make them available as a cloud service. So that all EMC groups can check and reuse them instead of spending time on getting real devices access. Our team has SNMP, CLI Simulators. I came to know other groups has VNX,VMAX , VCenter simulators also. For a developer we need to setup all these environment in lab again spending significant amount of time. If these software’s provided at the centralized location, based on need basis anybody can request the cloning of the environment for their team use. This improves reusability and saves lot of time.
+
+

@@ -1,0 +1,5 @@
+Sales Training App
+
+Innovation Session
+Salestraining app with notifications for sales trainings required with reminders and access to edu site.
+

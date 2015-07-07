@@ -1,0 +1,5 @@
+EMC games
+
+.
+EMC will create few apps in a form of a game that contains quizzes and puzzles containing EMC storage concepts in real life or on real example
+

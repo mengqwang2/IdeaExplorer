@@ -1,0 +1,7 @@
+Automatic Backups with rsync.
+Establish a server to maintain copies of file trees owned by various users on any number of computers.
+I pushed my way through numerous circumlocutions before I implicit how to do what I need. In fact, it's meek and direct. I wrote this to save other’s the time and effort.
+I waded through a lot of verbiage before I understood how to do what I want. In fact, it's simple and straightforward. I wrote this to save others the time and bother.
+Establish a server to maintain copies of file trees owned by various users on any number of computers.
+Use rsync over ssh to replicate the file trees.
+Automate the process so the backups take place without user intervention, using keychain to manage the ssh keys

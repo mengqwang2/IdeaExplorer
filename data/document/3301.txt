@@ -1,0 +1,9 @@
+Enable Customer Review and Comment for EMC Products and Solutions
+
+This idea is from the talk with the solution engineers, who designed the various EMC proved solutions, while they don't have much ideas about how the customer's feedbacks and comments and the orientation to optimize their work. 
+This idea is to optimize our current emc.support.com to provide the feedbacks/comments functions to make sure the customer has channel to raise their feedbacks, comments and suggestions to EMC products or solutions.
+There're several benefits:
+1. Provide channels for the customer to submit feedbacks to EMC, EMC could utilize big data technology to do analysis to provide the useful data for decision making;
+2. EMC engineering and solution team could get aware of the customer voices, continuously improve the product and solution with correct direction;
+3. One of innovation channel for the customer innovation, good supplementary for the internal innovation.
+

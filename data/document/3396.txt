@@ -1,0 +1,5 @@
+International Public Holiday Calendar
+
+We deal with different countries and alot of times we'd have days that are free due to public holidays in other countries. We could take advantage of them and take trainings or benefit from the free time.
+It’s pretty simple, every user can select the countries he/she is working with adding it to the communicator or mobile. This way he/she will keep track of all the holidays and know when to schedule meetings or calls.
+

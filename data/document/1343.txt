@@ -1,0 +1,68 @@
+Feature Enchancements for Federated Business Data Lake(FBDL) Components
+The Six Idea's Presented will innovate around the Federated Business Data Lake. The Six Improvement area listed will directly benefit the Customer and the EMC's Solution Offering. The Goal is build solution which will differentiate our offering by equally concentrating on Hardware & Software components rather than concentrating only on Software part and build a integrated solution which has smarter hardware components also. Its also make the adoption of the FBDL much easier to customer's existing Big Data Infrastructure. It also tries to make FBDL one stop solution for all Analytical Solutions.
+
+Please refer https://inside.emc.com/docs/DOC-155849
+Being Introduced to the FBDL Architecture which will drive the EMC 3.0, this interested me to 
+look for features which will add value to existing FBDL ecosystem and differentiate EMC offering from other Software only players and improve customer Rreturn On Investment & satisfaction and improve overall operational efficiency. 
+
+Please refer https://inside.emc.com/docs/DOC-155849
+Solution for the Six improvement areas for FBDL:
+
+1) Migration framework for FBDL 
+
+Solution: We develop migration model where source can include the customer’s existing Hadoop distribution data, standard Posix files, Objects such as videos, audio, pictures etc., Source Code base. The ingestion can be automated using Spring-XD already built into FBDL.
+
+
+2) Creating Different Models of Business Data Lake
+
+Solution: Below FBDL model can be constructed
+--> Platinum Edition - High Performance BDL for High Compute Thoroughput,Low Latency, Real Time Analytics for Financial Institutions(where time is money) where Speed take precedence over Storage
+--> Gold Edition - Standard Performance BDL for Batch Processing and Average Latency which suits for most of the Customers where Speed and Storage are given equal importance
+--> Silver Edition - For Price conscious or Mid-Segment Players who adopting Big Data Platform and Storage Requirements less than 1 PB
+
+
+3) Use of Hardware Accelerators (Field Programmable Gate Array)
+
+Solution: Improving efficiency and Faster Real Time Analytics
+(eg. Regular Expression Accelerators for Spam Control in Email Exchanges, Anti-Policy Comments and Algorithmic Generated Replies in Forums, Review Websites
+
+4) Load Balancing for Master Server in Greenplum
+
+Solution: Using the existing Warm Standby Secondary Master already present in Greenplum DCA to share load off the master. It can use the same block level replicaiton used for primary-mirror instance replication.
+
+5) Addition of PostGIS Libraries in Greenplum
+
+Solution: PostGIS package installed in Greenplum will provide scope for Spatial Analytics of Data.
+
+6) Using Machine Learning Algorithms for Caching and Retention of Non-Persistent Data in Last Level Cache (L3 Cache) in OneFS Caching Hierarchy of EMC Isilon
+
+Solution: Use of Machine Learning Algorithms like prediction evictions will add intelligence to Cache Management. Whenever a datablock is needed which was previously evicted from L3, a score is maintained for that datablock. After the score reaches a particular threshold, the datablock will not be evicted to make room for new data even though it is aged out. This adds lot of efficiency when dealing with lot of random disk reads & writes. The down side is SSD space is needed more for holding the information.
+
+Please refer https://inside.emc.com/docs/DOC-155849 
+The 6 Idea's Presented will derive the below said benefits:
+
+1) Migration framework for FBDL 
+
+Success & Benefit: This will standardized the way we do the Migration from existing Customer Big Data Infrastructure to FBDL. Once developed, the re-usability feature will reduce the time for migration thereby improving customer satisfaction.
+
+2) Creating Different Models of Business Data Lake
+
+Success & Benefits:  This will create a tailor suited model based on the Performance, Price & Requirement. This will offer customer a choice and improve the efficiency of their Data Analytics. With the above, the model at the high level is tweaked for the requirement.
+
+3) Use of Hardware Accelerators (Field Programmable Gate Array)
+
+Success & Benefits: Using Hardware Acceralators take the load from the Memory and CPU thus increasing the speed of operations for time-sensitive and mission critical applications and concentrate on making hardware more smart and efficient.
+
+4) Load Balancing for Master Server in Greenplum
+
+Success & Benefits: By changing the architecture and making it share the load off from Master, we can deliver the Return On Investment for Customer and improve efficiency for the EDW Activities.
+
+5) Addition of PostGIS Libraries in Greenplum
+
+Success & Benefits: We need to make FBDL one stop solution for all Analytics needs and adding PostGIS improves customer analytics capabilities by building in Spatial Analytics Feature
+
+6) Using Machine Learning Algorithms for Caching and Retention of Non-Persistent Data in Last Level Cache (L3 Cache) in OneFS Caching Hierarchy of EMC Isilon
+
+Success & Benefits: Building Intelligence in Cache Management will add a differentiating feature from rest of industry and improves operational value by faster data retrieval.
+
+Please refer https://inside.emc.com/docs/DOC-155849

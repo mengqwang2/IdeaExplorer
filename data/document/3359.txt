@@ -1,0 +1,5 @@
+Big Data use for Categorization
+
+brainstorming
+Use big data analytics to classify the problems customers face then create a system where customers find the most common devices breakdown and their solutions
+

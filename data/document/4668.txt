@@ -1,0 +1,19 @@
+Integrated Array level  Non-disruptive Migration Solution for Pseudo-named devices 
+
+Idea struck me while designing storage migration solution for one of the customer . Customer wanted to explore all the software non-disruptive migration option available with EMC . I had to  provide them various different designs for FLM , PPME , PPME + OR etc. There is very limited outdated  documentation available for PPME + OR  that further hindered the design work.On the  top of it , there is no single support matrix for these solutions .  Lot of effort and SA time was wasted in providing different designs .Single integrated non-disruptive package/solution would have made my  design life much easier . 
+Federated Live Migration is migration tool that works with OR Hot Pull + PowerPath to spoof the identities and perform non disruptive migration .However , for un-spoofing the identities you do need a downtime .The other  problem is that it needs specific  hba drivers and support is very limited and  because of that it's hardly used. 
+
+Another solution  PPME + OR that does copy at the array level but managed at the host level with PPME commands . It works on the basis of the pseudo-named devices  and swaps the underlying physical devices and does non-disruptive migration . PPME +OR has not been used extensively due to lack of knowledge , feasibility  and documentation . 
+
+My solution/idea  is to integrate FLM with PPME + OR and come up with one solution that does the job well. 
+1. One integrated migration  package that would contain FLM + PPME + OR Hot Pull code . For example, if the particular server's   remediation doesn't meet the requirements  of FLM support matrix  , we could give the option to switch to PPME + OR Hot Pull  and vice versa .That would give us the option of switching between FLM and PPME + OR within one single solution .
+2. FLM has lot of different stringent considerations and dependencies like enginuity code , minimal epacks , FLM sessions , powerpath versions etc which are not there in PPME + OR. Similarly , restrictions of PPME + OR can be compensated by using FLM.
+3. One single command at the symcli level like "symrcopy" or "symmigrate" with different options or switches could help a lot in consolidation and design of the migration .
+4. Both of these solutions can work together compensating the restrictions of other  to serve single purpose of avoiding application downtime during migration cutover.
+5. The solution could further be integrated with VMAX Unisphere GUI  with different customizations and options 
+6. PPME + OR and FLM use OR Hot pull in the backend . A common automated Unisphere wizard could also be created to automate the OR Hot pull tasks such as discovering remote arrays , fetching device wwns based on masking information of servers  , zoning , creating pair file etc. 
+7. This  solution  can also be integrated with  EMC ViPR SRM in future releases.
+8. There should also be a single support matrix for PPME + OR  and FLM that would  help save  time and effort in migration.
+9.There should be  one common license  for  enablement of  FLM + PPME + OR Hot Pull code.
+10. There should be more focus and enhancements to the PPME + OR and FLM to make up for the unsupported features of each other.In short , these solutions must work together  rather than against each other.
+

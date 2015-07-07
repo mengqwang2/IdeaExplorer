@@ -1,0 +1,5 @@
+Smart Sync tool for Customer replaceable units
+
+-
+The idea would be having a smart synchronization tool between the customers current inventory of customer replaceable parts and EMC warehouse that would open a ticket through an interface such as salesforce if the stock of the spare parts at customer site falls under a specific limit, this should increase customers satisfaction and avoid critical site failures due to shortage of replaceable units at customer site, also would save EMC the extra expenses paid in these speedy shipments.
+

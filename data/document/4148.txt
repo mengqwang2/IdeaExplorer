@@ -1,0 +1,8 @@
+ECM In-Content Analytics 
+
+ECM roadmap discussion for XCp Moonbow
+The way we can accomplish is by techniques like
+- Page seeding. Amazon has a used it very well in their Kindle for a mulit-screening feature. We could use this to perform some analytics.
+- Ones we monitor the user page seed time spent it can be used for analysing usage patterns.
+- Capturing other attributes of usage we can do some reporting on the above requirements.
+

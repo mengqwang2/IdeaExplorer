@@ -1,0 +1,12 @@
+Marking SRs as 'Informative' In Sales Force 
+This will serve the challenge/s listed below. 
+
+
+Need life materials for training 
+Have a feature in Sales Force that would allow agents to mark an SR as 'Informative'
+
+This will be used on the SRs that contained a new issue and was resolved in a new way or SRs that had lots of information that can be used for training. 
+can be used in training 
+report this info. to product management 
+create a new KB
+record info.

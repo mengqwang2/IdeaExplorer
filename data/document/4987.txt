@@ -1,0 +1,20 @@
+Tracking shipments and part arrival or retainment
+
+In an ideation session discussing that logistics have parts that get lost and that we are unable to pinpoint what happened to those parts.
+whenever a Debrief (part replacement) or a new SO shipment takes place the parts should be scanned at location when delivered (if it's a SO shipment) or installed and replaced. 
+
+How it works:
+- i'm thinking of a technology like firefly from amazon that relies on SAP and Install Base for it's data
+- add a gps pointer on the scanner so that the location is recognized and linked.
+- t's a smart scanner that recognizes barcodes or the pictures of items and gives the option of taking actions from there -- the part has been installed --- replaced with another --- returned defective
+- as a fist stage we need to have the scanner working for all CEs and the delivery teams so the parts are tracked on their locations regularly during their shipment
+
+- the second stage will be to deploy the system to our customers if they perform the moves,replacements and installation themselves so we can get updated without causing a hassle on their end. they will only need to scan the racks and the new location.
+- the process can be automated as a whole and will help get us an accurate data about what's happening with the all EMC sold products.
+
+conclusion:
+
+CE will only need to scan the parts and select the action taken or scan them and send them to the install base or logistics.
+We will have a very accurate tracking system for shipments and small parts that get lost or misplaced and are actually installed at different customers or locations than reflected in our database
+the system will save man hours wasted on updating the IB as well as fixing the data and updating the Debriefed parts.
+

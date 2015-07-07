@@ -1,0 +1,16 @@
+Cloud Innovation - Cloud Tenants metering & SRM Integration
+
+While evaluating performance benchmarks in cloud 
+Transparent storage analytics can be the answer to this need. 
+
+In the Cloud Environment , this can work combining the SRM suite and metering systems. 
+
+The charge back or metering systems can be used to measure the usage of a particular tenant in terms of compute,network and storage infrastructure.  And the Storage analytics – SRM would be integrated in collecting the actual usage data , processing, and presenting the interface for customized reports for the customer.  
+
+The report can be a ongoing performance monitoring which can be automated and presented to the customer on the go via any device, mobile ,desktop,laptop etc. 
+
+The report would represent the performance parameters met and add value add to the cloud services.
+ 
+This would enhance faith for the customer in the cloud services purchased and service levels met. Leads to increased customer satisfaction and revenue. 
+
+

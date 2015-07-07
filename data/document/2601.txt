@@ -1,0 +1,5 @@
+Stretched Storage based Disaster Recovery for EMC Hybrid Cloud Solution
+The EMC Hybrid Cloud solution enables EMC customers to build an enterprise-class, scalable, multitenant cloud.
+I was one of the developers of ViPR SRA for EHC last year. When I designed and developed VPLEX SRA this year, I was impressed by the stretched storage feature and this idea came up.
+The latest SRM 6.1 with stretched storage feature provide active/active data centers. EMC VPLEX Metro can integrate with SRM 6.1 as stretched storage via EMC VPLEX Storage Replication Adapter (SRA).If EHC could leverage VPLEX and SRM 6.1 for disaster recovery, it would enable VMs on both data centers.
+With stretched storage based DR, EHC will be double productive by enabling active/active data centers and provide faster Recovery Time Objective (RTO) during a unplanned failure compared to traditional replication-based DR.

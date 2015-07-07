@@ -1,0 +1,5 @@
+Monitoring system
+The idea needs a system that is capable of notifying the administrators of possible issues with a customized interface
+The idea is very common in fields of theft and may be even utilized in banks. 
+The idea is an interface that looks like a map to the COE premises for example. Whenever there is a fire, a door that cannot be accessed and someone opened it or a storage room for valuable papers is accessed without permission, an alarm that looks like a led and a buzz that keeps peeping till the necessary action is taken. This idea can be applied on any project that needs instant administration and monitoring.
+An application that looks like a map to the place that needs to monitored with a simple system that sends messages once the system is penetrated 

@@ -1,0 +1,17 @@
+Big Data Solution to save Customer's Time.
+
+- Idea came to help the customer and save his time when he faces any issue.
+
+- Also, We'd like to utilize Bid Data Solutions to make some reports about EMC Boxes 
+- We can provide Big Data and Data Warehouse Solution to collects the logs daily from the Boxs at the customer site. 
+
+- We can run Script to gather the logs and Send it to EMC Big Data Solution.
+
+- Retention period of this Logs can be Two weeks or three, Then, It can be deleted Automatically to save the storage.
+
+- When the Logs to be at EMC Big Data Solution, We can help him if we received any SR from the Customer site as we have it already.
+
+-  Customer will be happy the issue will be fixed Quickly and he will be happy if we helped him without making any disruption to him and saving his time.
+
+- Also, We can make any analysis to know the bejavior of this box or this Site ID to know how can we help this Customer.
+

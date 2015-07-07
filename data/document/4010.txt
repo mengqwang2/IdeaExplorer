@@ -1,0 +1,5 @@
+Gluster File system NFS shares
+
+A good storage solution must provide elasticity in both storage and performance without affecting active operations.
+Storage solution is very much important when the size of your data becomes large. Let's say you have large RAID array that has a capacity of around 10 TB and is exposed to one of your server, from where other clients are mounting that volume. Now all the read and write operations that the NFS clients issue, has to be completed at the server end by the server NFS process.
+

@@ -1,0 +1,7 @@
+VPLEX Virtual Edition Product Bundled with H/W OEM Partners
+
+Being the version one product, we had faced multiple issues regarding the supported hardware/software, installation/configuration and also to achieve the maximum throughput published from us, we had changed the hardware components and lots of software configuration to achieve it.
+This idea will be useful for the new customers those who are interested to buy the VPLEX Virtual Edition product along with required hardware.
+Recommended software needs to be pre-installed & pre-configured in the hardware with vSphere supported version and VPLEX Virtual Edition product.
+Just need to be added in supported vCenter server and minimum networking reconfiguration required from customer as per existing Network & Storage.
+

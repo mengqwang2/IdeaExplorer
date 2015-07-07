@@ -1,0 +1,22 @@
+Increase overall security of Captiva products
+Improving security of products via integration Captiva products and RSA technologies.
+
+
+Security is a modern trend in our world.
+Number of devices and channels are increasing constantly and security aspect is becoming very important.
+First point.
+Implement security methods and best practice in Captiva:
+1) mask personal data,
+2) digital signature
+3) encrypt sensitive data
+etc.
+
+
+Second point - RSA integration.
+RSA - security division of EMC - need to take advantages from it.
+Need to communicate to RSA and integrate their technologies and practices in Captiva products.
+Introducing security technologies, methods, best practice in Captiva products will increase overall product security and quality.
+Benefits
+1) Existing customer will have more secure product
+2) Better security will bring new customers
+

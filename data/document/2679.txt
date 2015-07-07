@@ -1,0 +1,5 @@
+Save Children
+This solution is relevant to smart city challenge.Since every thing now is connected to the internet,we can connect children to the internet to keep track of their path and to make sure they are safe.
+N/A
+My solution is simple putting a plug-and-play,easy to use sensor to keep track of the location of the person.Another sensor is related to the first one for example a one for the mother when the distance between the two sensors exceeds limits an audio alarm is generated from a smartphone which is connected to the two sensors.
+These sensors will store locations in storage products.This solution may integrated with mobile application that helps parents keep tracking of their children to be safe and secure.

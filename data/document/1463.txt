@@ -1,0 +1,17 @@
+Predictive analysis and self healing integration with EMC products
+In todays world even though technology is so advanced when it comes to recovery of data from a backup software we are facing challenges .Gartner study still shows that 71% of the tape restore will fail for many reasons . This leaves us to think , is our backup software is effective enough in addressing our next gen data growth challenges ?  Is our backup software is intelligent enough to predict the upcoming challenges ? Is our backup software is intelligent enough to make sure backups are completing fine ? Emc is in a very good position to take its backup software/ Hardware to the next level by introducing predictive analysis and self healing system to its backup and backup monitoring tool .
+ administration  challenge . Also EMC is investing on a similar third party tool to support  customer and to take the support to next level of predictive analysis and self healing.
+How Self healing works :-
+https://inside.emc.com/docs/DOC-100039
+
+Let’s take an example of backup failed due to client services or daemons are not running .
+ 
+1.Our appliance will talk to the backup software to get the error logs for this backup failure and compare it with the predefined algorithm. 
+2. Algorithm will clearly tell  that the Client side services are either hung or not running .
+3. Then Our appliance will talk to the client machine through predefined port number and will restart the client daemons or services and inform the backup software to start or restart the backup .
+4. Backup will be restarted by the backup software
+5. Our appliance will monitor the backup and updates its database as backup completed once done, If the backup fails again then it will open a ticket in customer ticketing tool for further troubleshooting by L2 and L3 SMEs.
+
+
+There are multiple benefit to EMC and to our customer if our idea is fully incubated. This will leads to increase in our product stability as we  detect the faults proactively and take necessary actions .
+Good CSAT due to increase in backup success rate and less resource required to manage the technology.

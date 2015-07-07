@@ -1,0 +1,13 @@
+IOT device security with Symmetric key
+Internet of things, securing the device with symmetric key
+In one of the initiative by RSA Bangalore team about this year’s Innovation Roadmap, IOT was discussed along with the problems associated with it. After that in one of the brainstorming session about internet of things, we came up with the idea.
+Identifying the IOT device by symmetric key.
+The important part of internet of things is device identification.
+and securing the data transmission between iot-device and server.
+We can prevent information leak by attaching symmetric key to the 
+iot-device, so that the iot-device can be identified by this symmetric key.
+Each iot-device will be associate with one symmetric key. Each time whenever data transmission happens, in data packet 
+we will send this associated symmetic key of this iot device. At the server side, this iot device will be 
+recognised using this symmetic key.  This symmetric key can be used to identifying the device as the device associated with this 
+symmetric key. Like this we can discard the spam messages and prevention hacking the IOT device.
+This will be about identifying the device and prevention of information leak.

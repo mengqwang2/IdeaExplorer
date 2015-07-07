@@ -1,0 +1,9 @@
+Automated Drawers& lockers Keys System 
+It will convert very long paper process to simple IT steps which will make it easy and clear for both employees and Keys process responsible.
+
+As I am the one who is responsible for the keys process @COE Egypt, that process cost time, effort as well papers that could be done automatically and easily as well as clear.
+
+
+To Create Automated system with a CORP user name and password so the employee can log in and request a key for his drawers and lockers, a notification should show to the receptionist and then she/he get the key, the statues of the key will convert to available so the employee can come and collect the key that time from the receptionist and sign automatic within the created system.
+
+Accelerate and Automate key process which will make it clear, easy for both sides and it will help as well for tracking the keys and avoid their loss 

@@ -1,0 +1,11 @@
+ihelp : One Stop Solution for All employee queries
+State of Art Voice over Employee Central
+The idea came to my mind, when I forgot my stuff on EMC cab and then I tried to reach EMC helpdesk.
+I looked for the EMC board line number from internet dialed it but no luck. Then I tried to reach the Security helpdesk and somehow nothing worked.
+So the idea behind this is, an employee can be in a need of unguent support for which the required information should be readily available.
+
+An IVR will be a buddy for the New Joinee/ Regular Employee which will be a call away to assist him with the basic query & can remind him the things they need to do.
+Success Calculation:
+To calculate the success & the utilization of the plan, we can use CISCO or Lync CDR Reports. 
+Also a survey 30 / 60 & 90 Days will give a better understanding on the effectiveness.
+

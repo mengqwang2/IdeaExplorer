@@ -1,0 +1,6 @@
+Stronger Collaboration between EMC-VMware-Pivotal 
+
+Survival in the market.
+EMC being a leader in Storage Technology, VMware being a Virtualization leader and Pivotal driving the Future of Open Source Software we need to come up with new products/tools which can help us Build/Virtualize/Manage the customer environment better.
+This involves lot of factors and does help in cost saving and Data center space consolidation.
+

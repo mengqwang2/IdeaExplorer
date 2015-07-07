@@ -1,0 +1,20 @@
+Traffic control
+This idea does not only tackle the idea of using the IoT in smart cities, but it specifically addresses using the IoT in solving issues for the COE's own country.
+This idea started with the simple idea of monitoring the roads and see which are crowded and when to be able to create solutions. But then it expanded to using big data for creating scenarios and running them to be able to find the  best solution to solve the issue. 
+
+This solution is not only applicable in Cairo but in all large city with big amount of traffic.
+The majority of these cities have mobile applications that use peer to peer communication to help others avoid traffic. People who get stuck in traffic inform others to avoid the road or wait for the traffic to disperses.
+Monitoring these apps we will be able to identify the roads that have the most traffic and at what time exactly.
+Using this information we can start looking into the factors that contribute to this traffic such as:
+	1- Bottlenecks
+	2- Large amount of car
+	3- Road is too small
+	4- Large number of pedestrians.
+Hence we can begin by solving these issues by creating scenarios and see which will best fit.
+These scenarios will be tested in terms of:
+	1- The speed they will be implemented with
+	2- How will they affect the issue and if they will cause other problem
+For example we can compare creating a new road vs expanding the current one.
+
+This idea will greatly benefit Egypt's traffic which will allow us to save a lot of money on gas that is wasted standing still. Moreover will make people arrive to work earlier without loosing their days in traffic which will allow  them to be more productive in traffic.
+

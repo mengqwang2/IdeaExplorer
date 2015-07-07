@@ -1,0 +1,10 @@
+Employee utilization and GPTW
+
+I thought when I saw how mobile is my team. Almost all the team go an serve many countries, and we can leverage this opportunity and make it more accurate and automated through all the divisions or almost the most part of them.
+We will create a portal which will be a unique interface for al the employees who need to relocate for some time. This portal will work as the pool for the needy departments for special skills. Every employee will need to speak with his/her manager before submitting her/his availability on the system.
+
+this will
+1- break the routine for the people who want to change the environment temporary.
+2- save money for EMC not to hire people that they don't want.
+3- leverage the skills within the company and  enhance the way we utilize our resources.
+

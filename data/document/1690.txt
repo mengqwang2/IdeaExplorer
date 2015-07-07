@@ -1,0 +1,7 @@
+High Availability via RecoverPoint (HARP)
+leveraging RP for creating better offering in converged and hyper converged infrastructure
+I handled a number of RPQs for stretched CDP where the RPAs of one RP system are split between two sites. This reminded me of storage cluster HA scenario with the missing piece in RP puzzle being the capability is to handle simultaneous writes on production and copy volumes.
+Enable read/write on the remote replication copy created by RecoverPoint. In this scenario, RecoverPoint facilitates the replication volume to serve as High-Availability clone of the local production. In this way we are creating a unified, generic High-Availability solution for all EMC storage, saving on developing individual HA clustering control for each EMC storage brand.
+Another advantage is HA solution stretched across much greater distances than traditional product-specific HA capabilities. For cloud providers, users can be routed to the physically nearest data source for improved response times and cloud providers can level loads across geographically dispersed centers.
+
+Taking what RecoverPoint "unified replication" has done for EMC and morphing it into "unified HA"  to provide a single HA technology for multiple EMC products while providing HA across global distances relevant to cloud suppliers

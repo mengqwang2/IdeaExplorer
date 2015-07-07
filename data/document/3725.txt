@@ -1,0 +1,5 @@
+Storage Management on the Go.
+
+While connected to office network we should be able to manage stuff while not on desk or in front of laptop.
+Develop storage management applications mobile app for tablet devices, this will help to manage infrastructure on the go while you are connected to corporate network via vpn or any secured conection.
+

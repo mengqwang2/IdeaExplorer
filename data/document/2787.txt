@@ -1,0 +1,16 @@
+EMC IT Collaboration portal
+This will help to improve the collaboration between the different teams and will help to reuse the knowledge wealth within the organization and also helps individual development on diverse technologies 
+While working on projects
+We could have a collaboration portal that can be used to share information on the innovative work happening within different teams. The same collaboration portal can be used for sharing the work too because many a times innovative ideas and the bandwidth to try them will not be available within the same team. 
+
+We might not have to build a collaboration portal from scratch since this is easily possible through Inside EMC or creating a new JIVE instance. We can have all innovative works happening within different teams in the company published here with all the relevant information including design and current status. 
+
+Points to achieve this.
+	1. Maintain a common portal within Inside EMC for publishing the innovative works happening within each group/team . Collaboration between different groups would help this model to work. 
+	2. There should be an admin for each group who will be responsible for maintaining the content and this should always be kept updated.
+	3. A simple explanation on the problem statement, proposed architectural solution and the current status of the project/innovation work should be maintained. 
+	4. Any risks/hurdles encountered during the life cycle of a particular work should be mentioned and documented. 
+	5. Non-critical Components can be shared by the group and can be picked up by interested individuals in other group as stretch goals.
+	6. Resources throughout IT can follow the updates happening in that project and they can post their suggestions.
+	7. So there should be a panel of experts/architects segregated from different groups who could be approached when ever a team plans to work on a certain research involving multiple technologies. 
+Better collaboration between teams and individual development

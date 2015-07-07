@@ -1,0 +1,5 @@
+Customized System File Backup
+This innovation is about IT service.
+I only need to back up important files instead of the whole file system.
+Shift to a new backup tool which only backs up user-selected files.
+This idea improves backup experience and saves server's disk space.

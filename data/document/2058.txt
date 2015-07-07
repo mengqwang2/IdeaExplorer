@@ -1,0 +1,18 @@
+Enable EMC InfoAchive as SaaS offering based on Docker
+•	Enterprise Content Division (ECD) Challenge
+This idea exposes InfoArchive in SaaS offering and make the deployment/configuration in an easier way for bigger adoption.
+Talked with InfoArchive automation test engineers
+Compared with other PaaS solutions, Docker is a tool that can package an application and its dependencies in a virtual container that can run on any Linux server.  It runs as an isolated process in userspace on the host operating system, sharing the kernel with other containers. Thus, it enjoys the resource isolation and allocation benefits of VMs but is much more portable and efficient.
+
+To leverage Docker to implement InfoArchive SaaS offering, here are how it should work
+    - InfoArchive should have REST API ready 
+    - Setup IaaS platform, either vSphere or OpenStack
+    - Package all InfoArchive components in a set of Docker images and build links of them
+    - Build controller to deploy virtual-machine on IaaS platform and controller will deploy 1 or N sets of InfoArchive Docker images on the virtual-machines per request and per resources of virtual-machine
+    - Setup a router and user could access different InfoArchive tenants via different URL and the router will dispatch the request to actual InfoArchive provision
+
+Alternatively, BOSH could be used to deploy Docker @ https://github.com/cf-platform-eng/docker-boshrelease 
+
+#1 - The SaaS offering of InfoArchive would facilitate the customer, especially the SMEs to access the InfoArchive but also align with the pricing model to charge on demand. 
+
+#2 - Customers could save efforts to configure the holding of InfoArchive but submit request or sample how they want to archive the data.

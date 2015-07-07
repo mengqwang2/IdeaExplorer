@@ -1,0 +1,29 @@
+Leveraging Microsoft Lync, we can create an new touchscreen interface system called EMC Guest – link
+
+
+
+My first day experience at EMC was a fatiguing one as I was new to the campus and was not guided correctly to meet the concerned person. This was exactly one year ago and since then I realized that there is a scope for improving the reception setup of EMC. This idea of ours can minimize the confusion for any EMC guests or visitors by routing them to the concerned person.
+Leveraging Microsoft Lync and IT infrastructure, we can create an new touchscreen interface system called EMC Guest – link
+
+EMC Guest - link can provide 3 simple functionalities: 
+
+1.	Welcome: Visitors are greeted with an inviting, easy-to-use touchscreen system that represents EMC. 
+2.	Identify: Visitors identify them-selves with a swipe of their photo ID or by typing their name on the touchscreen. 
+3.	Connect: Visitors are then visually connected to the appropriate person via live video chat.
+
+EMC Guest - Link can be a touchscreen interface that visually welcomes, identifies, and connects visitors to the right individual within your organization. Built on Microsoft’s foundation technologies, EMC Guest - Link leverages the power of Microsoft Lync for Video calling and call routing. 
+So, you don’t need any special hardware or software beyond the front desk. 
+
+EMC Guest - Link can make the connections you want...to individuals, departments or user directories. 
+
+An administrative dashboard can allow you to add and change individuals and the way you want to connect to them easily. 
+
+EMC Guest - Link can support a broad variety of deployment options to give EMC maximum flexibility. For example, EMC Guest - Link works: 
+
+1.	With premise-based Lync Servers, Office365 or other hosted Lync offerings; 
+2.	As a single system or in conjunction with other EMC Guest - Link systems with centralized management; 
+3.	 As part of a domain or in stand-alone mode; 
+4.	 Customized to fit your organization with just the screen(s), buttons, and workflow that fits your requirements; 
+5.	Mounted to a desk, hung on a wall, inside or outside of your building, or, in a free standing kiosk;
+
+

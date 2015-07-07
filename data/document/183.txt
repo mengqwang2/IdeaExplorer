@@ -1,0 +1,10 @@
+Container-oriented trusted registry and continuous integration and delivery (CI/CD) cloud engineering platform service
+This idea will help to leverage EMC hybrid cloud resource to create a cost-efficient and all-in-one engineering shared platform solution for the whole application development life-cycle, from trusted repository to continuous integration and delivery cloud service to boast product development, especially projects with micro-service architecture. 
+
+This idea is from CTD CTO Prometheus project, in this project we are transitioning to micro service architecture in Docker using private cloud in Durham. We have containerized all our environment (dev, qa, stage, production), we found it is a perfect match for Docker (container) and micro-service. During this journey we built our own private Docker registry and CI/CD system, we think this is a good practice and we could extend this practice to other projects in the company. 
+
+EMC EOS2 can build following trusted Docker registry and continuous integration cloud service to serve EMC product development:
+- Enterprise Docker Trusted Registry, also as the mirror of official Docker hub, integrate with LDAP/AD and access control to make sure security. 
+- Enterprise continuous integration service: seamless integration with enterprise SCM (git, svn, perforce etc) sources, user can define trigger (scheduled periodically or SCM poll for changes) to enable automatic build, test (via container as a service cloud), and delivery to target cloud. 
+
+After this platform is built, it would be much easier for EMC projects to adopt and migrate to containerized micro-service architecture, saving cost and effort for the project teams which would otherwise do the same setup themselves. 

@@ -1,0 +1,6 @@
+(LOST AUTHOR) Weekly plan system
+A developed system wherein GSCE engineer can plan his/her tasks in a weekly basis and the manager will be notified through his email
+and can monitor the status as well if the GSCE engineer has able to accomplish his/her task or not. This is very helpful n
+Since my manager is too far and outside of our country, this system will truly help between the manager and his team to monitor each given tasks/plan in a weekly basis.
+Through this system, the GSCE engineer and the manager can receive a notification through his/her email in a daily basis for awareness and to track the tasks as well. Both the GSCE engineer and the manager can edit and do have any necessary adjustments or have any comment on a given weekly plan.
+It would be like a SAP system and every time the GSCE engineer submits his/her weekly plan, both the GSCE engineer and the manager will be automatically be notified through his/her email. I will call it as a success and the benefit is not only for the suc

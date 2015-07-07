@@ -1,0 +1,7 @@
+Optimizing transport in EMC
+
+The idea occurred to me when i saw that there were a lot of empty seats available in the cab almost everyday and we are wasting fuel by not optimizing the number of employees using the cab. Thought we need to do something to save this wastage.
+All employees registered for transport should install an app on phone and click a yes or no button whether they are planning to take the office shuttle or not for that day (morning before 7 am - can tell previous day as well; and evening before 4 30 pm). Once we have the data about number of employees taking the office shuttle and we know their routes, we can optimize the transport by reducing redundancy in routes and maximizing usage of available transport vehicles. 
+
+All employees need to do is install the app and update if they are planning to take the cab or not for that day. By default it will consider that you are taking the cab. We can customize it further to ease the usability but the basic idea remains same. Whether you are planning to take the cab or not? This will help us  save a lot of fuel and reduce traffic
+

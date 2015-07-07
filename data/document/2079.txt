@@ -1,0 +1,52 @@
+Ready to use EMC DCA Appliance for Sentiment Analysis
+EMC is looking for NEW business opportunities which will make information infrastructure more 
+Relevant/useful today, and/or in the future. The new business should be within EMC 
+Capabilities & also which what EMC wants to pursue. Must represent a sizeable market. 
+
+Currently Sentiment Analytics is a challenge for everyone in the Market. There is no such product in the market which gives real time Sentiment Analytics. 
+
+EMC to develop a product which measures Sentiment Analytics and offer as a product in the market
+After I got to know the CTO challenge, I started browsing to know which is the best tool to do Sentiment Analytics. I found Semantria!!! 
+
+Semantria LLC, founded in 2011, is a software-as-a- service and services company  specializing in cloud-based text and sentiment analysis. Semantria is a joint venture, co-founded by
+the leading text analytics technology provider Lexalytics (Boston, MA), amongst other investors. URL - http://www.semantria.com 
+
+The proposed solution is as below -
+
+Gather the posts on the relevant data on which we want to do sentiment analytics n the social media –
+External websites:
+•	Twitter (tweets)
+•	Facebook
+•	Instagram
+•	Linkedin
+•	Technical blogs
+•	Developer Community
+
+Source data can be gathered based on each requirement
+Following steps to be considered -
+1. Data Sources (Collecting data) – Using API/web crawlers source the EMC/EMC related data from external/internal websites
+2. Data Consolidation - Streaming the data through RabbitMQ to ETL systems
+3. Data Storage - Store the parsed data from ETL (GREENPLUM)
+4. Data Consolidation - Use Semantria API’s, do analytics and predictions and store the predictions including time series information into GREENPLUM. 
+5. Data Provisioning - should be done in order to have the users access securely
+6. Data Discovery - Visualizing Data using industry standards (Tableu, R, Datawrapper, etc.)for dashboards
+Example – Product level trendline, customer sentiment trendline, etc.
+7. Build in Pivotal Event Processing and push notification server for real time customer notifications
+
+Customers can have interactive reports and explore data which provides true insights with the ultimate solution which makes our Partners/Customer delighted and increase in trust/reputation of the company which inturn increases in the company's sales
+1. New revenue generating opportunities across above industry sectors
+2. Solution oriented product which we would be offering our customers -
+a. Turn every piece of text into a profitable decision which in turn helps in productive growth
+b. Text/Sentiment analytics can be done on 15 languages
+c. Improvement based on Partner/Customer feedback, Automatic generation of new prospects
+d. Visualization at different levels (Partner/Customer wise, sentiment wise, etc.) can be generated
+e. Partner/Customer feedback across geographies
+f. Real-Time Partner/Customer feedback can be seen
+g. Based on the analytical result required recommendations/actions can be taken
+h. Trends and other metrics
+i. Predictions can be done based on the Partner/Customer inputs and propose a plan accordingly
+3. EMC can venture into IOT space AKA 4th platform.
+4. EHC, massive storage, backup and other cross selling and up selling opportunities.
+5. Ease of implementation using existing known and proven
+
+

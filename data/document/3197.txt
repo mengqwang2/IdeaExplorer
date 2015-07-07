@@ -1,0 +1,29 @@
+Tool or new note type for GS to check status of part/CE dispatch
+
+The idea came when I or my colleagues struggle to dispatch a part / CE and then provide accurate information about the dispatch to the customer.
+Customers want to know if the part has been already dispatched but from the SR it's impossible to say whether it was dispatched or not, nor is it easy to find the team to contact - CST? Schedule & Dispatch? Local Team? Unisys?
+
+The information about dispatches I'm looking for is very straightforward: show in the SR whether the dispatch is with Unisys, local team, Schedule & Dispatch, etc and whether it's been dispatched already or not.
+
+Currently, SRs shows for example:
+
+[20-Jun-2014 09:15] RSO, Mr. B2B Audit event
+Service request has been moved to ##### CM CS District from ##### CM CS District
+
+OR
+
+[18-Jun-2014 17:30] USER, Mr. SVGINTERFACE S&D Update	 (external)
+''Hi ###,
+
+Please advise who is Isilon trained in the Midlands.'' ### - S&D ###.''
+
+What does the above mean? Was the part and CE already dispatched? Who's the CE? Was it an EMC or Unisys CE? Is it still being scheduled?
+
+The type of information I look for would be:
+
+- SR is with team "XYZ".
+- Current status of the dispatch is: dispatched/scheduling/other
+- If CE is involved, this is the phone number/email.
+
+
+

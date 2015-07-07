@@ -1,0 +1,33 @@
+Supply Chain-to-Product Materials Compliance Information System
+A materials compliance information system that is scalable, flexible and agile will enable GPO to:
+*  Manage the supply chain more effectively to meet rapidly changing requirements
+*  Protect access to global markets as regulations grow in number and scope
+*  Delight customers and partners who have product substance requirements that go beyond regulations
+*  Improve the sustainability profile of our products by promoting environmentally and socially desirable materials
+*  Maintain market share for our P2 and P2.5 products
+*  Prepare for the transition to the P3, when we will have less control over product material choices and be more dependent on supplier reporting and compliance
+At an internal compliance summit in Q4 2014, it was determined that materials compliance information systems were the biggest single challenge we had in the product environmental compliance space. The current solution, SPRC, does not fully meet our needs today, nor is it able to expand past simple substance compliance.  Paul Melanson, Stephen Greene and Dave Doyle in GPO Sustainability, as well as Steve Cerand  and Jeff LeBlanc in GSCE, identified the strategic need for a more agile, flexible system that will expand with customer needs and regulatory requirements.
+A materials compliance information system solves the challenge of how to: 
+*  track substances or other characteristics through product  BOMs
+*  provide accurate, comprehensive, and easily accessible information on substances in EMC products
+*  enable rapid, efficient, and effective engagement of the supply chain to meet new product requirements
+*  support EMC capture of market share in a global business environment that rewards product substance information management and reporting
+
+The web/cloud-based relational database application we propose is better than other approaches because:
+*  the current solution cannot accommodate new regulations or customer requirements
+*  flexibility and scalability is necessary for effective response to market signals on product substances
+*  the proposed solution could be expanded to other product attributes, such as supply chain security
+*  a web/cloud-based relational database application is a P3 solution for a P2 problem
+A fully implemented materials compliance information system would:
+
+Protect market access  
+*  Enable efficient and proactive compliance management for new or modified regulations
+*  Respond to customer or partner requirements for socially and environmental responsible substances and potentially other sourcing requirements as well
+
+Promote more effective supply chain management 
+*  Provide a single comprehensive view of the substances in the product and any associated risks
+*  Connect the product substance risks to relevant  suppliers, enabling targeted action for risk mitigation
+
+Prepare supply chain management for transition to P3 
+*  Support a holistic solution for product substance risk management in the supply chain
+

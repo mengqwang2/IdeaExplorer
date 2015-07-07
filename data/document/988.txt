@@ -1,0 +1,22 @@
+Smart city using Big data analytics and IoT in Windpower industry with wind turbines
+
+As the population keeps on increasing so as the demand for energy and power consumption also increases. This forces the application of IT technologies in generating the power thus adding value to the business
+
+Was watching a programme in TV that showcased the difficulties in managing the turbines for generating power
+Each turbine will have sensors installed on it. Using Internet of Things (IoT), turbines can communicate with each other whenever wind blows so that the turbines can adapt to the wind and in this way the turbines can be micro managed without any physical presence. This requires a very complex processing which can be supported by big data analytics. The data can be stored in the Isilon scale out storage with Hadoop. As the data sets can be huge from a large number of turbines MapReduce can be used which will break down the complex dataset into small chunks that can be analyzed easily and stored in a structured format.
+
+What is the use of big data analytics and how it impacts the wind power industry ?
+
+With the data collected through IoT, these data sets will be analyzed using big data analytics and MapReduce algorithnms.The unstructured data will be converted to structured data by Hadoop and can be stored in Isilon scale out storage.
+
+The analysis will result in:
+
+* Early identification of what might go wrong with the turbines
+
+* If a turbine is not producing the expected energy then why is not producing the expected energy and how it can be fixed
+
+* From the data, planning can be done as what is the right time to do the maintenance of the turbines by visiting physically
+
+
+This result in optimization and will help in making critical decisions, will add value to the windpower business and reduces the hours of manpower.
+By using IoT and Big data analytics, there will be value addition in windpower industry which results in very critical decision making and designing and maintenance of turbines. Big data analytics will result in huge reduction of manpower who needs to spend hours of time in managing and analyzing inorder to make a decision.

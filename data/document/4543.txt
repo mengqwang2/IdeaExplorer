@@ -1,0 +1,5 @@
+BitTorrent deployement for code upgrades
+
+This idea came to me as we are struggling to complete code transfers in a timely manor. Many times you have engineers in the states transferring code to Asia, or similarly engineers in Shanghai transferring code to South America. 17 hour long code transfer for 1.5 gigs for a files is not uncommon, and this is for VNX code which is smaller than Symmetrix files can be. Why does the 'Mountain Behind the Cloud' still use early 90's protocols to move modern much larger files.
+Capitalizing on EMC Global presences we would establish a BitTorrent network where we would seed the code files on. Then from the customers array we would use a BitTorrent client to start the download. This would capitalize on using the customers bandwidth to its fullest, taking the load of ESRS and enabling the file to be pulled from multiple more local sources securely.
+

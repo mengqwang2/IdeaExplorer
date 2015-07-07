@@ -1,0 +1,19 @@
+Rules based realtime customer facing website tab feedback widget (slide out)
+
+Internal brainstorming
+Frontend 
+-----------------
+The proposed solution uses a simple Jquery based lightweight
+customizable feedback widget on select web pages that slides out from the left side of the web page when clicking the tab or automatically after an important transaction if needed. 
+
+Backend:
+--------
+A centralized Feedback server is used to publish the feedback questions as an XML. This XML can be generated using Existing content management (Fatwire/Documemtum) to author feedback questions as XML and publish them along with the page URL for which the feedback needs to be collected.The front end Jquery widget would render the feedback questions for the page that is being viewed.
+Responses are captued by the backend server for reporting and analytics
+
+
+
+
+
+
+

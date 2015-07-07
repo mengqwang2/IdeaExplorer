@@ -1,0 +1,39 @@
+Controlled volumes and snapshot with tools to create data cleansing and cleansing verification server.
+This solution will allow EMC snapshot technologies to become more useful to organisation where they maintain sensitive information but wish to adopt new development methodologies (e.g. Agile).
+Credit Suisse, Citigroup, BAML and SGX (Singapore Stock Exchange) many medium and smaller financial firms consider provisioning data for testing and development as one their biggest challenges and time wasting activities they are engaged in. It also leads to hugely wasteful amounts of storage. Makes the EMC storage array a much better hyper-consolidation platform.
+Provide a new kind of "sensitive" volume and snapshot which allowed for only "clean" volumes be released. 
+
+In a platform like XtremIO this may work by marking a volume as restricted and only allowing access to certain hosts (tags could be used for restriction). Snapshots could not be taken from this volume and masked to any host. 
+
+First a customer would set a volume or consistency group as "sensitive". This would create an audit entry and could not undone with creating an additional audit entry. Ideally all Audit entries on the array would have an incremental number preventing one from being hidden. An "audit" command would increment the count and print the current number.
+
+The snapshots performed on this "sensitive" volume/consistency group would then be stateful. "Dirty", "Clean" and "Verified" state. When a volume is refreshed it will automatically be marked as "Dirty".
+
+A dirty volume could only be masked to a production host or to a "Cleansing host" probably a virtual environment.
+
+A customer could set the volume to require Verification or not.
+
+Without verification a "Clean" snapshot could be mapped to a non-production host. 
+
+With verification set then the volume could only be mapped to the "Verification" host which could verify that data was not present and then release the snapshot by using it's unique "Verfication" key for the volume or consistency group
+
+Two unique keys would be generated for a volume or consistency group which would allow the state change. This would be done by a program maintained by security or audit NOT by the storage team. The audit team would provide one or two key files to the Storage team which would be uploaded when the volume was changed to sensitive. This program could be web-based or provided as a tool. Key program is controlled and accessed via audit.
+
+This key would then be placed onto the "Cleansing" or "Verification" server. EMC could build this movement into AppSync or allow scripting through command-line, API or ViPR. 
+
+Each state change would be recorded in an audit log. Mounts can be mounted in 
+
+Clearest candidates are XtremIO snapshots and VMAX3 VxSnaps because of their performance and space benefits.
+
+The tool which creates the cleansing and verification server should allow for the introduction of the new volume, call to customer scripts, logging of activity and release of the key from a secured key store  (something like a PGP password store) to the array.  The tool should run on Linux, Windows and preferably AIX, etc.
+
+Customers could then integrate the database of choice including alternate database platforms like Cassandra or in-memory DBs.
+
+An example workflow could then be built using the SAP automation tools. As SAP refresh would be a prime candidate for this solution.
+
+Possible integration with SRDF/TimeFinder or RecoverPoint are also possible.
+
+Should allow for ProtectPoint co-existence and possible adhoc monitoring through DPA and/or RSA.
+
+Initially it may not work with VPLEX but support for VPLEX compliance could be added and also ViPR control also. 
+EMC would either offer unique capability which could quickly become a requirement of CIO and audit teams looking to reduce storage costs but maintain security and privacy. Increase in our ability to sell XtremIO and/or VMAX3 into DevOps and other agile environments. Improved customer satisfaction and reduced storage requirements.

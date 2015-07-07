@@ -1,0 +1,5 @@
+Improved tracing of part replacements
+
+When customers call into support to get the time of replacement the TSE has to contact the field engineer to get the information and then call the customer back. This could be automated so the customer can do it themselves.
+When a part is called out for replacement it creates a unique tracking number which the CE updates with his ETA and replacement. Once this is updated the customer is emailed the tracking number. EMC to create a web application that allows the customer to enter this number and track the replacement as they would a UPS package.
+

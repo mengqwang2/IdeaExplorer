@@ -1,0 +1,5 @@
+Trivial Pursuit - EMC Style
+
+This idea came from a brainstorming session.
+In normal Trivial Pursuit there are categories like History, Geography, Sport, Science, Entertainment and Literature. In this EMC based version the topics could be Virtualization, Big Data, Cloud Computing etc. The goal is to be the first to collect each separate piece of the "pie" and answer the question in the centre of the board. The game could be in a physical board format, interactive on a TV/screen or downloaded as an App onto mobile devices.
+

@@ -1,0 +1,6 @@
+Big Data appliance suite on Isilon cluster by integrating Hadoop completely with virtualization   
+
+When Isilon being a native HDFS supported storage system and when we came across the way the current hadoop systems works, we thought why not to try and bring the entire hadoop frame works onto isilon hardware using virtualization. 
+This needs an integration of ESX layer onto the Isilon cluster hardware and the entire hadoop node systems can then be virtualized to run on the ESX. Multiple VMs can be deployed to run the Hadoop on the ESX-Isilon. Each Hadoop node runs as a VM on the ESX-Isilon. So this leverages the enhanced scale out capabilities of the Isilon hardware model for data analytics workflow and brings the compute layer (which the traditional Hadoop systems runs from the Physical Hadoop server itself) into the Isilon cluster using virtualization and that reduces/nullifies the network latencey and the requirement of multiple large number of servers for running Hadoop for data analysis.
+  
+

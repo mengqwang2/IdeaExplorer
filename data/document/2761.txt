@@ -1,0 +1,6 @@
+XtremIO Challenge
+Transforming your data center can totally transform your business, and storage is key to accelerating the whole process. Databases and analytics, Business applications, Hybrid cloud and Mixed workloads. 360° IT consolidation and optimization drives agilit
+N/A
+XtreamIO is 100% Flash Array (Fastest drives ever discovered), so if we can integrate something with XtreamIO would be definitely anything can run VMs. So if we made a SP (interprise) like the HYPERMAX Operating system on the array to run VMs like the VMAX3 storage system would be perfect and it would be a standalone array with highest performance just needs  
+strong processors that can deal with that 
+N/A

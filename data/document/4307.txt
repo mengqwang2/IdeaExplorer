@@ -1,0 +1,5 @@
+Small auto lamp inside the storage systems
+
+Inspired by the fridge lamp
+Inserting a small white leds lamp, that it will opened automatically once open the storage system (to replace a component, check cables, upgrading for examples)
+

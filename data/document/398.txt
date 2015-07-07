@@ -1,0 +1,18 @@
+Scale out Block Storage in a Hyper-Converged Infrastructure
+Hyperconverged Infrastructure is the emerging technology in the market & this idea is to improve EMC’s Hyperconverged infrastructure for new business opportunities
+EMC is facing tough competition in market in scaleout architecture solutions. Thought about how we could enhance our current portfolio of products and get an edge over competition.
+This Idea helps in expanding a Hyperconverged infrastructure storage capacity without the additional need of server or hypervisor software. 
+
+This calls for a new storage module with an intelligent storage controller which helps dividing the data into smaller chunks and mirroring it and spread it across all the available storage nodes. A distributed algorithm will help evenly spread the data across all the nodes (just like XtremeIO or more similar to Isilon distributed file system, however here instead of file storage prosing for block storage) 
+This storage module should provide few hard drives to lower the total cost of each module and scale out to meet customers storage requirements. As customers storage requirements grows, customers can buy more of these storage modules, connect them and expand the storage giving the same high IO parallelism/throughput a scaleout architecture provides. 
+
+Along with this if we have Viper having the ability to migrate data between storage arrays (within EMC arrays) then we can help push more data out of the servers internal storage (scale IO volumes) to these scale out storage boxes (External arrat) and increase EMC storage array dependencies. Idea ID:  2015002076
+
+
+Please Refer word document and PPT for more detailed explaination:
+https://inside.emc.com/docs/DOC-156086
+https://inside.emc.com/docs/DOC-156085
+1.	This will help expand Hyperconverged infrastrure's storage capacity without the need to have Hypervisor+compute power additionally
+2.	This will be a scaleout block storage system which can be expanded as per customer requirements
+3.	Will help EMC target customers looking for Big data, data warehouse, High performance computing solutions.
+

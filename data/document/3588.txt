@@ -1,0 +1,14 @@
+Automated System for better SRs handing using old SRs database
+
+The idea came up from the daily work in which we notice huge amount of similar and identical SRs that has no option than separate  manual handling so far.
+The idea is to collect the old closed SRs in a centralized warehouse where they are ready for analysis and query as follows :
+
+1-	When a new SR is opened, the problem description is extracted and the engine starts scanning old SRs warehouse.
+2-	The engine uses big data text analysis techniques over the old SRs to gets the best matched similar SRs.
+3-	The results are ranked and returned to the TSE (SR owner) to check.
+4-	The TSE makes benefit of the similar old SRs towards beter and faster resolution
+
+The same recommender system can be used against the KB articles to add much more strength to the idea by making use of KB+old similar SRs recommendations
+
+
+

@@ -1,0 +1,22 @@
+Reference architecture for massive time series prediction using Isilon scale out NAS
+
+We have been exploring about Isilon and other EMC products for knowledge purpose. While reading the challenge, we were searching for a predictive model which would be usable for the problem stated in the challenge and came across Holt Winters additive prediction model, which can cater to this requirement.
+The choice of Isilon for storing the input time series data sticks to the following reasons:
+-	Isilon is a cluster-based storage array that is based off of industry standard hardware, highly modified FreeBSD, and can scale to a massive 15PB’s in a single file system using it’s OneFS filesystem.
+-	OneFS, which is the Operation system of Isilon, is a multi-protocol enabled file system. It could be integrated with any of the following protocols: HDFS, FTP, NFS, SMB. HDFS requires a separate licensing.
+-	Isilon could be integrated with Pivotal HD, one of the distributions of Apache Hadoop. It eliminates the time and resources required to replicate big data into a separate Hadoop infrastructure
+-	We can use isilon s-series, which is for high performance.
+-	One other thing that Isilon provides is, data replication. We can replicate the data collected from field on to a data center for further processing and archival.
+
+The input time series are read and processed parallel and fed into our machine.
+For the purpose of time series prediction, we could use one of the recommended predictive models, ie., Holt-winters additive prediction model.
+The model developed by Holt-Winters to describe techniques for time series prediction isolates four factors in the series:
+-	Level
+-	linear trend
+-	seasonal factor
+-	random error. 
+Holt Winters function could be implemented in R-programming language, python or Java. There is a free software package named iNZight, which could be used to calculate predictions.
+
+This proposed solution could be used in different sectors of the industry say, oil and gas, health care etc., 
+Say, in oil and gas industry, it could be used in the analysis of sonic synthetic profile in oil wells. Since it is not economically feasible to purchase a sonic profile for the vast majority of older wells, mainly due to the cessation of oil production, to overcome the lack of information, these values can be corrected by using the estimated time series model of Holt-Winters. The data that is collected from used oil wells in different regions can be replicated to a common data center using our proposed solution, which would help in predictive analysis of samples from different regions. Thus, improving the possibilities of closer to accurate results.
+

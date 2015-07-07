@@ -1,0 +1,10 @@
+increased cooling efficiency
+decrease electricity usage by redesigning the product to increase cooling efficiency
+because cooling energy requirements are a large portion of the system power budget increasing the cooling efficiency can potentially have a large impact on total system p
+I thought of the idea when reading a paper on cooling efficiency and how the depth of the system increases the energy required to force air through it.
+the energy required for cooling is partly due to geometry.  a narrow and deep system requires a lot more energy to drive airflow through it.  If we rotate the standard rack mount 90 degrees and have the rack be 29 inches wide by 19 inches deep you can significantly decrease the energy required for cooling.  Air flow would only have 19 inches to travel from the front of the system to the back, instead of 29. In addition to this, with the extra frontage space you can put all cables and access points on the front.  this eliminates the cabling along the rear of the system that can obstruct airflow.
+
+if there are no cables in the rear of the system, then there does not need to be a human accessible isle behind the server rack.  This would allow racks to be placed back to back, increasing floor space efficiency in a data center.  for even more floor space efficiency a movable shelf system can be used similar to the ones employed for high density book storage in large libraries.  This allows you to share isle space between multiple rows of rack mounted servers.
+
+one final option to upgrade this is to add liquid cooling similar to what IBM has done with some of their high efficiency super computer projects. 
+decreased cooling power requirements lead to overall increase in power efficiency.  Smaller power budgets will give smaller operating expenses.  this will make our products more popular with large scale customers, as well as protecting the environment.

@@ -1,0 +1,17 @@
+CLI based UI (CLI-UI) for easier and faster storage provisioning tasks.
+- Day to day storage management/provisioning through CLI is not a user friendly process since remembering & writing commands is a tedious task.
+- Provisioning using GUIs (Say - Unisphere) is comparatively slow as they are JAVA/Flash dependent and customers also face plugin/certification issues. Storage arrays like VMAX require separate server for Unisphere.
+I got this idea while working as a storage administrator where provisoning tasks were monotonous. 
+Ktmonitor (GUI/CLI based tool in VNX R29 to capture remote ktraces) is also a reference. 
+- Creating a CLI based user interface (CLI-UI), which takes inputs from users/administrators in tabular form and converts them into existing CLI commands (naviseccli for VNX, symcli for symmetrix, etc.), will help. The CLI-UI will execute these commands after getting them verified from the customer. 
+
+For example : If a user/customer needs to create a Virtual LUNs (TLU or DLU) say VNX, the CLI-UI will ask for inputs/details from the user such as: Number of LUNs to create, LUN ID, Capacity and Storage Pool ID/name. The CLI-UI will perform tasks as below :
+
+==> Convert user details into the naviseccli command to create LUN(s).
+==> Get the command verified from the user.   
+==> Execute the command and create LUN(s).  
+ 
+Considering security parameters, if feasible, a similar smart phone app can be developed to perform storage provisioning activities from anywhere at anytime.
+- Easy and faster daily storage provisioning activities
+- JAVA independent GUI 
+- Improves customer satisfaction. 

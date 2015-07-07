@@ -1,0 +1,13 @@
+Companies Economy portal
+
+data collection and alaysis 
+To have a Portal created that can consolidate all the Economic changes of the companies that have Products from EMC.
+
+In many Business units to have accurate information about a company and its acquisitions and subsidiaries is very vital for the daily work, processes and analysis, and not having all this information regarding the companies sorted and directly clear out, results in inaccurate data analysis, more workloads and time, and non the less it can be very hectic.
+
+The Companies Economy Portal will be something very easy and simple that will consolidate all the Economic Data (Acquisitions, Subsidiaries, Merges, Sell outs, etc….) of any company that has bought equipment from EMC.
+
+All the Data consolidated on to the portal will act as a Back End. The Portal will then have a search Engen, in which an Employee can easily type in the Company name they need to check and have a look on, and when they submit their search, the search will result with all the data that is related and will need regarding that company.
+
+This Portal will be very effective in standardizing information an Increasing the level of accuracy regarding any analysis, it will save employee time regarding collecting the data, as well as it will be very easy and friendly for use.
+

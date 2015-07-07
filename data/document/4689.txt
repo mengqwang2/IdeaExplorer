@@ -1,0 +1,7 @@
+Intelligent VMAX arrays
+
+I came across the idea when I had a discussion with my team where they pointed out that currently one needs to manually take care of such situation.
+A tier of software sits on top of VMAX arrays that observes the behavior of the arrays. 
+The underlying algorithm of the software will at first be trained by feeding historical data to understand the patterns that might lead to fault of the devices. The situation that I wanted to concentrate is disk failure[ this also applies to fan or may be the processor]. Once the algorithm goes online it will analyze the data on the fly. Since the data on which the algorithm will be applied can be huge so it needs distributed architecture. It will parallelize the analysis of the data.
+If the algorithm understands that there is a chance of failure then it will raise an alarm and will stop to use the disk and perform I/Os directed towards it from the replica disk. 
+

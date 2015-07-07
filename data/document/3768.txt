@@ -1,0 +1,10 @@
+Software labs provide failed Hardware for Failure Analysis
+
+How do we connect the various groups in a COE?
+We have multiple functions such as CMO, EMSD Engineering, Customer Service, and GPE all under one roof, yet we never connect them seemingly in any one forum. There is a clear opportunity to change this and connect these 4 groups in a really meaningful way.
+
+One small step for the COE...
+When a piece of hardware fails during software testing in-house, it should be treated as a Field failure, seeing as the hardware should have been fully tested prior to going into the SW lab. It should also allow Customer Service have an opportunity to "get their hands on" new product before it goes GA.
+
+If a part is diagnosed as bad by the PSE lab for example we could then request that FA be performed on it. This means we can get visibility to potential HW problems or HW/SW compatability issues which we can address at a much lower cost than if the issue was seen at our customer.
+

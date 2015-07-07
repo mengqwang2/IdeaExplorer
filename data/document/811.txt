@@ -1,0 +1,10 @@
+One IT as a Service platform across all EMC Labs
+EOS2 is consolidating all the Labs and trying to build a Common Engineering Cloud. This idea will help in the same.
+This idea came from a customer use case. We have worked with a customer where they were facing a similar challenge of trying to offer a single self service portal for deployments across their labs located in different geo's leveraging the infrastructure in those labs.
+VMware's vRealize Automation is a highly customizable cloud management tool being offered as part of EMC's enterprise hybrid cloud. We can 
+1. Add VMware, Hyper-V, Citrix Zen, KVM, Bare metal server endpoints from each of the labs, enable deployments in these labs thereby effectively utilizing the infrastructure in those labs
+2. Provide a single service catalog and enable the deployment to happen across the labs depending on from which region the user is requesting for the service. Be able to choose/pick the networks accordingly. The templates/blueprints can thus be centrally managed.
+3. Using entitlements ensure that a user is seeing only what he is entitled to see in the service catalog.
+4. We can offer IaaS, Hadoop aaS, Datalake (EHC integrated with Federated data lake), PaaS (EHC integrated with PCF connector) etc in one service catalog.
+4. Use vCenter orchestrator we can provide additional services and even build additional features like a configuration management database.
+A single cloud across COE's would bring in resource utilization efficiency, single user interface, faster time to deployments and better governance. Like they say - Drink your own Champagne, we can showcase this to customers as part of our Enterprise Hybrid cloud story.

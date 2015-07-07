@@ -1,0 +1,6 @@
+More training to New Hire and Campus Hire
+
+This idea came to me when I reviewed the passed 3 years in EMC; New Hire and Campus Hire are affected by implementation of this idea.
+EMC need give more training of products to New Hire and Campus Hire; this should include: (Take VNX for example) how VNX connects with front end app server and how they work with each other; For VNX components, how DataMover/SP/Control Station connect to each other and how they work with each other.
+Thus trainees can get basic understanding of the whole architecture, which will bring convenience to their daily job.
+

@@ -1,0 +1,8 @@
+Better Bangaluru Through Technology
+
+This idea came into my mind when I started seeing missed garbage collection and potholes in our own street.
+My idea is to develop a mobile app to complain potholes, street sweeping, missed garbage collection etc. 
+
+Citizens should even able to send photos to the government department as well as the app should have the ability note the location of the request with the help of GPS.
+ 
+

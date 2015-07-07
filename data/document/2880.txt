@@ -1,0 +1,7 @@
+Employee Healthcare App
+Use video enabled app with chat instead of visiting the doctor in the premises for medical advice.
+1) Develop app with video enabled and chat.
+2) Log into app with individual credentials.
+3) Take consultation with the doctor online using the app.
+Develop an app in the company which is video enabled and having chat facility to get medical advice from the doctor without meeting him personally.
+Quick resolving health issues and saving time.

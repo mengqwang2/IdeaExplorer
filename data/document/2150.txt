@@ -1,0 +1,9 @@
+Car Pooling Mobile Application
+The idea will help to enhance the parking problem.
+The idea came up from the daily waste of time to find a suitable parking space specially if you have a shift that starts late ,there will be a struggle to find a space.
+A mobile application where each user has an account where his information is retrieved from the IMT Application , that suggests the available employees that are living near by and are available to do car pooling. 
+
+Each user enter his shift start/end time and he can check the available employees that has the same shift start/end time.
+1-Parking problem is solved.
+2-Cost Saving.
+3-Getting to know employees from different Business units.

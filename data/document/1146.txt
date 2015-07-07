@@ -1,0 +1,16 @@
+“Credit hold” process to be controlled by collections team directly.
+Credit hold process can be made simpler and effective by eliminating extra steps involved. The cost could be cut down as the number of resources involved can be reduced by re aligning the responsibilities.
+1)This will bring various internal teams (Order booking [GRO]; Collections and Sales) interact at every level of O2C process which is necessary.
+2)Form better understanding between these internal teams to serve the customer better.
+3)Collectors can review and control any incorrect information on the orders before invoice triggers. Specially the high dollar ones.
+4)Makes the collector more confident & accountable.
+5)Eliminates the middleman role of credit team which is not quite necessary which will in turn eliminate excess resources and helps reduce cost.
+
+1)Credit hold responsibility to be moved to collectors based on the customers they handle.
+2)Collectors know and understand the customers better. Customer pay patterns, past due balance, customer history which is anyway provided to the credit team based on which credit team will take a call to release or hold the orders.
+3)Make the reports and system access available for collectors to view and manage credit holds.
+4)Collectors will review and release holds if the order looks good along with checking and monitoring the credit limit.
+5)Design a process to eliminate credit hold activity to be managed by credit team and directly handled by collections.
+6)Design an escalation hierarchy to manage the credit hold process better.
+
+This is based on the process followed in EMC compared to other similar industries. In order to reduce cost while making the process more efficient. In order to make collections more valued, accountable and significant.

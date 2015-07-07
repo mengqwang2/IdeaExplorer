@@ -1,0 +1,7 @@
+Think Together App
+
+Ideation session
+Each person thinks differently and could tackle ideas differently. A spider web based application linking people’s ideas together adding and building on each other’s ideas sharing their experience and whether it’s doable or not. It will be divided into categories from technical to employee satisfaction. Comments and like and papers should be added to this making it a more social and interactive application.
+
+
+

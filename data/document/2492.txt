@@ -1,0 +1,9 @@
+Automated, Simplified & Smart Upgrade Utility for NetWorker
+One of the high customer base product in CTD is NetWorker. But it is really challengeable task to upgrade/migrate the customers to higher version, where they cannot afford the downtime. Organization and support will be benefited by having a automated way 
+Before every new release, QA will perform upgrade testing using multiple customer database to ensure migration is successful. All the above manual process has to be followed. So we propose the automated upgrade solution.
+Automated, simplified and smart web based product migration utility / tool, will solve above cumbersome process. Automate the entire migration procedure in a web based tool. Also the migration status can be viewed then and there on the tool itself. The tool should take just few clicks from the user, like; /nsr location, from existing version to higher version. User no longer need to 
+search the logs for migration status, because the tool provides the completes status report in a interactive page. It saves lot of human
+effort and it is very ease of use. Even this tool can be used by support and customers to do migration efficiently and confidently. 
+- Will save the support engineer and QA's life
+- will reduce lot of support calls 
+- Will avoid to refer migration and supportability docs

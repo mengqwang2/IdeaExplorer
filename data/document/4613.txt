@@ -1,0 +1,5 @@
+Obtain DMX that are being discarded by EMC Customers for Recycle/Refurbish and add Network and Compute layer and Create a public cloud
+
+We have limited lab access to have sufficient hands on practice on all EMC Products. Many a times we have no labs available to reproduce customer issues. 
+Obtain DMX that are being discarded by EMC Customers for Recycle/Refurbish and add network and compute layer and create a Public cloud wherein VMs can be provided to Internal EMC Employees, EMC Customers and also cater to need for VMs for EMC trainings and VMWare trainings. By this idea we can also earn revenue by targeting the market for virtual machines world wide. We can also use this infrastructure to target Big Data projects. Since the cost of storage will be less, we can be more competitive in pricing. We can also provide VMs to students in different Technical Colleges/Institutions during EMC Brand building exercises.
+

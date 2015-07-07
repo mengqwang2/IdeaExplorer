@@ -1,0 +1,28 @@
+Enhancing Information Availability for  CTD products
+One of the supportability challenge today is making the information available to customers about new features, upgrade challenges and highlighting best practices thru online help
+For every new feature we currently rely on product documentation which are content heavy to go thru them. The user experience for new features thru animated videos will benefit most of the users for the product new look and feel as well as detail features. in Most of time, currently we dont know how the product has been deployed and upgraded unless we get the usage upgrade pattern from customer directly. 
+The solution is to enable the product to enhance the way we provide the online help, maintain the upgrade/migrate path and reduce the multiple documentation.
+
+Online help: 
+1) Create some animated infographic videos for new features and “what’s new” for every product
+2) Create a product document repository during installation, and make them available to console GUI
+3) Provide the best practices and recommendations based on internal testing within online help instead of separate document
+4) The graphical information within videos and online help should have a great look and feel thru some latest technology like D3, DC.js files
+
+Upgrade/Migrate Path:
+1) When product is installed or upgraded, let it keep the information about  release and version, size of catalog, data and time etc. Into different catalog DB or existing catalog DB with one table  
+2) Upgrade DB table should have a schema for upgrade/downgrade information
+3) Let respective product build a simple business logic to fetch this information from centralized console GUI
+4) This information should enable the end user to export this into .csv format so that support can leverage this information to troubleshoot the issues resulted due to upgrade/migration
+
+Eco Friendly:
+1) To avoid multiple search for online repository for product, let user be given a choice to login to EMC support DB thru product console GUI.  Let GUI has key product related document repository links/URLs
+2) Let product has fetch utility where it fetches the high level sizing information  about product and cache it.
+3) Using product web service (if not let product has web service) to make this information available from any web GUI 
+4) Let the online help, sizing and upgrade information should also be available thru mobile app where user can connect to console GUI/ server  and request this information online
+
+1) Product will have a greater look and feel with latest technology animated videos
+2) “What’s new” information would make end user life more simpler thru single click
+3) Matching the version with online content while searching document would greatly reduce end user time in searching required information
+4) Displaying the product upgrade/downgrade path would help to address upgrade related defects more friendly and timely
+5) Enhancing overall TCE by making information available thru product GUI in the form of centralized repository

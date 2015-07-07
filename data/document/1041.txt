@@ -1,0 +1,5 @@
+EMC's support for Intelligent Medical
+The idea is to collecting, store and sorting the data for the Intelligent Medical. Intelligent Medical is a hot topic these years and is growing rapidly in China, apps about intelligent medical emerges quickly. The idea is to introduce EMC's storage solution into the intelligent Medical area.
+With the growing of intelligent medical, the medical will data will burst and will need large amount of storage products.
+All medical data can divided into private or public, EMC can provide cloud and access control for these data, and geo-backup mechanism for data security.
+This will made us earn more profits

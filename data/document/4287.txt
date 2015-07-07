@@ -1,0 +1,9 @@
+VSPEX solution self-service in OpenStack platform.
+
+We ignore openstack for too long time. And China market has a lot interest to implement opentack. 
+1. Develop a private cloud solution to VSPEX program
+2. Develop a automatic provisioning service portal:
+2.1 Make openstack infrastructure as template and can be deployed automatically by field engineer.
+2.2 Build a deployment script for openstack ochestration to use.
+2.3 Develop EMC owned GUI/management tool is also a good approach.
+

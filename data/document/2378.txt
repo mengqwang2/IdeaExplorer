@@ -1,0 +1,8 @@
+Diagnosis of eNAS : Executing NAS commands MMCS
+Improved troubleshooting speed
+This idea is discussed internally and has been taken positively. 
+Allows Support person to manage the eNAS guest from MMCS or remotely. 
+Service personal will have to do less to deliver more. 
+
+Opens door for Service procedure automation. 
+

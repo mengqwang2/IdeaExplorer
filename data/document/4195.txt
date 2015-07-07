@@ -1,0 +1,18 @@
+Role Based Access for VPLEX
+
+Came up while working on other products like Symmetrix.
+Users can be given their own username and passwords for logging into VPlex and they can be prompted to assign a role for each of the users such as :
+a. Admin
+b. Storage Admin
+c. Monitor
+
+The Admin user for example can have the rights to modify, create and delete any operations from VPlex. They would also have the rights to delete any user or create any non-admin user from their account.
+
+The Storage Admin user would have similar operations as compared to admin except that modifying the account of the other users.
+
+Monitor users would not be having the permission of performing any operations such as creating, deleting or modifying devices or migration operations. They would be having access to only monitor any provisioning or migration operations which are in progress or monitor the IO traffic flow.
+
+Many other roles can also be added into this list apart from the 3 listed above.
+
+Also, operations such migrations and provisioning or deletion can be made specific to each user. Meaning, when user 'A' performs a batch migration operation or provisioning operation and when the operation is in progress, user 'B' when logs in will be able to only see the current operations in progress, but will not be able to delete it or modify it. This address the security aspect as well as eliminates the ambiguity of "Who performed which operation" question.
+

@@ -1,0 +1,9 @@
+One click system optimization for customer
+This idea matches the TCE challenge totally as it may help the customers to improve their experience when they meet some problems about EMC device or there exist some optimization opportunity.
+This idea comes from support central and sales recommendation of prometheus team as we have built serveral micoservices about trait identification and opportunity discovery.We can develop a new tool for customer to use these services in EMC cloud.
+
+To solve these problems, we should develop a simple tool which uses the mico-service deployed in EMC cloud and make it simple enough to do the problem solving and recommendation.This tool should provide some basic functions as follows:
+1)We need to redesign the process of handling the problem from the view of customer not the support. As most problems can be found in the Knowledge Based Article(KBA) and we have created several trait definition.What we should do is to add more trait definitions to our repository. And this tool should provide functions of exporting the match result using these definitions. Even if the problem is totally new the customer can upload the log file and use the tool to analyze immediately which actually uses the API provided by prometheus in EMC cloud and does the computing in back-end servers.
+2)We should simplify the operations of customers and make the service in EMC cloud available to them to demonstrate our attitude to customers.For example, the customer only need to input his sn then he can find the relevant optimization solution and if he wants to upgrade his system or buy a new system he can contact the sales directly.Even the simulation result can be showed if he choose a specific system.
+
+The customers can solve a part of problems by themselves and we will get more satisfaction from customers. At the same time the cases proposed by customers will decrease a lot then the company will save money by this idea.

@@ -1,0 +1,7 @@
+User friendly GUI for Captiva products in the field of manipulation with list of images or documents
+Documents and images are core workflow principals of ECD products, so we can make better the basic user experience in the field of manipulation with these objects
+This idea has been raised during user experience with Captiva client applications like Desktop, Identification and another, in the time of development and testing it.
+We can realize the modern drag'n'drop feature in our products in places where we can work with collections of images, documents, pages or another objects.
+Improve customer satisfaction
+Improve our product
+Attention to details very important in the time when many people use our products every day.

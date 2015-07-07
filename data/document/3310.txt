@@ -1,0 +1,6 @@
+Data center - Storage assesment/blue printing via SRM
+
+WHile discussing with SSL and SPLs about this idea, this is much appreciated to consolidate in the portfolio and take it with customers
+Introduce a new Storage assesment service via EMC :-  this can be used to help customer as a data migration oppurtunity builder, storage assesment of his existing data center, Health Checks
+Then integrate the consulting led services offered from EMC such as DC Blueprinting for connectivity, etc along with SRM Quick Start. Blue priting functionalities can be integrated into SRM product itself
+

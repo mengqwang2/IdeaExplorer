@@ -1,0 +1,7 @@
+Data Domain Restorer(DDR) to be used as iSCSI Initiator 
+Idea is to enhance iSCSI(Internet Small Computer System Interface) Initiator support to DDR. This idea will bring new business opportunities for EMC that will make information infrastructure more useful in future. 
+In the future roadmap of DD has plan to support iSCSI as a target. Secondly it also has plans to target use cases beyond PBBA. Based on these couple of items in the DD roadmap, we thought of this idea ie extending DD to support iSCSI initiator service as well. 
+To provide iSCSI initiator support on DDR for customer use cases of Primary Storage as well as PBBA. Issue of scalability can be addressed with the advantage of iSCSI to have location independent Data storage and retrieval. DDR will be able to send SCSI commands to storage devices(iSCSI targets) on remote servers. Storage will not remain limited to locally attached disks but can be easily scaled to remotely attached SCSI disks. 
+1) Scalability 
+2) Competitive advantage 
+3) More use cases like replicating data on remote iSCSI storage, using DDR as a part of Storage Area Network(SAN) etc. 

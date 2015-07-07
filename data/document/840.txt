@@ -1,0 +1,9 @@
+Road Repairs and Commuting Issues
+To enable a way to communicate to citizens of a city via SMS or email about any planned road repairs and maintainance to avoid any commuting delays and hassles
+Being in a city like Bangalore which is exposed to large scale development and rapid infrastructure changes, we are bound to face commuting issues and road blocks will only add to the already existing problems of traffic.
+By notifying the citizens on any planned road blocks we are avoiding any commuting delays and hassles.
+
+A simple SMS or email with details of any road blocks will enable the citizens to plan their travel commute.
+By notifying the citizens on any planned road blocks we are avoiding any commuting delays and hassles.
+
+A simple SMS or email with details of any road blocks will enable the citizens to plan their travel commute.

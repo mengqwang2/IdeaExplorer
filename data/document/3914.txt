@@ -1,0 +1,13 @@
+Converged platform hardware design at rack level
+
+Converged infrastructure requires hardware platform having easy scalability, with common interface connection for different modules in rack level, it can be achieved in low cost way
+1. Rack level system board and module design:
+No middle plane designed in original chassis or enclosure level, instead, design system board to fit into rack level, from bottom of rack to the top, to accommodate multiple different modules. Such as storage computing unit, different kind of I/O unit such as ethernet I/O unit, infinite band I/O unit, fibro channel I/O etc. All those unit can be plug and play into rack level system board, and no chassis or enclosure mechanical design, PCB with metal plate mounted into rack directly. 
+At the bottom space of rack, can be used for storage device container, such as SAS disk closure, which is connected into rack level system board as well.
+2. Scalability:
+All different kind of I/O unit can be mounted into rack, which have the common rack level system board interface design.
+3. Power design:
+Design rack level power distribution board(PDU), input alternating current(AC) to PDU and it will output direct current(DC) to each storage processing unit and I/O unit, which can improve the AC/DC conversion efficiency, save the lost during conversion, so that save the total power consumption.
+4. EMI:
+Enclose the rack with cover, to ensure EMI pass.
+

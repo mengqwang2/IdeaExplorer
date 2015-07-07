@@ -1,0 +1,52 @@
+AskIT auto response intelligence system based on Outlook
+Our idea is to supply an add-in to Outlook with embedded AskIT service. Employee can ask IT service by clicking add-in button and sending command with a mail. IT background intelligence system could parse the content of mail and sending response back automatically. Also, IT support can decide to interpere the process at anytime.  
+This idea can improve the IT service quality, ease the process. People can also feel much more convinient to enjoy the askIT service.
+Technology about auto response system gets more and more mature nowadays. To compare our often inconvinient IT service, we couldn't help ourselves to think about the features. On the other hand, we are playing with Outlook everyday; and we enjoy to receive and handle mails via Outlook in both our workspace and mobile equipments. Therefore, when we started to discuss the IT challenge on 26th of June, we have come out the idea. 
+Our idea is to supply a new IT service system, which is based on Outlook as the front-end, and deploys an auto response intelligence system on the back-end. In Outlook, it installs a button as an add-in. People can click the button to trigger a process of IT service, and sending requests with a mail. Back-end system can parse the content of mail, and sending response automatically.
+
+> Outlook add-in design
+Outlook supplies convenient way to let third-party to develop add-ins and integrate business functions with Outlook. IT can deploy an outlook add-in to integrate their service with Outlook - e.g. a button named "Ask IT Service". When people open Outlook and visit Add-Ins (after install add-in, there is a new tab in Outlook top tool bar), they can find the entrance of IT service easily. This add-in can be pre-installed in the outlook within EMC. Even for the new employees, they can find where to start an IT service easily.
+After clicking the button, a new mail window pops up. In the mail, people can start to send requests by typing in simple command. Below is a simple design of the page
+--------------------------------------------------------------
+| To: ask.it@emc.com|
+| Subject: AskIT                                                       
+| Please add your requests below:                              
+|                                                                              
+|                                                                              
+| If you need help, please click here to get guideline     
+--------------------------------------------------------------
+You can click "click here to get guideline" to receive another mail with guideline involved. The guideline outlines all the requests/commands. 
+Below outlines some of sample commands:
+- askHR  to get ask HR page 
+- askIT   to get brief introduction/guideline page of IT services
+- account: confluence/JIRA   submit a ticket for registering confluence/JIRA account
+- fix: mail   submit a ticket for fix issues of mail
+
+After type in some ticket requests, such as fix:mail, you can also put the descriptions of your issue beneath the command. For example:
+--------------------------------------------------------------
+| To: ask.it@emc.com|
+| Subject: AskIT                                                       
+| Please add your requests below:                              
+|  
+| fix:mail
+| I want to change the font of my mail.                                                              
+|                                                                              
+| If you need help, please click here to get guideline     
+--------------------------------------------------------------
+
+> Why Outlook
+Outlook is the most important and frequent communication tool in EMC. 
+All the replies can be archived and organized with different categories and folders well. People can explore their history replies easily.
+Mobile devices, such as IPhone, supports outlook mail system naturally. People can continue to use the IT service by sending mail to it.service@emc.com from their iphone.
+Moreover, not like using phone to contact with IT service, mail content naturally contains the email address of an employee, and IT people can locate the location of the employee automatically through the registered attributes of the employee in EMC. 
+
+> Back-end intelligence system
+Technology of auto-responders are getting mature today. Many of the them can be integrated with mail system easily. 
+This system can parse the content of mails, and analysis the key words/commands, and decide how to send response. 
+It can prepare some well-designed pages, such as askHR, askIT guidelines, and askIT introduction pages; and when system find the corresponding content, it can send back those pages automatically. 
+Also, it can create a ticket automatically for the ticket relevant requests, such as fix:*** . 
+If some of the informaiton is not matchable, this system will deliver the information to some IT people. And IT people can decide when to interpere the process.
+- Our idea can improve the IT service quality, and ease their service process. 
+- People of IT don't need to bother on frequent asked questions any more, and they can focus on the people who really need helps.
+- Common employee don't need to suffer on the questions like where to find what, how to submit a ticket, how to register an account, and feel bad about slow network.
+- Asked questions are recorded in mail system, and thus common employees can always explore the answers from their own mail system and never need ask same questions again and again. 

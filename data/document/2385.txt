@@ -1,0 +1,14 @@
+Meeting Room locator app on mobile device
+This is to address the difficult to locate a meeting room when you are going to attend a meeting.
+As HR Challenge, this would enable EMC a real "Great Place to Work" with high efficiecy
+Many times the nearby meeting room is not available and I can only find long distance meeting room that could be in another building that I am not familiar with. So it is not easy to locate the meeting room.
+Baidu or Google Map can not tell you detailed routing info of EMC office since they have no idea about EMC internal facility. 
+
+1. The key algorithm is to locate the nearby WiFi AP(access point) and calculate the WiFi signal strength of varied channels that your mobile device sniffs and then deduce the distance from the nearby AP. 
+2. Since we have multiple WiFi APs(Access Points) and signal channels in each office area, the more APs that mobile device can sniff, the more accurate location we can deduce.
+3. The three pieces of data, signal strength from each AP channel, can locate where you are exactly in meter.
+4. A database for meeting room and APs pairs is setup that are used for comparison with your location to tell how far your location is from a single meeting room.
+5. A meeting room map is built up with navigator program that can navigate you on the way to the meeting room. 
+
+Improve work efficiency. Don't have to waste your time to locate where is the meeting room.
+Imaging a EMC app map that navigate you to the very meeting room , isn't it cool?

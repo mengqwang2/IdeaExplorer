@@ -1,0 +1,23 @@
+digitizing cab operation
+
+There are n number of trips made daily for pickup/drop of EMC employees.
+One cannot imagine how much quantity of paper is used on daily basis.
+This is a very general thing that almost everyone in India COE sees and practice daily.
+
+Reducing the use of paper in transport operations at all possible levels:-
+1. Paper used for displaying the Routes for Employees - Rather than using papers for displaying routes for employees, a LCD Screen can be installed at the Cab Parking.
+Its pretty much simple in working, when a route gets created by the Transport Team, rather than taking a print out of it, display it directly to the LCD screen installed in the Cab Parking Area. Employees can see their respective Routes and thus can avoid one part of the paper usage there.
+
+Note: Since Route Allocation to cab drivers is done real-time, the supervisors got to have a system with them(with access to the Database where Transport Team have created Routes) , with which they can update the routes with the Route numbers/Cab Number and Cab Driver name and that information can be displayed on the screen. 
+
+2. Paper used for Signing from Employees - There are 2 parts here. After employees sign the trip sheets(2), one paper is submitted to the Security and another one is used by Cab Drivers for reimbursement of the fare.
+Now, this problem is something which gets a bit hard to solve.
+Solution:- 
+1. 
+a. Drop-Time: - Employees to use there Access Cards(as a signature) when they use Cab. Before employees leave EMC premises, they can swipe their access cards(swipe machine should be made available at Cab Parking Area) which will act as a signature and thus creating an Entry for Security Department that the particular Employee have used the Cab at this Time.
+
+b. Pick-up time: - Access cards can be used in this process as well. Once pick-up is done, cab driver can confirm the same to transport desk and when the Employee reaches office, access card swipe at Cab Parking Area can be made to get the signature from Employee(s).
+
+2. For Reimbursement of fare by Cab Drivers : As per my knowledge, for every Trip (pickup/drop), a Cab driver gets a fixed amount as fare. So, the concerned team for fare reimbursement can provide a token kind of thing to the cab drivers, each token can serve as a successful trip made by the cab driver and this record can also be maintained by the Transport Team.
+
+

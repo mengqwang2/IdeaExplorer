@@ -1,0 +1,5 @@
+Single Hyper Lun Striped Expansion
+
+This implementation needs to be introduced in VMAX. This directs to VMAX Design and engineering team who can initiate first step.
+In VMAX we do not have any feature to expand a single lun or hyper (without metamembers) with striping configuration without downtime. Either we need to expand with concatenation or we need downtime so that we can create other device, copy data and allocate new device.  
+

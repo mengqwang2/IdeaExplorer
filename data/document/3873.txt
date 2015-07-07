@@ -1,0 +1,27 @@
+Better Together (EMC’s Feedback App)
+
+In my previous role in test engineering, we developed 'resolution lists' in MFG in order to understand why systems under test were stopping. The prior data collection was (a) not giving us a complete picture of why systems were stopping  and (b) only gave traceability on ~30 % of issues. To understand the other 70%, we had to read through incident logs. Once we implemented the 'resolution lists' we were much better able to understand the problems and we were also able to get a real time view of all issues on the test floor. These lists are still in use today (11 years on from their deployment) and are used to run various meetings (Sustain meetings etc.)
+
+In my current role where I am looking at Field performance of our HW and our systems, I see a very similar challenge in trying to understand our customers' pain points. For example a small team of 5 people have to read through hundreds if not thousands of service requests monthly to assess "how well are we doing at installs of our products". 
+
+The solution proposed could be easily expanded beyond the area I'm most involved in in (HW), and it makes sense to expand it to other parts of the business, which I am sure would like to be in control of any problems they may have.
+
+EMC wants to be the storage and cloud solutions provider of choice, valued for our expertise and trusted for our integrity. 
+1. Develop a user-friendly App which will collect survey data from our customers, partners  following any connection with EMC or from our own service request data 
+
+The App will provide the user with a quick and easy way to provide and describe their feedback by having  an “overall satisfaction” question followed by three levels of “resolution lists” and a comments field (for example)
+- Level 0 Overall satisfaction with this engagement with EMC
+- Level 1 Issue Type (Sales, HW, SW, Services, etc.)
+- Level 2 e.g. HW (PCB, Disk Drive, Power, Other)
+- Level 3 e.g. PCB (Part Number / Serial Number / Error Code / Desc)
+- Comments e.g. This issue caused serious problems for Customer, because...
+
+The Resolution lists will be agile and controlled by the EMC group @ Level 1.       
+
+2. The App will then feed into an Analytics Engine which could perform any or all of the following as desired by the relevant groups:
+(a) provide the Output :
+--Positive Findings - let's do more of this...
+--Negative Findings - how do we address this (i) current issue (ii) in future.
+(b) de-duplicate where relevant but count # occurrences of issues
+(c) perform an issue_create and assign it to the appropriate group (Level 1)
+

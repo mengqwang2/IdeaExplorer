@@ -1,0 +1,18 @@
+Smart ID card for employees to get access to workplace and cloud printing
+Cloud printing being piloted to simplify printing process and experience i.e. printing without swipe of your badge (use NFC enabled Smart ID).
+If employee forgets the ID card, to get the temporary access card he/she has to follow certain steps like
+1) Go to certain place - like security desk or reception
+2) Provide all the details
+3) Get the temporary ID card
+4) EOD return the ID card
+and more than that if employee loses the ID card then he/she has to pay certain amount to get the new ones.
+And employee has to enter the pass-code to get the printing done.
+
+Now a days more than 60% of the employees have smart phones with NFC capability - so why cant utilize this and have smart ID cards???
+It works like this
+1) Have authentication device with NFC connectivity 
+2) Employee will use smart phone which has NFC connectivity as Smart ID card against authentication device  
+3) Access will be provided or declined based on the validation
+4) Valid user can use same Smart ID card to print the documents on photocopy machine which has NFC connectivity
+
+Improve the process of accessing the workplace and simplifies the printing experience

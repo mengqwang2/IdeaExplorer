@@ -1,0 +1,28 @@
+Effective Lab Management
+
+Environmental Stewardship Challenge - Since this is a power saving approach, this would make a considerable difference in the energy efficiency policy of EMC
+
+Durham Data Center Challenge - This proposes a way to remotely shutdown and wake-up lab machines
+I have always felt that the internal lab systems consume more power when they are on standby mode. So had come up with this idea so as to save power consumption. Also, I had felt there should be a way to measure the utilization of a resource so as to make decisions on the resource management
+Create a monitoring system for all the components in the lab so as to do the following,
+
+1.	Store the details of the latest user in the node.
+2.	Check if someone is logged in into a system currently.
+3.	Keep track of the total utilization time of the resource.
+
+Whenever the user logs in into a system, prompt to get the email id of the user and transfer the mail-id and system-id to the monitor through simple mail protocol.
+
+The monitor could be a dedicated system or VM which can access all the manageable entities in the lab. If the logistics of the lab is high there could be more than one such monitor. The monitor has to periodically check if someone else is logged in to the node. This can be done through simple commands. For instance, a linux machine lists the number of current users by who command. So the monitor should issue the command once in a particular interval, say three hours, and can decide that there are no users logged in if who command returns zero users.
+
+Generally idle the remote session, say ssh or rdesktop, timeouts on their own. So there is no possibility that the remote login is going to be up forever. So when the system is idle there would be a time where there are no active sessions. This can be figured out by our monitors through constantly polling ‘who’ command, say once in 3 hours.
+
+Send an email id to the last user(received from the machine while the user logged in) suggesting them to power down the system or remind them later or do not receive the notification. The user can be notified later on accordingly.
+
+Later on when the user need the system again, they can power it on using ‘wake on LAN’ option. Simple command line tools such as wakeonlan, etherwake and powerwake can be used for this purpose. The monitors should provide the service to wake the system for the users. Since the systems can be awaken only in the LAN network, the monitor should be able to send commands to the machines/setups awake in the LAN of the target system.
+
+By calculating the time interval between power on and power off, the effective usage of the system can be measured and thereby decisions could be taken to balance the load. For instance, by this way the systems which were underutilized for a period of time could be spotted and could be shared in case of necessity.
+
+1. Power saving and thereby contributing to energy efficiency
+2. Powering on the remote setups will not need special lab tickets
+3. This idea enables a way to measure the total utilization of a resource, thereby, the under-utilized resources can be tracked and re-allocated and the over -utilized ones could be monitored.
+4. The monitors could be any unused system in the network which could be plugged in to the central pool of machines or any existing monitors could also be upgraded to do this. Thereby, this is a low cost solution which could make a considerable difference in the power consumption.

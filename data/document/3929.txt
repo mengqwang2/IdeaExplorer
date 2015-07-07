@@ -1,0 +1,14 @@
+Enterprise software dashboard- new customer satisfaction paradigm
+
+I thought about the idea when I faced many challenges and problems getting to the right SW, licenses, and latest releases to my large ISP WIND in Italy.
+A unique and unified dashboard and portal for all our product portfolio divided in different sections to facilitate and simply the process we interact with our customers. 
+
+The approach will not need a complex environment to be done. We will consolidate already existing infrastructure and will link many systems together.
+
+Benefits.
+
+1- Give the customer our best of breed of services.
+2- increase customer satisfaction.
+3- Ease of data collection of our customers' feedback about our new firmware and upgrades.
+4- Create a new "centralized" platform to interact with our customers.
+

@@ -1,0 +1,6 @@
+Group based tagging for similar devices
+In future there will be explosion of devices . Therefore tagging each individual device will be a difficult process. So Intension is to build a flexible system  which could form a cluster of similar devices from tagging purpose.
+This is part of Innovation Mining workshop.
+Build a system , which can identify similar devices and tag them based on the common behavior. So basically the proposed system will be a cluster based tool to identify and tag similar devices. 
+The biggest advantage of this system would be its ability to identify and tag any number of devices based on some existing behavior.
+Above solution is not yet available to monitor IOT devices.  This proposed solution would be useful in near future , when there will be large number of devices in IOT space.

@@ -1,0 +1,5 @@
+Quicker Resolution
+na
+When working with customers, while we research through our database for known issues or issues with workaround, we have our customer awaiting for us to come back. Our database already has Issue Description/Environment enlisted all we need is to compare for the trend against the logs collected from customer environment.
+We can have our customers run and upload the EMC grabs while creating the Service Request. As soon as the grabs are uploaded, we can have an application run a query against our Knowledge Base article/OPT's/Archived SR's. If the application finds similar trend in the grabs, the application can send a consolidated email with the resolution or pointing the Engineer towards the KB to follow. This would help us drive towards faster resolution and shorten our days to close time. In addition it could also perform inter operability check and help identify compatibility issues.
+Na

@@ -1,0 +1,6 @@
+Facility Maintenance Automation System
+automate any maintenance request within the facility which saves time and effort for the employees and to record all the issues the that facility faces.
+
+I worked for an international company where they applied this idea and it worked perfectly.
+create a web portal where the employees raise tickets, write a description of the problem, assign severity, and identity the place where the maintenance should be performed.
+it will improve customer satisfaction, optimize the process, help to create a better great place to work and of course enhance productivity. 

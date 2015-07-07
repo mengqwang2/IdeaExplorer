@@ -1,0 +1,6 @@
+create a plug-in for booking conference room in calendar
+When we are prepare for hosting a conference, we always need to book a room and send the booking information to all attendees. This might consume our time for open the webpage for booking room. I hope when we are setting the calendar, room can be booked.   SO creating a plug-in in outlook for booking a room automatically will free us from trivials. 
+Booking room for every week's meeting is a trivial and anoying, especially accessing the conference room reservation is slowly. After booking successful, you also need to send out an email to notify the attendees. This idea is came from my daily work for booking conference rooms. 
+A plug-in to communicate conference room server and outlook server.
+When we set the calendar, in location we can choose the conference room. This plug-in will tell us which room is free durning the meeting. After room is booked, it will not appear in the location any more.
+Free emplyee from booking room and improve their work effiency.

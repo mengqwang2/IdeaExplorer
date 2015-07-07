@@ -1,0 +1,10 @@
+DDBoost over Fiber Channel (DFC) support in Virtual environment.
+Expands the CTD product line market further into the virtualized environment.
+As the industry moves to a more virtualized data center implementation, the necessity of providing a FC communication layer to support existing products becomes a necessity.  A solution for the Processor Device needed to be devised.  Initially the thought was exporting a disk of 0 byte size - but that was not supportable.  We now export 2TB non-disk disk, that responds to the SCSI commands we need (read10, write10, inquiry) and gives enough of a response to all other SCSI commands supported by disk to satisfy the OS.
+EMC Data Protection software that talks to a DDR can leverage Fiber Channel (FC) for communications.  Currently that FC is advertised as a SCSI Processor Device.  Unfortunately Virtualization software (VMWare and HyperV for example) does not propogate the Processor device through to the client OS running in the virtualization.  This makes leveraging the FC for communications no longer possible.  Making the FC device a disk device, allows the virtualization software to advertise it to the client OS.  Unfortunately, a client OS expects disk devices to respond to a much wider set of SCSI commands.  The new non-disk disk responds to the additional disk related SCSI commands with responses that will not cause the client OS to invalidate the device, but also does not allow standard disk operations to be permitted. More details found at,
+
+https://iweb.datadomain.com/eweb/arch/clientsw/ddboost_fc/dfc_vmware_proposal.php
+
+
+- It will allow backups using the DFC protocol in virtualized client environment using fiber channel transport.
+- Ease of administration by allowing same configuration and backup application in a virtualized environment as in a non-virtualized environment

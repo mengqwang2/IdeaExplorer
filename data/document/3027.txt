@@ -1,0 +1,5 @@
+efficient usage of natural resources
+Its quite common issue that we are not able to efficiently use the natural resource like, water, air, sunlight and other..
+The history behind this is the problems we face in day to day life.
+Performing a first level of cleaning of water used in washrooms for cleaning the hands and cleaning floor in toilets flushing.
+With this implementation, we can surely save water, use it efficiently and help mother nature . Also, it will help in saving some cost from the facilities perspective.

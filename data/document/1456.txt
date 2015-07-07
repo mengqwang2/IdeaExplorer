@@ -1,0 +1,23 @@
+IOT – Platform for Data storage and Analysis 
+The solution is addressing the platform requirement for data storage and analysis, which is an important requirement in IOT environment.
+This idea is based on reading of research papers, based on me attending training and gaining some knowledge on Hadoop and discussion with friends.
+The proposed solution is for data storage and analysis in IOT environment
+Information storage, extraction and analysis require tools and algorithms to identify useful information buried deep in the data collected from sensors. Data mining and machine learning algorithms and MapReduce programing model could be used for data storage and analysis
+Hadoop is the well-known open source MapReduce implementation.  The Hadoop Ecosystem provides distributed storage ‘Hadoop Distributed File System (HDFS)’ for storing data on clusters, Pig, an engine for parallel data flow execution on Hadoop, HBase, Big Table like non-relational distributed database, Hive, a data warehouse software on Hadoop, and data analysis software like Mahout.  Major advantages of Hadoop MapReduce framework are scalability, cost effectiveness, flexibility, speed, and resilience to failures.  All the tools mentioned above are in open source environment.
+
+Hadoop for IOT would need several hundreds to thousands of nodes of cluster for compute and storage. This task of compute and storage setup should be done with automated software.  IOT Storage/analytic platform environment can use either OpenStack, VMware VCloud or any other cloud technologies and automate the setup of Virtual Machines (VM) using the API/CLIs VMs on demand (migrate and bring  down VM  as necessary). It’s possible to use commodity servers and disks with the Openstack.
+
+Data Acquisition/Storage:
+------------------------
+NoSQL databases provide an efficient ways for large amount of sensor data storage. An open source NoSQL database, MongoDB could be used for this purpose. MongoDB servers can be replicated with automatic master failover. To scale the databases HDFS is used as basic backend storage for the MongoDB in Hadoop framework.  The data from various sensors and sources could be stored using MongoDB for the analysis later.
+
+Data analysis:
+--------------
+Data from the sensors and various media needs to be analyzed, correlated and extract important information. It needs lot of machine learning and data mining algorithms. This needs a distributed machine learning framework. Mahout is a distributed machine-learning framework (and open source). Mahout could be used for this purpose. The goal of Mahout is to build a scalable machine-learning library to be used on Hadoop. The task for analysis of large datasets can be divided into a set of many subtasks and the result is the combination of the results from all of the subtasks. It provides lot of in-built data mining algorithms for classification, clustering 
+Apache Spark is in-memory distributed machine learning framework and this could be used depending upon the requirement. 
+
+Link for pictorial representation of idea:
+--------------------------------------------
+
+https://inside.emc.com/docs/DOC-155511
+EMC can sell and support platform solution in IOT environment. EMC can utilize the Storage experience for better support of the IOT platform by integrating this platform and solution with VMAX/VNX storage and big data analytics

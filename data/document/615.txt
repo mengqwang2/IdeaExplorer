@@ -1,0 +1,6 @@
+Daemon Threads for Logs Collection
+for a better customer experience and saving a lot of time
+N/A
+The idea is to program a Daemon Thread(Program) that runs once the customer open a new SR.
+Depending on the product, this thread collects all the logs required(depending on the product and the keywords entered in the SR), from the customer's machine, and then attach it automatically to the SR. So that we can save time and effort to concentrate on the real issue 
+we can save time and effort to concentrate on the real issue for the customer and give him a better support experience

@@ -1,0 +1,15 @@
+EMC LYNC-The Corporate APP
+
+This was an instant idea ,based on the challenge posted .
+
+By leveraging the Microsoft Lync or developing similar app within EMC or IT Sector,we can increase productivity by integrating this app with KCS knowledge base and create a shortcut icon for ease of access within this app by which they
+can access the knowlege base with a sinlge click to provide faster resolution , they would enjoy accessing  KCS from this app rather than launching a new web link, this help's in increasing productivity.
+
+As the world is moving towards social networking for their entertainment,we can integrate this app with WHATSAPP,Facebook,Skype,google hangouts etc by usin XMPP Protocol ,with these employee's can get latest updates across the world in terms of techonology and current affairs, they also can view and chat with watsapp freinds, view facebook likes and comments ,share pics and update status this can help us to quote" Great place to work ".
+
+We can add a whiteboard and tools which will help us in terms of education, learning ,knowledge sharing ,this can also elimnate Webex session and saves on education services on travel and infrastucture .
+
+With its video calling and video conference(Tele conference ) we can save on travel, felxiable remote working ,can have a instant meeting , help in HR interview ,helps us to replace cisco phones and other IT assets and infrastructure.
+
+
+

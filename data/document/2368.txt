@@ -1,0 +1,21 @@
+Social Collaboration platform
+The idea addresses the engagement of different teams across different locations on a single task or project and hence increases the diversity of the team and build/improve their skill sets using social network analysis and Gamification.
+
+Because the fastest way to learn is by doing 
+Throughout my experience at EMC I worked on so many projects and I noticed that the two main reasons that I can land an opportunity to work on a new cool project is through my social circle or EMC one now inside EMC so the idea is to build a state of the art platform on inside EMC that will engage more people and promote submitting and tracking projects on the platform.
+The idea of a platform like elance.com, that crowdsources people to work on projects has been there for quite some time and it’s proven to be successful, deploying something like that internally would help solve part of the problem, because then you will provide a robust way for people to collaborate on projects even if they are not related to their day to day operations, which most probably will be an innovative project to attract people in the first place.
+
+Please watch this short video first
+
+https://www.youtube.com/watch?v=56WmCTxq-Q0
+
+and then the full details of the idea is over here
+
+https://inside.emc.com/docs/DOC-154375
+
+
+
+Success can be measured by
+The number of projects on inside EMC
+Success Rate of the projects
+Number of people engaged and their diversity factors

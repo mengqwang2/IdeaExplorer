@@ -1,0 +1,11 @@
+Skills Workshop
+Using crowd sourcing technology to make it easy for employees to develop projects and work on innovation showcases
+Also we are targeting diversity across all EMC locations as employees from more than one country can work on same project
+Thinking about the Diversity challenge, It would be good idea to allow employees work together from different places on same projects.
+-Having an application/platform where each person can have a profile with list of his skills and his location.
+-Each employee can submit a specific project with the skills that he requires and pictures *if available* to show more information about the project.
+-Employees can apply for the project and demonstrate their list of skills
+-Making use of skills of each employees when working/deploying new projects internally
+-Being more productive when employees work on innovation showcases.
+-Making it easy for emc employees to build network and get to know each other globally.
+-The ability

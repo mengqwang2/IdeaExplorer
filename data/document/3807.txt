@@ -1,0 +1,7 @@
+Automation & Proactive logs analysis uploaded on Service center
+
+Customers are looking for Proactive support and Automation & Proactive logs analysis helps in great extent.
+Automation & Proactive logs analysis helps to find critical events in short and improve support and provide quicker resolution and highest customer satisfaction. 
+Based on messages  - adding valid knowledge base article helps to improve support services. (Integration of Service center and salesforce knowledge base)
+
+

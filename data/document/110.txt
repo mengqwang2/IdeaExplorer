@@ -1,0 +1,12 @@
+ Cloud Optimization for Parallel workloads like MapReduce
+ This idea targets an enhancement to the cloud task scheduler so that it suits parallel workloads. 
+The solution contributes to enhance EHC and optimize it for parallel workloads.
+
+ The idea came up from a previous cloud scheduler research project done.
+ 
+The solution is to introduce a scheduler module that knows the Job-flow mapping from the MapReduce processing node and compute completion time per the whole flow summing CTs for individual flows. This will help knowing which request will be completed first so that I can give it high priority and schedule it sooner. 
+
+
+1-	 Enhance cloud scheduler performance 
+2-	Aligns EHC more to parallel platforms like Mapreduce.
+

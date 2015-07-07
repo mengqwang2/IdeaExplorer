@@ -1,0 +1,48 @@
+BigData App Interface Solution (PoC Available - Built on Federation Products, VMware BDE, ViPR)
+Vendors like Pivotal and EMC can gain market share of around 62 million dollars by proposing this solution to EMC customers. Source - Wikibon.org
+We have our POC environment, where we have deployed Pivotal HD clusters and vipr etc.
+
+This solution is deployed in EMC IT PoC lab for fixing problems in the front end that dont give us a clear picture of Master nodes, Worker, Name nodes, data nodes. We want all this come in our application under monitoring tab which brings everything under one umbrella.
+
+We want to provide powerful front end to customers, while the back end is automated using puppet/chef manifest.
+
+By this idea, we want to give a front end that makes the back end work easy and also the analytics/ETL can be more focused using the application interface.
+
+
+
+
+Our application is designed to work on YARN (Hadoop's OS framework)
+
+
+Stack Configuration:
+
+Pivotal HD 2.0 - Hadoop 2.2.0 GA, Yarn, Zookeeper, HBase, Hive, Pig, Flume
+Pivotal HAWQ 1.2
+Pivotal Extension Framework (PXF) 2.2
+Pivotal GemFire XD 1.0 GA
+Pivotal Command Center 2.2
+Graphlab 2.2
+MADlib 1.5
+
+This proposal is to come with a packaged application to handle big data analytics requirement. When the deployment of the application happens, one can select the distribution (pivotalHD/Hadoop/cloudera/Mapr). The application deploys with that specific distribution and can scale later based on customer requirements.
+This way the application is both agile and scalable!
+
+YARN is a software rewrite that decouples MapReduce's resource management and scheduling capabilities from the data processing component, enabling Hadoop to support more varied processing approaches and a broader array of applications.
+
+The application will in turn be tied with the big data cluster (master nodes/data nodes/ secondary name node ). If the need of more resources are seen, then the clusters can be increased or decreased. The user will have to just look at the front end and take decision, all that happens in the back ground will be taken care by the automation that we could trigger from the front end.
+
+The application interface will have component specific to Retail, Health, Social Media etc. If there are analytics needed for a particular industry say Finance, the application will deploy with the interface that is specific to finance and it will have the big data platform as the underneath layer. 
+Vendors like Pivotal and EMC can gain market share of around 62 million dollars by proposing this solution to EMC customers. Source - Wikibon.org
+
+Our proposal enables fine grained resource management via Generic containers.
+
+Yarn helps in DBL's high availability and SLA driven scheduling.
+
+Max Cluster Size - 5,000 Nodes and Max Concurrent Tasks - 40,000.
+
+Enables Log Aggregation and Remote data read service.
+
+Roughly around 60% improvement on node usage per day in Yarn.
+
+Yarn with Pivotal HD is integrated to support for multi tenancy to share cluster resources and increase cost efficiency.
+

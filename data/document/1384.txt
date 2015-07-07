@@ -1,0 +1,5 @@
+Smart Parking
+towards smart city, automated parking
+NA
+We use a scanner gate, where we scan our EMC IDs, so  the gate is opened once the ID is scaned, and is authorized.
+less guardians on the gates, and faster in accessing the parking and going out of it.

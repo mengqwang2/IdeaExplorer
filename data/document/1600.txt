@@ -1,0 +1,8 @@
+Product Design in 3rd platform
+This idea is intended to advance the strategy of developing the product, exactly in the design phase of product development for the new products of the 3rd platform, under the umbrella of Global Product Operations.
+Enhancing the Supply Chain Network by decreasing the number of nodes in it.
+To avoid the upcoming problem and to have process enhancement all the way, designers need to take into consideration in the product design to use the same parts in different -newly designed- products, but with different setups according to each product features.This will decrease the number of nodes in the supply chain network and limit the number of types of parts in the inventory.
+- it will optimize the inventory control
+- it will provide better customer service & TCE
+- it will decrease process complexities
+- it will enable simpler Supply Chain Network

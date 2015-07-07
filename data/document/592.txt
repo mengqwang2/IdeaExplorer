@@ -1,0 +1,23 @@
+Using knowledge on how data is structured to improve compression in XtremIO or VNX
+This solution relates to XtremIo and DSA, both in Israeli COE.
+
+The idea is coming from my past experience in DSA (Formerly DBC) and thinking how could we use monitored data gathered from monitoring tools in today's storage arrays
+
+The idea is to use data collected from a monitoring tool like DSA (Other tools can be used as well) in order to identify how to better compress tables.
+Then build a mapping mechanism from table to blocks and transfer this data to the XtremIO box.
+
+The types of knowledge that can be identified:
+1. Access patterns that suggest defining a compression unit larger than a single block (e.g. table is being accessed using full table scan can have larger compression units)
+
+2. Data patterns to improve compression
+(e.g. tables with repeating text fields can use this knowledge for better compression
+Identifying table contains only numbers, only text etc. can also provide better compression)
+
+3. Identify data not to be compressed using data type
+(e.g. BLOBs may not require compression if they hold pictures)
+
+4. Identify data not to be compressed using compression ratio of similar data
+XtremIO can receive logical structures (e.g. Tables) and identify that these tables were not properly compressed, all future data added to this table will not be compressed at all
+Better usage of knowledge in data will provide better compression and better usage of compressed data
+Improved performance by not attempting to compress data which will not benefit from compression
+

@@ -1,0 +1,9 @@
+On-prem and Off-prem Cloud Utility Model - using Hybrid Cloud
+This Customer Solution will:
+
+• position EMC’s hardware platforms, manufacturing and supply chain to be competitive in a 3rd Platform environment (including Converged Infrastructure)
+• position EMC to take market share in Platform 2 and 2.5
+• significantl
+This has been a nagging thought I've had for over 6 months.  If EMC is to truly disrupt itself, we need to quit thinking like a h/w & s/w manufacturer and think like an on/off prem cloud provider.  This is exactly what my customers want.  
+Using our Hybrid Cloud model, we would place the appropriate on-prem hardware onsite (for workloads that the client does not want in the public cloud) and connect it to vCloud Air for the workloads/data that the client is looking to have in the cloud.  We would give them the ability to migrate workloads back and forth between on-prem cloud and off-prem cloud and bill them on a monthly cost per usage - like an electric or cable bill.
+Customers would be able operate under a consumption model and only pay for what they use.  They would be able to get out of the "build it yourself business" and have us install a turnkey (all labor/hardware/software) end to end solution.  Much like callin

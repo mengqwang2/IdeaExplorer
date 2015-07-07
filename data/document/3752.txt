@@ -1,0 +1,5 @@
+To have a portal where EMC employees can view the Enhancement Request status of a product
+
+We have been asked by many customers that they have submitted ER for the product feature, however they cannot track it or no updates received later on the same.
+Currently whenever customer submits a ER, a request ID is generated. However neither he or EMC Support can view the status on the ER/ know what happened next. A portal internally with status updated, will give support access to know and share the status with customers when they request.
+

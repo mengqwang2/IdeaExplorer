@@ -1,0 +1,6 @@
+Automation of Health Check and Performance Report Generation in VNX 
+The idea is quite relevant as we being the implementers or storage provisioners face the performance issues very frequently and if the idea will be implenmented we will be able to deliver the storage provisioning services to our customers without the dela
+This is for the first time I came up with this issue as well as the idea.
+If we could do something to automate this process then a lot of time and human labour will be saved. Like, with the help of scripting if we can add some of the features in VNX GUI enviroment which can automatically and periodically(Weekly or Biweekly) collect the different parameters( like %utilization of drives or % of data relocation) and store it then it will definetly save a lot of productive hours from being wasted as well as it will reduce the lengthy health check and analysis process(like collecting and merging the performance report files to generate a performance graph).
+
+If this idea will be implemented, there will be automatic generation of performance reports and health checks and a lot of time and human effort will be saved which can be utilized in other produtive works. As well as performance analysis will be easy and

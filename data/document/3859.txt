@@ -1,0 +1,11 @@
+Forth Generation IT
+
+I got the idea while thinking a technology beyond the current technology reach.
+EMC being a leader in storage industry to think and innovate two step ahead of the market and third platform to survive in the competitive market. EMC competitors being investing high on the third platform, EMC to think about beyond third platform and put seeds for being the first to build a strategy for forth platform.
+EMC to invest in following technologies which is currently at very initial stage
+1)	Human brain wave as input devices. Current market is driven by a touchscreen technology. Inventing a technology to use human brain wave as input device will drastically change the technology
+2)	Atom used for storing data. Current storage market is driven using magnetic disks and solid-state drives. Magnetic drive already reached its limitations. Increasing the spindle speed beyond 15K is not a realistic option due to the mechanical and technological limitations. Currently not much data is available to check the if the storage built on Atom is a realistic option , however EMC can think beyond Magnetic , current Solid state drive options to build sustainable storage product.
+3)	Output device: A device can be developed which again use human brain wave and give output feedback.
+While these technology can drastically reduce the power and space requirement for the current technology in the market, it will create a new turn and lookout for the technology market.
+
+

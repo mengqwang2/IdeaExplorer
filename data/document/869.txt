@@ -1,0 +1,21 @@
+Altai - Agile Light Test Automation Infrastructure
+Improve programmer and test engineer ability to quickly create and execute automation scenarios
+As part of QE testing we had to perform a very large scale of test cases with limited resources and had only 2 months to do the work of 5 people.
+We started to brainstorm about a good automation solution to mitigate the challenge - other automation solutions weren't generic and adaptive enough to allow the full functionality we needed to cover.
+So, we decided to choose a "grow as you need" architecture - so we started by creating a simple infrastructure that loaded a function library that was expanded as time allowed during testing.
+The end result allowed us to use the automation infrastructure for a wide range of test scenarios and to easily prepare scenario run commands that developers and testers can use.
+First version is already implemented and widely used within ScaleIO test teams.
+Additional test groups are showing interest in utilizing this testing infrastructure.
+Igal Moshkovich assisted with the design
+Netanel Attali assisted with the coding
+I propose a test automation infrastructure which is:
+Multi platform - supports Windows, Linux, ESX
+Lightweight - written in scripting language
+With no set-up time (copy-paste) - deploy VM and ready to go
+No programming knowledge required for utilizing it
+Fully extendible - supports addition and enrichment of existing test building-blocks
+Requires only scripting level knowledge to enrich existing functionality
+First version is already implemented and widely used within ScaleIO test teams.
+I would consider success as wide acceptance of my solution by internal and external teams.
+It will save money by shortening test cycles.
+Improve customer satisfaction by finding bugs early in the life cycle by automation scenarios and in a timely manner.

@@ -1,0 +1,18 @@
+CV Application Search System
+Increase Diversity regarding new Candidates applying for Vacancies.
+Decreases amount of time for going through Applicants CVs.
+Focused on core needed qualifications matching Vacant job description.
+
+- 
+To have an application system that searches on given key words that can be used when surfing Candidate CVs submitted on an EMC Portal for available job vacancies.
+
+How this would work, is that all CV Submitted will be listed on single back end Portal with a system application that during any candidate Job vacancy Search, the HR Member will list in the applications Search Box main key words that are needed for a specific vacancy (for Example: if the Vacancies is Technical or needs specific course requirements, the key words entered could be ITIL, ISM …etc)
+
+Then the portal will randomly check and extract all the Candidate CVs that include the given search words for further check and interviews with the HR Members.
+
+What is different about this Application is that it will increase diversity due to its randomly picking of related candidates that have the capabilities needed of the job vacancy description and without yet looking on personal backgrounds and experience therefore broadening the scope and diversity of the search.
+
+
+Saves Time
+Increases Diversity among CoE
+Ease of Process

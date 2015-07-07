@@ -1,0 +1,19 @@
+Tracking application generated automatic log backup for better recovery experience
+
+The idea which i am thinking of should resolve the numerous recovery issues that we face for databases which has automatic log backup enabled. There are cases where the log backups initiated by the application databases , on which data protection softwar
+This idea came up while performing QA test scenarios for applications like DB2. It was observed that some of the longevity scenarios failed because of non-availability of archive logs. A browse through the data protection activity window didn't show any failure. The issue was observed after more analysis done on the log files and database logs.
+This solution reflects backup status along with current archival log backup status in the activity window. Any existing failures in archival logs will be notified to the DBA through backup “Completed with exception” status. The status will not be shown as “Failed” as the backup was successful and only log backups are failed. This will allow the DBA to quickly investigate and rectify issues if any and the log backup health status will be captured periodically  in every backup (on demand or scheduled) itself and reduces the possibility of leaving log backup failures unattended over a period of time.
+In this proposed solution after every successful backup operation,  application pluginwork flow will do some more checks as given below to determine the archival log backup process health status.
+
+1)	Check for configuration parameter to validate log backup operation after a successful DB2 backup. The configuration parameter can be set to ON or OFF to enable or disable the log backup health check.
+
+2)	Connect to the respective DB and then get the log for the current point in time.
+
+3)	Based on the primary archival log backup status set the backup operation status to Competed or Competed with exception. Though some failures are detected in log backup the entire backup status is not going to be marked as Failed instead marked as Completed with exception status. This will intimate the use to look for the failures immediately.
+
+Application database like db2 provides functions like db2pd command/API to get the logs archive status for a given database. Functions like db2pd gives the current active log number. This can also be used further to query vendor device to make sure if n is the current log sequence then n-x log is available in backup with some threshold value x to make sure logs are backed up till the time of backup
+
+There are couple of advantages if we implement this idea.
+1) This idea will improve customer satisfaction and better ratio of database restore/recovery.
+2) Better UI experience as the activity will now list all aspects of database backup.
+3) Lot of advant

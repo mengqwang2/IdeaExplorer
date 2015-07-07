@@ -1,0 +1,5 @@
+Extent Size on Vmax Array 
+
+While while working in a project this is what i learned from the customer who had worked multiple arrays.
+On Third Party Vendor Like HP 3PAR thin technology uses the much smaller increment of 16KB, which results in less wastage, particularly with fragmented and thin-hostile file systems
+

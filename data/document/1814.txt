@@ -1,0 +1,13 @@
+EMCsquare (Virtual Tour)
+Making use of crowd sourcing technology to make it easier for emc employees to travel within the world in case of business visit or touristic one
+Foursquare app.
+We will have a mobile app which can be accessed from multiple platforms such as Android and iOS.
+
+The application will be categorized by country and each country has multiple categories such as: restaurants, hotels, places to visit and services.
+
+Each employee will have his own profile and he can add entries in each of the categories.
+Entries will contain pictures, his feedback and rating.
+
+Other employees can as also have the ability to comment on these entries.
+-Making life easy for EMC employees to travel to other countries whether it was business visit or touristic visit.
+

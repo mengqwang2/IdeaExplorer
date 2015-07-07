@@ -1,0 +1,18 @@
+Real-time Analytics for Resolving Service Requests (SR).
+TCE challenge - This idea will help improve TCE for most of EMC customers, in reducing time, efforts, and cost for addressing Service Requests from customer’s end. Agility, result-driven, and accountability are the pillars that define EMC core values. With this idea, EMC will be able to deliver high level of value to its customers.
+
+APJ COE - This idea will help EMC to reduce costs in providing services to customers. This idea will reduce service time and efforts to both EMC as well as its customers by providing proactive solutions to the customer issue. 
+My team is involved in SR analysis for specific products. We usually try to find out Root Cause of SR being raised and to find out patterns or trends for some particular type or SRs falling under specific category. While analyzing SRs I could realize that there were many cases where the sequence of issue is the same and resolution provided was also same, but the time and effort spent on was more. Since all the SRs are already stored and archived, we can use it as a learning data set for predictive solutions.
+Creating a system that will run real-time analytics in the background, while service requests are raised and provide customers an instant solution using predictive analytics. When a customer or partner face issues they raise a service request and provide information in the "problem details" section of the CreateSR page under support. While they are in the process of providing data, unique information (i.e., error code, error message, failure, and so forth) that is being entered can be taken as a keyword for analysis. 
+
+We also have all the SRs created so far in our database. By running appropriate algorithms to the entire SR database for all products and services, we can create a separate database that will have  structured data set. This data set can be created and categorized based on the product type, release, errors/failures, sequence of error messages involved, and many more, and also the solution given to close those Service Requests. As and when new unique SR is created, the relevant information from the SR will also get added as part of the learning data set in the newly created database. 
+
+When a new SR being is raised, once the keywords are identified from the "Problem Details" section, immediate resolutions/suggestion can be provided to the customer as pop-ups or notes from the new database, which may match older records, trends, sequences, and so forth. The solution can also be provided to the person populating the Service Request fields even before the SR is submitted to the system.
+
+For SRs being registered through Dial-Home or Email-Home, these suggestions can be directly provided to the support engineer (to whom the SR gets assigned) before he starts with the investigation. Depending upon the suggestion, the support engineer will be able narrow down the issue and take proactive steps to solve them. 
+Since there would always be some delay when requests are assigned or investigated, this system will be able to provide:-
+1. Handy solutions or steps to the customer that might help them provide a solution and prevent them from raising request.
+2. Good amount of time and efforts can be saved by customer support teams thereby reducing the OPEX for EMC.
+3. Downtime for the customers to resolve issue and resume their business will be reduced.
+4. Improve TCE
+5. In case of faulty spares or hardware or software, proactively making orders for the replacement, and so on.

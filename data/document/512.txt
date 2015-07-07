@@ -1,0 +1,38 @@
+STEMC App
+Utah COE Challenge
+Description :
+STEM education Community Involvement app – Create an app which connects employees with opportunities in nearby schools where teachers & advisors are looking for mentors or presenters on STEM-related topics, including VEX Robotics. Leverage data from our VEX Robotics partnership in addition to data offered by the schools and the employees. Leverage employee profiles on Inside EMC to gather details on skills, location, etc. Leverage this for ease of reporting on EMC Gives Back days for Community Involvement. CHECK OUT CHALLENGE VIDEO Featuring Vance Checketts, VP & GM of the Utah COE!
+Criteria :
+Leverage the following technologies, systems, applications & data sources: - Inside EMC (https://inside.emc.com) - VEX Robotics (http://www.vexrobotics.com) - EMC Federation technologies (e.g., http://vcloud.vmware.com & http://www.pivotaltracker.com)
+Commitment :
+The Utah COE will provide contacts at local Utah schools if needed as well as at VEX Robotics for all Innovators who request it. Sponsors will assist further in the development of the business case & proof of concept. 
+
+The main focus of the problem are mainly two: (1) Collaboration and (2) EMC Gives Back initiative. For both the purposes, the best solution should be on a Social and Mobile based model. When we though about the current successful social platforms, we have Twitter and YouTube. Both deliver collaboration and rich media in different ways. We needed to come up with an integrated solution that will address our problem statement. Also it is important to involve InsideEMC platform as a mother dashboard to track and advertise the progress within EMC network.
+
+The name STEMC is a fusion of STEM Education and EMC. Though we can think of a more suitable name later point of time.
+Develop a mobile application based solution that works in the following way:
+
+1. Analyze data and Target Employees
+a. Create collection of twitter profiles for all employees at Utah location through InsideEMC (https://inside.emc.com) backend.
+b. Send personalized invitation through Email the Utah Employees to contribute.
+c. Send personalized invitation to students of STEM education.
+
+2. Setup Social Integration
+a. Create special Twitter hash-tags for STEM subjects (e.g. #STEMCMath for mathematics, #STEMCVR for Vex Robotics).
+b. Create dedicated YouTube Channel to share video.
+c. Setup a community in InsideEMC collecting the data from Twitter and YouTube using the hash-tags. The same community can be used to track EMC Gives Back efforts.
+
+3. Invite Audience to Collaborate
+a. Publish mobile app to iOS and Android App Store.
+b. Students and Employees can login to the app using Twitter and Google accounts.
+c. Questions posted by students will get posted in twitter with particular hash-tag.
+d. Answers to the questions will be a reply to tweet.
+e. YouTube links can be posted as a reply to have audio-video content.
+
+Reference: https://inside.emc.com/docs/DOC-156011
+1. IT Proven solution, can potentially expand to COEs outside Utah and increase revenues. Potential $1M saving within EMC.
+2. Boost User satisfaction through awesome user experience delivered by Mobile Experience Team in Global IT.
+3. Quick support in maintenance stage through Global IT. Expand scope and coverage anytime.
+4. Out of the box configuration in InsideEMC backend and security driven infrastructure. Usage of existing infrastructure and strong social media footprint to advertise EMC Gives Back initiative.
+
+Reference: https://inside.emc.com/docs/DOC-156011

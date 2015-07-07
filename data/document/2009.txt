@@ -1,0 +1,15 @@
+Software defined sales leads
+Software data center management solutions such as ViPR, Vplex or DPA see a wider picture of what is happening in the customer data center.
+By leveraging the data collected by such products we can provide sales hints (“customer is using an old version of Recover Point”) and support hints (“upgrading microcode version on machines X,Y and Z would improve availability”).
+
+This idea is a collaboration between the co-located DPA development and Data Science teams. Roi Gamliel and Michael Elkabetz are DPA experts who can implement the suggested solution in the product and have already prepared a PoC.
+Raphael Cohen, PhD, and Amihai Savir are data scientists with an expertise in recommendation systems who can build the machine learning frameowrk for transforming the DPA collected data into sales and service leads. 
+Our proposal is to build a collection protocol that will be sent using the call home mechanism which will describe data center configuration. 
+Data will be transmitted and collected in the BDL. Recommendations will be calculated using this data and provided as hints for the SAMs and sales people through Salesforce (the same mechanism will make this available to customer support once Service 360 is complete). 
+Historical data can be further analyzed to predict success for different leads provided by the system. We have already built a POC of this mechanism for DPA. This will extent the existing sales lead mechanism of Prometheus which is based solely on Avamar and Data Domain with the rich data the DPA system is exposed to which combines storage information with application information.
+See architecture at: https://inside.emc.com/docs/DOC-155014
+
+This project will enable better sales leads and provide our customers with a proactive purchasing experience where they are offered just what they need without having to ask.
+Data collection will improve customer services and increase prescriptive services such as proactive version and code upgrade. 
+Implementation in the Federated BDL will showcase EMC’s technology and provide a convincing user story.
+

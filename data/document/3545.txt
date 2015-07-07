@@ -1,0 +1,17 @@
+ VSAN Tagging – towards a new era of SAN implementations
+
+ The idea came up from studying the SAN networking and the host to storage SAN implementation labs. Comparing between the LAN and san helped formulating the enhancement
+ The idea is to include the VSAN tagging concept in the SAN networking technologies to add the following benefits :
+
+1-	Limit the size of each broadcast domain
+2-	Improve security
+3-	Improve network usage and efficiency
+4-	Ease of SAN management
+5-	Physical Layer Transparency
+
+The VSAN tagging can be coupled with the existing zoning protocols to add maximum security and efficiency benefits.
+
+The concept can make use of the existing VLAN tagging concept in implementation
+
+
+

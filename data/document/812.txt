@@ -1,0 +1,15 @@
+Project Source-to-Production Visualization
+Software continues to grow in importance and leveraging the resources and knowledge across the company by sharing tools and methodologies will benefit productivity and software quality. This tool will visualize the entire lifecycle of a project from source to production and could possibly be used by any software group in EMC.
+The idea came about in an internal 24hr hackathon initially. We created a prototype web application that gathered all the data we required, putting it in to Elasticsearch and visualizing it in a web UI using tools like D3js. Many people like the idea and the visuals but for the tool to have a real utility, lot more work is required which our group isn't able to focus on. Individual tools are still used because they work reasonably well today but hopefully the concept of this tool as a replacement for the many others may be considered.  
+The source-to-prodcution visualization tool gathers data from many different sources used by development e.g. JIRA, Stash, Jenkins and Cloud Foundry with the ability to plugin more. The data is analyzed to provide a picture of the dependencies an application has, the locations it exists and the status of the project in each stage.  
+
+When deploying to production for example, you can see if all the requirements are met from the code base to the production environment.
+
+Visualizing dependencies in distributed systems has been tackled with tools like Hystrix (which could also plug in to this tool) but the full analysis of a project in all environment is still a challenge that doesn't have a single solution.
+Much of EMC is moving to similar ways of developing software. This is a good thing and could present an opportunity to highlight EMC's talent in software by having us produce tools that focus on development as well as actual products. 
+
+We pay a lot of money in licensing fees for various tools that we use. This is fine as long as they work well but the value in paying for and using so many different tools must sometimes be questioned. Doing one thing well is a good thing but many solutions to a related problem might indicate the benefit of a consolidated solution.
+
+Distributed systems, microsevices, cloufoundry and continuous delivery  are still  relatively young concepts where the solutions still need a lot of work.
+
+The creation of a tool like this within EMC, to be used by any group in ECM could be a great boost for our software development knowledge, practices, time to market and cost reduction.

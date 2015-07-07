@@ -1,0 +1,27 @@
+Smart Ride for smart City using technology and data analytics
+This idea can be able to in building efficient utilization of transport system with in the city limits.
+Most emerging technology Data Analytics and big data can also be used to target passengers based on the frequency and mode of travel from season to season.
+
+1. This is very common and very often experiences faced by all passengers when we use air lines/ trains. Its always certain that your flight/train arrives in correct time and board your cab on pre booked timings as per schedule.
+--> What if my flight gets delayed do I have to cancel my cab which is already waiting at airport
+--> Do I need to pay cancellation charges
+--> Will I get next cab on my departure
+
+1.Cab facility vendor should always get in sync with current train/Flight arrival departures. If any flight/train gets delayed the cab vendors should always get alert message for all of the bookings who are using concern air lines/train numbers.
+So that pro actively cab transporters can cancel the current route and arrange for next available departure/arrivals.
+2. Transport app must be in sync with all available airlines and train portals to make itself updated every second.
+3. When the take bookings from customer they have to consider below as inputs.
+   1. Passenger Name
+   2. Mobile Number
+   3. Airlines Name/Flight Number
+   4. destination 
+4. If Transport vendors can have database of different passengers across different air lines and trains, it will easy to do trend analysis and estimate passenger expectations.
+This will be easy to target end customer and plan for smooth trip.
+ 
+
+Advantage:
+1.Cabs can be properly managed without cancellations/reschedules
+2. Customer need not worry about calling vendors and requesting for cancellation and reschedules. 
+3. Passengers doesn't need to pay cancellation charges and be informed about his arrival of his arrival at destination.
+4. It may also cause decrease in flow of traffic and also fuel/communication charges
+5. A central repository of customer data base and using big data/data analytics can always drive company in trend analysis of the customer requirement and design customized products

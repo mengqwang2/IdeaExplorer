@@ -1,0 +1,5 @@
+Customer centric app for CTD products - Third platform (Mobile)
+Challenge that we are addressing is to help improve CTD products supportability
+As QA engineers we have always asked for more customer exposure. This will be a two way help where in we save time to resolve customer issues also QA can have exposure to actual implementation of the feature which will help them test better
+Develop an EMC App where in there are group create which are customer centric. For instance EMC Customer X was sold CTD products DD for backup using NetWorker backup & recovery software. NetWorker itself has huge feature list. Any issue that is seen by the customer has to be routed from support team to another team finally to the engineering team on need basis. What we propose here is that one Android app where in a group is created by EMC - members of this group are 1 engineer each who is an SME for the features that the customer is using. In case of any issues the customer just has to send in a snapshot of the issue - based on expertise the engineer will help the customer to resolve the issue faster. Some issues may be known issues well known by the SME. 
+Same as above

@@ -1,0 +1,8 @@
+Combining Provisioning and Replication in Vrealize
+Relevance to APJ COE "Solutions Platform" Challenge. Combining allocation(provisioning) and replication will enable cost efficiency and other things mentioned in the challenge. 
+
+
+
+I have been working on RPAs for the past 2 years and this idea originated recently while I was being trained on VRealize.
+Whenever we add 2 clusters in Vrealize, we could automate deploying vRPAs in these 2 clusters and setup replication of VMs or LUNs automatically. This will ensure every VM is protected automatically. 
+Combining allocation and replication will provide security to VMs by creating a new copy in different cluster. Users need not worry about VMs being Crashed as last known good image will always be available through recoverpoint.

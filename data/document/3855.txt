@@ -1,0 +1,20 @@
+Human Error Avoidance Program
+
+Multiple human errors occured in year 2013 which lead us to develope this program. This program is currently running successfully for the past 3 months within our Business unit.
+The program resulted in significant reduction in HUMAN ERRORS.
+This program provides step by step approach for avoiding Human Errors.
+
+Step 1 : The program consists of a framework that covers various attributes of human behaviors that helps in identifying the problem areas. 
+
+Step 2: As a next step the program helps in categorizing the identified problem areas into interlinked solution methodologies. 
+
+Step 3 : Once the solutions methodology is identified the root cause of human error occurrence can be easily mapped with "pre-defined human error avoidance strategy" 
+
+Step4: Based on the identified "pre-defined human error avoidance strategy" Human errors at various levels within the organizations can be made "mistake proof"
+
+The core aspect of human error lies behind the psychology of a person; however none of the organization in today's world analyzes "Human errors" from this aspect. Only technical competencies of an individual are considered while analyzing a "human error. This program, on the contrary, provides a guideline for studying "Human error" from both the aspects - Technical as well as "human behavioral"
+
+supporting document is uploaded at below link:
+
+https://inside.emc.com/docs/DOC-100092
+

@@ -1,0 +1,7 @@
+GPTW DATA ANALYSIS (GPTWDA)
+
+During the Brainstorming Session
+We have to look at the data files that we have collected in the last 2 years and do some deep dive analysis to get an idea of whether the data that is being collected is right. One can also cross check with a sample of respondents on the responses they have provided. Basically if we ask all the questions under a given category...then the Employee would be able to think and answer on that specific subject before he starts answering questions on the next category. Please note that this will not influence the respondent in any way because the categories are anyways not mentioned in the survey.
+
+Please find the detailed document on this at https://inside.emc.com/docs/DOC-100080
+

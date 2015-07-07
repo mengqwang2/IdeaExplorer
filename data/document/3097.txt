@@ -1,0 +1,5 @@
+Developing Secure and Compliant Enterprise Hybrid Cloud using Micro-Segmentation
+
+Since many clients are adopting EMC Enterprise cloud, we need to provide security as a fundamental feature of the Enterprise Hybrid Cloud
+This is achieved using Isolation, Segmentation and Service Insertion, that is No communication path between Development,  Test and Production instances, controlled communication between Web application and database layers and enhancing the security by having service insertion from third-party.   This we can develop and provide can  develop HIPAA EHC, PCI EHC etc.,.
+

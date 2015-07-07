@@ -1,0 +1,5 @@
+For PSR HighUtilization CPU alerts on IONIX
+we can have an aggregate alert to be raised automatically whenever there is any CPU alert on a host.
+support teams will get 1 ticket for high CPU on a server, rather than 1 ticket per processor, which is what we have at present.
+MODEL for IP domain to create an aggregate event for CPU HighUtilization on any CPU on a host. we can make this changes to MODEL code for IP domain
+1 relevant alert per CPU problem, hence 1 relevant ticket

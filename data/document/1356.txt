@@ -1,0 +1,5 @@
+Real-time Security Analytics based on Cloud/Internet Search Algorithms
+This idea is related to Security: cyber, fraud, security management
+The concern about the current rules/pattern based on the past attacks and in real time if some attacks happens it takes a good amount of time to create a rule and post to Analytics Servers.
+The Security Analytics Products should have a feature to automatically create Rules/Patterns based on Cloud/Internet Search Algorithms which periodically searches in trustworthy sources or internet for suspicious buzz words/domains, virus/malware names populated and start running it automatically and update the security analysts. The analyst can review the rule and modify accordingly or disable if he found it meaningless. The major part of the solution is defining the AI algorithms to create real-time analytical rules/patterns 
+If we can build the Real-time analytical engine capability we will be able to inspect the common/publically aware attacks much faster then ever and can take the actions immediately.

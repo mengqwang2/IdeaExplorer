@@ -1,0 +1,21 @@
+Using Thinclient machines to use Virtual Desktop Infrastructure effectively
+
+I found the difficulties to host more than one web-ex at a time.
+I am in dual live chat with the customer and I want to host two web-ex sessions, but I am not able to do that.
+Because of lack resource in our laptop, It is very difficult to host more web-ex sessions and searching for the articles.
+If we have separate thin client machine, then the resource will be on thin client. It will help us to search the articles quickly and help the customer to fix the issue quickly.
+We can use Windows Embedded thin client machines to use the VDI machines effectively.
+We are not giving the desktop to do cost cutting and reduce the power consumption.
+But we can use Windows Embedded thin client machines to connect the VDI machines.
+It will use very less power and it is very less cost compare to normal desktop. 
+It is windows machine, so we can join the thin clients to our EMC domain.
+Once it is in our domain, then we can connect the VDI machines.
+We are already having Docking station, so need of separate monitor to share the screen.
+It will help us to use the VDI machines to hold the web-ex sessions and search for the articles while we are in live chat with the customer.
+
+Thin clients run an operating system locally and carry flash memory rather than a hard disk. Since it has no hard drive or local storage, all applications and data are stored on a central server, but advanced thin client technologies help users still experience the same look and feel as on a PC. Thin clients allow for local printing, audio and serial device support, web browsing, terminal emulation and can combine local processing with network computing.
+
+By hosting more of what users need remotely, the thin client devices used to access that data can become both more powerful and cheaper. Additionally, as individual connection protocols improve, through developments like Remote FX and Citrix HDX, businesses are able to gain that much more effectiveness out of virtual desktops.
+
+A major part of a thin client solution is the thin client management console. The management console such as Echo, is a virtual appliance that can be installed on your Server to remotely manage all of the deployed thin clients. It then can create, clone, and push out the customized image to the deployed thin client devices. This allows IT administrators to freely access any device that is connected to the server, as well as pushing through certificates, software packages, as well as upload full disk images. This proves to be an invaluable tool for both simple and complex VDI environments.
+

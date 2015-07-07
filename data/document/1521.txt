@@ -1,0 +1,29 @@
+EMC wearable storage - embed EMC technologies to watch chain to supply storage and security for smart watches
+This idea supplies new business opportunity for EMC. EMC has very deep background of storage and security. On the both sides, EMC has unbeatable technology advantages. As smart wearable devices become more and more popular, to integrate EMC technologies to wearing devices can bring very profitable new market for EMC.
+More and more people have started to wear smart watches, especially after the release of apple iWatch. However, never seen the watch chains have functionalities. I start to think whether smart watch chain is a potential profitable market. 
+Watch chain and main body can be treated as two isolated products if we can bring new business idea to people. From the chain, it can supply storage, battery, and security modules; and it can be treated as extensive modules of watches.
+EMC has most advanced technologies on both storage and security areas. But EMC hasn't gone into any market fields related to smart wearing devices.
+If we can combine EMC technologies and watch chains together, it could bring very profitable values to EMC.
+                                              ==
+                                          /\\\==\\\\\\\\ 
+                                         \/             \\
+|===|[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[||<\\  12:00      \\>]]]]]]]]]]]]]]]]]]]]]]]]]]==|
+|   |     EMC Product 64GB            ||<\\  Mon, 29-06 \\>   RSA Integrated        ]  |
+|===|[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[||<\\  2015       \\>]]]]]]]]]]]]]]]]]]]]]]]]]]==|
+                                         \\  Sunny      /\
+					  \\\\\\\\\\\\\\/
+Below describes how:
+- Make flash memory small enough that can be put into a watch chain
+- Integrate RSA module to hardware and make it as small as flash memory. The proposal is - any received/posted information can be encrypted/decrypted with the security module
+- Better make memory extensible. We can add more than one memory modules in a chain. When selling the chain, we can mark the storage size of the chain just the same as selling a U-disk: 4G, 8G, 16G, etc.
+- The connection end of the chain (the end to connect with a watch main body) is electronic band that can be connected with a smart watch.
+- Can design watch chains for different types and colors, e.g. supply chains with materials of plastics or metals; for metals, it has to be in silver/black colors, and for plastics, it can have many colors.
+- EMC can produce some prototype of watch main body to connect with the chains for advertisements
+- The smart watches producers, can choose to integrate with EMC watch chains. For those watches that can connected with EMC watch chains, users can change the chains or add more modules at ease. That's to say, it increases the extensibility of smart watch greatly.
+
+- Can improve the extensibility of smart watches greatly
+- Don't have noticeable competencies in the market
+- It's a chance for EMC to join smart wearable devices market and not need to compete with many strong competencies.
+- Can bring very profitable new business to EMC
+- Enhance the development of EMC technology, and remain the technology advantage of EMC on smart wearing device market.
+

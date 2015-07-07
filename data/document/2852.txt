@@ -1,0 +1,17 @@
+Home Storage/NAS integrated with vVNX
+2015 EMC world release the free vVNX for end-user. It it a great news for home storage or NAS system. EMC is the Winner in enterprise storage, We could be the Winner also in Home Storage.It is a big market since China home storage is booming with the Home
+1.IOmega have the NAS function,but only this
+2.Synology have the NAS/Downloader function,but is not the storage expert
+3.XiaoMi/Huawei have the NAS/Downloder/Network function,but is not the virtual expert
+1.vVNX deploy on ESX which created by user general PC server
+2.Integrate Soft route/Switch into vVNX for Home network
+3.Integrate downloader software into vVNX user download anything to NAS created by vVNX
+4.Unified GUI for user to management Home NAS,Route,Downloader
+5.Open interface to install any software to leverage the Storage/Network module
+
+All in one solution for Home NAS scenario
+1.Provide ISCSI,NFS,CIFS service as the Storage center
+2.Provide Route/Swith service as the network center
+3.Provide downloader service as the resource center
+4.Provide media player service as the media center
+5.P

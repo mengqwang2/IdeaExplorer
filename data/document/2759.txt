@@ -1,0 +1,12 @@
+Enterprise Content Division (ECD) Challenge
+Software as a Service (SaaS) is a software distribution model in which applications are hosted by a vendor or service provider and made available to customers over a network, typically the Internet
+
+Benefits of the SaaS model include:
+
+Easier administration
+automatic updates and patch management
+compatibility: All users will have the same version of software.
+easier collaboration, for the same reason
+global accessibility.
+This will make it much easier to the customer, he can add updates, maybe we can make it much easier interface and more friendly something like social media famous sites 
+N/A

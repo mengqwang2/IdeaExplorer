@@ -1,0 +1,7 @@
+File level auto-tiering
+
+For common application, we have block level autotiering, but it cannot identify file at SAN level.  
+The in-memory solution isn't suitable for big video files. 
+I saw several video post-editing solutions have to provide expensive disk solutions to their solution customer  while all of them complain the price is high. If we can provide file level auto-tieiring solution, it can help us to expand a new market area at video editing solution.
+Provide internal feature on storage itself or external engine with exposed API to 3rd video/audio post-editing solution vendors. When they want to edit certain big video files,  the feature or engine can automatically and quickly move those files from common SAS disks (low cost disks)  to SSD disks (high performance), so the compiler application can finish the compliation. Once it is done,  those files would be destoyed and the result file would be moved back to SAS disk.
+

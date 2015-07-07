@@ -1,0 +1,5 @@
+Roadmap bulletin
+
+Ideation session
+My idea is for a regular or quarterly roadmap newsletter to be sent to all employees (who have a need to know basis). This newsletter contains the major upcoming products and releases that EMC will announce in the coming quarter, as well as some FAQs on the main points. 
+

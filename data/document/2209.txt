@@ -1,0 +1,13 @@
+Street Bumps Detector – towards less accidents in a Smart City  
+Smart City cannot tolerate high accidents rate without utilizing the top notch technologies to address such issue. 
+ We thought about an issue we face every day that we don’t wish to see any more in any smart city
+ The solution is as simple as alerting drivers about street bumps while they drive allowing them enough time to take the correct action. The solution has two main components:
+
+1-	Street Bumps Map:  Updating a database with each bump giving it an ID using its coordinate locations on the map. For each new street bump installed in the street (unexpected street bump), a new entry will be added (database update)
+2-	GPS device inside the car can check its location against the nearest street bumps and whenever it is approaching a bump, it will notify the driver proactively to take the right action
+
+EMC business will be in managing the central database and scaling it to the city level
+
+1-	Less accidents rates – save lives
+2-	Business for EMC
+

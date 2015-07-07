@@ -1,0 +1,8 @@
+Unfied Scale Out Flash Storage - using XIO
+The flash storage market is mainly for performance.Even the completitors dont support the file level access using the flash storage.
+EMC unified Flash architecture using XIO should provide the extreme performance for both block & file level protocols.
+I was looking for some XIO projects and learned XIO and based on customer demand we came with this idea.
+The unified architecture where the storage controller should be capable of handling both the file level & block level access.
+OR
+The otherway is to integrate Datamover to XIO so that the unified architecture is accomplished.
+It impoves the customer satisfaction and enhance the technology.

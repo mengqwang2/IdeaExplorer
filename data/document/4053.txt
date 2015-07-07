@@ -1,0 +1,8 @@
+Application for tracking 3 Gives Back days 
+
+It can be look like current our vacation application but updated and icluding new insert.
+it will be much comfortable for managers to track employees' time.
+it should be used by every employee
+It should be tracked by HR to report for analysing
+It shoud be alive and supported permanently
+

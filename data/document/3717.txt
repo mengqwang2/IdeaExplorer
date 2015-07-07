@@ -1,0 +1,5 @@
+Standardized GUI
+
+I've discussed this with my boss Craig Cotton since we both came to EMC about a year and half ago.
+Creation of carefully considered images, layouts, buttons, slider bars, CSS's and other items required to create the best look and feel for EMC's various User Interfaces and a place for them to be housed.  Ideally a person who is responsible for getting BU's to use them as well.  Many things need to be taken into account and consensus should be gained by the BUs.
+

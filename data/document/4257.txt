@@ -1,0 +1,7 @@
+Share Interests Mobile App
+
+NA
+A mobile application that would allow employee to share info regarding social upcoming events. Employees with same interest can come together and share their knowledge regarding the sports, artistic, scientific, cultural…etc events that are taking place within the country. 
+The application can be divided into several sections (Art, culture, scince,…etc) and below each sections interested employees can share the info they have. For example employees who have interest in reading can suggest a good book to read, inform of an author/fan gathering, and request a book and so on.
+
+

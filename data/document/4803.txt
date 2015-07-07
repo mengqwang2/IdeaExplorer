@@ -1,0 +1,5 @@
+EMC Isolated cloud for sensitive customers
+
+idea came while watching a video on Amazon Federal sales
+EMC to be agile in building private and isolated cloud for sensitive and critical customers and provide them authorization to manage their data and security even if the cloud contains other customers that allow that could allow this action. ex, Federal Agency.  
+

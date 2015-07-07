@@ -1,0 +1,5 @@
+Security Access Control for labs
+
+Idea came about from working in a lab environment where many high cost product items are stored/in use.
+Security within the EMC plants is very important. A Fingerprint reader could be used for access control instead of, or along with the current access I.D. cards. This extra security measure could be aimed at certain areas within EMC e.g. labs that need extra security e.g. area's where Flash drives/high cost product parts are to be stored etc...
+

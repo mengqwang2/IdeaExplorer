@@ -1,0 +1,15 @@
+Embedded database tokenisation solution for XtremIO
+This solution would enhance the value, performance and applicability of XtremIO database snapshots in all customers with strict privacy, security and audit requirements.
+A number of large EMC global customers, particularly those in the financial industry have discussed using the requirement to keep multiple copies of data for test/development and the time and complexity in refreshing this data. This activity is seem as DevOps issue and by embedding the solution in the array would make it fit with this approach and perception. It would greatly enhance the applicability to sensitive enterprise accounts who have significant application development investment.
+Embed data tokenisation capability into an XtremIO solution. XtremIO flash performance and metadata management capabilities make it an excellent candidate for hosting tokenisation and providing this solution at optimal performance. The native D@RE makes the solution naturally secure. The volume should be prevented from illegal access either via blocking snapshots and/or providing additional layers of software encryption. Replication of the tokens should happen synchronously and securely at the software layer. 
+
+Access from the Tokenisation server to the XtremIO platofrm should a secured and encrypted channel which can be delivered over IP, FC, iSCSI.
+
+The EMC RSA Data Protection solution already has the necessary access models to allow for this to operate in large and varied customers.  The RSA solution can then be made a software only solution which takes advantages of the speed and security capabilities of the XtremIO array. This solution will separate the secure requirements of the token store from the application requirements of the data protection store. Customers particularly in high security environments could later build their own secure token stores using the capability.
+
+We could look at running the RSA software on the XMS server.
+
+By removing/tokenizing critical data the customer currently needs to modify/clean the database is removed and security is inherent in the design. Snapshot efficiency and security are greatly enhanced as is development agility. 
+
+Effectively we add a secured Key=Value store to XtremIO and provide a secure channel mechanism to access.
+This solution will increase the value of EMC XtremIO snapshots and arrays and force competitors to provide a cobbled together solution which would not be natively secure. Customers would make large savings in DevOps. Customers would achieve more agility. Customers would have enhanced security and privacy. EMC could improve storage efficiency and data security. EMC would greatly enhance our stickiness in the account.

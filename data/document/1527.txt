@@ -1,0 +1,11 @@
+EMC Maps - An easy way to find conference rooms and people
+This idea is goes to the heart of the challenge which is - the Contemporary Workplace or the Cooler Office.
+I wished for such an app when I joined EMC. I still need such an app when you are trying to find an empty conference room or person location.
+My solution is to make an internal mobile app which provides an indoor facility map along with the navigation path to destination.
+
+It should show the internal maps of the floor that you are on within the EMC building and your location on the map. It ask for the room or person information that you are trying to locate and provide guidance on how to reach the target.
+
+This app can be further extended to color code the map to show the availability of nearby conference room and then letting the user to book the conference room.
+
+This can be a great IOT story as well. For location information - we can either use BLE or Wireless Access Point triangulation technology. For mapping, we can use the existing floor PDF. For the people office/cube information, we can use Active Directory.
+ I expect it to be used heavily in the large EMC locations. My definition of success will be that the majority of the EMC employees has downloaded this application and are active users. The benefit of the app is in employee experience and productivity.

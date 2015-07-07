@@ -1,0 +1,12 @@
+Logging System with hot-swappable limited configuration changes
+o	improvement to EHC or BDL
+o	Cost Efficiency: How will you construct editions of the platform that have lower cost characteristics?
+o	Customer Experience: Will your solution infrastructure offer superior customer experience? Newer open-source frameworks may also deliver better customer experience.
+o	Required documentation can be found at https://inside.emc.com/docs/DOC-156149
+Team meeting a couple months ago
+o	Logging can be dynamically changed to a higher (or lower) level for specific components and for a set amount of time
+o	Its limited nature prevents a common disastrous effect of emergency logging in Production – admins turn it on for a wide scope (perhaps the entire application), at too high of a level (e.g. DEBUG), and/or for too much time (e.g. if they forget to turn it off). This would cause disk space to be depleted, causing Production issue that are potentially worse. Therefore, this is a certain improvement over the status quo.
+- Cuts down on CPU cycles spent on logging, especially at the DEBUG level
+- Cuts down dramatically on storage space required. Recent studies have shown that 99+% of Big Data is either unusable or goes unused. This would help reduce what is certain to be unnecessary from the load.
+- Allows swift reaction to Production issues.
+- This solution can be deployed within virtually any system

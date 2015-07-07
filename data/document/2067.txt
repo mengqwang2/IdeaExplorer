@@ -1,0 +1,15 @@
+System Monitoring 
+We ship our product as appliance to customers which has application server. out product and Database.
+There is no monitoring of the health of the system provided.
+For example, Graphical representation of the CPU utilization, memory, Process details.
+This will help customer to know what and when is the load high on the system.
+
+We have seen lot of system related issues and we can be proactive to those issues.
+
+Add plugin or open source monitoring tools to the appliance to provide system level details.
+This will also tell us the utilization of the system resources.
+If more resources are needed we can proactively increase the system configs as well.
+
+- Customer knows whats happening in the system and avoid production down situation. 
+- Keep track of the history of the system.
+

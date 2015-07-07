@@ -1,0 +1,15 @@
+Cloud computing student to student contest
+The idea is a breakthrough to young talents. It penetrates the education sector and sponsors the new generation that shows intereset and remarkable thoughts in the cloud computing and big data science.
+- The idea came to me from the Lotus Formula 1 team that has pointed EMC to rebuild its IT infrastructure and provides cloud based technology that will help them analyze the big data that could be over 25 megabytes per lap for 1 car.
+- http://www.emc.com/about/news/press/2013/20130529-01.htm
+- Announce about a program that includes interactive sessions about cloud computing and big data that will end with a project to be delivered by school students between 14-18 years
+
+- Select a school or students from different schools (20-25) as a startup phase. Selection criteria would include IQ tests, interviews,  math and computer grades
+
+- Will need a place equipped with computers and access to cloud computing platform to give sessions about cloud computing models and technologies, Big data analysis & tools, mathematical algorithms. Sessions are to be interactive with games and small assignments 
+
+- 1 session/week for 3 months and at the end the students will be divided into 4-5 groups and assigned a coach to enter a contest with the theme of “what is your future high school graduation grade ". They will need to choose a proper cloud computing model that will be flexible to enter their grades, their teacher’s feedback and use mathematical algorithm to analyze the included data and predict their future grades upon their past grades in different subjects. Also could add mobile access to the model used.
+
+- The idea will give EMC access to the Education market and could build its model starting from younger generations.
+
+- EMC on the long run could benefit from this program by highlighting the rookies and the stars and sponsoring and developing the students that are the outcome of this program

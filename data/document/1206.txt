@@ -1,0 +1,10 @@
+Security as a Service (RSA Administration as a Service) in EHC Solution
+Administration of RSA Authentication manager can be provided from vCAC portal. This will be added value to customers who are using RSA Authentication manager and EHC. This can give business group admin access to create/remove users in their department. Also approval policies can be used for approvals before any actions performed.
+This requirement came from one of our client Capgemini. Me and Rajesh Marella worked on find options for such solution.
+- RSA Authentication manager can be managed using REST API calls
+- vCO can be used to make REST API calls to RSA Authentication manager
+- Services can be designed and scripted in vCO workflows to get desired output.
+- This vCO workflows can be published in vCAC as catalog items to request services.
+- This services can be entitled to end users or department admins to request
+- vCAC approval polices can be used to have control over any change
+This can be very useful offering for customers. RSA being in EMC's Federation this can be a value add for RSA and EHC customers.

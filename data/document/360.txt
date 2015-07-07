@@ -1,0 +1,9 @@
+Networker Server consolidation
+In PS, we get a few projects where we need to merge multiple Networker servers into ONE. Customer has many NW datazones backing up to their respective sites.Now they want to merge all those datazones into ONE and backup from one central location. Earlier we did not have Client Direct feature but now they want to leverage Client Direct and backup ROBO sites to ROBO DD targets and then use CCR for replication from ROBO to DR DD.
+I got a couple of projects where customer wanted to merge multiple NW Servers as they were consolidating their datazones.
+https://inside.emc.com/docs/DOC-156105
+The solution can be delivered from PS by engaging engineering similar to RPQ process (which are not in standard support or configuration)
+Work with engineering and find out what are the challenges and how to address them (atleast it can be PS service and not customer doable).
+We can create a separate PS for NW Server consolidation.
+Customer does not have to manage multiple Networker servers for ROBO sites. One NW Server and DD at ROBO sites will perform Client Direct backups.
+No other backup product has this Client Direct option (except Avamar to DD). Sell smaller DD for ROBO sites; one large DD for Main or DR site for CCR. We can use this service to consolidate NW datazones and deploy smaller DD at ROBO sites.

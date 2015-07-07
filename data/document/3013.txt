@@ -1,0 +1,6 @@
+Use EMc internal Crowsourcing to excelerate product development
+3rdplatform EMC Code: a new approach to the devilment process within EMc by involving talented people from EMC from all over the world
+when listening to a science podcast about fold.it the idea came to me that this has potential also for EMC
+Build a portal portal where problems and tasks from engineering are published and people can apply to and post solutions for the tasks.
+May be a concept like fold.it is a good example
+promote 3rdplatform thinking. Unleash the full potential of EMC talents

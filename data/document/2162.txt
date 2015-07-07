@@ -1,0 +1,7 @@
+Out of Office for Engineers as well as for customer's to be updated automatically in the SR.
+Its very difficult to get information on customer's availability , which hits the TTR of the SR also it becomes difficult to track customer via email/call. For which we also keep sending multiple emails and at the end we close the SR with 3 strike .  
+As updated on the Problem summary we can have this idea implemented on the SR creating tool.
+My solution here is that we can at least have a field to update automatically where in customer/engineer can update there status on the SR so that we can be on the same page and process accordingly.
+Time saving for customer as well as engineers.
+Backlog will be reduced.
+Clear communication and expectation will be set .

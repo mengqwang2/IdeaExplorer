@@ -1,0 +1,9 @@
+Efficient and cost reduction approach for Communication and collobration
+ Currently Employees use Webex to communicate with peers when they are out of office. The solution we suggest is to enable utilization of voip as alternate communication channel there by reducing the cost company pays for webex and enhancing employees experience with the better collaboration.
+We often end up with taking calls outside office hours and utilize webex to dial in to the toll-free bridge to communicate with the team located in other geography. We figured using this is costing the company more than having a direct call. With the cost benefit of VOIP we felt that can be even reduced.
+Lync communicator provides an efficient collaboration between the employees while both the parties are available in Lync, but when one of them is not available we end up using webex to manage the audio call. Being a global organization, the collaboration happens across different geography. The solution we propose is to have the VOIP client installed in Employees laptop/mobile, that the employees can utilize to make one-to-one or conference call.
+1. Cost saving for EMC.
+2. Effective collobration between team even in different geography
+3. Ability to support on call helping to increase productivity
+
+

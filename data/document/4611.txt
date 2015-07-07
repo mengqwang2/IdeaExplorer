@@ -1,0 +1,11 @@
+Smart Conference Room Management
+
+While pursuing a MSEM at Tufts University, we had the opportunity to meet with iRobot as part of a Business Strategy research project.  We noticed that they were implementing a smart conference room management system where there was a touch panel outside of each conference room.  The first thought that crossed our minds was, this is a problem that we face at EMC every day and an ideal solution to the CRFF problem.
+This solution:
+1) Indicates if the room is booked or free 
+2) Provides conference room details (ie. room capacity, room features, meeting times/duration, room availability, and an option to book another conference room for your meeting right at that time)
+3) Cancels conference room reservations if the room remains idle for an allotted amount of time
+4) Integrates with the existing email infrastructure
+
+We are only aware of software solutions where there is a dependency on the owner of the reservation to make updates if necessary.  These updates rarely happen.
+

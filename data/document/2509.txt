@@ -1,0 +1,7 @@
+Everyonesells next step - mobile application for CS Field teams
+It will improve TCE as we will be able to report in real time what customer has mentioned about EMC, EMC products, current concerns about technology and competitors.
+This idea came ti my mind few days ago because I think we are losing important feedback from our customer. The CS Field team is like a sensor, we are close to customer when they have problems and in this situation Customers are very honest 
+The idea is to improve the current WFM Servigistic Mobile App to help CEs to report this feedback in real time. We can classify the feedback in 4 categories: Clear Lead identified, Customer concerns about new technologies, Customer feedback about competitors, Customer feedback about EMC. 
+Promote the “Everyone Sells” culture with this easy step during the ticket reporting. Increase the value and visibility of the local CS Field Team
+Increase TCE and Revenue. Reduce the focus and pressure on the KPIs related to ticket management.
+

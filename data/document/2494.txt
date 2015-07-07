@@ -1,0 +1,28 @@
+How to reduce the manufacturing cost and efficient use of Supply chain to sustain in cut throat competitive environment.
+Idea to reduce the cost by efficient manufacturing and use of supply chain. It also helps in go green initiative and TCE
+During my MBA I have got the opportunity to visit manufacturing plants and got real-time experience on manufacturing and supply chain. 
+I have divided problem in to two pieces: 
+1.) Manufacturing Cost reduction 
+2.) Efficient use of Supply chain
+
+1.) Manufacturing Cost reduction can be done by:
+•Implement Lean in manufacturing plant and cultivate culture where people start avoiding the non- value add activities.
+•Shift manufacturing constraints to supplier or market.
+•Visual display control mechanism has to be introduced so that by seeing piled up inventory in process previous process will stop over production.
+•Better utilization of EOQ in Raw material and discounts will help a lot to control the pricing.
+•Wastage has to be minimized by introducing CIPs to each process
+•Use the gravity for sending material from one process to next process. This will not only help in reducing the cost of power also it is helpful in energy saving.
+
+2.) Efficient use of Supply chain
+•The Trucks which is bringing the raw material should be used for sending the final goods from plant so that two side waste of time will be reduced which will improve the lead time.
+•In case of hill station or tuff geographic places, introduction of Roll on Roll off will help.
+•Roll on and Roll of will be more effective where drivers are trained to perform some task during the travel on train.
+•Introduce cloud technology as heart of supply chain so that from plant till distributer everyone has real time updated information and marketing people can take more orders and will be in sync with operation. Supply chain software should be trailered to meet EMC2 requirement.
+•Segment your supply chain on various parameters and then operating cost will be low.
+
+Success factor:
+1.)Manufacturing cost reduction will help EMC2 to compete in Market.
+2.)Attract customers and economy of scale
+3.)Provides an opportunity to shift constraints to supplier or market
+Benefits:
+1.)Efficient supply chain helps in Lead time reduction

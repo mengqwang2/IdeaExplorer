@@ -1,0 +1,11 @@
+Voice recording mobile application for submitting ideas 
+Mobile application that can be used to benefit EMC employees as well as normal end users
+Hearing people around me say they have ideas all the time but never the time to properly write them down. And when I ask them about the ideas a month later or so, they have normally forgotten what it was.
+We can make an application for cellphones and add a feature of voice recording the idea. The recording could be saved on an innovation portal that is open all year long.
+This will make it much easier for us to submit ideas before forgetting them .We can submit them at any point of time even if we are on our way to work, stuck in traffic, laying down in bed. It would be like noting down what crossed our minds before forgetting it and without any extra effort to formalize it.
+We can save and enhance the idea later or submit it as it is and a responsible team for innovation evaluates those ideas and helps us refine them and write them down when the competition starts in a formal way.
+
+EMC products can be used for storing those ideas.
+Millions of dollars are spent on the R&D department to come up with new creative ideas to bring to the market and people are EMC’s biggest asset and the innovation culture is in their blood. If they are equipped with better methods and tools that help them note down their ideas before they forget them and without them spending too much time on refining them, we would have much greater resources and more creative ideas than we have now.
+We can modify and sell this application to non-EMC employees to help them note down their ideas in an easier way and enhance them later on. It could also be used to remind them with daily tasks by voice recording their to-dos and saving them in different folders. The app could be also be smart enough to write down what we record by voice on its own which would save us a lot of time and make it a more convenient application. Aside of having better innovative resources, this will be considered marketing for EMC through the appstore and play store for all end users and at the same time it will bring money if the application is made with fees.
+

@@ -1,0 +1,9 @@
+Centralized software library across EMC
+Same software's or media are being downloaded across different Business units due to unavailability of software library
+Since We work for EOS2 across different BU's we need to every time check in case of unavailability of media or software from other BU engineers, sometimes it may take more than days to get access or details of availability of the software.
+We can have centralized software media repository server which can be provisioned through isilon or syncplicity for better access control list & availablity.
+
+This avoids same software being downloaded by different engineers for their work needs.
+
+This saves time & network bandwidth & faster provisioning of environment for different project needs
+It will improve Engineers productivity.Will be able to meet customer requirements at faster pace .

@@ -1,0 +1,22 @@
+How can you save Carbon Footprint in your community?
+
+Recently there has been a global contest on "Your role as being a Citizen of Earth" for my 9 year old son. In helping him prepare for the contest, I realized any change can be made by one person and there are number of pressing problems in the communities across the world to solve. 
+2. An overview of how your contest would work: 
+
+The portal would have the intelligent algorithm and interacts physical to virtual by analyzing drivers routes based on the registration information. It then sends auto alerts to the drivers about the preferred car pool partner. It also calculates savings in Carbon Footprint and sends this information to all drivers every day thus encouraging them to continue.
+
+a. Contest structure?
+
+This would be a group contest and can be posted to all colleges/schools in the community by providing an information packet on the Big Data, Cloud and Trust. 
+
+b. Timeline?
+
+The contest timeline would be for 90 days
+
+c. Logistics?
+
+Information packet
+EMC Advisory team that can take questions and provide answers to the contestants
+EMC Assessment team to assess the entries.
+
+

@@ -1,0 +1,6 @@
+VNX App Store--Software Defined VNX Next Gen Management Maketplace
+
+User Experience Anywhere--Browser, Mobile,Pad. Using existing technologies to convert Web applications to Mobile
+The Unishpere GUI is a platform with APP store embedded. Native base function by default, and user and add more App like QoS, Metrics(lots of stats can add), etc. 
+Same GUI using HTML5 and JS to generate to Mobile App, seemless experience in Mobile and Pads. 
+

@@ -1,0 +1,13 @@
+Link Educational Tracks to Career Paths
+
+ The idea came up when we saw many employees try to decide which training they need to develop the skills needed for certain job. They used to ask peer employees. We have thought of making this career advice an easy and accurate task.
+
+
+ 
+The idea aims at linking education tracks to their prospective career paths. This can be done by :
+
+-	Link certain career path to the set of courses and skills needed for this career
+-	Each course/training has certain amount of points it adds in certain career path depending on the level of skills it provides to the candidate employee (for example : Expert training in VNX adds more points than the specialist level in the VNX support career path)
+
+
+

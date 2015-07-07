@@ -1,0 +1,11 @@
+Integration of inventory and lab ticket management 
+
+Facing the issue on regular basis while opening lab tickets and while trying to locate a component's inventory detail.
+
+Currently very difficult a generate a customized report for component availability, status, location ...etc
+By having a Inventory management tool which helps to list the components in a required manner(BU wise, Instance wise, location wise, component wise, Type wise, etc...)integrated with a ticketing system, one can select the individual component displayed in the inventory page and right click to open a service request on the same page. 
+This action would automatically raise a Lab service request along with required information(Device type, location, IP, serial#...etc).
+
+The same page will also display service ticket status along with the component's status.
+This can be extended for automated report generation related to overall inventory and also service activities.
+

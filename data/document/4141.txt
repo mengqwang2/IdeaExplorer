@@ -1,0 +1,10 @@
+XIO mini-rack process improvement
+
+The idea arose from an Initiative to increase XIO capacity to accommodate future volume projections.  The team includes Enda McGrath, Denis Moran, Vincent O'Neill, Charle Esaw, Paul O'Keeffe, Dermot Hennigan, Virgil O'Brien and Derek O'Donoghue.
+Given than ~80% of XIO bricks ship in mini-racks, we have an opportunity to streamline this process by building bricks into mini-racks initially, performing the SVT and FC test in the mini-rack. 
+In order to increase the floor utilization the Mini-racks can be tested in a Test Rack which is 3 units high. As the Bricks are now physically independent,  they are not delayed by the performance of other bricks in a Cab, which reduces the cycle time from 65 to 52 hours (25% reduction)
+
+Also, once Test is complete, the CTO element of the process is reduced from approx 1 hour to 10mins, as the Brick(s) are already in the mini-rack.
+
+Once this idea is developed further, a further enhancement would be to combine SVT and FC, which would deliver further savings.
+

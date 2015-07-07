@@ -1,0 +1,14 @@
+Identifying Information needed constantly traveling across Federations.
+The Ireland COE has an issue that there are multiple locations for the EMC federation, meanwhile there must be information being shared between each federation/site.
+No history, just brainstorming.
+The solution will be as follows:
+
+- Identify what is the type of information that doesn’t change or frequently needed from intersecting departments/federation.
+
+- Each department/site/federation needs to create a list of the missing details from other departments/sites/federation.
+
+- After following the previous steps come up with process or a template that will be studied and built to help the data travelling process.
+
+
+
+If the proposed idea is implemented, it shall cut down the time and push backs needed to complete a certain task or process significantly across many departments and federations, eventually leading to easier collaboration and comunication.

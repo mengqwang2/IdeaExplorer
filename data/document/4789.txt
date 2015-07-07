@@ -1,0 +1,5 @@
+multi-year e-government Service project over EMC 3rd platform system.
+
+idea generated while reading an article about new electronic revolution of some Arab countries.
+3rd Platform is built on the four technology pillars of Big Data, cloud, mobile and social, EMC will use its huge capabilities of 3rd platform to put in place the core infrastructure required to move the large majority of governmental countries processes ,implementation will include software, hardware, services and research, hosting and so on. EMC should help governments to securely host the high volume of transactions associated with the large-scale delivery of online services to citizens and enterprises, enabling access to government services in minutes and hours, rather than the days or weeks traditionally required
+

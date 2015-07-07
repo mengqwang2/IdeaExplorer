@@ -1,0 +1,15 @@
+Hospitals and Pharmacies records used for various studies.
+
+1. The information can be used to forecast occurrences of seasonal infectious diseases.
+2. Trend of transmitted diseases can be calculated / forecast and its true impact on population.
+3. If we see a downturn in disease spread in some locality, the combination of medicines used to tackle the problem can be communicated to other hospitals.
+4. A patient’s proper medical history can be studied for better treatment.
+5. New epidemics or occurrences can be predicted before its too late and proper treatment can be made then.
+6. Generally we see a communication gap between patients willing to go for medical trials and companies performing such trials. Many patients are unable to avail this facility even though it’s available.
+7. With proper information available on selling of medicines, medical companies as well as govt. agencies can check which are medicines on fast selling track and need not invest on expiry research and same can be done on other medicines that don’t sell so fast and has low expiration duration and needs researching.
+8. Govt. agencies can track which medicines are fast selling and should be subsidized instead on relying on archived / market research data which on lot of occasions are not real time based data.
+1. Once a patient comes to a medical institution, his/her details (name, age, other details such as PAN/Voter ID/Aadhar no.) to be entered to keep a unique identity in the tool.
+2. Symptoms of the diseases to be updated in the record and if possible treatment details can be updated for historical studies in the tool.
+3. Whether patient is willing to undergo medical trials or wants to donate any organ (with proper documents) will be updated in tool.
+4. Medicines sold in pharmacies to be updated in a tool, this can be assisted by integrating the tool with native billing tools present in the shop.
+

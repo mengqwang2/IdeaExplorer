@@ -1,0 +1,55 @@
+A Converged Cloud and Big Data Platform for Startups
+
+The Triangulum project from Office of CTO has proved that converged monitoring, orchestration and automation are the missing parts of 3rd platform. From customer's perspective, they want a converged cloud and big data solution to meet their increasing computing, analyzing and storing requirements.
+
+Thus we want to extend our thoughts to provide such converged platform with monitoring, orchestration and automation.
+EMC, VMware, Pivotal and industry already realized these challenges and there are some solutions to resolve one or more challenges:
+
+1)  Hadoop provisioning and managing challenge. The principle of Hadoop is to use massive commodity hardware to gain analytics capability vertically. But it is not easy to scale out/in when customer’s requirement changes in time. Also customer wants to fully use their existing investment on virtualization and storage array. Thus Virtual Hadoop solution is uprising for these kinds of customer. 
+
+a) VMware’s Big Data Extension (BDE). Big Data Extensions enables the rapid deployment of a Hadoop cluster (could be different Hadoop distro including Pivotal HD) on a VMware vSphere virtual platform. 
+
+b) OpenStack Sahara. Sahara could provide users with simple means to provision a Hadoop cluster at OpenStack by specifying several parameters like Hadoop version, cluster topology, nodes hardware details and a few more. Also it could facility the execution of Hadoop jobs on clusters created from Sahara to provide data analytics as service to customer.
+
+2) Storage array HDFS native support. If storage array could support HDFS natively, then the ETL process could fully leverage storage’s data services since production and analytic data are in the same storage system. Also the data replication could be eliminated since storage has more advanced protection mechanism. If HDFS or other data path protocol like NFS could mapping the same data, then data ETL could be eliminated if we could carefully design the production system.
+
+a) Isilon HDFS support. EMC Isilon could combine a powerful yet simple and highly efficient storage platform with native Hadoop integration that allows you to accelerate analytics, gain new flexibility, and avoid the costs of a separate Hadoop infrastructure. It has following strengths: No Ingest necessary; Name Node Fault Tolerance; Eliminate 3x mirroring; Multi-protocol access; Simultaneous Multi-Hadoop distribution support; Smart-Dedupe for Hadoop; SEC 17a-4 Compliance; Kerberos Authentication; Application Multi-tenancy
+
+3) Separate computing and storage in Virtual Hadoop deployment. If HDFS and Hadoop computing framework could be deployed separately, computing and storage could be scaled separately for different scenarios. 
+
+a) EMC Hadoop Starter Kit (HSK). HSK is intended to simplify all Hadoop distribution deployments, reduce the time to deployment, and the cost of deployment while leveraging common IT technologies such as EMC Isilon storage and VMware virtualization. They have published several whitepapers on deploy different Hadoop distro with Isilon via using BDE.
+
+There is one missing part that current EVP and industry solution could not afford: A unified orchestration and management system for converged cloud and big data solution. This orchestration and management system consists of:
+
+a) Unified Orchestration Portal from Bare-metal to Customer’s Application (https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014001947) could provision EMC storage, IaaS, PaaS and customer application plus Hadoop in an automated way.
+
+b) Converged Monitoring upon Vertical Cloud Stack - Make EMC Storage more Competitive for Cloud (https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014003460) could monitor the entire stack from application, Hadoop, PaaS, IaaS and EMC storage to understand the running status and healthy status.
+
+c) Data Driven SDDC - Unmanned Cloud Vehicle 
+(https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014003072) could make data center operation more intelligent and automated.
+
+So the scalable architecture of converged cloud and big data platform in our mind is:
+1) Isilon as high performance and analytic storage. Also other storage, like EMC VNX/VNXe, could be integrated.
+
+2) OpenStack or vCenter as IaaS management suite. 
+
+3) Pivotal CF as PaaS deployed upon OpenStack or vCenter.  The deployment will be automated by our orchestration engine.
+
+4) Pivotal HD could be deployed on-demand on OpenStack or vCenter by Sahara or BDE. Our orchestration engine will orchestrate the requirements from user’s application and provision/scale Pivotal HD according.
+
+5) Monitoring server will be running in a separate physical machine (also could be a cluster) and agents will be deployed at VM/Host automatically by orchestration engine.
+
+6) Orchestration and management tool suite will be running on a separate physical machine (also could be a cluster).
+
+A typical scenario: 
+1) At day time, scientists from different labs around the world will do experiments and input experimental results to the applications running on our converged cloud and big data platform.
+
+2) Thus at day time, more computing resource will be provisioned for these production applications. The resource could be VMs, DEAs (application running container), data services (database) and other PaaS/IaaS components. Also storage resource will be provisioned for these kinds of application.
+
+3) At night, when all the experimental results have been stored, some analytics jobs will be executed against these data and historical data. 
+
+4) Thus at night, the production resource will be auto scaled in and analytics system will be provisioned or scaled out to do the analyzing work. Because all the data are in the same storage platform, no ETL process is needed and a huge amount of time could be saved.
+
+5) Next day, after analytics job completed, analytics system could be scaled in and production system could be scaled out.
+
+

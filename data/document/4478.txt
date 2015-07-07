@@ -1,0 +1,7 @@
+Geo Spatial and Predictive Analytics for resource optimization/supply chain planning
+
+Perry Mergelsberg, the operations manager for western region has a use case  for finding the location proximity. He wants to find out for all the zip codes in the western division and how far are they from the service center.The current task used by the operations manager is extremely manual, very time consuming, tedious and prone to errors. We did Alteryx PoC to find the location proximity from all the service centers in USA.  
+•	Use geo spatial data combined with the customer, partner and field engineer locations.
+•	Provide very intuitive GUI based solution to divisional operations managers with a complete visibility of customer proximity to partners/field engineers, current work load, inventory availability, customer install base and product issues visibility.  We are also looking to build a predictive model using Alteryx to provide recommendations on where and how to optimize resources.
+
+

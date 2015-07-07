@@ -1,0 +1,5 @@
+Enhanced Mobile Device Experience
+At the heart of EMC's business is Data. The journey to the 3rd Platform is going to enhance the utilization of mobile devices and how they operate. EMC employees too need to be able to leverage this technology to improve communications, resource utilization and overall experience.
+This idea was mined using an IGS. It scored high up in the overall groups suggestions. People felt expensive DECT phones are wasteful and outdated.
+Allow EMC employees to automatically connect to an EMC internal network with their devices. Even if you have a personal device only, you could accept terms and conditions to access. Allow all employees with an EMC device to access 4G. Increase the 1G data limit; file size is always increasing.
+Employees come to work, the network automatically identifies the phone and connects to your EXT specific network. No DECT phones. This will save money and make for a better employee experience. Less Bulk, less cost and more ease of communication. 4G and increased data allows employees to access data with ease and piece of mind.

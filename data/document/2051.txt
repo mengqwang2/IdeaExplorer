@@ -1,0 +1,28 @@
+STEM Connector App
+This app will help in connecting the employees(mentors) with various schools
+Own thought process
+STEM Connector App will helps in connecting the mentors with various schools. Following are the list of modules/features of this app.
+
+* Login Authentication
+* Authorization of different modules 
+* Employee Registration (Mentors)
+* School Registration 
+* Partner Registration ( Eg: VEX Robotics, Other partners etc.)
+* Opportunity Registration (Eg: A mentor required for Robotics course(1 hour); An advanced guide required for science fare demo)
+* Employee List
+* Schools List
+* Partners List
+* Oppurtunities List
+* Centralized dashboard
+
+The work is in progress. Screenshots of various features are captured here - https://inside.emc.com/docs/DOC-154930 . 
+
+Front-End : The front-end of this app is being developed with ExtJs4 and hence it works seamlessly in different browsers(IE, Mozilla, chrome etc). As the underlying technology is from Sencha it can be seamlessly ported to any mobile platform without any extra effort (SenchaTouch).
+
+Back-End : Back-end is being developed with Spring & Mongodb. As Mongodb is a NOSQL database, this app will scale easily.
+
+Deployment-Platform : Final app can be deployed on a Virtualization platform like Vcloud Director.
+
+
+
+Helps in community service of the organization

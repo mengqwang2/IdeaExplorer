@@ -1,0 +1,29 @@
+Documentum as a Service & Use of Open Source Technologies
+- Usability enhancement for Enterprise content driven solutions
+- Easy Access of Content, Anytime  anywhere
+- Seamless Integration with applications
+- Using EMC core products and technologies to leverage the capabilities of Documentum
+- Use of Opensource technologies to rejig the tightly coupled existing environment to make it better suited for latest market demand
+
+
+With the growing need of content management and for an enterprise and data mining techniques using big data platform and analytic tools. We need a very powerful Content management system that can meet the market growing needs.
+To achieve that EMC is well capable of providing the same with it's products like Greenplum for analytics, Pivotal for the cloud platform, Spring for Rapid application development.
+Keeping in mind the journey to Cloud and moving towards 3rd platform we propose our Idea.
+With the use of Opensource platforms and technologies we can have isolated Documentum functionalities available as a Service to us within Pivotal, which would leverage EMC cloud platform.
+These Documentum Services can be used inside any application just by linking the end-point to it.
+We can have the Front end developed using any opensource technology like Angular, Bootstrap jQuery etc.
+Providing these Services would make integration with Spring platform easier.
+We are well aware of the fact that more than 70% of the whole enterprise apps are built using Spring. Providing a Spring integration API in Documentum would be a huge plus in the Developers community. The solution would not be bounded by technologies. We can have this integration for Ruby, .net, Java etc.
+
+Building an analytics module on top of the Enterprise Content.
+Most of the time to enhance business sales we would require answers to some basic questions like
+ - How many orders were placed in California.
+ - The Sales graph for any region
+ - Which product is most popular among our customers and partners.
+ - Are there any abnormalities in the System.
+
+The question list can be endless, And to answer all the questions we can integrate a big data and analytics module with the content server.
+- Documentum API for Spring would be used to easily integrate Content management capabilities to any application.
+- Open Source customization's can give developers and business owners the choice of technology stack they want for the application.
+- Providing services of documentum core functionalities would eventually increase the usage of docbase content servers. 
+- mobile friendly interfaces would enable end users to access and use their application anytime - anywhere.

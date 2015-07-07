@@ -1,0 +1,7 @@
+Video websit solution for traditional TV manufacturer
+
+When I'm choosing a new TV for my home, I notice that most of the TVs are capable of browsing content on internet and with android system installed. Some of them provides some special service like watch programs played several days ago. The content is stored on their own server. But the performance of the server is very poor. Then I come up with this idea to help such traditional manufacturers transform into internet life.
+EMC provides a set of cloud-based solution to help traditional TV manufacturer setup the high available online video website to make up their weak points. The solution enables the traditional TV manufacturer:
+1. Easily deploy streaming media service.
+2. The storage is enhanced to fit for streaming media service and high available.
+

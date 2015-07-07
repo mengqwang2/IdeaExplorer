@@ -1,0 +1,12 @@
+memcached / redis hosted on the XtremIO nodes
+Merge XtremIO AFA with 3rd platform databases (key-value stores)
+Thought about it after reading a bit on memcached.
+As XtremIO is running Linux, it is very feasible to run some containers directly on the nodes. The possibility of running containers with either memcached or redis key-value store database is particularly interesting, for several reasons:
+
+- We already have an active-active scale-out cluster (the XtremIO cluster as a whole).
+
+- They can easily share memory (via the RDMA infra.)
+
+- They can store their data on the XtremIO directly.
+
+A product offering (a variant of XtremIO offering)

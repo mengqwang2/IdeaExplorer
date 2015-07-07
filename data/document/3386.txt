@@ -1,0 +1,5 @@
+Sports events Mobile Application
+
+-
+A cloud based mobile app for sports events that should give you the directions for your seat and the nearest exit, free parking slots and an option of viewing the event's most important highlights, the application could also be used for e-marketing that could be used by event’s sponsors.
+

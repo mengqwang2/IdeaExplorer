@@ -1,0 +1,5 @@
+Innovation Portal Mobile Application
+N/A
+Orignally, I wanted to submit and idea to the innovation portal, I didn't have my laptop nor I was in the office at the time. By the time I was able to submit an idea, I couldn't remember all the details of that idea. Therefore, I thought if only we had the innovation portal on mobile. 
+It's a mobile application of the innovation portal. Submitting ideas on the go, no need to be logged it to the VPN, or in the office to submit an idea. Also, can be working all year long to document ideas, and publish against challenges when the showcase begins. You can login to it using the ntlogin, and RSA token.
+N/A

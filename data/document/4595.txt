@@ -1,0 +1,5 @@
+Google map based employee pickup alignment
+
+.
+Marking the pickup point in google map based tarnsport management software so that transport can easily club people from one particular area as per the Visual route instead of mixing people from different areas
+

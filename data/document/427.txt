@@ -1,0 +1,7 @@
+EMC Vertical cloud for Healthcare IoT 
+Healthcare vertical is one of the most important vertical market and it is on the verge of big disruption due to the emergence of sensors, wearables, telemetry and analytics. EMC federation got the right set of components for building an industry specific vertical cloud along with partners. It is inevitable that healthcare is extending beyond hospitals to peoples home and other settings of life.
+We had built the architecture and figured out the solution details for building vertical cloud for healthcare IOT with existing EMC portfolio and partner components. We had also piloted this idea with an existing customer
+
+Solution architecture is uploaded here - https://inside.emc.com/docs/DOC-156040
+Our solution consists of a edge gateway which collects data from medical sensors and sends data to the cloud using MQTT telemetry protocol. The date is ingested using Pivotal rabbitMQ and passed through a clinical decision support system on Gemfire. If the vital is beyond threshold, care-coorodinators will intervene. The data is persisted on data lake for more insights. Also the system can ingest existing health record data through HL7. Realtime dashboards are available for doctors, nurses and patients
+Successful implementation of the idea will help federation to enter into healthcare vertical cloud. Also it will result in dramatic expansion of our TAM. The same IoT solution with little customization can be applied to energy, transportation etc. 

@@ -1,0 +1,7 @@
+Intelligent parking app
+Parking your car in modern cities has become a major problem coasting a lot of money on fuel and time spent in searching for empty space. a smart city must have a solution for this problem
+N/A
+an app where parking lots will register their available spaces and when people park they will register the place of the car so they can return to it easily.
+any one in the area will now if their is a place in this park or not before going their to find that it's completely full.
+moreover a rating system for each park.
+High participation rate from both drivers and parking lot managers

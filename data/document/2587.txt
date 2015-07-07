@@ -1,0 +1,17 @@
+Sizing process optimization
+My idea matches the Sponsor challenge E2E Horizon as its tackles all the points mentioned from delivering a simpler and more efficient business practice tool to enhance the end result for the mid-tier sizing process. It will help save both cost and turnar
+I've been working in this service for four years and I've faced challenges with having more than one tool. And the process keeps changing so if we create a joint tool this will unify the process and give us a more time efficient process.
+
+My solution to the above problem is as stated below:
+- Why not have one tool engaging all the other required tools? 
+	o Just load the NAR files onto a single tool
+	o Use it to get the existing array profile 
+	o Use the same tool to size new solutions based on existing profiles (which is currently done on DiskSizer)
+	o Finally export a presentation with all the graphs and values we usually copy manually (HeatMap, Skew, histogram, Block IO Profile, File IO Profile, trials of the DiskSizer pools in the new solution and the power calculator for the new solution)
+	o Export from this tool a project that could be loaded for further reviews or updates needed to the current project.
+
+- This will help us in the following:
+	o Allowing the service to process in a more time efficient manner by decreasing the human input (Less tools to deal with) and make the process of a more automated nature.
+	o The Turn-Around-Time for the service will decrease as the time we spend to load the files to 5 tools would naturally be reduced when we are dealing with only one tool. That is also in addition to the time saved as we would no longer need to copy a lot of values from one tool to another. The whole idea is to have an interface with a single tool.
+
+Success for me is to have a single tool that engages all the 5 tools we are currently using in the mid-tier sizing service where we can load the NAR file (source array files). And export the sizing presentation directly from the same tool. This will lead 

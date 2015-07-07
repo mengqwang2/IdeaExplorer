@@ -1,0 +1,17 @@
+Submit & Go
+
+NA
+A new wasy way of Supporting our EMC customers will be the "Submit & Go".
+
+The "Submit & Go" will enable EMC Customers to submit their problem through that portal and the issue they are facing with their devices.
+
+Once a problem is submitted an SR will be opened and the process will start by having one of our representatives/partners calling them.
+
+What happens now is that a customer calls and ask for help, an SR is opened, we try to solve the issue remotely, if it doesn't work, a field engineer takes care of it.
+
+This process take a long time.
+
+By having the "Submit & Go" tool, the customer will submit their problem and through the tool it will be taken care of, if it doesn't work, again through the tool a field engineer will take care of it.
+
+Throughout the whole process, customers could have access tracking their SRs
+

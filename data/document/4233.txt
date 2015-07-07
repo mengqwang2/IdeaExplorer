@@ -1,0 +1,26 @@
+Healthcare Data Management and Analytics-as-a-service
+
+EMC Labs China has established the collaboration on Big Data Analytics with a local healthcare company, Mylab China, which mainly provides Laboratory Information Services and healthcare IT integration solution. We have obtained more than 6GB of real lab test data provided by Mylab, and would like to start designing and building the data analytics solution based on this data soon. Another potential partner is Hainan Nongken Hospital, which is the one of three largest hospitals in Hainan province, China. They have a plan to build up a regional healthcare cloud with 3 3-A hospitals and around 100 community hospitals in recent years, and have the great interest in collaborating with EMC on the topic of healthcare cloud data integration and analytics. In their plan, the regional healthcare cloud will replace the traditional HIS systems in hospitals step by step.
+To solve the current challenge problem, we will focus on the following tasks:
+
+1) Requirement collection and data investigation
+
+Collect real data management & analytics requirements, and investigate the real healthcare data. Then, identify 1-2 appropriate and challenging ones as our main use cases for the solution.
+
+2) Healthcare Data Storage Model
+
+By studying popular distributed storage systems (such as MPP database, Hadoop, HDFS, HBase and other No-SQL models), we have an initial design of the appropriated data storage schema/format. The main idea is to utilize a hybrid data storage model to implement a multi-dimensional data model, i.e., using MPP database to store structured data, while using HBase and HDFS with index to store semi-structured and unstructured data. The flexible schema design and advanced features of the hybrid data storage model can speed up searching/querying performance and support the quick build-up the analytics model for constantly changing analytics requirements. In this stage, promising EMC products may include Greenplum DB, Greenplum HD and Isilon.
+
+3) Healthcare Data Management Platform
+
+EMC Documentum xCP is a powerful solution development platform that enables you to quickly create information-intensive, decision-oriented, process-centric, and case management solutions. We can leverage xCP to build a data management platform to manage various clinical documents, images, workflows, etc., and provide efficient full text search and document categorilization. The challenge may be how to let xCP support the underlying distributed data storage described in the above task 2.
+
+4) Healthcare Data Analytics Toolkit
+
+Based on the data storage model, design a data analytics model by parallel computing and MapReduce framework, and implement a deck of data analytics methods for multiple specific requirements, especially for multi-dimensional data statistical analytics. Greenplum MADLib will be applied to help design and implement the analytics model efficiently. Other potential components include Mahout, Hive and our existing data analytics technologies in EMC Labs China and IIG. All analytics methods will be implemented as a toolkit with a friendly workbench, and integrated with Documentum xCP to provide powerful analytics for healthcare data.
+
+5) A novel solution 
+
+According to the above work, propose a novel cloud-based solution framework to address the challenges of healthcare data analytics with some necessary experimental evaluation.
+
+

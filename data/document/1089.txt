@@ -1,0 +1,17 @@
+Securing IoT devices with centralized SSO
+As one of the fundamental infrastructure, security has becomes a key challenge in enabling IoT. This idea propose a solution for centralize the authentication and authorization of IoT devices via standard-based realization, with notable advantages in effectiveness, efficiency and extensibility.
+This idea is inspired by the pervasive security protocols that handling the authentication and authorization for web app or mobile app, e.g. OpenID, OAuth2 and SAML
+Using a centralized SSO mechanism for authenticate and authorize the accessing of an IoT device. The device accessing can happen for device-to-device communication or from any kind of client requests. The authentication/authorization process is conducted with following steps with three main player involved:
+
+1) The requester initiates accessing to IoT device, which redirect to a centralized Identity Provider (IdP) instead of authenticating the request by itself
+2) The requester logs into the IdP with his/her credential
+3) IdP generates a signed security token (if the login succeed), and redirect the request back to the device
+4) The device decides whether to grant access to the requester by verifying the received security token
+
+The above workflow can realized with any implementation that is compliant with some standard protocol, e.g. OpenID, OAuth2 and SAML. Accordingly, authorization can be achieved by augment the process with corresponding steps at the IdP side.
+
+
+1) No need to have an complete embedded authentication/authorization module in IoC device, which can be more cost-effective and in smaller footprint.
+2) The realization is based on standard, which make the solution widely applicable
+3) The existence of centralized IdP make the solution highly manageably and flexible. The upgrading of authentication, say with stronger multi-facet credential, is agnostic of the IoT devices (no further deployment cost required on the device side)
+

@@ -1,0 +1,26 @@
+EMC NCM & Smarts - Elastic Network Provisioning Solution (Addressing Telcos & Finance Verticals)
+This proposal is to going gain new market share in Network virtualization automations and root cause analysis engine via EMC Smarts for Telcos and Finance verticals.
+With an enormous & huge infrastructure will lead to tedious manual intervention of fixing networking issues, bandwidth issues, VoIP changes & mission critical application outages.
+Our ideation will automate troubleshooting above said issues along with embedded RCA analysis engine for understanding core problems by minimizing mean time to repair (MTTR). Increases app availability SLA's.
+This idea is been generated after discussing with EMC IT's lab team and having a word with ASD BU within India Innovation Workshop sessions.
+Designing Solution Templates - For daily errors seen in managing Telecom and Finance customers IT infrastructure. This is going to reduce huge man power in terms of configuring standard SNMP settings, Password roll outs, Enabling ACL's on all networking devices, Standard Banner changes on all telcom devices etc.
+
+Bulk Push Automations - NCM will provide an option to design automations via inbuilt library packages that can be rolled out on thousands of IT devices, which again reduces man power requirement and also by maintaing standard configuration management.
+
+US HIPAA & PCI Standards - Our ideation will meet the compliance set by US HIPAA and PCI groups for Device security, access & configuration standards.
+
+RCA Engine - EMC Smarts is having a backend RCA engine, which will helps Telcos and Finance IT departments to analyse & visualize mission critical application alerts. Early predictive notifications can be triggered for reduction in app outages.
+
+Integration of Alerting database with ELK stack - Helps in elastic search of a specific problems across all data centers at once with an help from ELS stack. Helps towards machine learning data models for understanding various app outages happening in a datacenter or specific to Telcos or Finance IT verticals.
+
+Elastic Bandwidth & Network Provisiong - EMC NCM will help us in desiging elastic WAN layer by consuming NCM API provisioning modules. Based on resource demands, network scalability will be increased or decreased.
+ --- End to end network provisioning automations.
+
+ --- Enables new market share, specifically in Telecom & Finance verticals.
+
+ --- According to Wikibon.Org, these products have a revenue generation to EMC roughly around 12 million dollars by a specific vertical like Telecom or Finance.
+
+ --- Using this solution in EMC IT for networking automations, provisioning & early predictive notifications for EMC's mission critical apps. (Demo Available)
+
+ --- Aligns better to EMC's EHC & Software Defined DC automations.
+

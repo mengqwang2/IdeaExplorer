@@ -1,0 +1,7 @@
+Location based tracking for the EMC Bus
+Contemproary Workplace by providing a smarter work environment to employees
+Idea came from waiting for a bus, not knowing when it would arrive.
+Put a real-time GPS tracking device on the EMC bus so that employees who take the bus are alerted to when it is outside and ready to go so that people dont have to wait outside for a bus that may be stuck in traffic. 
+
+People can use the time they save to spend an extra 10 minutes at work. No more lost time waiting around for a bus!
+It would be an app/website used to show employees the bus current location and how long it will take to arrive. 

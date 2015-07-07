@@ -1,0 +1,17 @@
+Crowed Sourced TCE
+
+First to mind was Spiceworks.  I have leveraged this tool to interact with the end user community.  Expanding on this for our large Enterprise customer I pulled on past project I owned.  Brocade NMS a SaaS based data center monitoring tool gives IT administrators a comprehensive view of their entire data center.  The Juniper's Junos Service Now and Service Insight provided a vehicle that went beyond Call Home and provided proactive analytics before a problem occurred and even could proactively send Knowledge Base article, bug notifications, whitepapers, and code updates to customers in open and secure IT environments.
+Think of a Facebook meets Google Vector Analytics for IT.  The foundation platform provides SaaS based monitoring and analytics for infrastructure and applications at no cost to end-users.  Users interact via a user defined profile front page.  Base on the user’s profile interest and infrastructure information is displayed back to users in real-time.  Users not only interact with their data but with other users and partners via communities engagements. The benefits to users, partners, and EMC are:
+•	Real-time user and partner feedback
+•	Real-time collection of user data across their IT environment
+•	Real-time technical and social interaction with users
+•	Business impact and Risk management
+•	Reduction of support calls
+•	Targeted marketing down to the device or application layer 
+•	Excellent sales tool
+•	Faster close time and implementation
+•	Ecosystem expansion
+•	Massive data intelligence of real-time IT trends, practices, and driving factors (Intellectual Property)
+
+
+

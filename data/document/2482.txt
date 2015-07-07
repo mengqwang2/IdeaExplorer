@@ -1,0 +1,9 @@
+Embedded Content or Documentum Server (ECS/EDS)
+Today Documentum server requires a separate server and separate configuration and maintenance required. The idea is integrating the Documentum content server inside the VMAX3 platform which supports Hypermax OS. Hypermax OS already supports Embedded eNAS 
+This idea was discussed with VMAX embedded application and content server product management.It looks there is a potential opportunities of this integration. 
+1. By integrating Content server with VMAX3 will reduce external configuration and server.ideally the cost for those will be reduced.
+2.Content server will utilize the VMAX3 resources and VMAX3 platform advantages. 
+(capabilities, security (DARE - encryption) , cloning, SRDF(remote data services etc))
+3. VMAX 3 has the data domain integrated backup , FTS for external and cloud array integration where old contents (cold data) can be moved to cloud.
+4. Services like code upgrade (content server) everything will be integrated.
+The idea would be successful if content server team steps in provides all the real use cases and benefits for the customers. for VMAX customers the integrated solution is always welcome one.

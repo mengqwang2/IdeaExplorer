@@ -1,0 +1,5 @@
+Mobile Application for EMC departments
+
+Since I joined EMC it was a constant comment in all round table meetings that employees need to be more engaged with other departments. Now with the 3rd patform technology and social networking, this solution can be easily implemented by creating this application which will be an opportunities to share ideas easily and increase cross-functional interaction.
+Design a mobile application that has a tab for each department in EMC where they can post their processes, challenges, news, blogs and activities.
+

@@ -1,0 +1,5 @@
+App for timecard
+IT contemporary workplace challenge: Timecard app on the phone/laptop/tablet provides better interface to submit timecards conveniently for employees from anywhere.
+This idea came up after the struggles to submit and approve timecards using Internet Explorer.
+Create an app for all platforms to enter your timecard. This will enable employees to enter their time from anywhere, even when they are on vacation to submit their timecards. This app will have features to send reminder messages to all reportees for a manager to update their timecards. It will keep employees upto date on their time off balances. This app will remove the dependency on the browsers and their versions.
+This app will reduce time to submit and approve timecards.It will also reduce the number of IT support calls, in turn saving EMC some money.

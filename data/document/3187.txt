@@ -1,0 +1,17 @@
+Automated Enterprise Reporting using Big data analytics
+
+When sending status reports every week, and see it being collated manually up the management chain, I felt that if this data is made structured, then it can be put to better use at the organizational level in an easy manner
+
+Imagine a company with around 35,000 employees (like most big companies), every team and project sending out status reports in the form of PPTs/XLSs/emails every week. Now multiply that by 52 for a period of 1 yr! Considering an avg team size of 10 ppl, thats a whopping 180,000 status reports a year! 
+
+How much of manual effort is required to process this up the chain!
+
+The proposal is to create a solution using a Unified Content Management Solution like Documentum XCP along with Big Data Analytic Solutions of Pivotal to create a highly structured way of status reporting along with mining the wealth of Big Data we obtain and analyze the working of the company and its health, from different points of view.
+
+Data filled in into a highly cutomized content tool will be operated upon by our Big data analytic solutions, every week/month and year to produce reports and graphs depending on the user who wants to see it (A BU head, CEO, CTO, Sales head /CFO etc). Much predictability can be done using this data.
+
+**The huge customer base of EMC Documentum can be leveraged to sell our Data Analytics products along with them by this solution.**
+
+More details at this location
+https://inside.emc.com/docs/DOC-100219
+

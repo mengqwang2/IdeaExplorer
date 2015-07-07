@@ -1,0 +1,27 @@
+Enterprise workspace solution as the EHC extension
+Enterprise Content Division (ECD) Challenge:
+- all elements would be placed on EHC and will extend EHC vision onto workspace field
+- solution leverages usage of Syncplicity with Isilon platform
+
+Office of the CTO 'New Business' Challenge:
+- In my opinion workspace market is still under penetrated by us. Solution will fill the gap.
+- It greatly synergizes with two main stream in current IT: Cloud and BYOD. Market is huge.
+Idea came from my experience with previous company - Capgemini. They offer packaged solution of workspace that provides VDI, office 365 and virtualized applications market together with file sync service but the lacked bigger picture. In Federation we can extend whole idea of Hybrid Cloud and put on top of its elastic workspace solution that could be cloud independent (easily moved between private and public).
+
+Status: internal evaluation
+My idea is to create bundled product that will contain:
+- VDI desktops (VMware Horizon) with preinstalled Syncplicity (backed by Isilon) available via self-service portal
+- virtualized apps (VMware Thin App)
+- BYOD management software (VMware Workspace suite)
+- O365 apps (via public cloud integration) available via self-service portal
+- everything vertically secured by RSA software
+As a success factors I would define following things:
+- cloud independence
+- rapid deployment at customer/cloud vendor premises (around 2 weeks)
+- hardware agnostic
+
+Benefits:
+- will make money from product licenses, transformation projects, backing hardware
+- will enhance customer work environment and enable full BYOD model
+- will provide great level of security by standardization and introduction of management software
+- will complete EHC portfolio

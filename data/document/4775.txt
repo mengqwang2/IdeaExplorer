@@ -1,0 +1,5 @@
+Webex chat team for customer support
+
+I got the idea from Webex technical support. 
+Customer come to chat asking for support for example to be added under site ID. I have to ask the customer for webex meeting in order to show him how to be added under the site. By this webex Customer will be educated on "How to be added under site ID" and if needs to add new user next time, he will do it by himself and not waist time in entering a chat or call customer support.
+

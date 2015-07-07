@@ -1,0 +1,14 @@
+Binfile Category Code
+It lets us better understand what problems are occurring on the products with certain configurations.
+It can give us leads to improve TCE, our products and the way we service our products. 
+When failures occur on a product, there can be so many failure types that we need an Error Code to distinguish between them. e.g. For VMAX 208.0480.73 - From this we know it was a power supply issue in the Disk Array Enclosure. 
+The idea is to also categorize the different type of binfiles/configuration we have on the boxes into Code and include this in Dialhome files and RMA/SPcollect log files (data collection files on failures).
+Talking to many teams from Engineering, Quality, SPL and Customer Support teams, they have these problems.
+It gives us the capability to summarize the customer's product's configuration which we had not done before.
+SYR canned Queries which are currently used to collect S/Ns with particular configurations are limited and complicated to create.  
+Even with this Canned Query result, we are unsure if it matches the configuration at the time the SR was created.
+
+
+1) Ability to run queries & correlate other data associated with particular Binfile types
+2) Understand how products are reacting in the customer's environment when set up with certain configurations
+3) Can run queries that match specific configurations

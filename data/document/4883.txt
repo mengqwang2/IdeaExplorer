@@ -1,0 +1,11 @@
+Use contribution point to encourage customer to submit feedback and requirements
+
+Many shopping malls have VIP/point card to encourage customer to consumption, maybe we can also have a try. 
+To gather the feedback from customer, field and partner by monthly or quarterly survey isn't an efficiently way, customers may not have time to complete the survey or can't provide all his/her ideas in a short period. But if we can provide a method to encourage them to submit their ideas to EMC themselves, it would be a win-win solution. Since smart phone and wireless network can be used or accessed easily now, why won’t we leverage these tools to help us to do the work? The customers just need to install an app in their phones, and then can discuss problem with EMC engineers or submit any ideas about the production at any time, it also would be easier for us to get the information in real time at the source. Here is a proposal,
+
+1. Develop/use existing app which can be installed to smart phone easily, the app can delivered with production or download, but only the registered user can use it;
+2. The end user can use the app to input their ideas to EMC, discuss with EMC engineers on line or get help/trouble shooting from knowledge base;
+3. To encourage customer to install and use the app, we can give "contribution point" as reward to then, if the customer install and register the app, he will get some points; if he submits requirement or concern, he can get more points, if the requirement or suggestion is valuable, he can get extra points;
+4. We should provide some ways to use contribution point, for example, customer can use his points to exchange for presents, get support services on-line, or get training opportunities.
+
+

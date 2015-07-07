@@ -1,0 +1,5 @@
+Open the hardware configuration sheet to the owner
+labman efficiency.
+When people use the labman to ask for the IP, sometimes they will get only IP, they need to submit another ticket to ask for the port or network mask or other information.
+Create a configuration sheet which include all the information of the array/host on the labman page, the owner of the hardware can search this configuration sheet.
+labman efficiency and be convenient to the hardware owner 

@@ -1,0 +1,23 @@
+Hyperscale data center business by EMC open platform and customization
+We are proposing idea to enter hyperscale data center market, fastest growing segment and has critical impact on IT infra, nowadays ODM is the top vendor.
+Hyperscale crazily impact many traditional vendors like HP, Dell etc, and will further thoroughly *reshape* infrastructure design. 
+
+Though OCP has fans and ODM offers lower box, the market has less loyalty as thought if better TCO offering available. We have unique strengths in the new era of rack-scale and soft-defined, we need to embrace, engage and maximize our return.
+ODMs like Guanta gain the most from hyperscale market due to its direct sourcing and lower *HW* cost,nevertheless there're many ways to cut cost such as optimization in supply-chain, guaranteed quality, time-to-market etc which are equally or even higher important to customers, in fact, EMC has unique strengths in those areas that can meet hyperscale needs and show advantages in the new era of rack-scale and soft-defined:  see 10-page slides in https://inside.emc.com/docs/DOC-155743
+
+1)Excellent platform design and plenty of intellectual property; proven quality and reputation over 30+ years, 2)Optimized global supply chain and industry leading support 3)EMC federation power and operation experience from EMC govern clouds like VirtualStream, Syncplicity, CloudScaling or even VMWare vCloud Air.
+
+Some reasons that we lacking of influence are insufficient community engagement and customization offering, so we propose:
+1.Open source platform and crowdsourcing: with 30+ years engineering experiences and IPs,now with vSAN, hyper-converged, rack-scale flash or even onRack and Caspian, VirtualStream, we are on the same direction as hyperscale. The next big question is to how to engage more customers/partners and maximize our return, so led by EMC, create open source or crowdsourcing rack-scale platform projects. Though OCP has some fans, our highlights include:
++ Unlike OCP focusing on component, we’re platform focused&optimized in density, performance,scaling,cooling,power etc
++ Unlike OCP focusing on HW box, we are software-defined oriented via OpenStack, VMWare or CloudFoundry
++ EMC selected IP and quality guarantee
++ Complete solution capabilities: consulting,customization,validation and support
++ Open: depends, we may cooperate with OCP or Intel Rack-Scale-Architecture.
+2. Customization and Time-To-Market: fully leverage Global Platform Engineering on customization for large hyperscale customers such as high perf rack-scale flash, high density backup and software-defined integration such as OpenStack. Comparing to pure community, we have advantages on dedicated resources and TTM.
+3. End-end solution:leverage global supply chain, strong solution and enterprise level support, we could focus more on high margin consulting or total solution delivery.
+It is initiated by open,soft-defined platform/project for engagement -> empowered by customization capability (both internal and external customers) --> maximized by total-solution. Typical external customer include large SP, private/hybrid cloud or even public cloud; Output include HW design spec, reference architecture, consulting, customization, validation, integrated platform and support.
+Benefits:
+1.Enter rapid grow hyperscale data center market via open project engagement, customization capability and total solution
+2.Accelerate EMCs Platform3 strategy on rack-scale/soft-defined
+3.Show EMCs commitment on open-source and community

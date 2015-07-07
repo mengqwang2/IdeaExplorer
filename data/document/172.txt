@@ -1,0 +1,5 @@
+Big data analysis for Special needs
+N/A
+chui facial recognition 
+This application or device where we can use big data analysis and storage systems for useful applications such as facial recognition with sensors saving all the information of the face and communicate it to the brain or it can be translated to a voice note
+IoT

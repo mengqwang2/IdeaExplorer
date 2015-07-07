@@ -1,0 +1,5 @@
+Lync Mobile
+
+Idea came when I was away from laptop and unable to attend the meeting. 
+Lync Mobile Client will help us to perform chat , email, voice and video from anywhere across the globe. 
+

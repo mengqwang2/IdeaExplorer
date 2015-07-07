@@ -1,0 +1,7 @@
+Automated De-Rating Verifying Tool that Improves Design Quality and Efficiency
+
+The idea came to me when I was taken a design de-rating training instructed by Jon Stewart and Paul Sandore.  The training showed us how important design de-rating is to the quality of a electronic design.  EMC has been using margin tests to cover the components variation but a fundamental solution to the issue is to put de-rating into consideration at the design phase.  We have a de-rating guideline but there is no automation tool to verify or check if a design complies to the guideline.  The check is done manually and it is error prone.  
+A database is created, holding the voltage, current, power and temperature ratings and its de-rating requirements for each components.  When doing schematics, each net is assigned a voltage property to indicate whether it is a source or sink and what the potential is.  The tool then calculates the voltage and current applies to each component and compares it against the database.  Any value that is out of spec will be flagged.  This tool could be embedded into the FAT check tool that is already in place for schematic integrity check.  
+Compare to current solution, few design does de-rating.  And most of them are done by human calculation.  It takes about two weeks for a moderate design and it is error prone.  
+The automated tool could save EMC a lot of engineering resources while improves the design quality and promotes better customer satisfaction.  
+

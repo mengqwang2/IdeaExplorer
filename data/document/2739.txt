@@ -1,0 +1,13 @@
+Meeting rooms with ID recognition ability.
+We would like to think that our idea will help EMC create a modern and fun workplace.
+Imaging going into a meeting room, and not having to log into anything, everything is prepared for you just with the swipe of your ID.
+This will help us save more time d
+We came up with the idea to make meeting rooms more user friendly and interactive on 15th May 2015.
+Since then we have been adding features for the ID usage, as well as working on other ideas,  and all of them will be added in ONE big idea to involve them all.
+
+The meeting room to be equipped with an ID recognition device, upon swapping one's ID the room is prepared for the meeting scheduled.
+Once a person swaps the ID, he is automatically logged in the cisco phone, the projector is turned ON, if the room is equipped with a PC the person is also logged into this PC.
+Using this device we can also control room admittance to meeting attendees as an option. The person who initiates the meeting will have the option to make the door not open unless for the people invited to the meeting.
+
+If this idea is implemented this would improve employee experience and will put EMC even further up the list of Best companies to work for, which will help us even more in attracting top talent.
+

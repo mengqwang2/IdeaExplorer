@@ -1,0 +1,10 @@
+Chat services for Elite customers
+Egypt COE Smart City and IoT Challenge, RSA IoT Challenge
+N/A
+Chat service for Elite the customer that they can use it if they are asking for a quick question like download link, license upgrade, open a case, ask for credentials or ask for specific patch or software release.
+
+Example for that service " the IT help desk chat that EMC is using internally "
+
+
+
+Improve customer sanctification, Optimize a process and make money

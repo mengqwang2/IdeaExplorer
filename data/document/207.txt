@@ -1,0 +1,18 @@
+Pre-defined important Tools for laptops of each new hire
+If we let new hires get their new laptops with pre-defined important tools, It will make it easy for them to start rather than spending time to install everything.
+
+This can be pre-configured by IT depending on BU needs
+We have been helping new hires to get through these applications. It took us time to download and configure each of it.
+The idea is going to be based on requirements for each business unit. Managers can discuss and provide their needs to IT while they can prepare set of images to be instantly downloaded on employees laptops.
+
+Some essential tools can be such for all BUs: EAS.
+
+Example for needed tools in CS Business Unit:
+-VMware workstation
+-PuTTy
+-NotePad++
+-Java
+-FTP Client
+
+
+We will be mainly targeting and benefiting new hires to save their time and effort when they start their work phase.

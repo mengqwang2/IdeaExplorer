@@ -1,0 +1,34 @@
+Real-time Recommendation Engine using Neo4j for faster Support Ticket Resolution
+The idea proposed targets to increase the Supportability of the CTD team to quickly resolve customer issues and understand the root causes.
+Knowing the power of GraphDBs, they could be used for multiple purposes. Idea is result of being exposed to too much of social networking sites & its technologies. 
+The proposal here is to develop a Graph Model using Neo4j, creating relationship between Users, Tickets & products, use it in real time for recommending users to resolve a ticket as it comes and list all related contact points who has previous experience working on similar tickets.
+
+How it works?
+
+-	Create nodes of graph, like Employees; Tickets; Products; Features of Products. The nodes could be increased as required.
+-	Create a relationship that exists between the above created nodes
+o	Map Employees to the tickets ((user) - [: solved] – (ticket)). Sometimes a ticket traverses multiple groups due to various integration within EMC products, so more than one person can be involved in resolving a ticket
+o	Map the tickets to a product group. If the ticket is getting reassigned to different product groups as a result of root causing, map all the relations. Ticket 1 CONTAINs VPLEX; Ticket 1 might also CONTAIN VIPR.
+o	Now Map the Products to specific features where issue was found. 
+o	Create a RELATIONSHIP between all the above nodes ( just as it is done in Social networking sites )
+-	The above pattern mapping could be used in multiple ways for speedy resolution of tickets
+-	Any new ticket coming in can be queried using Cypher language,
+o	For patterns matching, similar issues that was reported previously. Support team gets access to the list of tickets, how they were resolved.
+o	Gives a list of all associated Users that worked on similar issues
+o	Give top recommendation on the contact points required for resolving the ticket
+
+Technology Used & Designing the solution consists of,
+
+1.	Data Modeling for the GraphDB. Text mentioned above gives a sample of how the modeling can be designed. 
+2.	Use the existing ticketing system database, to extract the entities (ticket number; Users who resolved the ticket; products & features appearing in the tickets), required properties for the entities and prepare a normalized format to transform it to a GraphDB. Export it to a csv and import the data Using Cypher language. 
+3.	Data is stored in Neo4j DB. Have built in Cypher queries to retrieve the data as and when a ticket flows in real-time.
+a.	A new ticket can be queried for a pattern matching for a list of users that have resolved similar tickets in the past.
+b.	A new ticket can be queried for all the associated similar tickets and all associated products linked with the issue.
+4.	A simple Open Source Web UI using Bootstrap can be built for providing Search functionalities to the Users. 
+5.	Develop the solution using 3rd platform microservices architecture and package this as a REST API, so it can be consumed by other services & other applications. 
+
+Benefits 
+GraphDB are used predominantly in social networking (like facebook,LinkedIn etc), it will be a great use case to implement this within the enterprises where is a connection between multiple products, multiple users having different skill sets & multiple issues. It improves the time taken for trouble shooting an application as it gives the list of related items in real time.
+Improves Customer Issue Resolution times.
+As requested by the challenge, the solution is feasible enough to be done in less than 12 months. 
+

@@ -1,0 +1,7 @@
+Encryption to the cloud
+
+-
+Have a desktop client that encrypts data before storing it in the cloud. The data is encrypted based on a code that is generated at the client side making it impossible to decode at the cloud provider. this will make people more reliable at storing data on the cloud. 
+
+
+

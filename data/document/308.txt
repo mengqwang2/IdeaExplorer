@@ -1,0 +1,10 @@
+Know Thy Colleague
+This taps into the what we feel is the underutilized potential of having a diverse group of people in EMC. It also helps break the silos that form in large workplaces.
+This is a result of us exclaiming over the past weeks that we don't have any in-depth knowledge of what goes on in other divisions of the company and how they operate. A real trigger was going for a late night dinner in the cafeteria and not recognizing a single face of the people who worked the night shift.
+This is inspired by the concept of Reverse Mentoring popularized by Jack Welsh.
+10 people are randomly selected by a lottery process across a COE irrespective of any job title and are grouped together for half a day of interacting without any explicit agenda. This will help them know people who come from different age brackets, diverse backgrounds and with probably very different skills than their own(regional sales manager interacting with an entry level developer).
+This group will remain in touch for half a year and serve as a mentoring group for every individual in it. They can meet once in a while, lets say spend Friday evenings together every month and interact about the tech they work on, their pain points, what excites them about the future and valuable personal experiences. 
+We would call it success if people just get to know one another and get to know new information, technical or general. This will lead to exchange of ideas which can lead to new creations as well as new applications of existing resources. A simple example would be developers understanding how the sales team interacts with big organizations and the sales person getting a first hand exposure to a nascent open source project that the developer contributes to. This will also lead to a greater sense of camaraderie in the office.
+
+PS: How is this different from people forming interest groups? A: This tries to bring together people who could have very few common grounds and would not ordinarily meet.
+

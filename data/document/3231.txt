@@ -1,0 +1,6 @@
+Innovation Bot
+
+-
+A bot that analyses the data of the idea submitted before adding it to the portal.
+This will help analyzing the ideas before being submitted to maintain a high quality of the data submitted and ban any Plagiarism 
+

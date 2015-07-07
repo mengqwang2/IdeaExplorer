@@ -1,0 +1,5 @@
+Laptops Built-in camera 
+Improvement of Employes health = A great place to work  
+We already have built in camera in our laptops , we can use it in efficient way to improve employees health.
+To help office workers avoid achy backs and tired eyes, the device’s built-in camera follows the position of your pupils to determine how you are sitting. Are you too close? Is your neck tilted too much? Algorithms crunch the raw data from the sensor and tell you how to adjust your body to achieve ergonomic correctness. The monitor can also inform you that it’s time to stand up and take a break, and it will automatically power down when it senses that you’ve left.
+If my idea is implemented , it will educate employees how to sit in a correct and properly way . It will reduce eyes and and backs problems in the long term. And also it will be a benefit to save electricity as laptops will automatically power down when the employees are on break.

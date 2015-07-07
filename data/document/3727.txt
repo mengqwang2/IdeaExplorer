@@ -1,0 +1,6 @@
+Reduce Jetfire ESS manufacturing test cycle time
+
+This is a manufacturing 2014 OE imitative. Project lead Bart Keith and Kurt Morin
+Savings $60K hard and $70K Soft
+Reducing the test time avoids spending capital dollars from the 2014 budget.  Big data analytics tool will be used to identify the least productive corners. 
+

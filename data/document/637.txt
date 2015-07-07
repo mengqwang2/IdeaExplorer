@@ -1,0 +1,11 @@
+INI flat file based configuration inplace of Symmwin IMPL.bin
+CTD Supportability in 12 Months or Less - 
+Supportability includes –
+more successful deployment we can avoid configuration errors.
+improved troubleshooting we can analyse the ini configuration.
+During my SVT test cycle came across an issue with over writing IMPL.BIN file and lost entire configure of my box. to get back i had to rebuild this  IMPL.BIN file which is time consuming. SO taught if we save this file as ini file and come across over wirting this IMPL.BIN file again i can use this file to get back my configuration. 
+
+
+Create flat file which is called ini file. which will have all the necessary information same as IMPL.BIN. if configuration error occurs then no need for CS or PS eng to login into VMAX box through ESRS but eventually custmoer can attach the ini file in the SR so that CS can lookinto it and can suggest. this will save some amountof time in cs loginin and get the IMPL.BIN file.
+Not required to install symmwin simulator or sizer tools to build configuration file.
+just use notepad to generate configuration which will eventually save CS and MS time.

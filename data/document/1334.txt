@@ -1,0 +1,17 @@
+ Adaptive Security for the Internet of Things through biometrics enabled smart devices
+This idea focuses on the identity and authorization part of the security challenges posed in the IoT world. This idea will use GMM and Hidden Markov Models analyze user's cardiac pattern and context.This enables identify and authorize him/her for a set of operations to be performed.
+->When browsing across some smartwatches, i found out that heart rate monitor in devices such as iWatch, LG Urbane, and Pebble smartwatches.
+->Also as we experiment both on IoT and machine learning, thought that this would bring value to the field of security.
+->This idea is written based on the accessible and available technologies as of this day.
+->Use cardiac data of person extensively through smartwatches/wrist bands as a factor to identify a user
+->Use context information such as location, time and others if needed to understand user behavior.
+->Develop a machine learning algorithm through Gaussian Mixture Models(GMM) or Hidden Markov Models(HMM) to classify a user's identity
+->Use the result of the learning process such that it becomes adaptive by nature.
+->Authenticate and authorize various operations to be performed automatically through the above process.
+->E.g, Switch on Television, Lights of a home, open doors of a garage / car, and other activities which involve connected devices.
+
+ TAKE A LOOK AT THE  ARCHITECTURE URL: https://inside.emc.com/docs/DOC-156073
+-> Increases in the reliablility and accuracy in  identification and authorization.
+->Less room for transactional security breaches.
+->As this is context sensitive, less manual interventions are required to perform repetitive actions and other necessary actions.
+

@@ -1,0 +1,5 @@
+White board Calender in Meerting 
+
+Sometimes we need to know when will we have a visit and when are heead public holidays. So instead of asking we go to the meeting room and check the calender.
+There will be a white borad with the calender, where you can just write on the days the important info that you want to add. You will also be able to erase it if you want.
+

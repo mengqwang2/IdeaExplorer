@@ -1,0 +1,28 @@
+EMC Auto Del App
+The EMC Auto Del App will be an excellent instrument to differentiate EMC from its competitors. Exclusively designed for mobile devices, it will streamline communication between all stakeholders involved in our Customer deliveries.
+We implemented the Automated Delivery Process in the United Kingdom at the beginning start of 2014. On completion of a sales order, an automated e-mail is sent from the system to the customer. 
+As a result of the success of the implementation in the UK, we have decided to roll this out to all of our EMC Partner’s throughout Europe during Q1 2015.
+The idea of an EMC Auto Del App was generated during one of many conversations we had about this new Delivery Model. The smartphone is one of the items that few people cannot live without (how many times you do not have your smartphone with you?). Due to this proximity, it is an excellent tool.
+Who will be using it?
+
+•EMC Partners will be using the Auto Del App
+
+What is the App?
+
+•With the Auto Del App, EMC Partners can promptly access and track the Automated Delivery Orders to the customers across EMEA directly from their smartphone.
+
+How will it work?
+
+•EMC Partners will download the App  
+•From taping on the Icon showing on their screen they will be able to track the Automated Delivery Orders:
+-SO#/Customer name/City/PO# associated/Accepted Delivery Date will be listed
+-EMC Partners will then swipe the SO# they are interesting in for seeing all the details (full delivery address, delivery contact, POD...etc)
+
+What is in it for both EMC and the Partners? 
+
+•Simplifying the access to follow EMC Automated delivery
+•Partners will just tap on the App from their smartphone
+•With the Auto Del App, EMC Partners will have the ability to follow the Automated Delivery Orders wherever they go
+•Partners will receive regular notifications throughout the journey of the order
+•Fewer communications between Logistics Partner, EMC and the end customer
+The Auto Del App will contribute to improve the Total Customer Experience. It will also facilitate the access to the information and will increase EMC Partner experience and consequently will enhance EMC visibility on the market.

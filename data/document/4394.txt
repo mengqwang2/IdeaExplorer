@@ -1,0 +1,13 @@
+Improved performance for storage pool in VNX 2
+
+We came with this idea from Meta lun's in Raid groups and implement in Storage pool using Private Raid Groups.
+-Create three separate Tier Raid groups of EFD PRG1,SAS PRG2, NL-SAS PRG3.
+-Create logical entity for storage pool to access all these private raid groups.
+-Take for example the logical entity of SP_TEST pool. On top of it if we create lun's, using the meta lun concept in Traditional Raid groups, the Metalun(Head) should be created on EFD PRG1 and the component lun's should be created on SAS PRG2, NL-SAS PRG3.
+-By using this Meta concept we can see improved performance than the traditional storage pools.
+
+-Fast VP should enable on this, so that using this FAST algorithm the highly used component lun's should moved between the tiered Private Raid groups, so that host will see improved performance.
+
+
+
+

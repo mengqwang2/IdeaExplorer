@@ -1,0 +1,5 @@
+Centralized customer feedback system
+
+Idea came while thinking about how to get customer's input in real time at the source.
+A customer feedback system is envisioned that’s centralized, cloud based, real time, action oriented, and 24/7 available.  Customer’s voice (feedback, complaints, requirements, concerns etc.) will be sent from the customer site and stored in this system. This system will have API that can be used by EMC products in a homogenous way to gather data from the customer’s site. All the software defined products (which is almost everything in futuristic vision) there will be a way to utilize the customer feedback API to send data from the customer’s site to the cloud in real time. Customers do not have to wait to send feedback. They just need to hit a button and send any relevant data back to the cloud. Analysis of the data is performed automatically as much as possible and a centralized team is assigned to touch base with the customer through their point of contacts (account manager or support staff) acknowledging the customer’s input and assuring them that EMC team is working hard on their input.
+

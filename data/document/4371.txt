@@ -1,0 +1,5 @@
+The "availability" data center
+
+This idea has come about from looking at all the material that is ready to ship, if and when orders arrive. So why wait, use it now.
+Once product is tested make the hardware available to a data Center pool. Various VMware tools will allow management of adding and removing the hardware. As orders come in remove what the hardware you need (i.e. VNX5500) and ship it. This approach would give EMC a way of becoming a cloud provider, be that public, private or hybrid.  
+

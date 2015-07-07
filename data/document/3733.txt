@@ -1,0 +1,19 @@
+Performance bottleneck detection tool and DC heat report and global load balancer.
+
+This idea came to my mind seeing the growing demand of IT being published over cloud, and data-centers becoming software driven, then it will be huge challenge to identify performance issues and drill down to some component to troubleshoot the issue, and then manual task to load balance the environment. 
+
+So this tool if developed will help to address the below issues.
+1. Troubleshooting Complicated environments on cloud.
+2. Pinpointing the performance bottleneck.
+3. Scale hardware where ever applicable to meet SLA. 
+4. Help to assess Replace/Upgrade  any component of the DC which is getting hot frequently. 
+5. Can do trend analysis based on historical performance snaps.
+6. Can work as a load balancer to utilize the resources evenly.
+
+The software can be installed as OVA, or we can integrate as a module with SRM(As SRM is already present with the data discovery and correlation in it)
+Now this software will take help from SMI agents for different vendor products,  or in house data collection agents for EMC products, to gather performance data and utilization data for individual components and will present a color coded heat map for the total data-center environment. (And it will keep the snaps as a historical info such that they can be played frame by frame in future)
+
+Now users will be given choice to select an application to narrow down the bottleneck detection, (So for now users will be given option like select one server/vm or a file system,  or a database to select, going forward every application will be defined as a policy and then users will be given option to select application policies) and  this tool will chalk out the topology map for the application and  overlap it with the heat report for a particular time, and will show how many hot spots the application path is going through to identify the bottleneck.
+
+Also this might include a load balancer module, which will trigger commands to hot components, and in turn to applications, to redirect some load out to the less utilized components to meet application SLA(response time). 
+

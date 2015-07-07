@@ -1,0 +1,10 @@
+"OctoPulse" - Advanced Proactive Watering Hole Detection
+The idea describes a novel approach for mitigating the threat of watering hole attacks.
+This topic is related to Cyber security, which is one of the Israeli COE challenges.
+My team "RSA FirstWatch ART" (which consists of the following employees: Uri Fleyder, Zeev Rabinovich, Rotem Kerner, Rotem Salinas, Lior Ben-Porat and Daniel Frank) has came up with this idea during the recent "RSA Israel Hackathon" event (June 3-4, 2015).
+We developed a partially-working proof of concept (which was very successful) and presented it to the RSA/EMC audience.
+Our idea has won the "Audience Favourite" prize :)
+Our idea combines several algorithms: Searching anomalies based on clustering geographical vectors and smart website snapshots comparison.
+I'm not familiar with the techniques and methods which are being used by other security solutions/vendors today.
+This product/service can be sold to organizations which would like to protect their employees from falling victims to watering hole attacks and consequently reducing their exposure to APT attacks.
+Organizations will pay for monthly/annual subscription to 

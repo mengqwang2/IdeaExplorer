@@ -1,0 +1,9 @@
+Conference/Meeting room management system using Lync
+
+Internal brainstorming session
+A mobile apps for different mobile devices can be build on top of Microsoft Lync application which is capable of reading QR codes. A QR code will be displayed on the monitor installed outside the room few minutes before the start of the meeting. The organizer/attendees will read the QR code from his mobile device using the app. The app will inform the server that the attendees have arrived. If the attendees do not arrive in a certain time window(~5-10 minutes) from the start of the meeting the server will automatically free the room for others to use.
+
+The system can also be integrated with gamification platforms like Badgeville to intrinsically motivate the users. Various game elements like badges, points and leader board can be used to to promote a user to release a meeting/ conference room in case the meeting is postponed or moved to a different room. A meeting may be given priority while booking a room based upon his reputation or any other measurable game element.
+
+This implementation will not only solve the meeting rooms management problem but will also inculcate the habit of coming on time for a meeting among the employees.
+

@@ -1,0 +1,21 @@
+Inter-cloud Storage Enabled by ViPR Controller
+ViPR Controller is a software-defined storage control plane able to manage storage systems from heterogeneous vendors. It is open source. We propose the storage platform based on the open source ViPR Controller and provide the openness to allow enterprise connecting in. EMC influence both in open source and storage technologies can be increased.
+CTO Office has been long time investigating the possibility of software defined storage and open source. Cloud technologies always yields charming power. The more people connect in, the more powerful it is. ViPR Controller takes a good role to make storage connected. Open source makes it easier to become a standard. We keep investigating and try the potentials.
+ViPR Controller integrates multi-vendor storage systems and provides a unified monitoring, automation and operating control plane. We want to push its potential to a new level.
+
+The first stage, we connect proprietary and open source storages. Expensive proprietary ones and cheap open source ones are integrated under ViPR Controller. A full range of storage choices among price and feature are presented to end user, but the management view is consistent and unified. A scheduler decides cost-efficient data placement. Data migration is supported between different storage systems. 
+
+The second stage, we connect public and private clouds. A storage gateway is built through which public storage acts as local ones and caching is supported. Both private storage and the gateway-ed public storage are integrated under ViPR Controller. Unified management experience is retained. Scheduler governs data placement considering cost, reliability and speed. Data migration is supported based on data replication technologies.
+
+The third stage, we connect enterprise storage clouds and present Inter-cloud storage. It is not a new storage system, but by connecting existing enterprise storages worldwide. Decades ago people connected enterprise intranet and got the internet. Today we connect enterprise intra-storage and get the inter-cloud storage. Every one connects in gets the worldwide power. There should be a strong need for a unified storage controller to govern worldwide. ViPR Controller should take the position based on its experience in prior stages.
+
+The fourth stage, enable worldwide data mining on the inter-cloud storage. ViPR provides Hadoop interface for now and we believe there can more potential. Experience shows that data mining yields better result when there are more data, and when we can combine different machine learning models together. Image what level of intelligence a worldwide data pool can provide.
+
+This is a long run but the engineering resource needed in each stage is limited.
+
+This platform uses open source ViPR Controller to connect proprietary and open source storage, public and private storage. End user can balance their need of cost and feature but still retain the unified and consistent management experience.
+
+The increase of storages managed under ViPR Controller can make it the de-facto open source storage management standard, thus greatly increase EMC influence.
+
+As more and more storages connect in, there is the possibility for EMC to build the worldwide inter-connected storage cloud. Enterprises connect in and get its full power. Just like decades ago people connects cooperate intranet and built the internet. EMC can be the potential world game changer.
+

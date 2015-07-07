@@ -1,0 +1,11 @@
+Titan Microservice Generator
+As software evolves, we are creating smaller distributed applications deployed on cloud infrastructures. The challenge of designing and modifying large projects has shifted to creating many small and connected components. A key to focusing on human innovation in this area is automation and the Titan Microservice Generator builds this in at the start of any project. 
+Our group are developing a framework for application development on Pivotal Cloud Foundry. We noticed microservice creation took a long time. We developed a prototype generator to overcome the challenges we saw there. The project ended up being used widely in the group and we do hope to maintain it as an actual project.
+The generator will use JSON or YAML, supported by other frameworks such as swagger, to create a new application based on an API. Instant project creation based on a design with no time wasted on setup. Business value can be focused on immediately.
+
+Many other generators exist but only provide a template to get started. 
+
+This will be a full solution that would allow immediate deployment of an API complete with a full suite of automated tests. Coupled with a continuous delivery pipeline, this could allow deployment of new features to production in a fraction of the time we usually see now.
+I have seen several case studies indicating that EMC is moving to platforms such as Pivotal Cloud Foundry for application development. The same challenges will be faced by many development groups within the company, over and over again. A project generator could be an input for gathered knowledge where so many of the teething problems can be solved and those solutions shared with no real need for developers to have to make the same mistakes as everyone else.
+
+Properly implemented, a project generator like this can keep developers working on real problems and delivering value to our customers. Treated like an internal open source projects, it could be a focus point for distributed groups to share real knowledge in code, commit messages and README files, in a way that developers can really understand (not wikis!).  believe the increase in productivity could be huge.

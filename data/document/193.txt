@@ -1,0 +1,7 @@
+EMC Employees Portal
+It helps to ease the communication between the HR department and all the employees.
+
+
+Looking for employees for an internal vacancy consumes lot of time and effort to find the right candidates ,also the process is not organized so this portal will make it much easier and professional .
+Develop a portal for EMC employees, and creating accounts for each employee where he can add all the information related to his technical backgroud, languages , interests and any other skills along with his CV, the accounts can be viewed by the HR recruitment and managers of the departments , employeees can apply to any internal vacancy through this portal so it will be easier for them to search by the criteria needed and choose the best candidates
+it will save time and energy . the process will be more organized ,efficient and professional and the communication will be easier so we can find the right employees who fit to the job

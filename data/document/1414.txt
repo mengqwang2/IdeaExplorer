@@ -1,0 +1,35 @@
+Open,Adaptive & Distributed platform
+To create a mobile application where all EMC employees across globe can participate in sharing ideas, providing solutions and importantly connecting with like minded people.
+I am working on a EMC sponsored program called xPRT where a team was formed bringing in engineers from various domains & technology. We were involved in developing a product out of an idea which was "Predictive Healthcare Analytics". Since this was a new domain and technology for most of us in the team, we had great difficulty in Architecturing the project due to lack of expertise within the team and we were unable to find right people with required technical knowledge who can guide us in the right direction to execute the project.
+
+A mobile application which facilitates an user to perform the following action:
+IDENTITY:
+1. View employee profile which gives the following information: 
+           Employee Name / Badge ID / Location / Department / Phone No
+           An option exists for employee to provide his expertize like Domain / Technology / Tools
+           [Can be integrated with http://channelemc.corp.emc.com/directory/directory_results.asp through REST calls]
+           Gives information of any discussion forums started by employees, Last 5 discussion he is involved, Blogs he is following.
+           An option is provided to bookmark ideas, projects, discussions or questions which is of users interest.
+           Option to communicate with co-employees through Lync is also provided[this was users can also consider having video call / conference call with a group of people].
+
+OPERATIONAL:
+2. An dashboard which give the following information:  	
+	Recently asked questions
+	Recently posted Ideas
+	Recently added projects
+        Most viewed Ideas
+        Option to Create A Idea/Project
+        Ask Questions
+        Bookmarks
+3. Option to start a discussion forum related to a project, a problem or anything for which you are looking for a solution, This gives opportunity for other EMC employees interested in this topic to join and provide inputs / comments.
+4. Option to post an Idea for other co-employees to involve or provide feedback or comments.
+5. Search option is provided for employees to look for related information.
+6. Option to create, view and comment on a particular blog posts and share thoughts.
+7. Options to upload a document against an Idea, in a discussion form or in a blog [which can be tagged for quick search].
+8. Option to create a group where people with specific area of interest can communicate
+
+Mockup Document Link: https://inside.emc.com/docs/DOC-155533
+
+1. Since mobile technology is been extensively used by all EMC employees this idea gives an edge for all users to find the required information at the quickest possible way and helps find the right people or project team who can give a solution within EMC. 
+2. This application has a great potential to be extended with additional features in future[I have an idea on how the end product should look with robust features which would benefit EMC Employees in a multiple ways] . 
+3. Importantly, Innovation conference portal is open only for 3 months. Innovation should not stop when the portal closes. This idea facilitates ideas incubation throughout the year.

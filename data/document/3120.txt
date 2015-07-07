@@ -1,0 +1,16 @@
+VSPEX Deployment Auditor
+
+While looking at various products that claim 'VSPEX support' I ran into the issue that there was no way, other than manual inspection, to verify VSPEX compliance. This meant that the term 'support' was rather weak and was not backed up by operational software. Due my vast experience in modeling and management systems, I saw an opportunity here to improve the solution by adding a compliance verification facility.
+We propose a "VSPEX Auditor", a software utility that scans an actual deployment, discovers its components and their configuration. The collected information is compared with an encoded form of the VSPEX document that is relevant to the audited deployment. Report on compliance are issued, pointing to various violations and offering ways to correct it.
+
+In order to create the auditor the following needs to be done:
+
+1. Design an abstract information model that represent the concept of a VSPEX architecture. 
+2. Encode this model in a formal representation, possibly XML schema
+3. Encode VSPEX documents using the schema
+4. Write a collector that discovers the deployment and populate its representation in a database.
+5. Use the model instance of the relevant VSPEX architecture to compare the discovered deployment and verify its compliance and/or identify violations
+6. Report results
+
+Additional features can be added to assist VSPEX designers and certifiers in their work. 
+

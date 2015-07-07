@@ -1,0 +1,25 @@
+Intelligent device prototype contest utilizing 3D printing
+
+People are talking about intelligent devices everyday - Google glass, smart watch, jawbone etc. 3D printing is also hottest topic. A contest combining the 2 hottest topic together will appeal to young talents and benefit holders for community.
+We came up with this idea in lunch time. 
+The proposal is to hold a contest of concept designing and prototyping of intelligent device for targeting high school students. We don't expect a real device implemented during the test, but respect the innovative ideas from young talents that can possibly change our future life. It is an imagination contest actually.
+
+People are curious about what these prototype devices are, so we can facilitating today's most hottest technology 3D printing.The prototype they designed, can be 3D printed and exhibited in the contest, designer should give audiences a 10 minutes speech to describe the functions, and most important criteria - how it can change our future life.
+
+There are many 3D printing platforms such as http://www.shapeways.com/, which provides designing and producing assistance for the students, and also plenty of free 3D design software such as AUTODESK 123D, google sketchup for students to design their prototype.
+
+The contest we proposed contains 2 stages.
+1. Preliminary submission. In this stage, the beauty of STEM (Science, Technology, Engineering and Math) is going to be exhibited. Students should upload 3D design of mathematics models and deliver a 5 minutes talk about the story behind this model. 
+For example,closed timelike curve(http://www.newscientist.com/data/images/archive/2642/26421701.jpg), describes the possibility of travelling to the past through a wormhole.
+Mexican hat wavelet(http://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mexican_hat_potential_polar.svg/600px-Mexican_hat_potential_polar.svg.png) shows how an math equation represents a beautiful entity.
+In this stage, every students can get a 3D printed product of their input. And the winners criteria is the beauty of the model and story behind the model.
+
+2. Final contest. the selected winners from 1st round will be gathered as several groups to work together to design a prototype of intelligent device. Students will focus on what the device is and how it can change our future life. The designed prototype will be 3D printed and exhibited on the conference. There will be a 10 minutes speech delivered by designer to audience about their idea.
+In this stage, the winner awards will be based on the device intelligence and appearance. 
+
+Students can get souvenir of this contest which is actually their designed models.
+We can highlight the importance of EMC in the tread of intelligent device and big data.
+We can also use this opportunity to collect creative ideas of intelligent devices.
+
+We have no doubt the creativeness of young talents are the real future.    
+

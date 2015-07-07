@@ -1,0 +1,18 @@
+Using intelligent Analytics to optimize End to End Order to Cash processes
+There are multiple ways to approach E2E process optimization. One of the relatively new approaches is to use analytics/predictive analytics at various stages of the E2E process to come to a lean and outcome based process design. The O2C process process chain can particularly benefit from the approach.
+Industry research and discussion with people in other GICs and BPOs on the subject of driving End to End process optimization for Order to Cash pointed to the emerging trend of merging analytics with Collections. The fact that we have capabilities within our GBS group for both the analytics and O2C part, coupled with the cross geo exposure of O2C processes in ISSC - this seems to be the ideal settings to try out the concept.
+Below is an elaboration on the Collections function (similar approach can be used for all sub-processes, viz: Order Management, Invoicing, Dispute Management, Cash Application etc.)
+
+Build model on risk parameters, viz: 
+1) Internal Causal factors (Order type & accuracy CXP/DXP; invoicing accuracy; Ship-to method & location; Distribution channel-Direct/reseller etc)
+2) Internal Correlation factors (Product type/ Service Rendered; customer geography and Payment pattern etc) 
+3) Macro economic drivers ( Industry trend; Company specific financial parameters; regulatory changes; geo-specific drivers etc)
+
+Use the results to:
+- Segment Customers according to the risks, develop contact strategies to collect cheaper and faster.
+- Derive innovative portfolio segmentation based on predictive results of payment patterns by risk class.
+- Identify and track several revenue dilution drivers, 
+- Drive Self-Pay analytics and
+- Optimize internal processes to minimize the effect of internal causal factors on the Collections outcome.
+
+Success will come from the innovative process redesigns resulting out of the data analytics. It will be measured by the positive changes in the outcome parameters DSO/Cash Flow/TCE. An optimized E2E process will require lesser number of people as inefficiencies and reworks go and there is a designed move to passive collections. This will have a significant impact on the cost of dollar collected.

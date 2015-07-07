@@ -1,0 +1,5 @@
+Integration of EMC tools
+It is always challenge to keep different links and user accounts to access EMC tools. Currently We have unique links and user accounts existing for accessing EMC tool/ information's (E.g.: EAS, Propel, Transport, payroll...etc)
+I have experienced and heard from my colleagues with the challenge in accessing EMC tools. Currently We have unique links and user accounts existing for accessing EMC tool/ information's (E.g.: EAS, Propel, Transport, payroll)
+We should have a single Website and all links should appear under that. Access to the links should be provided / restricted to NT user account.
+If the solution completely implemented, there will a single point for all organization tool/ information. This will enable users to save time and eazy access to EMC tools.

@@ -1,0 +1,7 @@
+live chat time should get logged in to EAS automatically.
+
+While supporting customer on chat, My colleagues and I, sometimes found it difficult(or missed) to log time for chat SRs through service center, which in turn reflected incorrect time utilizaion on EAS. Hence, thought of an approach where chat time can be linked to EAS automatically; which would lead to a better time management and enhanced productivity.
+If EAS directly fetches the time spent on a chat session from chat SR and logs it in EAS CSS Time tracking. It will help engineer to maintain EAS logging efficiently and give more transparency to track the utilization of engineer.
+
+However, Challenges may be faced with 2 or 3 chat push model, wherein an engineer can have multiple chat sessions running simultaneously. But, this can be also be addressed by tracking start time and end time of each chat session and modifying the software accordingly. 
+

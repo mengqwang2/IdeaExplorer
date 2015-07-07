@@ -1,0 +1,21 @@
+X2V Migration Process Automation Tool
+* Detailed Solution for X2V migration Process.
+* Save time in looking for Step by step procedure to use tool/Dependencies and Lessons learned document.
+* More efficient in terms of communication updates during migration.
+* Centralized software/scripts req
+I came up with an idea when I hear questions like :
+hey do you have process document for VMware converter or platespin? 
+how do we do a migration for machines which have mscs cluster configures?
+Is there any standard lessons learned template we follow for all projects r do you know what the resolution for the issue I am facing during the migration?
+
+Or I had to explain Project manager what tool we are going to use for delivering the project, its dependencies and whats the pre engagement tasks (We need to ask customer to create a machine to run the tool, whats the specification for that machine we need to ask ? what are the ports needs to be opened from customers end to have a seamless migration? )
+
+* Project Managers/Sales team and Migration engineers can leverage that.
+* Details are there in statement of work for Migration project.
+* User needs to give select the details and hit the submit Button and a Word Document will generate automatically which will have all the details.
+* Project managers/Sales team  can leverage that to know the scope and Level of estimates.
+* Migration engineers can get a document in hand generated in less than one minute which will have end to end process delivery process. (Evan a person with minimal migration experience can use that document and deliver a project).
+* Structure approach to deliver X2V migration projects. 
+I have created a prototype and used VB script to generate the document ""PLEASE REFER THE LINK BELOW WHICH SHOWS THE DEMO AND THE DETAILED OUTPUT HOW IT WILL LOOK LIKE""
+
+https://inside.emc.com/videos/9316 

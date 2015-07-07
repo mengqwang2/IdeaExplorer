@@ -1,0 +1,19 @@
+Leverage Data Analysis to provide proactive support service and usage details for household appliances (Internet of Things)
+We feel EMC should come up with a product which would target the end consumers across the globe. This would help in EMC branding to a much larger audience. We feel EMC should invest in the Internet of Things concept to gather data from a huge pool of household appliances. This data can be processed to provide proactive support services and auto-tune the appliance to consume minimum power/energy.
+We are extremely dependent on all the household devices. It if therefore important to come up with a solution which would proactively help the vendor to assist consumer and minimize possible downtime.
+Our solution would help EMC target a much larger audience (possibly everyone on the globe) which would help in immensely expanding its Branding and Business. 
+
+EMC can tie-up with vendors (like Samsung,Sony,Panasonic,LG etc) to target house hold appliances mentioned below:
+
+1) TV
+2) Refrigerator
+3) Washing Machine/Dryer
+4) AC
+5) Microwave/Cooking Range
+6) Water Purifier
+7) Desktops/Laptops/Tablets/Mobile
+8) Car/Bikes
+7) Music Systems
+
+EMC would receive all the data from these devices. EMC to store and process the data using Advanced Data Analytic. The data can be leveraged to send proactive reports to the consumer and the vendor. A mobile app too can be created where the consumer can find the usage of all the household devices mapped. The consumer would also be able to control these devices remotely through the app.
+Our solution would help EMC target a much larger audience (possibly everyone on the globe) which would help in immensely expanding its Branding and Business. Our idea immensely increases consumer satisfaction by reducing the downtime and providing reports on demand. Through the idea EMC would also help contribute to a greener world since the power/energy consuming can be reduced significantly. If the idea is implemented we see an unbelievable growth in Storage, Backup and Big Data business of EMC.

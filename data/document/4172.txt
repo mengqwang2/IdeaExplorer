@@ -1,0 +1,5 @@
+Collision mitigation system for mfg
+
+I thought of the idea while witnessing the large volumes of pallet trucks and cab movers traversing the mfg. floor.  Idea is at concept phase.
+We need to adopt the '2 second rule' of safe driving on roads to the plants. To give the operators of these pallet trucks\cab movers a visual indication of a 'safe' distance, chevrons can be painted at the required spacing on the main corridors around the mfg. floor.  Operators of the trucks and movers would then have a clear indicator to keep a pre-determined number of chevrons between them and the preceding truck.
+

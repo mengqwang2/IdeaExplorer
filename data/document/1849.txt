@@ -1,0 +1,14 @@
+Get Lean - Bengaluru! - The EMC's Healthy Way
+Smarter Cities - Healthcare
+Personally I am going through a Journey of weight reduction from 120 KGs to 89 KG as of now in 2 Years. Every where I search its just pages of marketing not a realtime, risk free, organic ideas.
+
+Its when this idea came up.
+To design a solution for "Healthcare Connect Of India" that connects all citizens of Bangalore to enable view, share,  learn, practice and succeed in healthcare challenges like loosing weight, chronic diseases etc., The must needed system for Bengaluru. 
+
+Health and Healthcare Websites are all around internet. However, most of them are either abstract data or a specific to a branch type of data. There is no single portal that is one stop shop or giving a holistic view. Moreover, it talks on international grounds. none specific to Indian health system and care. It gives a personal touch to hear from your own circle. There is no system to help enable.
+
+Integrate the system with Success Story Boards all around the city, accrediting the success as "Healthy Citizen".
+
+Host the system on EMC Hybrid Cloud using vRA enabled Servers, to have data available anywhere anytime
+"Healthy Bangaloreans" is the success factor. It is revenue generating for EMC as the infrastrucuture and interfaces is from EMC. 
+

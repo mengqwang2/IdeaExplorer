@@ -1,0 +1,13 @@
+GPS to track where the EMC device is Located
+1)Matches the TCE Challenge-Would help the customers locate where the storage device is located around the globe.
+2)Also the GPS mechanism could help to track an EMC engineer if he is on his way to the data center , enhancing TCE.
+3)Global product challen
+I came up with this idea as in our environments we see the communication lags as at times the customer are looking for an update on EMC Customer Engineer's visit. Though the approach being followed through email etc is good , the GPS app could give us an extra edge.
+The idea is in planning phase.
+1)GPS on the Storage Device-GPS system would track the storage device on the globe and send the information through a link to the customer. the information provided through GPS could be:
+Serial Number, Model of the device , Data Center location.
+2)The GPS app on EMC engineer's device could help to give the following information:
+Current location of the engineer, expected time to reach the Data Center.
+1)Aggressive approach towards keeping the customer informed .
+2)Would showcase EMC effectiveness in giving customers a good experience with our service.-Improve Customer Satisfaction.
+

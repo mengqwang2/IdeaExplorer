@@ -1,0 +1,28 @@
+Smart Payment
+-Nowadays we have a lot of payments each and every month (Electricity, water, Loans, Car GAS, Mobile, Telephone, internet, transportation …. Etc)
+
+-Tracking these payments is so important to know and analyze where you use your expenses and how to plan for your future.
+
+-Analyzing this data and giving the user a better way to utilize his expenses, could help in a better utilization of the government’s resources (water, energy, gas, transportation …. Etc).
+
+-The important of knowledge is my idea history, nowadays we have a lot of stuff that we expenses in and we can’t even track. So by such a system each person could know a better way to save part of these expenses. Which will lead in a better utilization for the governmental resources (water, energy, transportation … etc). 
+
+-This will help in improving quality of life, using less energy and reduce environmental impact.
+
+-The idea is to have a card where the user uses to pay everything he needs to pay for. And this card is connected to a database and a server where it is used to analyses what the user paid for and by the end of the day a daily report is sent to the user and by the end of the month a monthly report is sent to the user. This excel sheet sent to the user will be classified using categories.
+
+-Electricity category, used to tell you the amount of Kilowatt used by you this month. And for example in our case in Egypt it’s not the same for all users. So the system could tell you currently you used 1200 Kilowatt which is multiplied by 0.55 but if you used 1000 kilowatt you would pay much less as it is in other category where the amount of used kilowatt is multiplied by 0.35, by this you would had saved 310LE in the above example.
+
+-Car Category, used to tell you the distances taken this month by your car, using the gas bills of the month. Also according to the distances you need to save amount of money for the next service as you will change X, Y and Z in the car. Adding the car loan to this category. Finally the system will advise that you are using certain way to your work every day if you used different road this will save 2KM (for example) per day which mean you will save 44KM where will save 20 litters of gas which is equivalent to 53LE.
+
+-Transportation category, where it used to track every transportation you use underground metro, taxi, buses … etc. and send you the amount of money you used for transportation and the system advice if there is a better transportation that could save time or money for the user and suggest it.
+
+-Mobile, telephone and Internet category, in this category it track the invoices of the mobile, home phone and the internet (home internet and any other source of internet USB modems for example). And the system should advice if a better way of saving money in this area. For example by giving the user an idea to use certain offer by the service carrier.
+
+-Other Categories, used by the user define category where he need to track his expenses. And the system should track if there is other way to improve these expenses in this area.
+
+-Final Report category, this category is used to calculate the amount of expenses and energy the user could save by using the system suggesting.
+-Succession of this idea by implementing it tracking all expenses using one card and these expenses could be taken directly from the individual bank account number.
+
+-The company will benefit from this idea by giving a solution for the big data to analyze all the expenses each and every one use per month and a suggested better way for those expenses. EMC2 will make money by entering with its storage system and apply data analytics to it in such a smart idea for a better smart life for governments and individuals.
+

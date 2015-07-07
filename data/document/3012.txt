@@ -1,0 +1,6 @@
+VPLEX Metro workload awareness
+Performance problems in a two site VPLEX Metro configuration when using Tiering on storage (FAST VP)
+
+I got the idea during working on a lot of VPLEX Opps.
+Using the workload Aware Replication like SRDF in VMAX 3
+competition advantages

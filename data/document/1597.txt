@@ -1,0 +1,6 @@
+Gameing as a Service (GaaS) Cloud
+the gaming industry is very huge and year after year video games require more and more computing power. Gamers simply can't keep up with continues need to upgrade their systems.
+A cloud platform that give them the ability to play their games using the cloud provider infrastructure is the next evolution in this industry  
+Read an article about Nvidia gaming cloud a while back
+A cloud platform that give Gamers the ability to play their games using the cloud provider infrastructure and streaming the video feed through the internet to their monitors.
+Having a sizable market share with exclusive partnership with various video games studios

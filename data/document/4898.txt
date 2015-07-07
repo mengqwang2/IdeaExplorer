@@ -1,0 +1,5 @@
+Include coverage data in Radar report system
+
+come out the idea when answering Chris's questions.
+Currently EMSD has one powerful Radar system which includes defects trends, test progress. If we could include coverage data into the dashboard for each build, it would definitely help us to get the quality highlight of each build.
+

@@ -1,0 +1,7 @@
+Add scp based recovery option for File Level Recovery on Emc Backup and Recovery (EBR) for Vmware
+Provides a faster and hassle free way to recovery files
+- Working on EBR we come across file recover issues almost every day where the backups are mounted on the appliance but we are unable to recover the same from Web browser. We end up using the Winscp tool to copy files from the mounted backups
+Provide an option that uses winscp/scp type protocol to browse and recover files from EBR
+- Faster way of recovering file
+- Incresaed trust on product 
+- CUstomer satisfaction

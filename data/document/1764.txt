@@ -1,0 +1,12 @@
+Like! for EMC/VNX Products
+EMC/VNX should complete feedback loop from customers/community to Product development so that EMC stays relevant to customer’s requirement, customer usage of EMC Products.
+Recently I took course in Design thinking. Design thinking has “empathize” as first stage. Few years ago, I spend one day at Level-2 support to understand customer issues. No all developer can interact with customer for feedback. So it’s must that enterprise product itself are ready to generate feedback for our product roadmap.
+1. Collect support material and after removing necessary security info, make it available to Development team for analysis.
+2. Write good algorithm to identify list of most used features, how they are used, filesystem sizes, layout on various Disk technologies that help define work-load information , ckpt schedule, overall ckpt count used, how frequently are they created, was migration used, how is DR strategy implemented etc.
+3. Add “feedback from community and above process to improve product development (e.g. no regression on most used CLIs or GUI pages, performance improvements for these features, deliver more features relevant).
+4. Add this process to Fspec itself.
+
+1.      Continuous integration with Customer feedback.
+2.      Overall regression reduction due to improved processes
+3.      Better customer satisfaction level for EMC enterprise products.
+

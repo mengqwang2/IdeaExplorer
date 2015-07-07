@@ -1,0 +1,6 @@
+EMC department view
+
+We are dealing with many employees and communicate in sessions , trainings and fun days and we do not know these employees belong to which department and whom they are working with.
+
+Just log in to our people view page and to add a search option by department then this will state all the employees under this department and it could be appear with a picture like a family tree with the positions, this will help EMcers to know more about other departments and if they want to be directed to a certain person for some reasons and it could also mention if they have any position for hiring
+

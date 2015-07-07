@@ -1,0 +1,13 @@
+Automate the process of attaching the logs to the SR sent via email
+Logs get lost when ownership of SR changes.
+Makes our job tough. Asking for repetead logs frustrates customer.
+One of the reasons affecting CSAT.
+The idea of automatically updating the SR is not new.
+But automatically attaching the logs could be new.
+We face this in our everyday work.
+One apporach to this would be to integrate the email with service center.
+This is not new and we have seen this in other organisations.
+
+We should be able to send emails from with in Service Center and when the customer sends an email it should update the SR automatically.
+Save time in asking logs again and again.
+have good customr experience

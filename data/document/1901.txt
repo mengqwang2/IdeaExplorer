@@ -1,0 +1,14 @@
+Product Enhancements for SRM
+A.	Attribute level reports for file shares:
+?	Folder & sub-folders view for file system
+B.	Interface level reports:
+?	Storage Interfaces:
+o	Port utilization to identify bottlenecks and performance load balance 
+?	User Interface:
+o	Runtime and historical utilization of  Uplink & down link of files from users activities
+
+Daily working experiance
+reporting Folder & sub-folders view for file system. presently it is only till file system level.
+Reporting for port utilization, will give predictive analysis for any port issue and eventual replacement of faulty hardware in advance
+reporting Folder & sub-folders view for file system. presently it is only till file system level.
+Reporting for port utilization, will give predictive analysis for any port issue and eventual replacement of faulty hardware in advance

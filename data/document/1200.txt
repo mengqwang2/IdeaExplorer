@@ -1,0 +1,31 @@
+Time-Series prediction using a Fully Distributed Hadoop Cluster
+The Challenge addresses problems in the big-data analysis domain, and Hadoop systems are meant for analysis of very large data sets. Moreover, with Hadoop infrastructure, the effort is required can be restricted to developing the algorithm alone - parallel compute is available readily.
+Recently learnt about Hadoop and its usages, and we thought that it fits the bill perfectly for this challenge.
+Considering the scope of the challenge, it is clear that it is a big data problem. By definition, typical compute systems would not deal with such large amounts of data.
+A Hadoop cluster could be a good solution here, given the parameters of the problem. Hadoop has several features which can be used for massive parallel compute - its scale out architecture allows for a very large number of nodes to be clustered as part of the same system. An added advantage is that Hadoop works well with OTS (Off the shelf) products itself – both for compute and for storage. Existing infrastructure can be used to form the cluster.
+
+Storage - HDFS
+In order to use Hadoop cluster for the time-series prediction, it is necessary to store the input into Hadoop Distributed File System (HDFS). Hadoop system has native interfaces to import data to the cluster. Hadoop follows the “process-to-the-data” model, where the compute node always has the required data locally, thus ensuring quick access.
+Hadoop by default uses a replication factor of 3 (this is because most of the data recovery after failures is software based). This means that a minimum of 3 times the data input set is needed to import data to the HDFS system.
+Storage requirement: 3 * (5 * 1GB) ~= 15TB
+An additional 20% storage for storing any intermediate results – 3TB
+Total: 18 to 20TB storage space.
+
+Compute:
+A Hadoop cluster can consist of single node to several thousand nodes, based on the compute requirement. Since the time-series predictions are computationally intensive, the slave nodes would require a larger RAM and processor requirements.
+
+Data import:
+The solution assumes that the input data sets are already available, with some additionally required data being imported to Hadoop in real time. Assuming that the data available is in a SQL database, Apache Sqoop can be used for the data import. If the data is present in unstructured format, then Hadoop APIs and in-built shell commands can be used to import the data to the HDFS.
+In order to process real-time data with Hadoop, Flume database can be used which acts as a buffer and consolidates the incoming data till a sizeable chunk can be provided to Hadoop for processing.
+
+Software:
+Apache Mahout is has a wide range of solutions to known problems, and uses Machine Learning approach to solving them. It can be explored if Mahout can be used to construct the algorithm.
+In case that existing algorithms are not sufficient, Hadoop Map-Reduce framework can be used directly to develop custom algorithms. These algorithms would need to be written in Java, but the development could also be in any of the supported languages (including Python and Perl), with some restrictions applied.
+
+Network:
+All metadata information for HDFS access will flow through the name server. Additionally, during the result consolidation, a large amount of data would also need to be exchanged between the slave nodes. GigE networking between the nodes in the cluster would be optimal. The nodes can be geographically distributed as well; however, this would increase some time for data transfer.
+
+User Interface:
+A minimal user interface should be sufficient to address the needs of the time-series prediction. This may need to be developed to suit any additional requirements, such as statistical graphs etc. Hadoop system stores a varied range of parameters for statistical analysis of the system.
+
+Pivotal HAWQ and Pivotal HD leverage Hadoop solutions. The solution could be potentially productized as part of the Pivotal Big Data Suite. 

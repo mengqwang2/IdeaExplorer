@@ -1,0 +1,16 @@
+Using the digraph to describe, analyze and optimize RESTful APIs
+
+The idea came up when I was looking at the hypergraph models for knowledge learning. I think the bigraph model fix the REST APIs description very well.
+Each resource in the REST APIs is a node in the digraph.
+
+Each relationship between two resources is a directed edge in the digraph.
+
+The relationship could be in different types:
+* implicit type -- e.g. feed to entry containership
+* declared type -- e.g. link relation
+* operation result driven type -- e.g. Location header of HTTP POST method on a collection
+
+Each directed edge has a weight on it for different relationship type.
+
+A resource bigraph modeling tool can be implemented to describe the REST APIs and output the result into image, XML, HTML or other formats.
+

@@ -1,0 +1,7 @@
+Process optimization of E- Checklist in SFDC.
+E- checklist will help us to maintain the checklist within SFDC that will ensure the analyst is following all the process steps as per the SOP. Hence, the quality of renewals bookings is ensured.
+I came up with the idea, when I was working with checklist. Unknowingly I had uploaded the wrong checklist for the opportunity  in the SFDC and due to this my quality score  was impacted. Then I came up with an idea of E-checklist which can optimize the process and have the respective checklist updates for each opportunity in sfdc.
+Create our own E- checklist in SFDC against each renewals opportunity or contract. After updating all the information in the E-checklist which is been internally created and once its been saved, it will directly updated as against the opportunity processed.  So overall the opportunity information will be saved in SFDC instantaneously . Whenever we need any clarification on the bookings, we can directly open the E-checklist check for the actions performed while bookings. the correction and can be saved under the opportunity.
+
+Improve customer satisfaction
+Optimize a process

@@ -1,0 +1,10 @@
+SecuredTweet - Secured Social Media
+N/A
+Recent bomb threats via Twitter created panic among Bangaloreans and a challenge to the police due to difficulty in locating the person tweeted challenging and threatening about a bomb blast after the December 27th Blast in Bangalore. This is the drawback of popular social media sites like Twitter, Facebook and Google+. If someone threatens on Social Media, they cannot be tracked. This technology can also be extended to emails sent via gmail,yahoo,rediffmail etc.
+RSA and Pivotal can together develop a solution wherein which we can have our own Social Media which is much more secured. 
+
+This Social Media application should trap the local IP used and if possible Location, (location in the case of Mobile Devices, by temporarily enabling location and disabling back) while tweeting and embed it along with the message in a secured encrypted format along with checksum to verify the integrity. Unique mobile ID can also be embedded in an encrypted format. This will enable easier locating of terrorists and other social media 'crime makers'.
+
+Second alternative is to create 'certificates' and add-ons to existing social media sites which can trap the IP address and location of the tweeter / social media writer.
+
+This idea if implemented would generally secure the social media. If RSA can generate such a certificate and patent it, RSA would get lot of market share. If Pivotal and RSA can implement our own social media site, popularity of EMC/Pivotal/RSA would incr

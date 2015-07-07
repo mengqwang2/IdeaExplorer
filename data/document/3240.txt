@@ -1,0 +1,10 @@
+Cellular ESRS
+
+-
+Have a module that is directly connected to the ESRS gateway managing the storage environment.
+This module has a cellular sim card that is used to provide a reduntent link of connectivity through 3G or 4G network.
+
+This gives access to ESRS to have a connection directly to EMC devices in case of a link failure.
+
+The module is also able to send messages and alerts by SMS to numbers defined.
+

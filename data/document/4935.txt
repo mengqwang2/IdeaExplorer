@@ -1,0 +1,14 @@
+EMC Wearable Devices and Apps designed for Productive and Green Lab Management
+
+We found wearable devices popular today and it can be used to solve the challenges in Lab management. 
+There are many wearable devices these days in the market, like Google Glass, smart watches. Here we take Google Glass as example to demostrate how we could make Lab management productive and in a green way:
+
+1) Find the server with problems: if one service is down and we suspect the server has some problem, we can use wearable device to show the location of the device, and how to get there. When you’re reaching the nearby, it will give the admin some signal. (smart watches are more suitable to give special signal when approaching the specific servers)
+
+2) Collaboration: When resolving problems in the Lab, the administrator can talk with other people around the world to fix the issues, they can view the field via the camera of the wearable device like Google Glass.
+
+3) Hardware Field Diagnostic: For hardware diagnostic, it's important to get the design of the panel. When we get the id of the machine (scan by Bar code or QR code), the hardware design can be retrieved from the design database and shown on the glass screen, then you can free your hands to solve the problems in the filed.
+
+4) Real time feedback: During hardware/network/firmware diagnostic, they don’t need to switch back and forth to very whether the broken service works, Google Glass will show the current status(App, VM, etc) in real time to boost the progress. 
+
+

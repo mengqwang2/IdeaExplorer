@@ -1,0 +1,11 @@
+Renaissance of Software client license
+
+Group Discussion.
+As and when the exit/transfer formalities  are over for an employee leaving the organization/BU, the 'Peoplesoft HR' database is updated. This information would be the input for our process. For such employees, the retagging is done automatically and unlock the license to be used by other. Sends the notification to the appropriate members/managers. A dashboard utility to be implemented. This utility can be installed in the Desktop/Laptop. This will report the number of Licenses the Group/Team owns and the current allocation details.
+
+•  Cost is saved
+•  Helps to have immediate availability for the new employee.
+•  Increase the productivity by the immediate availability.
+•  Easy tracking of owned licenses
+
+

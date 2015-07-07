@@ -1,0 +1,8 @@
+vVMAX as Secondary storage and commodity storage provisioning using ViPR.
+
+vVMAX is virtual VMAX platform which is planned to use for testing the symcli scripts and  VMAX features testing etc. The idea is to extend this virtualized platform for other use cases like Secondary backup storage and using the existing ESXi clusters to provide provisioning using ViPR instance.
+Had discussion with vVMAX users and did analyzed on ViPR + vVMAX setup.
+This solution will help the customer to have the secondary storage backup using the low cost commodity systems where they can save lot of money. also they can use the vVMAX platform features which is connected through FTS setup.
+The clusters of vVMAX with ViPR can provide additional provisioning into the existing hosts and cold data can be moved to vVMAX platform. 
+
+need to do PoC and explore the various use cases around this and ensure these use cases will provide real customer benefits.

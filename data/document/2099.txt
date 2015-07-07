@@ -1,0 +1,35 @@
+Scalable Storage System with Shared Hardware Resources
+1. Durham Data Center Elastic Labs Challenge
+
+Our solution is a practical implementation of “attached to a central pool of shared physical and virtual assets” and “sharing equipment in a central pool”. Because of more efficient allocation of both frontend and backend hardware resources, our solution will act as “new technology that could reduce the amount of hardware needed for lab” and reduce “underutilized resources”.
+
+2. Global Platform Engineering (GPE) Challenge
+
+The real-time resource allocation and flexible scalability well match the criteria “CI Scale Out and Self Remediation”. The general idea of a shared pool of hardware resources among multiple EMC Federation products fulfills the “Art of the Possible” in managing and orchestrating hardware elements in a Converged Infrastructure environment.
+We often encounter the situation that one array needs a specific type of drives which are not installed in its DAEs, or another array has storage capacity easily used up but there’s no more space to expand until new drives are purchased, shipped, and installed.
+
+For host connectivity, sometimes we have to ask Lab Ops whether an array is close to the switch of a host which we would like to zone together. If not, we normally have to give up and find other array-host pair to do the same task since physical relocation will need too much effort to be done within a reasonable length of time. 
+
+Also, some cross-array configurations such as MirrorView and RecoverPoint will need dedicated target ports on IO modules. Unfortunately, some arrays cannot setup such data backup solution simply because they have all SLIC slots in use by production IO hosts no matter how important the remote backup could be.
+
+So we came to this idea of a shared pool for both frontend and backend resources to eliminate such difficulties and provide unique flexibility and scalability.
+All three problems are solved as the solution below.
+
+1. Backend Scalability - DAE Pool. 
+
+Interconnect a set of DAEs by SAS switches as a “pool” and enhance storage arrays’ platform software to make all VNX/VNXe arrays in specific group(s) able to access DAEs in this pool. If the production of some arrays requires huge capacity or frequent storage expansion, such arrays can automatically or manually (by administrator) expand their storage pools and/or RAID Groups at real time by using any DAEs and drives available in the pool. If some other arrays have underutilized drives, these drives could be returned to the pool automatically or manually (by administrator) and become available to other arrays. If the whole pool needs expansion, DAEs can be added at any time without powercycle or interrupting any arrays’ productions.
+
+2. Frontend Scalability - SLIC Pool. 
+
+Interconnect a set of SLICs by IO module switches as a “pool”. Similar to the backend DAE pool, if the production of some arrays requires more SLICs no matter for what reason, they can take over any SLICs in the pool and configure host connectivity on them. If some other arrays have unused SLICs, they could be returned to the pool and become available to other arrays. If the whole pool needs expansion, SLICs can be added at any time without affecting any arrays productions.
+
+3. Sharing Equipment 
+
+Both backend DAE/Drive and frontend IO modules can be shared by multiple arrays depending on their production or busyness. Some monitoring service could be developed to check underutilized resources or pre-assign some resources to high-workload arrays.
+This idea could benefit customers and the company from at least 3 aspects below.
+
+1. Much more efficient and elastic flexibility and scalability on hardware resource allocation and usage. Particularly, customers will take much lower risk of DU/DL issues caused by capacity limit such as over-subscription of thin provisioning and failures of dedup, snapshot, or compression caused by out-of-space.
+
+2. A different strategy of sales. The products will no longer sold by “units”, but more by “capacity”, “scale”, or “workload”. It could also be an important component of Cloud infrastructure.
+
+3. Could be implemented in software-defined products. For virtualized products, e.g. vVNX, the shared virtualized hardware pool might be easier to be implemented, but the benefits of efficiency, flexibility and scalability remain the same as hardware version. A much more sophisticated solution based on software-defined platforms with shared resources will bring more values to the market.

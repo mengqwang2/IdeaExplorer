@@ -1,0 +1,5 @@
+PBBA within vVNX/VNXe
+Get into the Backup Appliance market to improve the Low or Mid-range storage's competitiveness in the Blue Sea.
+Experience on Symantec's Netbackup Appliance and see the huge increase of market share.
+Deploy and Integrate Backup software(Networker,Avamar etc) into vVNX and VNXe Storage system,Provide unified operation on Backup and Primary storage system to end-user.
+One appliance could solve all requirement that user use 1 Primary storage and 1 Backup system. Reduce cost of management,Increase the utility of system, Improve backup performance.And the Backup system could leverage the Primary Storage's data protection 

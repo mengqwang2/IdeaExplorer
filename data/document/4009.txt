@@ -1,0 +1,19 @@
+EMC iSync App
+
+This Idea came to our mind during our brain storming session on Idea generation.
+“iSync” mobile app provides a centralized platform to gather feedback for all products. The application provides pre-selected topics on the product manuals, configuration, usage .. out of which, user will also has option to modify the same.
+Specific Uses: 
+Direct Customer: Whenever a user finds some features is missing he can just open iSync app in mobile and update the requirements, concerns by selecting the particular product. There should be mechanism to store specific EMC products documentation, training video’s etc. so that user can see them offline based on his need. If user wants to check about different EMC products he should be able to directly check them through this app.
+This App should get dynamically updated with all the latest details and also based on the versions he is in. 
+
+iSync should include interface to other customer facing applications like SR tool, Power link so that feedback can be collected on time, so that it is more user friendly and also to make customer to use this app frequently. 
+
+iSync collects the feedback, concerns whenever user opens this app or while using other customer facing applications.
+
+Customer Facing Functions:
+Since most customers will have smart phones, during start of customer facing events like EMC World, User Group, COE., EMC can install or configure/update the app as per the event structure. After completion of the event attendees can update the app with their feedback, so that you can get the real time data. 
+
+Third platform application like mobile app are most user friendly way for these kind of operations. Analytics can be performed on the collected data through this application.
+
+
+

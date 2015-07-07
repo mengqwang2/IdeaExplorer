@@ -1,0 +1,8 @@
+Synchronize the four elevators together
+Synchronizing the four elevators together to save time, cost and electricity as employees waste their time waiting for the elevator. They take the one that arrive earlier and the other could be used to serve other employee.
+Waiting a long time for the elevator when needing it urgently(bad experience).
+Sychnorization
+Save money.
+Improve employee satisfaction.
+Save time.
+Save electricity which in return will partially save the environment 

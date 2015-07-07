@@ -1,0 +1,31 @@
+IT Operation Analytics - Universal collector & Analytic Engine for IT governance
+Creating a new solution able to capture logs and metrics (coming from IT equipment’s) and to real-time analyze them will answer a lot of IT challenges.
+
+Trough predictive insights, machine-learning we optimize our products and customer experience.
+
+This s
+It is been a year, that I'm working for a customer (banking sector) which try to implement a Big Data solution.
+Discovering all Hadoop distribution and IT OA technologies and the FBDL make me think.
+Why did we not providing a tool or a full embedded solution, that combine our finest technologies to support the customer team we are day to day facing.
+I'm talking about IT Teams, that facing everyday challenges like file system full, or network issues due to miss configuration…
+All data are here close to the storage layer so why did we not pick it up and process it directly to anticipate those none planned work that vampirism ourselves.
+Including into VBLOCK/FBDL an ITOA engine, combining and offering:
+1-A new EMC Universal LOGS & METRICS collector coming from every equipment’s within the integrated system or traditional standalone systems.
+2-Create LOGS & METRICS real time analyzer capable trough big data technologies to offer predictive alerts based on machine learning.
+3-Create a federate and new log and metrics data lake easy to access by IT Team
+4-Offering a new solution of monitoring directly on top of the data (fast and without bottleneck)
+5-Real-time technologies to avoid business incident with high impact on customers
+6-Log concentration technologies to resolve and anticipate incidents quickly
+7-A new IT data source which could be open to traditional big data or BI (existing tools within the organization permitting to correlate IT information and business data).
+
+This engine could be a “black box” combining mix between top technologies from the Federation and open source:
+*Universal agent collector: mix of logstash and EMC&VMware API’s
+*Log concentration: RSA security analytics
+*Metrics concentration:  Storm or EMC array monitoring array system scripts
+*Analyzer: Based on Pivotal tools and open source, (in memory DB for metrics analytics and real-time alerting, traditional homemade mapreduce analytics for discover correlation between logs and metrics that will result into new alerts for monitoring system)
+*Monitoring interface and UI : Mix of ViPR UI, Kibana…
+*Storage: include into the existing integrated system (Isilon should be a plus by enabling using HDFS and other data sources in a same place)
+
+A success will be  little standardizes boxes that could cover a specific day to day challenge of an IT team but with the potential to resolve so much more than the customer will ask for more...
+
+Time is money so my pov is that it should be really cost eff

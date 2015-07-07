@@ -1,0 +1,5 @@
+Common tool to design VMware and storage.
+
+I have done lot of storage projects for design and implementation. when i wanted to design the VMware evironment and interacted with the Consulting team for the design, the designning of the VM environment was all manual process and there was no tool for it. that too will tak care of the VM only not the storage. So looks like there is gap between the VM team and storage team when it comes to designing usign best practises. 
+There will be a single tool to design storage and VMware which will help the SA's to see how best they fit with each other and meet customer's requirement after gathering the data for the storage and virtualization. This tool will also have an option too generate the configuration guide for the customer which will have most of the information of their infrastructure.
+

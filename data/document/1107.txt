@@ -1,0 +1,19 @@
+BOCS for SaaS system
+Both SaaS and BOCS are ECD products. To intergrate the two products together can improve the performance of content transfer in SaaS, and thus improve quality and user experience of SaaS.
+High performance of BOCS has impressed much to performance engineers. When we perform content transfer function in SaaS system, we couldn't find the similar services. Therefore, we start to think if we can migrate BOCS to SaaS system.
+SaaS system is high read, and downloading (including export, checkout, etc) will consume the most of system resources when there are a lot of concurrent users. Among those users, the same objects of the same version could be accessed frequently. Once the network latency is not negligible and frequency of visiting on the same objects is high, a lot of resources (CPU, memory, network, etc) are wasted.
+
+BOCS system is actually a distributed cache system that can cache content of objects from SaaS. It is setup between end-users and SaaS system, and it relevantly has lower network latency for the end-users if compare to the latency of accessing SaaS system. For example, if SaaS system is running in NewYork, and a BOCS system can be setup in China for Chinese end users to access. 
+Whenever an end-user is want to perform content transfer in the SaaS, it will go with BOCS system if one BOCS system has been setup and configured. The BOCS system is in charge of communicate with the SaaS. Below is how it works:
+a. When an end-user want to download one object (with version), the object id and version information will be passed to BOCS system.
+b. BOCS system checks whether it finds the matched object with the specific version in its cache. 
+c. If it finds the object, the BOCS system will response to end-user and pass the cached object to the user; and the whole process is end.
+d. If it doesn't find the object, the BOCS system will clone the request and deliver it to remote SaaS system; and SaaS system will answer BOCS system by sending the right content in its response body. 
+e. After BOCS system received the content from SaaS and verifies the integration of content, it'll pass the content in its response to the end user. At the same time, it caches the content and marks it with the object's id and version. The next time when some end user wants to visit the same object, BOCS can reply the end user by sending the cached content back, without needing to access SaaS system again.
+ 
+
+SaaS of ECD is designed for document management. To have BOCS applied to SaaS can have below benefits:
+- Improve the performance of content transfer for SaaS system
+- Decrease the pressure of SaaS system and thus improve its availability. 
+- Release the pressure of SaaS and thus improve the overall performance of SaaS 
+

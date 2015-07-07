@@ -1,0 +1,9 @@
+SLA For engineering
+
+Wonder why Engineering don't have an SLA when we engage them. If face this issue day-in & day-out. Once we log an engineering ticket.. they run with it for weeks & months without updates.(i may have exaggerated it a bit) but while we wait for an update it is the end customer who suffers & things falls apart from there.
+Our Customers have SLAs to run with.
+Our partners have SLAs. Field has SLAs. Support & delivery teams have SLAs.
+Internal IT team have SLAs !!
+
+Come up with practical SLAs for Engineering team to respond to CS(or any other team) when they are engaged. This will ensure faster response time = Better TCE.
+

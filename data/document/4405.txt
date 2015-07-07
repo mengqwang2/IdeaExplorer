@@ -1,0 +1,27 @@
+Platform Hardware Auto-Healing
+
+I came up this idea a few months ago that when I was investigating some customer service cases. Those cases are about platform hardware problems, such as memory DIMM errors and PCIe device errors. I then discussed with quite a few experts in this area. We later came up this idea.
+More details and the graph please see: https://inside.emc.com/docs/DOC-99986
+
+The key idea is, at system run-time, identify the problem device as per hardware errors and try to fix the problem by reset the device or failover to redundancy devices. This mainly requires some software support. This doc proposes an idea which is about developing a software framework, Platform Hardware Auto-Healing Framework (PHAHF), to support the above features.
+If the device errors are transient ones, then the device reset will fix the hardware problem. After reset, PHAHF software automatically re-configures the device and enables it continue providing service. 
+If the device errors persist, then PHAHF keep the device unconfigured and isolated from the rest of the system. PHAHF also tries to find a redundancy device to failover the service. 
+If there is no redundancy device available, then PHAHF just keep the problem device isolated and send alerts to user. The rest of the system still keeps running if the problem device is not critical for the whole system.
+For example, if a SAS HBA card fails and a PCIe uncorrectable error reported, then PHAHF handle the error as following operation sequence:
+•	Firstly notify device driver to suspend IO.
+•	Reset the device by a PCIe command.
+•	Notify the driver to resume IO.
+•	If device perform well then done. The hardware error is automatically fixed and no impacts to system.
+•	If more errors happen after reset, then unconfigure the device and tries to failover to another HBA card in the same multipath group. Otherwise, keep the device unconfigured and send a alert to user.
+Another example is for DIMM correctable errors (CEs). When CEs for a DIMM cross a predefined threshold,  PHAHF handles the CEs in the following sequence:
+•	Identify the DIMM memory pages generating the CEs.
+•	For the problem pages, find out the candidate pages for fail-over. Generally speaking, the pages having the most CEs could be considered as candidate pages for fail-over. 
+•	Seek for free memory pages in the system as target fail-over pages. Copy the data from candidate pages to the free pages. 
+•	Mark the candidate pages as “bad pages”. 
+•	Update memory page table to redirect the corresponding virtual memory addresses to the target fail-over pages.
+Note, some modern OSes already have some infrastructure helping support the above features. For example, Linux OS AER driver support PCIe error scan and reset device; Linux kernel support memory page failover and also a userland daemon (mcelog) to support CEs monitoring. However, in enterprise systems, these OS level features along cannot meet customer requirements. These OS infrastructure could be leveraged by PHAHF framework though. As Linux is a popular OS in the world, the rest of this doc takes it as an example.
+•	For run-time error handling, error monitors need to be deployed for different device types, for example, DIMMs and PCIe devices. And the monitors are able to work with different device types and IO stacks for configuring/unconfiguring devices. For example, the network software stack and the SAS HBA software stack. Also the monitors need to take customized error handling policies so that they can respond to different error events as per different policies.
+•	Regarding as device failover policies, different enterprise systems need to have different policies. For example, for DIMM page failover, enterprise systems need to customize failover policies as per DIMM models/types, vendors, and the platform usage. Linux only provides some simple policies and there is not a sophisticated policy engine available.
+•	Enterprise systems need to post alerts to customer via vendor specific customer service systems. Linux only provide some system logs and console warnings upon device errors. So that, the error handling software needs to be connected with the customer alert system.
+
+

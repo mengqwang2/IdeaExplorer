@@ -1,0 +1,10 @@
+Weekend Working Allowance
+In CSS,every team work differently with respect to allowance.
+For Example: team like back up and avamar get Rs.2500 when they work during weekend but that is not the case with our team, connectviity.
+We only get comp off,without our intrest.
+If we wish to
+We see team like networker and avamar get Rs 2500 as weekend allowance as they have the option to choose from comp off or allowance which is not with team like connectivity.
+Either we should be given the option of taking allowance or comp off, choice should be left to the engineer who worked during weekend.
+We can make fix allowance for weekend irrespective of any other parameter.
+Like Rs 250 as food allowance and Rs. 1000 as weekend shift or Rs. 150 per hour for weekend.
+Employees will be motivated and happy and will deliver their best.

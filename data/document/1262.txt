@@ -1,0 +1,10 @@
+My Annual Record Application 
+NA
+NA
+This will be an automated mobile application that shows employees how many annual days they have left, how many sick leave days, casual hours..etc. 
+
+This will be administered by HR and managers would have access. 
+Employees should log their days off, sick days..hours and the application would calculate what they have left. 
+Employees will have direct view of their annual,sick, casual..etc 
+Will be able to correctly track down and log in the days.
+Easy access and saves time. 

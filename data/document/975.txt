@@ -1,0 +1,7 @@
+Experiential training
+N/A 
+I'd like to understand the function and design of the products from the customer's point of view.
+Given a customer case, setup an environment which is similar with customer side. 
+Introduce the whole process from manufacture to customer side. We can experience some steps, e.g. installation, configuration.
+Operate the system, e.g. use this system to save the common softwares
+Understand the products from the customer's point of view

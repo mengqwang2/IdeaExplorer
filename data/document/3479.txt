@@ -1,0 +1,7 @@
+ EMC ViPR Mobile App – towards a complete software-defined mobile suite
+
+ The idea came up from working and testing ViPR web-based management application as well as some competitors solutions
+ ViPR mobile App for management enables the ease of management and storage provisioning with few clicks on mobile devices as well. Introducing such management  mobile app completes the whole “ViPR Suit”
+
+
+

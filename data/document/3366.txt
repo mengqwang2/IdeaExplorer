@@ -1,0 +1,8 @@
+Google "Drive" for Transport Cabs
+
+I usually find it very irritating to guide drivers through the phone. I end up making 4 to 5 phone calls everyday just to guide them to my pick up point.  And sometimes get ready way too early looking at pickup time in the message, but the driver shows up late.
+Solution is pretty simple :)
+> Install Google Maps enabled devices in CABs. This will eliminate the need for communicating with the drivers to a great extent. The Cab driver just has to update the nearest landmark and follow directions from Google.
+> Develop a location sharing application that lets employees see the current position of the CAB. (This will save a lot of time for employees who are a victim of false commitments by CAB drivers who ask you to come to the point when they're still far away from getting there). 
+> When sending a message about the Cab/driver details, also mention a link where employees can track the Cab's position and get ready accordingly.
+

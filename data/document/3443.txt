@@ -1,0 +1,11 @@
+Central Application Hub
+
+I don't like having to constantly enter credentials and reopen applications throughout the day, or when I lose connections. I like the button for CSI on my desktop and thought that'd be great for all my applications.
+A central program that saves credentials and allows easy adding of applications would be an ideal solution. This would be something like the one click CSI button we have on our desktops, but for multiple applications. 
+
+With the application hub you can add other programs into it easily, kinda like drag and drop, like putting clothes in a drawer. The central program remembers all the credentials to the various programs. By launching the central program it automatically loads and enters credentials of all the applications you will be using. For the applications that have a timeout, you can individually select an application within the central app to relogin. Or it can have a feature to automatically log you back in. 
+
+The central app can have a master password in order to access it. 
+
+10-15 minutes of searching, loading, and entering credentials repeatedly throughout the day, across even 5000 employees, can help save time of 50,000 minutes a day, or 833 daily man hours put to more productive use.
+

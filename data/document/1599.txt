@@ -1,0 +1,11 @@
+proactive contract status check
+E2E Horizon – End to End Business Process Challenge
+
+This aims to initiate a new process that shall generate revenue and increase customer satisfaction through maintaining accurate data in IB
+I was working on a clean up project of faulty configurations in IB and noticed that hundreds of models are in install status with no active contract on them
+Through automation, run regularly a report that checks all installed models in IB and send notification to IBG/contracts about the ones with no active contract; further checks are to be done to see if we need to contact customer about them or if it is juts an error from contracts end. If the customer is using the product then a new contract should be activated, if not, then data in IB should reflect correct status
+The result of this project will be one of two things:
+-Activate contract on installed models that are missing from contracts
+-Deinstall the models that turn out to be not on an active contract and still showing erroneous data in IB( installed)
+
+This will mean more revenue in and more accuracy in IB

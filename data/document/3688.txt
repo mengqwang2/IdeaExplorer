@@ -1,0 +1,7 @@
+Backup as a service for small office, home office users
+
+I am using a iPhone, Laptop at home, Laptop in office, Multiple email accounts and frequelty travel as well. So my data is spread across multiple devices on multiple places. I am getting difficulty to backup data and lost many time :)
+In today's world, a common uses atleast one or more email accounts, internet connected devices (Laptop, PC, Handheld) etc from various places. However the data are not stored in any one place. Syncplicty, Mozy are available in the market however they don't do as a good content based backup. 
+
+If EMC creates a one devices which a End User can carry connecting all the devices, we can tap into consumer market and generate more revenue.
+

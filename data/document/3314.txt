@@ -1,0 +1,9 @@
+Service Catalog Designer
+
+I have seen quite a few cases where customers find it difficult to define their IaaS offering.  In most cases, customers venture down this road without a good understanding of current usage patterns. If customers are to transform themselves to Service Providers then an automated service catalog designer/calibrator would help them significantly. 
+Designer:
+1. Automated data collection to document current VM/Physical machine characteristics(CPU count, Memory, IO profile, OS Version). Various tools such as VMware consolidation planner, W4Net, SRM could be leveraged for this data collection.
+2. Analyze data and generate recommendations for possible offerings that would cover majority of the Physical /Virtual machines by analyzing combinations and percentage of current environment addressed by specific combination.  For a hypothetical customer, lets say Windows 2008/ 2vCPU/8GB of Memory/2500 IOPS combination addresses 40% of environment, while Windows 2008 / 4GB/1000 IOPS addresses 20% of environment.  These two combinations could be used as a starting point from a Service catalog standpoint. 
+3. Customers can be provided the ability to choose specific combinations and review what percentage of environment would be addressed by this combination.  This will help them understand the potential match of specific configurations for their environment.
+4.  Customers can also measure effectiveness of specific catalog entries against end-user adoption. This will help customers phase out ineffective or less than optimal configurations from their environment.
+

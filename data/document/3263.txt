@@ -1,0 +1,5 @@
+Unified Archiving Appliance
+
+We have an appliance CTA which does archiving and migration of data in an NAS infrastructure. The idea originated from the fact that the market has both form of Data Storage in File and Block. So which can come up with an appliance wihich Archives in a SAN infrastructure too.
+We can connect the Appliacne with the existing server in the organization and then archive the inactive data from the server to the cloud server. This Appliance will enable the organization to save spending in the Primary servers.
+

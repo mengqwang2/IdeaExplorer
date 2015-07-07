@@ -1,0 +1,5 @@
+Much in One
+
+The idea came up after many engagements with customers on site.
+the tool will take as input all the configuration files from the different implemented solutions and output one configuration file containing the information and the basic configuration for these solutions. Also, the configuration will be represented in a visual way as if an end to end topology.
+

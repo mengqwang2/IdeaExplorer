@@ -1,0 +1,17 @@
+New-hires portal 
+Elaborate to the new-hires what is expected from them in their new roles and to simplify the available resources to them to get their job done
+
+As a new employee i had few struggles learning about my post and my expected deliverable and the tools that I could and could not use 
+create a unified portal which should be available to all employees and categorized according to each department in EMC 
+Portal should hold
+- list of available tools and a description their purposes and where to find them "only ponting to them not holding source of each tool
+- Description of the department hierarchy to clarify who is in control of what 
+- Description of the new post tasks & expectation
+
+
+Portal should also hold the data which is delivered in the new-hires induction instead of relying on sending it by mail as sometimes its not delivered or lost  "with respect to different locations: Egypt,US,etc. " 
+General Info like 
+- Cross functional relationships within the organisation
+- IT/Financial/HR etc. queries, who to contact 
+this would create an online 24*7 available resource which could serve all employees world wide and would reduce the wasted time of passing information from an employee to another which could also be subjective to human mistakes.
+And also clarify to each employee how EMC departments collaborate to serve our customers

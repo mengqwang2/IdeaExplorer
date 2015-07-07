@@ -1,0 +1,9 @@
+Proceed Actual Business Logic Testing.
+
+During the testing, we only proceed some mechanical Test Cases which only test some modules of the product. In a manner of speaking, we truly not test the product with its real function. Maybe we are very familiar with the module, but we are not recognize the Use of this product.
+1.Learn some Business Process from books or any other Sources;
+2.Try to think or just take an Actual Test Case;
+3.Choose the product which need a lot of Preparation(like xCP);
+4.Be an Actual User to test the Product with the Actual Test Case;
+5.Think about how to improve during/after testing;
+

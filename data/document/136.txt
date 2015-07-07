@@ -1,0 +1,20 @@
+ Blood Donation Cloud-Based App - technology can save lives
+ 
+The idea targets healthcare vertical market in developing countries and offers cloud service to transform the blood donation system efficiency there. 
+
+Real life examples in which We saw communication gap by using inefficient methods like social media
+ the "Blood Donation Cloud" will gather the places in need for blood donations (such as hospitals) with donors. the information will be gathered in the cloud.
+1- a mobile application will be used by the hospital authorized doctors (or blood banks admin) to broadcast the blood need to the nearest available donators depending on the location.
+2- blood donators will register to the cloud registering their info such as address, blood type and availability. donators will receive the broadcast on their mobile application and accept or decline the request.
+3- broadcast levels can vary according to the emergency (broadcast to available with same blood type as needed / broadcast to all ..etc).
+4- the data will be centralized on the cloud and managed by mobile application.
+5- if I am not a donator I can also register to receive the broadcast and tell others.
+6- in future this broadcast can be automated according to the blood bank system.
+
+this will help broadcasting the call for donation efficiently for those who want to help and more importantly will save many peoples’ lives.
+
+EMC can provide such solution (or even the big data and cloud infrastructure) to big healthcare organizations.
+
+1-	Promotes healthcare sector in developing countries
+2-	Opens market for EMC
+

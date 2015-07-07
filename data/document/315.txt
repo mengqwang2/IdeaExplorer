@@ -1,0 +1,7 @@
+Trainings Suggestion
+This idea will help Employees to select what training to involve in.
+The hesitation we face each quarter to enroll in which course.
+My solution is to keep the history of all the enrolled courses by the employees in the education website , then using Big data analytic technology can suggest on the employees what probably the next course he will be interested in to enroll at.
+
+This idea is the same as implemented in Amazon website, that they collect and keep that data of customers who bought a certain product and what was other products he bought.Using this information if another customer bought the same product they suggest on him other products that the other customer bought.
+will help the Employees to select the relevant training according to their interest.

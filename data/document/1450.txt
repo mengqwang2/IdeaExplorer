@@ -1,0 +1,5 @@
+LAB Topology System, include host, switch and array
+Currently, the lab infrastructure management is becoming more and more complicated. We can't easily get clear for the logic connections for all the devices in the lab.
+Lab management often take too much effort to the Lab Administrators and end users. Both are keen to find suitable solutions to cope with these issues.
+The system dynamically check all the devices every minute, and associate all the status of the devices together to make sure the correction. So user could get the latest logic connections for all devices.   
+Reduce the management and OPEX costs for the administrators. And the end user also benefits by effective source checking and using.

@@ -1,0 +1,14 @@
+"EMC Infrastructure Optimization Framework" EIOF
+My idea is about putting the efforts of our EMC Account/Services Teams in the right track by building a long term technical relationship with our enterprise customers. The new solution (offering) is to draw both short-term and long-term roadmaps to our customers' IT and Businesses Challenges.  
+As an Account Technology Strategist (ATS) in my previous role at Microsoft, I was running a similar framework to our customers. 
+The EIOF or EMC Infra Optimization Framework will be a new offering to our Enterprise customers only (As a start) to help them and us to have a better understanding of what they've and the key business drivers to invent in IT project and having a radar to any IT challenges they're facing today, in order to be able to assist them to gain the benefit of the current investment on the various IT vendors i.e. EMC, Cisco, Microsoft, etc. and start drawing custom roadmaps to each customer, that will allow them to know how to do their spent in a well-defied short & long-term plans and projects. 
+
+This framework will help us and our customers to have a win-win situation,h by achieving the following: 
+For Customers:
+ - Have a better ROI of their IT spent in the right project based on the agreed roadmaps.
+ - Awareness about how the customer is away from the same companies in the same market field on applying a certain IT maturity levels. This will be thanks to the databases that we will have from surveying our customer (Confidently is maintained)
+
+For EMC:
+ - Achieve a smooth implementation by having this as part of an agreed roadmaps with our customers and to be prepared for each project's dependencies.
+ - EMC Sales team will have a better forecasting on each individual customer about where they should put their focus and product readiness to that customer in order to sell more. Selling against IT gaps in the roadmaps where it can be a potential loss against the competition.
+ - This will position EMC as an IT Advocate and a Partner to our customer. 

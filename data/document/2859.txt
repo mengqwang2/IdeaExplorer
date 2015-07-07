@@ -1,0 +1,16 @@
+Provide a wireless and mobile way to make a presentation
+For IT contemporary workplace challenge, a wireless projection could bring us more efficiency and less IT support requests.
+For HR challenge, a wireless projection could make it not only great but also cool place to work.
+We could work with the mobile way
+The idea comes from my experience of using apple airplay mirroring. 
+Enable wireless projection with airplay.
+1. For meeting room with apple TV, it has been already enabled the airplay feature. 
+2. For meeting room with other TV or projector, we have two options. 
+a. Install software supporting airplay on projector-connected computer. E.g. AirServer.
+b. Setup an airplay adapter device for the projector or TV. E.g. AirEnabler Adapter Kit. 
+Use cases:
+After Interview meeting, the candidate would tell others that it’s pretty cool to present my resume and projects by his mobile device. 
+In a brainstorming meeting, everyone could present his ideas in hands smoothly. 
+Some engineers could discuss and draw the design graph with the mobile mirroring to projector. It’s a green work style to use mobile rather than white board. 
+Make it cool to be a presenter. 
+Enhance productivity.

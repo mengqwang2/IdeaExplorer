@@ -1,0 +1,6 @@
+TCE Challenge
+N/A
+Real life challenge in TSE's work
+
+Mobile application to have all the information of the Technical support engineer and his/her Service requests, it's a like a service center where he can log in, update the customer directly, or put updates on the SR, informing customer with recent investigations, notifies the TSE with the updates instead of getting the laptop and check like a popup notifier 
+N/A

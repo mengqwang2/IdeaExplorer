@@ -1,0 +1,5 @@
+Replace or remove MAPI in the Avamar Exchange Granular Recovery Process 
+Improves the solution for doing Granular level recoveries of Exchange data, also improves customer service.
+There are a lot of cases generated daily just for Avamar Exchange GLR issues. We depend on 3rd party product MAPI which has a lot of issues. These type of cases usually take a long time to resolve.
+Already we use workarounds when Exchange GLR does not work, like use of Exchange  PowerShell to perform the restores. So make PowerShell the standard tool for performing the GLR operation.
+Replacing MAPI during GLR process would greatly benefit customers and better CSAT scores. Would also remove a lot of work on EMC side (support, QA and development).

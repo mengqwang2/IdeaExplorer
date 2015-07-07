@@ -1,0 +1,46 @@
+Faster FRU Operation and Engine Plug and Play
+
+There are two situations that led to this innovation
+    •	In VPLEXve we were working on replacement of directors and also expansion of engines, in the early stages we faced many issues due to human errors while configuration and also the procedure to replace and expand was very tedious and admin need to key in lot of information to configure.
+    •	There was a situation where we had two instance of VPLEXve and one was extensively used and the other was less used, then I got a thought what if this happens in customer's environment how EMC can help customers in solving this issue. 
+With the above two scenarios I came up with this innovation.
+Proposed solution:-
+What
+    •	Ability to move VPLEX Engines dynamically between clusters / instance
+How
+    •	Customer performs physical movement and connections of engine to required cluster
+    •	Directors intelligently discovers new directors added
+    •	The new engines gets ready to serve I/O once plugged into the cluster
+Benefits
+    •	Faster engine expansion and faster engine/director replacement
+    •	Load balancing by engine movement from a cluster to another without manual intervention in configuration
+    •	Incorrect wiring
+Salient features:-
+    •	Faster FRU
+        –	Remove manual steps involved in configuration
+        –	Reduce steps in engine expansion from current 62 to 30
+    •	Service Enablement 
+        –	Self-serviced FRU operations
+        –	Reduce service cost by spending less time in customer site
+    •	Sales Enablement 
+        –	Rent an engine for temporary needs of customer
+        –	Pay as you use
+Solution:- 
+There are four phases in which this problem will be solved
+Phase1: Detachment and attachment of directors / engines
+    •	Manually detach directors / engines from a cluster (if moving from one cluster to other)
+    •	Manually Attach directors / engines to the cluster
+    •	Manually rig up cables connecting directors and cluster
+Phase2: Detect new directors
+    •	Existing directors detect new directors that are visible in their network
+    •	Existing directors report new directors to management server
+    •	Management server reports visibility of new directors to administrator
+Phase3: Adoption of directors by SMS
+    •	Administrator accepts to adopt cluster’s new directors
+    •	Via existing directors, management server forces directors to enter factory mode
+Phase4: Reconfiguration of Directors
+    •	New directors in the cluster will reboot to factory mode
+    •	Management server discovers new directors
+    •	Management server reconfigures new directors after which directors will start serving IOs
+
+

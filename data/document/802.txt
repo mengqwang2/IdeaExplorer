@@ -1,0 +1,46 @@
+Disruptive IDEA ? EMC 1-Humanity Decision Engine – 
+EMC prescriptive analytics for the betterment of humanity
+This is a new product that leverages existing EMC customers hardware solutions and Data. It works with EMCs capabilities to develop and works in all market segments we address. This is a natural fit for EMC. This is a  decision engine in the cloud using the global  communities obfuscated data to improve outcomes for all.
+
+My product / solution will involve the following existing EMC aspects
+
+1.	3rd Platform Architecture
+2.	Hardware Implications
+3.	Big Data and Predictive Analytics
+4.	Documentum and other Life Sciences Product Space
+5.	XDS Repository and Clinical Archive Solutions in Healthcare
+
+
+1.	Must be reasonably within EMC’s capabilities to develop. 
+Innovators: Describe what core competencies EMC has to develop your idea.
+a.	EMC already has Info Archive and Clinical Archive
+b.	EMC already has Documentum and ETMF solutions in the LS space
+c.	Core competency to be developed 
+i.	Analytics and Visualizations of Data sets
+ii.	Providing software as a service model
+iii.	Selling data for third parties and legal approval
+
+2.	Must be related to something (i.e. fall within a market) EMC would be likely to pursue. Innovators: Explain why EMC would be interested in this market.
+a.	EMC would be interested in the market as we are the holders of Data for our customers. Information lives with us at EMC but it just sits there with a sad face. Information is powerful when visualized and perspective is added.
+
+3.	Must not bear obvious resemblance to existing products or services covered by other Sponsor Challenges. Innovators: If there is overlap with another Sponsor Challenge (i.e. if you have tagged your idea against another challenge other than this one), describe why you believe your idea still qualifies for this Challenge.
+a.	There is no overlap 
+b.	SaaS, Analytics and Visualization in Health Sciences does not exist from EMC today
+
+4.	Must represent a sizeable market opportunity for EMC (i.e. new market, large
+market, significant revenue potential).Innovators: Detail why this market is attractive to EMC (including any basic/preliminary  market and/or competitive research you have done)
+a.	This is a worldwide market with far reaching cross vertical implications
+b.	Predictive analytics and visualization without a decision engine does not produce actionable change and innovation
+
+
+So many of my close family members and relatives have been diagnosed with cancer. When I was 10 my grandfathers entire lung was removed surgically. Breast, pancreas, liver, colon, throat and other cancers have been treated in my family. Surprising thing was there were three people who survived much longer than expected? Two of them took traditional Himalayan Ayurvedic Medicine and 1 of them did nothing. All the others were treated with typical chemo / surgery regimes. How come some survived and some did not. This did not add up. I have been thinking about how to analyze data sets for a better understanding of this phenomenon for a long time now. Technology has caught up and if we apply it in a perfect world across corporate and other data sets the information impact will be profound. 
+The Idea  - A decision engine using existing EMC hardware and technology to tap into a customers existing data and analyzing that data to help create business outcomes and to monetize a customers’ obfuscated data across the data federation
+
+The idea is to develop and deliver sexy, uber-esque decision engine using analytics and visualization around large data sets using hadoop, big data and BI all rolled into one solution at existing or new customer sites deployed in the cloud. The concept is to allow the customer to use the hardware and software that they already have and provide added functionality in a Software as a Service or MSOD model to analyze and provide true value using their data for the customer linked to the cloud
+
+THE Kicker – its no cost to them to see their own data - but they must be willing to share  – Yes you heard it we do it for free ! (We can fix this concept if you don’t like it)
+
+THE Catch – They voluntarily participate by syncing their data so we can access their data to better Humanity. IBM Watson does something similar by analyzing tons of data using partnerships. We are building a collaborative data environment to run analytics on.
+
+HOW EMC makes money – Now if they want to see other data feeds they pay $$$ to do improved analytics. Since data is king for example If we were able to provide analytics reports across multiple data feeds we would rule the space.
+

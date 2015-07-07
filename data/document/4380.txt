@@ -1,0 +1,26 @@
+Pivotal Cloud Foundry + Pivotal Elastic Runtime + Pivotal Data Fabric + vCloud Suite + ViPR Rest API = Open Source & Scalable 3rd Platform Application Stack (Proof Of Concept - Ready & Available)
+
+A quick brainstorming session with Pivotal, ViPR & Automation experts resulted in above mentioned ideation.
+We already have a POC environment built in previous week & readily available for the demo.
+Many organizations across the industries are looking to PaaS offerings to develop new applications quicker and at great scale. Pivotal CF is the leading enterprise PaaS, powered by Cloud Foundry. It delivers an always-available, turnkey experience for scaling and updating PaaS on the private cloud.
+
+This solution is further works in below said format:
+
+"Pivotal CF Elastic Runtime" - Service provides a complete, scalable runtime environment, extensible to most modern frameworks or languages running on Linux. 
+Deployed applications enjoy built-in services and can automatically bind to new data services through a service broker or to an existing user-provided service.
+
+"Pivotal CF Operations Manager" - Is the industry's first turnkey enterprise PaaS management platform with infrastructure-as-a-service (IaaS) integration.
+
+"ViPR Controller REST API" - Describes the programmatic interfaces that allow you to create, read, update, and delete resources in a ViPR data center. For example - GET https://<ViPR_VIP>:4443/tenant
+Each ViPR storage resource class has a pair of /bulk APIs - a GET and a POST call. ViPR resources are not deleted, but are marked as Inactive. Inactive resources are periodically collected and removed permanently from the database by an internal process called garbage collection.
+
+"Agile Development Practices" - Speed time to market with continuous delivery of new applications and features. Platform-as-a-Service (PaaS) is a key enabler of software-driven innovation – facilitating rapid iteration and developer agility. Adopting an enterprise-grade, multi-cloud PaaS solution frees developers to create game-changing web and mobile applications. It also allows these applications to scale across cloud environments, based on the business need.
+
+"Horizontal Application-Tier Scaling In Real-Time" - Tight coordination of dynamic routing and fast, dynamic container creation enable Pivotal CF to instantly scale and update hundreds of instances. Pivotal CF empowers your enterprise to support mobile and social applications and update them with new features at a velocity and scale previously only available to Internet giants.
+
+"Load Balancing & DNS" - A truly scalable platform, Pivotal CF maintains availability for all running applications with minimum operator intervention.
+
+"Automated Health Management" – A third-generation application health manager continuously monitors all applications running on a Pivotal CF instance and intervenes to make the actual state match the intended state.
+
+CLI, and publish the log stream to a syslog drain for integration with tools such as vCenter Log Insight or AppInsight. Built-in features of the Pivotal CF Elastic Runtime Service allow your enterprise to dramatically reduce the number of vendors and integrations required for continuous software delivery.
+

@@ -1,0 +1,5 @@
+GO GREEN WITH GARAMOND!
+
+The idea stemmed from reading the article mentioned above and we realized it could have a real application at such a large company as EMC.  We are planning on attempting a pilot program at RSA to see the initial reaction to the suggestion and will iterate as appropriate afterward.  
+Send out EMC-wide emails displaying the benefits of Garamond and include some analysis on how much it will make us more energy efficient.  Then set up all email and Microsoft applications as having Garamond as the default font for existing employees and all future hires.  This will solve the problem two-fold.  One showing the benefits ahead of time to reduce friction during the transition to the new typeface and the other is to define the “new-normal” with new hires that Garamond is the default.
+

@@ -1,0 +1,13 @@
+Outlook Mail Tagging
+
+-
+Create a plugin that could be integrated to outlook to facilitate our mail handling.
+The plugin is used to smart tag the emails. So for a certain project, the PM creates a mail tag with the project, the people involved in the project , PAS .
+
+When the first mail is sent, the tag is distributed across all the people that will be involved in this project. The plugin is smart to tag any replies related to this email. 
+
+The user can color code the mails , put them in a folder .... etc
+
+If a user send an email without tagging the email to the project, the plugin checks the people to whom the email is sent to, and suggest tagging it to the relevent tag.
+once the user accepts the suggested tag, the tag is applied on all replies on this thread.
+

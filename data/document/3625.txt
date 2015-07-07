@@ -1,0 +1,6 @@
+P2V Process to help customer convert from monolithic UNIX to a Linux based VM
+
+Chris Conniff and Steven J. Dockerill
+The idea is stems from conversations with many customers in the field and at EBC / EBC follow ups.  The first step in getting to the cloud is to get the applications virtualized.  However many of our customers still run their ERP systems, revenue generating and customer facing applications, system of record and mission critical applications on monolithic UNIX.  This diverts revenue from EMC, VCE, VMware and Pivotal directly to Oracle, IBM and HP.  Not to mention opens the door for them to displace our storage footprint as they propose a “turnkey” solution under the guise of an optimized purpose built appliance.
+We need to offer a methodology, tool and process whereby we can help customers P2V UNIX systems that are attached to EMC storage, such that a VM of the system and application can be made.  This will allow for functionality and performance testing against the VM while the production application still remains intact on UNIX.  Once we help customers manage the perceived risk of running as a VM, then we would simply cutover the production application, almost like an array migration.
+

@@ -1,0 +1,5 @@
+Power saving by controling the fan smartly
+Save power and gain customer satisfactory
+Some other vendor support fan speed adjustment to save power
+The VNXe is low end array, the customer may not need to keep it busy working all day long. I think the array can monitor the temperature of the array, when it is lower than a threshold the system can slow down the fan speed to save power.
+Win more customer by this feature

@@ -1,0 +1,5 @@
+ViPR SRM Environment Checker
+ViPR SRM product have lot of challenges and we not have any automated tool to perform a health check
+We know how to perform a manual health check in SRM environment. If we can automate this, it will save lot of time and make things easier.
+Health check tool was a big success in ECC. So if we can develop environment checker for SRM, it will detect lot of issues and increase Total Customer Experience drastically.
+This tool can be used for troubleshooting SRM related issues. If we can automate things, it will save lot of time which can be invested for development of product. 

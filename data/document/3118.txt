@@ -1,0 +1,13 @@
+TCE - Hybrid VPlex
+This is a new enhancement / product as such that is directly related to increase the TCE.
+Work Experience / Surfing / 
+The idea is to provide the option to build a hybrid solution where one cluster/site is VPlex solution and the other site is a virtualization (VE solution). This enables the customer to have a solution as per the needs. This is also a way to promote both the product sreamline to the customers.
+
+
+This is a cost effective process thereby keeping both products sold at a good pace.
+
+
+
+
+
+The customers who have either VE or PE can have a chance to upgrade their systems to this level. 

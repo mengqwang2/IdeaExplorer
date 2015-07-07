@@ -1,0 +1,14 @@
+ RDA – Replication Distributer and Accelerator – a solution for real time replication of huge files by graphics applications
+
+ We have been comparing performance of distributed systems to centralized systems from the latency point of view.  We thought about introducing the approach of parallel replication 
+
+
+ The idea works as follows :
+
+-	The workstation produces huge amount of data that needs to be replicated to another destination 
+-	The data is divided into parts/chuncks  and distributed to different filesystems on EMC storage locally (isilon or VNX)
+-	EMC storage creates many concurrent replication sessions to the destination. Each sessions will copy a part of the data 
+-	Metadata is sent along for construction of the big file at the destination again 
+
+
+

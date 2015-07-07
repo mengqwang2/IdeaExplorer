@@ -1,0 +1,7 @@
+Rotations between teams/federations
+By applying this solution, we will be able to make employees from different teams and federation to be engaged with each other which will result in diversity and quality enhancement between teams
+n/a
+Each manager depends on the BU will check the other teams or federation that his teams is getting in touch with in daily basis ( For example EMC Support and VMware Support).
+
+Managers from each team will be either making sessions to elaborate what each team is doing or having a short-term rotation between some members to know the environment.
+Success would be seeing more teams and federations being engaged which will result in diversity and quality enhancement in EMC overall

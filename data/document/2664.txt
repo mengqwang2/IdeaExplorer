@@ -1,0 +1,17 @@
+Dark Site Support Tool for VMAX
+Most of dark site customers currently depend on regular EMC field professionals’ on-site inspection. This idea is to use a real time health/error monitoring tool on mobile platform to help EMC customers to avoid running into DU/DL incidents due to double 
+Customers unaware of the warnings or errors at its first occurrence, which then frequently led to critical DU/DL situation (ie. Double faults). We discussed with customer services team to seek for a solution to reduce the support effort and reduce the DU/DL cases.
+1. Leveraging Solution Enabler, no change to VMAX hardware and software.
+
+2. Deploying an monitoring service to receive the SNMP trap from Solution Enabler.  This service requires minimal CPU and Memory resources.  It can be deployed on Raspberry Pi (http://www.amazon.com/Raspberry-Pi-Hardware-Dogan-Ibrahim/dp/1907920293).
+
+3. The monitoring service could send the current device status to the mobile platform via Whatsapp or Wechat application. When a critical issue is found, customers could get the real time status from his mobile device.
+
+4. We have finished the POC, and the solution proved to be working on popular mobile platform Wechat. We could connect with the monitoring service via Wechat without the external connection which means technically it can be used for dark site customers.
+
+5. The next step we plan to consider the multiple devices monitoring in different network environment, and the guide for customer and field when one or more issues are reported, and the user authentication on mobile device, and so on.
+
+6. Besides of VMAX in Dark Site, this solution can be extended for the other CTD products and used by all customers.
+Help EMC customers to avoid running into DU/DL incidents due to double faults etc.
+Help EMC to reduce costs of handling complex issues associated with dark sites.
+Potentially generate revenue for EMC or become a value-add solutions associated with VMAX pr

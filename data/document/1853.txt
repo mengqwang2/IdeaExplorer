@@ -1,0 +1,44 @@
+Deep Recurrent Neural Networks based predictive system for ViPR Controller
+Our solution addresses the critical requirements of the challenge wrt the goals, technology to be used and source of data. We went ahead and identified way to improve the accuracy of the data which is touch in case of predictive maintenance
+The idea and solution is an output of brain storming from a group of people from three different background storage, analytics and platform/application development. 
+
+References
+How to Construct Deep Recurrent Neural Networks - http://arxiv.org/abs/1312.6026
+Training and Analyzing Deep Recurrent Neural Networks - http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2013_5166.pdf
+
+Salient features of the solution
+1. The proposed solution would include neural networks based prediction engine, Apache Spark/Hadoop, RabbitMQ and micro services
+2. Streamed data stored in a NoSQL database like Greenplum, MongoDB etc
+3. Word2Vec – improve feature extraction accuracy
+4. Lambda Architecture which uses both batch and stream processing
+5. Predicted Health of ViPR assets are shown in ViPR UI Dashboard and the same can be used to trigger alerts(emails, SMS etc)
+
+Training phase which includes
+1. Collection of historical logs as time series
+2. Feature extraction using Word2Vec
+3. Training a DRNN in batch layer
+
+Actual system would do the following
+1 Log Listener Micro service streams system logs from SyslogDB as time series to Rabbit MQ
+2. Feature extraction using Word2vec
+3. Pass the features to batch and speed layers
+4. Speed layer makes predictions and stream them to Rabbit MQ
+5. Batch layer would continue to train the DRNN with new features and serving layer updates DRNN from batch layer to speed layer.
+6. The predictions are served to the ViPR UI Dashboard or pushed as alerts by Push microservice
+
+Following actions/representations can be built from predictions
+
+1. An integrated view of different assets and predictive health(No problems, Going to fail etc)
+2. An Email/SMS alert incase of a catastrophic failure prediction
+3. Rule/parameter based actions(eg. if the probability of failure exceed 90% send a mail to Admin and run backup process)
+4. Self healing capabilities
+
+Detailed solution and architecture available here
+https://inside.emc.com/docs/DOC-155211
+1. Single point of view for ViPR Admins for proactive and preventive maintenance
+2. The solution currently uses open source frameworks and is adaptable to any distributed computing framework and it is scalable
+3. Deep neural networks are more accurate for predicting the patterns in the data set. The model uses Deep recurrent NNs which are specifically for text data modeled as time series. The system reads the log files as time series
+4. Lambda Architecture balances latency, throughput and fault-tolerance
+5. Feature extraction from the log data is made accurate using word2vec 
+6. The neutral networks automatically learns from the new data and hence improves prediction accuracy over time
+7. The design uses 3rd Platform Architecture

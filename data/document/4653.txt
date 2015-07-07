@@ -1,0 +1,5 @@
+EMC as a hardware commodity seller
+
+As we look forward establishing a strong presence in 3rd platform through software defined services, we are facing a stiff competition from companies life Amazon who are taking great advantage of the above concept in making their services affordable to a wider audience.
+EMC either partners with commodity hardware manufacturers or acquires a commodity hardware manufacturer and stacks this up with EMC software.
+

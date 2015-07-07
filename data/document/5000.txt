@@ -1,0 +1,11 @@
+Socialized content sharing and interchanging by connecting people
+
+socialized application is critical to improve productivity and reduce communication overhead
+The key component of the platform is activity stream just like twitter streams. It display the activities of people/group you followed.
+In enterprise, the group concept can be reinforced that people can follow group and each member in these group. 
+So user can be notified by each activities/news that want. That is connecting people via socialized manner.
+
+The other component is actually content itself - homepages,wikis, blogs, forums, todo list etc. Each changes on these content will be dispatched to activity streams for followers.
+
+A typical use case is between support engineer and engineering team. The support engineers can be notified by each document/product updates immediately by following engineering groups.For engineering team, the publishing work is quite simply - just publish a message to homepage, followers will be notified. 
+

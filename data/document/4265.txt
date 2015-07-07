@@ -1,0 +1,38 @@
+Mining 'My Voice Data' with Social Media Feed, HR Consulting Companies Feed and Internal Data. 
+
+
+We were providing ESMS feedback every year, manager used to discuss with us, but with no clear action items. With a Big Data Tool which analyzes My Voice Data along with market trends and setting action items at every level, with feedback again after 3 months using MyVoice, it 
+
+An Employee Leaves An Organization due to various reasons to name a few:
+
+1. Better Financial Benefits.
+2. Better Position.
+3. Better Workplace Facilities.
+4. Travel Opportunities.
+5. Unclear Roadmap of the BU.
+6. Work / Life Balance.
+7. Manager and Team mates co-operation.
+8. Commute distance to the office 
+
+and much more.
+
+Top reasons for attrition should be identified by mining online exit interview data. Why online exit interview is most of the exit interviews not conducted properly as seen with my own colleagues experience resulting poor data quality resulting in wrong analysis.Exit interview data forms a major role in reducing attrition rate and make the place 'better' to work. 
+
+Similarly top action items  and sentiment analysis of 'My Voice Data' should be done using Big Data Analytics such as 'R'. It should be mined at every level, .i.e. employee,Team,BU,COE and EMC a a whole.
+
+If a manager opens his portal of analyzed My Voice Data, based on the analysis, he should get his important improvement areas priority wise such as Better Financial Benefits, Better Position etc. 
+
+If he further mines by clicking on Better Financial Benefits, he should get the list of his reportees one below the other, how much is their salary in compared to market rate for his/her years of experience for his/her skill set based on salary survey data by HR Consulting Companies/ LinkedIn also .It also would suggest position for the same level experience candidate in different companies and also within EMC.  ESMS survey was providing top action items, but was not doing a comparative analysis unless the manager does himself. HRs should also get what is the average hike given at the every level and compare it to that at the Manager level. If it is very far from overall EMC/BU, action item lies with his Manager / Director. 
+
+
+If it is Work/Life Balance, the tool should educate the manager on how to provide better work/life balance to his sub-ordinates. This becomes action item to his Sr.manager / Director to enforce the Manager on trainings related to Work/Life Balance, better managing etc. Problem lies with Manager and his Sr.Manager/Director should take an action against this.This would be reflected by this tool/portal.
+
+At the COE Level, HR should work with other teams such as facilities, finance etc if the action item is 'Facilities' .  
+
+Every key word like this in the application should apply to a particular heirarchy at the organization level. HR should be able to analyze what action item is with whom and follow up.  
+
+My Voice Survey should have a re-survey after 3 months to see where the action item lies.
+
+This Big Data Tool would work at every level, localizing the problem and localizing the solution but being monitored Globally.
+
+

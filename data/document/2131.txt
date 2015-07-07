@@ -1,0 +1,18 @@
+Things Talk Secure
+Internet of things is quite spreading. What if things are related to each other, and authentication is coordinated.
+Too many gadgets and a lot of passwords to input.
+A platform that gathers data from all the things in IOT. 
+The platform would analyze the normal behavior of each item sending data to it as well as the correlation between this item and other items.
+So for example, I have an iphone with a finger print and I have a token for my laptop, I also have a smart watch and I watch TV at 7pm
+
+The platform gathering all this data and gathering the proximity between objects would be able for example to lock any item (for example , iphone) if its far from my watch, laptop, token and laptop. 
+
+Other way around, if I am wearing my watch and have my phone and token in pocket and try to access my laptop, then I don't need to enter credentials. Proximity of watch to laptop plays a huge role in the authentication and the watch correlation for the couple of previous hours related to the phone grants the access.
+
+When I get home from work with all the items on me, all access could be granted as my authentication has been verified all day long. Other items would trust the items i have to grant access. (i.e, open door, turn on light, turn on tv ..etc)
+
+Behavior analysis of the human being and health metric could be integrated as well to enhance the authentication and the trust between the items.
+
+on the other hand, if any items informs other items that there is something going wrong then all the other devices would lock and wait for in depth authentication. This will help in providing a secure IOT.
+
+analytics,  satisfy customer, provide security.

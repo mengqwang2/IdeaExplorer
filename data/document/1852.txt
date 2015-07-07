@@ -1,0 +1,12 @@
+Utilized CST CHAT/LIC Agents
+It is considered a new process or an improved process of how we do business today.
+
+This is all part of the Service 360 and the BEN project and where EMC is going. 
+Part of the service 360 culture and came up due to negative CSAT scores. 
+Train the CHAT team to handle all the temporary licensing issues and request. 
+This will be done by training one chat agent first to see how that would affect the workload and then train the rest of the chat team.
+They will be able to provide all the temp. License keys for most of the products handled by licensing and will learn e-activations.
+This will enable the chat team to actually be a level one licensing agents like they are supposed to be.
+Will teach them how to use the licensing portal so they can answer questions and provide temp. license keys.
+Chat will be able to see an SR to closure with happy customers. 
+Will decrease the number of temp. license requests handled by the licensing team which will allow them to focus on other issues such as UAT testing, ELAs, training Utah and BEN..etc.

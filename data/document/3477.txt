@@ -1,0 +1,17 @@
+ Egypt COE local MyVoice-like Survey
+
+ I was inspired by the GPTW survey and though of a local approach for the same
+
+ The idea works as follows :
+-	have a quarterly survey for all Egypt COE employees to participate in evaluating different aspects like :
+o	their motivators 
+o	satisfaction with type of activities
+o	preferred communication methods
+-	The survey will be a simple MCQ and yes/no questions.
+-	The survey data will be then analyzed by the COE management team to decide the type of activities, communication and awarding pattern to follow.
+-	The survey will run each quarter and results will be compared to each other to highlight the success areas and areas of improvement
+-	With the growing survey data (for many quarters), the need to analyze the collective set of data versus time will evolve to unlock more insights from the data. In this part, it is very beneficial to use the “Big Data Time Series Analysis” Approach for GPTW surveys I proposed in the following Idea in Innovation Roadmap 2014 :  https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014002147 
+
+
+
+

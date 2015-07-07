@@ -1,0 +1,9 @@
+Capacity Management System (Application)
+Capacity management across diverse processes and teams with varied volume inflow format is the challenge across. Having a standard process to gather, measure and report the operational capacity metrics by utlizing industrial engineering concepts will pave way for a welloptimized operational group.
+After discussions with experts from diverse industry backgroud and observing multiple operational structures, and since capacity management being one of the most pivotal ingredient in operations management, I came to realize that there is a better way to do better capacity management. The initial idea was brainstormed and discussed with my manager Prashant and our Business Ops Manager Prabhakar and we came up with the initial plot.
+* Build a web application to capture individual capacity data real time
+* All processes and regions to be covered under the span of the application
+* Capture daily capacity for individuals and teams based on pre-defined time study on activity/sub-activity level
+* Track comprehensively the core and non-core activities for teams
+* Use a standard capacity model to derive on operations capaciy of teams
+Purely number driven and data oriented, the outcome of this idea will be decided by the operational metrics (SLA, Capacity Utilization etc.). This will have direct impacts on cost effectiveness, TCE and enables productivity improvement.

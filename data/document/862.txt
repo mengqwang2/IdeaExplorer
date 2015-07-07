@@ -1,0 +1,5 @@
+Egypt COE Smart City and IoT Challenge
+We can monitor all the sensors  through our monitoring tool and we can act proactively act.
+Day to day activities 
+Smart monitoring system for smart city
+by monitoring through SNMP we can get availability of the device.

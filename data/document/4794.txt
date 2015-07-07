@@ -1,0 +1,5 @@
+Use it to superimpose a demo
+
+ikea's mobile application 
+For example, if you sell a product, use it to take a picture the customer's site, put the product in the site and show the customer how will the product look like in his site
+

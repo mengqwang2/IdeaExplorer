@@ -1,0 +1,11 @@
+Customer based Analytics platform
+
+-
+Some data collected from production environments would be very useful to analyze.
+Data like: performance, IOs, Data rates, and more.
+
+If we are able to get the customers approval to install a module at their datacenters to collects some of the metrics they agree to share. 
+All those metrics from different customers, being treated confidentially and anonymously, are stored in a cloud solution with high computation power. The data is then analyzed and useful output would be reached.
+
+Researches from universities would also be able to get some data based on which they could do some researches and simulations.
+

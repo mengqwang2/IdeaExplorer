@@ -1,0 +1,5 @@
+EMC check in application
+
+Forsquare application
+This application allows you to check in in different places so for example if you're at a restaurant you check in and you can see if there's another emc employee around you or if you're in a different country you check in to a certain place and if there's an emc employee around you can introduce yourself and make him/her give you some advice on places you can visit in their country
+

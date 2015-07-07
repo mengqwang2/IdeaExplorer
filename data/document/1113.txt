@@ -1,0 +1,19 @@
+Cloud-based online IT infrastructure service for licensed commercial software
+This idea is releveant to build an efficient, convenient and cost-saved comtemporary workplace.   
+The idea was triggered by my recent worse experiene to open a Microsfot Project file, which includes our project information.  Without Project, each time,  I have to ask the file creator to send me a PDF copy,  but I cannot edit the file yet.  SO, eventually, I had to buy a Microsoft Project license to install it in my laptop.  If we have a shared software application service from IT,  this will be very helpful!
+We can build up an commercial software application infrastructure, for example, application cloud and expose software applications to internal ueser though web broweser.  The application cloud can provide services, such as: 
+ - File repository, which can allow user to upload or download target file
+ - Use the built-in commercial software application to open the file for editing throug web broweser.  
+
+So far, within EMC, IT and no any department provide such shared service.  This idea can be worth a try.   
+We can build up a commercial software application cloud infrastructure based on Syncplicity and expose software applications to internal ueser through web broweser.  The application cloud can provide services, such as: 
+ - File repository, which can allow user to upload or download target file
+ - Use the built-in commercial software application to edit the file throug web broweser interface or other Unified GUI client
+ - The cloud can be easy to integrate any new commecial software application based on the request survey among EMC employees
+ - Provide access control to files through individual or group
+
+The idea will benefit to EMC and EMC employee users through:  
+ - Save money by shared commercial software 
+ - Improve daily work efficience and convenience without the purchasing process
+ - Improve collaboration among project memebers by shard files   
+

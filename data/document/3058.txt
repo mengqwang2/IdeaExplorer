@@ -1,0 +1,5 @@
+virtualization software for VNX
+increasing market share
+competition issues vs IBM, HDS, HP
+VPLEX like sw suite for VNX. VPLEX VE or physical appliance local license is not usable for low end tiering with FAST VP and is quite expansive when used with 3rd party array
+incremental revenue opportunity, increase market share, reduce competitors advantages (HDS, IBM, HP) and increase VNX advantages vs NetApp, Dell, others.

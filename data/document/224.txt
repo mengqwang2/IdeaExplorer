@@ -1,0 +1,42 @@
+Data Analysis, sharing, and Subscription
+It helps to meet challenges with respect to effectively analyze and share customer/machine data in multiple data stores.
+In my previous job, I have seen lot of issues with ability to have access the data received from various retailers.
+
+Even with open source reporting tools, I didn't find comprehensive solution that provides ease of setup, no dev time, completely web UI, Ability for the end users to visualize, subscribe, search, sort, export,e-mail,and customize to their needs. 
+
+Because of above reasons, I have tried out a quick and simple solution that addresses these issues.
+
+ 
+Web UI to connect to configure multiple data sources. Data source can be RDBMS or no-SQL databases or BI tools like Business Object or Micro-strategy.
+
+Build an SQL engine uses respective JDBC driver (Hive for big-data or vendor specifc RDBMS driver).
+
+Web UI to configure SQL queries,stored procedures, Output fields, and Search criteria.
+
+
+SQL engine generates the output in JSON. JSON format is standardized.
+
+End-user interface developed using HTML5, Jquery, Datatables, and AJAX. Standard JSON format can be transformed & displayed on the front end.
+
+User have an option to Export data in Excel, CSV,PDF, or can be copied to console.
+
+User has an option to subscribe including setting up alerts & schedule the data (options like no of hours/months/years of data) and who to receive the e-mail and format.
+
+End user interface contains options like Hide/Show certain columns, sort, search data.
+
+Click on Charts button to view the data using Goolge Charts. Google Visulation API is used to display various kinds of charts based on the data that is displayed.
+
+
+In this application UI & Logic is completely separated making it more of plug & play.
+
+
+This application can be developed using spring technologies and deployed on Pivotal Cloud Foundry and Scaled. It's great fit for micro services architecture.
+
+PCF coupled with Netflix OSS patterns can be used for deployment. Most of business logic components can be enabled for continuous deployment & delivery.
+
+
+This solution is going to provide quick access to data in underlying databases in a matter of minutes. It doesn't require any code deployment and provides awesome User Interface for end users. 
+
+This can be used to support various small to medium scale data analysis issues.They could be support issues or analyzing e-commerce databases.
+
+Nice thing about this solution is , ability to quickly meet end user needs and ability to visualize, customize, and subscribe to the data.

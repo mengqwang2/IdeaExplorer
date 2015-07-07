@@ -1,0 +1,15 @@
+Smart Home Platform
+Developing methods to introduce smart city and have remote control over electricity's usage.
+Some incidents happens to people when they forget their air conditions running after they travel abroad or forget other devices in home.
+Introduction:
+We will be creating a sensor attached to each electricity device in home such as fridge, air conditions and even light lamps.
+
+The sensors will be all connected to centralized application/server where each householder can have access to it through secured internet channel.
+The server can be accessed either from computers or mobile devices.
+
+Interface:
+Platform will have list of available devices in home and with the status of it (Turned on or off)
+Each device will be as well calculating the average usage of power in Watt unit and total power for home will be calculated.
+
+Depending on the device, You will be able to change the status of it such as: Turning off, on or even reducing the power provided to each.
+Success would be seeing people using that kind of technology to have control over their houses to reduce the risk of incidents and saving their time

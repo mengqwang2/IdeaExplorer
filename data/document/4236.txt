@@ -1,0 +1,7 @@
+Using Big Data
+
+While EMC gets only the issues which are logged with EMC there are many people who use EMC products but do not have support from EMC and thus Google is their source of Support.
+Everyone accepts that the first place anyone searches whenever any issue is encountered is Google. Tie up with Google to get access to searches relevant to EMC so that that can be used to make the knowledge document respository relevant and updated by using Big Data to make sense of the searches and map them with existing repository or create new documents
+
+
+

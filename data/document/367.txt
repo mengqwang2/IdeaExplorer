@@ -1,0 +1,18 @@
+EMC Online Manufacturing Guide
+*
+Collaboration between Mike O'Regan and Marta Bodenko
+We propose the creation of an EMC Online Manufacturing Guide with support for advanced navigation features such as expandable sections, a breadcrumb trail, related-topic links, and mini Tables of Content and images, audio and video.
+
+This guide would provide procedures and reference materials required for the physical build of all EMC products. 
+
+It would support all system configurations, organized by the main physical build processes: assembly, cabling, pre- and post-test process, and final preparation for shipment. 
+
+Available cross platform – phone, tablet, laptop, electronic white board.
+
+For example a section for installing a VNX DAE would explain the task, highlight safety concerns and then step through the process with diagrams, photos and highlighted torque settings.
+
+All tools and parts required would be listed and photographs included
+
+An example: http://www.dozuki.com/features/watch-overview
+
+*

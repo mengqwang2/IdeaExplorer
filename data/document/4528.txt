@@ -1,0 +1,5 @@
+Mobile App to improve efficiency of scheduling of Mother’s Room throughout EMC facilities
+
+Lisa Hall thought of this idea when trying to schedule the Mothers’ Room.  Currently a white board is used but a mobile app would be the best solution.  Lisa Hall, Melissa DiMotta, Lynne Maynard, Aleks Messier, Kristen Turco and Michelle Tran got together to brain storm on key features and functionalities.  
+The Mothers’ Room Mobile App will be compatible for both iPhones and Androids to simplify the process of utilizing Mothers’ Rooms. This app would have features such as: on-demand scheduling of rooms, web access capability for those who don’t have a smartphone, a calendar view to see what is reserved/what is not, the ability to reserve in advance or book on the fly, check-in and check-out functions, as well as Mothers’ Room notifications of cancelations or reservations.  There would be opt-out options, mother profiles, ability to communicate, phone & badge to access rooms, guest access, Mothers’ Room finder – map / GPS to find an available room within close proximity, and ultimately—Global access, across any campus and any site that has a Mothers’ Room.
+

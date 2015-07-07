@@ -1,0 +1,37 @@
+Product Tag (Beacon Technology)
+Areas and business units this idea targets;
+
+* Mapping out large data labs
+* Site/implementation engineers 
+* Prediction & preventative maintenance (HW and SW M&O)
+* Part Tracking/validation (Logistics & GLO)
+* Contract Tracking/validation (Responsible for billing clients)
+* Accurate Real-time database of all Emc's products
+* Automation
+* Building analysis and insights
+* Increased TCE
+
+I've had it for a while and I was waiting for the innovation competition and hoping one of the challenges would cover this area.
+Tagging all Emc products with Beacon Technology either built-in or even by plunging a usb (@$10 piece or could be made in-house) would aid greatly in locating faulty racks in large data centers at ease and reduce down time for customers.
+
+For security reasons the beacons can’t be connected to the internet because remote connection is not allowed by a lot of customers. 
+So instead, they only sync when an engineer is present on site to a device controller he/she carries. The device is IFTTT and HTTP enabled (can be found http://bt.tn/ @$50 or could be made in house) catches the signal from surrounding beacons mapping out the way till the rack is located.
+
+The beacons will also grab the part number, serial number and state of the product and all the drives plugged into it. Information collected will only be limited to the part number, serial number, health/state and location.
+
+Once the beacons authenticate with the device controller, the information is transferred. 
+The device controller automatically disconnects from all the surrounding beacons before it sends the information over the net where it’s later organized and kept in a database.
+
+Data will be used for;
+- Analyzing and predicting part failure 
+- Providing insights, discovering patterns and drawing relations 
+- Tracking parts for logistics (enhancing collaboration)
+- Notifying the maintenance team -responsible for billing- of product activation and reflecting that on the system
+- Providing accurate real-time database instead of the currently outdated one 
+
+The second part would be providing customers with an optional on-site device controller that comes with a Vipr controller. The difference is the on-site is working 24/7. Meaning for the customer; a higher level of support since our database is in real-time and our predictions are far more reliable. Meaning for us; more saved costs across business units like; Maintenance, Renewal, Contracts, Logistics and GLO.  Plus the customer gets the added benefit of Vipr which can help in automation and open new opportunities.
+
+Should EMC proceed with the idea, not only will the engineers immediately find the faulty rack and be able to map entire data labs of EMC customers but also that automatically means a real-time database which can be used to build insights about products, their components, how they operate, where they fail and increase efficiency & accuracy by saving all costs that are wasted by not billing certain products due to human error or documents loss. Same thing goes for Logistic about tracking parts.
+
+This solution in total would cost less than a $100 per product/rack if the technology is bought commercially and definitely way less if implemented in-house.
+

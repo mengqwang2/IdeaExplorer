@@ -1,0 +1,12 @@
+Full scale 3D plastic and/or cardboard models used for training and sales.
+Reduce costs while maintaining a high level of knowledge transfer to our field staff.   Reduce FRU errors and improve TCE.
+We are often asked to find new ways to reduce costs and travel. Yet, with so many new products hitting the streets, we are faced with more training than ever before.  It’s difficult to feel comfortable working on a product if you never physically seen it before other than showing up for the first time on a trouble ticket.  This also makes customers a bit uneasy.
+
+While shopping for furniture, I noticed 3-D models of computers on desks.   3-D models TV’s and stereo’s on entertainment stands.  Looking at these models, I thought how realistic they looked and how they serve a purpose in demonstration.  That same purpose can be accomplished with rack mounted nodes and various components.  Real pictures of components with the covers removed and printed on 3-D boxes would make for a great learning tool with minimal cost.
+The problem we have in the field is the constant costs reductions in non-customer facing travel and overall operational costs.  Training often requires travel to either an RDC or corporate location.  Often, when the field is trained, we spend about 80% of the time in a classroom via remote connection to a lab array, and any “hands on” work performed is accomplished in a “mock” manner.
+
+Training can still be performed on a remote array, but any physical training needed can be visually demonstrated to the local class via the 3-D model.  For example, a drive replacement procedure can be a “mock” operation ran on a remote array.  The 3-D model can be used to represent the location of the FRU.  The students feel more confident as to knowing where a FRU is located and where to look for various parts.
+
+Currently, Education Services is moving toward “video” visual training for the field.   Which is fine, but it does deter many from really understanding the product without seeing the actual unit.  Often, field staff see products for the first time when first installed.  The full scale 3-D model will help improve training and confidence of the field service tech prior to engaging in products for the first time.
+
+Success would be able to deliver a field training course and use the 3-D model as a training tool.   The added bonus would be to use that 3-D model as a sales tool.

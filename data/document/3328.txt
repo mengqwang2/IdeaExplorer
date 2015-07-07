@@ -1,0 +1,15 @@
+Customizable Virtualized Storage Array for commodity server
+
+When I'm in Iomega team from 2006 to 2011, we've various customers have requirements for some advanced storage features, while they have little funding or budget to acquire EMC medium-high class storage and with the product definition, Iomega products failed to provide these functions to address the challenges from these customers. There's a gap in between.  
+Now I'm working for partner integration engineering team, started to engage in various EMC storage, technologies and solutions. 
+In this idea, we'd like to propose Customizable Virtualized Storage Array for commodity server. So generally, it requires small amount of money or even free to invest while provide some basic EMC storage technologies and data protection solutions with its highly customizable virtualized storage system.
+The basic logic is:
+1. EMC provide very cheap or free Customizable Virtualized Storage Array to the small business users, to help address their initial challenges.
+2. EMC work with the users to know their challenges and overtime requirement, provide step-by-step storage/infrastructure solutions; Meanwhile the users will get used to EMC product and highly involved EMC solution in their IT infrastructure.
+3. With the business grow, the user will have money to upgrade their IT infrastructure and invest medium-high class storage, mostly likely from EMC.
+The major benefits:
+1. Fill in the blank of EMC product portfolio for small business market(<15K);
+2. Keep relationship with the a great amount of customers and better understanding their needs and challenges;
+3. Fertilize and educate the customer and improve the user viscosity. 
+
+

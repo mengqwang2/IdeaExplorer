@@ -1,0 +1,5 @@
+FAST VP to rebalance across backend ports
+
+I was observing FAST VP algorithm.
+Disks are connected through backend ports, so making even IO distribution across disks may lead to no even distribution across back end ports. These two factors should be taken into the consideration to make an optimal distribution, which will lead to better response time.
+

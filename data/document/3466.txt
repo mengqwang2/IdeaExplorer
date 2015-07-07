@@ -1,0 +1,9 @@
+Dial Home Enhancement.
+
+- Idea came to save the time when we receive Dial Home Cases
+- Running Script when the Box will send DH Case in order to gather the required Logs.
+
+- Then, Send it to EMC FTP Server.
+
+- Once TSE will see the DH Case, He can download the logs from this FTP Server in order to save the time.
+

@@ -1,0 +1,17 @@
+Power Smart Analytic Software
+
+Idea came up to enhance the power consumption by EMC Products.
+- An Application S/W will monitor the power consumption of EMC Products.
+
+- Power Consumption Report will be sent to EMC 
+
+- EMC Big Data Anlysis solution will analyze this information and get the way to enhance it.
+
+- EMC Will send reports to the customer to give him some tips to enhance the power consumption.
+
+- EMC Will determine the Accuracy of the power consumption.
+
+- Measure the efficiency of a Architecture design. 
+
+
+

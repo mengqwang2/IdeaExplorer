@@ -1,0 +1,44 @@
+Unique Identification of IOT enabled devices
+unique identification of IOT devices will play a major role in ensuring security associated with IOT devices,by preventing impostor devices to authenticate and ensuring the message meant for a device in not delivered to some other devices. 
+We(Me and Charan Kumar H L) came up with the idea during the brief talk about the innovation roadmap challenge held at EMC,Bangalore.
+Unique Identification of IOT enabled smart devices
+
+The basic idea is not to allow direct Device-To-Device communication, but to have the communication via a centralized Authentication server which first authenticates the devices participating in communication by analyzing various parameters that the Device provides to the server, when it requests to communicate with another device.
+
+We plan to have databases with each authorization server regarding the Devices registered as IOT enabled devices and their unique parameters. The databases can be implemented in the same way such as a DNS servers, that is in an tree like structure. 
+
+We plan to have combination of multiple parameters. More the number of parameters, more the probability of correctly identifying the device and detect impostors.
+
+
+
+Parameters Identified
+
+1)Stationary object 
+
+Following parameters should be passed to the authorization server during first time registration and henceforth,during every request
+
+-Latitude and Longitude of an object(GPS enabled devices are now a reality : http://www.vetsonline.com/news/latest-headlines/140905-patents-filed-for-first-implantable-microchip-with-gps-tracking.html)
+
+-Unique ID like an IP-V6-Address
+
+-Company manufactured chip,built into the device,on the lines of a MAC address.
+
+-Stationary or moveable(Can be determined by reading data from in-built speedometer)
+
+2)Moveable object 
+
+- Current Latitude and Longitude + Current approx Speed(inbuilt speedometer in the device,in form of micro-chip)(we can use GPS for current Latitude & Longitude, enabling it on the IOT chip that is present in the moveable object ,as we said,GPS enabled chips are now a reality)
+
+-Unique ID like IP-v6-Address, 
+
+-Company manufactured chip,built into the device,on the lines of a MAC address
+
+-Stationary or moveable(Can be determined by reading data from in-built speedometer)
+
+
+
+On correctly identifying the identifiers of the initiator of the request, the authorization server then pings the target device and gets its credentials . Once that has been verified, communication link is established.
+
+Currently MQTT does serve this purpose i.e Authenticating the two communication parties using ID and Password before allowing them to start communication.A modification of the MQTT protocol or building of a similar protocol to incorporate the identification parameters as identified by us would be one of the possible solutions.
+
+It will surely contribute a lot to security of IOT devices as we believe the first step to security is identification.

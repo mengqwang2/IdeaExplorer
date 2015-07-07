@@ -1,0 +1,7 @@
+Enterprise Service ONE
+Currently there is no updated catalog available with the list of Apps/Services being used by different Business Units in EMC. Developing a centralized repository will enable re usability of same Apps/Services by different BU's which requires similar soln.
+While working on different projects and several interactions with other BU leads, we identified that same/similar apps/services were used from different vendors.
+We wanted to bring this repository which will increase visibility to existing apps/services within different BU's for re usability. 
+Developing a centralized repository will enable re usability of same Apps/Services by different BU's which requires similar soln. This process enhancement is inline with EMC ONE concept where all Apps/Services can be made available for review during IPRs. The available soln can be re used by different BU's with no or little customization leading to huge cost($) savings
+Centralized repository for available Applications/Services within different Business Units in EMC resulting in cost and time savings, better revenue, Vendor Management, reuse of test cases.
+

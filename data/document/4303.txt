@@ -1,0 +1,15 @@
+Scalable Converged Infrastructure and ECS for Bioinformatics
+
+Converged Instrastructure is a key focus of EMC recently. As we know, EMC already released CI products like VBlock, Greenplum DCA, and VSPEX. Moreover, groups under CJ's Emeging Storage division are working on more CI products (like Nutanix and OminiCube). 
+Recently we had a lot of discussion on CI domain in different groups. This idea would be a good solution scalable from small to large business, with adequate cost and cover both needs in private and public cloud.
+Converged Infrastructure (CI) is a hot domain in IT industry, and is also one of EMC key focus in the coming years, as part of Emerging Storage. 
+(1) CI products fullfil the requirement of both computing and storage requirements, as well as network requirements with a single integrated physical appliance (hardware / software). 
+(2) CI products can be deployed with a small number of nodes at the beginning, then grow on demand to large cluster. CI is usually have good scalability, thanks to distributed architecture, compared to traditional infrastructure (servers, arrays, switches)
+(3) CI nodes have good flexibility of hardware configuration: computing intensive or data storage biased.
+(4) CI products also have options of software configuration, e.g. different sets of capabilities (backup, dedup, thin provisoning, etc) with a family of licenses.
+(5) By combination with EMC ECS, which is just annouced at EMC World 2014, we can integrate dedicated storage appliance with low price and large capacity
+(6) By combination with EMC DCA (GreenPlum Data Computing Appliance) we'll have dedicated node for Big Data Analytics.
+(7) By integratio with Isilon, we'll have a scalable / powerful storage cluster in the backend.
+In Summary, an integrated solution with existing / in-developing EMC CI products, we can provide a comparable or even better option to the industry of Life Sciences and bioinformatic
+
+

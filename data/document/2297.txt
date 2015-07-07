@@ -1,0 +1,5 @@
+SAP HANA application-aware HA for Hybrid Clouds
+The idea can accelerate adoption of SAP HANA deployment in cloud environments with federation technologies (vSphere and EMC storage).
+SAP & EMC together have created the HANA storage connector for fibre channel and bare metal HANA. This software is part of SAP's HANA distribution. The GSE engineering team in Walldorf came up with the idea of a vHANA storage connector which works for EMC storage only.
+Create an EMC specific storage connector for vHANA and integrate it with the native vSphere HA functionality.
+The vHANA storage connector could be sold as part of a solutions engagement or as a software component. Customers running HANA in a cloud with EMC storage could benefit from the additional functionality. Incremental revenue and service opportunity for EMC

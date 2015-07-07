@@ -1,0 +1,11 @@
+Mini VE for home use.
+
+-
+Make a small converged infrasructure where a server is directly connected to a small storage.
+VMWARE to EMC.
+
+The box can then provide VM to users based on the license bought.
+The users can access their VMs from tablets, mobile phone or any other device.
+
+This will give performance, reduce in cost, centralized management and will expand emc business to home usage and small business. Also VMs could be accessible remotely.
+

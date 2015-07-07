@@ -1,0 +1,5 @@
+Remote control and monitoring
+The challenge is asking for an idea that will assist the administrators to identify and monitor possible issue and provide customized user interface and make use of data analytic solutions.
+The idea is an output of graduation project that belongs to Electronics engineering Major in the American university in Cairo. The modules are easy to buy and program 
+Using Zigbee modules, issues can be monitored using wirelss sensor network that can send the output to a web service ( interface) or a message to the administrators using networking techniques.
+It will look like a group of sensors that are located in different geographical places with a monitoring interface for data analytic. 

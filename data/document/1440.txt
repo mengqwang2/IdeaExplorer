@@ -1,0 +1,186 @@
+Architecture for Massively Parallel Time-Series Behavior Modelling and Predictive Analytics with Automated Model Selection
+This Idea aligns to the Brazil R&D Center Time-Series Architecture Challenge. 
+
+Here we propose the architecture, infrastructure and framework to ingest the time-series data from multiple sources on a continued basis (also the historical data for these sources), do model-learning and predict the future behavior of these time-series.
+While looking for a solution for performing analysis of EMC VPLEX performance metrics we came across machine learning and predictive analytics that could be adapted to determine the performance, failure rates, trends, stability etc. to measuring and solving total customer experience (TCE) goals. We continue to build an internal application that helps us to continuously monitor and bring predictability to VPLEX quality.
+The solution has considered the problem to be uni-variate time-series but with simultaneous equations and Artificial Neural Networks we should be able to modify this for vector analysis as well.
+
+Inside EMC: https://inside.emc.com/docs/DOC-155884
+
+================================================================================
+Assumptions:
+================================================================================
+The proposed solution herein assumes the data to be the telemetry data for temperature, pressure, velocity, acoustic etc from sensors installed on the network.
+ 
+We consider the multitude (in this case 5000 time series) of sensor data and provide architecture to work out prediction models to forecast the time series behavior of each of the sensors or data feeds with possible applications into forecasting, warning, preemptive and proactive actions .
+ 
+For a connected pipeline network scenario - The data at each of the sensors is not completely independent and for connected networks the data is correlated as the drop or rise of sensor data at any sensors also results in similar behavior at other sensors. Based on the assumptions of oil & gas distribution network, we believe that data is continuous and range based and not truly probabilistic. 
+
+
+================================================================================
+Architecture:
+================================================================================
+
+
+--------------------------------------------------------------------------------
+- Considerations:
+--------------------------------------------------------------------------------
+- Overall ease of Integration with existing EMC platforms
+- Database - Current Size, Language, Machine Learning Algorithm, Scope of Growth, Cost
+- In-Memory - GemfireXD (Pivotal's, now open source, in-memory database on PivotalHD) 
+- On-Disk : HDFS as perpetual long term data store, HAWQ & MADlib for querying and machine learning on long term data
+- Distributed Computing: Apache SPARK (Shipped with Pivotal Hadoop Distribution), provides parallel processing much faster than any existing Map Reduce. Apache SPARK now has SparkR (parallel implementation of R language that gives us access to great number of Machine Learning Algorithms)
+
+
+--------------------------------------------------------------------------------
+- Workflow:
+--------------------------------------------------------------------------------
+1. Proposed computing infrastructure (NameNodes, DataNodes with compute, memory and
+   storage) is setup as an on-premise or in-cloud using Pivotal CloudFoundry (Federated
+   Business Data Lake). [Pivotal HD 3.0 so that YARN is available]. For faster deployments
+   an in-cloud offering is suggestible.
+
+2. SpringXD (in distributed mode using YARN) for all Ingest, Transform and Sink function
+   is operationalized
+
+3. SpringXD ingests per second data from existing data sources (assuming 5000 existing
+   sensors)
+
+4. SpringXD continues to move data to In-Memory Database Redis or GemFireXD
+
+5. Apache SPARK Streaming with SpringXD is used for model tuning for ingested data and for
+   learned models from PivotalR or SparkR
+
+6. HAWQ is used to create schema and further read existing 10 year time-series data to the
+   proposed long term data store HDFS
+
+7. Use PivotalR (in turn using MADLib) or SparkR (From Apache SPARK) for Machine Learning
+   and Modeling 
+
+8. Visualization Dashboards and comparison of models for in-memory, real-time data and
+   against the models can be done by integrating Grafana
+
+9. SpringXD continues to move the data from in-memory database to Long-term data store
+   HDFS fairly regularly
+
+
+		+----------------------+
+		|Apache SPARK		|
+		+----------------------+
+			||
+		+----------------------+		+-------------------------------+
+		|SpringXD		|<====>	|	GemFireXD or Redis	|
+		+----------------------+		+-------------------------------+
+			||	 	  \\			||
+			||	 	   \\			||
+			||	 	    \\			||		
+		+----------------------+		+-------------------------------+
+		|HAWQ on HDFS		|<====>	|	MADLib, PivotalR, Python	|
+		+----------------------+		+-------------------------------+
+			||
+			||
+		+----------------------+		
+		|Storage		|
+		+----------------------+
+
+                      Federated Business Data Lake  
+
+--------------------------------------------------------------------------------
+- Software Stack:
+--------------------------------------------------------------------------------
+1. SpringXD (ingest)*
+    - Ingest incoming live data
+    - Considerations:
+      o Number of sensors / data streams
+      o Existing data (import directly to database or through SpringXD)
+
+2. Spark (compute)
+    - Computation on incoming data
+    - Modify data during ingestion
+
+4. HAWQ (analyze)
+    - Store and Analyze (write once read many)
+    - Based on top of HDFS
+
+3. GemFire/GreenPlum (fast data)
+    - Takes formatted data from SpringXD/MADLib (final storage)
+    - Consideration:
+      o Volume consideration
+      o Speed to store and retrieval
+      o Size of dataset
+      o Scalability
+
+5. MADLib/SparkR (machine learning)
+    - Learning algorithms (comparison, graded, running average)
+    - Takes data from SpringXD (at ingestion) or GemFire/GreenPlum (fast data)
+    - Stores data onto GemFire/GreenPlum (for store)
+
+
+--------------------------------------------------------------------------------
+- Hardware Considerations:
+--------------------------------------------------------------------------------
+1. Storage Specifications:
+- Implementation on a federated business data lake as promoted by EMC Data Lake Foundation (with EMC Isilon)
+
+2. Data/NameNode Specifications:
++---------------------------+-------------------+
+|NameNode Memory/CPU |8GB/Quad Core   |
++---------------------------+-------------------+
+|DataNode Memory/CPU   |28GB/Quad Core |
++---------------------------+-------------------+
+
+
+--------------------------------------------------------------------------------
+- Sizing/Scalability:
+--------------------------------------------------------------------------------
+
+1. Data Sizing:
++---------------------------+--------+
+|Replication Factor          | 3        |
++---------------------------+--------+
+|Monthly Data Volume     | 125GB |
++---------------------------+--------+
+|Monthly Data Growth      | 5%     |
++---------------------------+--------+
+- Based on the 1GB data per series per 10 years (ie., 5TB)
+- Data sizes (for a total of 5000 series) -
+  o 1 Year: ~2TB
+  o 3 Year: ~12TB
+  o 5 Year: ~44TB
+
+
+2. Disk/LUN Sizing:
++---------------------------+--------+
+|Intermediate Data          | 25%    |
++---------------------------+--------+
+|Non-HDFS Reserve Space| 30%    |
++---------------------------+--------+
+|Disk/LUN Size                | 4TB    |
++---------------------------+--------+
+Dedicated HDFS Space: 1.8TB
+
+3. Scaling Plan:
+Assuming a data growth of 2% and 1.8TB dedicated HDFS disk space on nodes, we would need at least 2 data nodes for the firs year and additional 5 and 22 data nodes by 3rd and 5th year respectively.
+
+
+--------------------------------------------------------------------------------
+- Algorithms:
+--------------------------------------------------------------------------------
+Following class of algorithms can be considered alone or in combination in selecting maximal set of 256 parameters from the given interval of 1hr (3600 samples) of each of the 5000 series -
+1. Box-Jenkins (ARMA and extended class of models) - proven for time-series - Can allow modification of models based on p,d,q values
+2. Exponential Smoothing - Holt's, Winter's, Holt-Winter's models
+3. Neural networks - feed forward neural networks
+
+
+--------------------------------------------------------------------------------
+- References:
+--------------------------------------------------------------------------------
+1. http://www.sciencedirect.com/science/article/pii/S0307904X03000799 (The Box–Jenkins analysis and neural networks: prediction and time series modelling)
+2. http://www.sagepub.in/upm-data/11212_Chapter_1.pdf (Multiple Time series Models)
+3. http://www.researchgate.net/publication/241520953_A_New_Algorithm_for_Automated_Box-Jenkins_ARMA_Time_Series_Modeling_Using_Residual_AutocorrelationPartial_Autocorrelation_Functions (A New Algorithm for Automated Box-Jenkins ARMA Time Series Modeling Using Residual Autocorrelation/Partial Autocorrelation Functions)
+How is it better:
+1. Leverages EMC Storage and Pivotal Big Data Analytics suites
+2. Based on open source components that would make solution cost effective
+3. Addresses automated model selection
+4. Scopes for data growth and scaling
+5. Scopes for model fine tuning

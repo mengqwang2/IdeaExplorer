@@ -1,0 +1,20 @@
+MoodMusic
+
+I like music and always wanted to have this kind of smart application for music
+MoodMusic:
+MoodMusic is a social music network that can predict your current mood and automatically play the most suitable music or songs for that mood. Music lovers around the world can also save the music they like to personalized playlists and can share these playlists with friends and networks. 
+What is unique about mood music is that it is a massive big data application that can predict your current mood based on data that it collects as you go:
+-	You can like/dislike songs, playlists which will feedback to the app learning server
+-	If you’re in your car, MoodMusic can collect live traffic data about the road you’re driving in and combine this with your historical preferences it learned about you and for example, automatically play a slow song to soothe you and your mood.
+-	MoodMusic can collect live weather data and if for example it’s raining where you are, plays your favorite nostalgic playlist
+-	Because MoodMusic is connected to your social network account (ex.: Facebook), it knows your relationship status and who you are in a relationship with. When you and your partner are for example in the car driving together (which can be determined through GPS tracking on both of your smartphones), MoodMusic can automatically play your favorite song. Isn’t that amazing!
+MoodMusic is composed of a frontend mobile app/website and a constantly evolving backend learning server that collects massive data about you and your interests (by connecting it to your Facebook account for example to know the music pages you liked)
+3rd platform technologies Used: 
+-	Social networking: follow, like, share, tag, etc…
+-	Massive Big Data application
+-	Mobile app
+-	Cloud storage services to host your preferences, playlists and favorite songs
+
+I think 3rd Platform technologies can be so much FUN!
+
+

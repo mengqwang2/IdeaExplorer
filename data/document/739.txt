@@ -1,0 +1,33 @@
+Virtual Hackathon to foster diversity in Innovation
+-There is a dearth of great and diverse talents distributed globally. Identifying and normalizing these talents is the challenge that we aim to solve.
+-Hackathons have proved to be an effective and efficient way to identify talented individuals.
+-By providing a fun and safe environment in which to explore innovation, the hackathon encourages and supports EMC women around the world to become producers of future innovations in technology and help solve challenges in the world today.
+
+Innovators in this group have the experience of taking part in Hackathons we understand the  experience which can be gained and platform it provides for showcase individual potential, also work with diverse teams to innovate in collaborative manner, women members of team have the experience in taking in part hackathon specific to women and their feedback was extremely positive, We learnt that it was a great way to recognize good talent among the diverse resources available in EMC and provide them with an opportunity to globally collaborate and innovate.
+
+Ideating this we came up with this solution to have a Virtual Hackathon to foster diversity
+-A Cloud based dynamic recommendation global collaboration tool can be built to create and host problem solving(programming/ non-programming )challenges.This tool can be integrated with Inside EMC and other internal collaboration platforms such as DiscoverIT.
+
+-This tool can be used to host a crowd sourcing event to identify young diverse leaders in technology.
+
+-Any new or existing team in need of diverse resources can use this tool to host a virtual hackathon with challenges relevant to the hosts requirements.
+
+-Interested candidates can form teams and work on solving the listed challenges over a time period suitable to their own time zone.
+
+-Team formation will be policy based (Example: The team should consist of Women employees,differently abled resources,ethnic diverse resource )to ensure global/diverse collaboration.
+
+-The tool will evaluate the submitted solutions based on the following criteria:
+•	Global Team collaboration
+•	Business Value
+•	Implementation Cost Effectiveness
+•	Innovative Thinking
+•	Design Thinking
+
+   A Final Report would be generated based on all the submissions.                             
+
+
+
+- This solution would help you effectively identify valuable Diverse talent Globally. 
+- Provide a platform for women/differently abled resources to showcase their capabilities and prove their worth to EMC.
+- This solution would ensure that EMC doesn't just achieve a diverse range of talent across the company but also identify resources with a wide range of skill set.
+

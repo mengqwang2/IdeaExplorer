@@ -1,0 +1,10 @@
+channel helpdesk
+My Idea is about the end to end process in the channel organization. There is a clear gap between our partners and the different business units supporting the channel in EMC.
+As this challenge is looking to fill the gaps and make a complete end to end pro
+I already work in GBS presales team that already support the partner and it is already a problem that the partner doesn’t know who to address his problem to. We work also closely with the PSC team that support the partners with Non technical issue, and we try to work closely together to address this problem, but still other supporting team work independently so we need to put all these teams under the same umbrella.
+the supporting teams for the partner are already there , trained and have all the knowhow to support the partners, however they all work independent from each other’s so there is a lot of gray areas where no one take ownership of and also sometimes there is an overlapping of the tasks that are done in different teams.
+Some teams are technical, others are non technical. At the end the partner is not satisfied because he goes into circles until he gets the support or the information from the correct team.
+My idea is simply  create a layer on top of these teams that acts as a 1st level support and a single point of contact for the partners. It is like the customer service short number you dial to get support from your Telco.
+This team will know where to go inside emc and will be able to get the correct info for the partner.
+Luckily most of the teams already supporting partners use sales force as ticketing system. So it will be easy for this new team to connect to the different team and rotate the cases.
+I believe my idea will increase the partner TCE, which will result in more revenue. Partners already work with different providers, so the ease of working with the provider will make them want and love to work more with this provider. So that’s why I beli

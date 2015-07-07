@@ -1,0 +1,5 @@
+Storage System Power Saving for EMC VNXe Series
+
+This Idea emerged during EMC VNXe (KittyHawk/HittyHawk+) product development cycle. We are using number of arrays to qualify product features. During the Qualification cycle we were testing disk drive related failure scenarios such as disk pull, ODFU we found that most of the disk drives are having power saving supported firmware but array doesn’t have feature to use power saving option. If we provide powersaving feature in VNXe series arrays, it would be a great add-on for low-end customers and they can save energy and money. For more details on how much money can be saved please refer to the innovation idea titled “Energy Saving Engineering Strategy (ESES) for EMSD Storage Products” and ID number “2014003853”.
+We need to port VNX array powersaving feature code to VNXe array  and enable power saving option by default without user intervention on all engineering/release builds so that it forces everyone to use power saving option.
+

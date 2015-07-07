@@ -1,0 +1,40 @@
+Health Care Data Lake - Using big data in better healthcare planning and medical research.
+Healthcare is one of the vital pivots of a Smart City. This market makes best use of IoT and sensors technology to collect data and service monitoring. However, its huge data assets remain unharnessed. The idea makes use of the huge data collected by the healthcare sector (reports archive, IoT and sensor data..etc) to monetize it and provide actionable insights.
+ 
+The idea addresses a huge vertical market that is healthcare sector and allows EMC to provide tailored solutions and generate revenue leveraging EMC Business Data Lake BDL.
+
+ the idea came up from talking to many researchers in the medical field as well as doctors.
+The solution will collect two types of data:
+1-	Reports Srchive: Doctors are everywhere. Medical reports are generated every day. these reports are rich source of information as they indicate the disease, its symptoms and cause. most of these reports are not used after few days. 
+2-	IoT sensor data from hospitals: reflect real time data about different health aspect for many patients. 
+ 
+We can make use of such huge amount of data to run Big Data analytics techniques to derive value and insights of it in the following aspects:
+
+1-	Unified healthcare database over the cloud: all patients information is secured over the cloud for only authorized users (doctors). Data will be profiled based on patient ID to make it easy for a doctor to get historical treatment data for a patient..etc
+
+2-	Data-Driven Diagnosis Service for doctors:  Analysis run on data on the cloud helps the doctor to diagnose correctly by providing recommendations and analysis reports.
+
+3-	Demographic classification: know what are the most common diseases in certain regions/cities creating disease map.
+
+4-	 relating the disease map to the environmental, social and health conditions for certain regions (using data analytics association techniques)
+Such approach will achieve two dimensional win :
+1-	help the healthcare organization:
+a.	Resource Allocation: proactively plan the need for doctors with certain specialities in certain regions to better meet the demand.
+b.	Root Cause analysis: analyze the main causes of common diseases.
+c.	Fight epidemics: predict certain epidemics (by monitoring its causes and conditions) and proactively fighting it. for example if certain conditions and causes that are used to accompany this epidemic in the past re-occured again, the application will alarm the healthcare ministry to investigate the issue.
+
+2-	Medical research and education:
+
+a.	improve the medical research by helping knowing information about causes of certain diseases hence helping in developing ways to cure it.
+b.	help medical researchers process huge amount of data (medical reports) they want to analyze. this can be done in not time.
+c.	help research student to be aligned with any new disease or epidemic that appear.
+
+This solution will combine big data with cloud services to the good of healthcare, educational and public governmental sector.
+
+EMC can provide the solution as a big data service over Pivotal CF or provide the enabling technology like EHC 
+
+1-	Transform healthcare sector
+2-	Fight diseases
+3-	 invade huge vertical market (healthcare) and generate revenue for EMC
+4-	Enhancing the overall healthcare service using data-driven decisions
+

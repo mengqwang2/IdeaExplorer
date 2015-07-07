@@ -1,0 +1,5 @@
+Self-paced learning for all EMC Products.
+
+I have got this idea when I reading the challenges.
+Create a self-paced learning for all the EMC products and the emerging technologies like Big Data, IOT,3rd Platform, etc. at least to the fundamental level and make it available free of cost to all the EMC employees so that, everyone in EMC will know about our range of products and its capabilities. This will open up the EMCers thinking and innovation capability and start thinking about the new things.
+

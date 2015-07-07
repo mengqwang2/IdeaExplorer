@@ -1,0 +1,22 @@
+Healthcare Analytics On The Go
+
+Traditionally, most content management systems were about managing workflows and lifecycles but none of them provided support for informed decision making. Having an analytics framework enables your customer to take important decisions based on the huge data that he is storing with us. DCTM is the ECM of choice for unstructured data, therefore its best suited for the Healthcare Industry(generates huge amount of unstructured data) and thats a domain where decision making must be both quick and accurate. Therefore I felt that having an easy to implement analytics framework on top of DCTM would greatly help our customers. 
+Presently the government organisations (especially in developing countries)have paper based data which is not well managed and is also pretty old and not frequently updated.
+
+The idea here is to have an analytics framework on top of a repository(stores patient information for a community).
+
+We can leverage EMC’s Healthcare solutions to setup a central clinical repository on documentum platform and capture patients’ medical information in a central location. We can use Statistical programming language (R open source language for Statistical programming) to analyze the medical information and generate different Statistical Reports. We can build a client application compatible on mobile, desktop or web based platforms (based on HTML5 / Angular JS) to enable end users to view and take decisions on the reports. R can be combined with d3.js for visual reporting.
+
+Use Cases :
+1. Let's say Hospital A (provider) ran an analytics on the patients registered in the last 5 years.
+	The reports showed a steady increase in the number of patients (age group of 20-30 years) suffering from lung diseases. Most of the patients were males residing around Bangalore where the ABC Automotive Plant has been the biggest employer since its inception 5 years ago. This was reported to the Government agencies and they found that the proper steps were not taken to treat the industrial waste before it was released through the chimneys. 
+
+2. Let's say  Hospital B (provider) has been able to cure several patients suffering from cancer. But analytics revealed that the Delhi branch reported greater number of successful treatments than the Bangalore branch, for patients registered with Leukemia level 2 but for level 3 Bangalore’s performance was much better. An analytics on the drug used revealed that Delhi branch prescribed drug X in most cases whereas Bangalore branch prescribed drug Y. Therefore the success rate of a particular drug is different at different levels.
+
+3. “On the go” advantage:  We can schedule some standard set of queries to be run at regular intervals. A message alert can be configured, which will count the number of results returned for that query and trigger sending of a message when the count exceeds a certain number.  For eg: due to a leakage in a chemical factory , there are reportedly an increasing number of cases being registered. But for judging whether there is breakout of an epidemic, the rate at which the disease is reported needs to be checked. Our scheduled query will keep checking the rate as a count of the number of entries returned and the moment it exceeds the configured number, it will send the message.This is very effective in tracking for impending epidemic breakouts and thus implementing control measures in advance.
+
+For further information on the implementation kindly refer :
+https://inside.emc.com/docs/DOC-100058
+
+
+

@@ -1,0 +1,18 @@
+ EMC “MXjunior” – a new storage array <15K for APJ Market
+
+ The idea came up from comparing Existing VNX architecture with the virtualized and software defined storage. Hardware and OS licenses are the most cost-consuming parts
+
+
+ The MXjunior will add enhancements to existing VNX5100 to achieve lower cost and optimum performance as follows :
+
+-	Use only one hardware : use only one hardware and virtualize all other services : Virtualized control station and virtualized data movers. This way we cut a considerable amount of cost
+-	The hardware unit will accommodate the SPs and 2 or 4 TB disks for optimum capacity at low cost. 
+-	8 iSCSI base ports + optional 8 ports FC/iSCSI
+-	Free Open source Operating system such as linux distributions (Redhat or SuseLinux). Cut the cost of OS licenses.
+-	Simple management interface under the Unisphere family
+-	Mobile management interface app
+-	Replication and data protection is offloaded to the cloud for minimum cost. Replicate and protect the data on the cloud for minimum cost
+-	The box will be pre-loaded with services and ready for installation by the customer.
+
+
+

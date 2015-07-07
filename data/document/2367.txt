@@ -1,0 +1,6 @@
+Mob app to print from the mob 
+Provide a seamless experience from anywhere with device flexibility and less restrictions.
+
+one day I needed to print a document and the machine has an error and the document was lost . so I must leave the copy room , go to my desk , reprint the document then go the copy room again to take it 
+Add a plugin to our mail application  to be able to choose a printer that you have acess to and you can enter the number of copies and paper size , etc...
+easy access to the printer - Print anywhere/everywhere 

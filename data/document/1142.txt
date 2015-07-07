@@ -1,0 +1,14 @@
+Productize the BOW by partnering with SAP
+The BOW is a disruptive concept for the ERP/MES providers (ERP: Enterprise Resources Planning, MES: Manufacturing Execution System). It challenges the Industry standard, therefore provides huge business opportunities.
+How does this idea address the CTO challenge?
+1. Developing the BOW requires some system re-architecturing to provide a new information infrastructure for Manufacturers (Manufacturers as a 'Vertical' i.e. as customers of EMC/SAP), this would be well within EMC's capabilities.
+2. EMC and SAP are already working on Solutions for their joined customers. This would be an extra benefit for these customers, so a very natural fit.
+3. EMC has filed a patent on the BOW in Q1-2015. The BOW is a unique & original offering.
+4. The overall MES market is expected to grow at a CAGR of 12.61% from 2014 to 2020 from $6.66 Billion in 2014. This predicted growth reflects a need for manufacturers to enhance their systems.
+The BOW was filed for patent in Q1 2015. To bring it to the next level, EMC needs a suitable partner to develop it. Choosing SAP came as a natural choice, since EMC is a customer of SAP and EMC is already working with SAP to develop EMC/SAP tailored solutions.
+Add Bill of Work to ERP, and productize a "BOW-enhanced ERP"
+BOW = Bill Of Work, meaning leveraging the Bill Of Materials Structure, but to account for all the work steps to make a product.
+See details on Inside EMC (Video & Presentation):
+https://inside.emc.com/docs/DOC-156077
+https://inside.emc.com/docs/DOC-155708
+Develop and sell a "BOW-enhanced ERP" running on EMC infrastructure, with SAP as a partner. This would enable the customers of this product (manufacturers) to unlock systematically Business Intelligence, for example to automate and optimize the work schedule, assigned to the right resources, creating factories run by the systems of the future.

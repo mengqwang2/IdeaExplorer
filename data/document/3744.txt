@@ -1,0 +1,14 @@
+EduWorld - SaaS Offering for Educational Institutions
+
+Personally experienced while studying in one of the premier educational institutes of country and was surprised with unpreparedness of even these premier institutes. 
+Proposal is for SaaS offering to offer one-stop-shop for all educational needs of educational institutions. EMC with it's cloud strategy - involving storage, SaaS platform and Content management expertise is in unique position to offer SaaS solution for Education vertical.
+
+Some dimensions of the proposed offering are as below:
+1. Assignments, quizzes and other aspects of education are getting digitized resulting in lot of digital content being created year on year - Elastic storage would help institutes pay for only what they use
+2. Assignments, Quiz answer sheets need to be retained for a period of at-least 5 years for audit and regulatory reasons - Retention Management
+3. Plagiarism in thesis and assignments is another menace which institutes need to deal with - Full text search and Content Analytics would help us curb the menace of Plagiarism. 
+4. Collaboration among students, discussion threads are increasingly getting done on digital platforms like online groups, discussion forums - Online collaboration features 
+5. Teaching material like Case-studies, technical journals are Intellectual Property and needs to be protected for un-authorized circulation, re-printing etc. - Intellectual Property Management
+
+Offering could be offered both on Private cloud, Public cloud or Hybrid cloud.
+

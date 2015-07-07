@@ -1,0 +1,5 @@
+Enable Unisphere to manage multiple Vplex clusters
+
+While working on multiple Vplex clusters, this idea clicked
+Each Vplex cluster is managed using Unisphere software. And if the customer has multiple Vplex clusters, he need separate instances of Unisphere to manage each of them. If the Unisphere has the capability to manage multiple Vplex clusters using a single instance, it would help customers seamlessly work and switch between the vplex clusters
+

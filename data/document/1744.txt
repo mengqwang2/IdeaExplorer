@@ -1,0 +1,45 @@
+Micro-service Time-series Mining Platform on CloudFoundry
+We propose a platform based on the micro-service architecture enabled by CloudFoundry. It is an end-to-end processing framework scalable to workloads and extendable for algorithms.
+CTO office has long time been working on cloud technologies such as CloudFoundry, Openstack and micro-service. There is also considerable effort spent in data processing and mining. Time-series is one topic of them. By combining the most cutting edge technologies together, we are eager to see the new openings.
+Our system targets to be a complete end-to-end solution. It consists of four types of service components
+
+    1) Sink ingests incoming time-series data, using stateless push model. The time-series pass through pre-processing such as filling loss, unit transforming, and calculate delta. The result is quickly pass to Window by memory messaging, or time-series DB involving disk operation.
+
+    2) Window. Time-series algorithm usually process on a given window (time period) of points. It abstracts the heterogeneity of all kinds of Sink and Worker. It buffers workload fluctuation. Window has configurable sliding strategies (continuous, by chunk or by sum). Window resides in memory and can be shared by multiple Workers, thus saves the memory duplications and disk reload.
+
+    3) Worker encapsulates time-series algorithms. They can be chained or pipelined. We provide off-shelf algorithms but user can extend more (think opensource). Worker inputs from Window and outputs to another Window or batch dump to time-series DB.
+
+    4) API gateway. Users query is input from API gateway, which reads from Window for temporary short-time analysis, or read from time-series DB to get long-time results or periodical task results.
+
+The time-series DB is a quick append, sequential read data storage. (E.g. MongoDB provides itself optimization for time-series) We intend to leverage appropriate EMC storage such as ViPR and XtremIO to achieve the best efficiency.
+
+The system runs on Platform 3.0 cloud infrastructure. It can be public, private or hybrid.
+
+    1) IaaS level. We choose Openstack or VMware or together who provide the unified pooled management of virtualized computing, storage and network. Resource can be consolidated according to how much the user runs each part of our system.
+    
+    2) PaaS level. We choose CloudFoundry to host and manage our service components. All service components run in containers. They can be quickly start/stop, and chained into pipeline networks (e.g. docker-compose), according to user needs.
+
+All service components, containerized, support active-active HA and horizontal scaling. Time-series is sharded by key name and time window. Failure recovery can be conducted by reading the configuration db and reload what’s in the Window. Container composing gives the flexible to assemble all kinds of algorithms as user wants. Service discovery makes the assembling easy and fast. Overall the micro-service architecture boosts our solution.
+
+For algorithms, initially we provide two basic sets of time-series mining algorithms. More algorithms can be extended later.
+
+    1) Decomposition, e.g. Fast Fourier, STL, to reveal inner characteristics for end user.
+
+    2) Forecasting, e.g. Linear Regression, ARIMA, to reveal future trends for end user.
+
+    Further we provide an R console directly connected to the time-series datasource. This satisfies users who need ad-hoc interactive queries. No extra loading step is required.
+
+We provide a time-series platform that help users to (borrowed from “Problems solved”)
+    
+    1) Leverage the modern Platform 3.0 cloud technologies such as micro-service and CloudFoundry.
+
+    2) Covers end-to-end needs from time-series ingesting, processing, API and presenting.
+
+    3) Covers different usage pattern such as batch processing, periodic tasks to interactive ad-hoc query.
+
+    4) Fault-tolerant by active-active HA, scaling out with workload.
+
+    5) Be able to extend algorithms and compose them into all kinds of pipeline or network.
+
+These are limited needs for engineering resource to implement the whole solution and a lot of openings to leverage opensource. EMC platforms are brought in and create user stickiness. Legacy customer components can be integrated with ease by taking use of containers in our loosely coupled architecture.
+

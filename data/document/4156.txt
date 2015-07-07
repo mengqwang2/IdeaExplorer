@@ -1,0 +1,11 @@
+Unified communication using Lync with integration of Cisco telepresence
+
+Being part of global professional services we require interacting with our onsite counter parts/clients in different time zone hence it difficult to attend the telepresence meetings and also most of the time we might need to attend the meeting during transit.
+Hence we come up with an idea of integrating Lync with Cisco Immersive telepresence which will address above said problem and also increase productivity.
+
+Using CISCO immersive telepresence solution it can be used to make/receive calls from Lync for multipurpose telepresence system. CISCO immersive telepresence endpoint appears to Lync like any other endpoint; equally, to CISCO immersive telepresence endpoint a Lync client is just another video endpoint.
+Cisco Immersive Telepresence solution has some additional functionality which provides the industry’s best integration between Lync and an Immersive Telepresence system. When a Lync client is connected to the Cisco Immersive Telepresence solution, the Lync user is not treated as a “second class” participant in the conference: the Lync user sees all other members of the conference Virtual Tele presence for Lync 2013
+A critical element to the Cisco Immersive Telepresence solution is the Cisco Telepresence Server. This is an application-specific MCU for Immersive three-screen TelePresence that provides the industry’s most robust offering for multipoint TelePresence conferencing and interoperability. 
+The Cisco architecture for integrating from VCS to Lync Server via a SIP trunk makes it easy to add the Cisco Immersive TelePresence solution (Multipurpose Telepresence and the Telepresence Server) to a Lync Server environment.
+
+

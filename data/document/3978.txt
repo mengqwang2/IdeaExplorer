@@ -1,0 +1,7 @@
+Modify Ambient Function Testing to use product heat for board stressing. 
+
+The idea came from talking about Argonaut ESS and the introduction of a new AFT script to catch more failures prior to ESS. We would like to carry out some thermal evalutations on boards in an ESS chamber (set to ambient) to see if this idea will work. We could use existing qual equipment to do this.
+Make slight adjustments to our current AFT process at the CM's by placing insulation on the outside of the AFT fixture and also between each UUT. The boards will still use the same set up, power and scripts but will benifit from an element of hot ESS. 
+
+Aswell as this we would like to look at reducing the FAN speeds on the SP during testing to generate the desired heat around the board. We can control the fans speed by modifying test code.
+

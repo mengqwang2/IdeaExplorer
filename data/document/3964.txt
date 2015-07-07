@@ -1,0 +1,17 @@
+Migrating data from any competitor storage LUN to VMAX or virtual-VMAX storage with almost no downtime.
+The framework could migrate the blocks from competitor products or vVMAX/VMAX/VNX/vVNX and DataDomain to a similar list of only EMC products.
+
+Yesterday, I heard my team members migrate the configuration of VMAX to vVMAX and vice-versa. I thought of moving the data from competitor storage. Also, a similar project on the NFS level is done in the VNX File Server. My belief is that such Block level migration is not in place.
+Vocabulary: 
+1) original source storage - could be VMAX, virtual-VMAX, NetApp, Hitachi, IBM or other LUNs which Application is using 
+2) new destination storage - could be VMAX or virtual-VMAX LUNs only
+
+1.      Customer application is using block IO to any backend like JBOD, Hitachi, IBM, vVMAX Volumes for performing IOs
+2.      Use VSS framework to change the LUN underneath the Application or Bring down the application for a small time and insert the filter to redirect IOs to the VMAX / virtual-VMAX.
+3.      While the application is down, insert filters on VMAX / virtual-VMAX and the original remote storage(any) to pull data on VMAX
+4.      Insert a filter on the VMAX / virtual-VMAX volume to pull the IOs to pull data when reads / writes / modifies come to the VMAX LUN. This will be done at the Enginuity Data Services Emulation. This filter will connect with the remote side the same way the application connected to the original LUN.
+5.      (Optional) Insert a filter on the original remote storage volume for network IOs to send the data to new destination VMAX / virtual-VMAX pull data request.
+6.      After the connection is established, the new destination VMAX/virtual-VMAX filter will start pulling the data from the original source LUN in background from block 0 to (n-1) while the application is asking for data on the new VMAX/virtual-VMAX LUN.
+7.      For a read on destination VMAX/virtual-VMAX, if the data is already migrated to the new destination side, then the data read will be done locally and if the data is not migrated, then it will be pulled from the original source remote side to the new destination VMAX / virtual-VMAX.
+8.      For a write on new destination VMAX / virtual-VMAX, if the data is already migrated to the physical it will be overwritten and if not, then it will be brought from original source storage LUN and then written to the new destination VMAX / virtual-VMAX. For partial writes, the existing logic will be used with the data being pulled from remote side.
+

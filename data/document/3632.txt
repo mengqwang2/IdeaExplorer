@@ -1,0 +1,26 @@
+APJ <15K Challenge using SCST framework
+
+The idea was realized while searching for best way to implement the APJ <15K Challenge
+The iSCSI array is built using simple hardware configuration available in the market as of now (refer attachment for detailed spec as attached https://inside.emc.com/docs/DOC-100188):
+  a. 2* Intel XEON quad core 
+  b. Compatible Intel motherboard all relevant components
+  c. 12 * 2 TB Enterprise HDD; 7.2k 3.5" form factor
+  d. 32 GB RAM
+  e. 2 * RPS
+  f. 8 * ETHERNET PORTS
+  g. 2 * Emulex 10GB  iSCSI adapter
+  h. 1 * IBM 1GB iSCSI 4 port daughter port
+
+
+The software stack is driven by the SCST framework, where first CPU (Quad Core) is allocated to front end processing while the other CPU (Quad Core) is left for back end processing. 
+The front takes on the SCSI mapping to external world & the back end takes over the job of committing data to the disks. The communication between the front & back ends could be d
+one by shared memory or message queues or network (if required).
+
+
+Why this solution?:
+1. SCST is a mature & robust framework, can deliver power packed IOPS  performance. May require very less customization for EMC's context.
+2. The solution is affordable with ~11K USD costing; which is quite affordable.
+3. The architecture is simple & intuitive to understand.
+4. Manageable coding efforts to achieve the final solution.
+
+

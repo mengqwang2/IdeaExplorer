@@ -1,0 +1,11 @@
+automated  system 
+Achieving high level of  diversity for  hired  employees
+the problem of having all hires from same background, universities, and  somehow common.
+diversification of fields and environment would be beneficial in the pillar of 
+automated  system to submit the selected  hires  on with their  CVs.
+
+System automatically allocate  Cvs to  different  segments,((the  segments  would be  already detected and  defined  by  HR)).
+Segmentation of hires into groups  with numbers, whenever the recruiter exceed the number of hires in one  group, alerts begin.
+
+then, he could  consider this  in his/her next  hires. 
+achieving diversity in the definite areas which defined  by HR.

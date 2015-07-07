@@ -1,0 +1,6 @@
+Request ticket, no priority change for submitter
+Improve the efficiency for lab man.
+This idea came out when choose the priority when submit a request 
+Give the priority control to submitter since submitter could have better understanding on the ticket priority.
+
+Improve the efficiency for lab man.

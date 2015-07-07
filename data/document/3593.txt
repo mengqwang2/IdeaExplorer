@@ -1,0 +1,35 @@
+ Egypt COE Smart Parking - solve car blocking problem without wasting employees’ time!
+
+the idea came up when I saw some "Car Blocking" emails broadcasts. I tried to calculate the total time wasted by nearly 500 employees to read an email which is finally directed to one or few employees (car owner). If this notification was targeted and directed to its audience, then we will save a considerable amount of time and effort by doing things differently.
+the solution is as simple as gathering all the employees car data (color, plate number) with the employee contact info. this will be a centralized EMC portal with privacy considerations (not visible to anyone).
+
+when an employee finds his car blocked, he will use his mobile app to input the color and plate number and the following will happen :
+
+1-	The app Sends a notification to the blocking car owner (who has the same app) that will say your car is blocking me. The owner will receive the alert and behave accordingly.
+2-	Automatic notification is sent to COE facility team for monitoring 
+3-	Each car owner can add few more contacts/friends  to receive the notifications (in case they can better reach the owner inside the premises)
+
+4-	The employee can query the contact information (number) of the blocking car owner (if it was made public). then they can contact each other and solve the issue. 
+
+this very simple way can help solve this problem faster and without annoying other employees or wasting their time
+
+Competitive analysis:
+
+Current Situation : 
+
+If Egypt COE has 500 employee and one car blocking email was sent. Then if we assume that the time needed to read an email is 1 minute, then we have the following loses for each email sent:
+
+-	 499 minutes = more than 8 hours wasted as the email is targeted at 1 employee out of the 500. Also some employees can be annoyed.
+-	Time wasted to relay messages from employee x to facility team + time taken to compose emails and send 
+
+Proposed solution advantages over current method: 
+-	No wasted time or effort.
+-	Automation of process and portability of the mobile app
+
+
+I can think of another application of the idea on the public level (all Egypt) considering the following changes needed
+1- more privacy control (as the app will be serving the crowd)
+2- automated notification in case of blocking and blocking avoidance. The solution can be provided by mobile operators leveraging EMC cloud services 
+
+
+

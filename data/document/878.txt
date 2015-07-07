@@ -1,0 +1,8 @@
+Polite Meeting Interrupter
+Our idea could make our call and video conference more smoothly by new and cutting edge ways.It consistent with the requirements of this challenge.
+The idea came from my daily work. Because we need take overseas call meeting with colleagues, this issue often happens and often cause misunderstanding in communication.
+Our solution is like we need to raise our hands and get the teacher agreed to speak when we in the school. The polite meeting interrupter we proposed could make the person who is talking knows that someone is trying to talk, so that speaking right can be transmitted smoothly. During A is talking, if B want to talk, he cannot say directly. He has to use the Interrupter to tell the A and others he want to say something. If A is willing to turn over the right to say, B could start to talk. If more one want to talk during A is talking, they all could use the Interrupter. There will be a queue to keep all waiting talkers. All waiting talkers will get the speaking right one by one follow by the sequence which they raise up the interruption.
+There are two solutions:one is hardware, another is software.
+1.Make a real interrupter. It will contain a button to raise up the interruption. It's suitable for meeting room. The advantage is easy to use and unnecessary to configure but the disadvantage is the cost.
+2.Virtual interrupter. We can integrate it into Lync. As we can use Lync to connect all kinds of meeting including call and video, it's easy to spread to all of colleagues.
+Our solution may be a hardware or a new feature in the Lync. It could easily make our call and video conference more smoothly.

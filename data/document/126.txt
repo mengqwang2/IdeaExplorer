@@ -1,0 +1,7 @@
+Improve IT productivity with deploying PCF applications
+Improved the IT productivity with deploying Cloud Foundry applications. Automated deployments and flexibility with deployments.
+It's common to use jenkins to schedule or trigger builds. But it's easy when we are working with single app.
+
+For the application I am working, I had issue quickly deploying many micro services to different environments and also scaling them on need basis.
+Provide Web UI to add/update/delete micro service apps and environments information.  Another Web page to choose Apps, environment, Tag for each environment, and Scaling settings and hit deploy. This should trigger a build/deployment using Jenkins Remote Access API and also scale the services as per the scaling requirements.
+It provides Web UI for one click deployment for different PCF environments/spaces with specified scaling settings.

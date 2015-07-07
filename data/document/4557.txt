@@ -1,0 +1,8 @@
+Transport Asset Management System
+
+Got this idea with my experience & little of research on BMTC.
+As on 10 june'14, margin on revenue of BMTC stands at - minus 385.90 crore rupees which gives oppurtunity to build a software solution product (Transport Asset Management System) which as a broader vision of uplifting user experience & with a mission of using high technologies like big data analytics to build a software which can be implemented in Government sector to overcome the operational challenges of BMTC.
+Transport Asset Management System is a single solution to manage all classes of assets at a component level and supporting infrastructure of any public tranport system in this case BMTC which holds 6777 vehicles managed by 36079 staff. Using which executives can take a comprehensive approach to how assets are purchased, maintained and optimized throughout their life.By performing more preventive and predictive—rather than reactive—maintenance, by using the big data analytics BMTC can avoid number of breakdowns & can better meet customer expectations for service and motivate riders to use public transport.
+An Transport Asset Management System will provide a ability to gather the data about the riders density on a route basis on any particular time of the day/week/month which inturn with the help of BIG data analytics organization can identify changing travel patterns and place appropriate fleets on right time based on ridership data.
+This is one of such business solution product which will hosted on EMC storage & VMware compute platforms & needless to say Big Data services to be used to analyzing huge amount of data which will be gathered.
+

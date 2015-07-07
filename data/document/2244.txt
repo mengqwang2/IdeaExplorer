@@ -1,0 +1,8 @@
+Diversity at work
+As EMC is moving from Platform 2.0 to 3.0, if we have people with OS knowledge like server admins, people with application and DB knowledge work within EMC it will result in Diversity and innovation at work place. Now a days we have compute,network and storage within the same rack so that it will be easy when people with diverse knowledge work in EMC.
+
+After seeing many products with compute,network and storage built within a single frame, its really needed for every person to know all the technology to survive in the future which will lead to innovation also
+If this is implemented a single resource will have the ability to manage end to end connectivity in the time when we are heading towards Cloud. As a single resource knowing end to end technology, he/she gets the opportunity to know more and innovate more.
+If Managed services develops the ability to manage the customer infrastructure end to end which includes server administration and storage+Backup administration EMC can achieve greater level of customer satisfaction as customer's infra will no more be managed in islands with different companies. In case of any critical issues that involves server and storage team communication, it will happen under one roof within EMC instead of co-ordinating with different teams and different companies.
+
+

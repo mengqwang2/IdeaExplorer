@@ -1,0 +1,18 @@
+Automated IB data collection with TCO/ROI analysis
+Data is money, or in other words data can generate money.
+
+A good example of the importance of data consistency is a database that handles the transfer of money. Suppose a money transfer requires two operations: writing a debit in one place, and a credit in another. If the system crashes or shuts down when one operation has completed but the other has not, and there is nothing in place to correct this, the system can be said to lack transaction consistency. With a money transfer, it is desirable that either the entire transaction completes, or none of it completes. Both of these scenarios keep the balance in check.
+
+I thought about this idea when I was transforming the IB data to Visio diagrams to give the customer, sales account managers, and SEs a panoramic view of their data centers about the existing EMC and non EMC arrays that the customer has. I found that there is a gap and the most of the customers are not really aware of all what they have into the datacenter and it was an added value to have such tracking service within accurate database in.
+We are proposing a solution that the arrays and EMC solutions installed at the cusotmer's site to report its configuration to EMC centralized IB automatically once the configuration has been changed.
+
+With the idea of the automated IB data collection we can hit many targets.
+
+1- Data will be filled automatically by implementing a script which will be run by the "Customer engineer/ Implementation engineer" after every intervention with the EMC arrays.
+2- An automated e-mail will be sent for 3 parties " EMC IB system, customer, and the concerned ticketing system " Support site".
+3- In case that the array has an expired contract, and automatic e-mail will be sent to the account manager/ TSSO office to prepare a TCO/ROI analysis to prepare the study and then send it by the TSSO analyst to the presales/ sales persons who can go to the customer with a ready and strong tool for a tech refresh or renewal of the contract.
+
+4- We can use this unique approach to handle the info of the global accounts within the existing Oracle system. This platform will contain the sub sites' numbers for the every global account with a simple access analytic software that can collect all the data of every global account in every country, as they may buy from a country and install into another. This will facilitate the tracking of the sold Equipment, and will help the collection team and the SEs for offering the tech refresh plans for them, the thing that will accelerate the sales cycle and will open new opportunities for EMC.
+Less manual intervention in the Installed base
+Ease of tracking equipments sold 
+Consistency between the IB data and the support contracts.

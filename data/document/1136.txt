@@ -1,0 +1,17 @@
+Next-Generation Web: App-Centric Virtualization with Cloud Hyperlinking
+This solution proposes an innovative cloud technology for running desktop, mobile and web applications, leading to a completely new user experience. By setting a new paradigm of Internet and enterprise architecture, it can become a new reality, which will open new markets and create new opportunities for EMC.
+The idea came into my mind as a result of contemplation on how the Web will evolve from HTML technologies designed 30 years ago, when machines could recognize only text. Now the graphics is everywhere. Desktop GUIs move to the cloud. VMware Horizon and NVIDIA GRID allow running 3D application. Why not to transform web interfaces for the 3rd platform, too?
+The core of the solution is the app-centric virtualization protocol, which (like the remote desktop protocol) encapsulates keyboard / mouse events and graphics / sound streams, but (unlike RDP) connects user directly with a requested app, resulting in a more humane interface and a new ultimate experience. The protocol is based on hardware standards (HDMI, USB, etc.), removing the need in a web browser (hence no classical cross-browser issues) and even in a client PC (hence no cross-platform issues). All graphics / event processing happens inside the cloud, leading to truly converged infrastructure. Applications architecture simplifies; no asynchronous programming and HTML/CSS/JS nightmare anymore. Web apps are designed like desktop or mobile apps and vice versa.
+
+This is similar to XenApp, ThinApp or App-V technology, except the unique part: hyperlinks. The solution features real-time OCR / machine vision technology, which recognizes the links (drawn as QR codes or text) and switches the apps like TV channels.
+
+(The idea is outlined on the attached picture: https://inside.emc.com/docs/DOC-156093 )
+
+A first successful step will be the software-level PoC that follows IT-proven principle (implemented, for example, in Skolkovo R&D Center). Future steps will include: accepted patents, hardware PoC together with RSA, integration with VMware and partnership with hardware manufacturers / open-source community.
+
+By implementing this solution EMC may extend its stack of third-platform technologies, enabling the networks to enter new era. App streams can be recorded and played back – for customer it means better IT support and hardened enterprise security, for EMC it means increased demand in storage solutions (e. g. Isilon). 
+
+The solution also:
+• increases demand in Pivotal Big Data products, which are used for hyperlinking and analyzing collected data;
+• allows to target Smart TV and IoT markets pursued by EMC rivals;
+• saves costs and energy.

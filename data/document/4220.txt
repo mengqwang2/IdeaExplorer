@@ -1,0 +1,12 @@
+Getting 3rd Party array  device wwn from grabs 
+
+Idea stuck me  during a big migration and consolidation project . I had to migrate the data off 5 HP EVA boxes to the VMAX . There were around 50+ hosts . I had all the EMC grabs from all the servers . Unfortunately , I had to still ask the customer to re-run the individual inq binaries with -sw_wwn and -hds_wwn to get the wwn information required for Open Replicator Migration .Customer was really agitated and wanted me to explain why the EMC grabs didn't pull 3rd party array device wwn  information .Lot of those arguments and time would have been saved if I had all that info in grab.
+My idea/solution is to have   -migrate or -thirdparty switch  executed with the INQ utility when the grabs are run .
+
+1. This switch should run the INQ with all 3rd party switches like -shark_wwn,-netapp_wwn ,-sw_wwn etc .and create separate  respective text files for the same . 
+2. If the  environment have any 3rd party array connected to servers , wwn details would get captured in those text files 
+3. Elab advisor should be updated to include  3rd party wwn information from the EMC grab txt files  and update  under "INQ" tab heading "Array Device WWN" in SANSummary xls ouput.
+4. This would help in getting accurate and complete  "From-to-list" (Migration Environment Report ) excel  from Migration tools like Atlas and EMP as these tools  require SANSummary as one of the inputs.
+5.Migration planning  and implementation would  become much easier as  all required migration details would be  in one Migration Report.
+6.This would save lot of  effort and time and help achieve  Total Customer Experience(TCE) and meet tight customer deadlines.
+

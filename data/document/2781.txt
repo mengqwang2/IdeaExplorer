@@ -1,0 +1,5 @@
+Store Configuration file for File Side
+Sometimes after we ICA the array, we hope the array could recover the state before ICA soon.We  hope there is a way to store all the configuration like the Block side, so after we fresh install or ICA the array ,we can recover our array soon from the conf
+We suffer a lot when we doing some verification test for previous version. We have a strong desire have this functionality to save our time.
+Invent a smart way to configure the array according to the configuration file. 
+It would save a lot of time to test especially for some test which focused on previous verison

@@ -1,0 +1,29 @@
+EMC Jeopardy
+
+NA
+The contest will be an EMC Jeopardy version of the well-known TV show “Jeopardy”
+
+The contest will run in 3 stages and it will include 6 topics.
+Topics are: Big data, Cloud computing, Trust IT, Virtualization, Security and Storage
+
+Stage1: Preparation (1 week)
+Each group will select a topic from the available topics (1 topic/group) and will start researching the topic and gathering as much info as possible on his topic.
+
+Stage2: Presentation (1 day)
+Each group will deliver a 5 to 10 minutes presentation where other groups and EMC panel should attend. All 6 groups should attend all presentations, take notes and understand the concepts.
+
+Stage3: The GAME (1 day)
+EMC panel will prepare 10 questions from each presentation/topic and start the Jeopardy game. (60 questions 10 questions/topic)
+Questions are ordered per difficulty level in each column
+
+Students should be able to respond to questions from all topics.
+
+Contest specs:
+Each group should have 3 to 4 members max.
+Each group should select one topic and present it.
+
+Winning criteria:
+Presentation should be concise to the point and well informative
+Groups should answer as much questions as possible
+Note: Questions are weighed differently according to difficulty
+

@@ -1,0 +1,6 @@
+Business untis communication channels
+
+this happens when customer attempt to ask questions that are out of a specific business unit's work of scope then the customer has to face a hassle to get to the right person to respond to his problem.
+the ides here is to propose and formulate a process between different business units that can be fast and effective so that it can help get the customers answers resloved.
+process can be for example fill a request page that goes randomly to free working employees.
+

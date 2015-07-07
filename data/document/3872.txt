@@ -1,0 +1,5 @@
+Wireless network usage in mfg
+
+I had this idea while exploring the near contactless power idea to create a totally wireless tester\rack.
+For current product, a converter box can be added to test equipment that converts wired to wireless Ethernet.  Future test equipment and products can be designed with wireless technology in mind.  We already have a wireless network covering the mfg floor and the reliance on wired network stems from mfg being in place long before the stability and performance of wireless networks was adequate to support operations.
+

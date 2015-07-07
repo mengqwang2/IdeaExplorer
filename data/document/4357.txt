@@ -1,0 +1,9 @@
+Social media Analytics for TCE 
+
+he idea to me during my dicusiion with yash  agrawal and jigar shah . We are palnning to implement the idea inside  BU and still brainstorming stage 
+y recording and analyzing the posts/comments from sources as EMC Linkedin Groups, EMC Facebook Page, EMC Twitter handle , Online Blogs, communities, EMC ONE Space,CSAT data  we can predict nature /behaviour of the customer issues  and then accordingly provide proactive support to customer to assist in scenarios before the problem actually occurs. Hadoop is good tool to analyze various soruces of data under a single bucket.  The input to Hadoop can be facebook comment, twiter post, Linked group dicussion  and output can be as desired. 
+For example : Customer comments on facebook page /linked group/EMC community  stating  he faces power supply issue with EMC VNX for every month.Following our idea we can analyze all  these comments , can be  historical comments or over period of time and come to conculsion stating this customer faces power supply issue each month or he faces issue in this time frame, accorindgly we can suggest a proactive health check for VNX box  once a quater . 
+There can be many such scenario where EMC can be proactive to customer  , this is just an example to demmostarte how the idea can be helpful. 
+
+In addtion,  the Customer Services has colossal collection of logs for EMC products , this can also be used for predictive approach. Hadoop is very strong toll to implement this idea. 
+

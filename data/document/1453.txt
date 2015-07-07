@@ -1,0 +1,6 @@
+Webex Ringer
+This idea will improve customer experience and level of service from EMC.
+NA
+A simple script to be implemented that when a new message from the customer is received in the Webex chat , the Webex produce an alert sound.
+1-Better serving time for the Customer.
+2-Improving customer satisfaction. 

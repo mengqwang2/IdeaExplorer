@@ -1,0 +1,17 @@
+Integrated Road and Traffic accident prevention system
+This is a proposed system to help transport development in smart cities.
+Idea came out from google maps showing traffic jams based on speed of mobile devices. 
+Solution proposed is to use all type of available sensors to produce useful data that can be analysed for predictive analysis. 
+1. GPS location sensors to be installed on all types of vehicles. Sensor data to be uploaded live to EMC Data lakes solutions. Tracking of all types of vehicles on the roads 24/7. 
+2. Video surveillance of all roads , cross roads and traffic signs will also be stored using EMC solutions (Isilon or Data Domain ) . 
+3. Pivotal will help develop programs to analyse this data and come out with useful information, the outcome will allow ; 
+       a. Spotting slow areas on roads where maintenance is needs , or traffic jams take place and need to be addressed. 
+       b. Monitoring and predicting road expansion needs based on historical traffic analysis. 
+       c. categorizing vehicles types on roads and their relative speeds. 
+       d. Monitoring the number of accidents and predicting them in advance , will allow government health system to plan their needs of ambulances arround vital areas. 
+       e. Login systems can be implemented for each drive to login with their fingerprints. From here drivers can be monitored , their driving hours and history of their travelling speeds. Can be very useful with truck drivers to limit their driving hours.
+
+4. the whole solution can be tailored to present a complete system (software and hardware) and delivered as whole  data center solution for Transport ministries. 
+
+5. A basic GPS computer device can be integrated to cars upon licensing to enable the accurate monitoring.  
+If the system is fully designed and implemented , the success will be to see a reduction in accident statistics , fuel consumption , maintenance cost optimization and most importantly saving lives.

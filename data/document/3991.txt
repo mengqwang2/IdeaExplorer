@@ -1,0 +1,32 @@
+Purpose built storage array for small businesses.
+
+the idea came out by checking the requirements and imagining the least options possible to build a small storage array.
+A GUI accessible over an ip management port. The gui may integrate the following. 
+Ready templates to configure the storage. 
+
+For example : 
+•	 A template that is customized for an exchange server. Customer can enter the number of email accounts to be hosted by this exchange. The GUI automatically prompts customer for several options according to what Microsoft usually recommends in terms of space / RAID and other settings. 
+•	A small database incorporating all small and medium business applications to be integrated to the array with all the default recommendation. This will make the configuration much easier to less experienced customers. 
+•	The GUI should be in form of a web server for customer interface only. Command line options should be limited as much as possible.
+
+
+The array can incorporate a built –in Lithium battery or UPS to prevent sudden power cuts from damaging the array.
+
+
+Online shopping portal : 
+An online shopping portal can be developed to sell the product and customize the configuration in terms of ports and disks. Customer can customize his own array on the web site over the EMC online shopping site. Customer can choose how many disks , their types and speed that he wants to add to the array . 
+
+We can have ready to ship versions with some specific storage sizes and readily configured to work with specific applications. For example one ready and adaptable to all video recording applications. One ready for any standard email exchange. 
+The idea of the portal should easily provide to customer guidance to the correct configuration depending on his needs , exactly like when you buy a Laptop online from HP online.
+
+This portal should allow customer to order disk and hardware replacement to be deliver by courier to his door steps.
+
+Clustering : 
+The array should basically come in 2U versions. Higher product like should have 3U with the possibility to cluster 2 arrays together to enhance scalability. 
+
+RAID Config : The storage should support simple RAID configuration for a less complex design. 
+
+Connectivity: Should include 8xiSCI which i think will be enough for small businesses. FC could be an option that the customer chooses when buying.
+
+
+

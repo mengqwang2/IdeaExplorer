@@ -1,0 +1,8 @@
+Predict trend of FW/HW defects and improve quality by monitor/analyze EMC bug tracking system
+
+I'm reading a book called <<Big Data: A Revolution That Will Transform How We Live, Work and Think >>. As I see Google use his data base to come out the prediction of the happening of flu in the state and got quite precise trend. Oren Etzioni created Farecast to predict trend of ticket price of flight based on existing data of ticket prices. So I'm wandering if we could analyze of our bug system and come out a trend on bugs based on the large amount of logs.
+    There're several bug tracking system inside EMC: OPT from GPO, DIMS from EMSD and custom failure reports from CTS and call home software generate defect lists. All these data are real failures captured at internal lab and custom user environment. 
+    If we have a system to monitor and analyze these information, we would find out what area has most failures. Usually most failures happened on the frequent used feature, which also tells what the custom interest are from.
+    Full test is time consuming and could not support quick turn if there's urgent needs of SW/FW code release. Good plan for sanity check with meet this needs but rely on good decision of test case selection which is always come from previous lab test result. this always expose most issue that usually caught by ourselves.
+    With monitoring all bug tracking systems, we would get full usage data and get a whole picture of how our product works in real work. with this information, weak points will be taken good care of while strange points will get less focus and consumes less resource.
+

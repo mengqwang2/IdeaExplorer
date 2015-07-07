@@ -1,0 +1,9 @@
+IoT devices for smart city using EMC products
+We discuss about how EMC products canbe used with IoT devices in the below document
+
+https://inside.emc.com/docs/DOC-156223
+Idea was discussed few months ago but is not implemented, a successful implementation will finally result in a complete product for a smart city 
+Smart city needs IOT devices details are discussed in below document
+
+https://inside.emc.com/docs/DOC-156223
+Idea was discussed few months ago but is not implemented, a successful implementation will finally result in a complete product for a smart city 

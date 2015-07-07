@@ -1,0 +1,5 @@
+Solution that integrate Pivotal HAWQ with VPLEX
+This idea is to leverage a big data solution and enable it to multiprocessing across multiple locations using a SQL engine and network visualization appliance to increase the usage of data big to empower business and increase flexibility in data lake solution.
+No specific history for the idea.
+Pivotal HAWQ is a product that leverage advanced analytic for data in Apache Hadoop using a massively-parallel processing SQL engine, we need to use HAWQ to analyze data through multiple sites and in different locations, so we will integrate it with VPLEX to able consolidate data analysis over network.
+If the idea is implemented, it would create a new product that would increase EMC market share in Big Data solutions and improve customer satisfaction and improve the integration of big data with other technologies.

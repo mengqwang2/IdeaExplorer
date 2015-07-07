@@ -1,0 +1,19 @@
+EMC Best Practices Rules Engine (BPRE)
+CTD supportability in 12 Months or less: improve supportability by identifying the deviations from Best Practices in customer environment & helping customer to resolve them.
+The idea came when working on customer escalations. Number of the engineering escalations are fixed as configuration issues in customer's environment. Customer ask if we can provide any tool so that she can check common issues and rectify herself instead of contacting EMC.
+Powerpoint presentation for the idea - https://inside.emc.com/docs/DOC-156065
+
+EMC Best Practice Rules Engine (BPRE) will provide a common channel to capture and execute “Best Practices” of all EMC products and services. Using BPRE we separate the supportability rules from the products making the rules easier to changes in the future. BPRE framework will provide SDK for each EMC product to state & execute their “Best Practices” rules. 
+
+Best practice rules for each product can be categories for effectiveness, security, and reliability. Following are some example of cross-product Best Practice rules that can be implemented in BPRE:
+1) Supportability matrix: Check if the version of one EMC product that is compatible with the version of another EMC product installed in customer's environment.
+2) Check if the Ports required for one EMC product to communicate with other EMC product is open. etc
+
+BPRE can be run before installing a product for checking supportability & after installing the product for checking compliance with known Best Practices. For example
+1) Cross product analysis before installing a product: Before installing a DDBDA 2.0 (Data Domain Boost for Database Application) for protecting SQL Server; BPRE can check the version of Data Domain Device is supported by DDBDA 2.0.
+2) Cross product analysis after installing a product: Check the configuration of DDBMA 2.0 and Data Domain device with known best performance, security rules.
+
+EMC BPRE will provide SDK for implementing best practices rules. Each product team will have their own rule file, where they will mention all best practices rules including cross-product best practices. The programming logic needed for these rules will be written in separate files as per the SDK. The BPRE SDK will help to unify different interfaces provided by different products like command line interfaces, C/C++  APIs  or JAVA APIs. 
+
+Drools is open source rule Engine in Java, it can be used as a rule engine for rapid implementation of BPRE. Different products in EMC gives different interfaces like Command Line Interfaces, C++ APIs etc. Java has plenty of options to integrate with C++, C# .NET, Perl, command line etc.
+BPRE will help following to improve customer satisfaction and enhance productivity by showing customer best practices of EMC products. 

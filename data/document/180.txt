@@ -1,0 +1,5 @@
+GPS ASQ (CSAT) Live Dashboard
+The idea is to improve the process of analyzing the customers surveys results through a more life and proactive process
+I was working with GPS department in Egypt COE and we started talking about the urgency of having this dashboard and we created one initial live dashboard using Tableau that can be provided through a demo upon request.
+Creating a live dashboard connected to Green Plum where "Walker" loads the survey results, which enable Global Professional Services team to analyze the results more proactive and scientific way (watching tends/shifts over time...etc.)
+It will definitely allow the business to analyze CSAT feedback more efficiently and more proactively, hence it will raise the customer satisfaction level across all professional services teams globally.

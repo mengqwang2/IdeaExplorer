@@ -1,0 +1,17 @@
+Big data and soccer
+The idea will give EMC a breakthrough to the sports market, soccer especially. One of the most popular sports all over the world.
+
+Using the already infrastructure and different EMC products, big data models and solutions to give soccer another shape more dependable on the technology and helping managers to get the most out of their players and discovering new talents.
+I am a big soccer fan and I have read about Germany's use of big data through their journey to the world cup
+Solution aims to use Big data analytics to collect data during the 90 minutes game and training sessions.
+
+Data will be collected through Cameras that track each player every second through the whole 90 minutes. Having sensors in the players' shoes and GPS trackers and sensors on their shirts we can track and monitor every tiny bit of data. Heart beat rate, acceleration, , different health conditions, his passing and dribbling accuracy.
+
+Storing this structured kind of data on EMC products ( Isilon for example ) and running real time analysis during games and running analysis - using Hadoop gemfire - during training sessions we could build a model that could assist managers in assesing their players, assesing ther health conditions whether they are susciptible to injuries or not. Model could also be used to give a prediction over young players to get an idea abouth their development rate and if they have a bright future ahead. The model could also give the managers hints about the best positions for the players based on his performance.
+
+All the above could be done by giving the managers visualized reports through applications on his mobile for example or a standalone kit; by the use of Pivotal suite.
+
+This is better than traditional analytics that it builds models that could be used in prediction of talents and injuries. Also for real time monitoring analysis
+- Will introduce EMC to a veru big market ising its already their infrastructure and models. So its a new and a very huge market
+
+- It will give the customers tecgnological edge in prediction and performance enhancement of their assets which are their players

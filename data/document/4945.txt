@@ -1,0 +1,5 @@
+build an EMC product/features store
+
+Android and Apple app store.
+Build a online store, like Amazon. customer use there array to connect to the store. While customer choose a product, the store will check the env and give them a suitable suggestion. If they pay for it, they can install or download license online.
+

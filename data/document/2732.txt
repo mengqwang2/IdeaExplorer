@@ -1,0 +1,10 @@
+CSAT Monitoring Portal 
+The idea will enhances customer experience and satisfaction from The Services provided by EMC. 
+The idea came up as there was noway to track the history of the performance of each employee and to track his point of weakness when a negative CSAT is received ,Using sentiment analysis from the comments the the customers provide in the CSAT managers cant identify the reason of the dissatisfaction and work on it. 
+My solution is a tool that counts the CSATS the Each employee receive whether it was a negative or positive one , analyse each of them using data analytic tools and sentiment analysis then stimulate this on a graph to track the performance of each employee.
+
+This tool can be used by the Managers and by the employee as well to track his performance. 
+1.Improve Customer's satisfaction.
+2.Increase the Revenue for EMC.
+3.Track the performance of each employee.
+

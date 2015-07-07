@@ -1,0 +1,15 @@
+Knowledge Sharing Stars/Points - Quick way of sharing knowledge
+N/A
+We must have seen this idea implemented in few technical community forums. I felt it's good idea to have such mechanism in place for our SR's in Service Center tool to get suggestions/comments/action-plans from other support engineers. Since it's part of our day to day work so I feel every engineer can contribute and offer their help.
+
+We see lot of Chats, Vic\Web SR's coming in everyday with new/known issues. It's difficult for new engineers to analyze the issue and provide quick fix, sometimes we struggle to start the troubleshooting for newly launched products. We can't say that every team will always have experienced engineer when needed, and for new products there are less chances of readily available support documents like Primus/EMC KB articles.
+
+When new engineer joins the team with very limited or no knowledge of our products and they end up taking help from other engineers to resolve SR's. Sometimes it's not possible to read the complete product guide quickly which has more than 300 pages document and answer to or fix the customers queries/issues. 
+
+If we have this kind of encouraged knowledge sharing system for every SR's, it helps to work on SR's and resolve the issues/answers customer queries very quickly.
+We should have a comment or suggestion box space added for every SR's, so that other support engineers can submit their suggestions/fixes/actions plans for the issue/question reported. SR owner can make use of those comments and work on the customer issues faster. 
+
+When the SR owner resolves the SR's with the help of comments from other engineers, SR owner can mark the correct comments/suggestion/fixes stating "this suggestion/comments helped to resolve the customer issue" and the suggestion/comment submitter will get a help points or stars that can be accumulated and redeemed in some way.
+ 
+All submitted correct suggestions/comments will get help points or starts. This idea will definitely encourages other support engineers to share their knowledge and also it helps support engineers to resolve customer SR's quickly.
+Improve customer satisfaction by providing the resolution/answers to customer. 

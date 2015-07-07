@@ -1,0 +1,7 @@
+VNX2 FC Test time Reduction
+
+The idea is part of a manufacturing OE initiative that is being worked on by:
+Apex TED: Bill Leonard, Todd Grenier
+EMSD: Greg Bertoni, Phil Leef, Andrew Kensmoe, Roko Peros
+The test process can be optimized by grouping FW updates & operator prompts, efficient use of cold power cycles, and by creating code that executes in a more efficient manner.  A total time savings of >10% is obtainable.  
+

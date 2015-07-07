@@ -1,0 +1,9 @@
+General Fault prediction and management framework for EMC storage
+Most of the EMC storage products are based on various different SW and HW platforms , for SDS, it’s more difficult monitor the real time health and process the system fault to avoid the data loss. This idea uses a general, cross-platform fault component to predict, monitor and recover the software and hardware faults. 
+Storage fault is the severity for customer, with the trend of the SDS, the hardware platform maybe out of control of the EMC, so provide the solution of the fault management framework is important. I got this idea when I communicated with customers, I think it is good to avoid the DL/DU situation.
+This solution contains the software stack can run in different OS, include fault detector, fault component factor and fault process daemon. The whole framework is OS-independent and support generic x86 platforms. Fault component factor is the agent for different kinds of faults just like add-on to process different fault, for example ECC memory error, disk validation error or just memory leak by software.
+Using the algorithm, the framework can predict the error before occurrence. Monitoring the fault real time and process the recoverable error automatically, for unrecoverable fault, it will send notify to administrator in time.
+
+1. Deduce the service cost
+2. Increase the stability of the data
+3. Increase customer satisfacion

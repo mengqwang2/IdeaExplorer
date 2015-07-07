@@ -1,0 +1,17 @@
+Customer Queue Point - Desktop and Mobile app
+
+I work for Replication Manager (RM), mainly customer support. I have closely worked with RM support for last 2 years 9 months. This idea addresses the problems that I have faced with customer support and also, the problems I have seen customer support facing. So, this app would pretty much make both customer support and engineers life simpler in addition to improving customer satisfaction.
+It is mainly a desktop and mobile app.
+HOW DOES IT WORK?
+1. It is provided to both EMC customer support and EMC Engineering (customized to a particular product within EMC).
+2. It channels Customer support person to Engineering when a new issue is reported by customer.
+3. support will have to enter the area of the product in which issue is found. The application would automatically find right Engineer for the person and put him on chat.
+4. On the other end, All the engineers are supposed to log into the app and provide their expertise area in their product and TIME ZONE (Engineer can opt to be available out of his working hours if he wishes to).
+5. Engineering will have mandatory hours in which he/she should be available to the support.
+ 
+ADVANTAGES?
+1. As EMC Engineering is globally distributed, We can nearly achieve 24x7 (at least 24x5) Engineering availability with this app
+2. As a time window is provided to each engineer, he does not feel the burden in answering to customer support at all the times.
+3. All the chats between customer support and Engineering can be saved and provided as search results to both customer support and engineering. Which helps them in finding quick resolution next time when issue reoccurs. (this will work as the support will definitely and clearly describe the problem on chat)
+4.This App makes engineering available to customer support at most of the times. Which makes problem solving very quick, providing ultimate customer service.
+

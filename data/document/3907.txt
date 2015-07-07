@@ -1,0 +1,5 @@
+Geek Olympics
+
+from thinking of a cool Sport's challenge 
+Organizing a country Based olympic round which then leades to a single full event that gathers all champs from EMC globaly to compete on the Gold, Silver and Bronze Medals 
+

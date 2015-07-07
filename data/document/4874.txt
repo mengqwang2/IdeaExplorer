@@ -1,0 +1,5 @@
+EMC Search Engine Mobile App
+
+Looking for a better usage of EMC Big Data and 3rd platform.
+My idea is to consolidate all these links together in a unified Search Engine through it we will be able to find anything relate to the topic that we are searching for, whatever ( SN, PN, Product, code, employee name or ID, case number IT ticket number…..) keeping in mind that it will be used internally only for security purposes
+

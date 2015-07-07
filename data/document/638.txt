@@ -1,0 +1,5 @@
+Customer & EMC Leadership connect and feedback
+As of now EMC follows the Walker system for the customer feedback and in RSA we have something called the voice of the customer. Do we have something wherein customer can really bring up their concerns, feedback and challenges. Rather than limiting them to a set a questions it gives more freedom.
+Looked at the current method of customer feedback and drawbacks
+Using our community network portal or new setup wherein customer can choose product type, type in the SR, or feedback to the support mgmt, product mgmt and leadership etc. Share their feedback more openly to the EMC organisation rather limiting to a set of questions. Assign account owner for each categorization we decided on to act to those feedback and suggestions. More of open culture to the customer to come and interact with EMC for better TCE and opportunities. 
+Better rapport with the customer and leadership. Direct and candid feedback, open culture and improvement in the better ways to listening and helping the customers to achieve their goals. Better NPS and TCE

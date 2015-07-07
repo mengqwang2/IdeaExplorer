@@ -1,0 +1,50 @@
+Real time Partner/Customer feedback using Text/Sentiment Analytics from Social Media
+EMC wants to extract meaning and tone from unstructured data (cloud based) and transform these insights into actionable text
+
+This idea primarily focuses on –
+•	Providing sentiment, sentiment scores, sentiment summary (Positive, Negative, Neutral) with Data visualization (graphical presentation), Themes breakdown, etc.
+•	Important keywords (Sentiment bearing phrases)
+•	Group it by problem type & associate it back to the original customer
+
+After I got to know the TCE challenge, I started browsing to know which is the best tool to get to know the sentiment of our Partners/Customers. I found Semantria!!! 
+
+Semantria LLC, founded in 2011, is a software-as-a- service and services company  specializing in cloud-based text and sentiment analysis. Semantria is a joint venture, co-founded by
+the leading text analytics technology provider Lexalytics (Boston, MA), amongst other investors. URL - http://www.semantria.com 
+
+The proposed solution is as below -
+
+Gather the Partner/Customer posts on EMC/EMC related data in the social media –
+External websites:
+•	Twitter (tweets)
+•	Facebook
+•	Instagram
+•	Linkedin
+•	Technical blogs
+•	Developer Community
+Internal websites:
+•	ECN (EMC Community Network)
+•	Live chats
+•	Online Support (https://emc.com )
+•	Service Support Zone
+
+Following steps to be considered -
+1. Data Sources (Collecting data) – Using API/web crawlers source the EMC/EMC related data from external/internal websites
+2. Data Consolidation - Streaming the data through RabbitMQ to ETL systems
+3. Data Storage - Store the parsed data from ETL (GREENPLUM)
+4. Data Consolidation - Use Semantria API’s, do analytics and predictions and store the predictions including time series information into GREENPLUM. 
+5. Data Provisioning - should be done in order to have the users access securely
+6. Data Discovery - Visualizing Data using industry standards (Tableu, R, Datawrapper, etc.)for dashboards
+Example – Product level trendline, customer sentiment trendline, etc.
+
+Once we have the data in Data discovery mode - we can have interactive reports and explore data to provide EMC with true insights with the ultimate solution which makes our Partners/Customer delighted and increase in trust/reputation of the company which inturn increases in the company's sales
+1. Tangible advantage over competitors in identifying prospects with contextual data that can translate into improved sales performance.
+2. Turn every piece of text into a profitable decision which in turn helps in productive growth
+3. Text/Sentiment analytics can be done on 15 languages
+4. Improvement based on Partner/Customer feedback, Automatic generation of new prospects
+5. Visualization at different levels (Partner/Customer wise, sentiment wise, etc.) can be generated
+6. Partner/Customer feedback across geographies
+7. Real-Time Partner/Customer feedback can be seen
+8. Based on the analytical result required recommendations/actions can be taken
+9. Trends and other metrics around TCE Improvement
+10. Prediction can be done based on the Partner/Customer inputs and propose a plan accordingly
+

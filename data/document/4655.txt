@@ -1,0 +1,7 @@
+Use Node.js to implement cpu insensitive scenario for mobile
+
+I have been playing with Node.js for sometime and currently I am writing Node.js code to build an automation job for our IPOA team. During my work, I am inspired by the powerful ability that Node.js dealing with IO sensitive scenarios, especially cpu insensitive scenarios. 
+For cpu insensitive scenario, if we implement it using session pool, we would frequently switch between threads. However, maintaining so much threads is memory-cost, and context switch cost time. 
+Node.js suggests user to achieve that by asynchronize programming (e.g Event-driven or Promise/Deferred pattern) within a single thread, which is more efficient.
+Also, Node.js service can easily scale out, so single thread risk can be avoid by multi process structure.
+

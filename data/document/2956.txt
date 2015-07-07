@@ -1,0 +1,14 @@
+DIVERSITY FOOTPRINTS:  A Methodology for Measuring and Monitoring Diversity at EMC
+We need to be able to measure diversity against the impact it has on innovation, six sigma cost savings and employee satisfaction. This idea identifies a tool that can measure diversity and allows us to gain insight into EMC's diversity.
+As a team, we have a great deal of diversity in our backgrounds and from the generations we represent.  We work within the packaging space that brings us in contact with others from around the globe on a regular basis.  We are all women, have a sense of what we bring to the traditionally male dominated engineering area and thought we could tackle this challenge using our actual work and life experiences.  Thru research, we realized there is no great tool of measurement and being EMC'ers we thought data visualization would be a great way to help address this issue.
+
+We need to define what diversity is at each COE and as a worldwide corporation.  This definition establishes the footprint of what an employee brings to the table.  A footprint tool allows us to measure and visualize diversity at EMC. Impact could be measured in dollars saved (Lean Projects/CTP-Powersteering), patents applied/awarded, Innovation finalists, and revenue generated.  Diversity & Inclusion Circle memberships can be leveraged to distribute the self selecting footprint tool.
+
+Our Plan:
+Each COE defines their own diversity footprint as what equates to diversity in one region may not be the same diversity in another.
+These diversity attributes are then charted using an incremental pie chart function in Excel creating the visual footprint.
+Footprints can be grouped together so a single footprint can be developed for a team or organization or region.
+Diversity footprints and employee satisfaction surveys can be monitored together to understand the relationship between the two.
+SEE SLIDE DECK FOR FOOTPRINT ILLUSTRATIONS LOCATED HERE:   https://inside.emc.com/docs/DOC-153780
+
+Over time we will be able to track the true impact of our diversity thru our innovations, our patents, our cost savings and our employee's satisfaction.

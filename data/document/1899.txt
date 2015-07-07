@@ -1,0 +1,26 @@
+IoT of trust
+The idea introduces a mechanism to reduce risks on controlling a remote device through Internet.
+Recently, thoughts on various devices.
+Like the solution for web trust:
+https://en.wikipedia.org/wiki/Certificate_authority
+https://en.wikipedia.org/wiki/Web_of_trust
+I would like to introduce a trusted third party to authenticae/authorize the instruction from remote.
+
+Precondition: 
+1. the device has sandbox for remote instruction against local instruction(without Internet/remote control).
+2. third party works like CA, but for switching instructions instead of identity check.
+
+Steps:
+1. controlled device and controller are configured to know the third party.
+2. controller sends an instruction to controlled device.
+2.1 controller sends the instruction to the third party and get a token, under control of web of trust.
+2.2 controller sends the token to the controlled device.
+3. controlled device receives a request with token from the controller.
+3.1 controlled device fetches the instruction using the token, under control of web of trust.
+3.2 if everything is OK, exeucte the instrustion
+3.3 if needed, response result to the controller directly 
+
+ 
+
+More and more users will use remote devices without security concerns.
+EMC will build a service like VeriSign/Thawte provided.

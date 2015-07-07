@@ -1,0 +1,5 @@
+Mobile Chat Tool
+
+It is always better when you have a "kind of" more personal relation with a colleague rather than emails and on Office Communicator. This chatting tool will let you communicate (Out of working hours) with any of your colleagues (specially in other GEOs).
+Mobile app that facilitates communication (birthday shout-outs, personal greetings,..etc) between colleagues within same BU but in different GEOs which increases productivity and Great Place To Work factor.
+

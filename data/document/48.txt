@@ -1,0 +1,14 @@
+Agents To Get SOs Using PO/Contract Numbers And Clients Names 
+This will serve the challenge/s listed below. 
+
+
+Several cases and issues 
+Create an application where everyone is able to find the sales order number using the PO number or the contract number or the company's name.
+
+This can list all the SOs under one client 
+
+Sync this with SAP, OBIEE and have all the info. on there 
+better service to customers
+high quality
+saves time
+resolution 

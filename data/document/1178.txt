@@ -1,0 +1,20 @@
+What is next after Cloud Computing?
+The solution is to address huge amount of data generated as part of Internet Of Things. Also it creates new business opportunities for EMC as Cloud Solution Provider.
+This idea came while researching on Internet Of Things and connecting EMC Solutions and offerings.
+Couple of Data generating scenarios are given below 
+Eg: IOT
+Smart Motor Vehicle:
+1. Verify Driver identity
+2. Verify valid driver license
+3. Control speed as per traffic norms per street
+4. Report if any violation in rules
+5. Record all the routes the car traveled
+
+Smart Meter: 
+Health care: Remote clinic and individual health records availability
+Climate change information:
+As part of the solution we are proposing "Data Processing Hubs(DPH)" aka "Street Computing" in each streets or close by locations leveraging existing public infrastructure, such as ATM, Vending machine or Kiosks.  
+DPH will do initial processing of data and send only compressed/relevant information to centralized data center where EMC solutions like EMC Hybrid Cloud and other BigData solutions are running.
+
+Thin apps such as cloud array and analytical engines if it made to run on multiple platforms including BOYD (Bring Your Own Device) can be serve as a data feeder from DPH to centralized data center where the analysis is done using big data techniques. 
+Currently EMC's consolidated storage solutions facing big time business challenge with commodity hardware solutions. EMC has strong capability of integrating various compute and storage in simplified hardware. Newer generation of hardware, if its allowed to run in very small foot print, it can act as Data Processing Hubs. Also it can be local cloud solution provider (CPU, memory, Storage& connectivity)with multi tenancy. 

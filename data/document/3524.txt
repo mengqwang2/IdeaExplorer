@@ -1,0 +1,19 @@
+ Environment Summary – Better and faster troubleshooting 
+
+ I have been thinking about a way that automates supportability and eliminates areas that waste time and effort in the support process to maximize TCE. 
+ The idea is to enable EMC products (such as VNX) to gather environment-related information about the components connected to it such as :
+
+-	Host types
+-	Host OS version
+-	Type of Switches
+-	Type of backup solutions (if any)
+-	Any network optimizing tools used (if any) (such as riverbread)
+
+These information will be collected and will be grouped with the usual log file collected. The bundle will be attached to the SR as usual.
+
+This bundle will contain the logs (TSEs used to have) + the new environment summary file including all needed information about the environment
+
+This will save huge amount of time and effort asking the customer.
+
+
+

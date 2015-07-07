@@ -1,0 +1,5 @@
+Autonomic Feature for Servers
+
+Lync can be used to perform admin task which doesnt require any physical person. This may reduce the license cost.
+We can write a wrapper over the Lync which helps to achieve the autonomic of the server. Lets say, we have the lync client installed on that server where RDP and Physical person is not possible. There we can write 'SHARE DESKTOP' in chat window will starts the desktop share from the server and you can perform your operation without any help.
+

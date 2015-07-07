@@ -1,0 +1,16 @@
+Proactive and Personalized Content Summarization and Recommendation system
+Office of the CTO 'New Business' Challenge: the idea suggests a system which pursues new market areas and can be built using EMC’s HW and SW products. 
+The idea is also relevant for Skolkovo R&D challenge as it “looking for a new market niche where EMC technologies will enable building new solution.”  
+
+Knowledge is power! Thought of this idea as personally fill a lack of such a tool on daily basis.   
+The suggested system learns a profile and preferences of each user based on the information from several sources: 
+1. Personal data available in the system, such as age, gender, education, role description, languages, location, etc.
+2. Previously read content and user’s implicit (such as opened\not-opened the item, time of reading, scrolling, adding to bookmarks, shared or re-posted, etc.) and explicit (if available) feedback. 
+3. User’s connections and their reading interests 
+The system constantly performs a search for user-relevant content over the list of specified sources or through the whole internet. Once new relevant content is identified, the level of required summarization is defined based on content’s volume, then summarization is performed and the content along with its summary delivered to the user. User is notified immediately about the new content available for him in the system. The summarization performed on the subject level, so that if there are several posts on the same subject they are summarized and presented to the user as a single item with an ability to drill down to each post if he opts to.  
+All the above processes in the system can be implemented using state of the art machine learning and natural language processing techniques. EMC hardware products, such as Isilon clusters for example, can be used for storage; and EMC software and virtualization products, such as VMWare and Pivotal-HD suite, can be used to implement scalable and highly responsive analytics and communication engines.   
+The system can be first implemented and tested within EMC for its employees and executives benefit and then extended to a product for EMC customers, such as banks, insurance and investor companies, governments, research institutes, etc.
+Besides the hardware and software infrastructure components EMC has human talent, such as developers, data scientists and other roles, required for developing this idea. 
+
+The benefit of the system for users – timely access to nicely summarized most important professional (and\or personal) content.  
+The benefit for EMC: new solution based on EMC infrastructure, which can be of interest for many large customers in different verticals and especially Finance, where being informed in time makes the critical difference. 

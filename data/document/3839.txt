@@ -1,0 +1,24 @@
+'Mayday' Button Remote Support
+
+Redefining EMC and IT’s customer support practice into a modern support service will foster trust, minimize frustration, and make EMC a great place to work and do business.  
+Amazon has reported that as of June 2014, 75% of customer contacts for Amazon’s Fire HDX tablet are initiated via their “Mayday Button” Service  with an average response time of just 9.75 seconds. Amazons customers have embraced this feature, saying:
+
+    •	“Un-freaking-believable”
+    •	“The Mayday feature of my new kindle is fantastic. To have a person who can hear your voice answer your questions immediately, and solve your issue within seconds is just invaluable.”
+    •	“MAYDAY is officially the coolest!!!”
+    •	“… It’s everything you said it would be. Mayday is terrific.”
+    •	“The Mayday feature ROCKS! I’ve used it twice already and both times the tech support was just the best! Amazon you have the best device support on the market today!”
+
+With this investment into customer service, EMC can leverage technology to facilitate a real world human experience and embrace the future of Online Support.
+
+Once users grant access, EMC Support Techs would be able to control or draw on the device’s screen in order to walk a user through the fix. 
+This ability could be included at the desktop level as a windows widget or launched from internal sites such as infinIT or Inside EMC, and added to the mobile app container. 
+Additionally, through contemporary communication and engagement methods, this support is likely to produce a greater feeling of trust and overall satisfaction of the services rendered. These methods would include:
+
+   1.	One-sided video conferencing – User can see Support Tech.
+   2.	Two-way audio
+   3.	Screen / device control and drawing
+
+This service can be initially provided internally through IT support as a beta release, and rolled out externally as refined.
+
+

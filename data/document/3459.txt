@@ -1,0 +1,23 @@
+“OHS”: Online Hot Spare –No more Data Loss or Data Unavailability (DU/DL) using New Elastic Hotsparing
+
+the idea came from the Cloud-based storage concept and from Openstack block storage technology over the cloud
+The idea will use cloud storage services such as “Pivotal CloudFoundry” or “OpenStack” to enable continuous data protection.
+EMC current hotspare mechanism allocates one physical disk to each group of disks. This physical hotspare kicks in when a disk is faulted in the RAID group. The hostpare stays “Idle” for a long time until an issue happens which adds to the storage overhead. Moreover, if you want more protection then you add more hotspares which maximizes the overhead as well.
+Our idea helps eliminating such overhead and provide Elastic Hotsparing Technique.
+The idea works as follows:
+-	Once a drive failure happens, the hot spare physical disk kicks in normally. but if another disk failure happens an issue occur.
+-	An “Online HotSpare” will be automatically provisioned online from a cloud-based storage. It will be provisioned with the same size and specs of the faulted physical disk.
+-	This online hotspare will serve data instead of the failing disk.
+-	The array will give the online hotspare the identity of the failed disk to enable seamless performance.
+-	Once the disk is replaced or a free physical disk is there, the failback operation will start taking all data from the online hotspare.
+-	After everything is verified to be ok and the “OHS” is no more needed, the “OHS” space will be released back to the cloud and charging will be only on demand or for free.
+-	This service will need EMC to integrate its storage system (software) with cloud-based storage service like EMC’s Pivotal CloudFoundry or other open source cloud services like Openstack.
+This way we will be able to avoid Data Loss scenarios on the expense of a tolerated performance impact
+This will help EMC achieve the following wins :
+-	Maximize trust with the customer
+-	Offer more reliable storage
+-	Align with the 3rd platform needs 
+-	Save storage overhead 
+-	Offer more scalable solutions
+
+

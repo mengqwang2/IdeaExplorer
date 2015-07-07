@@ -1,0 +1,10 @@
+Biometric anti-fraud detection
+prevent fraud and identity theft
+helps to track and manage security
+we sat with the team and discussed about new ideas
+* Smartwatches now contain health and bio-metric monitors for collection of data on blood    pressure, pulse, sleep-cycles, etc. While insufficient to uniquely identify an individual and thus insufficient for authentication, it is sufficient to determine if the person wearing it is NOT the owner.
+* The various pieces of bio-metric data would be compiled into a risk-score, representing the level of confidence that the wearer is the genuine user.
+* The user can configure in the watch and also in a linked smartphone or other IoT device to disallow access below a certain confidence level.
+* Devices are linked at application level via Bluetooth or other wireless technology
+
+It could be new security product or it could additional risk based authentication method 

@@ -1,0 +1,16 @@
+Content as a Service (CaaS) 
+• Expand Shared Service Capabilities, Availability, Quality, or Response Time
+• Measurably improve Customer Experience
+• Improve efficiency related to Shared Service delivery
+Lack of existing system prompted us to come up with this idea.
+
+This idea is altogether a new idea.
+Is a content delivery system using which the cross-functional teams can request for document deliverable, such as user guide, mobile documentation, use cases, online help, quick reference guide, RFP, RFQ, troubleshooting guide, and so on. Every request, in turn, will be analyzed for scope and feasibility. Once prioritized, resources will be allocated based on the bandwidth, skill set and time frame. This will be considered as a On-Demand model based on business impact.
+
+The process flow of the delivery system is enclosed as attachment in EMC One.
+https://inside.emc.com/docs/DOC-155885
+
+
+We can consider cross charging the cross-functional teams for the deliverable. 
+And, also helps resources to gain exposure in other areas apart from their domain expertise.
+Happy external and internal stakeholders. 

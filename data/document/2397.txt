@@ -1,0 +1,12 @@
+Cloud based file storage service in EHC Public/private cloud for end users like Amazon S3
+Cloud based file storage is one of the very popular offering specially in public cloud platform. As we have some customers deploying public cloud using EHC like MainOne, this solution can be very attractive for customer. 
+EMC being Storage and cloud company i was searching for innovation which can bring both key offering together and help EHC to sell both products. This is very important part missing from EHC solution so came up with this idea.
+A cloud based file storage service like Amazon S3 can be provided as part of EHC solution. Solution overview:
+  - On Demand provision / extension of file based storage service.
+  - Service to manage other user's access to cloud storage.
+  - A desktop application to connect to this file based storage and access files
+  - A web application for end user to connect file based storage and view/manage files
+  - A Mobile application (Optional) to connect to file based storage.
+  - A server application for storage provisioning, sharing and end user application to connect.
+  - vCO workflows can be created to connect to above server application and give end user access to manage it.
+For EHC public cloud this will be huge success as public cloud file storage are very successful. For Private cloud this can be useful offering to share file within organizational users and external users as well.

@@ -1,0 +1,8 @@
+Migration from other backup vendors to Networker
+Data Domain is the major backup target device sold in market today. Most customer integrate DD with their existing backup solution. However, many times most customer are also migration from other backup applications to Networker for better interoperability with Data Domain.
+I got involved in one such project and got to know that there is a 3rd party company that does these catalogs/index migration.
+https://inside.emc.com/docs/DOC-156080
+There is a 3rd party service available to convert the catalogs from other bu vendors to Networker/avamar.
+http://www.indexengines.com/emc/emc-catalog-engine
+Each time we have to migrate to Networker, we have to contact the 3rd party for assistance. We can work with our EMC engineering and develop similar tool so that we can perform the Networker migration in house without wasting time/money contacting 3rd party.
+EMC will benefit from the time/money saved when this Networker migration is done in-house (without 3rd party involvement). This can be a PS work. Customer also happy since they don’t need to keep one old backup server in place until old backups expire. All old & new backups can be recovered from Networker after migration.

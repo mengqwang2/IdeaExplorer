@@ -1,0 +1,35 @@
+V-Enterprise on EMC hybrid cloud
+This idea is built on EMC’s enterprise hybrid cloud infrastructure, providing the solution to set up all the IT related resources for the enterprises. It would bring the convenient and rapid access to their resource for the end users and it also help the enterprise to cut the cost up to a point.
+This idea comes from endurance team’s brain storming. Bob Yan and Rui Liao make contribution to finalize the idea and technical architecture.
+The EMC V-Enterprise is one elastic and systematic cloud solution, based on EMC’s hybrid cloud. It deploys the IT resources and services which are integrated from PaaS, IaaS and SaaS. In order to exactly provide the required resources and services to the authorized individuals, the V-Enterprise creates Business-Box and Soft-Gate. 
+Business-Box would provide the whole set of business tokens for different roles in the enterprise and tell its Resource Pool Manager to build the related resources according to the configuration file. The business token defines the mount and privilege of the resource and services for the owner. The configuration file is generated automatically when the parameters of the business token are all set. The individual should provide his token when he tries to access the resources and services.
+The Soft-Gate would check the validity of the token and forward the individual to the specific resources and services which are distinguished by the privilege of the token.
+
+There are two main flows for enterprises and individuals to deploy EMC V-Enterprise hybrid cloud system.
+  1.Tokens creation by EMC V-Enterprise business unit
+  2.Users access to the IT resource
+When one enterprise agrees to deploy EMC V-Enterprise system, the technical support or sales engineer from EMC v-Enterprise department will create some things for this enterprise: one administrator account of the enterprise, a set of specific tokens, and one Business Domain with IT resource. The engineer would do the following to complete the configuration for the enterprise’s register:
+  1.Connection to Soft-Gate: the administrator can connect to the Soft-Gate by his PDA through the management window such as Web GUI and Application Client.
+  2.Choose Enterprise Tokens Suit: according to the business of the enterprise, the administrator should choose the right tokens from the sample suit.
+  3.Customize Tokens: according to requirement from different business unit, the administrator could customize the token’s access privilege to the specific IT resource.
+  4.Assign Domain: the administrator should configure tokens with the specific domain.
+  5.Assign Resource: the administrator should configure the tokens with specific resource and service.
+  6.Build Certification Tokens: after the above configuration, the administrator clicks the build button to start creation process.
+  7.Check validity: this step is done by the background procedure during the creation process. If the parameters of the tokens are all correct, the tokens are created successfully. Otherwise, the administrator has to check the configuration and re-build the tokens.
+  8.Return to User: when the tokens are created successfully, the administrator can pass them to the enterprise.
+When the enterprise gets the tokens, it could distribute them to the heads of each department. The heads can distribute the tokens into sub-tokens with related resource and services.
+
+Here shows how the individual accesses to his specific IT resource:
+  1.Connection to Soft-Gate: the individual can connect to the Soft-Gate by his PDA through the user window such as Web GUI and Application Client.
+  2.Input Certification Token: the individual has to fill in his token info.
+  3.Verify the privilege: the Soft-Gate would check the validity of the token. If it’s invalid, the error info about forbidden accessing raises up. 
+  4.Setup Channel: when the token is valid, the channel management would initialize the setting up of the communication channel and send the request to Resource-Pool module.
+  5.Connection to Domain: the domain management can accept the request and connect the individual to the specific domain.
+  6.Access the Service: when the connection to Business Domain is built, the channel setup procedure can fetch the specific resource and service according to the description of the token.
+  7.Return to user: when the channel between the individual and the resource is built up, the individual could enjoy his IT resource. At the same time, the channel management would account the time of accessing resource. When the time is up, the individual has to re-validate his token.
+
+1.	The EMC V-Enterprise would ensure the security of the usage of the enterprise and the resource and service would be accessed through VPN and Intranet.
+2.	The privilege of each sub-token is controlled by his upper-token. The individual only can access the resource and service described by the token. The tokens are the key for the enterprise to V-Enterprise. 
+3.	V-Enterprise would help the enterprises to reduce the budget for IT resources and services.
+
+

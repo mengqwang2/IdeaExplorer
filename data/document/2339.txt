@@ -1,0 +1,5 @@
+Resource forecasting/planning
+Having resource consumption (Water,Electricity....etc) within the inhabitants of the city recorded and fed into a primary storage space/cloud where data is continuously being analyzed in a very detailed manner. This detailed analysis of historic data will provide accurate forcasting ability of resource consumptions which in turn would lead to optimized accurate resource planning and avoid overspending and/or coming short.
+We occasionally experience resource cuts instances (Power cuts/water cuts....etc) most of which i believe are due to inaccurate planning and not accounting for the required consumption by people.
+The detailed analysis of historic data related to resource consumption will lay the foundation from which accurate planning/forecasting would become possible 
+elimination of resource cuts would be the ultimate success

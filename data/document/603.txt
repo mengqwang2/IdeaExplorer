@@ -1,0 +1,8 @@
+Texting blocker while driving
+Egypt COE Smart City and IoT Challenge
+Some apps have been created to block texting while driving but they need to be enabled manually each time the user enters his car.
+
+Example: Live2Txt
+Integration between the smart car and the driver's smartphone (e.g. bluetooth pairing) ..  to automatically make all texting services unavailable during the trip.
+This can be overridden in case of emergencies but only if the car is at rest. 
+This should be part of a smart car/phone integration package with various features to make it interesting for users to use it (not all people will use it to just disable texting)

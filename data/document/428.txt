@@ -1,0 +1,14 @@
+Durham Elastic and Self-Servicing Lab
+Idea matches the Sponsor Challenges as idea is about self-servicing, elasticity and auto provisioning and de-provisioning of lab resources. It is modeled around the cloud and uses openstack and EMC ViPr technologies. 
+The idea talks about the problem which matches the sponsor's requirement.   
+This is new idea and can be easily implemented
+The idea removes the dependency on manual processes and on lab personnel. When a user (developer or QA) needs a resource for his task, he can get by just few clicks. User can create virtual machines, can get physical machines, provision any hardware.
+
+Idea talks about how lab administration could be streamlined and monitored smoothly without much manual intervention.
+
+Idea used EMC Vipr and openstack technologies. More details are covered in the doc-
+
+https://inside.emc.com/docs/DOC-156084
+
+Fully automated, self-servicing and elastic lab. Benefits are self-explanatory.
+

@@ -1,0 +1,57 @@
+Smart Data Center Management using ViPR Remote
+- 3rd platform SDS Predictive Maintenance - ETD (EMC Code): Our solution builds smart app based idea to manage the data center using ViPR Controller. It uses data analytics services to realize the solution.
+- APJ COE "Solutions Platform" Challenge: Our Id
+Currently there are different management solution in a multi-vendor environment and as a data center admin it is difficult to manage resource through multi management interfaces. When we thought of managing our team's hardware infrastructure, we realize this pain-point, that leads to this Idea.
+We have described the idea/solution and its architecture in the following link: 
+https://inside.emc.com/ideas/3447
+
+Our solution attempts to manage the 3rd platform infrastructure involving multi-vendor environment using ViPR. It comprises of the following components,
+* ViPR Remote App
+* ViPR Resource Manager (RM)
+* ViPR RM Analytic Services
+  
+1) ViPR Remote App
+ViPR remote App is a mobile client which scans QR code/bar code on each hardware and  will update the database, which can then be used to populate the list of hardware, connected to ViPR, instead of adding them manually as of today.
+
+Since all smart devices has the facility to read QR code we don’t need specific device and scanned info can be updated to the database easily by using ViPR Remote App.
+
+Since QR Codes can be used to store addresses and URLs, EMC could ship all hardwares with 
+QR code which can help in inventory tracking and also  aid this solution.
+
+With an APP, we can monitor and manage ViPR via any smart devices not only for provisioning but also for activities like reboot, upgrade, bare metal configuration via integrating with tools like Puppet.
+  
+2) ViPR Resource Manager
+ViPR RM (Resource Manager) is a module in ViPR controller. It provides ViPR analytic Service and also has OEM plugin.
+
+Since ViPR is opensource, OEM can contribute to ViPR RM plugin for their respective hardware  to provide  new patches or updates. This will also improve TCE since customer will get notifications directly from OEM.
+
+OEM plugin talks to the vendors (via internet) to fetch all the required information using QR code or bar code.
+
+With this ViPR RM collects various information about all the hardware components in a datacenter. Some of the information includes Host Info, Firmware version, Hardware capabilities, Switch Info, Array Details, Licensing, EOL info.
+
+With the help of OEM plugin ViPR RM provides License management, Upgrades/patch management & Effective Hardware/software maintenance window
+
+Each hardware vendor has their own release cycle and data center admin has to plan maintenance window accordingly.
+
+With this solution, ViPR can suggest common maintenance window for all related components  which will ease the maintenance plan.
+
+ViPR RM alarms the administrator before hand to avoid major issues as per the HCL (compatibility matrix).
+
+Since all hardware is available via ViPR RM, it can be used for centralized power management based on info like EOL, health status etc. This can also be automated by creating different policies.
+  
+3) ViPR RM Analytic Services
+It is a modern data architecture for storing information from RM.
+
+Huge information regarding physical and virtual assets which are stored as raw data forms a data lake. This data is managed using Hadoop Ecosystem.
+
+It provides optimization service, Custom reporting, Hardware utilization metrics and strategy for hardware procurement planning.
+
+With proper analytics in place we can optimize the hardware utilization, avoid downtime during tech-refresh using predictive maintenance of hardware.
+
+Identify and eliminate rogue hardware which will guarantee to meet the SLO of the customer.
+Ease of Management
+* This will ease the inventory management over the traditional manual process.
+* ViPR RM provides Central repo for hardware management in a datacenter. With this ViPR will make a runway to next generation cloud application.
+
+Lower TCO
+*

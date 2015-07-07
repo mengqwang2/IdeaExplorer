@@ -1,0 +1,20 @@
+ Flash technology transformation by optimizing flash disk lifetime and performance – empirical approach
+The idea innovates around flash technology with applicability to flash products like DSSD and XtremeIO. The idea targets enhancing flash disks performance and lifetime 
+ The idea came up from a research done comparing different drives lifespans and algorithms used in them. 
+ The solution works as follows: 
+Flash disk lifetime is dependent on the number of P/E (programming/Erasure) cycles done to it and the number of raw errors. 
+
+Raw errors correlates with some parameters like :
+1-	Page address (location)
+2-	Time between reads/writes
+3-	Number of P/E cycles
+
+If we can learn –empirically- how these parameters affect raw errors we will be able to adjust the NAND flash read algorithm to assess the input parameters in real time and decides on the best way to write or ready data (for example: change the threshold voltage data it compares to to differentiate 1s and 0s). 
+
+This way NAND flash can reduce raw errors using statistical learning. 
+
+
+1-	 Better flash disks performance 
+2-	Longer lifespan for flash drives 
+3-	Transform flash technology (XIO and DSSD)
+

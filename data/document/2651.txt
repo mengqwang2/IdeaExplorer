@@ -1,0 +1,7 @@
+Traffic management for CSE (field Engineers) 
+Deal with Crowed sourcing app that will collect EMC Field  to enhance and accelerate their process. 
+Facing a lot of delays due to traffic jams and demonstrations specially the last three years in Egypt.
+By2olak: is a mobile App for Apple and Android to show the traffic from/to everywhere in Egypt Feed from the APP users to avoid traffic jams, accidents, demonstrations, etc…
+So the idea is to make a deal with By2olak App by grapping the users GPS location and to see where he is going to go within the next hour, and then send him a notification which roads to avoid in order reaching customer sites within time.
+
+It will accelrate the process of reaching customer sites' as well enhacing organization image 

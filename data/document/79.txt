@@ -1,0 +1,31 @@
+Smart Data Center (IOT Enabled DCIM)
+For the 2015 Innovation Roadmap, the Office of the CTO is looking for ideas which represent new business opportunities for EMC.
+While brainstorming around applications of IOT relevant to EMC and I realized that, everyone is talking about how Data Centers will store massive amount of data once billions of IOT Devices start using these Data center, but very few are looking at automating the Data Center Management and making their Data Centers self healing and intelligent using the IOT.
+I propose a solution to bring the concept of IOT in the Data Centers to make its sensors Internet-Aware and take actions based on the real-time analytics & patterns generated through a repository of incidents that occurred in the past.
+
+Following is the solution that will bring IOT to manage Data Center's Infrastructure:
+
+ - Upgrade existing sensors in the data center to smart sensors that have connectivity to internet (If this is not feasible there are ways to make the legacy sensors smart).
+ 
+ - Have an IOT & 3rd Platform enabled proactive Data Center Infrastructure Management (DCIM) system on PCF which gathers information from many types of sensors and associated components to provide a holistic view of data center performance and to enable a broad range of informed decisions in multiple areas.
+
+ - This system will sense, transfer, and act on information wirelessly. It could refer to a system that adapts to and anticipates facility management needs. It could be a system that proactively manages your environment.
+
+ - The DCIM System portal will contain 3 modules: Action, Control & Health.
+  - 'Action' module will be invoked whenever a sensor is triggered
+  - 'Control' module will be used whenever an admin/system wants to operate or communicate to the device wirelessly/remotely.
+  - 'Health' module will be used by the sensors to ping the DCIM System to report that they are alive and functioning.
+
+ - There will be an auditing service that will capture all the real-time details whenever any of the above 3 modules are invoked.
+
+ - This auditing service data will be fed into, an active analytics system to predict active threats, and also to a passive analytics system to take proactive measures on incidents.
+
+ - For instance, if there is a leakage or water flooding in a particular area, active/real-time analytics will help send notification to system admins and warn the storage devices in the nearby area to take necessary measures (like Backing up data onto a different storage device, Start Data Replication to make sure it is available in another Data center, shutdown the Storage Device to avoid further damage etc.), until system admin is able to stabilize the situation.
+
+ - Similarly passive analytics will help create patterns to predict the chances of an incident to reoccur. For instance, if there are power surges once in every quarter due to a faulty line, based on historic data, passive analytics can predict when the next power surge is likely to occur and warn the storage devices to take necessary actions proactively to safe guard the hardware devices and also make sure that the data on it is always available.
+ - This solution makes the Data Centers Self Healing & Self Reliant and takes them to the next generation.
+ - Data centers can be managed remotely with limited system admins required on site.
+ - This solution provides a way to supervise data centers in an automated fashion.
+ - Due to the proactive nature of this DCIM, the storage devices will be prevented from further damage and data availability will not be disturbed even in cases of unforeseen calamities.
+ - Due to the predictive nature of this DCIM, system can take informed decisions and manage the data center more effectively.
+

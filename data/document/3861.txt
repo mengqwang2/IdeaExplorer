@@ -1,0 +1,5 @@
+Disk Drive Conversion Process Optimisation
+
+Since 2012 there has been over 240K disk drives converted in Cork. The GDE group have looked at ways to try and improve the overall process and if the manual checks can be replaced by an automated solution the chances of human error are removed from the process. This will also elimate sign off delays at critical times in the quarter.
+When a disk drive conversion takes place for the first time both Test & Global Disk Engineering (GDE) carry out a qualification. During the qualification an inspection of the disk drive inquiry information and mode page settings are conducted by both Test Eng & GDE. There are scripts available in the current test process that are not being leveraged for drive conversions.These test scripts (auto mode sense & OSAR) could be used to automate the checks that Test & GDE currently perform. The results of these automated checks would be logged and upload to the APC network. This will elimanate manual checking and will provide a complete archieve of all conversions.
+

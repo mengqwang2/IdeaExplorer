@@ -1,0 +1,10 @@
+Cisco IP Communicator Mobile Application
+As an implementation engineer in the GPS team, most of our work is away of our home countries traveling a lot abroad for long period of times.  Sometimes  we need to make urgent business calls and to do that we have to open our laptops, log in to the VPN, open the cisco application and dial, which is time consuming and sometimes you don't even have your laptop with you at that time. Having a mobile application that can remove all this procedure will make our lives much easier and cheaper.
+Just come out from my continuous travel for my three years here as an implementation engineer. So an application like this which is similar to the Viber application will be beneficial to the business.
+The idea itself is not a new product to be released. It’s just an enhancement on an application that it is already in use (Cisco IP Communicator). But since it is somehow complex and time consuming a mobile application will make things much easier.
+Having an application that can be installed on an android or iOS will be very beneficial and has a futuristic view since we are moving now towards the third platform.
+Application will be just the same as the Viber one but for login it will just need your token credentials to have you authenticated with the EMC network and then you can make any call you want absolutely costless since the cisco phone uses the VoIP technology.
+
+The product application is already there but as stated before it has to be through our laptops and connecting to the VPN network.
+This application will save a lot of money on projects as anyone onsite now will be able to have calls normally with his home country and even international calls as the cisco phone uses the VoIP technology which is absolutely costless.
+

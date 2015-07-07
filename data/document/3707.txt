@@ -1,0 +1,59 @@
+Unified services for unified communication using Lync 2013 
+
+It came up as a though when attending the Lync Application training, we had deep overview of the application and its features . Part of this we came up with multiple use case scenarios where Lync Integration with EMC Apps and services can benefit EMC users, customer and over all EMC IT and EMC. Thus we arrived at the idea.
+
+We have identified 3 use cases to start with and the possible solution using unified communication platform (Lync2013)
+
+Use Case1:  Unified chat support and automated ticking system using Quick ICR in Lync 2013.
+Description: EMC end users contacting IT for support for technical problem. 
+How it works? 
+1.Using Quick Interactive chat menu feature in Lync.
+2.Integration of incident management system with Lync for automated ticketing during the chat session. 
+
+Work Flow [ Attached in the document in Inside EMC One]
+https://inside.emc.com/docs/DOC-100152
+
+Benefits to EMC: 
+1.E2E Unified chat service using one platform.
+2.Improving end user computing system. 
+3.Automation of ticket, in turn saving time for the end user and helpdesk; achieving TCE.
+
+---
+Case Study 2:  Unified web based communication support for external EMC customer‘s to different teams across EMC.
+Description:  To provide a web based app and mobile app for support.emc.com  with integration with Lync web services for effective and faster customer support service. 
+How it works?
+1.Create profiling for different EMC customer service in Lync and integrate with support.emc.com 
+2.Helps EMC customer to get instant web base support with EMC customer support team for new issue reporting and querying any existing open issue. 
+3.With help of IM presence , help the customer to re-queue the case to an active available agent. 
+4.Also proving pop up notification to the CS agents as an when there is an update from customer to the case notes.
+5.Using EMC Support application on smartphone and table devices. 
+
+Work Flow [ Attached in the document in Inside EMC One]
+https://inside.emc.com/docs/DOC-100152
+
+Benefits to EMC : 
+1.Effective customer support service to EMC customer, improving end user support 
+2.Faster response time and instant notifications from EMC CS agents to customers, in turn achieving good CSAT scores and achieving TCE> 
+3.Mobility support using EMC Support Application for smartphone and tablet devices. 
+
+-------
+
+Use Case 3:   Unified Web base per sales communication for EMC Sales toward any customer. 
+
+Description : To provide a unified web base pre sales support to any customer /user visiting www.emc.com products and solutions, using Lync web app inturn helping EMC Sales for tracking customer /information and achieving improved sales targets by providing instant information to EMC products and services. 
+
+How it works ?
+1.To integrate web based unified communication with sales.emc.com .
+2.Automated menu option providing easier access to EMC products and solution, inturn providing instant per sales support to potential EMC Customers.
+3.Obtaining and tracking for basic user information achieving improved sales targets
+
+Work Flow [ Attached in the document in Inside EMC One]
+https://inside.emc.com/docs/DOC-100152
+
+Benefits to EMC :
+1.Unified sales support service to potential EMC customer
+2.Faster response time and instant information to customer about EMC products and solutions.
+3.Leading to increase in potential customers and increasing sales targets and revenue. 
+
+
+

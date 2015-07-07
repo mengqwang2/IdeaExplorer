@@ -1,0 +1,8 @@
+EMC customers tour in EMC COE
+Reaching total customer satisfaction and allow customer to see his own service request life cycle inside EMC 
+Now for TCE 
+Will allow customer to know more what is his  case life cycle . From now and then we can have our customers to have a Tour inside EMC building to know first more about his product either VNX ,... 
+He must know why his product works well to let him know the product generated this eeror because so and so when u see this msg you call the CST , and let him see how the CST works and what is the workflow of his Case pass on . this will make the customer more familiar with EMC  organization and family 
+
+and feel comfortable and secure on his product and let him know well when he opens the next SR when it is now and in which stage 
+department for customer caring  and to be a service with each EMC product 

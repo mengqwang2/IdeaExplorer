@@ -1,0 +1,18 @@
+A Transport Application on Mobile Phones for EMC Employees
+
+We have faced this issue several times when we needed to update our roster in the middle of the night, in case of a change in shift/emergency or just simply forgotten to update; also, while travelling without the office laptop and an active broadband connection.
+
+Nowadays every smartphone comes with mobile data enabled, which makes the app fruitful and handy in times of need.
+
+
+1. We would need to create a mobile application(compatible with both IOS and Android) that would enable EMC Employees to login to the Transport Tool through their smart phones.
+
+2. This application should work even outside the EMC intranet and could be accessed from anywhere as a normal site with the normal NT-ID and password as the credentials, just like the Amigo application OR require them to use their NT login IDs as username and  RSA SecureID along with its token as password to login. 
+
+3. EMC Employees, after logging into the app will be able to navigate through the app to schedule, re-schedule or cancel their transport on the go.
+
+4. There will also be a way to arrange an exception/emergency cab.
+
+5. This will drastically improve the management of NO-SHOWS since this app will also give a reminder/notification of the day's login, well within the acceptable time; so if a change in the roster needs to be updated he/she can do so, thereby decreasing cost to company.
+
+

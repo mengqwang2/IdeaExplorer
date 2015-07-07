@@ -1,0 +1,14 @@
+Where is my Object?
+This idea will improve speed/accuracy/stability and prevent issues at customer site. 
+Idea came while I was designing the service procedure for eNAS. 
+Attach the dependency string to software constructs. 
+For now this is done in the adhoc and vaguely defined. 
+
+• File system will direct to Physical disk. 
+• Network Device will direct to Physical IO Module.
+
+When my idea is implemented. The Support guys should be able to quickly identify the software construct that get impacted. 
+
+And can take informed decision with along with customer if needed.
+
+This shall reduce support time in identification of the softwa

@@ -1,0 +1,7 @@
+Image / Text Converter
+
+Customers with multiple requests tend to send a screen shot that consolidates all details together. I waste some time to translate details from the screen shot to actual editable/usable text.
+The idea is to have a tool that converts the image of text to an editable text file. This will facilitate e-mail communication.
+
+It can work just like the snipping tool and on the spot text conversion.
+

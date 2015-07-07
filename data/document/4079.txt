@@ -1,0 +1,9 @@
+Collaborating Health Insurance for future health care
+
+Registry and Repository concept are new to Healthcare industry and it does not provide any solution to collaborate Healthcare with Health Insurance. If EMC provides a solution to collaborate between healthcare and insurance will be an early player in the market.
+EMC provides a solution for healthcare to store the patient electronic medical records in Healthcare registry and repository. Using these solution (Healthcare integration portfolio- HIP 1.6) healthcare institutions can store the patient records in a common repository and it can be accessed from anywhere. If we are providing solution to Insurance domains to access HIP Repository and Registry, can make a huge change in the way of processing Insurance claims.
+When a patient is admitted to the hospital, a notification is sent to the respective Insurance Company. When a patient diagnostic report is uploaded to HIP repository, an automatic notification should be sent to the Insurance Company from HIP Repository server. Insurance parties can directly retrieve records from HIP repository and process the settlement. This will reduce the overhead of handling the medical records between Heathcare institution and Health insurance companies.
+Once the Insurance claim settlement is done for a patient record same will be updated in HIP Registry. So the patient cannot reclaim for the same record with a different insurance company. This will eliminate reclaiming of insurance from different companies with same medical record.
+For more details 
+https://inside.emc.com/docs/DOC-100056
+

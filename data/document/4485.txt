@@ -1,0 +1,6 @@
+Project EMC
+
+This Idea is still in the evaluation phase.
+Having a platform that will allow people to register & login. The purpose of the platform is to allow participants to solve brainteasers/algorithms. Challenges will also include participants to work on pair programming also.
+Every quarter EMC will select top 10 winners from the competition & they will get a brief overview of all the products which EMC has.
+

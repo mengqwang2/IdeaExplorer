@@ -1,0 +1,12 @@
+Problem Solving :: Identify Best Solution on Mobile
+This idea will help troubleshoot basic issues based on the error messages - CTD products supportability 
+In case of failure at times a solution is readily available but we end spending lot of time to hit the right solution. This will help in faster search of solutions
+We should have an mobile app which will contain a database of all error messages in a product along wit its best solution. Any end user runs into an issue can take a snapshot of the issue and run a search through the app. The app should be capable of
+1) Allow upload text/picture of the error message reported by the product in the log
+
+2) App should be able to perform a text/picture search 
+
+3) Provide the best solution to fix the issue in order of relevance 
+
+There are already existing issues in defect tracking system & also we can find some solution online. We just need to collate this in one location
+Save time  - save support calls - Solution readily available at fingertip in an app

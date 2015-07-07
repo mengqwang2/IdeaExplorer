@@ -1,0 +1,10 @@
+Training sessions for CEs
+Enhancing the process of sending on-site CEs to customers as some of them have lack of knowledge of certain products.
+Some customers complain when EMC CEs damage something or waste their scheduled maintenance time when they are doing certain tasks
+Field manager in agreement with support managers will have discussion about topics that needs to be covered for CEs in his District.
+
+Support Manager will select qualified senior TSEs to provide sessions to the CEs and assist them if they have questions.
+Saving customer's time.
+Enhancing customers experience while dealing with emc persons
+Reducing TTR
+Making it easy for remote engineers to communicate with CEs

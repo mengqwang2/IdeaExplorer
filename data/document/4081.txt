@@ -1,0 +1,6 @@
+Board games as an EMC Education tool
+
+Came out of a brainstorming session
+Take several existing board games and modify them for our purposes. Chess as an example could be played using pieces that relate to EMC's products - lower range products as pawns through to VMAX/VG3R as the king or perhaps show the game as the EMC stack with diskdrives as the pawns. Show/explain to students what the pieces are, as the game is introduced to schools.
+Then use these same pieces as part of a game of monopoly where players build up their portfolio of information mgmt products and strive to own the world of the data mgmt. Chance cards, community chest cards and going to jail, would be ways of imparting more information about the cloud, big data and trust. 
+

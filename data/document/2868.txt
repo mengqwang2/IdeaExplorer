@@ -1,0 +1,6 @@
+A simplified way to register device to RSA soft token server
+Using a moderner solution to simplify our daily work and improve the work efficiency 
+It caused troubles for me to register my device. Then talked it with my colleague. 
+Instead of the link and code, we could use the QR-code generated from the activation link and code and send it to user. Then user could easily register their devices.
+It would save much time for every employees using RSA soft token.
+It may cost me around 1 minute to carefully input the link. With the QR-code, it would cost me less than 10 seconds. Considering 40,000+ employees, it would be a huge time saving.

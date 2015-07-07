@@ -1,0 +1,12 @@
+Smart EMC
+Mobile Application that is accessibe to all EMC employees, that has all the important announcements, and can notify everyone immediately, better than mail (not everyone has their mail on their mobile) and SMS (cheaper)
+N/A
+This Application should contain:
+- Database of all employees and their available timings and contact numbers
+- Urgent announcements of days off or blockage of parking
+- Available routes to the organization, to avoid any delay to the office
+- Available parking lots
+- Reminders of big events of the company
+- 
+Making employees aware of urgnet announcements, reminders, easiest and wuickest routes to the office,...etc.
+Which saves money and time to both the organization and the employees 

@@ -1,0 +1,5 @@
+Power Calculator Automation
+This idea helps to automate the Power Calculator report generation.
+The idea came to me When i discussed with one of my colleague about his idea.
+It automates the Power calculator report and it reduces the human error while generating the report.
+It will save SEs time, so that they can concentrate on customer to make more sales to EMC.

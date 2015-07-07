@@ -1,0 +1,11 @@
+On-the-fly data analysis on input stream inside current elastic cloud storage
+For Business Data Lake (BDL), higher throughput to store raw data, faster speed to analyze data and lower cost to deploy/maintain system are always in demand. This idea proposes a solution: on-the-fly data analysis on input stream inside current elastic cloud storage, to improve above aspects
+I’m working in ECS team. We make great effort to store big data but let companies like Splunk analyze them and provide the real value. Why can’t we do it ourselves since cloud storage has inborn advantages? Then this idea came across
+Put data analysis component inside storage and let it directly work on input data stream. When data is injected, it’s analyzed meanwhile. From customers’ perspective, all they care is injecting data. Once data is stored, data analysis is also finished and analyzed data are available in the storage too for further usage. No extra throughput/time cost on data read, and no extra resources needed to deploy/maintain data analysis components, also easier for customers to use
+
+Most elastic cloud storage (like EMC ECS) has its own compute unit, it’ll hold input stream for data distribution/geo/…, so support data analysis on input stream is totally feasible. Also storage’s performance bottleneck is mostly on disk IO/memory not CPU, share its CPU to do data analysis could make more efficient usage of resources from total perspective
+
+More details please refer to https://inside.emc.com/docs/DOC-155483
+There’ll be new generation of elastic cloud storage, supporting dynamically uploaded plugins to handle data analysis on input stream inside. The plugin should follow pre-defined programming guide and is customized based on customers’ specific data analysis requirement, like Hadoop/Spark usage.
+
+EMC can sale this storage as all-in-one solution for both data store and analysis targeting small companies highlighting low cost and easy usage, or take it as component in BDL to save resources and improve performance. And based on this, EMC can also sale services like data analysis plugins customization and performance tuning

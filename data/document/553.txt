@@ -1,0 +1,10 @@
+Graph Analytics
+Data Science, Fraud, Client engagement, optimize & re-use of existing assets
+We found out that our clients doesn’t care only about fraud prevention but wish to find the story of fraud across the organization platform.
+We decided to build a POC using a graph database and won 2nd place in RSA Israel Hackathon.
+This exposure ad technology drove attention from other FRI products that wish to be unified and reach client traction.
+Graph/Entity analytics provides an alternative perspective to the relational DB by unifying data sources scattered across different products to give you a single consolidated view of entities and their relationships in enterprise. By revealing the real-world networks, behaviors, and trends of entities and relationships that exist within corporate data repositories and data silos. 
+Ultimately connect the dots and enhance user experience to do more targeted security. We wish to provide our clients a multilayer data representation that is easy to append additional data sources to increase engagement and reliance on EMC. Allows user to inquire an entity or system will tell him where to look.
+1. A unified platform that warehouses all fraud transactions. 
+2. Product would allow our clients further engagement with our products and become the source of data for fraud and security teams.
+3. We will incorporate additional data sources from client end. this product would increase dependency at our top tier clients and allow us to enter LOB we are not currently in.

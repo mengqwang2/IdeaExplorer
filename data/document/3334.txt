@@ -1,0 +1,12 @@
+ Higher CSAT using time to wait 
+
+ though about this idea from the real life experience dealing with different Services providers over phone
+The idea works as follows: 
+
+-	this can be done by using the customer information we already have at EMC such as the country, city and preferred language to align the tone he listens to while waiting. 
+-	This tone/song will be  to be the most common/loved/famous/cultural  song or music track special to this country or city in the local language. 
+-	this can be simplified by having a pool of sound tracks and a system that matches the country/city to the corresponding sound tracks. 
+-	this will also depend on the customer temperature. the system can suggest a random sound track from a pool of sound tracks specific to this culture. 
+-	this gives a good first impression and more importantly can make the waiting time pass unnoticed.
+
+

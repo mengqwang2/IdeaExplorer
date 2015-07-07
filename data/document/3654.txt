@@ -1,0 +1,9 @@
+Lab-as-a-Service: Storage target selection by hop count
+
+Michael Hancock came up with the idea while brain-storming services for XBU Lab-as-a-service (LaaS). LaaS currently provides the related services of bare-metal and virtual provisioning services for a variety of OS's and Hypervisors. The idea was further developed in discussions with Aditya Nadkarni, who confirmed that the eLab needs to specifically test hop counts of up to 5 and soon 7 through FC switches. Additional insight was gained in working sessions with Aditya Nadkarni, Saiprasad Thondavada, and Andrea Incampo.
+On a network with a range of hop counts of at least two, configuration items including compute, switches, storage and connectivity is stored in a graph or relational DB. When the user requests storage provisioning services they may enter in a hop count as part of the selection criteria. The storage provisioning workflow will be extended with an activity and services that calculate the shortest paths for matching storage devices.
+
+Current solutions are either manual requiring a network or storage administrator to identify arrays via the embedded facilities in a physical switch, or are selected by association via a pre-configured grouping of assets. The idea proposed eliminates unnecessary manual effort and/or sub-optimal asset pool configurations.
+
+
+

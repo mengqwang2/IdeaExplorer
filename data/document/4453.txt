@@ -1,0 +1,22 @@
+EMC Technologies  App to help university students 
+
+When we were discussing how the student community can be reached, it occurred to us that the most easy access would be via a Smartphone. A chat application will be ideal to reach majority of student community.
+
+A simple android app can be developed which can be easily installed on any smartphone.Students will be able to download and install this App and access it with simple authentication information provided by EMC.
+This App will contain the following
+
+ -A simple game/puzzle 
+This game will consist of symbols related to EMC products, data center components. Goal of this game is to build a Complete data center using these symbols.These symbols constitute hard disk, arrays, switches, routers, EMC products, third platform technologies Big data, cloud etc. This game will provide some basic explanation about the symbols when the user moves the cursor across the symbols.
+For example the students can identify correct EMC arrays, switches and construct a SAN/NAS component. Install correct EMC products.
+The game continues this way until the student  can successfully build an entire data center with all the components and EMC products installed. 
+                                       
+-Basic Documentation
+Documents explaining EMC products and the various third platform technologies etc.
+   
+-Chat application 
+An application similar to whatsapp using which the students can form self- help groups and add EMC mentor to learn EMC technologies.
+
+-Portal to submit innovative ideas.
+Students can use this to submit any innovative idea. This portal can be used to assess and identify talented students and hire potential candidates.
+
+

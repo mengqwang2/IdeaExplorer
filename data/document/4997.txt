@@ -1,0 +1,7 @@
+ECS built-in Openstack
+
+EMC already have plug-in driver to integrate Openstack and ViPR so that they could benefit each other. As ECS is introduced as ViPR appliance we came up with the idea to leverage Openstack on ECS to enhance computing/networking capability. 
+1. Install Openstack components on ECS nodes, choose nodes in ECS cluster as controller/network/compute nodes respectively for installation.
+2. Deploy VMs using nova, virtual networks using neutron and integrate cinder/swift with ECS using corresponding plug-in drivers.
+
+

@@ -1,0 +1,5 @@
+Add remote copy for XIO storage system
+Currently we can do it with Vplex and RP support, embedded remote copy will lower the cost and shorter the I/O response time.
+N/A
+Integrated the Vplex as an embedded feature.
+Lower the cost and enablie 2 data center active-active access.

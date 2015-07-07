@@ -1,0 +1,11 @@
+Read it Later, Bookmarks, & Open-Tabs service
+The relevance to the challenge is that this service will "Provide a seamless experience from anywhere with device flexibility and less restrictions". Allowing users to pick up their reading / browsing from any device on any device.
+Having had my personal laptop be my work laptop for the past 7 years, after working at emc, I have been challenged with having to keep my information divided between my personal macbook and my emc laptop. I think that with the ability to access what I was doing from any device, macbook, ipad, emc laptop, etc... we can become more productive and will also meet one of the goals of the challenge as stated in the relevance to challenges.
+An online service accessible on and off the emc internal network providing;
+
+1- Ability to access, create, and modify a list of favorites / bookmarks online with the ability to access them from any device via a web interface
+2- A scripted bookmark that allows adding the current page to a special read-it-later folder in the bookmarks list.
+3- A plugin that integrates with both desktop and mobile browsers allowing the user to open a list from any of the subscribed devices
+
+The end results would be an online service open for emc employees. The idea would be a success if 60% or more of emc employees use the service once it is rolled out and find it useful. The service would consolidate three services offered separately in the market, additionally, it will allow emceiers to focus on work, and keep up to date on issues of personal interest.
+Additional improvements and additions can be made to the service once its rolled out and successful, such as allowing offline viewing of pages, scrapbooking, bookmark synchronization, browser integration, etc...

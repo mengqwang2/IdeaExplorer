@@ -1,0 +1,5 @@
+Reduce Manufacturing ESS Debug Queue
+
+This is a 2014 manufacturing OE initiative. Project lead is Bart Keith.  Kaizen team closed 6/19.  Soft savings $20K
+Debug capital is in place yet not fully staffed.   Increasing debug staffing would reduce inventory and costs.  Investigation has shown the queue is inversely proportional to staffing.
+

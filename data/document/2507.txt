@@ -1,0 +1,13 @@
+Leverage the existing app WeChat
+In China, there is a app named WeChat which could provide all the functions listed in this challenge.
+This app could run on ios/android both. And it is free for personal user. For company use, you just pay a little money. You will get multi functions.
+WeChat is a wide used social tool both in work and life in China. It exists in every smart phone.
+We can apply a company account from WeChat. It could provide the functions like:
+• It is compatible with iOS and Android environments
+• To provide mock ups of what the app would look like
+• It has the capacity for multiple languages
+• To summarize at least several concepts that will be included
+• It has the ability to upload photos and videos 
+1. For Company use the fee is cheap. (300Yuan/Year in current phase.)
+2. Save development resource.
+3. Could be used for employee quickly, it exists in every smart phone in China.

@@ -1,0 +1,12 @@
+VNX Object-based Data Access API for third-party application integration
+
+When I learn the could storage and OpenStack Swift.
+We can implement a object-based driver based on the File and Block layer, this object-based driver can simulate the object-based data access interface based on the File and Block.
+
+By the Object-based Storage Access API, the third-party application can:
+- Can directly store the object into the array 
+- Can directly retrieve the object from the array
+- Can directly copy the object 
+- Can delete object 
+- Can control which users can do which operation
+

@@ -1,0 +1,22 @@
+Optimization of City services based on people density map generated using image analysis
+Using image sensors(including pre existing surveillance infrastructure) to calculate people density in specific areas for optimized and smart deployment of city services and facilities.
+As we travel by bus everyday, the irregular frequency lead us thinking that proper planning of bus routes is a must to improve city transportation.Also a while back we worked on a KB article in which we planned to use image analysis for traffic management. So we combined these two ideas and instead of just limiting it to improve transportation, using it to deploy many different sevices would be more useful  
+
+The Idea is to use image analysis for generating a density map of people in the city and using that information to deploy various amenities or improve services provided by the city’s management.
+
+Refer link: https://inside.emc.com/docs/DOC-156002
+
+1.Deploy a grid of ip cameras within the city. The cameras are deployed at all major locations in the city. The cameras can be used to provide security.
+
+2.By collaborative monitoring, the city management should be able to access image feeds from private institutions who have their own network of surveillance cameras.
+
+3.The cameras will capture images at specific time intervals and send it to the common server. The server will compare the image with a reference image of the same location and by using image analysis, the density of people at a particular location at a particular time can be determined. EMC can help to equip the datacenters in order to store the collected data
+
+4.Once the data is collected,  implementing analytics using pivotal suite , the city management can deploy various services as follows:
+    a.The need for any type of civic amenity for a particular location can be determined by analyzing the people density in that and adjoining regions which will enable optimal deployment of said amenity.
+    b.Construction of any infrastructure.
+    c.Improving public transport by analyzing high density routes.
+    d.Faster deploying police and medical services in case of emergencies  by assigning            proportionate level of such personnel in high density areas.
+
+
+If implemented, this system will improve the decision making process of making amenities available to people.Not only will the camera grid be used for general surveillance,the image analysis will provide a good idea of how people density and movement vary within the city and help authorities choose a location that will have maximum impact of the deployed facility. 

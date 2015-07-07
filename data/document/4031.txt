@@ -1,0 +1,7 @@
+Location Authenticator
+
+Regarding to my daily work as RSA SecurID TSE and my little experience is the security and Identity and access management field, i think about how to use the 3rd generation in the authentication process by more innovative and creative way of authenticating the users
+Most of us now are using smart phone, we can use a mobile application connected to an authentication server, which we can define some safe locations coordinates like the user COE coordinate and mark this place as save location for this user.
+
+The user can authenticate once when he is located in this safe location by a passcode, then every-time he is asked for authentication for his machine he can use a bar-code scanner, it will be perfect it this authentication can be a single sign on for all his application.
+

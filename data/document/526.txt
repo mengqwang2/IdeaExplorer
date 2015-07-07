@@ -1,0 +1,7 @@
+Two-dimension code assisted storage device management
+Two-dimension code could be used to help people to access storage management client easily. Properly use two-dimension code in our product/lab environment could make our life much easier and save us lot of money.
+I came up this idea when I use my cell phone to scan two-dimension code.
+Most of our storage products have LED to show some useful information. We could display a two-dimension code there through which IT engineers could scan and access the device directly. The content of two dimension code could be defined by us (and we and reprogram the content based on our need)
+As a use case, when an IT engineer found that certain storage device in the lab makes much louder noise than other devices, he may want to know what's going on. He can scan the two-dimension code to see if anything wrong with that device. (The two-dimension code could lead him to the home page of that product or directly tell him that certain part of this system is abnormal )
+It would be a software component in the product and a customer visible two-dimension code.
+I would call it success when customers/IT engineers use it frequently and get real benefit from it. It is a new feature in our product, which will add value to it(most for supportability).It can improve customer satisfaction.

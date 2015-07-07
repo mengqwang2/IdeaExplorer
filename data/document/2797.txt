@@ -1,0 +1,6 @@
+We will develop Storage APP and we will install it in smart phones and Tablets device
+Smart Phones and Tablets manufacturing vendors are providing less storage capacity in there inbuilt device for storage, and the customer have to buy extra  memory cards to increase their  capacity in there device. 
+
+Now  a days in market we have so many smart phones and Tablets available, most of the customers are using mobile smart phones and Tablet devices for internet using and they are storing there pictures songs audio and videos some other impartment data files in there devices.
+With EMC developed "APP" if customer loss there mobile and Tablet also there valuable data will be saved in one centralized location that is EMC Storage. 
+Based on the customer capacity requirement's we will put rental plans to the customer's and will charge , at the end of the day if customer loss there smart phone else tablets any device , there valuable data will be saved with EMC And when ever customer 

@@ -1,0 +1,36 @@
+Smart Time Off management of an Employee - Outlook and Mobile
+- Improvement in recording and managing Employee Time off
+- Consolidation of EMC applications
+
+We use Employee Availability System (EAS) to record time off. I always use the application to record my vacation but I do not get any approval / rejection from my manager.
+
+Many employees who go on vacation do not mark their calendar and also do not put Out of Office message, which causes delays in meeting or project planning and when you need them.
+
+While speaking to peers and manager, everyone complains about the EAS slowness, not user friendly, seperate application etc. So, we came up with this idea of developing application which can be integrated with most used application such as Microsoft Outlook and a Mobile solution.
+In order to make recording the Time off easy and automated calendar updates
+ - A Microsoft Outlook Plug-in / Add-in to:
+   --Record the Time off - Vacation, Sick Leave, Personal Time off etc.
+   -- Display the current available vacation and Sick Leaves
+   -- Provision to cancel / update the time off dates
+   -- Sends immediate notifications to Manager
+   -- Follow up with manager in next 24 hours if he / she does not take any action on it
+   -- Once Manager approves the time off
+	--- Mark it appropriately in the time off inventory
+	--- Update the Outlook Calendar for the time off dates as Vacation Time / Out of Office
+	--- Sets the automated "Out of Office" replies for the time off duration
+   -- Update the HR system for employee time off duration e.g. Payroll system, vacation records in Employee database etc.
+   -- Provide a view to manager for the availability of his / her team members from Outlook
+
+ - A Mobile Application for Employee Time off management
+   -- Allow employee to send time off request to the manager
+   -- Manager receives the request and approves or rejects
+   -- Allow employee to send update notification to Employee Mailbox
+	--- Mark Out Office in Calendar
+	--- Set Automatic Out of Office Reply
+   -- Update the HR system for employee time off duration
+
+Outlook integrated application
+Mobile solution for employees on travel and in emergency
+Automated updates Outlook Calendar, Employee Profile, HR System
+Help Managers, Team members, effective project planning, meetings etc.
+

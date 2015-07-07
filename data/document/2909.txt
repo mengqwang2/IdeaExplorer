@@ -1,0 +1,15 @@
+Sales to Deployment Mobile Work Flow App from Cloud
+Enhances TCE and provides visibility of End to End Business Process
+Refer for details https://inside.emc.com/docs/DOC-148835
+Historically, we are seeing a trend that many customers expressing their unconfortableness, primarily due to EMC Storage/Backup appliances are lying at their location for past 3-4 months, finally  it gets huriedly implemented through Urgent request raised through Resource Management Team, so we are introducing unpleasant experience  to customers impacting their bussiness plan, even  before our product/solution is being deployed,we need to address this delay and enhance customer experience with short implementation cycle from Sales to Implementation with a simple "Mobile Work Flow App " connecting complete life cycle of EMC Product/Solution from Inventory,Sales,PreSales,Professional Services,Customer Services,Managed Services to customers.Integrate "Inventory and Sales to Implementation Mobile Work Flow App" with Propel and other existing Tool, to get latest list of accounts and helps to understand cause for delays and to take quick decisions to overcome obstacles/delay in implementation covering sales through Partners channels and EMC.
+Develop Project Tracker Mobile App, stores/source data to/from Cloud 
+App integration with Propel and other existing Tools 
+App will automatically send in Alerts after threshold(Ex:2 days delay) 
+App helps making quick and intelligent decisions after evaluating bottlenecks at every stage, starting from Inventory, Sales, Pre-Sales and Implementation of Projects.
+Enhances customer Satisfaction for on-time delivery and Implementation. 
+App works on Android, IOS and Windows.
+Refer for details https://inside.emc.com/docs/DOC-148835
+Reduces EMC revenue leakages and overall cost to customer due to time overrun.
+Enhances customer experience with a Predictable EMC Solution Implementation cycle 
+Work flow App pinpoint bottlenecks and helps us in overcoming the bottlenecks.
+Used by both c

@@ -1,0 +1,62 @@
+ MSDAP - IoT Massive Surveillance Data Analysis Platform for Smart City- Win-Win approach for security and traffic
+ Our idea leverages IoT targeting Smart City in the following scope: 
+-	Target Market:  Smart City Market addressing traffic and security
+-	EMC Technologies leveraged: Data Analytics, Storage and Backup & Recovery
+-	Goal: solve traffic issue and achieve higher security in one solution
+-	Infrastructure: IoT network of camera surveillance systems for smart city
+-	Potential: Data from camera systems is very huge and is in need for EMC to store, analyze and monetize
+
+ The idea came up from a market research in the security and surveillance sector in which we saw different solutions and applications work in silos on isolated pieces of data + the massive amount of data being produced we thought about it as a big Data problem and thought about bringing big data analytical power into it and reinvent EMC’s storage, analytics and backup to suit this market.
+ 
+*FUNCTION: 
+
+The solution aims at providing a complete powerful platform for IoT surveillance system that offers the following:
+1-	Analyze captured data to provide new capabilities to security authorities 
+2-	Real-time analysis of street captured images to provide traffic recommendations
+
+*STRUCTURE:
+
+The solution consists of the following blocks:
+1-	Smart Data Storage:  Video and Image data is collected and stored centrally in a data warehouse. Use HDFS (Hadoop Filesystem) on ViPR with Isilon backend to better suit the analysis applications. the proper storage tier is allocated depending on the data criticality based on camera location, type of data (video/image)
+
+         Data collection will include two factors:
+a.      IoT devices (Cameras): raw data collection
+b.      The Crowd or the citizens themselves: citizens can have a limited public access to part of the system to report issues to certain authorities. For example: a citizen can upload a photo of a criminal  incident, wasted resource or traffic violation and tag the proper authority. such data will be considered as important data in a higher tier as it has a lot of information.
+
+2-	The Engine: central processing runs on the data in MapReduce fashion to do the following functions to translate data into insights:
+a.	Facial detection for people passing through different places by automatic analysis for video collected data using common video-based facial detection algorithms [2]. (use PivotalHD to deal with unstructured data)
+b.	Congestion recognition to detect traffic jams in certain streets/squares in real time using basic image processing techniques to detect number of cars, buses in certain street at certain point in time. (Use real time analytic tools like Pivotal GemFire and Spark)
+c.	Structuring such unstructured data and storing it into centralized database allowing for advanced operations with restricted access to authorities. (Business Data Lake)
+
+3-	User Application/Dashboard: allowing running high level operations on the structured data to serve in security purposes such as :
+a.	Image searching: 
+#Use Case: Given a picture of a criminal from police records, we can search the database for places he passed through and exact time and date he was photo-captured (using video metadata and the camera coordinates on the city map). System can alert authorities (nearby police station) that a criminal was detected in this area at certain time with 90% confidence percentage. 
+
+b.	Criminal Tracking: combine video data with mobile GPS or BTs (mobile stations) data for optimum value. 
+#Use Case2: if a criminal was detected in certain area (by facial recognition), the user can filter for the mobile devices IDs that were captured (using BTs or GPS) in the same place at the same timestamp. Knowing the mobile device unique ID, the criminal can be tracked using his mobile device and finally arrested by police.
+
+c.	Traffic Optimization: by visualizing areas of traffic bottlenecks and provide alternate less congested routes in real time. Also allow data-driven insights to public transportation sector.
+
+Interactive data processing tools can be used here like Pivotal HAWQ/Pivotal Big Data Suite [3].
+
+4-	Smart Backup: as the collected data is simply huge, we can’t store it as a whole in the database as it is very costy. We will benefit from the hot-edge & cold-core concept; Raw data will be moved to backup layer (using EMC DataDomain) while processed structured data will remain in Isilon. Backup algorithm will be smart taking into consideration the relative importance of data (data from critical places like embassies and ministries are kept longer than data from less important areas like highways)
+
+* SOLUTION OFFERING:
+
+EMC can sell this solution as a packaged offering in EMC Enterprise Hybrid Cloud (EHC) including:
+1-	Storage: ViPR+Isilon or EMC VSS [4] storage customized for video surveillance
+2-	Data Analysis: Business Data Lake (PDL) + Pivotal stack
+3-	Backup: Data Domain
+
+*REFERENCES:
+[1]-  http://www.telegraph.co.uk/technology/10172298/One-surveillance-camera-for-every-11-people-in-Britain-says-CCTV-survey.html 
+[2]-  http://www.face-rec.org/algorithms/ 
+[3]-  http://pivotal.io/big-data/pivotal-big-data-suite 
+[4]- http://www.emc.com/storage/video-surveillance-storage.htm 
+
+1-	 Maximizing security in smart city
+2-	Optimize traffic at minimum cost leverage same infrastructure and same data
+3-	extends a huge existing market for EMC in a new dimension
+4-	revenue generation 
+5-	promotes EMC BDL and EHC
+

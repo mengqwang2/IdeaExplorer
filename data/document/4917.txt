@@ -1,0 +1,5 @@
+Subscribe to one or several kinds of activities in EMC LiveWire
+
+I join several groups. And everyday I will receive lots of LiveWire messages in email. I don't have time to read them all and thus I found that I missed some important messages. I think it's better to filter some not-important-for-me message and only read in livewire instead of receiving emails
+In LiveWire, let me select which kind of activities I want to received by email.
+

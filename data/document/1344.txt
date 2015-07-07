@@ -1,0 +1,13 @@
+TCE and process Optimization and Cost saving
+This IDEA is directed towards cost saving, TCE and process Optimization, basically will overcome challenges while resources are required to skill up for multiple purposes and for Platform 3.0 readiness and will reduce challenges of targeting open opportunities for the same.   
+I came up with the IDEA wile on usual process of day to day job and with discussion with my counterparts. 
+o	Company Perspective: Will have huge benefits in terms of adding skills for resources while scheduling shadow resources and definitely monetary benefits are attached to it – with lesser number of projects getting denied.
+o	Team Perspective: There are multiple challenges that we can overcome some of which are listed below. 
+•	Cancellations and reschedules becomes difficult to track..
+•	Approvals from PMs.
+•	Less number of open requests and requests that are lost because of being staffed as an early demand.
+•	Conflict with resources schedules.
+
+o	Individual Perspective : Scheduling shadows will be much easier and faster and we can use the same opportunity multiple times for different resources.
+
+Once implemented it will save cost improve TCE enhance productivity and optimize process 

@@ -1,0 +1,12 @@
+Facility ticketing system
+Enhancing the internal process of handling facility requests among EMC employees
+In case of previous facility issues, we have to contact them on-person and wait for response to get issues sorted.
+We will be creating a platform/system that uses NT login as credentials.
+
+Each employee will be able to access this tool in case they need to submit a specific ticket regarding their facility issues such as: broken air-condition, cubical issue, etc..
+
+Members of facility team will be taking ownership of each ticket.
+
+After ticket is resolved, facility member will close the ticket and archive it.
+-Saving employees time
+-Making it fast to resolve facility isues

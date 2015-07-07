@@ -1,0 +1,15 @@
+3rd Platform - An App for VPlex - APPlex
+This proposal is to match the challenge for TCE. 
+Work Experience
+Solution: 
+Develop an App for VPlex that does the following: 
+
+Rich user experience to know the status of clusters, configure the clusters, provisioning, migrations, etc.,
+
+Send alerts/notifications to the user when the system is having any issues [much like today's call home].
+
+Enables the customer/user to work with the system remotely thereby avoiding the physical presence. 
+
+Upgrades the system to the next higher release with ease. No downtime required. 
+
+The customers will find this interesting as everything is controlled remotely by an App.

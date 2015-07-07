@@ -1,0 +1,13 @@
+Answer engine for EMC knowledge via lync
+
+The idea first come up in a discussion in 2012 innovation roadmap. 
+When developping xPlore - a home-grown search engine for enterprise content system, we leverage xDB and Lucene. xDB is a XML database, it stores semi-constructed XML data, but we have not find a perfect way to use the XML features, using XML to store the relationships of different concept and documents will generate 'knowledge', a good model will help to build an answer engine.
+The definition of such phrase are well-documented. We can categorize such documents via IIG's product CIS, and get the answer via IIG's enterprise search engine. The question&answer process can be represented by robot via lync so that people can easily got their answer.
+
+We leverage xDB and Lucene to build xPlore. xDB is a XML database, it stores semi-structured XML data, a perfect way to use the XML features, using XML to store the relationships of different concept and documents will generate 'knowledge', a good model will help to build an answer engine.
+
+Score and result returning: the returned result is an answer, the returned result will be scored by relevance, date, author, etc. It will return only 1 if the score is high, if the score is middle, 2 or 3 answers will be returned, if low confidence, it will direct the question to domain experts.
+
+Advanced: as the data is crawled from all EMC websites and internal resource locations, some information is not accessible to all users, we must set security policy to control information access. xPlore has built-in security mechanism to solve this issue, but need to build the security model. 
+
+

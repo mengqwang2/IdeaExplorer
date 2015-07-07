@@ -1,0 +1,13 @@
+i-Share ( an addition to One EMC portal )
+
+- SAP, this idea is being used in SAP
+- One EMC portal can include one more feature which allows employees to share the information of things like books, movies, games, music and lot more (may be electronic media or printed materials) which they wish to share with other people in organisation ( quid pro duo)
+
+- In-turn the portal (i-Share within One EMC ) will be populated with the information like titles of books with quantity , games etc.
+
+- This portal will have a list of all employees who want to share/avail any facility through "i-share"
+
+- It can design as an online library, with a list of all the available items that the members are ready to share
+
+- Any relevant request can also be posted on "i-share"
+

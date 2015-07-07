@@ -1,0 +1,12 @@
+Information Governance as a Service (IGaaS)
+
+None
+1. Every document stored in the Enterprise cloud is identified and classified via incremental scans. This helps identify valuable and confidential content such as customer/employee data, contracts or Intellectual property
+2. With the supported actionable reporting capability, users can understand and make informed decisions based on file information such as owner, age and resource consumptions
+3. Based on the reports, organizations take action to remove inappropriate content for business (e.g. mp3) that company does not support immediately boosting operational efficiency,  Archive content valuable to business but not current or securing confidential information or IP. This information can be used to create repeatable policies (house keeping policy) to maximize infrastructure investments
+
+Using IGaaS in conjunction with Enterprise sync and Share service provides insightful information on the business value and risk associated with data stored. By actively managing data, organizations can more effectively adhere to governance policies, reduce risk and maximizes the efficiency and utilization of existing infrastructure investments.
+
+Though the use case here is relevant to Enterprise customers using Sync and Share facility who may want to host IGaaS in their own datacenter to meet there unique compliance requirement, the solution can also be hosted by EMC and provide benefits of a true SaaS solution with a pay-as-you-go model.
+
+

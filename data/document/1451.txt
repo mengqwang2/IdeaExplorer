@@ -1,0 +1,14 @@
+Image to Document Tool
+Increase in efficiency and reduce time wasted
+Customers with multiple requests tend to send a screen shot that consolidates all details together. I waste some time to translate details from the screen shot to actual editable/usable text.
+The idea is to have a tool that converts the image of text to an editable text file.
+This will facilitate e-mail communication.
+
+The tool should be able to convert any image to an editable version of a document.
+This can include but not limited to:
+- Text
+- Contact Cards
+- Array Cables and General Images
+- Tables
+- Charts
+This tool will save time and increase efficiency and at the end, decrease CS engineers' TTR

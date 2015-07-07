@@ -1,0 +1,15 @@
+IT Automatic Assist Engine for IT for faster resolution and cost saving
+ The idea suggests a solution for IT help desk to achieve cost & time saving as well as faster incident resolution
+
+ The idea came up from daily life experience with IT help desk + machine learning knowledge 
+ 
+We suggest equipping the IT helpdesk backend with a recommender engine that runs analysis on structured and unstructured data (text) to automate incident resolution by doing the following 
+1-	Take input data 
+2-	Run the engine that will perform text analytics over the problem description and relate it to the best solution
+3-	The system returns back the suggested solution and the relevant KB links..etc
+4-	If any further assistance is needed a 2nd support line (human factor) is available to help
+5-	The engine front end will be integrated to the IT chat and will analyze and recommend solutions in real-time. 
+
+1-	 Save time and money
+2-	Faster problem resolution
+

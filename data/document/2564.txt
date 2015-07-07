@@ -1,0 +1,9 @@
+Mobile Application to Manage EMC Storage
+Purpose of the application is to ease the storage management, and going to 2.5 Platform, we need to start to be ready to manage our Storage Arrays using Mobile Apps; taking into consideration to secure the communication channels.
+If we really looking forward to lead in the 3rd Platform, we need to start from now to build our own Mobile Apps that integrate with our Storage.
+Developing a Mobile Application, that can manage EMC Arrays.
+Unified tool to manage VNX, VMAX, VPLEX and other EMC Arrays through Mobile Application that can work on Android and iOS Systems.
+It will be a Mobile App, that can 
+- show VMAX, VNX and other Arrays alarms
+- Create LUNs from the application, and present them to Hosts
+Through secure communication channels with EMC Arrays

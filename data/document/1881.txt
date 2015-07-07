@@ -1,0 +1,9 @@
+Silent Mode selector Mobile App
+IT Contemporary Workplace Challenge
+
+This App reduces the noise and disturbance during meetings which is generally not accepted by most of them.
+We were part of a group that attended the ideas mining session conducted inhouse. While brainstorming the ideas we came up with this idea.
+If exchange server synced on smart phone. Whenever there is a meeting appointment for the entire time frame this app will put the phone in silent mode.
+Complete App should be developed and make it available for all EMC people.
+This would help each one of especially who forget to put their phone in silent mode.
+This would definitely help everyone including sales team when they are engaged with customer interaction.

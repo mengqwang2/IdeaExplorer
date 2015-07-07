@@ -1,0 +1,31 @@
+SNMP/Monitoring application testing as a service: using vCLoud Automation center and vCenter Orchestrator
+This ideas provides solution which addresses the below area
+      - Improve Total Customer Experience
+      - Improve product time to market
+      - It uses the EMC hybrid cloud solution suite 
+
+
+This idea came during interaction with one of the customer in POC stage for Avamar and there was an requirement to test SNMP(NIMSOFT) against our product. We did not have any tool and Customer was mentioning that testing a SNMP application against a product is a very basic requirement.
+
+So this idea came to solve that problem 
+A SNMP/monitoring application as a service can be provided using the vCLoud Automation center and below is the broad idea 
+
+1.	Frontend UI with nodejs ( with options for the user to enter his requirements)
+a.	What SNMP tool he wants ( a dropdown box will be there)
+b.	Email address to provide the VM details
+2.	On a backend ESX, a Linux VM will be hosted which will deploy the respective VM with the SNMP application built into it.
+3.	Initially list of OVA should be made available for different SNMP applications. These OVA’s will be deployed using vCloud Automation center, so that it is easy for the EOS. Details about how vCLoud automation center used is explained in a separate section below 
+4.	In future the docker option can be tried where the deployment time is very less compared to VMs
+
+Detailed description is explained in the attached doc 
+
+https://inside.emc.com/docs/DOC-154648
+
+Benefits 
+1- Improve Customer experience - If a customer issue arises in SNMP/monitoring applications reproducing will take a lot lesser time 
+2. Cost savings - If the license for a SNMP vendor is procured once the same can be used across different products. ( it works on cloud model)
+
+Criteria of Success:
+After the service is rolled out, the Product teams/Support team should start using it 
+In the initial period the number of requests from them should be atleast 20 per month
+

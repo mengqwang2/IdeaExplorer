@@ -1,0 +1,6 @@
+Using Autoit for repetitive tasks 
+N/A
+I am in charge of the power product dispositions in MRB and there are sometimes 50 to 100 units that need to be dispo'd.  It was taking up to 2 or 3 hours to get through them all.  I did some research and found this automation tool is the easiest to understand for windows based automation.
+
+Autoit is a freeware BASIC-like scripting language designed for automating the Windows GUI and general scripting.  This tool can mimic keystrokes and mouse movements which allows for automating the repetitive PC tasks.  This program allows the user to record a task and turn it into a BASIC-like script.  From the script, the user can create an executable for performing the task or tasks.  The language is relatively easy to learn with the right training, if the user has basic programming knowledge, this program will be very easy to understand.  If there is no knowledge of programming, it may take slightly longer to understand however the help videos show the user how to create the recordings and decode the scripts.
+Ideally, if this is implemented, EMC would provide training or links to training for the use of the tool.  This would benefit the company by allowing employees to multitask and increase productivity.

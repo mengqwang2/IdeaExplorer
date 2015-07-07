@@ -1,0 +1,7 @@
+Let’s Package the Cloud Service
+Customer Service
+During Sales calls for Cloud service, I have experienced that customer hesitate in buying high pricing solution especially for manpower and time required for setting up the cloud infrastructure. As a result of same, we tend to loose deals.
+The base infrastructure (Microsoft solution) required to build cloud solution can be packaged using PowerShell scripting. PowerShell will enable deploying complete solution including installation of various applications like Hyper-V, SCCM, Exchange, AD, SQL, Azure etc…and configurations as per customer need.
+In today’s world Microsoft applications are fully based on PowerShell scripting. So any infrastructure which has Microsoft flavor can be managed easily using PowerShell.
+
+NA

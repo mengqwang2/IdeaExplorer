@@ -1,0 +1,5 @@
+Whitebox testing should be part of QA in EMC.
+
+At present QA is not part of Whitebox testing, only dev does that.
+To make whitebox testing part of QA, QA should have code base access and should have knowledge of coding.
+

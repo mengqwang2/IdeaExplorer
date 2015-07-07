@@ -1,0 +1,14 @@
+Content Fingerprint Prioritization
+Increase the efficiency of the array by ranking data blocks/content based on their usage
+The idea occurred to me while going through some materials regarding XDP
+Depending on how often a data block is used (or requested by a host), we could introduce a ranking mechanism for all data blocks in the array and determine which data blocks are more important and should be given preference to, say during a disk failure.  
+
+A mechanism similar to the reference count - used for dedupe tracking, can be associated with a fingerprint representing a data block. And every time that data block is accessed, the count is incremented by one. This value is then compared with other data blocks and a ranking is generated. The ranking is used to assign priority from most used data blocks to least used.
+
+Couple of use cases are listed below:
+During drive failures, in addition to already existing feature of XDP - which uses both row and diagonal parity to accelerate the rebuild process, Content Fingerprint prioritization can be used to determine which data blocks are more important and needs to be moved/rebuilt quickly on surviving disks.
+
+Decisions can be made on what data blocks can reside on cache and for how long based on this prioritization
+During drive failures, in addition to already existing feature of XDP - which uses both row and diagonal parity to accelerate the rebuild process, Content Fingerprint prioritization can be used to determine which data blocks are more important and needs to be moved/rebuilt quickly on surviving disks.
+
+Decisions can be made on what data blocks can reside on cache and for how long based on this prioritization

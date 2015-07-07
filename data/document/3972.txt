@@ -1,0 +1,6 @@
+A.S.K. (Area for Seeking Knowledge)
+
+Got stuck trying to figure out a problem I was seeing with firmware only to find out this was an issue that another group had encountered and fixed previously. No development has been completed on this idea. It is just a concept to date.
+Like a “boards” forum people can put forward questions/queries that they’re looking for help with.
+On a similar note, specific areas could release an update of new developments or new issues encountered like a Message of the Week that employees could sign up to if they wanted to receive these updates.
+

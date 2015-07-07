@@ -1,0 +1,5 @@
+Single Sign-ON for all the EMC Application 
+na
+I come across this every now and then when I get issue with the application and this is some times a great challenge because we might be in middle of some busy work 
+in current scenario we will have to change the password for each application separately  whenever it gets expired and some times it may be in the middle of the day which might be very unlike situation , and we will have to contact its own support to get that worked , for example if the NGCC password expired we need to get in touch with the IT help desk and in turn they contact NGCC help desk to get the password reset or what ever the issue is which will take lot of time and involves a long way to get the issue resolved which will not be the case if we have IT itself can fix any application issue .
+na

@@ -1,0 +1,6 @@
+Multiple SR resolution tab
+
+As I am from chat support, we usually come accross several customer requesting for update on SR's that are already opened and with different team.
+Few being worked, few with out reponse. And to avaoid this scenerio I always wanted a option of a multiple SR resolution tab be created in the Moxie which will directly alert the MOD to get a engineer from the concerned team contact the customer.
+There should be a tab implemeted were if the customer comes up with a chat requesting an update on the a SR which is already being worked with a different team or next level of support, we have a tab created in the moxie where the SR number can be entered and that can send out the MOD to take approprite action.
+

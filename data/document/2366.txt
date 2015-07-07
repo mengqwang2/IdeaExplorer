@@ -1,0 +1,5 @@
+Weights & Dimensions provided through the R3 quotation tool
+My idea helps to make GPO/EMC’s supply chain operations more efficient and effective by providing approximations of shipping dimensions and weights to the customer at the time the quote is submitted.
+I had previously created a dims & weights matrix which can be accessed from the Ireland COE homepage. The process of keeping this matrix up to date is also a very manual procedure & it is limited to Cork sourced material. 
+A database to be created that feeds into the R3 quotation system. Once the quote is submitted it will provide a summary approximation of the dims/weights related to the quote from all vendors (plant & GEM sourced) 
+This would improve customer satisfaction as they are supplied with approximations of shipping dimensions and weights. This would also reduce the amount of queries received by PSC & ICO for this information increasing productivity within these departments.  

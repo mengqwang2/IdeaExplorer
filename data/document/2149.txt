@@ -1,0 +1,30 @@
+Cost-efficient Storage Federation Enabled by ViPR Controller
+ViPR Controller is an open source software-defined storage control plane able to manage storage systems from heterogeneous vendors. We propose a storage solution to integrate with popular open source storage systems and continuously increase EMC open source influence.
+CTO Office has been long term investigating the possibility of software defined storage and open source. There are ongoing efforts to leverage Openstack, Cinder, ScaleIO and other solutions to improve EMC influence to open source ecosystem. ViPR and ViPR Controller have always been one of the most eye-catching products. We compare these products and existing open source ones, such as Ceph, to find out future market opportunities and potential customer needs.
+ViPR Controller is designed to integrate with multi-vendor storage solutions and provide an unified control plane. Since most EMC products are already well-integrated with ViPR, the first step of our solution is to provide drivers for popular open source storage systems such as Ceph. The block level interface and filesystem level interface shares the most features. So we can implement the driver by mapping them. More advanced management and automation features in ViPR can be supported step by step in those drivers.
+
+When more than one storage systems are integrated together under ViPR, and serve as one unified platform, we call it a federation.
+
+Next we need a data placement scheduler to support the cost efficiency. When a new piece of data comes, the scheduler needs to choose an underlying storage system to host it. ViPR Controller may need to be extended to keep track of which data is placed on what. The schedulers decides the data placement by considering 1) the reliability and performance needed by data 2) how expensive it is to host the data on given storage system. Proprietary ones may be more reliable, performant but expensive, open source ones can be cheaper but need to avoid business critical data. There are many existing mature schedule implementation where we can reference.
+
+Data migrate is needed to support data mobility. The basic approach to implement this is to first replicate data from source to destination. When the two are very close, freeze the source one for a very small duration and switch to destination. ViPR Controller may need to be extended to keep track of current migrating. Data migration won’t be needed too often, since which data is business critical and which not is usually fixed for long time.
+
+What’s more, a good idea is to integrate our ViPR Controller with Cinder. Even though Cinder supports multi-backend, but by hosting multiple storage systems under our ViPR Controller, we can
+
+    1) Provide the cost-efficiency for these storages.
+
+    2) Provide the advanced managed feature enabled by ViPR.
+
+
+The solution should be able to federate with all EMC storage products and support major open source solutions.
+
+    1) It provides a free range of choice of licensing fee, from expensive pure proprietary to zero-licensing-fee pure open source. Upon all the choices, a unified management & operating experience is provided, and the whole solution keeps “EMC Friendly”.
+
+    2) Cost is efficiently cut down by smart data placement between expensive proprietary storages and cheaper open source ones. Data mobility between the two is guaranteed.
+
+    3) Be able to integrate into Cinder and provide differentiators.
+
+    4) Hug with open source and software defined solutions. Continuously improve EMC influence in the open source ecosystem
+
+    5)  Reveal the possibility that ViPR Controller become the de-facto open source storage control plane standard.
+

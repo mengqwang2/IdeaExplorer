@@ -1,0 +1,13 @@
+Traffic Prediction app
+
+This idea does not only tackle the idea of using the IoT in smart cities, but it specifically addresses using the IoT in solving issues for the COE's own country.
+
+This idea started with the simple idea of monitoring the roads and see which are crowded and when to be able to create solutions. But then it expanded to using big data for predicting traffic in roads so that they can be avoided.
+
+Not like all available traffic applications in the market at the moment , this app will also use big data analytics to predict the traffic at the time the user requires and here is how.
+This app like some apps in the market will use users' shared data to report traffic on the roads.
+The difference is that this app will then store this information with a time stamp, and then using big data analytics will be able to identify which roads are busiest at which time of the day. It will even take into consideration weekends and holidays when for example travel roads are the busiest.
+We don't even have to implement a new app, we can contact the most popular on in the market and add this new feature to it that will set it apart from all other traffic monitoring apps.
+
+This idea will greatly benefit Egypt's traffic which will allow us to save a lot of money on gas that is wasted standing still. Moreover will make people arrive to work earlier without loosing their days in traffic which will allow  them to be more productive in traffic.
+

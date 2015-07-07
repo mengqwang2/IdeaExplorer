@@ -1,0 +1,18 @@
+Public document management service based on ECD SaaS platform and syncplicity
+To match APJ COE "Solutions Platform" Challenge, the idea is to leverage ECD's content management platform to build hybrid content management and collaboration service for individual customers. A quick example is that customers can manage personal docs and business docs together with strict access control provided by ECD platform, and be able to utilize ECD platform's features like sync/sharing, content transformation and so on. For charge, it can be measured by size of content or features acquired.
+We were working on ECD SaaS and thought ECD did provide very advanced content management features. Considering public customers own more and more data in person, why not take the advantage of ECD content management technology? That is why we start to fill in this idea with a brief instruction, and we believe we can promote this with more details.
+ECD Syncplicity is a file share/sync tool which can sync up users' files online between different devices.
+ECD NGIS is a SaaS platform to offer capability of enterprise content management. Based on that, we can build applications as specific service provider for public. About the possible applications, we can think of following features:
+- Content backup/restore
+- Content fast access
+- Collaboration on content
+- Workflow on content
+- Content retention and archive
+- Media transformation
+- Full-text search
+- Online doc view
+- Content access control
+For each feature, we can build application based on NGIS. And it could be chosen by public customer as their content service.
+So now the solution becomes Syncplicity as front-end and content services as back-end. Let's say the user put a document onto Syncplicity. The document can apply a number of content services. For example, user can create different rendition(media type) for this document, or create index for the content for full-text search if need, or acquire fast access that requires the content to be synced into a different geographic server, so that the user can download/view in the business traveling more quickly, or attach a retention policy to tell if the content needs to be cleaned at some time or be archived at some time. Anyway, customers will go to a new times to manage their documents, not just put them on their local disk, but also make them managed through our SaaS service(Syncplicity SaaS and Content Management SaaS).
+The main benefit will come with Syncplicity as Sycnplicity will be the public interface to customer. So Syncplicity will be promoted with enhanced capability to beat other online content sync/share service providers. The charge can be calculated according to the content size and features to be applied.
+Also, it will enhance reputation and influence of our company.

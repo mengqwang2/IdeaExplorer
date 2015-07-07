@@ -1,0 +1,6 @@
+Provide costumers the data destroy service
+Our customers might don't know how to handle their obsoleted hard disks well, some the 'deleted' files may not really destroyed in disk, which is risky for the business secrets.
+
+Data can be recovered easily, which is very risky for the owners, especially for the customers who run business. help our customers to keep from that risk is one of our new responsibilities.
+EMC could create a new business to help customers to handle the obsoleted/broken disks(file shredding even disks recycle).  
+EMC has huge number of customers, even some of them accept our service, which could be a new growth point to the profit.

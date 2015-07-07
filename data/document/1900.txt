@@ -1,0 +1,31 @@
+An application that enables hotels/restaurants to offer/prepare food based on the customer/consumer health condition.
+Egypt COE Smart City and IoT Challenge: - Customer Experience, Customer health care.
+Enterprise Content Division (ECD) Challenge: - Customer Experience.
+Global Solutions Challenge: - Customer impact.
+
+The idea came to mind when having dinner with one of the friend and he wasn’t sure what to eat and what not to as she was suffering from the cholesterol problem.
+In order to solve all of the above issues we would like to propose to build an app that would allow the hotels / restaurant’s to access all the health information of the customer that gets in and allow the hotel/ restaurant’s to prepare/ offer food based on the customer health condition which is relevant for his/her health. With the implementation of this application:-
+      
+1.Allows Hotels/restaurant’s to give best in service customer experience since the food offer or prepared is based on their health condition.
+
+2.There is lot of times when after eating outside, customer gets ill since he/she is not aware that the food they have eaten is relevant to their health. This app will enable hotel / restaurants / customer to avoid this type of condition. 
+
+3.This app will let the customer to be free of mind about their health when having food outside.
+
+In terms of implementation of the application:- 
+
+1.Data of the customer can be gathered from the hospitals based on the customer visits.
+
+2.The uniqueness of the information/data can be measured based the Ssn/Adhaar Card of the customer.
+
+3.In other ways a customer also can upload his/her health information to the application.
+
+4.By using the content management, big data/ predictive analysis application gives an idea or the details information about the ingredients which is good for the customer.
+
+5.Once the information is available application formulates the food offering to the customer and the hotel /restaurants suggest the same to the customer. 
+
+If the proposed idea gets fully implemented, then main benefits that an organization would get is 
+
+1.Improved customer satisfaction
+2.Make money
+

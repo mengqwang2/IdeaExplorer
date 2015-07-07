@@ -1,0 +1,9 @@
+Queue Management
+Change in SQC EMEA Queue Management
+Experienced too much load of work, complicated requests and time consuming when trying to get information from SE's. This will help balance out the workload and the equality between straight-forward and complicated requests.
+My solution is to merge the queues together so that everyone will get a fair share of open requests.
+It will be successful when:
+1- Requests are treated FIFO: First in first out
+2- Everyone will work on all available regions
+3- Requests will be distributed evenly between team members
+4- More learning opportunities for all team members

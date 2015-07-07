@@ -1,0 +1,5 @@
+Bupa mobile application for claiming
+
+I had an incedient where I went to the hospital and didnt claim the money till now due to the time constrain and work load.
+We need a mobile application for smart phones where we could simply upload pictures containing the needed data (hospital/medical/financial stuff…etc) and they would be  directly submitted to bupa after which the money  claiming process would commence thus saving us the hassle  of copying  data onto long forms  online. This could also potentially assist in developing the employees mind set to move with the company from the 2nd platform to the 3rd platform.
+

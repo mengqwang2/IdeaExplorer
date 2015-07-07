@@ -1,0 +1,5 @@
+Active \ Active VNX Pooled LUNS
+
+Customers asking for active active storage uptime and avail. during upgrades, maint and migrations = NDU
+Add support for Active\Active failover for Pooled thick and thin LUN's and NAS file systems on VNX platforms
+

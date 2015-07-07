@@ -1,0 +1,22 @@
+Social Listening Team (with the help of social listening tools)
+TCE Challenge – The solution finds a way to provide better customer experience through pull mode in B2B market.
+E2E Horizon – The solution is purely customer-centric process to provide better TCE, and helps in improving revenues significantly.
+Russia COE Open Source Challenge - The solution focuses on improving IT experience and productivity. It also helps in closely watching changes in open source software and taking actions related to that.
+This is our own idea. We got to know about social analytical tools in Quora.com. 
+The tools I have come across are : Google alerts, Trackur.com, Socialmention.com, yext.com etc
+We have used one of the tools. It is really amazing. It crawls through entire web and brings the relevant results instantly. It also lets us manage the search results. The report is also being updated for every new results.
+
+A variety of tools are available that help in “social listening,” or gathering conversations on any platform about a brand. These tools help in tracking anything, anytime and anywhere on the web. Some of the tools I have come across are: Google alerts, Trackur.com, Socialmention.com, yext.com etc. But how do we do it ‘actively’? Time plays a very important role in handling complaints on the web, as negative comments spread rapidly.  Social listening requires dedicated resources to monitor and respond to feedback.That’s why, we need a dedicated "SOCIAL LISTENING TEAM"!!
+
+
+The objectives of the team are as follows:
+# Actively monitor any news about EMC and its products on the web. The Social listening team, with the help of analytical tools, has to look up for any customer concerns or insights (related to EMC products and solutions) floating around in the web. They have to pass it along to the concerned team, be it concerns or valuable insights.
+
+#In this era of focused open source environments, it is imperative to keep track any changes or disruption in open source softwares which could impact EMC products and solutions. So it is very essential to closely monitor the open source environments.
+
+#The added advantage is that while listening to EMC and its related products, we can also closely watch our competitors and get to know about their weak spots. With the help of social listening tools, We can really understand where our competitors lack, and where their customers are not satisfied. We can bring such insights to our company and help in attaining new potential customers. This can lead to higher market share and significant revenue opportunity.
+# Gain valuable customer insights, tackle any negative feedback from all kind of platforms ASAP.
+# Simple and scalable process.
+# Helps in attaining valuable information about competitors and thereby opportunity to find potential customers.
+# Higher market share and thereby significant revenue opportunity.
+# Reduces latency time; Improves IT experience and productivity in open source environment.

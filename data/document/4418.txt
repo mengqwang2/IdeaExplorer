@@ -1,0 +1,17 @@
+Don't Recode - Reuse - Networking/ Social Media using Big Data  for growing stronger communities in various platforms.
+
+I have faced lots of the above stated problem in Oracle and Shell Scripting. My colleague who is sitting next to me had faced similar problem and had got a solution, which I was not knowing many times. I had to reinvent from scratch. He would have told me, but when it is not important to me, I would not pay attention to it. On the other hand, if he would have posted to a portal, it is easier to find out.
+A library portal for various platforms such as .net,C, Java, Shell Scripting, Perl Scripting. One can subscribe to any area just like one.emc.com. There can be sub areas like for instance in C, structures, pointers etc. Some commonly used code could be shared here. People should be encouraged to use functions during coding and develop them as libraries such as object files in C and post it in our  'library collections store'. Whoever joining the community should all be encouraged and motivated to develop functions and post it in our 'library collections store'. 
+
+This is just not a portal, but a community  within EMC and it should grow stronger. We need to have conferences from various interest groups  that could be streamed live on this portal or external portals like Google Hangouts. Within a Single COE, a lunch/dinner for that community could be sponsered by COE. Once that 'Gap / isolation' between professionals working on similar technology vanishes, we have a strong 'distributed' resources working across different teams, but helping in solving problem  similar problems. 10 thinking heads better than single one. Big Data would help us out in identifying 'similar problems'.
+
+Portal would also link to education.emc.com and get feeds on any trainings on that specific area is scheduled and posts it as an ad. For instance, if I am subscribed to Java community, and if I am working in Bangalore, I would get 'ads' on the training. Also, I would get email notification. All these things should be user customizable such as the location preferance for a training / conference.
+
+One can post his/her question just like any external site, this would send email notifications to subscribers. Anyone who knows the solution, could answer directly.Portal would suggest who has worked on such problems, and also any similar problems/solutions with 'ad rotators'. This would also suggest libraries in our 'library collections store' and functions. Also related trainings in EMC University could also be posted as 'ads'.
+
+Those who are not subscribed to the community could also post their questions, such as a Java programmer having an Oracle related question can post in Oracle community.
+
+Since this is one organization, if a major problem occurs in a particular area, and it is urgent, person who had similar problem could be requested to work with the person who is struggling with that. This is not possible across internet due to organizational restrictions. Other advantage is, any specific technology that is specialized within EMC, we would not get any help in Internet. My own case is Greenplum for which there is very little user community.
+
+There would also be a search on this portal and a news feed.We can improve the existing one.emc.com or start something fresh.
+

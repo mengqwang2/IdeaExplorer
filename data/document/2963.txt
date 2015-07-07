@@ -1,0 +1,12 @@
+Qualification Portal
+Most of the Product are developed are installed on one or other OS platforms, Customer use this product according to the environment available in the Datacenter based on OS usability and availability, Usually Customer prefer the Product which are Qualifie
+I have been and also the team have been involved in Qualifying the product with various OS. 
+Solution:
+There should be Single OS Portal or Qualification where it should have all the information about the OS releases and Product Qualified Status.
+How it works:
+Coming with Portal which has OS detail with release date and version available in the Market and it will be great if we provide the common OS repository for downloading the OS. Either Product Manager or concern person should fill the portal with this information by connecting the respective areas.
+Example: There should be one person who gets all the OS released in that year and periodically updated the portal about the availability of the OS, release date, repository site/link site detail etc. With each this OS there should be associated CTD product status showing status whether it is Qualified or not. All the Product Owners/Product Manager should be notified with availability of this OS automatically once information is entered and in turn the all the product in CTD should be responsible for the Qualification in specific period (this can be decided on based on each product time taken for Qualification) and this product should be updated as when the Qualification is completed. 
+
+less time in Qualification process
+easy to track the Qualification
+

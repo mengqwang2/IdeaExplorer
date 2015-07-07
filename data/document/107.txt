@@ -1,0 +1,10 @@
+Knowledge based bug automatic filing for BATS/PATS
+  Solution that can reduce repetitive and dull analysis work for frequently happend issues
+  1. branch team generally groups all issues into 4 quadrants
+  2. but user needs to analysis failure reason for each failure
+  3. if some ordinary failure can be identified, then it can be tracked automatically
+  1. compose a knowledge system, classify issues into types
+  2. for each type, compose a bug template
+  3. identify bug during runtime based on knowledge ssytem
+  4. file bug according to system and send it to related owner
+  Track issue automatically, avoid repetitive analysis

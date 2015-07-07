@@ -1,0 +1,16 @@
+Duplicate alerts DH reduction
+An increase in efficiency based on Dial Homes reduction
+There was a Dial Home reduction initiative within the Isilon team, and as per the initial analysis, the alerts pointed out in the idea were generating almost 40% Duplicate SRs.
+
+I am still awaiting the team's analysis in regards to cost/benefit of implementing my recommendation in consolidating the alerts.
+Removing duplicate alerts and consolidating them in Dial Home SR creation will reduce the amount of dial homes triggered and will increase the efficiency in time & resources for the Vic/Web & the lower amount of Dialhome SRs.
+
+An example for the Isilon product, all of the below alert can be consolidated into an alert "Unhealthy boot disks (ad4), mirror is degraded" as in all of these alerts, the resolution would be to replace the boot drive. Whenever one of the below alerts raises a Dial Home SR, a duplicate SR is raised for the alert "Unhealthy boot disks (ad4), mirror is degraded", thus duplicating the time and effort of a TSE.
+
+Device var0, provider ad4p6 disconnected. Boot mirror is critical.
+Device var1, provider ad4p7 disconnected. Boot mirror is critical.
+Device root0, provider ad4p4 disconnected. Boot mirror is critical.
+Device root1, provider ad4p5 disconnected. Boot mirror is critical.
+Device mfg, provider ad4p10 disconnected. Boot mirror is critical.
+The idea would be counted successful if it reduces the amount of Dial Home SRs generated.
+The benefit from it would be the efficiency in utilizing resources that are already available

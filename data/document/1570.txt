@@ -1,0 +1,16 @@
+Embracing SystemTap for Linux Platforms
+SystemTap is a tracing programming language designed to provide the infrastructure for diagnosing/tracing a running Linux kernel and produce a detailed report of its status. This can enable system administrators and developers to write efficient scripts to identify where performance issues and/or bugs are caused. Prior to SystemTap, profiling a running Linux kernel was a long process consisting of adding very long instruments to the kernel, recompiling the whole kernel to generate a new kernel image with the custom monitoring instruction, then rebooting the Linux system to this kernel.
+Our approach will be adding scripts as we show in the attached example to troubleshoot issues with Networker on linux. This will enable us to perform faster on resolving mission critical issues with the OS space. Netwoker on linux as a real example here. The approach will help in Data loss and OS critical events. Next phase will consider Data Domain and Avamar products.
+
+
+While discussing the File System issues with Khaled, he told me that there is a new approach on research that can be used with DD to solve faster the issues with Data Domain and any Linux based systems. We thought about adding our finger print to tackle the mission critical issues with the current solutions involving the engineering to take the idea to the next step to broaden its usage on the rest of EMC portfolio  
+
+We customized some scripts for mission critical events within EMC products "based on Linux" 
+
+Here is a description 
+
+Each time you run a SystemTap script, a SystemTap session is started on a Linux based solution "Data Domain, and Networker on Linux as an example". A number of passes are one on the script before it is allowed to run, at which point the script is compiled into a kernel module and loaded. In case the script has already been executed before and no changes regarding any components have occurred (for example, regarding compiler version, kernel version, library path, script contents), SystemTap does not compile the script again, but uses the *.c and *.ko data stored in the SystemTap cache (~/.systemtap). The module is unloaded when the tap has finished running. For an example, see the test run in Section “Installation and Setup” and the respective explanation from the supporting document attached.
+
+https://inside.emc.com/docs/DOC-155562
+- Leverage the knowledge for resolving complicated issues with a sophisticated product like Data Domain with the cutting edge technologies.
+- Help the engineering teams to react on the reported bugs proactively in a fast way.

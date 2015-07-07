@@ -1,0 +1,29 @@
+File SLO/SLA recommendation through block SLO/SLA adherence.
+
+We are working on formulating a performance matrix to calculate total performance /workload of the file system. 
+1. To recommend a SLO/SLA/workload for a file system we would like take into account parameters like performance at block level, backend latency, CPU latency of the server, memory latency other than storage level performance which is achieved.
+f(x))= g(x)+h(x)+i(x)+j(x)
+where f(x) is the total performance / workload
+g(x) is the block level performance
+h(x) is the backend latency 
+i(x) is the cpu latency 
+j(x) is the memory latency 
+2. In addition to this, we would measure the actual file system performance including response time, number of IOPS etc using file system performance measurement tools.
+3. From step 1 and 2, we would conclude on the SLO/SLA recommendation for a specific file system.
+4. If a user sets a dynamic mode option, then the algorithm would try and set the SLO/SLA depending on the file system usage.
+
+
+To give you some insights into how this can help a product like VNX, I have provided an crude algorithm to recommend SLO/SLA/workload for a specific file system.
+1. Monitor the user file system performance. Command like server_stats gives useful information related to file system and volumes. 
+2. This information is readily available and can be used while doing performance measurements for a file system. 
+3. Such information can be analyzed to recommend an optimal SLO/ workload for a file system. 
+4. In addition to this, a user can be given an option to set this to dynamic mode. This way we can increase the total customer experience.
+In dynamic mode, system will change the SLO on its own keeping the below mentioned parameters:
+   a.Current performance level of the file system
+   b.Performance of the file system over
+        i.That specific time of the day over last week
+       ii.That specifc time of the day over month
+
+
+  
+

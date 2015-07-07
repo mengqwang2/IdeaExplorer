@@ -1,0 +1,6 @@
+Lab infrastructure online mgmt. system for daily operations.
+An Internal process improvement in our labs to create efficiencies and greater use of resources in order to streamline the delivery of solutions - including Bog DATA and Analytic Solutions.
+internal team brainstorming.
+Pain points during Project planning.
+A system in place to manage and visualize our lab resources, capacity available, booking of resources, projects and resources in use with clear dates, Server pool and IP management. 
+Process improvement with in our labs to create efficiencies and greater use of resources in order to streamline the daily operations and use of resources for clearer visibility of infrastructures and speedier commitments and delivery of solutions.

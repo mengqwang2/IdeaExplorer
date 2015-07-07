@@ -1,0 +1,8 @@
+Pre-fabricated Analytical Service for ViPR controller
+This Idea is a solution built for ViPR Managed Software Defined Data Center Assets
+Idea came through during design discussions for ViPR implementations for one of the enterprise customers. We are working on the PoC and implementation opportunities.
+Proposed ecosystem solution comprises of package which is contained in a single VM/docker container prefabricated with Analytical components. This  implements machine learning algorithms like SVM (Support Vector Machine ) , Regression Tree and BP Neural Network .All the infrastructure logs for ViPR managed  assets ( storage arrays / host ,network switches and other components) will be ingested from different Log Management systems like EMC SMARTS, ViPR SRM ,Hyperic, Log Insight etc. The object store for this system is open stack swift provisioned. Analytical VM is capable of doing in-memory analytics with capability to do complex event processing with Apache Strom / Esper CEP. This pluggable VM will be integrated with ViPR data service VMs via Micro Services. Depending on the event correlations alerts indicating failure predictions, admin actions needed and suggestions will be available through D3 Dashboards and Mobile. Also value added services like self-healing and Knowledge base will be included.
+This is plug and play component which can be used in green field and brownfield implementations
+Uses all open source tools which will be zero cost for customers
+complete analytical solution in a box and gets integrated with ViPR service
+this will be fault predictive intelligent system for ViPR controller which effectively delivers data services.

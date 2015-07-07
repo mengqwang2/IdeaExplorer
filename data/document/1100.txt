@@ -1,0 +1,9 @@
+Street Lanes Tracker
+1) It helps Egypt be a smart and an organized city in traffic.
+2) It could be a global solution to all countries who suffer from chaos traffic
+I have been driving in Egypt for more than 10 years and really disappointed that the majority  of people till now do not drive within the lanes and I was always thinking of a solution for that.
+The solution is that we apply sensors in the lane lines, it could also be attached to the cat eyes. These sensors will do 3 things:
+1) They will sense the cars that are driving over the lane line for more than 10 -15 seconds and they will start sending signals to the car, that it is doing so. The car will then do a sound/ beep like an alarm so that the driver takes care that he is not driving in his own lane and it will only stop when the driver starts driving in his own lane.
+2) The second thing that these sensors will do is that whenever they beep for a car violation, this information including the car number and type (which will be detected by the sensors using the data base) will be sent to the police. For example if a car keeps driving over the lane several times per day, this could be an indication that the driver might be sleepy or drunk, so the police gets notified and can take actions upon that.
+3) Also these information could be gathered to a data base and according to each time the driver fails to drive within the lanes the car driver (which can also be detected via sensors) get negative points. He keeps collecting these negative points and there could be a limit, if he reaches it, his driving licensed could be taken from him, or another possibility is that when it is expired he will be unable to renew it due to his negative points. 
+I would call success when I see my idea is applied and can do a real change in traffic.

@@ -1,0 +1,8 @@
+Redefine - Information Systems Implementation as service
+
+I used to work in ERP Service provider in the Past , and it was a dream to have such model , but current cloud Tech. may help in brining this to real 
+The traditional view of current cloud computing is broken into three separate layers:
+•SaaS (Software as a Service)
+•PaaS (Platform as a Service)
+•IaaS (Infrastructure as a Service)Not all implementations of ERP use all three of these layers. Depending upon when their solution was architected, ERP vendors may not conform to this latest version of the cloud. There are several emerging ERP offerings that do adhere to this structure, however.It is important to look at the PaaS supporting a SaaS offering. A good PaaS will help support the following features:•Application design and development•Bug and enhancement tracking•Database support•Security•Versioning•Customization
+

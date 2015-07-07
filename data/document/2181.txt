@@ -1,0 +1,48 @@
+Redis disk cache integration with EMC ExtremeIO using open source FLOCKER API
+Involves open source and EMC product integration with a great impact on the Pivotal cloud foundry product road map. 
+
+Uses Open source and EMC products across PCF, DOCKER, FLOCKER API and EXTREME IO for a greater benifit, which is prerequisite for the challenges tagged.
+
+
+Ideation sessions
+Context
+----------
+Redis is a disk backed, in memory database. The right way to use Redis is almost always to have enough RAM 
+
+to fit all the data in memory. Still there are scenarios where this is not possible and In order to 
+
+transfer data from memory to disk, Redis uses a swap file. In many configurations the swap file can be 
+
+fairly large, amounting to 40GB or more.The data volume for hosting this file need to scale, perform and 
+
+move along with container
+
+Solution:
+----------
+1>Each container(Docker or PCF DEA) running the  REDIS instance is bound to a EMC ExtremeIO DATA VOLUME 
+
+using  open source flocker AGENTS and  API.
+
+https://github.com/emccorp/xtremio-flocker-driver
+https://docs.clusterhq.com/en/1.0.1/introduction/index.html
+
+2> We use this data volume to store the disk cache for REDIS, ensures optimal memory CRUD performance.
+
+3>With the Flocker API or CLI you can:
+
+    Deploy a multi-container application to multiple hosts
+    Move containers between hosts
+    Attach and detach data volumes from containers as they change hosts
+    Migrate local data volumes between servers 
+
+
+Note:
+A Flocker volume, called a dataset, is portable, and can be used with any container no matter where that 
+
+container is running in your cluster.
+
+
+
+Can impact any application that uses in memory cache with a  disk cache over flow.
+Could be a great addition to Pivotal eco system.
+Great use case for EMC EXTREME IO.

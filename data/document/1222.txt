@@ -1,0 +1,10 @@
+Vi(PR)PLEX : ViPR embedded with VPLEX for LUN Aggregation across Physical Storage Arrays
+This idea aims at improvising the capabilities of ViPR by working in conjunction with VPLEX to offer a robust Software Define Storage
+This came up during our brainstorming session on the research for ViPR’s current capabilities & limitations.
+With ViPR controller embedded on a VPLEX, the LUN aggregation across Physical Storage Arrays can be made possible. VPLEX being in the Data Path, will help ViPR abstract both Control & Data Path Layer.
+This will allow ViPR not only manage multiple arrays through a single interface but also make the efficient use of Storage Resources. This will also help in LUN aggregation across multiple arrays and thereby improving the capacity utilization.
+This can be the next Roadmap item for ViPR because this makes ViPR a robust product for Software Defined Storage
+
+1. This will make ViPR a truly Software Defined Storage product & helps extend EMC’s lead in this space
+2. Abstracting the Data path layer will help efficient use of Storage Space through LUN aggregation across multiple arrays
+

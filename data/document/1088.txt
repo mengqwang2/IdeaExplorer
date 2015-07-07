@@ -1,0 +1,7 @@
+Driver's automatic Test
+This idea is a global solution. It could be applied everywhere and it is also done using smart technology so it is applicable to both challenges. 
+There are a lot of accidents that happened in front of me due to the above reasons and I really want to stop this. I can be part of this accident one day due to someone that is drunk or on drugs.
+The solution is that every car is equipped with a sensor that detects its driver once he sits on the driver seat and starts driving the car. It will detect then everything about this driver, whether he is physically able to drive the car and whether he is on drugs or not and whether he is drunk or not. The sensor keeps sensing these information every while. These information could be sent to the police so that in case of drugs or being drunk the police should stop the driver from driving.
+in case of sleeping or fainting, the sensors could slowly stop the car to the side of the street (which has to be sensed as well via other sensors that detect the location) and they can call the ambulance and the police directly, since the driver won't be able to do that by himself.
+All these information could be gathered, so that each person has his own file. We can then know if this person is always drunk, or always sleepy or has a chronic disease that does not allow him to drive anymore. And further actions could be taken accordingly.
+I can see success, when this method is applied and causes a huge effect on the number of accidents not only in Egypt but worldwide.

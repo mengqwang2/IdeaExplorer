@@ -1,0 +1,5 @@
+WebClient: Add Rescan & Index user interfaces
+The new Web Client has been offered to customers to scan documents, which was positively received by customers. At the same time, during image processing, there are important steps for rescanning the documents and manual indexing of documents. The absence of a similar Web client to rescan documents brings customers into confusion, as this leads to the need to use Web client to scan and old rescan the old client.  Also, customers are interested in, whether web client for document indexing provided for indexing documents
+Idea was born during Captiva specialization SE's bootcamp. 
+The idea is to extend web client by adding rescan & index functionality. it may be one web application with all functions (scan rescan index), or 3 separated as it was before in old clients. It'll make customers happy and help us with sales.
+Direct impact on sales. It will improve customer satisfaction. 

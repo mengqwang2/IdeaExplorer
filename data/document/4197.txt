@@ -1,0 +1,5 @@
+Automating Escalation callout procedure
+
+Every time we have a Sev1 issue in our environment we need to call up approximately 10 users and inform them about the ongoing issue. This results in wasting approximately 1hour performing this activity, whenever we have a Sev1.
+Integrating soft phone(which works with VOIP) with “talkit”. We can document the message which need to be communicated as per the  escalation procedure, and having all the list of numbers which need to communicated, saved in soft phone. With one click all the users will be called out and communicated through IVR with the documented message.
+

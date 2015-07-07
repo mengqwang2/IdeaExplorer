@@ -1,0 +1,19 @@
+Customer Experience Labs 
+
+While working on SRM CELabs for the team and this challenge from Ed Services
+Thanks to Tom Sousa and his team has already developed Customer Experience Labs for ViPR SRM. As EMC is planning to sell 1000 ViPR and all VMAX/VNX deals associated with a SRM, its atmost important to train field engineers with as much reality and closer to project experience. Below are today's education services pain areas and does not address in ramping up :
+
+PoD environment to deploy, play vAPPs
+Mock Customer 
+Mock Project Manager
+Mock Statement of Work
+Mock Feedback to the reporting manager about mock project and progress
+
+However, as of now this is completely funded by the BU and availability of PoDs are limited to SRM product alone. There is also a great struggle to get funding for Mock Customer person(Human resource), Mock Resources, etc.
+If this idea is selected for incubation by Education Services, this will be extended to all next generation or emerging technologies products and there will be easy mechanism to get resources for customer experience and mocks through education services. There should not be a cry over the cost as shown by Tom in the https://inside.emc.com/docs/DOC-100223 , ROI is very high and every resource going through these PoDs is selected based on business and returns from the learning is multifold
+
+This idea has already shown huge success and please refer to the inside EMC page on detailed overview on how it works : https://inside.emc.com/docs/DOC-100223
+This is definitely going to be a game changer with EMC planning to cross skill its resources to prepare for 3rd platform(majorly software) in addition to new technologies such as cloud apps, analytics, etc especially because of software based products, virtual environment deployment PoDs are essential to learning.
+These environments will also help employees across federation(EVP) for EMC II to collaborate learning and trying to provide more complete solutions to customers as well.
+
+

@@ -1,0 +1,5 @@
+Graphical logs for troubleshooting - DPAD Automation Challenge
+
+Graphical logs enhanced idea submitted in 2014 and saw the DPAD challenge
+Automation/analytics details are mentioned as per :- Please refer to idea no. 2014004847 and http://one.emc.com/clearspace/docs/DOC-79227
+

@@ -1,0 +1,11 @@
+Automatic Material Scan into ESS chambers
+
+Resume write code step writes the user scanned serial number to the on-board Resume.  If done incorrectly the Resume will have a different serial number value than the scannable sticker on the outside. This is not highlighted until the end of the test in Enclosure Test, using resources unnecessarily. This issue highlighted the need to improve how ESS kicks off a test run to help eliminate human error. In the weeks since, Cork has leveraged an automated scan in sheet and modified and improved this to allow automatic folder updates on the tester. This is to Trial in ESS early July 2014.
+Improvements involving the automatic reporting of serial numbers and chamber slots are under investigation.
+
+Product would self-scan and know what Chamber location it is physically in.
+These 2 pieces of data would be copied into the appropriate tester folders and no user interaction would be necessary. The chamber would be loaded with product and the product and chamber would work together to report its contents and Slot locations.
+As a phase one improvement: continue to scan product but have an intelligent scan sheet which will automatically update the tester files with the data.
+Phase 2: Investigate RF tagging and other micro technology options to facilitate automatic serial number and slot reporting.
+
+

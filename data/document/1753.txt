@@ -1,0 +1,9 @@
+Crowdsourcing App
+This app encourage crowdsourcing in a fun, interesting way.
+The idea came from the thought about hoe to engage employees in EMC projects. 
+The App will Support: Photo sharing, Voting, Posting.
+
+What is different about this APP is that it will support competition spirit as Employees will vote for the best ideas and the winners will have prizes.
+
+
+This App will encourage Employees to engage in EMC business projects and this will be a kind of motivation and increasing trust between EMC and it's employees.

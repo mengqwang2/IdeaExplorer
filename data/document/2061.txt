@@ -1,0 +1,14 @@
+Integrate Aveksa IMG with Secure ID
+IMG and Secure ID both are Security Products.
+IMG is the Product where details of the users and Its access are stored.
+IMG has authentication for each user to login but that is there own username and password.
+
+If we have traditional username and password for authentication, there are chances that Passwords are cracked by shoulder surfing. 
+Have secure ID in place with IMG, Security is at its best I believe!
+
+- Integrate Aveksa IMG with Secure ID for Authentication. 
+- Builds high level of security.
+
+- High Security
+- Customer buying IMg might also buy Secure ID or vise versa!
+- IMG is very hot in the market, Integrating IMG with Secure ID would make it unique in the market and generate profit in Millions.  

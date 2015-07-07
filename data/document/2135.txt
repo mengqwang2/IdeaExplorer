@@ -1,0 +1,6 @@
+ISO/RMA Inventory Management 
+N/A
+Incoming Product volume seems to increase at the end of every quarter in ISO/RMA. Product Flow Processes within manufacturing are jeapardized when needed metro/Bliss carts are removed from their respective cells to be used in teardown in ISO/RMA. 
+There should be better metrics in place to manage Inventory that is needed. Scrap product vs storing product when product is received rather than scrapping at a later date when the product has not been used.
+
+Cost savings would be incurred if the Returned Processed was managed to impart a steady product return flow vs most material being returned at the end of the quarter. Also, product should be scrapped at this point if there is not a demand for the material. There should be better metrics in place to manage Inventory that is needed/not needed and should be continuously updated.

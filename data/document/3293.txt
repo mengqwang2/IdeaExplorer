@@ -1,0 +1,8 @@
+EMC Champions Q&A on Salesforce Chatter 
+
+
+Ideation session
+
+This idea will use pre-existing social network (Salesforce Chatter) for EMC Champions to set up a Q&A for partners and customers in real time. 
+
+

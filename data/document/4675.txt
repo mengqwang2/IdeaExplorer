@@ -1,0 +1,5 @@
+FAST VP to do event based slice relocation
+
+I was considering the FAST VP realoocation algorithm.
+Once certain IO level is reached for a slice, FAST VP relocates it immedialy not waiting the scheduled window. This improve system responsiveness.
+

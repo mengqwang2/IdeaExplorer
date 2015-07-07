@@ -1,0 +1,13 @@
+A method to measure rapid application development software size using function points
+In order for EMC to win over customers in enterprise, the efficiency of collaboration in verticals is key. Sales, services, Engineering and Marketing need to evaluate enterprise software & services for its complexities towards a GTM plan. In recent times, integration of software components on conveyor belts are gaining prevalence as frameworks have matured. The new process is an attempt to solve the age old problem of "tying business functions at the hip" in a GTM strategy.
+During ViPR SRM releases, the engineering team was tasked to measure quality improvements release over release and one commonly practiced KPI was defect density, which requires to measure [defects/size]. As there was no tool available to determine "size" of SRM, we experimented a method to measure solution pack size using artifacts generated to meet the end customer need.
+A new process is initiated to size rapid application development (RAD) software using function points thereby improving total customer experience and process efficiency withing EMC.
+Size = ?(software component ? complexity)
+The complexity index/factor is based on technology maturity, user inputs/outputs, relationship.
+
+In open source projects, this method is valuable as frameworks such as scaleable graphs, Spring etc is not required to be measured but artifacts generated using these frameworks are critical for product evaluation.
+The success of this idea would help EMC business by;
+[1] Improve total customer experience. 
+[2] Trade off on decisions pertaining to technology choices thereby lowering investments
+[3] Enhanced productivity and thereby improve time to deliver features
+

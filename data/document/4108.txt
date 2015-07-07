@@ -1,0 +1,5 @@
+EMC version of "The Chase" TV quiz show
+
+The idea came from a brainstorming session.
+EMC to host / sponsor inter-schools competition based on "The Chase" TV quiz show format. Each school takes a turn at competing against an IT expert, i.e. The Chaser. The contestants & IT expert answer questions based on EMC products and Cloud / Big Data technologies. The goal for the competing schools is to amass as many points as possible. The competiton has a knock-out format where two schools compete against each other directly, the school that amasses the most points being the winner and thereby moves on the next round and so on until an overall champion school is determined. The winning school wins an EMC cloud solution.
+

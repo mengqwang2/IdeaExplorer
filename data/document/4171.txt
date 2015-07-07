@@ -1,0 +1,8 @@
+Implement POWER ON/OFF Switch for VPlex Engines
+
+Prior work experience
+Implement the Power On / Off switch at the VPlex Engine and the intelligence that helps the customer to do a graceful power off. Alongside an LED over the switch that indicatesstatus of the VPlex Engine / the VPlex cluster site.
+
+The LED should behave based on the status of the directors. If both the directors are present and active, a "Green", either of them are down, a amber and Turn off when both are down. 
+
+

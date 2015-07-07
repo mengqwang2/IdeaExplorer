@@ -1,0 +1,13 @@
+Flexi Hybrid Cloud
+EOS2 is looking for ideas that will help EMC leverage its best of breed Enterprise Hybrid Cloud solution to enable faster & more secure product development through expanded, more efficient and higher quality Engineering Shared Services - this idea is to looking at how EOS2 teams would like the hybrid cloud to function based on existing pain-points
+This idea came out of an IGS session at the Ireland COE (facilitated by the Ireland COE PMO) comprised of a cross-EOS2 functional team with participants from CSQL, Information Experience, Lab Ops & PMCT
+During an IGS session a number of 'wishes' idea statements were articulated by the team that we categorized as a 'Flexi Hybrid Cloud' concept. The idea here is that if EMC's Hybrid Cloud Solution is to be leveraged it will need to following components and features to be useful to our teams:
+1. We would like all cloud resources to be flexible i.e. workloads in the cloud need to be movable across geos/locations
+2. We would like to develop tools to monitor what resources are being used/consumed in the cloud
+3. We would like a globally distributed approach to the cloud design
+4. The cloud should try to leverage employee compute power at their desks (e.g. SETI)
+5. We would like to have compete visibility into the underlying infrastructure of the cloud (not just the virtual components)
+6. The Cloud design needs to include the ability to connect different clouds together (both internal & external)
+7. We would like to remove any work silos (including the culture/mentality to do this)
+8. We would like to have the ability to run 'as a service' solutions on the cloud internally with minimum effort
+If we look at the above list of wishes that arose from the IGS session we could take these ideas and expand on them with a wider group focussed in on developing a 'Requirements for an Engineering Shared Services Flexi Hybrid Cloud Solution' document that could feed in the EHC roadmap. We would work with the design team of the existing hybrid cloud solution team and look to add to their roadmap of additions/updates if possible. The benefits for EMC would be that we would have an internal success story of using our own solutions to solve our problems - a reference site for a best in breed Engineering Shared Services model with EMC technology at the core.

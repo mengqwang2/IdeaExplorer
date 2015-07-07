@@ -1,0 +1,5 @@
+Fully Automated Tiering of FA's On VMAX
+It is a Big Challenge that few of the FA's on VMAX are over utilized and few are under utilized.  
+On most of the occasions  we see high severity incidents on performance on VMAX due to masking of many servers to single frontend directors. And also on many occasions due to performance impact we tend to rezone them to other frontend directors which are free. This leaves us in a situations where we cant move some of the servers as they are highly critical.
+This idea will solve the Improper utilization problem of the FA's and Tiering is better than other approaches and makes it unique, and innovative.
+It improve customer satisfaction and enhance productivity and optimize the performance of VMAX and will benefit the company and make it Success.

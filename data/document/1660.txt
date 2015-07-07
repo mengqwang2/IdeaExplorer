@@ -1,0 +1,27 @@
+infoMax Application
+infoMax App will accomplish a great Reduction in both time and effort for EMC Analysts who uses Excel sheets to do their work. Which leads to make their analysis much more accurate, Fast, and Easy
+users are facing a great hassle in taking a lot of time to extract data from OBIEE and Install Base.
+working on an account could take more than one day trying to extract data and pasting it on excel sheets which made me think of another solution that could help us save time and effort.
+so i implemented infoMax For ASC Team and As a result of the success of the implementation, we need to roll it out to all EMC Analysts Globaly
+Who will be using it?
+
+• EMC Analysts who uses Excel
+
+what is the App?
+
+• InfoMax is an app that works as an Excel plugin, where Analyst gather data from External data Sources with ease, using a very simple GUI
+
+How will it work?
+
+• EMC Analysts will download and install the App
+• then use the app GUI to extract the data required
+• The app will work in extracting data and then come up with a report 
+
+What is in it for EMC? 
+
+• Simplifying the Process of Extracting Data
+• Eliminate wasted time for extracting (After measuring the process before and after the tool, the time reduced is over than 4X)
+• Ensure data accuracy
+
+https://inside.emc.com/servlet/JiveServlet/downloadBody/155566-102-1-518873/InfoMax%20Screenshot.JPG
+EMC infoMax App will contribute to improve the Total Customer Experience. It will also facilitate the access to the information and will increase Analysts work and reduce cost and time

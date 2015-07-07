@@ -1,0 +1,14 @@
+Pattern Behavior Analysis for Alert Monitoring 
+Pattern Behavior Analysis (PBA) Analysis will help understand the pattern of alerts or trend analysis generated for a customer. Thus, leading to effective time and resource utilization and eventually efficient capacity planning.
+
+Currently, there is no instituted process or practice to analyze frequency of alerts on a weekly or monthly basis , in turn leading to understand the process behavior.  This overburdens the team causing the ineffective time utilization. All alerts flashed in Monitoring console require considerable amount of time before deciding to ignore or to address.
+ 
+
+We are Using data analysis as a service for this particular issue by contemplating the frequency, volume, location and duration by extracting data and Working with the concerned teams and monitoring tool experts to resolve the issues if any with the configuration and tools.
+This activity will have following advantages:
+Incremental/Continual improvements
+Efficient Resource Utilization
+Data driven decision/making
+Error Reduction
+Process Stability
+

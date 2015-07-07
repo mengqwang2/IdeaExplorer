@@ -1,0 +1,5 @@
+Metrics based alerting and notification
+
+We have great metrics framework and provides rich metrics for system monitoring and performance tuning, but we can make full use of these metrics to do analysis and enhance the management with cloud environments etc. 
+user can set thresholds based on specific metrics e.g. response time, the capacity, the CPU utilization etc., when these metrics reach the thresholds, the system will send alerting and notification with different protocols: SMTP, HTTP/HTTPS,then the user or upper-level of management application can receive the notifications and do any processing.
+

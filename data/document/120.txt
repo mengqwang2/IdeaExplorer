@@ -1,0 +1,44 @@
+EMC Enterprise Hybrid Cloud - High Availability as a Service (HAaaS) going beyond 99.999%
+The customers prefer the one stop shop and turnkey IT Solutions with simplicity of support, management and operation.
+Our target is to build full stack of high-availability solutions, The High Availability as a Service  (HAaaS).
+
+The High availability (HA) is paramount to the modern business and mission critical applications because of its critical position and open design. A key strength of the modern business is the ability to interact with multiple cross-format applications; however, this strength also creates multiple touch-points that can affect availability. Mission critical applications require a well-designed HA solution that can protect and maintain uptime not only for the Infrastructure Services but also the Application Services.
+We always receive questions regarding the differences between the VMware HA and other HA solutions also to which level can protect the service? is one virtual machine enough or not?  and how the customer can insure the service availability if something crashed on the operating systems or softwares?
+
+Our Answer is: There are available cluster software's for the applications/databases provided by 3rd party products can fulfill the requirements, and the hosts redundancy will be fulfilled on hypervisor level including the disaster recovery protection options for the infrastructure. 
+
+Our idea is to build High-Availability Cluster future that can be delivered as service and included as part of the EHC Solution to have end-to-end service availability assurance.
+
+EMC High Availability Stack is the solution to minimize the impact and downtime for the critical applications and automate the recovery on the service level to insure continuous/maximum services availability. This can be done by integrating the VMware HA with the 3rd party cluster software and insure 360 degree service availability .
+
+The new approach for recovery time or estimated time of repair (ETR) strongly can be minimized if the failure/fault detected through hypervisor level platforms.
+
+Today we can cover the below:
+- HA Infrastructure/Storage
+- HA Network/Security
+- HA Servers/OS
+
+We are working on prototype to cover the reset of components to offer HAaaS:
+- Cluster Software 
+- Services integration with the cluster software
+- Deploy Prototype Cluster File System
+- Deploy Prototype Application
+
+
+The VMware capability can include the cluster services and manage the third party products such as:
+- File Systems
+- Web Servers
+- Application Servers
+- Database Servers
+
+
+More info
+
+https://inside.emc.com/docs/DOC-156214
+End-to-End HAaaS Solution 
+1. HA Infrastructure/Storage
+2. HA Network/Security
+3. HA Servers/OS
+4. HA File Systems
+5. HA Applications (Existing  3rd Party Cluster Products/Services the Logical Layer)
+6. HA Backup & Recovery

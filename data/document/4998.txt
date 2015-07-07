@@ -1,0 +1,6 @@
+Courses subscription priority
+
+Sometimes I am not able to enroll in the courses I strongly need.
+There must be a linkage between the employee IDP and the courses enrolment.
+Whenever an employee writes a required course in the IDP, the HR recieves a request and initiate the course according to the employee demands. The employee and his manager must specify the need priority (priority 1, priority 2, etc..) of the course and the higher need priority employee, the first served. The lower priority employees can be served the next round of the course.
+

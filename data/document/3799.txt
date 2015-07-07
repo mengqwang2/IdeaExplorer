@@ -1,0 +1,10 @@
+Global real-time data and behavior recommendation sharing without sensitive data disclosure
+
+The idea came from both product management and architecture. We came to the same conclusion, that we want to share the knowledge but not the data. This came up during a session in the HZ COE.
+We would like to collect information on the actions taken by admins and not the actual data they see, thus we recreate and retrace their behavior, while not sharing the real data.  
+
+One suggested solutions would be a log collection system, will harvest the logs from different security appliances and machines to collect and hash click values from SDK logs. Those log that are hashes in a method that maintains session data will be then sent to our cloud server that will analyze the data and push down recommendations in the form of lists or heads on recommendation similar to retail recommendations. The users may also pull additional info per recommendations and each such recommendation will contain a tag that will allow us to collect click on recommendation information.
+
+We will use advance crypto and split secret to protect what little data we share. Also we can use game theory to create ranking of the contirbuters. 
+
+

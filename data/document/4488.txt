@@ -1,0 +1,29 @@
+An off-the-shelf monitoring framework that could be deployed as an MaaS
+
+This idea originated when we started adding support for events and alerts for VPLEX. The complexity involved in bringing together multiple components and the initial learning curve prompted us to think that a framework on the proposed lines would make life far simpler for a development team wanting to support monitoring in their products
+An installation package for the  framework that comes bundled with an event broker, a rules engine, an EIP (enterprise integration pattern) framework, a database persistence service  with the following characteristics:
+	• Support for configurable number of event producing nodes
+	• Federated configuration support. Federating multiple event sources to assemble all events
+	• Provide a uniform interface to access various services (manage events/alerts, configure custom rules) e.g. REST API. This frees the developer from learning the specifics of low level messaging protocols. Also, provides an option for converting existing log messages to event format
+	• A pre-defined event/alert structure with the fields defined with options for extension
+	• Manage alert lifecycle. Support for configurable alert states, alert state persistence
+	• Framework handles elimination of duplicate events from redundant nodes
+	• Provides support for translation, co-relation, content enrichment, routing etc.
+	• Failure handling in case of node failures
+	• Dynamically adding rules for generating alerts based on a pre-determined set of events
+	• Configurable  scripts to take appropriate actions when an event/alert is generated
+	• Configurable notification service  such as  e-mail, call-home,  snmp trap and amqp message  when an alert/event is raised
+	• Managing users, configuration and authentication/authorization
+	• Analytics on the events/alerts generated to improve TCE
+	• Support for multiple databases for event/alert/rules persistence
+
+Advantages
+	• Enables the development team achieve all of the above by just making changes to configuration files (say, XML) without having to learn new languages or protocols.
+	• Frees developers from understanding lower level details, protocols etc.
+	• Reduces learning curve for the developers
+	• Faster development cycle
+	• Improves TCE 
+	• Provides an option to deploy the package in the cloud and support a MaaS offering.
+	
+
+

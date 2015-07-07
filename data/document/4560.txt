@@ -1,0 +1,14 @@
+Automated Routing Service Requests for Gulf and Middle East
+
+- Escalation managers receives multiple requests from SAM (Service Account manager) or DSM to make the case assigned to someone one from the same region in order to help the customer ASAP
+
+- Escalation Manager is under pressure in this case and this will be help as the case will be assigned in good time to the suitable region.
+- Enhance qtool to implement a filter in order to make the requests from Gulf and Middle East to be visible for the same Support region only.
+
+- This will increase TTR and Customer satisfaction Level.
+
+- Will make the operation easy for Escalation Manager and Customer Account managers.
+
+- This will increase the sales definitely
+
+

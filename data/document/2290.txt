@@ -1,0 +1,8 @@
+High performance Master Nodes for DCA (Data Computing Appliance)
+This idea improves the performance of the DCA (Data Computing Appliance) system and hence it improves the Total Customer Experience (TCE). Also, it eases the produce maintenance.
+we are working on DCA (Data Computing appliance) since 6 months and starting identifying the problems of DCA.
+The Proposed (idea) System, make the smdw (Stand by Server) as active system instead of warm backup. In this new DCA system, the mdw performs only data base operations where as smdw performances the health monitor opeartion. This means the "Health monitor" software is executed in the smdw instead of mdw. 
+If the mdw fails; then smdw take the fail over of data base operations of the mdw.
+if the smdw fails; then the mdw take the fail over the Health monitor operations.
+1. High performance of the DCA system
+2. Better Customer Experience

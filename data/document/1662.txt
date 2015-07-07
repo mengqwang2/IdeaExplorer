@@ -1,0 +1,11 @@
+Engineers/IBG Portal
+My idea will help all EMC departments to work efficiently, consequently, that will lead to EMC Customer Satisfaction.
+EMC will not miss millions of dollars because of the IB inaccuracy anymore.
+As i am a member of the Install Base Group, i got the idea while thinking how much revenues EMC is missing because of the Install Base inaccuracy.
+Portal designed as a tool of communication between the Engineers on Sites and Install Base Group. As any action the Engineers make on Sites will be directly reflected on Install Base.
+This tool will help IBG to track all Engineers actions, (especially the installations), in order to reflect all equipment status correctly on Install Base, so there will not be any missing revenues for EMC.
+Plus, the Install Base data being accurate and up to date will help all EMC departments in tracking and following their work easily and effectively.
+
+EMC Install Base will be always accurate and updated which will help all EMC departments to work efficiently, consequently, that will lead to EMC Customer Satisfaction.
+EMC will not miss millions of dollars because of the IB inaccuracy anymore.
+

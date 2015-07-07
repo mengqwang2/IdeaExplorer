@@ -1,0 +1,14 @@
+NFC in Smart Cities
+This challenge addresses new idea and solution for smart cities. As it introduces new concept of combining between advanced technologies as NFC (Near Field Communication) and  EMC products for storage and cloud infrastructure.
+Also , it addresses IT Contemporary workplace Challenge as it would  Make it easier for employees to access the company by using an application on their mobile phones and even can have their meal cards in the form of application accessed by NFC.
+the idea was inspired from the NFC technology and it's use in Google Wallet application.
+Use NFC to offer a smart solution for smart cities and at the same time not complex , it's just through your Mobile Phone you could make any banking transaction instead of using your ATM card , or you could use it as access card to a lot of places (work access , parking access, car access, home access, Cafeteria allowance at work ...) or even as an id card. and instead of just carrying a lot of access cards you could do all of this with just one simple solution your mobile phone which won't cost you any more effort and will easier your life by just an application in your mobile will do everything.
+From EMC solutions we could use the following:
+-Multi Layered security solutions to guarantee the security issue just in case the mobile get lost.
+-cloud Infrastructure as a service.
+It will be implemented as applications used by mobile through NFC as for each operation(car access , home access, work access  , banking account access) there will be a specific application.
+-save a lot of money.
+-introduce new scope for EMC to enter.
+-Make Easier access to any place.
+-Encourage usage of existing technologies and integrates many technologies together such as: NFC , cloud computing to offer one hybrid solution.
+-the headache of million of access cards will disappear.

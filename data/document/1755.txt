@@ -1,0 +1,18 @@
+Find My Drink Machine
+Drink machine is part of the workplace. We propose a solution to improve the user experience for those who love to buy bottles from them.
+I’m one of the persons who like buying bottles from drink machine. But in hot summer when I run all the way to my favorite spot, only to find a sold-out, how annoying it is. Drink machines in another building somewhat sells different bottles. Want to know what’s in the box? But I cannot keep running here and there just to scan all of them. After confirming other people have the same doubts, I wrote this submission.
+The solution combines two parts. First we connect the drink machines in each building and each floor into the network and get the status of their stock. Whether there is this kind of bottle served here? Whether is this one sold out?
+
+The next we develop and app, to tell which bottle can be found in which floor. Users can know in advance if his/her favorite is sold out. There could be fun features such as “try my luck” and “what other guys love”.
+
+In China, considering the prevalence of WeiChat, we can integrate it with the app to make it install-free and easy to use. Example in WeiChat:
+  
+    User: Hi Drink Siri, what is the bottle of the day?
+
+    WeiChat: It’s Soda. Only KIC2-3F is not sold out.
+
+In other countries, there must be dominating mobile platforms to integrate and provide the service.
+
+Even more, not only drink machine, any other workplace supplies that suffers from selling out can join this solution.
+
+With the app, people find it easy to locate what and where they want to buy a bottle from workplace drink machines. No more time is spent suffering from sold-outs. Overall it becomes happy drink happy work.

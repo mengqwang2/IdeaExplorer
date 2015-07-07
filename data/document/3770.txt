@@ -1,0 +1,6 @@
+Backup and Restore between Isilon and VNX File
+
+Shortly after Isilon was acquired by EMC.
+Isilon already understands the VNX NDMP data format as part of the isi_vol_copy_vnx data migration functionality.  Enabling VNX/VMAX File NDMP backups would require reusing that knowledge/code in the NDMP restore code of OneFS.   
+The VNX/VMAX File NDMP code could also be enhanced to understand the Isilon NDMP data format.  Code that does this already exists in both Isilon and CTA.
+

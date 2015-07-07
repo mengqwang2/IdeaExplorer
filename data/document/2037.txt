@@ -1,0 +1,11 @@
+Web-based Intelligent Diagnosis and Analysis Troubleshooting Tool
+This platform targets to the CTD products supportability, and focus on products supportability and problem troubleshooting. So I think it matches the “CTD Supportability in 12 Months or Less” challenge.
+Henry and Sophya are from CTD escalation engineering team. They met the practical problem in their daily work. An IDA tool is also developed for some basic functions. So we discussed together to come out this solution.
+We propose the “Web-based Intelligent Diagnosis and Analysis Troubleshooting Tool”. The tool has following features:
+1. Centralized: all troubleshooting tools and components from each engineer are centralized in this tool, can be shared by all engineers.
+2. Web-based: the tool is web-based. So it’s not necessary to install it manually, but just use it through explorer browser.
+3. Extendible: The tool supports modularized structure. Every engineer can define the module through his experience, to extend the knowledge library of the tool.
+4. Automation: if the issue exists in the knowledge library, the tool will analyze log and generate the result automatically.
+Through this tool, the knowledge and experience can be shared among all engineers. They can work together and enjoy the collective intelligence, which can speeds up the support progress.
+
+Through this tool, all engineers can share experience, accumulate knowledge, and speed up the support progress.

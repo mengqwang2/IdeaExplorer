@@ -1,0 +1,21 @@
+Engineering Shared Services Catalog
+EOS2 is looking for ideas that will help EMC leverage its best of breed Enterprise Hybrid Cloud solution to enable faster & more secure product development through expanded, more efficient and higher quality Engineering Shared Services - this idea is to looking at defining an EOS2 Service Catalog would help the team understand how leveraging EMC's Hybrid Cloud offering would/could enhance this catalog. In other words make sure that everyone is on the same starting page so that it is more obvious if & how EMC’s solutions can help deliver that service.
+This idea came out of an IGS session at the Ireland COE (facilitated by the Ireland COE PMO) comprised of a cross-EOS2 functional team with participants from CSQL, Information Experience, Lab Ops & PMCT
+During an IGS session a number of 'wishes' idea statements were articulated by the team that we could incorporate into a standard EOS2 Service Catalog. These include:
+1. Clearly defined set of EOS2 Services
+2. Relevant applications & tools to do specific jobs
+3. More efficient lines of communication (internally across EOS2 and externally to end-users and customers)
+4. Self-service design with location considerations (latency, bottle-necks etc.)
+5. Focus more on quality versus cost savings
+6. Develop a diagnostic application so consumers of the service could self-diagnose issues
+7. Better documentation tools & portal with a simple but powerful front end user interface ('Powerlink 2.0+'-like functionality)
+8. Shopping Carts for services - Amazon-like interface for securing service items (could be linked to a cost model)
+9. Establish effective user feedback loop/forums
+10. Capture & distribute freely all service metrics
+11. Develop various cost models (with stakeholders) across all services (including things like charge-backs, credit for usage, try before you buy etc.)
+12. Strive for an inclusive community based development model for some (or all) of the services
+To take this idea to the next level a dedicated team of people could be tasked with defining a comprehensive EOS2 Service Catalog initially just mapping out all our services. This could be followed up by looking at/identifying gaps in our existing catalog and developing/augmenting our services based on these gaps. The wish list above provides a conceptual roadmap of where we would like to end up but we would need to take it in stages:
+1. Document existing EOS2 Service Catalog
+2. Identify gaps with key stakeholders
+3. Prioritize & roadmap new/augmented service enhancements projects
+4. Update EOS2 Service Catalog

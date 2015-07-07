@@ -1,0 +1,12 @@
+Smart Office: Turn all office facilities into IoT devices
+By digitalizing the facilities in office with more sensors, we can collect unprecedentedly more information in how the facilities are used in our office. By extracting insight from those data with some statistically or machine learning method, we can optimize our investment in those facilities, saving energy consumption, etc.
+The idea is inspired from the idea of smart city and IoT
+Not all the office facilities are digitalized. For example, usage of meeting rooms is tracked by online reservation system. But gym facilities are not tracked, so we do not know exactly the utilization of them. Displays are installed in office area for playing news from EMC COE and worldwide, but we do not have clearly idea in how many times they are viewed and how long each viewer has watched the news. So, to make the precise monitoring on each of the office facility, the first step is to attach sensors to all them and start collecting usage data from them. 
+After we have collected enough historical data from the devices, we are capable of gauge the utility of them and make decision if we will continue investing in them according to the collected results. 
+Other interesting result may come from correlation analysis and mining of seasonality in the resource usage. By doing that, we can perform better in globally scheduling resources and make more sensible planning.
+
+1) Understanding the utility of office facilities
+2) Evaluate ROI quantitatively for office facilities
+3) Optimized resource planning
+
+

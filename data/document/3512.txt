@@ -1,0 +1,18 @@
+Feasible IT infra solution for startups/small and midsize enterprises
+
+Got this idea while assessing & researching on existing converged infrastructure solutions.
+This idea is to offer solution using the EVP's product line focusing on scalability in terms of performance and capacity which aligns with a pay-as-you-grow model for the cloud.
+
+To start with we can use Cisco's minimum configuration UCS server chasis for computing & switches (LAN & SAN) for networking & then scale up as the needed.
+
+For storage use EMC Isilon scale-out storage solution, as it consolidates file and block-based applications onto a single, shared pool of storage. It has integrated the iSCSI protocol into its OneFS operating system. supports common networking communication protocols, such as NFS, CIFS, and iSCSI
+-Isilon scale from three systems(nodes) to a maximum of 144 systems. Capacity can be expanded by simply adding additional nodes. Scale from 18 TB to over 15 PB
+-Linear & nondisruptive scalability of performance and capacity to over 85 GB per second of throughput and more than 15.5 PB of capacity in a single file system.
+-It can be easily managed through InsightIQ enterprise application software or through the VMware vCenter plug-in for Isilon. The management features provide functions to optimize performance of applications and forecast storage needs.
+-Can easily interface with industry-standard compute systems and technologies. Isilon supports Windows*, Mac*, Linux*, UNIX*, and VMware along with directory services such as Microsoft* Active Directory* and UNIX-based LDAP servers.
+-Isilon is certified VMware Ready for vSphere* 4.1 and is also a Citrix Ready* partner.
+-For high availability and disaster recovery, data can be replicated onto another cluster in the cloud.
+-The Isilon OneFS operating system is designed for big data in next-generation enterprises. It meets the rapidly converging requirements of big data.
+-Reduced TCO, cost of storage space in terms of volume works out to less than $1000 per TB.
+
+

@@ -1,0 +1,6 @@
+Browser based Navigation instead of  Java for Avamar Admin GUI
+Avamar Java Admin GUI is very slow, hangs ,always issues about the JRE versions.
+While working with customers found Java security issues, Admin Console issues that triggered this idea.I am only one involved
+As every Application is moving towards Browser based functionality , We should avoid Java and start at browser based functionality .
+
+No need to update JRE, Will stop Java hang issues. Easy navigation via browser

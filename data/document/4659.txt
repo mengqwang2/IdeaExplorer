@@ -1,0 +1,30 @@
+“Ungroup disks” feature for EMC Storage Array 
+
+Was involved into the multiple projects  which has redesign of the array where all data LUNs with different type of workload (sequential and random) were mixed into the same pool which was hindering the performance. And there were no disks left on array. So in order to isolate the workload and reconfigure the pool as per EMC's best practices the only option that was left with us was
+
+1.> add new loaner disks to array, create new pool, 
+2.> migrate the LUNs to new pool
+3.> destroy the old pool and create multiple pools in order to isolate the workload
+4.> migrate the Luns back
+Disks gets locked permanently into the storage pool and disk groups once added into it
+
+If customer expectations changes due to decommission of the servers, additional workload which needs isolation due to its nature and sometimes initial bad designs then only way to free up few disks is to
+
+- Create new storage pool by adding new loaner disks or array
+- Migrate the production data
+- Destroy LUNs and Storage pool
+- Create New storage pool with required number of disks
+- Migrate the data back
+Or 
+- Purchase new disks and additional SA / IS services
+
+Which leads to additional cost of TIME and MONEY to customer 
+AND
+To EMC it is cost of CSAT and future business opportunities with customer
+ 
+By Adding "ungroup disks" feature to pool will work in following way
+- Select the disks to be ungrouped
+- Once ungroup task is initiated the data chunks from those disks will be migrated to remaining disks in pool
+- Selected disks  will be moved to unboud pool for re-purpose
+- In the existing storage pool the data will be leveled using the FAST VP to avoid performance hit
+

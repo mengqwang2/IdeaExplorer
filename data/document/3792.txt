@@ -1,0 +1,9 @@
+Real-time collaboration through electronic whiteboarding
+
+Bryan Duerk and I brainstormed over coffee one morning, trying to figure out how we can include our team's remote members in templating architectures and other brainstorming. Screen-sharing isn't natively collaborative, but sharing an electronic whiteboard is!
+Ideally suited for iPad and other tablet/mobile (touchscreen) users, a whiteboarding session would be coordinated through the Lync chat function. Using the whiteboard would be similar to a physical whiteboard, only users would draw on their touchscreens with their fingers or a stylus. rather than on a physical whiteboard with markers. All contributions would be shared in real-time, allowing all participants the ability to see the entire workflows of the contributors. 
+
+Typical Lync functions can continue during whiteboard use; it will appear similar to a shared desktop screen to all participants. Each user would be automatically assigned a different default color for the duration of the session, and a legend for all user colors would be provided within the whiteboard session screen. 
+
+In addition to the typical history save features in Lync, a "snapshot" feature should be included that allows participants to take a picture of the whiteboard at any point throughout the session. The snapshot should automatically be saved in the chat session history, and should also have an option to save to another location or share via e-mail.
+

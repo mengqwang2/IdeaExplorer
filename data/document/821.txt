@@ -1,0 +1,9 @@
+direct all traffic to secure server
+adding a layer for security for non native secure devices
+working with many types of encryption algorithm
+the server will assign a token for each registered device (cookie )
+the server will act as proxy
+it will challenge each device with its native communication 
+instead of the devices communicate directly with each other,
+will add this layer of security so that all the traffic will go directly to the server
+it will open a new opportunity to add this layer of securtiy

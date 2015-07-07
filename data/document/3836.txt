@@ -1,0 +1,7 @@
+EMC Hyper Coverged Stack
+
+The EMC-Swisscom technical Team consisting of Sascha Meier, Field CTO Switzerland, Johannes Geissler, Senior SE Switzerland and myself have discussed this in the context of the Cloud activites at Swisscom. Swisscom plans to have an On-Premise Stack for their customers and also asked EMC, if we can provide something based on ScaleIO. Many other customers in Switzerland have requested the same, interestingly when they were thinking about Server renewls. 
+EMC sells the full stack of Server (EMC or EMC Select of a low cost vendor), Network (Arista as OEM or EMC Select), SDS (ScaleIO), Cloud OS (VMware) and automation (vCAC) as a hyper-converged solution on customer premise with the option to connect to an EMC friendly Service Provider (vCHS, Swisscom, etc.) and use hybird cloud Services from this Service Provider.
+This is better then VCE because it is hyper converged, a single layer architecture that makes it cheaper and easier to deploy and manage. 100% of the revenue will be with EMC. 
+This is more then ECS because it is an end to end solution for the customer for literally all his workloads.
+

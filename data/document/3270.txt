@@ -1,0 +1,6 @@
+Allow EMC Employees (Field, Pre-Sales, Implementation) to work with Engineering and vis-versa
+
+I was not allowed to add Implementation Engineer (case contact) name in a tool called JIRA for the updates to directly reach.
+The Field, Pre-Sales, Implementation engineers working on the issue (Who opens the Service Request), gets notified directly from the engineering tickets and fulfills the requirement (Logs, Action plan)with/without the involvement of CS.
+CS can concentrate on customer contact issues.
+

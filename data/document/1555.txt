@@ -1,0 +1,10 @@
+EHC high level dashboard APP for portable devices(mobile or pad)
+With this solution, we can improve Customer Experience on EHC.
+Portable devices APPs are so popular and convienent, there are many products support it. Why not EHC?
+There are two steps for we to meet this requirement:
+
+- step 1 - collect EHC status data from intranet and publish it to public internet:  A tool that can reguraly fetch EHC status data, which is needed by APP, and store the data to a db that can be accessed through internet. This tool can be standalone tool or module embeded to EHC.  
+- step 2 - An APP,that can access the EHC status data through public internet and transfer the data into graphic presetation, will be developped and installed to mobile phone or pad.
+
+Then the high level customer can see the EHC status through their mobile phone or pad at any time, anywhere.
+The more convienent the customer feel, the more successful EMC will be.

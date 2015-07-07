@@ -1,0 +1,23 @@
+STEM education Community Involvement app
+STEM web application will have 3 types of user School,Employee & Admin. Schools can register, login & post the requirement for STEM topics/Skills.
+
+Employee can view the request and accept the request from the school according to free calendar.
+
+Admin have functionality to manage application in appropriate manner.
+The portal is inline with the 2015 innovation UTAH COE Challenge. As we already have experience in building similar website for education/learning services we can bring in all the experiences we have gained over the period. We had an initial brainstorming and came out with an idea to have a simple and user-friendly interface which could leverage on existing resources. Which can be used by any user through his computer or mobile (Android/Iphone). The solution will be modular in nature and hence scalable. This can undergo further changes to include additional modules. 
+As we will be leveraging on PHP, mySQL, Javascript, HTML & CSS, this can be easily integrated with http://stem.utah.gov/emc/.
+EMC STEM web App has functionality to send SMS/Email notification on New requirement posting by school / On accepting requirement by Employee.
+Dashboard has the capabilities to provide reports according to the requirement.
+STEM app is scalable for the further Modification and Enhancement.
+STEM app is secure because we provide SMS/Email notification for the login authorization, any changes on School/Employee dashboard, and school and employee monitored by admin so each and every activity on portal goes through the approval process.
+STEM app can maintain repository for the uploaded tutorial for reuse/future use.
+STEM app admin has feature to add STEM skills and sub skills.
+EMC STEM web App will provide Video and text chat for online mentor ship. the same can be even used for collaboration between the educator and the mentor.
+The platform can even have a forum integrated which can be used for exchanging ideas.
+The same can even be used for organizing guest chats, quizzes and events.
+The app is scalable for Mobile users (Android & Iphone)
+The site would have all the functionalities of http://www.topperlearning.com/
+The ease of use will take the school`s experience to a higher level.
+This can further be scaled up to EMC level from UTAH.
+This can act as a single point of contact between the EMC gives back volunteers and the schools.
+The experience will enhance publicity and help social activities.

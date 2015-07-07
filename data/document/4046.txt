@@ -1,0 +1,5 @@
+Use VPLEX AccessAnywhere Cache Coherence on Mobile platforms for Collaboration
+
+We thought about collboration on mobile applications and VPLEX technology can definitely make it happen. 
+VPLEX AccessAnywhere technology using cache coherence provides access to the same data across two locations at the same time in active-active manner. A lightweight version of this can be derived for mobile platforms as a stack for providing the same benefit for mobile applications on smartphones and tablets. The backend data for this could be cloud storage. This lightweight accessanywhere mobile stack can be plugged in any collborative application with API's on how to use it. In real time gaming applications multiple users can have access to the same data for read write at same time. This can open up new world for collaborative applications to be developed on Mobile platforms.
+

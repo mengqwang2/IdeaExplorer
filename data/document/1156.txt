@@ -1,0 +1,41 @@
+EMC Unified Migrator Virtual Appliance
+A one stop solution to migrate Non EMC backup infrastructure with live data to EMC BRS/Cloud platform
+Working on this idea since last 10 month.
+With every BRS MS contract win, EMC focuses on migrating customer's existing Backup infra to cutting edge EMC platform. 
+This solution is named (EUM) EMC Universal data Migrator vAppliance which will be build on open source Linux, having open source SQL DB.
+Once there is a migration needed, an OVM can be downloaded and deployed in customer's vCenter.
+The vAppliance will have existing backup application software installed 
+It can be registered with existing non-EMC backup server as storage node(media server) 
+AFTD will be configured by presenting storage share to EUM.
+
+It will have a database which will store all discovery and deployment information and below programs
+
+1A) EUMCE(EMC Unified Migrator Control Engine) will be the brain of vAppliance, and have central, monitoring, reporting, configuration and Admin console.
+1) Cloud plugin(Private & Public) 
+
+2) Discovery Engine
+Responsible to run native commands against non-EMC backup server to pull all the information such as client count, front end data size, client attributes, data retention, location(tape# etc), policies, data classification, number of copies, etc and insert into SQL DB.
+
+Discovery engine will provide a detail report which can have custom views to select the client and data to migrate over EMC infrastructure.
+
+3) Redirected Restore Engine
+
+This program will be responsible for
+a. Creating directory structure over AFTD mount to perform redirected restore using the non-EMC storage node/media server(native binaries and commands automated through script)
+
+b. Redirected Restore Engine will receive data selection based on the discovery done, and schedule & run restore on the directory path created.
+
+4)EMUCE will push install Avm/NW clients. And register them with EMC backup servers. 
+
+5)Once the restore is over, the NW/Avm clients will get activated and the first backup source will be set as 3(a). And the destination path will be over cloud/DD.
+
+6) EMCE will set the actual client data source path to it's file system once the backup is finished.
+
+7) EMCRE will purge the redirected restore data. 
+
+Once the cycle will be completed the DB will get updated and report will be produced.
+
+
+This idea is one of it's kind and provide a definite lead to EMC in BRS industry where more and more customer's data will be migrated seamlessly to EMC infrastructure. Will impact high sales with regards to NW/Avamar/DD/EHC sales.
+Customer will get benefited by reducing the migration time/cost and improved data protection with EMC 2.5 & 3.0 solutions. 
+  

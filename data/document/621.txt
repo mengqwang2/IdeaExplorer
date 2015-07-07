@@ -1,0 +1,5 @@
+Cloud Storage with Content Distribution Network (CDN) Functions
+This idea is for 'New Business' Challenge from the Office of the CTO. This idea would create a new class of cloud products that generate a whole new business for EMC. 
+I thought of this idea after saw the email of call for ideas for Innovation Road-map. Nothing happened with this idea.  
+The idea is to create a new cloud product that is a distributed cloud storage system with CDN functions. Content distribution in essence is information replication (i.e. caching) at strategic locations in the cloud. Cloud storage systems already replicate information, all we need to do is to add functions such that these replications happen at strategic locations that are close to end user demands. These replications provide both information reliability and rapid availability to end users. Such a new product would provide a complete solution for media customers at a lower costs. 
+If the idea is successful, there would a new Cloud product that can serve many media customers with integrated CDN functions. This would enable EMC to break into the CDN market which is estimated to be $12 Billions/year. 

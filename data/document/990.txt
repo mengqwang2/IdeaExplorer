@@ -1,0 +1,15 @@
+Leveraging the population performance data to optimize an individual customer's data center 
+Proactively improve customers’ experience and satisfaction from EMCs product using an internal "performance cloud" and applying data science
+In our past projects as data scientists we saw that the performance of EMC's products vary greatly across our customers. While this is not unexpected, this has led us to discuss the cause and impact of these variations and made us realize that there were controllable factors contributing to these variations. 
+The proposed solution will leverage EMC’s aggregated information from SYR, ESRS, CLM, IB and History tables to generate a benchmark of performance and health of EMCs products by comparing similar customers. 
+To be more concrete: EMC is already analyzing a lot of information regarding our products within the customer environment to better understand how we do. What our proposed mechanism looks into is assessing how well we do vs. how well we can do. 
+
+The following functionality will be implemented:
+1. A mechanism to identify similar customers/sites/DCs/application environments using unsupervised learning
+2. A model for predicting performance/health per cluster. This can be done using classification algorithms (regression).
+With these two modules, we will be able to compare perf/health with actual values and when mismatch is extreme, trigger a proactive service request. 
+
+For more information: https://inside.emc.com/docs/DOC-155820
+
+
+Our solution will generate information regarding under performance of our products at a customer's site and trigger a process to proactively optimize performance. Our data science model will be applied to all of our customers and a ranking (based on under performance) will be used to prioritize proactive engagements.

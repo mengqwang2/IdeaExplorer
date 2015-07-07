@@ -1,0 +1,24 @@
+EMC Virtual Guide
+This idea relates to enhancing the customer/Partner/Employee experience in a totally different way.
+
+An App provides futuristic experience to visitors (customers/partners/new talents) by delivering personalized content directly on their screen by determining their purpose of visit and current location through intelligent processing of network nodes and users relation to the company.
+
+
+
+We visited Bangalore palace which is big and elegant and did not have any physical guide.They have provided us with a electronic device which had numbers on it. Different floor had different numbers put on the walls.We are supposed to click n the numbers on the device which would explain all the history and uniqueness abut the floors walls and the halls.
+
+So this was a triggering point where we thought that if we have a "Virtual Guide" in all the EMC premises across different geographies that would enhance the TCE immensely.
+Use case:
+1.User is asked to install the App on his visit.
+2.Based on the details given by the user,App will find out details of the event which user is attending.
+3.Based on the network address of the wifi router to which the device is currently connected to,user is provided with details like location,schedule etc about the event he or she is going to attend.
+4.App has a virtual voice guide that can find out in which floor the user is and can explain about the uniqueness of the floor.
+
+For ex:- Customer/Partner visits 2nd floor in INDIA Bangalore COE where data center is located, the App will detect his presence in the 2nd floor.
+App would explain more about the briefing center,tele conf rooms,data centers,VCE experience lab.App can guide him to these locations as well.
+ 
+Increase of TCE by providing futuristic experience to customers,partners,employees.
+Attracting the Gen-Next best talent by showcasing the company better.
+The one stop shop for higher management to know about the COEs better.
+
+Helps in delivering a very powerful advertising tool to showcase "The EMC Experience" in the hands of customers and partners.

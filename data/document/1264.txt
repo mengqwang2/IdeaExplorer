@@ -1,0 +1,22 @@
+Intelligent and Predictive Wizards for Installation and Configuration
+Most or All of the Installation wizards today will have several Mandatory fields that user has to input. Also there are several optional fields that user can skip. But still the user navigates across all the Installation Pages or Wizards, to proceed with the Installation. Similar is the case, when user wants to update a single or few fields from the configuration wizards, he may have to navigate with all the configuration wizards to commit the changes.
+With the Proposed Solution, All these Wizards will have built in Intelligence that predicts the next fields based on what user has edited recently. This could be next mandatory field (if any) or link to commit changes.
+
+The idea came up when we do upgrades release on release. It would ease our problem if my wizard could be intelligent and predict based on my previous installations and options.
+The team involved: Pradeep Viveki,Sowmya Puttappa, Sushma Shetty (Myself)
+The Solution involves adding Intelligence to Installation and Configuration wizard s that predict the next steps based on the user inputs.
+When the user inputs the data, the software identifies the next mandatory field and prompts the user through small pop up message based on his recent input. User directly goes to that field. This field can be in the same wizard or in any other wizard.
+The User can always navigate through default steps if he wants to.  If he wants to keep the default values as it is, he can directly jump to the next field through the pop up that comes in when he enters any field.
+Similarly while configuring the product, when user updates some field, if there is any mandatory field to be updated based on his recent update, link to that field will be given to user as pop up. User can directly jump in to edit that field.
+If there is no mandatory field, again a small link ( in  POP UP message ) to COMMIT the changes is given to the user.
+This avoids the need to navigate through all the configuration wizards when the user is interested in updating just few fields.
+
+This idea will be included in the Installation wizard. This would improve customer satisfaction to a large extent,especially when customer has numerous clients to manage.
+Advantages of the Proposed Solution:
+1.Installations and Configurations will be very quick as they predict and guide user through the process.
+2.Chances of user missing out any mandatory fields will be very less as Wizards predict next mandatory field and pop up a message right beside the edited field.
+3.Simpler and Efficient User Experience.
+4.The number of navigations will be less when wizards include several optional fields.
+5.Less or No confusions in Installations and Configurations.
+6.User can always go back and edit any settings/parameters. These wizards will again have intelligence to help user.
+

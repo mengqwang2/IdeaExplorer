@@ -1,0 +1,5 @@
+Prepare a full-configured Windows/Linux host for Clone
+This idea provide a efficiency and fast method to configure the VM hosts for testers.
+During testing, we usually apply for new VM host to generate IO or check system status, but some hosts don't installed these softwares, that may waste some time to search and install them.
+Just need to deploy a full-configured Windows host which installed those essential software and used for Clone.
+if this idea was fully implemented, test will not waste time to configure VMs and improve tester satisfaction.

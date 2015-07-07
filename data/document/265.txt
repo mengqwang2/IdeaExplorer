@@ -1,0 +1,6 @@
+CSAT Surveys on IBG Salesforce Cases
+The idea aims on capturing the value of analyzing and acting upon Survey results in order to raise CSAT and overall customer experience, as well as capturing the areas of development in the current services provided by IBG.
+The idea came to me wen I was asked by one of the customers who was very satisfied of the level of service provided on his case, to provide his feedback and share his positive experience in a survey
+Likewise there could be areas of improvement identified by customers that need to be addressed
+Work with IT & BTG on composing a customized customer survey for IBG cases on Salesforce Core instance, which includes the most relevant questions as well as being able to generate a user friendly report to be able to analyze the results and work on them timely and effectively.
+Once implemented, IBG will be able to have a solid pool of feedback on the quality of services provided, uncover any gaps and study any suggestions that could bring more value to the business, increase productivity and performance and eventually raise CSAT  

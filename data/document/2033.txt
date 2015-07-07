@@ -1,0 +1,5 @@
+Environmental Stewardship Challenge
+A System software/Product solution that increases the energy efficiency. This solution will be based on an algorithm/formula that will not only work for EMC Products but also Datacentre hardware as a whole. 
+The product is unique as many solutions do not take Performance workloads into considerations. Hence we came up with an idea of involving Performance workloads which we believe will drive significant benefits. 
+We will develop a product/application that will be Dockerized and connected to a platform like Spring XD. The data that will be dumped will be mainly the 3 Parameters Temperature of the surrounding, Performance/Workload of the hardware (compute, Storage, Network etc ) and the heat released from the individual machines. We will propose an engine which will be loaded with our algorithm to do comprehensive calculations to monitor/self-heal the environment. 
+The benefits of having a controlled environment which will be monitored and useful analytic will be derived. There by helping in significant cost savings and energy efficiency across Platforms. 

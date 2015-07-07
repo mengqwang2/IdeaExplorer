@@ -1,0 +1,8 @@
+Unified EMC Material Website
+
+Months ago when I and another TCE peer encountered an urgent customer AR (AR NO.:610818 598088), we searched to try to get materials needed, but didn't find and not confirmed whether we exhausted all possible knowledge database.
+All EMCers will be affected by this idea.
+Via this unified EMC material website, we can type the key word to the editbox and press the search button to navigate the search. The navigation should go to all databases of EMC.
+The challenge is that whether databases of EMC may be Yigoude and web deveopers should integrate them.
+
+

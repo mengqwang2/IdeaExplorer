@@ -1,0 +1,31 @@
+EMC STEM Connect
+Building a robust Mentor-Mentee platform for EMC experts to interact with young engineers/lecturers/students.
+We already developed an Android application for farmers to communicate within the region. The same can be improved for Mentor-Mentee to collaborate.
+Inside.emc.com and SABA data will be leveraged to identify the EMC Mentors in various emerging technologies.
+
+Through Android application, Mentor and Mentee will be registered in the EMC STEM Connect platform. Mentees can subscribe to only one technology as a Mentee based on their interest. Once they have attained an expert level, Mentee can unsubscribe and subscribe to any other new technology. They can register themselves as a Listener for as many technologies.
+
+For subscribed technologies, Mentees involves as a Contributor to a POC/user story provided by a prime mentor.
+For registered technologies, Mentees as a Listener can view the conversation and post their queries/responses.
+
+Once they have subscribed, they will be able to see the Mentors associated in the technologies. 
+
+Mentees can post their queries and get the response by publishing on the website. 
+
+For each technologies they had subscribed, they will be able to get the study materials through VEX Robotics service on demand. EMC Prime Mentor prepares and articulates the study material as per the POC/user story.
+
+Mentors will provide a user stories and story points to their mentees. Mentees can pick up their story points as per the priority.
+ 
+Mentees will update their progress in Pivotal Tracker and reports will be sent to the Mentor-Mentee Groups on daily basis.
+
+Based on Mentor contributions, like giving story points, answering mentees queries correctly, they will be rated in terms of Number of stars. They are recognized as highly potential and influencing Prime Mentor in the group. Mentees will give rating to their Mentor.
+
+Mentorship services will be hosted in PCF and it exposes REST API for client to communicate with.
+
+******Link to the Presentation****** https://inside.emc.com/docs/DOC-155761
+EMC can give back to the young community with necessary vital information.
+EMC STEM Connect platform can be used across the global for hiring right GSAPers and bring them on board.
+This standard platform can be sold as a product for fresher hiring.
+EMC can involve in identifying the emerging technologies that students should be aware of.
+As the technology changes in fast pace, students are clueless on what needs to be studied and get expertise on it. This platform will give a way to them for smooth journey.
+

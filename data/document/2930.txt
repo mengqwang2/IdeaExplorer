@@ -1,0 +1,8 @@
+Short information video clips for New Products
+This idea will help people upskill for the future in IT .
+Sometimes when a new product is coming out, I was thinking if there was a short video showing those units it would position people well.
+If in future going forward there could be information video’s that could be sent out showing the new units which are going to be rolled out on the production floor and also showing the different units names etc this will give people a heads up on new products that will be coming down the track and will put people in a good position of understanding the products before we need to build/test them.
+1.	A clear understanding of which unit is which . 
+2.	Will position people well 
+3.	Will position people well if they know names of each unit early on and what it looks like, then people may spot potential issues and innovate solutions at an early stage.
+

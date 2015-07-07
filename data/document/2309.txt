@@ -1,0 +1,29 @@
+"Call via Deskphone" App for Microsoft Lync (In a single click, call any contact in your Lync, including customers, from your deskphone)
+A modern and fun workplace with new and cutting edge ways to communicate and collaborate. Calling all colleagues or clients from Lync without remembering their numbers gives a seamless experience from anywhere with device flexibility and less restrictions.
+Got this idea when we were discussing and analyzing on how the communication can be improved using the advanced Microsft Lync.
+Workflow:
+
+*Start Lync 2010 Client 
+*Go to Tools –> Configure Call through Deskphone App
+* The following information have to be configured in our App
+     # IP Address of our Deskphone
+     # Extension number of our Deskphone
+     # Passcode of our Deskphone
+* On your Contact list in Lync , right click to a contact and select "Call through Desk Phone"
+
+How to configure the "Call through Deskphone" app:
+------------------------------------------------------------------
+* The SNOM feature in Lync allow us to add a new driver in Lync, which will let us to choose what default Audio device to use for every call that you make from Lync
+* So we can configure our Cisco IP phone as the audio device in our Call through DeskPhone App
+* We can also switch call between Lync client and our desk phone.
+
+For more details how the ip pairing has to be done read through this link:
+---------------------------------------------------------------------------
+
+http://windowspbx.blogspot.it/2013/07/how-will-lync-enhanced-better-together.html
+
+
+Success:
+Getting implemented to provide ease of communication
+Benefits:
+Calling a colleague or client seamlessly anytime anywhere with any device (mobile lync, desktop lync, web lync)

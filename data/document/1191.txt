@@ -1,0 +1,42 @@
+DiscoverIT(Socialcast) based collaboration platform for STEM Education community
+As part of EMC community give back, EMC donates VEX Robotics KITs, to school, conducts EMC sponsored challenges. 
+Being an employee, one can give back to community, by helping students in nearby school on various subjects like STEM Technologies, science etc.
+To ease the process we need a platform (Mobile enabled, community based) where employees can work collaboratively with students/school, and school can reach out to us.
+
+We had discussed with the sponsor to understand the expectations and the kind of solution they are looking for, a solution that can be built upon the existing EMC technologies or products on the social platform which will be cost effective. 
+
+The solution had to be feasible enough for students to access and connect with the EMC employees with social media collaborations such as Twitter, LinkedIn etc. and the most efficient EMC product was DiscoverIT based on Socialcast.
+
+
+A Low cost solution involves EMC’s DiscoverIT platform, based out of Socialcast.
+This would leverage the employee and schools/students to work collaboratively by following means.
+•	Create groups and connect through public/private community.
+•	Post challenge/idea in public/private.
+•	Create a topic/lecture as a Project, add members to it, track timeline, assign task.  
+•	Instant message with Lync, Custom implementation in Social Cast for Students to click chat option from Social Cast which open up Google Hangout Students can add EMC Employee email ID Google hangout and directly start the chat with employees in Link.
+•	Schools, Student and Employee registers.
+•	Follows the community/group, based on their interest and locality.
+•	Schools creates  community, administrator it, retrieves the analytics. 
+•	Schools creates challenge can be taken across various schools, where students or employee can post ideas. 
+•	EMC representative creates the Projects for each kit donated, adds the members to it, who can post queries answer to queries, share files etc.
+•	The queries which are hash tagged will be posted on twitter.
+•	Analytics will be performed on the query/issue posted and automatic matching will be performed against the knowledge DB, recommend solution if the query was previously answered from the knowledge-based API, also tag/notify the employee who provided the solution in the past to extend any further support.
+•	A report will be generated to measure EMC’s involvement with the society.
+•	Students will have a option to have an instant reach out using chats such as Lync, Gtalk or messenger.
+
+1.	LOW Cost solution: can be built in short duration, leveraging existing EMC   Product/Tools/Technology.
+2.	Mobile Access: Tap into your community from anywhere, on multiple devices.
+3.	Analytics: Get real-time feedback and actionable insights about your community.
+4.	Administration: Manage and grow your community with ease. Customize your social network to reflect your unique culture and brand.
+5.	Social: connect with twitter for tweets on topics, LinkedIn for profiles.
+6.	Instant Communication: by means of Lync and Messenger/Gtalk.
+7.	Collaboration between Schools :  By posting challenges, which can be taken across schools, answer to it, vote the best idea/question. 
+8.	Knowledge Base: for dynamic matching  of the queries with answer, keyword based search of the problem.
+
+9. Analytics module will be a custom implementation on top of the out of the box features provided by social cast, will make the complete solution smarter, quicker resolution can be provided, knowledge base will be enhanced in a automated way.
+
+Effective use of tools and technologies which are already present within EMC federation 
+
+
+More details on the architecture can be found at https://inside.emc.com/docs/DOC-155802
+

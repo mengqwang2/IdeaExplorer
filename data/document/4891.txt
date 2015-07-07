@@ -1,0 +1,6 @@
+Incorporation of USB ports on the VPLEX Engines facilitating flashing director firmware directly
+
+There was a need to flash firmware on the directors and we faced delay in doing so due to sms not in optimal state. So this is an alternate way to flash firmware
+on directors thus reducing sms dependency.
+If we incorporate USB ports on the directors of engines, we can load the firmware image on other storage devices like a pen drive and flash the firmware by connecting it to the USB port. This avoids the dependency of the directors on the sms for flashing firmware.
+

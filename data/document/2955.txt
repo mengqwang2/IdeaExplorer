@@ -1,0 +1,10 @@
+Wonderful Chat Service Experience
+This idea is helping improve customer experience by reducing initial response time of Chat cases. This matches the Customer Experience dimension of APJ COE "Solutions Platform" Challenge
+Recently, our Avamar support Chat cases volumes are increasing. Due to resource limitation, we only have 2 Chat support work at the same time each day. Sometimes customer could wait for a long time until a chat support has a free hand to help them. This is a very bad experience for customer. This idea is from the real challenge our support teams have been facing each day.
+Our solution is adding some new features to Chat services including:
+
+1.	Provide an approximate time how long customer should wait until get a help
+2.	Provide an indication how many Chat engineers are working for Chat services at     that moment
+3.	Prompt an option to customer to transfer the Chat case to normal queue to follow up if they don't receive a response after 3 or 5 minutes. If customer accept the promotion, Chat system will move the case to normal queue automatically and support team will follow up from that point  
+
+A good chat service is customer should get a help from other way if all chat supports are busy after waiting for some time. For example, after waiting for 3 or 5 minutes, Chat system can prompt customer whether they want to continue waiting for they prefe

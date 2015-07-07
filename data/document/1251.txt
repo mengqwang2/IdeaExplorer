@@ -1,0 +1,15 @@
+Entered Contracts Report
+Our goal is to identify the contracts which are getting missed as renewal opportunity and fix them.
+Set-up a warranty  for Entered contracts to  ensure customer gets a proper support and services during warranty period. 
+
+Idea has come-up when we received an query  from customer to check why products are not covered under warranty period though he is already paid. 
+Analysis part is completed and approached BTG group to find out the root cause under WR#414031
+In discussion with management to decide on clearing of backlog
+Currently there are 15523 (30% are SAP SO’s and remaining 70% are Catalyst) contracts in OKS systems which needs to be fix manually. 
+Work with IT (BTG-Group ) Identify and fix  system glitch to avoid contracts falling in Entered status.
+Pull   Entered status report on periodical bases and fix manually if there is any system fallouts.
+If 25% of these contracts are getting quoted then also it will be huge revenue to EMC.
+Customer will get proper support and services for which he is entitled during warranty period.
+Renewal sales rep will get notification on time, which will help them to reach customer with renewal quotation well in advance. 
+10-15% volume reduction in entitlement process and reduction in manual work.
+

@@ -1,0 +1,5 @@
+ Smart Efficient IT Helpdesk 
+
+ From experience dealing with IT helpdesk for repetitive issues
+IT already has a huge ramount of information increasing everyday  about many request types that come to the IT help desk daily. we can use big data text analysis techniques on the the requests data to be able to identify the most common issues and generate the solution automatically for the next request if the new request matched on of the common issues. this can save the IT support employee time and resolve the problems faster
+

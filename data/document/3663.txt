@@ -1,0 +1,9 @@
+Product feature contest
+
+I was discussing the idea with a colleague working as a software developer on how he could be more interactive with his customers and get feedback from them.
+My idea is to announce a feature contest for every product once a year among the customers using this product.
+
+The contest could be joined through EMC website where the users could like the product as it is, add features that they would like to be in the products that they use or even add comments about the products and the support delievered
+
+The winner of the contest would be by getting likes from other customers on their added requested features and these requested features could then be passed to the developers to review and see if they are applicable to be added.
+

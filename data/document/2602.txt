@@ -1,0 +1,6 @@
+Use mobile phone as the single gateway for all mobile devices
+The number of connected devices in our lives is exploding. From smartwatches to smart light bulbs, more and more of the world around us is online.  We can leverage our mobile phone as gateway to protect our mobile devices.
+When our team was discussing the challenge, I got the idea.  After that the team discussed more detail about it.
+
+Mobile phone is almost a must in our life, and it has relatively adequate power and computing power to serve as a mobile gateway for Wifi and Bluetooth.  All other mobile devices will restrict their connection to the mobile phone. A "firewall" App should be deployed on the mobile phone, to monitor and filter the communication pass through it.  Because of the computing power of modern mobile, users can apply quite complicate and helpful policies on it.  Other devices can rely on the mobile phone to defend malicious attacks from outside.
+Mobile devices can have more secured connections without any hardware investment.  It is enhanced from hot spot solution.

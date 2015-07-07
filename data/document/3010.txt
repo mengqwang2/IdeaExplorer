@@ -1,0 +1,7 @@
+Feedback mechanism for events and meetings
+Internal Meetings and Events
+NA
+On community Event page there should be a 'Feedback' link or tab in which the responses are only visible to the organizer(s) related to that particular event or meeting. The person should have various options available to him to collect effective feedback. This should also be done irrespective of the Community people are part of. By doing this everyone will be able to suggest things openly including inhibited people as well.
+1. A person should be able to design his/her own feedback form.
+2. Everyone should be able to provide feedback openly.
+3. Get accurate feedback or conduct surveys internally.

@@ -1,0 +1,5 @@
+Automated Hardware Access for remote infrastructures(Storage/Server/Switch/etc.)
+
+From previous practical experience 
+There are lots of tools, technologies available in the market, like EdenTree, which is a separate hardware and software solution which gets connected to all the hardware in the Lab and anyone across the globe can access the same remotely and do any of the above mention task like cable pull, etc. remotely without any manual intervention.
+

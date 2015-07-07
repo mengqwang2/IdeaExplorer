@@ -1,0 +1,11 @@
+Rent of personal Compute Resources
+Sharing of resources, Utilizing Internet Network
+Just a thought 
+Create an application to be downloaded on Computers/Laptops or even servers
+this application allows people to present their CPU and RAM to participate in development projects, 
+
+The application keep some of the resources for the local running app on the Machine and dynamically allocate the compute resources it is allowed to use 
+
+based on the preference of the machine user he can define the threshold above which he stop sharing his resources
+Allows more utilization to compute resources
+Help development entities save cost of ownership

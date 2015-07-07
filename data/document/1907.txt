@@ -1,0 +1,29 @@
+ECD Solutions/Products Catalog for EMC Enterprise Hybrid Cloud (EHC) Platform
+Our idea will increase customer adoption of EHC VMware edition by providing ECD services/products catalog (like search, sync/share, collaboration, content management). 
+
+Current available modular add-ons in EHC includes Oracle Databases, SAP Apps, Microsoft Apps, etc. Providing content based solutions/services will be more prevalent and will mask the complexity to deploy ECD products.
+
+•	APJ COE "Solutions Platform" Challenge
+This idea integrates ECD solutions and products into global EHC Service Catalog for better customer experience and richer features with existing technology assets.
+
+•	Enterprise Content Division (ECD) Challenge
+This idea makes ECD products more close with EMC ecosystem, especially in EHC.
+
+•	Global Solutions Challenge
+This idea makes EMC and Federation products combined into EMC Solution Catalog for easier service orchestration, like what we have done for Oracle Databases, SAP Apps, Microsoft Apps.
+
+Inspired by the tech talk of EHC, we found that the available modular add-ons in EHC includes Oracle Databases, SAP Apps, Microsoft Apps, Hadoop and many other common services
+In order to publish the catalog item of ECD solutions/products to the global Solutions Exchange Marketplace, we need to follow the steps below:
+
+    1) Plan the customization specifications for different products, like database connection, storage allocation, network setting, etc.
+    2) Create the virtual machines with proper configurations, convert to a service template for service catalog
+    3) Publish the service template to the marketplace
+    4) Customers imports ECD application blueprints from the marketplace in self-service mode and do proper configuration before provisioning
+
+
+Regarding how to do the licensing, we could follow the practice how we do for Oracle database and EMC Data Domain.
+
+For the OpenStack edition of EHC, that needs to use Heat Orchestration Template, but the general idea and workflow is similar.
+Increase customer adoption of EHC VMware edition by providing ECD services/products catalog (like search, sync/share, collaboration, content management). 
+
+Mask the complexity to deploy ECD products.

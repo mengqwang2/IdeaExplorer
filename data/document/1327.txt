@@ -1,0 +1,15 @@
+Self Healing and Self Scaling Micro Services
+This provides forth platform on infrastructure intelligence by providing the opportunity to each of the services to heal and scale by itself based on the load on them.
+This avoids a separate monitoring of applications and services and reduces the management overhead on the DevOps Team.
+This brings a self intelligence into the infrastructure related services and remote provisioning by themselves.
+This idea comes during my architectural experience using Micro Services Architecture style.
+The Core Components of these Self-healing and Self-scaling micro services are:
+•	Embedded Watch Dog for Load – It is an embedded interceptor process within the Spring Boot based micro service, which will count the number of requests coming to the service per second. Each micro service is designed for a specific threshold number of requests based on the stack size defined while startup of the service. Once it reaches the 65% of the threshold, it will invoke the service cloning script to instantiate another instance of the service and register with the centralized registry services with the same service name.
+•	Embedded Self-Healing Agent – It is another embedded process which will get added as a shutdown hook process, so that it will be trigger before the service gets destroyed. This process will invoke the deployment script to start a new micro service with the same name and same URL. If there is a VM or machine crashing, then this process would trigger the deployment script in a remote VM or machine and updated the Service Registry with the appropriate URL.
+The self-healing feature of this micro service can be used in cloud deployment and it avoids the use of CloudWatch component to monitor the health of the service and prompt alerts in case of any unavailability or crash of the service.
+
+The self-scaling feature of the service avoids not only the CloudWatch usage, but also scales at various remote VMs and registers itself into the service discovery registry.
+
+These micro services can watch the load its individual instances and scale automatically when it reaches the threshold.
+
+The self-healing feature even takes care of machine or VM failure and makes sure it got created in a remotely available VM or machine and registers itself with the new URL.

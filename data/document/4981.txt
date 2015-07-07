@@ -1,0 +1,5 @@
+Hadoop and Yarn cluster monitoring-as-a-service
+
+During working on hadoop, I always need to monitor hadoop cluster to get the status of my map-reduce job or the healthy of whole hadoop cluster by access "namenodehost:50070" or Pivotal command center.It's convenient but not flexible for me. I think we can use the monitoring data to do more. I hope it can provide some programmable interface fro developer to redevelop on it. So I bring up this idea with my colleagues.
+We provide clients for developer with Java or Python. Our API spec is public and consists of REST calls that can be made through HTTP, so if user don't use one of our client libraries, it's easy to implement your own client or even use the API from the command line with tools like Curl. User can find open source clients in Clojure, Perl, C#, and more here.
+

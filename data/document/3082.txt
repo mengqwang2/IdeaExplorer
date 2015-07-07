@@ -1,0 +1,12 @@
+Next Generation Phone Channel of IT Support
+Multi- vendor issue creates: 
+Delays in troubleshooting when there are technical issues with the phone system and therefore a lengthy downtimes for users attempting to contact the Service Desk via phone. 
+20 min replication for the message of the day 
+Whe
+N/A
+Business Vision:  Use only a single vendor for the IT Service Desk phone system.  Utilize Computer Telephony Integration (CTI) technology and leverage unified communication advancements
+a)Improved TCE 
+b)Aligns with Unified Communication vision and strategy 
+
+Benefits: 
+Reduction of $50k annually by eliminating unessesary calls  to the IT Service Desk as users are informed about outages and service interruptions before reaching to a real

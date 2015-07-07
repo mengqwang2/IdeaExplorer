@@ -1,0 +1,33 @@
+‘ Multi Log Interleaver’ – better solution support using  solution-level troubleshooting
+ The idea aims at better solution support by seamless handling for complex issues especially in Converged Infrastructure environments. The solution aims at saving time and effort for TSEs and maximize TCE by quick problem resolution
+
+  The idea came up from the daily work and repetitively checking huge amounts of log files concurrently when troubleshooting VNXe issues with hosts
+ The idea indicates the need, current approach, our proposed approach as well as benefits gained.
+ What Do we need ?
+
+-	When troubleshooting a solution-level issue that involves more than one product/technology (spanning across storage, hosts and networking..etc), we usually need to analyze the logs collected from each component/product and try to find the relations/insights from these logs as a whole.
+-	The issue is that each product has its log files that are separated from the other components. However a TSE needs an overall comprehensive view of the logs together to troubleshoot the issue
+
+The current approach:
+
+-	The TSE checks the logs from different products separately and compare results manually 
+-	The TSE matches timestamps manually from each log file to see what events happen concurrently and what events caused others
+
+Drawbacks:
+This approach is a tedious manual repetitive task that wastes a lot of time/effort
+
+Our Approach:
+We propose a log-log interleaver tool that can automate the following :
+
+-	Take two log files together (for example: VNX log file and Host Logs) and process them together
+-	Compare timestamps together to sort the events from the timestamp point of view (chronologically )
+-	Display a unified view of the events from the point of view and the host (at the right) and the storage (at the left).
+-	Will display the timestamps in a unified standard format that is human readable
+-	Will highlight certain keywords such as “error”, “warning” and “ failed” etc
+
+
+1.	Saves huge amount of time and effort wen investigating a solution-level issue
+2.	Promote the solution level-support by providing the needed enablers and tools
+3.	Minimizing TTR for the problems and maximizing TCE
+4.	Ease of reporting and root cause analysis
+

@@ -1,0 +1,19 @@
+Store and Relax
+By using this idea EMC can create a space for itself in new domain which can turn in to a Billion dollar product.
+Brain-stormed with co-inventor
+Our solution will work in following ways:
+1.Currently almost every person has their data stored on laptop,harddisk,phone etc.
+2.As we know, "Needs of storing data getting increased everyday, so the demand for disks will increase to store it".
+3.Currently people don't want to delete the data from their laptop/hardisk though they are not using it as they might need them in future.
+4.So  to tackle this problem, we can provide service to people such that they can store their data at out datacenter & start utilizing their storage (laptop/harddisks) again.
+5.here we can provide door step service to take data from customers & copy it to our datacenter .
+6.to make security to users data, we can provide encryption (public & private).
+7.Once all data is available at our datacenter we can provide the online portal to respective customer from where they can access their data by using private key & also download & upload whatever data they required.
+8.Also if customer needs huge amount of data from the datacenter then we can ship the data at their door step.
+9.Here we can apply different solution like de-duplication(at our datacenter site) so that less storage used as many of customers will be having same data such  as movies,songs etc.
+10.here we can charge customer on monthly basis to get revenue generated for longer time.
+
+11.Also we can make quite a few conclusions by doing Data Analysis (Hadoop technology)their type of secured data.
+1.Company get chance to enter in this domain & all our storage products are utilized fully.
+2.Opportunity to make good amount of money from this.
+3.Marketing of EMC brand.

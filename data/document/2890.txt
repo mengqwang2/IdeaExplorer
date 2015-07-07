@@ -1,0 +1,5 @@
+Virtual QA platform
+CTD Supportability in 12 Months or Less
+I have tested our arrays for long time, offten met the problem on lacking hosts, actually not real lack, and cannot be managed well
+We can create a platform, which can collect all test hosts and arrays, then automatically assign one or multiple hosts to band with arrays, if the array don't need these hosts or have not used them more than one month, the system can release these hosts for others using 
+It should be a platform for all test equipments and easy to use for building test environment including software, hardware and so on

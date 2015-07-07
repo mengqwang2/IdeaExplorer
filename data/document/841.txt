@@ -1,0 +1,19 @@
+EMC's extended support for non premium customers
+Non Premium customers can go on with their business of data protection without having to wait for EMC support to arrive. Though this is a temporary solution, this will help the customers to backup their data during multiple disks failures.
+This is just a thought keeping customer service in mind.
+EMC must support these customers by providing a temporary solution that does not 
+hamper their data protection and helps in continuing data protection without downtime on a temporary basis.
+
+It would be good for EMC to -
+Provide validation on thrid party HDD that the customer can use for the moment. 
+A provision to validate these Hard disk drives and certify for temporary usage until 
+EMC support team arrives for a node or disk replacement.
+EMC can allow/unlock a special package from the download center, that the customer 
+will use it against the HDD, run the software on the HDD and certify the disk to be 
+used temporarily.
+The third party HDD will be marked in the probe.xml files and other Avamar config 
+files with a dereferencing flag indicating that this drive must be replaced with EMC 
+HDD
+There can also be some other security features enabled on these drives until replacement.
+Special reports can be generated indicating both EMC and the client for disk/disk's replacement.
+EMC and Non-premium customers are both benefited. Customers need not have to wait till the support arrives 

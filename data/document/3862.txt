@@ -1,0 +1,9 @@
+Array based data migration with ViPR
+
+This idea is based on my experience around host and array based migration technology.
+I strongly recommend to use array based migration for any data migration via ViPR 
+Based on the backend storage, allow few array based migration technology via ViPR
+Prepare configuration for array based migration
+Move the data by using array migration methodology
+
+

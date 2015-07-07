@@ -1,0 +1,13 @@
+Total Customer Experience
+TCE can only be achieved, if the customer has to deal with lesser and lesser amount of people. Its less confusing for a customer if he has one head giving him all the info he needs and will be easier to have a SPOC to reach out.
+i am from CS, and we encounter everyday customers, who are confused about the case he is working with you specifically. Multiple issues from the site leads to a hotter and frustrated customer. The burnt of one issue gets reflected on another TSE CSAT sometimes. 
+1. Create a Master ticket policy, my suggestion SR id: with customer site no and an unique no for the problem. Site: 12345 - xxxx <- SR id. That ways the issues can be indexed easily for all the SRs from his site, and it will be easier to run a map-reduce program for his site to analyze the problems, which are frequently hampering the production and eventually resolve all the problems from the site from root, in a more scientific and balanced method.
+
+2. Different team TSEs can work in sync with the other teams, no matter where they are situated globally. For eg; if we can add a minor modification in Service Center or Qtool, and allow TSEs to put the specific time they are scheduled to webex at this site, TSEs from other teams can align there Webex sessions with the customer site in an around the same time. For eg: If the customer has a ViPR SRM webex from 6am to 6:30am, and TSE from Vmax support is trying to set up a webex during that time, he can be given a notification that customer is blocked during that time. Best part, the TSE can himself check the webex hours set up by other team TSEs and align one around the same time. 
+Benefit of that customer will have all the issues resolved over one webex session, and he has to be less bothered about how to accomodate the other TSEs asking for webex on same day. Eventually a happier customer. 
+
+3. Creating a detailed bulletin report for individual customer, with the overall summary for the various SRs that are opened for his site, and then individual progress reports on the individual SRs (basically it says where we stand with all the cases)
+(Many Admins from various companies have to share a detailed report with their management on the issue stats for various SRs. Its making there life more easy, while making ours a bit more challenging).
+1. We have a happier customer, as he has to deal with lesser people. 
+
+2. Eventually we want our customer sites to be an error free. Moreover that we want our products to work at 100% even if there is other problems from the site. We can track our product

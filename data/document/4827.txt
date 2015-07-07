@@ -1,0 +1,13 @@
+New Era: Software Defined data center(ViPR)challenges and Assesment
+
+The current Assessment services which EMC sells to customer are specific to Arrays (that too specific to EMC products). Thus with Software defined data centers there is definite need to evaluate the customers environment in terms of hardware and performance which is hidden under the software layer.
+
+
+Proposing a Data Center Assessments which will cover the entire data center health check routinely (twice a year) . which will include the following decision making:
+
+1.Deciding when it's time to buy
+2.Getting more out of what you have  with a hardware upgrade
+3.Proposing improvement in the architecture.
+4. Helping to use best design practices 
+
+

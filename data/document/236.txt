@@ -1,0 +1,42 @@
+XtremIO more than just IOP's ?
+Explain and show customers physical and real examples on guided tours of how XtremIO is not just a IOP's operating at sub milli second latency system and is capable of so much more
+Was on a manufacturing tour and the guide only commented on the IOP's performance and none of the other features of XtremIO and saw a field engineer carry out a FAI on a 6 brick MVT cab and make use of the XtremIO GUI. Requested a password for the XtremeIO GUI so I could trial it but was denied the password
+
+
+
+On guided manufacturing tours show working examples of a X I/O systems in operation compared to a competitor. (Actually see the product in action)
+
+
+Show case 
+
+Its VDI capabilities, show actually working VDI's, or showcase the ESX with its VXMs set up on the tester.
+
+How by adding more X-Bricks on its internal RDMA fabric and globally shared memory. There is no single point of failure as the cluster expands. Have a beast cab showcasing this
+
+How all applications benefit from the entire performance potential of the cluster all the time. Open the XtremIO GUI of a server while in action.
+
+XtremIO provides the highest usable capacity- over 80% of raw capacity. Open the XtremIO GUI of a server while in action 
+
+XtremIO was organically designed for flash, everything is elegantly efficient-  capacity, consistent performance, copy services, power, heat, rack space, management, and serviceability. Show power usage, rack in an actual data centre, temperature gauge at back of cab
+
+XtremIO was designed to systematically eliminate unnecessary writes eliminating write-heavy workloads which short and unpredictable flash lifespans, show lifespan of drives in XtremIO systems
+
+Allow the customer to touch a brick, put it together, pull it apart, dial into a node, see it on test and how we use the product to also test itself 
+
+
+
+Look like
+It would be a customer demo tester along with a single brick and a beast cab with the XtremIO GUI open on the screen (No cost, already in manufacturing area)
+
+Two UPS, two IB switches, two servers, a DAE and the cables on a desk where a customer can touch and assemble a brick themselves (No cost, already in manufacturing area)
+
+The XtremIO manufacturing cell with a Tester's screen viewable by a customer allowing them see all the steps carried out by our scripts and a capable TGL who can explain the scripts (No cost, already in manufacturing area)
+
+Working examples of the XtremIO product in use in our data centres (No cost, already in building)
+
+Success
+See how many new customers taking the old tour can remember anymore about X IO other than IOP's performance
+
+Then compare them to customers who take the new tour show casing all the other features of X IO along with working examples
+
+Will improve an already impressive total customer experience that EMC proves

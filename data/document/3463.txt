@@ -1,0 +1,19 @@
+Beyond MyVoice 
+
+ 
+The idea came when I was discussing with my colleagues that satisfaction is better measured in real time more than in a yearly survey. We tried to reach aon in-between optimum solution utilizing both approaches.
+
+ The idea works as follows: 
+-	We will have an analytics engine that takes more than one input and returns a probability score for each employee/department as a satisfaction score and a probability to turnover or resign
+-	The engine will take myVoice data for 3 years
+-	The engine will take input data from other sources like :
+o	Employee benefits 
+o	Employees KPIs over time 
+o	Employee activity score (*)
+-	The engine will run Big Data Analytics against the huge amount of collected data to provide areas of focus and to propose corrective actions.
+-	The proposed data analytics technique is “Time Series Analysis” that can study the data and behavior with time to see whether we are improving in different areas or not
+-	The engine will output a “Satisfaction Score” and “Probability of Turnover” for the employee and enable management/HR to take corrective actions
+(*) Employee Activity score is a proposed score in “Inside EMC” proposed in an Idea entitled “EMC-SAW - EMC Smart Active Workplace” submitted against Egypt COE challenge.
+
+
+

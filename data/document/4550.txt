@@ -1,0 +1,15 @@
+Data Analysis on Customer Environment 
+
+- Idea came up because we'd like to utilize the bug data approach to help our Customers about the repeated issues from certain components or product.
+
+- Deliver a solution to the customer without his request to make him satisfied all the time and in safe hands.  
+- Collecting the data about the Customer Infrastructure and Store it at Big Data Solution.
+
+- Monitoring all SRs and issues for all products and save this data on the Big Data Solution.
+
+- Prepare a report and use Data Analysis Approach to know which component is the cause for the big problem or what is the way to enhance that in the future.
+
+- We can provide with a solution to this customer to avoid multiple issues in the future and he will show the evidence by showing the reports about the case.
+
+- Customer Environment will be Monteverdi and making analysis all the time to get the maximum performance.
+

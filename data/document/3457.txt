@@ -1,0 +1,13 @@
+Home Cloud System
+
+NA
+The Idea is for each home to have its own minature Data center, with complete virtualization of all the resources…this includes CPU power, storage capacitys, RAM space,…To start doing this; all the resources need to be collected together, with all the needs of the home, and we would have an app per user, for him/her to specify the exact of resources required, that way each member would be allocated efficiently the right amount of resources by having them logon to virtual machines.
+To implement this all the products need to be miniaturized, to a very small scale, but still providing the same functionality of our regular products. 
+
+Benefits:
+-Cost Saving
+-Power Saving
+-Saving Resources
+-EMC tackling a much bigger market than everyone else, the normal regular user
+-Being able to implement our products on smaller scales, this approaching the small businesses strongly
+

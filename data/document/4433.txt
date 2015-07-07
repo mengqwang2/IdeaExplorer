@@ -1,0 +1,6 @@
+Allow empty query rule for Auto Retention Filer configuration.
+
+When working on Software Retention Management, I found in the code that this query rule cannot be empty. A question comes up that how to select all documents out if the query rule is a must?
+This will be a trivial change, but it will be a useful feature, I think.
+There is a quite simple way to solve the problem: just allow leaving the query rule empty, that means all documents will be set retention automatically.
+

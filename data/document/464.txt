@@ -1,0 +1,32 @@
+Predict Me Right: Data Analyzer and Real Time prediction tool for effective utilization of CTD products.
+This solution helps improve the supportability of CTD products 
+Help in effective utilization of customer features
+Telemetry feature in this solution helps Troubleshooting
+Enhances Customer Satisfaction
+Predicts gaps in usage and deployments.
+
+
+I was part of the customer forums and other such programs where I realized that these customers buy great products but sometimes do not use the products to its full potential. Some times they do not even know about the complimentary products and features that can make their jobs much easier.
+
+
+https://inside.emc.com/docs/DOC-156092
+
+ 'Predict Me Right' is a tool a data gatherer and a predictive tool which runs in the background. Its basically collects the data from the customer configuration and usage and predicts the customers how to use the product effectively. It may be as simple as simple tuning parameters based on his environment and consumption or some pointing to some unused features that will effectively solve his problem. It can even be an addition/ subtraction of few licenses which will add value to his current environment.This tool can further be extended to propose newer products to the customers.
+
+This tool gathers the data from the customer and proposes to the customer. So it will always be a customized prediction to each customer.
+
+The predictions in this tool can be based on Map Reduce and Algorithms using the Map reduce and data analytics algorithm with Hadoop ecosystem.
+
+Explaining the tool with a customer use case :-
+If a customer has Networker in data center and is running regular full backups every day. His tertiary backups are getting copied to tapes on a weekly basis. There is a high probability that he is not using the most of the Networker product by leveraging the different levels of Backups it offers.
+Like Incremental, Synthetics, etc. Also since there is a lot of redundancy in data adding a DD box can add a lot of value to the product by reducing the total capacity used by the customer.
+Also, since the tertiary backups are written on tapes this tool can also propose use of could features offered by these products. With the new offerings from Data Protection Cloud (DPC) there will be further tighter integration with the data protection products with different Cloud storages.
+
+Similarly, there are many unused features in these great products that are not getting used effectively by the customer. 
+
+EMC CTD offers a plethora of great products with patented technologies and features, which if sold in conjunction of each other can make life easier for customers.
+Using this tool will be an effective way to help customer use the EMC products in an efficient manner. Near appropriate predictions can increase
+	1) More sales of licenses and complimentary products
+	2) Improve Total customer experience
+	3) Enables Engineering to know customer better and focus on more used areas
+	4) Enable sales team to sell associative products

@@ -1,0 +1,5 @@
+Universal Customer Record (UCR)
+
+Everyone has heard of the Universal Patient Record and HIPPA.  We have discussed this cross-functionally as a means to fill a gap within EMC.  As we move to the 3rd platform, EMC needs to move to provide a centrally available customer-centric repository, like the patient record, that follows all EMC activities associated with the EMC solutions at the customer from inception to removal.
+The UCR provides a central BIG DATA (structured / unstructured data) repository within which all information about the customer, their products and any related content is maintained.  Currently, EMC maintains separate repositories of information that are only accessible to different businesses within EMC.  For example, we have SYR, SFDC, Support.EMC, local laptops, Syncplicity, etc., all of which contain either DB-specific data or file-specific content involving customer information and issues regarding RPQs, migrations, HealthChecks, etc.  Basically, provide the ability to mine this data and to provide greater visibility of the customer record of all products and activities, both within a BU and cross functionally.
+

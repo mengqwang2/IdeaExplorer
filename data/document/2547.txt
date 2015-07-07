@@ -1,0 +1,5 @@
+Big data collection
+as we are tending to have 44 ZB of data generetaed in 2020 proccessing such data wil be a big hassle we need smarter solution
+.
+Mapreduce fuction using java translate the software to the storage not only hadoop
+speed processing easy processing

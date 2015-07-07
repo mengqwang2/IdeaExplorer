@@ -1,0 +1,20 @@
+Integrating XDP protection scheme in VMAX array. 
+
+Currently in VMAX array, SSD drives are being effectively used with help of FAST algorithms. We can continue with the current architecture to have applications having workloads with skew 80/20 benefited from this.
+
+But what will happen, if customer wants their application with 100% workload / active at all time and running on the SSD drives only. Customer has to carve out the Luns from SSD drives with traditional RAID which is going to be costlier and not affordable.
+
+In this case we can have the dedicated drive enclosure which should be exclusively controlled by XDP data protection only and this space can be used for the application with workload skew value 100 and of minimum response time. This is comparatively cost effective and have lot of benefits as mentioned in the "How it works section" than the SSD drives being used in traditional raids. 
+
+By this way, SSD can be used effectively with XDP and traditional  RAID in the same array.
+
+XDP is the xtremIO's proprietary data protection scheme which gives the 
+Performance of RAID1/0
+Capacity of RAID5 
+Protection of RAID6 
+
+This has got the advantage of less space consumption for the Meta data and provides more usable space when compared to the traditional RAID algorithms. 
+
+Currently this technology is being used in XtremIO all flash storage array and it increases the drives uptime as compared to the traditional RAID does. Since the SSD drives are costlier and with XDP scheme customer can get most of it.
+
+

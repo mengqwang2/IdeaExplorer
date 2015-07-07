@@ -1,0 +1,24 @@
+Application to automate and manage smooth project implementation to support handover
+Now days we have seen that many concentrations given towards how the project supportability will be and how the support will efficiently work. But in all these things one major aspect we forgot and that is how the project is smoothly taken by support with
+We have observed from the past experience, that support usually has to face lots of issues because while project was implemented, lots of req were to clearly met. Or the wrong expectation was set which will lead support in a situation where they can't do anything. customer will also not understand why support is unable to work and will results into escalations. To avoid such situations and enable support with automated system to allow proper handshake between implementation and support teams .
+
+Please find the attached document from below location for more details and architecture diagrams:
+https://inside.emc.com/docs/DOC-153391
+Solution:
+While project is implemented below are the activities which will be performed:
+•	Customer will provide RFP (request for proposal) based on which solution team will prepare SOW (scope of work) and put these details in automated system.
+•	SOW will define what an all will be delivered to customer as part of solution
+•	Implementation team will prepare a DFS (detailed functionality solution) based on sow and register into the system.
+•	With these documents team will also prepare implementation doc, High level design, Hardware details etc. All these information will be feed into the system.
+•	After this implementation team will work and implementation will take place.
+•	While implementation there might be certain deviations which may arrive. these deviations once put into system will alert support team by sending the mail alert .Now implementation team needs to review this with support team using system or offline . 
+•	Based on this team will also inform customer the reason for deviation and if any impact is there that will be analyzed and put into system.
+•	Once the support team gives green status to the deviation in system then implementation team can proceed with it. 
+•	During the implementation process system will keep an eye on the requirements which are mentioned by the customers and how much is the deviation. Same will be highlighted to support.
+•	If there are any major changes which might needed to be there and were not part of initial design, implementation team will register that into the system as change and provide justification to it. Then system will send a mail to customer and support team to provide there inputs .if they are agreed using this information implementation team will raise a change request and same will be registered in the system. 
+•	Once the implementation is over, team need to hand over the documents and knowledge to support team .here with this process since the support team is having knowledge and access to the system from the beginning , they will not take much time to do handover . 
+•	Moving forward this system will help support team to underhand the whole solution and whenever any issue arrives, team will be able to handle them effectively.
+•	Also Incase customer request for something which was not part of the implementation SOW, support team can immediately refer system and highlight the customer. They can further ask them to go for upgrade to have new feature which they need.
+•	So this system will be able to help support teams over the periods and all the implementation details from history will be present to them and can be referred in few seconds.  
+
+This idea will certainly bring up better trust and support between teams and customers. Support teams will be knowing from the beginning what they are suppose to work up on and what is the scope. There will not be any ambiguity from any sides. This will c

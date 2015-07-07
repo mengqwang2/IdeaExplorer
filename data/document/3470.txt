@@ -1,0 +1,22 @@
+ “EMC Lab-Sim” – lab simulation service on the cloud powered by EMC. Simulate it if you can’t Use it!
+
+ The idea came up from working with VNXe support team. I have a great benefit learning about the KittyHawk box using its simulator. 
+ Simulators are very useful and handy when it comes to education purposes. They are cost efficient light-weighted and simple to use. 
+
+STRUCTURE : 
+
+The idea works as follows : 
+
+-	Implement a cloud based service that provides product and environment simulators to the students’ hands.
+-	The simulator will be as simple and easy as a VM running the product services and functions. 
+-	The user will book the simulator over the cloud and use it for certain period. 
+-	The simulator will imitate the functions and GUI of the product with limited virtual space and networking features.
+-	Existing useful examples of simulators implemented for test purposes in CS departments are like VNXe KittyHawk Simulator referenced below (*).
+-	Also GUI demos are very useful and handy. They are feasible to implement as they are as simple as local web page. Example of such demo is VNXe GUI demo referenced below (**)
+
+REFERENCES :
+KH simulator : http://supportinfo.lss.emc.com/VNXe/KH-_Simulator
+VNXe Demo: https://download.emc.com/downloads/DL52666?language=en_US 
+
+
+

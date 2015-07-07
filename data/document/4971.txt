@@ -1,0 +1,32 @@
+Inside EMC Integration with Lync
+
+This idea is a result of bringing in both the Lync & Jive specialists together.. 
+
+With out of the box Jive module for Lync, users can access the powerful real-time chat features of Lync and user presence information directly from Inside EMC.
+
+Jive has an Extended API plugin JAR file supported for Lync. Once the plugin is in place, then configuration is done, to manage the connection between Jive and a Lync server.
+
+Configuring Jive for Lync
+
+You can use the Lync Integration settings to set up and manage the connection between Jive and a Lync server.
+
+Fastpath: Admin Console > System > Settings > Lync Integration
+
+To set up a connection:
+1.	Provide the Lync Web Access URL, Username, and Domain for your Lync Web Access server.
+2.	Click Connect.
+
+Synchronizing Lync Users
+
+You can also use the Lync Integration settings to synchronize any users who have not been properly resolved between Lync and Jive.
+
+Fastpath: Admin Console > System > Settings > Lync Integration
+
+To show a user as available for chat, Jive sends a request to the Lync Web Access server using the Jive email address. If no matching user with that email address is found, no availability information will be displayed for the user in Jive until the user's identity can be resolved.
+
+Benefits :
+-	Improves the User experience by providing the ability to converse with friends on the same interface.
+-	Inside EMC would be available in mobile soon, in turn making this use case more compelling.
+-	Very simple to implement and can be demo’d
+
+

@@ -1,0 +1,8 @@
+Cloud Ready Access Control in VMAX, VNX arrays
+
+During our development and testing with EMC arrays, sometimes, the LUNs we created used to get accidently deleted. This used to cause data loss and significat delay in the engineering. This made us think about applying access control at storage level.
+VMAX, VNX arrays should provide a mechanism where in it should be allowed to specify which users can have the ability to perform administrative tasks such as list, create, modify and delete storage pools and LUNs, create/delete clones, snapshots and so on. 
+VMAX admin APIs should be able to import and export access control information in industry standard format such as Security Assertion Markup Language (SAML). 
+
+Using this, not only the applications and cloud solutions, Access Management Solutions such as RSA Access Manager, Otacle Access Manager also can enforce access Control in EMC Storage Arrays. 
+

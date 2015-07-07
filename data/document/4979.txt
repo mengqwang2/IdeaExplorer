@@ -1,0 +1,46 @@
+Auto Configuration of Avamar based on the broad set of inputs given by the customer
+
+This idea was born when we were discussing about the possibility tuning the various parameters based on the customer configuration . 
+
+We thought that there are some internal parameters which are not usually changed can be tuned for specific customers based on their requirement 
+
+if the above tuning is automated then it will be very helpful to the customer 
+
+More information about the idea is in the below link 
+
+https://inside.emc.com/docs/DOC-99785
+A program which will take inputs from the customer and based on the inputs will configure the avamar server and also fine tune the options used by the various processes of the avamar server. 
+This program with some modification can be applied to any backup/recovery environment. But the key to this program how it takes the inputs from the customer by asking the right set of questions and the tuning parameters it uses 
+So let’s first will look at the set of inputs that will be given by a typical customer.
+Set of inputs will be come under the below set of categories 
+Security requirements – High, medium, low, ssl mutual authentication – Based on this input the ciphers will be configured in both gsan,mcs,rmikeystore. If they have key manager the same will be given as input and proper akm service will be configured ( avamar key manager). This page where we get input will also list the ports that will be required so that the administrator can easily check if any of their firewalls will block and accordingly enable access to those ports.
+Domain requirements - List of domains, if authentication is used then ldap/Kerberos/nis related parameters will be asked – This will automatically create the domains under which the client will register and also configure the ldap/Kerberos related parameters
+Dataset requirements – What type of plugins and what type of retention policies will be used . Based on that corresponding groups will be created with datasets assigned and also proper plugins selected for each dataset. The input would be like the one below 
+	Will have sql plugin, oracle plugin and retention for sql is 60 days and replication is 1 quarter.
+Based on the plugin type the below set of tuning will be done 
+1.	If DB2 9.7 FIXpack 3 server detected then use “DEVICE_DEDUP” option in MC catalog for improved performance & dedupe ration
+2.	Note: This option does not give any benefit for the DB2 version below DB2 9.7 FIXpack 3
+3.	In case of large data file select following tuning options in Oracle plug-in/MCGUI
+Filesperset and maxopenfiles –controls the multiplexing parameters
+Filesperset =1 gives maximum dedupe.
+Filesperset = 64 gives better throughput.
+
+4.	The client backup performance can be improved if Oracle server has sufficient/highend resource  to handle multi processing.
+Select “Multichannel” option in MCGUI catalog.
+Note: Parallelism depends on resource availability.
+5.	In case lot of unchanged files are being backed up in regular basis then select “Backup optimization” in MC plug-in  catalog. For improved performance
+Network requirements:  - If NAT is used then paging needs to be disabled, similarly for WAN related configuration the tcpbufsize and sslbufsize will be modified based on the WAN parameters. 
+AER – Media Access Node related questions : 
+Below set of questions need to be asked for configuring the AER
+After it is deployed, it will do analytics and recommend new configurations to the administrators and the reasoning behind the new configuration. 
+List of analysis is given below
+1.	List of backups taken and if some backups have failed because of cipher mismatch then it will suggest lowering the cipher strength from high to medium etc. In gsan there are option on how to configure the different cipher strengths ( avmaint config sslciphers=medium) 
+2.	If some backups are waiting and then get timeout for reasons like in maintenance window the no of backup connections in queue were more than the specified limit, then the recommendation will be to increase that count.
+
+Implementation:
+Front end will be an UI where the set of questions/inputs will be gathered from the customer and backend will be an python/perl script which will run the mccli commands to make the configuration effective and in case of any errors ( in case of ldap there could be user error ) it will again ask the customer for input and proceed. 
+For analysis , the python/perl script will connect to the mcdb database and look at the backup errors and do the analysis.
+
+
+
+

@@ -1,0 +1,12 @@
+Customer Centric View of Support Interactions based on Text Analysis
+This is relevant for the TCE challenge, providing CS, Voice of the Customer and Sales with one succinct summary of the customer interactions with EMC.
+It is also relevant as an external Big Data Play, as the system can be re purposed to any CRM text collection.
+The text analysis system was developed by Dr. Raphael Cohen and Dr. Along Grubshtein from the Data Science as a Service team over the last two years.
+We have been working with David Dionisio from TCE to reuse the underlying mechanism for an end-2-end customer dashboard.
+We suggest using an existing Text Analytics engine for service request (SR) free text analysis to identify the underlying topics of each SR. This process is based on state of the art machine learning and NLP techniques: Latent Dirichlet Allocations, Passive aggressive learning and Brown Clustering, tuned especially for understanding customer relations.
+The labels can be used to show the trends of service events at a customer site and quickly browse the history. The labels are combined with an effective query search engine and a timeline browsing for easily exploring the customer’s history.
+We have already built a PoC loaded with VMAX data from 2014, have a look: http://10.15.25.40/ccv/
+
+The dashboard and data enable the account manager / inside sales or customer support to immediately and effectively understand the customer pain points without long manual browsing of the service events. 
+See some screen shots in the supplementary material, in that example you can immediately see the different between the SR profile of Citi (suffering from replication problems) and JPM (suffering from faulty drives).
+

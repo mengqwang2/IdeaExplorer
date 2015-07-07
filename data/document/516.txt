@@ -1,0 +1,18 @@
+SW/HW Alignment 
+Reduce the time Taken to perform ASC SW/HW linking process  and error % 
+Problem raised by Contracts Department: The quoted report has about 53M of unknown product associations. This means that the software/hardware may be expired or on T&M but the MCO are unsure and this needs investigation and cleanup as required
+
+Implementing a logic on the Apex Tool that is connected to the back end of the install base, catalyst and SAP.
+This tool will have SW as input and the output will be the HW that is linked to this SW.
+After having this output will be added on the Install base in the machine ID field.
+So after this the contract team will quote the SW matching the same orders of the Associated HW.
+The idea is in the test phase and it has 3 phases of success and now we are in the final phase.
+
+The benefit will be in the Revenue enablment that will be from this project.
+we have a small study regarding Revenue Enablement from this project we have enabled $18,343,258, and their is a potential revenue of $263,248,176
+
+SW/HW Linking project
+Total Opportunity Quotes $263,248,176
+Total Revenue Enablement $18,343,258
+
+

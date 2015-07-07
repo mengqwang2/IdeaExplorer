@@ -1,0 +1,52 @@
+ViPR SRM - Capturing metric/data life cycle
+TCE Challenge - 80% of the cases in ViPR SRM revolve around if the values shown in report are correct/or where they came from. Customers start getting distant from the product.
+
+Customer Services Challenge - Finding hard to debug W4N/SRM.
+Came up with the idea after working for more than 2 years on W4N/ViPR SRM product and faced multiple issues debugging such cases. Discussed the idea with team members and it should be of great value to product and to all the teams working on the product.
+My idea will show below details if you right click on a metric or any property, say CurrentUtilization, and select "Metric Lifecycle" for an interface of a device:
+********************************
+Data Name: CurrentUtilization
+value = 90
+
+Steps from end to start:
+Step1: Formula used->
+	   CurrentUtilization = ifInOctets + ifOutOctets
+	   where ifInOctets = 40, ifOutOctets = 50
+********************************
+
+Make ifInOctets and ifOutOctets clickable, so that user can get more information that why they are 40 and 50 respectively.
+
+If users click on these items, we further drill down for ifInOctets and ifOutOctets
+
+*********************************
+Data Name: ifInOctets
+value = 40
+Steps from end to start:
+Step1: Stored in DB apg1 on serverX (can give more information about variableid etc. also).
+Step2: Filters passed:
+	   PTF-2 -> NA (not applicable, i.e. data did pass through this but was not modified).
+	   VHF-1 -> Used (data passed and modified, so make "Used" clickable)
+	   PTF-1 -> NA
+Step3: Collector Name: Generic-SNMP
+           host = lglbb165.lss.emc.com
+	   pollgrp = ABCD-GENERIC-INTERFACES-XYZ
+	   Mask Name = GENERIC-INTERFACES
+	   Raw Value = 0.40
+*********************************
+
+
+Since "Used" was clickable for VHF-1:
+***********************************
+Data Name: ifInOctets - VHF-1
+Step1: Formula Used->
+	   ifInOctets = ifInOctets*100
+	   where ifInOctets = 0.40
+***********************************
+
+Similarly we can show details of each and every step in detail. This way customer can track what they are collecting and what we see in reports; how values get modified etc. This would be dynamic and we do not have to hard-code  this information for each and every data. This might involve running a separate service on each host, which would take care of this.
+If idea is implemented in product, it will definitely:
+a) improve customer's satisfaction
+b) help in troubleshooting better
+c) reduce number of SRs drastically
+d) improve overall product quality
+c) will help in POCs and in sales in demonstration

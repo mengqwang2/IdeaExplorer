@@ -1,0 +1,6 @@
+Ability to assign host lun id (HLU's) to devices in a Storage Group (SG) while creating a masking view (MV) on a Symmetrix VMAX.
+
+This will help in better TCE (Total customer experience) for the product.
+Several customers asked for this as they compared it with VNX. 
+Our very own product - VNX has the solution. The Unisphere used to manage VNX system lets you choose host lun id for each device during storage group creation. Why cant we have this on VMAX which is our flagship product
+Better total customer experience. Ease of use of product. Something which is a must have for an enterprise product management software.

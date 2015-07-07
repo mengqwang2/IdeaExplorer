@@ -1,0 +1,5 @@
+SAP HANA transparent cluster failover with EMC storage (VMAX, VNX, XtremIO, VPLEX)
+Accelerates adoption of SAP HANA deployments on EMC storage and integration into disaster recovery strategies.
+We had this idea when we tested HANA on VPLEX. However, we thought it would make sense to address this issue more general and realize it for all EMC HANA certified platforms.
+Take the SUSE Linux cluster framework based on Pacemaker and enhance it with storage callouts for the various EMC platforms enabling customers to implement a transparent HANA failover on EMC storage.
+Further adoption of EMC storage platforms with SAP HANA. Could generate incremental service and product revenue.

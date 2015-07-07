@@ -1,0 +1,14 @@
+Zoning script portal
+
+zoning taking a lot of time and stress process
+Have a portal where some data is input:
+-switch type cisco or brocade
+- vsan
+- source wwn
+-target wwn
+-1 to 1 zoning or 1 to many zoning
+and other input paramters that could be added to optimize this flow.
+
+Generate a script that would be pasted into the terminal
+
+

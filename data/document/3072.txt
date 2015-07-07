@@ -1,0 +1,16 @@
+virtual labs, rapid deployment of customized setup
+Automations that will replace manual work done in R&D labs today
+Opportunities for sharing equipment in a central pool, or between product development groups
+I thought of this about a year ago as I was trying to come up with a way to handle the loss of our groups lab in Duluth.  If we could set up drive images for the machines in the CS-labs then we could have all of the functionality that we lost when the Duluth lab was closed.  I've discussed it with my managers since then, and the idea was popular, but we have no way to implement it ourselves.
+
+this concept can be used for problem reproduction, or training.
+use a drive image server such as clonezilla (free) or Norton Ghost (non-free) to store multiple drive images for each server in the lab.  This allows each server to have windows, linux, ESXi and more all pre-configured and available with that hardware.  Reimaging a drive takes around 10 minutes.
+
+when an engineer needs a specific setup he just needs to find the appropriate hardware, and then reimage the server with an image that most closely matches the customers setup.  All necessary license keys would be part of the image or saved in a central repository.
+
+access to the console over a secured network would be necessary in order to reboot and reimage the host remotely.
+once the host is no longer needed it can be reimaged back to its baseline image in order to leave the lab machine the same way you found it.
+each group within EMC would be allowed to create and save their own images, which would be added to the central library.
+reduced time to reproduce customer environments for troubleshooting purposes.
+reduced time to reproduce customized environments for training labs and brown bags.
+reduce the amount of duplicated effort.  Once a customized setup is created, it can be saved 

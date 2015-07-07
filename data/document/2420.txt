@@ -1,0 +1,12 @@
+Smart Water Billing System
+This solution will allow customers to have predilection of how much their water bill is going to be and have the ability to reduce their usage if its above specific threshold which will contribute in Smart City.
+n/a
+-Each house has water counter and we will be automating the process of taking reads through a sensor that will send the reads to government.
+
+-Each householder will have access to web portal/mobile app where he can see the average of his usage and the tool will predict how much he should pay if he remains within this average.
+
+-The tool will have the ability to warn householders when there is water issue and suggest them to reduce their usage if its above specific threshold.
+
+-Government will have the ability to broadcast messages to householders if they are planning a scheduled outage in certain locations
+Success would be reducing the amount of water usage and making people more aware of importance of it instead of wasting it on things such as cleaning cars and streets.
+This is going to improve customer satisfaction as well as enhance productivity and opti

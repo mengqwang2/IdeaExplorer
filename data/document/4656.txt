@@ -1,0 +1,10 @@
+Mechanism for utilizing unused storage space during DDS creation selecting two different size storage volumes/LUNs in VPLEXVE system
+
+During testing of Lionking 1.1, we have seen that there are more unused storage space due to DDS creation selecting two different storage volumes and migration performed from one device to another device of larger capacity. So, this mechanism should allow us to utilize such unused space effectively by converting them to another storage volume.
+During DDS creation with different size storage volumes/LUNs ,We can implement a mechanism that identifies the higher capacity and lower capacity storage volumes. It logically divides the higher capacity storage volume in to equal multiples of lower capacity Storage volume. It converts the unused capacity to another storage volume.The converted storage volume can be used for another DDS creation.This mechanism maintains a reference table of the physical to logical storage volume being created.
+
+The same mechanism can be used to convert the unused storage space which 
+remains during migration from one device to another device of larger capacity.
+
+In this way, we can utilize the unused storage space efficiently which occurs during such DDS creation and Migration.
+

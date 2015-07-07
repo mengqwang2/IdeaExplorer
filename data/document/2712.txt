@@ -1,0 +1,30 @@
+Energy innovations from EMC
+The set of ideas mentioned here are targeted towards improving the energy efficiency of EMC products.
+I was fascinated by this challenge and googled for finding more information about the problem. All these ideas are a result of brain-storming while asleep at night! :)
+Customer mindset:
+Everyone knows that new versions of any hardware product will be more energy & cooling efficient (in most cases, at least). But, the complexities involved in moving the existing workloads to newer storage arrays prevent many customers from taking this step.
+Solutions:
+- The sales team should provide authoritative numbers on projections of how the new products will cut the OpEX over a period of time.
+- The sales team should also provide the benefits of Virtualization in terms of power & cooling benefits to customers who are yet to try out this technology.
+- Provide 'rebates' to customers who are committed to going-green. This could be like giving free software tools for a limited time or providing company freebies from time to time.
+- Each server should have 'Visual Indicators in them that display the 'Energy consumption' and 'Heat generation' matrics. They could be exported to a ViPR controller for graphs etc.
+
+Reducing Power Requirements:
+To reduce power requirement, we need to first find out the components in the product that are power-hungry. Once the major ones are sited, we can investigate how new technologies can be used to reduce that.
+Solution(s):
+- Traditional spindle disks take more power & generate more heat due to motor than the new SSDs. So, where possible, they could be used. Of course, cost would go up, but, the long term benefits are more.
+- Provide mechanism to operate all components in 'low-energy' mode when they are not in use.
+- A radical thought is to have small solar panels on the top of the product that could harness the lighting in the Data center and use it to charge the stand-by battery or other redundant components.
+
+Improving Cooling:
+Many electrical components generate heat during usage. Cooling is required to ensure that they do not overheat and cause damage.
+Solutions:
+- Channelize all heat from the system (similar to a kitchen chimney) such that they do not re-enter the system and cause further heating. This heat could then be pushed out of the data center or could be used to generate power using 'Thermoelectric' generators. We would also have a mechanism to chain multiple systems together so that all heat could be collected and probably reused.
+- Provide intelligent coolant inside the storage arrays that can detect the heat spots and apply cooling through nozzles only to the affected areas and for a minimal duration, thus avoiding waste.
+- The cables that connect the product to the existing infrastructure sometimes result in poor ventilation. We could design our products such that the cabling does not hinder the air flow in the system. This could be done by providing internal wiring that can enable sys admin to plug all cables at the periphery of the system.
+
+Conclusion:
+Mine does not describe ONE IDEA. Its an accumulation of many simple yet powerful ideas that can help us get better at Energy Efficiency. As such, I do not believe that there could be a single 'Magic Wand' to address all our efficiency issues.
+
+Ref: http://bigdatachallenges.com/tag/storage-array/
+By doing things that make our products more 'greener', we could set a 'Gold Standard' for all hardware products in the data centers.

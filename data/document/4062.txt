@@ -1,0 +1,5 @@
+Energy Consumption by Liquid Cooling Method
+
+Also we can re-use the coolants which again adds to the "Go-Green" Factor.
+Cooling is the major factor for any Data Center. We can use liquid Cooling Methods (Water/Liquid Nitrogen) for maintaining temperature or cooling equipments within the Data Center. We can have pipe channels running in and out of the Data Center and reduce the energy and power consumption in the data center.
+

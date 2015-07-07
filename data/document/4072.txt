@@ -1,0 +1,18 @@
+Adding favorite feature of knowledge articles. 
+
+Found lacking of favorite feature of knowledge articles adds lots of inconvenience for both support engineers and customers, thus proposing the idea here. 
+If we add this small feature and let users to save favorite EMC knowledge articles in Salesforce, big benefits that ensue are as follows:
+
+*From customers’ self-service and knowledge sharing perspective: 
+
+With customers being able to save favorite articles, not only does he have the ability to fix the re-occurred issues that he knows certain articles are the solution (which definitely reduces service request volume), but also he will be more willing to learn and share the useful articles with his colleagues. 
+
+The greatest benefit for supports or other related EMC employees is, now since we can “follow” people in Salesforce, if favorite article info can be published, new hires can directly navigate through each SME’s saved fav articles (which are usually proved to be most valuable and useful), so that they don’t need to waste time to seek for useful information to learn or utilize in the troubleshooting.
+ 
+*From the analytically perspective: 
+
+Quality and most used articles can be identified. We can improve our article online searching algorithm to let most saved articles take a bigger weight.
+ 
+The solution is easy to implement yet bears great value to both customers and EMC. 
+
+

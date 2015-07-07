@@ -1,0 +1,5 @@
+Conference/Bridge calls - Auto Dialer for Smart Phones
+
+Group discussion.
+Mobile application will read end users calendar details like toll free number, passcode, etc and auto dial into the Bridge number without manually entering the toll free number or passcodes from the smart phones.
+

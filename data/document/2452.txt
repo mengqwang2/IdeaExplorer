@@ -1,0 +1,15 @@
+Egypt COE Smart City and IoT Challenge
+Nowadays, we are living in a place that is far away from that is so called smart city. everything is disconnected supplies and demands. There is no proportional relation between what the Egyptians need and what is it offered for them.
+a lot of wasted  sou
+Having so much trouble finishing governmental papers time wasted and effort.
+the benefits of having a data bas of each and everyone's medical history, would help even in most dangerous cases of accidents hospitals would know the medical history of the patient through his fingerprint.
+A huge data base, where we log every citizen that is participating in this Smart City , this data bas should be applying all over the smart city : hospitals, gas stations, supermarkets, shopping malls, and most importantly governmental places  ( starting with this sample of ppl as a pilot phase within two main domain which are governmental offices and medical places as hospital and clinics  )
+Each citizen should have a record in the data base containing ( the basic info of national ID and Passport, his medical history and current status ) we need also to build relationships between the records (primary key and secondary)
+
+If this database was applied with very high accuracy and integrity that would save us a lot of man hours wasted in governmental offices, and medical places.. and later on that would calculate and forecast the individual use of gas, water ( calculating thru relationships of  ppl leaving in same address and house number)
+
+We need huge data center and thousands of labors (qualified) 
+virtual machines that can handle the complex calculations and relationships
+This idea would save the smart city a lot of time and redundant work that could be used in any other ways to improve the Egyptians life.
+
+

@@ -1,0 +1,10 @@
+SR Resolution to KB Article
+
+Currently it is very difficult to find an article for a particular problem, and even if we find it, it does not cover all scenarios
+1) Encourage Support Representatives to create KB articles for Unique Issues they have encountered
+2) Expedite the process of KB article approval
+3) Publish More no. of 'How to' and 'Best Practices' Documents/Whitepapers
+4) Combine all possible solutions to a problem in a single KB Article
+5) Support.emc.com should be Access free for customer viewable articles which will help increase the audience. 
+6) Include Service Requests in the search for Internal Employees. 
+

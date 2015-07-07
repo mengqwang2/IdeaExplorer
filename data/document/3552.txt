@@ -1,0 +1,13 @@
+Local GPTW Survey
+
+- Idea came up to enhance GPTW results
+- Send GPTW Survey to each Department and Employees will fill out his opinions.
+
+- Then, We can fix any issues in this Team.
+
+- If the Low Level (Team) doesn't have any issue. Global GPTW results will be very high.
+
+- We can use Data Analysis Solution to know the behavior of the results.
+
+- It can be Twice per Year
+

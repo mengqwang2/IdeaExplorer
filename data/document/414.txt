@@ -1,0 +1,30 @@
+Community Involvement and STEM Education Application
+Find a method that can leverage the EMC workforces’ skills to help nearby schools where teachers & advisors are looking for mentors or presenters on STEM-related topics.
+
+The challenge is to find a way to match our employee’s talent with local communities’ educational needs and to educate school kids, teachers, advisors as well as parents about what is happening in the field of Science Technology Engineering and Maths [STEM] and provide a platform through EMC gives back campaign.
+
+Idea originated after identifying the EMC's social commitment to serve the local schools and communities by providing a world class STEM education platform through 'EMC gives back' campaign.Proposed solution produces and value adds to the cause.
+
+Solution
+Proposed solution would take advantage of existing IT tools (pop –up from IT, an animated flash application) (to convey the real social commitment) which will prompt the user to update their profile details related to skills in STEM related areas. ’EMC GIVES BACK-STEM Week’ ideally drives across EMC to reach out employees to educate and create awareness of STEM, its importance and how EMC is committed towards educating  local schools and community with its STEM offering. With EMC GIVES BACK week specifically called for STEM week, our solution ensures that there is a process built to get details from employee once in a year apart from employees registering themselves whenever they feel like.
+
+One more way of letting the employees know about this would be a formal communication to employees through e-mails after which they can update directly to the inside EMC profile.
+Proposed solution prefers the first method for implementation as that would be more effective and realistic. First approach would help us to improve our GPTW aspect as well.
+Proposed solution should also reach out to new employees as and when they join. As a part of the induction/orientation programs the new employees are briefed about EMC STEM platform and they are free to volunteer for the cause and will update the details in employee profile in the inside EMC. Alternatively EMC GIVEBACK-STEM solution detects the new employee (preferably engineering background) profiles automatically, and reaches out to employee via email/EMC IT Tools that his\her qualification is very well matching with EMC STEM program and would like to join with EMC for this cause to help in bringing up a bright community for the future
+
+Tools & Methods
+
+Since EMC is rich in tools & live platforms related to education platforms, we can leverage EMC tools and technologies to build the STEM solution. The following EMC tools can be integrated to provide a quality STEM education platform. 
+
+Solution Document : https://inside.emc.com/docs/DOC-156083
+
+Benefits
+>	Service-learning has a positive effect on the student as his/her ability to work well with others, leadership and communication skills improve. 
+>	Service-learning has a positive impact on students’ academic learning.
+>	Provides opportunities for the mentors to introduce the latest research to the community.
+>	Community programs ensure greater level of Inclusiveness.
+>	Helps building respect and a good reputation for EMC in the community education sector.
+>	Act as corporate hospitality that promotes good relations with clients.
+>	Impacts in establishing EMC with better GTPW credentials.
+>	Opportunity for the mentors to showcase their expertise in STEM topics and coach young minds.
+

@@ -1,0 +1,11 @@
+Most likely problem
+This idea will improve troubleshooting speed/accuracy/scalability.
+
+it can prevent issues from effecting the client by predicting probable issues and reducing the number of customer contact points.
+
+This came up when we discussed our activities with one another and while working on data science projects for various partners. 
+Predictive analytics based on three existing FBDL data sources (Install base, service history, sales related data) our solution will identify both risk and opportunities, it will provide information regarding what the customer currently have? where? Predict impeding problem and trigger various proactive steps:
+1.	Field support
+2.	Relevant self-service support directly dispatched to customers contacts in site.
+3.	Calculate opportunities to generate leads
+The system will generate potential self service actions based on the existing information to  improve TCE and products' reliability. 

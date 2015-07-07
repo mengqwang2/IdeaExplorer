@@ -1,0 +1,5 @@
+Add function to set connection path for ISCSI in VNX Unisphere GUI.
+Improve the usability of VNX product in ISCSI environment
+It will cause confusion and decrease usability for VNX product when the use try to setup the ISCSI MirrorView.
+Add the entry to create the connection set and add the iscsi path in Unisphere GUI .
+Improve the usability of VNX product in ISCSI environment

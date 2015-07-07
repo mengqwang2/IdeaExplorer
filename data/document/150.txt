@@ -1,0 +1,31 @@
+A design of predictive analytics for time-series data with tiering object store and machine learning
+The design is built around the core functionality of predictive analytics for massive time series data. The key technical implementations contain tiering object store supporting quickly retrieving of time series data, predictive analytics with different types of machine learning algorithms, incremental learning dealing with ever-changing characteristics over time in time series data.
+This idea is come from the OCTO projects Triangulum Heliosphere and Supernova. Our team’s job is focusing on the predictive analytics in the cloud environment. OpenStack is used as the reference cloud platform. The one data point, with the format like {resource-id, timestamp, value}, is stored as a data item in the Ceilometer database. Such a terrible data storage design makes the analytics process get extremely complicated, and meanwhile suffering from performance issues.
+We propose a predictive analytics design for time-series data. The key technology implementations in the design contain 1) tiering object store for time series data, and 2) predictive analytics with machine learning algorithms.
+
+1) Tiering object store for time series data:
+
+Generally speaking, there are two types of information in time series data, metrics and metadata associated to it. These two types of things are definitely different. So, stolen from the design of Gnocchi, an OpenStack project under development aiming to Time Series Database as a Service, separate storage and data models are used to support fast and scalable access, that is, object store for time series metrics and database for metadata.
+
+The time series data is split into three parts, metrics, entity and resource. Metrics is a list of {timestamp, value} for a given entity, which is any one measuring item from the temperature in the product environment to the CPU utilization of an instance. A resource is linked to any number of entities according to application scenarios. Time series metrics is stored in the object store, for example, OpenStack Swift is a pretty good candidate. Swift provides an almost infinite space to store data with a very scalable design. The information on entity and resource is stored in the SQL database, so we can fully make use of its features of fast sorting and indexing, moreover configure resources needed by succeeding analytics tasks with great flexibility.
+
+The time series data storage provides REST APIs to support user operations, such as creating and deleting a resource, creating and deleting an entity, posting a list of metrics to store, getting the list of metrics for the entity with specified time interval. 
+
+Tiering technology is applied to storage pools in the object store to further speed up retrieving data. SSDs are used as the performance tier in the pool, and disks are used as the capacity tier. When new data is posted to the store, it is stored in the SSDs, meanwhile also duplicated to disks. After a user-specified expiration time, data objects gradually cooled down in the performance tier are deliberately self-vanished. That is, hot data objects can be very quickly retrieved, and there is no need to worry about the loss of cold data objects.
+
+2) Predictive analytics with machine learning algorithms:
+
+Predictive analytics in this design supports the following functionalities:
+
+  • Pattern analysis from historical data: technologies of association analysis and pattern recognition are utilized to build patterns hidden in historical data collections and statistics. For example, periodicity and burstiness can be easily detected by calculating autocorrelation and sample entropy of the measure.
+
+  • Prediction model building: a large amount of historical data is learned to establish relationship between variables and construct the prediction model. Suitable learning candidates include linear regression, non-linear regression, enforcement learning, ensemble learning, and etc. Patterns identified are helpful to adjust time window, set stop criteria of learning iterations, and accelerate convergence of the prediction model. 
+    The learning task can be executed offline in batch mode. When dealing with massive data and multiple series, it is practicable to parallelize the learning process by segmenting data sets in either horizontal or vertical direction. However, multiple models learned from different data segments need to be integrated with in-depth understandings of the learning algorithm.
+
+  • Real-time prediction and decisioning support: to perform real-time prediction with an enormous emphasis on what is happening now and next, especially looking for potential outcomes and changes. Certainly, the time window of data used by online tasks is an adjustable parameter.
+The online prediction task is very easy to extend via parallelization of multiple predictors, even to be accelerated with hardware device such as FPGA board by translating the predictor into the hardware logic design.
+
+  • Incremental learning: change is always happening in time series data, also noted as concept drift. Incremental learning could deal with this well. By sliding time window, newly arrived data is used to train a candidate (sub-) prediction model. If the candidate one could produce better prediction results, the original model would be incrementally updated.
+The success of predictive analytics relies heavily on the quality of data collection, while data modeling and data stores would seriously affect the efficiency of the implementation.
+
+With the rich data set and dedicated learning model selection, the design is capable of producing more reliable predictions. Also, the flexibility and extensibility of design gives deep insights into the data and supports to eventually real-time decisioning. High-efficiency time series data modeling allows users to identify meaningful characteristics as fast as possible in order to make precise decisions on expected future outcomes and changes.

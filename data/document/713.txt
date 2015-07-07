@@ -1,0 +1,11 @@
+Start/End Button In Sales Force
+NA
+Came through one of the discussion in Sales Force meetings with our manager. 
+Create or add a Start and End button in Sales force that would appear for every SR to calculate the time spent on this SR. This will act as a stopwatch and can be used until another software replaces EAS and can record the time off Sales Force. 
+
+Can add those and we can reflect that as case time in EAS as an option till another software is in place. 
+Will record accurate time spent on SRs.
+Can be linked to a software (replacing EAS).
+Can be used as case time in EAS. 
+Can be tracked. 
+

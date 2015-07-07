@@ -1,0 +1,25 @@
+Separate Access Control Layer for DCTM products
+This idea is relevant for ECD products and EOS2.
+Primarily it targets security for Documentum stack and helps in customer satisfaction in terms of security compliance.
+This idea is also relevant to EOS2 challenge, as security is a shared service in the engineering teams and the idea much more relevant for the SAAS products where the capability of hybrid cloud will be leveraged. This idea can seed a bigger idea of "SECURITY-AS-A-SERVICE" in the engineering products.
+Dealing with different customer escalations with product security office, this idea came in. I would like to thank Ramesh Addanki, Arkadeep Kundu and Venu Borra for encouraging this idea.
+
+A separate access control layer is proposed for DCTM Stack.
+This access control layer will serve as an interface between the DCTM layer (App server, CS) and the User. 
+Being a separate layer it can be integrated with state of the art access control mechanisms for the customer. It will be highly customizable and can be deployed without touching the stable DCTM modules.
+In the back end it will process the request, check for the authorization and generate required ACL object and pass the request to the DCTM stack. 
+
+                  DCTM STACK
+            -----------------------
+			^
+			|
+             ---------------------
+--request-->| Access Control Layer|
+             ---------------------
+This idea will give a separate module that can be integrated with DCTM. 
+This module can be marketed separately with the ECD products.
+
+If this idea is implemented, the following benefits are expected to come:
+1. EMC can offer state of the art access control mechanism to the customer without changing the stable security modules in the product
+2. It will save from changing the architecture every time a new ACl requirement is proposed in the market.
+3. Will increase security.

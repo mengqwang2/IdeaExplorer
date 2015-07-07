@@ -1,0 +1,21 @@
+ Smart Building Occupancy Detection using Smart Meters data at lower cost and higher efficiency.
+ The idea presents a solution that uses IoT data analytics in Smart building technology that is one important application in smart city. 
+
+ The idea was inspired by the sensor-based light system implemented in EMC. We thought of cost efficient approach
+ 
+We found that electricity consumption in buildings is very descriptive and informative about the building occupancy as people energy consumption is very different than in empty building. Hence we decided to leverage this data to infer building occupancy. 
+
+In this idea, we propose an approach to detect an occupancy trend in a smart
+office using electricity consumption data. 
+
+The solution is cost-efficient as it does not require extra equipment or sensors to deploy for occupancy detection as smart energy meters are already being deployed in most of the smart buildings.
+
+Such data can be analyzed using pattern and correlation analysis algorithms in the training and testing fashion for supervised learning :
+1-	Train the model on subset of historical data 
+2-	Test the model on the rest of historical data
+3-	Use the model to predict future data
+
+1-	 Cost efficiency
+2-	Scalable solution
+3-	Market for EMC Pivotal
+

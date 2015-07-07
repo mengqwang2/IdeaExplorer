@@ -1,0 +1,9 @@
+Software Integration (Kazeon eDiscovery and Documentum xPlore)
+A new product which could use the benefits from both Kazeon eDiscovery and Documsntum xPlore
+No histroy
+My idea is to integrate Kazeon with xPlore, both are search engines, they do the deep crawl into documents and extract info and do search.
+
+xPlore is widely used but Kazeon is not , so I am thinking to use the powerful reporting in Kazeon and it is having a lot of info that could be displayed with a great GUI, it is also consists legal discovery options and eDiscovery powerful reporting and searching, so if we integrated these options in xPlore ... xPlore will also have these powerful options and we could sell this as a separate product or additional xPlore feature
+A new product that make use of Kazeon benefits (Powerful search, eDiscovery, and legal reporting ) could be sold separately as a new product or additional feature for xPlore!
+
+This powerful integration will help to search the cloud computing and do the eDiscovery not only on PCs/servers but also over the cloud

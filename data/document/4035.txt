@@ -1,0 +1,14 @@
+Global Federation Storage solution with VPlex and DataDomain Boost
+
+The EMC Labs China has work for VPlex and Data Domain Boost. We can forced on how to leverage them for global cooperation. And we have work with Shanghai Supercomputer Centre (SSC) to support HPC with VPlex.
+The way of building a Global Federation Storage is replication in WLan. We can leverage VPlex Asynchronous Mode to replicate online; it’s real-time and high performance. And we can leverage Data Domain Boost the support replicate offline, it’s effective and cheap.
+
+In the online Vplex mode, Vplex can copy data between datacenter, so the software can use the data copy locally. With the solution, the process for a research organization to conduct storage likes below:
+1.	In Location A, a user upload a File
+2.	The Vplex can work continually, a copy can be generated in another datacenter
+3.	In Location B, another user can use File as soon as the hardware ability.
+In the Offline Data Domain mode, Data Domain can copy it with compress and de-dupe technology. A copy can be generate in another datacenter. Data Domain is for data backup, it cannot as real-time as VPlex.
+
+We can build a solution to make the replication more seamless with the EMC's technology.
+
+

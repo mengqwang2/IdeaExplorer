@@ -1,0 +1,33 @@
+EMC Black Box (a one stop shop for data collection)
+GPO:
+- A new simple to manufacture product, easy to use device
+- An innovative inexpensive idea for customers to increase customer confidence and comfort
+- Simplify EMC product management, deployment and operations/troubleshooting
+
+TCE:
+- Leverage knowledge of EMC products to streamline process and accelerate response
+- Simplify an otherwise complex task of data gathering and analysis
+Idea initially came around 2 years ago as I had worked with both functions (GPS and CS).
+
+The idea was revitalized by a colleague who has added to it and brought it back to life.
+With the day to day activities for both GPS and CS organizations, gathering information in a timely manner is a necessity to ensure smooth operation and timely response to customer requests.
+
+The black box facilitates such a process.
+So what exactly is the black box? it is a simple piece of hardware that sits on the customer network that contains ready made scripts for various EMC products prepped specifically to extract the necessary information and store them to be presented upon request (i.e. VNX SPCollects, Switch logs, ... etc.).
+
+At first during the initialization the customer will enter the dynamic information needed for the script to run, via a simple to use GUI (Username & password for devices, IP addresses, ..etc.) once entered all the information is stored on the device under the product profile and will be used to populate the ready made scripts to produce the required output (there will also be an option to add a new device to the list by clicking a single button "Add product").
+
+The device comes ready with all scripts pre-loaded to accommodate the dynamic data for the requested EMC products, EMC engineers may add scripts to the box as the customer environment grows however all scripts need to be pre-approved by EMC personnel before addition and have to adhere to the dynamic entries mentioned above (initially we will only include script for VNX and Switches but that can quickly expand as needed).
+
+As mentioned above the box will sit comfortably on the customer network (possible FC) with it's own IP address and will be accessible to the customer and EMC engineers only (device can be accessed via ESRS as well).
+
+Scripts will run at a regular interval identified by the customer upon initialization (every Friday for example), or upon a customer/EMC request issued to the device for a fresh output.
+
+Having this in place will not only simplify the process of data gathering but would also help for future expansions, upgrades or even tracking the existing EMC product health and life cycle.
+
+Moving forward the GUI can also include simple tables that shows existing configurations and device connectivity
+Look: it would be a small square box (similar to an ouya console) with FC ports for connectivity.
+
+Success: when it incorporates all EMC products and customer request them regularly on their profile. Also when the impact is felt by EMC employees saving time via this device.
+
+Benefits: Make money, improve customer satisfaction, enhance and streamline productivity, optimize processes mentioned above.

@@ -1,0 +1,23 @@
+Create open sourced version of hardware(array/switch/host) simulators based on the existing ones developed by ViPR QE team
+Russia COE Open Source Challenge
+
+Open source the simulator programs will help the CoprHD(open sourced version of ViPR Controller) contributors for their development/testing.
+The idea comes up from my daily work with ViPR testing. We develop/maintain different types of simulators. As ViPR Controller is open sourced as CoprHD, the simulators should also be available to open source players.
+ViPR QE team is maintaining some hardware simulator programs such as:
+
+    1. VMAX/VNX array simulator;
+    2. HDS array simulator;
+    3. XtremIO array simulator;
+    4. CISCO switch simulator;
+    5. Windows host simulator.
+
+ViPR QE team developed them because there is no such open source project like them. They are very useful for ViPR Controller development and testing since hareware array/switch/host are not always available.
+
+After CoprHD is open sourced, developers out of EMC will take part in the development/testing of CoprHD. They also need the simulators. If we open source the simulators, we can:
+
+    1. Make outside players easier to develop CoprHD;
+    2. Involve outside players to contribute to the simulators development;
+    3. Improve the simulators.
+1. Make outside players easier to develop CoprHD;
+2. Involve outside players to contribute to the simulators development;
+3. Improve the simulators.

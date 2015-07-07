@@ -1,0 +1,6 @@
+Eliminate Capitalized Material in ESS
+
+This Idea was conceived during Test Equipment Idea Generation Sessions,  this was further fleshed out with Systems and Module Test Engineering Cork.
+
+Remove Voltage margining and vibration elements of ESS testing, purchase material through MARS on rotation. utilize for a designated period and then re-cycle back to inventory. 
+

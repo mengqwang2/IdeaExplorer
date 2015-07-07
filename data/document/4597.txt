@@ -1,0 +1,12 @@
+Integrated Board Carrier Concept (IBCC) 
+
+The SPs on two of the new Moons platforms have as many as 54 screws that need to be removed and then later reinstalled. That time to disassemble is really double when counting the time to put it all back together again. In some instances, the Carrier must be disassembled to complete any rework or repairs. The unit product cost (recurring) cost would be higher for the addition of a Carrier. However, the rework cost savings and reduced cycle time (End of Quarter shortage risk) would more than offset that added cost given that this approach is best suited to large, complex SP modules that can take as much as 15 minutes to disassemble or more and can have a lower yield given the high design complexity.
+
+The current approach relies on adding cutouts to the bottom side of the enclosure, which then risks material handling damage and EMI (Eletro-Magnetic Interference) and ESD (Electo-Static Dissipation).
+The goal of the Integrated Board Carrier Concept (IBCC) is to use many fasteners to secure the bottom side of a printed circuit board assembly (PCBA) to the rigid Carrier. The Carrier would have cutouts wherever bottom side probe (debug) access. The Carrier+PCBA would have just a few fasteners to mount the Carrier+PCBA to the sheet metal chassis/enclosure.
+
+Using this approach, disassembly for debug would take as little as 1 or 2 minutes. In some cases the Carrier would have to be disassembled for repair/rework. This would streamline the debug process for SPs and reduce debug and repair costs.
+
+Please see the associated slide deck for a visual explanation here:
+https://inside.emc.com/docs/DOC-99871
+

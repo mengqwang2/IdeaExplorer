@@ -1,0 +1,29 @@
+EMC VOIP Mobility – A Mobile Application
+
+We realized that we are not utilizing the physical IP phones placed on our desks to its best capabilities. Also, the limited cellular network coverage at home made us think to have a VoIP mobility application which will let us connected from anywhere at anytime.
+EMC VOIP Mobility - A ONE-STOP SHOP TO MANAGE AUDIO, VIDEO, AND WEB COMMUNICATIONS. This application will enable users to integrate securely, simply, and cost-effectively, with existing enterprise communication applications and infrastructure. This mobility solution will make it easy for the employees to embrace BYOD (bring your own device), communicating on the devices of their choice. From any location (office, home, hotspots), and on any network (voice over Wi-Fi, voice over 3G/4G, or cellular), they can access a full suite of mobile unified communications tools. 
+
+Features:
+
+• Support for various Operating Systems - iOS, Android, Windows, Blackberry, Tizen, etc.
+• Connectivity over WLAN, Wi-Fi, 3G/4G, or cellular
+• Coupled with RSA Secure ID Authentication to access the mobility application
+• Mobile Flexibility - Bring your office with you. Make and receive audio calls on your mobile using VOIP mobility.
+• Global IP connectivity - Call anyone in your corporate global directory 
+• Maintain Business Continuity - work from virtually anywhere at any time, access enterprise systems when customer demand spikes, or when weather or other events make getting to the office difficult.
+• Provide Flexibility While Controlling Costs
+• Expand for More Features - You can add visual voicemail, conference bridge control, synchronized call logs and contacts, as well as integration with existing infrastructure.
+
+Benefits:
+
+• Slash the high cost of enterprise mobility
+• Constant connectivity and mobile UC at your fingertips
+• EMC VOIP Mobility with security in mind
+• EMC VOIP Mobility in one word: ease.
+• EMC VOIP Mobility in two words: reduce costs.
+• EMC VOIP Mobility in three words: extend in-building coverage.
+• EMC VOIP Mobility in four words: collaborate anywhere and anytime.
+• EMC VOIP Mobility in five words: broad PBX and UC support.
+
+
+

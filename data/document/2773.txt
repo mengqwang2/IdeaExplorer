@@ -1,0 +1,116 @@
+Intelligent EMC Conference room reservation management using IOT
+This idea enables smart work place by enabling real time conference room monitoring to 
+release the room if it is not occupied after 10-15 minutes of the meeting commencement.
+
+
+
+Ideation sessions
+This solution uses "Raspberry pi, PIR Sensor and Node.js, EMC Exchange server Web service API" and is based on low cost components listed below: 
+1 – Raspberry pi B+
+1 – Breadboard
+1 – PIR Sensor
+9 – Female to Male connectors
+
+The logic is pretty simple. The PIR sensor positive pin is connected to Pin 1 of the pi and then the negative pin to the ground on Pin 5. The Digital out pin is connected to GPIO pin 17. This pin will be set to high, when the PIR sensor detects a change.
+
+
+STEP1 : Use Node JS module to trigger "occupied/empty" message to "exchangeSync" Node Js module.
+
+STEP2: In  "exchangeSync" module - Introduce delay to process only every 1 min and then invoke EXCHANGE WEB SERVICE TO to get details related to the THE ROOM and the blocking time 
+
+STEP3: If The room is blocked and the room is empty after 15 mins of the commencement of the meeting, we release the conference room immediately.
+
+
+
+Optional Sample Code :
+--------------------------------------
+
+
+When we receive a high on Pin 17, we trigger the buzzer and invoke a web service call to sync 
+the exchange server with the help of Node.js. Conference room details are passed as well.
+
+STEP1 sample:
+------------------
+
+CONFROOMOBJECT.setRoomName(CRINDIA8thFloor:Parana);
+
+var Gpio = require('onoff').Gpio,
+  buzzer = new Gpio(18, 'out'),
+  pir = new Gpio(17, 'in', 'both');
+ 
+pir.watch(function(err, value) {
+  if (err) exit();
+  buzzer.writeSync(value);
+  console.log('ROOM OCCUPIED');
+  if(value == 1)  require('./exchangeSync').occupied(CONFROOMOBJECT);
+ else
+{
+   require('./exchangeSync').empty(CONFROOMOBJECT);
+}
+
+
+});
+ 
+console.log('Pi Bot deployed successfully!');
+
+ 
+function exit() {
+  buzzer.unexport();
+  pir.unexport();
+  process.exit();
+}
+
+
+STEP2 &STEP3:sample:
+--------------------------
+
+Introduce delay to process only every 1 minute and then invoke EXCHANGE WEB SERVICE TO
+get essential room time slot details. If The room is blocked and the room is empty after 15 mins of the commencement of the meeting, we release the conference room immediately.
+
+
+exchangeSync.js 
+
+
+var timerId;
+ 
+module.exports.empty= function(CONFROOMOBJECT) {
+  if (timerId) return;
+ 
+  timerId = setTimeout(function() {
+    clearTimeout(timerId);
+    timerId = null;
+  }, 60000);
+ 
+  console.log('Invoking.');
+ 
+var  details = exchangewebservice.getconferenceroomdetials(CONFROOMOBJECT);
+if(details.getstarttime>=currenttime)
+{
+exchangewebservice.releaseconference();
+}
+
+  transporter.sendMail(mailOptions, function(error, info) {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log('Message sent: ' + info.response);
+    }
+  });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enhance EMC employee productivity and experience by 
+Improving on availability of precious conference room space.
+

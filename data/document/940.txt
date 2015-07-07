@@ -1,0 +1,32 @@
+Peer To Peer ( P2P) HIE Platform for Doctors, Healthcare service providers to share Patients Clinical documents to improve Patient Care
+The growth of new services marketplaces have exploded in last few years & show us whole new categories of commerce that did not even just a few years ago.
+Healthcare related exclusive solution to be offered on Cloud platform targeting doctors / medical practitioners / hospitals / healthcare service providers
+It’s a new revenue making business opportunity on a SASS platform offering multiple services created for the healthcare vertical.
+Online service industry is growing rapidly in recent years where never so thought about new services are introduced in the market place. Healthcare vertical being vaast, we thought we could apply some of the service principles on this vertical.
+A formal & exclusive secure P2P HIE platform available where the doctors, medical practitioners and healthcare service providers come together to avail/provide multiple services between themselves to improve patient's medical care.
+
+Health information exchange (HIE) is the mobilization of healthcare information electronically across organizations within a region, community or hospital system.
+
+Only recognized doctors/medical practitioners (can be freelance as well), healthcare providers (who are verified of their medical credentials) can subscribe/register to this platform.
+
+There will be a nominal fee for these services depending on the complication, length of the cases that is dealt with. The fee can be fixed by the doctors who are providing the service.
+
+- Allows doctors to make better medical decisions by sharing complex cases with peer doctors help diagnose the same . Dealing with patient cases meaning it needs a formal way of exchanging patient cases over a CDA R2 protocol.
+- Market research opportunities for registered medical practitioners
+- Healthcare service provider can publicize their in-house opportunities, visiting consultant requirements, invite for conferences to the subscribed doctors. physician recruiting 
+- Be updated about the latest news
+- CMEs and medical innovations in their area of interest
+- Share & network between themselves
+- Place to maintain the content
+- Be updated with the latest happenings in the health-care sector
+- Rating system for the service provided
+
+This concept can be used as a solution within the healthcare enterprises where they use with their doctors across their network of hospitals in different geographies.
+
+This would be a first of its kind in its offering in healthcare vertical towards improving patient care.
+Revenue opportunity for the company in field of healthcare.
+
+
+
+
+

@@ -1,0 +1,7 @@
+Smart Fridge 
+Retail and grocery are one of the most recurring activity any one do and one of the least digitized operations 
+Was the graduation idea of a colleague of mine 
+A smart fridge that will detect if you are low on supply and will automatically place an order at your local grocery store.
+Also detect any expired or rotten food and send an alert.
+Give you recipes recommendations according to the available items in it
+an 

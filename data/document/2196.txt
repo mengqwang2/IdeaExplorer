@@ -1,0 +1,9 @@
+3D replica model city to find problems in real Smart City
+Helps in constructing a smart city in a cost effective manner
+Own thought process
+Constructing a Smart City requires a lot of prior planning. If anything goes wrong, re-designing a new solution again costs money. Hence instead of developing the City and spending dollars, construct a model virtual city and let virtual users explore the city and suggest the changes. Implement the suggested changes one by one in the actual real world.
+
+In order to create a virtual city we can use Second Life platform(https://en.wikipedia.org/?title=Second_Life). Second Life is an online virtual world built by Linden Lab which has an userbase of around 1 million. There are many colonies are existing in the Second Life & people use Linden dollars for various purchases with in the platform. Alternatively, we can also develop such virtual platform using Unity 3D software.
+
+In this platform we can create various smart city 3D model elements like Hospitals, Schools, Super Markets, Agriculture lands, Workplaces, Transport facilities (Train, Airports) etc.. Equip all these models with 3D software sensors. All the feed from these sensors will be sent to EMC datastorage servers. This helps in planning the storage needs of the real solution. This data will be further analyzed with different BigData techniques and processed data can be sent to the virtual users in the platform & same feed can be sent to the real users/interested users mobile apps as a feed. For Eg: Consider in order to equip real world building/vehicles with 5 million sensors & say cost of each hardware sensor is 1$. It costs around 5M $ in realworld but it just costs 1$ to build such software sensor in 3D model and get the same results. In this manner many smart city use-cases can be tested on trail mode in this virtual environment before actually implementing it.
+New business opportunities for EMC.

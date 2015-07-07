@@ -1,0 +1,46 @@
+Egypt COE Smart City and IoT Challenge
+Leveraging the Big Data analytics and existing storage technologies for Smat City and IOT.
+Its the study and analysis of data getting produced and thought of better use of of the data being produced, which in turn produces and value add to business development and new business opportunities. 
+The Internet of Things (IoT) can help address many of the most pressing problems facing towns and cities today, from congestion and 
+
+energy use to public safety. But the real value in IoT comes from integrating multiple connected systems and creating true smart cities. 
+
+When decision-makers have a holistic view of everything from energy use and traffic flows to crime and air pollution, they can make 
+
+better policy decisions. We can use our BigData analytics and storage products inline to achieve this.
+
+• People.  people will be able to connect to the Internet in innumerable
+ways. Today, most people connect to the Internet through their use of devices
+(such as PCs, tablets, TVs, and smartphones) and social networks (such as
+Facebook, Twitter, LinkedIn, and Pinterest). As the Internet evolves ,
+we will be connected in more relevant and valuable ways. For example, in the
+future, people will be able to swallow a pill that senses and reports the health of
+their digestive tract to a doctor over a secure Internet connection. In addition,
+sensors placed on the skin or sewn into clothing will provide information about
+a person’s vital signs. According to Gartner, people themselves will become
+nodes on the Internet, with both static information and a constantly emitting activity system.
+
+Data. With IoT, devices typically gather data and stream it over the Internet to
+a central source, where it is analyzed and processed. As the capabilities of
+things connected to the Internet continue to advance, they will become more
+intelligent by combining data into more useful information. Rather than just
+reporting raw data, connected things will soon send higher-level information
+back to machines, computers, and people for further evaluation and decision
+making. This transformation from data to information in IoT is important because
+it will allow us to make faster, more intelligent decisions, as well as control our
+environment more effectively.
+
+• Things. This group is made up of physical items such as sensors, consumer
+devices, and enterprise assets that are connected to both the Internet and
+each other. In IoT, these things will sense more data, become context-aware,
+and provide more experiential information to help people and machines make
+more relevant and valuable decisions. Examples of “things” in IoE include smart
+sensors built into structures like bridges, and disposable sensors that will be
+placed on everyday items such as milk cartons.
+
+• Process. Process plays an important role in how each of these entities
+— people, data, and things — works with the others to deliver value in the
+connected world of IOT. With the correct process, connections become relevant
+and add value because the right information is delivered to the right person at
+the right time in the most appropriate way.
+Its the on demand , evolving as Analyzed data can be used or gathered for better understanding of the business opportunities. which lead to good business and success to companies financial growth and foot print.

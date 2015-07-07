@@ -1,0 +1,5 @@
+Automatic & Remote firmware update
+
+Contacting the SAMs all the time to update the firmware
+Create a new tool that automatically and remotely updates devices' firmwares when it expires
+

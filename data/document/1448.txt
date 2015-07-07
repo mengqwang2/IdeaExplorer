@@ -1,0 +1,13 @@
+Brief Introduction to ISM for non-technical Employees 
+N/A
+based on my own experience while taking the ISM (not having any technical background) , i Needed an Introduction before getting into the Most technical details.
+my idea is to design a Brief document or Video (CBT)for the ISM which should be mandatory for Non-Technical new hires , this would increase the Awareness and knowledge of the employees on what EMC do in general and would make them ready for the transittion of the new technology we are heading to.
+
+the aim is to remove the most technical information/parts from the course to include only what the Non-technical Employee could understand by himself/herself
+the course can be as it is but without getting into details (types , problems and it's solving)
+
+employees awareness
+Employees Satisfaction
+Knowlegde Enhancement
+
+

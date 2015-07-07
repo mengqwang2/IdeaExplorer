@@ -1,0 +1,5 @@
+Smart disk fault detection and operation
+
+When we execute some test case , we always find some test cases failed due to some dump which is caused by the disk fault. So we wonder if we can just set the disk empty to avoid this error.
+Automatically detect the status of disk.When found some disk was fault(removed) state, at this time there is a fault for the array which would block some testing. We can analyze this situation and if there is no this fault disk ,the array would operate normal ,we can just give a warning by set the disk empty instead of fault state.
+

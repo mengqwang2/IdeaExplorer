@@ -1,0 +1,41 @@
+Hybrid EMC Cloud Offering to predict the Infectious disease epidemics- Healthcare  industry
+Healthcare market is expected to grow at a CAGR of 25.2% from 2013 to 2020  and is expected to reach $21,346.4 million by 2020.As of 2013, descriptive analytics holds a major market share. However, predictive analytics and prescriptive analytics are the highest growing areas during the forecast period. 	With the expected Market growth business customers/potential user base is going to grow exponentially which demands scale out secure storage. Hence it gives EMC federation a huge opportunity to offer cloud - enabled predictive and prescriptive services which is built on top of secure EMC storage infrastructure.
+This Idea is an extension of the patent we submitted in EMC 2014, which got approved and filed in US Patent Office, we are extending the Architecture and algorithm to make it compatible for this particular challenge.
+-The solution is a service that will be a dynamic and effective analytics engine with the ability to consume information from multiple sources. 
+-The EMC Hybrid cloud based solution for healthcare industry will be capable in effectively predicting the spatial epidemic diseases and affected area  based on high-resolution global demographic and mobility data
+-The scalable solution will gather the data from multiple sources, correlate output with various personalized IOT devices to reveal relevant health insights for subscribed users and health care organizations and issue alerts.
+-The service will further direct/recommend subscribers to nearby medical care centers and alert front line workers handling the outbreaks in context to any specific considerations from the subscribers past medical conditions/health care history
+-The services can be offered as a full version with all capabilities and features where the subscribers can share their employees/customers profile and Health History
+Multi Channel enablement, services can be consumed through Mobile,Tablet etc
+
+Solution Stack for implementation
+
+*Green Plum HD: – Predictive Analytics & Data Processing
+*VMAX CE: – For providing federated cloud based storage from multiple data source mentioned in the previous slides
+*RSA: - Authentication & Authorization services for enabling access to Personalized health alerts and ensure industry standards like HIPPA
+*Social Cast: – Crowd Sourcing & collaboration for getting alerts and inputs on personal experience
+*Vsphere/VBLOCK: – To provide virtualized infrastructure for hosting over the cloud or on premise 
+*SMARTS & Documentum XCP 2.0 : Monitoring and Image processing
+* Pivotal Data Lake
+
+-Data Sources for healthcare Assistant Application:
+
+*Alerts from Govt. Health Sector/Health Ministry
+*Alerts from  Private Organizations(Hospitals, NGOs etc.) 
+*Google Analytics
+*Social Feeds (Facebook,Twitter,others)
+*News Agencies
+*User Contributions/Crowd polling
+*User Profile Information
+*Health History(If available)
+*Weather Channels(forecasting and present conditions)
+*IOT based sources / Networks
+
+The following benefits will be obtained with this solution:
+-Huge opportunity for EMC to expand offering in the healthcare and life science space and increased source of revenue. 
+- Provide a portfolio of products and services for spatial  enablement of health care
+-Yet another way to reach out to customers in Health care
+-Thought leadership in Improving health care and an opportunity to convert a prototype into a product / service offering
+-An opportunity to create a service offering with GIS data and package It for multiple sectors
+-Since it is a service the cost would depend on the situation and on its usage.
+

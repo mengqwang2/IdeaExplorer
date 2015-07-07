@@ -1,0 +1,15 @@
+Templates for OSS contribution
+The idea would encourage people to participate in OSS contribution and accelerate the movement to EMC and OSS collaboration
+The idea was born thinking about the RCoE OSS Competence Centre tasks.  
+The idea is to develop a set of ‘templates’ for OSS contribution:
+1. Analyze existing businesses built on OSS contribution ranging them by contribution’s type:
+- free version of a product;
+- new feature;
+- enhancement.
+2. Define benefits of every business scheme.
+3. Apply a template to EMC products to find out how it ( or a part of a product) could be contributed to OSS and what benefits it would bring to EMC/BU/Project team.
+
+Templates show how to develop a product leveraging OSS contribution, what benefits it brings to EMC/BU/Project team.
+Next it makes PMT to initiate activities to apply the scheme described by the template to the current development process.
+Finally the efficiency of the product development increases significantly providing additional profit or costs cutting.
+

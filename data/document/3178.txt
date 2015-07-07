@@ -1,0 +1,18 @@
+To create a centralized data lake to be used for all the services like knowledge management, lab ticket updates, cabling information, system configuration etc
+
+This idea came in the brainstorm sessions that we held within our team
+Design and build a data lake (keeping in mind the data analytics that its going to serve later) that can host data itself. This data lake should be able to connect to the other data sources like SAP, eCAT, Unity etc
+
+This data lake along with other streams of data will give insight into all the tickets that are worked on a particular system, the change configuration happened, different types of issues that arouse in different configs, cabling connectivity and change of connectivity, setup config info etc
+
+Using this data lake, we can create the following
+Massive knowledge base for the consumption of the lab support teams without too much of training
+Using the historical data, standard operation procedures can be built
+Continuous process improvements and with this kind of data there will be great insight into what kind of processes need to be developed
+End to End setup information can be provided to the engineering teams who will benefit hugely for their qualification and testing purposes
+Trends in the systems utilization
+KPIs
+Idenfication of steps for troubleshooting anomalies for certain kind of systems
+
+This to be hosted in the Converged Cloud Platform
+

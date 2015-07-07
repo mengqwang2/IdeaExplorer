@@ -1,0 +1,68 @@
+ Elastic Automated Scalable Lab – cost-efficient Self-Service  highly scalable lab 
+ 
+This idea proposes an automatic elastic lab service using cost-efficient resources. It demonstrates a prototype for a novel approach to enable scalable lab virtual infrastructure using VMware technologies allowing for saving cost, HW equipment and manual configuration efforts. The idea aims at scaling up our currently developed lab automation tool towards complete packaged solution to ensure scalability, self-service and automation.
+We have built a demo architecture for this solution illustrated in a power point presentation (in the solution section)
+
+  The idea came up from the experience managing EMC lab environments and deploying different environments using manual efforts. We started developing some tools and using other solutions (open source) to automate such repetitive tasks. We thought of bringing this project to higher scale. We then reached this design having a scalable solution that can be used for many purposes.
+
+REFERENCES:
+
+[1]- https://support.emc.com/docu48495_VNX-for-File-Simulator-Installation-and-Configuration-Guide-8.1.pdf?language=en_US 
+
+[2]- https://support.emc.com/tool43075_EMC-RecoverPoint-3.4-SP1-Simulator-Technical-Notes.pdf?language=en_US 
+
+[3]- http://www.emc.com/products-solutions/trial-software-download/isilon.htm?PID=SWD_isilon_trialsoftware 
+
+[4]- https://puppetlabs.com/solutions/next-generation-provisioning 
+
+[5]- http://theforeman.org/introduction.html 
+[6]- http://www.emc.com/apps/emc-architect.htm 
+[7]- https://github.com/wmasry/SAN-Commands-Generator 
+
+  The idea defines the new generation of elastic labs leveraging VMware + open source tools + Pivotal CloudFoundry
+
+We define the solution structure as follows:
+
+1-	Infrastructure Backbone: Will be pooled network, storage and compute resources. All resources will be connected in network pool (SAN) on the HW level and all access levels are handled by soft zoning and software level applications. Backbone will be scalable for any device to be plugged in. 
+
+2-	Infrastructure Components: In this part we propose a novel approach with hybrid infrastructure combining two types:
+a.	Physical Hardware: allocating real HW components like VNX array or physical servers
+b.	‘Product Simulators’: allocating products simulators that imitate the real HW products. ‘Product Simulators’ are a packaged pre-installed VMware OVA template offering a virtual machine that simulates the exact real product.  
+A prototype already exists for ‘Product Simulators’ of different products like VNX [1], RecoverPoint [2], Isilon [3],..etc. they can be found here: https://support.emc.com/search/?text=vnx%20simulator&resource=ST 
+
+These product simulators will be deployed on ESXi servers as multiple VMs per host and will be part of the infrastructure pool. Scaling these components will be as simple as cloning a VM. This will also simplify automation 
+
+3-	Automation Unit: A central unit that has information about the whole data center topology and can automate the tasks starting at bare-metal provisioning until application level configuration leveraging the following technologies:
+a.	VMware Automation technologies: vCloud Automation Center (vCAC) and vCenter Orchestrator (vCO). 
+b.	Open Source solutions:  
+i.	Use ‘Razor’ for bare metal level provisioning. Razor is collaborative development between EMC and Puppet labs [4].
+ii.	Use ‘Puppet’ or ‘Foreman’ for higher level configuration automation [5].
+This Automation layer handles creating, provisioning the required environments on demand as well as configuration for HW/SW components. 
+c.	Our ‘EMC Code’ developed tool: We have developed a tool (named: SAN Comand Generator [7]) for automating SAN network configuration and zoning. We successfully published the tool in ‘EMC Code’ project here: http://emccode.github.io/. This tool is to be used in the automation unit on the network layer eliminating the manual work done by network configurations. More tools can be developed and integrated here.
+
+4-	Management Unit: this is a central unit that manages the Data Center HW components (powering up, restart ..etc) it will have direct connection to all devices using Serial Over LAN (SOL) technology using IPMI (available for all EMC products).
+
+5-	User Application: The user will have a web/mobile application offering him different functions:
+
+a.	Book the needed environment using GUI interface with drag and drop function from a dashboard showing available components (servers, storage..etc) similar to ‘EMC Architect’ App [6]
+b.	The ‘Automation Unit’ has a configuration layer that translates user selected environment (high level sketch) to automation scripts to be issued
+c.	User profiles are used to define different access levels and entitlements (R&D, testing or student user). For example: Student user is only entitled to ‘Product Simulators’ while R&D use has full access to real hardware.
+d.	ETA is defined for environment delivery. Also complete environment is reset after booking ends.
+
+** We have prepared a demo diagram showing the solution architecture in this PowerPoint presentation: https://inside.emc.com/docs/DOC-155403 
+
+Targeted Customers :
+1-	EMC BUs like Testing, R&D, POC..etc
+2-	EMC employees for technical development (such as tech. support)
+3-	EMC Education services (customers, partners, universities)
+
+
+This idea will then enable EMC to define a new era of Elastic Labs offered at minimum cost.
+
+
+1-	Elastic: High scalability on demand and centralized resource pooling 
+2-	Automated: scripted tasks and automated workloads
+3-	Scalability: highly scalable using automated configurations and VM cloning for Product Simulators
+4-	Self Service: using web application environment-based booking in few clicks
+5-	Cost-efficient:  saves huge HW cost by efficient allocation and VM product simulators 
+

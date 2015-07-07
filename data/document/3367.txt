@@ -1,0 +1,21 @@
+Healthcare CaaS (Consultation As A Service)
+
+Presently there are some PHR systems available, but none of them focus on the interaction between patient and doctor during the course of a treatment.
+I came across patients (especially aged ones) who were undergoing treatment for chronic diseases and found that this was a pain point for them.
+I felt there is a need to empower patients to take greater control of their treatment.
+
+Challenge Addressed :
+IIG SaaS Challenge (mentioning here since the Challenge Addressed dropdown is not working)
+The idea is to create a mapping from Disease to Doctor, for a community. We will have a PHR for a community where the patient's records will be stored. Along with this there will be a DSR (Doctor Skills Registry) which will have the record of all the doctors and their skill sets.
+Whenever, a patient requests a treatment he needs to login to his PHR and mention his symptoms. Based on the symptoms the PHR will suggest the disease or let the patient suggest his disease. Once the disease is selected we have a D2DM (Doctor to Disease Mapper) algorithm which will provide a list of doctors skilled to treat this disease. The list will mention about the location of the doctor, availability, past performance of the doctor, fees etc. Thus the patient gets to choose his doctor. 
+Also we provide REST services to use our PHR systems, so the patient can upload the requested medical data like blood reports etc via mobile,desktop,webapp.
+Similarly REST services will be provided for the DSR, so the doctor can view the medical reports on his desktop,mobile.
+
+An important thing to note is that whenever a patient requests treatment, a treatment id will be generated that will be used to track the entire treatment. The treatment id will only present the problem statement to the doctor and not the details of patient's bio data like name,location etc. This will anonymize the data.
+In case the patient still wants to meet the doctor or share his details, then its in the control of the patient.
+Also the treatment id will be preserved and can be shared for future use. A group of treatment ids can be subjected to analytics to reveal patterns and also can be used for machine learning, to create machines which can suggest treatments.
+
+Further details :
+Kindly go through this as it has lot of details
+https://inside.emc.com/docs/DOC-100232
+

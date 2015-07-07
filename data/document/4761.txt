@@ -1,0 +1,7 @@
+Mobile APP - Capital Project Progress Monitor
+
+We have tested the Xchange project, we found there are Capital Projects, Engagement Spaces, Projects, Submittals and Transmittals. But there's not a page to briefly show the Capital Project progresses. So We think a mobile app which can easily show all the status.
+The app has below functions:
+1. Items monitor the Capital Projects' progresses. Include status, documents numbers and so on.
+2. Subscribe projects and alert messages when the status of Capital Projects have changed.
+

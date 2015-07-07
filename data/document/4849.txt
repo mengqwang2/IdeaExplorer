@@ -1,0 +1,5 @@
+SYMCLI META command limitations
+
+while creating Meta LUN's if they are not in sequence , lot of time is spent to form meta and run symconfigure scripts. I faced lot of problems while executing CRQ's. Hence addressing this will help people to avoid overhead / mistakes.
+No SYMCLI for meta LUN creation if LUN's are not in sequence. We can provide size and device list in a file, then symconfigure should be able to form meta with the no. of devices in that file
+

@@ -1,0 +1,7 @@
+Global Unified Team Escalation Process Enhancement Project
+Unified Level 1 Support Engineers take long time to Escalate the Case to L2 Support. Level 1 Engineers update the case with their latest findings and then create an escalation mail manually to Level 2.
+
+Came up with the idea in February 2015 when I thought of why not creating a tool that extracts data needed for ecalation from the Service request and an automatic mail is created with different L2 Distribution Lists, instead of filling out the Escalation mail manually and waisting some Admin work and Csutomer's satisfaction.
+Creating an Escalation Enhancement Tool to decrease the average cycle time taken to send the Escalation mail in the Global Unified Team Escalation process from 9 minutes with a maximum of 19 minutes to 1 min with a maximum of 3 minutes by 30th of September, 2015.
+
+Average cycle time to send escalation mail to L2 engineers was reduced from an average of 9 mins to an average of 1.12 mins per SR with Corresponding Cost Savings = $5,162 per year

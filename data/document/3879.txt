@@ -1,0 +1,7 @@
+Mobile Mylearning
+
+In many occassions, i wasted a lot of time travelling or sitting idle.
+It would be great if i could use my free idle time to learn on mylearning.
+Develop a mobile mylearning software which works on ios and android platforms.
+The employee or the customer can access the course whereever possible from his registered ID to access the course.
+

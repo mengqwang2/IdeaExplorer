@@ -1,0 +1,6 @@
+Contactless power distribution for production/labs
+
+I had the idea while planning lab layout and looking to get extra drops added to power new units.  I thought of public Tram systems and Bumper car\dodgem systems that have power available to an area\route and the unit needing power connects through a standard interface.
+The idea is just at concept stage  and no costing has been researched.
+Inductive power rails would be installed in the test\lab area that allow a contactless power connection to the rack of material to be tested.  There are many types of contactless power available with a quick review showing that there are 'clean' contactless power options available, for example http://www.vahleinc.com/contactless-power-supply.html.  Once installed in mfg., a pickup unit would be installed onto the racks containing the equipment with a PDU on the same rack then giving the operator control over powering up the units for test.
+

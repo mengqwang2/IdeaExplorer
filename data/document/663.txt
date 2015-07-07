@@ -1,0 +1,24 @@
+Intelligent Fire Evacuation System
+Currently IoT helps people to become smart but the proposed system will help in building a smart environment/infrastructure by makinsto save people's life when they get trapped with fire in a mutli storey buildings. This Intelligent Fire Evacuation system makes use of EMC storage(Isilon) and Pivotal Big Data Suite for data analytics.
+Recently we have encountered a major fire accident in a multi-storey building and the current fire evacuation/safety measures does not help in recusing the victims on time.
+We are proposing an application based fire evacuation system that can help the targeted user to evacuate from the building through the safest and shortest route from his current position.
+
+Please refer this link for detailed architecture model and the pseudo code to identify the shortest path (https://inside.emc.com/docs/DOC-155948)
+
+- As alarm triggers, signal containing the information about location of fire will be sent to central building management system which has a webserver. The server sends a token to registered mobiles which automatically starts the application on the mobile. Usage of Avamar server to build BMS helps in case of Disaster Recovery Management.
+- Mobile application is loaded with the building map with Indoor Positioning System (IPS) enabled.
+- Mobile applications will calibrate the shortest way out of the building from user’s current location.
+- As fire spreads, information about the new blocked paths will also be sent to the user’s application, which after receiving the data recalculates the shortest and safest path for the user dynamically from his current location at that time.
+- End user routing (direction in which you can reach the shortest path) will be of voice alarm so that the user no need to look for direction path in mobile.
+- Mobile application will also help the user in identifying and alarming with the nearby Fire-Extinguishers for added preventive come safety measures.
+- If internet facility is disrupted due to fire, then application will work offline by manually tapping at current location on the map.
+- The server will send data from a large number of buildings, to a central server of the fire department. 
+- Analytics can be applied on this data using pivotal analytics platform to figure out the reason behind the fire and also the trends in its movement. Analyzing temperatures recorded by heat sensors before the onset of fire will enable the fire department to predict building fires and execute safety measures in the shortest time possible.
+- With machine learning intelligence incorporated in the system, helps to redefine the building infrastructure in a better way for fire evacuation in the future with enhanced safety measures.
+- BMS – will be having the building map and can locate if any person gets trapped and helps in rescuing process.
+
+- Works on the existing infrastructure, as fire and smoke sensors are present in most of the buildings (corporate and residential) now a days, which brings down additional infrastructure cost.
+- A lot of third party vendors are available that build IPS enabled indoor maps of the buildings at very low cost.
+- Application can work offline, if internet facility gets disrupted.
+- No system even close to the proposed system is available in the market.
+

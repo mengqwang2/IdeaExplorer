@@ -1,0 +1,10 @@
+Inbuilt compatibility check engine
+To reduce support calls and save dollars. To improve customer satisfaction
+While working on various releases of Networker we often face product compatibility issues. 
+The proposed solution is to provide four level of service to the customers. 
+One is to provide compatibility information about various components.
+Validate the compatibility of various components in a product (with in EMC products). Compatibility engine will collect all components details to verify its supportability with relevant server version. For example 7.6 version of Networker will support DD 5.5.0.2 version.
+Validate supported OS version with relevant EMC product.  Compatibility check engine will check Operating system compatibility for 8.2 Networker products. 
+Similarly validate third party software compatibility with EMC product. In this level compatibility engine will check for compatible Java version for 8.5 Networker product.
+
+This is preventive way of avoiding simple compatibility issues and associated customer supports calls rather than having reactive approach or solution for customer problems.  

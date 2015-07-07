@@ -1,0 +1,7 @@
+Resume tracking with interview status
+
+We observe this when we refer a candidate and, his or her interview status with details are not clear enough to convey the message to the candidate
+
+Same candidate's resume comes for multiple times/positions, we do not have the previous interview history
+A tool/webpage which tracks the resume's life cycle from the resume's submission stage to the final stage along with comments, recommendation at each stage( shortlisting,telephonic interview, face to face interview,.... till the final result)
+

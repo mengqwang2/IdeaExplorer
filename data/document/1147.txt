@@ -1,0 +1,7 @@
+ScaleIO integration for ISVs like Healthcare Providers, Surveillance Solution providers etc.
+ScaleIO is EMCs Low cost software defined storage and we can tap an unexplored large market of Healthcare Service Providers and Surveillance Solution providers and tap their client base in the whole world.
+The idea came from discussion when a Surveillance Solutions Provider expressed his desire to explore ScaleIO for his clients as a storage solution.
+We propose to present a solution wherein we propose them to use ScaleIO. Since for Surveillance cameras or Healthcare applications, the small or medium cliants need to invest in Server hardware, they can get commodity hardware HDDs/SSD drives and we can provide them ScaleIO which offers the features Enterprise level storage but at low cost to cater to the needs of small clients of Healthcare solution providers and Surveillance camera solution providers. 
+We can pre-test such applications and once certified, pre-sales team can offer this solution to all the clients of such providers
+- Revenue generation for EMC
+- Higher Sales figures

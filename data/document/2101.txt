@@ -1,0 +1,32 @@
+EMC CrowdSourcing(Open Forum Across EMC Globally) - Share your Projects excessive work/ Operational Efficiency work across EMC and reward the contributor(EMC Employee from other teams) based on workload
+Significant revenue generating and cost saving potential - This will help the project works finished on or before time thus maintaining the release dates.
+
+Business can execute this changes for longer term
+
+We are creating a new platform for our employees to showcase their skills, learn new products and rewarding them as well
+Our team have lot of skills including PHP, Python, but we dont have challenging works with respect to the same in our current project. On time basis our skills are vanishing.  We want some extra works that are challenging and keep our passion and skills alive.
+Open Forum Inside EMC (https://inside.emc.com/)
+
+Project owners will post their requirements
+
+Example
+---------
+
+We are creating a dashboard tool to report all QE reports at one place.
+
+Need employees with following skills :  PHP, MySQL , Hosting WebApps, Python
+
+Reward : Based on the modules 
+
+
+So the interested employees will state whether they are interested based on their current workload and what they can take up.
+
+Currently Employees are sticking to one product and one domain. This will bring out lot of fresh ideas across EMC.
+
+This will also bring out lot of innovation into the product and make EMC GPTW.
+
+Success
+
+Employees refreshing their skills, enjoying the work they do, paid for their  passion
+
+Employer/Project owners getting their job done in right time

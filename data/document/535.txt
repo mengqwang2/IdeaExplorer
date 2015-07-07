@@ -1,0 +1,8 @@
+DevOps Trainings Framework
+Global services division is lacking the automation/scripting skills.
+DevOps and Transformation programs within EMC
+
+We have to create a transformation framework for employees in the area of DevOps to excel in these skills. Although most of the personnel in the services division are aware of the basics in programming, we have to create a step-by-step curriculum. We can use quarterly NBR trainings to mandate on the basics of scripting/automation and drive the individuals to create scripts for each and every task they do. 
+
+With the expertise in automating the manangement tasks for storage and backup, it will be easy for services division to be more effective in handling customer needs.
+

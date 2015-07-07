@@ -1,0 +1,13 @@
+Portable EHC Management
+With this solution, EHC management will be more efficient. And it will reduce the cost of management for EHC too.
+We are using portable devices every day, there are many APPs on it. These APPs make our life more convenient than before. We can use the technology to our EHC.
+Considering the limited screen of the portable devices, the GUI of this APP should be very easy, and only the very base operations should be supported on it. 
+For example:
+- User A want a new windows VM with IP as 10.247.101.11, then A send a request to admin B. 
+- But B is on the way home, so B opens portable EHC management APP on his mobile phone.
+- Find the proper datastore and OS then input the IP and some other necessary information and save.
+- The request will be sent to B's manager C for approval with email&short message
+- Then C open the same APP and found there is a request need be approved, and he approved it. And the setting up of VM is triggered automatally.
+- B got the email&short message that the VM created.
+- B send a message or email to A, VM is ready.
+With this solution, EHC management will be more easy to use. The management cost will be reduced too.

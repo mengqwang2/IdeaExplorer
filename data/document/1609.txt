@@ -1,0 +1,6 @@
+Service Request Dashboard for Engineer and customer 
+Many Dashboard on CSAT and Management activities product and Global Team wise, NO Dashboard on Open SRs(Service Request) for Engineer and customer centric view
+Dashboard as per engineer queue/open SRs holistic view helps providing better backend Technical support from SME/Coach and developing technical skills of each individual 
+Dashboard on open SRs visible to All Internal Support Team and External customer
+Dashboard also needs open Engineering Escalation details product/module wise they are working on..
+Reduce TTR, CSAT improvements, Engineer will gets motivated to work on multiple skills, Dashboard will present Open Service request views product and module type wise, Engineer will understand which skills they needs to develop to reduce their workload, SME/Coach will be better understanding of their POD Engineer workload and skill set requirements

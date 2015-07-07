@@ -1,0 +1,21 @@
+Wills as a Service
+
+At 40+ I still don’t have a Will.  In part it’s the cost, and secondly the requirement to get independent witnesses.  You can’t use family members and you really don’t want to impose on friends.
+I had the genesis of an idea several years ago, but it’s only been in the last 3 years since I joined EMC that I’ve mapped out how it could work.  Plus the continued expansion of mobile applications make this something that could be simple and cost effective for everyone.
+Additionally, the whole Angry Bird economics ($1 per App x 2 Billion downloads) makes me think there’s a massive opportunity here.
+Note, there’s also a bigger Phase 2 opportunity - but need to have the relationships with the Banks and Customers first.
+
+One of the biggest issues with creating a valid Will is having independent witnesses.
+This solution uses the Global Banks Branch network to solve the problem of independent witnesses.  It also ensures the integrity of the Will by linking it to a customer’s Bank information.  Banks will be able to charge customers a nominal fee for this service (or wrap it into existing bank fees).  If EMC charged $1 annually Banks could double this to $2 and make 50% margin on limited investment. 
+The solution will need to be a true standardised XaaS model within particular countries.  The only bespoke aspects will be the link between a user’s Bank information and the external EMC hosted site where the Will data is stored.
+How it Works
+1.	Solution is based on providing a simple app that covers the basic requirements for wills.
+2.	The app is downloaded from a user’s Bank website to enable matching by the Bank to the users Bank information.
+3.	The user populates the various fields in the app eg. Beneficiaries, provisions for underage children and then saves.
+4.	The form is uploaded to the Bank and acknowledged back to the User.
+5.	The user then attends the Bank (by appointment or other arrangement eg. specialised ticketing in Bank queues) 
+6.	User signs Will in front of Bank Tellers (electronic signature) who counter sign
+7.	Will is saved and link to electronic copy provided to User
+8.	User is able to access via a link from their Bank Website
+
+

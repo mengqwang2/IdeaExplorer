@@ -1,0 +1,11 @@
+Simple, Secure, automatic document transfer for consumers/home-internet users
+
+Purpose-Built-Transformation (PBT) is an unfunded group of vmware and EMC employees who have been meeting every other Friday, usually during happy hour, for the past 7 years to discuss new business ideas.  About two years ago we came up with the idea of creating new-product-recipes using existing EMC-Federated, Organically-grown-products and we have been refining the innovation and creating new recipes ever since. PBT Founders include Patrick Zielinski, Rupesh Shimkhada and John Combs and Drew Kramer is a technical-advisor/future-board-member.
+
+Idea was further enhanced by reviewing Idea #2014002259 submitted by Delon Karrim.  As a result, Delon has been added as a co-author of this idea.  If you like this idea you should also see Idea #2014000914 which is an EMC Cookbook filled with recipes designed leverage EMC's existing, patent protected business products for use in the 3.3 Billion user consumer market.
+How it works.
+Step 1 - EMC partners with Yahoo Mail, Google Gmail, and other internet email providers to jointly offer users a convenient means to (A) securely send documents and to (B) send large documents leveraging Syncplicity/Authentica. 
+Step 2 - Email registration information used to create/automate Syncplicity registered user. Syncplicity shares hosted on vCHS.  Any mobile device capable of sending email will be able to use this AS_A_Service offering.
+Step 3 - Integrate a pay per use service where EMC and EMC partners get paid per use.  
+NOTE that Aspera Software offers a service like this for MS Exchange.
+

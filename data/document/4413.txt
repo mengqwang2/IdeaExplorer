@@ -1,0 +1,5 @@
+Hypervisor level backup improvements
+
+I have got this idea when I reading the challenges.
+Need to improve the capability of the Networker backup software to backup and restore Virtual Machines from the Hypervisor level. It should be integrated in the level of vCenter/vCloud Director or any cloud or virtualization layer and should be user friendly; any administrators could self-learn the operations of backing up and restore the faulty VM on the fly by just using the context menus on the Virtual Machines(by right click on the VM). The backup should be capable efficient usage of all the best of the breed backup related technologies like, continuous data protection (CDP), dedupe, full/incremental/differential backup, continuous replication, best fail proof restoration techniques, backed up data auto verification/validation in regular interval.
+

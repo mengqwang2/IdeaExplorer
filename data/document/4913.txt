@@ -1,0 +1,22 @@
+Car Black Boxes to better improve our road infrastructure, Automobile’s, Insurance Costs and Safety.
+
+Flying to Portugal a Few Weeks back I purchased a Newspaper and it had an article on a company that had developed one of these "Black Boxes" and were heavily involved with Insurance companies, and the whole Discount for safe driving side of it. 
+So I looked at what else this could be used for......
+So I came up with improvements to our Road Structure as well as Automobiles and of coarse Insurance companies and the side of Safe Driving.
+
+The company in question can be found at the following address. 
+
+http://www.ingenie.com/
+ 
+Telematics has been used for years by Haulage firms to track vehicle’s Movement, Formula 1 Teams use it constantly to better improve their Cars.
+An Internal Gyroscope measures Lateral G-Forces, Breaking, Acceleration and cornering, units can also measure Position, Speed, The Mileage covered, etc, .
+Connected to Satellites the same way Sat Nav’s do to track position on the road.
+
+Use this data to measure the way a car responds on a particular part of the road. In turn this data can be used to improve the Road Infrastructure. 
+
+Satnav, (TomTom, Garmin, etc)
+Telematics Boxes (Used for insurance companies to better improve insurance costs, e.g. http://www.ingenie.com/)
+EMC’s Systems (To Collect and Process the data)
+
+By marrying all these technologies together we can gather relevant data, process it and supply(SELL!!) this information back to Local Councils to better improve our Road network, Automobile Manufacturers to help them improve how their cars respond in certain road conditions, Insurance Companies to help reward safe drivers.
+

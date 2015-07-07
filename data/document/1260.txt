@@ -1,0 +1,18 @@
+Core Technologies Cross-Product Quality Engineering Team
+This idea improves the supportability of the Core Technologies portfolio by assigning specific resources to collaborate and co-work on offerings consisting of multiple Core Technologies products – a small and focused quality engineering team consisting of subject matter experts from each product team.  Structuring a specific team responsible for validating product interactions will be more efficient and effective than current ad hoc efforts.
+This proposal was generated during an ideation session at the Ireland COE involving personnel from VMAX, VNX, and Customer Service.
+This idea solves the problem by directly assigning resources to a cross-functional team who are co-located, with appropriate equipment and lab space.  This enables better collaboration and focus on cross-product offerings as compared to today’s approach where main responsibility lands with the consumer.  Having each product group provide subject matter experts in support of this effort is unique.
+
+WHAT - Cross-product solutions testing in a holistic manner, such as VMAX + Data Domain (ProtectPoint), VMAX + XtremIO (FTS)
+WHY - Existing solution testing is done on an ad hoc basis, and focused experts working together will provide an optimized and higher quality test & validation capability to benefit EMC & customers
+WHO - Two quality engineers from each of the main CTD products, including; VMAX, Data Domain, XtremIO, VNX/VNXe
+WHERE - Co-located with adequate lab space & physical equipment, most likely Durham and/or Cork
+WHEN - Ramp team within a quarter with aim to be fully staffed within six months
+HOW - Through support of Core Technologies leadership, leveraging product expertise from the assigned subject matter experts, with defined metrics to quantify impact and/or areas to adjust
+Success will be the team of assigned subject matter experts in place and responsible for the cross-product testing, providing a greater and more complete test capability when Core Technologies products are integrated in each other, resulting in higher customer satisfaction and lower support cost.  The team is to be self-funded within Core Technologies via a pooling of some existing personnel & equipment from each product team.
+
+Key outputs:
+to product groups - test reports & flagging of compatibility issues
+to Customer Service - error reporting & problem isolation guidance
+to Professional Services - implementation guidance & usage guidance
+to Product Management - deeper understanding of end-user experience

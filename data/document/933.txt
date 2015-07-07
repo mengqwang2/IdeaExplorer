@@ -1,0 +1,9 @@
+VM backup compliance solution for new business verticals.
+VDP is one of those products which involves collaboration between EMC federation companies (VMware and EMC II). This idea will help both the companies to strengthen their product prospects in the market.
+
+It will also enable both companies to explore new business opportunities around compliance related requirements.
+This idea occurred to us very recently when we were brainstorming the possibilities around VDP product roadmap.
+VDP has ability to take backups, perform replication and restore at granular level. VDP can easily be tuned by adding required reports, backup schedules, etc to help customers meet the compliance related requirements.
+VDP’s USP is that it is native data protection solution for VMware, is tightly integrated with vCenter and is extremely easy to install and use.
+
+This idea will be extended feature functionality in the VDP product itself. It will help VMware and EMC II both to capture new market segment. VMware can use it to strengthen its position in the SMB market and EMC II can use it to upsell more of Avamar and DD. 

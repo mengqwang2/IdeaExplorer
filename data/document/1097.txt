@@ -1,0 +1,7 @@
+XtremIO volume based physical space utilization report functionality
+This idea is aimed to improve XtremIO functionality, which is a major product of Isreal COE. Better XtremIO, better Isreal COE.
+When testing XtremIO in E-Lab, we need perform some testing related with the physical space, like thin provisioning threshold test.
+As we can't tell the physical space used by each volume, it's very difficult for us to complete the test.
+If we could generate a physical space utilization report based on each volume, including physical spaced used, compress and deduplication rate of the volume, this will help to tell customers which application is suitable to on XtremIO, which application not. Customers just need migrate those applications of out XtremIO, then XtremIO will be used more efficiently.
+
+If we implement this feature, which most of our competitors don't have right now, This will make XtremIO distinguished in AFA market. This could be a key to market wins.

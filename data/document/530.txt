@@ -1,0 +1,5 @@
+Service Request tracking 
+N/A
+Knowledge and SRTracking 
+A System connected to an excel sheet, which acts as a Database, chooses different fields and directly classified those subjects into tabs with details of the SR and the action plan, this will increase the technical knowledge with a strong DB 
+N/A

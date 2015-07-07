@@ -1,0 +1,14 @@
+ADC – Automated Data Collects for better SR handling and better TCE
+
+ The idea came up when we saw the huge amount of time wasted in TSEs daily work asking for logs and providing steps by email on how to get the logs. We saw how this badly impacted TCE and customers’ satisfaction. We thought about automating this repetitive and very common step towards better TCE
+The idea is to have logs attached to the SR at SR creation time using one of two ways :
+
+1-	Automatically using the connection between the box and the EMC support site and ESRS.
+2-	Automatically display a pop-up to the customer that logs needed for troubleshoot + the steps to collect and upload logs to the SR for this specific product. Then the customer can do this himself instead of waiting for SR to be assigned to TSE and then the TSE asks for logs. 
+
+This automation of service leads to the following wins :
+-	 higher CSAT and better TCE for our customers 
+-	Saving time and effort for our TSEs
+-	Faster SR resolution 
+
+

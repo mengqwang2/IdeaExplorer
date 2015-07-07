@@ -1,0 +1,10 @@
+EMC Connect IN
+Idea is to built an application which will enable various EMC communities to connect, collaborate in an interactive and efficient manner which can be leveraged and supported by desktop and mobile devices. 
+Lack of ability to collaborate with various technology experts to leverage their skill sets and domain knowledge within EMC.
+
+Lack of clarity on number of kit donations results in ineffective contribution.
+Analytics’ on Inside EMC profiles and System should be able to measure and track the kits donated to the School community from EMC: 
+
+By using UI5 technology, we will be developing EMC community network application which will enable various networks for e.g. skill set search capability, employee profile upload, track the kit donation details etc. which will access the HR database for employee profile and enable it with the application.
+
+Results in better productivity, cross collaboration, sharing of ideas, reusable library, transparent and holistic view of donations, employee satisfaction.

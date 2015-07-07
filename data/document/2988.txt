@@ -1,0 +1,14 @@
+Running hypervisor & VMs (Windows/Linux) in Android phones/tablets.
+Inaccessibility to Business tools on smart devices during travels and trips.
+Incapability to use existing Windows/Linux softwares for the people without laptops and PC. 
+Repetitive efforts to re-write applications for Android OS. 
+
+- Not having business application on mobile as a universal problem.
+- 80-90% of smart devices (phones and tablets) are Android based and remaining are running on Windows and IOS. Smart devices are running on powerful processors, higher memory and bigger storage, I believe its capable enough for having hypervisors and VMs for better utilization. Moreover additional peripherals like keyboards/HDMI/USBs are also there in market for leveraged use and ease. 
+- A layer between Android and VM - say Hypervisor, compatible Bare-metal hypervisor OR Hosted hypervisor can be developed in order to reach this solution.
+- Light-weight VMs can also be developed in future if needed depending on requirement. 
+- VMWARE-VDI features can also be merged with this as a bigger picture.
+- All business applications which are there for operating systems like Windows/Linux etc, will be available on Android Tabs and Phones.
+- Required approvals from available tools,portals,softwares like EAS, Goals etc can be provided Easily and timely from managers and business executives. 
+Revolutionary step in IT industry.
+Universal applicability.

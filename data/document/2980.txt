@@ -1,0 +1,13 @@
+Combine VMAX3 and XtremIO for better Mainframe support
+XtremIO is looking for new use cases and integration options. Currently XtremIO doesn't support Mainframe and VMAX3 doesn't have online de-duplication. The integration of the two platform can use the best of both worlds.
+
+The idea came up in the beginning of April after I read about XtremIO challenge. I asked Alex Veprinsky and Georges Brun-Cottan to see that it is feasible. 
+This idea might be too obvious to be considered as "innovation" but I brought it just in case it was not considered.
+The idea is to connect the Mainframe to VMAX3 front-end (available around Q1 2016)and to connect XtremIO with FTS (available today) in the back-end. 
+
+In order to have good response time the response time sensitive application will have a storage group with the best SLO (Diamond)
+Implementing this idea will be very easy so the big questions are:
+1. How much de-duplication can be achieved by this solution?
+2. How cost effective this solution is.
+
+The better solution will be that XtremIO will support Mainframe but that is much more 

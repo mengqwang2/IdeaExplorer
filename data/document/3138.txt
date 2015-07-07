@@ -1,0 +1,6 @@
+User Role (or proficiency) based view for NW Backup & Restore
+
+The Idea took shape when I, as a newcomer went thru the installation workflow. I found it quite old-fashioned, not to mention buggy. Post installation, the UI is quite challenging to understand for a new user. I plan to take this idea forward via the Disclosure route also and working with a colleague towards this.
+#1: Use Sales / Marketing channels to survey & classify users into 3 broad categories - E.g. Admin, Operators, Guests (Or Expert, Intermediate, Novice User). Give an Avatar to each of these user groups.
+#2: Depending upon the Avatar, provide a simplified (or Complex) Cloud based Web-UI (via a hosted URL) to perform all NW Backup & Restore Tasks. E.g. A Novice User can do a backup with 4-5 clicks (Backup or Restore -> Specify Saveset -> Backup Destination -> Done). An Administrator / Expert User can have access to all the other settings. The Agent can be installed on client system in the background (silent install). This will also negate the need for bulky installer files. 
+

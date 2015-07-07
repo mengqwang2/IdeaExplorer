@@ -1,0 +1,8 @@
+Employee third platform mindset
+
+The company is working on advancing and working shifting most of its work to third platform. This is why I thought of how employees should change thier attitude and live understanding and working using third platform.
+Trying to change the mindset of employees we should make a shift in our technologies advancing and keeping up with the Know-hows.This could start with changing the below as a start: 
+- Moving our frequently used websites like salesforce and DXP CXP to applications. 
+- Moving from a normal laptop to a tablet or a VDI (remote desktop) which would consume less electricity and would help in moving the employee’s approach to the 3rd platform.
+
+

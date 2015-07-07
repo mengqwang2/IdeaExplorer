@@ -1,0 +1,6 @@
+Leverage social network platform to collect customer feedbacks
+
+This idea comes from brainstorm session with team. Team members found that most of the feedbacks are not official and can be missed if no easy and quick way to speak them out. This applies to everyone, so we worked out this idea to help EMC collect customer feedbacks.
+EMC can leverage the widely used network platform like twitter and Facebook to collect feedbacks. EMC can maintain a public account on the social network platform (let’s call him Mr. EMC).  Customers or partners can “friend “ Mr. EMC, @ Mr. EMC to complain or commend anytime, anywhere.  
+Behind Mr. EMC, there is a team working on these feedbacks. Categorize them, deliver to corresponding teams to follow up, and archive the data for analysis, and generate regular reports. They can also communicate further with customer directly when necessary.
+

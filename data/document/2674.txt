@@ -1,0 +1,5 @@
+VMAX40K FA Virtualisation
+Previously I was working with customer where we have vmax40k with 4 engines and then we have upgraded to full blown VMAX40K with additional 4 engines.Challenge we face that for new engines we need to load balance all FA and since it is heavily utilized we
+Virtual and physical option will be helpful in combining FA and hence we can have load balancing of FA
+We have two virtual ports and behind this ports all physical FAs should be present and there should be option to configure FA in virtual or physical manner
+This will minimise load on storage admin for FA monitoring and movement 

@@ -1,0 +1,5 @@
+Mobile friendly EMC Support site
+Today people are increasingly accessing information on mobile devices like tablets and smart phones. The idea here is to make the EMC Support mobile friendly and make it available on mobile devices as an app in iTunes, Windows Place and Android platforms.
+This idea came from Amazon May Day service solution during brainstorming.
+Develop an app that would enable customers to access information from EMC support site on their mobile devices. If they need to contact EMC Support on the phone from within the app, they should be able to do so. Also this app could be voice enabled meaning that a customer could search for information within the app through voice commands. Or if needed, a customer should be able to create a service ticket from within the app. In short, make EMC Support site mobile friendly.
+The final solution will be an app for iOS, Windows Phone and Android platforms deployed through iTunes and Google Store. Gives the customer to access support information from mobile devices. We could potentially look at targeted ads in the app based on wh

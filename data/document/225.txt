@@ -1,0 +1,10 @@
+ACI - Awaiting Customer Install
+The idea will enhance the IB compliance and ensure have accurate IB data that will avoid  loss of Revenues, and waste of time and effort.
+
+This will also have big impact on the Serial Numbers that are subject to quote and maintenance but don't get them due to the wrong IB Status
+
+A call with one of the SAMs discussing the issue of the ACI Serial Numbers
+This idea should minimize the number of ACI Serial Numbers that has rapidly increased recently 
+The idea is about forming a team that will work on this project beside their core operations to be responsible for checking the Serial Numbers that are ACI.
+
+Their checks will be on the old SRs, EMC ServiceLink, active Contracts, SYR Site and then contacting the Customers

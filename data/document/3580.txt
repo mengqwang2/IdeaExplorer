@@ -1,0 +1,60 @@
+ "EMC in Class” for kids 
+
+the idea came up from my previous participation in similar events aiming at teaching students the computer concepts and programming in the form of games.
+STRUCTURE:
+
+we can make EMC business units produce an interesting game competition that can be presented to students with different ages to make them feel the need for certain concept such as the need for big data analytics. the class will be divided into groups and play the game. then the volunteer will discuss with them the difficulties they experienced and will introduce the EMC concept and its application as well as EMC products designed for it. a good example for such scenario that I am considering is :
+
+1- "Big Data" concept Game: the game can be done by a simple verbal IQ puzzle giving the teams a big set of information and one question to answer by combining these information together. the question needs to be answered in limited time. 
+for ex. puzzles like the famous "Enstein Riddle" (I also can compose simpler verbal puzzles).
+after they try to process this big amount of information to derive a decision or an answer in a limited time, they will feel the difficulty for our mind capabilities to store and process such big data and derive a decision in a limited time without the need for other tools. the volunteer then explains that the same happens with computers. he will explain the need for big data processing technique and infrastructure with analogy to what they experienced in the verbal puzzle. the volunteer can then present EMC's solutions and products addressing this area such as "EMC Greenplum" and "Isilon".
+
+2- "Cloud computing and Security" Game: this concept can be delivered using a fun and interesting game that is taken from reality. the game I am proposing can be called "Animals City". This game should address the concepts of :
+- shared storage for different hosts versus distributed storage for each host and the efficiency of resources. 
+- security considerations in the cloud, zoning and masking.
+
+the Game idea is to design the best city for the animals using the given limited resources and complying with security considerations and certain rules. the material to be used are as simple as (paper sheets + small animals toys and color pens)
+
+the analogy I want to make is as follows:
+1- an animal is like a host !
+2- food is like storage ! (animal needs to reach food as host needs storage access)
+3- different animals live in different Islands (different hosts belong to different locations)
+4- bridges to connect islands (networking)
+
+the students need to plan the city considering :
+- each animal need to reach food (storage access for hosts).
+- limited grass and trees to plant (limited storage hardware units to install)
+- need to separate animals that are harmful to each other. a lion can not reach the deer ! (security consideration between hosts)
+- a lion should not see the deer not to try to reach (masking and zoning).
+
+the students will then feel the need for :
+- shared resources and services efficiency versus dedicated resources.
+- security consideration in the cloud.
+
+the volunteer then can discuss each team design and define the risks and flaws in each design and discuss the challenges. the volunteer can then reflect the challenges to the storage and cloud world explaining these concepts and presenting EMC's solutions and product for each challenge. the volunteer will have a presentation simulating the same game to explain for the students using pictures and to give some visual hints about EMC products environment.
+the winning team will be given a prize at the end of the two games. 
+
+
+
+TIMELINE: 
+
+One day activity in High Schools for STEM students
+
+LOGISTICS:
+
+Animals toys, pens, paper, color pens, cartoon pieces (to build models), products paper prototypes
+
+Notes:
+the difficulty level of the games can be adjusted to suit different ages/backgrounds. this one is made generic that also suits kids 
+
+this way students can learn technology concepts in a way the will never forget and will have fun playing as well. 
+
+students can also give suggestions to enhance these technologies as the needs they passed through during the game can make them innovate!
+
+similar games can apply to different technology aspects as well.
+
+volunteers can be EMC employees from certain backgrounds and skills.
+
+
+
+

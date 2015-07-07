@@ -1,0 +1,14 @@
+Cars/ Vehicles in Smart City should be identified through a network and use an IP address
+IoT will be the next generation technology, need everything to be over the web, this is so relevant and will solve many issues.
+no specific history for the idea
+1- Traffic congestion as Government in the Smart City can simply check the IPs flow in the network (Cars/vehicles) and can recognize the bottlenecks and direct recommend directing the vehicles to another way by sending an automatic message to the driver (IP of the vehicles linked to his smart phone. This will help individuals a lot to be able to know the exact time that they estimate for arriving to a specific place through checking the traffic congestion through an application on their smart phone tracking and reporting the flow of IPs
+
+2- Policemen could easily find stolen cars and track the movement of any stolen vehicles .
+
+3- Any passenger using his device could easily know how long the next bus will arrive to the bus station
+Will help the government/people in many ways
+
+-Find stolen cars
+-Check traffic congestion
+-predict your arrival time so no one will be late on an appointment
+-passengers will be able to know the time estimate for the arrival of the next bus to the bus sta

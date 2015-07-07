@@ -1,0 +1,8 @@
+Creating Active-Passive "High Availability Cluster Networker Server" application 
+Current Networker Server is stand alone web application. If VM/Host on which Networker Server is installed goes down in the absence of admin (eg: long week ends or night time), the scheduled/Active backup jobs will fail which might lead to Data Loss situa
+While working on MSCS, got this idea.
+As a storage company, we recommend redundancy ( like RAID,NIC teaming) at each layer. Even the customer demands for it.So why can't we have a redundancy/High Availability to our own application?
+As Networker Server uses web server, and web server can be implemented as Cluster Application, our Networker Server can be implemented as Cluster Application in Windows MSCS, RHEL native cluster and VCS cluster in RHEL as an Active-Passive cluster.
+
+This will address the problem mentioned above.
+High availability of application, customer satisfaction, Value added service to the customer. 

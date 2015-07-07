@@ -1,0 +1,6 @@
+Hardware check to avoid guessing the configuration error
+labman efficiency.
+One time, waste a lot of time to check the configuration error, but actually it is the hardware issue.
+
+So if we have some kinds of equipment to do the configuration/hardware sanity test, it will be great to save much effort and time for labman and users.
+Save much effort and time for labman and users.

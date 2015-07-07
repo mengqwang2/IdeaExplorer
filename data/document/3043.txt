@@ -1,0 +1,12 @@
+VNX/VNXe Mobile Management Dashboard
+The idea is to implement a monitoring (maybe management) application for midrange storage device on various mobile platform like IOS and Android.
+Our CA recently is implementing next generation GUI which is based on HTML5 / RESTful service. I noticed its back-end REST API and a good portion of logic in client code can be reused to implement a cross-platform mobile application. So why not we leverage this to go mobile?
+Customers storage environment may experience critical situations from time to time, and sometimes technical personnel just need the capability to keep in contact with their devices at anytime and anywhere in order to securely check their health status, performance and utilization. 
+
+Given the widely utilization and the rich features mobile devices may provide (like intuitive user interface and push notification), it is a good platform to deliver the functionality.
+
+Not many competitors have delivered similar solutions. If we have the mobile monitoring / management capability in place, it would be a powerful complement to our products.
+
+Customer's system administrators may use the application to securely monitor or manipulate their storage systems.
+
+Customers may check the devices' health status, the current capacity utilization , as well as immediate access to real time performance metr

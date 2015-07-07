@@ -1,0 +1,10 @@
+traffic jams and human behavior 
+the idea is all about how to monitor and analyse traffic jams through human behavior because at the end the cars are driven by human beings so they are the ones that we should focus on
+A lot of us live in crowded cities and definitely Cairo is one of those cities, the idea came from that there was an app called Bey2ollak that we used to check daily to see if there's any traffic jams ahead, even we used to check social media for updates, so since all of this in the end is considered data then definitely we could analyse it and come up with some solutions
+these days a lot of people who are stuck in traffic jams on daily basis write their experience or updates on social media and express how they find the traffic, and also there are a lot of mobile applications these days that let users post updates on a certain road or area, by monitoring these applications and websites like Facebook, Twitter and other social media websites we could find how this data can be used to read public attitudes on big urban issues like traffic. 
+for example: some people might be talking about the bad weather, others might be talking about the high number of cars that are parked in the street, others could be talking about the bad road condition, so we could use this data to analyse it first then find ways to solve these issues related to each area
+
+-traffic jams will be monitored
+-it will be reduced significantly
+-a lot of money will be saved 
+-people will be more productive

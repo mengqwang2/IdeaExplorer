@@ -1,0 +1,19 @@
+An improved QoS implementation based on Application Data Self-modeling
+This idea meets the challenge of CTD Supportability in 12 Months or Less. It addresses the improvement of QoS in both VNX and VMAX, which could provide much better customer experience. It based on the current FAST.x technologies in VMAX3 and could be improved in less than 1 year.
+This idea came up when Ming Tong was discussing with me about the FAST.x in VMAX3. We have to admit that FAST.x is a big progress compare to FAST VP in VMAX2. And it matches our opinion that customer should be involved in complex ILM policies as less as possible. However, it still couldn’t get rid of the customer input as the backend storage system could not be aware if the application is satisfied on storage performance or not. If the application data could be aware if it’s satisfied or not and could exchange this information with backend array, this problem will be resolved completely.
+In current FAST.x solution, IT admins need to choose the proper Service Level Objectives (SLOs) based on the application performance requirement. And the SLO needs to be adjusted as once the application performance requirement changes. Besides, the SLOs are predefined which are rigid and not as agile as the reality. Once the high SLO (for example Platinum) is chosen, while the application is not as busy as expected, the resource may be wasted.
+This solution resolved these problems based on three key components.
+1.	Performance Self-awareness bits (two bits) in application data unit.
+These two bits are defined in data unit frame which are used to represent application performance satisfaction. Values could be defined as:
+00 – Over satisfied;
+01 – Satisfied;
+11 – Not satisfied;
+2.	Application data unit analysis module on Storage system;
+This module is a light software module which works on analyzing Performance Self-awareness bits of each application data unit. And it will generate the statistic results as the input to FAST.
+3.	FAST components 
+This solution leverage FAST technology to adjust storage resource for different application data units.
+SLOs, SRP, FAST.x which are newly introduced in VMAX3 are industry leading auto tiering concept. However, they still require manual interventions. This solution provides completely automatic method for QoS and highly improves the storage system utilization in Hybrid system.
+
+If this solution was implemented, it would be an amazing and an attractive feature for our customer. It also could be expanded in our EMC Hybrid Cloud environment QoS field.
+VMAX, VNX and other hybrid storage system could be improved by it. Customer will also get much better user experience.
+

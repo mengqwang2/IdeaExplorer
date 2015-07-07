@@ -1,0 +1,13 @@
+Integrated lab As a service automation solution
+
+We have been using DURHAM lab for our test purpose and we found that mangement of VM provsioning and other resources are not visible to end user or group.so we have come up with these solution which is helps us to have a centralised solution 
+
+poposing a solution/lab services to over come the above chalanges.This should  offers the following lab management capabilities:
+
+Centrailsed resourese sharing and reservation so that we increase the usage of resourse and reusability
+A selft service portal which is based on REST web services that helps to perform the basic functionaities for the user with out mannually connecting to the machine. [This is to improve the performance and usability]
+Inventory and connectivity management of lab as a service resources.
+Invetory of lab as a servie topology
+A complete automated one touch provistioning of lab as a service by the user.
+
+

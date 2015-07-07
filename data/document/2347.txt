@@ -1,0 +1,8 @@
+Use IOT and big Data analytics to save electricity 
+With the use of sensors and big data analytics, cities can adapt and optimize the electricity used in streets. 
+My idea came when I was travelling one day by car at night, and during the 2,3 hours drive, thought that it would be very useful if we can optimize the street lights to save electricity/energy.
+My solution is to involve the usage of sensors around the roads (specially High ways/Travel roads) which could consume lots of not needed electricity.
+Also on long travel road we can use the sensors and the analytics to lighten parts of the roads by calculating the speed and number of cars travelling the road.
+
+My idea will make the cities more smart by saving and optimizing energy.
+It would benefit EMC by creating more business opportunities.

@@ -1,0 +1,12 @@
+IP Storage Networking Playbook
+Networking is one of the critical components of any third platform solution/EHC. 
+Currently there is a huge knowledge gap between a storage expert and network expert. The irony of the situation is that neither can succeed without the other.
+The playbook proposed would enable a win-win situation. It would enable shared services to design and build plays that are relevant to third platform market with smart and virtualized networking solutions. This helps EMC sales capture some quick wins as they are able to position our product to sell with the latest networking technologies. This improves customer confidence in the solutions and helps strengthen our partnerships with emerging players in virtualized network industry
+E-Lab has frequently served as that bridge between Networking vendors and storage experts. There have been numerous conversations with our networking partners that make us realize the missed opportunity for EMC due to lack of awareness on the latest networking solutions being offered by our partners. The EMC storage solutions are the perfect complementary offering to go with it.
+We have published tech books, white papers & reference architectures, but it is challenging to present this data in a format that can be consumed by our pre-sales team. Playbook is the right forum to get the value proposition out in a conceptual but comprehensive manner.
+
+The solutions like SD-WAN, NSX multi-tenancy feature, NFV etc are the value add- networking components that are critical to include in our GTM strategy for off-prem public/private cloud P3 offerings.Sales team needs a playbook to educate them about these latest technologies so they can position EMC solutions with these technologies.  The playbook should level the playing field by listing the core technology and not the product
+
+-Equip professional services and pre-sales team with playbook to capture new-untapped markets
+-Position the sales team to be leaders in building end-to-end P3 solutions in partnership with network players
+

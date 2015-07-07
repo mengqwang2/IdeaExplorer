@@ -1,0 +1,17 @@
+My city My network
+Office of CTO: Though it may seem unrealistic to build such parallel network from ground-up, companies like Toshiba are attempting something similar already. They are trying to build a parallel network to protect the exchange of encryption keys required for secure communication. 
+
+RSA IOT: This idea is about securing the IOT systems which is the primary focus area for this challenge.
+
+Israel COE: This idea is about securing the IOT systems which is the one of the focus areas for this challenge.
+
+I thought of this idea only recently. I am planning to talk to senior technical and business folks in the COE to explore the merit and feasibility of this solution.
+
+The idea is to build a network from ground up for IOT with jurisdictional boundaries and  allow regulators control on what enters and what exits the network within their jurisdiction.  Few regulations that I could think of.
+	- Users can access their IOT enabled devices with a single factor authentication and once logged in, the session is valid for a week when they are within their own cities/countries.
+	- Users will receive limited period validity tokens to access the IOT enabled devices when they are leaving their city/state/country. If the tokens have to be extended, the regulators can mandate the type of factors to be used to ascertain the identity  of the user before extending the validity of the token. 
+	- Regulations for data flowing in from other zones  - If it is a safe zone, simple security mechanisms that doesn't trade usability much can be adopted.  If the zone is not very safe then advanced security techniques can be mandated even if it trades off usability.
+	- All the control devices(laptops, mobiles, tablets) should have a private key with a certificate signed by the CA specific to the zone(city/state/country). This key can be used  to ascertain the identity of the device each time there is a request to control a thing or a object connected to the network.
+
+Such a network is very hard and very expensive to build . But if it is built, it holds tremendous potential and value. 
+

@@ -1,0 +1,7 @@
+Auto Power on/off servers in Durham Lab to save power when servers are not in use
+Equipment's in Durham labs are always powered ON irrespective of they are getting used or not. We can automate lab portal to auto power ON/OFF servers according to their usage time.
+-
+1. Implement "Time Usage" box in Lab Portal where user can enter time when he will use server daily. i.e. Most of users will use server from 7AM to 11PM in most of cases, so user need to specify this time in "Time Usage" box. This should be optional for user as in some of cases server may need to be running all the time.
+2. Implement script which will read this usage time for each server and power ON/OFF server using IP switch. i.e server will power off at 11PM and power on at 7AM.
+3. If we implement above script with lab portal we can also add power on off interface on lab portal and we don't need to access IP switch to power on/off equipment.
+1. This idea can save money as we are saving on electricity required for server as well electricity required for cooling lab if server remain power on all time.

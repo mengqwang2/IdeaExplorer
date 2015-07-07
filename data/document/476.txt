@@ -1,0 +1,21 @@
+Establishing the trust with the Things of Internet
+It is clear now that the Internet of Things is going to have an exponential growth. Security should not be an after thought here. We are already late on building the trust with the Things of Internet. With the idea presented here, we have directly addressed the security of IoT. We have proposed a feasible design which also addresses the usability aspect of it.
+We have seen users(people not familiar with security concepts) accepting/trusting third party certificates without knowing their implication.
+It had always been a struggle to enforce security in a user friendly manner. We were looking out for a usable way to ensure that the user has reached the right website/service. 
+Working on Authentication Manager has provided us with the insight of its capabilities. Idea of using tokens for reverse authentication came during this time.
+We will use RSA Authentication Manager(AM) to perform authentication. We will also use AM Agent SDK and AM Server SDK.
+We will have users in the internal database or in the external identity sources linked to the AM Server.
+There will be two tokens(Example: soft token) assigned to all users. The first one will be a generic purpose token used in the conventional way.
+However the second token assigned to the user will be used for reverse authentication.
+Instead of two tokens, we could as well use two halves of a large token code. Here we will assume we use two tokens: "generic purpose token" and "reverse authentication token".
+AM Agent SDK provides the capability of building custom agents and they would be present on each of the devices. This way devices can authenticate any requests from the users. AM Server SDK will be used by the devices to interact with the AM Server. 
+
+-A user sends a request(with userID) to connect to a device.
+-Based on the userID provided, device fetches the next valid token code for that user's "reverse authentication token" using the AM Server SDK and respond back to the user request.
+-Once the user confirms a match for the "reverse authentication token" code, the authenticity of the device is established.
+-User now responds back to the device with the token code from the "generic purpose token".
+-The device sends the authentication request to the AM Server using the integrated AM Agent SDK.
+
+This way we will be able to establish mutual authentication between the users and devices by leveraging existing product frameworks.
+By leveraging the existing RSA product frameworks, we can easily establish mutual authentication of users and devices/services in a user friendly manner.
+We don't want to give our end users the burden of understanding certificates and other complex security concepts. With an ever growing world on devices and the nature of users, we believe that a usable mutual authentication would build a secure Internet of Things.

@@ -1,0 +1,5 @@
+Biometric Security for IOT 
+The challenge is to bring security for the Internet of things. All our devices are connected and anyone can hack into it . so if it has to be safe and secure it needs to be strengthened with Biometric security along with cryptography . 
+NO one was involved, It was thought and processed now .
+using Biometirc security either iris,fingerprint or face recognition or a mixture of all along with cryptography via RSA or DSA 256 encryption.
+well internet of things is the next big thing . if the data center is also included in the device list of internet of things , this would be the next big thing . you would not require any more laptops and can access data across via mobile or home and also we could keep audits on everyone's action . 

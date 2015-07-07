@@ -1,0 +1,25 @@
+Assisted storage discovery through db Sync for Solutions Enabler (SE) 
+
+SRDF/CE is a cluster application that performs storage discovery before creating storage groups in Microsoft Failover cluster. To create each group with RDF devices it takes about 2 minutes as SE storage discovery takes 80% of the time. With this mechanism it would only take 3 to 5 seconds to create the Cluster group with RDF devices.
+SE could introduce a daemon that creates SE databases based on symaccess storage view that is specific to each hosts. For example, if a Symm has been configured with 20 masking views for 20 hosts the new SE daemon would generate 20 separate databases that would be made available to be synced with respective hosts.  Each client host can be made to sync with the discovered dbs specific to that host.
+
+On the host side, a user who chooses to discover SE database using cached mechanism would enable the SE config flag corresponding to this new feature. There are two values defined. One is to enable the sync feature and the other defines the minimum time required to sync if a storage incident has occurred. If the user chooses traditional discovery, then the flags are disabled.
+
+Auto Sync will be performed only if a storage incident specific to the host has occurred. If the sync flags are set and user performs a manual discovery using “symcfg discover” then, forced manual sync will be performed rather than the traditional heavy weight storage discovery.
+
+Eg: of modified config file on the client server: 
+# Parameter:            SYMAPI_ALLOW_DB_CACHE_SYNC
+# Allowed values:       ENABLE | DISABLE
+# Default value:        DISABLE
+# Description:          Indicates whether users requires db sync for db server
+   SYMAPI_ALLOW_DB_CACHE_SYNC = ENABLE
+ 
+# Parameter:            SYMAPI_DB_CACHE_SYNC_TIME
+#Allowed values:       5 - 3600 | 90
+# Default value:        90 Seconds
+# Description:          Indicates the minimum time interval for db sync in the event of storage masking view change.
+   SYMAPI_DB_CACHE_SYNC_TIME = 90
+
+If the client host is mapped to many Symms, then, the client SE detects the presence of ACLX devices on  the host and directs the sync requests to respective Symms for a db sync. The request from the client host is received at destination Symms who acknowledges and sends the database specific to that host. The mechanism would ensure that once the sync is over the final db file will contain recent update from all the host’s local Symms. The end result would benefit much EMC application with superior performance. This will also be an excellent choice in cloud infrastructure. 
+
+

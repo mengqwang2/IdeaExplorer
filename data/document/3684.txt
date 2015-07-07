@@ -1,0 +1,22 @@
+Cloud Based Health Check Solution
+
+Initially we developed a number of scripts to automate different phases of a health check such as downloading logs, merging them and generating Symmetrix score cards. A web interface was later given to this for public access.
+
+This tool has been demonstrated to executives and has been well received and is currently being socialized with others.
+Please visit this link to see how exactly the tool works
+http://10.63.32.191:8084/SymmMergeWeb%20v1.5/Video.do
+
+The Health Check Solution is a web portal that can be accessed by anyone from anywhere in the world. It automatically downloads log files, generates performance graphs and emails the reports back to the user. The solution leverages the existing tools used for performance analysis such as Symmetrix SymmMerge, TTP_EASY  for log file processing. It is built on a scalable architecture, so that with the increase in number of requests the backend servers and modules can be easily scaled. The architecture also supports easy integration with other products such as VNX, VPLEX, Fabric switches etc. 
+
+Once the log files are downloaded, they are extracted into an SQLite database. The data from the database is queried using XML modules, analyzed and reflected in Excel and Powerpoint reports. The solution performs advanced analytics on the logs against various Symmetrix Best Practices such as FAST, Virtual Provisioning, Disks etc. These reports are then emailed back to the user.
+
+Over a period of time database would turn into a huge warehouse of log files, which can be used for analytics to gain insights regarding array performance, trending and pro active customer service.
+
+The Cloud Based Health Check solution is the next face of self service solutions on EMC products. It has a potential for large savings in terms of cost, time and effort. 
+
+Please visit the below link for a video demonstration of the tool:
+http://10.63.32.191:8084/SymmMergeWeb%20v1.5/Video.do
+
+Presentation:
+https://inside.emc.com/docs/DOC-100161
+

@@ -1,0 +1,13 @@
+ (FAST+) :  A Big Data Analytics approach for Better AutoTiering 
+
+ The idea came in from studying different Big data predictive techniques as well as caching techniques. I was inspired by the huge difference in the two approaches and can see that there is still huge enhancements to be made in the caching techniques 
+
+
+The idea will make use of the huge amount of IOs happening daily to the storage array. Most of the IOs are made by different applications that have a certain behavior. huge amount of IOs are analyzed for a certain amount of time to detect the usage pattern using correlation techniques.  We will look what aIOs did trigger others and what memory pages/disk blocks are accessed after each other in an associated manner. This will enable us to predict what disk block/memory pages are going to be accessed.
+
+The analysis results will be used to run the auto-tiering accordingly by moving data (that will be accessed) to higher tiers. 
+
+The analysis of cache pages behavior will enable us to “proactively” move the data to be accessed to the cache which will significantly increase the cache hit ration and hence the caching algorithm efficiency.
+
+
+

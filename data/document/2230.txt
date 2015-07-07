@@ -1,0 +1,11 @@
+Support Customer with proactive/predictive model.
+Usually the support engineers give customer support by resolving the existent issues. In this model, we could not avoid/reduce the potential issues and system outage time. If we use proactive/predictive support model, we can do some improvements in these areas.
+I was a support engineer before. Handle customer case when issue happened is not easy to make customer happy with our handling speed. So I think we'd better find some way to avoid system outage.
+Customer will buy service after system deployed, how ever we could change the support from passive to proactive. It will be great.
+Change the old support model to new proactive/predictive model. We could sell our support as service, not only resolve the issue when it happened.
+We provide customer service package to customer in different price. Besides the daily issue handle. We also provide system health status evaluation, and system performance tuning service. These services could be weekly, monthly, semiyearly or yearly.
+In the service, we will check system health status(may on-site/remotely.), including disks status, system disks space usage, basic objects status, system eventlog, system alters, most frequently used module health status, etc.
+
+We could give customer a report after the check, and let them know the potential issues. So they could take proactive behavior to avoid system outage.
+Add some alter function on customer env, and send the pre-alert to administrator.
+	Buy service package, our support engineer could help customer check their test enviroment monthly/weekly or daily.

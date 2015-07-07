@@ -1,0 +1,15 @@
+Self-service test system for interactive development mode
+  1. currently Datadomain DEV team will introduce a interactive development mode
+  2. this model require each checkin "Do No Harm" to other branches
+  3. as checkin are so frequent, lots of test is needed
+  4. we can provide a system that meets this kind of test to improve efficiency
+  we do the same thing in BATS/PATS, this "Do No Harm" can be just a extensive usage
+  By doing some enhancement.
+  1. we composed a distributed test framework that can accept different test bed
+    and run different test
+  2. clean up test cases that is qualified to run automatically
+  3. group test cases by test bed into suites and add them to test automatic system
+  4. the system can dynamically detect new build to run all test suites, or
+  5. users can submit request to system per needs
+  Make "Do No Harm" test run more timely and effectively
+  Reduce lots of human effort to test the same test set time and time again

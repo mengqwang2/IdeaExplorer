@@ -1,0 +1,11 @@
+Online submission of the request for Customer's for Compatibility request.
+
+I have seen situation where we have the Service request for Compatibility and we suggest to direct to SAM and there is not tracking done hence lost in Time.
+
+So in the Benefit of the Customer and product to progress we can have this Open to Cusotmers to Give their requirement.
+There should be a place in support.emc.com where customer can Raise a request for the Compatibility of a product with third party / dependent product.
+
+This request should be directed to IIG_feild_interlock team and they can consolidate and request to engineeing .
+
+this way we can track with the Site ID + we have count of what are the products our customers are using , we can proceed in that direction.
+

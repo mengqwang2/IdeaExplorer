@@ -1,0 +1,9 @@
+Pixion: Image-Based Associative Authentication
+Associative Authentication is a new authentication method based on each user's personal associations with selected images - rather than relying on facts that can be easily discovered through social engineering, image associations are highly personal for e
+We developed this idea during the RSA Israel 2nd Hackathon (June 3, 2015) and created a demo application to demonstrate the approach.
+Watch a 90 second movie explaining Pixion-Associative Authentication: https://inside.emc.com/docs/DOC-154121
+
+1.	Enrollment: User is presented with a list of public images, and the users can additionally upload their own image(s). For each image chosen, they are required to provide a phrase that they associate with the image, either via text or voice entry.
+2.	Login/Challenge: When a user authenticates, either as a regular login or during step-up authentication, one of the enrolled images is randomly selected to be presented to a user, along with some images that the user had not enrolled. The user identifies the correct image and provides the associated phrase for this image.
+3.	Authentication: The user’s answer is checked against the answer provided during enrollment, by exact match or using a fuzzy logic (to allow for differences in grammar, spelling, etc.).
+Associative Authentication can be sold as part of the Adaptive Authentication product offerings, and is also a perfect step up authentication method for a mobile device.  It would increase customer satisfaction, with reduced calls about forgotten password

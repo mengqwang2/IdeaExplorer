@@ -1,0 +1,11 @@
+Competitive Performance Management
+Contribution to healthy competition and improvement in performance.
+We have seen some basic metrics like CSAT and TTR being spoken about multiple times, with very little effect. We have also seen the metric that we focus on rigorously has shown improvement (for eg: backlogs, with the captiva and documentum teams) and hence, this recommendation.
+A very popular six sigma methodology says about metric management " What can be tracked, can definitely be improved"
+
+> Leverage the screens in each bay to display metrics and performance pertinent to each team on those screens. This will help teams keep a constant watch on their performance and continuously strive to improve.
+
+> Introduce Contests among teams to get the healthy competition running.
+
+> Healthy Competition, resulting in an increase in performance levels.
+> Enhanced accountability/ownership among all employees in the team.

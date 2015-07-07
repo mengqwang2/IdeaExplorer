@@ -1,0 +1,5 @@
+Analysis towards the incrementally collected configurations/logs from customer deployments to predict issues and detect the system health status in advance
+
+When I was working on an xPlore 24*7 production down issue, I found the exceptions actually happened long time ago by checking their old logs, this makes me thinking of this idea: what if we can analyze the logs earlier?
+Customers usually clear the logs as time grows to free up some disk space because they think the logs are not necessary for them, but the logs are very useful for developers/QA to do analysis on the deployment,find potential issues on the system furthermore, QA can use them as a test benchmark as it's usually hard to reproduce the issues in customer's environment during internal test.  
+

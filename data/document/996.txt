@@ -1,0 +1,50 @@
+End-to-End Talent Acquisition program using Data Analytics
+End-to-End Talent Acquisition program which helps the HR department as well as the project Management in identifying the right candidate with the right skill set for the right job.
+Came across this idea while taking up F2F interviews and noticed that the candidates  basic/initial level of screening is not evaluated properly and there are not models available to do so apart from Resume evaluation in job portals.
+Talent Acquisition Web Portal: (Place where Employer and Employee can collaborate and identify the right candidate with the right skill set for the right job with initial screening qualification test).
+
+Implementation Approach:
+
+(https://inside.emc.com/docs/DOC-155776)
+
+Candidate:
+-	One time registration as candidate privilege and sign-in with user credentials.
+-	Laptop with Web Camera
+Employer:
+-	One time registration as Employer privilege and sign-in with user credentials.
+Login Privileges: 
+-	Candidate privilege can only update resume with video session for various questionnaire.
+-	Employer privilege can only be able to view candidate’s profile page for selection and email intimation for Face-to-Face interview process.
+-	Employer privilege can be availed after a serious background check w.r.t organization in which he/she works.
+
+Profile mapping criteria for evaluation:
+   Based on the following parameters:
+        Years of Experience
+	  - (0-2 yrs), (2-4 yrs), (4-6 yrs), etc.
+	Project Stream
+          - Technical (Development, Testing)
+	  - Management(HR, Manager, Executive)
+	  - Support(Technical support, BPO/KPO)
+
+Candidate Profile page:
+	With basic profile setting completed (as per selection criteria) by the candidate, the questionnaire difficult level will be set and the questions are timely random generation from the database.
+
+Skill set Evaluation categories: (all through live video streaming)
+-	Analytical/Communication skill ( talking about 5mins of some objects, etc)
+-	Technical skill (Problem statement will be given and user have to provide logical solution).
+-	Technology updates (relevant to technology mentioned in the resume).
+-	Decision making ability – (scenario based)
+
+Questionnaire:
+-	Question database been maintained and will get updated periodically.
+-	Questions for a candidate will be generated instantly based on the data analytics performed on the candidate resume for answering in live video streaming.
+-	Once the candidate is done with the questionnaire session, then he/she will submit the profile with the uploaded resume.
+
+Mode of Evaluation:
+-	Employer can post his/her job description and based on that the data analytics will be performed and then the relevant candidate profile will published for the employer to view and select for final F2F interview.
+
+
+1.	Helps Employer to have screening test before calling for a face-to-face interview(no need to have any telephonic which can be faked)
+2.	Helps Employer to evaluate the candidate on their own time.
+3.	Saves time both for employer and the candidate (in choosing the right candidate for the right job with the right kind of skill set match).
+

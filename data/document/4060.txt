@@ -1,0 +1,5 @@
+Simultaneous backup of same save set to multiple targets in Networker
+
+Most of the times backups suffer because of device issues.Many times overnight backups are missed due to device issues and it is only detected next morning by the backup admin. If same backups can be targeted to multiple devices simultaneously,then there is more probability to successful backups inspite of Device issues.
+If we can have the ability to target the same saveset backup to 2 or more devices, then we will have more probability of having a copy of the backup even if one target device fails.The probable solution would be to create virtual multiple copies of the saveset on the client itself and target it to multiple devices simultaneously.This process can be  Automated by providing option to configure it in Client configuration wizard .
+

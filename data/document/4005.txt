@@ -1,0 +1,6 @@
+Networker internal Configurations Maintained by DataBase to avoid human errors.
+
+Me and My Colleague Paneendar Palanki was discussing about the DR of Archserv. Which really makes the DR easy by restoring the SQL express Databases. It would be helpful if this is done in Networker as well, and also all the file are protected by Databases, manual modification and errors can be avoided specially on folders like /mm, /res and /Index.
+
+Maintianance of Networker will become more easy. Incase of Disaster recovery by just restoring the Database. 
+

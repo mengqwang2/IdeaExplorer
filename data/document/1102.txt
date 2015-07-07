@@ -1,0 +1,5 @@
+Slice XIO into small unit and can be integrated with hot plug method
+Which this solution, we can expand market of XIO to smaller organizations.
+N/A
+We slice XIO into small unit, then the customer order as many as they need at the beginning. These units are very easier to by integrated and XIO support adding/removing unit with hot plug method.
+Expand market is our main benefits.

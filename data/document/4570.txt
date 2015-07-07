@@ -1,0 +1,5 @@
+Products standardization
+
+Around 80% of spare parts demand is disk drives.
+product standardization is a rising trend for many corporates in order to decrease production cost and the easiness of spare parts handling, the idea is to standardize the drives used in our products.
+

@@ -1,0 +1,53 @@
+Log data Management using Context-Aware Recommender System (CARS)
+CTD Support-ability in 12 Months or Less: Our solution improves the customer support experience, reduces number of customer contact points and thus turn-around time by using context aware recommender system for log management.
+3rd platform SDS Predictive Maintenance - ETD (EMC Code): Uses ViPR controller to provide intelligent log data management that reports issue with diverse range of products in a data center. Also, uses Hadoop Eco-system and object store to build the analytical engine of the log data management.
+EMC is known for better acquisition of emerging technology startups and integrating well into the product portfolio. However, EMC need more resources and infrastructure to build TCE support for the diverse range of products in its portfolio. There are random thoughts of using log data to create that TCE support.
+In India COE, the CTO Office has organized a lecture on "Knowledge-base enabled Information Filtering on Social Networks".
+Using the core idea behind the talk to improve the TCE support thought and the use of twitter hashtag for log data helps build the context-aware log data management idea.
+- We propose a solution that uses context-aware recommender system (CARS) on log data, using Hadoop services. Also we propose to  integrate the solution with ViPR for better management and support experience.
+- Our solution uses micro-service architecture which comprises of: 
+	* Hashtag Log Generator
+	* Hashtag Log Aggregator
+	* Hash-tagged Log Data Object Store 
+	* Log Event Analytical Engine
+- Hashtag Log Generator
+	* This component will be pushed as plugin to all the entities connected to ViPR 
+	* It provides services to convert individual product log data into hashtag format
+		e.g,
+			#2015-06-01:15:20:12 #CRIT #PortFailure @5000cca00abcede0
+	* It streams converted log data using web requests to Hashtag Log Aggregator.
+	* The respective product team can choose the communication protocol used by plugin service to stream the log data
+- Hashtag Log Aggregator
+	* This component is integrated with ViPR
+	* It handle the web requests from Hashtag Log Generator and stores in them into the Object store
+- Hash-tagged Log Data Object Store
+	* The object store is formed using Hadoop system
+	* The storage could be provided using Scale-Out storage like ScaleIO, so that both compute and storage are scalable based on the size of the log data in a data-center.
+- Log Event Analytical Engine
+	* It is an intelligent analytical engine that employs machine learning algorithms to analyse hashtag based log data and provides context-aware recommender system (CARS) for detecting core issues behind failure using log data.
+	* It uses the algorithms to build the tree/graph of relationship between log data of different products based on hashtag(#)/mentions(@).
+              > A primitive form of example is that when a backup application raises IO error in application host that triggers the analytical engine to build tree/graph of hashtag relationship from which it is possible to identify that a bad disk in the backend storage array behind storage virtualization product causes IO error on the backup software and the issue could be directly reported to Backend Storage Array customer support team,
+		Application Host logs:
+		@BackupApplication: #IOError @VPLEXVIRTUALVOL_WWN
+		@HBA: SCSI layer issued #Logical_Unit_reset @VPLEXVIRTUALVOL_WWN
+				
+		Storage virtualization Logs:
+		@FrontEnd: Scsi Tmf #Logical_Unit_Reset received on @VPLEXVIRTUALVOL_WWN
+		@BackEnd: Sending TMF #Logical_Unit_Reset to unit @STORAGEVOL_WWN
+				
+		Backend Storage Array logs:
+		@FrontEndAdapter: Scsi Tmf #Logical_Unit_Reset received on @STORAGEVOL_WWN
+		@BackEndAdapter: #DiskErr @STORAGEVOL_WWN
+              > In the above example, unlike traditional recommender system, Context-aware recommender system will not report Backend Storage Array disk error for all IO errors from Backup Application.
+	* The filtered events will then be classified to take appropriate action:
+		· Fully automated recovery
+	        · Providing manual recovery steps
+	        · Triggering Call-home events based on analysed log data
+	* It could use EMC Pivotal solution for analytical platform and when this component could be integrated into ViPR controller, it could contribute to a dash board of information about product health information.
+
+For more details on our solution refer:  https://inside.emc.com/ideas/3444
+
+- In a data-center with diverse range of products, our solution automatically detects core issues behind a failure using context-aware recommender system  on log data and improves the Quality of Service (QoS), thus EMC could thrive customer support experience continuously
+- Our solution improves operational efficiency of the data center by tapping the wealthy log data of different products could help detect the core issues behind each failures quickly. 
+- It reduces the turnaround time by employing context-aware recommender system algorithms to detect and report core issues, thus cut the application down time drastically and results in a lower bottom line (support cost).
+- With our intelligent customer support soltion based on context-aware log data management, customers are happy with the support experience, EMC could deliver 100% TCE and gain more loyal customer

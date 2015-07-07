@@ -1,0 +1,11 @@
+A GUI model for VMAX inline commands
+Symmetrix inline commands are very hard to memorize. The below described solution will give engineer a handy tool to better support the customers quickly and efficiently
+In my old company we generated a simple similar tool to generate commands for VPN troubleshooting
+Integrating a GUI tool over your machine with the VMAX arrays to have just buttons that you press to generate the commands that you want to write.
+
+This is benefecial in that the inline commands are Hexa and they are very hard to memorize therfore using this tool you will be able to generate the commands quickly from a set or library of commands you have
+
+The projest shall start by collecting all the commands you use byb collaborating with all engineers who work on this product. 
+- Easy way of customer support
+- Increasing customer satisfaction upon the speed of troubleshooting
+- Can enhance this by having the tool generate also template e-mails and action plans that are send to the customers

@@ -1,0 +1,5 @@
+EMC Cell Phone Back up App
+
+The content that a user saves on mobile devices are increasing exponentially and if the user looses the devices, all the data is lost. It will be handy if we have an app that backs up data on Phone. Even contacts information can be saved.
+An App will be installed on Phone will ask for initial back up. Later keeps track of changes and will update the back up whenever wanted.
+

@@ -1,0 +1,13 @@
+EVP Big Data Eco system for Banking industry and analytics
+
+This idea came as a thought of new Go to market approach for new EVP federation.
+It's crucial for banks to understand it's entire data irrespective of type such as structured, unstructured and analyze to get insights.
+
+The other business insights would be risk, security and compliance related.
+
+
+The idea solution comprises a pivotal HD software appliance which has the connectivity to back end transaction logs volume from vMAX or VNX in the software defined storage model.  This analytical engine will have the necessary algorithms which will provide insight on the data model. 
+
+To advance Security Intelligence, RSA NetWitness is the software appliance which has the capability to work on the back end and provide Security Analytics.
+
+

@@ -1,0 +1,31 @@
+EMC Business Locator and Analyzer for startups. Using Big Data and cloud services in business consultancy to guide businesses to their potential markets 
+ With the huge number of startups and businesses starting every day, the need for business consultancy is increasing. However current approaches in this field are more manual and not data-driven. We are targeting to build a complete EMC solution using big data to provide business consultancy. This opens a new business that is in need for data-driven insights.
+
+Idea presentation showing visual idea architecture: https://inside.emc.com/docs/DOC-156124 
+
+
+I thought about this idea after the experience with many friends who started their business (startups) after a tedious lengthy process of manually collecting data and analyzing the market. A huge part of the process could have been done by Big data text analytics and sentiment analysis.  
+  The idea proposes a Big data-as-a-Service approach for startups that can be used using Pivotal CloudFoundry. The Business locator and analyzer is described in the following Diagram :
+
+Picture uploaded to Inside EMC: https://inside.emc.com/docs/DOC-99770   
+
+Operation :
+
+Using the massive sources of data available on the internet such as maps, yellow pages and social networks reflecting people interests. by combining these data together to be analyzed by different big data techniques such as text analysis and classification to determine the best candidate area for certain business.
+this can also help determining the best candidate business to be opened in certain area/city. the data gathering and processing can be centralized to big warehouse where EMC infrastructure will store and process the data to deliver the resulting valuable information for the investor. the investor can use a web application to submit the queries and receive the analysis result later.
+
+this way big data can help in business consultancy opening new potential markets. this can help in finance sector maximizing the investment in the country and minimizing the risk.
+
+Details and Structure are in the idea presentation here: https://inside.emc.com/docs/DOC-156124 
+
+
+
+1-	Win-win for the investor and EMC.
+2-	Save high consultancy costs for startups
+3-	Maximize profit & market share for startups and EMC
+4-	Marketing opportunities for EMC Isilon and Pivotal Greenplum
+5-	New solution by EMC for business consultancy organizations
+6-	Generic solution for a wide range of businesses
+7-	EMC and the customer can penetrate new markets 
+ 
+

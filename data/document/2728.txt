@@ -1,0 +1,10 @@
+Best Practice guide for WFM and TSEs
+Enhancing the overall process for case handling inside support department.
+As a support engineer, we are having daily conversation with WFMs when we are trying to know about handling something specific such as owner changing or case dispatching.
+-Having a best practice guide for case handling among WFM and TSEs would make it efficient.
+-Engineers would know where to look for specific things instead of asking WFMs and wait for their response.
+
+-Saving time and effort for both WFMs and TSEs
+-Making it easier to handle the support cases.
+-Meet SLO of support cases.
+-Enhance overall process will reflect positively.

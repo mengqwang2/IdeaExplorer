@@ -1,0 +1,22 @@
+Next Gen Client Experience 
+Organization are struggling  to manager their operational cost so that they can focus on strategy . IT is new product to solve issue of self help, self healing , predictive behavior of supports of employees of organization. 
+All data related all different portal of emc should be available to one dashboard accessible through Lync. 
+Idea of product come while working one project in EMC where we are trying to solve issues of EMC but it is industry issue so this is gap to come up with products
+Merge ITIL and KCS framework and come up with solution for total customer experience of employees . Product which can marry these two frameworks .
+
+crawl and get all data from all support/collaboration  tools - center stage , company social portal like inside EMC ,erooms ,Lync Chat logs, project repositories. 
+Data Ingestion from ITIL repository CMDB, Incident Management ,knowledge Mgmt
+HR Data ingestion :- People Soft, Role, experience , skills data
+
+Bring layer of integration like AIC from IT .
+
+Bring all these to KCS-Knowledge Centre Support repository  and do indexing in KCS keeping source at same place. Becomes hub for self help provider.
+
+Front end one portal integrated view of emc data , portal available through Mobile , IPAD, available through internet using seamless  access.
+At Predictive Behavior in next phase once organization becomes mature to handle ITIL and KCS , add predictive solution to alert support team for failure and issues.
+
+https://inside.emc.com/docs/DOC-155848
+Reduce Operation cost.
+Unified Support interface.
+Seamless access to provide benefit to users
+Self Help , Self healing available to user .

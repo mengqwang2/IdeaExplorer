@@ -1,0 +1,26 @@
+Dynamic Work place - End to End Solution
+IT Contemporary Workplace challenge - This solution offers platform to promote dynamic and flexible work place.
+
+Ireland COE Challenge - The solution enables cross-functional collaboration.
+We got to know about the concept of soft phone through online. Then conceived the idea of dynamic work place through this concept. 
+Solution overview:
+1. Centralized Architecture 
+2. User based Configuration
+3. Timer based Log-out
+4. Default Login-less configurations
+
+Description:
+
+Lync and Cisco phone should be configured to have a single window of soft phone. This enables employees to answer calls (on office desk number) through both the medium.
+Once the employee connects the laptop to the docking station, the cisco phone will be signed on with the employee’s ID. This will help the employee to get rid of passcode for every phone call made. 
+The employee has to logout from the Cisco phone once he leaves the workplace. The log-out can even made to be automatic once the employee removes his laptop from the docking station. The employee can even set a timer-based logout.
+
+The Cisco phone is not bundled to employee’s workplace. It is rather bundled to him irrespective of any place he moves inside EMC. Even when the employee is working from home, he/she can answer calls through lync.
+
+When the employee visits any conference room or goes to any other workplace inside EMC and connects to VPN, the Cisco phone in the new place will be signed on with the employee ID. This promotes dynamic and flexible workplace and thus enables cross-functional collaboration much easier. 
+
+Provides dynamic and flexible workplace.
+Promotes cross-functional collaboration.
+Manages the inside and outside calls effectively
+
+

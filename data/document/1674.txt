@@ -1,0 +1,7 @@
+Mobile app for Cafeteria orders
+This idea will provide a practical environment for workplace and will save a lot of time.
+I thought about this idea while I was standing in the queue waiting for my turn.
+My Solution is a mobile App that enables employees to order whatever they want from the cafeteria and when it is ready they will just pass by and pick it up.
+This will save a lot of time for employees and specially for managers who are always busy having meetings.
+
+It will also enable the Cafeteria to grow more business.

@@ -1,0 +1,7 @@
+RSA to be the global Identity for verification
+IoT is a technology growing rapidly, but I am wondering why we are not using RSA as an authentication login to any website, or even with using individual identity verification we can see authentication against Facebook, Twitter, LinkedIn, .... why there i
+No history to mention for the idea
+The idea is to use RSA globally to be the authentication power trusted by all individuals not just enterprise levels, for example in the smart city,we can simply use the RSA ID verification, which could be done with a smart card to communicate directly with RSA over the network and do the needed verification, this will eliminate the chance of any hacking or data penetration probabilities. So this will secure our smart city
+- Global usage of RSA for authentication, not using Facebook or any other sites to authenticate against.
+- No one can go to our Smart City with no Smart Card ID verification against the RSA powerful security processes.
+- Making one ID for a user to be use

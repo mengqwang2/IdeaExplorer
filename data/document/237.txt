@@ -1,0 +1,22 @@
+Creating Trust Via Crowd Sourcing - Having "Things" Prove How they Will Use Information
+A security challenge in the "Internet of Things" is the difficulty to pre-authorize who can use what information. Often, security depends on how the the information will be used.
+
+Our solution is to use crowd sourcing to be the source of trust of how information will be used.
+Aspects of this idea have been in my mind for many years since a conference within EMC in which somebody gave a talk (on a different topic) that was titled Use Based Security.  The germ of the idea started then.  As I was writing this submission, more details came to mind.
+My solution is that an app/client can prove how it will use that information (or other resource) by crowd sourcing that proof.
+
+This would typically involve the following steps.
+1 - Make the source code of the app/client publicly available (open source), as well as a signed version of a compiled version of the code.
+2 - Make claims about how the app/client uses information that it access, as well as how it does not use it.
+3 - Have independent reviewers review the code and agree that this is true.
+4 - Have the reviewers themselves be reviewed (or other mechanisms for getting reputation).
+5 - The app/client would then use these reviewers as "evidence" that it can be trusted. If sufficient proof exists, then the information (or other resource) provider would then grant access to the information.
+
+A simple example. Consider an application that wants to use anonymized medical information.  Unfortunately, much anonymized information can be de-anonymized with some effort (Google searching, etc).  The app/client wants to promise that it does not de-anonymize the information or provide the data in raw form to anyone.  The app writers would then do the steps described above. After a sufficient number of people reviewed the code to certify that the code does not de-anonymize the medical information, then the app could then ask for access for a digitally signed version of the app. The signed version of the code could then be provided access to the restricted information.
+
+This helps create security in the internet of things in a world where there are too many information providers and consumers, where it is difficult to establish trust between them.
+We would build a proof of concept of all the parts.
+
+I.e. we would build a basic language for an application/client to specify how it intends to use some information/resource.  We would then write a sample app that does that, as well as an information source.  We'd make a site where the source code and signed app can be evaluated. And we'd build the API/mechanism to submit such claims to the information provider. The information provider could then "approve" the information access and provide a token that can be used only by that app.
+
+Alternatively or additionally, we could do market research to see if this approach would have a market and create a business plan.

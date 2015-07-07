@@ -1,0 +1,11 @@
+The EMC Global Licensing Guide
+This will be a new product/service provided by the licensing team to all the other teams. 
+The Global licensing team is currently working on a wide range of products that are all licensed differently and using several portals and tools. 
+
+Most EMC employees can't keep track of all of that and gets very confused. Requests takes time and more effort. 
+Licensing team to create a Licensing Guide that will contain how the licenses are issued for all EMC products and how to obtain these licenses. This will target EMC employees across all departments. 
+All EMC employees will have access to a global licensing guide.
+They will know the information licensing need to create the key
+Saves time
+Saves resources and efforts. 
+Keep everyone updated and informed. 

@@ -1,0 +1,9 @@
+Webbased KPI Matrix for each engineer
+One stop url to find the performance of an individual.
+We need not have to pull reports from each source. 
+All the required information would be available at one point
+This idea can be implemented as we are aware from where we could get the reports. We need to collate this information and get this implemented with Qtool -> Performance or can develop a new web url to have this done
+Its being a challenge to get the details pulled out and shared with each engineer.
+This idea would help engineers as well as managers to get the details
+Give the employee/manager more control or more responsibility on where they presently stand with their team.
+Engineers or Manager go to the url and check the performance of an individual. Since all the reports are available at one place, employees or managers can discuss the strengths and weaknesses

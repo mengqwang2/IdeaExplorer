@@ -1,0 +1,19 @@
+simplifying the POC stage
+Putting in consideration the TCE and how this can improve the customer satisfaction is a major factor to achieve high levels of relationships with our customers.
+We already provide control stations for a number of our storage products , some projects get quite complicated because we do not have the option of promoting the platform onto which the core modules of the solution should run , and most of the times the choices left to the customer are made based on misunderstanding and wrong assumptions , developing such deployment option will certainly put much more light on the solution and ease the execution of important project steps 
+How it works:
+The customer will be made aware that there is a ready to go option for deployment of the server module of the product he wishes to buy / try 
+For example :
+1-	Networker : A ready to go Server/Storage node platform developed on top of CAP 
+
+2-	DPA : Ready to go DPA server / proxy collector on top of CAP 
+
+
+Benefits to EMC:-
+
+1- Accelerate the POC process.
+2- Simplify the install/implement/ deploy of EMC product " Specially networker"
+3- offload the customer of checking the support matrix for our software products.
+4- leverage our products' usability and adaptability.
+Improved customer satisfaction and ease of deployment.
+

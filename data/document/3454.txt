@@ -1,0 +1,17 @@
+ “BaaS” - Big Data Analytics-as-a-Service powered by EMC for startups.
+
+ The idea came up while I was discussion with some startup owners (friends of mine) their challenges and started to think where the answers lie in EMC portfolio
+
+The idea works as follows : 
+
+-	EMC will have a centralized powerful Big Data Analytics infrastructure that will serve the globe
+-	The customer will request this service through a web-portal for ease of management
+-	The customer will submit his Data Analysis project (what he/she wants to analyze/detect about the data.
+-	The central engine will start collecting the data (from different sources or provided by the customer) to EMC Isilon scalable storage
+-	The engine will start and run the analytics using the powerful GreenPlum platform.
+-	The results will be combined and a detailed report will be submitted to the customer using the web-portal
+-	Charges will apply per projects offering low cost and Opex Vs capex
+
+An example of the application of this BaaS approach is fully demonstrated in this referenced Idea I submitted to the same challenge : “EMC Business Locator and Analyzer for startups” 
+
+

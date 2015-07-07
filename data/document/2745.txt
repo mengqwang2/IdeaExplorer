@@ -1,0 +1,5 @@
+Internal Bug Bounty Program
+This idea will increase the security posture of our products which will ultimately improve the quality of our products on release.
+This idea was the product of a PSRC (Kristen, Pascale, Tania Ward, Piyal Biswas,and Nazira Carlage) brainstorming session.
+This idea aims at increasing the quality and depth of vulnerability submissions on select products proprietary code by incentivizing EMC employees with a prize. This would require an internal EMC program to be set up and time bound, targeted product set (it can be pre- or post release products) and EMC employees would test against these products and identify security flaws. Testing out their skills. Successful employees would be rewarded with a bug bounty in the form of a prize. Higher the severity, the higher the prize as well as identifying how talented our company is.
+Cost saving as we stem away from traditional pentesters favoring the Security IQ of our employees to author specific exploits against our own products. This in turn will promote innovation across our company. By promoting innovation we are also improving 

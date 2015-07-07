@@ -1,0 +1,15 @@
+XtremIO as traffic generator / recorder (networking)
+Using XtremIO's unique capabilities, such as 
+- fast block/packets handling
+- reading/sending, 
+- low and constant latency
+- compression and dedup, 
+- scale-out / scale-up architecture 
+to create a traffic generator Box.  A user can use the same device as both a traffic generator and as a storage device.
+
+This idea provides way to reduce cost of traffic generator for customers - same device can be used as traffic generator and as a storage box. The idea was reviewed as part of brainstorming session within QA group.
+
+XtremIO can easily create blocks / packets and send it through the nodes / IB switch to the device under test. XtremIO knows each block data payload and the nodes are strong enough to have a reporting and analyzing tool. XtremIO cluster easily improve performance by upgrading the cluster hardware. 
+
+The solution would be code with new & modern GUI residing on the storage controllers. Sending / receiving enormous amount of packets/blocks. 
+Success - XtremIO become a traffic generator tool to be used in networking industry. 

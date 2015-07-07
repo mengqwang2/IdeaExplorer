@@ -1,0 +1,6 @@
+Lightening the Task with Dynamic Infographics
+
+The ubiquity of infographics in the social media arena today has not fully entered the enterprise market.  But it is precisely because of an infographic's ability to excite the audience and clarify complex data, that it should be applied to traditionally "boring" management and analytics tasks.
+NOTE: I am currently researching available tools to find the best fit for EMC and will upload (and add links to) some examples in the comments section.
+The infographics market is trending today, and there are many new infographics service providers, such as Easel.ly and PiktoChart.  While their standard services entail the user manually inputting the information into the infograph, I propose finding and working with one of these service providers to integrate a dynamic infographic template customized for each BU need, such as one for HR to display the Better Place to Work data fields.
+

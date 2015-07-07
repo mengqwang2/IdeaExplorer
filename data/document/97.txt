@@ -1,0 +1,10 @@
+ Time dependent social advertising – Analytical approach for social media
+This idea addresses the social media vertical market and specifically social advertising market.  It provides an analytical approach to do selective advertising 
+ The idea came up from IEEE social networking committee meeting
+ The idea is to have an analysis engine that analyzes user logging behaviors and patterns to know its seasonality and pattern using Time-Series Analysis. Hence, adjust the advertising schedule accordingly. 
+
+The model can update itself as more data is entered to the system. 
+
+1-	 Higher advertising efficiency at lower cost
+2-	Market for employing EMC big data power.
+

@@ -1,0 +1,44 @@
+Vipr SRM(W4N) Event/Alert Life-Cycle Dashboard
+It helps SDS predictive maintenance by creating useful "time series data" from alert/event "state transformations." Improves TCE by helping system administrators. Reports like re- occurrence of events can be used for modeling predictive analysis.
+This idea came while exploring ways to use the data from alert and events for further use.
+
+https://inside.emc.com/docs/DOC-149183
+
+
+1. Create a time-series data for alert/event state transformations and different analysis reports for System Administrators. This will be stored in BigData object Store.
+
+2. Use big data analytics to create objects to event to time mapping.
+
+3. Create a map between config change and event resolution based on object identity and connections.
+
+4. Create automation stubs based on event type, device type and solution .
+
+5. Create set of historical solutions for each events . Set of different configurations done.
+
+6. Allow admins to automate solutions based on even occurrence.
+
+Examples for  Alert Life-Cycle Dashboard
+1. Alert/Event Resolution time statistics
+e.g. Average time take for alerts to reach resolved state from new state.
+
+2.Alert/Event Lifecycle Report
+e.g. The time “Vcenter has reached critical capacity alert” has stayed in new , acknowledged,assigned,resolved states .
+e.g. Average time between assigned and resolved state for an alert.
+
+3.Average time in a state Report
+e.g. Average time for alerts in assigned state. 
+
+4.Alert/Event Reoccurrence statistics
+e.g. How many times in a day vcenter has reached critical capacity
+
+5.Alert Re-Notification based on threshold for time it stayed in unassigned state.
+
+
+
+https://inside.emc.com/docs/DOC-149183
+
+If implemented it will improve,
+1.Customer satisfaction.
+2.Reduce time to resolve issues.
+3.Plan future course of actions.
+4.Data for machine learning.

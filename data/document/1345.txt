@@ -1,0 +1,13 @@
+Leads and opportunity process
+This Idea is going to enhance and make better collaboration between teams
+Idea came from the process of ASC team when dealing with cleanup process for EMC accounts.
+we need to enhance the salesforce tool to be linked to Install Base and to create a simple way on mobile app to give chance for sales admin to close leads and Opportunities that has been closed.
+On other hand to send notification to sales admin about leads and Opportunities that are open for long time in order to keep data accurate.
+
+New sales force to be used by all department to have one pool of data and to be viewed by all teams.
+1) Change layout of Salesforce
+2) Connect Salesforce with Oracle 11i
+3) Implement New mobile Tool to be connected to salesforce and have sales admin profiles
+4) Revenue enablment from this enhancment will be captured from data added to the correct qoutes
+5) Deactivation for dupplicate parties on install base will raise and this will raise accuracy of EMC data base.
+6) Creating leads and Opportunities will be more easy from sales admin

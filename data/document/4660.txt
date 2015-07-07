@@ -1,0 +1,25 @@
+Real Time Synchronization Solution for Global Collaboration on Graphics Intensive 3D Application
+
+I studied computer graphics and real time rendering in my master degree. Real time rendering with good quality is always the ultimate goal for us. Since the essential, changeable part is small; the big part is stable. I think the approach can make the real time sharing of big 3D models feasible. In the meantime, the DDBoost technology, P2P sharing and CCN technology enhanced this solution.
+To solve this problem, we need to know characters of graphics intensive 3D applications first. The following points are very important for us to know.
+
+1. A big 3D model file is usually composed by: vertex position, triangles, color, basic textures, uv mapping, lighting, advanced textures (e.g. normal mapping, bump mapping, etc.)
+
+2. Basic information includes: how it shapes (vertex position, triangles), what color it is (color and normal). They are essential to our end users. Less important information includes: what appearance it is (textures, uv mapping and lighting). Others are advanced information for better quality. 
+
+3. Some information changes very frequently and important, like camera and position. But they are very small. Some changes not that frequently, include lighting, vertex information, uv mapping. There are important as well and size is also small. On the other hand, texture material is very big, but they don’t change a lot. Most of time, only add and deletion operations. 
+
+It’s easy to see the frequent changed part is essential but small. Texture is big but stable. My idea is to understand models, prioritize changes to be synced and use DDBoost technology to facilitate the comparison and minimize the network consumption. 
+
+1. Understand 3D model files. There are not many 3D model format, we should be able to leverage existing tools to handle them. 
+
+2. 3D model files should be copied in every client before the collaboration. A central server can host the file and facilitate the copy. P2P sharing technology can also be used to accelerate the copy. 
+
+3. Changes on different sections will be monitored separately. Changes on key sections will be distributed before less important sections. So, end users will never miss important information. 
+
+4. DDBoost technology can be applied to minimize the network transfer among end users.
+
+5. CCN (content centric network) technology can be applied to further reduce network overhead. 
+
+With this idea, I believe the global collaboration on 3D applications will be feasible. Users can not only collaborate with each other easily, but also enjoy the good picture quality of local real time rending. 
+

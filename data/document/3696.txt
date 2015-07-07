@@ -1,0 +1,14 @@
+EMC OneView - multiple EMC applications in a single window
+
+
+Some of the tools which inspired us with this idea are:
+a) Notepad++
+b) Multi-tabbed-putty
+c) Remote Desktop Organizer
+The idea here is to have a OneView with which multiple EMC applications can be opened as tabs and can store password with it so that every time password key-in is not required.
+
+We are proposing to come up with a framework: "EMC OneView", in which multiple EMC applications can be bookmarked and can be opened in different tabs. The application will have the facility to store password so that providing password repeatedly can also be avoided. This would help the customer to avoid multiple windows with for the same application or for other EMC applications.
+
+For example, we have SMARTS, Watch4Net, SRM, ViPR and many other application which are being used by the same customer. Further, if we take SMARTS alone we have SAM, IP, NCM, Dashboard and many other views which generally open as new window. With this framework, we are proposing to have a single framework within which same/different applications are opened as tabs. 
+
+

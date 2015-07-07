@@ -1,0 +1,12 @@
+ASC Process Automation Project
+
+E2E Challenge:
+Currently the ASC (Account Service Controller) process involves manual procedures that are time-consuming  with high average handling time and causes delay in performing ASC cases. 
+Our aim is to plan and implement an enhanced process to reduce average handling time and hence reducing the case closing time..
+This idea was already implemented in my previous team, & I carried the flag in our new team.
+Develop Java Scripts that would Automate our processes, thus reducing man-hours & errors. The idea was implemented in the startup of our team and received the Yellow Belt as per LSS measures.
+So far 20 Java Scripts were developed, which enhanced and simplified the ASC process. This project has increased efficiency of our team by:
+-Saving time of 3.69 working days per 10 accounts' cleanups.
+-Reducing 132.75 Man-hours by the use of automation.
+-Reducing the errors in the outputs from 19.03% to zero%.
+

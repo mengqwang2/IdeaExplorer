@@ -1,0 +1,18 @@
+Biometric anti-fraud detection
+o	Broadly applicable
+o	Increases security
+o	original and feasible
+o	Cross platform global solution
+o	can be combined into EMC Solutions (RSA AA etc)
+o	allows Potential Financial Gain
+o	has a significant customer impact
+
+
+team meeting
+o    The various pieces of biometric data would be compiled into a risk-score,
+     representing the level of confidence that the wearer is the genuine user.
+o    The user can configure in the watch and also in a linked smartphone or other IoT 
+     device to disallow access below a certain confidence level.
+o    Devices are linked at application level via Bluetooth or other wireless technology
+
+Biometric information is being used to identify fraud

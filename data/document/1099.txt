@@ -1,0 +1,12 @@
+UTMS usage enhancement 
+
+The purpose of this idea is to improve the Application Life-Cycle management tool we are using almost every day.
+Our test team's daily work. We need UTMS to create/execute test cases and track the test process. We want to improve this tool to make our work easier.
+
+1.In the test set-->test case-->Details, it should list the test steps in order that we can learn the detail execution methods in advance. 
+
+2.The test case should list at least 3 detail execution histories in the case details in order that we can find the right man when we have any confusion about this case.For example, test case A came from the KittyHawk test plan and it was executed several times before. When we add A to our new test set , if it listed the execution history (failed/passed history, why failed, any comments before, any related ARs etc.) in case details, it would help too much.
+
+3. After filed an AR and added the AR number to the case running result. It should support to enter the Remedy system by click the AR number in the UTMS.
+
+It will save testers' time in unnecessary process and improve their work efficiency. 

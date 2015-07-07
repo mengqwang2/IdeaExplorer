@@ -1,0 +1,7 @@
+NO CASH COUNTERS NO TROLLEYS
+This reflects all retail shops,restaurants,malls etc globally.Here there is no cash counters system required, No trolleys system required [optional]. The customer can pay bill individually from any where in the world.
+
+Please refer the attached PPT file f
+When I used to visit retail shops / restaurants , I was always frustrated standing in long queues to pay my bills at cash counters every time.
+The customer himself scan the products using smart phones which is similar to cash counters.All the product details will be displayed in his /her smart phone.The customers can pay their bills individually using net banking in his / her own time without using the cash counters.  
+It's a revenue generating idea to the company EMC. The application development, infrastructure and maintenance will be retained by EMC lifelong.  

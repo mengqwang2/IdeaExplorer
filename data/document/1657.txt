@@ -1,0 +1,21 @@
+DPA as a VPLEX witness
+- Durham Data Center Elastic Labs Challenge.
+This innovation will reduce manual work done in R&D labs today, create opportunities for sharing equipment and reduce the amount of hardware needed and reduce the amount of traffic in the network. 
+
+- Engineering Operations Services & Solutions (EOS2) Challenge.
+This will improve customer experience and improve product quality and capabilities.
+
+- Israel COE Challenge.
+We are creating a better offer, leveraging DPA and VPLEX technologies.
+We saw that customers complain about a need for a additional cluster VM, and thought how could we eliminate this requirement.
+We thought about it several weeks ago.
+The VPLEX Witness is a virtual machine that is deployed on a customer-provided ESX server. The VPLEX Witness has IP-based connectivity with both Metro-Plex clusters, and it maintains knowledge about each VPLEX cluster's view of inter-cluster connectivity. 
+By reconciling its own observations with the information reported by the clusters, the VPLEX Witness can arbitrate between inter-cluster network partition failures and cluster failures, should they occur.
+Many customers that have VPLEX might also have DPA installation. We suggest using the DPA as a witness. DPA monitors and analyses the data protection environment. DPA has strong monitoring capabilities for VPLEX, and hence already possesses most of the required information to act as a witness.
+This change will allow the customer more flexibility, won’t require additional resources for the VM and encourage using DPA.
+Another benefit of this solution is a built-in redundancy, as the DPA usually deployed as a cluster, i.e. more than one instance.
+
+Please see the ppt at https://inside.emc.com/docs/DOC-155409
+It will improve customer satisfaction.
+It will enhance productivity and optimize a process, since the deployment process will take less time.
+It will save money, since a VPLEX Metro deployment needs less resources.

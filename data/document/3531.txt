@@ -1,0 +1,18 @@
+Application Controller for 3rd platform
+
+This idea came up when we were supporting the operational management for VMWare's server and network virtualization in ASD-SAS 9.3 release.
+Currently as the Application and infrastructure are considered in silos , it is difficult to provide operational solutions to make sure that the applications are deployed in a optimized environment.The complexities will be more in 3rd platform because of the cloud-scale and the dynamics of the demand.
+As EMC is leading the SDDC industry with software defined storage and VMWare in software defined server and network.We thought , one more level of abstraction can be provided to make Applications more integrated to the SDDC.
+It is still in a conceptual stage.
+The proposed solution allows the applications to guide the infrastructure behavior and defines tighter integration between the applications and software defined infrastructure. The solution not only allows for a smooth deployment of applications but also programmatically tunes the software defined infrastructure to address the dynamics of the demand. 
+The heart of the solution is Application Controller which consumes the application’s deployment policy profiles and associates a best fit infrastructure for the application. Another component of the solution is Application Edge, which interfaces with the controllers like ViPR , NSX in software defined compute, software defined storage, and software defined network and also the existing orchestration engines like OpenStack , vCAC etc. Application Controller interacts with the Application Edge to make sure that proper resources are allocated to the applications. Application Controller maintains the active state of the applications and tunes the infrastructure through the Application Edge to address the dynamics of the application’s demand.
+
+Case Study: 
+Let us consider that a cloud application constituting of web server and data base needs to be hosted on the infrastructure. The policy profile for the application will be collected from customer through the templates. (Application Controller can also provide out of the box templates for the standard applications.) The template will have all the KPI and SLA. Application Controller maintains the active state of the infrastructure by periodically interacting with Application Edge in software defined infrastructure. With the available information Application Controller uses an algorithm to find out the best fit infrastructure for the given KPI and SLA.  Once the infrastructure is identified, Application Controller interacts with the orchestration engines like OpenStack, vCAC etc… to provision the compute, storage, network resources and deploys the Application. It also maintains the state of the Application and closely monitors the KPI and SLA. If any deviations are seen in the KPI and SLA it directs the Application Edge to reconfigure and tune the resources to bring it to the original state.
+
+In summary, the Application Controller augments the existing EMC’s SDDC infrastructure solutions and opens up an opportunity to provide automated, orchestrated Application deployment cycle. 
+
+
+More details:
+https://inside.emc.com/docs/DOC-100222
+

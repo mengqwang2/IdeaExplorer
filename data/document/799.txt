@@ -1,0 +1,9 @@
+Reclaim VMAX devices in single command
+Include new command in next symcli version to make reclaims easier
+Deleteing devices take lot of time, mainly if it is a meta device.
+
+We already have symdev command used to unbind the device from pool without mentioninig the pool name.
+Like if we create new command which automatically dissolves the meta if the device is a meta devices and also delete the meta members.
+
+Algorith needs to be developed to identify the meta devices and meta members and delete it.
+Reclaim jobs would be easier

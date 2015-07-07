@@ -1,0 +1,23 @@
+Gamification and Analytics in Driving Customer Service
+The solution provided in this idea to empower EMC’s Customer Service / Shared Services team to be able to respond to Customer Queries/Issues more relevantly 
+TCE
+The solution is to implement Gamification inside TeS (Transformation E-licensing Solution) and/or Customer Install Base(Customer Service Contracts and Servicing Tool of EMC).
+Using the idea of gamification, customers can be invited to be part of a game similar to monopoly /one minute games which can engage the customer’s in choosing from various list of provisions, products or service engagements with wide array of questions about the product & service offerings with not much in common. Gamification drives user towards system of engagement either consciously or unconsciously to achieve targeted goals with improved effectiveness and efficiency. These techniques seeds long term relationships, increase customer loyalty, reward individual actions that can roll up to achieve large business objective.
+
+Solution - 
+1. Create a list of questions about various product and service offerings by EMC at various complexity levels , like Very Simple, Simple, Medium, Complex and Very Complex
+2. Apply gamification to generate questionnaire like games consisting of questions about EMC products purchased or leased by the Customer
+3. These games can be floated inside the TeS or Customer Install Base when a customer (Customer’s rep or engineer) logs into the Portal, an email communication can also be send bi-weekly or monthly through emails.
+These games can be personalized by tracking the activity of the customers in web search/activity, social media and mobile applications. 
+4. Knowledge points can be given to Customer’s based on their responses. 
+5. Applying advance analytics on top of the responses, we can generate a Customer Knowledge Score using both responses in the games and previous responses in the historical Incidents & Queries. 
+6. The Customer knowledge score (when available) , will provide a benchmark to a Service rep to answer the queries and respond to Tickets/Incidents accordingly.
+
+Business Case:
+Customer Rep has raised an Incident in CSI with EMC
+The Service engineer, finding the Knowledge score of the customer to be high, will request for detailed information of the issue, rather than proceeding with the formal steps of basic queries about the Incident. 
+
+As an Add on, rewards can be offered in the form of Points to the customers for taking part in the game Such a game will improvise the efficiency of the service quality, allowing the organization to market and test the new service offering and design a service package to meet customer needs applying data analytics. It will also aid the organizations to get customer retention and gain the competitive advantage.
+1. Improved Resolution Times of Customer Queries and Incidents
+2. Customer centric responses and resolution helping in increasing TCE
+3. Better Quality of Resolution 

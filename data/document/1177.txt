@@ -1,0 +1,11 @@
+SNOW - Customer Change freeze
+avoid the change implementation during customer change freeze
+- we had seen couple of issues in different teams as they are supporting for multiple customers who have their won process.
+- it is not so difficult to follow the process like to who we need to contact for the approvals and escalations. but changes freezes will be on different dates, so there is a chance to not reach the change freeze details to everyone for all the customer and team may implement the changes.
+- So if the options will be grad out and a message will be pop up will warn the person who will try to implement the change.
+ 
+- As everyone follows SNOW to get the change details to implement the changes.
+- as per the process we can verify the planning (change task 1 in SNOW) at anytime (during the change freeze as well) but should not implement the change.
+- During the change freeze if anyone opens the change will pop up a message like "the customer is in change freeze" and all the options will be grade out in implementation task.
+- so no one will implement the change if they can see the popped up message, also all the fields will be grad out.
+- hopefully this will work and almost we will avoid to implement the changes during the Customer change freeze.

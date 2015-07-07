@@ -1,0 +1,6 @@
+ScaleIO as a Service for Hybrid Cloud
+Leverage ScaleIO for multi-site storage backup in hybrid cloud.
+We have done a POC of containerizing ScaleIO. This make deploying ScaleIO more easily cross platforms. We have also created app templates for Murano and committed it to the OpenStack community. We think it's a good idea to provide ScaleIO in Murano as well.
+ScaleIO is a pure software storage production so it can be installed in either physical machines or virtual machines. Servers located in different sites can be combined into a storage pool. ScaleIO will copy all data and the fault set feature allows users to avoid store the origin data and backup data both in the same cloud.
+Our proposal is to provide ScaleIO as a Service. For example, OpenStack has a catalog  project named Murano. Users can create instance with ScaleIO easily by Murano functions. The major thing we need to do is create a public template for ScaleIO. We can also integrate it in VMware cloud.
+Leverage ScaleIO in hybrid cloud and create new offerings.

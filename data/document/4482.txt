@@ -1,0 +1,7 @@
+portable disks between arrays
+
+When I worked on the cases for which the customers needed to migrate their data to a different box with the same model, I think it could be easier if we can have this value-adding function to our arrays. Some external customer with little experience actually tried this, but it didn't end well, as currently we don't support this function, at least on the Unified boxes.
+If we can have a tool which allows us to export/import the structure and configuration of the Disks, Raid Groups, Storage Pools and LUNs, we may be able to plug the disks to different boxes and recreate the storage structures and more importantly use the data residing on the disks on different arrays (perhaps first within the same Model or family, but if we can have another software to convert the data structure, it could be useful on the boxes within different array families, even for the arrays from different manufactures).
+
+And also we may be able to sell an extra paid service to customers who have certain demands for faster recovery or data transfer. 
+

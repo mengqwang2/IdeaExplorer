@@ -1,0 +1,9 @@
+auto birthday alerts
+
+
+we can also display birthday people list in TVs available in there respective floor or near there place. 
+we can maintain one list of all the employee ,mail id, birthdays and team names, team manager names. from there we can collect data and auto batch jobs using any technology(java, mainframe.. or sql) it will notify to manager and other team members.
+
+We can also send environment friendly gifts like small baskets having plants, so birth day boy/girl can keep the plat at desk and take care of it.
+
+

@@ -1,0 +1,5 @@
+Talent pool
+
+I have got this idea when I was reading the challenges.
+Create a global talent pool in EMC based on different skills and knowledge. Categorize the business challenges based on skills and throw the challenges in front of the appropriate talent pools so that right people of right skill sets can give best ideas based on their knowledge and expertise.
+

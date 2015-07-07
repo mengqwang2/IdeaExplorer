@@ -1,0 +1,12 @@
+Category Type Item in TICKET summaries.
+this helps in estimating the nature of tickets that are received and aims at enabling better knowledge on type of the requests and effective On Job training.
+I have proposed the idea with Operations Managers who work with me in my team and has been acknowledged within my project and we have started using the idea since 2 months.
+The traditional method is to categorize with best of understand as the tool offered summary and template set about 4-5 years ago and open each ticket and identify the nature of the ticket. While this idea is proposed I analyzed the kind of report that used come to us and values visible besides Ticket #, most of the ticketing tools show TICKET summary/description. Hence I proposed CTI which give us ownership on the type of information that is most applicable to us and can give us a value. The idea is basically to prefix the existing summaries as below:
+LANDED(Category) | ALLOCATION (Type) | NEW HOST (Item) - Text as usual that comes from the tool or
+LEGACY(Category) | DECOM  (Type) | OLD HOST (Item).
+
+Irrespective of environment and tool, we can still have control on the kind of data we would like to see.
+
+There should be a tool to fed the data back to business.
+With this CTI's we are able to analyze the kind of tickets that are arriving which tool couldn't address. By running simple concatenation on EXCEL we are able to generate pivots and determine what kind of tickets are being opened with us. Determine where to concentrate when new hires comes to the team where to concentrate during On Job training. by looking summary we can determine what kind of ticket it is and which ones to pick for audits. 
+Different stakeholders have different values.

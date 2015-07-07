@@ -1,0 +1,39 @@
+vDock - A Hyperconverged Platform for Application Deployment/Distribution
+This fits multiple sponsor challenges:
+
+* Russia COE challenge:
+
+vDock presents an innovative way to combine open source software such as Docker, MongoDB, Cassandra and more to enhance the value and increase the sales our hyperconverged offerings (namely, vxRack); the innovation can be prototyped in less than a quarter with minimal staffing.
+
+* Israel COE challenge:
+vDock leverages EMC ScaleIO technology and SW Defined Storage that will provide immediate EMC and customer value. vDock works across VCE, ScaleIO, Pivotal and tech alliances to deliver first-to-market product that can be a game changer in 3rd platform workloads.
+
+* Office of the CTO "New Business" challenge
+As software and application workloads continue to evolve - platform 2 hypervisors are quickly becoming irrelevant, and are supplanted by container technology; for EMC to continue to demonstrate leadership we must bring to market container supporting platforms as quickly as possible. More and more we see platform 3 applications eschewing traditional enterprise infrastructure in favor of 3rd platform middleware stacks such as MongoDB running on top of 3rd platform multitenancy technologies such as Docker. 
+
+EMC has the capacity and ability to break new ground in this market leveraging core EMC capabilities and technologies.
+
+To address the criteria of the challenge:
+
+1. vDock is an integration of 3rd party software with EMC proven hyperconverged products. It is easily within EMC's reach.
+
+2 & 4. vDock addresses multiple markets - including the SaaS ISV market and Enterprise IT wishing to make the move to 3rd platform deployment. The SaaS ISV storage market alone is estimated at over $10bn a year (based on EMC MI estimates). EMC should be extremely interested in that market as the workloads are quickly shifting from Enterprise IT to SaaS vendors.
+
+3. To the best of our understanding this is not covered by other sponsor challenges as a direct challenge - however, vDock is an innovation that meets the criteria of the open source challenge (due to its use of open source components) and the the Israel COE challenge (due to its integration across multiple BUs including ScaleIO)
+
+As part of SaaS team research Nir Soffer and Arthur Tyde conducted informal interviews with partner ISVs (such as Docker and MongoDB), SP Partners (such as ObjectRocket) and dozens of SaaS ISV end user customers, determining the market need and opportunity, as well as the partners’ willingness to assist in execution and bring the concept to market. 
+
+In one particular brainstorming session held on January 15th 2015 with Nick Stinemates (Docker head of Business Development), Nir, and Alex Perry (EMC mid-market sales);  Arthur proposed the idea of an engineered system built and sold by EMC featuring the Docker container stack and a mix of services from both companies.  
+
+This seemed very interesting to the Docker team – so we brought this to the attention of the Tech Alliance Emerging Partners team and the SaaS Team.  Nir Soffer subsequently refined the idea and created a Product Management centric roadmap which we expect to execute against.  
+vDock is an innovative (and, to our knowledge, first to market) engineered converged infrastructure solution which enables containerized software workloads to work on top of VCE VxRack systems. 
+
+It is, at its core, a software orchestration and deployment platform that runs containers on bare metal x86 servers, with an EMC management platform. vDock will also enable an ecosystem of prepackaged, ready to run software packages such as MongoDB and Cassandra, enabling easy deployment of complicated 3rd platform software workloads by simply going to an EMC marketplace and clicking “deploy”. 
+
+Put simply, it is VxRack, plus docker, plus software packages and a market place. As a comparable, consider the Oracle Exadata or Exalogic offerings, only ready for the 3rd platform world - as well as Docker hub and the Hashicorp Atlas.
+
+Please see: https://inside.emc.com/docs/DOC-156150 for more information.
+Docker (and container technology in general) has taken the 3rd platform world by storm.  Recently the Linux Foundation brought EMC and others together to create a Common Container Standard working group.  This is our opportunity to establish leadership both in mindshare, and as the company behind the first off the shelf 3rd Platform infrastructure offering.  It will simplify the lives of our customers and move a lot of VxRack systems off our loading docks.
+
+Additionally, in the future, as this is primarily a software stack running on top of x86 commodity servers, such an orchestration and deployment layer would assist in transitioning EMC into a software strategy that would work on top of any provider – even public IaaS, thus enabling private, public and hybrid use cases.
+

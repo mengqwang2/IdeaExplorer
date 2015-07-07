@@ -1,0 +1,9 @@
+non-technical offices to Technincal exchange program 
+getting non technical guys located in offices away from premises having technical engineers ,  to be exposed to the technical experience , while having experience with new colleagues with different cultures 
+thinking of a solution for the offices that are not located in COE , which their work are not focusing on the technnical part , but also they need to get an overview to it , and not having technical teams in their premises 
+EMC is having lots of point of presences covering many countries all over the world, some of them non technical offices , and some of them a offices for CEs ,or Engineers who can be reachable to the customer to solve a problem on the spot
+Having a program to get kind of rotation between offices which are not having the full technical expertise , to the nearest EMC premises .
+Example : if we have a Sales office in Morocco , and need to get the sales employees there have technical exposure to some products , they can have rotation in the nearest EMC premises with the technical experts there , and in that example , employees in Morocco can go and have their rotation in Egypts COE , 
+-make use of the technical guys in EMC in cascading knowledge to the non technical teams which will improve meeting customer's expectations and needs
+-make use of the diversity occuring , by building relations between EMC employees occuring in different countries with different cultures
+-as the non technical guys will be exposed to some technincal topics , the technical guys will gain experience from their colleagues regarding the customer's needs , types of contracts between EMC and the customers , customer's mentality and attitude in a specific country 

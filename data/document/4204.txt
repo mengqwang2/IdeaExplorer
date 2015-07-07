@@ -1,0 +1,8 @@
+Quantum Data Teleportation
+
+Read about the news a couple of days ago. 
+Quantum data teleportation and quantum computing would offer unprecedented upgrades to data processing—both in speed and scope, which might become a mainstream reality.
+
+It may sound far away from now. But we just had two breakthrough in June, 2014. A team of researchers in the Netherlands successfully teleported quantum data from one computer chip to another computer chip at June 4th. At June 10th,  the U.S. Army Research Laboratory at Maryland announced that it has developed a prototype information teleportation network system based on quantum teleportation technology. The technology can be used to transmit images securely, either over fiber optics or through space.
+
+

@@ -1,0 +1,13 @@
+Smart Reminder
+The application provided is a typical implementation of IOT as it uses internet and technology for reminding people in a smart way, increase their satisfaction and save their time, Its also very useful for a smart cities with large number of people holding smartphones and are connected to internet, It's also easily doable as it will be a mobile application for Android and IOS platforms 
+I came up with the idea as it happens a lot that we need to get some stuff from the supermarket or the dry clean for example and one of my family members could be there and can get it for me while i don't know about his existence in that place, and as i worked a lot in mobile applications development, i suggested the solution to be a mobile application as most of us have smartphones and such app can be easily used
+Develop a mobile application that can be compatible for both Android and IOS platforms and it works as follow:
+- Each user provide his email, Facebook account or mobile number to access the app
+- Each user can have a list of circles simulating the activities he do, for example he can make Supermarket circle, Dry clean circle, Club circle, College circle,...etc
+- For each circle, user can specify a list of other users related to this circle and this app checks his location regularly and if he is found in the supermarket for example, it sends a notification for all the people in the supermarket telling them this info and they can reply by asking him to bring something for them from the supermarket too or ask about something 
+- Users can belong to one or many circles and for the whole week days or specific days of the week, for example my mum can belong to the supermarket circle on Saturday and Sunday and to hair dresser circle on Thursday and Friday 
+- Succession of this idea by implementing this application and use it to remind people automatically to have safe trips with Taxi drivers. Such an application needs a big storage system to save data of taxi drivers, the feedback and people comments on them and it definitely need rapid analysis on Big Data to provide a fast feedback about the driver before you start your trip, and also need fast connection to Internet.
+
+-The company will benefit from this idea by giving a solution for the big data to save the submitted feedback, reviews and drivers plates, and analyze it. EMC2 will make money by entering with its storage system to store this huge amount of data and provide analytical solutions on it.
+
+- Definitely this app will improve customer satisfaction on the transportation service

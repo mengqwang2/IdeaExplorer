@@ -1,0 +1,11 @@
+Automated Updates Tracker 
+This will serve the challenge/s listed below. 
+ 
+When BT was down, issue was logged by hot keys and emails going back and forth
+Create an Updates Tracker for major issues such as when EMC applications are down. This tracker can be used to log the issue and keep everyone updated with what is going on instead of using emails. 
+
+Leads would use this to notify management. 
+Easy to use
+trackes all issues 
+global view
+saves time and effort 

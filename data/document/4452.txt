@@ -1,0 +1,9 @@
+Maintain a library of suggested software  
+
+We must obey the IT security policy, but some software that is legal but not be accepted. These may be installed by mistake or unaware.
+The software library may help.   
+
+Maintain a library of suggested software. 
+Some software is legal, but not be accept by IT security policy. 
+If we have a library contains the most suggested software that may convenient employee to install, and avoid unacceptable software installation.           
+

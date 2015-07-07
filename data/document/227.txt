@@ -1,0 +1,13 @@
+Open Source Data as a Service Platform
+The idea promotes EMC products and services through open source platform.
+Working at Skolkovo we often see huge demand in such platform and know that the only competing OSS platform is iRODS, however, it has very limited support for modern systems like Isilon, ECS and we see huge opportunity in adapting exsiting OSS products which will allow to imlement the system by developin very thin controller layer and integrating lots of exisiting SW.
+The proposal is to develop a modular, OSS platform based on combination of existing high quality OSS packages (with preference to EMC supported products). It will eliminate the problems of iRODS caused by monolithic architecture. Proposed architecture, in contrast, will be layered from Generic Data store to High-level data orchestration layers. The architecture will support deployment from single machine till huge clusters keeping the same user's model. Such approach will allow to attract small organizations and individuals and further attract large organizations who need such platform and suffer from existing platform problems. Of cause, the system will be highly available and reliable
+The platform will work on hyperconverged and classical architectures, it may work at PaaS level like CF/PCF and also at IaaS level (vmWare or OpenStack). The user will have unified interface based on object store semantic or POSIX.
+One of possible technology stack:
+1. CEPH as data store with Object and POSIX semantic
+2. ArangoDB for data catalogue
+3. CF or OpenSack for logical infrasructure
+4. Spring as application framework
+Upon implementation the platform will be available as OSS, under some liberal license, e.g. Apache 2.0 
+The users will be eligible to install and use the system as is but htey will have access to our plugins shop where they can find some useful extensions: Isilon plugin, ECS plugin, EMC Data Catalogue plugin, integration with Documentum, etc.
+

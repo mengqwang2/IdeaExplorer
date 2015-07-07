@@ -1,0 +1,7 @@
+Use Analytics to Respond to Service Requests
+This idea will help to understand the end user's experience and abilities and respond accordingly rather than responding in a generic way thus improving customer experience
+I recently met a customer who has over 10 years of experience with EMC products and he shared his experiences with CS. He shared that each time he raises an SR similar basic questions are asked to him which consumes time.
+Use analytics on customer's data collected through SRs raised by them in the past and their search pattern to get an insight on the level of experience, knowledge of product, technology interests. Based on the assessment the new SR is assigned to the suitable level of CS engineer rather than customer requesting to pass the SR to the next level. The communication with the customer can be enhanced based on his understanding of the product. 
+We can also look into the previous Engineers who have worked on similar issues/same customer and assign the same person.
+Also based on the interest and knowledge we can propose new products & services. 
+The idea if implemented will provide a better customer experience and reduce the overall SR resolution time.

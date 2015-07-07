@@ -1,0 +1,7 @@
+XtremIO tight integration with EMC Backup Products
+The ideal is related to XtremIO Challenge. 
+I did the backup test by using Data Domain/NetWorker/Avamar with VNX also did the snapshot test within XtremIO. I just thought that would be good if we could integrate them.
+?	Integrate XtremIO with Data Domain, Avamar and NetWorker. So as we could easily archive or backup critical data by leverage EMC technology
+?	Just like VMAXv3 ProtectPoint, the data on the XtremIO could be directly backed up from the array to Data Domain.
+
+I believe it will improve customer satisfaction and definitely has positive impact for the market share.

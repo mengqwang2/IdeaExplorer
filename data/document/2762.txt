@@ -1,0 +1,30 @@
+Threat modeling and smart alerting mechanism for CTD products to reduce support calls
+Majority of non-functional supportability issues includes, not properly sized environments. Identifying the threshold limits automatically across different levels in product line is indeed challenging task
+We have in NetWorker Performance team have built a centralized monitoring system using a scripted solution in the backend. There is UI which runs Java script and leverages the latest technology analytical graphs (using D3.js, DC.js) and provides a end user to view what is happening on the system also provides end user real-time and historical trends.
+Tools can be viewed by using below URL
+
+http://10.31.239.58/test
+
+
+The idea here is to implement the agent (scripted solution to start with) which would perform the following tasks.
+1) Collect environment details
+2) Capture the resource utilization
+3) Identify the threats based on the utilization 
+4) Send the notification and alerts 
+5) Provide a centralized user interface to view system and application specific data
+6) Facilitate the end user to collect and collate the information based on data collected and stitch them together for analyzing. The stitched data should have system information, application information, alerts, threshold values, notifications and resource utilization data at particular or user specified time.
+7) Agent will be light weight and have no impact on host where it is installed. No database involvement .
+8) Real-time interactive graphs/information for end user
+
+The collection agent will collect all adequate information about environment including application and hardware sizing details.
+The resource monitoring agent will capture the CPU, Memory, IO and Network details and classify the logs for realtime and historical analysis
+The threat modeling analytic engine will periodically go over the resource utilization logs based on realtime data and identify the possible threats based on threshold values. The threshold values can be user defined or analytic engine automatically calculates based on amount of resources available for use and currently free. Once the real time values reaches crosses the threshold values, it send the notification and alert to notification subsystem
+The notification and alert subsystem will classify the notification or alert based on type of notification and puts them into repository for front end engine to fetch and project them in UI
+There will be centralized UI mechanism which will pull the real time, historical and notification data and facilitate the user to collate it for uniform analysis
+The UI will also provide an end user to stitch the relevant information from different log repository for centralized analysis. 
+
+The alerting and notification can be extended to mobile device by creating a app which will show the real-time data and alerts
+-> Auto error preventive method to avoid the support calls
+-> Helps to visualize the resources across different product line
+-> Threshold on threat level would help to reduce the threats in advance
+-> Improve TCE factor

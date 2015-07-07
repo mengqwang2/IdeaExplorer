@@ -1,0 +1,13 @@
+Automated Public Holiday Feature - OOH
+This will serve the challenge/s listed below.
+
+
+Several issues with public holidays and how to add them and having to personally add them. 
+Add a feature that would automatically add the public holiday to our OOH hours if we worked that day. 
+
+OOH would send a quick notification asking to confirm of that public holiday has been worked or not.
+Saves time
+avoid mistakes, errors
+automation process 
+engaging interface
+innovation  

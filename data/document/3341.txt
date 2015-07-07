@@ -1,0 +1,20 @@
+EMC AIE plugin “Automatic Integration Enhancement”: Accelerate EMC's integration with other products 
+
+The idea came up from working in the Technical Support department that enabled me to see different integration matrices between EMC products and other products/technologies 
+
+For each EMC product such as VNXe for example. We want to know that in most of the environments the customer uses the VNXe with certain type of host OS or application. then the next firmware version can be released with integration with this specific technology or OS type. this will increase the sales opportunities for the product, open new markets and increase the product life cycle.
+
+this can be done by two ways:
+
+1- Automatic reporting: EMC product management software can send automatic reports about the type of hosts connected and the technology used within this product environment. for example it can report that it is connected to certain windows server version.
+these reports can then be collected in a centralized place (data warehouse/database). the data can be analyzed using big data analysis techniques to identify the best candidate integration opportunity. privacy will be considered in such method to make the reporting in compliance with the customer environment privacy.
+
+2- Manual reporting : Surveys can be automatically sent to the customer asking about the feature they wish the EMC product had. the surveys can be collected in central database and analyzed. 
+
+the two ways can be combined together and decide the feasibility of certain integration and send it to the development team for that EMC product.
+
+this will help accelerate and optimize the integration of EMC products with other EMC/non EMC products.
+
+this will increase EMC sales opportunities and maximizes the TCE as well as customer satisfaction as we are aligned to his needs.
+
+

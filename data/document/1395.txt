@@ -1,0 +1,6 @@
+Captiva & Documentum as a light weight installations
+Captiva Input accel used to have a package which was used by small scale business.
+In the current version there is no such install available for customers. Having a light weight package ECD can penetrate to small scale business as well.
+Captiva used to have a solution for small business users. Latter it got removed by prod management
+Make captiva and Documentum as a suite and provide to customers as a click once deployment. This will help more customers to adapt our product more easily
+ECD products will have more penetration into the datacapture and archiving market and take over from competitors

@@ -1,0 +1,7 @@
+Enhance Service Center 
+
+- Wasted Many Time to check the history 
+- Once the Support Engineer Accepts the case, He can receive an email about the history of this box and Small brief description about this case and Status of this cases if it closed or not
+
+- This will save the time and help to get the correct way
+

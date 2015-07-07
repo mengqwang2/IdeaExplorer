@@ -1,0 +1,12 @@
+EMC Product Automated Installation 
+
+The idea came ot me while working with the SYR system and thinking about the current IB Ship Install Interface.
+The idea is about adding an auto configuration script that allows all EMC products (with the exception of federal and high security products ) to connect to EMC support and EMC’s Installed Base and send all the product details to EMC’s systems.
+Once a product is sold to a customer and then installed at the customer site, an alert will be sent to a queue in our system. The installation requests pending in the queue will be processed automatically by an interface that will update the product IB status, maintenance support contract details, microcode and other applicable configuration details in our EMC Installed Base, Contracts System (OKS) and SYR.
+This will have a huge cutting cost impact by eliminating huge workload processed manually by the Installed Base Team and Contract team to perform these transactions manually (Status Update, Microcode Update, Contract Details Update).
+In addition, this will have a positive financial impact by generating more revenue because:
+-	Our engineers won’t have to send installation alert requests to IBG since the alert will be generated and processed automatically by the interface.
+-	All maintenance contracts will be automatically activated via the interface and not missed due to contracts human error 
+-	Also, this will have a positive impact on TCE since customers who are entitled to support will not face any troubles when contacting EMC support or trying to open Service requests since their product maintenance contracts details will be updated automatically by the new interface upon product installation
+
+

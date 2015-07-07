@@ -1,0 +1,26 @@
+ “High Availability (HA) Auto Tester” – better and easier implementation and faster troubleshooting.
+
+ The idea came up from the daily work in which we saw many customers go through hassles testing HA and opening SRs for this. The testing process takes long time and is complicated and subject to human error. We was thinking of automating this step
+
+
+ The idea works as follows:
+
+-	Equip the array GUI with a button “test HA” (similar to the “health check” button)
+-	When this button is triggered by the user, it will automatically do the HA test on the array components (Storage Processors, IO cards, switches .. etc)
+-	The user can select certain component(s) to run the HA test against (for example : select to test HA for SPs)
+-	The HA test engine automatically runs the checks (for example shutdown one SP and test the IO communication ..etc)
+-	The HA test result will be displayed to the user on the GUI interface
+
+This will achieve the following wins :
+
+1-	Save considerable amount of time and effort to the Implementation team and the customer
+2-	Enable easier and faster troubleshooting for the issues
+3-	Build trust between EMC and the customer 
+
+Feasibility of implementation :
+
+-	The HA test process is a fixed steps process which enables ease of automation
+-	The health check process is already automated and can help in the HA testing 
+
+
+

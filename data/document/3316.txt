@@ -1,0 +1,5 @@
+Text analytics to improve customer feedback system
+
+During my in person conversation with a customer , I forgot to capture the points which were not very relevent to the work that I was involved but were good inputs for other teams.I thought that a system could help in capturing such information.
+The solution proposes a centralized analytical system which interfaces with the existing tools like forums, wiki and other tools. It also provides a new interface in terms of mobile app to capture the voice communications that happens through phone calls or in person interactions. Every customer facing EMC members will install this mobile app which will capture the voice record of the interaction, converts the voice to text and cache it in the Big Data infrastructure. The system also provides an interface to cache the customer related email communications.  The system runs a machine learning text analytics on the entire cached information and provides a meaningful information.  We can use open source voice to text converters and also text analytic tools to expedite the implementation.
+

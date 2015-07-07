@@ -1,0 +1,25 @@
+Log Analysis using Elastic Search Logstash and Kibana Stack
+This idea of log analysis can be leveraged to wide range of CTD products which helps in saving support engineering team and thereby improves customer turn-around time.
+Came across while discussing with the support engineering team on their challenges.
+The log files collected from ConnectEMC/SR site will be sent to ElasticSearch server using logstash forwarder. The collected log files will be parsed by the logstash and presented to the front end using Kibana.
+
+(https://inside.emc.com/docs/DOC-156021).
+
+This log analysis can be extended to other CTD products as well which helps support Engineers and failure rate can reduced by doing some analytics on the failure events.
+Initially the below functionalities are planned in the front END UI (Kibana).
+
+1. Front end UI will be provided to frame rules ( Pattern matching in which log file)
+    a. Frame rules which checks for patterns in the log files and come to a conclusion whether the SR is false alert. One example rule is when a node is added a false alert is getting generated. To catch the same , a rule will be added to catch the pattern of node addition in gsan.log
+    b. The loganalyser will automatically analyse the incoming log files and if it matches the pattern will list the SR against the rules and the support engineer can see that and easily figure that SR is false alert and concentrate
+
+2. Time based log capture
+    a. Support engineer usually wants to see the log during a particular timestamp across different log file. 
+       - So this feature will have a input as start time and end time and the list of log file names
+       - Output will be the logs from that particular timestamp from each of the log file and the Support engineer can analyze it easily
+
+1. Saving the Support engineer time and also faster turnaround to the Customer.
+
+Criteria of Success: 
+1. Support engineers can make use of this Dashboard in identifying the false alarms.
+2. Positive Feedback from the support engineers.
+

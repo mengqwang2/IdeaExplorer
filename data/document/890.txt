@@ -1,0 +1,32 @@
+Container as a service leveraging EMC Products
+This is the era for leveraging Open Source Technologies as  customers doesn't prefer a  vendor lock .
+By utilizing the open source technologies on our products we can be target a larger set of customers/clients .
+We started ideating for this challenge by having discussions with the Sponsors to understand the challenge better and the key wins they are looking for.
+
+We considering our selves being a user of Open Source technologies came up with a thought process of  what if the containers on which which we deploy our services could be moved completely with out any complication .
+
+This could be possible is the containers itself is provided as a service which would solve the problem and bring ease to the customers.
+The proposed architecture enables the use of EMC products embracing open source technologies.
+
+The architecture is explained in the following steps.
+
+--> The use of Decker over Pivotal Cloud foundry: Decker enables us to push docker containers with ease over cloud foundry, thus enabling us with providing reusable docker containers as a service solutions.
+
+---> Hosting Could Foundry over Open-stack: Open-stack projects namely Nova (Compute), Swift (Object Storage), 
+
+---> The use Of Scale IO and Vipr Controller over Commodity/Enterprise hardware: With the proposed architecture, there arises a need for a highly scale-able infrastructure that can be achieved using a combination of Scale IO and Vipr Controller. The choice of using commodity or enterprise hardware is left to the customer to choose as per their requirements.
+
+This architecture provides a solution for a highly scale-able, third platform enabled Hybrid Cloud Solution.
+
+
+
+From Solution's perspective:
+
+--> The use of this solution will provide a strong presence on EMC products in a highly opensource friendly market.
+
+From EMC's perspective:
+
+--> This solution would help clients embrace opensource technologies to its fullest by using EMC products and in turn ensure that EMC's presense in emerging markets.
+
+
+

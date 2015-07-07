@@ -1,0 +1,8 @@
+validation after storage migration 
+- end to end verification of the devices after storage migration
+
+- as it takes time to customer to manually validate the devices after the migration activity. 
+- to avoid this if there any program already available to verify this will avoid the production outage/ lot of manual effort.
+- if there is any process/program will be available to validate the storage devices after the migrations as it has to check the storage visibility/connectivity to hosts
+- as it takes time to customer to manually validate the devices after the migration activity. 
+- to avoid this if there any program already available to verify this will avoid the production outage/ lot of manual effort.

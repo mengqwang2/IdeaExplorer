@@ -1,0 +1,9 @@
+Take advantage of mobile app, enlarging the number of plain customers.
+Enterprise Content Division (ECD) Challenge
+1. Microsoft creates free Office apps on iOS and Android;
+2. Some LBS applications using other companies' tech (like google maps and many other companies), the small companies help the product improved also provided useful data;
+3. At present, more and more data are produced by mobile devices.
+We can split our big applications to some lightly applications which implement some frequently used features and very friendly user experience.
+In my solution, desktop applications should charge, but in the other hand, mobile apps should be free downloaded (also lightly app compare with desktop app) and towards plain customers. 
+In the other hand, we can co-operate with other web companies, splitting our products suits into small applications, and using our techs (like scan & print) to their products.
+These lightly products will help us to increase user engagement and build its reputation.

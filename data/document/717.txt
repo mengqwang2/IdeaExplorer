@@ -1,0 +1,9 @@
+Elevator Balancing
+this idea will effect electricity which will lead to less cost
+Brainstorming
+we have 4 elevator; assign 2 elevators (A&B) for levels "2-4-6" and 2 elevators (C&D) for levels "1-3-5".
+Any employee in level 2 can only use (A or B) for example.
+
+That will balance the use a little bit and it 
+Less Cost.
+Saving Employees valuable time

@@ -1,0 +1,9 @@
+Integrating an application with Service Center website
+It idea is relevant to applications that is being used daily by support as well as customers
+No specific history
+We can make a popup for Customer or something like a check list that will automatically appear to direct him that if the issue is with Content Server Jobs for example, Support will need this specific logs. If the issue is performance one, then Support will need that other one. This can be done to all products as experts will do these check lists and communicate to customer optionally if he customer wants to. 
+
+-Time to restore will be minimized
+-A nice graphical user interface about customer architecture will be helpful for TSE to start investigation
+-Eliminate one step from emails going forward and backward between customers asking them about their environment structure
+-Customer satisfaction

@@ -1,0 +1,11 @@
+Standardization in Data Migration projects
+
+This idea came up as part of our Practice core team dicussion. We have developed this runbook with help of multiple team members and it is widely used by iCOE team
+
+Build standard run book for each migration technologies
+Use the standard runbook in every data migration project as template
+This runbook will have all EMC tasks 
+This runbook will also have tasks related to host SA, DBA and application team
+During the migration project, PM can fill in details on each tasks once it is completed
+On completion of project, this document can be handed over to customer
+

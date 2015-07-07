@@ -1,0 +1,5 @@
+Space strategy 2 – Overhead gantry approach
+
+Floor space allocation is a constant threat to EMC with an ever present and strengthening hockey stick quarter tester utilization is back ended and inefficient. As a result, the need to reduce floor space and cost is driving us to come up with projects to combat this issue. This project came to the table in the middle of Q4 while a brain storming session was taking place among the Test Equipment group.
+Incorporate a gantry infrastructure above the floor with a recoil cable management arms for connecting UUT’s under test. Safety equipment would be added to the recoil arm and maintenance would be carried out using a similar solution in place in ESS for the top of chambers. 
+

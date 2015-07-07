@@ -1,0 +1,8 @@
+EMC Customer Engineer (CE) rating portal
+The idea is about enhancing the overall process of customer and support when customer engineers (CEs) are on-site.
+As a support engineer, Sometimes i deal with CEs who are dealing with the product for their first time and i have to apologize to the customer and resend another engineer to perform the appropriate task. 
+Having internal portal between Support/GS and field to rate the CEs and being able to escalate if any issues happen.
+Field will have the ability to view report about each CE and comments in case he is lacking experience in some parts and they can provide them with appropriate trainings
+-Letting customers have professional and good experience when we send trained/professional engineers on their sites to perform local tasks.
+-Saving customer's time if he has critical issue.
+-Making it easy for remote engineers to cooperate with on-site pe

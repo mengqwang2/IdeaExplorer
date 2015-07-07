@@ -1,0 +1,13 @@
+Make customer to use EMC knowledge base (Customer support)
+
+- Customer opens a service request for very small things many times, due to lack of product knowledge
+- If the above idea is implemented customer might not need to raise a case many time saving his time and EMC's also
+
+- Integrate basic Troubleshooting steps to be performed by customer before he opens service request
+
+- When customer opens a service request, there should be very relevant and specific, pints asked to customer about the issue and causes of issue 
+
+- Back end intelligent  machinery of support.emc should use the process provided by customer and present basic troubleshooting steps to be done by customer
+
+- Before customer is able to open a case (apart from Severity 1 issue), support.emc will make sure basic troubleshootign has been done and it did not resolve the issue
+

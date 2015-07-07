@@ -1,0 +1,19 @@
+Build as a Service using the converged Cloud Platform of all EMC labs
+
+I have been involved in labs and helping the release engg teams and every product division has similar challenges. I've also designed and implemented this partly in India IaaS for DMBU SPGEAR team.
+The build and release engineering should be divided into logical blocks, ex: code repository, release engineering tools, defect tracking, build environment, developer systems etc.
+
+Most of the EMC product divisions use either vendor specific licensed software or open source software for the build systems and release engineering. Almost of these can be virtualized. Second step is to virtualize the logical blocks.
+
+Create service definition for each of the logical blocks created
+
+Bundle the logical blocks so that the bundles can be consumer able. Ex: For any product division -code repo (size can be variable), defect tracking, release engg tools, build environment, certain no.of developer systems are needed. The basic bundle will consists of all these logical blocks. Based on the need of the product division the services can be offered in terms of the bundles.
+
+Tie up with EMC IT to provide back up resources to be compliant with the code repos.
+
+Maintenance of the infrastructure will be part of the charge-back mechanism
+
+Converged Cloud Platform (combining all the private clouds that are currently available across all the EMC labs/product divisions) will host the infrastructure (mostly virtualized) which includes both software and hardware providing centralized management, resource pooling etc.
+
+This will take away the burden for the engineering teams to handle the critical piece of infrastructure and they can concentrate solely on building world class products.
+

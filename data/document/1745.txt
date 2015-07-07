@@ -1,0 +1,6 @@
+Service Center text Autocorrection 
+Reduce typo and human mistakes for the service request update
+NA
+Implement text correction in service center update box
+-Reduce typo and human mistakes for the service request update
+-Enhance the efficiency of EMC support updates in service center

@@ -1,0 +1,22 @@
+Genome Analytics Cloud
+
+The idea to build a exclusive platform around genome data came across when we read the paper around 1000 Genomes Project.
+The platform will a elastic cloud based analytics platform where the public genome data will be available  for the users.
+The platform will provide a self-service cloud based data integration, compute and analytics system for genome data set
+The elastic cloud for genome will work as biobanks to serve the increasingly essential demand for basic, translational, and clinical research for genetic studies and personalized medicine, it will address areas from bio specimen tracking, privacy protection, and quality management to pre-analytical and clinical collection/identification of study data elements
+The data set categorization and its exposure can be readily available as a subscription based mechanism to user base with web service methods/ APIs.
+The elastic cloud will have open source Big Data ecosystem components as a service to enable end users to do analytics on Genome dataset
+It will serve as schema-free architecture, large shared memory using Gem Fire XD, massively multi-threaded processors, and highly scalable I/O fuses diverse data sets into a high-performance, in-memory data model ready to be queried…all ad-hoc and in real-time. 
+This platform will provide direct write to a big data store (HDFS) using EMC Isilon (HDFS) allowing for back-end analytics.
+The complete solution would be packed together with a secure layer of RSA and provide a secure platform for analytics.
+All the public genome data , analytics tools, and other services will be bundled together in a cloud offering which will be powered by CloudFoundry and vSphere.
+
+
+
+
+
+PPT- https://inside.emc.com/docs/DOC-100042
+
+
+
+

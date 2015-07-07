@@ -1,0 +1,5 @@
+User friendly Captiva WebClient 
+N/A
+the idea came up while creating sample of apps after new webclient became available.
+Dense work of the designer and developer needed to improve UI of web client
+improve customer satisfaction

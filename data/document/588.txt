@@ -1,0 +1,12 @@
+Intelligent lab management system
+This idea solves management of large amount of machines in lab
+This idea comes when I try to change hardware on a server.
+My colleague Long,Wang is also involved. 
+This idea is still in mind.
+This idea intends to develop a new universal machines monitor and management system.
+The system would monitor all the devices in lab including DDR,switch, PDU .etc.
+With the help of this system, administrator could easily check all devices in lab and take action at once in case there are any exception.
+A universal and intelligent lab management system.
+This system could make administrator work more easily.
+And if possible, this system could be also sold to customers.
+

@@ -1,0 +1,15 @@
+ “RSA Profile “ – a Mobile Solution for Master Authentication 
+
+The idea came up from  dealing with so many accounts with different credentials 
+ 
+The idea works as follows: 
+-	RSA Profile app will help authenticate the user to various portals 
+-	A user can have one or more “profile” 
+-	Each  “profile” has authenticity for certain set of passwords/credentials. For example one profile can have access to all my social media accounts as well as emails but will not have access to my bank credentials. Another more restricted profile has access to my banking credentials
+-	Each profile will have a password that will be used to authenticate against all sub elements under this profile
+-	The application will keep track of all passwords in an encrypted state
+-	A user can use password or combination between password and a token to authenticate against certain profile
+-	The application will be portable and can be used anywhere with any device
+
+
+

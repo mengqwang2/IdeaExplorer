@@ -1,0 +1,5 @@
+Access to the SR dump for other teams as well - like PS, MS - This will help to reduce time for Engineer to fix the issue
+
+If there is one Global database and which contain all the information for Technical and Non Technical details and All EMC employee should have access so that they can easily manage their time and instead for searching here and there they can find the solution in data base . Employee who upload the idea will be verified by selected team members and after their approval idea will be posted to this data base  . This will be most helpful for New Technician/members also who faced the issue first time .
+If there is one Global database and which contain all the information for Technical and Non Technical details and All EMC employee should have access so that they can easily manage their time and instead for searching here and there they can find the solution in data base . Employee who upload the idea will be verified by selected team members and after their approval idea will be posted to this data base  . This will be most helpful for New Technician/members also who faced the issue first time .
+

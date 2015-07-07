@@ -1,0 +1,20 @@
+Client-side hints to the storage
+Improvements to SCSI protocols to improve our products.
+Read the DIX spec.
+SCSI has an extension for data integrity called DIF/DIX (see https://oss.oracle.com/~mkp/docs/dix.pdf for some details). Specifically, it contains 16bits for application tag, which AFAIK, aren't used in the client -> server direction.
+
+The idea is that the client can send hints to the storage about the data. The storage may or may not make use of those hints when processing the data.
+
+Examples:
+
+- Do not compress - if the content is already pre-compressed (MP3's, jpegs, etc.) or encrypted - do not bother.
+
+- QoS - hint (similar to network's DSCP) about the QoS wished for this block of data.
+
+- Replication priority - perhaps within the same volume some blocks should get higher priority for replication ('QoS for replication' ?)
+
+- Do not cache - some information isn't going to be used by the client in the near term future, so don't bother caching (example: when a VM is shutting down, it's writing quite a lot of logs and stuff).
+
+- This could be developed in Linux in an open source fashion - showing how EMC contributes to OSS.
+- Some of it can clearly improve our performance substantially.
+- I don't think it's too hard to implement.

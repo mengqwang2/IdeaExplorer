@@ -1,0 +1,40 @@
+Improve supportability of DDFS and other CTD products
+The following makes this idea relevant to the challenge -
+*) It would improve product supportability and it can be implemented well in stipulated time.
+*) This would improve troubleshooting speed, accuracy and it will be more relevant for
+   upcoming and future releases.
+*) This can help prevent running into same issue.
+*) This idea can be extended for other CTD products.
+As of now, for a customer case support engineer opens a bug and assigns the bug to product
+component he deems most appropriate. 
+Engineering team working on each component has debugging macros which they use while debugging 
+to extract information they use for triaging. 
+Many of these macros extract values of global data structures in their component while many
+others context specific, such as given a pointer to a data type, print its values. These
+macros are designed to work on complex data types. 
+
+The problems with current situation -
+*) Mostly the team who works on a component is aware of the macro applicable to their 
+   component, and how to interpret the data
+*) Context specific macros are used while doing manual debugging.
+The idea proposes attaching DDFS process (for live system) or core file to a debugger, on
+customer box and collecting vital data for each component of the product which can later be
+used for triaging. 
+
+Each component in the product stack will contribute to decide what debug data would be vital for
+them to triage the issue from their component's perspective.The information so collected can be
+shared much easily and faster than core files (if core file in really required). 
+
+Furthermore, intelligence can be added using appropriate language such as perl or python to
+collect context specific data such as analysis of all threads, threads causing issue, values
+of data structures in frames of threads of interest etc using context specific macros of
+appropriate component.
+
+This method of triaging can be implemented by other CTD products.
+If the idea gets implemented, even just for collecting debug data for each component, we would 
+be able to triage the issue, in many cases, without need of core files getting uploaded for
+engineers.
+
+Depending on the intelligence added in the script to do contextual debugging, we would reduce 
+the need of availability of core files for engineers.
+

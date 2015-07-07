@@ -1,0 +1,19 @@
+ ViPR HA using multi RAID architecture – Towards w new generation of ViPR
+
+ The idea came up from the Cloud-RAID concept. We started to think about having such benefit in ViPR system that deals with diverse storage arrays 
+
+
+ The idea employs the concept of “High Level RAID” to spread data across more than one storage array. This will use the concept of RAID not on disks but on the arrays themselves. This adds a new dimension of availability and security.
+
+The data will be distributed across more than one array. If one complete array fails/reboots/shutsdown, the data is still accessible through parity.
+The design will be transparent to the user and is fully managed by ViPR.
+
+The idea stems from the Cloud-RAID concept proposed
+
+REFERENCES :
+
+CR Implementation : http://link.springer.com/chapter/10.1007%2F978-3-642-38027-3_10#page-2 
+CR Performance evaluation : http://www.hpi.uni-potsdam.de/fileadmin/hpi/FG_ITS/papers/Trust_and_Security_Engineering/2013_Schnjakin_ICCCN.pdf 
+
+
+

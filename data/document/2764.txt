@@ -1,0 +1,10 @@
+Crowdsourced Security
+The idea will promote cross collaboration and increase security posture of our products.
+We had this idea in PSO for a while, but haven't had resources and time to implement. The model works very well outside EMC. Example of successful crowdsourced security communities are: Bugcrowd and Crowdcurity.
+Create pool of product and security experts across the company that are willing to donate their time to solving product security problems. Provide a secure portal for collaboration.  For example, if QA person needs to create security test cases he/she can post the request and someone from support who knows the product very well or QA person from different product can help to solve the problem. Alternatively, product team/PSO can crowdsource  a security testing of a particular product before GA to group of people outside PSO. The same idea can be applied for all other shared services offered by PSO. 
+
+The project will:
+1. Promote innovation: new set of eyes with different perspectives and skills are solving the problem 
+2. Increase security awareness and knowledge within EMC
+3. More secure products: more experts will find more security bugs
+4. PSO can 

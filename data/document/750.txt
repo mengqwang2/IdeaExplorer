@@ -1,0 +1,6 @@
+Collaboration chats to be attached/added directly to the SR 
+N/A
+N/A
+Whenever we need engagement from our colleagues in different team and we initiate a collaboration chat, the chat logs is normally sent by mail coming from "Support@emc.com" . i think it should be added directly to the SR for reference in case of Turnover or requeue.
+It is needed in the SR with the updates done as it contains all the small details discussed during the collaboration, so that the new owner of SR can avoid repeating the same steps already done.
+N/A

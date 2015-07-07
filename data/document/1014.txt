@@ -1,0 +1,17 @@
+platform to produce reports from RSA Adaptive Authentication customer data 
+Israel COE challenge - Security is one of the focus areas for the challenge. This idea is for the Adaptive Authentication products which are in the fraud detection and risk assessment space.
+Office of the CTO 'New Business' Challenge - This idea is for a new product/platform that produces monetizable reports using the data collected by RSA Adaptive Authentication products. The product is easy to build because the collected data is structured.
+
+I thought of this idea only recently. I am planning to engage product owners from the Adaptive Authentication team to understand the feasibility and merit of this idea.
+Use the data collected by RSA's  Adaptive Authentication products  to generate such reports leveraging the data from multiple customers.
+
+- percentage distribution mobile vs web for banking transactions
+- percentage of fraudulent transaction - mobile vs web
+- percentage fraudulent transaction - North America vs EMEA vs APAC
+- Identify locations where most of the fraudulent transaction are emanating
+- Customer/transaction growth -  year on year for banks
+- Such reports will be useful for sales and marketing teams to sell and market the anti-fraud solutions.
+- It can be used as a feedback to improve fraud detecting capabilities of the product and reduce the false positives.
+- This information can be leveraged for official EMC/RSA articles and blogs. These reports may or may not have actionable insights but when they are used in official articles and blogs it will definitely demonstrate the thought leadership in this space.
+- Sell the reports to Forrester/Gartner. I know for a fact that financial account aggregators are selling such reports for millions of dollars. Don't know if our licensing agreements allows for this or not. But since the reports are sourced from data from multiple customers, I am sure that they couldn't be traced back to specific customers.
+

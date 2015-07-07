@@ -1,0 +1,21 @@
+Risk-Engine Shared Learning
+Israel COE Challenge: 
+* Big Data and data-science solution: learning across customers, combining their (aggregated) data. 
+* Security - increase fraud-detection across all customers
+Global Solutions Challenge: 
+* Big data analytics - our technique can be easily adapted to other products in other verticals. Distribute machine learning results across customers. The solution has very light computationally-wise and very scalable
+The idea was hatched while preparing to the RSA Hackathon event of Jun-2015.  
+We decided to use the hackathon event to make a POC of the idea, and by using different approaches. The Hackathon POC was very positive and the team continues the work in order to bring it to a mature state (internal evaluation). 
+Participating Innovators: Anatoly Gendelev, Christina Tkachenko, Alma Zohar, Macelo Blatt, Alex Zaslavsky
+Our solution enables sharing of other-customers' markings to create a much better view of fraud-patterns. The algorithm detects (on a per-fraud-pattern basis) which customers have the best current representation of that pattern. Then these customers' knowledge is combined. The process is repeated for each pattern, culminating in the sharing of the patterns among all customers. 
+If customer A detected a specific pattern, then customer B has a chance of gaining this knowledge preemptively.  This increases the feedback and therefore the efficiency of learning.  
+The end result is a significant increase in fraud-detection across all customers.
+
+The uniqueness of this approach is in being easy to implement, while giving a large value for customers. It is a generic mechanism for transfer learning, and can be adapted for a variety of EMC/RSA products (even those that don't have customer-feedback)
+* Our solution can be easily adapted to other EMC and RSA products such as Secure Analytics and AA for eCommerce (3DS) giving them similar benefits. We can adapt it to with with supervised or unsupervised systems
+* Increase Fraud-Detection by ~15% per customer. That is saving ~$7.1 million USD a year *for each customer*
+* The method is dynamic and constantly updated data. No manual steps
+* Improve customer satisfaction with the RE
+* New customers need to have the RE on ~3 months of "Silent" period, before activating it. Using our method, this time can be cut down by ~80% to a mere 1-3 weeks. This would:
+    > Provide marketing with additional selling point
+    > Reduce the operational cost for RSA per new customer

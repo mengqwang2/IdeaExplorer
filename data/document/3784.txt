@@ -1,0 +1,57 @@
+Standardized Storage Hardware, Firmware, and I/O Workload Description Files
+
+While working with the GSSD (now PS Solutions) group on VPLEX analytics models, we used XML as an exchange language for specifying inputs and outputs. Initially, the interfaces had lots of proprietary model parameters in it. Over time it became more descriptive of the actual hardware and firmware of VPLEX. It was also useful to move to a "normal" ,i.e., tabular, form, instead of dealing with embedded tables. But each product had its own proprietary XML format. As we considered what it would take to have the VPLEX module communicate with another module (RecoverPoint), we  realized it would be beneficial to have a more broad specification which was normalized and contained "just the facts" of the actual systems, instead of abstractions used for modeling (which should be contrained internal to the models). This would allow interoperability of the tools and "snap-in" capability for configurations and workloads.
+The XML format was designed to be a standard object-oriented description language for the purpose of standardizing interfaces. There are a plethora of libraries to interface with all sorts of languages and systems from PostgreSQL to Python to Java. It would be very valuable for EMC to agree on a standard XML description format for its hardware, firmware, and workloads. These XML files could then be reused by tools written with the proper interfaces. So, for example, sizing tools for various arrays could use the same workload files. In addition, the output from various sizing tools could then be used as input to, for example, a capacity planning tool. Today such a planning tool addressing multiple components would have to create translations from proprietary output formats to the tool's proprietary input format. A standard format would promote reuse and extensibility of "health-check" and prediction tools. The ability to "plug and play" configuration and workload components into tools will also improve diagnosis and planning automation.
+
+A small sample of the type of information that could be captured follows.
+
+<vplexConfiguration>
+  <vplexInstanceName>instance1</vplexInstanceName>
+  <cluster>Site-1a</cluster>
+  <cluster>Site-1b</cluster>
+  <wan>ip1a1bConnection</wan>
+  <replicationSolution>Metro</replicationSolution>
+  <cachingType>writeThru</cachingType>
+  <hardwareVersion>VS2</hardwareVersion>
+  <geoSynchronyVersion>5.2</geoSynchronyVersion>
+</vplexConfiguration>
+
+<vplexClusterConfiguration>
+  <clusterName>Site-1a</clusterName>
+  <numberOfEngines>1</numberOfEngines>
+  <numberOfFePortsPerDirector>2</numberOfFePortsPerDirector>
+  <recoverpointProductType>CRR</recoverpointProductType>
+</vplexClusterConfiguration>
+
+<streamConfiguration>
+  <streamName>stream1</streamName>
+  <streamSource>host</streamSource>
+  <streamDestinationInstance>instance1</streamDestinationInstance>
+  <streamDestinationCluster>Site-1a</streamDestinationCluster>
+  <streamDestinationEngine>2</streamDestinationEngine>
+  <streamDestinationDirector>A</streamDestinationDirector>
+  <streamDestinationPort>1</streamDestinationPort>
+  <streamVolume>vol1</streamVolume>
+</streamConfiguration>
+
+<ioStream>
+  <ioStreamName>iostream1</ioStreamName>
+  <ioStreamConfiguration>stream1<ioStreamConfiguration>
+  <ioStreamSamplePeriods>samplePeriods1</ioStreamSamplePeriods>
+  <ioStreamSampleIos>samples1</ioStreamSampleIos>
+</ioStream>
+
+<io>
+  <ioName>io4<ioName>
+  <ioType>sequentialWrite</ioType>
+  <ioSizeInBlocks>256</ioSizeInBlocks>
+  <ioCount>1283</ioCount>
+  <ioAlignment>fourKbBoundary</ioAlignment>
+</io>
+
+<samplePeriod>
+  <samplePeriodName>ts2</samplePeriodName>
+  <samplePeriodDateTime>2013-01-T19:00:50:00.000s</samplePeriodDateTime>
+  <samplePeriodDurationSeconds>300</samplePeriodDurationSeconds>
+</samplePeriod>
+

@@ -1,0 +1,10 @@
+“Tech 4 You” 
+“Tech 4 You” will be a platform to exchange diversified ideas, technology discussions, seek solutions, and remove the impediments based on the expertise and experiences and thus enabling innovation.
+Currently, EMC has product specific forums but no platform to address technology specific answers, third party software specific solutions, inputs to any idea/project, any design challenge which employees face during work etc. “Tech 4 You” will provide a platform to address such issues.
+We should create a portal - “Tech 4 You” for everyone’s use in the organization. This will be the platform to find any solutions to the technical issues, seek inputs for your ideas and get to know the best practices. If you have a query/problem, publish that in this platform and seek answers from the people who has expertise in that domain.
+- Share ideas/experiences
+- Reduce the turn-around time to find solutions
+- Seek quick solutions
+- Get different perspectives 
+- Seek inputs
+

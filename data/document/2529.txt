@@ -1,0 +1,6 @@
+Fast data
+This is a solution to a 3rd platform problem- the emergence of machine-generated data from devices that requires different architectures and possibly different Federation GTM. 
+I was studying the IoT market and looking at what technologies are needed to support real-time workloads.
+EMC has an opportunity to develop a convereged or hyperconverged appliance that enables analytics ~1TB for edge processing. A configuration may require in-memory processing with DSSD as persistent storage for fast data/ edge analytics. The goal would be to support high I/O demands without a lot of capacity for an edge or gateway data center. Ideally Pivotal could provide some of the in-memory tools and develop complex event processing algorithms, while EMC/VCE would support the HW requirements. 
+
+Success would be a Federation approach to the IoT market. EMC/VCE develop a system for the edge data center while VMware and Pivotal provide the SW and analytics tools tethering disparate data and disparate technologies into a single solution. 

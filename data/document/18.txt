@@ -1,0 +1,37 @@
+social selling
+Adressess TCE challnege by harnessing the power of analytics and social media(internal and external) to solve intelligent prospecting challenge for lead generation.
+dcv
+The following steps describe the proposed solution:
+
+Consolidate Prospects:
+-------------------------
+Consolidate Relevant EMC “Linked In” accounts + Partner and customer prospect accounts gathered from forums like EMC world
+	
+Go Premium:
+---------------
+Acquire a Paid “Linked In” Account that allows API access up to to 5 levels deeper containing expanded profiles 
+
+Query& Batch It:
+-------------------
+Query member information using LinkedIn API  in a recursive fashion to yield millions of profiles 
+
+Get Data:
+------------
+Gather  critical Information like industry, designation,
+member questions etc..
+
+Ingest& Analyze the Data:
+----------------------------
+Ingest this information into  Green Plum  Pivotal HD to filter, analyze  and output meaningful prospects with context
+
+SalesForce Integration:
+---------------------------
+Optionally integrate prospect data into Sales force  
+
+
+
+1.Tangible advantage over competitors in identifying prospects with contextual data that can translate into improved sales performance
+2.Automatic generation of new prospects, every time the process runs to sweep the millions of members on LinkedIn and other sites.
+3.This information can also be used to tag the existing prospects on Sales cloud to enrich the prospect data.
+4.Prospect segmentation to aid focused digital campaigns that could include automatic integration with InMail (LinkedIn's internal email system ) API ensures guaranteed delivery of marketing messages to their inbox. 
+

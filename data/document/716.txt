@@ -1,0 +1,5 @@
+EMC Book Sharing Mobile Application
+N/A
+Not all People can afford time, space, or money to buy all the books they want to read. Creating an EMC safe environment where one could share his book interests with others and read free of charge in return for him/her to share their book resources as well
+everyone logged in the application will announce the list of books he/she could lend for a while. Then other's will tag it to get the books for a short period in exchange of them lending others books as well. Moreover, if any two or more person's show interest in buying the same set of books. All can buy a book each and switch among them using the app scheduling. so instead of one buying 3 books, he/she would buy one and borrow the other two. The App can use the third platform to identify People's reading habits and share their interest with specified group of People. it can have a RSS feed from local and international book stores to notify users of the latest publications.
+N/A

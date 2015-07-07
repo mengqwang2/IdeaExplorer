@@ -1,0 +1,13 @@
+An efficient solution to identify storage array by WWN in vSphere
+
+As one developer for VSI plugin, notice that there is no efficient way to query storage-related info for a Datastore. For current VSI implementation, it has to query all registered storage array instances, then compare all volumes/LUNs with the Datastore's Canonical Name to determin the right one. It's bad for performance.
+Common solution:
+1. There is a Canonical Name (e.g. naa.514f0c54ed0000001) for the Device behind the Datastore.
+2. According the document ("https://inside.emc.com/docs/DOC-100040"), an OUI (Organizationally Unique Identifier) can be determined (e.g. 14f0c5).
+3. Query "http://standards.ieee.org/develop/regauth/oui/public.html" and result will show the vendor and storage array (e.g. XtremIO array for 14f0c5).
+
+Specific solution within EMC VSI plugin for vSphere Web Client("https://support.emc.com/downloads/34010_VSI-for-VMware-vSphere-Web-Client"):
+1. When perform the Datastore provisioning via VSI, store the key mapping info on VSI server, including storage array info, new volume/LUN info and new Datastore info.
+2. Provide service on VSI server to allow various queries.
+
+

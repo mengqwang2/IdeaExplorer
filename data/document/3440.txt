@@ -1,0 +1,36 @@
+Lync: Productivity Improvement; More virtual collaboration; knowledge sharing; work/life balance.
+
+Have faced practical challenge in the offshore/onshore coordination. Stayed up late to attend meetings; the details and discussion happened during those meetings are not available if I had missed the meeting. Challenges in explaining to a resource on a functionality (to navigate to a screen, select an option) and repeat the same to another resource at a later point.
+The short answer is: Recording with advanced virtual collaboration tools.  
+
+Some people may think when I can send emails, minutes of meetings to communicate, why do I have to record meeting? We have to realize the fact that all companies are moving towards more visual communication. Now-a-days, you could have seen Car manuals, Computer software manuals, phone manuals are coming in a video recorded format.  Since the enterprise is migrating to Lync and it has the recording feature that can be leveraged, this proposal is based on the Lync capabilities.  Both a collaborative team meeting and an individual recording (speech+video+screen sharing) can be recorded in Lync.  If Lync is not available for enterprise roll-out,  this proposed solution is good with any equivalent software which provides Lync like capabilities.   
+
+While many of us know the benefits of recording a team meeting/presentation,   there is equal or even more IMPORTANCE and BENEFITS to Individual (audio+video+screen sharing) capabilities (i.e., a person can record individually with all the collaboration tools of lync without a meeting)
+    
+So let me start with what is that we can do from the individual recordings and how will it benefit using one common scenario.  Later, we can look at how it can be leveraged for other similar situations.
+
+1)	Teams with Onshore-offshore (or) with Remote (or) different time zone resources: In a typical onshore/offshore team,   the onshore resource will meet with offshore through a conference call either during onshore late night (or) offshore late night.   It is understood that because of the time zone differences and they have only a little overlapping time, this is unavoidable.   Very mature teams can work by email exchanges, however not all teams are mature enough and emails exchange will often get lengthy.   
+
+To address this common issue,  the onshore individual will start a recording in Lync session whenever he is available during his work day,  provide his instructions/tasks to offshore with the capability of his audio + video + screen sharing to show/explain an issue or solution.  He also can use the white board capability within Lync to explain his points.   This short video can then be directly uploaded to team’s Share Point site.   
+
+Offshore team can view the recording when they come in during their work day; the video will help them to better visualize the problem or solution explained by onshore.   Offshore then can also provide their end of day update in response to the video in the same manner.   As mentioned earlier, when combined with the Video of the resource + screen sharing + white board tools,   the outcome of the meeting and the understanding is much higher than long emails.  It is also quicker than writing those emails. Since they are recorded sessions, both onshore and offshore don’t have to wait for the late night or overlapping time; those can be viewed anytime in their team’s share point site.
+
+Based on the team's need, the recording can be stored in share point or bigger storage.  The sharepoint site can be structured like a social media connect/collaboration site,  where you can have the opportunity to add comments to the video, ask additional Q&A to the video.  If additional details need to be shared with the video recording, they can be send in an email with Sharepoint link to the video.
+
+2)  The same proposed solution can be used in scenarios Knowledge sharing, training's, transition. Use the past recordings to train a new resource joined the team.
+
+3)  Virtual Collaboration team meetings:  Lync provides lot of tools for the virtual collaboration & team meeting; audio, video, screen sharing, application sharing, whiteboard, Poll, attending meeting from mobile device, call transfer, call forwarding etc.  Since almost all resources has their Laptop with webcam, if the meeting rooms can also be installed with Lync cameras,  participants can have a more real time face-to-face interaction in the meetings using Lync.  The meeting can be recorded on a need basis based on the importance of the meeting. 
+
+4) Encourage Knowledge sharing:  Lync recording feature can be used to encourage knowledge sharing within resources.  There are often quick tips people like to share, but they are hesitant to write long document for it.  Leveraging video tutorial, many will come forward to share their knowledge.  We can even motivate and award a resource based on the views/hits the video had in the portal.
+
+5) Create more collaborative team:  Many offshore resources wouldn't have seen their onshore counter parts and vice versa.  This collaborative tools provide more face-to-face interaction, brings the team closer and maintains more cohesive team.
+ 
+6) Work/life balance:  Promotes work life balance since no one has to stay late to work with resources in different time zones. 
+
+Additional Application Enhancements in Lync that can be created.
+1) Search within the audio transcript.
+2) Automatic captioning (helps to understand when people have different accent and hard to understand their slang)
+3) Action items tracking Integration to the video.  Say, in a video of 20 minutes,  on @5:00 minute there is an action item called out,  that should be created as action item in sharepoint, assigned to a person, email follow-ups and tracked for closure.  I don’t know how this can be implemented technically, but this is a high level thought. 
+
+
+

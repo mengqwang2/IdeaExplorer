@@ -1,0 +1,9 @@
+Develop a website to manage EMC volunteering
+Every year EMC hold many gives back activities. Many BU or employee also hold or participant in the volunteering and charity. However there is no official place to organize the events and record employee’s volunteering hours.
+Our corporate or BU holds many gives back/volunteering/charity, and many EMCers are willing to join, but some of the activities are not well promoted, many EMCer didn’t know. The gives back is a long term topic, if the volunteering efforts are well recorded, it will be good for both employee and management team. 
+1.	The web based system is easy to access.
+2.	The give back/volunteering/charity activities can be promoted here. It is easy for everyone to find the activities, and easy for management team to manage the activities. 
+3.	EMCer can sign up for the activities by the system.
+4.	System can record the volunteer efforts.
+What would it look like? -  It is a website.
+Success and benefit – EMCer can easily find the volunteering in the system. And management team can organized and monitor efforts by this system.

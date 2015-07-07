@@ -1,0 +1,45 @@
+Future of Thirst?
+
+Around the globe, one farmer is commiting suicide every 30 minutes. The main cause of these suicides is non-availability of water at the initial stage of the crops leading to the ruining of crops and the subsequent debt trap. Discussed with colleagues about solving this world wide imminent water scarcity problem using this challenge. Defintely, our young genration can understand and help to solve this problem. 
+
+** Create a Platform for Contest
+   - Build a Hybrid Cloud
+     * Infrastructure details:
+     * vLab kind of setup
+   - Complex data (structured and unstructured)
+     * Geological Data (topology picture, water resource, how much left) –     structured/unstructured (such as remote sensing pictures) data
+     * Number of borewells 
+     * Water level
+     * Water Scarcity around the world
+  - Trust 
+     * component will be included
+
+** Challenge Question
+   - Review the given data
+     * Students have to take a look at the data we provided
+     * We need to help with login, details about how to look at the data, sample SQL commands etc. This will give exposure to database concepts, understand how big data and security stuff works
+   - Analyze 
+     * Think how to analyze the data
+     * What tools and Techniques will be good? (STEM will be tested)
+Show/Demo your STEM data (such as Statistical Modeling)
+   - GOAL 
+     * How world’s Thirst can be quenched?
+     * Show your analysis and outcome
+     * Provide Recommendations
+
+** Contest Structure
+    - Write up about brain teaser with data
+       * Eligibility / How students can participate
+       * Setup register system with two week timeline
+       * Provide access to Lab system
+    - Timeline 
+      * Communication: 1 week   
+      * Registration: 2 week
+      * Competition (Analysis): 4 week
+Results submission: 1 week (in the form of presentation such as PPT)
+    - Logistics 
+      * Work with Community Involvement team to spread the communication about this challenge
+      * Create a mail box to receive e-mails about interested applicants
+      * Provide vLab access to applied candiadates
+
+

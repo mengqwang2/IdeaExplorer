@@ -1,0 +1,37 @@
+HARMONY BETWEEN IOT DEVICES 
+my idea will be relevant to bringing security to IOT the most important thing about the upcoming ERA of IOT is how to secure my devices and my domain against the intruders because if my domain is IOT  enabled then only one vulnerability is needed for the intruder to gain access to all of my devices 
+N/A
+my solution will depend on certain factors 
+number one:
+monitoring 
+1)MONITORING  is very important we can make each device assigned to  two tasks
+
+[FIRST TASK] is to serve the main function of do processing on packets and communicate with the internet with the rest of devices and systems .
+
+ [SECOND TASK] is to monitor the behaviour of the network  between the devices and to monitor the rate of accessing the devices and the rate of the data being uploaded or transferred .
+
+EXAMPLE:
+if i own a certain company which has more than one branch and each branch contains certain devices and all of devices supports IOT so first of all lets zoom in on a single branch ...all devices must participate in monitoring the behaviour and the rates if transferring data its sort of "artificial intellegence or learning " which means that upon the rate of accessing these devices and upon the rate of transferring packets and data the security department will set the maximum limits .and all devices will add to their knowledge the maximim limits so that if the devices sense that there is upnormal behaviour they should report immediately the name and the location of the device that might be facing  any type of attacks . 
+
+however the two branches also must monitor each other so that if certain branch is facing certain types of attack ...the other branch which still and running must pull off the connections between the two branches so that the attack might not affect the two branches ....and after that the up and running branch devices should report that attack of the second branch to the security team immediately to take and action 
+
+
+2) AUTHENTICATION :
+ Authentication is very important so that if any of the IT team or the branch owner want to access any device or data remotely ..we should find a solution to distinguish between them and any body else and i think this could be done not only by username and password but also by somekind of extra security ...for example finger print so that a scan of the finger print to be sent to the main managing server in the branch to make sure that the person trying to access have the authorization ....another method we can use the front camera of the laptop or smartphone to capture an eye scan and send it to the server to authenticate 
+
+3) the third point is very important which is ....if a certain device within the branch is being attacked the other devices should automatic block the connection between them and the affected device 
+
+4)when there is an active session between any member who have the right to access and the device it self a certain header or tag should be attached to the packets so that if any other intruder tried to inject unfamiliar packets the devices should sense that and block these packets ...beside that tagging or adding headers could be used to detect the source of connection,the location 
+
+
+5) we can implement  a certain web client specified to access my devices so that its another layuer of security is to enter my cerdentials to access the web client 
+
+
+at the end we can summarize the layers of security 
+
+A) the web client authentication 
+B) the authentication with the server +extra factor of security as eye scan or finger print which will be sent remotely 
+c) when a session is open a certain tagging or header will be added to the packets to distinguish the packets 
+d) all devices will monitor each others behaviour to make sure that the system is stable 
+e)each site or branch will be acting as a cluster partner to other branches to make sure that there is a high availability regarding requesting data or access and to act faster if there is an affected site 
+it will look like a system supported by certain softwares responsible for the security issuses, the devices will hold an extra unit related to exchanging metadata with other devices and a certain unit specified for monitoring only and save logs related to the performance of other devices  this will satisfy customer's satisfaction because he will feel very secured 

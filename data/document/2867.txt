@@ -1,0 +1,8 @@
+Improve security of gate lock via RSA soft token
+It handle the security concerns while using intelligent gate lock
+The comes to me when I use the app to open the gate and consider possible security flaws.
+1. Users register their phones via RSA app to server using IMEI code. Then users could use the RSA app to get the access code and open the gate using the access code.
+2. The access code would change every one minute. Besides, the token would expire after 3 months. Users need to re-register their phones when token expires.
+3. To register the phone, user could easily scan the generated QR-code.
+
+Improve the security of intelligent gate lock

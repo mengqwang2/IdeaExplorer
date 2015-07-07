@@ -1,0 +1,6 @@
+Intelligent conveyance Routing
+
+Right now almost all CS employee who are working in shift are facing this problem. They are staying is same location, but still getting different cabs. Which increase travelling time of employees and cost of EMC in terms of extra cabs/ extra Escort and extra travelling distance (also saves environment- Go Green :) )
+There should be UI linked with PRO TMS which shows google Map. Employee should be able to mark the sortest route to their house and tranport team would club the employees whose route overlap. This ensures employess staying at same location/near by location will get same cabs. 
+
+

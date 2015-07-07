@@ -1,0 +1,5 @@
+Runtime error to source code mapper tool
+
+none
+A generic solution which scans the product binaries, creates relationships among multiple functions, logs etc. When an issue is encountered, it would show the entire code path executed along with source code. This is different from debuggers and crash-dump analysis tools. it would have all graphics, classes etc.
+

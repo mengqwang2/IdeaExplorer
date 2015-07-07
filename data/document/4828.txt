@@ -1,0 +1,17 @@
+Cloud may breathe
+
+We create the idea in brainstorming (Hang Deng and Bob Yan) 
+The most essential scenario of this idea is that setup a recycle system to make the cloud breath. 
+It needs following modules:
+A monitor module which check the system status (which part is hungry and which part is fat)
+A breathing pipe which may take the new resources and excrete the unused or bad resources from cloud system
+A breathing module which control the breath rhythm and decide which should be replaced or expanded
+A report system which could show relative diagram or reports that reflects the quantities of resources consumed.
+
+According to the system, the cloud could become a healthy ecosystem. It may:
+1.  exchange the old resources with the fresh ones 
+2.  maintain the system automatically  and make sure the cloud running well.
+3.  give the suggestions to the customer which part is insufficient and which part is too much.
+4.  Forecast long-term hardware/software demands of the cloud system.
+
+

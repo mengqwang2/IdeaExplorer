@@ -1,0 +1,18 @@
+Virtual classroom and Virtual Lab for Education services
+
+I came up with the idea after seeing the initiative to provide virtual bio chemistry labs, neurological labs by Amrita university India. When we can do a complex biological experiments virtually we still have space to create virtual labs for all in IT industry.
+
+http://amrita.vlab.co.in/?sub=3&brch=43
+Virtual Worlds applications in education stems from the capabilities they offer to create a cyberspace where users can interact with other participants (through their avatars) or objects, creating new experiences that are not often feasible in the real world.
+
+Create Virtual world to offer real-time communication tools, interaction capabilities and collaboration empowerment tools to the users for group-work and team building, share events and presentations and constructive activities.
+
+Using emerging new and user-friendly software, teachers and trainers could design and develop interactive e-Learning resources by themselves.
+
+System that can pass data (grade, content) Synchronous/Asynchronous and should support multiple media types.
+
+Integrate the existing LMS product (Saba) with simulators to create Virtual worlds. 
+
+Soodle and OpenSim are few tools that can be referred. 
+
+

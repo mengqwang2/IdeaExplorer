@@ -1,0 +1,15 @@
+Risk of Virtualization - Manage VM sprawling
+For growing virtualization of compute environment, it is important to efficiently control, manage the  virtual Machine environment whether VMware, IBM Power, Oracle VM or HP etc.A sprawling compute infrastructure that is costly to manage and leaves systems largely underused will have a devastating effect on any company’s bottom line.
+
+
+Even if virtualization expert able to identify to some extend VM sprawling in virtualized or cloud environment from utilization/ideal time details, it is very difficult to manage unwanted VM deployment/management with proper security for longer run of using virtual/physical infrastructure to justify TCO & ROI to business owners. 
+1.Integrate our virtual environment(any technology) with existing CMDB of virtual asset and get,update,re-sync all component of CMDB 
+2. Automated alerting/reporting email to management leader for existing virtual machine config,their utilization/ideal time/related cost without any manual intervention
+3. Stringent approval process/hardening rules for deploying V resource
+4. Automated & mandatory details for time period of VM life cycle which is modifiable with restricted authority
+This overview of approach will resolve this issue & benefit business with below goals
+
+1. Justify & improve TCO & ROI of physical infrastructure on virtual infra
+2. Customer capacity planning/resource utilization will improve with minimal gaps
+3. IT process automation with integration of CMDB will give clear visibility of virtual env
+4. Charge back bussiness will not miss revenue for VM spraling issue

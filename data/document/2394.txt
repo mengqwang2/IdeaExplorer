@@ -1,0 +1,7 @@
+Automated WW Backlog report
+In the As-is process it required many manhours across facilities in Cork, Franklin and Santa Clara to produce a weekly backlog status report for the Global External Manufacturing Group (GEM). Additionally a high rate of manhours were required to produce a
+Reconciling data collected from each site was cumbersome and vulnerable to human error. An analysis of the end to end process revealed an opportunity to identify best practices and leverage data collection expertise. 
+Leverage data universe and report writing tools to automate the data collection and reporting generation process. Eliminate variation in the process by applying a uniform methodology wherein all data is accessed via the same sources from site to site.
+Weekly Backlog Reporting - reduced by 18.6 manhours
+Daily Backlog Reporting - reduced by 20 manhours
+Last day of quarter Reporting - reduced by 5.32 hours

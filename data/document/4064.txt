@@ -1,0 +1,11 @@
+Better Way to Avoid the Security Violation within EMC PCs
+
+China COE has taken serious actions to handle with security violation. So I does not want to be recorded with any security violation events. But unfortunately there is no easy tool/service to help on this. As a result, this paint-point gives a chance for this idea.
+This kind of tool should
+1. be running on PCs as daemon.
+2. only monitor any installation activities (invoked by user or virus?.
+3. prompt warning messages when detect bad smell.
+4. update the un-authorized & illegal software list automatically.
+
+Does it look like “360 ????”? :)
+

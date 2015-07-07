@@ -1,0 +1,15 @@
+Suggested platform for Crowd Sourcing Cultural Digitization Project Ideas
+Suggested platform supported on mobile device, it has a supports for various languages, easy to upload photo using web, email or phone. We are already using this platform as community event placeholder for our group within CTD IT. This SaaS Offering so doesn’t require development.
+We are using this platform to manage community events for our groups within CTD IT. We came up for this idea few years back based on similar needs from COE team. They are too using this platform for some time already. Jessica Rosado in our team is helping us managing this platform.
+We are suggesting a Web Platform called “Socialcast” which VMWare product and EMC already have Enterprise Licensing for this.  This is a SaaS offering, already deployed in production site. Our idea solves the problem by bringing teams and departments together through an online social networking site. It is a dashboard everyone can access, post to, upload pictures and share ideas with their team. It is very easy to use, as the interface is simple and laid out in a way that makes it intuitive. Socialcast is unique because it gives EMC employees a place to organize projects, track progress, hold Town Hall’s and collaborate with other team members. The platform also has the ability to create groups and upload team pictures and files. The mobile app and Single Sign On are also enabled to make the site easy to use and readily available. 
+
+Please have a look to presentation we have built for this tool to match with this challenge needs. Presentation has been uploaded on Inside EMC in pdf as well as Power Point format as below:
+PDF: https://inside.emc.com/docs/DOC-155341
+Power Point: https://inside.emc.com/docs/DOC-155369
+
+
+Socialcast has already been developed into a functioning production site. Our presentation will highlight functions, spaces, and administrative tools used to make Socialcast the ideal solution to the challenge. Success for us means that all of EMC is using Socialcast as their social networking platform. We have also organized many of our GPTW (Great Place To Work) events by collaborating on the site which gives everyone on your team the ability to post pictures, send messages and coordinate events, all without having to send out a lot of emails. We are confident that Socialcast will meet all the requirements for the challenge and greatly improve team collaboration and crowd sourcing project ideas. 
+
+Please have a look to presentation we have built for this tool to match with this challenge needs. Presentation has been uploaded on Inside EMC in pdf as well as Power Point format as below:
+PDF: https://inside.emc.com/docs/DOC-155341
+Power Point: https://inside.emc.com/docs/DOC-155369

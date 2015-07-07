@@ -1,0 +1,7 @@
+EMC Most purchased products analytic tool 
+This idea will increase the revenue for EMC and enhance the customer expectations for the level of service from EMC.
+As a VPLEX RCM Upgrade engineer and as its a quit new product in the market and it starts in growing , it became very challenging to find support coverage if i got in trouble in the middle of an upgrade especially in weekends. 
+My solution is using Big data analytic , we can create a tool to analyse the data of the frequent purchased products from EMC and we can expect the number of growing sales for a certain product and based on it hire new employees and train them to support these customers.
+1-Provide More support coverage for the customers.
+2-Better Customer experience.
+3-Meeting customer's expectations to serve them

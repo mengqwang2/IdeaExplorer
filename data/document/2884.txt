@@ -1,0 +1,15 @@
+Labsmith as small group machine Steward
+- Hardware resource sharing is one hot topic for Lab operations
+- This idea presents feasible solution to meet one specific needs: machine sharing in small group (<50 persons)
+
+Many times I found myself and people around could not get hardware resource when they want to verify code changes, however at same time there are hardware resources sit idle. Sometimes, when I finally managed to get one it is broken! How frustrated?!
+- Leverage Django web framework to build Web Pages to manage a small pool of machines
+- Use Bootstrap by Twitter for web page rendering and use sqlite to manage data
+- Tabbed views, each tab contains one category of machine or hardware resource
+- One intelligent action button that shows login user only one possible action that could be taken at a moment to one machine: reserve, release, want
+- Integrate PXE so whenever machine crashed you could bring it back with no hassle
+- Poll and display machine status on the page in real
+
+- make full use of scarce hardware resources, reduce hardware inventory
+- make sure there are always people accountable for the status of hardware resources
+

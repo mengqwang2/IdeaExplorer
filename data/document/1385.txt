@@ -1,0 +1,7 @@
+FAST (VP,Cache) on-array and off-array sizer
+My idea is aimed to improve the customers’ support experience within the next calendar year.
+I suggested this idea for CTD VNX FASTVP backlog.
+In addition to whitepaper(s) and marketing materials on FAST (VP/Cache) operation have simple off-array FAST sizer modelling essential FAST algorithms for service personnel and customers to understand better how FAST is functioning.
+Also, have on-array FAST sizer that could suggest optimistic and pessimistic FAST behavior for certain workloads, e.g. for DB, Collaboration(MS Office), VMs.
+Either on-array or off-array sizers may have additional functionality to send emails to EMC  with typical customer's requests or scenarios.  Then EMC can use this feedback to improve the FAST sizer functionality, as well as functionality of respective EMC product. 
+Customers become more informed about EMC products, EMC service engineers would answer customer's questions easier using FAST sizer, EMC would get more automatic feedback from customers on EMC product usage scenarios.

@@ -1,0 +1,6 @@
+Scheduling the LUN to auto delete after removed from the storage group from VNX
+
+Working on multiple decommission requests.
+When the LUNs are removed from the storage group and while destroying the LUNs it should ask date and time to the user that when the LUN should be destroyed automatically. Once it reaches the specified schedule time, then it should destroy the LUN automatically. It will save the user time to destroy the LUN.
+If customer request the same LUN and if it is before the time limit, then it can be disabled form the auto destroy option and can be re-presented to the storage group.
+

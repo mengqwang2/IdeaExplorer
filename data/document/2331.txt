@@ -1,0 +1,5 @@
+EMC in Make In India Initiatives
+There are huge efforts from Govt of India for Make in India initiative. EMC can play a bigger role in making it successful by providing a platform for the people of India from a social perspective. 
+This idea came in my mind looking at the efforts put in by the govt and thought EMC can play a major role. 
+There is a single portal with a backend of EMC storage or cloud platform wherein it gives every citizen of India to post an idea and using the big data analytics sort these ideas and present it to the govt panel.  
+Citizens of India know whats happens in the make in India theme. Gets to know update and progress. Interactive portal to talk to the govt etc. 

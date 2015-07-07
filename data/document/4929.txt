@@ -1,0 +1,14 @@
+Win Amazon with the cloud service with ViPR/ECS by partners
+
+Amazon is our #1 competitor. Amazon runs the cloud service. 
+EMC announced in EMC world that we have the product to be cheaper than AWS. But we need someone to run the service with our product to beat AWS. If EMC doesn't want to be service providers, we can have the service providers to be our partner, i.e. strongly supported by EMC. 
+EMC can share the profit from the partners, and from the service, which is the real transition from 2nd platform to 3rd platform. 
+1) EMC select some partners to provide cloud service with EMC ViPR/ECS product. 
+   The partners could be some start-ups, or some #3, #4 players in the cloud market. 
+   The service by the partners could public cloud, and help the enterprise to create and migrate to hybrid cloud. 
+2) EMC provide the products/technology, and the partners run the operations. 
+   EMC should strongly supports the partner. 
+3) EMC provides some unique tools to help the migrate data from the customer's traditional storage to public cloud or hybrid cloud.  This is our strength. 
+   EMC can help partner to strength their cloud's safety, stability, etc. EMC can help to move some traditional customer to the service providers. 
+4) The revenue may from selling products to partner, or the profit sharing from partners. The later is better, and then EMC is transited to the true 3rd platform company, i.e. not only sell the product. 
+

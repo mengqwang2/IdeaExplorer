@@ -1,0 +1,10 @@
+Videotaping Customer issues
+Enhancing customer's experience and making it easy to solve issues.
+n/a
+-Encourage and provide customers with tools that they can use to record their issues once they happen and then provide the video to EMC Support.
+
+-This will make it easy for EMC support to review the video along with log files.
+
+-It will be also easy to forward the video between employees in case of technical escalation.
+-Making it easy to resolve issues.
+-Enhancing customer's experience

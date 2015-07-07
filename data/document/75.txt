@@ -1,0 +1,44 @@
+Backup Consistency Dashboard- Vipr plugin
+Oh Lord Forgive me, for I have sinned.
+I have sacrificed consistency to get better benchmark numbers.
+I have written distributed systems in languages prone to race conditions and memory leaks.
+I have failed to use model checking when I should have.
+I have failed to use static analysis when I should have.
+I have failed to write tests that simulate failures properly.
+I have tested on too few nodes or threads to get meaningful results.
+I have tweaked timeout values to make the tests pass.
+I have implemented a thread-per-connection model.
+I have failed to monitor or profile my code to find out where the real bottlenecks are.
+I know I am not alone in doing these things, but I alone can repent and I alone can try to do better. I pray for the guidance please give me the strength to sin…….. No more.
+This idea is based on the winning paper of EMC knowledge sharing for 2015.
+
+Some Customers not confident about the backup process and need to validate it manually and periodically 
+Due to mistakes or unexpected problem once the customer decided to restore the backup for any selected systems in most cases they face difficulties like below:
+- The restoration speed/process take very long time
+- The restoration applicable but not including last transactions/data 
+- The Systems can’t be restored because media overwritten or recycled    
+The traditional techniques to verify the backup’s success ratio will be replaced and automated through dashboard on the backup systems UI showing the backup consistency status including full information about each systems and the data protection level:
+- The backup time
+- The restoration time / options
+- Recommendation & Tuning Options
+- Backup Age
+- Changes the backup frequency based on the data modifications
+
+Vipr can be the best candidate to host this innovative plugin.
+
+The backup tool can include predefined criteria’s like if we are taking a full backup for systems didn’t impacted with large number of changes and in certain level ZERO change we can apply auto-tiring for the backup by offload the monthly backup for such systems and separated to different media pool and avoid the traffic of these large systems plus prevent any backup job that can impact the DD specially for the data not fully controlled by the DD function.
+
+Also build a backup emulation system to verify the backup consistency and there are some software’s having feature to verify the backup consistency,
+
+The benefits:
+- Minimize the data loss risks 
+- One of the customers first priority the reporting tools, so the dashboard will provide instantly the backup (consistency/integrity) health status per each system   
+- Offload the pressure on the VTL System (Datadomain) and boost the DD performance
+- Minimize the used spaces and Maximize the backup performance
+- Capex/Opex  will be reduced due to the full backup process optimization     
+
+
+Backup automation validation easier than before.
+Automation of long process 
+customer satisfaction
+increased TCE

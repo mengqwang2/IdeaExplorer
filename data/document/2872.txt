@@ -1,0 +1,16 @@
+SSD Health Measurement and Failure Predictability  tool
+N/A
+Came up with the idea when doing Firmware qualification and upgrade test for mSATA and M.2 on Beachcomber/Oberon.
+We could use the S.M.A.R.T attributes to analyzes how actively system use the solid-state drive and uses a special algorithm to calculate its estimated lifetime and health state. This tool could be called by Unisphere GUI or other services, and be able to show at least below information cared by customers: 
+ - Model Family
+ - Firmware Version
+ - User Capacity
+ - Temperature
+ - SSD Life Remaining
+ - Read/Write frequency statistics
+ - Write Amplification Factor (WAF)
+ - WARNING/ERROR state notification
+ - Predicted end-of-life date
+It will improve customer satisfaction about our product.
+
+GAME/GHE will be able to use this tool to determine whether a SSD is shippable from factory to market. 

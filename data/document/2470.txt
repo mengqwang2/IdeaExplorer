@@ -1,0 +1,6 @@
+Managing Reconciliation of complex infrastructure components-Efficient CMDB
+It is becoming increasingly difficult for organizations to manage the ever evolving Infrastructure and Business data Model.
+
+The idea came last year when we are facing challenges for an effective reconciliation mechanism for updated CMDB.
+Creating a scalable data model with a strong reconciliation mechanism using industry best practice ITIL standards. Developing a checkpoint for onboarding all Configuration Items which have a Business relevance. Creating automated Audit Point for Inventory.
+Keeping a high level of standardization within the IT infrastructure reduces costs and risks. Costs are reduced, since fewer configurations must be identified and managed. Maintaining an accurate model of the IT infrastructure within the CMS improves the 

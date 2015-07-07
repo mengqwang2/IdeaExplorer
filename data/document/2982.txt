@@ -1,0 +1,12 @@
+Port OpenStack Cinder to VMAX Hypermax OS
+1. Adding to the EMC open source presence, making a name as open-minded corporation.
+2. Improve VMAX visibility in new cloud-oriented IT industry (as OpenStack is a platform for cloud building).
+3. Increasing customer confidence in EMC solutions.
+I've had this idea from the autumn when I was deciding upon my diploma paper subject.
+However, at that time Hypermax OS was far from GA so I forgot this idea till better times.
+I discussed this idea with Mikhail Salamatov and we agreed that this idea would be suitable now.
+1. OpenStack is open source platform that is developed by more than 200 companies, including AT&T, Cisco, Dell, EMC, HP, IBM, NetApp, Oracle, Pure Storage, VMware.
+Continued EMC presence in this product family will further increase customer confidence in EMC quality and readiness to adjust for customer needs.
+2. Making OpenStack Cinder run on VMAX Hypermax OS will enable customers to ease the site configuration by elimination one of intermediate levels (server with Cinder) between storage system and business applications. They will be able to utilize the resources currently used by Cinder servers by their business applications and will have better response time between Cinder and VMAX.
+This will be a free VMAX add-on with easy configuration performed by customer engineers.
+VMAX will provide Cinder interface in addition to block-level one and by this making it easier to configure and integrate VMAX into OpenStack-based clouds.

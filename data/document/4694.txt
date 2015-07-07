@@ -1,0 +1,18 @@
+AWS-like lab resources renting service
+
+This idea of thought was evolved during a brainstorm with Guo, Xiaoyan and Cao, Yu of CTO team as their team encounters some resource problem sometimes when a new project begins. 
+
+If team build themselves infrastructure, it make lab environment complex and take huge cost for hardware purchase. So we have this idea to use cloud service centralized lab service to satisfy employee’s ad-hoc resource requirement. 
+
+The idea is to build a cloud platform using OpenStack or vCD on all the lab resources that belongs to lab team or the spare resources of BU. 
+
+Then we can provide the following series of renting services so that BU can apply as pay-as-you-go model: 
+
+•	VM: make different level of VM configurations and templates. When user apply a VM, just clone from a template. 
+•	Storage: centralize all the storage arrays, using openstack cinder to schedule and virtual them, or use ViPR to manage them. 
+•	Database: fork MySQL/MongoDB or other DB services for user to employ. 
+•	Backup service: lab provides a central backup service, that each user can backup their important files or data on it. 
+
+In this renting service, a simple/fine-grained charge-back model should be provided. The following two charge model can be utilized: charging fixed fee for the resources they rent according to the time they occupied; flexible charging based on the utilization of resources, such as CPU/Mem/Disk. 
+
+

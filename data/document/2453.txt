@@ -1,0 +1,11 @@
+Global Solutions Challenge
+Hope it can help out with the mentioned challange
+N/A
+Big data is booming right now, every single company -which has future vision- needs the big data science with all its processes and complexity. It's not a piece of cake, there are lots of challenges such as its complexity, its Scalability, High Availability, Cost, Management, Security and of course no replication can be used. Also, There is a lack in data analysis scientists all over the world because it's still considered as a new science.
+
+First we should have the perfect team that deals with Big data science as a whole should have some basics roles such as:
+"Data Scientist, Project manager, Data Engineer, Data base Administrators, Business user, Project sponsor and Bi-analyst"
+
+Second, we can merge one of EMC products that can work with big data analysiss databases like Isilion or XtreamIO and with Hadoop opensource which is a fundamentally new way of storing and processing data, Hadoop enables distributed parallel processing of huge amounts of data across inexpensive, industry-standard servers that both store and process the data, and can scale without limits. And aslo hadoop can be used as an opensource which can work as a VM in HypermaxOS for example or any product can apply this 
+
+N/A

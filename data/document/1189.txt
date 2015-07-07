@@ -1,0 +1,28 @@
+Streamline the O2C process for Inventory orders
+End to End Business Process Challenge: 
+
+This is particularly in the field of Inventory orders where, we have loopholes in the order booking process due to which, the entire chain of O2C is highly affected and has made it lot more difficult to collect on time compared to regular orders.
+I thought of this improvement since I started handling disputes of Inventory portfolio from couple of QTRs.
+Started to correct each and every dispute logged in on an individual basis. Tried to make the procurement team understand our challenges through emails, phone calls on individual basis. When it did not help in the future orders and the errors are common across procurement team, realized a larger and a common training is necessary for overall improvement of this process.
+Put this plan in place and discussed with my manager for further calls/action.
+
+1.Below are the steps which will help eliminate the above loopholes:
+2.Understand the challenges faced by procurement team that is causing in creating incorrect orders. (Setup calls/Telepresence) involve collection managers.
+3.Educate procurement team about incorrect orders; its affects/causes.
+4.Involve GRO to get help to stream line the order booking and de-bill, re-bill process. 
+5.Make sure back up documents are uploaded in system or saved in a drive. (This is not the case right now). This is easier for the next chain of processes to refer and follow.
+6.Get help from invoicing team to monitor every order and re send any rejected invoices back to procurement team for correction rather than following a manual process to correct.
+7.Make sure customer contact is recorded and PO is cut for every order. This will ease the collections process.
+8.Get help from CDM team for any permanent changes to be made to the orders or customer accounts. Educate procurement team about this process.
+9.Create a process flow, so the entire order booking team is on the same page.
+
+By improvising these sub-processes, we will be able to eliminate the current errors and see a better result in order booking process, which is result in accurate invoices and at last will lead to faster collections with less disputes.
+
+1.Improving this process will result in accuracy in order booking of inventory orders.
+2.Back up documents available for all the orders will reduce the number of emails sent to procurement asking for the docs.
+3.Smooth flow of invoicing process since documents are available handy.
+4.Customer will get accurate invoices, which will result in less number of disputes.
+5.Customer contact details recorded will help collector follow up for payments.
+6.It will result in easier and faster collections which will contribute in reduction of DSO.
+7.Customer is happy with less invoicing issues from EMC.
+

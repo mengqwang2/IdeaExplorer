@@ -1,0 +1,40 @@
+“Manage All” – A facilitative user friendly tool for EMC stakeholders to improve Datacenters management and reduce TTR
+This is an automation of an existing manual process that has a lot of benefits for all EMC stakeholders
+These are combined thoughts aiming a higher customer satisfactions, for a more convenient total customer experience.
+The idea is to have a tool (available on mobile phones as well) that offers EMC customers a convenient tool where they can view and manage their data centers, allows Field Engineers (CEs) to be updated with their assigned sites data centers status and provides TSEs (Remote Reactive and Proactive) data centers history and ongoing activities that will improve their case analysis as well as reduce time spent in retrieving the solution.
+Through data analytics, all EMC stakeholders will be able to get the required prediction and suggestions. 
+
+The tool consists of different views depending on the user.
+1-	Customer View:
+-	User will be able to view and manage:
+•	All DCs that belong to their company.
+•	Each DC independently.
+•	EMC products inside the DC.
+•	CE availability and status (view only).
+-	Features, links and buttons:
+•	Create SR for –but not limited to–: Hardware replacements, software issues, performance issues,…etc  in addition to indicating their preferred delivery date/time. (Applied to the next point as well).
+•	Notification + Follow up on DH SRs.
+•	Summary for array status.
+•	Upgrade demo for each product that reflects software compatibility, functionality and shows recommended changes applicable to the environment.
+•	Analysis tool: a periodic report recommending DC hardware upgrades, solutions and latest EMC product updates. In addition to a link connecting customer with EMC sales team for inquiries. 
+•	Feedback popup integrated with twitter. Message to be tweeted using the default hashtag (#EMC_Customer_Services).
+2-	Field Engineer (CE) View:
+-	CE will be able to view and manage:
+•	A list of their assigned sites.
+•	Opened SRs.
+•	Detailed site view.
+•	Detailed product information and status.
+-	Features, links and buttons:
+•	New SR alert (Mobile).
+•	GPS button to navigate to the customer site.
+•	Customer preferred delivery time.
+3-	Technical Support Engineer (TSE) View:
+-	Search by Site ID.
+-	View SRs (previous and current).
+-	View applicable KB articles.
+-	Search for KB articles and link applicable ones.
+
+1-	Offers EMC customers a convenient tool where they can view and manage their data centers.
+2-	Allows Field Engineers (CEs) to be updated with their assigned sites data centers status.
+3-	Provides TSEs (Remote Reactive and Proactive) data centers history and ongoing activities that will improve their case analysis as well as reduce time spent in retrieving the solution.
+

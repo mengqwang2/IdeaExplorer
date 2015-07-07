@@ -1,0 +1,9 @@
+Universal model for data analytics
+
+Got this idea while reading about the relationship between data volumes and prediction accuracy.
+Take an example of predicting hospitalization. By predicting and preventing hospitalization health insurance companies can save a lot of money. Building a predictive model using a single health care provider data will result in a highly biased model which will predict well only if specific characteristics are present in the data. By combining data from different health provide using a agreed upon data model, a model which addresses the variability can be built and its prediction accuracy will be high across the board.
+
+A cloud based application will be built and each organization that subscribes to this service will have a provision to upload the data in a agreed upon format. The data from the organizations will be consolidated and a predictive model will be built, validated and deployed as a web service. For any new patient the organization can call the web service with the patient's information and get his hospitalization risk. The model will be continuously improved with the historical data from the different organizations. With this solution the organization themselves have no means of garnering enough data to build a robust model. This solution can be applied to any predictive analytics problem where organizations can reduce cost by collaborating with each other.
+
+
+

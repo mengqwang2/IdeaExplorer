@@ -1,0 +1,26 @@
+IOT Sensor Analytics using  EMC Pivotal Data Computing Appliance (DCA) 
+This idea addresses new product category challenge by leveraging EMC
+flagship EMC Pivotal Data Computing Appliance (DCA) to build
+a private cloud service that enables monitoring, storing, and analyzing sensor data within customer data center.
+Idea history and feasibility: 
+------------------------------------
+My team has recently built a similar system using Pivotal stack for capturing Licensing usage intelligence for all EMC customer devices installed in customer data centers, we use EMC patented technology for streaming the product usage XML data in a secured fashion and use Rabbit MQ and Microservice architecture to process and report this information.  This massive data is also injected into EMC Data lake for analytic processing.
+1> At the heart of this solution lies the process of organizing raw data by tagging devices and sensors using key value pairs for optimal future find-ability.
+
+Eg: Simple object oriented SDK layer with  Device and Sensor objects with attributes (key/value pairs) is built. You could add a tag to a device like, “location=home”, or you could add a tag to a sensor like “unit=celsius”.
+
+Attributes are very flexible, and we can create hierarchies between devices or arbitrary grouping. This becomes very powerful when running queries later. we could ask a question like, “give me the max temperature in location=home on an hourly basis for the last week”
+
+2>Build Data collection APIs to enable to stream or batch write this sensor data. This is extremely easy to build with a REST server API writing to a Rabbit MQ that can process up to 1 MILLION MESSAGES PER SEC ( PRODUCTION CODE EXISTS IN TES USAGE INTELLIGENCE PROJECT today).
+
+3>TIME SERIES based sensor DATA IN Rabbit MQ   is persisted in  GREEN PLUM DATABASE.
+Data sharding is used to shard data into chunks based on time and device type. This enables massive parallel (share nothing) schema.
+
+4> With the data stored optimally in Green plum, endless possibilities exist in querying and processing the massive data using user friendly API internally invoking familiar SQL syntax or a simple rules engine.
+
+5>Built in Pivotal Event processing and push notification server can be used for real time customer notifications.
+
+New revenue generating opportunities across above industry sectors.
+EMC can venture into IOT space AKA 4th platform.
+EHC, massive storage, backup and other cross selling and up selling opportunities.
+Ease of implementation using existing known and proven 

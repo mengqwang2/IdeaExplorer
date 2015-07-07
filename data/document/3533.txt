@@ -1,0 +1,23 @@
+Healthcare meets big data in the blood circulation cycle.
+
+I thought about the issue when I though about the shortage in the blood donors and the patients and how can we leverage the technology and big data to make the difference.
+My idea simply is to build a solution based on our powerful analytic products to make the following.
+
+1- A robust data base to host all the information about the different towns with its "population, classification of the blood type in this area - based on the blood type test for every new born baby-, regular donors in this area, and number of patients who need blood transfer"
+2- The system will analyze the data above and will relate it and will produce main 3 indicators 
+A- "Green" safe levels of blood availability types with quantities vs. types vs. # of patients.
+B- "Yellow" warning level of blood availability types with quantities vs. types vs. # of patients.
+C- Red" critical level of blood availability types with quantities vs. types vs. # of patients.
+
+
+3- System will sms blood donors in case of criticality or warning in the levels of blood quantity or types available.
+
+4- System can be used all over the countries in case of a disaster in Tsunami and we can provide fast service and save many life's.
+
+5- System will inform the national blood banks automatically and will warn them to feed the needy branches.
+
+6- System can increase the collaboration between cities, and even countries in case of civil unrest or wars.
+
+7- System will leverage the use of big data to send warning messages by the rare blood types or the risk of getting shortage in some areas or types, based on the total number of donors and patients.
+8- System can be implemented to organizations like UNICEF, ministries of health, and national blood banks.
+

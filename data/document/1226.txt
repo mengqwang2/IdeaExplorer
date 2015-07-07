@@ -1,0 +1,5 @@
+Regional Healthcare-plus-Retail Linked Data Lake
+R&D Center is looking for ideas in healthcare and finance 'verticals'
+Russia COE innovation workshop (Skolkovo challenge)
+Provide a store where regional healthcare monitoring data can be combined with food and medicine reports from retailers. 
+Availability of linked data and analytics from both healthcare and retailers should allow region government to better predict and prevent public health problems, and for local businesses it could give valuable hints on near future customer demands for medicine and food supplies.

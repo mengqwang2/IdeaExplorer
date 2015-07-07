@@ -1,0 +1,9 @@
+Smart Parking 
+The idea will help to enhance the parking problem and allocate new parking spaces.
+The idea came up from the daily waste of time to find a suitable parking space.
+My idea is to introduce the elevated parking structure to the COE ,Using the elevated parking structure we can support up to 16 parking spaces in a space that only supports 2 parking spaces.
+
+This solution will reduce the cost per space and will enable a better utilization for the available spaces and eliminates the congestion during peak hours.
+1-Parking problem is solved.
+2-Optimize parking space usage.
+3-cost saving.

@@ -1,0 +1,6 @@
+Data Domain Pool Rotation
+
+I believe this is a very good technique to deal with resource crunch and attrition situation keeping the engineers involved, engaged and motivated.
+Movement of engineers from One pool to another after every year or 2.
+This will keep them motivated and will develop skills to understand the product over all. Keep it as a program where engineers could enroll.
+

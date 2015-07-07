@@ -1,0 +1,16 @@
+Data Mobility Solution for a heterogeneous array environment to optimize storage utilization
+The solution optimizes the use of EMC Federation storage arrays in a efficient manner for a hybrid cloud environment. And provides a roadmap for leveraging all EMC arrays for a complete dynamic infrastructure solution. 
+The idea originated from the need to leverage all the arrays of EMC Federation in a single infrastructure in a efficient and seamless manner. We initially looked at something like an external FAST appliance that can handle mutliple arrays in the backend and finally arrived at the proposed design. The final solution was arrived in brain storm session involving the contributors. 
+The solution can also be an enhancement to the ViPr since the control path is already handled by ViPr. The proposed solution will consist of an appliance(s) that handles and connects to multiple arrays (XTREME IO + VMAX + VNX + SCALEIO). Each of these arrays are capable of providing a unique IOPS, capacity and cost/GB values to the customer workload/data criticality requirements. While all these arrays satisfy the requirements in an isolated way, they are incapable of moving data(as it becomes less important) to another array seamlessly. This solution consists of three components which can be 
+placed in a single appliance or can be separate appliances as well:
+
+1. Policy manager and Metadata book - Data Mobility decision maker and maintains the high level metadata on data locations
+2. Data Mobiliser - Moves data between the arrays using front end FC connections to all the arrays involved
+3. Virtual switching manager - Dynamically modified the zoning configuration between hosts and arrays by talking to the FC switches using standard methods(SMI)
+
+Data Mover appliance will see same set of devices from from all the arrays chosen for data mobility. For instance (Storage Pool(XtremeIo), Storage Group(VMAX), Storage Pool(VNX), (ScaleIO)) will show a set of same size/same number devices to the Data Mobiliser app. These devices can be exposed to the host and operations can continue as it is. 
+
+Policies can be defined in the policy manager as to what basis data is to be migrated, this more like fast hinting, which will take cues from data hit rates/data age and trigger a move from one array to another. Additionally when the movement is done, the virtual switching manager can dynamically modify the switch configuration so host connections go to the array where data is currently located. 
+
+The concept can be extrapolated to make it more dynamic, as and when host requests come in to the appliance they can routed to appropriate array where data is present. Metadata management for this had to be worked out.
+The proposed solution will benefit EMC in selling different EMC arrays in an integrated solution that will optimize storage usage with multiple types of involved.

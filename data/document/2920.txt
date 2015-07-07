@@ -1,0 +1,13 @@
+A recommendation system for data assets in the FBDL
+The idea improves on the FBDL’s customer (user) experience and productivity, and allows one to better leverage existing data from across the entire enterprise. 
+As data scientists, we often seek to leverage the knowledge gained by others while leveraging the entire enterprise data. This is a time consuming and complex task. Seeing the Data Lake as a huge retailer for data products helped us come up with the idea of an automatic recommendation system. 
+A recommendation engine provides each of its users a personalized suggestion based on their past behavior and the knowledge gained by others. It is a form of a collaboration tool, which has had an important role in revolutionizing entire industries (e.g. Amazon, Netflix). 
+A recommendation engine relies on past data retrieval behavior of different users, as well as the current user behavior. The basic assumption is that if user A and user B have similar behavior, then A’s knowledge can help guide B.
+In the FBDL scenario, users interactions will be fed into the recommendation engine. The engine will create and maintain a profile of each user and generate a relevance score to past interactions carried out by other users. The highest rating records of interaction will be provided as a possible data asset of interest and be presented as a recommendation to the user. 
+For example, a user from GS querying the data lake for drive quality will receive a recommendation on a TCE dashboard, an EOS2 parser or just a name of a related view in use by GPO. This data will also be combined with other metadata associated with the asset (owner, data steward, lineage, etc).
+
+How is it better than other approaches you are aware of?
+Some existing solutions enable interactive reporting of other users’ interactions with different datasets. However, none of them automatically guide the user for the relevant “next step” based on proved machine learning algorithms (or provide any guidance at all).    
+
+For more info, see: https://inside.emc.com/docs/DOC-148263
+Users would view a UI providing recommendations on data assets (e.g., Youtube, Amazon, Netflix, etc.), based on interactions and combined with additional metadata. Will drive innovation and collaboration within EMC as well as FBDL customers.

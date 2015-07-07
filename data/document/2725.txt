@@ -1,0 +1,5 @@
+SFP Replacement Policy
+The improvement to the SFP replacement policy addresses both the TCE and GPE challenges by creating consistency for field replacements on SFPs.
+TCE had identified a high pull rate of SFPs from the field.  Through detailed analysis of the returned units, the data indicated that VNX was pulling SFPs at a higher rate than VMAX.  Analysis of the SFP returns also identified that many of the returned units were NFF.  Comparison of the replacement policies identified the difference.  The team converged on masking the error to solve the issue.
+Converging on the same SFP replacement policy and leveraging a "mask" for the VNX code will result in the reduction of inadvertent pulls.
+The team consensus was that a mask would be the must expeditious method to accomplish a converged  SFP replacement policy.  Based on the team review, its believed that we can improve the customer experience (i.e. less SFP pulls) and save EMC money (i.e. projected savings for the next 12 months, July 2015 – June 2016, of approximately $1.37M based on reduced "call home" events).

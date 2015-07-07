@@ -1,0 +1,8 @@
+Sending Emails from ServiceNow
+
+we are working based on ticketing system and if we miss to update the tickets then this will go for escalations even though the details provided to concern department. 
+here we are providing the details and the same is updating in ServiceNow incidents. i think this can be implemented to send emails  from Service Now so that no need to update the tickets again
+
+We are using outlook to send emails and then updating the details in ServiceNow tickets. However the alert notification is configured in ServiceNow to get emails of updates and SLA status and other notifications.
+if we have an option to send emails from ServiceNow then work will be simple and no need to update the details again in tickets.
+

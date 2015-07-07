@@ -1,0 +1,25 @@
+TCE - Unified VPlex Solution
+The idea is to propose the Unified VPlex Solution that improves the TCE. 
+Work Experience
+Today VPlex as such has the ability to support only the SAN infrastructure. 
+Solution / Idea Proposal:
+
+VPlex should have the support for the NAS protocol and also the hardware support for the same to bring in the "Unified VPlex".
+
+Adding the intelligence to the VPlex box to support both SAN and NAS protocols thereby addressing larger customers, VPlex gets expanded in the market. 
+
+VPlex core should have the intelligence to identify and act accordingly for SAN and NAS platforms. This is in par with the NetApp's V-Series which provides a similar solution as that of VPlex except the fact that VPlex is for SAN environment.
+
+On top of the unified system, VPlex can have the features such as snapshots, volume copy etc to have a bigger impact and more robust for data availablity.
+
+This has to be the pluggable solution, where the customer can plug-in and use it accordingly. The customer can pick their usage based on the needs. 
+The customers get to have the hold on theor usages. Also, EMC can have a hold while selling the licenses and the solution.
+
+SAN only box [As we do today]
+NAS only box
+SAN + NAS.
+
+This way we get more profit and the product also gets bigger.
+
+
+

@@ -1,0 +1,13 @@
+Product Performance Index (PPI) for EMC Products
+
+The idea emerged when we (Aparna, Raj and I) were trying to compare the performance of VNX Release with that of VNX2 release. Since we are from QA organization, we started comparing number of defects filed against each release. We also talked about the number of defects found in the field by customers. But, we realized that it is not fair to compare two release just based on number of defects. We converged on the idea of calculating an index based on number of parameters such as number of units sold, defects found internally, number of DUDLs, etc. Currently we have planned to promote our idea within EMSD organization and would like to extend it to overall EMC family of products.
+ Solution for the above problem is to define PPI value for each EMC product: hardware, software or a solution. EMC CPI is a single number whose value varies between 0 and 1. It would track the performance of our products in a similar way as Stock index has tracked American Economy over the last 50 years. For example, currently we explain the performance of Storage Systems such as, IOPs per sec, Number of Ports, Bandwidth etc. In, some cases it is very difficult to compare two different EMC products such as a VNX2 and Viper: one is software another is hardware.
+The importance of PPI can be demonstrated by following Illustration:
+
+Director: “How is our latest Rockies release doing?”
+Without PPI:
+Engineer: “Compared to what? Number of VNX2s sold? Or Number of DUDLs found? Amount of revenue? Number of service packs released?” 
+With PPI:
+Engineer: “Better than last one; Last release has CPI of 0.8 and this one has 0.9”
+
+

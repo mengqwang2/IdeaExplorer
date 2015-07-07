@@ -1,0 +1,11 @@
+Machine Management tool
+This solves the lab maintenance problem faced by the teams.
+We have been experiencing the above stated problem in our team. So we came up with this idea.
+Our solution will be a Machine management tool which will have following features:
+1. Get the details of the servers under a single page.
+2. Display the version of the OS installed ( ESX/Wind/Linux).
+3. Lock a machine and assign it to a user.
+3. Check for the license of the servers and alert the admin/user on this on expiry through mails.
+4. Provide admin user for full control of the tool. Normal user login to view the ownership of the machines and status of each machines.
+5. In the same tool we can allot the ips to the individuals in the team. Later we can generate a report on how the ips are used by the team, count the ips for each individual. Thus IP management in the team becomes transparent and easier to maintain.
+If this idea is implemented, this can be used across EMC by every team. It will be easier to manage the lab machines and its corresponding IP address, licenses etc . Also the transparency of the IPs allotted to the team will be clear. This will optimize the way the work is carried out in the team.

@@ -1,0 +1,20 @@
+Native-Language Product Documentation.
+N/A
+This idea is for non-English speaking customers. This improves customer satisfaction.
+
+Create our product documents in other languages too, so that our non-English speaking customer will be happy to read and understand our products better in their native language.
+
+We have few non-English speaking customers and we route their SR's to MPLS Support queue to get local language speaking engineers to help with the SR's. 
+
+We have the documentation uploaded to the support site for all the products for customers for them to download and make use of it. But all these documents are available only in English language.
+
+It's bit tough for our non-English speaking customers to read the product documentation which are published in English. 
+
+Not all non-English speakers have trouble communicating in English. Many speak at a native level, but many do not. 
+
+To address this barrier, I suggest to have our documentation updated in other languages too. I understand that we can't create our documentation in all languages but it will be good to have the documentation in at least few major language. For E.g. Spanish, French, Chinese, Japanese, German etc...
+If customer can understand our documentation, they can resolve the issues much faster without our techsupport help. Also they can understand our products much better when they read it in their native language. 
+
+Also number of SR's counts from non-English speaking customer will get reduced. 
+
+This definitely increases our customer satisfaction. 

@@ -1,0 +1,5 @@
+Save storage space - Non Important mails to be handled with chat portal
+
+Very often it happens we need to chat with team - emails unnecessarily occupies space. 
+Have a chat portal - here add the alias you want to send a message or a information - user can also have an option to send that chat to Inbox if needed. Portal chat need not have a long retention time. Current communicator has its own limitation - if people leave group chat - if people are offline - its not possible to have discussions. Easier way is to start a new chat portal where any information which is not needed to be stored for long can be discussed. 
+

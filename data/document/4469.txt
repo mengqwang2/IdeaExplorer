@@ -1,0 +1,7 @@
+FAST @ Frontend Adapters
+
+During a customer assignment while doing a performance analysis we came across that the number of host connected and the IO load across the FA port .We had to move few of the critical hosts to different under utilised FA manually and balance the load across all the FA. We had to co-ordinate the balancing with the host team due to native mutlipathing.Hence came acorss the IDEA why cant we have something like FAST where we can virtually move the hosts across the FA automatically with interfering any changes at the host level and improve performance and balance the FA
+Fully automated storage tiering which helps moving data across the tiers, similarly we can have something similar at the FA ,depending on the load across all the FA that are in use move the host connected with high IO to lower utilised FA .This will help us to improve performance and ultiisation of all the FA ports.This will help us address the load imbalance and performance issues due to high IO load at the FA.
+
+
+

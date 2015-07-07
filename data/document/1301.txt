@@ -1,0 +1,24 @@
+Global CST Licensing Escalation Project
+This is a process improvement globally. 
+Inconsistency & inefficiency 
+Team members accept SRs first, then reply to escalation email where others do the opposite.  
+Not replying to escalation email (end of business day/Oncall). 
+In busy days, some escalations may end up not handled. 
+Replying to emails & checking same escalations on SC. 
+Outlook flooding with escalation emails; sometimes 3-4 emails for same SR. 
+Rechecking non-replied to escalations.
+Rarely, SRs maybe worked by 2 agents.  
+Creating conflicts and inconsistency among team members. 
+
+The goal is to automate the escalation process which will reduce the process cycle time and eliminate the number of escalation emails. 
+Eliminate the escalation emails received by licensing team by 31st of May, 2015. 
+Reduce the process cycle time from 27 minutes to 20 minutes per case by the 31st of May, 2015. 
+
+See: https://inside.emc.com/docs/DOC-155549 
+On average we receive 1155 Escalations per quarter.
+Annual escalations = 4620 Escalations. 
+Decreased the average escalation creation time from 27 minutes to 20 minutes per case. 
+Reduced the manual escalations to zero and eliminated missing escalations. 
+Established one accurate, organized & clear process.
+Easy monitoring escalations now reflected in queue. 
+Improved operational Metrics and escalations’ tracking

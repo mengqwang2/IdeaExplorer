@@ -1,0 +1,5 @@
+Cross products solutions universal code
+Providing a way that can help in making the cross product sup-portability of ease, and automated in a more concrete way.
+I idea came from studying UML diagrams. that helped me a lot in software engineering study.
+the solution is to create a unified diagramming technique that can help us to understand the impact of our cross product in a better way, and will help us to create what can be called tracking number and this can help us a lot in increasing the supportablility. 
+this will help us to increase the supportability of the cross-product solutions and help us to identify the key benefits in a  better way. 

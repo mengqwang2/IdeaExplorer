@@ -1,0 +1,12 @@
+Internal notes for each customer in Support Center
+Enhancing the process of customer handling in EMC Support
+Site messages tab in service center
+Adding extra field for internal notes which can be only updated by managers or field about each customer.
+
+Message can include something specific about the customers such as:
+-This customer complains from the lack of communication
+-This customer doesn't like to receive phone calls
+-This customer only speak German
+
+
+Enhancing the overall experience for each customer and making it easy for TSEs to communicate with them

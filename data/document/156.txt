@@ -1,0 +1,23 @@
+Route and Journey Smart Organizer
+The application provided is a typical implementation of IOT as it uses internet and technology for improving service time, money, effort and increasing customers satisfaction, Its also very useful for a smart cities with large number of people holding smartphones and are connected to internet, It's also easily doable as it will be a mobile application for Android and IOS platforms 
+
+It needs Data storage, networks,analytics and backups to came up with a smart app like this and help in enhancing Traffic jam, serving time, customer satisfaction and money consumptions 
+I came up with the idea as i always wished to be able to know how to organize my journeys in a smart way, save my time, save money and effort, and as i worked a lot in mobile applications development, i suggested the solution to be a mobile application as most of us have smartphones and such app can be easily used
+Develop a mobile application that can be compatible with both Android and IOS platforms, This is how the app will work:
+you use it when you have a journey with 2 or more places to go and you need to know how to organize your journey, which place to go first,
+- The app will automatically know your current location and you have to enter all the places you want to visit in the journey
+- The app will reply with the best order of visiting places upon one or mixed priority or priorities you choose:
+1- Service time priority: which place will serve you directly and which will make you wait in a queue 
+2- Reaching destinations faster: is the route to a certain place is jammed or not
+3- Alternatives availability: is there any other near alternatives to that place or not
+4- Place offers: can the place offer the service in another near time, can it schedule any other date
+5- Near to your current location and near to your last destination: The app can organize the trip based on which places are nearer to your current location and make you visit them at first and which are near to your home or final destination and make you visit them at the end
+
+The app will be capable to do these analytics and propose solutions from the data entered from the whole users using the app, for example, if the app tracks that 10 women are now in a certain hair dresser with 5 serving chairs only, so this service is now jammed and if your priority is to be served fast, this service won't be at the starting of your journey
+
+The app can also be smart enough to predict users journeys from trends in their historical data, for example some users visit the hair dresser each Sunday in each week, so before their arrival to the hairdresser, the app can predict this and set the place as full or jammed which help also in better analysis and offering solutions and alternatives
+- Succession of this idea by implementing this application and being used by a large number of people to better organize their journeys . Such application needs a big storage system to save people updated locations, Fast and online analysis to be able to provide alternatives or suggest solutions, fast computations to better organize the route and show it
+
+-The company will definitely benefit from this idea by giving a solution for the big data, for data storage, networks, online data analysis. EMC2 will make money by entering with its storage system to store this huge amount of data and provide analytical solutions on it.
+
+- Definitely this app will improve customer satisfaction, service time so it will improve also employees satisfaction and work pressure, amount of money, time and effort spent

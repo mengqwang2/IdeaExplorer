@@ -1,0 +1,9 @@
+Vplex HC analysis
+
+-
+Create an online platform that takes the logs and perpetual files, generate the templates of the health check and keeps not of the important paramters. 
+Based on analysis criteria, recommendations are suggested to the owner of the health check.
+The SA responsible of the Health Check can also add recomendation based on what he sees in the report. This will generate a huge database of recommendations which will increase the reliability of the recommendations based on previous experience.
+
+Succesfull recommendations could be marked as succesful which increases it's reliability.
+

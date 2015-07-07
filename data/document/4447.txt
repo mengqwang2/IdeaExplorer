@@ -1,0 +1,7 @@
+Product CLI Interactive Tool for All Products
+
+When an activity is performed in GUI, a pop window should open up and show the corresponding command and its working steps in the backend. This will help in understanding how the backend things happen. 
+Now a days, people always prefer to work on GUI as it is very user Friendly. However, it is always good to know how are things running in the backend. That's whwere CLI comes as a value add. And not everyone prefers to work on CLI as it is not soo interactive as GUI.
+
+
+

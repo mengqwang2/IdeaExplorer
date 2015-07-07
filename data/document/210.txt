@@ -1,0 +1,29 @@
+Improving developer and IT experience and productivity with EMC products in  Open Source focused environments
+My idea addresses set of steps that can be taken to quickly adopt and as well as increase productivity of the EMC 3rd platform products particularly with Pivotal Cloud Foundry.
+After joining EMC, I started exploring Cloud Foundry for my project. 
+
+I haven't come across any comprehensive application that demonstrates/show-cases all the EMC stack to address the real-world issues. 
+
+Taking bits & pieces of information from every where and building an enterprise application requires lot of hard work.
+
+I have spent lot of my personal time to learn & put together a sample application utilizing various technologies. 
+
+I felt providing petstore kind of application might have solved this issue of architecting, developing, and deploying (devops) applications for PCF.
+Provide Petstore for Cloud Foundry. Almost every one in the enterprise and open source world is aware of Petstore application that used demonstrate architecting Java EE applications. It is widely referred for reference code & architecture, searched a lot in Google by the developer community.
+
+Sample Petstore application is deployed on Cloud Foundry utilizes other EMC federation solutions like Spring, Spring Data, and Gemfire. Also, By utilizing various open source technologies like JPA and Netflix Open Source cloud patters, CI using Jenkins, Archiva for storing CI artifacts, we are making easy path for developers try out and adopt PCF quickly.
+
+Other ideas are
+Provide automated deployment scripts for PCF for deploying open source products widely used by big enterprises as well as open source developer community.
+
+Provide real-world end to end architecture and sample applications for various scenarios (ex:- eCommerce, Issue tracking, reporting/alerting, and branding applications).
+
+Create a product awareness by providing comparison chart (PCF vs AWS vs OpenStack). 
+
+
+petstore kind of becomes the starter app for some one trying to learn or adopt cloud foundry or spring tools. You would get max number of hits from Goolge search engines.
+
+We are providing great resource for architecture and deployment of applications on PCF.
+
+This becomes synonyms app for PCF web application architecture. 
+

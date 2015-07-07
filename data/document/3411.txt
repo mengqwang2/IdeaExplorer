@@ -1,0 +1,19 @@
+EMC Part Order Portal
+
+The idea came after developing the ASP form that my team designed for our partners 
+The idea is about building a part ordering web/mobile application for our customers and partners (Amazon-like).
+The portal will be connected to our EMC Item Master database and pricebooks.
+The customer can login to their account to order parts.
+The main features of the portal are:
+-	Easy part ordering form to submit part orders with a streamlined visual ordering and checkout process
+-	All EMC orders will be available (all parts that can be ordered)
+-	Calculate order total along with any taxes/freight charges applicable
+-	All Delivery options and types will be available to be chosen by the customer/partner for each order (Same Day, Next Business Day delivery, NBD+1, Specific Date, warehouse pickup, specific address, service point delivery)
+-	Order tracking 
+-	All EMC Logistics ordering logic will be embedded in the form and will be used as validation for submitting the order
+o	Ex.: certain orders cannot be fulfilled in certain times such as ordering a part for warehouse pickup at 3am since the warehouse will be closed at that time
+
+The EMC part ordering portal will simplify the ordering process, which will have a very positive impact on TCE.
+Customers/partners will be encouraged to use the portal for its ease of use and mobile availability, which will increase EMC revenues from part orders
+
+

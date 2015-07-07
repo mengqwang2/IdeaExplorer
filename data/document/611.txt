@@ -1,0 +1,7 @@
+Social Device Computing and Storage
+I don't think an innovation idea should relevant to a given challenge. Innovation is innovation, not enhancement.
+The idea came out just now
+Develop a system to connect to any possible clients and consume the clients' storage/computing.
+IT manager can buy our service to fit their computing/storage requirements.
+Every people can sell their device's computing/storage with a reasonable billing method.
+I believe this is a totally new solution for storage/computing using every possible devices. Though each device is not fast, there are billions of devices separated to worldwide. So this solution supports remote disaster recovery naturally. The data stored in one device is a piece of complete data and is encrypted, so it's secure. 

@@ -1,0 +1,16 @@
+EHC - OnDemand addition and removal of Physical ESXi Hosts to vSphere Resource Cluster to Scale resources Up/Down in vCAC/vRA.
+OnDemand Automated installation, configuration and addition of ESXi Hosts to vSphere resource cluster and OnDemand removal of ESXi Host from Cluster which is currently not part of EHC and can become very important offering in EHC to scale UP/Down resource
+The idea was back in my mind when I started working for Automation on vCenter Orchestrator. 
+•This can be achieved using vCenter Orchestrator same way as EHC works right now.
+
+•Automated service offerings can be created in vCAC to provision Stateful ESXi host on Cisco UCS, HP and Dell servers.
+
+•ViPR can be used to share the datastores with newly provisioned ESXi Host.
+
+•Scripting tasks in vCO will configure the ESXi Host using Host Profiles in vSphere and add them to resource cluster.
+
+•When host is added to cluster, additional resources will now be available in vCAC to be utilized by increasing reservations same as its done in case of Storage as a Service in EHC.
+
+•An OnDemand remove host service can also be provided to decommission ESXi host.
+
+This can be important additional EHC offering. This can be achieved successfully using extensive work in vCO. Can be branded in EHC as "Virtualization as a Service" or "Hypervisor as a Service".

@@ -1,0 +1,5 @@
+3D User manuals
+
+Having been involved in a project that uses 3D models for visualising hardware,  we came up with the idea of using similar approach in user manuals.
+Each EMC product will have an online manual page that would display an interactive 3D model. Depending on the task that person has to perform: changing drive, replacing battery, removing chassis etc. 3D model would be used to display animation showing all necessary steps needed to safely perform that task.
+

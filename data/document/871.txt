@@ -1,0 +1,7 @@
+Optimization Service Based on Customer's Operator Work Activity Data Stream
+It pushes to use EMC's storage and/or cloud solutions, lets to open new EMC provided consulting service and exceed the expectations of our customers and software development business units
+The idea is based on my experience. Known solutions use ETLing of regular CRM, ERP, Sales force system logs which is extremely time consuming, or 3rd vendors' Capturing Systems deployment of which looks like disaster for customer's IT, security, and operational cervices.
+The core of idea is logging all operator's work activity in ready to use format and safe this data stream in EMC's provided storage and/or cloud solution. EMC's provided Optimization Service identifies the best performers among peers and uses their work activity flow as best practice for others, suggests to customer refining operators' workflow.
+At the same time EMC's PM/Engineering can use this results for further GUI enhancement to improve operators' KPI.
+Implementation benefits the EMC for both internal and external sides.
+First of all it helps our customers save money thru manual processing KPI improvement. Secondly it lets our PM/Engineering to figure out ways to make GUI better from KPI improvement point of view. Both of this opportunities let us create new consulting service, enhance customer productivity, optimize process and as a result improve customer satisfaction and make us extra money.

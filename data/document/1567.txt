@@ -1,0 +1,8 @@
+Extract the duplicated steps to one time step.
+Both developer and tester, we all know VNX/VNXe's GUI is slow. User must wait GUI refresh. However, if GUI could extract the duplicated steps to one time step. It will give user a good experience.
+User experience.
+Put the duplicated steps to a one time step. Take change LUN name for example.
+If user want to change LUN name after bunch of LUN has created. You need click every object and change the name you want to edit. If the LUN number is big, that will need some time indeed.
+
+However, if we could select all the objects we want to edit. Click right mouse, there is a new tab to change bunch of objects properties. User could give the proper name prefix, or the naming rule. All the objects name will be updated automatically. The GUI refresh only once, and user also do not need repeat the same operation time and time.
+Improve user experience.

@@ -1,0 +1,7 @@
+Implement IOT security by pivotal cloud foundry and mobile app
+N/A
+We have done some PoC of developing app to connect to smart devices via Pivotal cloud foundry mobile services. And we believe that our potential can also benefit from it in terms of easy development and high security.
+Pivotal cloud foundry mobile services not only provide rich api for developing mobile app, it can also meet enterprise-level security requirement such as authentication, authorization, application isolation and so on so forth.
+My idea, basically, wants to implement security of smart devices via mobile and pivotal cloud foundry mobile services. It is quite common tha we control our devices through mobile app. One the other hand, pivotal cloud foundry mobile service provide plenty of APIs for mobile development. What's more, cloud foundry can meet enterprise-level security requirements such as authentication , authorization, application isolation and so on so forth.
+
+IOT is a hug market in the next 3 to 5 years. There's a trend that more and more smart devices will be connected and controlled by smart phone apps. If EMC can dive into this market by taking good advantage of Pivotal cloud foundry mobile services, we can have good share in this market.

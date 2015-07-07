@@ -1,0 +1,13 @@
+TE(Text extraction) in client to save network loading
+ECD Challenge
+xPlore related
+In some Jira cases, the indexagent meet some timeout problem for such reasons. This is similar to the Facebook Haystack in Image display, for image display, the image metadata is not that important and so when displaying an image, we doesn't return the metadata. 
+
+It is a way to reduce IO. 
+Make text extration a client runnable service and make it an option to transfer only text content to xPlore. Don't copy a lot of files to xPlore for indexing.
+
+By the way, many performance issue is caused by poor IO/s, it also help to reduce some IO in indexing time. Reduce IO for IA and CPS.
+
+
+IA will provide the dump XML of the file metadata and the file itself is mainly for text-extraction. For some special file type like images or videos, we doesn't get anything from the file and we only provide search with those metadata. 
+

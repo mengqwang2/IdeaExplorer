@@ -1,0 +1,8 @@
+CSE - Include more status options for the defects that gets concluded via CLSD/OOPS
+
+Worked with Clear-Quest. CQ is a great tool which has various options to handle the defect flow.
+Include more status for CLSD/OOPS status of the defect. This can be accepted if the submitter had mistakenly raised a ticket but not acceptable during other scenarios as mentioned above.
+
+Include various status for the defects and have them closed appropriately. This will avoid the percentage of defects created/rejected ratio to be proper especially during "Shift-Left" scenarios.
+
+

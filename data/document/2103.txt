@@ -1,0 +1,24 @@
+Search Appliance powered by xPlore deployed in Data Center and Enterprise Hybrid Cloud
+xPlore is a shining technology asset of ECD for search, as the software-defined data center becomes more mature, search - as a basic requirement of various applications, needs to be an essential component for SDDC, providing the search capability is the industry trend and inner urge.
+
+•	Enterprise Content Division (ECD) Challenge
+This idea makes ECD products more close with EMC ecosystem, especially the hardware-software integration.
+
+•	Global Solutions Challenge
+This idea make search service as an EMC Solution Appliance that will help our customers to find their data quickly and effectively.
+
+•	Skolkovo R&D Center Challenge
+This idea provides a HW-SW combined appliance with the customer demands of finding information easily, this can be applied to any content-centric industries, like Energy and Life Science.
+When developing xPlore - a home-grown search engine for enterprise content system, we leverage xDB and Lucene.
+xPlore is the home-grown offering for enterprise search in ECD, supports dozens  of languages, hundreds of file formats, efficient security filter and many other fancy search features, e.g. dynamic facet, thesaurus, spell check, wildcard. Here is how the solution works:
+1. Build xPlore into an appliance, either a VMWare image or a hardware
+2. When an application in the data center needs search functionality, deploy the search appliance in the data center
+3. xPlore has the REST interface for different application to integrate, the application sends the content which needs to be indexed
+4. xPlore also supports to crawl contents automatically with FS2 indexer if the content is properly shared
+5. The application can define its own security policy, put the security information in xPlore
+6. The application can have define its own dictionary, for thesaurus or proper noun, it will affect the search experience
+7. The application can define the search result format and fit the business requirement
+
+The benefit is that the search appliance is dedicated for the application and can achieve both the security and performance target.
+If this idea is implemented, search appliance will be provided in the format of a standardized VMware image or a containerized instance (e.g. Docker image)
+The solution orchestration engine can add search capability easily basing on the requirement of applications, this will be a great advantage and differentiator with competitors.

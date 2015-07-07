@@ -1,0 +1,25 @@
+Analytical Flow: Migration from Conventional setup to Hybrid Cloud Setup
+Identify a set of customers through rigorous data mining techniques and extract the Attributes which will make the customers highly qualified to move to the Hybrid Cloud setup. Further by using Recommendation Engine we can bundle the Fed Solutions along with EMC Product.
+
+https://inside.emc.com/docs/DOC-154695
+As we know that Big Data and Analytics is a recent and futuristic Signaling for the marketing scenario today. When we got to know about this challenge, we found that on our daily basis we use a lot of analytics for data mining and this is one challenge, where we can use analytics to leverage business insights.
+Vertical 1: Existing Customers
+
+• Attribute Analysis: Drilling down to know the attributes which qualifies for Hybrid Cloud Setup.
+
+• Share of Wallet Analysis (SOW) : Identifying the high value customer based on purchasing capacity & Workload.
+
+• Recommendation Engine: Fetching the inventory of application (workload) types from the Customer site and the EMC Products hosting them, and then tying it back to the Fed Solution based on the key attributes derived through Basket/Bundle analysis.
+The Bundle analysis coupled with SOW analysis should help in identifying the possible Customers for Hybrid Cloud.
+
+Vertical 2: New Customer
+
+• New KPI: Analyze the consumer’s behaviors who are currently in the trail version setup and who can be a prospective customer for EMC+ Fed Solution.
+
+https://inside.emc.com/docs/DOC-154695
+
+
+• Identifying the Prospective customers
+• Increase in opportunities by finding the best fit for EMC products & Fed Solutions
+• Increase in Marketing Effectiveness
+

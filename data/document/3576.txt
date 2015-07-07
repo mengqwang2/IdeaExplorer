@@ -1,0 +1,12 @@
+ Social Media Analytics for better employees’ satisfaction 
+
+ The idea came in when I was checking the newly launched unified social portal for all emc “Inside EMC” and how we can make use of its post towards better satisfaction for employees.
+ The idea will use social media analytics techniques on :
+1-	Inside EMC posts 
+2-	What employees like on social media
+3-	What activities they attend the most
+
+This will help understanding employees’ preferences and hence better meeting their needs towards higher satisfaction.
+
+
+

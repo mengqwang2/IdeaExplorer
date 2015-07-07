@@ -1,0 +1,9 @@
+Sync OBIEE, Catalyst And SAP
+This will serve the challenge/s listed below. 
+
+
+We use all 3 and sometimes the info. is not accurate 
+Sync all the order information on SAP with Catalyst and OBIEE and create one global application for all old and new sales order 
+better service
+one application 
+ease of use 

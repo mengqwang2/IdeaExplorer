@@ -1,0 +1,12 @@
+HTML log based log reports
+
+Current Challenges: Customer has to relay on products like DPA for a HTML or PDF format pictorial report. 
+Using this Idea we can produce similar type of stylish reports. 
+Can be used on products like Avamar, DataDomain and Isilon.
+I noticed the same with Visa corporation. This was used for unix server  monitoring for management.
+Attaching a Java HTML log file which has a Chart based pictorial presentation of Sever health status. Which can be emailed along with the regular Dailhome or Emailhome alert logs Messages.
+ There are plenty of sample charts models available at DOJO. (http://demos.dojotoolkit.org/demos/) we can customize any models for our products and  use it as a html based logs. 
+ Some more samples of DOJO charts.
+ https://dojotoolkit.org/documentation/tutorials/1.8/charting/
+1. These kind of Logs adds additional value to the products. It will be a product enhancement. 
+2. Deployment and usage of these type of utilities are simple and can be very easily customized.

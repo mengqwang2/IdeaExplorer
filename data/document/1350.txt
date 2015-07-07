@@ -1,0 +1,10 @@
+Auto Scale out Appliance Adviser using topology discovery
+CTD Supportability in 12 Months or Less
+We are working extensively on tools like Vipr SRM , Ecc etc day to day and every other product we have to discover individually through lots of dependency. I am trying to understand the difficulty for a laymen to kno each product 
+We have lots of products in the market through which we can manage, analyze etc manually and suggest the customer or administrator to improve the design of the Infrastructure through topology discovery But this specific product which we can develop will automatically sends report in a set time interval with the suggestion to the administrator after considering various factors of the particular architecture. For eg: Data trending, Switch Traffic Analysis, Resource Utilization, Through puts generation etc. 
+If my Idea is fully incubated the advantages.
+*Single Appliance which discovers the entire Infrastructure Topology.
+* Points out any breaks in complete infrastructure in single discovery.
+* Single way to automatically understand the performance of entire infrastructure from Server to end arrays.
+*Helps in Optimum utilization of resources in an expensive world.
+

@@ -1,0 +1,27 @@
+Test/Dev lab with shared VM/Docker Farm
+The idea is to leverage EMC Enterprise Hybrid Cloud to build Dev/Test Lab to accelerate delivery cycles in Agile process.
+Discussed with colleagues for how we can improve Dev/Test colloborations by leveraging cloud techology.
+We propose a solution to have shared  pool of VM images/Docker images across engineering teams by leveraging EMC Enterprise Hybrid Could with functionalities of:
+
+- Create/delete/tag a replica/provison VM/Docker images 
+- Private/public share a replica as a template
+- Copy/fork image replica/ replica groups
+- Have predefined Master templates of VM/Docker images
+
+With the abilities and advantages:
+
+	- Quickly provision Development/Test/Demo environments with resuable/shared templates and offloading APIs
+	
+	- Enhanced collaborations:
+		* When Tester find a bug, he/she can simplely save a replica/clone/snap of test instance and share it to Dev, then continue the ongoing tests without any disruption or delay.
+		* Rapid prototyping and demo for customer/tech writer
+	
+	- Minimize IT storage waste with quotas, policies(expired date , relocation to archive/backup/public cloud layer ) and embeded Thin Provisioning/Dedup/compressing features.
+	
+	- Improve RPO/RTO for disaster recovery and data migration, and the ability to recover from distructive tests
+
+Besides the benefit of internal collaboration, the customized VM/Docker images can benefit our customer as well. One characteristic use case is performance/capacity evaluation. 
+Customer definitely would like to know whehter the array or service they plan to purchase is powerful enough to support their business needs or growth. They are lack of way to do the evaluation. With customized I/O host which can scales out tens of hundreds, customer can leverage it to evaluate the candidate's capability and make proper adjustment based on measure result.
+
+
+accelerate engineering delivery/ improve internal and external customer satisfaction/ save money

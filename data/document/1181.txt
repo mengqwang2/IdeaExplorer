@@ -1,0 +1,20 @@
+Efficient Hospital Equipment Management - using Smart Sensors and IoT
+Egypt COE Smart City and IoT Challenge: This idea helps into better health-care & hospital management using IoT and Sensors.
+
+With inception of IoT, integrated management of equipment, resources can be done in any field. This idea just came up, while I was thinking about applications of IoT in different possible fields.
+
+I propose the following solutions to this problem:
+
+1. Install Display and tracking sensors on each medical equipment & Beds.
+2. Track each Medical Equipment and hospitals BedS using RFID and store information such as - Dept, Equipment Type, Location, and Status.
+3. Connect each of the equipment and bed using Integrated Hospital Equipment Tracking & Management System.
+4. Monitor, manage and direct equipment & Bed  usage from Centralized Management System.
+5. Do Load-balancing of the equipment usage based on patient inflow
+
+The idea has got multiple benefits, few of that I have listed below:
+
+1. Better Management & Trace-ability of Hospital Equipment and Beds
+2. Optimal / maximum resource utilization within a Hospital.
+3. Reduce Capital Expenses on Equipment and Beds.
+4. Use Big Data,  data-analytic to analyse the usage pattern  and proactively plan the new equipment and bed based on that.
+

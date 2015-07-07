@@ -1,0 +1,55 @@
+Software Robotics enabled process automation layer for Documentum xCP 
+The idea involves using Open source framework Java Selenium to build a software robotic layer on existing EMC xCP product to enhance the automation capabilities of the core product beyond just API level integration to integrations that demand web crawling and screen scrapping.
+
+*This layer can enhance the exiting EMC xCP product capability using open source- Addressees Russia Challenge
+
+*The can be a brand new product offering leveraging the xCP Stack for Rapid process automation spanning across many existing rigid (Not easy to integrate or automate ) legacy systems - Addressees CTO new product challenge
+
+* Can be bundled into an EMC software robotics  private cloud appliance  built using
+EMC VMware VSphere, xCP process engine components, software robotics layer. - addressees
+ECD challenge
+
+asdsa
+At the heart of the solution, using xCP component and composition framework we customize Documentum Process Builder and configuration to add open source java based Selenium automation  components and web drivers. 
+
+1. All data sources associated with the manual process are identified and configured. This includes data source information and encrypted access credentials for the robot to authenticate itself.
+
+2. A comprehensive set of new activity templates using web crawling, and screen scrapping & capture techniques within Documentum enables  integration with external systems Via front-end route.
+
+3. Selenium allows front automation behavior to be captured as XML, which can be executed by EMC Documentum Process Integrator.
+
+4. Process execution exceptions and audit reporting  can be preformed by reusing  EMC Documentum Business Activity Monitor API.
+
+
+Internal POC use case :
+
+Context:
+-----------
+1.Current GBS Manual processes are time consuming, error prone, monotonous for employees, expensive to the tune of million of dollars spent every year. For eg. 3 current manual process: Email Notification (Entitlement) , Quote generation ,Invoicing are amounting to million dollar cost to EMC.
+
+Link to a POC for automating a sample GBS manual process using simple Selenium framework - 
+https://inside.emc.com/docs/DOC-155189
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Process automation can be achieved in 2-3 weeks
+Basic Java programming skills is sufficient
+Normal PC like machines would be sufficient to execute robots
+Easy to change the robot code
+Very high RoI(Return of Investment) thanks to huge savings achieved in very short time
+

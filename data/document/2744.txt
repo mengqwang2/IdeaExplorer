@@ -1,0 +1,7 @@
+One hub for Third party components
+This idea will improve on how we handle and embed third party components in our products leading to better quality and increased product time-to-market.
+This idea was the product of a PSRC (Kristen, Pascale, Tania Ward, Piyal Biswas,and Nazira Carlage) brainstorming session.
+To have a repository for all third party components which is locked down. The repository will be security scanned and validated so when product teams pick up the component they just need to do integration/compatibility testing. Teams will register for the components they need and this will enable better tracking. These teams will be automatically notified once the third party component has been updated (with security fixes or other fixes).Legal will review all third party component licenses and advise how the third party components should be embedded and this process will be adhered/tracked to minimize EMC risk. Guidance from resident experts on the third party components will be available to assist product teams in integrating or other questions that they may have.
+- This will increase product time to market. One place. Validated. Certified.Good to go
+- This will have improve the quality of the product.
+- Protect EMC brand

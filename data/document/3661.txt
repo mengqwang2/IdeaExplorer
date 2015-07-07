@@ -1,0 +1,15 @@
+Information unification and TCE Process
+
+Past experience, current information and process followed in DPAD made me to think.
+Idea involves automation of business data to be maintained in a unified way and a process which deals with the ways we can share the information.
+
+Web Interface: Information about all products and customers shall be collected across the world to build a real time system. It’s a kind of product and customer catalog. Objective is to have all information about a product and customer shall be linked and made available in this portal.
+ 
+All existing web portals related to product and customer shall be linked initially and migrate the contents to this portal over the period of time to form a collaborative information.
+
+Process: Objective of this semi-automated process is to share the information across the product release life cycle. As we are already following standard processes, it may not be an entirely new process altogether, but approach is little different. 
+
+Design is to automate the process with the help of above mentioned web interface. Life cycle of the process is automated but execution needs manual intervention. This process is release specific, whenever a release kick’s off, process starts and end with release closure activity. All information and knowledge sharing, training and feedback will be performed across the release life cycle on need basis or any committed information changes.
+ 
+Detailed documentation: https://inside.emc.com/docs/DOC-100171
+

@@ -1,0 +1,15 @@
+Grab the Low-end Market Share with VNXe by Lowering the Cost in Design/Manufacturing/Integration
+
+Came up with this idea when Lenove made M&A to IBM server.
+Lower the cost of VNXe from the design:
+a. Multi-level storage design, we can use tape, HDD, SSD(flash)...; while store the data according the use frequency -- store the most used date in flash, then HDD, then tape...
+b. Reduce Pre-installed disks and reserve slots for user to extend
+c. Using ARM CPU to replace intel CPU, now ARM CPU is already used on server side
+    there's no reason we cannot use ARM CPU on our storage server, especially for the low-end market
+
+on Business aspect, there are 2 suggestions:
+a. Bring the manufacturing from US to China Mainland, maybe we can use OEM like Foxcon
+b. We can also Bind/Integrate our storage server with calculating/application server; Customers buy the storage server not just to make them work alone, but work with PC server; is it possible for us to buy a PC server and integrate the PC server and our storage server to a unified one for sale? Also, our ally Lenovo made M&A to IBM's server -- can we use this opportunity?
+Cooperation with Lenovo can also reduce the bad effect by that those days Chinese government imposing restriction on government departments’ business orders to foreign e-class devices.
+
+

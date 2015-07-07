@@ -1,0 +1,5 @@
+Intelligent rank
+a lot effort to manitain equipment physical location and rank usage
+when do LAB maintain, we took lot of effort. especially to rotate equipment.
+the intelligent rank can record what equipment inside, include SN, server model and IP. collect all information to centerial database. update frequently . that will make physical topology clear up.
+reduce effort to maintain LAB

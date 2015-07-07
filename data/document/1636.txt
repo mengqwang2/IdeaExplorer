@@ -1,0 +1,7 @@
+
+XtremIO as a back end for cargo manegment system
+Cargo management systems in ports and airports require an efficient, fast, reliable back end so it can keep working smoothly and it represent a new field to for XtremIO to be used in 
+N/A
+Using XtremIO as a back end for cargo manegment system
+Providing a high ROI to the airports and marine ports 
+Implementing the solution  

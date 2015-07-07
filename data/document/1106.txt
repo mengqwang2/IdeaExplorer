@@ -1,0 +1,17 @@
+Drinking Water Infrastructure and Environmental Disparities- Leverage IoT for healthier water
+Potable drinking water is essential to public health; however, few studies have investigated income or racial disparities in water infrastructure or drinking water quality.
+
+There were many case reports documenting a lack healthy of piped water or serious water quality problems in both low and high income and minority communities
+I was thinking about the idea when I noticed that technology is not well employed in water supply management where we can benefit from it by using the advanced IoT based solutions where possible.
+To implement quality sensors that can do some measurements regarding the water quality, leaks, and pipes quality to prevent any dangerous effects on the water quality and quantity to the subscribers.
+
+such approach will help in the following 
+
+1- Detect leaks once they happen without relying on the manual process.
+2- maintains the pipes quality based on healthier standards.
+3- Compare the water quality between the source and the target destinations to check whether there is any change that requires an immediate intervention.
+4- Prolong the life time of the infrastructure.
+ 
+Effective supply management for drinking water
+Healthier approaches and quick alerts for the water quality
+

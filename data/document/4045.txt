@@ -1,0 +1,18 @@
+Automated Process Learning and Teaching
+
+We got this idea while thinking how we can save our experience on the issues we worked.
+When customer support and engineering solves a problem, keep track of following-
+1. the area of product in which problem was found (very specific)
+2. who worked on problem (both support and engineering).
+3. time taken to solve the issue.
+
+What to automate?
+1. If the problem was solved quickly, save the product area and people worked on the issue. 
+  a. If the problem was solved because of person's expertise -> when an issue comes in same area, redirect it to same persons.
+  b. If the person had no expertise but he could solve the problem fast, take feedback from them and save it. It can be used and notified when similar issues occur.
+ 
+
+2. If problem solving took more time, find out the reasons or challenges encountered in solving the problem and also how those challenges were tackled(using Engineering and CS inputs). Based on the inputs provided, send alerts to the team about those challenges through mails (so they can be aware of them before even experiencing in first hand). And also, when similar issue is encountered, we can throw these advises to whoever is handling it, so that his/her life is made simple in solving that problem.
+
+This would definitely help the engineers in providing quick resolutions to customer issues, especially critical ones.
+

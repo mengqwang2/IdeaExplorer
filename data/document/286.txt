@@ -1,0 +1,6 @@
+Wireless Conference Rooms
+IT Contemporary Workplace Challenge: Seamless Access to the wireless network i.e. no SecurID token required when inside EMC and access to applications seamlessly when off network for trusted laptops - Wireless Meeting Rooms being investigated for more convenient access to projectors and displays 
+
+Employees having different laptops and trying to connect to different projectors made  us think of this idea
+This idea proposes to get wired projectors out of the conference rooms. Using Bluetooth/ Wifi enabled smart tvs( Chromecast/appletv) in the conference rooms paired with laptops/tablets/mobile devices(smart handheld) we can avoid using projectors. 
+Hassle free, wireless meetings

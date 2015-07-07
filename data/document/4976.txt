@@ -1,0 +1,10 @@
+Let uemcli etc. common used tools support TAB completing
+
+I suffer such issue when I begin to use uemcli tool. I raised such question at livewire (https://livewire.socialcast.com/messages/19844455) and someone answered they will try. However I have not get any update since then.
+
+I raise this issue again here to emphasize it and hope this will help to get more investment and attention.
+As the object tree structure is not maintained by uemcli itself (uemcli is just a thin wrapper), it seems hard to implement that. There are two possible way:
+1. As the object tree is relative stable, we can implementation the TAB complete by hard coding current object tree. then we the hierarchy changes, we update the implementation as well. this is much simple
+
+2. Another way is try to read the hierarchy by issue help command to uemcli, parse the result tree and then provide a dynamic TAB complete implementation. This implementation will always use updated object tree but the implementation is not simple at first sight.
+

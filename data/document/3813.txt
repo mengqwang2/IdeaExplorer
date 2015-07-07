@@ -1,0 +1,22 @@
+Storage array hinting
+
+Just though of it during the lunch.
+We suggest to hint the storage about the workload pattern that is about to hit the storage. This way the storage array could perform needed adjustments.
+The hinted workload patterns are:
+•	Sequential read 
+The use cases are:
+o	VMware vSphere® High Availability (HA) feature. When a site \ server outage is detected, it restarts the VMs on other vSphere hosts. This will results in massive sequential read.
+o	Backups - reading the data from the production site will results in massive sequential read.
+o	Storage VMotion - reading the data from the source site will result in massive sequential read.
+o	
+•	Sequential write
+The use cases are:
+o	Backups - writing the data to the remote site will results in massive sequential write.
+o	Storage VMotion - writing the data to the destination site will result in massive sequential write.
+•	Random read
+•	Random write
+•	Unknown
+This is a standard mode, in which the pattern is unknown.
+
+Inter alia, this will reduce backup and RTO times, since the storage will operate faster in these scenarios.
+

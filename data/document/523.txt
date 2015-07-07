@@ -1,0 +1,27 @@
+Smart Billing and Expense Reporting System
+Egypt COE Smart City and IoT Challenge: 
+Our day to day life involves a lot of transactions from an individual to a big organization. Every transaction has a billing or expense which could be inwards or outwards. With the growing amount of transactions the billings per transaction is also growing which is adding to big data. We can handle these smartly by using software receipts/acknowledgments and report the complete expenses.
+When I visit a food outlet or shopping mall and I purchase something most of the times I am provided with the paper bill. At times I have to retain few bills to claim or revisit them for some calculation. 
+I have seen many of us keep huge files to maintain paper bills, and at times we keep finding different ways to store them in cupboard in files. Sometimes these bills pile up so much that we revisit them to see if some bills are more important to keep. 
+We need few bills at times to claim some benefits at the end of the financial year. You have to make sure to pile them up. If you have software bills, its easy to save them and manage them. Especially when it gets attached to some citizen id database, it becomes easier to manage these. 
+Every organizations from big to small shops which may include education centers, healthcare centers, café shops, sports bar or a shopping mall should provide software bills or software expense reports instead of paper bills.
+
+Software bills should be sent to the citizens account email id which should be uniquely created that maps to the citizen ID. Like it can map to his social security ID or PAN number or student id. (Smart bills). These bills/expenses/transactions for every citizen will be saved in the cloud. EMC provides a good amount of cloud storage features which can be used here. The bills can be categorized as per the citizens convenience like healthcare bills, utility bills, café bills, food and entertainment bills, shopping bills, travel bills.
+
+Every organization or individual shops will maintain a copy of the bill the billing data transaction into a centralized database. The database will be on a cloud or privately owned storage to manage the huge amount of bills generated.
+Again EMC can provide a huge storage solution for these organizations to run these kind of databases and store the s/w bills/expense reports.
+
+The bills can also be prioritized based on their utility (Eg: healthcare or tax bills versus food and general shopping) and retained on a storage for a period and then moved to a backup or archival solution. EMC's backup and archival solution can be a best fit here too.
+
+The expenses report can be generated based on user convenience which could be daily, weekly, monthly, or yearly to get more hold on the financial report. 
+
+These smart bills and expense reports are easily available since its on the cloud.
+
+1. Smart way of billing and providing the bills to the customer in a software form.
+2. Storing the bills on the cloud by the user and the organizations or shops.
+3. Easy access to the billing reports anytime since its in the cloud.
+4. Reduces paper usage and transportation of these papers to the smart city who are using software defined storage to save and manage these kind of reports smartly.
+5. Easily can be backed up or archived in different backup solutions based on the priority need of the bills.
+6. It saves money in buying tons of papers or files to store these kind of paper bills. 
+7. The bills or expenses reports per individual and per organization is raising at a very high intensity thus creating big data. EMC is providing very good products on harnessing big data into a reality. 
+8. The expense report can help individuals to smartly plan their expenses for the future based on the billing/expense reports.

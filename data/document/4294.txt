@@ -1,0 +1,5 @@
+Integrate dynamic data center power management in ViPR 
+
+Based on the increasing amount a load in cloud environments 
+ViPR should integrate Plugins that will provide the power consumption dynamics and cooling dynamics in data center based on the dynamic load,  Vipr should integrate this metrics and make use to decide on the computing power and storage requirement for the services. Based on these metrics power requirements can be analyzed for the virtual computing and storage.
+

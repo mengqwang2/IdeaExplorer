@@ -1,0 +1,23 @@
+Verification to User that Secure-website is Genuine
+o	Broadly applicable
+o	Increases security
+o	original and feasible
+o	secure data management
+
+teem meeting
+Enrollment
+•	User records a short clip (e.g. 4 seconds), or if no microphone is available, 
+        selects a sound from a large set of “stock” prerecorded sounds
+Login
+•	User enters username and clicks next
+•	Secure website displays an icon to allow the user to play their enrolled sound
+•	User recognizes sound, trusts site as genuine, and proceeds with entering and
+        submitting password
+
+o	This is particularly useful for IoT (including smartwatches) because playing a
+        sound is easier than other text, images or other forms of verifications on a 
+        small screen.
+o	Similar in purpose to Site-to-User Voice
+o	Another company owns the Intellectual Property of a similar method that uses 
+        Images instead of Audio.
+

@@ -1,0 +1,17 @@
+Initial Template Upon Opening A Licensing SR Forcing Customers To Add In Essential Information 
+This will serve the challenge/s listed below. 
+We get a lot of cases that has no information and we need to go back to the customer asking for it and waiting. 
+
+If this step can be avoided, that would be awesome! 
+When customers use the Web to open an SR or enter a chat > they are asked to choose if they are requesting a temporary or a permanent license key and what is the product and a template will pop in accordingly. 
+
+So if they need a permanent license key, then the sales order will need to be provided by the customer..etc. and all the information that will be requested by the template. 
+
+Licensing can provide the information needed for each product and can help create the templates. 
+will save a large amount of time and effort for the lic. team
+Perfect customer service 
+more organized process 
+no mistakes 
+will make sure it is routed correctly 
+chat agents can handle temporary requests immediately and close the SR
+

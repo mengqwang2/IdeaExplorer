@@ -1,0 +1,9 @@
+Standard Collaboration Platform
+
+brainstorming with my colleague; Mostafa Hashem aiming to address difficulties in connecting employees to each other.
+The idea is to create a standard collaboration platform between employees (field personnels, CSTs, CSMs,...)
+
+It is an application accessible from mobiles or computers where any one can search any EMC employee's name and text them, video call them, transfer images or any other contact method. This application is achieving easy and fast accessibility between employees. 
+
+Such application is aiming to cut cost as there will be no more need to call intenationally and cost EMC a big amount of money, rather only internet is needed for the application to run similar to whatsapp on mobile. So long as internet is there, the application is working perfectly fine.
+

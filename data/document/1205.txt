@@ -1,0 +1,15 @@
+Mentor-as-a-Service: Provide on-demand mentorship service, with accurate matching
+The architecture described in "challenge description" creates a bridge between EMC employees and school (teacher/student), and the solution introduced in this idea is used to provide mentor service more accurate and more efficient.
+n/a
+To make the matching between mentor and request from teacher/student more accurate, the app leverages all the useful information of registered employee who is willing to be a mentor, including:
+1) Basic profile information from Inside EMC, 
+2) The social network that he/she could utilize, such as the relationship in Linkedin .
+3) The professional skills, working experience. Besides the technical skills (like big data, cloud) that could help students in some technical competition (like VEX Robotics), some other skills such as sales, marketing, advertising are also helpful. 
+4) Working schedule. This factor is very important, because mentorship service shouldn't impact our daily work, so an employee who is not at work in a specific time slot in the request would be better. Working schedule can be retrieved from Outlook Calendar.
+5) Location information. If permitted, app could locate the position of employee by leveraging the GPS system on the phone.
+By leveraging all the information above, app could match the most appropriate mentor accurately and efficiently.
+
+Based on the request from teacher/student, app finds out some appropriate mentor candidates and notify them with the request. Once a mentor is identified and confirmed as a mentor for students, he/she could communicate with students via email/video/conference call or directly go there if possible.
+
+In the meantime, if system realizes that there's no individual that could satisfy all the mentor requests from teacher/students, it could form a mentor group that could help.
+The mentorship service model introduced would improve the efficient of matching mentor, fully utilize the passion , professions, skills of employee.

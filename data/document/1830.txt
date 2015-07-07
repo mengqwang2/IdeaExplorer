@@ -1,0 +1,8 @@
+Micro Servers / application-defined Servers 
+New market segment / business opportunity
+Natural evolution of D2/D5 hardware capabilities & functionalities.
+Storage/Microserver box that, in addition to being used as ultra fast top of the rack storage box, could also provide premium processing capabilities (best price per performance per watt).
+Hot-swap-able Flash Modules could be turned into compute, I/O & compute or storage & compute modules. New "D2" box, for example, could provide mixed services to rack of servers; could also be used a front end workload optimized micro-compute unit, with other EMC storage systems attached as backend.
+In addition to selling DSSD box as storage, we would also be able to 
+1) support processing of data stored in that system. This addresses new efficiency requirement of trying to process data closer to where data is stored (moving data costs more than processing it).
+2) Expand into workload optimized , application-defined server (premium) market.

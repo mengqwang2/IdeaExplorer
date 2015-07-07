@@ -1,0 +1,22 @@
+Storing user profile on mobile to be used during out-of-band authentication on websites
+
+Some half year back me and my colleague (Abhilash) were working to build prototype of an idea in which mobile is used to authenticate user to a website. During our discussion we thought of creating a profile on the mobile that can be used at the time of authentication. Narendra and Kiran were part of the discussions and their valuable inputs helped us refine the idea.
+How it works:
+
+•	User tries to access protected resource from his device 
+•	User gets a securid page which contains space to enter username and user enters username and submits 
+•	Server generates a random number creates a QR code which contains username, random number and serverURL(ip) 
+•	User gets a page/window which contains QR code and authenticate button 
+•	User scans the QR code using the mobile authenticator and generates the token code using softtoken software in mobile 
+•	The softtoken software reads the user profile stored in the mobile. This profile has editable fields that the user can set based on his preference
+•	The softtoken software sends the profile information, token, random number , location artifacts to server through an encrypted channel
+•	Then user clicks "authenticate¨ button on the other device 
+•	Server sends success / failure depending on the request from mobile authenticator to this new request.
+
+Advantage of New Approach:
+ 
+The user profile will give the user the flexibility to set specific properties for authentication session based on his need. Like if a user sets cookie-timeout in his profile to 10 mins then the user session will be valid for 10 mins once the user is authenticated.
+The user profile can have different settings for different websites. Like a website the user wants to increase the cookie timeout value he can do that. At the same time other websites can use the default profile settings.
+
+
+

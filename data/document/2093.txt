@@ -1,0 +1,18 @@
+Dynamic storage activity monitoring based on usage frequency.
+User maybe need perform several steps before the final operation. If our management GUI could use a smart way to shortcut the most popular operation steps to one step only operation. It will give user a better experience.
+As a testing engineer, easy to use is part of my work. For the most frequently used operations if it could be abstract a simple step. I will be better.
+User maybe need perform several steps before the final operation. If our management GUI could use a smart way to shortcut the most popular operation steps to one click only operation. It will give user a better experience.
+
+Enable a mechanism/algorithm based on usage frequency. This method could analyze and record user's usage habit.
+After that, we can calculate the top N operation, summary them to a shortcut on management GUI(Unisphere). Next time, user could easily go to target operation without additional operation.
+
+E.g. In current Rockies, if you want to check Lun compression summary. You need following operations.
+1. Open Unisphere;
+2. Go to "Storage" tab;
+3. Move mouse to left panel;
+4. Select "Select Lun Summary", and view the summary.
+
+The same operations are needed for "Deduplication" and "Migration" summary.
+If we abstract this to a shortcut, these operations will be one step only. It will be much easier for user.
+We also could apply this in "report" area.
+Customer may be satisfied with this change.

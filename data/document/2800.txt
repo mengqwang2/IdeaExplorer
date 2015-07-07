@@ -1,0 +1,8 @@
+Adding subtitles to voice\video calls.
+IT Contemporary Workplace Challenge - This idea would help improve customer experience and everyday internal calls by converting voice to text which is easy to understand irrespective of the region.
+
+While working on customer issues, faced this issue multiple times where interactions were through voice calls and customers would mostly be from a different region. Hence the accent would not be very clear and accurate causing lot of communication issues and delayed fixes.
+Adding subtitles to the voice calls may help solve this problem. We could start with first converting voice to text in the same language. Future enhancement would include language conversion, for instance English to French.
+
+It would help improve customer convenience and satisfaction since they would be able to explain their problems well and would even understand our solutions without any issues.
+

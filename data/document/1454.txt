@@ -1,0 +1,10 @@
+EMC Mobile Capture and Syncplicity integration 
+The solution integrates Captiva Capture and Syncplicity products.
+ 
+The idea came to my mind recently while I'm working on Capture SaaS/Snap project.
+
+Syncplicity is a product that provides synchronization between mobile and desktop with security and multi tenancy features. Capture Advanced recognition is a set of services that hosted on Windows PC and provides extraction/recognition. What we need to do it to provide a way to send captured data from mobile to desktop where these data will be grabbed by Recognition services. And Capture and Syncplicity integration can do it. The solution is simple and do not require many dev efforts. 
+Simple workflow: 
+Mobile capture -> Send to Syncplicity from mobile -> Syncplicity syncs data to Windows folder -> Captiva grabs data and Make recognition/extraction -> Captiva send data to Syncplicity folder -> Syncplicity syncs data on mobile app.
+Actually the exacted data can be returned to mobile or exported to back end. The key thing here is a easy way to send data from mobile to desktop where these data can be grabbed by Captiva Capture.  
+We can build new mobile capture product having all technologies on board without deep rewriting. It will make new money and help to integrate two solutions. 

@@ -1,0 +1,18 @@
+Smart Support - Automating IT Help Chat Using chatbot and text analytics 
+My idea is related to the IT Contemporary Workplace Challenge. The aim of the idea is to make sure our workplace is smart and efficient and to deploy automation and algorithms wherever possible for improving the way things are done
+
+The inspiration for the idea is from a casual discussion we had about a different problem. I
+The proposed idea is to build a program which runs on top of Outlook and has the following capabilities
+1. A chat bot would talk to the user and try to understand the problem and will identify whether it is in the standard list it maintains (using text analytics)
+2. The bot would confirm the problem with the user.
+3. if the user confirm, the bot would either give instructions to the user to resolve the problem or would do the predefined steps to resolve the user problem(for eg activating a user account)
+4. It would be part of the Support workflow and would seek approvals if required
+5. The bot will transfer the ticket to a human representative if it could identify or solve the problem
+6. The bot will learn continuously from its interactions and user feedback
+
+1. Human intelligence can be used to solve difficult problems in IT Support
+2. Reduced operational cost
+3. Chat Bot can be integrated to different enabler functions like Admin, Finance, HR, Transport etc
+4. Chat Bot can interact using other modes also like emails, whatsapp etc
+5. With improved efficiency can be used to talk with Prospects and can play a role in Sales and Marketing
+

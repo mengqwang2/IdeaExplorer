@@ -1,0 +1,5 @@
+Ability to reset VPN's token for the employee with creditials.
+
+Idea generated out of my frustration having to call IT several times to reset my vpn token.
+This pain can be relieved by providing an app or website for the employee with credentials to reset his/her the token. This will ensure employee with the correct credintials to reset his vpn token and at the same time it can avoid expensive phone call to IT. Usually if the employee is in emc premises he/she can reset the vpn token without a phone call to IT by logging to a emc intranet site. An outomated email with badge id and other details to robotic email responder can also be used to trigger the reset with a response email for users that are located outside EMC premisis.
+

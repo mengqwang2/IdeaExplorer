@@ -1,0 +1,41 @@
+Natural Language Processing & Deep Learning algorithms for deterMINING Customer Sentiments
+The idea primarily focusses on extracting information from B2B enterprise systems, analyzing the information using Deep learning algorithms and deriving actionable insights as requested for the TCE Challenge.
+The idea suggested is an extension of some of the Text Analytics solution projects that our IT team is currently working on. 
+B2B Customer experiences with EMC, starts from their engagement with marketing teams, to sales, to pre-sales, to procuring the products, to installing the products, and to post production support.
+
+Our idea focuses on understanding the sentiments that the Customers are sharing at each of these phases, during their engagement with EMC. This will give a 360 degree view of Customer Sentiments measured across all the phases. We analyzing the text that is embedded & used in each of the systems used by Customers & to derive actionable inputs. 
+
+Considering its B2B solution few of the data sources include,
+
+SalesForce.com, ECN – EMC Community network – Business Partner Network, EMC Pulse – Blogging site, Transformational eLicensing Platform (licensing solution used for most of EMC products), Support ticketing systems ( like SSZ, CLM/SYR ), existing Survey data, Any sentiments shared on Twitter, facebook related to Customer Briefing at EMC, etc
+
+Proposed Technology Solution is to build an end-to-end Analytical platform to perform Text Analytics using Apache Hadoop & Spark for batch & real-time processing as given below,
+
+-	Ingest both Structured & Unstructured data from the required sources mentioned above into Hadoop HDFS. 
+-	Extracted information from the sources is tokenized, Stemmed and is stored in a Greenplum Database for analysis.
+-	Using Open Source NLP engine - OpenNLP , we perform the below text analytic tasks, 
+
+o	Parse the database extract the text with sentiments and tag the extracted sentiments to the Source; Entity or the Product that is being talked about from the text.
+o	Analyze the polarity of the text used – positive ; negative or neutral  
+o	Consolidate the complete analysis and derive the sentiments shared across different product groups, different features within a product group, phases where customers are most satisfied/not satisfied etc.
+o	Predict the areas where Customers are satisfied, areas where Customers not satisfied, which phases in the engagement, which product features needs improvement, etc
+
+-	Deep learning algorithms are trending & popular now for their accuracy in predictions, we plan to use these algorithms for text classification and Sentimental analysis. DeepLearning4j is one such easy to use Java library that can be leveraged for more accurate prediction of the sentiments of text being used. 
+-	The above analytic solution will be integrated with a Web Portal built using Open Source Bootstrap UI & Angular JS for Dashboards and reporting purposes. 
+-              The whole solution of the Web Portal can be implemented using microservices architecture using IT's Pivotal Cloud Foundry for easy hosting & deployment services.
+-              We can provide REST APIs, so the analyzed data can be consumed by other applications as well. 
+
+
+Few of the actionable use cases (while there are many) that can be derived using the above solution includes,
+-	During which phase in particular the Customers of a specific product group are experiencing positive sentiments – During Sales? or during post production support, etc. 
+-	Which phase of engagement the Customers of a specific product group are having negative experiences? Is it Sales? Pre-sales? Where do we need to improve?
+-	Which feature in a specific product is being talked about for a Positive or a Negative sentiment? This can help with enhancing the product roadmap for the product groups. 
+-	Give a 360 degree view of the positive/negative sentiments shared based on the location of the customers. Most favorable sales locations? How Customers sentiments vary across different regions
+
+
+
+Benefits
+-	This solution gives a 360 degree view of Customer Sentiments that are shared across different phases that a Customer is engaging with EMC
+-              Deep Learning algorithms are trending in the industry now for their accurate predictions of text, images & other related solutions. 
+-	Feasibility in implementing the solution. This is an end-to-end solution with a Web UI, Web Services  integrated with Analytic Solution. It involves primarily using all Open Source components that are customizable and can be built with ease. 
+-              Using 3rd platform microservices architecture on pivotal cloud foundry makes deployments & maintenance of the solution easier and is a scalable architecture to include any additions. 

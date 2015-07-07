@@ -1,0 +1,14 @@
+Customer Experiance As  servicce
+
+Have been thinking on a cloud solution which gets revenu in terms of providing that as a servie at the same time it imroves EMC product customer experiance too.
+Provide a Cloud based soution for END to END product related feedback and escalation and imrovemnet that are suggested by customer and effective tracking of customer feedback and on touch assignemnet of coutomer problem through centralised cloud bases Software as a service application. This application is responsible to Give an option for
+
+--> Custoomer to provide feedeback with out we seeking for it
+--> an option for EMc to Ask for cutomer feedback
+--> Track the Escalation and intiiate automatic survey from cloud portal once escalation is solved.
+--> Track the action items based on SLA sto the internal team so the we imrpove the time to resond to customer experiance.
+--> Provide frequestnt updates about the product throgh auto notification form Saas web services
+--> basically proposing a unified customer experiance service which tracks the complete life cycle of a product
+
+--> Same solution can be provide as a service cusotmers also as a cloud service.
+

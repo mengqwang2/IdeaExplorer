@@ -1,0 +1,10 @@
+Increase the TCE for EMC DPAD customers
+
+This idea has emerged when working on multiple products with customers. The challenge they face to adapt skills and manage the integration. 
+EMC should provide the DPAD as complete Service (IT as service model) to the customers instead of providing the individual product solutions. Customer need not be aware of the products or array used in the backup & restore process, but we should be able to meet the customer SLA’s with desired RTO & RPO. Charge back model can deployed to provide the cost details (pay as you go model or fixed model) 
+
+Advantages:
+-	Increase TCE and reduction on TCO.
+-	Reduction on complexity of multiple product integration & management.
+
+

@@ -1,0 +1,21 @@
+EMC’s Virtual Demo Platform
+
+Have been involved in EBC demos for many customers alongwith lot of POC items. It takes lot of effort from Engineering to build the Demos/respond to the queries. Moreover the response is people dependent which can be so critical in some circumstances that we may loose the deal itself rest aside the Low TCE.
+
+More details around implementation is @
+https://inside.emc.com/docs/DOC-99880
+Create a virtual platform that has videos/bites/customer references. All this information is granular @
+	Product Level – Example : NetWorker
+	Release Level  - NetWorker : Version 8.2 – What’s new ?
+	Solution Level – NetWorker with RSA lockbox or NetWorker with Vsphere
+	Workflow Level – NetWorker Licensing or NetWorker DataDomain BOOST
+
+User can browse at any level and get the video/references. We can also provide the information/videos in various category based on how much content is needed
+	Basic – High Level Info in the form of small content or quick demo
+	Advanced – All the information available in the form of all the relevant excerpts and a comprehensive demo
+
+Content/Demos are accessible (Access Controlled) to anybody on web/mobile 
+Hits will be recorded that will create the behavioral pattern and an input to PRD/Roadmaps
+Incase customer doesn’t find content/demo, we will have 48 hours SLA to come back to him with information. 
+
+

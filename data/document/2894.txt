@@ -1,0 +1,25 @@
+Self-recovery of locked User Accounts leveraging Device Identity.
+Promise of Device identity can be leveraged to simplify & popularize self-recovery route for User account-lockout issues. Profiling and authentication of user’s devices using Device Identity Technology promises to achieve the goal of seamless experience.
+The idea is at very thought stage as of now, However Since IT already finished the POC of using Device based authentication for  Employee's Internet access  via WIFI; Idea Proposed is expansion of SCOPE to use the same POC  in allowing users reset the locked account themselves.
+
+Concept was inspired from the trend that Industry is moving towards device identity in authentication space.  Trusted Device and User's known secret code, if used in right combinations, can offer secure and effective solution. Couple of Industry solutions to refer:
+1. https://kc.mcafee.com/corporate/index?page=content&id=KB80070
+2. http://www.cisco.com/c/dam/en/us/products/collateral/security/identity-services-engine/at_a_glance_c45-654884.pdf
+3. http://www.entrust.net/knowledge-base/technote.cfm?tn=8624 
+
+Self-Service portal employs challenge/response mechanism to establish User Identity prior to allow user performing self-recovery of the disabled accounts. Leveraging device identification in combination with Pin/NT Password can replace complex “Secret Question” mechanism of password/token portals to ensure genuine user doesn't struggle to prove their identity and re-enabled their account quickly. Combination of device authentication (what you have) with right credentials (what you know, Alternate to the one which is locked) can provide effective and secure solution.
+
+•Prerequisite:
+1.DINAC-  Device Identity- NAC (for ex: CISCO ISE): 
+DINAC can do profiling and registration of the various users device types like laptops and respective owner. It also integrates with external identity store like CA, SecurID and Radius to facilitate authentication of device & owner before allowing access to the application. There could be separate provision of authentication for Trusted Device (certificate based) and untrusted devices (other machine attributes).
+2.Existing Password/ Token Self Service Portals
+
+•Account Locked- NT,Unix, Token, Privilege Accounts: 
+Locked user accesses the respective Self-service portal, which redirects user’s device authentication to DINAC. Post clearance of device identity, Mapped user is prompted for second factor authentication
+a.SecurID to reset the NT or Privilege Accounts
+b.NT Password/Token code to reset the pin.
+
+1.Enhances Productivity. Savings in helpdesk support cost. Showcase for Contemporary IT
+2.Device Profiles can act as authentication for other Internet facing corporate applications. Improves compliance
+3.Use of existing products saves EMC,cost & effort.
+4. Avoids confirming user identification with just badge number over phone, which may be fallible.

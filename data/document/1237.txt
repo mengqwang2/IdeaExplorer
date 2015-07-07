@@ -1,0 +1,6 @@
+Provide API or integrate JasperReport, Pentaho, etc. for VNX, XTremIO, other EMC products
+My idea proposes an innovative way to leverage Open Source Software to increase value of EMC products
+Idea to use open source reporting tools for Captive was generated during brainstorming in Captiva department.  I asked guys if I could transfer this idea to other EMC products
+The idea is to evaluate existing EMC products to see if it is possible (is easy) to expose API for integration of EMC products, such as VNX, XTremIO, with OpenSource reporting tools such as JasperReport, Pentaho, etc
+My idea, if implemented, could result in new API exposed by VNX, XtremIO, other EMC storage products.  With this API, made public via EMC Code, 3rd party developers could make their applications for integration reporting tools with EMC storage products.
+Ideal result would be to expose this and other APIs to create ecosystem of applications around EMC storage products

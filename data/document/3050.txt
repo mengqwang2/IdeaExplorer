@@ -1,0 +1,7 @@
+Low latency configurations for EMC VSPEX BLUE 
+SAP customers want to deploy their SAP HANA production environment on Tailored Data Center Integration (TDI) including VSPEX BLUE. SAP performance requirements (SAP HANA TDI KPIs for data throughput and latency) must be met to ensure the highest availabil
+NA
+We found the sequel write I/O latency of current VSPEX BLUE configuration can’t meet the minimal SAP performance requirement after SAP HANA TDI testing. Because of the VSAN essence, the I/O latency consists of SSD and network latency. We believe better hardware on network and SSD will improve the latency. 
+So far VSPEX BLUE has two options (standard and performance) with different memory size. Our idea is to add new VSPEX BLUE option (for SAP HANA customer).Replace eMLC SSD with SLC SSD in the new option.   
+
+The new VSPEX BLUE option can meet SAP HANA TDI requirement. The SAP customer can deploy their SAP HANA production on EMC VPLEX BLUE. 

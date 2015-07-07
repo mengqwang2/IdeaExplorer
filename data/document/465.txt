@@ -1,0 +1,6 @@
+Personalised Customer Greetings while around EMC Campus
+Office of the CTO 'New Business' Challenge - 
+Better Customer Relationship and attracts customers interests in new EMC products and upgrades to existing EMC products.
+Discussions
+If a customer happens to pass by any of EMC campuses within 500meter radius, EMC deducts the customers phonenumber using GPS tracker & identifies the sector that customer belongs to from EMC Database & the EMC products that customer is using. Send a personalised note to customer Mobile "Dear Customer, We understand you are very close to EMC campus, it would be an honour to have you with us and we would like to tour you across our facilities & introduce you to our latest products and services.Looking Forward to having you with us."
+Attract Customers attention with a surprise element & new business opportunity where we can suggest upgrades or new products.

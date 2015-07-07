@@ -1,0 +1,7 @@
+Trainings mobile application
+NA
+Based on my own experience, it happened a lot that the HR send the email while i am not on shift (finished my work / annual leave / sick day or even away from my desk)so i wasn't capable to apply on the trainings I wanted as employees on shifts are the first to apply and as the numbers are limited the trainings close.
+My idea is to have a mobile application, that contains all the trainings offered by EMC and every employee select the trainings that he is interested in, so when the HR send the trainings email, every employee receives a notification about the trainings that he selected only. The employee may register through the application, that way we will be sure that all the employees received the trainings at the same time. If the numbers are full, and I am on a waiting list, the application will memorize that and in the next round it can register me automatically. Also the application can give numbers to the HR on what trainings are wanted the most, and feedbacks about the trainings.
+Employees satisfaction. 
+Equal chances to all the employees. 
+The application will save the HR time.

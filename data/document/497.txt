@@ -1,0 +1,23 @@
+SYR Last Refresh Date Check
+My idea is about creating a dashboard that automatically checks the SYR Last Refresh Date of the products that are not in Install Status in the IB.
+
+Then these products to be sent to EMC account managers or engineers for them to check if the error is from the SYR or a wrong status assigned to the product
+my main work is about the IB accuracy and the correct products configuration
+This will ensure:
+
+1- Having accurate IB data (If the issue is that the product is assigned to a wrong status on the IB)
+
+2- Having accurate SYR Connection (If the issue is that the product is wrongly dialing home on the SYR Site)
+
+3- Not missing any EMC revenues if the product correct status on the IB is to be installed
+
+4- Enhancing the IB compliance
+This will be a dashboard that could be extracted to check the EMC products that are dialing home on the SYR Site yet not in Install status on the IB
+
+This idea will:
+
+1- make money to EMC for the number of serial numbers that will be installed
+
+2- Improve the IB quality and accuracy
+
+

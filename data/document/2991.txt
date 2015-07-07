@@ -1,0 +1,26 @@
+Implement Docker Registry Storage Driver for EMC Storage (VMAX, XIO) and for Private Cloud
+Russia COE Open Source Challenge:
+Customers increasingly rely on world of Open Source, so idea is
+to enable open source technologies like Docker to EMC Storage.
+
+XtremIO Challenge:
+Docker registry integration option to XtremIO.
+
+APJ COE "Solutions Platfor
+We are studying Dockers as part of Development Goal. Doing hands on and understanding the frameworks. So this idea got seeded while doing this study.
+Storage drivers are required to implement the storagedriver.StorageDriver
+interface provided in storagedriver.go, which includes methods for reading,
+writing, and deleting content, as well as listing child objects of a specified
+prefix key.
+
+Storage driver could be In-process drivers which are written in go language
+or Out-of-process drivers which are implemented in other language (mostly
+Java is supported).
+
+Use the Docker Storage Driver framework and Solution Enabler of VMAX and XIO
+to provide the backend storage.
+
+Also this idea can be extended to enable for Cloud Array for hybrid and Public
+clouds.
+This solution if implemented and hosted on github then customer can leverage EMC
+storage for hosting Docker Registry. Also EMC's strong data protection technologies will be an added advantage.

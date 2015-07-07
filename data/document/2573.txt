@@ -1,0 +1,11 @@
+Enterprise Content Division (ECD) Challenge
+It is relevant because if we made the monitoring tool we will be able to monitor all data flow in the cloud, as well as all other ECD systems, because we will be monitoring on the Java class levels/servlets , OS,DB performance, network packets, etc,..
+Last week, no one else was involved
+
+•The idea is creating a monitoring tool for DCMT, It should monitor all Documentum components that is currently running.
+•Mainly it will be concerned to watch out the java threads running, predicting java heap, performance, integrating with installed database, checking the status of all running components as well as the operating system through a web interface GUI.
+•It should be sending early alerts in case of reaching thresholds being met, such as space issue, performance issues, memory consumption, etc… 
+
+•Early predicting issues. Overall system health detection.
+•Administrating all Dctm components to make it easier to admins, Network analysis for DCTM packages being transmitted.
+•If everything is working as I am expecting we could easily integrate with al

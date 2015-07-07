@@ -1,0 +1,5 @@
+Workload portability for P2 Apps
+A portability tool that enables customers to easily migrate existing VMs within different platforms (Azure to Amazon to vCloud Air to Private Cloud) will increase the adoption of new solutions such as EHC and the adoption of a truly hybrid cloud
+Several customers complained about this “limitation” when choosing a cloud platform. Since then, I researched for some solution to provide that functionality, but the few founded are very limited.
+Most vendors are concerned to provide solutions to migrate from others to his own platform, while EMC has the opportunity to create an agnostic, free solutions, leveraging some great tools for data mobility we already own (for example Avamar and RecoverPoint) to enable seamless and cheaper migration between clouds. 
+This product should be a free addon that will become an enabler for adoption of other products, such as our EHC.

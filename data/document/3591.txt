@@ -1,0 +1,12 @@
+UAP+ GUI – Unified Analytics Platform with Greenplum with new GUI reporting feature
+
+The idea came up when I was reading about Greenplum features as a leading solution in OLAP systems and was thinking on how to enhance its features to fit the competitive Market
+The reporting in Greenplum is currently represented in database tables. These tables are used to get insights of the data. It is becoming easier for the data engineer to use graphs representing the reporting and insights of the data. Currently the database tables are taken from Greenplum to another external tool for processing and for forming graphs.
+
+The idea is to equip the UAP (Unified Analytics Platform) with an integrated GUI feature to enable 
+-	Easier representation of the data and results
+-	Unified software to processing  and reporting of the data
+-	Easier mobility of the OLAP system results in form of graphs rather than database tables 
+
+
+

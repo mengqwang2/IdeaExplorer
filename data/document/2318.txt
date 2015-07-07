@@ -1,0 +1,5 @@
+EMC India COE Transport Incident Reporting and Request Portal
+As of now we use only outlook emails for the ad-hoc, emergency, special requests, reporting compliant, routing issues, other challenges through emails. 
+One of the ask from the Biz-Ops team and our team came up with the tool using the RSA product - Archer
+A web portal wherein you can raise your concerns and requests, so that the transport team can work on it in an effective manner. This also helps in tracking the number of requests and for the trend analysis for improving the employee experience. 
+Easy maintenance and tracking. Understand the trend from the BU. Generate reports, no need to track in traditional email mechanism. 

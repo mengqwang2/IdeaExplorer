@@ -1,0 +1,5 @@
+On the spot survey analysis ALL EMC Agents
+
+the idea was implemented on Vodafone call ceneters and really it's awesome.
+a little application on the website / let's call it EMC Survey indicator. It indicates or shows the number of surveys each employee receives on the spot.
+

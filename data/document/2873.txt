@@ -1,0 +1,13 @@
+DRaaS in Hybird Cloud
+Provide a wholesale of Disaster Recover as a Service in Hybird Cloud.
+Gartner publish 2015 Magic Quadrant Disaster Recovery as a Service. We see the IBM,Sungard,Verizon,VMware but not EMC.
+Solution Stack:
+Top layer:ViPR provide the SDDS and Data migration and Disaster recovery interface
+Second layer:VMware SRM provide business continuous and real-time DR function
+Third layer: VPLEX+RecoverPoint+VNX provide the data protect and Always On business
+DRaaS:
+Private partial cloud protect for enterprise sensitive business data 
+Public partial cloud open for general user to build their data protection
+1.Guarantee that your mission critical applications continue to operate through any disaster.
+2.Eliminate the cost of an off-premise location, infrastructure, and personnel by providing a warm standby environment for your business in our secure "Cloud".
+3

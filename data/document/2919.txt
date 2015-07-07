@@ -1,0 +1,9 @@
+Automation Networker Backup Script
+This will help to automate the multiple tasks in one step with different networker resources.
+Whenever we do projects many times we require multiple resources to be added, modified or decommissioned. Based on our experience we realized a need to have an automatic way to do all these tasks which also eliminates human errors.
+Me and few of my colleagues worked together to build that partial script and we did tested successfully with in the Lab.
+
+The idea behind this script is to automate multiple tasks which any networker admin has to do in day to day life which takes huge amount of time. 
+This Script will help to modify, create and decommission multiple resources within EMC Networker at a time.
+
+As we have successfully implemented decommission part in lab, we are sure once this script is fully functional this will definitely help our internal and external customer. This will also help to build customer satisfaction by removing more hassle to do m

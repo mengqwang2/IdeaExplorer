@@ -1,0 +1,17 @@
+Cross Product Customer Environment Emulation Lab
+Setting up a Cross Product Customer Environment Emulation Lab helps in successfully predicting and preventing customer issues related to large scale production environment for multiple products. It also helps in quick reproduction and analysis of customer reported issues and effective testing of Hotfixes before deployment at customer site.
+Increasing number of Escalations coming in primarily for large datasets, old backup data, and very large number of clients made it evident that this test path was being missed out in QA testing environment due to constant churning of hardware resources. Maintaining  a standard customer like environment on a long term basis seemed like a very practical solution for this issue. 
+A Cross Product Customer Environment Emulation Lab can be setup to emulate a Real time Customer environment as against a typical QA environment.
+Multiple Products (Avamar, DataDomain, Networker) can be installed and setup in the same lab environment.
+Database/Plugin clients for all supported Plugins can be setup with production like large sized databases.
+Clients can be shared between products to give better coverage with limited resources.
+Backups can be performed over a very long period of time, day in and day out to test retention issues.
+Daily, weekly, monthly backups can be performed as in a customer setup with yearly backups going to long term retention. 
+Fragmented servers can be used for performance evaluation.
+Supported Tape Library can be used for archival purposes.
+Servers can be upgraded from one release to another thus maintaining legacy data.
+Setting up a Cross Product Customer Environment Emulation Lab would provide a Production like environment in house for multiple products. This setup can be used for:
+- Preventing Scalability and Big production environment issues.
+- Reproducing customer issues in case of escalations.
+- Efficiently testing Hotfix binaries before being deployed to a customer.
+- Documenting Real time issues encountered during customer like installation of multiple product for troubleshooting purposes.

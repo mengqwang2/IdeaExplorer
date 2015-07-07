@@ -1,0 +1,10 @@
+Tax Calculator in Payroll e-Forms
+EMC faces great challenges in finding efficient and cost effective Tax service portal for the people. The suggested Tax calculator makes life easy and addresses the issues. 
+Experience is the master. When I had difficulty in declaring my Tax and investments which made to look out for external utilities. Looking up for those utilities is time consuming, which gave me a thought to have an internal utility.
+1. By having tax calculator in EMC Payroll e-Forms, we can find our actual investment amount to be declared.
+2. This tool can integrate into Payroll e-forms, so no need of manual intervention.
+3. Time management is easier when it’s available internally.
+
+1. EMC Employees can utilize internal utility to check their Tax calculation instead of going for external insecure utilities.
+2. Can save additional time they spend for searching external utility.
+

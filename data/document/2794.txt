@@ -1,0 +1,6 @@
+SMS Notifications for Critical Alarms - New Alerting Channel For EMC Products
+Targeting to improve EMC products and increase the customer satisfaction.
+It is already implemented in some other vendors products.
+Integrate the monitoring and alerting component of EMC products (like SRM, Unisphere for VMAX, etc...) with SMS Center (or SMS Gateway) using SMPP protocol; Same as we integrate with SMTP we can integrate with SMS Center; Then once critical alarm is raised, the registered Mobile numbers, will be notified with the Alarm. 
+For all EMC products, In the Alarms configuration section, we will develop the alarms notification module to integrate with SMS Center or SMS Gateway, and send SMS notifications to the Customer Administrators once certain defined alarms are raised.
+It wil

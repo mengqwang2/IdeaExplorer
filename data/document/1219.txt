@@ -1,0 +1,8 @@
+Smart waste bin
+Cars is used to collect the trash from public waste bin, accordingly those cars is always moving in the streets taking trash from waste bin even if it’s not fully saturated. This lead that those cars are using a lot of gas and space in the crowded streets in time we could analyze a better way to save energy (better utilization of the government resources) and save environment if we have a way to know when to collect this public waste bin.
+Saving energy is one of the most important topics nowadays and in a smart city we should work with a way to save this energy, improves the quality of life and save the environment.
+The idea is to have sensor in every waste bin where this sensor is sending the percentage of this bin to a central database. Based on this information a car could move to collect the trash from this bin when it is 70% saturated. And this system could give the driver a smart way to take to collect those bins
+-Succession of this idea by implementing such a system to track every waste bin in the city, which will lead on a better utilization of the governmental energy resource, giving the people a better quality of life to live a better life and saving our environment.
+
+-The company will benefit from this idea by giving a solution for the big data to save the percentage of each waste bin and give a smart way for the car driver to collect this trash. EMC2 will make money by entering with its storage system and apply data analytics to it in such a smart idea for a better smart life for governments and individuals.
+

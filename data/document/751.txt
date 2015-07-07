@@ -1,0 +1,36 @@
+Redefine Next @ EMC
+1. Advance the performance of our designs, and supporting processes
+2. Transform across the end to end supply chain in terms of cost, quality, availability and time to market
+3. Significantly improve the distribution and installation of our products across the globe
+4. Ground breaking in terms of our contribution to sustainability and customer TCE
+innovation challenge 2015.
+Mobile application/portal which has two views, one for customer and other for sales representative.
+
+Features For Customer:
+-Home page with current trending products
+-Navigation to all available products of EMC and EMC Federation
+-Specifications and Comparison of the interested products
+-Ability to compare with products of other vendors
+-Query/Quotation request for interested products (should be logged in)  
+-Confirmed order status check (Similar to track order in any market place)
+-Option to Update/Query regarding the order
+-Feedback/suggestions to improvise the order process
+
+Features for Sales Representative
+- My sales orders: ability to view current orders, processed orders and waiting for confirmation from the customer.
+- Track order stage along with POC for the current stage.
+- View customer updates\query and respond option.
+- View customer history
+
+Reports
+
+-Based on sales representative overall sales.
+-Each process will have its time recorded, so that can be analyzed for further improvements. 
+- Analyze most viewed or compared products, for better understanding of customer needs.
+-Process improvement will help is saving TIME and COST, which would help in investing in platform 3. 
+
+-Better TCE.
+-Operation improvement.
+-Improved process transparency.
+-Cost saving.
+-More sales.

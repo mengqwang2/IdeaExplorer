@@ -1,0 +1,19 @@
+EMC Skill Share
+
+As candidates in the Global Services Leadership Development Program (GSLDP), we have gained a unique perspective by rapidly switching between roles and functional areas across EMC’s global organization. 
+
+We arrived at our initial “skill sharing” platform idea after focused sessions during which we attempted to analyze (a) the barriers to collaboration within EMC and (b) the existing tools and programs already in place but failing to fully address those barriers. We saw the many skills of our colleagues, their desires to share those skills more broadly, and the need for many of those same skills across the functional and geographic areas within EMC as an opportunity to better connect our global workforce around common needs, desires, and skills. In addition, we recognized the upcoming launch of Inside EMC as a potential opportunity to leverage a truly global and integrated EMC-specific social platform.
+
+With these insights, we have begun conversations with others from the Inside EMC team, Human Resources, and other areas of the company to validate our ideas and more widely collaborate on developing a successful solution.
+EMC Skill Share is a marketplace for harnessing the latent skills of EMC’s global workforce, by connecting those who have skills to share and a desire to share them with those who are most in need of their skills. 
+
+EMC Skill Share is similar to an EMC-only version of Elance or oDesk, two popular websites used to match freelancers’ skill sets from around the globe to others in need of their skills. However, unlike existing commercial platforms, EMC Skill Share is suited for EMC’s unique purposes and accessible only to EMC’s global workforce. 
+
+EMC Skill Share is integrated with Inside EMC, thus encouraging an easy to use “one-stop” user experience while also increasing Inside EMC’s impact as a global social intranet platform. 
+
+Whether you want to build your resume in a particular skill, you need input or help on a business challenge, you want to coach others, or you want to practice your new language skills with a native speaker, EMC Skill Share is for you. 
+
+For additional information on EMC Skill Share, its benefits, and its many potential use cases, please see the accompanying slide deck at:
+
+https://inside.emc.com/docs/DOC-100163 
+

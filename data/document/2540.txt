@@ -1,0 +1,5 @@
+Journal Backups
+This will add a selling point for customer and increase confidence. 
+Too many customers have powered down incorrectly their array and have to start over from scratch or wait at least 3 days for recovery from dev. 
+Create a point in time back up so journals can be easily restored to the last known good state. 
+A button in the gui to restore from last known good state. (or tech command)

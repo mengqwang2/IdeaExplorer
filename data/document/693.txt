@@ -1,0 +1,13 @@
+Highly efficient and automated Elastic Labs
+Our proposed idea contains many small and highly effective solutions which will help to address “Durham Data Center Elastic Labs Challenge”.
+Our idea is to create a SDDC solution which includes, OS virtualization, Openstack or VMware vCloud, Software Defined Network (SDN), Virtual SAN, and Software defined Storage (SDS),. 
+Our current LAB setup has all these solutions working independently and thought of clubbing all together will make a good solution.
+SDS - Software to manage policy-based provisioning and management of data storage independent of hardware. 
+SAN – Normal core and SAN switches with be used for connectivity. However, with the help of SDS abstraction and vSAN be introduced. 
+Network – Post normal network connectivity, we can use VMware SDN to manage network services through abstraction of lower-level functionality
+Automation – Openstack or VMware vCloud can be used for high level automation.
+Console Access – add an option in self-service portal where all hosts and array’s console can be accessed.
+1. Initial setup will allow individual/basic level automation.
+2. This will allow us to reduce Operational Expenditure. 
+3. All devices/resources in LAB be managed from single portal.
+4. Saves maintenance and support cost.

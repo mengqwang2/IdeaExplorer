@@ -1,0 +1,5 @@
+Openstack RDS
+currently, Openstack Nova only filter and weigth compute nodes with CPU, memory and disks perporty. no any consider IO and other paremeters
+openstack qualification give a hint here
+more filter and weigth when instance created. and do IO balance , like feature RDS feature 
+compute nodes will be more usage.

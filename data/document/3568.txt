@@ -1,0 +1,7 @@
+Unified login to all IT resources.
+
+We got the idea during an ideation session.
+That would be a great thing if we have a SSO for all the apps that we use. That would mean that everything I deal with everyday would be somehow internally connected. 
+Since we are constantly dealing with TCs, contacting them could be made easier.  When the TC is offline on the communicator, I can double click their name and it will automatically dial the number through cisco phone. It something that we are unifying all the tools that we use in our daily tasks.
+
+

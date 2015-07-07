@@ -1,0 +1,11 @@
+Splitting of Migration Access Database(MAD)
+N/A
+In Datacenter Migrations projects, MAD is used as a one store database where all the data related to datacenter and migrations is collected, compiled and maintained. Usually there is one MAD admin who is responsible in modifying the data in MAD end to end.
+We have been in a huge project where three MAD admins are required to deliver the tasks in time. While working we have noticed a critical constraint in MAD that only one person can work at a time. Because of this constraint, when one admin is working on MAD the other two are idle. 
+In order to overcome this issue and make MAD accessible to multiple users at a time, we have come up with splitting of the access database.
+
+The idea of splitting MAD has resolved its earlier constraint of only one person using it at a time. Now, the MAD can be managed by multiple uses simultaneously and this feature makes it very effective and user friendly.
+•Multi user accessibility, admins can all work together and not required to work in shifts
+•Effective utilization of resources
+•Increase in scalability, flexibility and security
+•Plan for the future(can easily link the existing front end to SQL Server tab

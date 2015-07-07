@@ -1,0 +1,37 @@
+Find Me - Mobile app 
+This mobile app will connect the demand and supply through people engagement, updates and sourcing.
+2015 challenges
+Find Me mobile app:
+This application to address the challenge and connect the demand and supply through a simple process with few steps.
+
+Application Access:
+- People to create profiles and state whether they are (Teachers,...) or (EMC Employee)
+For EMC employees, the profile creation will allow them to import their data from their inside.emc profile to have a display of their skill set.
+
+Application Function:
+- This application will depend on crowd sourcing where EMC employees will have their profiles updated with their skills, availability,... and school representatives submit a request of what they need and they get the suggestion of employees with their names, availability and contact information.
+
+Application Features (Not limited to):
+- Profiles Creation and editing for:
+.Schools (School website, location, teachers, advisors, representatives,...etc)
+.Schools representatives to link their profiles with their schools
+.EMC Employees (to import their data from inside.emc)
+
+- Materials Data base that allows user uploads and assignee downloads
+- Image upload
+- Availability Calendar feature per skill or group of skills
+- Upcoming events (submitted y schools) and registration (EMC employee can find an upcoming event and proactively register)
+
+- Search by:
+.Name
+.School
+.Location
+.Skills
+.Date
+
+- Notifications 
+- Reminders
+- Share button (images and public content to inside.emc on the user's profile)
+
+
+This mobile app will allow crowd sourcing and provide employees to better connect with schools needs in addition to promoting employees to update their skills on inside.emc and share back their experience where others will benefit.

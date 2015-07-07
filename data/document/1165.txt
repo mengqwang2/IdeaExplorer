@@ -1,0 +1,83 @@
+ Cost-Efficient Architecture for Massive High-dimensional Time-Series Prediction in Quasi-Real Time – Complete Stack
+ 
+This idea builds a complete stacked architecture for high-dimensional multivariate Time-Series Analysis and prediction including hardware, parallel processing, software and optimized models). It takes into consideration:
+1-	Time and cost efficiency
+2-	Optimal components integration and parallelism
+3-	Quasi-real time performance
+4-	Scalability for large datasets 
+
+We have been working on some time series analysis using R. We have been studying such architecture solutions and blocks in an MIT course and we could see Spark power for in memory analytics. Having studied different multivariate time series analytics applications like finance, complex log files analytics, we have been combining the best optimized infrastructure layer for such massive analytics. By grouping the research and experience we could came up with this architecture.
+
+References:
+
+[1]- https://parquet.apache.org/ 
+[2]- http://www.doc.ic.ac.uk/~swd10/asap13cg.pdf 
+[3]- http://people.duke.edu/~rnau/411arim.htm
+[4]- http://labs.omniti.com/people/jesus/papers/holtwinters.pdf
+[5]- http://www.revolutionanalytics.com/revolution-r-open 
+[6]- https://spark.apache.org/ 
+[7]- http://www.cs.uh.edu/news-events/thesis-defenses/2010/04.26-uPatidar.html
+
+This idea proposes a solution for this architecture capitalizing on the following:
+1-	Parallelization 
+2-	Pivotal portfolio and open source (for cost efficiency)
+3-	In-Memory Analytics
+4-	Optimized algorithms
+5-	Enhanced data access using caching
+
+More details about the solution details/algorithms are in references section. 
+
+The solution defines the following architecture:
+
+A.	Hardware Architecture: 
+1-	Use XtremeIO for Storage Backend HW as it offers high performance for real time applications. Also Isilon OneFS can be leveraged as it is ready to serve HDFS distributed filesystem.
+2-	Distributed processing cluster of parallel server nodes with HDFS distributed to host data and make it ready for MapReduce jobs. We can make use of open source multicore clusters.
+
+B.	Parallel Processing Architecture:
+1-	For pair-wise time series analysis the data size can fit into the memory so we will use in memory fast analysis using ‘Spark’ that is open source and best best suited for in-memory analytics and achieves much better performance over other platform like Hadoop (up to 100x) for this type of analytics [6].  
+2-	HDFS: leverage PivotalHD to store the raw data as well as processed data (cleaned, parsed, analysis results) 
+3-	MapReduce: distribute the jobs in a parallel way over HDFS and in real time. Analysis application can be developed in ‘Spring’ parallel platform on Pivotal PaaS. 
+4-	Memory Sharing: memory is shared efficiently between nodes for efficiency and scalability as data increases.
+5-	Use Revolution R open which is an enhanced distribution of open source R programming language that is best suited for such analytics [5].
+
+
+C.	Data Base tools to use:
+1-	This solution uses real time in-memory databases (that are best suited to such type of analysis and optimized for spark) leveraging EMC solutions like ‘Pivotal GemFireXD’ or or open source like ‘Apache Geode’ and ‘FuelDB‘.
+2-	Leverage column-oriented data stores that are better suited for OLAP workloads and analytics jobs. We will utilize open source solutions like ‘Apache parquet’ that is widely compatible with almost all processing frameworks. [1].  
+3-	Use ‘Pivotal HAWK’ for interactive access to data and visualization.
+
+D.	Efficient Algorithms: 
+This solution leverages Time-Series analysis algorithms that are efficient and optimized for multivariate massive data with high dimensionality using pipelining such as:
+1-	Pipelined HAC Estimation Engines for Multivariate Time Series: the algorithms enhances HAC time series prediction algorithm by parallelizing and transformation [2]. Memory caching is also proposed here to avoid any possible memory bottleneck.
+2-	ARIMA for time series forecasting [3]. Detects features like seasonality and stationary as well as trending. 
+3-	Holt-Winters algorithm for Time series Forecasting using Exponential Smoothing [4]. It suits the real-time analysis of the time series
+
+E.	Results Dashboard: The analysis results will be presented in real time in a dashboard using a web-based application in micro-service architecture. 
+
+
+End to End Process:
+1-	Data Ingest:  input data is ingested to the system in 4-byte chunk column-oriented; will be stored in R using matrices and data frames.
+
+2-	Data preparation: data preparation (cleaning, trend and seasonality analysis) will happen in real time in parallel using spark over multi-node cluster. Such operations are independent and can be efficiently pipelined.
+
+3-	Data Analysis:  will include real-time analysis and batch-analysis. Model training will happen in real time updating parameters for real time analytical models like Holt-Winters. In parallel, batch-processing can run independently training the models for batch processing like ARIMA, HAC. Both analysis job will be run in parallel by spark. 
+
+Performance optimization up to 10x can be achieved using a methodology for hardware and algorithms optimization for high resolution multivariate time series suggested using Granger causality algorithm on computer clusters for efficient computations in addition to parallelism using independent component analysis [7]
+
+4-	Output Delivery: Output data can be stored in HAWK for interactive visualization. Results and graphs are returned in web-based application.
+
+Solution Offering:
+1-	Parallelized Cluster over the cloud: the solution can utilize the cloud P-a-a-S offering like Pivotal CloudFoundry (CF) to offload the analysis jobs to parallel clusters over the cloud. Open source cloud IaaS offering like OpenStack. 
+
+2-	In-House parallel cluster: the infrastructure can also be developed in house for full control over performance and infrastructure.
+
+
+Some applications for such solution include: complex log analysis for huge environments, financial data and monitoring dependent services running in a datacenter as such applications include high dimensionality and multivariate time-series.
+
+1-	Cost efficient architecture leveraging EMC technologies and open source
+2-	Optimized high performance architecture layers
+3-	Complete packaged solution including all layers
+4-	Covers end-to-end process 
+5-	Covers different analysis types and different options for each layer
+6-	Leverages 3rd platform applications like CloudFoundry
+

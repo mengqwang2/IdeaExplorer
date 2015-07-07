@@ -1,0 +1,16 @@
+Lab Alert System
+Enabling inherent alert systems of devices in labs would help engineers to take timely corrective measures. Build a tool to consolidate alerts from devices to centralize, prioritize and target specific admin groups and users  
+This idea came while discussing with consultant Engineer, Gururaj Kulkarni
+The proposal is to collect information from all devices 
+Host:
+Collect host CPU utilization.
+This information would help in understanding the utilization of the host. It is also a good gauge to know if the host is actually being used or not. It helps in finding reservation vs utilization of hosts.
+
+System hardware Change alert:
+Develop alert system by creating base line snapshot of the host hardware configuration and doing a periodic check against baseline would help in knowing the changes in hosts in terms of HDD, RAM and HBAs. Helps to determine the planned changes vs un authorizes swapping of components in Lab.
+
+SAN Alerts:
+Alerts that would generate failures of ports and links can be referred against requests in ESM for changes in SAN to control un authorized changes in Lab.
+
+
+This idea would benefit by exhibiting more control on the changes happening in Labs there by able to provide better and faster services to internal customers 

@@ -1,0 +1,23 @@
+Borrow the Opensource Incubation Infrastructure from Openstack
+We propose a solution based on opensource and the successful world-wide crowd source model from Openstack community.
+CTO office has been long time exploring the potential of opensource. We have watched the growing and success of Openstack community. Opensource collaboration model is a good topic and we have kept learning from the community. Modern IT companies often seek solutions to boost employee innovation and promote horizontal collaboration. Then we came up with the idea to join opensource to it.
+Openstack community has built the very powerful infrastructure covers from idea innovation, project architecture & specification, code repository to peer review. That’s a whole process from paper work to code implementation. Every part in the whole process is opensource which we can borrow.
+
+    1) Idea incubation. We use Gerrit. People write their idea in text then submit it on to Gerrit. Other people can see it, leave ad-hoc comment. More, the innovator can modify and submit new version. Gerrit keeps a perfect history of version change and who did what. Photos can also be uploaded since they are also files. Example: https://review.openstack.org/#/c/136103/1/specs/containers-service.rst
+
+    2) Architecture & specification. This is still paper work. The Openstack practice is to leave a folder in each project code base called ‘specs’, putting architecture & specification to it. Since the code does also follow the same Gerrit workflow, like the above. Everyone can contribute and improve it. Example: https://github.com/openstack/magnum/tree/master/specs
+
+    3) Code repository. We host code on git repository. Enterprise version github such as GitLab or GitStash can be used. I think we already have that in EMC. Example: https://github.com/openstack/magnum
+
+    4) Code review. Everyone can submit code to every project. This is how git works. Besides, we need code review, which carries out on Gerrit. Everyone can review and comment on every other’s code patch. +1 is OK, +2 is core member approval, and the code gets merged when score hits threshold. Gerrit is power, we can even search from all commits based on user expression. Example: https://review.openstack.org/#/q/status:open+project:openstack/magnum+message:bay,n,z
+
+    5) Automated testing. This is done by Jenkins. Automated testing is triggered every time new code is submitted. Testing and code review run in parallel. Developer can hook into any test gate as they want, even security penetration tests. Example: https://review.openstack.org/#/c/179568/ (On the right is Jenkins tests)
+
+    6) Member statistics. If you want to see how performant everyone is, check out Stackalytics. Stackalytics shows how many code reviews, how many code commits, and many other statics of a member. It is opensource. Example: http://stackalytics.com/?module=magnum-group
+
+Optionally, we can write a simple app as the gate to the above whole process. There should already be mobile versions for the components above. Since they are opensource!
+
+Most of the points can be seen in “Problems solved”.
+
+Besides, the solution increases EMC opensource influence, potentially boost employee innovation and collaboration, and closes the gap to EMC opensource strategy.
+

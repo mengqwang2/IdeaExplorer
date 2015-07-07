@@ -1,0 +1,8 @@
+Better Traffic control and traffic management
+
+In the past worked on 'smart cities' from Energy industry solution standpoint. Extended that thought process to solve the current traffic problem in Bangalore. It is not novel, in the sense, out of the box innovation, but it is integrated business implementable solution. It is just in idea stage, not gone through any internal evaluation.
+The solution is a combination of IaaS, PaaS & SaaS to address the end user problem. In addition, it includes the elements of Social, Mobile, Analytics & Cloud (SMAC). 
+>Generate urban infrastructure (Population, preferred transporation, available infrastructure etc)
+>Create information and control platforms (Network management system, Transportation operational data, adaptive traffic control, central monitoring etc)
+>Build transportation applications (Vehicle movement, Junction status etc)
+

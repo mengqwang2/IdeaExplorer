@@ -1,0 +1,14 @@
+Global Collaboration Suite 
+This innovation proposes the exploration of several methods of improving the interactions and collaboration between a global workforce through the use of technology. 
+As a global group, this innovation team has experienced these pain points first hand & has discussed how to improve these interactions. 
+Technologies of interest to increase collaboration between global teams are as follows:
+
+Ava 500 – iRobot’s telepresence robot allows for the establishment of a physical presence from a remote location, while maintaining complete freedom of movement. 
+
+Microsoft Surface Hub – With Skype for Business integration, the Surface Hub enables teams from remote locations to interact together. Notes can then be saved as a OneNote file and distributed to the team as reference or to pick up from at a later point.  
+
+Microsoft HoloLens – Bridging the virtual and real worlds together, this mixed reality solution can enable global teams to interact with the same content from any location. 
+
+- Removing friction from global team collaboration
+- Reduce travel expenses (visit your team virtually)
+- Happier, more connected global teams

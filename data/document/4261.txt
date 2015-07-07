@@ -1,0 +1,9 @@
+MyVoice Mobile App
+
+An easy and fast way to ensure that your voice is heard 
+The idea is to create a mobile application that will allow employees to add their suggestions and complaints. The application will also allow employees to add announcements regarding upcoming events within the CEO. 
+
+Management and HR can use the suggestion section of the application to improve the work environment and implement any feasible idea that may render employees more satisfied. A voting button can be added as well to check how many employees support the suggested idea. HR can also check the complaints section to get a greater insight into employee’s satisfaction level with the current environment. 
+
+The announcement section will be for employees to be notified of the upcoming events taking place in the CEO as most people tend to check their mobile apps more frequently than their work mails especially when out of office.
+

@@ -1,0 +1,5 @@
+Compression of VNX persistent metadata
+
+The idea appeared during discussion about quite big size of FASTVP persistent metadata  for VNX with maximum capacity.  I proposed to use compression to decrease size of FASTVP metadata to fit budget of private LU.  However, due to lack of resources and big amount of code changes, it was decided to consider this idea for FASTVP team backlog for later iterations.  No internal evaluation or implementation of the idea has been done.
+Persistent metadata compressed and decompressed sequentially (without random IO access) so  complexity of compression framework is comparatively low.  However, compression should provide high throughput to avoid bottlenecks during system failure and restart when persistent data should be written and read very quickly.  C-EDRS (EMC compression library) implements compression algorithms having throughput 500MB/sec or more.  So, it can handle this use-case even if FLASH drive is used as private LU.
+

@@ -1,0 +1,27 @@
+Error Cataloging with machine learning based Self healing capabilities for CTD products
+We are trying to improve the serviceability by proactively taking necessary action to resolve customer issue with minimal or no interaction. Hence improving the overall customer satisfaction and turnaround time for resolving any issue or failure
+Today whenever there are issues on the field, there are dedicated CSC personal who are involved to resolve issues. This may lead to involvement of Engineering also. Hence it takes few hours to few days to resolve the issue.
+
+We are trying to find a way to reduce the turnaround time drastically.
+CTD products have a mechanism to detect issues and notify the user. 
+Our solution is to provide Automation to resolve these issues and also learn for future need.
+
+As part of acknowledgement, user will be given an option to resolve the issue seamlessly using already known steps. This will lead to improved troubleshooting speed/accuracy, preventing and Fixing customer issues, by minimizing the Turnaround time on field.
+
+Problem 1: If there is a "System Lock" due to multiple configuration changes request, user will get error message "Resources needed for configuration change session are locked by an existing change session"
+
+Resolution 1:The above error can be resolved by checking if lock is been acquired by a failed config change session. If so them release the lock by issuing set of commands
+
+Problem 2: If one of the director/emulation goes for DD state
+
+Resolution: We will run a set of commands to know the reason behind the DD and then run the recovery procedure. 
+
+Problem 3: Statistics Collection suddenly stopped from SMI-S
+Resolution: Check if SMI-S is responding. If not then restart ECOM to resolve the issue. If the issue repeats a regular interval then the we should have a mechanism to restart ECOM automatically on a timely basis.
+
+
+There are several such issues(Array based or Host based) which can be automated and proactively resolved to improve serviceability.
+Reduce the turnaround time drastically
+Improve the serviceability 
+Reducing the number of customer contact points
+Intelligently resolving issue with machine learning

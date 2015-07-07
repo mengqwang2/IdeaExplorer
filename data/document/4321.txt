@@ -1,0 +1,5 @@
+Automation testing based on GUI 
+
+The majority usage of mouse and keyboard
+For the GUI automation process includes opening testing software, running every test case, close the testing software. And every test case running process also includes initialization,search and manipulating controls,detect software's response and record log, and the clean work.
+

@@ -1,0 +1,7 @@
+VMAX Applications Store
+This brand new mobile-like market will cover all VMAX3 customers and vendors interested in development for Enterprise using Hypermax providing them with easy and clear E2E communication while still being easy to develop.
+This idea has just got to my mind in past 3 hours and I thought that it could help with Hypermax OS and VMAX marketing.
+Create VMAX Store, where customers can browse (through VMAX - in order to get OS version and patches installed) and install SW onto Hypermax OS in several clicks (specifying only the minimum of info: where this app is going to run and what resources will be occupied/shared by it).
+Also this Store will provide vendors with centralized access to EMC customers that could get interested in apps that can be embedded into VMAX.
+1. Money income - this Store might add much to EMC revenue in VMAX customers field.
+2. This Store will appreciate vendors develop SW for Hypermax OS as they will be sure where they can find customers for their solutions.

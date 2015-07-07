@@ -1,0 +1,5 @@
+A web portal/Mobile app to order meal/Snacks at desk/work
+My idea would help create a healthy, fun and exciting workplace. This would also drive employee efficiency with reduced stress.
+This is already an extremely successful practice in Microsoft India (Bangalore).
+Create a web portal/mobile app which lists the menu in the office cafeteria or restaurants/cafes nearby. Employee can punch in the desired order right from the desk and the meal would be delivered to desk/office.
+This would really help EMC create a healthy, fun and exciting workplace. This would also drive employee efficiency with reduced stress.

@@ -1,0 +1,10 @@
+EMC Conference room availability solution
+We have noticed that many-a-time conference rooms are booked by people but they really do not use them and when someone wants it to book, they find all the rooms are busy.
+We are facing this problem very frequently and me and my colleagues Aravind, Sarat are thinking how can solve this issue.
+Checking: There we need to have access card swiping system enabled for IN and OUT for the room by the organizer or one of the invitee who have accepted the meeting invite. When they enter they will swipe in the card and at the time of out they swipe out. 
+
+Reminder:  Alert will be sent to the organizer if swipe IN is not done, and on no response room booking will be canceled. Reminder email will be sent to person to check if he/she needs the room? or else cancel it.
+
+Auto Cancellation: If no swipe IN is done then after 10 minutes, room will be released.
+
+On implementation this idea, we shall have optimal use of conference room and its resources and people will not find it difficult to book a room.

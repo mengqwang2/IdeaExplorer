@@ -1,0 +1,5 @@
+Create a crowdsourcing hub for EMC employees
+Solicit contributions from across the organization to help sub-divide tedious or repetitive tasks, or help solve problems too large for a single department or group
+Came from reading about various crowdsourcing projects on the internet. One of the earliest examples of crowdsourcing dates to the 18th century call the Longitude Prize (https://longitudeprize.org/history) 
+A crowdsourcing hub could help provide a way for various individuals or groups to come together and collaborate to find a solution. Crowdsourcing has proved to be a successful mechanism for organizations to solve problems that would have been to great to solve limited to their own resources.
+Web portal to allow groups to register challenges and to contribute/submit ideas or solutions to particular challenges. Groups whose idea is accepted and implemented could be rewarded

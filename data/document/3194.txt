@@ -1,0 +1,5 @@
+Electirc effiecency system
+
+I have often heard that the COE is paying a huge amount of money for electricity and i can see examples within the COE where is waste of energy
+The building will be equipped with motion sensors that will be connected to the rooms and facilities power switches so that it turn on while there is presence and off when there is no presence
+

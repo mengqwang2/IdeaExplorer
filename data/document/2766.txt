@@ -1,0 +1,15 @@
+Integration Of Lync to make VoIP call to Mobile or landline numbers
+Based on our Work Culture, in many teams like professional Service, we travel to client location or other place and need to contact different people or team at international location. We face issue because we don't have IP phone to call international.
+This Idea is based on many application available in market which we can use to make VoIP calls E.g. Skype.
+
+Many times when we go onsite, customer doesn't provide us facility to call outside there network or city, which is extremely important based on nature of work we do. we need to coordinate with many people to keep the project going.
+
+Today we are in internet era and we must have our enterprise product to use to communicate easily with our customer if needed, instead of delaying if you are not in office.
+We may add additional functionality in Lync to make VoIP call to any mobile or landline numbers like other application (Skype)available in market(in addition to call only Lync contact) or we may create a separate application which will help to make outbound call (VoIP)on mobile and landline.
+
+How does it better then other approach: 
+
+As if now we don't have this functionality but we do have apps (Like Phone Direct) to join conference call, However many times we need to contact customer directly without a conference call which is only possible if we are in office and can make call via IP phone. But if we are outside office or working from home, It is not possible which may lead to delay in our work 
+If we have this Idea implemented, It will help to generate a great work culture by using new way of communication and increase productivity with ease in working on project even if we are not in office location.
+
+This will CSAT and benefit EMC

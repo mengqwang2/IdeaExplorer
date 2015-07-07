@@ -1,0 +1,19 @@
+Multi-datacenter Transaction and Data Distribution Enabled by Paxos
+There are many opensource implementations of Paxos algorithms such as Raft, etcd. Based on the opensource Paxos, we propose a solution to unite storage pools in multiple datacenters, support the transaction and configurable data distribution across them. The solution should also be opensourced so that different storage vendors can easily provide drivers and join our solution.
+CTO office has long time been investigating the possibility of cloud storage. Many cross-datacenter storage technologies have been proposed. Data replication has served as the main approach to maintain availability and access delay in geo-distributed datacenters. As the prevailing of opensource Paxos implementation, we try to explore its potential in cross-dc use cases.
+
+This solution is also inspired by “CalvinFS: Consistent WAN Replication and Scalable Metadata Management for Distributed File Systems”.
+Our system doesn’t store user data itself. It provides the central orchestration. Users already have many storage pools in multiple datacenters from different vendors. These storage pools join our system, and together we form the unified global storage pool.
+
+The core component of our system is a Paxos quorum. Its nodes reside in multiple datacenters (where user’s storage pools locate). This forms the globally consistent quorum. For example etcd provides such setup.
+
+The multi-datacenter transaction is implemented by write-ahead-log (WAL). The log is divided into trunks. Each trunk has a unique ID. The ID governs the order of these trunks. When a new transaction is launched, only IDs are stored in Paxos, small size and quickly replicated globally. Log trunks are stored in user’s storage pool. Each pool stores only its local related log chunk, in parallel.
+
+The meta info of how data should be distributed across datacenters is stored in our Paxos. For example a consistent hash ring or “CRUSH map” (borrowed from Ceph). Whether a piece of user data (for example an object) is in or not in a given datacenter, is stored locally each in user’s storage pool (for example by bloom filter). There are replicators watching data distribution and moving data.
+
+The whole implementation doesn’t require modification inside user’s existing storage systems. Each vendor needs their specific driver to be connected to our system.
+
+The system should support multi-datacenter transactions. Data replication can be controlled across datacenter. Different vendors of existing storage systems, whether opensource or not, should be able to write drivers and join our solution. It solves the long history problem of how to unify datacenters and provide a global storage pool.
+
+The solution has the possibility to be integrated into ViPR Controller, which is already a multi-vendor storage control plane. Both EMC influence in opensource and proprietary storage world can be much increased.
+

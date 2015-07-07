@@ -1,0 +1,8 @@
+Engineering Community 
+
+We in support have times not been able to answer customer queries effectively and get lost trying to find authentic answers from colleagues, engineering/development would have been the right people to answer those.
+This may not be an ongoing issue on the product but related to the architecture in the whole. 
+Currently we only have the surge tool to engage engineering with goring problem with the customer product 
+Any forum wherein support can directly engage engineering with product related questions and get time bound answers which are not end customer related.
+The forum should be internal to EMC where we can get the answers directly from engineering/product development and would be helpful in understanding the product better 
+

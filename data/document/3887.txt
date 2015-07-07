@@ -1,0 +1,5 @@
+Datacenter blueprinting integrated tool and enhancement
+
+We have another product or tool, relying for the rest of work which ADP (Datacenter blueprinting tool) doesn't provide or doesn't have more granular information which needs another interface to integrate all for the workshop. 
+ADMP (application discovery management planner)tool would enhance our ability to present the Datacenter blueprinting more granular and reduce our manual work or depending on another tool with integration of performance analysis, infrastructure inventory detail as capacity planner tool, gathers load balancer network HA ability to map the traffic in the workshop, Network equipment measurement and network traffice layout. 
+

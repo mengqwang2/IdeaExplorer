@@ -1,0 +1,26 @@
+Cloud Computing Advertisement Project
+
+NA
+Create a market Ad that would encourage small business leaders and entrepreneurs to move to the cloud service.
+
+Advertisement specs:
+Ad duration: ~1 minute
+Ad content: 
+1- Advantages of Cloud over client-server model
+2- Characteristics
+3- Service Models (convenience)
+
+
+Contest Specs:
+Duration: 3 weeks
+Groups: 3 to 4 students per group
+Structure:
+Week1: Research 
+Week2: Formulate Ad content
+Week3: Create and develop the Ad
+
+Winning Criteria:
+1- Demonstrate the cloud concepts in the best way
+2- Creativity and innovation
+3- Consider target audience clearly
+

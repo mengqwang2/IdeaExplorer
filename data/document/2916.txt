@@ -1,0 +1,10 @@
+'entitlement check' improvement
+This idea will help EMC get more revenues and profits by improving the process of 'entitlement check'. This matches the goal of APJ COE "Solutions Platform" Challenge
+This idea comes from a real story in support team. We found one of our EMC partners used one license opened cases for serve different customers. We guess these customer bought EMC products from this partner directly. They may or may not buy EMC support license. This is an area EMC can do better to get more profits.
+In support team, there is an 'entitlement check' process which target is verifying if the license used to open case is valid or not. However this process can only check if a license is expired or not, an EMC partner can bypass this by using a valid license from another customer. For example, CompanyA's EMC license has expired, when they need a help from EMC support team, they use CompanyB's license to open a support case. 
+
+To fix this:
+
+--Enhance the 'entitlement check' process by introducing a new survey mechanism. The intention is helping identify if the issues are really reported by them. If we find some cases are not opened by customer, this means their license is abused and another customer should buy license but they don't yet. This also means an opportunity that Account team and Sales team can then follow up to get revenue from.
+
+This idea is supposed to bring more revenue and profits for EMC. The goal can be achieved by enhancing the current 'entitlement check' process in support team. From customer perspective, their license and rights will be protected well and they will get a 

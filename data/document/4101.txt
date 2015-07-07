@@ -1,0 +1,29 @@
+MediFriend, will be an application which will keep all the medical history of a particular person. 
+
+My parents usually do the health checkup from well-known hospital chain in Bangalore. Recently due to some emergency they have to visit a Hospital in my native. They are not aware of any kind of health care app and also my parent`s medical history. They had to redo the entire medical checkup. Also they have advised some medicine, to which they are allergic to. So they had to go for the allergy test also at later point of time.  So discussed this with some of my colleagues, we came up with this idea.
+As soon as the user will signup for this app will get an unique patient ID. He needs his mobile no and email to register this app and to keep them sync the data with mobile and web. All the medical records will be kept in cloud. All the records will be kept in cloud in encrypted format so that the data security and the sensitivity will be maintained. 
+Features
+1.	Availability of medical reports always: The user can also sync all the medical history to his mobile using mobile app, so that when there is no network connectivity he can use the existing details as well.
+2.	Setting confidentiality to the medical reports: The patient can set the level of confidentiality to his medical history as well. The registered hospitals need to see the report of an existing user, need to login first to see the user details based on the data confidentiality set the user. 
+3.	Health checkup schedule: This app will also have a feature for health checkup. Once a person will visit a hospital for checkup based on the criticality of the user the doctor set the next appointment with the patient. The next health checkup appointment will be automatically set to both the doctor/ hospital as well the patient’s calendar (mobile calender). The user will get a reminder as well as acceptance and decline option for the next appointment as well.
+4.	Data security : The medical records are most essential and sensitive data to a person. Hence there could be data security will be provided so that the user can kept the data secure.
+
+Future Enhancement :
+1.	Accessing the data generic health data (like BP report, Blood group, height and weight etc) of a person very easily so that in case of any medical emergency, quick medical support can be provided to this person. 
+2.	The person can also declare that, if he has donated bone marrow, blood , (eye, heart etc after death). We can integrate this with the hospital data server, so that after his death when the organs are available the nearest hospital can use them.
+3.	In future the user can connect the mobile app with the gear watch. So when a person is doing the workouts wearing the gear, he can save those moments to this app as well.
+
+Business Prospects:  
+1.	This app can be a client server model. If the willing hospitals want to use this they can buy the company license and deploy it on their server. The individual user can get a license directly by paying minimal charges they can use it for their own. Even the medical insurance company can store their client’s medical data using this app. 
+
+How IIG/EMC get benefit out of this solution?
+
+Using IIG applications such as Documentum/ eroom, xCP, captiva and Syncplicity the Medifriend solution can be developed which will bring in revenue to the organization.
+
+EMC bringing in Social Care:
+a.	Having all the medical records would be extremely handy for the person in case of any medical emergency such as accidents. 
+b.	The mobile app will provide all his medical records, medical insurance details which will help the patients in getting timely medical attention even though his relatives or friends are not available at the hospital.
+c.	During the case of accidents, having the information about the previous medical history would be very helpful for the medical staff in determining whether the patient is diabetic, hypertension or Blood pressure. By knowing these conditions his/her treatment can be started in case of such an emergency situations and a human life can be saved.
+
+
+

@@ -1,0 +1,10 @@
+preserve the LUNs' WWN when capture the array configuration in the VNX2
+We were using the arrayconfig tool to restore the array configuration in the VNX2 after ICA. the LUNs were original exported to RP&VPLEX for using. unlucky the WWN were changed after the restoring so that VPLEX&RP can not recognize those luns.
+we tried to use arrayconfig to restore the array but failed with followings issues.
+LUNs' WWN changed.
+Rule checking can not be disabled
+Resources did not wipe out in case of failure
+Restore the LUNs w/ original WWNs.
+Add some options to skip some rule check during the restoring.
+Rollback all the storage resources(LUNs & Pools) in case of restoring failure.
+customer may leverage this tools to restore the data center more easily in case of restore.

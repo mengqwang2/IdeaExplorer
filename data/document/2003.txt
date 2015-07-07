@@ -1,0 +1,8 @@
+Mobile App for Company Cab Transport 
+- Its always a pain to guide the drivers to the pickup points.
+- You have to login to EMC network with VPN connected to change your cab requests.
+- Most of the times it is difficult to reach EMC transport helpdesk number, so in an emergency situation also.
+- During drop, if an employee is not turning up also, the cab mates have to wait 15 minutes to move the cab. During peak traffic hours, 15 minutes means a lot.
+Got this idea from private cab services in the city who are using similar technology to track their drivers, passengers etc and found very convenient.
+A mobile app for the Cab/Bus transport, which is able to track the cab position in real time, update pickup and drops. Cabs also need a device with map where driver can locate the employee pickup point in real time. App can update cab number during drops, quick change button for raising a last minute cab requests / changes. If the employee is not using the drop in last minute, can help by updating the tool so that the cab can move within the 15 minutes buffer time. Include panic Button in app for safety.
+Employee have easy access to cab tool. Safe transport as anyone can track cabs real time. Avoid waiting for a long time to arrive the vehicle to pickup point. Easily guide driver to the pickup points. Avoid buffer time waiting if the employee is not using the drop service.

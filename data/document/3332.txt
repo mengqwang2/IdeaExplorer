@@ -1,0 +1,7 @@
+Install base Tracking tool
+
+finding difficulties knowing the reason or the requester of an IB modification
+Create a new field in the install base with all its modifications, reasons, requestor & performer of all these modifications.
+
+This will make it easier to track the changes taking place on our database and the reason of the midifcations
+

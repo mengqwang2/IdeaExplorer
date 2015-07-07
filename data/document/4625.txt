@@ -1,0 +1,5 @@
+learn/practice a new language application
+
+English isn’t counted as an extra spoken language here in Egypt so some people with very good qualifications can’t find a good job just because they don’t speak an extra language. and I have been learning Chinese since I went to collegue,and have been facing the problem of the lack of practice since I graduated .
+once the application is downloaded the user will fill a short applications that will include "name,age,educational background,hobbies,interests,spoken languages, languages that need practice”, the application will link users with same interests or educational background and the languages (example: user A needs to practice French and user B speaks French/is a native speaker),the application will also include free calls and video calls to be like a live practice.this application could be applied in schools, colleges so that everyone could practice an learn languages easier and in an interesting way so that will save their time of learning a language after graduation and losing the opportunity of finding a good job.
+

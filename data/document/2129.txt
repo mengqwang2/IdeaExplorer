@@ -1,0 +1,7 @@
+Lets go Green - Claim Paperless
+Everyone in EMC family submit the Telephone & Internet bill either through Concur or through FBP, and we print bills and acknowledgements  for that. It consumes at least 10 Paper per Employee
+Its a thought came in the mind to save paper, save trees, save the 
+May be a tool in Inside EMC which allow us to raise the request by attaching PDF / JPG receipts instead of printed copies
+Success will be saving the Nature, and saving cost of procuring the paper and Printer consumables. Also it will save the manual effort of collecting the claimed bill/receipts from Drop Boxes from all the floors and both the towers
+
+

@@ -1,0 +1,5 @@
+Mapping History 
+The Community Involvement Challenge has asked for a platform or app that facilitates crowdsourcing of ideas. The digital map environment is a streamlined means of submitting, organizing, presenting, and sharing suggestions.
+I was inspired by the pinning/mapping features of Pinterest and Instagram.  
+What I propose is to combine submission and presentation through fields for title, description, location, and tagging by media type. Once you've described your idea and articulated its significance, you can "pin" the idea on a global map, giving visitors multiple criteria by which they can find and learn about your proposal. Ideas will be easily viewed, searched, and optimized for internal and external sharing.    
+It will optimize a process. The first time a person successfully uploads an idea, has it adopted, and has the output shared and viewed within a social network - internally or externally - it will have succeeded.

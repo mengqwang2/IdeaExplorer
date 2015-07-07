@@ -1,0 +1,22 @@
+On Demand provisioning of Test Automation Framework for Security vulnerabilities and usability
+
+We both sat together and come up with this idea to provide usability and security to access VMs with different Test Automation Framework. We have come up with idea of accessibility of test automation framework and doing the testing for vulnerability of application and performance and automated functional testing.
+This on-demand provisioning of Test Automation Framework for Security, vulnerabilities and usability would solve time require to provision a test automation framework on demand which would take care of application security vulnerabilities and which can solve the usability through the 3rd platform (mobile application platform).  It triggers an Intelligent On-Demand Test Automation Framework VM. This solution contains the following core components:
+1.	vCloud Automation Center
+2.	vCloud Director
+3.	vSphere
+4.	Cloudlet or VDI
+5.	Test Automation Framework
+6.	Application Director
+7.	VM Template
+8.	VM and Application
+
+Cloud-let: It does not have any hard state, but may contain cached state from the cloud.  It may also buffer data originating from a mobile device (such as video or photographs) en route to safety in the cloud.  The avoidance of hard state means that each cloudlet adds close to zero management burdens after installation:  it is entirely self-managing.
+It has excellent connectivity to the cloud (typically a wired Internet connection) and is not limited by finite battery life (i.e., it is plugged into a power outlet).    Its integrity as a computing platform is assumed; in a production-quality implementation this will have to be enforced through some combination of tamper-resistance, surveillance, and run-time attestation.
+
+Client-based mobile VDI: Typically, a mobile VDI client application is installed on each mobile device. This application creates a VDI session between the mobile device and the organization’s computing infrastructure. The VDI session allows the mobile device to access various applications and data through a virtualized interface. 
+Browser-based mobile VDI: An alternative architecture uses a web browser (generally, one that supports HTML 5) to access a web-based mobile VDI client. 
+With this architecture, it’s unnecessary to install a mobile VDI client application on the mobile device itself, and it is assumed that the mobile device already has a web browser.
+Regardless of the client architecture, mobile VDI works by giving the mobile user an image of a virtual desktop. This means that the data and applications stay at the organization’s facilities and aren’t present on the mobile device.
+
+

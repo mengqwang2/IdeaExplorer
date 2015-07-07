@@ -1,0 +1,5 @@
+Energy Saver Machines
+N/A
+ came up with this idea when I was sitting in an innovation session
+The products of EMC should have a thermometer for measuring the energy consumed. using the software of the thermometer, the customer controls when these machines work. The user can set a time for each machine/product to turn off at predefined times throughout the day. That's how we can reduce the total cost of ownership for our customers and life-cycle greenhouse gas emissions from our products.
+N/A

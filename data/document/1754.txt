@@ -1,0 +1,15 @@
+Challenge portal
+My solution is a portal that helps employees to solve their  problems and challenges related to Business.
+The Idea came to me at the beginning of my work at EMC. I thought about how old employees could share experience and knowledge with recent employees. also how recent employees could share new ideas with the upper management.
+
+The core idea of the portal is mainly sharing and participating in a secure manner.
+
+It's kind of a forum, employees will be able to post a question, challenge or a problem that needs to be solved.
+
+They also have the chance to Answer posts and vote for best answers.
+
+Employees will have virtual identity, their real identity will be hidden in a secure manner so as to encourage openness.
+ 
+This Idea will encourage innovation for challenges in Global EMC in general as it support sharing knowledge and experience over different cultures and backgrounds.
+
+It will also helps employees to develop and engage in EMC business.

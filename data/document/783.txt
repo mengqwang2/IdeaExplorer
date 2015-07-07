@@ -1,0 +1,5 @@
+Test Cell development
+Redesign the test cell layout and process to and reduce test floor footprint and increase resource flexibility.
+I brought up the idea at a Cumulus Kaizen in 2014. The primary goal of the Kaizen was not the cell re-design so it was not developed since then but the base work from that Kaizen will give the opportunity to redesign the cells as part of the next stage of Cumulus. 
+Reducing floor space and improving resource utilisation is always an ask of EMC. With Test Equipment reducing in size and suspended on an overhead platform this gives room to reduce the test cell foot print but keep the volume of testers. Merging the cells (one parallel to the other) allows testers and staff to carry out the same quarterly O/P while reducing footprint.
+Implementing this Idea has the potential to clear the DPE cell saving 5000sq ft+ of space. The project would also refine resource usage.  

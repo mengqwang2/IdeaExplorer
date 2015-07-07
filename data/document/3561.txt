@@ -1,0 +1,8 @@
+Employees to generate energy
+
+We got the idea from the an ideation session on how we tackle a funny solution that can involve every one in the organization to know how important to be sustainable. 
+We can install stationary bicycles in each floor/flex rooms, each person will login in using his credentials "swipe his EMC card". The kinetic energy of the cycler will help generate electricity and a screen would show employees how much electricity they contributed in. 
+
+The system would then track the KM in cycling for each employee and each KM would be exchanged for points. The employees would then receive a voucher to buy a sustainable product generated from EMC sustainability web site.
+
+

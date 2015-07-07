@@ -1,0 +1,16 @@
+Self-Responsive Lync
+
+Came out of problems face is day to day activities.
+The idea is,
+
+Lync should first analysis the severity of the messages i.e., the once that are marked with High Importance.
+
+On analysis it should be able to automatically redirect the mail to the next immediate person available in the same team.
+
+This would avoid the person in trouble having to send out an a mail to the person mentioned in the Out Of Office message.
+
+Benefits: 
+
+This would save a lot of time involved in e-mail circulation.
+
+

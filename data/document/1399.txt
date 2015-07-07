@@ -1,0 +1,16 @@
+Solution_On_The_Fly
+This Solution will help the customers with product information, his bugs information, will help the support and Engineers with the bug database. 
+Brainstormed with co inventor for this challenge.
+Proposed Solution:
+------------------
+- We will create a portal where we can have similar products information(Cloud, DRaaS, Maginatics,Networker) its builds.
+- It will also have a template(How customer is using our product) using which support guy can simulate the issue that customer is facing quickly.
+- It will have a database which will have all bugs info which can help support and inline Engineers. We can give access to customer for their bugs so that it can help them with known issues and workarounds.
+- It will also have a repository for logs for analysis of similar issues.
+- For each bug we can have a team of Dev, QE and Support working on similar product so that all can pitch in. If support guy is facing issue then QE or Dev can help in solving the issue. 
+
+
+- It will improve overall customer experience.
+- It will help our support and Engineers to solve issue quickly and in a better way.
+- We can get more promoters in customers.
+- It will also help in creating customer like scenarios in future releases and avoid customer escalations.

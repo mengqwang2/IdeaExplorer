@@ -1,0 +1,17 @@
+Big data analytics to improve TCE
+1. TCE Challange - Customer Services is all about TCE. Analysing data based on time sent to resolve, most recurring issues to feed information to customers
+2. Global Solution Challange - This idea provides a solution which can be implemented globally with great business benefits.
+ECN - EMC Community Network, is a place where several documents, KBs and videos are placed for customer consumption, a mode of proactive support. Currently manual SR and KB analysis are in place try to find out top trending issues. Customers use these documents, KBs and videos frequently, which is directly reducing the number of SRs. But most important is Customers experience, which certainly improves when they find useful information on ECN and resolve issues without having to contact EMC.
+Finding top trending issues is time consuming and results can be slightly off expectation, but using BigData reports will be faster and reliable. 
+Using Big-data analytics to find correct and useful information based on different parameters such as Location, Time frame, Product, Client, SRs etc. This information can be used in various ways. 
+
+For example - Select location: China, Time frame: 2 weeks, Product: Avamar, Client: ALL, Total number of: SRs, Issues Details.
+This information can be used to find which are top trending and most recurring issues with Avamar in China during a given time period. Once we identify the top trending issues, we can publish resolutions for these issues on ECN and promote them on Social media which will help our customers and in turn reduce SR volume.
+In similar fashion, we can find how many SRs took more than 7 days to get resolved.
+After finding the most recurring issues from the SR database there are two big possibilities:
+a. Create a KB if one is not available already
+b. Publish information on ECN & Social media, which will help to reduce SRs and improve TCE.
+
+A recent example when documents published on DPAD ECN received 1Lac+ views in a year, shows the importance of this process. 
+Management will be able to identify SR/Issues which took longer to get resolved, based on this information, management will be able take appropriate actions to improve resolution time such as adding more TSEs to specific domain, provide training to TSEs, focusing more on such SRs etc.
+If we put useful information on community forums and social media, we can increase customers community involvement too.

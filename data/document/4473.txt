@@ -1,0 +1,5 @@
+Mobility service to the lab machine management
+
+Sometimes we need to work at home, we find it's suffering to take the heavy laptop home and turn on it to work. We have iPhones and IPads and people are getting away from traditional PCs, so we come up with this idea.
+The idea is: We can have an app on IOS or Android about our lab machines, when we login into the app with VPN, it will list our lab machines, and if we want to use the machines, we can choose one machine and it will launch a putty-like console interface, so through this console interface, we can check our machines, monitor their status and also perform some interactions, which will make our work more efficiently and conveniently.
+

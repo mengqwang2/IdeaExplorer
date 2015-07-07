@@ -1,0 +1,10 @@
+ARRAY MIGRATIONS VIA VIPR
+
+While browsing the challenges, got this thought
+Please refer to 2013 finalist idea :- 2013004107 - Finalist idea - EMC Migration Manager via ViPR.
+Now the enhancements this year to the above idea would be :
+
+Discovery is already supported via ViPR platform
+ViPR only supports host based migrations as of now
+Just integrate Atlas tool for planning data migration part of ViPR web interface as Atlas is already web based and then achieve easy data migration via common UI as mentioned in 2013 idea :- 2013004107 
+

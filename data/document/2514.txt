@@ -1,0 +1,12 @@
+Improving data replication and migration speed by compressing original data for VNX replication and migration feature.
+data amount to replicate or migrate will be reduced after being compressed, it will improve user’s experience especially when there is a large amount of user data.
+Data replication and migration is one of the most important functionalities for CTD product
+We often need to execute some test cases which will replicate or migrate a large amount of data from local array to a remote array for VNX Rockies cycle testing, but found the data transmitting speed is slow so we have to wait for long time to check and verify the data integrity .
+
+step1: read original data and then sequentially divide them into a series of data block (such as 8M/each block)
+step2: put them into a queue and then use a kind of algorithm(such as LZO, Snappy) to compress these data block
+step3: replicate data cpmpressed to remote side
+step4: uncompress data received at remote side.
+The process could be similar to receiving/sending Video/Audio stream online. 
+
+it will definitely improve product performance and improve customer satisfaction.

@@ -1,0 +1,12 @@
+Disk Retention Process Automation
+This idea is to make the process more effective and simple.  The objective is to automate the process through system integration and thus reducing the manual intervention in turn we are saving few head counts globally.
+Our Team is working on Disk retention process, where to process each case it takes 10 min by doing this way it can improve the TAT, Quality and we can save head counts.
+The solution will be system, Once the Disk Retention support purchased for the serial # System has to recognize the serial # System has to automatically interface with SAP create a contract with Disk Retention support with zero value and activate it with NC billing similar to Warranty Contract. So that our TAT will improve, we can avoid manual intervention in turn quality will be 100% and we are saving head counts globally also slowing all the downstream processes.
+If this is implemented, below are the some benefits. 
+
+Faster Order processing/reduction of TAT.
+Process automation.
+Reduce the manual intervention
+Few head count saves globally
+Overcome the quality issues
+

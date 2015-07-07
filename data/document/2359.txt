@@ -1,0 +1,5 @@
+Android, Apple and windows app for blood donation
+App to address blood needs in emergency
+When one of my friend met with an accident it was difficult for them to find 0-ve blood. Sending email to all the DL's in EMC resolved it
+This app will ease the search for matching blood groups in case of an emergency.
+This would improve speeding of health services

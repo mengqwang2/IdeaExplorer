@@ -1,0 +1,12 @@
+3-Dimension Modelling System
+
+We came up with the idea after seeing the initiative to provide virtual bio chemistry labs, neurological labs by Amrita University India. When we can do a complex biological experiments virtually we still have space to create virtual labs for all in IT industry.
+
+http://amrita.vlab.co.in/?sub=3&brch=43
+A web application that will be built using rich UI to incorporate the 3D nature of the requirements. People from different geographies can establish a connect at a common virtual lab like application where they can make some modifications to the 3D model and diagrams. 
+They can also store their results and theories for their future reference using the available Big Data technologies.
+This will enable scientists to work in collaboration using emerging new and user-friendly software, Data-Scientist and trainers could design and develop interactive model resources by themselves.
+This will create a Virtual world to offer real-time communication tools, interaction capabilities and collaboration empowerment tools to the users for group-work and team building, share events and presentations and constructive activities using Pivotal, VmWare, Greenplum and Big-Data/Hadoop.
+
+OpenSim is one of the tools that can be referred.
+

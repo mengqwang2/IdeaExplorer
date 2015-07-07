@@ -1,0 +1,15 @@
+Anomaly detection and root cause analysis for Gas companies using IoT sensors and data science approaches leverage EMC Storage products.
+Our Idea includes collecting data from millions of internet-connected gas sensors store them in EMC's Storage and applying analytics using Pivotal big data platforms to better handle a smart consumption and utilization of gas and alert/identify water leaks in real-time.
+In the last months we found out that gas companies find it difficult to notify and observe gas leaks, we thought that using data analytics and IoT sensors we can address this kind of problem easily and sufficiently. and even save people life by detecting leaks fast while they happen. 
+Using simple internet-connected gas sensors that are placed in each customer's house (and even into multiple location in the house such as kitchen, bathrooms etc.), building, street, neighbourhood. to get the amount of gas consumed from each sensor in the last hour and store it into HDFS, while applying time series algorithms on each signal that will allow to track and predict its normal behaviour. 
+After training and fitting statistical distribution to each signal our system will be able to determine how normal this sample is and it will have the ability to alert the user and the gas company on a leak and also on the specific sensor that indicated it. Each sensor will be mapped to location so it will allow the gas company to notify the client and fixed the leak in a fast and accurate manner.
+
+To implement this kind of solution we will need to include Pivotal Big data analytics platforms, EMC's storage products such as Isilon to have the ability to store all the data that we are collecting and to apply machine learning algorithms on it. 
+
+Saves gas (an important resource) and reduce the financial damage that can be for the gas company and the clients.
+
+Save life
+  
+Improve TCE of the water companies.
+
+Open this market for EMC's products.

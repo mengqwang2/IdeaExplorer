@@ -1,0 +1,42 @@
+Networker SR Creation 
+Networker SR assignment Process takes  an average of 3.75 hours Time for collecting  Information, accept SR, and start troubleshooting.
+
+Due to the lack of adequate SR creation template which is missing a lot of mandatory input And information/hints on what/how to get these required data input 
+
+idea came from recognizing Number of Loops to start Troubleshooting the issue 
+
+1. WFM attempt to assign to an available TSE , when SR is created and is placed in queue 
+Time taken for WFM to ping and find a TSE who is willing to accept an ambiguous SR  
+		 no problem troubleshooting yet 
+
+2. WFM attempt to assign to an available TSE , when customer replies turns out it’s not in TSE skillset .,
+Time taken for communication between TSE and customer to get an adequate problem description, 
+Time taken for TSE to inform WFM it’s not in his/her skillset
+		no problem troubleshooting yet 
+
+3. TSE attempt to gather the required logs
+Time taken for communication between TSE and customer to inform what logs are needed and how to gather them .
+Time taken by customer to collect and upload logs to the SR 
+		no problem troubleshooting yet 
+
+4. TSE start Troubleshooting 
+
+yellow belt project was submitted, however management decided not to invest in Salesforce( service Center)  for changing our SR creation Template . 
+
+Reduce the average time taken for collecting Information, accept SR, and start troubleshooting in the Networker SR assignment Process from 3.75 hours to 10-15 minutes 
+
+Build a proper fill-in template for SRs to be filled and submitted by SR creator with the minimum requirements to open a SR 
+For example:
+Product name and version 
+Problem description
+Error
+Application being backed up
+Logs ( basic application logs ) 
+Availability time
+
+Along with a tooltip to indicate how to find out where to get this information 
+By measuring Average Time taken for collecting Information, accept SR, start troubleshooting
+By reviewing Networker queue
+TSE and WFM productivity to focus on queue rather than finding the proper skillset of an SR and finding a TSE who can work on that skillset 
+Customer Satisfaction ,as a result number of Assignments will decrease significantly in IR (initial Response)  
+

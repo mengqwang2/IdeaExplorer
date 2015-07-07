@@ -1,0 +1,6 @@
+Converting VMAX Thick Lun to Thin LUN converstion
+
+had experienced while working with different clients
+HP 3PAR StoreServ thin technology uses the Thin Conversion feature 
+to optimize the migration of thick to thin LUNs in real time at line speeds. 
+

@@ -1,0 +1,12 @@
+Universal Database Access
+The idea addresses EMC strategy towards 2.5 and 3 platforms. Also it proposes new product to penetrate database market, support customer movement to PaaS platform and complement datalake strategy as well.
+I found the idea three weeks ago while attending "MIT Tackling Big Data Challenges" training, also while researching the changes in database industry and the growth of PaaS as well.
+Building universal database access layer that communicates with the different database systems and provides a single sql interface to all applications to retrieve and manipulate data. That universal layer will standardize the manipulation of queries and operations, so that applications use one syntax and semantic, then according to the available adapters, it transforms those queries to the target database platform.
+By achieving that we can optimize the queries and operations, customers can manage the different platforms centrally and push the data directly to data lakes (align with the corporate strategy) for big data operations whether it is analytical or predictive.
+For first release, it will be enough/perfect to start with the open source standardized databases like MySQL and Postgre, and then  JDBC or other database drivers already has their built interfaces that we can utilize to have our own adapter. For the standardized database access, SQL will be the best language.
+It is too optimal but for a PaaS, it would a real need otherwise customers will be locked due to the cost of redevelopment of applications that is dependent on a chosen vendor. 
+
+ - It helps customers to switch databases without worrying about redevelopment of applications.
+- It standardizes database access.
+- It minimizes the risk of utilizing database PaaS platforms and secure customers’ investments.
+- It supports central manage

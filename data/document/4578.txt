@@ -1,0 +1,5 @@
+Form a committee with common TSE to discuss Transport challenges 
+
+I have seen everyday one of my colleague is suffering with this. If we are on-call with customer on a production down issue and will be late for 10-15 then transport guys will ask us to wait for one more hour. If we want to take exception we have to answer manager even for that we need to call transport by our own and BEG for cab. Which doesnt impose the culture of EMC.
+Unless we dont have the original person who is going to use the facility will not explain you about the situation. If we want to tell whether Food is good or Bad feedback have to come from Eater not Chef.
+

@@ -1,0 +1,14 @@
+Predict Failure Orchestrator – App in ViPR Controller
+
+As part of this idea we are building some intelligence in ViPR Controller which can predict issues with Disk Drives,  discovered  Arrays and Hosts  and proactively enable mechanism to avoid them and notify ViPR administrator before it actually occurred
+The idea got originated based on my previous experience in ViPR SRM.
+Proposal is to build app called “Predict Failure Orchestrator” which leverage app framework in ViPR and do analytics on data collected via ViPR SRM and third party (S.M.A.R.T)  tools. 
+
+We can utilize the log files of storage systems, which collect the error events of the software and hardware deployed in the storage system. This technique along with utilization of S.M.A.R.T. parameters will help provide insightful information associated with hard disk drive performance and failure characteristics
+Business Value:
+
+1. Prediction of the problem ahead of time which minimize downtime and data loss
+2. Quick corrective actions can be recommended based on the prediction
+3. Data/insights will improve incrementally over time, and we’ll enhance the product as we go
+4. Improve Customer Satisfaction
+

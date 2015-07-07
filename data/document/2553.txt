@@ -1,0 +1,7 @@
+Data Science 101 for EMC
+• It works towards building a workplace of the future, demonstrating next generation thinking and showcasing EMC as an employer of choice for talent development and lifelong learning
+• Aims to Upskill our existing talent to lead, and to deliver real-busin
+This is based on experience in dealing with the ever-increasing number of data requests from the business users and their frustration at not have the basic data skills to run some of the ad hoc data analysis locally within their Business Unit. Empower and enable the users.  "Give a man a fish and he eats for a day teach a man to fish and he can feed himself for life?"
+This idea is to create a instructor-delivered hands-on course in basic data analytics skills that would create a working knowledge of what is possible and how to get started in the data engineering space. Topics covered (in this after work education course) would include....
+Basic database skills, SQL programming, Statistical R, Python programming, Regular expressions for extracting data, basic statistics including regression/correlation analysis, Data management basics (Quality, Integrity, governance & security). The focus would be on using the Pivotal framework as a platform and OpenSource technologies 
+It would enable the business to become more efficient and data aware of what is possible with the data they produce on a daily basis. It would allow for better data-based decision making and less reliance on gut-feel and tacit knowledge for decisions.

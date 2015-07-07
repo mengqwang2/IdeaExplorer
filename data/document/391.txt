@@ -1,0 +1,19 @@
+Out Of Office: Modify to notify organizers of pre-scheduled meetings of unavailability
+This would deliver improved communication, Improved functionality and convenience.
+
+
+Frustration: Arranging meetings in advance, getting acceptance & finding out at meeting that people are out of office. Wastes time & resources.
+
+Room Availability: Rooms being block booked for regular weekly meetings, however in some scenario's when people are out of office they forget to cancel booking of room. Wastes time.
+
+Gives accurate information of people's & meeting room's availability. 
+My idea helps communicate to people who have prescheduled meetings that you are out of office. 
+Current solution only activates in timeline that you are scheduling to be out of office. It does not inform meeting organizers that you are unavailable. 
+
+Gives accurate information of people's & meeting room's availability.
+
+When a person is setting up their out of office they should have drop down options for the following: Cancel schedule meetings, Decline messages to organizers of meetings setup in time frame of being out & Cancel room booking's.
+
+Success: Modify Outlook Option
+
+Benefit: Clear communication, more efficient meetings & room usage, easy means of communicating to fellow colleague's that have prescheduled meetings that you are out of office.

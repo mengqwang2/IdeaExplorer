@@ -1,0 +1,9 @@
+Automated Feedback and Rating
+
+Management has been struggling to ACT and EPAS. 
+At the end of the year, the Rating or ACR (Salary Increase) for employee gets calculated based on following
+
+1) The feedback from internal or external customers
+2) Services delivered by this resource
+3) Services and Quality offered by the resource 
+

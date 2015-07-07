@@ -1,0 +1,7 @@
+Hybrid Model Source For Electricity
+Limited resources & environmental threat.
+I read this concept in new paper where a retired engineer has implement it at his residence & successfully running it. I believe this can be implemented on a larger scale in a industry wide & can be tried out in COE.
+Hybrid Model is a combination of Wind mill & Solar which has a potential to tap both Wind & Solar energy which is in abundance in the city. The concept gives a flexibility to shift to any source & keep both going at the same time. We also have option of keeping one as backup for another. The initial investment is big however on longer run it is going to be cost effectively & more importantly its environment friendly.
+Resources are in abundance & cheaper on longer run.
+Environment friendly.
+Can tap uninterrupted power supply.

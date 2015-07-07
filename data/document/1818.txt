@@ -1,0 +1,9 @@
+Digital lock for Network devices - RSA IoT Challenge
+Configuring Digital Locks on Network devices to prevent unauthorized access of Internet.
+Centralized server verify the locks while connecting to internet.
+These locks verify the user location by Mobile GPS.
+Once user location confirmed by GPS and access granted by server.
+Mobile GPS helps to find the user location.so using this option we can give one more security check for access.
+Tracking of user access will be easy.
+More security on network devices.
+location based access is next level of security. 

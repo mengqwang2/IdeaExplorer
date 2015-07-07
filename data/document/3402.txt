@@ -1,0 +1,7 @@
+Hospitals Networks using big data to collect issues and major problem
+
+System used in hospitals is not accurate.
+Create a SW database between all hospitals in the country that collect all patients’ issues, and from this SW we do analysis to get a trend.
+This analysis will help in detecting the major issues that patients’ will face in a specific period.
+
+

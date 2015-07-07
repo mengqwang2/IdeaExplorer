@@ -1,0 +1,6 @@
+Remove manufacturing N+1 power supply testing from VNX ET & FC Test Processes
+
+The idea is part of the 2014 manufacturing OE initiatives.  Annualized hard savings is: $130K
+Test Engineering: Don Hon
+Automate the test by switching off power via automated control rather than requiring a test technician to physically pull the power supply from the unit-under-test.
+

@@ -1,0 +1,10 @@
+XtremIO.Next – A cloud storage base
+One of the biggest challenges for EMC in this trans formative time is how to innovate 2nd platform and how to enter and or capture market share of 3rd platform with current federation base EMC product portfolio. History says innovation on 2nd platform means efficient usage of Hardware resources. By embedding database management layer from Host level to Array level, we can achieve maximum usage of hardware resources and hence innovation. And In this way EMC will have game changing opportunity to enter in to new business of ‘storage base aka integrated database framework – Array managed database instance’, that will help EMC to capture the market share of 3rd platform.
+I was thinking how EMC will defeat his competitors and or attract his customers in this trans formative time, as start-ups are the pain point for all storage giants. This idea can be the way to defect competitors, attract customers, increase market share in both the platforms, and create new business opportunity for EMC.
+Customers, who all are on second platform, are maintaining their own data centers. In that they will have their own Storage Arrays, Servers, and Storage Area Networks. And they will have their own selected Database management Applications like; Oracle, Microsoft SQL, SAP HANA, PostgreSQL, Cassandra etc. running on hosts/servers.
+
+We should create storage base – integrated database framework, embedded to Array level. That will be customizable as per customer need. For customers no need to install any Database management Applications on hosts/servers. Storage base framework will provide all Database references/instances like rational, object, graphs etc. in this way we can achieve efficient utilization of expensive hardware resources on storage arrays side, and will have tighter integration of data rather than relying on partners who provides Database management Applications.
+
+This framework will help XtremIO or any other storage array to enter in to 3rd platform [cloud base] business.
+
+Definitely this idea can make money for EMC and save money for customers.

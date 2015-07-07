@@ -1,0 +1,14 @@
+EMC Open Hybrid PaaS (OHP)
+
+
+Part of any open cloud environment deployment includes cloud workloads and capabilities that are available within the cloud. EMC has been working to enable key functionality in the cloud based on early customer engagements as well as input from developers.  Based on the expected gained from EHC 2.0 and  EMC world 2014 
+
+Pivotal Cloud Foundry Product suite deployed on the top of EMC Hybrid cloud, will enable Application services deployment integrated with VMWare vCAC self service portal for on demand provisioning of resources for OHP This solution addresses following:
+
+1.	Reduce time for application/infrastructure provisioning
+2.	Allow for flexible capacity
+3.	Help to address any lack of internal tech resources
+4.	Reduce Total Cost of Ownership (TCO)
+5.	Accelerate exploration of new workloads – social, mobile, big data
+
+

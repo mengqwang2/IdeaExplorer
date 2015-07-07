@@ -1,0 +1,52 @@
+(LOST AUTHOR) TCE - Enable VPlex to access all the VPlex Cluster Configuration related details [such as Switch IPs, etc., ] from CLI/GUI
+This is to improve the TCE.
+In QE testing arena, as the VPlex system gets swapped between the teams, the chances of losing the configuration details such as the BE arrays, Switch details, WAN COM details etc. And this results in delay before the tests could actually begin. If the VPlex can provide all these details to the user via GUI or CLI, it would reduce the down time and also reduce the errors. 
+
+Also, customers while migrating their systems, they will find it really useful as they can have the backup of the system config before and after the migration to make sure they have evrything connected properly.
+
+VPlex should have the built-in ability to Integrate the component details and make the user/customer access the components such as the Switch [BE], WAN COM, FE Switch, via "A built in Feature". 
+
+This can be available as a txt file or a command output such that the user can see them whenever they need it the most. 
+
+The customer can have access to these components and have better control over their VPlex instance. 
+
+The user will be in a better position to debug or access the switches or need to find any information from the connected equipments based on the use case. 
+
+Shortly, one point access for all the components connected. Access from VPlexCLI. This enables the user to keep track of the configuration details.
+
+Proposal:
+
+VPlexcli> confiiguration show-configuration-info
+
+Cluster cluster-1
+        operational-status:            ok
+        transitioning-indications:
+        transitioning-progress:
+        health-state:                  ok
+        health-indications:
+        local-com:                     ok
+
+wan-com: ok
+
+BE Switch : <IP>
+FE Switch: <IP>
+WAN COM: <IP>
+BE Arrays: <Array IP>
+
+Cluster cluster-2
+        operational-status:            ok
+        transitioning-indications:
+        transitioning-progress:
+        health-state:                  ok
+        health-indications:
+        local-com:                     ok
+
+wan-com: ok
+
+BE Switch : <IP>
+FE Switch: <IP>
+WAN COM: <IP>
+BE Arrays: <Array IP>
+
+This can be edited later/improved so that the user/customer can add the username/password details to the configuration file.
+This reduces the huge time when if any systems are swapped or migrated. The VPlex should have the intelligence to hold the copy of the configuration data always. If there is a change to the configuraiton, it has to alert the user via Call-home/CLI display

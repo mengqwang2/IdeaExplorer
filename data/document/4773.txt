@@ -1,0 +1,7 @@
+The Lab BUDDY
+
+I attended many courses and each course is the same for different students.
+A tool that modifies the lab experience to each student weaknesses is the one that will make any Lab different
+The tool must be generic and then each course will have a set of goals to achieve them through giving hints and correcting the errors of the student Then stressing on these errors in the next Lab.
+The SMART Buddy can adjust the weights on each goal according to each student.
+

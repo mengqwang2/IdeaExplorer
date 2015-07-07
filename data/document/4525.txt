@@ -1,0 +1,9 @@
+Power Saving - FAN REGULATION
+
+Found in 'DATA CENTER'. The system was running with FAN, even though the temperature in DATA CENTER was kept too cool condition. 
+Use SENSOR technology to predict the temperature in engine [ FA,DA,KVM ]and power on/off automatically or we can ‘REGULATE’ rpm of FAN based on required temperature. 
+Ex: System require minimum temperature between 70F. 
+If temperature falls below 70F, then switch OFF FAN.
+If temperature above 70F to 80F, then regulate FAN rpm.
+If temperature increase, then increase the FAN RPM. soon.
+

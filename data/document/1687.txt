@@ -1,0 +1,7 @@
+EMC NetWorker Sizing guide and design/Implementation best practises for large environments   
+Customer using EMC NetWorker without understanding sizing limits and in large environment NetWorker Application not functioning well and cause multiple failures/issues/behaviours 
+Support engines/TSE/SME can save lots of time and reduce customer issues, if we share customer centric Sizing guide and best design/Implementation practises for large environments (For All OS platforms)
+
+NetWorker Support Challenges working on large customer environments, Found majority SRs fall in to sizing and design/implementation issues 
+Customer centric Sizing guide and design/Implementation best practises for large environments, Config check Tool to include design/Implementation best practises for large Environments 
+TTR Reduction for Environment specific issues, Reduce Impact of NetWorker Application unavailability and save DU/DL issues due to product failures  

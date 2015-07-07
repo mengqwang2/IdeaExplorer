@@ -1,0 +1,42 @@
+Effective & Sustained Collaboration Across Global Services
+
+This idea came during conversation with peers and senior executives.
+The authors of this idea strongly felt the need to enable connection
+and links between technical and not technical communities
+through building a data architecture model from sources such as
+inside.emc.com and OBIEE and other social media feeds. Please
+take a look at the data architecture and the underlying
+technology that solves this problem. It essentially links
+people more effectively. The linking of people is done through
+employee circles and its associated chapters in different 
+geographies. It was done in constant consultation
+with Chief Diversity Officer and her team. The diversity and inclusion
+aspect can foster new communities because the participants
+will feel a sense of purpose and belonging. 
+
+For example, the authors are planning to start an open source
+community based on XML for  EMSD storage arrays. We hope
+such contribution will encourage others across geographies
+to contribute. It will help customer facing staff and also
+help us deliver many of service offerings effectively. Here is the link to
+supporting document at https://inside.emc.com/message/443647#443647
+
+Similar non-technical communities can be created and 
+sustained using the technology described above.
+
+We can measure the success of such communities using
+qualitative and quantitative metrics across the following:
+# of collaboration projects - number of participants
+# of open source projects - number of participants
+# of EMCU students participated
+# of CSR projects - number of participants
+# of Partners involved.
+
+The authors have built some of the building blocks already
+and it can be used to build a quick prototype in a
+short span of time. A sample interface is provided to get look and feel
+when application goes live.
+
+Here is the link to
+supporting document at https://inside.emc.com/message/443647#443647
+

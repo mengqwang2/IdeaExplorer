@@ -1,0 +1,10 @@
+Interactive EMC products catalogue
+
+NA
+"The idea is to create an app that contains all the products categorized by the solution provided, and has a walkthrough animations of all the features that can be provided using this specific product. The concept of letting our customers decide in advance on the type of service they need through interactive animations, and allowing them to understand the product concepts before & after contacting us.
+
+Benefits:
+-Spreads the knowledge of EMC products, through our community.
+-Insures that people understand the EMC strategy and focus fields through this app.
+-We can also use the app to analyze the search trends performed on the app, that way we can detect the rising needs of our customers, and be able to provide the service well in advance, before our customer actually contacts us with this issue."
+

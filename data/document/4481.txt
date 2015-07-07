@@ -1,0 +1,9 @@
+VPlex to support SAS arrays
+
+Prior Work experience
+Include the intelligence to detect the SAS arrays at the VPlex back end along with the supported FC arrays. SAS arrays are doing good at the market and most cutomers are behind them. Having a support for SAS arrays will open the platform for VPlex to reach out there and gain more customers.
+
+The SLIC needs to be included for the SAS operated VPlex at the back end, and include the intelligence at the nsfw to support the SAS arrays. 
+
+
+

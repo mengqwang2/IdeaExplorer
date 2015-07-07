@@ -1,0 +1,8 @@
+Visibility of Folder size, when we perform a recover from command prompt.
+When we are performing a restore for the customer and want to cross check the folder size rather than going into the content and then confirming from that 'folder content'. Need to work with platform team also if any interventions required to add this features into the recover prompt of Networker
+We can compare the file size (doc, excel or any other). But comparing the folder level data is not there in place. It is always showing '0'. 
+This is still existing, if a file size can be visible from recover prompt, why cant a folder size.
+1) We can compare the folder size with customer or a previous version
+2) Now, we are listing the content of that folder and comparing or checking the files. 
+
+Yes, We all would like to call this as a "success" only. Benefit is can save the time to cross check back with the customer.

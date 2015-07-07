@@ -1,0 +1,7 @@
+Centralized automated VPLEX installer
+
+We see customers buy multiple VPLEX instances. Given that VPLEX installation is a complex process, installing and configuring all the VPLEX instances will consume more time and is prone to errors. Having a centralized automated VPLEX installer will improve TCE.
+There is a centralized VPLEX installer component. This can run on a separate machine or on one of the VPLEX cluster. This VPLEX installer will discover other VPLEX instances in the environment and also its states.
+
+VPLEX installer will have interfaces to install/upgrade/configure the discovered VPLEX instance. This way, all VPLEX instances can be managed from a single user interface.
+

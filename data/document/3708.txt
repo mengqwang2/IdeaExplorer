@@ -1,0 +1,7 @@
+EMC in schools
+
+one child of my relatives asked me about cloud computing and i used this idea to represent the need for cloud computing and it worked with him.
+being involved in schools giving them cloud computing Backpacks, as a tool designed by EMC to contain all stuff children use in schools, illustrating every component in as a part of cloud infrastructure, pens can be used to represent cables used between hosts and switches, hosts can be represented by calculators and storage arrays can be represented as a bunch of notebooks ,  and it can be an evidence to represent "where information lives".
+
+by using this simple Backpack EMC can extend its market to conclude co-operation with schools to represent the importance of data and how it can be stored. 
+

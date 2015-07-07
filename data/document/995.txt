@@ -1,0 +1,14 @@
+Smart Storage Router
+Create a new Smart Storage Router. This router provides small private cloud and big public cloud storage, backup and recovery service. Also this router is the center node for IoT at home.
+First, I had taken some picture and want to show on my PC, phone and TV. When I want show on my PC, I need plug-in my SD card, after this I need remove SD. When I want show on my phone, need copy from my PC.When I want show on my TV, also need plug-in my SD card.
+In innovation group discussing, other colleague give more suggest and generate this idea.
+
+This idea is a new product for storage and router. The product has below features.
+1.	This product is a router, so it provides router’s functions.
+2.	Provide local small private cloud, user can save pictures, video and other files into it. Other users which connected to this router can read those data. Also one device save data, other device also can read those data. For example, user A saved a picture via smartphone, user B can view this picture via smartphone (need access right). Also user A can review his picture by TV or PC in this network.
+If all the operations are in this network, the speed is very fast
+The local small private cloud also have backup and recovery service what user can backup data and recovery it.
+3.	This provides remote cloud storage. This is for backup local cloud storage. Also if user’s device is out of local network, user also can direct read and write to remote cloud storage. The router can auto sync with remote cloud storage.
+4.	Can manage all device access from this router
+
+Make money

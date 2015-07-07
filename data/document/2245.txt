@@ -1,0 +1,6 @@
+Polaris Improvement
+New add on features of Polaris
+We usually upload all our updated trackers in Polaris & during mid of Q-end i happened to delete a very important file which belong to other region, thinking Its my tracker (with obsolete data). That's when i got a click, if pop up message would have had the file name, i wouldn't have made this error resulting in data loss & rework during Q-end when work pressure is at its peak.
+So the pop message should specify the file name to be deleted before deletion.
+Accuracy & hard stop to data/ File loss.
+ 

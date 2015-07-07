@@ -1,0 +1,24 @@
+Index Referencing to unique Data
+Today's Data storage Challenge can be following,
+1. Reduce the Data size to gain Fast Backup speed
+2. Reduce Data transfer time between Two hops 
+3. WAN Speed for replication 
+4. Data Storage Space.
+
+This idea come up because Storage industry is not come up with new ideas on compression / Cloud is taking over the Storage industry. 
+
+Above idea makes EMC Data Center be the one of the Storage center for World. 
+Here the idea is to come up with new indexing method where each file / each line / each word document can have unique index and when we wanted to backup or Replicate over LAN/WAN use this index and recover the Data at the target location. In this case we will backup only Index or we will replicate only index not the actual file or actual Data. 
+
+Here actual challenge would be how to find the unique Data and index it. Since EMC is Largest/Powerful Storage company, Why don't EMC plan to build one Datacenter where we generate unique files and index them. This Data Center's job is to find unique files and assign index to those files. Whenever Some one wanted to backup or replicate their Data we will Store Actual Data in one location and generate the Index, provide the same to customer via backup/Replication. However whenever customer wanted to recover the data, they will download the Actual Data using Index. Here the advantage is if same customer wanted to backup same Data or any other customer wanted to protect same set of data, then we can easily reuse the same data by providing one index for multiple customers.
+
+Here the idea is Store Unique Data in EMC Data centers and reuse the same Data for multiple customers by providing index instead of doing backups / Replications same duplicate data for multiple customers.
+
+
+With this, EMC can build their Data Center is unique location in the world to generate the Index. This indirectly alternative for existing compressing technologies / De-duplication technologies.
+
+This will also give completion to Cloud technology indirectly. EMC can be one strong Storage hub for the world.
+
+Here we can ask customers to backup their data to our Data Center and we can create new Index and give them. But internally we can create new Index if their data is unique. If the data is not unique then we will leverage existing index and share with customers. 
+
+Overall EMC will get control over lot of customer data and we can make customers who wanted to store their data Safe and secure. Using index they can access their data whenever they wanted.

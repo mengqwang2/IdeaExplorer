@@ -1,0 +1,20 @@
+Nerve System
+
+I came up with this idea 4 weeks ago while I was attending classes at Schulich school of business. I thought about this idea as I was studying the defficiency of communications within organizations. I briefly described my idea to 5 classmates between classes. The classmates didn't provide any input or suggestions to the idea.
+Areas where improvement will be observed on employee/customer feedbacks:
+1.    Time of Horizon
+2.    Priority of Opinions
+3.    Employee/Customer Motivation
+
+The application’s main functionalities:
+1. Provide a platform that can directly propagate the voice from lower
+corporation structure or customers in real time.
+2. Allow the highest priority items to surface from the associated feedbacks
+3. Establish a rewards system to encourage more constructive voices
+from lower levels
+
+Design:
+1. A user can start a topic or discussion on a discussion platform. The discussion can be visible to all users or specific selected users based on their geographical localities or roles. Others can participating in the discussion, and place votes on the topic. The number of discussions and votes will increase the heat level of the discussion. Once the heat level reached to a specific level, the executive or upper management will be automatically notefied and committed to start an investigation and provide a feedback within a specific amount of time.
+2. The application should incorporate a system to motivate users by awarding their participations. The reward can be in the form of a virtual points/medals/ranks. They system should be able to rank and recognize the most contributed/influential users based on their participation level and number of topic/suggestions that were accepted by the system and the upper management. 
+3. Lync or other communication tools can be used to post videos, chats or emails associate with a topic.
+

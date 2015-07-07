@@ -1,0 +1,5 @@
+Function of taking snapshot of current array configuration
+
+this idea came to my mind when I did CFT test. KH of CFT test includes reinit->setenv->test. it costs about 3 hours to do reinit and setenv. if we have a function of taking snapshot of array configuration after setenv, we could quickly roll back array environment after test fails and rerun test. so it saves lots of time.
+Taking snapshot of array configured with testing environment is very helpful and fast for test team to roll back array from failed environment to test-ready environment for the same testing build. By doing so, it saves test a lot of time to create storage resources (i.e. testing environment) so that test team can concentrate on testing work. 3rd party software or open source software should be able to address such problem with few changes.
+

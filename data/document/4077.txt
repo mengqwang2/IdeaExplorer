@@ -1,0 +1,7 @@
+Stick Thermometer Strips with sensors on every equipment in Data center.
+
+
+Temperature Fluctuations/imbalance can bring equipments down in some cases.
+Maintaining temperature in Data center is one of the most critical factors. By sticking the thermometer strips with sensors we can efficiently monitor the temperature variances near and around equipments in Data Center.
+This helps in efficient management of temperature in Data Center. We can recommend customer data centers also to implement the same.
+

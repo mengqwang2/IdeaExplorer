@@ -1,0 +1,17 @@
+Real-time Big Data replication using EMC Compression and WAN optimisation
+
+I know the guys who developed that. I think this technology is underestimated.
+EWOC and BURST are well tested and used in RP, many others PoC's are done.
+Now EMC R&D Skolkovo and guys test it for VCHS.
+I used it myself.
+Actually EMC has a tecnology named EWOC. It contains WAN optimisation and compression library. It is well tested and will be in RecoverPoint for syncing blocks. Its compression beats RP streaming compession, and does not consume much CPU. As data to sync is probably not optimally compressed (it's a realtime ) we can win here. 
+Also its WAN optimization library (large packets and UDP with smart control ) proved to be 2x-50x faster than standard TCP/IP transmission in 200ms networks and is comparable to IBM's ASPERA
+
+UDP should be faster for syncing than TCP.
+
+The third problem is planned to be dealt with adopting idea from VMWare vMotion & RP and in-memory recording of file's inner changes. 
+
+This technology should be a bit modified (actually be wrapped up properly) for continious real-time replacation, but as RP deals with nearly the same problems, so it is feasible.
+
+It's a software written in C. Does not require much capital investment or changes in HW. EMC patented.
+

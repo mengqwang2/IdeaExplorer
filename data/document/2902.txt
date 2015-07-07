@@ -1,0 +1,33 @@
+A SYSTEM AND METHOD TO ADDRESS THE SUPPORT-ABILITY CHALLENGE
+Diagnosing issues resulting due to product integration is sometime increasingly cumbersome. The supportability challenge in such a large data center with different components is to auto discover the components, centralized logging and analyzing logs. 
+I face a customer issues quite often and noticed many supportability related issues due to different DPAS product integration. Quite often we tell customers to look into different product logs, online documentation,  compatibility guide to ensure solution deployed is proper with all best practices incorporated. These kind of  customer calls can be reduced by implementing the proposed solution.
+
+Myself and Shlesh Chopra (shelesh.chopra@emc.com) have come up with this idea and solution.
+
+The detail Idea along with block diagram and architectural detail can be found @ below location
+https://inside.emc.com/docs/DOC-149058
+
+The idea here is to build integrated platform with EMC SRM, VMWARE OPS center and Pivotal big data suite (for analytics) which does following key tasks to achieve the above supportability challenge
+• Discover the EMC products, virtual environment, such as DC, clusters, hosts, VMs and mission critical applications by leveraging EMC VCOPS and ViPR SRM
+• Online and interactive system to collate the symptom
+      Customer/support engineer will be asked to series of questions about individual or multiple set of products (components) about symptom of the problem
+• Mining the Logs from different products into Pivotal Big Data Suite
+      Fetch the logs from different products by pointing to EMC product over a LAN, fetch these into respective product log repository and store under HDFS as object stores for different products
+• Build a centralized log parser 
+o    The log parser will parse the logs from different products on central log repository and classify these logs based on Time stamp, Category, Component, Log message. Open source product like "Semantic web" can be used to classify and SPRING HD to streamline the data
+• Log Analytical engine to identify the problem
+o The log analytical engine will take following inputs and pin point or identify the possible root cause of the issue
+o The analytical engine uses the business logic to and combine the error message, time stamp and components and searches thru the respective log repository fetch the relevant data. Pivotal HAWK can be used for analytical query
+o  The log analytical engine will also searches thru EMC support site/KB articles to for possible remedy to problem.
+• Routing the information to right people and self-learning from previous history
+o The information will be routed to team using this platform with possible remedy
+o It also provides the routing mechanism so that information will be routed to respective people (Customer, engineer, support team) who involved in the problem.
+o It should also use the historical data from the mined data for possible remedy by checking first in the Pivotal big data suite.
+• Added add-on to the platform:
+o Build the mobility with thin client mobile App which can be used to send the notification, simple search and browse thru discussions happened around interesting issues
+
+1) Enhanced TCE factor
+2) Cost reduction in addressing the supportability issues 
+3) Aligning to EMC federation solution 
+4) Leveraging open source (Pivotal products) to address the larger problem 
+5) Leveraging the existing product implementations 

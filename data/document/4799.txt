@@ -1,0 +1,9 @@
+Save Paper support Environment
+
+I am part of Payroll Team and normally look around colleagues and other EE's using plenty of paper for daily activity. This Idea does not involve any other team member. There are no implementations since we require the application installed.
+EMC being a Data Storage Provider, we have the capability & capacity to implement softwares which can store the soft copy data or physical data and minimize or reduce the paper printouts to zero everyday. Some of the applications good to virtaully store the files are "ImageNow".
+
+The application intern supports on copying the files into it and has the ability to provide the informations when & where required. 
+
+Apllication saves; printing, wastage after print, enerygy, storage place & acts as internal storage device which can provide the information on finger tips
+

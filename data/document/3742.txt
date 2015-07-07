@@ -1,0 +1,9 @@
+Fair of Management Interfaces to EMC Products 
+
+Working on next gen GUI for VNX3 design I'd like to get easy access to screens of VMAX, Isilon, and Emerging storage systems. This (along with ECUE standards) can drive product family-ness for the whole EMC.
+vLAB + Durham COE Lab collaborate (simple vLAP config demos can be included) to define infrastructure requirements for standalone manageability demos.
+
+Durham COE sets up the infrastructure (funded by EMC Corp, not businesses) and hires a team for maintenance.
+
+Service is launched, offered to BUs at various pricing. The idea of the pricing model is to encourage BUs provide their manageability simulator into this lab.
+

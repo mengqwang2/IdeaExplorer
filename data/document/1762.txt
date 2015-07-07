@@ -1,0 +1,13 @@
+Automatic Load Balancer for VNX
+1.      This is differentiator for VNX products compared with competitors.
+2.      This is easy to implement and can be delivered in less than 3 months.
+3.      Solution like this never existed for existing and new VNX Customers.
+
+While working on Automatic Failover Manager (AFM), we brainstormed list of events that AFM should monitor that will help customer effectively.  Performance statistics was one such missing event.
+Currently eNAS/VNX has automated failover manager that monitors various events that could trigger failover or reverse operation that moves workload in terms of filesystem, snapsure, snapsure schedule, NFS Export, CIFS Shares, Same IP address on remote site.
+ 
+Automatic Failover Manager (AFM) does not use performance statics infrastructure provided by VNX. Performance infrastructure include IO stats for NFS, CIFS protocol. AFM can fetch these numbers and based on highwater value defined, it can transparently failover workload from site#1 to site #2
+
+1. Automatic load balancer for existing VNX customer can improve our NAS penetration market. 
+2. This will differentiate Embedded NAS or VNX product from existing Metro Cluster Failover solutions available in market by Vendors like Netapp etc.
+

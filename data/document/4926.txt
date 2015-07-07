@@ -1,0 +1,7 @@
+Skilled professionals network
+
+None
+Develop an in house app where all EMC federation employees can register with their technical skills (Cloud, Big Data, mobile, security) and with their self rating. This system works on the ranking based. All individuals will quote their rate in internal currency (something like EMC $). There will be a conversion factor from EMC $ to actual $ value. This is somewhat similar to Guru.com & odesk.com sites.
+
+Whenever there is a customer issue, it will be posted on this site. Each question has corresponding rate. Whoever solves the question first will be awarded corresponding amount. Apart from question posting, skilled professionals can be called directly to solve a particular issue. In this way complex customer issues will be resolved in a quicker fashion.
+

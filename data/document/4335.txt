@@ -1,0 +1,5 @@
+Single unified platform for EMC reporting and Analytics on EMC storage using the 3rd Platform infrastructure.
+
+Since I come from HP,where I was fuctionally support the 2 tools we just had 2 reporting tools at a global level, one was BW for all accounting releated reporting like P&L,B/S...etc and other was for reporting order shippmnet and revenue called as EDW.
+By Integrating all major reporting tools to a single tool, this will help reduce IT cost to a huge extend, for example we have moving ERP and CRM systems to SAP platform, so we can think of using BI as a reporting paltform form for all our reporting needs by intergating various ERP and CRM systems into BI and retire legacy reporting systems.The advantage of this data storage being setup on 3rd platform is that it can be showcased to our customers, which in turn helps us to gain more business and helps in gaining confidence of the customers.
+

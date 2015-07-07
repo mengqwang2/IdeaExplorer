@@ -1,0 +1,21 @@
+3rd Platform Transformation Readiness
+The sponsor is looking for 'New Business' opportunities. 
+
+Our ideas would help us to get more business.
+
+While we discussed about innovation and 3rd platform, this idea rose in our mind.
+
+
+Let the team handling an application assume that the application needs to be migrated to 3rd platform in the near future. Let the team work on getting the Design/Elaboration/Wireframes done for their application to be transformed from 2nd platform to 3rd platform.
+
+As the team is familiar with the requirements, all they need to understand is how to transform an application to 3rd platform, Steps to be followed, technology to be learnt and best practices and list of new features which is compatible with 3rd platform to add more business value.
+
+
+If this idea is implemented:
+
+1.At least one member per team will understand how the transformation from 2nd platform to 3rd platform can be done for an application. This way we can prepare our team to be ready for the new platform we are approaching to.
+
+2. Once the design is ready, it can be shared with the business users. If the business is interested, we would get a new opportunity / project.
+
+3. Even if it is not approved for immediate implementation, the prepared document helps us in future.
+

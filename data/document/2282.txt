@@ -1,0 +1,26 @@
+EMC Public Cloud Offering for SMBs
+CIOs take a portfolio view with some portion of their IT being aligned with a public cloud like Amazon (E.G: Test/Dev environment), remaining data/applications residing in a more secure, specialized location (e.g. Hybrid/Private clouds or Traditional datacenters). Many upcoming SMBs cannot afford this blended(need citation) approach of public/private cloud & usually go for Public service offerings. 
+Therefore EMC should move into Public cloud services & provide solutions for SMBs
+EMC has wide variety of product portfolios, supports multiple sectors, but EMC still provides only Hybrid cloud solutions & leverages infrastructure through resellers for public cloud services. 
+Expenditure on public IT cloud services, especially services provided off-premise, is growing 23% annually to an expected $108B in 2017.
+Source: IDC WW and Regional Public IT Cloud Services 2013-2017 Forecast, August 2013 
+The cloud infrastructure should be made available to a small/medium industry group and should be owned by EMC Public cloud services.
+
+Target SMB clients: 
+Wholesale, retail-trade, transportation, consumer services, etc
+
+EMC should provide Infrastructure as a Service bundled with softwares, providing standardized hardware and computing resources that can interact with various application systems, by partnering with application vendors like Oracle, Microsoft, SAP, etc.
+
+With EMC’s vast product range, EMC offered Public cloud can support multiple complex scenarios using EMC Federation for Storage/Software defined storage (EMC II), Computing (VMware), Security (RSA), Platform (Pivotal) & Cloud management software (Virtustream)
+
+EMC can initially start with Public Cloud Offerings to new or existing SMBs. Upon gaining the customer confidence, EMC can gradually transition customers to Hybrid Cloud. 
+
+For an elaborate pitch of the idea, please refer the following link:
+https://inside.emc.com/docs/DOC-154487
+Currently, traditional SMBs make use hundreds or even thousands of apps/hardware accessed by thousands or maybe tens of thousands of users. This is a growing market which is emerging & few accomplished vendors have a strong foothold. 
+
+By moving into Public cloud business, EMC can increase profitability and deepen customer relationships by selling cloud offerings without intervention of resellers/partners. This will also help EMC penetrate the hybrid cloud market.
+
+Opportunity to sell added benefits like Business Intelligence (Big-data/analytics) & disaster recovery protection as a future roadmap
+
+EMC can provide & build better customer relationship by providing end to end IT Solutions/Services.

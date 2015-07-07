@@ -1,0 +1,11 @@
+Helping disabled by Virtual realization Technique 
+
+intelligent device
+EMC can provide some remote controlled cars, google glasses, ultrasonic sensors and other materials to students, teach them how to assemble this system. The young also can contributed their own idea to make the system more human-friendly. The robot or car should be able to 
+1. Run on the ground or corridor places smoothly.
+2. Easily handled by the disabled though joystick or hand shank.
+3. Provide smooth picture to the disabled even running on a rugged.
+4. The car can be uniformly acceleration and deceleration.
+The whole process can last for 2-3 month. With support from EMC Volunteers, it is not difficult to finish a draft project. However many software and physical improvement should be applied to the system. A satisfied solution to help disabled should be humanized.  The participants should do great effort to tuning the system and provide a perfect plan. We hope every participant could experience their work before they are provided to the disabled. It will help normal have a deep understanding of the disabled.
+
+

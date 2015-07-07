@@ -1,0 +1,387 @@
+a digital dynamic testing model
+quality is the key to a successful product to gain market shares, this proposal addresses test coverage improvement with a digital dynamical model.
+I composed this idea after reading many papers in software engineering last year:
+1) Presented the idea to the test automation team last Dec.;
+2) Presented a prototype of combination coverage analysis this Jan.;
+3) A patent on this was accepted by the patent commitee (EMC-15-0206) this May, and a patent attorney is working on the application.
+From the view point of combinatorial testing, a test case is a combination of test values for a set of test points (at most one test value per test point), which presents all interactions among the test point values in the test case.  And a product defect can be presented in the same way, as it can be mapped to a test case always. If all possible combinations of all test values for all test points are exercised, all possible product defects would be discovered to achieve the ultimate software testing goal of defects free. Test point values combination coverage then becomes the direct metrics for test coverage measurement. Code coverage can be used as an indirect metrics only.
+
+                     BRIEF INTRODUCTION
+
+The digital dynamic testing model proposed here aims to provide a way towards 100% test coverage in terms of test point values interaction with dynamic testing to address problems identified above, and to enable intelligent testing.
+Dynamic here means test cases are dynamically generated on the fly by some criterion like test coverage required by the execution.
+
+the digital test model including a digital test case model, a digital product defect model, and a test point values interaction coverage model, which is the infrastructure of the digital dynamic testing model.
+
+And the test coverage analysis, test point based test development, randomized t-way test case generation, automatic continuous test coverage improvement, and randomized test coverage based test selection are applications to build a way towards 100% test coverage based upon the digital test model.
+
+t-way here means the test point values interaction strength, i.e., the number of test point values is t in an interaction we concern.
+
+An interaction of some test point values means that the concerned test point values are exercised in a test case containing the combination of the concerned test point values; hence combination coverage is identical to interaction coverage in the context of combinatorial testing. Combination coverage will be used instead of interaction coverage in the rest of this proposal.
+
+The code coverage limitation problem is addressed with the test point values combination coverage model based on the digital test case model.
+
+The test point based test development model addresses the test case based testing limitation problem.
+
+The randomized t-way test case generation application addresses the test point values combinations missing problem, provides dynamic testing together with the test point values interaction coverage model to have test cases generated for given criterion like test coverage on the fly on execution, and provides a way towards 100% test point values interactions coverage for identified test points.
+
+The automatic continuous test coverage improvement application addresses the static test coverage problem and provides a way towards 100% test point values interactions coverage for all possible test point values we could identify during the whole product life cycle.
+
+The randomized test coverage based test selection application addresses the inconvenient selective testing problem, providing a way towards 100% full testing via  randomized test coverage based selective testing.
+
+
+                    DETAILED INTRODUCTION
+
+The digital test case, digital product defect, and test point values combination coverage for a given interaction strength t are defined upon a test suite of T digital test cases with P test points with Vi (1 <= i <= P) test values each. 
+
+A digital test case in this digital test model is defined as:
+     TC = {(TPi,TVj) :  1 <= i <= P ,  1 <= j <= Vi}
+     TC – test case; TP – test point; TV – test value; i must be unique
+
+A digital product defect in this digital test model is defined as:
+     PD = {(TPi,TVj) :  1 <= i <= P ,  1 <= j <= Vi}
+     PD – product defect; TP – test point; TV – test value; i must be unique
+
+Test Point Values Combination Coverage model for interaction strength t is defined as:
+     CC = (|CS| )/(C_t (1…P))
+     CC - combination coverage;
+     CS - the set contains all combinations with size t from T test cases;
+     |CS| - the size of CS
+     C_t (1…P) - the choices count of choosing t test values from test values of test point TP1 to TPp
+
+
+1. Test Coverage Analysis
+
+Discovering the complete test point values set for a software product is impossible, hence the test point values combination test coverage analyzed in each test run is reported against the identified test point values set only, which is good enough in that:
+1)	In traditional testing, people focus on test point values covering and pay a little attention to test point values interaction covering.
+2)	In combinatorial testing, people focus on 2-way covering or t-way covering, and pay little attention to full interaction coverage.
+3)	With the randomized t-way test case generation application will introduce in later section, we provide a way to 100% test point values interaction coverage for existing test point values.
+4)	With the continuous test coverage improvement application will introduce in later section,   we provide a way to 100% test point values interaction coverage for the complete test point values set for the software product under test by time.
+
+Based on the digital test case model and test point values combination coverage model, test coverage analysis applications are pretty straight forward.
+
+1.1	Coverage reporting
+For a given digital test cases set from a set of test points and the corresponding test values, it’s easy to set up an application to report the test point value combination coverage for any given strength with the combination coverage model above, which can be used as the metrics for test coverage measurement.
+
+For instance, there are 7 digital test cases for a test points set of 4 test points and 3 test values each, 2 test point values combination coverage can be calculated as below.
+
+Table 1-1-1 Test Point - Test Value Table
+tp: test point; tv: test value 
+----------------------------------
+tv\tp	A	B	C	D
+1	A1	B1	C1	D1
+2	A2	B2	C2	D2
+3	A3	B3	C3	D3
+----------------------------------
+
+Table 1-1-2  Digital Test Cases Table
+tc: test case
+------------------------------------------
+tc\tv\tp	A	B	C	D
+1		A1	B1	C1	D1
+2		A1	B2	C2	D2
+3		A2	B1	C2	D3
+4		A2	B3	C1	D2
+5		A3	B1	C3	D2
+6		A3	B3	C2	D1
+7		A1	B3	C2	D2
+------------------------------------------
+
+Table 1-1-3 2 test point values combinations set for each test case
+cs: combinations set; 2-tpvc:2  test point value combination
+-------------------------------------------------------------
+cs\2-tpvc	1	2	3	4	5	6
+1		A1,B1	A1,C1	A1,D1	B1,C1	B1,D1	C1,D1
+2		A1,B2	A1,C2	A1,D2	B2,C2	B2,D2	C2,D2
+3		A2,B1	A2,C2	A2,D3	B1,C2	B1,D3	C2,D3
+4		A2,B3	A2,C1	A2,D2	B3,C1	B3,D2	C1,D2
+5		A3,B1	A3,C3	A3,D2	B1,C3	B1,D2	C3,D2
+6		A3,B3	A3,C2	A3,D1	B3,C2	B3,D1	C2,D1
+7		A1,B3	A1,C2	A1,D2	B3,C2	B3,D2	C2,D2
+-------------------------------------------------------------
+ 
+From table 1-1-3, we get the 2 test point values combination set for all 7 test cases. Note that 2 test point values combinations from test case 7 are duplicate combinations which have been presented in other test cases.
+
+Therefore, the count of all combinations with size 2 from 7 test cases:
+
+  |CS| = 6 * 6 = 36
+	
+And choices count of choosing 2 test values from test values of all 4 test points:
+
+  C_2 (1…4) = V1 C_1 (2…4) + V2* C_1 (3…4) + V3 C_1 (4…4)
+            = 3(V2 C_0 (3…4) + V3 C_0 (4…4) + V4 C_0 (5…4))+3(V3 C_0 (4…4)+V4 C_0 (5…4))+3(V4 C_0 (5…4))
+            = 3(3 + 3 + 3) + 3(3 + 3) + 3 * 3
+            = 54
+
+Here we get the 2 test point values combination coverage:
+
+  CC = (|CS| ) / (C_2 (1…4)) = 36 / 54 = 0.6666… = 66.7%
+
+1.2	Coverage gap bridging
+When the concerned test point values combination coverage of strength t was not 100%, there’s a set of t-tuples of test point values were not covered for the given digital test cases set. With a combinatorial test case generator like the t-way test case generator to present later, a recommendation test cases set can be produced to bridge the corresponding test gap such that the test point value combination coverage of strength t will be 100%.
+
+For the example in 1.1, there are one third 2 test point values combinations were not covered and a recommendation test cases set to bridge the 2 test point values combination coverage gap could be:
+
+Table 1-2-1  Digital Test Cases Table
+------------------------------------------
+tc\tv\tp	A	B	C	D
+8		A1	B3	C3	D3
+9		A2	B2	C3	D1
+10		A3	B2	C1	D3
+------------------------------------------
+
+1.3	Coverage overlap reporting
+This application will be designed to find out test cases in a given digital test cases set that don’t provide additional test point value combination coverage with strength t. When there are such test cases, there is a test coverage overlap, and a maximum set of such test cases will be reported to be redundant for the interaction strength t, hence the end user can determine to skip them to save test resources when greater strength is determined to be not important in some test run.
+
+For the example in 1.1, test case 7 doesn’t provide additional test point value combination coverage with strength 2 since all 2 test point value combinations from test case 7 are covered in other test cases, and test case 7 is the only one that provides no additional 2 test point value combination coverage, hence test case 7 should be reported as a redundant test case for interaction testing with strength 2.
+
+
+2. Test point based test development
+
+Traditionally, test development is test case based and each test case becomes an executable script, which becomes extremely cost inefficient when the number of test cases becomes large due to combinatorial explosion problem.
+This approach is to propose a different approach for test development to develop test points as interfaces instead of to develop test cases as executable scripts such that the number of test cases won’t matter any longer and relieves the combinatorial explosion problem. 
+
+With this approach, each test point is developed into one interface to handle given test values, no matter how many test cases will use this test point. 
+
+Say, for a test suite with P test points with Vi (1<=i<= P) test values each, only P interfaces for all P test points are needed with test point based test development, no matter what kind of test strategy would be requested; on the other end, for the test case based test development as in the traditional test approach, at least ?_(i=1)^P V_i  test cases are needed to test through all the test values for all test points which essentially covers no test point value combinations, not to mention the test cases needed to test the all the combinations for different test values of different test points, which grows exponentially with V^P.
+
+For a test suite of 20 test points with 10 test values each, we need 20 test point based scripts only; traditional testing needs 200 (20 * 10) test cases to test each test value once; to cover all k test point values combinations, it will need at least 10^k test cases ; and to cover all 2 test point values combinations, PairTest will produce 212 test cases, and AETG will produce 193 test cases.
+
+
+3. Randomized t-way test case generation
+
+As test point values interaction is one of the most important metrics for software testing, t-way combinatorial testing which covers all t test point values combinations, i.e., interactions, should be adopted, where t is called the interaction strength and can be determined by the quota of the test resource in a test run.
+
+Exhausting combinatorial test is usually impossible due to combinatorial explosion problem which will definitely leads to most test point values combinations are not tested with static test cases, i.e., test cases are identical in each test run.
+
+This application is to propose a test model to extend test coverage to the maximum 100% in terms of test point values combination coverage, i.e., the theory upper bound in some direction, to improve the quality of software products by applying randomized testing and t-way testing.
+
+Randomized t-way testing is a test strategy to maximize test coverage with minimum number of test cases, trying to exercise all valid combinations of all test values of a set of given test points via:
+
+1)	Maximize test coverage for each test run via t-way testing. t-way testing here means to produce a minimum test cases set to cover all valid t test point values combinations, usually presented as an orthogonal array or covering array, apparently all k test point values combinations where k < t are covered when all t test point values combinations are covered. 
+
+Usually covering array is preferred in selecting a t-way testing test cases set as it covers most test point values combinations with minimum number of test cases thus has a maximum test coverage. The interaction strength t will be determined by the number of test cases we can afford to run in a single run based on the available test resources.
+
+2)	Expand test coverage utilizing different test runs via random testing, as all tests are designed to be run again and again till the product EOL'ed, we should always take advantage of this fact to expand the test coverage.
+
+Here we apply random testing to create a different set of t-way test cases in different test run to expand test coverage for greater interaction strengths.
+
+A secondary randomness could be introduced in the level of test values selection.
+
+The best practice in test value selection is test space partition and one representative from each partition is selected with expertise. Here random test value selection in each partition would definitely do good to test.
+
+All randomness should be controlled, i.e., seeded, to make them reproducible.
+
+With the test case generation strategy above, test coverage in terms of combinations of all interesting values of a set of test points then could reach 100% as runs going on.
+
+For instance, a test suite has 3 test points (A, B and C), each test point has 3 interesting test values, and we can afford to run no more than 9 test cases in each run due to resource limitation.
+
+The whole combinations set is 3^3 = 27 and at most 9 test cases can be run each time.
+
+With the testing strategy above, 2-way testing is preferred as 2-way testing needs at least 9 test cases, which in turn  covers all 1 test point value ‘combinations’, all 2 test point value combinations, and one third 3 test point value combinations, as followed:
+
+Table 3-1 Test Point - Test Value Table
+tp: test point; tv: test value 
+--------------------------
+tv\tp	A	B	C
+1	A1	B1	C1
+2	A2	B2	C2
+3	A3	B3	C3
+--------------------------
+
+Table 3-2 Test Case Table
+tc--  test case
+----------------------------------
+tc\tv\tp	A	B	C
+1		A1	B1	C1
+2		A1	B2	C2
+3		A1	B3	C3
+4		A2	B1	C2
+5		A2	B2	C3
+6		A2	B3	C1
+7		A3	B1	C3
+8		A3	B2	C1
+9		A3	B3	C2
+----------------------------------
+
+In the 2-way testing test cases set above, if we replace A1 with A2, A2 with A3, A3 with A1, B1 with B2, B2 with B3, B3 with B1; and C1 with C2, C2 with C3, C3 with C1, we will get:
+
+Table 3-3 Test Case Table
+----------------------------------
+tc\tv\tp	A	B	C
+1		A3	B3	C3
+2		A3	B1	C1
+3		A3	B2	C2
+4		A1	B3	C1
+5		A1	B1	C2
+6		A1	B2	C3
+7		A2	B3	C2
+8		A2	B1	C3
+9		A2	B2	C1
+----------------------------------
+
+Then let’s replace A1 with A3, A2 with A1, A3 with A2, B1 with B3, B2 with B1, B3 with B2; and C1 with C3, C2 with C1, C3 with C2 upon Table 4-6-1, here we are:
+
+Table 3-4 Test Case Table
+----------------------------------
+tc\tv\tp	A	B	C
+1		A2	B2	C2
+2		A2	B3	C3
+3		A2	B1	C1
+4		A3	B2	C3
+5		A3	B3	C1
+6		A3	B1	C2
+7		A1	B2	C1
+8		A1	B3	C2
+9		A1	B1	C3
+----------------------------------
+
+Now we get 100% test coverage in terms of combinations of all test values of a set of test points with the three test case sets from Table 3-1, Table 3-2, and Table 3-3, that is if we apply randomness in the order of the test values for all the test points, 100% test point values interactions coverage can be achieved as test runs go on.
+
+It’s strongly recommended to couple this with the test point based test development application to implement dynamic testing.
+
+Dynamic testing here means test cases are generated dynamically on the fly in test execution based on test point values combinations with some requested test case generation criteria  via a test case generator like the one presented in this application to have different test cases produced on different test run. For instance, possible test strategies include but not limited to:
+1)	t-way testing
+Produce t-way testing test cases.
+2)	Random testing
+Produce given number of test cases with values for each test point randomly selected;
+3)	randomized t-way testing
+Produce t-way testing test cases with randomness, i.e., different test cases generation request will result into different t-way test cases set;
+4)	t-way plus randomness testing
+Produce minimum test cases covering all t test point values combinations from the t-way testing strategy as well as given number of randomness test cases from the random testing strategy.
+
+
+4. Continuous test coverage improvement
+
+When a test suite development for a product completed, the test coverage is fixed and usually won’t get great improvement thereafter.
+
+Even when there are some product defects uncovered by the test suite discovered, usually one corresponding test case will be added into the test suite to bridge the test gap for this corresponding product defect only.
+
+With digital product defects and digital test cases, however, it’s easy to discover new test values or new test points which are not in the existing digital testing system. With the test case generation application, a recommendation test cases set can be produced to bridge the test point values combination coverage gap for a given strength, not only the gap for the corresponding product defect bridged as how it is done in the traditional testing procedure, but also the test coverage gap for the combinations between the new test values and new test points with all existing test values and existing test points.
+
+In this way, the test coverage will have continuous remarkable improvement automatically.
+
+It’s strongly advised to couple this with the test point based test development application and t-way test case generation application to ease test coverage improvement automatically by simply update a test point – test value table, then the new test cases bridging the test gap introduced by the product defect will be produced and executed automatically in next test run.
+
+For the example in section 3, say we discovered a product defect which can be presented as:
+
+Table 4-1 Product Defect Table
+pd: product defect
+-----------------------------------------
+pd\tv\tp	A	B	C	D
+1		A1	B1	C1	D1
+-----------------------------------------
+
+And the new test point D is determined to have 3 test values:
+
+Table 4-2 Test Point –Test Value Table
+---------
+tv\tp	D
+1	D1
+2	D2
+3	D3
+---------
+
+In the traditional testing model, only the test case (A1, B1, C1, D1) will be added into the regression pool, other interactions between A, B, C, D won’t be tested.
+In our model, a new test point interface of D will be added into the test point interfaces library, and the interaction for test point values of D with test point values of A, B, and C will be tested automatically in the next test run. A typical test run for 2-way testing will be:
+
+Table 4-3 Test Case Table
+------------------------------------------
+tc\tv\tp	A	B	C	D
+1		A1	B1	C1	D1
+2		A1	B2	C2	D2
+3		A1	B3	C3	D3
+4		A2	B1	C2	D3
+5		A2	B2	C3	D1
+6		A2	B3	C1	D2
+7		A3	B1	C3	D2
+8		A3	B2	C1	D3
+9		A3	B3	C2	D1
+------------------------------------------
+
+As table 4-3 shows, the number of test cases remain the same after a new test point is added and with all 2 test point values interactions between test point A, B, C, and D are covered.
+
+Together with randomness, all test point values interactions between test point A, B, C, and D can be covered as presented in section 3.
+
+With this application, we actually on the way towards virtual 100% coverage to cover all possible test point values combinations as time goes on, i.e., to discover all possible product defects, to achieve the ultimate software testing goal of defects free.
+
+
+5. Randomized coverage based selective testing
+
+As selective testing is the most commonly exercised software quality assurance activity during the software product lifecycle, most selective tests are exercised at least once per week, some will run daily. The quality of the selective test cases set becomes a key metrics to ensure the quality of the product.
+
+As test coverage is always the most important metrics, apparently a good selective test case set should have a maximum test coverage. Test case selection for those selective tests in Data Domain is currently based on expert’s recommendation such that the coverage of the selected test case is not guaranteed to be maximized and the test cases outside of the recommendation set wouldn’t be exercised till full testing which is seldom executed during product development and maintenance.
+
+This test case selection application applies to static test cases only, for dynamic test cases, selective testing means to specify a selective testing strategy on the fly to produce required selective test cases with certain metrics using the test case generation application in section 3.
+
+This application utilizes the digital test case to ensure the test coverage of the selected test cases set is maximized in terms of test point values combination; and since usually there are more than one test cases set that have a maximum test coverage, randomness is to be employed to have different test cases set selected in different selective test run such that all concerned test cases could be executed as selective test runs going on.
+
+For instance, looking at the example presented in section 3, say we have the static test cases set in Table 3-1 as the full testing test cases set, and 3 test cases are required in some selective test run.
+
+There are three test cases set having a maximum test coverage, test cases set (tc1, tc5, tc9), (tc2, tc6, tc7), and (tc3, tc4, tc8), which cover
+	100% 1 test point value ‘combinations’;
+	1/3 (9/27) 2 test point values combinations;
+	1/3 (3/9) 3 test point values combinations.
+With randomness, test cases set (tc1, tc5, tc9), (tc2, tc6,  tc7), and (tc3, tc4, tc8) will be executed in different selective test runs with randomness, and all three test cases sets could be exercised after some selective test runs, thus all concerned 9 test cases were executed to achieve full testing via randomized selective testing.
+
+
+6. Digital Dynamic testing model
+
+A digital dynamic testing procedure with the applications above based on the digital test model can be presented as followed.
+
+1)	Identify test points and the corresponding test values via test scenarios, use cases, function specifications, etc., together with the development team to build a test point – test value table.
+
+2)	Identify the test point values combination constraint conditions to build a test point values combination constraint table which specifies for instance that some test values from different test points should always be used together, can never be used together, or can be used together under certain condition.
+
+3)	For each test point, develop an interface to operate against given test value to build a test point interfaces library.
+
+4)	a test point – test value table, a test point value combination constraint table, and a test point interface library consist a test suite, test cases of the test suite are combinations of the test point values which will be be dynamically generated on the fly via the test case generator with some test strategy and/or test coverage criterion.
+
+5)	Start a test run by requiring the test case generation application to generate a set of digital test cases with given test strategy and/or test coverage; then run test by exercising each digital test case by calling test point interfaces in the sequence how they present in the digital test case, and with the test value from the digital test case.
+
+6)	Analyze the test point values combination coverage of the test run to determine whether the test is adequate or not for interaction strengths we are interested in with the test coverage application.
+
+7)	Whenever a product defect is disclosed, a corresponding digital product defect is created, and new test points and/or new test values of some existing test points from the product defect will be added into the test point – test value table, the test point values combination constraint table and the test point interfaces library will be updated accordingly, and the static digital test cases storage would be updated as well when applicable, such that test cases with new test point values from the product bug will be exercised together with existing test point values in the next test run.
+
+The procedure above addresses new tests only, in the case of adopting this digital testing system with existing test cases developed under other test model, the procedure will be sort of adopting this model in a static mode (or a hybrid mode):
+
+1)	Identify test points and the corresponding test values via test cases review to build a test point – test value table, and a digital test cases set.
+
+2)	Identify the test point values combination constraint conditions to build a test point values combination constraint table.
+
+3)	a test point – test value table, a test point value combination constraint table, and a test cases library consist a test suite.
+
+4)	Execute the test suite; use the test selection application to select test cases for selective testing.
+
+5)	 Use the test coverage application to analyze the test point values combination coverage of the test run to determine whether the test is adequate or not for interaction strengths we are interested in with the test coverage application, bridge the test coverage gap and remove the test coverage overlap when applicable.
+
+6)	Whenever a product defect is disclosed, a corresponding digital product defect is created, and new test points and/or new test values of some existing test points from the product defect will be added into the test point – test value table, the test point values combination constraint table. 
+
+New tests with interactions for test point values from the product bug together with existing test point values  will be produced using the test case generation with a given test strategy. Integrate those new tests with the existing test system, such that test cases with new test point values from the product bug will be exercised together with existing test point values in the next test run.
+
+With the nature of dynamic, adaptive, and intelligent on test case generation (selection), execution, test coverage analysis, and continuous test coverage improvement, this digital testing system will fit very much better than traditional testing system for modern software engineering models like iterative and agile.
+
+
+                       CONCLUSION
+
+In this proposal, the challenges of current test approach are analyzed. To fix these challenges and problems, a digital test model has been proposed and a digital test system is built with applications of the digital model, which is highly adaptive to all popular software engineering models of waterfall, iterative, and agile with the built-in features of  dynamic, and intelligent test case generation (selection), execution, test coverage analysis, and continuous test coverage improvement, and converting of  existing tests under other test model into digital testing is an easy-going.
+
+With digital dynamic testing proposed above, we particular benefit as following.
+
+1)	Have deterministic test coverage measurement metric of test point values interac-tion coverage instead of the indirect metric of code coverage, automatic test coverage gap bridging and test coverage overlap removing;
+
+2)	Have dynamic testing to generate test cases on the fly on execution for requested test strategy, providing adaptive test coverage on demand.
+
+3)	Test cases are always with test coverage maximized in each test run whatever test strategy is required, which is most resource efficient.
+
+4)	Could get 100% combination test coverage as test going on for existing test points.
+
+5)    Could achieve 100% full testing via randomized selective testing to alleviate the risk of missing most of test cases in selective testing.
+
+5)	On a way towards virtual 100% test coverage to achieve the ultimate software testing goal of defects free with continuous test coverage improvement.
+
+6)	Have a much more efficient test development model with usually at most tens of test point based scripts for a test suite in contrast to hundreds, even thousands of test case based scripts in traditional testing.
+
+
+
+it would be a digital dynamic testing system providing explicit test coverage of test values interaction for each test run and providing a way towards 100% test coverage of test values interaction to improve product quality greatly.

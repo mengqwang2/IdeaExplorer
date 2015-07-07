@@ -1,0 +1,14 @@
+Adding backup Client using IVR Based Storage Solution.
+It fits as solution for Cloud based as well as traditional Backup. This allows adding new hosts/client to the backup configuration,  enhancing customer experience by providing alternate solution in just few minutes from any where in world with phone connectivity.
+ 
+During oncall support when I lost internet connectivity and I had an urgent request add a new client to tht backup list,  this solution occured to me.  
+(Participant: Roland Rodrigues, Vibin Balagopal, Mallikarjuna Arigela Satya Godavarthi)
+It uses IVR based menu to get the customer requirement (voice and keypad)and passes the information to central database to invoke required scripts/syscalls from the middleware. This will help customer save time, efforts and would be user freindly.
+It is completely automatic, user friendly and portable storage provisioning solution. Improves company brand name by providing below advantages to customer
+1) Portability
+2) Reliability
+3) Security
+4) Efficiency
+5) Time saving
+
+This can also be sold as service generating revenue to company.

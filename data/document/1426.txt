@@ -1,0 +1,5 @@
+EPM2 Integration with Shared services & imap tools
+the goal of the idea is to improve project initiation process through minimizing the amount of time project managers spend on gathering project related information 
+the idea came up during PM conference and i discussed it with Oliver Koh 
+merge the shared service and iMAP tool with EPM2 so that whenever the PM creates a project folder  in EPM2 the Pre-Architectural build and licenses from shared services are included in that project folder and Also account team detail from iMAP tool are listed in the folder as well 
+it will minimize the total admin time which will allow PMs to focus more on billable hour and total customer experience 

@@ -1,0 +1,9 @@
+Collaboration Circle
+The main of this idea is to enhance the total customer experience and assist in moving towards 3rd platform solution support model by making the collaboration easier accross different support teams.
+The idea extracted from L2/L1 collaboration process "POD" when dedicated L2 engineers are assigned to follow up and mentor specific L1s to avoid the strugle in looking for senior resource assistance on daily basis.
+1) Create a circle which contains one engineer from each product support team or skill group.
+2) The engineers on the circle will be committed to assist each other when a collaboration is requested to solve a conjoint problem; relieving the burden of looking for an engineer to assist from the other team.
+3) The collaboration will keep going using the service request tasks to be documented and countable and to get visibility from the management and peers.
+4) Creating another standby circle with bigger radius to  include a secondary engineer to jump in when the primary engineer is not available.
+-Improve the customer satisfaction by maintaining the collaboration process faster,more feasible and efficient.
+-Increase the total customer's experience and assist in moving forward towards the solution support and 3rd platform when more collaboration requests will be in place between the support teams.

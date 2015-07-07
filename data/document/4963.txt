@@ -1,0 +1,7 @@
+Improve test efficiency to improve test coverage 
+
+We always see that the same test cases run many times, and the same test cases are repeated many times. but there're still many escape. We do need the test team to improve the test efficiency, and test coverage. 
+1) enable code coverage in the whole stack. Currently, CP has coverage tool, but DP and platform has no. We need to investigate first. 
+2) After code coverage enabled, we can get the test coverage for the whole stack, and analyze which test cases are abundant, or repeated too many times. 
+3) According to the repeated times, we can reduce some repeated test cases. 
+

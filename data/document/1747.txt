@@ -1,0 +1,10 @@
+KB Articles Creation Team
+Enhance the customer's experience by providing unified and decent formatted KB articles with all relevant information 
+The KB article is a very important document provided by EMC as a vendor to the customers; any wrong or unclear information mentioned there can lead to severe issues; those mistakes can happen because the support team don't have the needed time to validate and test the information mentioned in the KBs across different versions of the product and maintain a unified format and description methodology.
+1) Having a dedicated team to create the KB articles and document the known issues after validating them will enhance the customer's experience with support.
+2) The integgrity of the information described in the KB articles will be more trustable and verified accross different versions.
+3) This team will have a channel with the support engineers, QA and engineering teams to help in validating each issue.
+4)The KB articles format will be alligned and adjusted to mainain one decent image of EMC KB articles similar to other vendors.
+1) Improve customer experience.
+2) Decrease the number of service requests.
+3) Provide better image of EMC KB articles to our customers.

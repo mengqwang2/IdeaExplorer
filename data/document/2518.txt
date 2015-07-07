@@ -1,0 +1,12 @@
+An automatic and end to end solution to track machines location in large scale data center
+OnRack is designed to manage and orchestrate hardware elements in data center,location tracking is very important to customers especially when hardware issues happen and need to be replaced etc.
+We met the requirement for quite a long while. Both CTO and GHE departments got this requirement from customers when they architecting the datacenter. For easing the management and optimizing the appliances hosting, location tracking is an issue usually being mentioned.
+
+GHE OnRack Hardware M&O solution/product put “location track” to be one of features 
+Our solution solve the problem in two steps:
+1 Track the position/unit of a physical machine in a rack;
+2 Track the rack location in the data center.
+
+To track the postion/unit of a physical machine in a rack, we leverage the Link Layer Discovery Protocol. To track the rack location , we leverage wifi  and employ a smart algorithm to determine location 
+We have more details in this document https://inside.emc.com/docs/DOC-153847 ,please refer to it
+let's say in Application M&O layer , it reports one disk failure in compute node (MAC address is its identifier) , our solution will tell you the exact location for this bad disk(which rack,which U,which slot) then you can go to the rack to replace it

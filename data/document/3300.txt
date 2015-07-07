@@ -1,0 +1,11 @@
+Elastic Cloud Capacity Modeling
+
+We had similar challange in EMC IT. We are devlopeing an automated process and working with business to implement a solution that will save several millions of dollars for EMC. 
+If the resource utilization stays below 10% for more than 6 months, automatically trigger a job that will reclaim the resources. If the resource utilization goes above 60%, expand capacity automatically and monitor closely.  The monitroing solution (eg. VCOPS from VMware) will contiously track and trigger the job depending on the threshold. 
+
+EVP Opportunity:
+Develop an integrated product leveraging solutions from EMC, VMware and Pivotal that can proactively monitor and scale up or down the resource allocation becaused on utilization. 
+1)EMC can provide the solution for storaege resources and VMware can leverage or improve the current toolset to resolve compute and network resource under utlization. 
+2)Pivotal can build an analytics aolution for the historical analysis of monitoring data for these 3 resources and present executive utilization dashboard for leadership team.
+
+

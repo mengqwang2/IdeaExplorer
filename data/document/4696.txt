@@ -1,0 +1,8 @@
+Usage Data Analytics Application for federated Software Defined Data Centers 
+
+For EMC federated storage in software defined storage systems ViPR provides facility to manage the selection and operation of data services based on application storage requirement. It does not monitor the usage data and also does not dynamically help user to understand the current requirement of service. So the idea is to fill up the gap here by provided one layer of automation with the help of usage data analytics so that data services and SLOs can be changed dynamically. 
+In EMC federated storage data centers- The ideas is to create a layer of automation on selection of data services and SLO based on usage data analytics. Initially user would select the specific data services and SLO but when the work load gets changes, this application will change the data service type and SLOs dynamically based on user agreement to do so.
+Therefore this application can help to lower the operational cost and also load balancing among data services.
+
+ 
+

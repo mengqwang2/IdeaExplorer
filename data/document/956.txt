@@ -1,0 +1,25 @@
+EMC Gloabl Broadcasting Service
+The idea is to deliver internal communications to employees at the right time for the right audience. This idea aligns with IT Contemporary Workplace Challenge and maximize the effectiveness of internal communications and get employee attention.
+Based on personal experience, most of the critical information/emails are unable to reach all employees. People pay more attention to project emails/day to day basis emails that are from team but not on the all internal communications.
+
+ 
+The proposed solution is EMC Broadcasting Service, the idea maximize the effectiveness of internal communications and get employee attention.
+
+A demo of screen scrapping can be seen here
+
+https://inside.emc.com/docs/DOC-155823
+
+The idea can be implemented with following features to support global and location based communications 
+
+1.Screensaver Messages
+2.Desktop notifications
+3.Desktop wallpapers
+4.Widgets
+
+
+The idea can be achieved very easily and the benefits are 
+1.With effective internal communication and reaching employees at the right time the cost of information overload to the business can be significantly reduced.
+2.Provide direction on and use of communications depending on message type and urgency. optimize content and delivery to the preferences of Business unit.
+3.As the information is communicated very quickly and effectively , it give  employees sufficient time to know, understand, believe and act upon information.
+4.Ensure employees can refer to and rely on the company’s knowledge management instead of trying to retain everything they have learned in training, read in an email message or heard in a team.
+

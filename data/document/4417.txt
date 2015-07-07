@@ -1,0 +1,30 @@
+Build an Enterprise Ready 3rd Application Platform
+
+I have worked on several projects that need design a Cloud Foundry/OpenStack/VMware/EMC solution to build application platform for customers.  The above solution is designed based on real requirements from local customers, and EMC Labs China team already has a PoC deployment in Lab.
+
+We designed an enterprise-ready 3rd application platform by leveraging Pivotal Cloud Foundry, OpenStack, VMware vSphere and EMC products.  The platform features:
+
+1.	The IaaS consists of heterogeneous deployments of KVM and VMware virtualization while OpenStack provides unified cloud management.  OpenStack can manage VMware virtualization environment through VMware driver of Nova and Neutron.  Different vm types can be used to specify virtualization platform during the vm provision.  The heterogeneous deployments can give customer a solution that balances the economic and stability.
+
+2.	Pivotal Cloud Foundry components are dispersal deployed on two virtualization platforms for gaining best fault-tolerance.  The deployment plan will following below principles:
+a.	Core Cloud Foundry components, especially the single instance component like NATS and metadata database, are deployed in VMware platform for better stability, robustness and performance.  Additionally, the HA/FT features of vSphere can be used to provide sufficient HA protection to these components.
+b.	Multi-instances components are deployed cross KVM and VMware for gaining better fault-tolerance.  For example, we can deploy two CF CloudController and each on KVM and other on VMware.  As a result, the PaaS still works well even when one of virtualization platform down.
+
+3.	Multiple instances of one application are placed into containers (DEA) runs on different VM, physical server and virtualization platforms as much as possible. 
+
+4.     Pivotal HD is integrated into Cloud Foundry as a service, a new mapreduce runtime is implemented as a new BuildPack, as a result, big data analysis job can be executed as other application.  OpenStack Sahara can be also leveraged to integrated into Cloud Foundry as a Hadoop service.
+
+5.	Meta-data databases of Cloud Foundry and OpenStack are configured HA protection through share-storage.  MySQL share-storage HA solution is one of most popular HA solutions, EMC enterprise storage can provide great support to share-storage HA solution with excellent performance and stability.
+
+6.	EMC products provide enterprise storage services.
+a.	ViPR/VNX/vMAX provide block storage through OpenStack Cinder driver;
+b.	ViPR provides Swift object storage interface;
+c.	ViPR provide backend storage of Glance through Swift API;
+d.	ViPR/VNX provide NFS storage to Cloud Foundry as share storage for storing Droplet;
+e.	ViPR provide object storage to Cloud Foundry as blob storage;
+
+7.	Consolidated monitoring covering status and performance cross Cloud Foundry, OpenStack and physical server.  More details can refer to other related idea: innovationcentral.corp.emc.com/#menu_view_ideas?id=2014003460
+
+8.	More advanced features can be implemented by leveraging EMC products like RecoverPoint, vPlex, Datadomain and etc. More details can refer to other related idea: https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014004090
+
+

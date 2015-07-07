@@ -1,0 +1,13 @@
+Productivity in 3rd Platform
+
+Most of folks are online always and not necessarily using a required device/particular OS. Difficulty in attending meetings from mobile, separate audio dialing are few drivers to think in this line. 
+Meeting productivity will be drastically improved if the following problems are solved:
+1. Separate Audio dialing and Live meeting should not be there
+2. Signing to a meeting should be extremely simple and not have to key in numbers and audio authenticate.
+3. Participants should be visible on the screen by default
+4. Voice to text conversion with reasonable accuracy should be captured, which will avoid later typing minutes of meeting.
+Chat:
+1. Instantaneous Voice Chat should be possible with any other colleague with touch of a button, from communicator like menu
+Mail:
+2. While viewing an email, should be able to instantly request a video conference with all parties in email if active
+

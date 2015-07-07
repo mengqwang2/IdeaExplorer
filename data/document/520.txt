@@ -1,0 +1,9 @@
+ROUND-the-CLOCK CHAT SERVICES
+My idea is relevant to the "TCE Challenge" , especially to help leverage social enablement in Business to Business (B2B) to identify actionable customer insights. 
+
+
+My idea ,RO-CK Chat (ROund the ClocK Chat) an application which would be installed on any device , including - mobile phones , would enable the customer to send out a chat message , via the mobile phone , to the EMC number , informing us of the issue . On EMC end , we will get an alert with the details of the issue . The concerned department will have a unique ID , which needs to be entered during the APP configuration .
+My idea will enable the customer to easily access EMC services , with this option , along with the already existing options of  'Mail' and 'Phone'.Moreover , this feature , an APP , would be platform independent and would be installed on any mobile phone and PC(desktop/laptop).
+This APP will enable the Customer to "save time" , while trying to reach us over the phone .  An example of how this idea would be beneficial - Quite recently we had an email outage where customers were not able to contact us via mail , the RO-CK Chat services would have enabled the customers to get in touch with us during the downtime .
+Also , he would be able to chat with us real-time , from his personal phone ,at any point in time and give a brief description of the issue- even before he provides us the details , so that we could engage the EMC team in advance .
+This will definitely speed up the workings for the issue and improve "customer satisfaction " .

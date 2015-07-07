@@ -1,0 +1,37 @@
+EMC Magic card
+I believe my idea will make life much easier for EMC employees.
+I thought of a smilar ID back there in 2011 
+
+
+innovationcentral.corp.emc.com/#menu_view_ideas?id=2011000587
+My idea is to have one card (could be credit card size) that will have 3 main functions:
+
+-RSA SecurID.
+-RFID (for opening doors).
+-USB Storage that has all necessary applications stored on.
+
+
+I believe this card will make life much easier for all EMC employees, explanation: 
+
+-RSA SecurID.
+
+by having RSA SecurID embedded in that card we will eliminate the need to carry additional items or mobile Apps for SecurIR authentication.
+
+-RFID (for opening doors).
+
+As far as I know, accessing all EMC premises worldwide requires to swipe your EMC badge card. we will use that card to access EMC buildings. 
+
+-USB Storage that has all necessary applications stored on.
+
+by necessary applications I mean, applications needed to be installed on any PC that enables an EMC employee to access EMC network from any PC. such as:
+
+-VPN Software. 
+-Cisco IP communicator.
+-EAS.
+-Password safe.
+-Browsers bookmarks.
+
+It happens a lot when you don't have your EMC laptop on you while you are on vacation for example. and you need to access EMC network urgently. so this card will of great help in these situations. 
+
+I can also be more ambitions and dream that this card will also contain VMware player, and a Virtual Machine similar to your own desktop with all highly needed applications such as Outlook and propel.
+This idea will save money and time too. and will make it easier to access EMC network when needing to do that urgently

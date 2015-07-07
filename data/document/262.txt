@@ -1,0 +1,23 @@
+Big Traffic
+Smart city is the current focus,how to utilize the current technology in order to best utilize the resources , save money and Time
+As more as we grow, as more as it become more challenging to manage the time wast in traffic become more challenging as well security coverage
+Idea came up when i was exploring different smart city approach and realizing that the more we focus on creating smart cities the more congestions we are creating around them
+Having a smart city with huge internet connection should be better utilize to offer more efficient way of transportations and reduction in the power needed
+
+Start implementing Smart Cameras and traffic sensors
+1.Smart cameras will start gathering information on current traffic statistics
+  Data to be saved on the cloud and further big data analytic is used to
+ A. Determine the congestions and start directing the traffic towards the less congested roads
+ B. Automatic change for the light traffic based on the road capacity
+ C. Analyse the time and the location for the congestions for better city planning
+the
+2.Using Traffic sensors to gather information on the cars, the speed the location
+  A. the informations gathered will be used to find stolen cars
+  B. Maintain security
+  C . proactive accident  monitor based on the speed of the car and the location
+  D. based on the traffic capacity in specific location at specific time, street lights can be automatically dimmed to better  Utilize power
+  
+-Reduce power
+-utilize big data analytic for better planning
+-Utilize time
+-Cost reduction on a long term 

@@ -1,0 +1,8 @@
+Inventory Visibility
+Addressing Global Product Operations challenge:
+- It helps making GPO/EMC’s supply chain more efficient and effective
+- It transforms the performance across the end to end supply chain in terms of cost, availability and time to market.
+
+Supply chain improvement.
+Suppliers should have visibility to inventory levels of the products that they supply to EMC, and replenish EMC inventory whenever it reaches a certain level (that was agreed before) automatically. 
+This will enable very good level of product availability, with the minimum use of resources, this will cut the costs significantly and at the same time maintain a good customer service and TCE.

@@ -1,0 +1,5 @@
+Open Compute Project
+
+Initiated by Facebook, the OCP hardware designs were born for 3rd Platform. I've been following the design evolution since OCP was announced and after hearing about EMC's plans for the 3rd Platform I think it would be beneficial to at least make some offering based on these successful blueprints.  
+Open Compute hardware designs are available for all partners in the Open Computer Foundation.  EMC should leverage these designs to create 3rd Platform ready solutions for customers that are willing to accept this type of hardware.  Other storage giants such as Facebook and Microsoft are already using OCP based hardware in their datacenters and a slew of Solutions Providers are deploying these products for customers.  There is still a need for EMC's core high-performance hardware but there is also a need to add this type of 3rd Platform hardware to its arsenal. 
+

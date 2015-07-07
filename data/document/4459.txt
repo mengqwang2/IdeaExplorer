@@ -1,0 +1,5 @@
+Combining the transportation tool with the OOH tool
+
+The idea came from entering the same shifts on two different tools every month which is double work and a lot of unnecessary wasted time.
+We should just add in the first page of the OOH tool an option for the user to choose between transportation and OOH.They could be 2 icons to click on or they could be 2 tabs to choose from but if i put my shifts of the month in the OOH tool,it should reflect in the transportation tool so i won't have to log my shifts twice every month.It could be even better if i log in my shifts in the OOH tool and since it's saved there that I'm an IBG employee and the tool has now my shifts,it could submit on its own the transportation schedule for me and send me a notification that it's done.In this case there will be no need for the transportation tool.
+

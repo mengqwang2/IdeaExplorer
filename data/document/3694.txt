@@ -1,0 +1,6 @@
+Scheduled email notification for certain Jobs on Isilon 
+
+Instead of reaching out to customer to send status updates If we had email notification enabled and set cluster to send regular emails to giving the job status, it would be easier to have a close watch on the running job
+Most customers come up with Tech refresh projects where new nodes are added and data is migrated from old nodes to new nodes using smartpools.  
+Only during the migration period cluster could be configured to periodically send email giving the smartpool job status. Same can be tried with migrations based on SyncIQ. During remove nodes (Smart fail) jobs. 
+

@@ -1,0 +1,6 @@
+Resell EMC's arrays
+
+One day i was thinking why don't we use our unwanted hardware , small companies wants good solution with cheap price 
+Collect most of the unused components ( DAEs , disks , CPU , etc... ) to build a new array with small specs and cheap price for small companies . 
+For sure there will be technial criteria for the selected components. EMC will provide new warranty and test all the components before selling it to the customer. 
+

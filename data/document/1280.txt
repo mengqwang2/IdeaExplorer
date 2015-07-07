@@ -1,0 +1,13 @@
+Buisness Units' Portal
+Many employees are not aware of other Buisness Units' roles and job description,
+When an internal vacancy opens up, on which criteria do i decide if i want to apply
+How to know whether or not other departments might be of help to our work, and if so, who should we contact
+Many times i've been contacted by account managers wanting to fix a certain issue, but not knowing who to contact to have their problem solved
+This portal should contain all EMC's Buisness Units
+
+- Its Acronym ( ex: ASC: Account Service controller)
+- Its Team members
+- Its responsibilities and job description
+- Hint about its acheivemnets
+
+Each employee should have a background on EMC's business units, i think this will help us to be a better place to work ,satisfying any employee needs related to this as well as enhancing the communication and connection between EMC teams

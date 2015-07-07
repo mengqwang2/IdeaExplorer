@@ -1,0 +1,10 @@
+Product feature contest
+Sometimes its frustrating for the customer to give you feedback about the product or the support for the product. Even if the customer gave feedback sometimes he doesn't see the effect of his feedback applied to the product or support.
+The idea will help to increase and enhance the supportability to the customer
+through genaral discussion
+idea is to announce a feature contest for every product once a year among the customers using this product.
+
+The contest could be joined through EMC website where the users could like the product as it is, add features that they would like to be in the products that they use or even add comments about the products and the support delievered
+
+The winner of the contest would be by getting likes from other customers on their added requested features and these requested features could then be passed to the developers to review and see if they are applicable to be added.
+This idea will improve customer satisfaction

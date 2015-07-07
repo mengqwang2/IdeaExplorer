@@ -1,0 +1,9 @@
+Lambda Architecture for processing Time-Series data with Deep Recurrent Neural Networks
+Deep learning research shows that using neural networks with deeper layers can predict patterns in data better than shallow (non-deep) models. If data is modeled as time-series, Deep Recurrent Neural Network would be a good fit to learn and predict patterns in data. We can use Lambda Architecture as reference architecture to implement and use such a neural network.
+We have used Lambda Architecture in few PoCs, exploring neural networks for future work and have worked with time-series data. We used Twitter Storm as Serving and Speed Layers and Hadoop MapReduce as the Batch Layer. We can replace Storm by Spark if latency of few seconds could be tolerated. Lambda Architecture and Deep Recurrent Neural Networks are existing concepts and not the innovation of this team.
+1.	Data modeling of Time-Series: If the Time-Series has textual data, it needs to be vectorised. Neural Network based Word2Vec by Google is one of the best tool if the text data is too much of an opinion based than fact based.
+2.	Design a Batch Layer (Hadoop MapReduce or Apache Spark) where a Deep Recurrent Neural Network is trained.
+3.	Design Serving and Speed Layers for real time prediction with Twitter Storm or Apache Spark. Serving Layer periodically updates the recently trained DRNN into the Speed Layer. Speed Layer is fed with new time-series in real time to make predictions.
+4.	Incoming time-series is input to both Batch Layer and Speed Layer. Batch Layer uses this data to continuously train the DRNN.
+
+This could be used as a reference framework wherever time-series data would be used for predictive analytic.

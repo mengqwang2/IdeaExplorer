@@ -1,0 +1,12 @@
+A Solution for Full Text Search Performance Issue Caused by Low-Privileged Users
+This solution goes to Enterprise Content Division (ECD) Challenge.
+This solution is trying to solve a full text search performance issue caused by low-privileged users in xPlore. xPlore is a component of Documentum.
+
+We came up with the idea when discussing this issue with Zed.
+This solution will inject user and document permission into full text search. That is, only records that the low-privileged user is authorized to access will be returned by Lucene search engine and sent to the security filter.
+Please refer to this document for detail: 
+
+https://inside.emc.com/docs/DOC-155111
+
+The performance of xPlore for low-privileged users will be greatly improved when this idea is implemented.
+This solution can also be used by other full text search products.

@@ -1,0 +1,20 @@
+File classification by creating a bitmap image of the file 
+The idea is related to Storage area.
+This was submitted as a patent disclosure (EMC-15-0160) but set to "retained" asking for more info. I haven't yet had time to resubmit.
+It was my idea, once used for for checking what's inside a large binary file, then when learning EMC product I thought it might be beneficial in the area of storage.
+The idea is to classify a file or block of data by creating a bitmap image of the file/block contents, where different types of contents are mapped to different colors.  Then, general-purpose image recognition software can be used to classify the file. Here are steps to create the bitmap image by classifying consecutive words of data in the file/block to particular class:
+1.	Allocate each data word to a certain class – for example – zero, spaces, printable, other binary.
+2.	For “other binary” number of  '1's is counted.
+3.	Map each class to a certain color.
+4.	“Other binary” with different number of '1's are mapped to some greyscale.
+5.	Add a pixel of this color to a bitmap.
+6.	Effectively, each word in the file/block corresponds to a pixel in the bitmap, adjacent core file words correspond to adjacent pixels. 
+7.	The bitmap can be open with generic image tools. A general purpose image recognition software can classify the image as belonging to a certain group.
+
+For Example, assuming the following mapping:
+-	zeros mapped to white,
+-	space characters (0x20) mapped to yellow
+-	printable characters mapped to blue
+-	all other characters mapped to different shades of grey, depending on the number of ‘1’s
+
+Fast classification of unknown type storage - selection of compression algorithms, discovery of irregularities in stored data.

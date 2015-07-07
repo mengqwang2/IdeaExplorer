@@ -1,0 +1,37 @@
+A different look into CSAT! – a New effective way to maximize TCE using CSAT data with Data Analytics 
+
+the idea came from the experience supporting customers. I discovered that we as employees and our customers look to the CSAT from two different angles Although we can unlock huge opportunities and improvements if we can look from the customers eye.
+The current CSAT data model focuses on the following :
+1-	CSAT % for certain quarter per team : to determine if the target is achieved or missed
+2-	Number of CSAT surveys a TSE got per quarter : for rewarding purpose
+3-	Negative CSAT triggers follow up : to check what caused the dissatisfaction.
+All the above points are the result of looking from EMC point of view. This view focuses on certain CS team point of view (CSATs per team/employee). Although the current approach is good for reporting team KPIs, CSAT concept is totally different. it is made to express the customer’s point of view. Meaning that we need to look on the total experience of one customer over 1 year or 1 quarter. For example: 1 customer is having many EMC products and he had filled around 15 CSAT surveys for more than one product over the past year. Looking at these 15 surveys as one entity enables EMC to unlock more dimensions and insights from the data.
+
+The new look into CSAT will be as follows:
+
+1-	An overall look at the satisfaction score for one Customer with all EMC products : shows how the customer perceives EMC as a whole
+
+2-	An overall look at the satisfaction score for one Customer with certain  EMC product : shows how the customer perceives certain EMC product
+
+3-	Checking the trending of the customer’s CSAT over the time using temporal analysis (such as Big Data time series analysis) : enables us to see if the TCE is improving or getting worse and expect the customer behavior accordingly
+
+The new approach will enable us to unlock deeper insights of the data and take important actions accordingly like :
+1-	If the customer satisfaction score with EMC is getting lower and TCE is getting worse : EMC can take corrective action (special attention) to address the customer needs + predict the customer churn probability (probability that the customer leaves EMC)
+
+2-	Provide reports to sales teams dealing with this customer so that they better understand his concerns
+
+
+Implementation:
+
+-	We already have the data: CSAT surveys for certain period of time
+-	Use the time series analysis (one of big data analytics techniques) to study trends over time
+-	Use the database functions (join and select ) to filter by products or aggregate over all products 
+
+Implementing this approach will enable us to achieve the following wins :
+-	Increasing customer satisfaction
+-	Maximizing TCE
+-	Minimize customer churn rate
+-	Define new sales opportunities and expand market space
+
+
+

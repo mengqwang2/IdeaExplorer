@@ -1,0 +1,19 @@
+Semi Automated Code Transfer Tool
+Idea offers a way to have more efficient, simpler, scalable process and measurable achievements to increase productivity and business effectiveness.
+Idea comes from day to day operations of seeing the amount of time slots wasted on code transfers.
+Taking Unified Products (VNX, CLARiiON, Celerra) as an example, to transfer the code file to the array could be highly simplified/automated. The solution would be an EMC tool that allows customer to (in a very simple interface), to choose their product of choice, the code they want, and simply a one button click to transfer. Every type of product/activity has its own little steps/method to transfer the code, the tool should account for that so the experience to the customer would still be a simple click to start and a progress bar while the work is done in the background.
+
+Making the tool as simple as possible to use is key here, we don't want to be freeing up more slots to take on more work to have the customer burdened by a tool that requires a lot of effort to operate.
+If this idea would come into light, its effects will be the following:
+
+1) Increase in productivity
+- We will be taking on more "real" work
+
+2) Increase business effectiveness
+- Minimizing/eliminating a routine process 
+
+3) Increasing customer satisfaction 
+- Some of the code transfers done today over ESRS sometimes never make it to the array, causing the customer to change his original plans and/or make last minute changes. Being that this tool runs on the customer's network would eliminate ESRS issues from the equation of code transfers.
+
+4) Decreasing the lead time required in some cases for an upgrade to take place
+- A code transfer can sometimes take days to complete due to connection issues, this is not the case anymore once this tool is in place. As the same code transfer over the customer's network could take only minutes.

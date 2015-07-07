@@ -1,0 +1,15 @@
+Mobile App that uses Google Cardboard to visualize  CTD hardware elements in 3D and give real time advisory support for customers.
+With every passing year customers expect more, want to spend less money on maintenance and nimble competitors wait on the sidelines. Customers would like to perform routine procedures themselves so that they save on cost and achieve faster turnaround time. This idea addresses these pain points in a cheap and cost effective way where the mobile handset is increasingly becoming the computing device of choice. Ultimately this easier and better maintainability would result in higher sales of CTD products and further garnish EMC’s reputation.
+This idea came about recently when we were throwing ideas around the use of Google cardboard and widespread smartphone usage along with their increasing compute and storage capacity.
+Create a mobile application that provides a 3-D (and a 2-D) view to the hardware under analysis. Use Google cardboard as a cost effective way to provide a 3-D real time dynamic view of the hardware. Taking the example of a VMAX system, the app would :
+•	Build a 3-D virtual VMAX that matches the actual VMAX under consideration by taking information from its BIN file and BTP file. Other required inputs are fed appropriately.
+•	Error conditions such as disks that are close to failure or a fan that is not running are highlighted visually.
+•	As the customer looks at the VMAX, common aspects of it are shown to him with descriptions.
+•	The system would allow the engineer to interact with the virtual VMAX. For example he could open its bay doors, removing a director and inspecting individual elements. As each element is inspected it would allow various informational aspects of itself to be probed and viewed.
+•	In cases where the customer has to make changes, there would a provision for him to use the mobile phone to capture his actions via real time video that is fed back to the EMC support personnel who can advise him to take appropriate steps.
+In the background a NO-SQL database like MongoDB (or existing databases with appropriate interfaces) would be required that serves as a central repository of information for the hardware under consideration.
+Services such as a REST API that provide this information to clients such as the mobile app would need to be built.
+
+Success would be the pervasive use of the mobile phone app to easy the supportability of a single CTD product (VMAX hopefully). After it is proven for one product it could be extended to others. Would ultimately easy maintainability and triage of customer issues, garner more sales and further burnish EMC’s reputation.
+It would further be a very useful and dare we say impressive way to demo a product to a customer without any actual hardware present.
+

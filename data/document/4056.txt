@@ -1,0 +1,13 @@
+Knowledge Sharing Connect (KSC)
+
+This was a thought we imbibed when we were discussing a complex solution related to a technical problem related to application security. We came to a solution of it and wanted to share it with our fellow collegues as well.
+The web application portal will be used to establish a connect amongst all the employees across the globe wherein they can register as an expert of any domain or technology thereby bringing themselves to light and providing solutions to information seekers.
+
+The experts can also upload articles, solutions and white papers for the problems that they have encountered before.
+
+Also any employee can connect with his/her colleagues to by posting a query to this portal which will be automatically routed to the domain/technology experts. If anyone want to explore and learn about any EMC product or technology this portal would of great value to them.
+
+There will also be a module related to WAR rooms where in people having the knowledge of different technologies can establish a collaborative connect. We can also have a web-conferencing associated with war rooms to enhance the interactions.
+
+There will be a generic search module which can search the whole application with documents, previously asked questions etc.
+

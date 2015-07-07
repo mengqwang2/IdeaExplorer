@@ -1,0 +1,17 @@
+ScaleIO + ARM for Power & Cost Efficient Data Center
+Office of the CTO 'New Business' Challenge: We present, what we believe, is a disruptive innovation in the storage field that can open new markets for EMC.
+
+Environmental Stewardship Challenge: We propose an innovative storage solution that can reduce power consumption by orders of magnitude.
+
+Israel COE Challenge: We propose an innovation around SW defined storage (ScaleIO).
+I (Ilya) have a RaspberryPI SoC, which I’m currently using as an HTPC running Kodi on OpenELEC. I’m a big fan of this tiny computer that is capable to decode 1080p movies while being powered from a USB port on the TV. This inspired me to seek power efficient storage solutions based on ARM chips. 
+
+I discussed the feasibility of implementation with Adam, who implemented VPLEX support for ScaleIO as backend storage.
+We propose to combine an HDD/SSD with a simple and low-power ARM based SoC (System on Chip), running a ScaleIO server. This compute-storage unit will serve as a building-block in a cluster of similar units, connected via Ethernet. Hosts use either an iSCSI gateway server (clustered for availability) or the ScaleIO client to access the storage. ScaleIO’s design will allow such cluster to scale-out indefinitely by adding more units, as well as for incremental upgrades to the next generation of hardware in the future. We envision a “stupid” box that can accommodate such units according to demand, in a similar fashion to a traditional storage array and disks.
+
+Such a building block capacitating 1TB can be constructed using HW worth less than 150$ (consumer prices). Its over-estimated power consumption is sub 5W. Both parameters are orders of magnitude less than traditional storage!
+
+A short ppt describing our idea can be found at: https://inside.emc.com/docs/DOC-155408
+We envision disrupting the traditional storage industry in the same manner that smartphones disrupted the PC industry. We believe that low-end and power efficient computers are a natural evolutional step in the design of data centers. If we won’t do it first, some else will!
+
+Our proposed low-end, low-power storage solution can open new markets in developing countries, as well as reduce power consumption and TCO in existing markets. Eco-friendly branding can appeal to customers in developed regions.

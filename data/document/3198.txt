@@ -1,0 +1,7 @@
+Multiple Server ID Script for LOAD RUNNER
+
+I came up with this on Jan 14. This is my own initiative, when I joined I saw my colleagues updating server ids in Install base manually, its like a continously repeated stuff for them. That time load runner was only for de-install and re-install purpose, I thought if we can do all these things in IB via load runner why not we can update server id, then I research lot on this finally I got a resolution and I also automated the process, We can now easily complete our projects within the given time and last but not the least our daily stuff of working in Moxie request related to server ids.
+Current process on updating server ids manually for the licenses(Instances). Load runner cannot be used to update multiple server ids in Install Base. We have to update the sever id manually by going inside the licenses under the Install Base tool.
+
+Desired outcome – We just have to copy and paste the new script in Hp Virtual User generator(Load Runner). After doing such open the new sever id excel sheet, put all the Instances and the serve ids which has to be updated in Install base, then copy the output coloumn from excel sheet and lastly paste it in to the parameter list of load runner. Uploading will be fully automatic. 
+

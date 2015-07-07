@@ -1,0 +1,9 @@
+NFS Gateway for Object Storage on EMC storage platforms.
+
+The idea has come up in discussions with customers that provide services as part of e-commerce such as eBay that has an adjacency called StubHub. Business of StubHub is to sell tickets for events and eBays has a challenge as this operation grows at a global scale. Object at the back end would allow for a better storage and distribution mode for data, but the front-end operation of issuance & management of tickets is done in file format.
+The EMC NFS gateway would be a software solution that can run on physical servers or virtual machines. It is basically a translation layer that receives the data from the edge end node in NFS form and converts it into a an object for storage or transmission in an object form. This technology would allow many enterprises that process end user information such as forms, tickets etc. in a file format to be able to take advantage of object storage technology for storage or transmission of data. Object allows for rich data that is searchable and is an efficient format for storage, retrieval and transmission of data. But object is not a transactional data form that NFS is. An NFS gateway would allow for transactional efficiency in file form at the front end and an ease of object storage, retrieval, transmission at the backend.
+
+NFS gateway can run as a NFS/object translation layer either on a physical or virtual host or on the VNX, Isilon or VMAX as part of OS based data service.
+
+Given EMC's IP in file and object storage technologies, the SW based NFS gateway should be an easy problem to solve for EMC technologists. Object platforms such as Centera & Atmos are useful for archival and distribution of data but do not allow for transactions in file format at the front-end. NFS gateway can be built on the technologies these HW object storage platforms provide.
+

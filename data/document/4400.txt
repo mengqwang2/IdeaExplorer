@@ -1,0 +1,13 @@
+External Cache and I/O Tiering Unified Appliance for data center.
+
+I came up with this idea when working on symmetrix arrays where critical applications have been mapped and masked to the directors on the array where there is a latency due to high I/O reads and writes on the array directors. The only option during that scenario would be to increase the director FA paths or completely move the servers to new FA's with slight distruption or down time.
+External cache and I/O tiering appliance is a hardware device which will be populated with Memory or RAM, CPU processing capability and to tier the I/O on the appliance level. This appliance can be connected physically to all the EMC products with in a data center or between data center's where the distance between the sites is small. This products works in such a way that all the host I/O's received from the initiator will be sent accross to this appliance where the I/O is filtered based on the target array to which it is connected to. 
+
+This appliance will re direct the I/O to the specified target array using a flag configured on the initiator which is mandatory. once the I/O is received at the target, the I/O will be processed by the array's existing memory modules which will have less load on it. The less load means that the I/O is sent in chunks to the respective target array from the appliance which doesnot cause any congestion on the target array. 
+
+Another advantage of this appliance is that the frequently accessed I/O can be directly sent to the high performance drives on the respective array which will decrease the utilization of memory and cache for auto tiering and fast concepts on the target array. 
+
+Instead of following the FIFO Algorithm for processing the read's and write's on individual array's, this appliance will have a capability to determine the critical I/O which should be processed first and then normal I/O with normal priority. Crticality will be decided based on the disks assigned to the host application and the initiators serving the I/O.
+
+Bottom line is that this appliance can be integrated with various emc products to eliminate the latency problem.
+

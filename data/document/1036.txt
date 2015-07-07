@@ -1,0 +1,7 @@
+Syncplicity - Sync, share & backup
+Syncplicity when integrated with EMC backup technologies would become a powerful tool solving the sync+share+backup needs a user typically would have.
+We have been using Syncplicity for last couple of years now and believe it is a powerful tool with a great interface. Adding more features that a user would typically require would make it a single interface for multiple needs 
+Our solution is to propose integration of a backup product like Avamar into Syncplicity so it becomes a single interface for sync+share+backup. If customer buys the backup feature this would be enabled and would be disabled if they have not bought the feature.
+
+Also later when the customer sees the simplicity of Syncplicity and would like to use it for backup  the feature can quickly be enabled making it lot easier and faster for a customer to start loving its backup feature too. 
+This would definitely improve the product and would differentiate it from similar products in the market. 

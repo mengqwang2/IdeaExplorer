@@ -1,0 +1,9 @@
+Support for cross product solutions
+This idea tries to improve the customer experience in receiving support for a any break and fix issue in cross product solutions, improving the troubleshooting and increasing the speed in resolving the issue 
+support engineers faces issues when customer opens a service request for an issue not related to the product and related to other product as customer hasn't full awareness of the products he has.It takes time to collaborate with other teams to assist in resolving the issue 
+My idea is to have support engineers specialized in more than one product so that one support engineer can provide support for the cross product solution without having the customer to deal with different support engineers in several teams.
+Support engineers will be divided into skill sets according to the cross product solutions they are specialized in.
+Service requests is to opened for the whole cross product solution and not having to open a separate service request for each product in the solution and to be handled by one engineer who is specialized in these products 
+ 
+
+If the idea is implemented , it will decrease the time to resolve the issue and improve the customer's support experience

@@ -1,0 +1,5 @@
+3D lab map (Lab street view)
+This idea enables the lab real time monitoring system to all lab users around the world. It reduces the need of lab engineers' physical checking/verification. 
+E-Lab maintains over 10,000 equipment in the lab remotely, it will be very helpful if we have a real time on line lab monitoring system. 
+It is like a self service for organizations which has huge inventory list. The remote organization's engineer spends a lot of time on verifying the asset. Often they need the lab engineer to take photo for the rack one by one. If we set an automatic picturing system in the lab, we can build a lab 'street view' data base. It will provide the remote user an ability to verify the equipment by themselves rather than open tickets to request lab engineer's help.
+It will be a big success to make the whole DCOE 'online', it minimize the need of hands on contact of the equipment. In the other hand, it helps to give the remote team real time response on the visual of their equipment. 

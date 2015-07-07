@@ -1,0 +1,23 @@
+Real time analytics to improve EMC customer engagement 
+The idea caters to pulling relevant information from a target social-media (twitter). This data is analyzed to extract information important to understand customer reviews on EMC’s products or EMC brand in general. Algorithm presented is easy to implement and can extract/analyze data in real time.
+During a brainstorm session with our team, we realized that the power of social media is immense and public posts are usually non-biased. Existing dataset with EMC can be put to good use to get more informative set of tweets. This data can thus give useful perception of customer’s view on EMC and its products. 
+Idea is to use already available data as seed to pull more data. Steps are:
+1)	Available data: Use EMC customer-dataset to extract customer’s twitter-handles. Reduce noise by using only verified profiles. List of EMC products also available.
+2)	Data extraction: Twitter’s streaming API used to extract tweets with EMC related hashtags/products. Tweet object with metadata obtained.
+3)	Filter customer tweets:  Tweet metadata checked for user and compared to customer twitter-handles. Customer tweets that mention EMC or its products are filtered. 
+4)	Noise-reduction/Spam-detection:  Use existing noise-reduction (removing emoticons, twitter specific syntax, etc.) and spam-detection techniques to eliminate spam.
+5)	Sentiment analysis: Sentiment detection algorithms applied using bag-of-words to identify customer’s view/review on the product or on EMC as a brand.
+6)	Customer-loyalty-score: Customer’s follower network also analyzed. Normalized loyalty-score assigned based on number of competitors a customer follows.
+7)	Customer-satisfaction-score: Based on cumulative sentiment analysis results for each customer, a normalized likeability-score is assigned.
+8)	Dashboard: Automated system set up for data-collection, analysis and a GUI to statistically/pictorially represent customer overall experience trend.
+
+The idea if implemented will capture in real time the customer’s sentiment as well as his inclination on EMC’s contemporaries.  This can be beneficial to EMC in following ways:
+1)	Customer experience: It’s a low cost implementation from the combination of pre-existing and continuously generated stream of data. Real time sentiment/loyalty scores can help target the most dissatisfied customers first.
+2)	Product improvement: Product level improvement can be done by grouping and addressing the most frequent and common customer issues raised on social-media.  E.g., an automated Twitter bot that can immediately respond to a grievance with potential solutions or an updated KB link.
+3)	Efficiency: A lot of issues can be handled much before customer reaches the support and registers a complaint. With this model implemented on a publicly available social media platform, customer issues reach out to EMC more freely from almost everywhere for an initial logging.
+
+
+Architecture diagram: https://inside.emc.com/docs/DOC-155847
+
+Note:  I have resubmitted the same theme slightly retuned for “Skolkovo R&D Center Challenge”
+

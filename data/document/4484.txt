@@ -1,0 +1,14 @@
+Team Inventory Management (TIM)
+
+I am aware of the problems and challenges faced by them in the team as I am a lab admin!!
+Provide a team-wise inventory application/portal which is transparent and is easy to track the information of servers and assigned ip’s. It should have following features:
+
+1.	Admin and normal user login.
+2.	Only admin should have the ability to add new servers, add new ip’s, assign servers and assign ip’s to any individual in the team.
+3.	Admin should have the ability to generate the report – the report should contain the details of ip’s and servers used by the team members. This can be enhanced to show as a bar graph/pie chart. 
+4.	Normal users can see the assigned ips and servers details to them. They can also see the details of the server- hostname, ip range, etc.
+5.	Search functionality based on server hostname or ips should be available to all the users.
+6.	Separate section for admin where he can see the available list of free ip’s and free servers. Admin should be able to choose them and assign to any team member whenever they have requested the ip’s or servers.
+
+The above features help lab admin to avoid assigning duplicate ips or servers and also ensure systematic management of the inventories.
+

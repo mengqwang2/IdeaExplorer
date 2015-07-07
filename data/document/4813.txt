@@ -1,0 +1,6 @@
+Next Generation Test Platform Set-up/Upgrade 'One Click' installation process
+
+Innovation Brainstorming Session
+Have a 'One Click' installation process that requires the user to select the Cumulus Instance they wish to set-up/Upgrade and press 'GO'
+
+

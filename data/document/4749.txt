@@ -1,0 +1,5 @@
+GEM BI Forum
+
+The idea came about as a result of discussions with members of the GEM team; Mike Bushell, Brendan Reilly, Steve Lehane and Jeff Bernheart. It was determined that a more efficient way of aligning BI project needs was needed. The BI Forum has been in place for 3 quarters and has lead to improved synergy between the GEM group and the BI group
+A team convenes, reviews all requests for BI dev work. It then determines if a tool is currently in place or being developed. It then determines if this complements or enhances a current request at which time the work may be combined. Finally, all requests are prioritized. This helps to ensure that the right projects are addressed first.
+

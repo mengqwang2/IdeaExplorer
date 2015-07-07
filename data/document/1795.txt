@@ -1,0 +1,30 @@
+Service centre Innovation and Intelligence 
+EMC Service centre tool used wide for multiple product Support and needs Innovation and Intelligence for Advance customer support 
+
+Service Centre has lots of challenges to provided information if any SR worked by multiple Engineer and needs  Innovation/ Intelligence to this tool 
+A) Filter option as per TSE/Engineer Assignment/Owner 
+Filter will only display notes as per selected owner so it’s easy to track what action the specific TSE/Engineer taken during his shift on SR
+If any L2/L3 helps needs for SR , Filter option helps Coach/SME to better analysing  SRs in innovative ways and find out quickly problem/Issues and provide best resolution steps/Solution
+Filter option also reduce productive time for solving customer issues fast 
+
+B) Easy Tab/report which shows total time spend by TSE/Engineer Assignment/Owner SR 
+Total Hours/Time Spend option helps WFM/manager to track and identify right resource who has more knowledge of SR per Specific Customer and helps finding SR ownership 
+TTR keep on increasing for SR, Time spend options helps to ensure engineer understand their importance of SR ownership and works in better ways to find quick resolution
+Total time spend  - Address SR ownership and Turn over issues as well 
+
+C) Special flags /report needed on open SRs  if any customer site has more than 10-15+ SRs open for any individual product 
+This will help to proactively engage L2/L3 SME team – to review list of SRs and provide complete Solutions on Multiple Issues 
+Identify triggers when to proactively engage L2/L3 team and save Escalation/DU/DL issues and provide quicker resolution for all open issues 
+Customer site specific EMC Escalation Management/SAM/Account team needs to gets Auto notification as “Critical Customer” if any customer got 10-15+ SRs open per product 
+Special flags/report helps to identify critical customer and provide better support in advance 
+
+D) Automation for logs review report and Knowledge base reference tab  
+Since many team has GSAP engineer and skill set has issues and NO Quality SR notes and log analysis 
+Automatic logs review report for Critical/failed messages and correspondence high value content or knowledge base article linking helps to address SR problem in advance level 
+KB search report based on automatic log review and SR notes updated by customer (needs dynamic KB search  reports as per new SR notes updates)
+Service Center also needs to provide user option to stop dynamic KB search reports once the problem/root cause identified 
+This will also help GSAP to gain new knowledge/information from auto reference report and automation helps proactively define problem and related action plan steps/KB
+Ticketing tool Service Centre is not linked with Knowledge base tool, Integration of this both solves many issues for Customer Support Team and their are many outcomes/Advantage if Service centre got Intelligence 
+Integration of Ticketing tool (Service Centre) and Knowledge base tool (Sales force)
+
+Better TCE, Reduce Escalations, Identify proactive solutions for customer, Great opportunities on getting high number of CSAT, Ease in SR Management for WFM/Manager/SME/Coach and even TSEs, Control on SR Ownership and Turnover issues 

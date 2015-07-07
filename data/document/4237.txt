@@ -1,0 +1,23 @@
+Tablet Machine (Hardware & OS)
+
+Change is Consistent!
+
+Tablet machines have already replaced the traditional computing (Desktop/Laptop), and the Growth of tablet machine industry has set the new record.
+
+Why not EMC to be part of a Tablet machine business? We have heightened hardware manufacturing units which produces Arrays, Similarly it is easy for us to produce the Tablet machines as well.
+Develop a indigenous new hardware for Tablet machine.
+
+Develop a indigenous new Operating System for Tablet machine, which solely supports EMC Tablet machine Hardware.
+
+This device should be highly reliable and should allow the Android & other competitors Apps(Optional) to be installed on the EMC Tablet machine.
+
+It supports only inbuilt architecture, like storage capacity (25GB), memory (2 or 4 GB) and more reliable processor for tablet machine. 
+
+OS should have an integrated App that enables access to EMC Storage (Free) Application.
+
+CHILD SECTION: Parents & Family member(s) having major challenge when the Kids access their Tablet machine, potential risks are high. Ex: Kids/Adult can knowingly or Unknowingly could access Internet Adult Content sites, Buying apps and Games etc.,
+
+Child Section Application /or Settings, ensures that the Kid would not be able to access all Features of the Tablet machine, rather the 'app' just allows to access the Contact Directory, Email, Camera and Permitted games.
+
+The Child App /Settings is Password protected should be managed by parents/Guardian.
+

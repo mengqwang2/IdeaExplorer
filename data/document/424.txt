@@ -1,0 +1,30 @@
+Use Big Data models to achiever predictive maintenance and predict failures
+The idea aims at enhancing supportability of EMC products using big data predictive techniques.
+
+the idea came from real life experience working in technical support and analyzing huge amounts of logs daily and from the experience with different data predictive models that can help here. 
+
+
+Solution overview : 
+1- A small engine will monitor the logs in real time to check how the array is behaving.
+2- If the engine finds any known symptoms (errors/alerts) that denote a DU/DL situation will happen, it will automatically take a corrective action
+3- The corrective action will be creating an SR with high severity to EMC using connectEMC feature denoting that DU/DL is expected to happen.
+4- EMC proactive support then will check the box and prevent the DU/DL situation
+the engine trains itself with time by processing more and more data making it accurate over time. 
+
+How it works :
+for severe SRs, we can make use of the huge amount of data that can be gathered regarding such issue (logs, SR notes..etc). we will collect such data in a centralized data warehouse. we will run big data analytics techniques to classify and group similar SRs. for a group of similar SRs, we can analyze the relevant data such as logs and SR notes. logs will be analyzed in a chronological manner (with respect to time)to check for certain symptoms or events that happened before the issue. the data will be analyzed relating similar SRs to each other to find the most common symptoms that precede the issue. for example, some data disconnection in some products is preceded with high latency for some time. in some products, unexpected reboots are commonly preceded with some hardware messages.
+
+The engine will analyze such events to get to know what was happening just before the disconnection issue. Afterwards, the results will be presented for Engineering and SMEs team for analysis to formulate the symptoms in a better more precise way.
+
+this way we will combine common symptom set for each severe issue. the symptom set can be fed into the box alerting software (may be in next code update).
+in the next time, once the box logs report such "symptoms set", an alert can be automatically be sent to EMC (may be creating Dial Home SR). the support engineer will then check the predicted issue and its counter-measures and contact the customer to proactively check the box or use ESRS channel.
+ 
+The solution can be implemented in the storage array operating environment or can be added as a separate module in storage management solutions like ViPR. 
+
+ViPR is a good environment to add our module to as it manages different storage arrays and collect logs from different systems.  The predictive engine we are proposing can be added as a solution pack in ViPR SRM or as a service running on ViPR controller.
+
+1-	Proactively predict failures
+2-	Maximize TCE
+3-	Save cost & time for customer service
+4-	Proactive approach to mitigate severe problems
+

@@ -1,0 +1,21 @@
+overcommitting logical disk space to resolve space full condition on DDR to run garbage collection or file migration. 
+
+
+The current solution addresses the challenges faced by Customer and Customer support teams, for an immediate solution, when customer reaches above 90 or 95% threshold of Active tier space and operations like GC and File Migrations are impacted by unavailability of space which results in active escalations and sending Loaner/Free Shelf post which the customer can progress with the operations. The solution attempts to lower the severity of the impact to the Customer thereby enhancing and improve the over-all customer experience. The motivation to improve Customer Experience stems from some of the issues observed in AJP COE CTD Supportability. 
+The support teams involved, have seen this issues in field and this is the motivation of our proposed method to over-come the current limitation and lower the escalations.
+This solution proposed to reserve 10% of actual disk space and overcommit that space as 10 times as logical space to the system for example if we reserve physical 100GB of space for system it will be shown as 1TB of logical space added up in DDFS. 
+
+This will lead to adding up the free space in to the system which results in to increased free space percentage which help to run garbage collection or file migration efficiently.
+
+This solution will be configurable and auto activated during DDOS installation.
+
+Configuration parameters contain Threshold of physical Space, Overcommit percentage.
+
+   
+
+1) The customer would benefit and be satisfied that even with our current system limitations we were able to over-come the situation and solve the problem, almost immediately.
+2) The customer data will be backed-up properly and has saved him time & money both immediately.
+3) We would be able have better price negotiations with customer for additional storage capacity.
+4) No impact on live data ingest. 
+5) A-bit of performance impact, but almost zero down-time impact.
+

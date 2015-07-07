@@ -1,0 +1,14 @@
+Dynamically create the vdisk LUNs based on user's requirement
+With current implementation of ProtectPoint solution with NetWorker 8.5 the encapsulated LUNs from DD devices need to be created in the DD, and then imported to the VMAX-3 which is a time consuming and tedious manual task for DD admin. In addition the size the vdisk devices should be matching exactly the size of the source LUNs which are creted in the VMAX-3 without which the backup will be unsuccessful. Also for any environment with ProtectPoint solution user has to plan and create all the devices in advance. 
+This idea came into our mind while we were bringing up the setups for the testing of ProtectPoint solution.
+Idea here is to extend the current capacity of creating the ProtectPoint device using NetWorker’s device creation wizard to further enhance it to provide an end-to end solution to the user starting from discovery of vdisk devices, creation of new vdisk devices and create the snapvx snapshots, and copying the first set of data from source LUN to FTS LUNs. All these steps are done manually with current protectpoint solution with NetWorker. Can use the exiting NetWorker device wizard  UI for the configuration
+
+Can use the exiting NetWorker device wizard  UI for the configuration
+‘Easy to use GUI’ to perform all the vdisk and snapvx related configuration.
+Automatically checking the status of the links during the creation of the Protect Device.
+Easy troubleshooting by using single log file which will provide reason for failure in case of any issues.
+Integration with applications like Oracle and SAP on Oracle which relives the backup burden from storage administrator and application administrator
+Need not to login to the DD to get the status of the devices.
+There are no chances of backup FTS LUNs being used by more than one person, a new LUN will be created for every request.
+If the Protectpoint device is successfully created, there is no need to re-check the link status.
+

@@ -1,0 +1,6 @@
+Combine Lab Information Management
+In our daily work, we usually need to check lab information from different spreadsheets.Obviously, it slow down the working efficency to swtich between those documentations.
+N/A
+A system to combine those information together.
+When you input the search key words, for example, the S/N of the array or the name of the AIX server,you can get all information from a web view.
+It could save much time to search the information from many spreadsheets and imporve the working effiency.

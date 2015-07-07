@@ -1,0 +1,16 @@
+Dynamic storage activity monitoring based on usage frequency.
+
+I talked this with my colleague Xiao, Pan. We both think this could improve user's operation.
+Enable a mechanism/algorithm based on usage frequency. This method could analyze and record user's usage habit.
+After that, we can caculate the top N opeartion, summary them to a shortcut on management GUI(Unisphere). Next time, user could easily go to target operation without additional opertion.
+
+E.g. In current Rockies, if you want to check Lun compression summary. You need following operations.
+1. Open Unisphere;
+2. Go to "Storage" tab;
+3. Move mouse to left panel;
+4. Select "Select Lun Summary", and view the summary.
+
+The same operations for "Deduplication" and "Migration" summary.
+If we abstract this to a shortcut, these operation will be one step only. It will be much easiler for user.
+We also could apply this in "report" area.
+

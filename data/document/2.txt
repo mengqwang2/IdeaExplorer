@@ -1,0 +1,12 @@
+Data Protection - Meta Data Analytic -as-a-Service
+Meta-Data Analytics capability of DPS Portfolio is becoming a more important differentiator. Current consumption model (purcahse, install, deploy, ongoing) is not "ideal" to realize the business/technology/operational benefits to our enterprise custoemr set- And thus become a "prohibitive" factor for the market to truly apperciate the value of our portfolio offering.
+In the past few years, in various custoemr engagement, DPA is becoming a good-but kinda topic. Customer likes the intelligent/analytics it brings but is wondering if this is truely worth the effort to deploy/support/operate (in addition to the whatever backup infrastructure). For those DPA customer, it is a common issue that the "value" of DPA is always under-archive -as customer just don't have a big incentive to "invest in customization" into DPA - Like, buying an iPhone with no Apps... 
+- DPA-as-a-Service Model
+- Multi-tenant based, subscription model.
+- Web-based Anywhere access to DP Analytic information
+- Introduce "Market Space" to subscribers to share varioius customizations (reports, alerts, etc.) - Encourage customization and turning this into a "platform"
+- As the base platform to further built-up other DP-as-a-Service elements (e.g. Control Planel = BRM)
+- Simplify consumption model - encourage more consumption.
+- Market become more "appreciate" the value of DPS' Analytics capability - 
+- Customer has a easier way to "have" the reporting they needs. (Instead of focusing on the infastructure/integration/customization)
+- 

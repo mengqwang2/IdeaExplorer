@@ -1,0 +1,22 @@
+Smart inventory management SaaS solution for healthcare vertical
+
+The recent event of dengue outbreak and poor handling of it led to loss of lives. This triggered the thought process of how to solve this using a software solution.
+
+Data Collection:
+The key to analytics is historical data. Various data collection methodologies can be used to obtain data from the field. The data model can be set as per the requirements of the analytics required. In this use case, collection of the sensitive patient data can be skipped to reduce security requirements.
+For instance, the primary health centers can feed in data about the number of patients being consulted for the particular epidemic on a day and demographics of the area. The data collection methodology can use IVR, SMS or smart apps to collect this data and feed to the Greenplum DB.
+
+Data analytics:
+There are two aspects of the data analytics in regard to this use case
+1. Real time tracking of outbreak
+The data fed into the GreenPlum DB can be used to classify real time outbreak of epidemics. This can be based on rules like thresholds of number of patients, the severity of the epidemic, etc. Based on these rules outbreak can be classified and associated triggers will be called. 
+
+2. Prediction of outbreak
+The historical data of epidemic outbreak in a region in a particular season, can be used to predict the reoccurrence of the epidemic based on the prevailing conditions.
+
+Smart inventory:
+Smart inventory SaaS solution will integrate the data analytics using GreenPlum and the process of updating and maintaining the smart inventory of medicines using xCP. For instance, when an outbreak happens, the GreenPlum will trigger the alert which can be used by xCP to check the inventory. On insufficient inventory, xCP will trigger the process of updating the inventory of medicines for the epidemic automatically. Thus the inordinate time delay in finding the outbreak to updating the medicine inventory is resolved.
+
+On availability of historical data and prediction of potential outbreak, the medicine inventory can be proactively updated so that precious time and lives are not wasted.
+
+

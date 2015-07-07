@@ -1,0 +1,5 @@
+SR quick links
+
+Brainstorming for customer service challenge.
+Provide engineer on service center with a quick links tab with recent ARs/SRs on same array, relevant KBs, release notes, last upgrade date, any SRs currently open with same customer, etc.
+

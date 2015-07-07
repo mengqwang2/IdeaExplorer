@@ -1,0 +1,6 @@
+Event Driven MFG Test Monitoring
+
+This idea arose out of a brainstorming session with the local Cork APC team
+Engineers could subscribe from a menu of mfg test options and receive an alert via email once that event occurs. For example, if there is a high priority Sales Order spread over multiple Mfg Test Uuts, they could choose to receive an alert when each of those individual Uuts is nearing or has reached the end of mfg testing.
+Sometimes engineers will be particularly interested in certain diagnostic test error codes, they could subscribe to a generic Uut alert where they will receive an email once this Diagnostic error occurs on the next Uut.
+

@@ -34,11 +34,11 @@ def main():
     des=dp.concatedField("../../data/fieldList.txt")
 
     # The number of documents to analyze each iteration
-    batchsize = 50
+    batchsize = 100
     # The total number of documents in Wikipedia
     D = 5000
     # The number of topics
-    K = 100
+    K = 50
 
     # How many documents to look at
     if (len(sys.argv) < 2):
@@ -47,8 +47,10 @@ def main():
         documentstoanalyze = int(sys.argv[1])
 
     # Our vocabulary
-    vocab = file('./dictnostops.txt').readlines()
+    vocab = file('dictnostops.txt').readlines()
     W = len(vocab)
+    #print W
+
 
     # Initialize the algorithm with alpha=1/K, eta=1/K, tau_0=1024, kappa=0.7
     olda = onlineldavb.OnlineLDA(vocab, K, D, 1./K, 1./K, 1024., 0.7)
@@ -56,7 +58,7 @@ def main():
     # sooner than this.)
     for iteration in range(0, documentstoanalyze):
         #Retrieve texts
-        docset=des
+        docset=des[iteration*batchsize:iteration*batchsize+batchsize]
         # Give them to online LDA
         
         (gamma, bound) = olda.update_lambda(docset)

@@ -1,0 +1,12 @@
+Analytics Solution on My Voice data
+
+I volunteered for the MyVoice Survey team in IIG. We discussed lots of ideas on how to improve the experience of an employee and found that not being able to get deep rooted reports along with maintaining anonymity for the employee was a major challenge in decision making
+
+This idea is for HR Challenge (Mentioning here since the "Challenge Addressed" dropdown is not working)
+The idea is to provide deep rooted statistical analysis on the data collected from the survey. As of now the analytics done was quite superficial and could go only as deep as the manager's level. There was no option to find out the trend across one particular question. 
+Since all the survey data is stored in excel, therefore we can use a statistical programming language R (open source)to provide analytics on a per question basis and then create visual reports (graphs, pie charts etc) using d3.js
+This approach takes advantage of the power of R to provide deep rooted analytics (we just need to feed the excel data) and will also take care of the anonymity of individual employees.
+
+For further details kindly check:
+https://inside.emc.com/docs/DOC-100233
+

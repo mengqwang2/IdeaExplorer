@@ -1,0 +1,9 @@
+EMC Employees' Survey
+
+*
+EMc to send employees a 12 questions suvey that will be divided throughout the year, meaning that a question will be sent every month to teh employees
+
+these 12 questions are of different fiekds based on the Myvoice results.
+
+employees will be able to submit their suggestions monthly
+

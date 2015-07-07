@@ -1,0 +1,13 @@
+Real time remediation for business compliance breaches
+In this world of "Internet Of Things" responding to security threats are the greatest challenge.
+This idea proposes a way for proactive/automated remediation of incidents to enable a zero-day resolution and ensure compliance.
+Idea is incubated and worked by asmall cross-domain team (innovators for this idea)
+For the business goals defined in RSA Archer, compliance can be ensured real-time. Any breaches are just a click away to be brought back to compliance.
+The Administrator will be apprised with the breach, can review the suggested remedy, and just click approve to get the job done.
+The whole process is completely automated.
+
+Please refer to for details:
+https://inside.emc.com/docs/DOC-155350
+This feature will bring a great shift in the “incident resolution” as its almost a 0-day solution to breaches and vulnerabilities
+
+https://inside.emc.com/docs/DOC-155350

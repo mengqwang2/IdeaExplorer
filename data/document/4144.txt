@@ -1,0 +1,28 @@
+Providing End to End Automation to Manage & Deploy Pivotal HD with SDDC (POC Available)
+
+In the present computing environment data analytics is playing an important role in finding answers from Big Data. Providing Simple interface to manage & Deploy Hadoop Environment will push the development of applications instead of spending time to build the environment
+The solution is based of products of EMC ECS, ViPR, VMware, RSA & Pivotal
+
+*** Big Data Extensions (BDE) simplifies running Big Data workloads on the vSphere platform. BDE can also be used to host multiple Bigdata Distribution and Versions releases. 
+
+*** The ViPR Controller REST API describes the programmatic interfaces that allow you to create, read, update, and delete resources in a ViPR data center.
+For example - GET _https://<ViPR_VIP>:4443/tenant
+Each ViPR storage resource class has a pair of /bulk APIs - a GET and a POST call. ViPR resources are not deleted, but are marked as Inactive. Inactive resources are periodically collected and removed permanently from the database by an internal process called garbage collection
+
+*** NSX brings together the best of Nicira NVP and VMware vCloud Network and Security (vCNS) into one unified platform providing a full-service L2-L7 overlay virtual network for any hypervisor, any cloud platform, deployed on top of any general purpose IP network hardware.
+
+*** Puppet is a declarative, model-based approach to IT automation, helping you manage infrastructure throughout its life cycle, from provisioning and configuration to orchestration and reporting. Using Puppet, you can easily automate repetitive tasks, quickly deploy critical applications, and proactively manage change, scaling from 10s of servers to 1000s, on-premise or in the cloud.
+
+
+VMware Orchestrator is used to automate the environment using Orchestrator's workflow engine to automate bulk operations and create workflow processes for integrating existing tools.
+Vcloud Automation center provides self-service portal and cloud orchestration capabilities. With the integration of VCO Blueprints can be published in the service catalogue which provides simple interface for requesting the services from the catalogue. Automated chargeback can be done using VMware ITBM suite.
+
+
+Benefits:
+
+a) Provides a better platform for xBU collaboration.
+b) Converting the above said solution in a gamification model, academia/educational alliances can be better built.
+c) Our ideation is an answer from EMC to AWS or GoogleAppEngine products.
+d) Go-to-market can be further strengthened with existing or elite customers.
+
+

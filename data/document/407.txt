@@ -1,0 +1,26 @@
+Centralized Secured Access for IOT Devices
+Typical IOT network topology involves point to point communication or Star Network - where is devices talk to each other through a gateway or a Mesh Network - wherein each node is connected to every other node around it. Given this heterogeneous nature of the network, it makes it very critical that we have a central controller module which takes the decision on behalf of the devices on the authentication mechanism to employ.
+
+We started ideating for this challenge by having discussions with the Sponsors to understand the challenge better and the key wins they are looking for. We understood that the requirement is to have a one place authentication and authorization for IOT devices connected by having so the security aspect need not be taken care at each individual IOT devices such as sensors and actuators.
+
+Ideating this with in the team, we came up to have a solution to have a Centralized Security Authentication and Authorization process for all the IOT Devices connected to the Network.
+Data Security in IOT world is primarily around securing data across various states - At Rest, In Transit & In Use.
+
+Multifaceted approach is very much essential to secure IOT devices. Security in IOT context will require measures to be incorporated across SDL, deployment, network layer,
+Physical devices and finally Data exchange between devices. 
+
+This solution focuses on 2 key aspects of IOT security - Authentication & Authorization of devices & Data Security.
+
+The solution proposes to centralize the decision making on the authentication mechanism to a Controller Module. The controller module is based on hexagonal architectural style, 
+Wherein it supports communication through all IOT supported protocols thereby devices utilizing any communication protocol can talk to the same module.
+
+Devices register with Controller as part of the registration process, indicate to the controller, the protocol supported, authentication mechanisms supported, metadata about the device, its unique hardware id, the device or the gateway it intends to interact with etc. Based on this data, the controller decides on the authentication mechanism to be
+Employed by the device for the communication.
+
+Within a network of IOT devices, there can be many Controller Modules which all in turn are managed by a central Administration module hosted on the cloud. 
+
+1) A Unified Solution supports all IOT Devices.
+2) Cost effectiveness and ease of installation as it is a centralized for all IOT Devices and we need not implement it for every devices individually.
+3) Scaleable solution as Controller can be configured to support any future protocols/mechanism
+
+This could be First of its kind security solution enabling rsa to be pioneers in data security over IOT devices.

@@ -1,0 +1,5 @@
+Use Solar power for Servers
+
+I came up with this idea when I saw there are other devices which can run on solar energy so why not our servers.
+Solar Energy used used by other devices(like calculators) concept can be used for our Servers.
+

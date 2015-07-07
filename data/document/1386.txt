@@ -1,0 +1,9 @@
+Self healing mechanism in  applications(Networker I suppose)
+The idea is to build a much better  autonomous  and SMART application.
+The challenge is to increase the standards and the noticeable error zones.
+
+The idea is self evoluted when this application is compared to a human body where it heals by itself.
+Build a agent/process zone wise(Communication, Devices etc.).This zonal process will try to reset the process/daemon causing this application hung issue.
+Customer satisfaction: In case of most environments we see application hung and a restart of it is needed which cannot be afforded in most of the environments.
+Self-healing a innovative concept in applications. This will also be a major improvement in the product.
+

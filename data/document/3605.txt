@@ -1,0 +1,5 @@
+Simplification of our GTM for our Products and Licensing
+
+This comes from explaining many times to a customer that they require a uplift to RecoverPoint-EX because the license in the Suite they have purchased only allows it to connect to a single VNX not their exiting cluster that has multiple arrays already. Additionally on the array side software should be based on a per drive basis not capacity or performance tier of the drive.  Again having to explain that they have to pay more for software for a Flash or SAS drive versus a NL-SAS drive is a time consumer. Having one SKU for drive makes it a much simpler task to quote, track and plan for maintenance cost. 
+It is a very simple approach, one SKU for each title tied to the serial number of the master serial number. All array software would roll up and Lifecycle with the array serial number, all RecoverPoint would roll up to the master serial number of the cluster.
+

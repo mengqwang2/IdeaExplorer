@@ -1,0 +1,5 @@
+Double tester capacity
+
+From debugging hardware issues on testers I found the amount of room taken up by the hardware within the tester is very little. Can easily add the extra hardware and use the spare power slots to power the product etc that would allow the idea to work
+Place an extra server in a tester, add any extra hardware needed within a current tester. You now can test double the amount of product that can be tested per tester
+

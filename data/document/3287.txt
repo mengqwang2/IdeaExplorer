@@ -1,0 +1,5 @@
+Bupa Claim App
+
+It's always a hassle to keep the receipt and go online to fill the application everytime. It would be easier to use a mobile application.
+Do an application where we can submit the receipts and invoices right away by mobile and it will save a lot of time.
+

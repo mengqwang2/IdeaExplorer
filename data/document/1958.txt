@@ -1,0 +1,39 @@
+Integrating Customized Top-of-Rack Switches with XtremIO to solve TCE issues of our Customers
+We have heard our customers are having TCE issues with respect to networking area in All Flash Array. 
+
+Integrating ToR switches with All Flash Array will increase the TCE considerably high, provide improved efficiency and also performance will be increased tremendously
+We got a feedback for our other idea "innovationcentral.corp.emc.com/#menu_view_ideas?id=2015001240"
+
+from Charles as 
+
+ "We definitely need to add ToR switches to XtremIO.  This is a TCE issue with my customer.
+
+ScaleIO, and presumably vxrack, also demand attention to sound networking. 
+
+The east-west traffic that ScaleIO and Hadoop potentially generate will force storage folks to pay more attention to networking.  Currently we cede this revenue to others."
+
+which lead to this idea specifically to xtremeIO
+TOR switches belongs to billion-dollar market. EMC can leapfrog the outdated technologies in the field of switches and directly embark into new technologies.
+
+This is the huge business opportunity for EMC if we can find a way to build efficient Top-of-Rack switches. This will help EMC to provide efficient data centers  and also new market share for EMC. Further, it will mark the first step for EMC to get into networking infrastructure.
+
+The Big advantage here is that data centers and TOR switches complement each other.
+
+Huge Revenue Potential:
+-----------------------------
+
+The product will offer huge market potential in two different forms: 
+
+1. By improving the market shares of our All Flash Array
+2. By finding new market entry in networking infrastructure 
+
+Advantages
+-----------
+Offers high-performance and low-latency 
+Delivering flexibility for optimization in virtualized data center environment.
+XtremIO integrated with ToR switches bringing huge revenue to EMC Market.
+
+* Improved TCE
+* Improve Product
+* Make Money
+* Increase Market Share

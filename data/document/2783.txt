@@ -1,0 +1,5 @@
+Durham Data Center Elastic Labs Challenge
+Let's take a tour around the biggest data centers: Lakeside Technology Center (350 East Cermak), The industrial strength infrastructure includes four fiber vaults and three electric power feeds, which provide the building with more than 100 megawatts of p
+N/A
+This will solve the biggest fear in the data centers which is the "Space" or mainly the "meter sqaure" per each data center this costs high money, Once there is cloud technology with a one storgae like VMAX3 already VMs will be installed on its Hypermax OS (RP, data domain, any other possible documents could be implemented as a VM)
+N/A

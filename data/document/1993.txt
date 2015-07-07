@@ -1,0 +1,16 @@
+Securing internet browsing from inside the organization
+IT Contemporary workplace challenge: The main idea of this product is to make browsing the internet easier so using it internally would make for a happy internet surfer.
+
+Israel COE Challenge: This is a security product which can enhance current products. It can also be combined with other business units such as vmware.
+
+The origin of the idea is a discussion with several co-workers after finding a long, annoying batch of sites for which we got the green EMC notification only to find that the site itself did not work (even though it did work on an external network). We discussed means to allow access to all sites (and to applications such as skype) without risking the security of the computer. 
+The idea is to create a virtual air gap by dividing the environment into two: The first environment (the computer itself) would have access only to internal infrastructure (i.e. can connect to all internal organization network but nothing in the internet). The second environment, a virtual machine (e.g. vmware workstation) would provide access to the world. 
+We assume that a virtual machine is a good insulator which provides a good way to make the two environment separate. We would provide tools to install programs inside the VM (so as not to expose it being a full VM but rather a place to install applications). This would mean we would have a browser for internal browsing and a second for external. When downloading files they would be moved to an internal partition in the VM, scanned (e.g. to scan from viruses) and then can be moved to the external environment through shared directories. 
+We can advance this in the future to create a market place for applications, to allow snapshots which remove everything after logging out (to further protect the system) while saving only important elements (e.g. user profile in a browser).
+This would provide maximum flexibility to the employee while protecting the internal resources.
+For more information, see: https://inside.emc.com/docs/DOC-155676
+
+A successful product would allow users to access the internet seamlessly (simply by using an “external browser”) without harming the security. 
+For us, even if this would be inside EMC only it would make it much easier for employees to work.
+This means that a success could be internal by enhancing productivity while promoting security inside EMC and better, if made into a product this would actually make money and provide incentive for customers to buy into the RSA stack of security products.
+

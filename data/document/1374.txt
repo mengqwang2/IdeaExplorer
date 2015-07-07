@@ -1,0 +1,16 @@
+Home appliance storage.
+EMC has been building storage arrays for enterprise use for longtime. It already has the capability and competence required to build storage hardware and associated software(s). Here, we are proposing a smaller storage that can be used as home appliance for backing up all kinds of data. It’s more than just a cheaper storage; it should be smart enough to communicate with all electronic devices typically used in a home network; namely, PC, laptop, smart phone, tablet, smart TV etc.
+I came up with this idea while pondering on the 2015 challenges, Office of CTO challenge in particular; and wondering which new business area EMC can get into next, and where its existing expertise and capabilities can be of best use.
+
+Later during further research, I found that Apple has a similar product called “airport time capsule”, which allows taking backup through Wi-Fi. But, that probably works only with Apple devices. Here, we are talking about a general purpose storage which can be programmed to take backup from devices belonging to any vendor. Also, apart from taking data backup; the proposed storage, with help of intelligent applications (described below) can become an integral part of intelligent home networking.
+Here I am talking about a storage that will seamlessly fit in a home-networking environment. It can be programmed to take regular back-ups from smartphones , lptop, tablet, PCs , even from a smart TV.  Also, any devices present within the home, can transfer data to storage through Wi-Fi or any other preferable medium.
+
+Additional details about the can be found at the following place:-
+https://inside.emc.com/docs/DOC-155545
+
+The major advantages of having a storage device in home is that, data never goes out into the internet. So, it’s much safer than keeping your data in a cloud. 
+
+Apart from backing up files, storage can be used to record different statistics about the home, which can later be analyzed by relevant software(s) for providing adaptive intelligence capabilities in home network.
+
+Most importantly, EMC already has the core competence to implement this idea. All, It’ll require is redesigning existing hardware and writing/or fine-tuning existing software to suit this new environment. It allows EMC to enter into consumer electronics market with minimal investment, and banking on a product/technology where EMC has already proven its superiority.
+

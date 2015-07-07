@@ -1,0 +1,5 @@
+Elevator sensors to be activated during Rush hours
+This idea will optimize the usage of Elevators during peek hour.
+Eliminate the redundant stops of the elevator when it is completely full.
+My solution is a sensor in the elevator that detects the maximum acceptable weight  that don't let the elevators stops in the floors when its completely full.
+Optimized Elevator usage.

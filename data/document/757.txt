@@ -1,0 +1,24 @@
+Different Strokes – A multi-COE approach to foster Innovation and Collaboration through Diversity
+Our prototype Mobile/Web app addresses Platform 2.0 and is scalable for 3.0 too. 
+
+We put together a diverse team of EMCians from Egypt, India, Hong Kong, Israel, South Africa, Venezuela, Russia, Ireland, and United States. We collaborated to define this submission through regular communication via phone, WebEx, Emails, InsideEMC .
+
+Over the past few months, we collaborated with like-minded EMCians across the globe and put together a team that truly represents diversity of gender and ethnicity. Our regular brainstorming sessions conducted via phone calls, Emails, InsideEMC (https://inside.emc.com/groups/innovation-multi-coe), and WebEx sessions helped us enhance ,review and finalize this idea.
+We have designed a solution that provides unique and measurable outcomes through three components.
+	
+1. Demographic Analyzer: Analyzes demographic data (gender, ethnicity, language, ability, experience levels), and creates a dashboard for each team, and country. Managers can assess their teams' diversity quotient and compare with industry benchmarks.
+
+2. Smart Hire: Analyzes Social Media platforms such as Facebook, LinkedIn, etc., and lists  profiles based on the hiring manager's needs. It also provides a sentiment analysis and diversity details for the prospective candidate. This can be achieved using EMC Federation Pivotal GreenPlum database, and the Open Source MADLib library. 
+
+3. Culture Coach: An open forum, members are champions of the forum. If you are travelling to an EMC office in a different country, you can contact the local Culture Coach for demographic and interesting details of that country. Our Quick Facts, Fun Quiz, Connect, Chat features promote connections with a diverse population.
+
+We foresee tangible returns and value on investments made in Diversity.
+
+When our app is deployed, we can measure impact through number of patents filed, new service offerings created, and new service improvement plans designed.
+
+Our vision is that every employee downloads and uses the app, making it the most downloaded app. 
+
+We envision that all Individual Contributors and Managers will use this app for any information on Diversity.  
+
+This is an Open Source App, and we foresee active collaboration in EMC communities – geographies, gender, and ethnicity. This app would also create brand ambassadors of Diversity in respective communities.
+

@@ -1,0 +1,13 @@
+Harmonise the EMC Intranet
+
+After getting used to everything being inconsistent and swapping between Channel EMC and the Ireland COE pages depending on the information I wanted to get at I felt it was time it was harmonised for the sake of simplicity.
+Currently all our homepages are set to Inside EMC, this like Channel EMC has a primarily US slant to it.. Weather in Fahrenheit, links to charity efforts in the US. Time and Attendance links to the US systems.
+
+Then in Irelands case we have the Ireland COE page which has irish relevant stuff, such as links to clockwise concise ways to get to Employee Central, it has a totally different look and feel.
+
+We also have inconsistent design on other corporate pages such as the aforementioned Employee Central and EMC university.
+
+Instead I think there should be a SINGLE landing page for everyone, that being Inside EMC, but based on location this page would have elements that are specific to the region as mentioned above. Other elements would then be used purely for EMC wide messaging such the call of Innovation Central, news about new products, articles on things like changes to Commitment @ EMC etc...
+
+All other corporate pages should fit within the same design elements to keep a consistent feel right across the board.
+

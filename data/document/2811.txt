@@ -1,0 +1,18 @@
+Single pane of glass for VM-level data protection continuum in DPA.
+- Bridging the gap in data protection solutions by connecting backup and replication
+- The need to meet more stringent SLAs with exponential data growth
+- Giving vAdmins an easy-to-use solution for monitoring their virtual environment protection since the
+Roi raised the subject of continuum in a brainstorming session we had in the Beer Sheva Cross-BU meeting. This was followed up by Kfir and Roi who further developed the solution for virtual environments.
+We suggest a single pane of glass for VM-level (or vApp-level) data protection continuum in DPA. This screen will show all VM recovery-points in a simple Unified View for both Backup and Replication data copies.
+The user will be able to easily monitor their SLAs and auditing requirements while DPA will do all the work behind the scenes.
+As far as we know, such a unique solution does not exist today.
+Our innovation suggestion will aggregate information from the following sources:
+-	Backup application, e.g. Avamar and Networker – copies created by periodic backup jobs.
+-	RecoverPoint for VMs – VM replication RP snapshots.
+-	VMware vCenter (VC) – VM snapshots.
+-	and any other VM-level protection solution.
+This idea will also apply if there are several VMs in a vApp (in a single consistency-group).
+Security: Minimal credentials – our solution requires users to provide credentials only to the backup and replication agents and does not need passwords to access vApp data.
+-	Allow this feature to enhance the user experience in the next versions of DPA
+-	Improve vAdmins and other users’ satisfaction with the DPA product and optimize their environment protection monitoring.
+

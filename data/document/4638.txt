@@ -1,0 +1,14 @@
+Improving PPME / EMCopy / Rsync host based data migration performance with SCSI-3 X COPY integration 
+
+NOTE : - Please see the following link for presentation and download and run in presentation mode to see the animation of unbound operation
+
+https://inside.emc.com/docs/DOC-99902
+
+Extended Copy feature is predominantly used in backup, Microsoft Windows ODX Copy and VxVM. By integrating this feature in PPME/EMCopy/RSync we can improve the performance of the host based migration methods
+PPME, EMcopy and Rsync is host based migration method during migration the data path is from source Storage - PPME host - Storage. 
+By integrating "SCSI-3 extended Copy" feature Data can be migrated directly from source storage to Target Storage by offloading the migration request to Storage array's Copy manager
+
+The benefits of PPME Extended Copy Service will be:
+
+Server-free copy operation. The copy operation is done between the array subsystem and the target disk. The data copy operation does not use any CPU or I/O resources on the host server.
+

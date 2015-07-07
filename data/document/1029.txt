@@ -1,0 +1,18 @@
+MAC OS virtualization through vCloud Director
+Need to have dedicated hardware to run MAC OS
+Time taken to provision the business requirements
+Unavailability of Self Service portal and quota/lease system.
+Unable to clone & copy the business critical environments
+India EOS2 LAB Experience
+ 
+We spend lot of time in provisioning & recreating the MAC setup for test & DEV environments
+
+Implementing MAC virtualization through vCloud Director
+Improved Productivity in creating the test & DEV environments "to 10 Minutes" by having the MAC OS templates & snapshot options
+
+Automated IP management
+
+Dependency on LAB Admins reduced with User self-provisioning
+
+Saving in CAPEX by using MAC virtualization feature (maximum utilization of resources)
+

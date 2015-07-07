@@ -1,0 +1,13 @@
+Using Container to Integrate Big Data Analysis Framework to reduce complexity of Big Data Deploy and Use
+Big Data Analysis Framework is a key component for EMC Big Data solution. how to reduce the complexity of analysis and provide the high efficiency Analytics toolkit is especially important for our customers
+this idea comes from the following:
+1. popular container technology, such as docker
+2. industry expect of big data integrate into container
+3. data scientist want to reduce the complexity of analysis  
+1.Big Data As a Service. We will integrate the Enterprise Big Data Platform, Spark Platform, Real Streaming Platform, etc. as Image into Container(Docker/Kubernetes),  all those platforms are based on common industry requirements and standard and have optimized and tuned. For example, if a data scientist want to do a computation based on memory, he just click a button and choose some condition, then Spark Platform will be setup automatically.  It will also provide the multi-tenant and resource isolation, etc.
+
+2.Provide Common  GUI. After step 1 finished, Data scientist don’t need to write any map/reduce or spark job, he can use our GUI to do data operation. For example, he want to join two tables, just drag two tables, then our  program will translate those into map/reduce or spark job and provide the result to customer
+
+3.Provide Analytics Toolkit. It will provides a foundation of common algorithms, enhanced machine learning algorithms, etc.
+
+EMC Big Data analysis framework and solution will be more easy to use and more competitive 

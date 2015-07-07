@@ -1,0 +1,11 @@
+Automation / Self-Healing of Error Disabled Network Switch Ports
+TCE is something which we have striving in our every action in IT, Self healing of Error disabled ports by introducing this method will have network ports uptime apt to users without and incident being created and waiting for resolution. A self healing solution which is transparent to users across LAN.
+cost affective global implementation can be done for user access ports and in turn save $ per incident which is routine.
+this NEW Idea is self made/thought due to our routine tasks of reenabling users port on daily basis thought is have come up with some new way for this 1,2 ,3 step.
+harmless, easy to implement and saves big $ over time for EMC IT and hence improve user experience - TCE.
+Global configuration command on all Access switch [ User switches ] - errdisable recovery interval  <30-86400>  timer-interval(sec) can be exercised to have given the time for all errdisabled ports to come back to Operations without ManPower like a first line of support. If this doesn’t help to recover and ports goes to errdisbaled state again then there exist a problem and that can be dealt with NOC operations.
+Improve customer experience, save cost on per incident.
+This reduces lot of routine man power being spent by engineers despite knowing the reasons and solutions and I am recommending this for only access switches access ports only.
+ 
+1 incident usually contains minimum 1 -5 ports from a switch and this multiples for each switch and sites/offices across EMC
+

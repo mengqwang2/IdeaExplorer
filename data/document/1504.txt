@@ -1,0 +1,5 @@
+download matching Java version when collecting to Unisphere
+decrease OPEX
+the idea came up when i tried to log in unisphere but failed due to mismatch java version. and it is time consuming and difficult to search and install a match version.   
+store java in unisphere. pc is able to download match java client when connecting to unisphere like ESXi vsphere.
+it would be easier for user to log in unisphere. user experience is increased

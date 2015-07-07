@@ -1,0 +1,47 @@
+Lync-based EMC Knowledge Answer Engine built upon ECD xPlore
+Our idea matches the IT Contemporary Workplace Challenge because the proposed way makes our working environment efficient and a lot of repeated efforts are saved.
+
+Our idea matches the Enterprise Content Division (ECD) Challenge because xPlore as well as xDB is leveraged to fit the requirement, the integration with EMC internal service will make more people understand the xPlore/xDB capability.
+The idea came out because of several reasons, we have a “IT Help” Lync account which is very easy to use. 
+Sir or Watson is very successful, “EMC Help” provided a much simpler scope of questions, it is doable to finish the implementation basing on ECD xPlore.
+
+Some of the co-authors are xPlore developers, we found XML is a perfect way to store the knowledge and do the related organization, it could be expanded to an answer engine for a specific domain. 
+
+We propose a solution basing on Lync, which is easy to access and can be installed on both PC and mobile device.
+The solution is designed to base on Lync because there is a good reference, called “IT Help” - self-service account in EMC, we could have similar account for EMC Knowledge, like “EMC Help”.
+ 
+xPlore is an enterprise search engine from ECD, which supports dozens of languages, hundreds of file formats, efficient security filter and many other fancy search features, e.g. dynamic facet, thesaurus, spell check, wildcard.
+xPlore is built upon xDB, which is an XML database to store semi-structured XML data, a perfect way to store the knowledge because XML is flexible and easy to build different knowledge hierarchies and support different type of data. 
+
+We will create several tables in the xDB hosted by xPlore:
+CLEAR_ANSWER table: a table with question-answer 1:1 mapping, this is the knowledge base built by historic questions
+EXPERT_REGISTER table: a table with 1:N mapping: domain expertise/product owner -> a list of people with email addresses
+SITE_REGISTER table: a table with 1:N mapping: function -> a list of URLs
+etc.
+
+xPlore will also host the data with hierarchy basing on different crawling sites.
+
+Here are the overall workflow when we have a question:
+
+    1)	The user has a question, he/she opens Lync and search for “EMC Help”, start a chat conversation
+    2)	The server side get the question string, check whether this is an answered question with a clear answer in the CLEAR_ANSWER table (in xDB hosted by xPlore, a key-value mapping relation), if yes, return the answer, if not, go to step #3.
+    3)	The server side parses the question to get the what the question want in big granularity with text analytics, for people, go to EXPERT_REGISTER table (in xDB hosted by xPlore); for web site, go to SITE_REGISTER table(in xDB hosted by xPlore); etc. If the question is not this type, go to step #4.
+    4)	The server side construct a query to the search engine - xPlore to search on the data, will send the first result as answer to the user
+    5)	If the user is satisfied with the answer, he/she will quit or do a rating for the answer, if not, go to step #6
+    6)	There will be experts of different domains involved, like IT or HR, when the question is finally answered, the question and the answer will be persisted in the existing database, this will be used in future by step #2
+
+
+In order to support the system, some work needs to be done before:
+    1)	Crawl data from EMC internal sites/wikis/KBs, do text analytics and categorization, we can leverage ECD CIS product and other open source alternatives
+    2)	When one question is answered, it needs to be put in the CLEAR_ANSWER table
+    3)	When one question is not answered, some experts (HR/IT/Finance, etc.) needs to be involved to construct the answer for future usage
+    4) Regarding the expert of some domain or product owners, colleagues can register himself/herself in the system or the server can retrieve the information from LinkedIn/InsideEMC to get the skill set
+
+
+Advanced Topic: as the data is crawled from all EMC websites and internal resource locations, some information is not accessible to all users, we must set security policy to control information access. xPlore has built-in security mechanism to solve this issue.
+
+    1.	EMC employees will save a lot of time to get the answer for some frequently asked questions
+    2.	We can get answers from a very easy way, just use Lync to chat with a specific account
+    3.	Operational cost will be saved
+    4.	Our proposal is a hybrid way to solve problems, we still involves experts within EMC, when the knowledge based is enriched, more and more questions can be answered automatically
+    5.	The system is feasible to be implemented if we leverage xPlore and xDB with EMC resources

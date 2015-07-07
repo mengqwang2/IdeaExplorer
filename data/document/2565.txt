@@ -1,0 +1,18 @@
+Detecting failure of BTS for telecommunication companies
+The idea mainly uses big data models and predicitive analytical techniques to quickly solve any BTS (Base Transciever Station) failures which reflects to the term of monetizing data.
+
+The idea also offers the concept of EHC (EMC Hybrid Cloud) to the telecom customers.
+The idea came up while having a course about Big data and data lakes. 
+The idea works as following. There are 2 types of data that can collected and monitored, Power supply data which is feeding the BTS and BTS signals with other field components or stations as BSCs ( Base Station Controllers ) and OSS servers. Data like call drop rate and so on are collected and updated every 15 seconds. Using EMC Hybrid Cloud we can provide to the customers a service. Using public cloud for the information and data that different vendors can share and on which they can develop their own APP and run the predictive algorithms. EHC will give also the luxury of the private cloud for confidential data of the telecom companies that can't be shared
+
+- Collecting this data and storing it on EMC storage products ( Isilon could be used here )
+- Using appropriate analytical tools and predictive analytical techniques as (training and testing data) to create algorithm that can predict BTS failures. Pivotal Gemfire could be used here. 
+
+- surfacing the data that is the output from the algorithm in the form of application connected to field engineers giving them heads up about the health of BTS and any form of failures or performance degradation that could occur to any BTS component like a sectors or sells; enabling them to optimize the performance before total failure could occur.
+
+The above mentioned steps makes the idea of Business data lakes. This is a Business service that EMC could sell to all telecommunication companies.
+
+The idea gives an advatage over any old approach by giving the advantage of proactively detecting BTS and BTS components failures and performance problems and handling them instead of the reactive way of waiting till a drop or failure occurs.
+This idea will improve the process of handling BTS failures which in return will improve customer satisfaction and this makes money by incresing customer loyalty and saves money by Proactively changing power supply components or BTS components that are susceptible to failures.
+
+EMC offering the Business service to the telecom industry and tellecommunication companies would be of a great benefit to the mobile telecom technology.

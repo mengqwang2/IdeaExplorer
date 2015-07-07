@@ -1,0 +1,36 @@
+EMC Unified Push Notification Service
+
+The idea came across while working with customer in different timezone.
+EUPNS will provide a common SDK  client platform which can be integrated with all EMC products. All the product information such as name, version and component are automatically populated while product registration and details corresponding to required list of mobile/portable devices can be provided to the EUPNS through common APIs exposed by the service. 
+
+The registered list of mobile/portable devices will install EUPNS app on the devices. This app will be responsible for registering the device to Google Cloud Messaging(for Android devices) or to Apple Push Notification service(for iOS devices).
+
+The EUPNS app will send its App ID/Sender ID to the GCM or the APNS which will entry point to register the device to APNS or GCM. The APNS or GCM will in turn send a registration ID/device token to the app. 
+
+Once the app receives the registration ID/device token , it will send the device token to EUPNS through common SDK server platform , which will be updated corresponding to device entry in DB in EUPNS.
+
+Now the mobile devices are ready to receive notification from corresponding product/components. Registered EMC product will call the common client APIs exposed by SDK to send notification to all or a specific device. 
+
+Once EUPNS receives the message and list of devices to which notification has to be forwarded, it fetches the device token/registration ID corresponding to devices and packages the message along with it and sends it to the GCM or APNS.
+
+Once GCM or APNS receives the packet, it recognizes the devices through device token or the registration IDs and forwards the message as a push notification to the device.
+
+Once the mobile devices owned by customers, partners or support engineers receive the notification they can choose to ignore or if they want to track the notification they can open the notification which will open the EUPNS app.
+
+The customer can then choose to escalate the issue addressed in the notification by clicking a button, also if can select a ‘follow’ button to keep themselves notified about any action taken by the support. The application will also have an section where the support engineers can update about the issue.
+
+The EUPNS application on mobile devices will also provide options for the customer/support/partners to looks into all the issues in action through a dashboard. Also there will be option to raise concern about the issues or give feed back or take survey or request for a feature.
+
+Once the customer/support/partners updates in the app corresponding to an issue or gives feedback or takes survey, the data will be send to EUPNS, which will decide to intimate the management or support for further action through mail or sms.
+
+Customers/partners can also use the Web portal hosted by the system for providing feedback. All these also data will be sent to EUPNS. This portal can be used as a common channel for providing feedback of those products where including the live feedback option is not possible.
+
+The Web portal and the EUPNS mobile application will provide options for customers to select the product, version and components using the product inventory built into the system in a database.
+
+Also an option will be provided to redirect to mobile version of the web portal hosted by EUPNS when the customer choses to open the notification. The web portal hosted by the EUPNS can be integrated with Google Analytical Tool which will collect the actions and the data provided by customers and can automatically build reports using these actions and data.
+
+Also we can build a analytical tool in terms of Google analytical Tool to collect and analyze the actions of customer on the EUPNS mobile app to generate reports automatically.
+
+Please refer to below link for more info
+https://inside.emc.com/docs/DOC-100089
+

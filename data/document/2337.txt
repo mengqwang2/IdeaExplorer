@@ -1,0 +1,5 @@
+Linking site ID to a specific email address for all products
+na
+This idea triggered as we have multiple products and we could have one common point to send in the email asking for feedback from the customer.
+This idea would ease out of providing feedback by customer to EMC. Instead of sending emails to different email address for a feedback survey. EMC can send emails to one single email address.
+Total customer experience

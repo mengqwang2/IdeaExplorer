@@ -1,0 +1,41 @@
+'Sustineo Anywhere': A Sustineo Open Community Based on Social Network and Mobile Technology
+EMC Sustineo makes small things actionable, our idea can make the esprit into daily life, EMC China CoE has launched a new SNS platform basing on WeChat, we can make the Sustineo accessible on this platform. Our solution matches Environmental Stewardship Challenge very well.
+This idea is raised out of a brainstorming session between the submitter. We've done certain investigation on Sustineo web UI and thought of mobile app as a better solution.
+Our approach includes two portions:
+
+1. Provide an enhanced Sustineo social application over mobile, which is called ‘Sustineo Anywhere’. 
+
+2. Expose Sustineo to the external world, especially to those ECO communities outsides of EMC.
+
+
+The enhanced Sustineo will co-exist with original web Sustineo and has all the functionality of the web Sustineo implemented, including action suggestion / completion, project browsing / joining, level / rank / point tracking, etc. 
+
+Furthermore, facilitating mobile technology, a ‘Sustineo Anywhere’ user can enjoy additional features including:
+
+1. More option to 'show' his achievements. E.g.
+    * Allow user to take a picture after he finishes an action and upload to Sustineo to show his achievement in a more straightforward way. The pictures should also be uploadable / visible from the web version.
+    * Allow user to record some voice on his comments / feelings about making the achievements and upload to Sustineo.
+
+2. Receive action suggestions in a more prompt manner, that is, the app asks user’s location & status to suggest a more proper action to complete. 
+    E.g. if the user is going out for his dinner, the mobile app can suggest him to try some vegetable.
+
+3. Track his levels, scores and ranks anytime, anywhere via his handset. This tracking information should be synchronized with web Sustineo.
+
+4. Watch other users’ achievements, scores and ranks and their achievements can be published to your mobile as a message. 
+
+5. Invite his colleagues and friends in his mobile’s address book to participate in Sustineo. A successful invitation can increase the points of the user.
+
+
+
+The idea of exposing Sustineo to external communities can bring additional benefits:
+
+1. Allow external users to register and participate in the actions as well. They can also publish their achievements and accumulate points. Their ranks will compete with EMC internal users.
+
+2. Allow external user to support / help an internal user on his action. Sustineo can also provide some 'group actions' for a user to sponsor.
+
+3. Allow external communities with similar purpose to share their actions / plans / projects with Sustineo. Also encourage users to share their achievements / comments to other communities.
+1. Allow external users to register and participate in the actions as well. They can also publish their achievements and accumulate points. Their ranks will compete with EMC internal users.
+
+2. Allow external user to support / help an internal user on his action. Sustineo can also provide some 'group actions' for a user to sponsor.
+
+3. Allow external communities with similar purpose to share their actions / plans / projects with Sustineo. Also encourage users to share their achievements / comments to other communities.

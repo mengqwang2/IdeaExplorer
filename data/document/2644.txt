@@ -1,0 +1,12 @@
+Anomaly detection and root cause analysis for water companies using IoT sensors and data science approaches 
+Our Idea includes collecting data from millions of internet-connected water sensors and applying analytics to better handle a smart consumption and utilization of water and alert/identify water leaks in real-time. This will help preserve the resources of 
+In the last months we found out that water companies find it difficult to notify and observe water leaks, we thought that using data analytics and IoT sensors we can address this kind of problem easily and sufficiently.
+Using simple internet-connected water sensors that are placed in each customer's house (and even into multiple location in the house such as kitchen, bathrooms etc.), building, street, neighbourhood. to get the amount of water consumed from each sensor in the last hour and store it into HDFS, while applying time series algorithms on each signal that will allow to track and predict its normal behaviour. After training and fitting statistical distribution to each signal our system will be able to determine how normal this sample is and it will have the ability to alert the user and the water company on a leak and also on the specific sensor that indicated it. Each sensor will be mapped to location so it will allow the water company to notify the client and fixed the leak in a fast and accurate manner.
+
+In addition we can connect the engine of the system into a phone app that can be installed on the client smart phone so he will have the ability to learn his consumption patterns and to get real time alerting on any anomaly (e.g., forgot the water open, over usage, leaks, etc.)
+Saves water (very important resource) and reduce the financial damage that can be for the water company and the clients.  
+Improve TCE of the water companies.
+
+
+
+

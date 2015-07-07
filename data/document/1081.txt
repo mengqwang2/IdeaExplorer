@@ -1,0 +1,22 @@
+Enable OpenSource NoSQL atop EMC Scale-Out flash
+The idea is to efficiently enable open source NoSQL/NewSQL atop of EMC scale-out flash to create new tech differentiations and stronger competition
+As part of EMC OCTO, we are working on Big Data project where Redis is evaluated, we found, as many customers complained, performance drops significantly when mem going to full or VM failure with warm up curve. 
+Meanwhile, we notice recent KV offering like CouchBase/Aerospike are trying to optimize with SSD but still immature, so good opportunity to well enable NoSQL atop EMC scale-out flash
+Current situation is a loose couple and simply combining NoSQL on scale-out XtremIO (not confirmed for DSSD sofar), simple but can't address aforesaid issues efficiently because of many layers and overhead such as FS, system cache, context switch etc,the latency and efficiency are not convinced enough. Certainly this 'll be a big obstacle for DSSD. Also, it doesn't create a strong tech barrier, X-IO can be replaced easily by whatever other vendor as long as it provides a fast store. 
+
+Thus we need a more competitive, efficient, extensible solution for various NoSQL, and a common framework for both XtremIO and DSSD.
+
+We propose an efficient interlocking by a smart client in NoSQL,maximize strengths from both and provide independent & interlocked software for 1+1 >2 effect. see detail at https://inside.emc.com/docs/DOC-155757 
+
+Smart Client is a client that runs on NoSQL node to make it EMC flash aware, bridge them in a fast (bypass FS, cache), efficient and smart way, support memory/object/block interface.
+Smart client consists of control plane: auto config, monitor, path management etc, and data plane: 
+1) Upper plugin layer: to support various NoSQL: Redis, Memcached, Geode etc on data store provisioning, hot/code data management.  
+2) Core dataset layer:  aggregated write, proactive read, zero-copy etc as well as relevant metadata for obj.
+3) Storage layer: EMC flash oriented optimization for performance and efficiency, support interface like memory, wrapped object on mem, or block interface.
+For DSSD we support RDMA for high perf; 
+For XtrmeIO we may offload 'Value' fingerprint computation to the client since KV is memory intensive not CPU, then dup value traffic could be avoided for perf. From this point it likes a DDBoost; Further we can enable client-aware data partition to reduce IO path that client can talk to X-IO C/D module directly even data RDMA is also possible IF with IB or SER/iSER on SCSI/iSCSI.
+
+Overall the solution enables higher perf, efficiency, scaling with lower cost and risk. we could Open Source and extensible to more NoSQL as the client is running out of EMC box.
+1.Address NoSQL practical limits, enable us efficiently support P3 App atop EMC scale-out flash with better ROI: higher performance with much better capacity scalability and less cost.
+2.Build new tech barrier for competition, show DSSD/XtremIO leading architecture and innovation
+3.Open source the client to community, enable more NoSQL into EMC landscape and show EMC commitment on Open Source

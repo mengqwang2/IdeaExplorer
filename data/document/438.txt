@@ -1,0 +1,5 @@
+Project allocation process :Resource to pick from bucket
+Currently All the technical folks are approached by Resource managers for project allocation. Challenge here is RMs don't exactly know if resource is free to push more work , of course we have tools to check availability but its not that accurate at ground level. 
+We get pings and mails from RMs to take projects irrespective of availability. If technical resource is given that queue to check and pick depending on free slots this gives 50% less load on RMs to find resource and also gives technical resource luxury of loading himself what he/she needs to work on. 
+Delivery team under professional services should be given access to tool which can show them available projects and which are not picked yet. Resource should have access to pick project directly and then RM can work on backend allocations on propel etc. This solves most of the hurdle which RMs face of chasing resources to assign projects. 
+Time saved on RM team. Better utilization of technical resources. evenly load resources, have better turn around to complete the projects. Better TCE

@@ -1,0 +1,5 @@
+EMC flag for disk
+
+The idea is from the previous project. But, nobody involved this since this is one business idea. 
+Add the flag for EMC’s disk with one simple program. And the system didn’t identify the disk without  EMC flag. It will make the customer have to buy the disk from EMC once the disk failure. It will increase the revenue since the disk is  consumables. 
+

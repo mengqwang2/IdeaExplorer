@@ -1,0 +1,48 @@
+ Diversity + Team Work = Innovation ( Recommender System for Diverse Talented Teams)
+If Diversity and Talent work together expect a masterpiece. Bearing this in mind, This idea is defining a data-driven model to take advantage of different diversity factors for the good of innovation at EMC by building diverse talented teams using automated dashboard at minimum efforts from management/HR side
+
+ 
+The idea came up from a real-life positive experience happened to us showing diversity in action. Last year, We have –by coincidence- collaborated with a team from a different country coming from different backgrounds and roles inside EMC. The common thing was some skills and interest in innovation. We worked along the way until we Won together last year’s innovation roadmap (Utah COE Challenge). I have been thinking about a data-driven way in which we can drive diversity into active teams to maximize innovation. 
+
+
+This solution works as follows: An Analytics Engine will analyze the employee data, performance data and innovation records data to detect diversity factors driving innovation and then work as a recommendation system for managers/HR (using dashboard) nominating them the best team members they need in certain project to ensure optimum diversity, talent and innovation. Hence, maximize performance results. 
+ 
+
+*FUNCTION:
+
+Our solution provides the following :
+1-	Measurement for diversity and innovation correlations
+2-	Recommends the best diverse talents to work as a team in different initiatives/global projects like; TCE project, Solution Support project , Innovation Roadmap..etc ensuring diversity and talent is brought to work together.
+
+*STRUCTURE:
+
+The model includes the following blocks:
+
+1-	Input Data: the model will use the data available in innovation central for analysis to detect correlations between innovation teams’ diversity factors (gender, ethnic, country and background) and how they correlate to innovation/performance (using winner/finalist ideas records). Good news is that such data is available in structured way and ready for use in innovation central: https://innovationcentral.corp.emc.com/#menu_home and insideEMC: https://inside.emc.com/welcome 
+
+2-	The Recommender Engine:  will use data analytics techniques like ‘regression analysis’ and ‘correlation analysis’ to detect and rank factors driving innovation. It will then recommend the best team for certain global project/initiative by doing:
+
+a.	Talent Pool: defining pool of employees having the expertise/talent needed (use insideEMC profiles’ expertise data and skills database)
+
+b.	Diversity Scoring: define single diversity metric for a team depending on its members diverse factors (giving different weights for different factors like gender, country, language and education). Then select the team with the highest diversity score (within the talent pool) and recommend this team to management/HR.  
+For example: a team of 5 skilled employees in 5 different countries including males and females will be preferred over a team that is inside same country and includes only males. 
+
+3-	Management Dashboard: The management/HR will use a web-based dashboard to:
+a.	submit their teams request for certain project and list the skills needed as well as define restrictions (team needs to be in same location for specific projects) or priorities (like giving higher weight to gender diversity over country diversity for certain project)
+
+b.	receive recommendations for the team along with the corresponding diversity score for the team and expected level of innovation/performance
+
+* Direct Use Case: 
+
+A direct use case of this model is to recommend diverse talents to work together in innovation roadmap. A notification is sent to group of diverse employees with common interest that they might like to work together in innovation roadmap 2016 and on.
+
+* Feasibility Study:
+
+-	This model utilizes existing data (innovation + social) and we just need access.
+-	The engine can be easily built over one powerful server and can build on existing analytics projects done over the innovation network data by Steve Todd in the ‘GINA’ Project: http://stevetodd.typepad.com/my_weblog/2012/03/a-strategy-for-innovation-analytics.html 
+-	The dashboard can be developed in-house with the help of EMC software development team (SDG team)
+
+1-	Maximize innovation in the workplace
+2-	Better utilize diverse workforce 
+3-	Achieve a GDPTW  (Great Diverse Place To Work)
+

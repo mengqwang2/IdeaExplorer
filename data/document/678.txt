@@ -1,0 +1,5 @@
+VMAX3 Movement of the Device form one Storage group to another Storage group 
+N/A
+This was when I worked for a customer
+Device should capable to be moved between SG without loosing the Data in VMAX 3.
+this will reduce the complicacy and would save the data. This should build the trust in the Customer 

@@ -1,0 +1,5 @@
+Central repository of all EMC customers and their products.
+
+This came to me seeing such scenarios while working on cases.
+I have seen scenarios, where customers come for support to CS for a non EMC product. This happens primarily with the switch products and not with EMC proprietary products as all the (Connectrix) SAN switches EMC sells are from either Cisco or Brocade. Most of the times the CSTs do well to check the support contracts however, it at times becomes difficult to ascertain if the product is an EMC supported product or not specially when the customer is on out list with some of his products but  may have products from other vendors or all his devices are not added in our Oracle database. We then need to ask field / Account managers to confirm support. Thus instead if we have a repository which is connected with Oracle and is also updated every day by sales / field as soon as customer purchases a product, it will help CS to look if a product should be supported or not. Such a repository will save Support team's time and also set the right expectation with the customer.
+

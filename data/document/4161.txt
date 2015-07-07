@@ -1,0 +1,24 @@
+Training as a service
+
+No simple interface available to request and attend trainings on the go
+Provisioning  of lab environment when ever required.
+Consistent interface across all the devices (mobile, PC, Tablet)
+Automated chargeback and course progress status
+Push notifications and alerts for training 
+Interactive forum environment to share knowledge, discuss and interact with each other 
+
+Provide easy to use apps to access course & Training materials on the GO. Apps can be published and made available for on-demand installation using AirWatch App Catalog
+Lab environment can be created using  Vmware Sofware defined datacenter SDDC.
+Multiple logical isolated networks can be created using vmware NSX 
+Labs can be requested any time from self serviced portal which can be automated using VMware Vcloud Automation Center (VCAC) 
+Lab environment can be accessed though VDI for secure and ease of use.
+Internal education portals can be accessed any where using Air-watch Mobile Access Gateway 
+Lease period can be set on user lab environments.
+Chargeback can be done using Vmware ITBM suite.
+
+
+Please refer to this link:
+
+https://inside.emc.com/docs/DOC-100035
+
+

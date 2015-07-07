@@ -1,0 +1,22 @@
+Security Hardened Openstack Enabled By RSA Products
+When talk about opensource a lot of people would think about Openstack. Openstack contains complex components deployed under various architectures in public, private or hybrid cloud. We propose an idea that hardens the security in Openstack by RSA products.
+CTO office has been an Openstack player for long time. We build the M&O orchestration platform to boost Openstack deploy and operation. There are various effort and projects related to storage and data spent in this ecosystem. Security is always a topic to think about, thus we come up with RSA.
+Openstack is divided into loosely coupled components such as Keystone, Nova, Cinder, Neutron and so on. The components can be either replaced by another more secure commercial product, such as RSA, or provide it the dedicated hardened plugin to hook in our security products.
+
+Keystone is the heart of Openstack user authentication/authorization. But is it hardened enough? We can replace it with RSA user or key management products. Keystone-api code base can be kept to maintain the api consistency. Another way is to make RSA products a plugin that hooks into Keystone.
+
+Openstack new incubated project Barbican provides secure key management. RSA key management products can be hooked into it as a plugin, or totally replace it but retain the api. Secure storage can also be made for this purpose.
+
+ Horizon is the Openstack components where all user operation aggregates. Ceilometer collects all kinds of usage and status metrics from Openstack cluster. These two components can be connected to RSA products that analyze user behavior and perform threat detection. Proactive defense can be embedded into Openstack.
+
+Neutron allows very flexible network configuration. External provider routers can be specified to host the network. RSA firewall products can be connected on to the network path and filter out hazardous traffic. Another approach is to hook the firewall as a Neutron plugin that users can control in Horizon.
+
+In the same way, RSA products network traffic aggregated analysis, can be chained into Openstack network traffic path. There are many reference network topologies for Openstack to choose the most appropriate hook point.
+
+The last thing is security hardened VM images. We can provide them together with our Openstack solution to work better with RSA products.
+
+For all the RSA products embedded into Openstack, there should be a unified RSA management & monitoring portal, to reveal the advanced features from RSA products. It can be embedded into Horizon but not limited to it.
+
+All the above modifications together make the security hardened Openstack distribution.
+
+Openstack security is hardened from user authentication/authorization, key management, threat detection, policy enforcement, firewall and traffic analysis. EMC influence in opensource Openstack ecosystem is increased, as well as better promotion of RSA products.

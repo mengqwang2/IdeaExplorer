@@ -1,0 +1,53 @@
+ EMC Expert-as-a-Service Community App : Connect EMC mentors to opportunities in nearby schools 
+ This idea aims at connecting EMC employees/Experts to the demand for mentors in nearby schools in Utah. The App also works as a unified point for EMC Gives Back days for Community Involvement.  It leverages diverse skills at EMC to share knowledge in an efficient way with students/advisors in STEM subjects. 
+The idea describes our App features, structure and technologies/tools used.
+
+The idea came from a similar platform we have developed last year to connect employees and customers to the right expert. We also had experience with University collaboration projects in which we had similar process. We leverage the experience of effective collaboration to choose the best features and architecture for the App.
+
+References:
+[1]- https://community.emc.com/welcome 
+https://educast.emc.com/learn/data-lakes-for-big-data-may-june 
+[2]- https://educast.emc.com/learn/data-lakes-for-big-data-may-june 
+
+The App is mobile compatible with iOS and Android. 
+
+*App features:
+1-	Role-based access:
+a.	Expert Role: registered employee who has required skills and is willing to participate. Accepts collaboration projects and mentors students/teachers
+b.	Student Role: can register to learn and participate in quizzes/contests..etc
+c.	Teacher Role: can register, add his students and submit collaboration requests
+d.	Employee Role: any EMC employee can watch the activity, register or assist other experts.
+2-	Activity Score:  measured activity for each profile to be used in rewarding employees and students
+3-	CSR reporting: unified reporting for EMC gives back using projects data over the year. 
+4-	Communities: ability to ask/answer question in communities for different fields in same fashion like EMC ECN [1]
+5-	Search: filter for experts having certain skills or students having certain interest.
+6-	EMC proven professional integration: courses can be recommended and students reward points can be exchanged with free courses/exam vouchers ..etc
+7-	Project Requests: a school can submit collaboration project request. While available experts who have the skills will be notified and can accept or reject projects.
+8-	Project Dashboard: shows each project’s information and enrolled students as well as the assigned experts.
+9-	Reviews and Surveys: for students/teachers to evaluate experts and vice versa
+10-	Online Webinars/courses on EduCast: leveraging same way and delivery for EMC Big Data lake Course last month: https://educast.emc.com/learn/data-lakes-for-big-data-may-june
+
+
+
+*App Architecture:
+
+1-	Backend Database: SQL database connected to different data sources:
+a.	insideEMC: to lookup employees information like skills, address, availability and professional role). This will happen to each employee registers as Expert.
+b.	Schools database: including school location and students/teachers data 
+c.	Learning material cloud: including learning materials like video links, documents..etc. this cloud will be crowd sourced so any employee can add the material he thinks relevant and useful. Material gets approved by Experts.
+2-	Front End App will be launched to iOS and Android store and connects to backend using RESF APIs using Pivotal Spring. Development will be at no cost leveraging our own Pivotal PaaS CloudFoundry (CF) using its microservice architecture. This offers great scalability for the App.
+
+*Collaboration Process: 
+
+We propose some activities that will boost the whole process of providing value to schools leveraging the same App as a platform:
+
+1-	Mini Innovation Contest: at schools (lasts for one week). EMC Experts will be the judges. This activity allows students to innovate in STEM fields and may relate to EMC technologies (EMC branding). Motivates students participation.
+
+2-	Monthly Quizzes: to motivate students participation and monitor quality of learning
+
+1-	Unified platform to connect EMC skilled employees with opportunities in schools where their skills are needed.
+2-	centralized database for EMC gives back reporting 
+3-	quantified measurement exist for community activities in schools
+4-	mobility and ease of use.
+5-	Cost efficient using EMC products/platforms
+

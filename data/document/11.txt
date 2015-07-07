@@ -1,0 +1,33 @@
+Predictive Maintenance System on ViPR
+With this system, it will help administrators aware of of possible issues with attached arrays, drives and hosts. 
+Came from when test metering and monitoring system in VipR. 
+This idea is to create a predictive maintenance system that uses ViPR controller to notify possible issues of attached arrays, drives and hosts. Our predictive maintenance system aims at achieving advance anomaly prediction with a certain leading time. The intuition behind our approach is that system anomalies often manifest gradual deviations in some system metrics before the system escalates into anomaly state. Our solution is composed of the following functional components, which are based on techniques of runtime system monitoring, big data analysis, and machine learning. 
+
+1. Anomaly data collector: The purpose of this component is to collect real system normal and anomaly data. We will mainly leverage ViPR monitor/metering mechanism to gather events/stats and indication for arrays, drives and hosts.
+1.1 From ViPR monitor system(Already in ViPR):
+Indications from attached array, include engine, director, storage port, storage pool update:
+    a. Device pool status: To check storage pool capacity which will help indicate whether it's full
+    b. Device status: Which will help check whether LUN exceed capacity, whether LUN has change configuration and etc.
+    c. Port Status: This will help check whether storage port is offline
+    d. Disk status: This will help check whether underlying physical disk drive is not ready and etc.
+    f. host connection status: This will help host HBA port logged in / out
+    There're many other indications which ViPR has been subscribed which will help indicate issues. 
+1.2 From ViPR metering system will collect(Already in ViPR):
+    a. provisioned_capacity
+    b. allocated_capacity	   
+    c. bandwidth_in
+    d. bandwidth_out
+    e. kbytes_transferred
+    f. total_ios
+    g. kbytest_transferred
+
+We will collect such data at a customized interval, and then store them in open sourced object store system or DB system which flexible for query and further analysis. There're many system can be adopted here, such as HDFS, HBase and etc. 
+
+2. Anomaly Classifier, and this system will have two parts:
+- Rule definition: This module will define all the rules for prediction model. We have a set of rules as default, but the admin can change them from UI as needed.
+- Anomaly Analysis: We will leverage Spark MLBase using naive Bayesian or
+tree augmented naive Bayesian (TAN) learning methods to analysis data based on the rules we defined. We then integrate feature prediction and anomaly classifier to forecast the system anomaly state at a future time. 
+
+3. Issues Notifier:
+This will be UI to shows issues based on user's input. 
+ViPR can automate the provision process, but less of intelligent issues notification. With this system, end users can get trend of issues and plan maintenance which will induce the cost of customer. 

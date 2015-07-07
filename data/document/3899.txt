@@ -1,0 +1,6 @@
+Leveraging archives to improve Error Code and Error Description knowledge.  
+
+There are many times when debugging systems I have come across error codes that are unknown to me. It's at times like that is when I think of these ideas.
+Allow the 16 digit error code or Error description to be entered into the 'field Enter Serial, Tester Name or SO number#:' on the APC website. The query would return any previous systems that would have logged an exact same error or error description. It could be very useful in helping give direction to the approach taken to fix the error. 
+Currently a specialist has to be asked to dig out this data from the archives. 
+

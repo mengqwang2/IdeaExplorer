@@ -1,0 +1,33 @@
+CloudStick - Auto-Cloud-Sync Portable Pendrive with Inbuilt Indicator
+- Publicize innovation at EMC to the world : One of a kind product
+- Only EMC-cloud-compatibility ensures greater eyes on our Cloud
+- Provides an on the go solution to common storage problems faced by people every day 
+- Internet of Things application to the device should help it connect to internet at all times
+- EMC Cloud that would host a major chunk of user data can be crunched effectively by our Data Science team to add further value to the device and end users
+
+
+There are a number of cloud based storage available but it comes with its own pain points. The reason of existence of portable pen drives even today points out the flaws and the tediousness involved in managing cloud storage.
+
+With our product, we wish to bring the flair of cloud storage and ease of a portable pen drive in one - The CloudStick
+Develop an extremely portable CloudStick with the following features:
+
+- Using concept of IoT, it can communicate to cloud even when it is not connected to computer and be located in case it is lost.
+- Contains multiple connecting blocks that connects it universally e.g. to Laptop via USB, different blocks to connect directly to phones, tablets etc.
+- Comes with an inbuilt app (both laptop and mobile) to access and manage cloud folder structure: the data could asynchronously be transferred from cloud to pen drive and vice versa. This allows end users to never be hung up on their devices while the transfer from cloud to the physical device takes place. End user experience will be lag-free from the physical device
+- Contains light indicators to show 
+ # Space available on Pen Drive
+ # Space available on EMC-Cloud
+ # Status - Sync in progress, idle etc.
+- The folders on pen drive would have an indication whether they are sync'd to cloud or not 
+- Biometric or Password authentication available
+
+We provide users limited free space on the EMC Cloud and then based on their usage charge them for additional. Crunch patterns of usage using analytics to proactively alert users for size extension / other valuable suggestions  
+
+Benefits of the product are never ending. To list a few: 
+- In regions of bad internet connectivity, the inbuilt connection to the cloud (even if slow) provides the best solution as the connection is asynchronous.
+- It will encourage people to switch to private EMC Cloud
+- Can significantly add to the revenue once the consumers of the product increase. We could charge after a fixed free space given on EMC Cloud
+- With the device physically missing, the content on it can be managed by using app
+- Launch EMC in the B2C sector
+
+

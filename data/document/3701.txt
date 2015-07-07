@@ -1,0 +1,5 @@
+Customer workload discovery and modelling using SPECsfs2014
+
+Came up with the idea during a conversation with Jeff Mohler on 2014-06-18.  The idea has not been pursued any further at this stage.
+Platforms like Isilon and VNX/VMAX File already capture statistics about the traffic they see - protocol operation mix, block sizes, etc.  This statistics gathering could be enhanced to capture and report the workload metrics that are required to recreate that workload using the SPECsfs2014 workbench.
+

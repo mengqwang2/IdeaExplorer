@@ -1,0 +1,5 @@
+Provide E2E Environment
+It will help to build highly efficient and automated Elastic Labs
+It happened when we reserve the resources, and config the them from scratch, and then release it. And it happened again and again.  
+When a requester needs some resources, he is not only ask for the hardware, he also needs to configure the resources which may include OS, LAN, SAN, array, etc., and integrate them together to be a E2E environment on which a solution can run. These configuration tasks are repeatable and most of them can be implemented automatically. But it's a huge task if each team needs to implement the automation configuration. Lab can implement it across the whole lab, every team can benefit from it. 
+When a requester is asking for some resources, he request the whole environment instead of multiple different resources. Lab use the different automation tech to setup/integrate the whole environment automatically and provide the environment to the reques

@@ -1,0 +1,25 @@
+Business Driven Optimization for RSA Adaptive Authentication Services
+
+The concept of business driven configuration suggested originally in the innovation showcase few years ago.  Since then it has been implemented successfully in the domain of RecoverPoint replication.  The R&D in this domain is still on. 
+
+After few brainstorming meetings with RSA experts we found that it can be helpful for several products in the security field. We already have a preliminary blueprint of the optimization model and ready to start PoC. 
+
+As in any authentication product, each case of authentication request ends up with one of the following 4 possibilities:  
+
+• False Positive– The transaction was legal but the AA considered it as a fraud.  The end user was "bothered" for nothing, and in some cases human analysts’ resources were wasted. 
+
+• False Negative- The transaction was fraudulent but the AA found it as legal. The business damage is direct.   E.g. Money has been stolen from the end user and the bank should compensate her. 
+
+• True Negative– The case was legal and AA did not tag it as fraud. No business impact.
+
+• True Positive – The case was a fraud and the AA found it. This brings to a positive impact to the bank reputation. 
+
+We assume that the probability and the business effect of each one of these possibilities can be estimated for a given AA customer with a given policy. Accordingly, we formulate an optimization (minimization) problem in which the objective function is the weighted sum for these four business factors.  This represents our aim to minimize the (direct and indirect) monitory costs that caused due to fraud impact. The suggested optimization has two main variants, static and dynamic. In the static variant the decision variables are the amount of resources that required for fraud protection (e.g. the size of the human analysts team). In the dynamic variant the resources amount is given while the decision variables are the policy rules that set by the user today. Standard search algorithms can be used to solve these optimization problems. 
+
+
+Implementing this  idea can benefit the AA/AA4E customers  in 3 main subjects:
+• Improve the resource utilization for a given amount of resource.  This will bring to a smarter selection of requests that should be deeply examined such that the financial damage that caused due to fraud impact will be minimized. 
+• Improve the decision about purchasing resources, especially human resources.
+• TCE improvement: The automatic policy settings will simplify the user interface and improve user experience.
+
+

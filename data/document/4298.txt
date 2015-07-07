@@ -1,0 +1,17 @@
+Auto solve system for Panic Dumps
+
+As per analysis of cases for VNX in 2013, We received 6777 Block Customer cases out of which 2095(30.9%) are panic and 2027 panic cases from file side out of 5320 customer cases. The point is  1256(62%) customer cases from file side are marked as duplicates out of 2027 panic cases. Similarly for block.
+
+This automated system can easily address 20% of incoming cases on VNX storage arrays. We have developed a prototype which will identify duplicates of panics based on the stack trace as soon as a cases is logged.
+
+This kind of a system can be replicated for other products too who deal with a lot of customer cases due to crashes eg: Networker  
+The suggested system should:
+-> Automatically log a Case with Support when the system recovers from a crash ,
+-> The dump is loaded to EMC mount point
+-> Auto analysis is done by triggering Gdb , stack trace and other parameters are captured 
+-> identify if there is an existing case with same stack trace and parameters in a dump history DB
+-> if so, identify the case, see if there is a patch (hotfix) generated for the same 
+-> suggests the identified fix to the customer and schedule the upgrade to a patch in the next upgrade cycle.
+
+Note: current process followed is completely manual and the case has to go thru CSS , EE, and back to CSS. The Engineer may or may not be able to identify duplicates due the limitation of searching Bug tracking tools. Its time consuming 
+

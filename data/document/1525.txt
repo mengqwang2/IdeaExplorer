@@ -1,0 +1,11 @@
+Competitive Tool 
+NA
+Inspired by lots of competition requests for the various EMC products
+A user friendly tool, where the input to this tool will be the existing components is the customer's datacenter such as servers, storage arrays, backkup devices,...etc.
+This tool will come up with a complete competitive/Alternative EMC solution 
+The customer will benefit from having a single point of contact in case he requests  support, upgrade or assistance.
+This tool can also be designed to plan for business growth and make a road map to the next stages for the business
+This tool is flexible to provide the customer with multiple solutions and he can choose the best that meets his requirements cost-wise or performance-wise 
+
+Accurate solution since it will be reflecing exactly the customer environment
+NA 

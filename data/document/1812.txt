@@ -1,0 +1,12 @@
+On swiping my badge entering a meeting room, I would love for all my meeting needs to be activated.
+Enhanced use of our display screens would encourage a more contemporary cooler workplace. Depending on how far the solution can go, it could create a very modern and fun workplace with new and cutting edge ways to communicate and collaborate.
+This idea was generated at an IT Idea Generation Session in Cork on 25th June.
+I swipe my badge on the Facilities interactive touch pad. Automatically it does the following for me:
+-Starts my meeting room booking
+-Switches on the lights in the room
+-Switches on the A/C to my preferred level
+-The conference phone and video conferencing unit auto dial into my meeting (because my badge is connected to the room facilities and to my outlook calendar and web ex/MyBridge etc)
+
+I know the one-click meeting solution is in progress of being analyzed and developed. This is new as it connects IT systems to Facilities systems.
+
+A complete contemporary unified workplace experience (combination of IT and Facilities).

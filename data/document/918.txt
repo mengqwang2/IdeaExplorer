@@ -1,0 +1,14 @@
+In-place Information discovery and legal discovery capabilities for EMC core storage products
+ECD has strong domain and product knowledge on File intelligence and eDiscovery markets. This can be leveraged for all EMC core storage products.
+Brainstorming, Internal discussion during part of regular meetings. 
+By leveraging the existing ECD domain expertise in the areas of Info and Legal discovery on top of core EMC products will allow organizations to perform ediscovery within a single platform without the cost and risk of switiching tools or vendors. The On-premise solution will comprise of following built-in capabilities
+1- Data identification / Classification 
+2- Data Processing
+3- Estimate, preview, copy/export search results
+4- Data Preservation (Legal-Hold, retention)
+5- Review capabilities
+Many ECD customers like Navient , Lockheed Martin, Aurotech are interested to know the data composition, type, size and age of the ESI (Electronically Stored Information) residing on EMC storage devices. They also perform Info discovery (File Intelligence) on this data. Providing in-build capabilities of info and legal discovery can help such customers to efficiently search/process/utilize the data stored on EMC storage devices.
+
+Easier integration with across EMC products to suit info & legal discovery solutions in federated environments.
+
+

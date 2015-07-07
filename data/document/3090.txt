@@ -1,0 +1,12 @@
+Environment aware and policy based backup solution to enhance backup job processing with better utilization of resources
+
+Got this solution while working with existing VMBU appliance. I am also worked on cluster solution where jobs are scheduled based resources use. Similar concept is applied here and policies are useful to make specific configuration for each VM backup.
+Backup solution will deploy multiple agents on different ESX servers or one agent per ESX server. VMs can be on shared datastore so any ESX can have access to VM files. Define backup policies something like
+	- quick(trigger on schedule) vs lazy(can be delayed up to some limit based on load) backup
+	- store on local datastore vs directly to cloud or both
+	- run backup job on fix schedule vs run backup job after crossing some data size threshold
+	- dedicated agent vs flexible agent (based on resource availability like CPU, Memory, Network, Datastore)
+	- use VMware HA feature to handle backup and agent smartly
+	- sequential vs priority based job scheduling
+	Even agents can shared single backup tasks(dedup, encryption, format conversion, etc..) if it is too big. Adding flask disk in ESX for quick processing will be add on. Agent will first backup on Flash, process it and upload it later on. This will be applicable only in incremental backup case. This solution will help to maximize the resource use and take backup smart way. User will decide the policy based on VM/application importance, IO frequency and data center environment.
+

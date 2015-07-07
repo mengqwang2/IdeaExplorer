@@ -1,0 +1,5 @@
+EMC events organizer
+
+Our mails get flooded with mails contain the next event and different alerts for this event. So if this get offloaded to an application on your mobile this will be better
+Through different log-ins and filtered by location you can know what EMC have for you.
+

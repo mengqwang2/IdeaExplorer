@@ -1,0 +1,31 @@
+Automate ViPR SRM Binary Install
+This is a product improvement idea which can improve the speed, accuracy,scalability and troubleshooting of ViPR SRM binary deployment. Once successfully implemented, it can be cloned to any other products which can make use of similar client/server configuration/Automation approach like ScaleIO etc.
+During binary SRM deployment at a very large EMC customer,i faced this challenge.
+I have also seen many colleagues in the field struggle to get the binary type deployment up and running. 
+Also reading the forum discussions, i felt this is a pain point for many implementation engineers in the field. The process itself is so complicated that people have created their own documents/steps to keep track of all the configuration changes.
+This can be achieved using any popular client/server configuration management/Automation tools like "Puppet" or "Chef". 
+
+This can also be done using scripted installation, but the client/server model of configuration tools like "Puppet" or "Chef" makes it very useful for scalability and configuration validation purposes.
+
+This solution will have following benefits:
+1) Make ViPR SRM binary deployment a very fast, easy  and error free method.
+2) Make scaling the environment (adding backends/Frontends/collectors) very easy and error free.
+3) Perform the configuration validation/Health check simple, which will immensely help the Customer Support Team while performing troubleshooting.
+
+A new node (VM or physical) can be setup to act as a master configuration server and all other SRM nodes will have the client piece installed to receive the configuration from master.
+
+In this setup, any specific configuration can be implemented using a simple recipes, for example: 
+1) Front-end node must have specific modules installed and specific services/processes must be running all time to ensure it's working.
+2) Back-end nodes must have MySQL and other supporting tools installed and a set of services running.
+3) MySQL databases must have specific grants configured. etc.
+4) Collector nodes must have softwares like naviseccli/solutions enabler installed etc.
+
+Developing the recipes is a one time task and once developed, they can be easily customized for a customer. 
+During deployment, these configurations can be easily pushed to various nodes, based on their roles. 
+When there is a need to scale the environment, just create the VMs and push the predefined configuration to them.
+If someone has messed-up with the configuration, and not sure what went wrong, just push the correct configuration from the master.
+This can also prepare a configuration report for a post install validation purpose.
+ 
+If one doesn't wish to setup a separate node for master server, Any Node with minimal configuration like a data collector in multi node SRM deployment can also act as a master server which can push the configurations to all other nodes having client piece installed. or even any VM or physical server in the environment which is able to communicate with SRM nodes can also act as master configuration server.
+
+Benefits: This will enhance the productivity by optimizing the process and thus improving customer satisfaction.

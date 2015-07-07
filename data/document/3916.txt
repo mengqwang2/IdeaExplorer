@@ -1,0 +1,21 @@
+Social media based customer alerts.
+
+Use of social media and ubiquitous computing would be helpful in getting important customer feedback. This will help both customer and EMC to track the health of the product 24x7. This also helps EMC gather and study on behavioral pattern of customer usage, issues of products across all of the installations.
+Presently Call homes from the field are limited which are only recieved through emails. There are better ways to get vital product health and working status through social media like twitter. 
+
+An application developed and installed within all EMC products to alert the customer and EMC service through tweets. 
+These alerts can be for any kind of disruptions like data unavailability, hardware failures, power outages, network failures, administrative actions etc.
+E.g. Tweets from @vplex_BOA1 and @vplex_BOA1 read thus,
+@vplex_BOA1
+storage LUN 345 remove, replace with LUN 565
+stat G, v 5.3, #SerialNum vplex_30007865
+@vplex_BOA2:
+SSD trip detected, needs SSD replacement
+stat R, v 5.3, #SerialNum vplex_30007869
+Here first tweet informs the customer that his storage admin has removed LUN #345 and replaced it with LUN #565. The overall status of Vplex is Green, running on version 5.3 and product serial no vplex_30007865.
+
+The above tweets would be displayed on to the customer's desktop monitor, cell phone/ tab or wearable tech like watch or glasses. Other social media like Facebook.
+This alerting mechanism would be useful to the customers who would like constantly monitor the status of his data center.
+The mechanism to sense the information around the products can also be improvised to sense the variations in surrounding environment within the data center using pervasive computing.
+The same data is received by EMC to track the behavior and status of its products installed in the field. This would help in improving the overall service quality and gather vital data analytics of customer installations. EMC could also use this data to track and predict issues in the field.
+

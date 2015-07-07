@@ -1,0 +1,22 @@
+EMC – BDC : "Blood Donation Cloud" powered by EMC . Big Data and Cloud can save lives!
+
+I experienced this myself. 
+I saw many people died in hospitals due to lack of blood in emergency situations such as accidents. the biggest factor and reason for this was the communication gap between the place of the need and the donators as well as the huge time consumed to broadcast in social networks such as facebook. So I thought about using the cloud services and big data in healthcare section to save people's lives. wanted to develop such mobile app with friends on a small scale. However EMC cloud and big data can offer it on a big scale
+
+The BDC (Blood Donation Cloud) will be the one-stop shop for all what’s related to blood donation in the healthcare sector.
+
+the "Blood Donation Cloud" will gather the places in need for blood donations such as hospitals with the people who want to donate. the information will be gathered in the cloud.
+1- a mobile application will be used by the hospital authorized doctors (or blood banks admin) to broadcast the blood need to the nearest available donators depending on the location.
+2- blood donators will registerto the cloud registering their info such as address, blood type and availability. donators will receive the broadcast on their mobile application and accept or decline the request.
+3- broadcast levels can vary according to the emergency (broadcast to available with same blood type as needed / broadcast to all ..etc).
+4- the data will be centralized on the cloud and managed by mobile application.
+5- if I am not a donator I can also register to receive the broadcast and tell others.
+6- in future this broadcast can be automated according to the blood bank system.
+
+
+this will help broadcasting the call for donation efficiently for those who want to help and minimize the time till the donation call happens and more importantly will save many peoples lives.
+
+EMC can provide such solution (or even the big data and cloud infrastructure) to big healthcare organisations.
+This will greatly help in the government sector for the "ministry of health" in Egypt
+
+

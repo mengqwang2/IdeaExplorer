@@ -1,0 +1,6 @@
+Smart Airport
+travelling operations of passengers in air ports are recurring operations with every plane that arrive or leave the air port
+automating the air port using IOT technology will increase the efficiency, security and speed of this operations 
+N/A
+An Intelligent Air ports where all travelling procedures are completed through machines with minimal humane interface
+to be implemented in multiple air ports around the world

@@ -1,0 +1,13 @@
+Group Employees By Teams On Lync
+This will serve the challenge/s listed below. 
+
+
+NA
+Include a function in Lync for EMC that would group team members together and show the team lead/manager.
+
+we can search by team name if we know no one in that team. 
+saves time
+avoid mistakes 
+ease of use
+higher utilization 
+

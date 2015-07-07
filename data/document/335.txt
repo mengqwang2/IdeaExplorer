@@ -1,0 +1,27 @@
+ Elastic Storage Expansion on EHC – coupling EMC storage with open source using OpenStack compute/storage on demand
+ 
+Open source is inevitable. The idea aims at drawing an architecture enabling EMC to integrate with and make use of open source technologies to gain competitive advantage and adapt to customer demands. 
+
+ the idea came up from different researches about the open compute project lead by facebook 
+ Openstack is an open source cloud PaaS provider that provides application-aware storage and compute as a service over the cloud.
+
+EMC will add an enabler that allows its storage arrays to integrate to the Openstack different components like : 
+-	Block Storage (Cinder)
+-	Networking (Neutron) 
+-	Object Storage (Swift) 
+-	Database (Trove)
+-	Compute (Nova)
+Building on this integration, EMC arrays will introduce what is called “ESE” (elastic Storage Expansion) that allows the customer to expand the storage beyond they array capabilities by integrating into OpenStack cloud services.
+
+The storage expansion will be elastic and on-demand. Once the storage is no more needed it will go back to the cloud and the customer no more pays for it.
+This ESE feature is very beneficial when the data scale is highly variable where the customer does not need the storage expansion permanently.
+
+This ESE feature is a good step towards integrating and interleaving EMC storage system to the 3rd platform to lead that growing market
+
+REFERENCES :
+http://www.openstack.org/software/openstack-compute/
+
+1-	Promote EHC 
+2-	Align to customer needs and open source opportunities
+3-	Scalability 
+

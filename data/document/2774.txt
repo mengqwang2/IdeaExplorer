@@ -1,0 +1,9 @@
+Centralized Printer that can be accessed from every floor
+This idea helps all employees of any large organization where there are N number of printers.
+This is part of Innovation Mining workshop
+
+It would be better if we  have a centralized server for a building and an arrangement is done such that every employee gets registered to the server and all printers are connected to the server.When one attempts printing a document, it should be available to get printed from any printer from any floor in the building so that there is no confusion with getting registered with a particular printer or if that particular printer is not working. Also,one need not carry the printed documents from one location to another since printing can be performed by the one closest to the meeting room .This relieves from the burden of carrying and securing the confidential documents. 
+To fix the problem no. 3, Instead of each printer showing the complete list (which will be really longer when the entire building is concerned), each printer will prompt for the username and password. By logging in, one gets into his own account and the set of documents which he attempted to print since last few hours(or maintain history if required) so that he will not have to search for his ID at the same time he will not see others list which is really not required for him. 
+Printers can also send kind of heart beat messages (less often if required ) to the central system so that actions can be taken immediately if any printer is not working . We can also keep track of the ink consumed and  the papers used by different printers through this fault tolerant centralized server system. 
+
+It provides employee satisfaction in the organization.It gives all benefits as mentioned above. The system in the organization looks well organized and better than the present one if the idea is implemented and followed . Also, the implementation and usag

@@ -1,0 +1,13 @@
+Migration from host-based volume managers (LVM-like) to VVol
+Whether we look at it from a support perspective or QA or automation of lab environments creations, we think that we can greatly reduce overhead of managing and deploying setups utilizing LVMs.
+We are seeing many challenges to continually certify and support as well as massively deploy in the lab different volume-managers.
+The proposed innovation suggest a migration path from the current installments that use LVM (as an example) to VVol. The complexity of such migrations lies in the fact that those volumes are used in production by the systems. 
+We suggest the following process:
+* Run our utility on the machine you want to migrate. 
+* The utility reads the configuration of volumes from LVM and communicates with VASA provider to prepare the VVol that has the same characteristics
+* The utility then adds a mirror volume (VVol volume from the previous step) to the existing root volume. 
+* In addition, it also starts replication process which can be either in VAIO (IO filter), in the storage array or even as a storage filter driver on the host. 
+* Once the replication is done, the original volume is disconnected from LVM and on the next reboot, the LVM itself is reduced to work with a single volume. 
+
+a successful utilization of the idea would be to be able to automatically deploy systems in the lab while reducing the overhead of specifically configuring yo
+

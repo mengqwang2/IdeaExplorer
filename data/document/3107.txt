@@ -1,0 +1,18 @@
+Health Mapping and Pregnancy Tracking System
+
+This idea came up during the discussion with my IAS friend who were thinking in similar lines to implement this in their district and later moving to the whole state.
+An individual digital health mapping system; it is a two way demand based ecosystem based on the feedback and the needs of the common man. The project seeks to empower citizen, by taking into account their healthcare needs and providing them with the necessary information.
+
+Basically conduct health mapping survey for different areas in Bangalore or districts in Karnataka. Involve various departments and conduct the survey on different parameters like the name of the stakeholder, the age, date of child delivery, phone number, the region where the person is located. All the data is uploaded on the central server. The central server is connected to an automatic Interactive Voice Response (IVR), Call Center, Email System.
+
+Secondly it also has a dial in number or a web based service where anyone can dial or retrieve information through web on their registration about the information as to when is a particular health service is due for him, how to get it done etc.
+
+Thirdly it also has an inbuilt complaint mechanism. The complains are recorded and automatically forwarded to those people who have to address these complains.
+
+The most important part is the regular pendency calls that will be sent to all the families, to the Gram Pradhan / Corporator and officers. So basically it is very a powerful medium. So once the phone numbers of different beneficiaries are collected, a database will be available and many Government schemes whether health, sanitation, voter id registration, Aadhar, opening of bank account,  they can be linked through this data base and the ultimate purpose of disseminating information is served too.
+
+With the help of this system, different Government bodies too can check information related to different schemes before due dates of different beneficiaries. It can provide web based monitoring portal where an administration can login and see what is the status in a particular village or area and in other medical office area. Can check what the target was, what has been achieved what has been left out etc.
+
+Generally when health service provider goes to the field they are not really aware of what their duties are and what they have to do. The basic problem was that all information was based on the statistics but now they have data of a ground level survey consisting what the need is.
+
+

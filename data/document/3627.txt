@@ -1,0 +1,37 @@
+Product specific big data analytic to enhance TCE
+
+Avamar has a solution to collect key data from customer sites into big data solution. If the same idea is applied to other EMC product ranges, with detailed information collection/analysis, customization & further detailed internal stake holder reporting options (which Avamar also lacks), could add a huge guidance value to internal stakeholders, who in turn can strategically improve TCE.
+Problem statement:
+------------------
+Different product stake holder(Sales,Product Management,Dev/Test,Support teams) will have a constrained information on the field performance details. This idea proposes to open up product field data information to key internal stake holders for the betterment of product TCE through Big Data Analytic.
+
+Business Case:
+--------------
+There are a lot of times when:
+a. Sales team wants to understand product field usage - to make right pitch (or 
+   product positioning) - based on field performance, usage pattern. etc.
+b. Product Manager wants make right future product road map influence, based on 
+   key field weak points [or] key field strength.    
+c. Support team wants to pro-actively detect anomalies in the customer sites.
+d. Testers wants to focus on key test strategies based on prevalent field 
+   software/hardware versions deployed, instead of focussing on wider versions.
+
+But the above mentioned details never come along easily. Leading to a situation where field based data is just a far cry/black box. This idea proposes to simplify the field information availability for a bettering customer experience from multiple angles.
+
+Solution Description:
+---------------------
+In the idea, 
+
+1. The latest version of EMC products are deployed with capabilities to transfer key product performance, usage pattern, errors, log information, alerts, events, data set type, data size, number of page clicks information, number of times a functionality that is used, information to Big Data Analytic site. This can be done through an agreement with customer that no customer sensitive data is transferred. 
+
+2. Key reports are created for different internal stake holders on the data collected in the above fashion.
+
+3. The reports are shared to internal stake holder based on ACLs.
+
+4. The internal stakeholder use reports for better test decision making, test focus, field issue solving & future product improvements/simplifications.
+
+5. Already existing EMC field products can be supported with the above stated capability through a product specific hot fix update.
+
+6. Further, product engineering can also introduce custom key attribute reporting, which can better internal stakeholder decision making.
+
+

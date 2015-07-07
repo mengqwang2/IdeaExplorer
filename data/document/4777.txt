@@ -1,0 +1,7 @@
+ask EMC
+
+when i was at college i didn't have the resources to know everything about big data, what EMC does and didn't know much about services it provides and EMC official web site wasn't easy to search in and find what i was looking for.
+
+having a question and answer site/tool would facilitate the process.
+you can simply enter a web site or download an application and easily find an answer to every question regarding these topics, what EMC does and the services it provides.
+

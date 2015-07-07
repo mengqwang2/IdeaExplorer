@@ -1,0 +1,7 @@
+Developing a Mobile Application for Cab Booking and Ensuring Safety of Employees
+
+None
+The Mobile Application will help employees to login through their phones and update the tool as required. We are connected through wireless in office, so access issue is surpassed. This will reduce the percentage of ad hoc and no show requests, reducing the expenditure. The GPS tracking tool within the Mobile device of an employee will enhance the security of every employee. With more and more women employees in the organization, the issue of security can also be addressed. The time for assigning security personnel can also be delayed (reducing cost yet again). The Mobile App will also have a feature of wait-listing, in case, there are too many employees logging out at the same time.
+
+The application will improve the quality of the transportation service provided by EMC and enhance security for employees, and reduce accessibility issue, cost, and time wastage. This will not only impact the employees in long run, also the organization.
+

@@ -1,0 +1,31 @@
+EMC – MAPS Service : A Global Maps and Location Initiative paving way to Dynamic workplace 
+
+IT Contemporary Workplace Challenge
+
+1. EMC – MAPS Service : New and cutting edge way to communicate and collaborate creating a modern workplace 
+2. EMC – MAPS Service : Provide a seamless experience from anywhere with device flexibility and less restrictions
+Have visited Cisco office recently as a guest , this technology made lives easy for their employees and guests. It would be great if it is implemented in EMC as well
+Solution is to have WebApp that acts as a Functional guide to	Conference Rooms, Cubicles, Position of Employees, Managers and Directors, EMC Labs and SAN
+
+EMC Maps Application can be viewed in digital screens in each floor. EMC Maps Application has to be developed into a mobile App to make it convenient for employees.
+
+EMC Maps has the following functions: 
+
+#Finding People and workspace: You can find the employee’s location by entering his/her employee Id. It shows the location of various teams which makes the reachability and cross-collaboration easier.  It also provides options to contact persons (call/lync message/ mail) directly from the App.
+
+#Finding Conference room: It lets the users to identify and book the conference rooms. It shows the calendar and other information of conference room like capacity and facilities available. So Employees can come to this central repository of information to know, search and book Conf-rooms.
+
+#Checking in: 
+Checking in to a workspace automatically customizes the Unified IP Phone in the space with our phone number and speed dials. “Neighborhoods” can be reserved for certain teams who prefer to work near each other.
+
+#Search Feature: It helps in searching EMC Labs, Rooms, Conferences, People Checked in, Booked Meetings. All these can be searched globally in a single central Point.
+
+#Recent Activities: It can show a comprehensive view of who logged into which cubicle, about the Conference Rooms booked for today and so forth.
+
+#Navigation Route: Like in Google maps, It provides the navigation route for the destination. This will help in saving a lot of time in finding people, conference rooms or any resource inside EMC.
+Dynamic Workplace and promotes cross-functional collaboration.
+It will save a lot of time for employees.
+With seamless access available, this is practically feasible concept.
+Single interface for all kind of activities.
+This will be an enormous boost to convenience, productivity and accountability.
+

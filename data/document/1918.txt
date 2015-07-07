@@ -1,0 +1,5 @@
+Cinder management feature
+very few cinder information is sent to Openstack when integrate EMC cinder driver. diffcult to troubleshoot
+do the cinder qualification project, very few debug information only in log file, nor the indicate is not so clear
+cinder driver send storage status detail to Openstack , include disk, pool information. Openstack horizon can identify , display and alert if any issues.
+will make EMC cinder more popular and handy

@@ -1,0 +1,5 @@
+Solar Data center
+
+Since we have an electricity problem in egypt, we need to go solar to be able to reduce our need for electricity.
+Invent new arrays/ data centers that work with solar cells.
+

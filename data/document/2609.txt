@@ -1,0 +1,18 @@
+The Open Workplace Library
+Access to books is not easy. Books are available online for purchase but oftentimes they are so expensive to get. Furthermore, access to training material is really hard and costly, most of the employees use the training material for certifications and th
+I have been travelling to different places since I finished my college degree, and my dream is to try to adopt great ideas from different places and use them (with new improvements and innovation) in Egypt. The first time I saw an idea like the one proposed here being deployed was last year on a south Korean T.V show, to me this was magic, to have free access to books anywhere was astonishing. Furthermore, at this very moment, I am having my GSAP training in the U.S and I found that they have a similar concept in the workplace as well.  From these different sources, I came up with this idea to take the concept, implement it in Cairo COE and improve it by adding reservation system, software and peer discussions. 
+I call my solution "The Open Workplace Library". There are two methods that I propose for the solving the above problem. 
+
+The first method is to simply place a bookshelf in every floor in the COE building. This way people can put the books they have already read for others to make use of and at the same time enjoy reading new books. Books can be either technical training material, novels, history books, etc. 
+
+The second method is for soft copies of books. My solution is to develop a mobile application for EMC COE that gives you access to used software copies of books. Alternatively, an application like Syncplicity can be used to provide inter-department access to books, novels, and training material. 
+
+In addition to the physical shelf or the virtual shelf (i.e., the software application), a reservation system could be introduced to allow employees to see available books and reserve time for reading them without conflicts.
+
+Furthermore, book discussions between work peers can be done by scheduling intellectual one-to-one meetings between people who read the same book. These people could be friends or could be complete strangers, which would be a way for them to extend their network and get to know each other by socializing together in an intellectual way. 
+
+My idea improves on existing implementations by adding a scheduling method for efficient access to free books, and providing means for socializing with employees from different departments (i.e., while discussing an idea / book / technical material). For example, a Technical Support employees studying ISM can have discussions with an ADS who is studying ISM as well. 
+My idea implementation is divided into three parts. 
+- A physical shelf for books in the workplace or a virtual shelf (i.e., syncplicity or a mobile application). 
+- An application for free book reservations to avoid conflicts. 
+- Same application to sche

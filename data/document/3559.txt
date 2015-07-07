@@ -1,0 +1,22 @@
+“ DU / DL Predictor and Preventer”  - Proactive support to prevent outages and data loss using the power of Big Data Analytics
+
+the idea came up from experience working on DU/DL log analysis situation. I was inspired by the huge amount of insights we can get from the repetetive log analysis daily task. I was thinking of a way to employ all of this to avoid issues at the customer's environment before they happen using Big Data predective techniques
+The idea works as follows : 
+-	A small engine will monitor the logs in real time to check how the array is behaving.
+-	If the engine finds any known symptoms (errors/alerts) that denote a DU/DL situation will happen, it will automatically take a corrective action
+-	The corrective action will be creating an SR with high severity to EMC using connectEMC feature denoting that DU/DL is expected to happen.
+-	EMC proactive support then will check the box and prevent the DU/DL situation
+Details of Operation :
+
+for severe SRs, we can make use of the huge amount of data that can be gathered regarding such issue (logs, SR notes..etc). we will collect such data in a centralized data warehouse. we will run big data analytics techniques to classify and group similar SRs. for a group of similar SRs, we can analyze the relevant data such as logs and SR notes. logs will be analyzed in a chronological manner (with respect to time)to check for certain symptoms or events that happened before the issue. the data will be analyzed relating similar SRs to each other to find the most common symptoms that precede the issue. for example, some data disconnection in some products is preceded with high latency for some time. in some products, unexpected reboots are commonly preceded with some hardware messages.
+
+we will analyze such events to get to know what was happening just before the disconnection issue. Afterwards, the results will be presented for Engineering and SMEs team for analysis to formulate the symptoms in a better more precise way.
+
+this way we will combine common symptom set for each severe issue. the symptom set can be fed into the box alerting software (may be in next code update).
+in the next time, once the box logs report such "symptoms set", an alert can be automatically be sent to EMC (may be creating DH SR). the support engineer will then check the predicted issue and its counter-measures and contact the customer to proactively check the box or use ESRS channel.
+
+Benefits :
+
+this will help reduce severe problems. increase customer satisfaction and maximize TCE.
+
+

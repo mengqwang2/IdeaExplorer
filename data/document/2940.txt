@@ -1,0 +1,9 @@
+combine KVM and Docker to isolate the components like control path
+1. speed up the development cycle of Unity based product
+2. easily implement new features in the Docker
+I and Windyon had a chat on the technology KVM and Docker, and combined the thoughts.
+just stick to the SLES11SP3 in our stack and don't upgrade it anymore, but install the KVM in our stack (which is easier to implement than upgrading to SLES12), and install the Guest OS with stock SLES12, further more, deploy the Docker in the guest OS since it's already SLES12, and migrate the components like control path from SLES11SP3 directly to the Docker in the Guest OS. migrate as many as possible components in Unity to the Docker.
+
+1. we don't need to spend effort to upgrade the SLES11SP3 to SLES12;
+2. Resource Isolation, we could limited this issue to the specific domain;
+3. Builtin HA, we could leverage KVM builtin HA, in machine level

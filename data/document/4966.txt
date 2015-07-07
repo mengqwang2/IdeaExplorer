@@ -1,0 +1,13 @@
+Portal/Platform(GUI based)to allow easy creation of tracking database(s) on the fly 
+
+Over the past number of years I have worked with the Stat team on many projects , most notably creating the Trace tracking database and new Code Red dashboard . These projects required the databases to be built from the ground up and required coding from scratch. They have proved extremely successful for the CS organization but the time from development to full deployment was multiple weeks/months . With this new interface a new tracking database could be created within minutes for the user . 
+Currently within CS we have various metrics that we track on an ongoing basis to assist us in promoting TCE . Depending on focus areas the priority of these metrics change regularly . Providing the ability to create a tracking database ( Similar to Code Red dashboard/RCA database) using a simple GUI menu would allow us to effectively track these priority metrics in a concise centralised location . If a Manager has a particular requirement to track CSAT follow up or current backlog rather than using eRoom which has limited functionality he/she would go to this new portal and set up his tracking database . He/she could then share this link with the relevant stakeholders where they could update as required . This would allow easy but powerful tracking of this data and help promote TCE.
+Users would be directed here and from a drop down menu could select KCS, backlog,SLO misses etc and display all entries in their BU at that time and add/edit entries to update.	
+Some items that could be tracked using the new interface 
+•	KCS back log
+•	Backlog
+•	DSAT  Surveys
+•	CPI issues
+•	Weekly SLO misses 
+Reporting and data mining on database entries would be very helpful to identify trends and address areas of concern which again could help drive TCE . 
+

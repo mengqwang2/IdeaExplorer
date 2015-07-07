@@ -1,0 +1,32 @@
+Project Portal(PP)
+Roadmap to improve the ease of communicating about project’s to larger crowd more effectively and for some extent it provides solution for Global Services Challenge and Customer Services Challenge too.
+1) I have missed couple of mails sent by PM's 
+2) I have accepted wrong project due to lack of proper details of project 
+3) complete info about the project was not been provided and back and forth mails had to         be sent to get complete details
+4) we are not sure if the project is still open
+
+etc etc
+Project Portal(PP)
+
+This portal will have various mandatory fields like
+1) Updates on projects existing and old, pertaining to the region.
+2) Hours for the project .
+3) Start and the end date of project.
+4) Assigned or unassigned info.
+5) Roles and responsibilities.
+6) Skill set required.
+7) Owner of project
+  
+and more fields to get complete info about this project
+
+This portal should be managed by PM’s and they will have complete control of this portal, and rest can only login and check the updates and do not have permission to make any changes.
+This portal should have region wise access and PM’s belonging to concerned region will have complete control over their regional Portal. Resource can shoot a mail to PM’s to own any project’s .
+Advantage of having this portal
+
+1)      Due to instant info about the project, customer can be services on time or faster
+
+2)	Resources will have updated on available project’s. 
+
+2)	Clear idea about skill sets required and assigned hours on project.
+
+3)

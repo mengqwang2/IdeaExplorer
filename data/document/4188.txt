@@ -1,0 +1,14 @@
+Cloud based EMC data analyzer
+
+Currently how it works- 
+
+1.With VG3R array,  new feature to manage the performance of disk is introduced called SLO. In this feature, a specific SLO is used to emulate a specific disk type.
+2.Once VG3R is shipped and customers start using SLO based provisioning, customer as well as vendors would like to know the performance that they are achieving over a long period of time. Customers would like to analyze the performance they achieve when they set  various SLO (like GOLD, PLATINUM). How frequently and when they are hitting the high water mark for SLO
+3.Currently most of the SYR data is being analyzed manually, and there is no application to get customized report/information from  SYR data. 
+4.Similarly there is no application which does the data analysis on user data collected from cloud, e.g., if call home data from various users need to be processed for some information, we do not have any application to do that.
+
+and we came up with this idea to provide a solution for above mentioned problems.
+
+Over a period of time, there going to be hug trace logs in VMAX.  Those logs can be analyzed for various useful purposes. Proposed Big data application would analyze - IO trace log,  user reported big data from cloud and SLO based usage logs and with the help of HDFS it does the data analytics and thereby generating a meaningful report. The generated report would help the customer in above listed areas.
+
+

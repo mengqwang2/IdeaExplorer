@@ -1,0 +1,5 @@
+Implement proper check on vehicles and visitors at tech park entrance
+
+I got this idea by observing several security faults in many tech parks and shopping malls as well.
+We should assist security to check ID card of every person in cab.If there is any employee without ID card they should ask them to take temporary ID at tech park entrance too and also check the cab properly in all the days.
+

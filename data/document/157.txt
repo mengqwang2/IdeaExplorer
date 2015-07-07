@@ -1,0 +1,5 @@
+Feedback Mobile Application for Customers
+This will Facilitate Sending Feedback from the Customers to EMC.
+For me using Mobile applications is better than logging to my laptop and launching the applications , Definitely for the customer it will be a better service.
+A mobile application where the customer can send to EMC his feedback about the level of service he recived from a certain Employee and his degree of satisfaction overall from EMC.
+Portability and flexibility to send Feedback to EMC for the Customers.

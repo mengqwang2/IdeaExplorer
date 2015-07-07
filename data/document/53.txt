@@ -1,0 +1,7 @@
+Security news feed app for Egypt COE
+IOT challenge / an app to be used with uncertain political issues in egypt.
+
+very easy to use with limited access to EMC employees advising with political alerts
+embassies travel alert
+creating an app that helps in giving alerts or news feed for current situation on country
+safety with employees and families and business continuity 

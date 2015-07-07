@@ -1,0 +1,9 @@
+Tools requesting portal
+It will convert unorganized process for each new employee when their managers request access to new tools and make it easier using IT technology.
+As a TSE in CS, Managers have to request each tool on its own separate portal and it is hard to keep track of each request.
+-Having a centralized portal where employees and their managers can view the request of each tool and the status of the request.
+-Having ETA as well can be beneficial to know the expected time for each request.
+-Saving employees time
+-Saving managers time
+-Using IT to enhance operations of employees
+-Making the whole process smooth and easy

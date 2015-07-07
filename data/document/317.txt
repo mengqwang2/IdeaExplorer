@@ -1,0 +1,8 @@
+iCloud Backup
+This idea will eliminate the hassle that occurs when we do re-imaging to our software of our machines.
+NA
+My solution is that Each employee have an account on the Cloud that EMC supports where his machine automatically do a daily backup of all the data/software installed on his machine on that cloud as the one implemented by IPhone icloud.
+
+Applying this solution we can grantee that we wont loose any of our data that can be critical to the Business.
+1-Business Continuity 
+2-Avoid the hassle of trying to restore and find the lost information.

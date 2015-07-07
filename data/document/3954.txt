@@ -1,0 +1,17 @@
+Multi-Iteration Dedup+Turbo Code for Multi-Cloud Protection at Speed
+
+I cover cloud computing in Competitive Intelligence, and I have submitted a patent on using RAID 3 with asynchronous drive speeds.  I was contemplating how I might apply this concept to using multiple clouds but retain protection data external to any one cloud for protection. 
+1.	Client driver or browser plugin intercepts data request (requires data stream intercept on both client and server side for encoding/decoding)
+2.	Dedupe phase one to reduce unnecessary processing.  Either the data or the data and hash are passed on to the next stage.  Data and hash are treated independently by the distribution mechanism.
+3.	Compression is performed on the data (either speed optimized or space optimized, note that encryption later makes early compression required).
+4.	Turbo-encoding for data protection.  Data at this phase is split by the turbo code process to enable multiple physical destinations.  This destination is tagged and carried through the next few phases.  Data is mirrored on all destinations (both m + n bits).  If multiple clouds/physical datacenters are used, the dedupe hash codes are split such that only 2/3 are required to perform a rebuild of the data. However, no single physical destination has sufficient information to do the rebuild.  Thus privacy may be improved by using multiple clouds.
+5.	The encoded data is sent through the dedupe algorithm a second time as the encoding process has changed the data, enabling a second possibility of being deduped.  Each bit set (m+n) are treated separately for the dedupe lookup.
+6.	The data is encrypted with a different key set per destination.  This means that even if the key is compromised for one cloud, it will not allow reinflation of the data.
+7.	The data is then sent to the multiple destinations for storing.
+
+•	Write Buffers:  Buffers may be required to increase the data size as Turbo Codes work better on large data sets.  This works better in the enterprise, non-mobile client context as the buffer may be inserted into the pipeline and can service reads and provide local protection while it is filling.
+•	Caching:  Deduped data is cached on the client, depending on the client memory size.  This reduces network traffic and improves read latency.  It may improve write latency on large writes (as deduplicated data does not need to be transmitted). If encrypted data is not required through the process, caching may be placed at multiple places or use a distributed caching system.
+•	Turbo decoding:  Turbo codes uses an iterative process of reconstructing data as it arrives.  This helps cover the latency differences between the sources.  As turbo codes have been around for awhile, there are multiple hardware accelerators available.  Turbo codes are used in wireless transmission to reduce noise.  This instead uses the turbo codes to enable multi-cloud distribution and reduce network latency.  The patent on the original turbo code algorithm expired in 2013.
+
+
+

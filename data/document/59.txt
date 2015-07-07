@@ -1,0 +1,7 @@
+Clean-up process on Data Domain box for any NFS mount backups (RMAN etc)
+Clean up process can be designed as it can search the unused data from the NFS mounts those are created on the Data Domain and delete them and start the clean process automatically once it reaches the HIGH utilization, where the manual intervention is not required.
+While working on Space issue as the utilization reached over 90% with Data Domain, where there was no cleanable space left and we were running on of available space. And the customer was not ready to check and remove the unused data.
+Usually, NFS mounts are created for the customer to mount their FS on their serves to run their jobs like RMAN etc... and they set the retention for their jobs to delete/remove the old data or images after a certain days. Most of time their RMAN scripts does not work as designed. So they have to manually search and delete the old unused data. 
+
+On Data Domain once the NFS mounts are created, there should be an option to set the retention period for those mounts configured for servers. so that it will remove the unused data once the retention is crossed
+Customer satisfaction. Improvement of Product or technology

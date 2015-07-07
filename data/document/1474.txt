@@ -1,0 +1,14 @@
+Electronic Health Records & Health trends analysis "Se7eti"
+Enable the community to digitize all their health records & easily access them from anywhere & at anytime.
+I was checking a company called Practice Fusion: http://www.practicefusion.com/home-new.php; they managed to create a database EHR (Electronic Health Records) of all the signed up patients (80 Million). The patients can access their EHRs from anywhere, can view the subscribed Doctors, and can book appointments and follow their cases with them.
+The Idea is to implement "Se7eti" app (Electronic Health Records) for the patients with the cooperation from the Government of Health. The app can be easily accessed, and can be shared by the patients with the doctors/hospitals/pharmacies, it would contain all the medical history, diagnosis, treatments, list of doctors, lab results, and everything that has to do with the patients health behaviors (smoker,...).
+
+If all the app data are combined, we can track the general Health patterns of our community and perform Big Data Analytics. Thus taking proactive measures to prevent epidemics and increase the public’s health levels.
+Benefits of the "Se7eti" app:
+-Medical history is always there on the cloud, and can be accessed from anywhere and at anytime.
+-Improvement in the patients' overall experience with the health care system.
+-Taking proactive measures to prevent epidemics.
+-Rise in collaboration from the Private Practitioners/Hospitals/Pharmacies to be working on one database containing all their patients' records.
+-Patients will not receive conflicting treatments from different doctors, if they are being treated for more than one symptom.
+-Doctors can provide the treatments for the patients straight onto their app, and once a new log is submitted the pharmacy would send the medications to the patients straight away.
+-Labs would be able to send their results straight onto the app, allowing Doctors to view their patients requested lab results easily.

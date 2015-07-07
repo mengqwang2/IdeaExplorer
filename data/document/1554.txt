@@ -1,0 +1,16 @@
+SecurId software Token for Apple Homekit & Google Brillo 
+Secure access of/for IoT devices.
+While working with RSA Authentication Manager ct-kip service recently, this idea came up.
+The access to & from the IoT devices with SecureId software token installed will be authenticated using deviceID & random SecurID Token generated. This solution is targeted for IoT devices running on Apple Homekit or Google Brillo platform.
+
+Token will be seeded/configured on the thing/device using CT-KIP protocol over Https or CoAP. 
+
+End user will be accessing the thing/device from  mobile/desktop via SecurID Authentication Manager. Authentication Manager in turn communicate with the device using the token & device id configured for that IoT device.
+
+The device which receives the access request compares its device-id & generated token code with the incoming request and grants/denies access to device based on authentication outcome.
+
+For sensor like devices, it will authenticate using the these dynamic credential prior to sending data.
+
+
+Increased revenue from RSA SecurID software tokens.
+Enhanced security for IoT devices.

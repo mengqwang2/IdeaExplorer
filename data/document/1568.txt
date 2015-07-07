@@ -1,0 +1,7 @@
+SRM Improvement for shopping cart creation
+No any message to tell submitter what's the approval status; If the source of supplier is missed to assign, no alarm to shopping cart creator as submitting shopping cart, which induce to shopping cart is recalled after this missing is found after several approvers gave approval. 
+After my shopping carts were submitted, no any message to tell me where the shopping cart is, what's the approval status. Only way is to access SRM Shoppig Cart to review it, that's very time consuming. 
+Some of my shopping carts were missed to assign the source of supplier, no any alarm, after I submitted it and got a few approvers' approval, finally it's found the source of supplier was missed, have to recall it, this waste the approvers' time and my time. 
+SRM: a). If the source of supplier missed to assign, it should have an automatically alarm to let shopping cart submitter to know and action; b) Automatically email notice to the shopping cart submitter once the shopping cart is approved by the approver or its status is updated; 
+Time saving for shopping cart submitter and approvers, to prevent from repeating check and approval once the source of supplier is misssed to assign. 
+Shopping cart submitter can know his/her shopping cart status by email notice.

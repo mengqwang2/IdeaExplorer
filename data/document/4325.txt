@@ -1,0 +1,11 @@
+Make DHM Lab Effective!
+
+This ideas came up with our experience working extensively with DHM lab for last 3 years.
+1) Inventory management - Use RFID based dynamic rack For more info please refert to(http://www.rittal.de/downloads/PrintMedia/PM5/en/dynamic_rack_control_gb.pdf)
+2) Access layer issues ethernet/FC network.
+Use netscout switches and horizon management software.  This will enable changing connectivity dynamically and displays network/fabric topology.
+3) Provisioning storage, Operating system, Hosts -  Put the control back to users, use native provisioning tools OR ViPR for Storage and Provisioning Manager for OS Deployment.
+4) Remote console access, power on/off, KVM.  All equipment in DHM should have KVM, network power switches and serial concentrator.
+5) Integrate ticket system with Microsoft Lync which will enable people to collaborate better over phone/PC.
+6) RE-DEFINE SLA for engineering center, currently it is production SLA. Please do better capacity management of support personal.  Also, hire people in local COE's for issues that can be remotely addressed, this will improve response time.
+

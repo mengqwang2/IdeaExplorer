@@ -1,0 +1,5 @@
+Bug reporting bounty system
+customers experiencing an unknown bug in their environment can report it and after the bug is confirmed a bounty is sent to this customer along with the bug fix  
+inspired by different bug reporting bounty systems for Facebook and google
+a bounty system for the customer how first report an unknown  bug
+increased customer satisfaction

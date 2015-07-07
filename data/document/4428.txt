@@ -1,0 +1,20 @@
+Creating onboarding process easier and simpler for the new joiner
+
+This idea came up when I had talk with few of new joinee- and came to know their struggle during first day.
+Once offer is made to the candidate and his joining date is confirmed.
+He would receive a notification email couple of weeks before his joining date requesting to complete all the joining formalities through web interface. That would contain all the forms and route map to EMC and the floor details where they have to submit or collect the ID, laptop etc.
+The same feature set would also be available through Mobile and by using Mobile Apps they can achieve the desired result.
+How this will benefit them:
+1.	Since candidate would be taking an effort to fill all these details, the hiring manger would get enough confidence that the candidate is positive towards joining the organization.
+2.	This would reduce the manual work of HR representative, IT and other related BU.
+3.	The admin and facility team will get the notification to take care of the seating, phone and other infrastructure related items.
+4.	Different forms which are submitted by candidate will move to workflow of each dept. and they will start taking actions on it.
+5.	This will also set the reminders to the team and they would be prompt in making the necessary arrangements for the candidate by the time he joins in.
+
+Once all the important workflows are complete, the candidate would get notification through email, SMS and mobile app. 
+HR can take also take this opportunity to welcome the candidate by delivering the welcome note, a bouquet, a good inspirational or motivational management book and a box of chocolate. This would help in establishing the good relationship with the employer and candidate will also feel good about joining the organization.
+Idea's video link is available @ https://www.youtube.com/watch?v=-nhMauvrYDM
+
+
+
+

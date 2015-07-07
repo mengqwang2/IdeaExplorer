@@ -1,0 +1,12 @@
+Using Wireless technology to perform Data Migrations within DC
+This idea cuts across all the EMC storage products and if implemented will enable customers/users to migrate data without the need of physical connectivity. 
+The idea came up during a brainstorm session with peers for a data migration at a customer where the customer had limited ports available on the SAN switches and less lead time before the migration for all the planning work.
+We propose implementing a Wireless solution especially for Data Migrations within the Data Center between EMC products. This will eliminate the efforts spent on physical connectivity planning and configuration.
+The idea is to build and implement a Wireless solution which can be used to connect the source and target arrays. The wireless channel created between the arrays can then be used to seamlessly migrate data. It will eliminate use of SAN switch ports\zoning and other compatibility issues. The idea if implemented will have the following benefits:
+1. No requirement of physical ports on the SAN switches for the Migration 
+2. Less lead time required for planning
+3. Less resource time required
+4. Easy setup for the migration
+5. Reduces troubleshooting efforts
+
+The successful implementation of the idea will make EMC storage products the first in the industry to have this technology and will make the Migration tasks less cumbersome. 

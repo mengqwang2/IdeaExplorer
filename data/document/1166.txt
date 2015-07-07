@@ -1,0 +1,22 @@
+Introduce network diagnosis tool in application software for easy troubleshooting
+Currently customers are running many commands on each host to check and troubleshoot the problems. So, debugging became manual process. Customer can use CLI, but they prefer easy GUI with an automated approach. Because of more manual effort, customer feels it is a tedious and time consuming process as debugging will be difficult. So there will be more service calls. Hence present application software needs “Network Diagnosis Tool” and “Session Controller” to improve customer satisfaction and make user friendly.
+Current application does not have network troubleshooting mechanism.User used to login to particular machine to troubleshoot the issues.No central console.No alert or  autosupport messages.No message matrices page to search the solution.
+
+Detail description is available in "https://inside.emc.com/docs/DOC-155770"
+1.Customer can diagnose problems on their IPv4 or IPv6 network by using network commands.
+2.AutoSupport messages help customer to understand the status and operations of the product. The AutoSupport message includes a log level that indicates the priority assignment from technical support.Getting AutoSupport message descriptions
+
+The descriptions of the AutoSupport messages that customer receive are available through the online Message Matrices page.
+
+Steps:-
+1. Go to the EMC product and service site and find the Message Matrices page.
+2. On the Message Matrices page under Select a Release, select product version and click View Matrix.
+All AutoSupport message descriptions are listed alphabetically by subject line.
+
+Where to find the Diagnose Connectivity tool in Application Manager ?
+A. Separate menu is available
+B. If the operation fails, an error message is displayed with a link labeled "Click here to troubleshoot". User must click this link to run the Diagnose Connectivity tool. 
+
+Detail description is available in "https://inside.emc.com/docs/DOC-155770"
+
+Reduce service calls.Easy and effective debugging mechanism. Information should be available online along with troubleshooting tips.

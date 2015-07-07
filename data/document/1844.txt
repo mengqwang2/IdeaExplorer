@@ -1,0 +1,9 @@
+Search for a file in the backed up data on Avamar GUI
+There is no option provided on Avamar GUI to search for a file that is backed up.
+I got this idea when customer requested me to restore a file with some name and he was not sure about the exact path.
+We can find the file using the below mccli command line.
+
+avtar --list  --labelnum=xx --acnt=/clientdomain | grep -i "file_name_to_be_searched"
+
+However this is not user friendly to all. So if the same option is provided in GUI, every one can easily search for the required file.
+This will save lot of time in finding the exact command and syntax to search the file. Some timed customer will move their file to other location and thinks that it is deleted and they ask for restore. By this search option we can come to know about the exact path of the file and inform the customer to check that path on the client itself. This may some times avoid the restore timing as well if the file is already on the client.

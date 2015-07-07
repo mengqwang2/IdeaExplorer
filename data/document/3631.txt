@@ -1,0 +1,17 @@
+Solution Support 
+
+Working in Recoverpoint support, and RP is usedin too many complex Solutions such as RP with VMware SRM and VMAX/VNX or VMAX with RP and VPLEX and Replication Manager, and worked SRs were Had to collab with a lot parties and not easy to find where the problem especially with performance issues
+Customer needs a clear way of handling complex solutions hs has from EMC and/or third prties as well.
+
+Current Support engagements doesn't suite Complex Solutions and causescustomer to work with a TSE whomight not be aware of the complete solution, and also might be from a product not causing a performance issue.
+
+A new Defined Solution Support needs to be addressed, but the starting point must be by EMC support to Identify all these Complex Solutions, to do so we need:
+
+1- Create a support task group from Products that interact with other EMC products or Third Party (Recoverpoint, VPLEX, VIPER, Avamar, Networker, Data Domain etc..).
+2- They must write down each solution component, it's topology and skills needed to install and support this solution.
+3- Share the infomation with field and Pre-sales team for any feedback
+4- Based on the solutions found we need to craet a unique ID for that solution that customer can reference it topoint he has a problm with the whole solution, also that ID will have a queue with it's own.
+5- Each Solution will have support Champions in each Geo who can handle it once a ticket is opened and queued to a specific solution queue.
+
+The result of this will help in Categorizing Solutions and skills needed tosupport these Solutions, that will help support to allign it's resources and trainings to be prepared for Solutions support.this will be a first steps after that we can make those queue have more qualified or dedicated TSE according to install base and complexity as well.
+

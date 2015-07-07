@@ -1,0 +1,9 @@
+Video Surveillance to the Cloud
+Video surveillance to the cloud is an excellent example of the way we can use cloud-based technology to bring enterprises the ability to manage their data across a large number of independent sites. Bringing all of the remote offices into the domain of a single hybrid cloud increases accessibility and security.
+The underlying technology of remote snapshot sharing has been discussed many times by the CloudArray team in the past few years, but we've lacked a specific enough use case to justify full investment. In response to some customer suggestions, Nicos Vekiarides asked if I could look specifically at the case of using CloudArray to support video surveillance in the hybrid cloud. The basic technology is the same as that which we currently use for DR testing in the cloud, but would have to be changed to improve and simplify the workflow.
+With Cloudarray, surveillance data can be automatically uploaded to inexpensive, secure, centrally administered storage facilities (i.e. clouds), with historical surveillance data immediately accessible from any enterprise location. Additionally, tamper-protection mechanisms ensure that insiders can not modify surveillance data. 
+
+All of this can be done without changing the basic workflow -- record the video onto a disk drive. CloudArray does the upload to the cloud, and cloudarray snapshots can be made to be shared across multiple sites.
+
+https://inside.emc.com/docs/DOC-154820
+A successful implementation would involve some simple extensions to the cloudarray technology to simplify the workflow involved in remotely administering snapshots -- essentially writing the rules governing access control, as well as small management extensions. That would allow us to satisfy new customer use cases in the specific area of video surveillance, and open the door for the development of other ROBO to the cloud opportunities.

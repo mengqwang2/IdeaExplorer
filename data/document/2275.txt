@@ -1,0 +1,18 @@
+Unified sizing and diagnostic tool portal service
+The proposal here is to offer a new service within EOS umbrella. This service offering would leverage existing EHC solution to develop & integrate a unified sizing diagnostic tool portal that enables pre-sales and professional service to size out, tune, scale and proactively monitor utilization trends of the different components within customer's EHC solution.
+E-Lab has received several queries from BUs to assist in sizing and performance team. A few recent requests were from DSSD, Isilon around data lakes solution benchmarking, best practices for Ethernet solutions with EMC storage etc. 
+In 2014, my team eveluated internal and external diagnostic tools. The tools were capable of managing e2e solutions application-server-network-storage. 
+The goal was to
+-Increase market penetration for EMC to sell into new technologies
+-Improve customer experience and retention
+-Equip Pre-sales team with tools to sell smarter and quicker
+My proposal takes these few initiatives one level up. The ask is to create a unified simplified portal that supports sizing and ongoing diagnostic services for EMC solutions to help achieve all goals stated above in a much broader fashion.
+EOS organization adds a new service to its portfolio to develop, integrate and test a portal that supports access to all these tools under one umbrella. The pre-sales & professional services will use the sizing portal to follow guidelines for optimized settings and configuration. The portal would also serve as ongoing diagnostic tool to monitor the customer’s datacenter performance and provide professional services with data required to service and improve performance of existing deployments.
+There is no such unified tool & service @ EMC that I am aware of.
+-EOS delivers Unified central portal that equips professional services and pre-sales team with smart tools
+-Bring together unique tools developed across all BUs under one roof to enable a common goal
+-Universal solution-level sizing guidelines that helps EMC overcome barrier to entry to sell EMC solutions in public cloud
+-Improve TCE by proactive polling and monitoring of trends in customer networks using diagnostic tools
+-Introduce value-add & relevant service that spans across EMC's portfolio (legacy & emerging technologies)
+
+

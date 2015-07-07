@@ -1,0 +1,6 @@
+Easy deployment on KittyHawk/Unity project
+Make image deployment easier on VNXe KittyHawk/Unity based product in MFG and lab.
+I feel it's time consuming to install a OS image on VNXe. sometimes it is even difficult. So an idea came up my mind, why not create a tool to do those stupid stuff all together?
+1 Create a single command to run it on single side and it automatically handle the underneath sync by each other.
+2. Even as developer a single command tool is created to do the build and installion in single knock.
+Make life easier

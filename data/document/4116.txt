@@ -1,0 +1,10 @@
+Provide VCHS as a service Offering
+
+Entering the 3rd Platform (Virtualization) of Delivery. New Business.
+VCHS (Virtual Cloud Hybrid Service) is one of the top emerging technologies in the market. EMC as a product based company can build its own data center and configure VCHS setup. This can be used as a service offering to small Customers. In this way, we can host, maintain and provide support to Customers. Customer(s) will be happy that their data is managed in Cloud model.
+
+In the advanced level we can also offer the Disaster Recovery option which comes in VCHS as well.
+In cases of troubleshooting issues, we always can reach out to VMware at the back-end for support.
+
+Note:We can use our legacy/customer returned arrays (like DMX,CX)  for this and provide cost effective solutions.
+

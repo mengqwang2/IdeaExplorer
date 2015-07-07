@@ -1,0 +1,10 @@
+Building vRealize Log Insight Content Packs for 3rd Platform (Big Data & Big Data) 
+
+We have  introduced the 3rd platform in EMCWorld 2014 (PaaS and Hadoop As a service), and latter on productized them and going forward as we roll out these platforms to customers wee need provide logging and monitoring solutions, hence developing vRealize Log Insight content pack for PaaS and Hadoop As a service makes a big impact. and since vRealize Log Insight is part of the solution stack in EHC we should develop content pack - that helps 
+- Creating Content Packs is as simple as using vRealize™ Log Insight™
+- vRealize™ Log Insight™ users can create a content pack for private or public consumption
+- - Distribute to your users to improve their experience
+- Avoid help desk calls by including solutions and links to online help
+- EVP partners  can upload their Content Packs on Solution Exchange and on our YouTube channel
+vRealize Log Insight delivers automated log management through aggregation, analytics and search, enabling operational intelligence and enterprise-wide visibility in dynamic hybrid cloud environments. Content Packs are plugins that provide pre-defined knowledge about specific types of events such as log messages. A content pack is made up of information that can be saved from either the Dashboards or Interactive Analytics pages.
+

@@ -1,0 +1,7 @@
+SalesForce Via personal email
+
+I'm always putting my personal email in cc for my Salesforce replies and having this automated will save me a lot of time and gaurantee i do not lose any data.
+Integrating your SalesForce account onto your personal Outlook account. This way if Salesforce is down we can easily switch to working via Outlook using our personal accounts in a seamless manner without any disruption. Also this way when sales force is down and we need to check history of previous tickets, we can simply obtain the needed info from our outlook inbox.
+
+This would also be useful as I can check the needed mails/requests on the road via the cell phone.
+

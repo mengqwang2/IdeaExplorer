@@ -1,0 +1,6 @@
+Install Base new portal
+contracts is a major problem and combining it all into a new database / platform will make it easier for changes/editing , etc.
+
+N/A
+new database / platform for customers contracts to facilitate adding/changing contracts
+process efficiency 

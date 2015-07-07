@@ -1,0 +1,9 @@
+Defining and Managing the exposure of IOT devices
+In future there will be explosion of devices . With this explosion the network of connected devices will increase exponentially. With the increasing number of communication channels the security threats will be high. The Idea is to define the scope of IOT devices while they are communicating, based on the requirement and nature of data (static and dynamic).
+This is part of Innovation Mining workshop
+The first step is to identify the scope of the Device and its requirement to communicate with any external entity. Based on the requirement equip the device with internal processing capabilities.
+For Example: A smart refrigerator in the near future doesn’t require connectivity all the time. We may let it access the cloud based on the requirements raised by internal processing, which will take care of recording and processing the data for the remaining time. 
+
+Above solution is not yet available to monitor IOT devices.  This proposed solution would be useful in near future , when there will be large number of devices in IOT space.
+
+

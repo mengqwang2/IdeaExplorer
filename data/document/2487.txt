@@ -1,0 +1,5 @@
+Service metering
+Will target services provided to homes or houses in smart cities.
+Having good Utilization of resources and eliminate misusage.
+using sensors, data analytics and monitoring tools like ViPR SRM, to have reports for each house about the usage of resources within the house. Data from sensors will be sent to the SRM, analyzed and generates reports on which rooms are using as an example electricity although no one is using it for more than 10 hours, and the bill shows that the usage is for 20 hours, so at the centralized center, you can control to close the lights in such room.
+New business for EMC introducing data analytics for smart cities

@@ -1,0 +1,13 @@
+Virtual Science Lab (VSL)
+
+We came up with the idea after seeing the initiative to provide virtual bio chemistry labs, neurological labs by Amrita University India. When we can do a complex biological experiments virtually we still have space to create virtual labs for all in IT industry.
+
+http://amrita.vlab.co.in/?sub=3&brch=43
+Virtual applications in Life Sciences and bioinformatics education stems from the capabilities they offer to create a cyberspace where users can interact with other participants (through their avatars) or objects, creating new experiences that are not often feasible in the real world.
+
+Create Virtual world to offer real-time communication tools, interaction capabilities and collaboration empowerment tools to the users for group-work and team building, share events and presentations and constructive activities using Pivotal, VmWare, Greenplum and Big-Data/Hadoop.
+
+Using emerging new and user-friendly software, Data-Scientist and trainers could design and develop interactive model resources by themselves.
+
+OpenSim is one of the tools that can be referred.
+

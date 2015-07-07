@@ -1,0 +1,27 @@
+Identifying faults, Root cause analysis and Preventive measures for the discovered storage system in VIPR
+In today’s world, IT infrastructure includes Storage, Network, Server, Virtual and Application elements. Hence we need a Software Defined Management Software which is not only configure these elements, but also    identify the faults, perform the RCA and take preventive actions to rectify the issues before the problem occurs. 
+The idea is originated from working with different ASD products. Integration of various ASD product will provide quick solution current challenge.
+The idea is to use most of existing ASD products and integrate them to provide the solution. The current solution uses products like VIPR, W4N, NCM and SMARTS products.  Here VIPR and W4N can be used for discover and configure storage elements.  NCM and SMARTS can be used for configure and discover Network, Server, Virtual and Application elements. Here we can use different protocols like SNMP, WMI, SMI-S, VCentre APIs, REST APIs  etc to discover and configure the  elements
+
+The attached architecture document will explain the flow between different components. 
+https://inside.emc.com/docs/DOC-156044
+
+Some of the use cases include:
+Storage: 
+Monitoring faults associated with Storage disks, RAIDS, CPU, FAN failure, Power supply etc.
+•	Some of the Faults like External connection to file server fails because of cable down. The RCA should be cable down not the file server down. There should be corrective action has to be taken in the form of failover.
+•	When an external interface to the Control Station fails because of device failure or loss of connectivity to the IP network, the Control Station may fail over to another host. However, the operator needs to know that the interface has failed and which devices may have been impacted.
+•	The impact of partial disk failures could affect a full range of data management
+systems such as databases, distributed file systems, and RAID arrays.
+•	RAIDGroup faults like AllcomponentsDown indicate  that all the components in the RAID group are down,   AtRisk - Indicates that the number of functioning components is below the AtRisk Threshold,    and Degraded- Indicates that the performance of the RAID group has gone down due to disk failure or disk rebuild
+•	If Particular amount of storage allotted to given application, and then the application is reaching (by having Threshold check) to utilize the maximum storage volume, then we can expand the volume so that application can run without stoppage. This will be considered as predictive maintenance. 
+
+Similar type of Fault Analysis will be done for Network, Server and Virtual elements like: Router is not reachable the RCA may be Cable Down, Card may be down due to power failure, etc.
+
+Today Application monitoring also play important role due to location independence. Application like Database, recovery, Backup can be impacted by Host or storage array down problem. Application may not be responding due to network failure may be RCA.
+
+•	The current solution can be built by integrating multiple ASD products, which is well tested and deployed in various customer environments. Hence this will lead to success of the solution
+•	The cost and time required for the solution is very less compared with starting new project from scratch
+•	This will increase the ETD group revenue, by bundling multiple product
+•	Customer can get single IT infrastructure solution, it will be helpful for him dealing with single Vendor and it can give uniform view.
+

@@ -1,0 +1,26 @@
+Application/Product Intelligence for SMART Decision
+
+This was based on interaction with different people and how to include SMAC  (Social, mobile, Analytics and cloud) or EVP strategy in our application/product
+How to increase TCE and make users part of the solution we are building. NPS score will definitely increase since we are involving user as part of requirements and also helping
+I am socializing with different people within senior management since Jan 2014. As part of Office of Architecture & Innovation team we have something called common components team. Currently socializing with them to see how we can develop common component and use it in the application   
+Ideation process is complete and we currently into design phase
+In every Application each screen/feature will have a unique identifier
+Each unique identifier will be tracked for user behaviour 
+No of visits
+Like/dislike feature
+Comments/suggestions
+Ratings
+Raise incident from the screen
+Build Data intelligence for the above behaviour
+
+Structured and Unstructured data Intelligence will help, mentioned below
+1.Based on Usage data, comments and suggestion, Incidents and Industry trends Business can rationalize the requirements based on user needs
+2. Allowing user to provide suggestion and raising incident directly from the screen or feature reduces the time to resolve issue and inputs directly come from the user of the system is. Both Quality and efficiency will improve
+3. Based on usage pattern we can develop Mobile application only for heavily used feature
+4. With each feature/screen having unique identifier, we can track the incidents based on the ID and develop improvements strategy based on high incidents feature. Users will also know 
+4. Based on user usage, incidents we can prepare automation strategy for testing. This will robust and will improve efficiency 
+5. Performance engg. also can be devised based on user usage pattern, incidents, user feedback/suggestion
+6. We can come with Risk based delivery approach instead of following same old SDLC or iterative approach to increase Agility but still maintaining quality
+7. Many times we Initial Infra design is build based on Size of the application but there is Infra 
+Same concept can be used for our Products since we have software sitting on top of the hardware we should provide ability for users to provide suggestion/feedback directly while using the product. This also enable us to capture continuous improvements idea which enable innovation coming from customers for EMC products
+

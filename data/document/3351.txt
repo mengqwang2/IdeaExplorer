@@ -1,0 +1,25 @@
+A Cloud-Based Social Recommender App for Products, Services, Restaurants and everything powered by Pivotal CloudFoundry to offer SaaS. 
+
+ the idea came to my mind as a result of the daily hassle of choosing a good restaurant, Shop, hotel..etc. friends used to have lengthy conversations over the phone taking each other openion
+the idea is to build a cloud for sharing opinions and ratings. and a mobile app for users to use everywhere. the idea works as follows:
+
+1- a user submits his opinion and rating about certain service/product he tried recently (e.g. restaurant).
+2- many opinions about many services will be stored on the cloud centrally to be accessed by anyone.
+3- a user will have friends network using the same cloud service.
+4- for certain service (e.g. restaurant), the user will have 3 levels of trust ( trusted friend, friend, normal member). I can choose to mark a friend as trusted in food and another friend as trusted in fashion for example
+5- I can use the mobile application to query opinion summary of (trusted friends and/or friends and/or other users) about certain restaurant. 
+6- the cloud then gather the opinions submitted against this restaurant and give an accumulated feedback (giving trusted friends' opinions highest weight then friends then normal users). 
+
+7- a user can ask the cloud to recommend a burger restaurant for him. the cloud then will combine opinions of his trusted friends, friend together with general opinions from all users submitted against burger restaurants. opinions will be processed (giving higher weight for friends marked as trusted in food) and then it will recommend for the user the restaurant with the highest score.
+
+8- many other details are in mind about how it can be designed (notifications, limit recommendation result to restaurants that are nearby ..etc)
+
+this cloud mobile application will our daily life easier and save a lot of effort and time.
+
+the double win of this solution is that it can be used in the next generation of marketing and can help service providers improve their service and make it more aligned to customers' needs.
+
+the feasibility of such solution comes from the fact that it exploits the effort of the crowd (many people submitting opinions) to benefit the crowd as well!
+
+EMC cloud services can be the provider for such solution. 
+
+

@@ -1,0 +1,9 @@
+Integrate Spanning(EMC Company for backing up SaaS applications) with XtremIO
+It would be great to integrate Spanning with xtremIO for our SaaS application based customers. Spanning is the best backup solution for SaaS applications
+
+
+Have read about Spanning reviews recently,http://spanning.com/resources/reviews/. and came up with this idea
+Nearly 4,000 organizations have chosen Spanning to protect their critical data with backup for Google Apps and Salesforce, and that number is growing every day. 
+
+So it would be great to integrate Spanning and XtremIO.
+Increase in SaaS application Customers for XtremIO because of the Integration

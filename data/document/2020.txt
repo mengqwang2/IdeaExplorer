@@ -1,0 +1,5 @@
+Energy Consolidation Solution
+This idea is a solution that it can analyze product power consumption behavior and able to predict its peaks and lows to able minimize its power consumption and consolidate energy across multiple devices not just one.
+No specific history for the idea.
+My idea is create a solution that can be added to EMC products, this solution is integrated with an EMC product or multiple and analyze this product and study its behavior and its energy demand peak and than this solution deals with the electrical power before it's forwarded to the the EMC product and with the analysis it can predict the electrical needs of the product and during low energy consumption the product can enter an idle state or power saving mode and if it's connected to a multiple products it consolidate energy across them all.
+If the idea is implemented, we'll have create a new product, optimize the process of energy consumption, make money as corporations hurry to become energy efficient and improve customer satisfaction and this solution if implemented in EMC it'll decrease our energy consumption.

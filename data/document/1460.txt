@@ -1,0 +1,40 @@
+The world is colorful, here's why and how EMC should also be so.
+After years of hearing about innovation and the all too familiar slide-ware, we are finally beginning to see some practical and measurable innovation-linked benefits in EMC. Whether it is the use of technology to reduce headcount and improve processes or co-creation of new products/services to go to market, innovation has started to seem real at EMC. Customers have also become more demanding, are looking for business outcomes, new systems of engagement and globally integrated enterprises, not just efficiencies and cost reduction. Customers are therefore making decisions not just on price and capabilities, but on the ability of the provider to support their transformation into digital enterprises. This positive energy and initiative needs to be channeled through the right relationship constructs to deliver the maximum impact and true business outcomes. Diversity, as has been noted in the article from Diversity Inc., is that positive energy and key relationship construct at the work place that can help unlock value for both the enterprise (in making it a great place to work) and the customer in their journey to the cloud and digital enterprise thus delivery business value.
+I came up with the idea during a coffee session with Harsha and Murale. This started off as a MyVoice score interpretation discussion and veered right into opportunities that we could make use of to not just increase MyVoice but innovate to help EMC stay ahead of the competition as well as give customer's the option to choose better products and services from EMC while everything is getting commoditized - Dare to swim upstream!
+
+How do we, at EMC, ensure that we’re getting diversity of thinking and ideas as we continue to innovate? 
+
+1. Promote diversity in leadership positions. - This practice provides visibility and realizes the benefits of diversity in the workplace.
+
+2. Promote "acquired" diversity: Diversity, as per HBR (Quote https://hbr.org/2013/12/how-diversity-can-drive-innovation) is of 2 kinds: inherent and acquired. Inherent diversity involves traits you are born with, such as gender, ethnicity, and sexual orientation. Acquired diversity involves traits you gain from experience: Working in another country can help you appreciate cultural differences, for example, while selling to female consumers can give you gender smarts.Inherent diversity, however, is only half of the equation. Leaders also need acquired diversity to establish a culture in which all employees feel free to contribute ideas. Six behaviors, we have found, unlock innovation across the board: ensuring that everyone is heard; making it safe to propose novel ideas; giving team members decision-making authority; sharing credit for success; giving actionable feedback; and implementing feedback from the team. Leaders who give diverse voices equal airtime are nearly twice as likely as others to unleash value-driving insights, and employees in a “speak up” culture are 3.5 times as likely to contribute their full innovative potential.
+
+3. Launch a customizable employee satisfaction survey that provides comprehensive reporting (diverse vs non-diverse team reports for instance). It could be a bolt-on to the MyVoice survey and the results of that can be used to build and implement successful diversity in the workplace policies.For e.g., Here are some behaviors that unlock innovation across the board: ensuring that everyone is heard; making it safe to propose novel ideas; giving team members decision-making authority; sharing credit for success; giving actionable feedback; and implementing feedback from the team. There should be targeted MyVoice survey questions on these behaviors.
+
+
+4.  Utilize innovative methods for workgroup collaboration and decision-making. For e.g.,  Cramer's Cube enables corporations to achieve the highest level of Performance and Innovation.
+
+5. E-mails and cell phones changed the way we worked in the late 20th century, but that's history already. SMAC - Social, Mobile, Analytics and Cloud - is changing the way we work today as a "connected workforce". Done well, SMAC can enhance the value exchange between EMC's Engineering and Technical teams (information to Intelligence a.k.a i2I is one small step in this direction already) thus bringing a diverse focus to their innovation process. Sustaining the conected workforce is what actually would make this a working model and that can be achieved by designing these 3-dimensions:
+
+  a. Leadership - Leading by example so that the inspiration is cascaded through the org.
+  b. Recognition -  Designing programs so that the hand, heart and mind are recognized and rewarded to
+      motivate employees to do their best work.
+  c. Culture - Surfacing the shared assumptions that drive organizational norms for how people interact and get work done.
+
+In closing, let's make Diversity a norm in EMC and live the dream!
+If and when the idea is fully implemented, this is what i think success will look like at EMC:
+
+1. A globally connected workforce in EMC, buzzing chat-rooms and social pages internally (probably dedicated by service/product lines) as well as externally (exposing it to our customer's as well).
+
+2. An analytics solution that provides :
+
+a. Real-time (point-in-time as well as YTD) trend of what the overall mood in the organization is like and also recommending what actions to take to remediate issues. 
+
+b. Similar info on the customer experience with EMC products, services, solutions and teams.
+
+c. Real-time trending data showing innovations happening (broken down by teams/BUs/Geos etc.,) on a regular basis instead of just during the annual Innovation Conference.
+
+d. The impact of innovation on EMC's bottom-line along with what value it unlocked for the customer and the employees.
+
+
+3. A diverse set of employees constituting EMC's product and services teams across the globe.
+

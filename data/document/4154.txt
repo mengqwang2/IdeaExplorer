@@ -1,0 +1,21 @@
+Desktop as a service in Egypt COE. 
+
+this idea came as the COE is rapidly expanding in terms of employee numbers. the rapid availability of the new desktops has become necessary. Many of the desktops are going end of life and are replaced with the new ones. 
+Virtual desktop as a service will allow the COE to virtualize all on premise desktops. This can be achieved by creating a private cloud on VBlock and VMware. EMC is best at selling such solutions globally. 
+EMC COE should consider implementing a private cloud that can allow us to host our Virtual desktops and all local applications. 
+Benefits : 
+1.	Drastic cost reduction of our desktop infrastructure. 
+2.	 Easier management and administration. 
+3.	Easy commissioning and decommissioning of desktop. 
+4.	Easy performance tuning. 
+5.	Scalable growths as the needs are. 
+6.	No waiting on delivery of new desktop or spare parts. 
+7.	Centralized management and lesser power consumption.
+8.	Independency from other vendors.
+
+Implementing a private cloud in Egypt COE will be a very good opportunity to market our 3rd platform products to Customers in our region.
+I believe many customers in Egypt and the Middle East will be interested in  seeing such a system going live as it meets many of their needs. This will definitely create a great sale opportunity and will build strong trust in our products. 
+Moving forward we can be selling Desktops as a service to other companies but the restriction here will be the availability of a strong network infrastructure.
+
+
+

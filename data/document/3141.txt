@@ -1,0 +1,15 @@
+Software Determines Capacity 
+
+Have been thinking about this idea over several quarters. Many End of Quarters we are chasing material of a certain type and have Inventory of another type in abundance. Started thinking about how you could solve this problem without loosing margin.
+One Drive PN and Size and have Software determine the capacity and speed, upgradeable with the software.
+-	Example: your one PN is a 10T-15K drive. Customer wants 1T-10K, and 600G-15K in their system. The software would make the 10T-15K drive into what they want.
+-	Charge a slight mark-up for the drive and get the revenue from the software, the higher the performing drive they want determines the higher cost software.
+-	If the customer wants more capacity they can add drives but could also order software which would change their current dives from 1T to 2T or 3T and 600G to 900G or 1T.
+-	If they want to increase performance it would be another software purchase to change the drives from 10K to 15K etc.
+-	Also have one PN for SSD drives which software does the same thing.
+-	Could also do the same thing for Boards, 48G, 96G, 128G etc.
+
+1.	Inventory savings
+2.	Manufacturing Savings
+
+

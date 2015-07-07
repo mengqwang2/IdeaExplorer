@@ -1,0 +1,17 @@
+A better way to protect cache data when power failure
+1,Data protection,avoid data loss when power failure
+2,Cost Efficiency,use small BBU instead of the current BBU
+3,Customer Experience, a better way to protect the customer business data 
+In the storage system, a write process will write to memory to be cached first,and then write to disk from memory in most cases. but when there is a power failure, the data which haven't write to the disk from memory will be lost. In order to protect the data in the memory, we could design a memory data protection mechanism when power failure.
+1,add a power check module, it's used to monitor the status of power supply.
+2,add a fast data cache module, it's used to copy the dirty data from the memory.
+3,add a power failure protection controller module,it's used to notify the data cache module to copy the dirty data when power check module detected the power is failure.
+4,add a small power supply module.it's used to supply the power to the memory and data cache module.
+
+the data protection progress:
+1,when power check module detected the power is failure, it will send a message to CPU to  finish the current must write process. and then shutdown the whole power
+2,power check module active the small power supply module, the fast data cache module and power failure protection controller
+3,power failure protection controller send a message to copy the dirty data from the memory to the fast data cache module. the data will not loss and make sure the data consistency and integrity.
+4,when power supply is back to normal, the data in the fast data cache module will copy back to the memory. 
+5,since the dirty were not flush to the disk(SSD/HDD), and they were still stored in the cache, the data access speed and efficiency will not affected.
+If this idea was implemented, it will improve customer satisfaction and enhance the productivity. also it will optimize the data protection process

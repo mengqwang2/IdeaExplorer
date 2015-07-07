@@ -1,0 +1,21 @@
+Data driven solution for health care diagnostics
+We suggest a solution for the health care vertical market that contains Data science on top of EMC's Federation products and BDL (Business Data Lake)
+Eslam, Nimrod, Omer and Amihai thought on the idea while they did a brain storming around health care use-cases. The team can work together to develop the Big Data core solution architecture proceeding with POC.
+
+Amihai and Nimrod(Sr. Data scientist) delivered data science applications using the pivotal stack and EMC technology in the past, with proven experience of delivering the ITOA Big Data Science play.
+
+Using archived data + IoT sensors' data (that installed in hospitals) we can provide a centralized data analysis that will recommend on diagnostic and treatments for a given case based on similarity analysis (provided by ML algorithms such as Collaborative Filtering and Text Analytics) we can match cases to previous one.
+
+More than that we can use IoT devices that can be wearable such as smart watches in order to monitor the patients in real time and alert on any anomaly behavior in real-time that our models will detect.
+
+The solution achieves data privacy using patient profiling (each patient has his own private data and shared data at his control). 
+
+Our solution is based on EMC federation products. The enabling platform can be provided over the cloud (PaaS) like Pivotal CF or can be a full EHC solution sold to the healthcare sector of the smart city. 
+EMC:
+Big Data Play for the health care market, integrating multiple EMC technologies (Isilon, BDL and Pivotal).
+
+Costumer:
+* Save Life and enhance Healthcare service
+*save money due to inaccurate diagnostic and time/resources wasted
+* Increase accuracy of diagnostic 
+

@@ -1,0 +1,11 @@
+EMC Blast Radius: an EMC 3rd platform Sales Enablement Analyzer
+
+The idea came to me while thinking about 3rd platform Sales enablement tools
+EMC Blast Radius is a sales enablement tool that analyzes our 3rd platform sales in the world.
+The tool is connected to our Sales and Contracts’ systems to grab the information of our sales worldwide for each product.
+The new tool will analyze this sales data to come up with technology gaps for potential customers. It will generate a report for our sales team with customers who did not purchase 3rd platform technologies (e.g. ViPR) and have a buying potential (this can be known through opportunities data from our sales system).
+This Big Data tool will analyze and predict the potential 3rd platform sales based on millions of products sold to our customers around the world.
+This tool will help increase EMC’s revenue streams through upselling our 3rd platform technologies to the correct target customers.
+Reports can be generated from the EMC Blast Radius enablement tool by geography, territory or product.
+
+

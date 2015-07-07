@@ -1,0 +1,8 @@
+Car Camera viewing corners
+Using technology towards smart-city.
+Seeing a lot of accidents happening due to drivers losing sight when they try to pass a cross street.
+-Having a camera in front grill which can have a 180 degree view.
+-Camera will be connected to screen inside the car so driver can check them.
+-Camera can record and save the view in case anything happens and the driver want to view it later.
+-Making it easy and safe for car drivers to pass cross streets to avoid collision.
+-Saving peoples lives

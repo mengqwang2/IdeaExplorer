@@ -1,0 +1,20 @@
+Iris – Rainbows_of_Culture
+A Mobile App which Enables EMC Employees to share their cultural moments of life.
+Brainstorming about the challenges, as we faced when we joined EMC and had to work in an extremely diverse team, discovered colleagues outside EMC in few cultural events
+An iOS/Android app with below features:
+1.	Login : No new login needed, uses EMC credentials
+2.	Updates automatically user profile from EMC system, lets user update profile
+3.	Home page – page of feeds : events, activities of team members/ EMC
+4.	Posting content: Upload pictures/videos/text posts/sounds/
+5.	Responding to others content: like, comment, share/tag
+6.	Live streaming with admin control: can create live channels, which is visible           across EMC.
+7.	A content quality monitor that filters irrelevant content.
+8.	A concise description about the local culture for each geographical location, which would help traveling employees to quickly adapt to the new location.
+9.	Share interests apart from those required at work.
+10.	Analytics component to capture interesting trends.
+
+1. Crowd sourcing
+2. Better collaboration among employees, by knowing each other’s cultural background
+3. Easy tracking of EMC events and team specific events.
+4. Better visibility on diversity in EMC.
+

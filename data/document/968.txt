@@ -1,0 +1,30 @@
+IoT Storage Gateway - for smart homes and public places
+Office of the CTO 'New Business' Challenge
+
+# New product - The product offers transformative solution which addresses key challenges in niche market in the field of IoT.
+
+Skolkovo R&D Center Challenge
+
+# Identified new niche market where EMC has the capacity to build new solution.
+We have been closely watching IoT trends. Lots of companies and startups are emerging in the field of  IoT. Recently, our competitor Dell has announced the launch of separate business division for IoT. Significant number of companies are working on developing small, smart wireless devices which can talk to each other for houses and public places. We thought we could leverage this trend and provide a storage gateway solutions for data processing and analytics at the network edge rather than in the cloud. 
+If EMC can provide a IoT STORAGE GATEWAY – small, wireless and connected device – to help users collect, secure and analyze data AT THE NETWORK EDGE (rather than in the cloud), that will definitely add so much value to the working of IoT. This will definitely reduce latency time for processing and analyzing data; reduce time and costs associated with moving data into a cloud.
+
+EMC, being giant in the field of storage, can invest into this targeted area of IoT. There is no doubt about market potential here, as IoT is a promising field and lots of homes, hospitals and public places are already started getting transformed into smart places. 
+
+1.Since EMC being storage giant, this solution very much falls within the technical capabilities of EMC. With enhanced knowledge of IoT, EMC can provide a better storage solution for smart homes. 	
+
+2.As EMC already started investing resources in the field of IoT, EMC has the capacity and interest and it can definitely pursue in developing the product we proposed.
+
+3. The product provides solution in a niche market which offers huge market potential. It is  the huge business opportunity for EMC as it very much relevant to the current exploding digital revolution.
+
+4.Lots of Government projects are happening around the world and so many homes, hospitals, stadiums, and other public places are getting transformed into smart place. Our solution definitely has huge revenue potential in this new market.
+
+
+#Niche market
+#Huge revenue potential
+#Attractive for business as it very much relevant to exploding digital revolution
+#Within the capacity of EMC as it already started focusing on IoT
+#Based on EMC technology - data management
+#It can provide solutions to multiple domains - from houses to hospitals to any public places - which demand smart solution.
+
+

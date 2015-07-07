@@ -1,0 +1,8 @@
+Productivity improvement by optimize release process
+
+This was raised in a engineering meeting when we talked about how to improve the productivity of testing and bug finding.
+To take the first round of test execution and automation development on same person. The person firstly do first round manual execution, and if the execution is done or blocked on one area, automation development work can come up. When more feature available for testing or blocker get removed, first round manual execution continue.  The benefit are:
+1.	By manual execution person can know feature and save time for automation investigation
+2.	When blocking issue come up, bandwidth can put on automation development(not debugging) with mockup.
+
+

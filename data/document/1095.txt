@@ -1,0 +1,32 @@
+Hybrid Lightweight Virtualization Technology Stack (VMware + Docker) for Smart City and IoT
+•	Egypt COE Smart City and IoT Challenge
+This idea helps to ease the challenge of virtualization requirement in smart city and IoT, Docker is an ideal technology to package the computing environment of smart city and IoT stack, and mask the complexity of deployment by open source orchestration tools.
+Team brainstorming
+Here is the Lightweight virtualization solution background:
+    - Lots of physical node in surveillance system is responsible for storage and video surveillance business;
+    - Lots of video analytics needs and hope deploy computing apps easily and quickly;
+    - Move app to data because there is so much data and moving data is high-cost work.
+
+The lightweight virtualization solution should meet the following requirements :
+    - Lightweight, consuming little CPU, Memory;
+    - Easily to be embedded to existing storage or surveillance server;
+    - Can aggregate many physical servers and represent them as a single virtual system;
+    - Decouples VM abstraction from host OS abstraction and can run on many unmodified OSes in the mode of an ordinary application
+    - C/C++/Assembly and hence anything else is also supported
+    - Isolate apps, storage, computing
+
+
+Hence we propose use a lightweight virtualization technology hybrid with VMware. 
+In the data center, we’ll leverage VMware technology to support the easy deployment and better resource utilization.
+In the distributed nodes, we propose to leverage Docker, which is a lightweight technology.
+ 
+Three reasons why we can choose Docker:
+    - They are fast, it usually takes minutes for deployment and boot
+    - They are very lightweight, on a typical physical server, with average compute resources, you can easily run 100-1000 containers On disk. A few megabytes per container. No need for special storage like SAN, NAS...
+    - They are almost Virtual Machines, each container has its own network interface (and IP address), file system and isolation (security and resource usage) 
+
+What we need to do to leverage Docker:
+    - We build specific Docker image for different applications, e.g. for video surveillance, we put all video stream analyze tools in the image
+    - Each distributed host have an agent, they can get the image and deploy them on the host
+    - There will be a central management tool to manage the agents, there is some mature solutions, like Kubernetes, which makes its hosting framework open sourced.
+The hybrid lightweight virtualization technology can leverage the power of VMware for central computing in the data center and the easy usability of Docker for the distributed nodes.

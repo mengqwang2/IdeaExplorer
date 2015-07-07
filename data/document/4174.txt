@@ -1,0 +1,8 @@
+Develop some industry standards of storage management
+
+The patents are good ways to protect intelligence rights. As the leader in the industry, we need to make sure we make rules for the industry and markets.
+EMC can develop some technologies about the unified storage products, and make them patenting. so far i thought in following areas:
+    * Storage management interface and API for interoperability.
+    * Communication protocol to VMWare DataStore.
+    * Failover protocol with 3rd party storages.
+

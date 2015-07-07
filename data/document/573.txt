@@ -1,0 +1,16 @@
+Using big data in science/education through a simplified app
+Education is the idea that we are transforming minds, not just informing students. It speaks to the notion that we are changing paradigms and ultimately the paths of our people, for the betterment of society, so we need to get every innovative idea to support such approach
+I thought always about this approaches as it is really necessary to the modern organizations and to fill the gap between the employees who are always on air and rarely connect to the company network and those who are always in office. this will create a great opportunity to a clear and uninterrupted communication.
+The application will be powered with a "Pivotal HD" engine in the backend  to help in leveraging and correlating the topics and interests of the users. This approach will help a lot the user through accurate suggestions based on his interests.
+
+
+the App will utilize all the possible means  to detect the topics to be discussed and will suggest the material for research.
+
+The main goal of the approach is to reshape the education theory.
+
+
+Benefits of this approach :- 
+
+1- Increase the awareness about the new education methodologies.
+2- Link the education with the new technology trends and open up for new ideas.
+3- Help the "STEM "education process to be market oriented, and link the students/researchers all over the world.

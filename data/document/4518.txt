@@ -1,0 +1,40 @@
+EMC Indoor Navigation.
+
+This idea it came when we were working on App-i-licious Fest EMC India COE Mobility Event contest.
+Initially we came out with a small story write-up for the idea.
+Story-
+-Once upon a time there lived an employee in EMC.
+-One day the employee’s manager set up an important meeting in a conference room 
+-When the meeting invite popped up from his outlook, he jumped out from his seat and set out in finding the conference room.
+-He searched every nook and corner of his floor. But he couldn’t locate the room
+-He searched the floors above and the floors below. No luck
+-Then, he called the help desk and got to know that ‘the conference room’ is in the other block 
+-Desperate to attend the meeting on time, he dashed to the other block, only to find that it was again a scary maze 
+-When he finally reached the conference room, he realized that the meeting was overdue by an hour.
+
+
+
+App assist you in indoor navigation within EMC premises. 
+- Login with corp credentials.
+- As the App loads, it shows your current location.
+- As the user moves, the current  location is refreshed.
+- Location is updated every 5 seconds. This interval is configurable.
+- You can navigate to other floors using the floor Navigator in the app.
+- Buddy Search: Type your buddy’s name in the search box and autocomplete feature pops up the matching names from the EMC’s Active Directory and also Communicator status is obtained from EMC’s OCS  [Office Communicator Server]
+
+-Where is Buddy?
+When buddy is away, app can still find out where your buddy is.
+
+-Conference Room Search
+Enter the name of the conference room in the search box.
+
+-Cubicle/Cabin Room Search
+Enter the cubicle/cabin  number in the search box.
+
+-Touch and get Info
+Touch anywhere on the app window. Corresponding info is displayed on the info box.
+
+Indoor Location Tracking
+Positioning is based on Wi-Fi Fingerprinting.
+GPS coordinates do not work indoors.
+

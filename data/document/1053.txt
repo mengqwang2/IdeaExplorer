@@ -1,0 +1,22 @@
+Image Backup as a Service (IBaaS) for legacy environment using Enterprise Hybrid Cloud 
+This idea delivers the need of image backups as a service to hybrid cloud in a legacy environment. The customers can get a benefit of cloud services where their VM snapshot images can be backed up and managed by using single management console. These snapshot images will be stored in private cloud or public cloud based on the business requirements.
+
+This idea provides lower cost benefits to both EMC and its customer's. 
+This idea evolved when Xapps QA's approach to cloud boost on Networker. There are some challenges faced during the idea discussion like which open source we can use it for Hybrid cloud whether that is part of EMC and not part of EMC. Once the conceptual architecture is proposed the implementation of Open Stack on vCenter and vCloud direct automation integration involved some challenges. 
+
+The proposed solution is depend on VM images backup to Hybrid cloud as a service by using VMware vRealize Automation. The conceptual architecture of this proposed solution contains 3 level of architecture. 
+* Base Level- ESXi Server- contains VM's 
+* Middle Level - vCenter Server - Back end Avamar Backup Appliance for taking snapshots of VM images.
+* Middle Level-II VMware vCenter Plugin for Open Stack Software tools - To create private /public cloud 
+* Top Level - VMware vRealize Automation (vCloud Automation) 
+
+vCloud Automation can communicate with any other outside world cloud service providers like EMC, Amazon etc.,
+
+With this architecture EMC can provide better solution to customers for image backup to hybrid cloud.
+
+Once this idea is implemented , EMC can get a large number of potential customers and also it will incorporate with less cost benefits to EMC as well. The customer will get a hybrid cloud services based on their need. It also includes benefits like,
+ * Deliver a Personalized Self-service Experience
+ * Deliver infrastructure, application and custom services through a unified IT service catalog.
+*  Meet specific business needs at the right service level with personalized, policy-based governance.
+*  Automate and accelerate IT service delivery.
+

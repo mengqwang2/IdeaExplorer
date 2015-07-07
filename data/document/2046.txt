@@ -1,0 +1,5 @@
+Automation tool for On boarding
+na
+Currently we do not have any automated tool to track the onboarding process
+The suggested tool will automate the complete process and could be used for any number of individuals.This tool will be capable of adding multiple processes and phases depending upon the requirements and would be able to plot graphs showing the current progress and process compliance.
+na

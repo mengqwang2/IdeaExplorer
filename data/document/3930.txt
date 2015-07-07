@@ -1,0 +1,8 @@
+Test Equipment Health Check
+
+
+This Idea was conceived during Test Equipment Team discussions, further developed during team IGS. 
+Establish a benchmark to validate Tester performance using IT loads, achieve and ensure "best of breed" equipment is available for manufacturing.
+This solution baselines equipment performance specifications required for testing EMC products. It can be used proactively to source "fit for purpose" equipment parts during new tester design and for early detection of impending failures.
+
+

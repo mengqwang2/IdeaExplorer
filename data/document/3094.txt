@@ -1,0 +1,34 @@
+Hyper-visor Query and report generation using backup software.  
+
+It came up during the discussion of new ideas for Nemo(Networker solution) between Me and Meghana on Friday, December 05, 2014.
+Description: Idea is divided and described in 3 sections given below. 
+
+1. Reporting
+
+Fetch and report for the list of VM’s which are not backed up using backup software. 
+Query the hypervisor with list of all ESX/VM’s present in the VC and list out the following details:
+1.List of backup software’s running on the hypervisor. 
+2.List of all the VM’s which are configured with which backup software. 
+3.List of all VM’s which are backed up using backup software. 
+4.List of all the VM’s which are not backed up.
+5.List of VM’s which are not configured for any backup software. 
+Implementation: 
+The backup administrator will send an inquiry to backup software to get the list of all the VM’s in VC with its current status. 
+
+2. Polling Agent
+
+To implement the above idea we need to have a polling agent which can perform a check on all the VM’s in the VC, and get the list to corresponding backup software from where the poll was requested. 
+The polling agent should be designed in such a way that it can detect any backup software(any vendor) installed on the VC. 
+The poll agent will report back with the list of all VM’s in the VC with detailed report which will contain all the above mentioned details. 
+
+3. Override selections
+We can also include one more idea of introducing a check on all the VM’s which will be configured for backup using backup software, saying the VM is already associated with some other backup software. 
+i.e. when a user tries  to configure the VM for backup operation the polling agent will perform a check whether the VM is being used by any other backup software or not. 
+If the VM is not configured with any other backup software then configuration should succeed without any issue. If at all the VM is assigned to any one backup software then it should prompt the user saying this is already being backed up using xyz software. 
+
+Advantages: 
+1.This will help administrators in managing their VM’s in a better way. 
+2.User can pull of the data without any hassle and see it in console. 
+3.Lot of time and effort is saved as manual inventory is saved. 
+
+

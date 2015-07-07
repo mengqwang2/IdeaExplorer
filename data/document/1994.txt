@@ -1,0 +1,11 @@
+Adding data cache(Storage based) to Mobile phone base stations 
+APJ COE "solution platform" challenge / 3rd platform SDS Predictive maintenance - ETD:
+  The increase of mobile speed/user experiences benefits the 3rd platform development.
+Egypt COE Smart City and IoT Challenge:
+  It is a important component of Smart City.
+
+Group discussion.
+Adding data cache(Storage based) to Mobile phone base stations 
+The idea is to introduce our storage to mobile phone base stations as data cache. It greatly impoves the download speed and mobile user experiences. Besides, more smart elements(Routing, filter, specific services) could be added to form a smart mobile base station. 
+
+The idea greatly impoves the download speed and mobile user experiences. Besides, more smart elements(Routing, filter, specific services) could be added to form a smart mobile base station.

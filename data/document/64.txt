@@ -1,0 +1,10 @@
+Memory Hotplug	
+Currently we have some products which have different configurations varied with memory and disk size, we have to develop new model for the difference, it always takes time and efforts. What is more, to support scale out and quick replacement of bad DIMM, we also need memory hot plug.
+Now SLIC hot plug has been supported in some product of EMC, and the technology for memory hot plug from Linux community and ACPI is ready, scale-out may also benefits from this feature.
+Latest kernel has support memory hotplug, and ACPI has defined the interface of hotplug, we can make full use of them.
+1.	For hardware: changed the place of DIMM slot/ memory riser to make it conveniently to plug in/out DIMMs, may need re-design the DIMM signal to meet the requirement of memory hot plug.
+2.	For Firmware: Add and enabled relevant table for memory hot plug.
+3.	For kernel: Enable configuration option for memory hot plug
+4.	For OS:  based on open source memory hotplug management packages, develop a tool to manage the memory hot plug per the requirement from memory CE/UE detection and system configuration. 
+
+This feature can give customer more satisfaction and save cost for customer. For example, Customers can hot add memory to system when scheduled heavy workload begins to execute, once the heavy workload is done, customer can hot remove the memory and re-use the DIMMs in other platforms.

@@ -1,0 +1,10 @@
+Super Crane for Manufacturing Floor 
+In the workplace of the future, the constant of hazard and obstacle of pallet trucks can not exist. Through the implementation of this system. employees with be able to cross the manufacturing floor with ease, without the need for looking over one's shoulder or check every corner for oncoming cargo. It will also provide state of the art automation for flawless point to point transportation of cargo. 
+
+
+The co-op society organised a two-hour brainstorming meeting RE the Ireland CoE challenge and this was the idea chosen to be developed further. 
+
+A dedicated team then met up to discuss the detailed aspects of the idea and put a rough draft together pending completion. This draft was then circulated to all involved for team approval. The idea was then submitted.
+The automated system would be based on a electronic ticket based system. Submit the packages current location and destination (designated pick up and set down areas), along with any other required information for approval. The crane system then automatically picks up and drops off item. Multiple cranes can be utilized on multiple tracks installed above the manufacturing floor. 
+Increased workspace on and Reduces congestion on paths through manufacturing floor. 
+Less collisions/accidents concerning pallet trucks. Reducing errors in internal transport due to removal of human element. 

@@ -1,0 +1,5 @@
+eRoom mobile application
+This mobile application will save a lot of time to all employees in all COEs
+Browsing the EMC mobile applications and not seeing eRooms amongst them.
+A simple mobile application to be implemented to reflect all my eRooms on my phone, so I can access the data remotely from my phone.
+HUGE time saving, remote access to a very important application for many teams.

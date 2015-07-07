@@ -1,0 +1,15 @@
+Vplex design Simulator
+
+Problems I face during the design of big vplex project with several arrays in backend.
+Have a simulator where the vplex and Backend array are simulated. 
+So this works as follows:
+Add a vplex, select the number of engines
+Input the backend array with it's specifications (cache, number of drives ..etc)
+connect the cables from vplex backend to the array.
+
+simulate a workload curve based on IO profiles.
+
+This is useful in case of having several backend arrays. How many ports to dedicate to which array or use port sharing between the arrays
+
+This could be useful in optimizing the vplex performance.
+

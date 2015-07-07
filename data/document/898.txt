@@ -1,0 +1,7 @@
+Integrate error handling for multiple UUTs test
+It will shorten our produces testing time in MFG and alleviate operation complexity.
+For Beachcomber ENCL test in the pass year, operators need to manual process every failure/warning for every UUT although there is no HW/FW issue. We need to kick the mouse repetitively many times for every UUT.
+
+
+An error handling server will be setup. It integrates the test result from every UUT test. And then it processes the test result, classifies all of the failures and provide the process method for every type failure. UUT auto uploads test result to the error handling server. Operator only need to process the similar test failure for multiple UUTs after testing on the error handling server. It will reduce operator's workload and be easier for operator.
+If the idea is implemented, it saves our produces test time in MFG; Operator do not need to grasp the process method for every type failure/warning; It is easier to analyze the issues found in MFG and conducive to upgrade our test-ware; Lots of UUTs can be test concurrently by fewer operators; our produces delivery can be speed up in MFG. 

@@ -1,0 +1,29 @@
+Snapshot based volume replication
+
+Many of our customers are seeking synchronous replication solution but DataDomain mtree replication is asynchronous. The proposed solution bridges this gap.
+Scenarios of the challenge :
+A  Several users geographically separated (in different continents) reading and writing simultaneously.
+B  Two users geographically separated (between 2 continents) reading and writing simultaneously. 
+C  Two users geographically separated (between 2 continents). Only one is R/W at a given time, while   the other is Read-only.
+
+Details :
+1. Use two DataDomain appliances in each geographically distant location , say Location 1 and Location 2.
+2. Let us consider that volume A is a R/W volume in Location 1 and volume B is a R/W volume in Location 2 . (as shown in the following figure)
+3. A’ and B’ are snapshot replicated targets of volumes A and B respectively.
+4. All new or modified files will be copied from B’ to A and from A’ to B via a script.
+The script can include an optional or automatic update to the latest copy of the file [For example, if file X is modified at A by User1 and also at B by User 2, then the script will take care not to overwrite files with a newer modify time for the same file or provide an option to the user to select which copy he/she wants to keep.]
+
+Advantages:
+1. In a DataDomain appliance it is possible to de-duplicate and compress stored data that is shared between A’ and B or between A and B’.
+2. Replication compresses data sent across the WAN and hence provides efficient use of the available bandwidth. Given that fingerprints of the segments of files are queried across source and destination and only segments not present on the destination are sent across, in a steady state, very little bandwidth will be used to transfer data across the WAN link.
+3. Being a de-duplicating file system, it is possible to fast copy files from A’ to B or from B’ to A by just copying the top level reference of any file from one inode entry to another, without having to copy indirects or update bitmaps.
+4. Sync window can be adjusted to be as low as a minute or lower.
+5. DataDomain ensures data integrity of the stored data in any of its appliances, be it a source or a replicated volume.
+
+Caveats:
+1. This solution addresses Scenario B and C. We can consider enhancements to this solution using a distributed cache to address scenario A.
+2. The DataDomain appliance does well only with large files for streaming reads and writes.
+
+More details at: https://inside.emc.com/docs/DOC-99799
+
+

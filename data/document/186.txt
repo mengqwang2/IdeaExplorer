@@ -1,0 +1,6 @@
+Escalated SR Contact
+This idea will support better communication with the Support team for the Escalated cases.
+Sometimes when i escalate cases and check the owner of the Case i find that the name in the Service center is different from his name on Lync.
+My Solution is to Add a chat button on the Service Center when a support take an ownership for a case ,we can contact him directly.
+1-Easier communication with the support.
+2-Better level of service for the Customers.

@@ -1,0 +1,14 @@
+EMC Customer Aid
+
+As an account SE, I try to be involved with my customers as much as possible in all aspects of their business. For example, I have noticed that customers will initially engage with consulting companies / VARs for things like data center moves not knowing that EMC is more than just an infrastructure company. As account teams currently maintain account information in shared folders using apps like Syncplicity, I believe we should utilize the power of our data analytics engine and extend this capability and information to our entire customer base where approved and applicable.
+
+1.The query will scan the “Reference View” DB in SFDC to locate similar implementations.
+2.The application will filter the results by referenceable projects / customers.
+3.The application will filter results by geographical location / proximity.
+4.The application will provide options to:
+   a.Schedule call / meeting with account team of referenceable customer.
+   b.Send email / question to account team of referenceable customer.
+   c.Schedule call with referenceable customer via account team.
+   d.Connect requestor with solution specialists that support the account / territory.
+5.The application will also send alert / notification to the account team with customer’s contact information.
+

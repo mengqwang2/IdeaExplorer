@@ -1,0 +1,14 @@
+Smart Car Tracking system
+Implementing this idea will use technology to keep cars more secure and help approach smartcity
+Seeing a lot of people losing their cars recently.
+Adding a hidden chip in the car attached with GPS tracker. The chip will be connected to internet through a SIM card while its connected all the time to a server.
+
+Car owner will have access to the application to detect location of his car.
+
+Features:
+1. Locate car
+2. Stop car's engine
+3. Detect cars speed
+4. Listen to sounds inside the car in case it was stolen
+Saving peoples money in case they were in risk of losing their car.
+Making it easy to find your car if you park in large garage/space.

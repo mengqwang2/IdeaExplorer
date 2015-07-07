@@ -1,0 +1,22 @@
+Smart City Enabled by EMC
+The ideal is related to Egypt COE Smart City and IoT Challenge
+Recently, the concept of Smart city is everywhere. Just like cloud and big data. 
+
+?	Create several private clouds for different domain by using EMC’s EHC product. E.g. 
+- Transportation (Cooperate Transportation Company)
+- Communication (Cooperate with Gov and Telecommunications Operator)
+- Public Service (Cooperate with Gov)
+- Security (Cooperate with Gov)
+- Healthcare (Cooperate with Gov and Healthcare organization)
+- Energy System (Cooperate with Gov and Energy Company)
+
+?	Use EMC Big Data technology - Pivotal to do the trend analysis and better service people. E.g.
+ - To collect data from hospital and track the disease outbreaks
+ - To collect data from video camera and see which street is more like has traffic accident etc.
+
+?	Provide different EMC products for different use scenarios 
+- XtremIO/VMAX v3 for those have performance demands industries. E.g. FSI (Finance, Security and Insurance)
+- Isilon/VNX for Healthcare, Oil and Gas, Media and Entertainment
+- Data Domain/Avamar/NetWorker/RP/VPLEX for every industry to provide reliable data protection and disaster recovery capability
+
+The idea makes EMC been more involved in the Smart city. It will enable more revenue and position EMC as the market lead.

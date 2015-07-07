@@ -1,0 +1,20 @@
+Create safe-zone based on smart sensors
+o	Cross platform global solution
+o	can be combined into EMC Solutions (RSA AA etc)
+o	allows Potential Financial Gain
+o	has a significant customer impact
+
+- Brings security to the Internet of Things
+
+- Secure data management
+Team meeting several weeks ago
+Authentication method based on user’s safe-zone, set by sensors
+
+o	Sensors from smart home provide intelligent data that, when taken together, can determine with confidence whether the homeowner is at home. This allows the creation of a safe-zone, so that when the user is home, there is a lower risk of fraud.
+o	Inputs:
+?	Lights
+?	Air conditioning
+?	Motion sensor
+?	Ambient noise
+?	Door activity
+Allows users to not have to login so long as sensors indicate that the space is safe. This can be implemented at a person's or employee's residence, at an employee's office, or anywhere else.

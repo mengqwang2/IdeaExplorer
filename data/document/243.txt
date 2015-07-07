@@ -1,0 +1,23 @@
+Alarm messages between Vehicles using Ad-Hoc networks
+The idea introduced will make use of the Vehicular Ad hoc Networks (VANETs) and the Internet of Things to implement a smart way using transportation to solve traffic problems and decrease the accidents rate.
+Egypt, and especially Cairo, has always faced problems of huge traffic congestions in case of accidents as well as during rush hours. Existing solutions that aim to avoid traffic congestions mainly rely on user reports of traffic/accidents. In the dawning age of IoT, this is not enough. We think that more reliable and real-time solutions that do not rely on human lag or error should be developed to address this problem.
+Our solution relies on the exchange of information between vehicles to predict possible road accidents as well as find out which areas suffer from higher rates of traffic jams and accidents.
+ 
+At the heart of our solution is the real-time information exchange between vehicles. Communications between vehicles constitute a Vehicular Ad hoc Network (VANET). In VANET Vehicles are nodes that move quickly and hence will have to communicate quickly. 
+The exchanged information includes the speed, acceleration and alignments of the vehicles. Also, when a crash occurs, the activation of a damaged vehicle’s airbag can be used to detect the presence of an accident on the road. Moreover, sensors for different weather conditions can be used to trigger similar alarm messages in cases of fog or storms.
+This information would be used to predict in real-time possible accidents/hurdles on the road. Upon these predictions, a message would be broadcasted across the ad hoc network and conveyed to a vehicle’s driver either verbally or by self-braking.
+Each vehicle (aka each node in the ad hoc network) would need to be equipped with a GPS or device which it can use to obtain its location in current time. In addition, each node in the VANET should be able to broadcast messages across the ad hoc network and should thus be equipped with omnidirectional radio antennas.
+Utilizing the IP protocol each vehicle will have a unique identifier node-id in the network. Each broadcasted message also must have a unique identifier to identify the type of the message. Therefore the node-id and the msg-id both will be used to identify the message. Choosing the correct protocoling scheme from the Localization Based Protocols we will be able to route the message to cover a wide geographical area to reach the maximum number of Vehicles.
+This approach above creates what is called ODAM protocol ( Optimized Dissemination of Alarm Messages ).
+ 
+The data collected could then be used in another manner to store it, map it and analyze it to have a detailed map with areas that always suffer from traffic jams or areas that are always susceptible to accidents which then can be used to enhance the safety on roads and solve traffic jam problems.
+ 
+This approach is better than other approaches due to the following:
+-               It uses ad-hoc networks which is infrastructure-less therefore avoids the blocking or no coverage problems. 
+
+-               The use of VANET will give advantage of communicating quickly and reliably
+
+-               Analyzing data and getting results to use it in enhancing safety of roads and solving traffic problems.
+The use of systems based on wireless communications  in conjunction with the systems of geographical location (GPS) allows to overcome limitations of the traditional systems (radars, video and cameras) and makes possible the realization of more advanced new services.
+The choice of ad hoc networks, contrary to the cellular networks, is justified by the fact that these networks are organized without an infrastructure. That avoids the blocking and the no availability of the network as in GSM. Moreover, the total absence of infrastructure and central equipment (like routers and multiplexes) allows the fast and cheap deployment of such networks.
+ 

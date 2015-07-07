@@ -1,0 +1,5 @@
+Using big data analytics to enhance customer service request routing
+
+I have had discussions with several other leaders in the global Remote Reactive team, and we have often asked that as a Big Data company we don't have a system like this; not only to showcase our product capabilities but to drastically improve our customer experience. It appears that there is no organization willing to think this big or invest in this type of internal development and analytics.
+We analyze all of the service requests that each support engineer has worked, and evaluate the products, technologies, and other elements that the person has worked with. When we see more frequent patterns of successful resolution (verified by CSAT ratings and timely resolution without significant involvement of other resources) we can identify the particular skills of each support engineer. When we see information in the problem description and other elements of incoming cases that matches with the skillset of the support engineer, we can route the case to tehm with more confidence and speed. This lessens the work of our workflow managers and reduces the number of transitions and misqueues.
+

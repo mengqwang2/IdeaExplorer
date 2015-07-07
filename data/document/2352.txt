@@ -1,0 +1,7 @@
+Incomplete details for DSR SAM details in the SR
+some times not always we have an SR which has complete details of the DSR/SAM details in the SR also that some times the details mentioned are not updated.
+
+We always have to find these details through dropping an email to few DL and sometimes we get a response and sometimes not. 
+In few SR's we need ask customer to involve their AM/SAM to achieve their requirement but many times it happens that customer them selves dont have the details handy. 
+We can have a direct link available in support so that we can easily reach to the DSR/SAM of the customer site
+Benefit is that we won have to wander around every time to have these details it will be a very easy way to have these details as and when we want to 

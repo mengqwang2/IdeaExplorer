@@ -1,0 +1,5 @@
+Case Time Utilization - Real time data using Tableau report
+
+One of my team member have scheduled a week long PTO but when SR utilization data was reviewed along side engineer, he is just around 72% SR utilization. He now wanted to know if case time utilization will have an impact as he will be on a week long vacation.
+Since SR utilization data on Tableau is not current, I am unable to let engineer know if it would impact their SR utilization or not. The more the accurate SR utilization data available, employees can better manage their leaves, trainings, etc so as to not to impact the utilization in a quarter.
+

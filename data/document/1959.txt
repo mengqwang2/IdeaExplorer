@@ -1,0 +1,9 @@
+Reducing unplanned vacations
+Reducing the unplanned vacations idea matches the E2E Horizon – End to End Business Process Challenge through providing an enhancement for our current vacations system that aims at reducing absenteeism as well as cost saving.
+I came up with this idea 2 months after i joined EMC. I discussed it with the Human resources department and they liked the idea, however i have not taken any actions on implementing this idea since then.
+My idea is mainly about creating an incentive for employees to stick to their planned vacations. This will be done by adding a functionality to the Out of hours system that we currently have in place where the employee could enter a quarterly vacation plan, then the employee with the highest compliance percentage with their quarterly plan would be awarded depending on their percentage of compliance (for example: 100% compliance: silver award , 90% - 95% compliance would be awarded a bronze award). This kind of improvement to the current vacations system would motivate the employees to comply with the vacation plan that they created and committed to each quarter which inturn would highly decrease rate of absenteeism due to unplanned vacations as well as save huge cost to the company.
+It would be an enhancement to our current vacation system. This functionality would be added to our current Out of hours system and it would be updated by employees on a quarterly basis. This idea will save a lot of money to our company. According to a survey done by Forbes, Absenteeism costs roughly $3,600 per year for each hourly worker and $2,650 each year for salaried employees. By applying the above idea in EMC we could be saving a lot. 
+You do the math!!
+
+
+Reference: http://www.forbes.com/sites/investopedia/2013/07/10/the-causes-and-costs-of-absenteeism-in-the-workplace/

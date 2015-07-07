@@ -1,0 +1,19 @@
+DPAD Virtualization Layer
+
+We have envisioned this idea as part of our ideation process within the teamand this is currently in concept stage.
+Single abstraction layer will be the interface between backup client and data protection components. 
+This Single Abstraction layer consists of Pool of Backup Manager servers, Storage nodes & Storage devices.  
+This abstraction layer will have the intelligence to configure, manage and optimize the data protection best possible method for each individual client. This layer will make sure that resources are used optimally and providing best possible RPO and RTO.
+Based on certain design parameters abstraction layer will configure backups. eg. physical location, shortest path, data size, backup frequency and defined RPO, RTO. 
+As its abstraction based design, adding/removing any of DPAD components (eg. Storage Node, target device, Backup server.. ) should be done automatically based on demand. Abstraction layer  will  identify under utilized / over utilized  resources/path and rebalance them dynamically.  
+
+
+Benefits
+
+Creates a single point of contact for all data protection requirements for a backup client/application
+Facilitate seamless cross site restores and migrations 
+Best possible utilization of resources across the spectrum will help in cost saving
+Automation in terms of load balancing and re-balancing of backup traffic will save administrative overhead and man hours
+Scaling up of backup servers/storage nodes during heavy backup windows will help with the RTO and RPO
+
+

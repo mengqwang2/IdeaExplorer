@@ -1,0 +1,9 @@
+C Vs Management Tool for the HR
+This idea will help the HR to Manage the C Vs they receive and categorize them according to the relevant vacancy.
+The idea came up when i had a training in the HR department , i though of that there should exist a tool to automates the process they do and minimize the time they consume to filter the  C vs one by one to find the fitting candidate. 
+My solution is a tool to consolidate all the applications received or C Vs referrals from internal employees in one system , using Sentiment analytic technology those C vs can be Categorized if a job vacancy needs certain language preferences, specific certifications or programming skills.
+
+This will automates the process of screening for the HR and automatically suggests the fitting candidates for the corresponding available job vacancies.
+1-Facilitates the process of C Vs screening.
+2-Automates the process of Allocating the Relevant candidate to the corresponding job vacancy.
+3-Consolidating the C Vs received from different resources in one system for better management. 

@@ -1,0 +1,8 @@
+Using Angry birds idea to promote a customer challenge
+
+Just an idea generated in a brainstorming session.
+Angry birds is a game where birds are launched at objects stationed on or within various structures.
+An "angry" customer has a data storage issue. This can be Big Data or Cloud related. The student has an array of EMC solutions/products to choose from one of which is the solution to the customer's problem. The student picks a solution and launches it against the customer in his data center. If the solution is wrong it does not enter the data center if it is correct it does.
+The student will have information on the various solution to help them pick which one to throw. Points will be deducted for every wrong throw. As the levels increase so do the complexity of the problems to be solved.   
+This can be an EMC APP rolled out to students in schools or even outside of the school environment.  
+

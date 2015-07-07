@@ -1,0 +1,11 @@
+Animated demonstrations on importance of STEM, Big Data and cloud
+
+Sessions with practical examples are more effective than normal method of teaching. 
+1) Students will understand better if topics are explained to them with practical examples than theoretical. Instead of spending on personally going to schools/colleges personally and teaching students the importance of STEM, a one time effort can be made to create case studies with practical examples of importance of STEM will make students understand it much better.
+
+2) At the end of the animation an assessment can be created and ask the student to attend the same to assess his understanding
+
+3) Similar methodology can be followed for educating students on EMC big data and cloud technologies.
+
+4) Making complex things simpler will make things more achievable.
+

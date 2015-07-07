@@ -1,0 +1,6 @@
+Add a "Depend on" field in Remedy
+
+Sometimes we find AR1 depends on AR2, and AR1 is blocked because of AR2, we can only add notes in Remedy or add "Relative Items" in Remedy. Both ways are not very clear to show the dependency relationship between this two ARs. 
+If we have a clear "depend on" field in Remedy, things will become much easier.
+Add a "Depend on" field in Remedy.  If AR1 depend on AR2, we can add AR2's number in "Depend on" field in Remedy. Then it is easy to find the dependency relationship between this two ARs.
+

@@ -1,0 +1,27 @@
+Open Source Products- Governance
+My Idea is an Process/governance helps in managing the open source products in an organization. This governance helps in keeping standards,tools/frameworks across same and give more flexibility for evaluating and deciding the best open source product to use and avoids each development team working in an isolated way and using their own tools/framework which can be redundant too.
+This is the process seen followed in my few earlier organizations worked on and found it was successful in terms of collaboration, re usability, controlled technology, centralized process, best practices and gives more freedom to evaluate the products available in market and chose the best suits for the business and helps in keeping competitive in the market
+Forming a dedicated open source core team which will work on evaluating all the open source products/tools/frameworks which caters to different business requirements for EMC clients and Products.
+The Governance defined should be as follows
+1. Core team decides which and when the open source products will be brought in and retired from Organization after doing the POC
+2. Core team always look in the market what new product/tool has come in the market and identify the best which solves the business problem which are requesting  by clients/business/development
+3.Core team is responsible for upgrading the tool/product to the higher version and replace if found any better than existing while doing the research on open source products/tools/frameworks
+4.Core team is responsible to getting developed all reusable components which are generic like , security,pagination, utility etc. which are used in all developments
+5.core team responsibility to design such a way that the products/tools can be easily upgraded OR replaced with another with minimal impact wherever possible. Plug and Play kind of design.
+6. Library repository (like Maven Repository) is maintained and managed by Core team
+7.Document on the usage on open source framework/tools which can be self understood and ready to use in the development
+8. Development team should use the dependency libraries from repository managed by core team and no local libraries allowed
+9.If Development wanted some tools/frameworks/libraries which is missing then reach out to the core team to evaluate and conclude which one to be used and get added to repository
+10.Development team need to get reviewed their HLD by core team where they need to specify what open source product, reusable component and libraries they are using and if there are any deviations in following standards need to be explained
+11. Core team need to sign off the HLD 
+
+PPT on the above is available @ https://inside.emc.com/docs/DOC-155769 
+The process benefits on below
+1.Collaboration across different teams
+2.Enhance productivity
+3. Reduces or removes redundant work
+4.optimize a process
+5.improve a product or technology
+6.improve customer satisfaction
+7.Defining a technology road map
+8.Save money

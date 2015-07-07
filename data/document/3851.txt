@@ -1,0 +1,5 @@
+Cab rear doors that swing open 270 degrees
+
+In Apex Mfg the problem is more complex because the doors are stored in crates separately and then re-installed to the cab in final prep. Storing the doors in crates takes up space, labor to handle, etc. 
+Design the rear door and hinges so that the door can fully swing open 270 degrees and latch onto the sideskin.  This would eliminate removing the door and transporting or storing the door during the manufacturing process.  
+

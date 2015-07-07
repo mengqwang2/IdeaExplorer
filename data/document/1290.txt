@@ -1,0 +1,6 @@
+UK CS Skills Matrix
+Currently UK VSD Resource Management Cairo Team doesn’t have visibility on the engineers skills which consumes time to get back to the DSM to know who can do what.
+We are aiming to gather all the CSE engineers skills in one sheet.
+Working closely with the technical team in the UK allowed me to identify the deficiencies in the process that wastes time.
+It reduced the time taken to identify CSE engineers skills from 3.3 Days to zero Days, original process was to check with management about the skills of their engineers
+The created skills matrix will allow everyone to immediately identify the engineers skills in the CS environment

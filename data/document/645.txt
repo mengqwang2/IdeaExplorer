@@ -1,0 +1,6 @@
+Customer opening their own RMA or SR for replacemnt of faulted parts
+When customer Has disk failures, or just need replacement of faulted parts.
+They should manage to open with the team responsible for replacement immediatly instead of opening a case with Technical Support and we open a case with the SR or RMA team.
+N/A
+This will save so much time wasted in retrieving information and forwarding it to the other party
+Saving time, the replacement will reach the customer faster, thus decreasing the possibility of the custoemr getting frustarted due to delay.

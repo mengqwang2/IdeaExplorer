@@ -1,0 +1,6 @@
+Users of different networks are able to view the OS inventory and device config details of other networks without having System Administration privileges and Manage OS permissions.SMARTS NCM PRODUCT
+Users of different networks are able to view the OS inventory and device config details of other networks without having System Administration privileges and Manage OS permissions.
+
+I had a customer which has this issue in his env
+We can have an option in the permissions tab on who and which users can view the OS inventory
+Considering critical customer (being a bank )their information and details should be secure and should not be disclosed with any one. However, this issue is causing their OS inventory information to be visible publicly to other customers.

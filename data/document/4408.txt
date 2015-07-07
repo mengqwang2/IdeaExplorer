@@ -1,0 +1,16 @@
+Connecting EMC federation employees to the customer
+
+Idea came up through keen observations of steps an event or a data need to go through in a manufacturing/service/IT industry.
+Every industry wants to reduce cost (or increase profits), comply with the regulations, and safeguard its data. The followings are the main concepts in the operations of a company that’re applicable to every industry
+1.	Events are generated (sensors emits signal in manufacturing, packets are captured in networking, customer's voice is heard by managers)
+2.	Events are observed either manually or automatically (either a person observes a flashing red light or the events are fed to a computer)
+3.	Some analysis is performed on the observed events (Is the signal dangerous or a false positive or a completely benign one)
+4.	An action is taken as per the analysis of the events (Either a person take some corrective action or ignore it. Similarly a computer shows an alert or fires an email or ignore the events)
+5.	All along the data/analysis/events etc must be secure (All info is confidential and only authorized person should have access to info)
+
+EMC Federation can be used to create a solution addressing all the 5 steps mentioned above. 
+VMWare and EMCII can take care of the hardware and storage requirements. Pivotal solutions can be used for storage and application development that performs real time or batch data analysis and take corrective actions. RSA suite can be wrapper around all these to authenticate and authorize personnels.
+
+
+Idea is to create consulting groups of skilled EMC federation employees. A consulting group will target a market segment and study the pain points. It would offer a free assessment of IT cost savings along with other benefits for a company utilizing EMC Federation solutions based on the 5 steps outlined above. Without any tangible gain in cost reduction any CXO of a mainstream company will have hard time adopting any new solution.
+

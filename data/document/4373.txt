@@ -1,0 +1,5 @@
+Enhance the VPLEX to support OpenStack
+
+Our team will focus on the integration for OpenStack and VNX. As the powerful virtualization storage solution, VPLEX should support more virtualization products except the VMware.
+Implement a Simple, affordable, virtual storage availability platform that deploys as a set of hardware-independent, virtual appliances on your existing any VM infrastructure and managed through the OpenStack.
+

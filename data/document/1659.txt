@@ -1,0 +1,5 @@
+One Desktop Application to be a mobile App
+The idea will help all EMC specially whoever working on Customer Support area to make the calls from BT (One Desktop) over a mobile app instead of logging in to his machine 
+As am daily using the BT (One Desktop) to make international calls i got the idea to facilitate the day to day calls with customers
+Having the BT (One Desktop) as a mobile app from where you can directly call the customers over a 24/7 available line will lead to more availability for employees over the lines.
+Support organization will benefit from having a mobile application for BT which will increase employees availability over BT (One Desktop) lines in addition it will guarantee high quality of calls

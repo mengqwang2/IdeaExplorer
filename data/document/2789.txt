@@ -1,0 +1,20 @@
+Data-driven resources allocation for Smart cities.
+The idea addresses smart cities from health care perspective. It leverages IoT, big data storage and geo-data analysis for urban resource allocation, aiming at creating a healthier urban environment.  
+As citizens in urban environments, we encounter many misallocated resources aside to under-exploited locations. As data scientists, we identified several opportunities that relate to this field that can be addressed using advanced analytics, machine learning approaches and Big Data platforms.
+Our innovation presents a data-driven urban resources allocation. We propose a solution that supports the allocation decision by leveraging multiple objects’ sensors, Big data storage and geo-data processing and analysis methods. Basically, the idea is to generate a “living map”, where citizen-sensing can provide insights about the status of things on the ground and consequently affect them.
+ Our proposed solution consists of the following stages:
+1.	Data collection -  Data will be collected using the following means:
+a.	Personal devices such as smartphones and smart garments. Inevitably, this should consider privacy issues.
+b.	External devices such as public sensors (e.g. speed cameras)
+c.	Social networks data mining for shared training summary reports.
+2.	Data processing – Transforming the raw data into location oriented data that can answer the following questions: how many people run in a specific area? What is the flow direction? What’s the distance between the location and people’s home? What are the similar locations to the given location?  
+3.	Decision support – visualize the information and provide insights by using descriptive statistics about different areas, activities’ geographical heat-maps etc.
+4.	A data-driven resource allocation.
+5.	Feedback loop –Evaluating the chosen allocation effect. 
+  
+A visual presentation of our solution can be found in the following link:
+https://inside.emc.com/servlet/JiveServlet/downloadBody/150676-102-1-504628/data%20driven%20resources%20allocation.pptx
+1. Create a healthier urban environment 
+2. Improve accessibility and usage of urban resources. 
+3. Utilize EMC’S stack for both providing the storage, processing and analytics.
+

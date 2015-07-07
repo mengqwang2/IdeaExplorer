@@ -1,0 +1,12 @@
+Dynamic Fuel Pricing - Combo of Electricity billing + Ration card
+
+We do car pooling everyday and we face traffic issues. While commuting I  observed that most of the cars have only one passenger which is the driver himself. This made me think of the mentioned idea.
+The idea is to have a combo of Electricity billing logic and the logic used for Ration card system. Electricity billing is done as per usage basis, first 50 units 3 Rs/Unit, next 50 units are priced 4 Rs/Unit and so on. Ration has a quota allotted to each indevidual.
+1) Each vehicle/person will be allotted a specific quota of fuel for a month.
+2) For example, a car is allotted to use 20 liters of fuel per month with current price.
+3) After consuming these 20 liters, the owner need to pay Rs 10 extra per liter for next 10 liters, then Rs 20 for next 10 liters and so on. This will encourage people to use less fuel and use it effectively.
+4) Now, if someone pools a car, the other passengers can use their quota of 20 liters together. For example, if I have 3 more friends for carpooling we as a team can use effectively 80 liters of fuel with subsidized rates, which is more than enough for 20 working days in a month when you need to commute.
+
+This will highly encourage carpooling and efficient fuel usage. The extra money earned will not go to the Petroleum giants, but will be used to improve public transport.
+
+

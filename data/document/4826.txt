@@ -1,0 +1,30 @@
+Virtualized Next gen training labs using VMware and EMC products
+
+Through discussions on this challenge. Involved users: Nilesh Jain (nilesh.jain@rsa.com) and Rakesh Kumar (rakesh.kumar2@rsa.com).
+1. Creation of cloud infrastructure using Vmware/EMC products
+2. Creation of Virtual machines templates (Virtual lab environment) designed specifically for training courses
+3. Integration of education services course catalogue with corresponding cloud accounts in vCloud director and service catalogue in cloud infrastructure
+4. Automatic provisioning of pre-configured lab resources (VMs) to the student
+5. Lab Security: The lab environment for each user can be network isolated using virtual networks
+6. Lab Security: The lab environments will be completely isolated in a way that they can accessed over a virtual private network over the internet only by the student, but cannot be accessed directly over the internet.
+7. Authentication Security: RSA Authentication manager's software tokens can be used to support mobile based authentication
+besides this, SecurID can be integrated with VMware solutions to provide secure access to the students towards the lab services.
+Another option for security can be to provide a VPN access to the lab services.
+8. Secure provisioning options via RSA access manager or Aveksa
+
+Creation of Cloud infrastructure: 
+1. Cloud Infrastructure package:
+VBlock - provides integrated cloud infrastructure packages, includes industry leading compute, storage, network and virtualization products. 
+
+Expansion of cloud infrastructure and capacity management can be handled via EMC Ionix Unified Infrastructure manager.
+
+2. Management of cloud services/Incident handling
+VMware service manager - service management tool that provides best practices for cloud services management.
+
+3. User access management and cloud service requests
+VMware vCloud director
+Helps in cloud user access management. Authenticates user identities, empowers users to request services and allows them to request for a service from service catalogue through web based interface. 
+
+4. Security
+Aveksa, RSA Access manager, RSA Authentication manager SecurID
+

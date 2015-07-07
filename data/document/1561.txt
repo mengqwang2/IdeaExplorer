@@ -1,0 +1,12 @@
+Real-Time Recommendations and Actions when linking Hadoop and the Data Warehouse Infrastructure
+In this information-driven age, we have reached the crossroads of a data revolution. We are at an inflection point in using revolutionary technologies provided by Big Data and Internet of Things (IoT) to gain intelligence, streamline operations, and gain competitive business advantage.
+
+
+
+Every day we shop and every day we need a support to enhance our experience to reduce the problems, time and efforts needed to make our experience easier. I wrote an algorithm about the vision how we can enhance the whole operation when linking Hadoop with Warehouse Infrastructure.
+Where intelligent sensors and controllers are deployed, a critical need for timely action might suggest that certain rules be established to drive action before any analysis occurs. That is why event processing and business rules engines are often deployed as part of intelligent sensor solutions today. For example, if sensors in the X store begin to detect delays in reaching cashiers and dissatisfied customers abandoning the items they wanted to buy, predefined rules might trigger devices to signal cashiers who are engaged in other activities to open up additional cash registers and alleviate the backup.
+
+In a figure attached to a document it illustrates the addition of a real-time recommendation engine to our web site with data models run in the Hadoop cluster and periodic updates fed to the engine. Shopper profile and location information is passed to the engine. Specific recommendations are passed through the web site back to the online shopper.
+
+the diagram also illustrated the addition of closed-loop event processing and business rules where the sensors are deployed in the X stores. In addition to our cash register bottleneck example, as shoppers enter the store with mobile phones that run our loyalty application, we might want to begin monitoring where they are located and have our salespeople better assist them based on information we have gathered on products they have recently been shopping for on our web site.
+Will enhance Customer satisfaction, success, more money, and will improve an existing technology.

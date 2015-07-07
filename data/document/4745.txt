@@ -1,0 +1,6 @@
+Sound Alert for SBR2 Live Transfer
+
+To remove the possibility of call abandon in SBR2 Live transfer
+A Sounde alert from the CPU internal speaker and not external, whenever a Live transfer is comming.
+We can device a patch or a small windows based software that will run over the existing BT to alert the employee whenever there is a BT call incomming. 
+

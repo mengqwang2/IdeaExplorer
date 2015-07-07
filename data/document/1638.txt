@@ -1,0 +1,9 @@
+Virtual Machine Based Stress Workbench
+This idea could make EMC/GPO’s design& manufacturing process more efficient, create better test coverage and ensures better quality. Drive more cost saving in product development.
+When doing VNXe with code testing, I found the traditional way required many servers to do the stress test but each server has very low usage in IO/CPU. And the overall stress level could not get high enough. I note most of the port in the server HBA are actually idle. I thought if we can deploy multiple virtual server in this big host server, we can make use of all the IO ports without any waste. I successfully ins tall ESXi on one Oberon enclosure and turn it to a powerful multiple IO tester. And from then on, there is no need to occupy any additional server for the rest of test.  And the image is easy to re-deploy to other function groups and save a lot of time for server environments build up.
+Install VMware ESXi on the stress server. A number of guest virtual machines run on this host server. VT-d support should be enabled to map the Ethernet port/ Fiber channel port direct to the guest virtual machines. Each virtual machine is mapped with one FC port and one Ethernet port. The guest system’s images are standardized ones and could be easily copy/clone to  cover more ports/path or migrate to another “host stress server”.  Once the stress test start, all the virtual machines begin to stress the DUT like a group of servers. In fact, not only common commercial server but also EMC SP/DPE could load VMware ESXi and became a virtual stress workbench.
+The Virtual Machine Based Stress work machine can:
+•	Occupy less servers and Save IT infrastructure cost. Possible reuse some old DVT materials.
+•	Generate more stress loading to DUT, ensure better test coverage and make the test result more convincing.
+•	Easy to re-deploy among different hardware platforms.
+

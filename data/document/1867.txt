@@ -1,0 +1,47 @@
+IOT Security Framework With PCF
+Ideas must be original and feasible, with a clear roadmap of how to get to the end result from where we are with measurable milestones along the way. The more broadly applicable the solution is, the more valuable. And of course, it has to actually increase security.
+This idea came from brain storming on what is preventing the wide spread use of IOT.
+This model also helps the SME's cater to there IOT cases since no investment on the static Public IP's is required and security investments are also low.
+Today one of the biggest challenges in IOT space is how do we secure IOT and IOT Devices/Sensors with minimal compute and memory requirement. 
+
+Also, with Gartner's prediction of '26 billion IOT devices in near future' suggests that having a static public IP for every IOT Device may be feasible.
+
+What we propose, is to create "IOT security and Networking" as a Service to abstract out the "Security and Networking" modules and delegate them to the cloud instead, which has huge compute capacity and scalability.
+
+Following is the way we plan to achieve the same:
+ - User signs up for IOT Services in an IOT Portal.
+ - User registers an IOT Device in the portal by keying in basic information about the device.
+ - IOT Portal generates a unique Device ID and embeds the same into the IOT Agent, that is now ready for download.
+ - IOT Agents can be made available for download in various platforms like Java, C, C++ etc.
+ - User downloads the lightweight IOT Agent and installs it onto the IOT Device.
+ - IOT Agent starts pinging PCF (With a call similar to web sockets) with its details that are dynamic in nature, hence we no more need a static IP assigned to the device.
+ - Since the information about dynamic IPs of a device is only with PCF, this also secures the network channel between the IOT Device and PCF.
+ - Due to the Network and security abstraction to PCF, depending the criticality of the functions that the IOT Device is entitled to perform, various security levels can be defined and configured,  as a service.
+ - Hence, the calls to the IOT Device are made to the PCF environment which redirects it to the correct IOT.
+ - Also, the IOT agent will act as a filter/proxy for all the request from PCF and in turn redirect to a service on the device.
+ - The IOT Portal will also have a dashboard wherein all the connected IOT Device's status will be available, and here the security levels for individual devices could also be configured.
+ 
+   Flow Example :
+    - Step 1 : User makes a call to PCF.(Example: pcf.env.com/iot/<DEVICE_ID>/getTemprature)
+    - Step 2 : API on PCF does the basic validation and authentication.
+    - Step 3 : The request goes through the configured security levels.
+    - Step 3 : This call is then redirected to the actual agent which is sitting on the IOT device.
+    - Step 4 : The agent internally makes a call locally to the service on the IOT Device (Example: localhost:8080/iot/getTemprature)
+    - Flow 5 : The response is returned by the Agent to PCF and then from PCF back to the user.
+
+Following are the components required for implementing the solution:
+ - IOT Portal
+ - IOT Portal API/Services
+ - IOT Agent
+Following are the benefits that we see by using this solution:
+
+ - One of the basic challenges that we will face in the IOT Networking networking area is addressed by this solution.
+ - The mapping of a public IP or even a private IP to the IOT device is not required anymore, this benefits in reducing costs over static IPs.
+ - The security is moved from IOT Devices to the Cloud (PCF), since the device is only accessible from using pcf urls.
+ - Additional security Layers (like various authentication & authorization mechanisms) could be easily defined & configured from the IOT portal dashboard.
+ - This opens a new "IOT As a service" business model wherein mechanisms like API Metering and monitoring.
+ - Since there are no bidirectional open ports on IOT , the Denial of Service and unauthorized access are not possible.
+ - This solution makes the IOT more simpler, feasible and secure.
+
+
+ 

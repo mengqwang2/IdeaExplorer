@@ -1,0 +1,6 @@
+Trade FLASH wear for speed
+My idea covers use cases for the XtremIO array to offer new capabilities and efficencies to XTremIO end users.
+Initially I proposed this idea for VNX FASTVP - to trade speed for FLASH replacement cost.
+Provide tunable option for CUSTOMER (end-user) of AFA to get more speed by redirecting more IOs to LE devices at the expense of wearing LE FLASH 
+-Possibly faster IO for customers (in case when LE flash is faster than ME FLASH)
+-potentially more sales for EMC (as well service sales)

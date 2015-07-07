@@ -1,0 +1,12 @@
+EMC Social Portal 
+E-Portal enables EMC employees to discuss on general topics
+I have seen many Employees in EMC who have ample knowledge on several contexts, whom people contact for advice when needed. But their knowledge remains use-full to their teammates or people they know. But by implementing the proposed idea we can truly bring employees from different BU's under a single roof. 
+
+we can have a portal where EMC Employees can discuss on topics like new Technologies, Gadgets, Movies, Restaurants, Books, Travelling etc. within the organisation.
+
+it will be a database of peoples experience and advice, which will help other employees.
+Ex: a review given from a gadget lover or current user of the gadget can help someone new purchasing the gadget for the first time.
+
+Also it makes employees from one BU to become comfortable with employees of another. This  adds to the idea of one EMC family.
+
+Cost expense for the company is very less as all we need is to create a forum which is readily available. we are already using it now for raising technical questions, with some effort and creativity we can implement the same for our social needs. 

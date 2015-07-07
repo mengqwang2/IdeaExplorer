@@ -1,0 +1,5 @@
+XtremIO NAS services
+Our EDA customer need a NAS that can both provide low latency OPS and hugh write bandwidth. It is a netapp high-end FAS installbase and meet performance issues when hugh write request comes. Netapp is good at random OPS but poor at large write burst. Due 
+Our NAS customer said XtremIO is very good, why not provide NAS services, they need this kind of extreme NAS product.
+Isilon is good NAS product with very good filesystem and NAS frontiers, but poor OPS latency due to no-RDMA communication between the node. Because of system module design of XtremIO, it is possible to migrate onefs and frontend protocal module from isilon to XtremIO, for speed devolopment and more mature code. 
+Make money in EDA industry.

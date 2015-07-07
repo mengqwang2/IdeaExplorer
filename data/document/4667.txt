@@ -1,0 +1,8 @@
+Health care SaaS
+
+The idea in general started up with a personal experience when we found out my mother is diabetic, it was a hassle in the to find out whether her readings are good or bad, and what is alarming and is it a problem to have a high glucose level just one time unprecedented etc..
+If there was an application that she could communicate with her doctor directly, it would be much better.
+The idea is to give clinics and hospitals a 3rd platform SaaS enabled software, that will help them track all their patients remotely, so for example I'd have a blood pressure meter, a glucose meter & a heart rate meter at home, i'd take these tests weekly, and then open an application on my mobile and enter the results of these tests and if any of these readings are alarming in their own or if there's a negative trend being build up an alert would appear to my doctor telling him to contact me regarding these results, or maybe someone from the hospital would call me for a list of recommended tests & followups.
+Another aspect would be providing big data analytic's tools that would help healthcare sectors analyzing  all different data, whereas currently data from personal meters(glucose, blood pressure and heart rate) are being tracked individually by patients only or during a checkup on long intervals, whereas using this solution you'd have up-to-date information with smaller time-frame.
+Also another good aspect would be selling different modules in the SaaS ie. Medical Knowledge base
+

@@ -1,0 +1,11 @@
+EMCconf
+This idea is relevant to the challenge because it makes many people around the world meet each other which leverage the diversity and inclusion. 
+
+N/A
+The same as the event of EMC world that is held every year,we can do an another one or a one that is held in parallel discussing trending technologies and doing workshops which will be led by employees from different COEs.These employees will be chosen by internal competition in their organizations.
+
+In this event,technical hackathon can be done by teams from different countries.
+Individual competitions can be done like " Who Wants To Be A Millionair?".This competition can be done across buisness unit.The winner is the person who knows the biggest amount if info in EMC products concerning his/her BU.
+This process will
+1-Maximize the competition across EMC all over the globe
+2-Leverage the diversity that EMC has

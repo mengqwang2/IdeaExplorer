@@ -1,0 +1,6 @@
+Enable Intranet links on Mobiles ( VPN access through Mobile )
+
+- Laptop cannot be carried everywhere, but many time we feel need of logging into     VPN to complete work
+- TO access the mobile or log in to VPN anyways we use RSA security
+- Going forward if we can log into VPN through mobile also, it will be very helpful
+

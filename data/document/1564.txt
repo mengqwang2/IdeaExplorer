@@ -1,0 +1,27 @@
+Self healing IoT Enabled Data Center- Prototype on the shelf
+The biggest obstacle for data centers is that every system communicates in a different language. However, we’re seeing progress for a universal data center language through a new generation of devices that consolidate data across systems and translate it as necessary for use by the management system. Once these silos are broken down and systems are communicating seamlessly, the industry will be positioned to move toward self-optimization and self-healing data centers.
+I thought about the idea while my daily tasks within a large telecommunication data centers in Europe. I found that the process of replacing failed components within the data center costs a huge amount of money and efforts from the customer and provider side. Providers don't know too much about the conditions in which the components have lived in, and there is a real need from the customer and the provide to limit such intervention at the minimum to save time and cost for both the 2 parties.
+The concept of a self-healing data center (DC) using IoT novel techniques is a very important one for a number of reasons including cost savings, optimal function and dynamic configuration of the DC. It is also crucial for the DC decision makers to have meaningful, precise and real-time information about the current state of their DC in order to make the right decision about a technology or administration strategy on both the time and effort needed for business continuity without costly disruptions and recovery.
+We offer a platform to our customers to enable them to track failed or failing components within their data centers and to help them extract insights that are useful for future designs. 
+Our approach has been tested with an initial prototype using EMC products. Our goal is to expand this implementation to cover heterogeneous components including servers, coolers, third party storage arrays, etc. 
+In order to collect and process the data (historical, streaming, real-time and simulation data), we used an analytics engine integrating Pivotal HD augmented with Mahout Machine learning module. The analytics engine output result is a prediction of the future state of target modules and components, taking into consideration future releases of firmware, component's life cycle, simulation analysis, and the current working condition in the data center. The approach also takes the advantage of correlating between the data collected from outside the devices’ sensors with the reads of the sensors already implemented inside the array "Rack". The initial prototype implementation includes the following sensors: temperature, humidity and vibration. The architecture allows for others sensors to be used or added as needed.
+Our approach focused on root causes of failures and potential failures within the component suppliers (HDD, SSD, Controllers, Engines, Chips, etc.). As part of this process, we provide the suppliers with important feedback data and information about the conditions in which the components operate. This information helps them decide about possible changes and upgrades based on real data and real life conditions. This data is also an important input for future product development.
+We included a machine learning module based on “Streaming, historical, and simulation” analysis to offer the customer a complete solution to be implemented in the data center. 
+Beside the above we will offer a portal that will enable the customer to track every single part of the arrays in real time and help them identify where they need to intervene (for part replacement, re-configuration, etc.). This approach implements a more efficient process compared to current practices where emails and excel spreadsheets are the norm. The portal will offer a complete data base about the installed devices in the data center, and will provide customers with recommendations about the technology refreshes that need to be done based on the information provided about every data center equipment. It will also provide them with reporting capabilities about the cost of parts replacement within the warranty contracts and the out of warranty contracts. This is a novel approach that enables full access to a rich set of data about all the elements of the data center.
+
+
+
+
+
+ This approach will help in the following points:
+1.      Will enable EMC to predict any possible failures and to avoid them “will save cost of free interventions by its Customers’ Engineers”
+2.	Will Enable customers to track failed parts of their Data Center arrays with accurate tools.
+3.	Will Centralize and automate the process of handling such events.
+
+
+More info in this link
+https://inside.emc.com/docs/DOC-155424
+
+
+I believe that the idea can overlap with the Global platform engineering and the Global product Operations as we can cooperate in many points as the solution that we provide will consist of 3 phases. the idea of the prediction of the failures, the proactivity towards the DC issues, and the dynamic portal that will give important suggestions to the customer.
+

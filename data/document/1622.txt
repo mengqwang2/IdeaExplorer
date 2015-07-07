@@ -1,0 +1,19 @@
+IOT security 
+the IOT is an emerging technology that came to our life most recently, its security is something important that need to be considered.
+.
+1. Secure booting: When power is first introduced to the device,
+the authenticity and integrity of the software on the device is
+verified using cryptographically generated digital signatures.
+In much the same way that a person signs a check or a legal
+document, a digital signature attached to the software image
+and verified by the device ensures that only the software that
+has been authorized to run on that device, and signed by the
+entity that authorized it, will be loaded. 
+2. Access control: Next, different forms of resource and access
+control are applied. Mandatory or role-based access controls
+built into the operating system limit the privileges of device
+components and applications so they access only the resources
+they need to do their jobs. If any component is compromised,
+access control ensures that the intruder has as minimal access
+to other parts of the system as possible
+improving the IOT security will help us to use the technology in more safer way. 

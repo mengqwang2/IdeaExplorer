@@ -1,0 +1,12 @@
+Easy EZ setup for VPlex process via GUI
+
+Prior Work Experience
+Build the GUI with the ability to bring up the system from scratch for all types of VPlex solutions (Local, Metro and Geo). Have the step by step process built as a "WIZARD" which helps through system bring up process.
+
+There has to be a system defined to talk to the underlying hardware components from the GUI. 
+
+The GUI should have the end-end process implemented to ease the customer with the system bring up process. 
+
+The Web server should running for this to take effort!
+
+

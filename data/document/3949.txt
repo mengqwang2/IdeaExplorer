@@ -1,0 +1,5 @@
+Fantasy Storage
+
+Having an idea generation session with the group on the innovator list. Generating ideas that were relevant with todays teenagers. 
+The user is given a budget to spend on storage, network, hosts, applications and databases. Each week a challenge is set and the user can choose from a range of  different EMC products to meet that challenge. Each user is awarded points based on how well their data centre meets with that challenge. At the end of the "storage season" all points are tallied and the ultimate Fantasy Storage Manager is crowned champion!
+

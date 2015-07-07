@@ -1,0 +1,25 @@
+Syncplicity + Bing Maps + eStore App + InsideEMC + Archibus + Lync = Better Interoperability Program (A value-add service dealing in Apps, Mobile, Social & Fileshare)
+
+This idea was generated in a brain storming session with various domain SME's on VoIP, Lync, Monitoring, Analytics, Syncplicity technologies.
+Our solution empowers EMC by bringing the power of software to communications. It integrates telephony, voice, web conferencing, presence, and instant messaging into one seamless experience. Meanwhile, this proposal extends the Lync software platform with revolutionary EMC applications that meet an expanding variety of business, social, mobile and communications needs.
+
+
+*** Lync integration with EMC's Syncplicity will bring cloud based file sync and sharing technology with a secure, on-premise storage infrastructure based on scale out NAS or Atmos. Which can be further expanded to mobile phone, tablet, or personal computer with the Syncplicity client software installed. It can also be a simple browser interface used to access Syncplicity files, and set permissions and policies by an IT administrator.
+
+*** Lync integration with Microsoft Bing Maps by displaying additional relevant information about the incoming caller, including location data, maps, and directory and CRM lookups.
+
+*** Lync integration with EMC's eStore application will further foster rapid response to critical events with fully automated emergency callouts, escalation chains and application-to-person notifications, real-time delivery tracking, acknowledgements and status replies.
+
+*** Lync integration with InsideEMC-Mobile app helps in reaping the benefits like Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and white lists, offline instant message, and expanded presence alerts.
+
+
+Benefits:
+
+--- Highly improved END USER experience with the help of these revolutionary mobile apps & web apps.
+
+--- Further strengths the relationship/open interoperability program/initiative with EMC & Microsoft corp.
+
+--- Helps in automating business processes with a plug-in interface for workflow controls, documents review, all of that with the same experience as sending instant messages.
+
+--- Benefits can be seen in managing security of information exchange, avoiding improper use, and improving effectiveness of real-time collaboration.
+

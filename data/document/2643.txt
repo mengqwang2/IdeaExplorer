@@ -1,0 +1,5 @@
+Communication tool
+Viber is a mobile application that allows you to make phone calls and send text messages to all other Viber users for free.  Viber is already available on the web as downloadable app.
+My daughter went to Europe, and we needed a way to communicate in a cost efficient manner than pure cell phone coverage which cost extra due to roaming rates.
+Viber could possibly give the field user more mobile to mobile capability, reduce cell data usage, and phone rates.  
+This would be a new IT supported product to enhance the support tools of the field, maybe best for international communications.  Maybe it cost less than Lync.

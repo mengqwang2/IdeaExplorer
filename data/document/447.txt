@@ -1,0 +1,5 @@
+Centralized Product Catalog
+This idea will improve application lifecycle management and provide greater insight into products and product versions supported by EMC. This information can be leveraged by a number of EMC teams to drive decisions and improve processes. 
+Brainstorming session in PSRC
+The product catalog will be a centralized database of all EMC products and supported versions of those products. Currently, this information is available via EMC Support Online, but requires a number of hoops to jump through for access. The repository can also be made available in the cloud and expose an API that can be queried by product teams.
+This idea will help improve application lifecycle management and provide greater insight into products supported by EMC.

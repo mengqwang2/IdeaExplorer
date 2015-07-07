@@ -1,0 +1,12 @@
+Smart Workplace
+1. WLAN Redesign to give trusted devices access to a cafe wireless network experience 
+2. Seamless Access to the wireless network i.e. no SecurID token required when inside EMC and access to applications seamlessly
+3. Wireless Meeting Rooms
+Conference room had broken LAN cables , projector cables were not working.
+1. Already Resolved - forescout secure connector
+2. EPSON wireless connection via USB , VoIP to allow employees leverage the full UC experience with Lync
+3. IVR like facility over lynch for simple it requests like Account Unlock.
+4. Multi port laptop charger.
+1. Smart IT workplace will the latest technology use.
+2. Optimize workplace experience
+3. Increases user experience to achieve more productivity

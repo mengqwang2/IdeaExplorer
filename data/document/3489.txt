@@ -1,0 +1,18 @@
+ ViPR micro on bare metal – a storage solution for <15K Market in APJ
+
+ 
+The idea came in from the readings about ViPR as a software defined storage solution
+
+ The idea is to have one enclosure with 2 or 4 TB disks equipped with a ViPR micro edition to communicate with it and manage storage.
+
+The software defined storage approach will enable us to :
+
+-	Cut cost overhead added by different hardware types 
+-	Offload processing from HW to SW which cuts the cost and improves scalability
+-	Cut the cost of unnecessary modules such as DAEs, control stations..etc.
+-	The storage box will have 8 iSCSI and 8 FC IO cards to communicate with the ViPR engine
+-	Features are added and customized per customer’s request : pay as you go
+
+
+
+

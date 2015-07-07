@@ -1,0 +1,5 @@
+Web client interface for EAS
+na
+Slowness of EAS
+A Web interface can be created for EAS , so that it provides faster access and applying leaves or adding work related entries becomes easier.
+na

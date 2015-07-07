@@ -1,0 +1,29 @@
+EMC Space (100% PoC  with video demo )
+Community Involvement Challenge: Developed an android app which helps EMC employees in crowdsourcing. 
+It is our new idea. We already have the experience of developing prototype. We thought, with the knowledge of Android, we could do this. 
+So we had a initial brainstorming to have simple and user-friendly interface which could leverage EMC resources. We redefined our idea as and when required and finally came up with a solution satisfying all needs.
+Link to video demo - https://inside.emc.com/docs/DOC-155501
+
+EMC Space has following modules:
+
+- Directory:
+# The App lets employees to search for any person inside EMC. This module provides the profile information of the person. The profile information can be fetched from Lync through UCWA APIs.
+It also lets employees to call, message or send mail directly from the app. 
+# This module lets employees to edit the profile information. It lets users to upload photos as well.
+
+- Projects:
+# This module lets employees to collaborate on project topics. The module offers an excellent user interface which categorizes the page into following: My Posts, All Projects, Latest Projects, Trending Projects.
+# This module helps employees to create a new discussion an view updates on their posts. It offers a way to attach any kind of documents.
+
+- Events: 
+# This module lets users to view all the events in EMC. It lets employees to open any event and check out event calendar. This module has to leverage data from insideEMC.
+
+- Resources:
+# This module provides all kinds of resources for the employees. This module will be a one-stop place for employee to look for information related to any product & technologies in EMC. The resources have to be pulled out from insideEMC. 
+
+Link to video demo - https://inside.emc.com/docs/DOC-155501
+
+# The App is almost complete except the module where data needs to be pulled out from insideEMC. The App needs to be integrated with SSO to access insideEMC resources.
+# The APP is scalable which can be used to support any crowd-sourcing requirements in EMC. The App can be made to support other languages.
+# The App can be enhanced to support features like chat and analytics if required.
+

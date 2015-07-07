@@ -1,0 +1,7 @@
+Smart devices -> Smart & Secure devices
+Our idea addresses certain main security concerns bothering IoT. The challenge was to make IoT a more secure system & our idea tries to address the same using standard security practices & leveraging RSA strong security offerings.
+Started off with writing a paper on Security around IoT for EMC PP competition. And we followed it up with few POCs within the team. Then brainstormed over the entire concept for a couple of weeks & arrived at this idea.
+Our idea follows a gateway centric approach (reduces attack surface) to secure the IoT ecosystem as a whole. It also leverages the strength of PKI for addressing non-repudiation, secure communication & trust establishment. Our idea uses CoAP over DTLS for device communications & OAuth for device registration & access control & RSA strong authentication & Security analytics for better monitoring & management. To some extent it also leverages the hardware based security built-in IoT devices with certain valid assumptions.
+
+For more details please refer to https://inside.emc.com/docs/DOC-144601
+This will pave way to new & untapped market area for RSA and smart devices will become more secure & safe to use.

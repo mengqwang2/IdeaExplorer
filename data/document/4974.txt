@@ -1,0 +1,10 @@
+Beat Amazon with new Go To Market approach for Vipr\ECS
+
+A friend chose to use Amazon Web Service for hosting his mobile app platform when he started his company. He said if EMC can provide such kind of service, he will not hesitate to choose EMC because he believe EMC can provide better solution when his company grows.
+1. EMC operates public service or partners with Service Provider to offer cloud service by using ViPR\ECS to start-ups. EMC has experience in operating Mozy as a public cloud service, and also have experience in help AT&T to operate public cloud service with Atmos, these experience can help EMC to offer cloud service with ViPR\ECS solutions. As ViPR\ECS has better TCO advantage than Amazon, EMC\Partner can provide more aggressive pricing strategy to compete with Amazon.
+This step is just trying to attract start-up to choose EMC solution as start. 
+2. When start-up grows, EMC can help grown start-up to build its own data center with ViPR\ECS solutions. When Start-ups grow, a big percentages of start-ups really want to build their own data center rather than continuously keeping data in public cloud service. However, Amazon only provide public cloud service. Comparing to Amazon, EMC is in a better position in providing devices, technologies and solutions in helping customer to build their scale-out data center. EMC have significant advantage in this stage.
+3. EMC offers migration service to help start-up to migrate the existing data in cloud into its own data-center seamlessly. Because both public service offered by EMC\Partner and private cloud service built by EMC for customer are using same technologies\solutions with ViPR\ECS. EMC is able to help customer to migrate data seamlessly, even EMC can continue to provide hybrid cloud service for customer.
+4. With above GTM approach, ViPR\ECS seems be terminator for Amazon.
+
+

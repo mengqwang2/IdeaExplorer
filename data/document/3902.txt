@@ -1,0 +1,10 @@
+Automation to extract NetWorker resource database
+
+The idea came into mind because of a customer requirement, whose requirement was to merge 3 NetWorker datazones to one.
+We have already done merging for the customer using my script.
+The idea address the problem by creating a script which can extract data from resource database and keeps in a text file which can be used on any OS platform.
+
+These extracted txt files can be then used to re-build res database or merging two res databases.
+
+I already have created a shell script for UNIX/Linux platform.
+

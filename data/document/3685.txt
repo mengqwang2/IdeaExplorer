@@ -1,0 +1,10 @@
+Virtual content viewer for Syncplicity on mobile platforms
+
+Q2 - 2014 : Having discussion with Amit Yadava on the bottle neck of data download and sync.
+Whenever user connects to Syncplicity server from Mobile/Tablet for accessing the shares and content, a viewer will be created and opened on the Syncplicity server. And only the handler to this viewer will be provided to the Mobile client. i.e. content will literally be opened on the server and user, on mobile, just gets handle to that viewer which is loaded/opened on the server. 
+
+No data streaming or download of the file will be done to the Mobile/Tablet. All user interactions w.r.t content/data are done through the viewer handler.
+On the mobile, user sees a virtual viewer and gets a feel as if the content is locally available.
+
+With this approach, we DO NOT need to download the contents of the file and NO NEED to merge/sync the changes done to the local copy of the file as a separate exercise. All user actions will literally performed on the server through the virtual viewer.
+

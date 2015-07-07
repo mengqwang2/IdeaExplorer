@@ -1,0 +1,16 @@
+Reducing rework in closing the Debit/Credit Transactions
+End to End Business Process Challenge
+
+Cash/Credit application can be done in a simpler & effective way by adding few extra steps to the current process  
+This is based on EMC Cash Application process compared to other similar industries under O2C.
+We can improve the current process by assigning the approval matrix (based on $$ value) to close the debit/credit transaction at once.
+
+1) Allow & provide pre-approval to cash applicators to close the transactions in full by adjusting the debit/credit transactions upto $25.00 
+
+2) Setup approval matrix to close the partial payments for transactions >$25.00
+
+
+1) Reducing rework to close the transactions at once
+2) Reduction in small $$ Transactions 
+3) Reduction in aged buckets
+

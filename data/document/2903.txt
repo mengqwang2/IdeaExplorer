@@ -1,0 +1,9 @@
+Integrate python/Shell/Perl code coverage tool into Jenkins 
+Currently, we are trying to deploy Bullseye which is a code coverage analyzer for programs written in the C/C++ languages across CAs. But we don't have an excellent tool to measure the code coverage for other scripting language yet, as python/Shell/Perl.
+Our team have written some Shell codes to do SSD firmware upgrade during OS booting up. But we met quit a lot of issues during our test which delayed code check in. We are eager to find a better way to know how many test we already have done with these codes, how much code coverage we have, and what else we need to do to improve the code coverage.
+1. Integrate Kcov as python/shell code coverage analyzer - Kcov uses DWARF debugging information for compiled programs to make it possible to collect coverage information without special compiler switches. With Cobertura output, kcov coverage data can be easily integrated in the Jenkins continuous integration server.
+
+2. Use Devel::Cover as Perl code coverage analyzer. Devel::Cover is integrated in Module::Build so you can generate the coverage reports via the build system. This generates nicely formatted HTML files/reports where you can click around and inspect the coverage report. In order to access this via Jenkins we can utilize the HTML Publisher Plugin.
+1. Enhance our product quality by identifying code which was not fully exercised  for python/Shell/Perl scripts.
+2. Obtain more comprehensive analysis for code coverage, not just C/C++.  
+3. Better support the Jenkins continous build and test environment.

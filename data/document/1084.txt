@@ -1,0 +1,22 @@
+Power Optimization at data center
+As we facing challenges in terms of optimizing power in our data center, Implementation of these ideas would reduce power usage at optimum level.
+Being a Lab system Engineer we have faced challenges in adding new equipment in data center due power supply shortage.
+Below are few tips for optimizing power at data center.
+
+-Replacing old rack servers with blade server (Cisco UCS) where ever applicable, this would save almost 30% of power.
+
+-Purchasing data center equipment’s which has energy star certification can reduce power consumption. As per Energy star experts star certified equipment average 30 percent higher efficiency rates than standard equipment.     
+
+- Maximum energy data centers consume goes to system for cooling and managing air. Implementation of cold-aisle containment systems that enclose aisles around server racks to prevent hot air from mixing with cold.   It helps organizations optimize the refrigerated air they produce to keep servers cool.
+
+-Need to fine-tune and bring in faster process for de commissioning old servers and storage equipment’s which are not used. This will optimize power utilization.
+
+-Replacing standard storage to Xtrem IO (SSD technology) this will reduce 82% power consumed and 82% less cooling capacity required.
+
+-Replacing traditional network infrastructure and fabrics to SDN (software defined Networking).
+
+-Develop and deploy monitoring tools to capture performance, temperature and power throughout the data center. 
+
+-Using social media, blogs, e –newsletters and other tools to encourage coworkers to conserve energy.
+
+The above option will produce fast returns in the form of cost saving and power reduction.

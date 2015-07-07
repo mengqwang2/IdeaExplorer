@@ -1,0 +1,13 @@
+Use LAB AS SERVICE
+
+From EMC SAAS where we have our customer's production instances.
+In customer support scenario, we need to reproduce problems in different kinds of environment. If we can use our world class COE Labs as a service, it will be really good. 
+
+The engineer would require to put a request for a VM(With the s/w, OS and harddisk, CPU specification). Once the request is put. The LAB team will create the virtual environment within a fixed SLO.
+
+This will enable the engineer to reproduce issue in less amount of time and effort 
+
+It can also be helpful for training purpose and the virtualized environments can be reutilized in different trainings.
+
+This LAB as Service would work like SAAS.
+

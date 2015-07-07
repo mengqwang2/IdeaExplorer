@@ -1,0 +1,9 @@
+Data centre temperature mantainance using liquid coolant
+
+We have seen this macanism in cars.
+
+This can reduce cost and reduce Fault analysis requests
+
+Instead of using coolant used in DC AC we can use liquid coolant which firstly help in saving our environtemt from harmfull gasses like  ethylene glycol, diethylene glycol, or propylene glycol.
+we can use this and can make our DC free from corrosion aswell
+

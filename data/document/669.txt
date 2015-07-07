@@ -1,0 +1,23 @@
+A Decentralized Storage Solution for Massive IoT Data.
+The need for a storage solution to deal with the exponential growth of IoT devices and the data generated. Challenges associated with the backup and recovery of such data and performing analytics. 
+Interest in IoT and associated challenges presented by IoT like massive data, security, IoT data backup and recovery
+Our solution makes use of EMC Elastic Cloud Storage (ECS), EMC’s turnkey, software-defined cloud storage platform which is also powered by EMC’s ViPR Software-defined Storage solution for Storage Management. ECS Appliance combines the cost advantages of commodity infrastructure with the reliability, availability and serviceability of traditional arrays to deliver hyperscale cloud economics. The solution uses ECS’s object storage capabilities. ECS is also equipped with Pivotal which can be used for the analytics for the massive IoT data.
+The rationale for using object storage is that the massive growth in unstructured data, mostly immutable data like that of IoT, requires cost-efficient, easy-to-scale storage architectures without the complexity of file systems. Object storage was designed for this purpose, and that in addition to scalability and efficiency benefits, object storage also provides great benefits when it comes to accessibility as REST, HTTP and other protocols make it very easy for applications to connect to the storage directly and give users access to their data through all sorts of mobile and web applications from anywhere. Object storage systems require less metadata than file systems to store and access files, and they reduce the overhead of managing file metadata by storing the metadata with the object. Additionally the usage of objects allows the linking of data between various sensors like traffic, weather etc.
+
+The following illustrates the outline of the workflow in the proposed solution:
+1. The ‘Smart City’ would have ECS nodes configured in various parts of the city with all the nodes networked.
+
+2. Voluminous data generated from the sensors (IoT Devices) placed across the ‘Smart City’ are fed to the ECS nodes at proximity. The sensor data would be stored in the form of objects on the ECS nodes by a process on the node that converts the data into object form. 
+
+3. The storage itself can be thought of as several tiers. The first tier for storing the objects can come from the internal storage/private cloud coming from ECS and the next tier can come from the public cloud. This is just an example and the choice of what tiering is desirable is flexible in the proposed solution.
+
+4. Data from the ECS nodes can be migrated to the next level of storage based on certain triggers like lack of space on the first storage tier, data not used etc.
+
+5. When a query is received from an application on an ECS node using HTTP or REST, the analytics process on the node uses the data on the tiers and formulates the response. This would be done with the Pivotal in ECS.
+
+Archiving, backup and recovery of IoT data:
+
+	ECS, which combines the ScaleIO and ViPR stacks, are known to work with EMC’s RecoverPoint which offers Point-In-Time Recovery through continuous data protection (CDP) and continuous remote replication (CRR). EMC’s RecoverPoint is also available as Virtual Edition which is economical.
+What is most important of IoT data is storing it indiscriminately long term which is wasteful and not cheap, and prevents businesses from easily finding what they need. Hence there is a need to come up with methods to organize and retain data based on the content. For instance, instead of storing the data for a long term, generated reports based on the data can be stored while discarding the original data. Several such data deletion/purging techniques can be applied to manage the existing storage capacity. 
+
+If this solution is implemented, EMC would be the front runner in coming up with solutions for smart cities based on IoT. EMC will become a house hold name as EMC’s powerful technologies would get closer to betterment of life for common man. The solution not only being economical and easily realizable and deployable, will also add business value to EMC in terms of gaining market share of all the products that make up the solution. For instance, ScaleIO, ViPR, Pivotal which are all part of ECS will be the big gainers. Likewise the solutions for backup and recovery of IoT data will also gain.

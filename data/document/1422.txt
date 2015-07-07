@@ -1,0 +1,5 @@
+Enhancing the customer's product renewal process
+This idea will increase customer's satisfaction, which will increase the strength of the EMC Federation.
+I work in the Install Base Group, our system isn't as accurate as it should be. I noticed different status for EMC products all with expired maintenance contract.
+Creating a script that sends the contract renewals team & the Install Base Group, EMC products serial numbers that the sales team couldn't renew to the customer. The Contract Renewals team will create the contract and the Install Base Group will change the status of the product on the system.  
+If this idea were to be implemented, it will save a lot of working hours, increase the accuracy of our system and increase customer's satisfaction.

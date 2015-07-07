@@ -1,0 +1,5 @@
+multi tenant vnx
+
+dealing with a security customer on how they need to secure their data and share platforms form a management layer within unisphere
+currently security customers buys their own san based on security classification and they dont share.We may have different communities where they will not share resources due to a different classification on the san side. If we were able to container the storage groups so only the admin of that group can see the hosts connected and luns would mean that we could secure the operation management layer to a higher level. This could also include the ability to ensure that a lun was unable to be moved from one storage group to the other  
+

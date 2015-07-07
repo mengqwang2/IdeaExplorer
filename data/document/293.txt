@@ -1,0 +1,11 @@
+Portable Storage, doesn't need data center.
+Such a product will prove to be a game changer in favor of EMC's market share of storage products.
+
+Improvement on earlier suggestion.
+A small portable enterprise & SMB storage with all SSD drives, with wheels to maneuver it anywhere, no bigger than a suitcase. Which will not require the rack mounting, thus no need of any data center real estate, thus saving money for customers, can be kept in any cabin. Self cooling / cooling integrated so that no external air conditioning is required. I see a huge opportunity / potential for such a product, as the market is void in such a product. Many customer will appreciate such a product and definitely go for it as it will save them money in terms of data center space and cooling etc. May have integrated wireless high speed network so that it may be a plug and play SAN / NAS. It may include technology to harness its own liberated energy such as heat / noise etc., thus making it a green and energy efficient product.
+Saves space for customers, no need of data center.
+Saves money for customers, as occupies less space and requires less cooling.
+Easily maneuverable occupying less space.
+Inherently fast and compact, as it will be all SSD storage.
+EMC reaps the benefit of a successful product as there is none available in market of its type so far.
+One step close to the 3rd platform, in terms of its maneuverability and wireless connectivity.

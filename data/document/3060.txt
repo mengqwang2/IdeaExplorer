@@ -1,0 +1,5 @@
+Using SRM Compliance Data to improve the Time to Fix
+Supporting Customer Service Improvement and Customer Satisfaction
+In discussions with Customer, they asked whether SRM data would remove need for grabs
+Where customers have deployed the SRM software, information is readily available regarding the detailed configuration and compliance checking. Utilise extract / uploads of this information to speed up analysis and remove delays from grabs (which typically have to be scheduled for low activity periods). Possibly utilize analytics to cross check compliance issues against known issues and solutions
+Improvement in time to fix flat resolution for those customers deploying SRM. This could also lead to improved SRM uptake across the customer base. Net result is improved customer satisfaction and increase in SRM sales

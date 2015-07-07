@@ -1,0 +1,31 @@
+ SHEMS - Smart Home Energy Management System: Cooperative Neighborhood and Adaptive Renewable Energy Usage
+The idea targets smart city area in the smart energy vertical market. It aims at achieving more efficient smart home energy management and renewable energy pooling
+
+ We thought of the Virtualization and pooling technology and how it can be mirrored in energy sector especially that most forms of energy cannot be stored for later use. 
+
+ Our solution proposes a Smart Home Energy Management system that aims at automatically controlling appliances in groups of smart homes belonging to the same neighborhood.
+
+The Cost Saving Task Scheduling algorithm is aimed at scheduling high-power controllable loads during off-peak hours, taking into account the expected usage of the non-controllable appliances such as fridge, oven, etc. This algorithm is run whenever a new need of energy from a controllable load is detected. The Renewable Source
+Power Allocation algorithm re-allocated the starting time of controllable loads whenever surplus of renewable source power is detected making use of a distributed resource-availability negotiation.
+SHEM systems are based on monitoring and controlling household appliances so that their usage is adjusted in a cost-effective way aiming at around 35% energy cost saving.
+ 
+This solution uses IoT technology as the aim of this paradigm is to enable the network objects to dynamically cooperate and make their resources available, in order to reach
+a common goal, i.e. the reduction of energetic consumption in a building.
+
+The solution defines the following components:
+1-	Smart Gateway: aggregates all data about usage, demand and available resources for each home
+2-	Central Unit: aggregates data per neighborhood and analyzes the usage patterns per user profile showing user habits (how family members usually use appliances, are monitored and sent to the Central Unit as well)
+
+Visual structure of the solution is illustrated in this figure: https://inside.emc.com/docs/DOC-155267 
+
+The solution does the following tasks:
+1-	Pooling for renewable energy resources per neighborhood allowing adjacent homes to use resources efficiently to save money during different peak times. ( I can sell my unused surplus of energy to my neighbor during his need (peak usage) which is win-win for both of us
+2-	Analysis for user habits and consumption patterns to do automatic task scheduling for controllable load devices
+3-	Sends notifications to users about current usage, utilization reports.
+
+EMC will be providing the platform used to store and analyze data at the central point.
+
+1-	Energy efficiency
+2-	Cost saving to users and suppliers
+3-	Market for EMC 
+

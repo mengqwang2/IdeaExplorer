@@ -1,0 +1,17 @@
+Lifesaver . It is an application built using XCP which can be used in all Blood Banks/Hospitals. 
+
+Very often i come across posts on social media requesting for blood from the donors. Many a times due to lack or no information those who are willing to donate the blood would not have donated. We also keep hearing about one losing life because of huge loss of blood and blood from donors not reaching on time.Then came a thought why software cant play a role in saving ones life . 
+
+People who are willing to donate blood could register in the Lifesaver App by entering there blood group details . This information sits in the central database and all the information can be retrieved with a single click . Each user who registers will be given a unique ID with which all the information of the donor will be associated. 
+
+This Lifesaver app will be used by all the blood banks and hospitals too . When ever there is an emergency and the hospital does not have the required blood group with them, they should be able to retrieve the information of the Donor who is willing to donate the required blood and supply the information in no time. 
+
+We can have a lifesaver mobile app and the user can download on there phone and can also get notifications on there mobile phone regarding the requirement of blood.. Registered users can bookmark/favorite  there respective area hospitals and when ever there is an emergency requirement of blood in those hospitals , information should reach to all those users who have Favorited the hospitals. 
+
+
+Business prospects :
+
+As IIG is already addressing various health care solutions , if we can address above problem by our in house XCP APP , we will definitely be adding more value and contributing to saving ones life. 
+
+We can build the above solution using XCP platform and sell it to hospitals and blood banks. 
+

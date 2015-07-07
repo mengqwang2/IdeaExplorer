@@ -1,0 +1,5 @@
+Organize technical interest community 
+This idea needs HR team to sponsor and organize. 
+As a newbie, I'm often facing with different technical problems and don't know how to get more useful knowledge. If there's a community which collects many skillful people , we can learn more from them.
+We can organize different technical communities according to different technical areas. Like Open source community / Linux kernel improvement community / Embedded develop technology community etc. Not everybody likes sports but almost everybody has their own skills or interest in technology. The technical interest community will not only help us make new friends but also give us an opportunity to discuss technical problems / technology development trend. I think we will improve much more quickly.
+It will improve our engineers' technology and save part of training cost every year.

@@ -1,0 +1,45 @@
+Service Request "Customer Heat" Indicator
+N/A
+Worked with Samer Youssry and George Gabra to address the outlines and details mentioned above.
+
+Summary:
+1-Proactive Management follow up with the customers when there is a potential of dissatisfaction enhances the customer's experience with EMC support and increases their overall satisfaction with the provided service.
+2-According to analysis and feedback; the following points might trigger customer’s dissatisfaction:
+-Missed SLO.
+-Multiple SR ownership changes.
+-Any delay in technical escalation to next level.
+-Missing commitments with the customer during the SR life time.
+-Customer showed frustration or unhappiness during the SR life time.
+-Any technically escalated issues to L2 or engineering.
+-DU/DL & Code Red.
+-Language barriers (MLS).
+-Multiple MOD calls received till the service request assigned.
+-Service Request Age.
+-Magisterially Escalated SRs "E1/E2/E3/E4".
+-Re-Opened Service Requests.
+
+
+Goals:
+-Need to increase the Management team and Support Engineers awareness and implement a notification method and indicator about service requests with potentially dissatisfied customers.
+
+ 
+Proposed Solution:
+-Add a new functionality to the service center and Qtools to highlight service requests with potentially dissatisfied customers.
+-This can be done by a new indicator called "Customer Heat".
+-The "Customer Heat" indicator color "Green -> Yellow -> Orange -> Red" changes according to a driven value calculated by the following points:
+1-Number of SR "Assignments".
+2-Technical Escalation/Bug/PeerReview linked to the SR or L2 tasks opened "technically escalated issues".
+3-Service Request Age >28 days.
+4-Opened Management Escalation according to the escalation level.
+5-Service Requests with re-opened status.
+6-Late assignment of the service request.
+7-Data Loss/Unavailability triggered.
+8-Number of MOD calls received for the service request.
+-The "Customer Heat" indicator will be visible only for Managers/WFMs and for TSEs once the case is accepted.
+ 
+
+Responsibility and Ownership:
+-The manager keeps follow up with the service request owner on SRs with potentially dissatisfied customers according to the "Customer Heat" indicator color.
+-TSE should notify his manager before closing a service request with "Customer Heat" indicator color is "Yellow, Orange or Red".
+-The manager have to perform a proactive follow up with the customer and take the needed actions to enhance the customer's experience.
+N/A

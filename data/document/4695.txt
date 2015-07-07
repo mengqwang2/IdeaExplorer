@@ -1,0 +1,6 @@
+health-check tool for qualification projects test bed
+
+We do face problems on using share environments, conflicts cannot be avoided. 
+The first time when you have set up your qualification project. Define and enter the key check points into the tool, and define in the configuration files on which host/switch/array to connected to and what command should be given to verify the environment is not touched by other people.
+Next time when you are going to start the work of a day, just one button click on the tool, it will tell you if your test bed setup is in a green status.
+

@@ -1,0 +1,33 @@
+EMC Office on Cloud with Centralized IT Administration and Elastic Access
+IT Contemporary Workplace Challenge
+
+Our idea provides “a seamless experience from anywhere with device flexibility and less restrictions” “with new and cutting edge ways to communicate and collaborate”. Flexibility, seamless, anywhere, and less restrictions are exactly the key characteristics of the functionality our idea is able to offer.
+The SSD drive on my laptop was suddenly broken last summer and I had to borrow an old laptop when waiting for shipment and installation of the new drive. More importantly, all data in the broken SSD was lost and there was no way to recover. Avamar has been installed in my laptop afterward but it totally relies on this laptop itself so it still can’t avoid data loss if any hardware or Avamar issue happens locally.
+
+Although the new SSD is working well so far, that’s because I shut down my laptop every day so I cannot access it from home by remote desktop when the laptop is offline. If having a meeting to join at night, I have to either bring my laptop home, or (by VPN) use my home computer which has almost nothing in my working environment (docs, software settings, browser & putty bookmarks, etc.).
+
+Eventually we came up with this idea of Cloud-based IT infrastructure that can offer flexible and elastic access and fix all these problems from architecture level.
+Our solution gets rid of laptops with local storage and uses centralized Cloud to store every employee’s data of work. An employee can access his or her working data and environment by login NT account from one of these 4 terminals.
+
+1) EMC-customized light version desktop or netbook which has local storage (transparent to the user) purely for OS, local RAM, network, and input/output interfaces for USB, projector and monitor. 
+
+II) An “EMC Cloud Office” App in mobile devices such as iPad and smartphones (VPN or EMC internal network connection is needed).
+
+III) An “EMC Cloud Office” Client in any computers (VPN or EMC internal network connection is needed).
+
+IV) An “EMC Cloud Office” Portal Website accessible from any mainstream browsers (VPN or EMC internal network connection is needed).
+
+After login, an employee can access everything (not exactly but most of them if from mobile devices or other computers due to security and platform limits) just like in a local laptop, for example, the software and configurations, browser settings & bookmarks, all files stored in local-looking hard drives, etc.
+All issues listed above in "Problem Solved" can be effectively solved.
+
+1. There is no local drive anymore so no worry about laptop temperature or data loss if scheduled Avamar backup is not done for several days on a specific laptop. All backups are performed from Cloud side and it is entirely controlled by IT.
+
+2. No more “uncertified” software can be installed because IT controls this from the Cloud. Software features and functionalities can be provisioned to individual employees based on their BU, title, team, business needs or their own requirements (by filing IT tickets).
+
+3. The access to working environment and data can be made from mobile devices like smartphones and iPads, or any other computers via VPN. Employees can resume their work wherever they are without taking the laptop when traveling.
+
+4. Employees will never worry about the local drive quickly filled up, and “delete some files to release the space” will sound like something a century ago. The space could be expanded on demand from Cloud side almost with no limit.
+
+In conclusion, such Cloud infrastructure brings revolutionary progress to IT administration for almost any enterprises in terms of data management, data protection and backup, security, and permission control.
+
+From new business's point of view, this infrastructure can be easily integrated with EMC Federation products to create new business opportunities for EMC customers as a general solution.

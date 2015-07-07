@@ -1,0 +1,16 @@
+Virtualized IoT management
+This idea provides a holistic view for managing the devices in the smart city
+New for this challenge
+Provide cloud services for managing devices from different manufacturers.
+Use this cloud service to provision, monitor and manage the devices the organization owns.
+Create services for
+* Provisioning devices
+* Reporting monitoring metrics
+* Audit logging
+
+The cloud service is a virtual layer, a gateway, using the manufacturer APIs behind the scenes and providing an aggregated holistic view of the smart organization.
+
+The fully implemented idea would be a cloud service operated by EMC.
+EMC will use analytics to gain insights on the IoT market.
+Enterprise customers will manage the IoT devices using the EMC cloud based management instead of through the manufacturer management UI.
+Enterprise customers purchase a subscription directly from EMC and get complete visibility to the smart organization they operate.

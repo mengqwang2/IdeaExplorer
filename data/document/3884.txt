@@ -1,0 +1,14 @@
+Moxie Chat Tool Automation / Improvement.
+
+Have been working on the chat tool since long and have felt need for such a mechanism in the Moxie chat tool. Its high time we implement these ideas, it will be a win-win for both EMC support & customers.
+I have seen that many a times a customer raises a chat just because he has an option to do so while searching for a generic answer. We can deflect such chat SRs, with help of certain auto bot questions presented to him via Moxie before he may reach a tech.
+
+Example 1:- If a customer enters a chat session with a query regarding download of a firmware / software etc., he may be auto guided to a link for that download rather than he being in chat with a tech. 
+
+Example 2:- A customer wants answer to a generic question with a severity of S3 / S4. A question may be posed to him that if he is ok that the SR be put in the Vic/Web queues and some one with get back to him in the appropriate time, if the customer is ok then the chat tech may not get occupied with this and some one from the Vic/Web queues may revert to him.
+
+Example 3: -
+Customer may be presented with a questionnaire and their answers, (related to his question) if he finds the answer, he may opt out of the chat.
+
+All these when implemented will definitely optimize the Moxie chat tool for at least 20% more efficiency.
+

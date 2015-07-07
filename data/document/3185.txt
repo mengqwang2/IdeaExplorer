@@ -1,0 +1,13 @@
+GS AroundMe
+
+I came up with this idea during my last business trip in Rome and was thinking if I can find my GS colleagues around by just one click.
+GS AroundMe is a mobile application that will help GS employees to find each other geographically around the world.
+
+By scanning the location will show you the closest colleague around you and gives the chance to chat and meet by just one click.
+
+Think of GS employee in a business trip in Brazil and he/she is lost or needs any kind of assistance; using GS AroundMe will help to find a GS colleague who can offer the assistance needed.
+On a local level, its always nice to meet a colleague for the first time in a restaurant while both are working in the same business unit for some time but didn’t meet before.
+
+P.S. Every employee will have the option to disable (When needed) the location service for privacy reasons.
+
+

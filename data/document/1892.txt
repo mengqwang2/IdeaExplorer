@@ -1,0 +1,21 @@
+TCE - Simplified VPlex Configuration
+This proposal is related to TCE, as it speaks about Simplified Vplex Configuration. 
+
+This might also lead to be a enhancement in today's existing framework.
+
+
+Work Experience
+Solution: 
+
+Automate the complete EZ setup procedure such as right from the "Configure system-setup" command. 
+As a first step,All the customer has to do is: 
+
+Flash the SMS on management server and NDU pre-config upgrade.
+Post this everything has to be automated. There has to be a communication between SMS1 and SMS2 so that their IPs are fetched by these SMS's during the configuration procedure. 
+Auto-configure the cluster [See if there is another SMS, tied up to this network, if yes determine it as Metro else Local].
+Auto-configure the meta-volume, enable all the required ports, etc., 
+Auto-cnfigure the WAN details based on the dummynet connected to the system. Finally, join the clusters automatically. 
+
+Reduce the time spent in configuring the system. 
+
+Enhanced mode to configure the system via Automatic Mode. No user presence is required. Less prone to errors.

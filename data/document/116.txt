@@ -1,0 +1,5 @@
+DD docker
+Adoption docker in public/private/hybrid cloud is very popular nowadays, DD should apparently be prepared for this new trend to live a good life in the cloud era.
+I had this idea when listening to a SMT presentation, they engaged a huge project to implementate the data isolation and administration isolation within DDFS.
+enable DDFS within docker, as SMT requirements of data isolation and administration isolation are built-in docker features, and QoS can be addressed by linux built-in features like NUMA, etc.
+We'll have sufficient alternatives (DDVE, DD Docker, DD SMT) for different customer requiremnts in the cloud era.

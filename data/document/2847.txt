@@ -1,0 +1,13 @@
+Card game to match EMC solutions to client demands 
+
+• On-line card-games can improve communication across multiple EMC and Federation sites
+• Using an extensible card game is a innovative way to build a workplace of the future
+• Observing how players do play the game, and using experienced gamers to train
+BRDC researchers used to play card games during lunch break. We realised that the card game format was suitable to increase our awareness of EMC's products and services in a way that is simultaneously educative and entertaining.  
+The card game is composed of cards representing: a product (Isilon, VMAX, VSPEXBlue, etc), a service (Syncplicity,Documentum, etc), a client problem (automate a library, eliminate backup in tape, etc), constraints (cost, size, deadline, etc). The game is played trying to match solutions to problems, while respecting constraints.
+It can be played in cooperative or competitive fashion.
+It is ludic, integrative and educative.
+Moreover, since it is a card game, it is naturally modular, where new cards can be issued any time to contemplate new products, services, constraints or rule sets.
+Phase 0: templates of cards and rule book to be printed by any EMC branch
+Phase 1: implement a on-line version of the card game to allow cross-branch games
+Phase 2: if the game becomes popular, manufacture the card-game through the gaming industry to give

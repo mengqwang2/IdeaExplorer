@@ -1,0 +1,16 @@
+Smart Chat – a new approach for better TCE, better auto supportability
+
+I was inspired by the number of duplicate or highly relevant SRs I worked on via chat and thought about a proactive automated tool that uses the huge amount of chat transcript to benefit both the customer and EMC
+with the huge amount of SRs opened using Chat, we have a big amount of duplicate/relevant SRs to each other. Considering the chat transcript saved after each SR, we have a big source of information or Big Data. Using famous text analysis algorithms, we can detect relevant problems and associate them to each other. Then when a customer opens an SR, we can provide him with the most relevant SRs transcript summary (keywords) to read. this may include the solution to his problem or give him good hints about it. This is greatly useful for efficient handling of duplicate SRs and for answering the customers’ questions faster. 
+
+
+The underlying Engine is something similar to what I am proposing at this diagram : Picture uploaded to “Inside EMC” : https://inside.emc.com/docs/DOC-99750 
+
+the other important  win is for EMC to know more about the common issues with each product and address them proactively.
+
+Privacy is to be considered with the chat transcript processing by hashing the emails/IPs..etc
+
+The TSEs can help improving this tool by writing a brief summary of the chat (2 or 3 lines including issue and solution “Tags” to help in faster search next time.
+
+
+

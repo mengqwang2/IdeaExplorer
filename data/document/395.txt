@@ -1,0 +1,5 @@
+Backup and restore of Mobile phone's data (contacts, messages, photos, apps etc)
+EMC has world-class products to protect data stored on enterprise server, applications, databases etc. However, as move towards third platform, a lot of data are being generated in mobile and smart phones. EMC has the relevant expertise on backup, restore and storage. Current, EMC does not have products to protect data on mobile phones. EMC could leverage those expertise to protect data on mobile phones.
+Many start-ups and small companies have developed the solution for this problem. This idea came to my mind while looking at some of the other companies (EMC’s competitor) products.
+The idea is to develop a mobile application to protect the mobile data. The application will be able to back the data to any trusted cloud. In case of restore, the application will be able to restore the data from the cloud.
+If the idea is implemented, EMC can target lot of mobile users and generate lot of revenues. EMC will expand it’s footprint in this area. As there are billions of mobile users in the world, the opportunity is huge and EMC can make huge money.

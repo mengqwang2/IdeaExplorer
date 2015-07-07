@@ -1,0 +1,8 @@
+Open Web Platform for solving BigData problems
+Engaging and finding talented people who love data, work and challenge
+We discussed the idea for online IT competitions two years ago with Pavel Egorov, Marina Lesnykh, Ivan Gumenyk and Ivan Gromov
+1. BigData campus: open web platform for introducing competitors with BigData, Data Science and tool set/techniques/approaches for analysis: R, Map-Reduce, Pandas etc. There could be sample tasks, sample solutions, examples and exercises.
+2. Open Web Platform for competitions: open web platform where competitors could attend and try their solutions on existing competitions/problems, compare their results with each other.
+3. Competition: each competition/problem has a corresponding prize(money, certificate, diploma) and time period during which solutions could be sent.
+4. Data for competition: model (not real) or part of real data are open for testing and training, but solution is checked on real data. Real data are hidden and only results are shown after checking.
+At least one competition is finished or at least one solution is found as a result

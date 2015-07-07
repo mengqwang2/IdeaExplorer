@@ -1,0 +1,6 @@
+Adjust picking points for EMC transportation
+Enhance the emplyees experience and satisfaction towards the transportation system
+The transportation system has fixed points which can't be easily adjusted based on the employees needs.
+The transportation system should be able to readjust and calculate the proper route and picking points based on the registered/subscribed employee's address; making the picking points reachable and convenient for the employees.
+1) Enhance the emplyees experience and satisfaction towards EMC transportation system.
+2) Enhance the cost effeciency of the transportation budget.

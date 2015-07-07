@@ -1,0 +1,17 @@
+Consolidate all development tools in one tool.
+
+I just work with all of these tools...
+Deploy Microsoft Team Foundation Service (TFS) which can replace all development tools.
+
+Team Foundation Service is:
+•Source Control in the Cloud - both TFS native and Git are supported
+•IDE integration - TFS integrates with Visual Studio, Eclipse and XCode
+•Automatic builds in the cloud - build your source on check-in or on a set schedule
+•Automate your tests - run your test suites automatically on build; run different suites for different build types
+•Manage your work - store your backlog of User Stories and Tasks, view your tasks, associate them with code check in
+•Track bugs - log bugs and track their fix progress
+•Collaborate - work with others
+
+As I know EMC and Microsoft are partners, so EMC might have discount.
+
+

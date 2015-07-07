@@ -1,0 +1,6 @@
+Cloud based supply chain management SaaS
+managing the operations of the supply chain can be very frustrating with a lot of redundant data in different sheets, need to be synchronized all the time and only accessible through the device that have the application installed on
+A cloud based supply chain management tool will over come this limitations 
+N/A
+a Cloud based supply chain management SaaS
+increase the security, accessibility and consistency of the data 

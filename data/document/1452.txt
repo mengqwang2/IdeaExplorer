@@ -1,0 +1,19 @@
+Team collaboration
+This idea will help improve the collaboration process in EMC's CS department.
+
+This idea started once I noticed the difference in the speed of which a Sev1 SR was solved working with a PSE from the same office than working with someone form other offices. This was mainly due to having the option to explaining the issue face to face. This saved a lot of time and made for a more satisfied costumer.
+
+A new system for collaboration that will take into account the office location of the people going to collaborate.
+In the tool of collaboration, only in cases that are of high priority a person opening a collab will be able to specify that they want someone from the same office.
+The system will then search for people in the same location, if none is available then system will get someone from other offices.
+The drawback of this system is obvious, it may affect fair work distribution. Someone for example in the team of Cairo could have already worked on two previous collabs and his peer in Cork did not work on any.
+If someone from Cairo then asks for a high priority case collab with connectivity Cairo the chat will go to the man who already worked two collabs which is not fair distribution of the load.
+To solve this issue the search algorithm has to take into consideration work load distribution as well as location and availability.
+It is a simple algorithm, All available PSEs will be listed depending on their work load. Once a collaboration is requested with a specific location, all PSE in this location their number will be subtracted by one and then the PSE with the smallest number from the PSEs in the location and the others will get the collab.
+This way we gave the possibility of getting a PSE from the same office a higher chance taking it into account.
+
+In the case of ties we of course favor the PSE in the same location.
+This idea's main benefit is that it will be easy to implement.
+PSEs are already listed by workload and the PSE with the least collabs taken is the one who take the upcoming one.
+All we have to do now is to take into account the location.
+

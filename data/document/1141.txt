@@ -1,0 +1,21 @@
+VPLEX Consistency Server for Seamless Application Mobility
+Israel COE Challenge - Provides VPLEX-style application mobility for ScaleIO, allowing for two-site converged infrastructure systems.
+
+Global Product Operations Challenge - Provides a re-usable software component that can extend VPLEX's advantages to platform-2.5 and third-platform environments.
+I was an architect for the VPLEX Virtual Edition and completed a proof-of-concept integration of VPLEX with ScaleIO. It became clear to me through these projects that VPLEX's mobility and availability are highly desirable for platform-2.5 and third-platform applications, but requiring them to access data using SCSI is often unnatural. I began to think about how VPLEX's benefits could be extended to ScaleIO without eliminating the benefits of ScaleIO's novel client-server design and protocol.
+VPLEX provides data mobility and availability for traditional SAN storage systems. However, because it sits in the i/o path and supports host access only over SCSI, it is not useful for the emerging segment of non-SCSI, third-platform storage technologies such as ScaleIO.
+
+VPLEX's key intellectual property is an efficient cache consistency protocol that works across multiple sites. This protocol is invoked on every i/o through VPLEX to determine which site in the VPLEX system, and which node in the VPLEX cluster, currently owns the logical block of data being accessed or modified by the i/o.
+
+I propose building a new piece of software, the VPLEX Consistency Server, which uses the VPLEX cache consistency protocol to keep track, on behalf of an external storage system (e.g., a ScaleIO cluster), of which site in a multi-site system currently "owns" a given block of data. Storage systems query the VPLEX Consistency Server over an IP-based protocol, allowing them to service i/o using whatever transport they like. This allows any storage system to provide application mobility across two sites with minimal overhead, especially for the common case where applications run in an active/fail-over mode. The VPLEX Consistency Server can use VPLEX's built-in virtual synchrony-based clustering to run on multiple nodes for performance and availability.
+
+Consider two ScaleIO clusters at separate sites, using the VPLEX Consistency Server. The ScaleIO server servicing a read or write for a given block asks the VPLEX Consistency Server whether its site owns the block. Then:
+
+* If it does own the block, ScaleIO can service the i/o exactly as it would if VPLEX were not involved.
+
+* If it does not own the block, VPLEX ensures the block is not being used on the other site, updates ownership of the block, fetches the current data for the block from the other site, and passes the data back to ScaleIO.
+
+In this mode, the VPLEX Consistency Server provides application mobility by giving an application running on either site a consistent view of the data. One can envision a more involved mode where VPLEX also replicates writes to the other site, providing availability in addition to mobility.
+
+Note also that while ScaleIO is a natural client for the VPLEX Consistency Server, it could also be used by traditional storage arrays or by the VMware or OpenStack storage subsystems.
+If successfully implemented, my idea would result in a new software component that can be leveraged by multiple EMC products, enhancing the capabilities of existing and new products with minimal effort. Application mobility could be presented as a valuable add-on for existing products that customers can buy when their needs grow beyond a single site. For new products, application mobility can be presented as a built-in, out-of-the-box feature, differentiating EMC products from competitors in the fast-growing platform-2.5 and third-platform segments.

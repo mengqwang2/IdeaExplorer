@@ -1,0 +1,9 @@
+share and reuse SSD flash physical space by swapping out cold data to SAS disk space
+improve using efficiency of ExtremIO SSD flash space and reduce using cost of SSD flash. 
+More effectively use flash SSD space to store hot data rather than cold data.
+For each flash block unit (assume size: 8K), using 2 SAS disk block space (block1+block2=8K+8K=16K) to store or backup the data in flash block space.
+if the data content in flash was not used for long time (called cold data),management program will copy/backup the data to SAS disk block1 and free the flash space for IO host to reuse it.
+When host needs to access the old data, management program will swap flash data out to SAS disk block2 and swap SAS disk block1(old data) in flash space.
+The principle is that always keep the hot data in flash space and keep the code data in  SAS disk space, of course ,it needs a kind of algorithm to determine which part of data is code and hot in SAS disk block1 and block2,it can be determined by the accessing time last time and using frequency of data. 
+
+reduce using cost of SSD flash

@@ -1,0 +1,8 @@
+Automatic storage SP CPU overclocking to avoid performance issue
+VNX BU is going to attack Nimble storage with entry level storage products, such as Bearcat, TBird. During system testing many performance issues have been found when CPU load is heavy. This idea is to improve the CPU performance in special situations by 
+Overclocking is the process of forcing a computer or component to operate faster than the manufactured clock frequency. Operating voltages may also be changed (increased), which can increase the speed at which operation remains stable. Most overclocking techniques increase power consumption, generating more heat, which must be dispersed if the chip is to remain operational.
+Implement a software to monitor CPU resources, trigger overclocking based on policies such as hit high water mark.
+The user can, in many cases, purchase a lower performance, cheaper component and overclock it to the clock rate of a more expensive component.
+
+Higher performance in system tasks at no additional expense, but with increased electrical power consumption.
+

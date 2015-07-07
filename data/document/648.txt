@@ -1,0 +1,5 @@
+Smart Energey
+n/a
+I came up with this idea last when I was sitting in an innovation session.
+Each employee will have an ID, imprinted on that ID will be a Bar-code. Once that Bar-code is entered, the system gains access to the employees Data, and therefore lights up the work-space of this specific employee and not the whole area. And whenever he wishes to move, we will place cameras with sensors that will be able to light up the place as he walks. 
+n/a

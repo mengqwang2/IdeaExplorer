@@ -1,0 +1,28 @@
+Maximize the Storage Configuration & Compliance levels
+There is no doubt that the IT landscape is undergoing fundamental changes. The third platform will be a far more interconnected world. Storage is one of the basic elements of a data center which needs to be considered in the innovation and error free initiatives.
+During the implementation phases the different configurations layers (Storages, Hosts, and Applications) remain on the default settings & parameters values and this will cause high probability to face a performance difficulties and showstopper problems that may require reimplementation of the systems in certain levels.
+
+
+Build a storage plugin able in intelligent way to auto adapt the configuration per each setup/technology and raises the compliance level to utilize the storages capabilities in efficient way.
+
+The tool will recommend automatically to the storage administrators and using a defined criteria the best setup for example the file systems block size (QFS, VxFS, UFS, ZFS, ASM, OCFS.  …etc.)  To match in priorities the below:
+
+1- Storage Configurations
+2- Operating Systems Configurations (Block Size)
+3- Database Configuration (Block Size)
+4- Or. Stored Data Average Size Per (Block Size) 
+5- Application generated IOPS 
+
+This will insure the compliance levels between the different systems/tiers are sited with highest compatibility for best performance 
+
+This solution can be part of ViPR Solution and will act as brain for the available infrastructure components by auto assist the administrator to follow the recommended configurations for the identified platforms and products. Below the solution benefits:
+1- Minimize the implementation time/cost + The Opex
+2- Improve the infrastructure integrity and configuration accuracy 
+3- The future tuning requirements will be much easier and faster.
+
+This approach will enhance the productivity, and optimize the implementation processes.
+
+the solution benefits:
+1- Minimize the implementation time/cost + The Opex
+2- Improve the infrastructure integrity and configuration accuracy 
+3- The future tuning requirements will be much easier and faster.

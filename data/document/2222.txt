@@ -1,0 +1,6 @@
+Provide Big Data service to customers
+Even costumers themselves don't know how they can leverage the Big Data service, which mean no demands, no profit. we need to help customers to create the demands.
+For now, even Big Data exists for years, we don't have much impressive business models or products. I think a more ideas and tries on this topic is good for us because we are entering the DT age.
+Use our advantage, such as visualization, cloud computing etc to create the expandable Big Data environment to customers, which have had Hadoop or Spark environment configured.
+Customer could buy or rent this service and pay the money based on the number of computing nodes(VMs) they requested. 
+This idea could be enhanced to be a business model, create a new market demands and result in more margin. also it leverage the strength of EMC.

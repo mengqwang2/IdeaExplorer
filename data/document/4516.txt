@@ -1,0 +1,16 @@
+Raspberry pi robot contest
+
+I have a raspberry pi and found it easy to make some interesting stuffs, and it is easy expanded using GPIO and Arduino expansion board.
+EMC can provide some Raspberry Pis, Arduino expansion boards, ultrasonic sensors, color sensors, actuators, and other materials to students, teach them how to assemble a car and program on pi. 
+The contest is Raspberry pi robot navigating a maze. 
+The robot or car should be able to 
+1. Run on a table and not fall down(by programming with ultrasonic sensors)
+2. Run through a maze without touching the black line(by programming with color sensors)
+3. Find way out as soon as possible
+The whole process can last for 2-3 month.
+With support from EMC Volunteers, it is not difficult to finish the project.
+
+
+
+
+

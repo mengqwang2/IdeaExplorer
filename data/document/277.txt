@@ -1,0 +1,7 @@
+Remote proactive Schedule Mobile application
+This idea will facilitate accessing RCM Schedule that is used daily.
+NA
+Implementing the RCM Schedule Website as a mobile Application.
+1-Improved usage by the Employees.
+2-Save the time to log in to VPN.
+3-More Portable Application.

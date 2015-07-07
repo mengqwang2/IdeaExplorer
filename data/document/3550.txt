@@ -1,0 +1,14 @@
+ Seamless SR turnover for better CSAT
+
+ The idea came up from the daily work tasks in the technical support 
+The idea works as follows: 
+
+-	Use unified web portal for SR turnover ( no emails )
+-	The TSE enters only the necessary fields like (SR number and latest diagnosis of the issue and next action due)
+-	Once the TSE submits his request, it is routed to the turnover approvers
+-	Once the request is approved, a notification is sent to the TSE who will add any details if needed or click “Move to Hold” button 
+-	The “Move” button will automatically update the SR with the turnover details (latest status, next action ..etc) and moves the SR to the hold queue for the next engineer.
+
+
+
+

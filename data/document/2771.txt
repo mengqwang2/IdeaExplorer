@@ -1,0 +1,10 @@
+Find Similar Documents with Z-Tree
+This idea goes to Enterprise Content Division (ECD) Challenge. 
+Finding documents similar to a target document is a very useful feature for content management. 
+Most products try to find similar documents using search engine, like Lucene MoreLikeThis.
+Lucene MoreLikethis is based on search and doesn't ensure to return most similar documents first.
+This idea ensures documents with the maximum matching key words will be returned first.
+Please refer to this document about this idea: 
+https://inside.emc.com/docs/DOC-152130
+
+This idea can be built into a brand new product and sold to customer to make money.

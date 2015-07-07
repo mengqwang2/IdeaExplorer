@@ -1,0 +1,13 @@
+SAAS solution for small company's online marketing/operating demand
+This idea is aimed to acquire potential new customer by fulfilling edge but common demand, leading them into ECD's SAAS platform and gain customer's trust.
+
+As a SAAS solution it could also make good use of NGIS.
+ECD have already created SAAS solution for small company, such as Supplier Exchange which is aimed for streamlines the distribution, review, and approval of transmittals and contract deliverables with global network of suppliers, vendors, and partners. However, these solution closely tie to small company's core/sensitive business. We come out with an idea that ECD could offer solution for small company and help them to achieve the edge demands first.
+NGIS is an appropriate platform for data storage and analyze. What ECD need to do is offering a solution for customers easily implement online marketing/operating requirement. The solution could help customers to:
+
+1. Handle marketing/operating plan
+2. Produce marketing sub-site/advertisement that integrates with NGIS
+3. Analyze/measure marketing effect by structured data.
+
+
+If this idea success, we can gain new customer and improve current customer satisfaction by fulfilling more requirements.

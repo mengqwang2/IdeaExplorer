@@ -1,0 +1,7 @@
+Mobile APP - Xchange Simple Version
+
+We have tested the Xchange project, we found there are Capital Projects, Engagement Spaces, Projects, Submittals and Transmittals. But there's not a mobile app to briefly show the Capital Project progresses and can do some simple operations. So We think a mobile app which can easily show all the status and give out alerts once the work flow goes to the current user. Then the user can easily do the corresponding operation after he/she get the alerts.
+The mobile app has below functions:
+1. Easy query Capital Projects, submittals, transmittals status.
+2. Once a work flow goes to the user, app show a alert to the current user, then easily click a button to do a operation, such as approving and so on.
+

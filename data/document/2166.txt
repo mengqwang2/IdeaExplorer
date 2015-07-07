@@ -1,0 +1,22 @@
+IOGen - Unified Multiplatform intelligent IO generator for all emc storage solutions.
+The challenge is about providing a scalable, unified (for a vast majority of EMC storage products), multi-platform (Windows/Linux), device independent  (RAW/FS) IO generator (software solution) which simulates real life data behavior (payload and metadata).    
+ 
+RecoverPoint uses an in-house IO generation tool, Active Test (AT), which suffers from the drawbacks described earlier, neither flexible nor scalable, and reached its EOL. While investigating existing products (IOX, Chimera, DCB, Vdbench, IORate, IOMeter, etc), none or part of the drawbacks were discovered. Thus, we (KATE team in collaboration with Replication team) decided to promote a new IO generation tool that will address the requirements described above. The original idea was raised about a year ago but a few month back we wrote an initial HLD draft and implemented a POC.
+IOGen addresses the drawbacks described in previous section.
+
+Solution in points:
+- Standalone application (No existing code dependency).
+- A Java or any other platform independent application - "Write once, run anywhere".
+- IOGen will be device-independent - File System operations using Java NIO packages, and RAW operations using SCSI protocol implementation (Linux/Windows libs in Java).
+- IOGen will be scalable and flexible - supporting platforms, IO patterns, API changes, etc.
+- IO Pattern - characterize the I/O generation behavior:
+-- Metadata - Opcode probability, operations rate, parallelism, IO size boundaries, IO Offset Probability.
+-- Data - Sequential writes probability, Compressibility, Deduplication.
+- Strong open source packages (Spring framework) allow focusing on the product's "business logic".
+
+
+Simple concept slide can be found here : https://inside.emc.com/docs/DOC-155017
+Fully functional product can benefit EMC in a few aspects:
+1. Provide a unified cross product tool that will define a standard for storage (related) product.
+2. Save money and resources since currently each product uses its own tool (internal/external)
+The amount of business units that will use IOGen will define its success. As a first milestone RecoverPoint will fully adopt IOGen as its main IO generation tool.

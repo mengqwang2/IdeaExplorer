@@ -1,0 +1,8 @@
+Digitize your culture though EMC community
+Our idea helps a user realize the dream of digitizing a cultural heritage, could be a document,manuscript,image with the help of people within EMC. Our idea helps in creating a platform that can involve the requester and contributors to help achieve this goal. Our proposal involves using an app that communicates and leverages the platform to help digitize.
+We stared discussing on this idea from the innovation challenges. We were interested in this because a solution to this problem could help solve or promote other crowd source projects.
+Our idea is not around just giving a means digitize  a cultural artifact such as a document or image.It is around managing workloads efficiently and distributing the work in a crowd source model. The requester also gets to see the progress of his request and promote his project to others in the community.
+
+An enticing presentation on this is available @ https://inside.emc.com/docs/DOC-154725 
+
+If the idea is implemented, you could have a community of users with an app through which they will be able to submit/promote a request for a digitization project and with a click of a button a community could get involved in an exciting digitizing project whcih would give a chance to preserve and share the culture they are part of.

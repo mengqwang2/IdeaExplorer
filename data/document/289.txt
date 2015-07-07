@@ -1,0 +1,6 @@
+engineers server
+All engineers activities are stored after customer visits through there mobiles
+There are EMC products that are physical install at site and as per EMC's database its 
+shows a different status plus other important data missing.
+Having those date will provide more accurate data of the customer which will enable much better service and avoid revenue leakage
+avoid revenue leakage

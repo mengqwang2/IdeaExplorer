@@ -1,0 +1,5 @@
+New product training's has to be available to the Internal teams before publishing to Customers
+ECD has many products which are having a wide customer base which needs support. However many a times customer provides a bad feedback to the support due to Product limitations and because of the removed features. 
+We have a product Named captiva in IIG a newer version 7.0 got released in Dec 2013 by the time customer raised questions with emc they are well versed with the product 
+Any new product/version being developed will have to have the hands on training sessions created for the Internal teams. this should take place at least couple of months in advance. Feed back from internal teams based on previous experiences would help in getting the next minor version developed quicker than scheduled
+Increased customer satisfaction

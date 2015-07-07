@@ -1,0 +1,11 @@
+"Innovation Roadmap Quality Booster and Team Builder". Using Data analytics to enhance the Roadmap.
+
+the idea came up while I was thinking about having "brain storming sessions" to allow different innovators to share opinions and generate high quality ideas. Now I am considering doing this automatically using big data on the Roadmap portal.
+1- we will use data data analytics techniques such as text analysis and classification methods to process the huge number of ideas in the showcase and detect highly relevant ideas and group them together.
+
+2- the showcase will notify the innovators of these ideas and suggest that they can work together building a team. the innovators can then contact each other.
+
+3- this will be used afterwards by the ideas reviewers to assess ideas more easily.
+
+
+

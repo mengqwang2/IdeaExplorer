@@ -1,0 +1,5 @@
+Merge Automatos and UTMS
+As we all know, automatos-x is a framework to help execution engineers to run test cases and UTMS is a third party tool to record test case information. Until now, some connection has been set between them. For example, when test case complete, automatos-x will help to record the complete status to UTMS. But I think it might be not enough. Most execution engineer might didn't really know the test case when they are running those cases, so I hope the connection should be set between automatos and UTMS.
+Some execution engineer always compain they don't know how to set parameter from automatos-x and don't know the specific information of the test case. Usually, our test case developer will add those information to test case. I hope through this way will reduce our redundancy work.
+After execution engineers selcet out the test case to be run, a new tag connect to UTMS will be also appeared. This new tag connects to corresponding UTMS test case. Engineer can click the tag and get the specific information of the test case.
+Reduce test case developer redundancy work.

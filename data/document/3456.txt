@@ -1,0 +1,19 @@
+“EMC Expert Locator” - Unified Expertise Portal leveraging “Inside EMC” unified community
+
+the idea came up from teh daily collaboration tasks in which we exert much effort to reach the expert we need. I was inspired by "Inside EMC" expertise tab in the amployee profile and since then the story began.
+The Idea works as follows : 
+-	Use “Inside EMC” employee profile to update all the skills/expertise for each employee. ( “Inside EMC” already has expertise section to be updated.
+-	Integrate an “Expert Locator” App to search “Inside EMC” database for profiles that have certain expertise (for example VNX Expert).
+-	The “Expert Locator” will return a list of the profiles that have this skill and sort them according to their skills level and geographies 
+-	You can use connect to the expert to build a network of “Experts I collaborate with” using “Inside EMC” already built in functions like : “follow” certain employee or add as a “Connection”.
+-	Next time I need the same expertise, I will be able to look directly into my “connections” and employees I am “following”
+-	This approach will facilitate collaboration between employees from different teams/Geos towards a productive interaction.
+This approach can be effectively be used with the huge distributed human resources under the “Global Services” Unit.
+
+REFERENCES :
+
+-	https://inside.emc.com/welcome 
+-	Jeremy Burton’s email announcement for Inside EMC sent on 2nd of June.
+
+
+

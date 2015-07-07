@@ -1,0 +1,7 @@
+Feedback gathering and Analysis
+
+Being part of a team that provides service to internal EMC customers, capturing and analyzing feedback is a challenge. 
+It is usually observed that the customer  is not interested in filling up tens of questions  as feedback. Keep it simple. Decide on What you want to capture and provide not more than 4 objective questions. Incase of "not satisfied" or "neutral",  provide a text box for subjective suggestions. This can be sent to the customer Mail-IDs, which will be seen as a pop-up. You can decide the frequency and duration of this pop up ( Don't annoy the customer with pop ups every minute !). There are open source and 3rd party softwares that help doing this .
+This feedback database is fed to the Analysis engine ( any analysis engine that suits you ) for analysis and is projected over to a dash board.
+
+

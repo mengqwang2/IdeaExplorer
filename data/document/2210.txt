@@ -1,0 +1,41 @@
+Solution Support Program 
+Use Business Resources across all Business Units to drive continuous knowledge sharing and raise employees cross-products awareness to enhance the Total Customer Experience.
+
+Better collaboration and information-sharing across our remote business units. 
+
+This will improve the supportability of those cross-product solutions within 12 Months or less.
+As a BEN member, I see the need of Solution aware Engineers in order to improve the collaboration and enhance the TCE.
+1- Solution Oriented Skill Groups:
+- Cross products awareness based on IDP/SBR.
+- Includes Technical Trainings cross BUs.
+- Program owner engage Different BUs to demonstarte their collaboration requirments.
+- Share Knowledge across Teams.
+
+2- Program Owner:
+- Coordinate with management/Coaches in setting Solution oriented Skill Groups cross Products/BUs.
+- Acts as a reference for Management regarding the technical trainings of TSEs.
+Helps TSEs in setting IDP.
+
+3- IDP:
+- Management assign TSE for SOS Group based on requirements and career-path.
+- TSE will ONLY enroll in the relevant topics of his pre-assigned SOS.
+- Program owner Follow-up Skill progress with TSEs and update Management Team.
+
+4- Management Requirements/Feedback:
+- Works with Project owner in setting the required SOS Groups.  
+- Assign TSEs  to a SOS Group as per development area requirement.
+- Follow-up with Project Owner/TSEs Skill progress and IDP.
+
+Better SBR: New SOS Groups “ Backup, Replication , Implementation, storage, cloud,…”
+
+Benefits: Planned Trainings, better IDP, clear career path 
+
+EX: SSP Progress: Skill Based Progress Chart
+Q1:Local Replication
+Q2:Remote replication
+Q3:Connectivity “Internal customized Training”
+Q4:Rotation “Recover-Point”
+
+Solution Support Program (SSP) is a company-wide commitment to consistently exceed our customers’ expectations, Solution Support Engineer will be aware of the whole Customer Environment  minimizing collaboration required for problem resolution and maximizing the TCE.
+
+Solution Support Engineer (SSE) will be ready to participate in the Service 360 program and will ensure success of the swarming intiative.

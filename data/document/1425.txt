@@ -1,0 +1,26 @@
+Improve Customer Satisfaction and Support Productivity leveraging Mobile SNS Application
+•	TCE Challenge
+This idea improves customer satisfaction by leveraging Mobile SNS Application for problem resolving and feedback collecting (including feature feedback, wish list).
+The idea is innovated from our commonly used mobile App WeChat with many public accounts like EMC China CoE corporation account, bank account which provides not only the promotion function but also the advanced features like easier and quicker feedback, voting, etc.
+The social communication App like WeChat is commonly used for the people to communicate with each other in every corner of the world. It also provides the public account for the corporate customers to promote their products and publish the latest news in order to improve their reputation in the industry.
+
+Here's how we provide the the technical support for EMC products:
+
+1. Customers add "EMC Technical Support Center" to their contact list.
+
+2. Customers register their own accounts with the valid site ID or the serial number of the EMC products in the conversation window with "EMC Technical Support Center" with a link to EMC Service Center(support.emc.com)
+
+3. Once customer's account is verified, it will be linked to the conversation of "EMC Technical Support Center", customers can be easily authenticated and log a service request or request to talk to an EMC online support agent in the real time when encountering any issues with their EMC products.
+
+4. If the problem can not be solved easily within the chat, the support agent will also help customer to create a service request with the conversation history logged automatically in the service request. The service request number will be provided to the customer for future tracking purpose.
+
+5. There is a link provided in the conversation window for the customer to easily check the current status of his own service request and update the information on it himself.
+
+6. Customer can submit the picture, audio and video information easily in the conversation and these will be generated as the attachments to the service request.
+
+7. In the meantime, customer can type in the keyword in the conversation window and "EMC Technical Support Center" will provide the links to the KB articles that customer's looking for which will help them to troubleshoot the issue of their products.
+
+8. The proactive support can also be realized here. If the alert of customer registered products is generated, it will be pushed to the conversation window of "EMC Technical Support Center" and customer will receive the notification immediately to avoid any delay of support. Meanwhile, a service request will also be created automatically and the SR number is also provided to the customer in the conversation window.
+
+9. Once the service request is closed, a CSAT(customer satisfaction) survey will be pushed to the conversation window. Customer can follow the instructions to complete the survey as the assessment of the service.
+This idea is targeted to utilize the social network App such as WeChat or Whatsapp on mobile devices in order to improve customer satisfaction and support productivity, maximize TCE(Total customer experience).

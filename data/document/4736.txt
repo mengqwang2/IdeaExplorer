@@ -1,0 +1,5 @@
+SAP E-Software Day-32 PVal Report
+
+The idea came about after a few EOQ's & Day 32 activities. There is a desire to close the prior quarter properly and efficiently. 
+This new tool will list out the Sale of PVAL info as well as any changes that have been made to the initial sales order. With these exceptions noted; the reconciliation can be done much more efficiently. 
+

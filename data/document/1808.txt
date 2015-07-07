@@ -1,0 +1,9 @@
+Transformation to Mobile - Employee Availability System (EAS)
+User Experience enhancement platform 3.0 direction and mindset
+The increase of the mobile transformation need
+The idea is to have a mobile application of the employee availability system for employees to be able to access their vacation submission and weekly hours from their phones/tables.
+
+This will increase employee engagement and compliance.
+
+The app can cover employee all services offer by the EAS tool
+This feature will make life easier as well as increase employee engagement.

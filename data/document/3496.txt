@@ -1,0 +1,20 @@
+ Educational Labs for Employees - a Cloud-based Lab-as-a-Service for TSEs
+
+ The idea came in while using the KittyHawk simulator. We was thinking about integrating such experience into a complete lab service based on the cloud 
+
+
+ 
+The idea works as follows :
+
+-	EMC will build a cloud based lab-as-a-service that will serve TSEs daily needs. It will be booked and used online
+-	The components booked will not necessarily be hardware components. Instead, they can be virtual simulators of the real components (a VM that is running as a Host or storage node). This will offer more scalability over CSLABS.
+-	The booked environment will be connected together and pre-equipped with the needed software components needed like Certain OS version, certain tools installed ..etc.
+-	The environment will enable the user to simulate IOs and different activities to provide a real life experience and serve testing purposes.
+-	Performance data are gathered for reporting
+-	Access to the environment is adjusted to enable seamless collaboration (2 TSEs access same lab setup at the same time)
+-	An example of this lab simulator already exists in VNXe KittyHawk simulator 
+REFERENCE :
+http://supportinfo.lss.emc.com/VNXe/KH-_Simulator 
+
+
+

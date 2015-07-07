@@ -1,0 +1,5 @@
+Documented SR Process For New TSEs
+The idea will benefit new hired TSEs when handling SRs and dealing with the different scenarios throughout the SR process.
+I’m a new hired TSE and I find it slower and less independent to have to ask my mentor every time I need an advice with an SR process issue.   
+A document that has the steps to be followed to handle an SR and how to deal with the different SR scenarios.  The document will help TSEs to be more independent and save their time having to consult higher level engineers. They will only need confirmation to proceed with the steps.  
+Helping new TSEs be more independent as well as saving time for higher level TSEs. 

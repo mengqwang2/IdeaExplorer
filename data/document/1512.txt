@@ -1,0 +1,18 @@
+Printed Circuit Board Assembly (PCBA) Destructive Physical Analysis (DPA) Reduction.
+(1)Drive cost out of our operations to enable investment in Platform 3
+(2)Make GPO/EMC’s supply chain and manufacturing operations more efficient and effective
+I have observed that qualification of a new part number at a Contract Manufacturer can be impacted while waiting for the DPA report.  The supplier cannot be put on the Approved Manufacturers List (AML) until the DPA report is completed and the GAME (Functional) testing is complete.
+I have also observed that sometimes there is a delay in having DPA report issued on a quality problem seen either at Contract Manufacturer or EMC internally.
+1. There is no DPA carried out if the PCBA is
+- a update of a previous PCBA p/n and there are no new component package types or new assembly technology on the PCBA.
+- the Contract Manufacturer is building another PCBA p/n with that has similar component package types.
+2. There is a reduced DPA carried out on the PCBA 
+- if there is a new component package type or a new PCBA assembly technology but other component types that are in other PCBA part numbers are not reviewed in this DPA i.e. the DPA will focus only on the new component package type or assembly technology.  
+
+If the proposal is implemented it will
+1. Save the cost of the PCBA used for the DPA when no DPA is done when
+(a) the new PCBA is a new revision of an existing design that is using similar component packages and assembly technologies as the older revision assembled at the Contract Manufacturer.
+(b) other PCBA p/n's built at the Contract Manufacturer use the same component packages and assembly technologies.
+2. Reduce the internal DPA cost because there is less work involved when the DPA is focused only on the new component package and new assembly technologies.
+3. Allow the EMC Cork and Franklin Labs to perform more DPA's without increasing resources.
+4. Shorter the turn-around time for DPA's which will provide the required information quicker.

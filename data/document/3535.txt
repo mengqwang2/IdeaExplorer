@@ -1,0 +1,32 @@
+ More than Collaboration - Two Way Mentoring 
+
+ 
+The idea came up from the daily collaboration sessions with different teams which may overlap and repeat.
+
+
+ 
+The idea works as follows: 
+
+For each support team, maintain a list of the most interacting support teams that are needed in collaboration. For example, in VNX, the top 10 interacting teams are :
+
+–	Host Consult - Windows
+–	Connectivity-Brocade or McData
+–	Host Consult - ESX
+–	Connectivity-Cisco
+–	Host Consult - Linux
+–	Host Consult - AIX
+–	Host Consult - Solaris
+–	Symmetrix
+–	RecoverPoint
+–	PowerPath Windows
+
+What we will do is to have the good calibers and experts from each team to mentor and deliver sessions to the support team (VNX). The session will cover the most common topics/tasks of collaboration that are needed daily.
+
+Using the same way, VNX team calibers will deliver similar session to other interacting teams in case they need.
+
+Using this approach, two-way mentoring will be more than a collaboration. It will build growing skills towards seamless support and better TCE.
+
+
+
+
+

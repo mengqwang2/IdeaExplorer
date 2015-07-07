@@ -1,0 +1,9 @@
+Expert Systems
+ n
+This will help team members when they face unusual scenarios specially the new comers as they will have a reference and will now how experts deal with those scenarios
+Expert systems can be understood as a knowledge system in which expert knowledge is used in a very specific problem area. The main objective of the proposed expert system will achieve the best response to the real data on innovation thereby ensuring high quality decision-making 
+it should consist:
+The core system (knowledge base, data base, working memory, and stack mechanism inference appropriate solutions), Input / output module, Explanatory module,
+Protocol, Other components of the system (knowledge base editor, editor of the database module learning outcomes generator module external sources.
+
+The proposed expert system is focused on facilitating the process of making innovation strategy. It provides senior managers with a tool to obtain information necessary for decision making. The proposed expert system is an extended architecture for a complete solution of innovative strategies. However, there is scope for its further expansion as well as its reduction. It depends on the type of business, entering the quantity of data and knowledge, number of possible scenarios for the innovation strategy. Each department is characterized by specific processes and areas. The author seeks to create a relatively universal expert system for creating an innovation strategy, which it is possible to modify (adding or reducing) the individual modules.

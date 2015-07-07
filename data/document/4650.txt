@@ -1,0 +1,9 @@
+Simplify EMC applications deployment through containers
+
+Discussing with colleague's and from brainstorming sessions.
+Docker automates the deployment of applications in the form of lightweight, portable, self-sufficient containers that can run in a variety of environments. It means that if we build a software application, we can immediately move it onto a cloud service or run it on other hosts without making any changes. Docker's container-based model (PaaS) is very flexible and is supported by major cloud providers like Amazon ( AWS ) , Google ( App Engine ) , Microsoft Azure , Rackspace Cloud etc . Containers help is streamlining the movement of the application to the cloud.
+
+Docker can also be integrated into various infrastructure tools including open-stack. In the future, containers are expected to be nested. A software component that makes up a layer in one container might be called by another in a remote location. An update to the same layer might be passed on to any other containers that use the same component.
+
+Our plan is to bundle Solutions Enabler along with Unisphere GUI ( and any other dependent applications ) , togather with all of their runtime dependencies and inside a docker container which can then be deployed on any of the major cloud infrastructures or on any host machine. This provides a clean way to deploy without interfering with dependencies of any other applications. Its easy for the users , since they just have to download the container and run it .
+

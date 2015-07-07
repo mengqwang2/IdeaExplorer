@@ -1,0 +1,8 @@
+Visual analytics against raw issue tracking data.
+
+This idea came through the experience of work with such tools.
+The usage of a powerful tool Tableau provided us a rich experience of making visual analytics charts inside our department.  It helps successfully to analyze data which provided by issue tracking system.  In EMSD department we have a wide range of products connected to the information about issue in tracking system database. Based on the information form this database (where this tool can be easily connected) Tableau makes possible building the dashboards with dynamically changeable information and filtering. Such charts based on a real data help to understand some business processes from inside, determine workload peaks, and other information which is very helpful for an effective planning and management. 
+
+The main concept of this innovation is to suggest the usage of visual analytics tool connected to issue tracking database. Efficiency of this concept is proved by successful usage it in EMSD management.
+
+

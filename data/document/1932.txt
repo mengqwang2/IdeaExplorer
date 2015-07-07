@@ -1,0 +1,14 @@
+Fully Software defined, Highly efficient Hyper Converged Infrastructure solutions.
+Single product solution which Simple to Manage, Software defined, Commodity HW based, truly scale-out, efficient and lower TCO.
+Each of EMC products has a very unique feature and Business Value. However there is no single solution which stitches all these unique business value propositions. 
+
+Designing Hyper converged Infrastructure leveraging these best-of-breed features from the existing products would help EMC to hold strong market leadership in 3rd platform mobile/bigdata space. We can also leverage the people talent across different product groups to design and build.
+Design Hyper-Converged Infra using 
+ - Management Simplicity and data reduction capabilities of XtremIO
+ - Simplicity and efficient data protection capabilities of Isilon
+ - Scale-Out Infrastructure capabilities of ScaleIO
+ - Commodity Hardware based modular appliance architecture capabilities of DCA
+ - Auto tiering capabilities of VNX/VMAX
+ - Software defined capability of ViPR
+ - Bundled with openstack and Data Protection and availability capabilities. 
+Revenue opportunity  

@@ -1,0 +1,6 @@
+Reduce backlog in Sev1 and Sev2 cases when awaiting Customer or Engineering update
+
+This idea i had once i first start the high volume of Severity one cases created by the customer. I shared with team involved in one Innovation Conference in Ireland COE (Ovens). From that day the idea didn't change to much, colleague Juan Coll provided one idea to create the field "Information accuracy" that would control if customer provides wrong information in order to have the severity changed
+In support we notice that customer can prioritize their issues regarding their own understanding of that problem. There is no filter or any thing that could prevent us to have false Severity 1 or Severity 2 cases.
+My idea is to create new fields when customer is creating a new service request.Using key information our system will determine which case severity is suitable to customer.This would be better than the current way we determine severity because is would base our severity in information provided and not in customer will.
+

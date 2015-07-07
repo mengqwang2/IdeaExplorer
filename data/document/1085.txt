@@ -1,0 +1,20 @@
+Enterprise Hybrid Cloud Solutions with Open Source Technologies
+This idea addresses dwindle cost benefit to EMC with Open Source technology solutions for Enterprise Hybrid Cloud. This solution will yield better customer experience and also will allow EMC more cost competitive advantage in the open source market as well as 3rd platform. 
+This idea brought up with Xapps QA’s approach to Data protection over cloud.  There are some configuration challenges involved on this conceptual architecture of this idea.  
+
+
+The proposed solution will leverage less cost benefit with better cloud solutions to customers. Currently EMC’s Enterprise hybrid cloud starter solutions is sized for upto 1000 virtual machines and collaborated with VMware vRealize environment. To provide software defined storage EMC uses EMC ViPR, VNX600, Power Path/VE and also storage analytics to offer cloud solutions to its customer.
+
+This idea will provide Open Source cloud computing platform for all types of clouds, which aims to be simple to implement, massively scalable, and feature rich.
+
+Open stack Open source software uses to create public or private cloud also controls large pools of compute, storage, networking resources at one place. 
+
+ManageIQ helps to control all the things like automate, optimize, control cloud & virtualize services and also ManageIQ can interacts with any public & private cloud. 
+
+Integration of open source technologies like KVM Hypervisor , Open Stack, Manage IQ together EMC can provide cloud solutions to its customer with better managenment
+This idea would bring more potential customers to EMC. 
+* Less Cost benefit to EMC also to its customer’s
+* Improve customer satisfaction.
+* Provide easy & enhanced cloud solution to large business requirements.
+* Single Management Console
+

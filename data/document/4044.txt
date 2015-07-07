@@ -1,0 +1,10 @@
+Adding a report in Avamar which can show total data protected by a client before deduplication till retention date.
+
+Please go through following ECN Avamar forum link, where several customers have posted requirement of such report.
+
+https://community.emc.com/thread/110348?start=0&tstart=0
+
+If any client is added to Avamar which has only 10 GB data, after deduplication Avamar may save only 7 GB of total data at first backup. For next 9 days if we consider there is no change in data on client, Avamar should ideally save nothing new and total data protected for client will be 7 GB after deduplication over a period of 10 days. 
+
+But customer should be able to see that in last 10 days backup was completed everyday for 10 GB data. Based on this customer would be able to sum total data for which backup run everyday and can produce a report for charging or billing.
+

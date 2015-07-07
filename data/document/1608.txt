@@ -1,0 +1,9 @@
+Hadoop computing on EMC workstations
+Harness the unutilized computing power on EMC employees laptops connected over the network. With most of our laptops at windows 7, 64 bit configuration, there is opportunity to use this huge computing power sitting idle.
+A recent article about Installing Hadoop on Windows in 3 Easy Steps ..
+a. With all our EMC workstations enabled with 64 bit OS, High CPU & memory configuration and usually well above our usual workload requirements there is an opportunity to tap this inherent computing power within our network.
+b. Though Hadoop largely Unix based tool, We can have some light weight virtual client installed on our laptops/workstations to perform shared computing task part of hadoop implementation.
+c. This analytics can be largely used for EMC internal requirements of Data processing requirements.
+With No major Infrastructural investment EMC can harness Several thousand CPUs of computing power through these virtual connectors using hadoop.
+This  can provide distributed data processing framework for EMC internal data analytics
+

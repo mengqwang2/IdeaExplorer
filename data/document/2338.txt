@@ -1,0 +1,5 @@
+Enhancement Request Tracking tool for customers 
+Customers can’t submit an enhancement request. Every time they need to raise a new SR and request us to raise an ER for them . also they don thave any visibilty on the tracking of the ER raised and so as we . We need to reach out to the product management and ask them the status which is a time consuming job.
+We can actually have a link like we have for TASC raising link available for customers. Similarly we have a ER link where customer them self can go raise an ER and track the progress
+Every time they need to raise a new SR and request us to raise an ER for them . also they don thave any visibilty on the tracking of the ER raised and so as we . We need to reach out to the product management and ask them the status which is a time consuming job.
+Feature to add: Provide a customer tool to submit enhancement requests and progress tracking. This will help CS to reduce customer support activities. Additionally, it will be a value added feature for SMARTS. 

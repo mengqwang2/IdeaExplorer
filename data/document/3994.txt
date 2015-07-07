@@ -1,0 +1,21 @@
+Federated global file system using public cloud and VPLEX File Geo Cloud edition.
+
+We looked at EMC Isilon(SyncIQ) and other file based solutions, but none of them provide active-active access at async distance that is demanded by this challenge. Then, we narrowed down to VPLEX and looked at addressing some of the challenges faced by VPLEX so that VPLEX which is already a proven solution in this space can be used here. Further discussion, we figured out, by marrying public cloud and VPLEX File Geo edition, we could bring out a true globally federated storage solution.
+We are going to explain the proposal with an example so that it is easy to understand. Furthermore, we have chosen AWS(Amazon Web Services) in this example which can replaced with any other Iaas vendor.
+
+Assume one site is at Rio de Janeiro, Brazil and the other site is at California, USA.
+
+1) Find the nearest data center of the preferred public cloud vendor at both sites. In case of AWS, there is a AWS region in Sao Paulo which is closer to Rio de Janeiro, similarly we could choose one of the two regions available in the U.S. west coast which is closer to California. Note: Closer doesn't always mean the network latency will be lesser, but this is mostly the case.
+
+2) Now, deploy VMs running cloud edition of VPLEX File Geo software on the selected regions.
+
+3) Attach AWS's elastic block storage devices to each VPLEX instance as desired.
+
+4) Configure such a way that VPLEX instances across sites talk to each other through the private IPs so that distributed cache coherency protocol uses AWS network.
+
+5) Users at both sites could login to the VM instance using VDI or other remote desktop techniques to their respective VM hosted in the cloud and start graphics applications. VPLEX File Geo software which receives I/O at both sites is smart in ensuring I/O is replicated asynchronously and at the same time providing active-active access to the file sets.
+
+This idea relies on the fact that AWS regions are interconnected through high speed network with low latency links. There is no official data from AWS about network latency between the regions, but based on the search in the web, we could see these inter network links are high speed networks. Due to competition from Google and other vendors, AWS and Google both are in expansion spree to improve their data centers in all aspects which augments well for this solution.
+
+Note: If someone needs block access at async distance, then they can use public cloud and VPLEX Geo cloud edition.
+

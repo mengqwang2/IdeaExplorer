@@ -1,0 +1,15 @@
+Automation for minimizing the product issues.
+We have lot of information/feedback/solutions available in pubic/private/social network forums.  We can identify and analyze the solutions which are available and can implement in our products to make them better.
+In daily life I see many people facing issue while contacting support teams in explaining the issue or support team will be fed up asking them to check a sequence of steps to understand the issue. To make the process better and to reduce the dependency on support team I came up this idea.
+We have lot of information online in forums.
+1. using Analytical engines we will bring processed information, classify the information and persist in the Analysis DB.
+2. We will have a cloud application which will be getting the information from Analysis DB process the information and bring out the problems and solution statements and persist in CloudDB and send the problems and solutions to Support Team Approver. 
+3. Approver has to verify and approve the solution steps if it is feasible.
+4. if the solution is approved then system will take that to next level by sending the information to IT team for implementation.
+5. once the implementation is ready then this solution will be deployed at customer side.
+6. when ever customer gets an issue instead of contacting support team he will scan the issue using the provided solution and it will fix/ guide the customer to fix the issue.
+7. if still the problem exists in that case it will send the clear information  on what all been analyzed to the support team.
+1. Improves customer satisfaction as he is able to fix the issue him self..
+2. Less interaction with support team, means less support staff which will save money for company.
+3. Improves existing products problem solving mechanism.
+4. May also provide new ideas in creation of new products/features. 

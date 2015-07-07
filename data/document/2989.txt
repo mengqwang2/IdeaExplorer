@@ -1,0 +1,11 @@
+Introduction of storage federation feature on VNX2 series.
+1) Competitive advantage.
+2) Effective Storage Usage.
+3) Cost effective migration.
+The idea came to me while doing market research on midrange storage products where competitive products had an added advantage on the basis of this feature.
+Storage federation is a feature that allows arrays to use the storage capacity of an external array.  Implementing this feature may require some changes in the current hardware. In storage federation, external array has to be attached to the existing array and in order to achieve this, new type of ports (in addition to backend and frontend ports) need to be introduced. There can be three solutions to this.
+1) Introduce hard coded new ports (like special ports used for EMC Mirrorview feature) to attach the external storage.
+2) Using flexible ports. These ports can be used as frontend ports, backend ports or external storage ports.
+3) Using an adapter for compatibility of backend/frontend ports to ports for attaching the external array.
+This feature will help customers in better decision making to go for VNX2 arrays while choosing products in the same category. Also, it will help customer for cost effective migration.
+

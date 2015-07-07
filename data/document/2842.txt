@@ -1,0 +1,30 @@
+EMC Cares Program
+1. EMC Cares Program is a new solution/program which leverages existing EMC products and knowledge to build a healthcare service target at the market directly;
+2. It is clear to see wearable devices using in healthcare market will be more and more popular
+Just a audio from Internet
+How to run the program:
+1.	Corporate with smartphone/wearable devices vendors:
+a.	EMC OEM wearable devices;
+b.	EMC cares logo applications;
+c.	Extend current data collection functionalities of smartphone/wearable devices to collect more valuable data (submit patents according?);
+
+2.	Corporate with hospitals to get baselines for diseases:
+a.	Provide free/low cost devices to typical patients;
+b.	Collect data and work closely with doctors directly to understand typical data to generate baselines for different health conditions classified by sex, age, etc.;
+c.	Involve herbalist doctors of China who claim to have the ability of reading pulse (extend wearable devices’ ability to cover more information such as pulse + skin pressure around the pulse) to determine a person’s health status. Collect typical data of patients determined by herbalist doctors to generate baselines for different health conditions;
+
+3.	Corporate with volunteers to get baselines for healthy people:
+a.	Kick started from EMC internally to collect employees’ data as the initial database;
+b.	Call for more volunteers from all across the world to generate healthy baselines for people with different residence locations, skin colors, etc.
+c.	Correct/generate accurate baselines based on big data analysis techs;
+
+4.	Go to market:
+a.	Sell EMC OEM wearable devices or provide applications to other vendors to make their devices be able to collect data and upload it to our database;
+b.	Analyze end user’s data by comparing baselines and share suggestions/warnings;
+c.	Call for volunteers to share their feedback as a confirmation for our suggestions/warnings. Correct baseline accordingly;
+d.	Provide database access permissions (baselines, normal data, etc.) to other vendors (for free?) to format a healthy eco system. Dominate the no. 1 position of personal healthy data;
+e.	Expose data to other applications to help people meet similar friends, etc.
+
+5.	Build more techs around health care.
+
+Amount of users access the service.

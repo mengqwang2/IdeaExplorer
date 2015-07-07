@@ -1,0 +1,21 @@
+A crowd-sourcing model to brainstorm on new ideas and give feedback that incorporates diversity
+This idea makes sure a diverse set of people review the product and brainstorm and also it has feedback mechanism which gives input on the type of diversity required for a category of problem  
+This idea came during one of the brainstorming session and we wanted to improve the brainstorming ideas and one if the suggestion was to have a diverse set and do brainstorming 
+Initially a program will be rolled out where volunteers will get enrolled.
+The process is the volunteer will mention his details ( email-id, age, language, gender,level of IT Experience, ethnicity, location of country,  etc)
+Next step would be collect in what type of review/brainstorming sessions they would be interested. Below are the broad category
+       1. Product documentation review 
+       2. Training content for multi-cultural assimilation ( input on content can be derived from diverse set based on ethnicity and language and that will add more value )
+       3. User interface review and give feedback
+       4. Ideas on facilities required in a new office( Brainstorm session with fellow volunteers)
+       5. Ideas on new IT services etc
+Above is not a comprehensive list 
+
+The next step would be roll out the program and ask for the different product units/project teams to make use of this service
+
+So the product/project team can use this service and also select the diversity of the reviewers. One example could be that they need 10 reviewers with varying level of IT proficiency. Another example if building a new GYM facility and they know the probable list of employees in that office. They can pick the same set of diverse to brainstorm and come up with a GYM facilities  
+
+Criteria of Success:
+Diverse set of people enrolling for the program ( diversity based on age/gender/education/ethnicity etc)
+No of times this new service is used and the feedback from them 
+

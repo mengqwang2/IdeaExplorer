@@ -1,0 +1,15 @@
+Profile picture for e-Member and Archiving Mechanism on EMC eRoom product
+eRoom is very big product and used by many customers.This small changes may add value to the product in terms of UI appearance and storage.This is implementable by the Engineering team if customers are agree.
+Profile pic is always a add-on to any product in the current world.For many applications like whatapp, viber any social media has profile picture.So why cant eRoom?
+
+Always lot of memory needs to be maintained in every VM to test large data.We have exporting function to make it as zip but it doesn't stop occupying space in your environments.For customers they need to have more storage memory when they use eRoom as all files will store on File System as it is.So i came up with this idea.
+Add a profile/member picture when any user logged into eRoom.
+
+Archive eRoom data and Restore mechanism implementation.
+Its like add-on to the existing product which is a success to organization.Happy to customers with some new change which didn't happen from a decade.
+
+Benefits-
+May attract new customers
+Existing customers interest grows
+Reduce the maintenance the storage
+

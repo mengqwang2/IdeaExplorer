@@ -1,0 +1,9 @@
+Improve VNX All frash array performance using the XtreamIO XDP
+
+When reading the XtremIO material.
+XDP presumes random access media such as flash is present in the array, and thus it can layout data
+and read it back in highly efficient ways that would heavily penalize a disk-based RAID algorithm, but with no ill effects in
+XtremIO’s all-flash architecture.
+
+we can refer to the XtremIO Data Protection White Paper for the detail algorithms
+

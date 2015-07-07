@@ -1,0 +1,24 @@
+Predictive analytics with MyVoice Survey data 
+
+The authors have extensive experience in analyzing massive volumes of survey data as well as in predictive modelling techniques.  The understanding of the dimensions captured in  MyVoice survey response and its predictive power on key HR metrics led us to further exploration HR analytics platforms and detailed specifications to discuss further with HR. 
+MyVoice Survey provides a rich source of information on dimensions such as credibility, respect, fairness, pride and camaraderie that provide the foundational traits for employee productivity and engagement.
+
+This idea will look into other HR data such as demographic details, evaluation, training, turnover rates and productivity to build predictive analytical models for key metrics and business insights. We propose to use the myVoice and other focused surveys as predictors of employee engagement and productivity.
+
+This idea proposes a data store of surveys and HR data (masking classified and sensitive information) and build customized predictive models and provide dash board view for HR to measure effectiveness of the programs implemented.
+
+ A general purpose platform for HR analytics may provide a “one-size-fits-all” approach, but this proposal customizes/personalize HR analytics for a focus group to enable HR to develop data driven and facts based HR strategies
+
+For our prototype, we generated random responses for Myvoice survey dimensions and enriched the data with additional attributes and performed preliminary “likert” analysis of the responses. This idea proposes to use R,MySQL and Shiny platforms and use an agile development methodology to build the models and present them as a customized dash board for the key metrics and predictors for each focus group.  
+
+This platform will also integrate setting up and administering quick surveys on Social media and process free text based responses for sentiments and other insights that can be derived in conjunction with annual surveys and other HR data.
+ 
+This idea can be prototyped rapidly and also implemented quickly with minimum investments using open-source software technologies and agile development methods.
+
+For additional information please access the following URL:
+
+https://inside.emc.com/docs/DOC-100038
+ 
+
+
+

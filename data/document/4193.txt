@@ -1,0 +1,27 @@
+Content Virtualisation Framework - Content on the Cloud
+
+While researching for XCP Moonbow roadmap
+Existing Solutions
+
+Enterprise Content Management like DCTM or share point helps put a framework around how the content should be stored within an enterprise and can be shared across BUs and limit access to external users as well. This also provides some context to the content by providing features like
+-Folders
+-Roles and ACLs
+-Communities
+-Case Management
+-ECM functionalities like checking/checkout, import/export…
+
+Enterprise Sync and share
+-Multi-device integration. Smooth transition of products
+-They can sometimes co-exist with an ECM. Like Sharepoint and Onedrive, Syncplicity and Documentum. But it is still very content centric, does not provide any context to the content, like XCP provides.
+-Content Collaboration. Onedrive and Syncplicity does a great job, Box and Google drive is close to doing it.
+
+Gaps and our opportunity for innovation
+
+None of the vendors provide a design framework that can be used to consume the content from any of the above solutions into a context like a ECM App or a Case App. Context is becoming very important while we are talking about content consumption. So a framework is necessary to be able to virtually build app around this fragmented Content environment. Some of the fragmentation that we want to target are
+-One-Prem content vs Cloud content like how will I write e BPM solution which will consume content from both Documentum and Box?
+     -Write an App that will consume content across different Cloud vendors.
+     -Write an App that will consume content from my local drive, across multiple devices, on-prem ECM and across multiple content vendors is the paradigm.
+-Weaving a Content Analytics story around this consumption scenarios is very powerful as well.
+-Being able to model a Information Management schema using some kind of a modeller and publish it to be able to consume.
+-Consume the above mentioned model and just be able to build apps around it using a RAD tool like XCP for different device form factors. 
+

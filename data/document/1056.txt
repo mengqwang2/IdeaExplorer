@@ -1,0 +1,18 @@
+EMC Products for Industry Verticals
+The ideal is related to Skolkovo R&D Center Challenge
+I have been doing the joint test with healthcare partners for about 2 years. I think we can enlarge our scope and do the same thing for other ISVs.
+Although EMC has complete product portfolio and has fully coverage in most industries I still think we could 
+
+?	Closer cooperation (joint test and generate reference architecture) with ISV so as to enable more revenue with their channels.
+?	More integration test and white papers for Horizontal partners to expand EMC’s influence (e.g. Microsoft, MongoDB etc.)
+?	We need build up a strong team (solution architect and consultant) to offer customers end-to-end solutions equipped with those Reference architecture and White papers. We don’t just sell hardware box we provide total solutions to our customers. 
+?	Create a competitive team to research other company’s product and their market strategy
+?	Build up EMC public cloud service for those SMB companies
+?	Categorize our product based on different industry   
+- CME: XtremIO and VMAX more suitable for Telecommunication while Isilon more suitable for - Media and entertainment industry
+- Healthcare and Life Science: VNX and Isilon
+- Oil and Gas: Isilon
+- Finance: XtremIO and VMAX
+    - All industries: Data Protection/Security and Big Data
+
+The idea makes EMC a fully coverage with different ISVs. It will enable more revenue and position EMC as the market lead

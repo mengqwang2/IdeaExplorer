@@ -1,0 +1,9 @@
+Be aware of Product Configuration.
+
+- Idea came up to save the Time of the Field Engineer and send the parts correctly.
+
+
+- Web-Page that can provide with Product Configuration that already installed at the customer.
+
+- We can use the Serial Number as a identifier of the product to display the Configuration.
+

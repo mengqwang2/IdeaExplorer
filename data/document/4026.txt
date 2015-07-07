@@ -1,0 +1,34 @@
+VMAX virtual volumes(VVols/Subluns) for non VMware environments
+
+Few members in the team are working on VASA 2.0 provider and few of them work on Windows based applications. Feasibility to extend VVols concept to Windows was discussed which led to this idea.
+Enable non-VMware platforms to access and use VVols as traditional luns.
+VVols could be used for storing application data or for installing virtual machines.
+
+The use of VVols requires the host or the host OS to recognize VVols and the Protocol Endpoints (PE) that enable communication with these VVols. The PEs are I/O multiplexers that route I/Os to the targeted VVols. This requires that the Host must supply the PE id (the PE id will be part of the masking view, along with the host HBA) and also the VVol id. Once more, the host needs to recognize the PE appropriately and not as a regular LUN. The PE will respond to the SCSI calls differently from other LUNs. A software component will be necessary in this setup so that I/Os are delivered to their destinations through the PEs.
+
+Proposed solution consists of following components:
+ 
+Storage Provider - 
+Facilitates communication between the Management Interface and storage array. Exposes storage array features and services.
+Could be developed as a wrapper on existing VASA provider or as a complete new Provider.
+Contains set of APIs which are exposed to Management Interface.
+ 
+Data Driver - 
+To discover Protocol Endpoint(PE device) and VVols.
+Drivers are specific to the host platform.
+VVol Ids are stored in the form of config/metadata files at mount points. When a mount point is  mounted(unmasked) then the VVol is bound to the PE and made accessible to the host.
+ 
+Administrative Interface - 
+Command Line/GUI
+1. To create and delete VVols.
+2. To perform snapshots of VVols.
+3. To perform other data services
+
+Advantages:
+ 
+1. Storage allocation based on application/virtual machine requirements(Software Defined Storage).
+2. Data services provided at granular level i.e. at application data/virtual machine level.
+3. Non-Storage administrators can provision storage.
+4. No need to maintain two different types of luns(traditional thin luns and VVols) on the storage array.
+
+

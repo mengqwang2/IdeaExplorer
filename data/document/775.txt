@@ -1,0 +1,18 @@
+Tapping Pattern on a Digital Device with a Touchscreen as a way to Authenticate
+o	Broadly applicable
+o	Increases security
+o	original and feasible
+o	secure data managemento	Cross platform global solution
+o	can be combined into EMC Solutions (RSA AA etc)
+o	allows Potential Financial Gain
+o	has a significant customer impact
+
+
+team meeting
+o	Tapping pattern can consist of number of taps and speed (rhythm)
+o	Similar to gestures commonly done via mouse on a desktop computer or swipes of the finger on a smartphone
+o	Correct pattern will allow user to authenticate.
+
+o	Particularly useful for smartwatches and IoT devices, also can be used for phone
+o	Immune to fingerprint reverse-engineering
+

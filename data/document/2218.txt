@@ -1,0 +1,5 @@
+Cloud platform for mobile device storage
+Hope this idea to align third-platform mobile service.
+We can share our storage space from this platform, before we don't know this, but often heard someone's mobile space have a lot of space left, but others always lack.
+We can build a cloud platform, when the mobile device regiestered on this platform, the system will identify how much storage space of this mobile device is available for other, of cource, how much space can be identify by this platform will be decided by the owner. So the owner can assign how much size to retent on this platform. The platform will collect all the storage space, then will provide them to others as a service. This platform is also a server, it can run on phisical server and has itself web service or applicatios and APP, which will complete all customer features and easy to use by end-user.
+If we have this system all of us can share resources if you would like

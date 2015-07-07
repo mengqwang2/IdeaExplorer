@@ -1,0 +1,13 @@
+Just In Time Services (JITS) - Based on the customer portfolio - build, maintain, upgrade and manufacture VMAX for customer.
+
+This came up while discussing about what Big Data will VMAX generate and how we can use it help customers.
+With our established customer base, we can start collecting performance, configuration and service request statistics from VMAX. With this information we can associate customer’s profile to identify the vertical. By performing analysis of this information we can arrive at the following for each vertical:
+?	Sell the right VMAX – best suited VMAX configuration,
+?	Service agreement type and tenure,
+?	Growth Model – how and when to upgrade or scale,
+?	Manufacturing Model – when and what to manufacture based on customer upgrade pattern.
+
+Download details doc from below:
+https://inside.emc.com/docs/DOC-100109
+
+

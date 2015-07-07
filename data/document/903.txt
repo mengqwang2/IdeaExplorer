@@ -1,0 +1,8 @@
+Geo-Synchronous Storage devices adhering to global compliance
+A new business opportunities in the domain of intelligent storage devices which deal with versatile global compliance and legal obligations
+During internal innovation conference discussions and brainstorming
+A Geo-Synchronous data transit where the input to the system is (raw)'data' and the output is Geo compatible data (Decorate the data as per the Geo norms and conditions)
+
+Use-cases : Data Redaction, Automatic Retention behavior (e.g. in one country retention period may be two year but in another country it can be five Years), Security standards and algorithms/encryption, Global compliance, Data movement restriction - e.g. in some countries data movement (copy/collection) is allowed for various legal and compliance needs, where as some other countries it is not allowed.
+
+A new pervasive solution using EMC core business products and solutions, which can create new business and revenue opportunities for EMC.

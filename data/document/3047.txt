@@ -1,0 +1,9 @@
+XtremIO tiering 
+Adding a new capability to XtremIO, by enabling it to integrate with other EMC storage products, using XtremIO's unique capabilities, such as deduplication , compression and Least Recently Used (LRU) mechanism. Adding this capability will reduce the total storage cost of our users.
+This idea provides a way to reduce the cost/Megabyte of XtremIO storage, by using the XtremIO's internal storage capabilities, while saving the data on cheaper clusters.
+The idea was discussed as part of a brainstorming session within the XtremIO’s QA group.
+
+With this solution, the XtremIO cluster will manage all read/writes operations as usual. Since the UDC component will be managing the LRU, a new software component needs to be developed, with an algorithm that recognizes any data that has not been in use for a pre-configured period of time. this data will be moved from the XtremIO SSDs to another (cheaper) storage media, via InfiniBand Switches. The user will benefit from the XtremIO’s deduplication and compression, storing the minimal amount of data on the cheaper storage media. XtremIO will be using its efficient metadata management to manage all data. XtremIO will be able to write data to the different devices according to its preference (like Sequence write for better use of the storage).
+The solution would be a code, residing on the Storage Controller, sending/receiving efficient payload packets to the other cluster using the free InfiniBand Switch ports.
+Success: XtremIO will use a cheaper storage product to improve its cost/Megabyte.
+

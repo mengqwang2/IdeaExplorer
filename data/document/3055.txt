@@ -1,0 +1,6 @@
+Special Customer Support EHC & Minors 
+All the EMC areas (Marketing, Sales, SE, Education) are converged to develop EHC solutions and strategies. Unless this strategy, Customer Support do not evolution to a Role of Support based in Cloud.
+My customer is developing scenarios to assume their role in cloud, looking for the best choice about the public cloud. No one have this kind of role at support level. All our solutions goes around pre-sales stage and delivery, but the support still works like an island. 
+
+Develop a Customer Support for Cloud / EHC, that do break & fix on common situation between EMC EHC for private cloud & hybrid cloud. With specific knowledge on issues in Azure / Amazon / others that can interact so quickly with other levels of support in the correct cloud "language". Don´t pushing the customer to a classic "ping - pong" issue when the support is limited to EMC infrastructure point. This have to work with VCE and EMC EHC. The customer will see a real support for this new era of Clouds interactions and feel more comfortable with EMC solution as an entire "solution cycle".
+This could be a great differentiator introduced by EMC to close a selling cycle. Today is a gap on the decision table of CxO and we can´t offer this kind of skills. Could be better to do the Strategic Alliance maybe with Microsoft and/or Amazon and/or VMw

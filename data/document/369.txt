@@ -1,0 +1,5 @@
+Resource Management using data analytics and Internet of Things (IoT)
+Egypt COE Smart City and IoT Challenge
+N/A
+Make optimal and effective use of resources like safe water, energy, public transport system and security systems in making a smarter city with IoT. Public can be keep informed with resource status and forecasting.
+Making advantage of huge interconnected smart devices for information sharing and control in resource utilization also helping reducing carbon foot print and greener environment.

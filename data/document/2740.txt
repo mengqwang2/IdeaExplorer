@@ -1,0 +1,11 @@
+Revenue Generation through Utilization Tracker within Propel
+This idea would help in significant revenue generation without any revenue being lost which had happened in earlier quarters.
+Loss in EMC  revenue due to not claiming hours in Propel
+-The propel utilization tracker will provide you a update on the above Problem
+-Enhancing some additional features to propel will help us achieve all the above.
+-Propel should send a alert mail to all the employees to fill the time card by EOD or by  end of week.If employee fails then it should have a mechanism which temporally blocks there current activities and forces the employee to claim there hours and then resume the work.
+-Every week when employee enters the time it should calculate the percentage of billable utilization so far for that particular week and provide a popup where employee can understand what exactly is there utilization and where do they stand in the stack.
+Complete Recovery of EMC Revenue.
+Growth in Revenue.
+Time Management of Resource.
+Reduces Manual effort.

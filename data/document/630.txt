@@ -1,0 +1,6 @@
+Predictive car maintenance system
+
+today cars have a lot of sensors and powerful computers. leveraging both we can have a smart predictive system for various part failures so the owner know when a car need to be serviced before any part failure cause an accedent
+BMW is working on similar system as mentioned in EMC world 2015
+an intelligent system leveraging analetics tolls to predict failures in cars before they happen
+the system being adopted by major car manufacturers and implemented in their cars

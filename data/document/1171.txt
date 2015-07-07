@@ -1,0 +1,11 @@
+Access to EMC network authenticated by a mobile app
+IT Contemporary Workplace Challenge- Seamless Access to the wireless network i.e. no SecurID token required when inside EMC and access to applications seamlessly when off network for trusted laptops.
+
+The OTP generated in our banking applications which provide a authentication to our transactions prompted to get into this idea. The security that is provided in these is through web itself than the similar kind of security can be provided for the connectivity to the emc network by eliminating the use of token and entering of the pins. This solution provides a much simpler way of authentication giving a feeling of seamless access by just clicking a button.
+For the remote connectivity to EMC network with minimal user intervention, an app should be deployed on the EMC laptops and a supporting app on the mobile. The following sequence of steps authenticates the laptop to enable EMC network:
+1.The user needs to sign into the mobile app for first time with NT ID and pwd and also ensure that the mobile is connected to internet.
+2.When a user logins into the laptop, the app on the laptop automatically sends a request to the app installed in the mobile via internet, as the mobile will be identified with the user id initially signed in by the user.
+3.The mobile receives the request in form of the drop down menu with the request id and two options, namely – Accept and Reject.
+4.If the user selects – Accept, the laptop gets access to EMC network immediately, else with Reject,  it doesn’t connect to network.
+
+Success. This solution will improve customer satisfaction by providing a very simpler way of authentication for the remote connectivity to emc netwrok. It will optimize the process and improve the technology.

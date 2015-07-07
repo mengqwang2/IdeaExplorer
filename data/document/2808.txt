@@ -1,0 +1,32 @@
+Automation scripts to support next generation products
+This Idea would to reduce learning curve for support and implementation team
+Enhance the speed of learning of new functionalities of product by support,customers etc
+Leverage the existing automation scripts from test environment
+Develops coordination and 
+Idea came when user trying automate the new functionality "policy workflow" of Enterprise class backup product and saw customer modifying scripts for replication due to changes.
+Testing team always develops the scripts to test functionalities if these scripts are exposed to support,implementation and other communities 
+
+This can be exposed as a section in support web site 
+or 
+As an Automation leverage link within the dashboard page of the product
+or 
+Sharing it in support community group 
+
+Eg: Need to modify schedule time of 25 workflows in a policy
+$i=1;
+while($i<26)
+{
+system("nsrpolicy workflow update -p POLICY_P1 -w WF$i -S "13:00"");  $i++;
+}
+Disables the schedule time of 100 workflows within a policy
+$i=0;
+while($i<101)
+{
+ system('nsrpolicy workflow update -u no -w <workflow-name>'."$i".' -p <policy-name>');
+$i++;
+} 
+
+Learning curve of implementing new functionality can be reduced
+Changes to existing product could be easily implemented
+Modifications to existing scripts becomes simple
+Communication between support/implementation and test teams are established 

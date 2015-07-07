@@ -1,0 +1,13 @@
+Augment ViPR storage resource scheduling with predicted performance metrics
+Optimized resource scheduling is one of the most fundamental features for ViPR. Current implementation has adopted a policy-based approach, which still need human intervening for many storage provisioning cases. This idea is proposed to augment current ViPR implementation with more intelligence via also accounting for the trending of performance metrics from underlying storage devices, thereby allowing managing storage resource in a proactive manner.
+ This idea is based on the observation that policy-based approach usually leverages static system status, instead of taking into consideration the trending, which is strong indicator of the system status in near future.
+Since storage devices are shared between applications, the aggregate performance capability is collectively consumed by multiple workloads. It is not uncommon that those workloads can project some trends in the performance metrics as the more data are accumulated in the system. 
+
+Specifically, we are more interested in the trends of growing consumption of particular capability, for example, IOPS and read/write throughput. Each storage device usually has a limit in those capabilities; it is saturated once the metric reaches its maximum. However, in this case, the device is heavily loaded and may subject to overloading if the workloads keep growing.
+
+To prevent overloading the storage device, ViPR needs to make more intelligent resource scheduling decision at the high level. To achieve that, we propose all the critical performance metrics from those underlying devices are tracked. Those data are naturally in represent by time series. And some machine learning approach, say linear regression or more sophisticated regression can be employed to make prediction on how those metrics will change in the near future. If the predicted value is approaching the devices’ maximum capability, the monitoring system will feed those warning into ViPR as one of the important input for resource scheduling decision making or as alerting mechanism to trigger other activities, say scheduling of application storage migration or adding hardware for extending the devices capability.
+
+1) Enable proactive resource scheduling for ViPR
+2) May be used to predict system failure or identify performance issue in advance, thus allowing planned remedy
+3) Help in making suggestion in migrating storage for balanced loading or adding more hardware for satisfying the agreed SLA
+

@@ -1,0 +1,22 @@
+Global standards in writing papers and deliverables
+I think no one really knows the definitions of what a white paper, ref architecture, solution guide, operating guide.
+
+A lot of effort has been put in to standardizing the structure but no one really paid attention to the CONTENT, which is the heart of an
+So far I have started the initiative independently with the tech writing team. Their initiative has been started a long time ago but was not able to move forward.
+
+I re-ignited this initiative due to the recurring problems in writing the deliverables where the root cause is that everyone has their own standards and they are trying to impose it one another, compromising effectiveness and efficiency.
+
+The tech writing team has been helping but they are only focused on structure. I would like to focus on content.
+
+I have begun writing a draft. The hard part is being able to find reviewers and approvers to make the draft official.
+Create a binding document on how to write a paper, containing the following:
+
+1. A quantitative, manageable definition of the diff doc types that eliminate all gray areas
+2. A "thought process flowchart" that will allow the stakeholders to determine exactly what they need based on 
+3. Writing guidelines on how to present an idea
+4. Chart templates with description on when to use each one.
+5. Set guidelines on filtering which information to present, be able to determine when to include and when not to include certain info.
+6. How to evaluate conclusiveness of test results and procedures
+7. How to effectively present a case an organize these idead to produce a convincing argument (necessity/beneficiality/practicability)
+8. Standards for reviewing
+If we write the deliverables in a very effective but efficient number, we greatly improve the quality of our papers that are being consumed by CIOs, solution architects, and fellow engineers alike. 

@@ -1,0 +1,7 @@
+Random shots to form a snapshot.
+The idea is to build an application to avoid system/application freeze
+This idea is analogous to shot technology in recent mobile phone camera which captured the images  of the object while the object is moving.
+We capture random snapshots while a system/application is running and consolidate them to form a  
+Consistent snapshot.
+
+Customers satisfaction which will not cause application freeze with slightest disturbance to the productivity. Can also make money as the features are improved as this might be needed for a tier-1 application.

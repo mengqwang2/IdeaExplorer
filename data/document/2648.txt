@@ -1,0 +1,16 @@
+Order Online Sandwich Counter
+Improvement of a service Ireland COE
+Talking about innovation during lunchtime. 
+An online system to pre-order from the sandwich counter using an online portal hosted on the EMC internal network. 
+
+User can use the service to choose bread type, protein and salad fillings and put in an order and specify desired collection time before going to lunch.
+
+The order will be linked to the users employee name and employee number.
+
+A user will select a desired collection time from a list of available times and pick up the finished sandwich from the collection area in the canteen at that time.
+
+In the canteen there would be a collection point with the user's employee name and number displayed on his/her meal. 
+
+Reduce queue times for employees. Allow lunch staff to prepare sandwiches ahead of time. 
+
+It could be expanded after to cater for salads and other foods types. Possibly in future allowing employees more control over their food after expanding the service

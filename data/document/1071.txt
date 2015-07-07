@@ -1,0 +1,17 @@
+Bringing a diversified and innovative workplace through mobile app(100% working POC)
+bringing diversity  in workplace,
+easy job referral through mob app,
+job referral link to seamlessly access from anywhere
+We face some problems when trying to refer my friends. So, we came up with this app.
+We have designed an app which could be used for talent acquisition. This mobile app requires the user to login through his NT user name and password. Upon login, he/she can see the list of job openings with a “Refer” button for each opening. Upon clicking the “Refer” button, the URL of the job ID is copied to the clipboard. Here there are two things to notice:
+1)	Either the employee himself can refer his/her friend through the app. It requires entering the basic details like name, experience, recent employer, curriculum vitae.
+2)	The employee can send the URL to someone. The person who wants to apply can fill the details by himself and submit. Here we see some advantages:
+-	The URL which is sent contains the encrypted information about the referrer. So, once the person applies, the referral ID is automatically fetched from the URL and uploaded in our Database.
+-	Less overhead for the referrer
+-	This URL could be easily sent to others through WhatsApp/mail/Facebook.
+-	A sample link looks like below: http://emcportal.com/refer/A2Q34r5su6?jobid=144356. Here A2Q34r5su6 refers to the encrypted information about the employee, jobid=144356 tell the job ID.
+------------------------------------------------------------------------------------------------------------------------------
+The following attachment contains the screenshot of the app:
+https://inside.emc.com/docs/DOC-155950
+
+Since we are connected to a diversity of people in social media creating a link for job referral should make the process simpler, effective and more powerful.

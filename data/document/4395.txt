@@ -1,0 +1,15 @@
+Eye in the sky
+
+The idea was part of a discussion forum for innovation.
+o	Single automated solution which collects data from all EMC infrastructure devices
+o	As solution collects different events and logs, it would be capable of predicting next event.
+o	This solution provides root cause, by co-relating different events and logs 
+o	Solution is Cloud aware and can be customized based of different environments (Platinum, Gold..)
+
+Benefits –
+	Faster event resolution and higher availability
+Consolidated eyes on glass dashboard for monitoring events and log
+Increased productivity
+Better SLA compliance
+
+

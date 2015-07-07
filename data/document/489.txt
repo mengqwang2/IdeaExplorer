@@ -1,0 +1,50 @@
+End –to-End Process enhancement in Support Organization to maximize TCE and save cost 
+In this idea we propose a process enhancement for one of the most famous processes in EMC which is “Customer Support” since SR is created until the issue is resolved. 
+
+We provide a demo for a recommender engine that works on most of EMC products that enhances product supportability, customer self-service, maximize TCE, minimize TTR and help employees being more efficient. All this using one simple tool based on data analytics engine
+A new approach to exceed our customers' expectations.
+
+The idea came up from experience working in technical support organization in which we faced such process inefficiency so often. I thought of having a recommender engine using data analytics to address such issue. 
+
+The solution works as follows: 
+
+STRUCTURE :
+
+The proposed “ Automatic Self-Support Recommender Engine”  is described in the following Diagram : 
+Picture uploaded to “Inside EMC” : https://inside.emc.com/docs/DOC-99749 
+
+The idea is to build a simple tool that can be separate portal or connected to the service center. it will :
+
+1- Take the problem description and analyze the text to get the important keywords.
+
+2- The tool is connected to EMC support site having all customer materials (documents, videos, KB articles... etc). It will search for the material that best matches the issue description. it will combine the results' links.
+
+3- The tool is also connected by a simple database that contains all EMC best practices for certain product (e.g. VNXe). this database can be easily built by TSEs. it will also be connected to the product support matrix and release notes.
+
+4- the tool will combine the links (results) with the EMC best practice (if any) and compose an automatic email that is sent to the customer address extracted from the SR. the links will be few (3 or 2) links to be easily checked by the customer.
+
+5- the email will clearly state that this is automatic reply from EMC customer self-service tool. While waiting for a TSE to be available to help you (SLA time), we recommend that you have a look at these few links we found for you relevant to your question. 
+
+6- The automatic service can be evaluated each time by customer rating so that it can be enhanced in the future.
+
+The Engine  is described visually in the following Diagram :
+
+Picture uploaded to “Inside EMC” : https://inside.emc.com/docs/DOC-99750 
+
+The implementation for this solution can be either :
+
+1-	online : directly using the EMC support materials site and deal with the links to such materials
+2-	Offline: using the data warehouse design by grouping the material offline and using an engine to scan them ( this is something similar to “yebo” tool that downloads all materials/documents offline to the local machine. Also the engine can be similar to ”google desktop” for indexing)
+
+this will be beneficial to the customer, TSE, EMC. Moreover Big data can be involved to do this on a large scale.
+
+1-	 Cost saving using man-hour saving
+2-	Maximize TCE using faster problem resolution
+3-	Accelerates knowledge sharing
+4-	save the support engineer time wasted in search engines 
+5-	2- provide much faster resolution to the customer in such situations.
+6-	3- avoid creating a considerable number of SRs. (self service)
+7-	4- help our customer at a glance even before the SLA time.
+8-	5- if this did not resolve the customer's issue, it definitely will give him hints and simplifies the TSE task.
+1-	will definitely exceed our customers expectation by a service at a glance.(think of SLA)
+

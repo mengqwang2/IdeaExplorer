@@ -1,0 +1,5 @@
+Ability to specify the device id during device creation on Symmetrix.
+This will help in better TCE (Total customer experience) for the product. Better product satisfaction. 
+This is possible on VNX. We have had customers asking for this when they see its possible on VNX and not on DMX/VMAX/VMAX3
+The code needs to be enhanced to allow customers to choose the device id before they create the devices on the Symmetrix array.
+Ease of management. Better total customer experience. considered as a basic necessity for high end storage system. 

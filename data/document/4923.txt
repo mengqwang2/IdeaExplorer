@@ -1,0 +1,7 @@
+Streamline/Change CST Follow up Process
+
+Currently support transfers the SR to CST for follow up if the customer is unresponsive for several days and CST attempts to contact the cust once and puts the SR back to support for closure after 2 days. I do not see any value in this as support can also make that last attempt and close after 2 days. CST should ideally contact the account team and also exhaust all posisble ways of contacting the customer before putting it back in queue. CST should also own cases where field is involved and support is owning the SR without any work. Support gets DSATs at times because of SR closures that CST confirmed and customer came back later for help.
+- CST contacts the customer after support transfers the SR for CST followup with acount team in loop. CST to try all possible options to to contact the customer and only then put back the SR in support queue for closure.
+- CST to own cases where field support is involved and support is just owning the SRs without doing any work on it
+- CST to own the licensing SRs and work directly with the licensing team if a cust needs a license for the product instead of support owning the SR and license team working on it.
+

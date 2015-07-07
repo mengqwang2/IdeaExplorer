@@ -1,0 +1,11 @@
+Communicator ask a question
+
+I have a question don't know who to ask Fast
+Add several groups on communicator that are divided per product and speciality.
+So when someone needs to ask a question in a certain product, he sends a message on communicator to the group related to this product. People who are free and have their status on communicator to ("able to answer questions") for example get this message.
+If they reply, a conversation is created betweeen the person who initiated the question and the person replying.
+
+We could add a pointing system, every one who answers the question get a point.
+This will help in increasing the contibution of the team.
+Fast response and higher team building.
+

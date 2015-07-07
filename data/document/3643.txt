@@ -1,0 +1,17 @@
+Social network as a service
+
+People are looking for a safe and secure social network and I was thinking we can start implementing that on a small scale, targeting security That people's information won't be shared on public servers
+
+
+We can start implementing a small social media for companies specially in emerging countries.
+
+ex: " Oil and gas, banks & Private schools, etc..." 
+
+We are implementing a whole social network based on private cloud for the concerned parties for people to get engaged and share updates with each other, as they do on public social networks.
+
+The idea will encourage people in same company to join the social network together which enhance the communication between parties, also offload the traffic of facebook slightly by time.
+
+We can then start merge social networks together for the companies who are interested to do a partnership
+
+
+

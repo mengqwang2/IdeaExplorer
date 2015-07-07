@@ -1,0 +1,5 @@
+EMC UD
+We have alot of competitors that have a UD and is what customers want.
+Over time using EMC products and hear customers complain. 
+EMC Universal Dashboard for EMC product. Majority of my customers that I visit will have 4 web pages open for all of their EMC products.  They Complain about having another URL they have to use when it comes to our product.  Most of our products are already using a URL.  Why not have a universal dashboard that ties all of those products into one.
+A success would to make all EMC products accessible from one site. 

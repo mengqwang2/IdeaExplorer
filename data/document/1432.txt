@@ -1,0 +1,26 @@
+CTD products solution advisor
+CTD product line is vast - customer can do the first phase of planning by using this simple tool
+We have similar procedure generator for NetWorker
+The CTD products solution advisor will consists of series of queries about the customer environment and plan based on which we will provide the customer a pictorial presentation of which EMC CTD product will be utilized where and how. Series of question can be in the following way
+: New to EMC?
+  :: If yes, which are existing EMC products already in use
+  :: If no go to next series of questions
+
+: Servers in environment ? 
+
+: OS deployed in environment ?
+
+: Looking for expanding storage ? 
+
+: Apps running in the environment? 
+
+: Looking for moving storage tape to disks ?
+
+: Looking for cloud solution ?
+
+: Backup environment ?
+
+etc.
+
+Based on all these we generate a report which will clearly depicts the existing environment of the customer and the proposed solution
+Will help customer get understanding without any involvement from EMC and plan their finances. Also cut down the EMC sales-pre:sales team time

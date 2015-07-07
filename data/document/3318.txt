@@ -1,0 +1,37 @@
+ EMC &“IOT” marriage in 4th Platform – Internet Of Things Optimized Storage by EMC: a new era defines new needs and opportunities
+
+ The idea came in from the experience with Sensor networks technologies, topologies and challenges. The concept then evolved to IOT adding a huge business value and needs in the same time. Since then I am thinking about how EMC can Marry IOT and live together on top of the “4th” platform leading the transformation
+We will use the data behavior in IOT to optimize the storage. Such behavior is like : 
+
+•	Data in IOT tend to move between a set of devices “Devices Set” that belong to certain profile (same user or same google account..etc). 
+•	Some devices tend to send data more than receive data while other devices tend to receive data more than send. 
+•	For example : home appliances connected to the internet are more likely to send data such as reports and notifications to other devices such as mobile phones
+•	Data in the IOT stack tend to move between devices in the same “Device set” more than moving between “Device sets”
+ 
+The idea works as follows :
+
+-	EMC will introduce a layer that understands the IOT data needs and pattern and optimize the underlying storage.
+-	This IOT-Aware layer will be integrated to Pivotal CF or included as a component in Pivotal HD Filesystem.
+-	This layer will distribute the data in a smart way depending on the data usage patterns using the following approaches:
+1-	Locate data for the same “Device set” in the same Datastore to get maximum performance as data mobility inside the “Device set” is high
+2-	Locate data for the “Send intensive Devices” (devises that tend to send more than receive) in a storage/RAID type that is suitable for high read performance such as RAID 5
+3-	Locate data for the “Receive-intensive Devices” (devises that tend to receive more than send) in a storage/RAID type that is suitable for high Write performance such as RAID 10
+4-	Enable data auto tiering on large scale depening on the data usage patterns by analyzing the Application/devices behavior
+5-	Sending large pieces of data on the storage layer than sending it on the devices layer. For example if I will send data from one “Device” to the other using Bluetooth, then just send the data on the underlying storage layer (inside the same datastore) and send just the metadata and pointers over Bluetooth to save time and battery. This means that if all the storage is cloud based, why to send the data if we can just change the “Data ownership” from one device to the other!
+
+-	This IOT-layer will understand and optimize storage for the IOT operating system such as “contiki” *(3)
+
+-	The IOT-Smart storage layer is best suited and equipped with Hadoop HDFS for distributed storage as data in IOT is highly distributed.
+
+This way we can define a new era of IOT-Smart storage and IOT-Ready Pivotal HD
+
+REFERENCES :
+1-	http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6380493 
+
+2-	http://entrepreneurshiptalk.wordpress.com/2014/01/29/the-internet-of-thing-protocol-stack-from-sensors-to-business-value/ 
+
+3-	http://www.contiki-os.org/ 
+
+4-	http://www.ipv6forum.com/iot/index.php/publications/9-uncategorised/85-ioe-positionpaper-2 
+
+

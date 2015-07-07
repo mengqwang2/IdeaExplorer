@@ -1,0 +1,21 @@
+Serviceability Enhancement Requests Assignment & resolution process for CTD/ETD products.
+Product Serviceability Enhancement Request assignment and resolution - This idea will help improve the product's Serviceability and Enhancement Requests processing quality. EMC is putting much effort to reduce the customer escalations and the same time enhancing the product quality. It is as much as important to increase the product serviceability. And Hence Serviceability Enhancement Request processing must be improved. This will increase product serviceablity and hence reduce customer service requests.
+Involved in SER analysis for specific products. While analysing I will find out the reason behind the SER. Is that SER is already implemented in any of the product relases. And also will check if the request will be in near release. I could found that most of the SERs for the most of CTD and ETD products are still under "submitted" state from many years. If we apporach the SER process with innovative ideas, we can curb the number of pending idle SERs, in SER database.
+Improving the SER creation process will improve SER assignement and resolution faster.
+            My Idea is while raising an SER each SER has to be assinged to one of the SME. Once SER is submitted and SER number is generated in SER database, Assigned SME and Originator both should get mail. Assgined SME has to work on/look into the concerned SER within speculated time and has to move the SER status to "In process" from "Assigned". If SME is not responded within speculated time, auto reminder mail should be sent to assingned SME.
+
+           If SME is igonered SER even after 24 hours of auto generated reminder mail, SER should be moved to "No action from SME". And later Auto generated mail has to be sent to all the SME of the specific prodcut against which SER has been raised. So that one of the SME can take action. And also make a provision to send an auto generated mail to the higher management if the SER is idle for more than one year old.
+             Also make a provision to assinged SME to assgin the SER to different SME. Every changes made to the SER, SER orignator should get to know through auto mails.
+        This idea will reduce the number of unsolved SERs in the SER database.Faster resolution of SERs means sooner the better product serviceability enhancement. Which in turn enhances the product quality.
+Since there would be always delay in processsing SER requests new idea will be  able to provide below benefits and success.
+1.Faster SME assignment to SER.
+2. Confirmation mail to originator and Notification mail to Assigned SME.
+3. Provision to assign SER to different SME.
+4. Qucik SMEs response on SER status.
+5. Faster resolution of SER.
+6. Better Serviceability of the products.
+7. Inturn better product quality.
+8. Reduction in number of SRs.
+9. Improved TCE.
+10.Automated process.
+11. Cost efficiency due to product enhancement.

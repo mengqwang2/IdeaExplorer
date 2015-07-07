@@ -1,0 +1,48 @@
+Encouraging Diversity and Innovation using problem solving, crowdsourcing and gamification
+1. This idea  fosters innovation and collaboration
+2. Celebrates diversity
+3. Gives an option to measure and improve the impacts of diversity on innovation
+4. Enables smarter problem solving
+5. Creates business value
+6. Motivates employees to learn new th
+I got this idea from multiple inspirations.
+1. Open learning platforms like EdX, Coursera and Udemy and MOOCs in general
+2. Data competition platforms, Kaggle, CrowdAnalytix and the satisfaction achieved from climbing up on scores
+3. Most of the data competitions are won by teams(rather than individuals) and the teams comprise people of diversified backgrounds(for eg, programmer, social scientist and a linguistic)
+4. Google successfully used training platforms to bring people together and to generate value
+http://www.businessinsider.in/Heres-What-Google-Teaches-Employees-In-Its-Search-Inside-Yourself-Course/articleshow/39710176.cms
+
+The proposed idea is to host two different platforms(Open source platforms are already available which we can directly deploy)
+
+Competition Platform:
+The competition platform would be on the lines of HackerRank, Kaggle or CrowdAnalytix
+1. Teams can host different types competitions - Design, Analytics and Data, Mobile App, Coding/Algorithms or even simple idea seeking
+2. All employees can participate and compete and win points 
+3. Importance should be given to gamify the platform to enable collaboration and innovation - for eg, groups will get extra points than individuals and geographically distributed teams would get more points
+
+
+Teaching platform:
+The teaching platform would be on the lines of Udemy/EdX
+1. Employees who are specialists in any field(Technology or Domain or anything in the world). For example Google's very famous in house training called Search with in yourself
+2. Employees can volunteer to play the Teaching Assistant role for helping the course provider in answering queries from the participants
+3. Courses should be provided online with deadlines and rigor in the same lines as EdX
+4. Employees across location can attend courses and rate the courses based on learning
+5. Course creators can be awarded real prizes or points based on the user ratings
+6. Learners also can earn points based on their grades. Gamification needs to consider different aspects of learning and to encourage the system to be productive for the employees and business
+
+
+These platforms directly would help EMC to foster innovation and collaboration and to benefit from the diversified technical and cultural benefits. As an added benefit, these platforms generate data which might give insights into employee interests, employee skill sets etc which would help People Development and People Ops teams.
+
+HBR Supports this solution
+https://hbr.org/2013/04/using-the-crowd-as-an-innovation-partner
+
+The key point is "The strength of the community is its diversity, but it lacks cohesiveness."
+
+Other supporting articles and research papers
+1. http://www.entrepreneur.com/article/236418
+2. http://www.wsj.com/articles/benefits-of-crowdsourcing-1414625224
+3. http://crowdsourcingweek.com/5-benefits-of-crowdsourcing-principles-for-employee-engagement/
+1. Creating business value by crowd sourcing solutions
+2. Builds innovation as a way of life rather than considering innovation as one of occurrence
+3. Gives employees a sense of accomplishment on a day to day work
+

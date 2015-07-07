@@ -1,0 +1,10 @@
+New SR Status To Be Added On Sales Force 
+Innovation for Sales Force! 
+This came through a discussion we had in one of the meetings regarding Sales force. 
+It address a need. 
+Create a new Service request status in sales force called 'Updated by customer' which will flag the SR automatically when it has been updated by the customer. 
+We will be able to tell when a customer has updated the SR without going inside. 
+Will make our work easier and faster. 
+Will respond quickly. 
+Will be able to know how many SRs need to be worked o once you come in before taking new SRs. 
+This will serve the licensing team and all the technical teams best. 

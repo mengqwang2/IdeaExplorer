@@ -1,0 +1,15 @@
+Performance Based Application Scaling
+
+I have background with vBlock and VMWare HA systems.  This idea came as a result of working on ViPR controller, object, and SRM projects.  There have been many occasions where I see customers making these decisions based on the SAN port in conjunction with the storage pool characteristics.  We have product managers and customers doing this demonstration where they look at SRM for some KPI and use ViPR to do some storage movement.  I got this idea while reviewing a new SRM feature adding action menus and looking at demonstrations of the orchestration done by ViPR to completely close the loop on performance and orchestration.
+Cloud administrators use a performance score card to make placement and rebalancing decisions.  The administrator creates application performance profiles based on desired key performance indicators (KPIs) and a weight for each KPI.  These performance profiles become the basis for enforcement and validation of service level objectives (SLOs).  These indicators can be metrics such as IOPs, CPU utilization, and through-put.  For any given application the administrator would target an SLO for compute, network, and storage.  Using EMC technologies like ViPR, VPLEX, Recoverpoint, AppSync, Power Path migration enabler, VMWare, etc - that administrator can migrate applications to other infrastructure pools providing a higher SLO as required by the application's profile.
+
+A management system (such as ViPR SRM) could be used to sum and total the KPI across the cloud to create a weighted average for infrastructure pools.  Based on measured KPIs this weighted average provides a score-card for the infrastructure pools.  This score provides the information needed to make placement and adjustment decisions for the infrastructure the application uses.
+
+Types of like infrastructure would be be summed together to provide the full picture on the SLO score-card.  For example, the storage SLO could take into account the HBA, SAN port, front-end array port, fan-in/out ratios, and LUN IO statistics for making pool or port  decisions.
+
+As the application is used the score would be adjusted automatically due to load factors influencing the KPI.  As the load is increased by the application adjustment suggestions could be made.  Applications requiring a large SLO could be moved to underutilized or higher performing infrastructure.
+
+Today, planning for placement is done via rules and reporting and some amount of overallocation of resources.   The idea is akin to fast policy for storage but can be applied across all infrastructure.  Storage side decisions are good for vertical movement within the same domain such as fast or storage tiers.  However, these do not provide the full picture.  Decisions based on storage tiering alone do not take into account SAN, compute, and network.  This idea would cover all of the cloud performance aspects required to make these decisions correctly.
+
+Ultimately this score and decision would be used in conjunction with automation such as ViPR or vCenter Orchestrator to automatically achieve a desired SLO.
+

@@ -1,0 +1,7 @@
+SOLVE/CCA Mobile App
+
+Many Customer Engineers face the issues with CCA requests while they are on site,so by giving them tool in their hands they will be able to do their work more efficently when they are out of the office which is most of their times.
+A mobile edition of Solve(which is replacing CCA5), the idea is to let the field engineers have access to the CCA portal or Solve when they are on site, so they would be able to edit and submit and review CCA requests whenver needed.
+
+This idea will fasten the process and will enable to the field engineers to serve the customers faster and better.
+

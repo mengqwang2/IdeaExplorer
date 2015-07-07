@@ -1,0 +1,20 @@
+Smart Physical Object Storage
+This idea is a disruptive innovation that matches the CTO challenge. Because at present EMC don't have any related product. It is new and also lead to a new market for EMC. Even it is pretty new, but we still can leverage some EMC technologies.
+IoT is becoming hot. We were thinking if it is possible to explore the IoT area. And EMC focus on information storage area, but why not saving more in storage like real physical object.
+Another reason is that I found to find a physical object in our life is really time consuming, so make everything connected to internet will be a good solution to object searching.
+The idea is to build a physical cabinet to hold physical object. It is kind of furniture in our house and part of our smart house. Inside the cabinet, it is divided into cells. Each cell could save a number of object. When saving an object, it is not just saved physically, its related information(metadata) will also be saved into the backend storage(e.g. SAN) shipped with the cabinet.
+When we have a new object, for example, a bank card, we send the card to a cell for store. When the card go to the cell, it will be scanned and its information will be extracted and saved into the backend storage. The extraction process will take 3rd party image processing technology that analyze the image taken by an internal camera of cabinet. The basic metadata is 
+- What is this object?
+- What is category of the object?
+When we send a different type of object (like a paper) to that cell having card, there will be an alert to prompt wrong type. With paper like object, it could be more complex to process.
+1. The paper will be scanned for each page and captured as electronic document
+2. All the text will be extracted from raw document via OCR technology and saved into backend storage
+3. Content will be indexed by full text search engine like ECD xplore
+After we saving physical objects, in case of paper like object, we can manage them via a web application shipped with Cabinet. It will be easy to find a physical document by searching online and even via full-text searching.
+For non-paper like object, we also can search it by entering its metadata to locate it in one cell exactly.
+When this become popular, different cabinets can be connected. For example, you can share your object information to your friends. And in case we have 3D printing device, it is possible to transfer the shape information of object to your friends, and they can get it re-created by 3D printing. It is a fantastic social activity.
+It align with current hot topic - IoT. It leverage EMC's core storage technology. It is a new market to explore for company. To say Smart House, it is an important part. The benefit could be listed as below:
+1. Optimize life style and save time for everyone to find object
+2. Keep things safe
+3. Keep things exchange in social network more easier
+

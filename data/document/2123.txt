@@ -1,0 +1,15 @@
+VM forensic
+The idea is relevant to the Israel COE challenge as it addresses 2 of its focus areas:  
+1. Leveraging EMC Storage (and supporting) technologies for creating a better offering in converged infrastructure - mainly an improved Vblock offering (security wise).
+2. Security: cyber, cloud security, security management - all of which are augmented in an innovative manner. 
+
+
+The idea was conceived by the R&D team manager in our group (Philip Derbeko) through talks with colleagues from Ben Gurion university. from conception the idea has been internally evaluated in the group and the COE as preparation to further developing it through opportunities like the Innovation Road map and others.        
+The suggested idea comprises a proactive endpoint security solution using advanced forensic analysis of VM snapshots. The solution is based on sampling virtual machines frequently and applying machine-learning algorithms to identify new malicious scripts at high detection probabilities.
+The approach has many advantages over existing solutions. While existing AV products are usually signature-based, they aim to provide no false-positive alerts. This makes them limited when it comes to detect new malwares or variants. this idea uses the same AV capabilities, but adds a powerful learning ability to allow using previous knowledge to detect new malwares.
+Other machine learning solutions perform a static analysis to find threats. However, these methods have great difficulty to detect malwares which have been encrypted, packed or obfuscated, so advanced threats just load their malicious code only on runtime. Such behavior could be detected by this idea though, due to the frequent snapshots generation and comparison.
+We aim for a working prototype that can detect malware that otherwise remain undetected by the leading competitors.
+Benefit to the EMC Federation will come by incorporating this ability in its portfolio, mainly the:
+1. Vblock offering - having the ability incorporated as part of the management of the CI as a security tool. Also utilizing & leveraging specific storage offerings within Vblock.
+2. Cloud offering - either Vcloud air or EHC can leverage the ability to offer increased security via this tool.
+The differentiation that could be achieved from a cyber security perspective is vast, as this method will allow for a unique malware detection ability, integrated to the existing offering.          

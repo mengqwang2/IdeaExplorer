@@ -1,0 +1,25 @@
+Efficiency Modeling Process
+
+The process described herein was developed by me to begin to understand the interaction between software and hardware. Since then it has been vetted with several of the BUs (primarily EMSD) as well as technologists within GHE's Advanced Technology group and the Office of the CTO. Currently, I am continuing to refine as well as socialize the techniques and hope to roll the process out more broadly.
+Efficiency models (for that matter all models) are useful approximations that can be used to develop some greater understanding of the system being modeled. In a TCO focused world, efficiency is a key competitive metric. In this context, efficiency can be thought of as how well a product is able to convert dollars (CapEx) and energy (OpEx) into something a customer values (e.g. an IOP). Efficiency is always important, but in a time of industry change (transitioning to Platform 3), the ability to model and deliver efficient products seems to be critical.
+
+The modeling technique I am proposing involves breaking down the efficiency of a product into the efficiency of its components in order to be able to understand how it can be improved. As an example, VNX products provide a service to customers (e.g. an IOP). Providing that service is via an algorithm that requires a certain number of instructions to complete. Those instructions are executed on hardware which has its own efficiency charecteristics. By measuring the algorithmic effectiveness (e.g. how many instructions are necessary for a given algorithm) and the hardware efficiency (e.g. energy dissipated per instruction) seperately and comparing them against alternative and competitive solutions, we can gain insights as to how to optimize.
+
+Today we focus on measuring product performance (e.g. how well an algorithm executes on a particular platform). While product performance is essential data, it isn't the only data of interest, and is by itself, a relatively poor long term predictor of product efficiency. By developing an understanding of algorithmic effectiveness we can compare our algorithms against competitive solutions and make better architectural decisions.
+
+Let's assume that a VNX product delivers 5 kIOPS to the customer for some given amount of HW throughput. Moore's "Law" is the observation that, over the history of computing hardware, the number of transistors in a dense integrated circuit doubles approximately every two years. Over long periods of time we have seen continuous improvements in throughput, which given the ratio stated above, should have led to a linear increase in customer performance.
+
+Unfortunately, Amdahl's argument states that the speedup of a program using multiple processors in parallel computing is limited by the time needed for the sequential fraction of the program. In practice this means that software which executes on multi-core machines may not scale in a linear fashion (i.e. performance falls off as core count increases).
+
+It seems as if these two principles are arguing for us to utilize small core count, high frequency, speculative microarchitectures. Unfortunately, we also know that these "speed" microarchitectures dissipate more energy per instruction (and cost more) than large core count, lower frequency, nonspeculative (or throughput) microarchitectures.
+
+It quickly becomes clear that to develop more efficient products, we need to understand the interaction of several competing principles:
+1. Hardware performance is delivered as throughput not speed (Moore)
+2. Algorithmic effectiveness can decrease with increased core counts (Amdahl)
+3. Running algorithms on speed (as opposed to throughput) machines is inefficient
+
+(while I can't answer this question conclusively yet, I am beginning to suspect that the most efficient, highest performing scale up storage systems will be delivered on relatively high core count, 'wimpy' cores)
+
+I am arguing for us to spend the time necessary to charecterize our existing algorithms, to compare them against competitive solutions, and to leverage that understanding to identify the hardware and software architectures that deliver the best efficiency.
+
+

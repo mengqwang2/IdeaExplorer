@@ -1,0 +1,27 @@
+Next Gen Secure BYOD using EMC Products
+Create a modern and fun workplace with new and cutting edge ways to communicate and collaborate. Provide a seamless experience from anywhere with device flexibility and less restrictions.
+We brainstormed on what are the ways we could make IT a better place for everyone and also benefit the company on reducing costs.
+Since industry is moving towards BYOD, we thought of ways to secure it using EMC Products & Solutions.
+
+We propose a solution wherein:
+
+ - We will have a bootable flash drive, pre-loaded with an EMC customized Windows Operating System containing EMC approved softwares .
+ - This operating system will have a partitioned drive dedicated to Syncplicity.
+ - User will access all their work through this drive.
+
+From a security Standpoint the solution offers 3 layers of security:
+ - Once a user logs into the operating system using their corp credentials, an OTP will be sent to their mobile device, using this OTP user gets access to the operating system.
+ - This operating system will be integrated with a post user login VPN authenticator that will help user connect back to resources existing in EMC Network.
+ - This flash drive will also be windows encrypted, hence if the device is lost the data cannot be directly read.
+ - In conditions wherein the device goes rogue, the data in the working drive of reported device can be wiped remotely use the "Manage your Devices" option in Syncplicity.
+
+A 128 GB flash drive costs $40 today, which makes this solution even cost effective to implement. 
+Encouraging secured BYOD culture in EMC.
+
+This solution will help EMC reduce device costs.
+
+Flexibility – Workers won’t need to travel with several devices satisfying their home and work needs, as the one device will fulfill both.
+
+Device Familiarity – Most people tend to be familiar with their own devices. Apple fans are good with Apple technology and Dell/Lenovo fans are more productive with their own devices.
+
+

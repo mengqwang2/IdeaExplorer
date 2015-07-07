@@ -1,0 +1,5 @@
+Service centre Pro-activeness
+All TSE needs to review SRs logs manually and Service centre Pro-activeness, Automation in log analysis save lots Productive time of all TSE 
+internal discussion with all TSE/SME on support challenges 
+Automation for logs analysis uploaded in SR and generate report for all critical and failure warning/messages and provide relevance knowledge base article  
+better TCE and TTR reduce to solve the problem 

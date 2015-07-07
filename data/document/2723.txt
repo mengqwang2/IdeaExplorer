@@ -1,0 +1,5 @@
+Cumulus: Comparing Cloud Providers on Pricing via single Rest Interface
+Cloud (compute & storage) is advertised as cheap offerings to replace on-prem / collocated services. However, cloud pricing is not static - it is variable pricing with tiers. Comparing providers is not straight forward. Which cloud (if any) is best?
+Before being hired full time, I was a summer intern (2014) and developed a POC of Cumulus. It takes into account pricing for Azure, Google, AWS and VMware vCloud Air. POSTER/LIVE EXAMPLE/EXTRA DOCUMENTS LOCATED: http://vmad-146.asl.lab.emc.com/
+Cumulus offers a single REST interface that calculates the cost of compute, storage, and bandwidth normalized across all the popular cloud providers using their latest pricing data. Dynamic price tiering is fully accounted in the cost.
+POC is freely available and ready to be used. Code cleanup will need to be applied for any sort of production ready deployment. The benefits and success will be for our customers to easily pick the cloud provider with hard numbers backing their decisions 

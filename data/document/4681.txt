@@ -1,0 +1,23 @@
+Deploying Intelligent Power Management Plus Software in the organization helps in minimizing the Power Bills and makes the Environment green
+
+Last Year I have submitted Idea and requested employees regarding switching off the PC's while logging out from office. But I do not had enough data to prove energy savings. I went on research and came through one of the Industry Seminar by Techgig from one of the Director of Vigyan Labs where He mentioned how would the power saving be done by deploying IPM Plus in the huge organizations.Below Arithmetic gives details as-
+Average Power consumed by PC 1kWh per day(8-10 hrs)
+Estimated Power Consumption for 5000 PC’s in a year with 220 working days=220*5000*1kWh=1100 Mega Watt Hours.
+At 10/- INR per hour energy consumed by PC’s in a year=1 crore 10 lakhs for 5000 PC’s per annum
+Average Idle time (including Cafeteria,Meetings) 30%
+Potential for Power savings @30%=330 MWh which translates to 33 lakhs per annum. Now Imagine the Power savings for 1 lakh PC’s.
+
+Solution to all the above mentioned Problems is deploying IPM Plus Software enabler in the Organization which was awarded as Technology Innovation of the Year Award by NASSCOM last year.
+IPM Plus Software enables Green Computing –
+1.Measures Energy Consumption
+2.Deliver Energy Savings
+3.Improves IT asset Utilization
+4.Reduces Carbon Footprint
+5.Non Intrusive and easy to deploy
+6.Scales to 100,000 PC Environment
+7.It comes with Strong Credentials having Patented Technology and Certified by Microsoft for Windows 7 and 8.It also has credentials benchmarked at IBM Innovation Lab.
+
+Description and Explanation of Idea with example is attached in the below link-
+
+https://inside.emc.com/docs/DOC-99882
+

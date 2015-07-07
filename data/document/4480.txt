@@ -1,0 +1,5 @@
+Virtualize the existing Griffin Host Server used within the EDT rooms. 
+
+ I have already completed a prototype of Virtualizing a Griffin for a college project. 
+With Virtualization we could create virtual product servers / Griffin Host’s outside the EDT rooms. Then  with the use of the existing internal network, connect the virtual product server to the SP within the enclosures, which could now be removed from the physical griffin and fixed permanently to the wall of the EDT room. Overall result by removing the Griffin Hosts from the Rooms is More Slots created to Test Product. 
+

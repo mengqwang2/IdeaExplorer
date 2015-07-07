@@ -1,0 +1,34 @@
+Capture and analysis of extreme amounts of data.
+
+Well, they are reorganizing the rack holding my servers in the lab, so this afternoon is not very productive. Also my degree from school is in Physics, so this was an amusing diversion. :)
+The first part of the problem is reducing the size of the incoming data. Likely the incoming data is highly compressible, but might strongly benefit from custom algorithms. Folk have been down this path. We need to find out what work is already done. 
+
+My guess is the raw data is reducable by 10x to 100x. (This is a wild guess that very much needs a sanity check.) We need to know how much compute is required to compress the incoming data. Can this be done in real time (reducing immediate storage needs), or are we doing to need to store the data uncompressed (or lightly compressed).
+
+The result from the above is going to heavily influence the numbers in the rest of our solution. We may need to design assuming 10x for any one run, as changes in the experiment could radically change the compressibility of the data. Over the longer term we *might* average 100x.
+
+That means 10TB of data per "large" run, once compressed. 
+(How many runs per year, retained for how long?)
+
+The data is very large compared to the applications applied to the data, so the next part of the problem is moving data to the compute nodes. Moving the data is compressed form greatly reduces the network load. Use of multicast and/or physically partitioned networks can help. 
+
+Think of large chunks of data, decompressed locally to fast storage (likely SSDs), replicated to enough nodes to complete processing in near real time.
+
+Incoming data of 100TB at 500GB/s means we have a ~200 second period, and need 1 teraflop/s to keep up with the incoming data.
+
+How much compute do we need? Peeking at the Top 500 list, start with the guess of 30 cores per teraflop. (The actual hardware we end up using may be considerably different.) So we need at least 30 cores. Sounds a bit optimistic. Lets round up to 60 cores, as a start. 
+
+How much throughput can we get from SSDs in RAID-0? How many times will the differing algorithms want to read through the data? 
+
+Assuming 500MB/s per SSD:
+
+  * We need (1000 / Nc) SSDs to support writes of the compressed data to front-end store (where Nc is the compression ratio).
+
+  * We need (1000 * Na) SSDs to support reads on the data on the back-end (where Na is the number of times differing algorithms run through the data). 
+
+If Na = 1, then 100 SSDs in a box means we need ~10 boxes (assuming it is possible to get 50GB/s in one box). With 10 boxes we need ~6 cores per box.
+
+... and that is about as far as I want to go without getting real numbers.
+
+This above is all back-of-the-envelope stuff. The real numbers will almost certainly differ. Lots of assumptions that need check. Also there is likely an error in simple math somewhere above.
+

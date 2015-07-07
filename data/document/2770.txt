@@ -1,0 +1,27 @@
+Highly Efficient, Intelligent Converged Resource Provisioning Portal with Cumulus as engine
+Enable more BUs to do as much as possible automation in data center/Labs/MFG to replace manual work.
+Further integrate and apply GPO's technology and platform with 3rd platform. 
+Makes more BU to install & use the Razor & Cumulus product.
+Identifies a way to handle CI solution provisioning with our owned solution & technology.
+Early this year we're considering how to support provisioning CI products with Cumulus and the same solution now seems available for MFG/Lab/data center provisioning
+There're several technical challenges with this solution, some of which has already been identified in Cumulus solution, others require additional technologies.
+Cumulus is a cloud based solution intending to handle hardware manufacture / test automation in the MFG. 
+
+Please see this introduction of Cumulus on GTAT Wiki page: http://corpusapcwiki/index.php?title=Cumulus
+
+To enhance Cumulus to support remote provisioning and deployment. We are integrating it with additional technologies, including:
+1. Auto-installation of the virtulization layer (e.g. ESXi, OpenStack). This can be achieved via PXE installation and we already have solution for PXE installing ESX. Openstack has support for PXE installation as well (one potential solution, is to PXE install a linux OS and then use Puppet Agent to deploy OpenStack).
+2. Auto-provisioning ESXi or OpenStack for VM creation: these can be achieved by API exposed by ESXi or OpenStack, or certain encapsulation library over these API. The images can be pre-built with pre-defined flavors.
+3. Auto-configuration of a VM as defined by the end user. This can be achieved by Puppet + Razor, which is a sophisticated provisioning solution and is sponsored by EMC.
+
+The target environment configuration can be sumitted by the end user as an order file (in XML for example). The order should subject to approval and once approved, will be translated to a Cumulus recognizable script to execute in the Cumulus Data Center.
+Furthermore, we can embed test scripts along with the provisioning scripts, to verify the generated Lab environment to ensure: enough resources has been acquired, applications installed correctly, network connection correctly established, etc. These test scripts can be auto-generated accorrding to the order or allow certain level of customization (help IT to debug and track).
+
+Cumulus has sufficient logging and notification mechanism built-in, to help administrator track and troubleshoot any potential issue occurred within the solution or by the provisioning scripts.
+1 Automatically deploy OS/hypervisor against bare metal server to replace manual work, OS/hypervisor is replacable based on the product type
+2 Automatically update firmware for servers in Lab/data centers/MFG 
+3 Environment setup & verification
+4 Environmental Monitoring
+5 Configure BIOS setting through REST API to replace manual work
+6 Provide remotely power on/power off and virtual console to compute nodes
+..

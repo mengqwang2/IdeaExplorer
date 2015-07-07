@@ -1,0 +1,16 @@
+Preferred Drive Configuration Modules for Speed and Efficiency
+
+I realized these pain points from conversations with colleagues in sales, manufacturing and support when working on projects related to our end-of-quarter hockey stick problem and Q3'13 backlog post-mortem
+I propose a multi-phase cross-BU approach to evaluate potential for preferred drive configurations
+1. Analyze historical configurations by bookings and sourcing patterns to identify most popular configurations and similar configurations across products via cluster analysis
+2. Collaborate with subject matter experts across BUs (hardware engineers, product managers, manufacturing, support, sales and finance) to develop preferred drive configuration options (by collapsing configurations into 'best-fit' models) and understand the risks-rewards trade-offs from creating preferred drive configurations / modules that meet most customers' needs and are easily customizable.
+3. Test and pilot preferred drive configurations for selected new products
+4. Nudge sales to select preferred configurations by listing preferred configurations at the top and certain fields are automatically populated in Direct and Channel Express' configuration tool, thus saving sales time building configurations
+
+Having preferred / fewer drive configurations makes jobs easier (from sales to manufacturing to support), saves costs and enables us to be more agile
+1. Easier to apply predictive analytics to increase demand forecasting accuracy when we have fewer permutations of possible hardware configurations to predict
+2. Higher likelihood of accurate pre-builds and ability to repurpose hardware for other models at end-of-quarter, thus reducing fulfillment risks
+3. Deeper discounts from drive suppliers by leveraging our bulk purchases of fewer drive types 
+4. Fewer configurations for partners and sales teams to remember / testing teams to evaluate / support teams to fix. This helps accelerate the launch new features and products and enables us to scale businesses with growing volume faster
+5. Simplified drive configurations are easily translatable into the baseline templates for our vBlock converged infrastructure / VSPEX reference infrastructure offerings whose demand is on the rise
+

@@ -1,0 +1,5 @@
+Increasig the replication (SRDF)distance on VMAX Array.
+
+When i worked with the competitor products like IBM and Hitachi I came to know the limitation
+Array code should support the Distance. We can increase the Through put of the RE and RF port in VMAX which is 3800 mbps. Based on this we do have to adjust the MTU Size on the size or else we have suspended RDF link. This will enable more throughput. 
+

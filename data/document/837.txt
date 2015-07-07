@@ -1,0 +1,35 @@
+Analytics-as-a-service using ViPR
+Our idea is to provide analytics-as-a-service (AaaS) using ViPR as a storage management tool across EMC products. This would provides infinite analytical capabilities like - analyze common patterns in failure, prediction of failures, view QoS parameters and tune the products better to meet the requirements etc.
+
+Big Data analytics
+Our solution uses ViPR Controller as an integrated enterprise storage management tool across EMC products for data mining using call home data and provides AaaS.
+
+* Most of our product support some form of call home mechanism. We extend this to automatically send product related information to the public cloud hosted by EMC periodically.
+
+* The product information will be restricted by the size of data that gets transmitted to our cloud
+
+* The data would be parsed and stored in an object store 
+
+* For data analysis we use existing Pivotal solutions for our analytical engine
+
+* We  would expose REST based web services to the clients via ViPR. 
+
+* Customer pays for the services he uses and initiates analysis request in ViPR. 
+
+* Web server would  handle the client requests. It in-turn invoke the analytics engine which fetches the data from the object store and processes the request. 
+
+* The response will be in the form of JSON. 
+
+* ViPR generates the data representation in the form of graphs, reports, dashboards and provide corrective measures if applicable.
+
+
+For details please refer : https://inside.emc.com/ideas/3516
+*Generates alternate sources of revenue by selling AaaS
+
+*Make ViPR de facto standard for storage management across EMC products there by increasing the user 
+Experience
+
+* Since we would be having a repository of product information, we can use it for data mining operations like failure prediction, perform signature based pattern analysis, isolate bottle neck etc
+
+*Using 3rd platform, EMC will have a strong footprint in providing analytics-as-a-service
+

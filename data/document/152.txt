@@ -1,0 +1,8 @@
+Install Base Scanner
+it will make the Install Base easier and much more efficient.
+while extracting wrong iformation from install base
+an IB Scanner to be implemented to capture all equipment being installed in field, Serial No. & TLA to be scanned during the installation activities and an IBG Case gets created automatically for further processing
+
+This Idea can be implemented on any kind of peripheral or handheld devices and platforms
+achieve customer satisfaction as aresult of accurate extraction IB data
+

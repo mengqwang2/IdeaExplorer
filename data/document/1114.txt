@@ -1,0 +1,8 @@
+Automated VPLEX CCA Scripts 
+Automate the process of the CCA Approvals.
+As an RCM VPLEX upgrade Engineer , We have to make this process for each box before doing an upgrade to get the CCA to do an upgrade ,thinking of automating this process will save time and eliminate a lot of burden.
+
+My idea is a script that automates the process of getting the health check report of VPLEX and analyse them to get the Change Control Approval 'CCA' before doing an upgrade on the box that is user friendly.In other words , we run this script on the box and output if there were issues with the health checks of the box and how it can be fixed.
+1-Automated process.
+2-Time Saving.
+3-Better user interface.

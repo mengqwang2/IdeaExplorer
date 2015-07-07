@@ -1,0 +1,36 @@
+STEM-IQ ::: Now "Redefined & Gamified" (Proof Of Concept Ready & Available)
+
+This is idea is a result of innovation workshop/brain storming session with domain experts in EMC education departments.
+Gamification is in “its really early days, and we’re still drilling into how and why this stuff works and what makes it effective.” Indeed, it’s possible that the most popular application of digital gamification “might be something we haven’t even thought of yet.”
+
+It should come as little surprise, then, that gamification is beginning to experience success in training and education markets.A nice thing about gamification is that it provides metrics, so that we can pretty easily see as a trainer or educator.
+
+Gamification lends itself particularly well into e-learning, because the necessary data for tracking progress is more easily collated, though it is important to remember that the process can be used on classroom just as effectively. Virtual learning environments and Learning Management Systems make an ideal location for the implementation of gamification.
+
+
+Complex Game Mechanics:
+-- Appointment Dynamics: to bring players to do something at a pre-defined time and place.
+-- Progression Dynamics: the success of the student is measured through the tasks by giving rewards.
+-- Communal Discovery: the entire group of students work towards making change in learning mechanism. 
+-- Influence & Status: any participant or group that is involved in the change-making process, is influenced by the presence of others because of the competition and the envy that leads them to carry forward the task.
+
+
+Other Key Performance Indicators/Logistics/Timeline Parameters:
+
+
+*** Unique visitors
+*** Page views per visitor
+*** Time spent on site
+*** Total time spent per user
+*** Frequency of visits
+*** Depth of visit
+*** Participation
+*** Conversions
+
+
+
+Benefits:
+There are a number of different pros to gamification, not the least of which is motivation. Gamification creates competition, and it can help motivate students to do better in the classroom because then they’re “winning”.
+
+In addition to the clarifying points of gamification though, it can also make learning more fun for students. Even studying is enhanced by turning basic review into games such as board races (where competing students attempt to solve problems correctly and with as much speed as possible), Jeopardy-like quiz games, and other forms of learning.
+

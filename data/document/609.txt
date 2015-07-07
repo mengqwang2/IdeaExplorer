@@ -1,0 +1,9 @@
+CLM Microcode Install Date Fix in IB
+The idea was addressed as a Lean Six Sigma project in order to capture the value it brings in terms of time and cost savings.
+The results are impacting many entities, and thereby affecting CSAT.
+
+The idea came after realizing the issue is recurring in the Install Base (on daily basis in massive amounts) and discussing its impacts with BTG team.
+After brainstorming with BTG team and system developers, Work Request 395265 was raised to correct the logic of CLM package in order to create microcodes in IB with the Install date field correctly populated.
+The fix was implemented in Q2 2015, it aimed on reducing the number of microcodes created by CLM without filling the Install date in IB to 0.
+This resulted in higher efficiency, data accuracy, decreased workload for IBG and therefore saving man-hours and eventually higher CSAT 
+

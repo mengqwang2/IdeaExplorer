@@ -1,0 +1,7 @@
+Call Drop Rate analytics
+
+-
+Create an analytic tool that would analyse the call drop rate for each BTS. The tool also analyses the neighbouring BTS and is aware of all the frequency allocated to all BTS. 
+
+When the call drop rate increases the tool automatically optimizes the frequency distribution across the BTS to minimize the call drop rate as much as possible.
+

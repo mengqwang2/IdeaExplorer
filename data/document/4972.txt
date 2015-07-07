@@ -1,0 +1,12 @@
+Improve the debugability of DP stack
+
+Lots of person tried to debug safe container and final had give up due to lots of uncontrolled facts. Due to the fact that many modules cannot be built, tested and deployed, unit test (function level test and step over code) is nearly impossible. Many developers also contribute lots to try to fix this issue separately, however the result is not good. 
+
+It's time to pay back the technical debts and improve individual productivity. 
+There are lots of things to do before we can easily debug the DP components. I just list some basic things we need to do:
+1. enhance the build process and deployment model so that each component can be build, test and deployment separately. Current all file related services are in the single big cdx.so file.
+2. decrease the thread number of safe container. there are about 10K threads now. Feld Andrew said (see comment in above link) they cut down the number to 1000 in their environment already. That's great
+3. timeout control. there are efforts to control this also. however the progress is not so satisfied as we cannot debug the safe container yet so far.
+
+Those change will not affect the architecture but requires big change of code organization, build system, package system and update mechanism.
+

@@ -1,0 +1,6 @@
+Data Center Prediction Cooling System
+This idea creates a  cost effective & efficient model for cooling data centers the is based on the data collected over time. (including hardware, software and parallel process components) that allows the massive execution of machine learning algorithms for time series prediction use cases. The following parameters/constraints should be taken into consideration
+I submitted the idea in another form 2 years ago, but didnt get feedback about it since then
+First to plug sensors to capture the data center temperature over time
+Then design EMC products as to use the heat coming out of all data center devices to be used for cooling the data center just according to the minimum need of the data center according to the algorithm calculated from the previous data collected about the temperature
+EMC will have a competitive edge using this new technology. Will open new markets and customers.

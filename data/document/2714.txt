@@ -1,0 +1,21 @@
+Integrating third platform social messenger into data protection solutions
+Currently CTD product has various products and each product having own way of sending notification to user during the critical events. For example Networker product has Email and log messages facility to notify the critical events to the user. 
+Currently there is no integration of social networking apps into our CTD products. Recently world is moving towards the third platform applications and integrating social messaging services into our product will improve the customer confident and support the end user efficiently.
+
+The Solution is given with example of Networker and Backup technology, the same case will be leveraged across all the CTD products.
+The proposed solution is to integrate the advantages of social messenger into data protection solutions. The backup server should be configured with SMTP server to send or receive the message between backup server and configured social messenger. SMTP server act as a gateway between the backup server and messenger. SMTP Server will maintain the data base which contains information of the backup admin’s BYODs which they are using for their social messenger communication.
+Messages will be sent in particular format to the backup server. Backup server parses the messages, extracts out the control information and performs the operation accordingly. In similar way, backup server will send notifications or critical alerts to the backup admin via the social messenger.
+Messaging format examples to perform backup from messenger,
+START BACKUP <POLICY> <CLIENT GROUP>
+START BACKUP <POLICY> <WORKFLOW>
+START BACKUP <GROUP> <CLIENT>
+Backup server should be configured in such a way that whenever it receives a message, it should immediately parse and perform the backup for the mentioned clients. To have this as an efficient solution a Social Messenger Engine would be built which would receive the text message information through the messenger and parses it to control commands and triggers the intended action. Social Messenger Engine would always check the notification and alerts and pass the information to the Admin or Admin’s group (aliases) configured in the SM (Social Messenger).This will also send periodic information about the status and statistics of the backup environment to the admin. Based on the feasibility more and more command options can be added to the SM Engine
+
+The Solution is given with example of Networker and Backup technology, the same case will be leveraged across all the CTD products.
+
+
+The detailed document is posted here:
+https://inside.emc.com/docs/DOC-152129
+The proposed solution is to provide BYOD experience with Networker/Avamar so that the admin can initiate backups and receiving critical notifications via social messengers 
+
+It will help the admin to always aware of what is going on in the data protection

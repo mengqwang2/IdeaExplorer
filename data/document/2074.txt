@@ -1,0 +1,23 @@
+Centralized IP Address Management across EOS2 Lab
+Improve efficiency related to Shared Service delivery
+Efficiency can be improved 
+
+1)By having the following data on real time.
+        a)Free address space available
+        b)Subnet  details
+        c)To whom the IP address are allocated
+        d)Re-allocating the IP Addresses
+
+2) Eliminating following conventional approaches
+        a)Manual tracking through spread sheets or other forms
+        b)Approaching NOC team on demand for IP availabilities
+
+Being with engineering lab for 4 years, we have faced the challenges 
+     1)We are frequently facing IP conflicts issues in our lab environment
+     2)We are facing IP Address shortage issues
+     3)Manual Error when updating excel sheet
+
+And  that journey made us to flourish this idea.
+
+Same concept can be incorporated in the engineering service management / the hub portal or we can recommend IP management tools which are freely available in market like Solarwinds
+We can manage and deliver professional IP network services.  Can avoid ip conflict which leads high impact to infrastructure and service offerings. Also it will be very helpful to Lab administrators to track IP Addresses and related issues efficiently

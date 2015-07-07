@@ -1,0 +1,23 @@
+Unified Transport Management for Smart Cities using Censors & IoT and Data Analytics
+Egypt COE Smart City and IoT Challenge: This idea helps into better traffic and vehicle congestion management for Smart Cities of Future.
+
+I got this idea after reading about Google Driver Less Cars.  Driver less cars with Sensors , IoT enabled can be tracked and integrated to common traffic management system for a better traffic management and control.
+Solution I propose here is an 'Integrated Traffic Management & Data Analytic' platform backed up by EMC Storage & Data Analytic Platform - ISILON.  
+
+For Integrated Traffic & Parking management, will have the following solutions/features:
+
+1. Install Smart Sensors in all public and private vehicles. For Driver-less cars, these devices are not needed.
+
+2. Integrated Traffic Display System in all public places (Bus-Station, Metro-Stations and Airport),  Metro-trains, City Buses. Provide Mobile Based App to get traffic updates/status.
+
+3. For Parking Areas, Install Underground Sensors and connect them through Mobile Apps. That App will provide information on - Parking Availability, Free Parking Slots etc.
+
+4. Use EMC Storage & Analytic solutions (Isilon) to analyse the traffic/vehicle movement pattern. Use Data Analytic/Big Data algorithm to analyse, predict the traffic movements, density etc. City Planners and authorities can use the data for Infrastructure planning and improvement. Traffic Management can use the data for Traffic Rules.
+The idea has got multiple benefits:
+
+1. Better Traffic Management in cities.
+2. City Planners can use data for Infrastructure Development and for City Planning.
+3. With integrated traffic management system, people will able to find less crowded roads - which will help them to save money on fuel etc.
+4. Low fuel consumption - will lead to less pollution and  better environment.
+5. Will promote usage of public transport system.
+

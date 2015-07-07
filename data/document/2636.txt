@@ -1,0 +1,5 @@
+Build a Smart Road System for a Smart City
+Using EMC technologies to help designing roads in the new smart city
+It would be easier if organizations that were most visited by people are on wide roads
+Using networking, data storage and data analytic technologies, we store the number of people that can visit a specific place ( whether governmental organizations, multinational companies providing customer services, etc )  and help to design the roads due to the predictions made ( to optimize the city road system and how they are implemented in order to avoid crowded places )
+Using EMC technologies to help enhance the style of living would be a good marketing for EMC, optimizing a city road system that would make it easy for people to access governmental organizations or to get a specific service without wasting time in traffi

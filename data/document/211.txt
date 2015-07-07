@@ -1,0 +1,6 @@
+Smart Parking /Garage Sensors 
+This idea will make parking easier.
+NA
+Working with the Paython Committee to develop a script that is connected to sensors to check if there is free slots for car parking or not and display the number of free slots on a banner at the garage entry. 
+
+Smart parking, Easy parking methods.

@@ -1,0 +1,21 @@
+Redefine your sales opportunities
+It's a new year, and the time to chart the best course for sales success is now, and not tomorrow. With the lion's share of B2B consumers now turning to new ideas to research opportunities, creating a strong presence and developing a professional brand and an outstanding relationship with the customer is more crucial than ever before.
+I thought about the idea while receiving the “effort estimator “for replacing a disk into EOSL arrays within WIND telecommunications SPA in Italy. The main idea was to leverage the use of the Global Business Service and offload the sales/presales from back office work in preparing the TCO/ROI analysis, OPEX, CAPEX of renewing the depreciated arrays. I saw with my eyes “still operating arrays” with 46GB fiber disks running at a DC of a Telco company. We cannot imagine the amount of energy that can be saved with leveraging the use of the modern arrays.
+Regarding the automating of the process. I thought about this idea when I was transforming the IB data to Visio diagrams to give the customer, sales account managers, and SEs a panoramic view of their data centers about the existing EMC and non-EMC arrays that the customer has. I found that there is a gap and the most of the customers are not aware of all what they have into the datacenter and it was a benefit to have such tracking service within accurate database.
+
+
+Simply my idea was to be more prepared when we go to our customers. Actually when there is EOSL array sends a call home request to change a failed disk, actually EMC answers with an “offer” to change the failed disk with a new one with the price of the HW and the effort of the customer engineer.
+
+My idea is to change the current procedure as following:-
+
+1-	Send the current e-mail to the customer and telling them that they going to be contacted for a meeting.
+2-	Send an automated e-mail to the sales/presales persons for a tech refresh opportunity on the road.
+3-	Send another copy with the array properties to the TSSO team to prepare and initiate a communication with the presales person to prepare a TCO analysis and a full presentation with the most convenient tech refresh array for a solid and higher percentage of success with the customer.
+4-	Sales/presales will go to the customer with a full study on hands to explore the opportunity and increase the TCE of our customers.
+5-	I aimed to automate this approach in the idea # 2014000788 in the innovation showcase.
+
+The approach will
+
+- improve customer satisfaction
+- Make money 
+- Will optimize the current process of doing a tech refresh.

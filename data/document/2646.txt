@@ -1,0 +1,21 @@
+XtremIO Elasticity Through Multi-Size X-Bricks
+Customer’s capacity requirements are increasing dynamically, but, XtremIO being one of the robust AFA in the market is not flexible enough to scale. Once they buy an X-Brick of certain type, the architecture allows it to expand using only the same X-Brick
+During our brainstorming and research, we found most of the XtremIO competitors offer dynamic expansion to accommodate the varying capacity needs of the customer.
+XtremIO should allow mixing of different sized X-Bricks – a single cluster should allow mixing of 10TB, 20TB and 40TB. This feature enables the customers to buy and add different types of X-Bricks according to their requirements, as the data grows. XtremIO architecture does not have any constraint in adding this feature.
+
+To achieve this, Fingerprint space for each SC should be weighed according to the size of the X-Brick:
+
+In a homogeneous cluster, data is distributed among all X-Bricks using consistent distributed mapping; this is done by dividing the fingerprint/hash address space equally among all the Storage Controllers. 
+In a cluster with different X-Bricks the physical capacity of each X-Brick is different, and therefore fingerprint address space has to be distributed in a way that is proportional to the physical capacity of the X-Brick.
+
+How is this achieved? 
+Each Storage Controller (SC) will be assigned weightage based on the type of X-Brick
+10TB X-Brick SC – 1
+20TB X-Brick SC – 2
+40TB X-Brick SC – 4
+Fingerprint Space % for a SC = (Weight of the SC)/ (Sum of weights of all SCs)*100
+
+Please refer to the link for elaborate description of the solution: 
+https://inside.emc.com/docs/DOC-152879
+
+With this idea, different X-Brick types can coexist in the same cluster with the fingerprint space mapped proportionally across the different X-Bricks. This in turn enables even distribution of data among all the X-Bricks. No single X-Brick or drive is ov

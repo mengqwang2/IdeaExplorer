@@ -1,0 +1,5 @@
+Data Insurance and Valuation/Underwriting Technology
+This submission is directly for the CTO Office. Our submission has identified a high-potential adjacent market where EMC currently does not play: data insurance. Dr. Jim Short of UC San Diego is a co-submitter for this idea.
+In January 2015 Dr. Jim Short of UCSD was given funding by OCTO for data value research, and immediately discovered the emerging data insurance market. Steve Todd was assigned as OCTO's SME on the research and begin discussing valuation algorithms with Jeroen VanRotterdam of ECD. The data insurance idea resulted.
+The full solution is described on Inside EMC: https://inside.emc.com/docs/DOC-155390 
+If incubated, EMC could potentially sell products/services that (a) calculate corporate data value (b) support infrastructure assessment tools that report trust characteristics (c) perform automated placement and monitoring of insured data sets onto appropriate levels of trusted infrastructure, and (d) result in tools for monitoring compliance to data set insurance policies

@@ -1,0 +1,8 @@
+Generate backup strategy on demand 
+
+I came up with the idea when considering data recover stragety.
+Generate backup strategy on demand will have advantages as below:
+1. Improve system performance and resource efficiency
+2. Decide whether full or incremental backup from through put will reduce cost on storage and time to data recover
+
+

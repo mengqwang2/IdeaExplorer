@@ -1,0 +1,5 @@
+Automatically LUN or datastore extend
+
+The administrtor can do extend operation to the LUNs or POOLs but I'm not sure if it can be automatically extended
+Setting a watermark, such as 80%, when comsumed space reach this line, the datastores and LUNs can be extended automatically
+

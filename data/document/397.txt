@@ -1,0 +1,5 @@
+Streamlined booking for International Orders
+International portfolio has customers from all over the world. When the booking happens, it should be noticed that the currency in which it is billed should be under the US organization. EMC quotes are always in USD and hence it should be made sure that the customer issues a PO in USD and not in their local currency.
+I have faced this issue several times while working on the international portfolios billed in different parts of the world. 
+This needs to be noticed at the time of booking and keep the customer informed about issuing a PO in USD which would make it easier for us to apply the payments. 
+Once this is implemented we would not have to de-book and re-book the order and the payments can be applied correctly without any wastage of time.

@@ -1,0 +1,17 @@
+Web Compatibility Tool: Gather accurate information for seamless upgrade/migration
+• Expand Shared Service Capabilities, Availability, Quality, or Response Time
+• Measurably improve Product Time-to-Market
+• Measurably improve Customer Experience
+• Improve efficiency related to Shared Service delivery
+We realized the potential opportunity when we got multiple doc FRs on not understanding the compatibility tables in PDFs. We also got similar feedback from Customer Support.
+
+This idea is under discussion with Management.
+To move away from the current complex approach (comprehending matrix tables in PDFs), we want to move the information in easily retrievable format. Our suggestion is to come up with a HTML based web compatibility tool. This tool should help the customers to select the source product version and the target product version (for upgrade or migration) and retrieve the required information about:
+
+• Upgrade Path
+• Migration Path
+• Interoperability with other products
+• Compatibility with other products 
+If the proposed tool gets implemented across the ECD product line (Documentum, xCP, and D2), we would definitely call it as a Success. This approach will not only enhance the usability but also reduces the errors that may creep in due to manual intervention.
+
+Improve customer satisfaction, enhance productivity, and PMO can update the HTML directly on their own.

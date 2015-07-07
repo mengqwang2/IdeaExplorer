@@ -1,0 +1,6 @@
+Boost the performance of ScaleIO by using SSD
+ScaleIO is a mojor product of Israel COE. Improving ScaleIO performance, will help to win the market.
+For the architechture of ScaleIO, the backend disks are local disks on servers, and the transaction path is ethernet. It's hard to convince customer that ScaleIO has the capability to provide high performance.
+We could provide a high performance installation option for customer. With this option, customer just need purchase a SSD on each SDS node. Then ScaleIO will use the SSD for read/write cache. This will help to reduce storage latency greatly and accelerate IO operations. The more SSD capacity the host has, the greater the performance boost.
+
+ScaleIO has the ability to provide high performance storage for critical applications. Then less concern about performance from customer, more market wins, more money made to EMC.

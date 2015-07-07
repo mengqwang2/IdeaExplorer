@@ -1,0 +1,27 @@
+Tech. Your Health
+It is related to the "Office of the CTO 'New Business' Challenge" Challenge, as this is a new business opportunity that will also need EMC's storage and cloud infrastructure to bloom, thus expanding our customer's pool yet within EMC capabilities as it will be built mostly with what EMC produces today.
+
+It is also relevant to  Egypt COE Challenge as it will be highly useful if utilized in a smart city. Also it will be easily integrated because of the ready infrastructure of a smart city
+- The idea started with seeing nano chips for GPS tracking
+- So something small, embedded under the skin, it might as well track the body itself
+- So why not track basic medical needs like heart strokes or sugar level in the blood stream
+- But it can't contain a lot of data since it is so small, it can in the future but not now
+- It can be however an authentication token for medical records
+- So what we need is a centralized place for the data and a reader for that chip and we have the idea Track or Tech. Your Health
+- What if we have something to carry around with us that have all our medical history
+- Something when scanned can bring the needed and relevant info to the screens of doctors and hospitals
+- something that won't be stolen, secure and reliable.
+- To embedded a nano chip under the skin, in the arm. This chip will have a unique code, that when scanned by a designated scanner designed for this purpose only will release the patient's medical history, notes, medical info, and prescriptions if any and medical insurance info as well. And any other relevant information that might be needed in a medical chart of the patient
+- It can also give basic diagnostics like heart attacks, blood pressure, and sugar level
+- The infrastructure will be based on cloud and storage solutions provided by EMC and linked to all hospitals and clinics that choose to be a part of the medical network.
+- There will also be a need of a scanner for the chips in hospitals and clinics. 
+- The patient may need a scanner at his residence as well if he wants to update his chip if the chip was upgraded to contain some sort of memory or storage, or any scanner can do so if provided a unique authentication method for security of the chip
+- Those info will only be disclosed by approval of the patient or next of ken as needed
+
+- It is far more reliable than a mobile phone since it will not be that vulnerable to theft or being lost or damaged.
+- Based on it we can far improve what this chip can carry or provide
+- It will open a new market for EMC to include the medical sector on every level, from the patient to the clinic, to the hospital to the medical insurance companies to the drug manufacturing companies and even for the health sector in the government
+- Patients will need this type of help specially seniors, and the more it is requested the more hospitals will request to integrate with the system and of course the rest of the parties
+- It has a wide range of opportunities since new integration will be provided and new parties are involved
+- As EMC we already have the infrastructure solutions for that type of integration, we'll only need to modify it a bit
+- The cost will be mostly for building the nano chips and their scanners 

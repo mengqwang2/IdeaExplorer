@@ -1,0 +1,5 @@
+Application for Solutions Design
+
+I have worked for most of the GEO's and for each of them i had to prepare a different design document. 
+Currently Design documents are influenced by Person/Geography/Approach and many other aspects. We can build a tool, where we can have granularity of selecting 'Products>Services>Data Feed>End Design' similar to Procedure Generator and it will build a similar document across the globe, so if a customer works with 2 different people he does not get 2 different documents. 
+

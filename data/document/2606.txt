@@ -1,0 +1,7 @@
+Add content assist functionality to all EMC CLI command products
+APJ Challenge: Customer experience should be a key part of any solutions platform.
+TCE Challenge: This idea improves the customer experience for array management.
+CTO Challenge: This idea will increase the sells of our arrays and sharp our brand.
+I need to use Solutions Enabler CLI during my work very frequently, I have suffered a lot that every time when I need to type a relatively complicated long command I wastes too many times on looking up the manual book.
+I think we need to add content assist functionality, so that the list of all command names or paramters which matches the currently typed characters, can be populated on the screen automatically. Customer can select one in the list then the selected one will be auto completed to the current command line, this reduces the difficulty to type complicated command lines.
+This will improve the customer experience greatly, so that make our CLI command products more competitive in the market. Our CLI command products will be much easier to use, managing arrays will become much easier than before, which will result more sells

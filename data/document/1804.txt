@@ -1,0 +1,7 @@
+TCE Challenge
+N/A
+Real time challenge 
+My solution is a system with Direct customer interaction CSAT, if you are contacting the customer via email this should be attached to the email directly after finishing the case. we can also make this system works only on VIC webs with high severity.
+
+This will recognize the work done and will be much easier for the customer to fill our directly
+N/A

@@ -1,0 +1,8 @@
+RSA via mobile Phone 
+
+*
+create am application where EMC Employee send his/her username and Password to.
+
+Employee will then get a reply with the Number he/she should use to get connected to EMC Server
+
+

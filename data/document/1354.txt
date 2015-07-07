@@ -1,0 +1,43 @@
+Smart connected workplace and Digitalized Platform for Productivity Improvement
+Creating a smart connected workplace leveraging the available tools and technologies within EMC to foster digitalized communication and collaboration solutions which will increase the employee productivity.
+
+We have a global team travelling across EMC locations, whenever we travel to multiple locations, we face lot of challenges in locating the printers and meeting rooms and carrying the devices around the workplace.
+Also our team analyzed that for meeting follow up with minutes of meeting, missed calls on the desk phone, redrawing and rewriting meeting discussions on whiteboard into digital picture ,employees face lot of issues and end up investing considerable productive time.
+-Desk phone Calls will be  routed to cellphone when the employees are not available at desk or in office. This can be optional for employees to select using call transfer features.
+
+-Hand off feature as in IOS8.3 for employees to continue with their work or presentations on any other EMC connected devices.
+
+-An application to book meeting rooms based on employee’s current location , preferences and availability automatically using Wireless Meeting rooms concept
+
+-Meeting Recording Automation for MOM can be achieved using:
+
+---Dynamic meeting minutes generated for meetings over WebEx to save time(from WebEx recording   Voice to text conversion identifying key action items). 
+
+----Voice tagging will be used to the WebEx meetings which will allow employees to understand their action items which have the employees names mentioned in them.
+
+----Recording WebEx discussions and presentations during meetings which have conflicts, for the employees to understand the details of the meetings they missed.
+
+-The meeting rooms can be built as NFC based which can automatically put all mobiles into silent mode during the meeting hours.
+
+-Siri like feature on EMC devices – laptops, Mac books etc. where the users can just tell what they need such as show calendar, open email etc. which can save a lot of time.
+
+-Smart Printing – Employees can print documents from any EMC devices by connecting to the nearest available printing device based on the preferences of the floor given by the employees using Cloud printing being piloted to simplify printing process and experience.
+
+-Analytic engine integrated with webex to fetch details on the meeting scheduled duration and actual duration it was conducted, arrive at the efficiency metrics, also obtain potential insights by doing on analysis on employee profile/clustering and time spent on meetings, provide potential recommendations to senior management for improving the productivity.
+
+-VoIP call features in laptop that can sync history and integrate with Lync.
+
+-Replace physical cisco phones with soft-phones to connect with other employees through VoIP. Connectivity to meetings (WebEx) through Lync or VoIP on laptop. An option to reconnect automatically if dropped of earlier than the meeting closure.
+
+-Fingerprint detection for  file sharing on the fly and connecting to VPN – unlocking feature already available in different devices in the market. 
+
+
+
+-Increases the productivity of employees by 5-10% by automating 
+  -Meeting of Minutes and associated followups
+  -Printer finder/locator and auto installations
+  -location aware Meeting room selection booking
+-Make EMC a smart and connected work place.
+-Increase employee satisfaction and growth rate.
+-Reduction in 10% Incidents with IT Service Desk raised due to configurations issues
+

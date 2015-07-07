@@ -1,0 +1,32 @@
+RMA Logistics Tracker Web Tool = Asia Pac
+The Reverse Logistics RMA Tracker Web Tool will provide EMC with end to end visibility once an RMA number is inputted into the system by the EMC Sales Office or service provider to when the RMA is processed by the Reverse Logistics Operation in Thailand.  It will streamline communications between all stakeholders and act as a central location for all RMAs with real time visibility, and ability to run KPI’s to enhance the operation in the APJ region for the BIZ OPS APJ team, EMC Reverse Logistics team in Cork and the Global Logistics Team.
+Prior to 2014, only in-transit details were being captured for RMA shipments within the APJ region.  We decided that this level of visibility was not enough and as a result an enhanced web based in-transit report was created giving greater visibility.  
+
+While visibility was definitely enhanced with the addition of RMA numbers and other key data to the in-transit report, we saw the potential to develop the web tool further.  
+
+After conversations with the key stakeholders and taking their valuable feedback on board, a platform was developed to track and report on RMAs once created, real time status updates, instant email pre-alerts once certain key functions completed.
+
+Who will use the Web Tool?
+
+•	The tool will be used in collaboration with a number of parties, namely APJ BIZ OPS Team, Logistics Service provider, Cork RMA team and the Reverse Logistics Operation in Thailand.
+What is the Web Tool?
+•	Moving away from Excel reports, the Web platform will provide a central location to track history of a RMAs status, once created, right through till it is processed by the RLO Operation and reviewed by the APJ BIZ OPS Team.
+
+How will it work?
+
+• APJ Biz Ops Team or the Logistics service provider will input the RMA number to website along with serial number if applicable.
+•Once RMA(s) is ready for collection, Biz OPS team will have the ability to schedule a dispatch/shipment using the web tool via an automated alert to the relevant air/ocean department at the desired collection point.  RMA Tracker report automatically updates with the new status of the RMA.
+•Carrier at origin will confirm collection request, then once available, enter booking details and relevant container details into RMA Tracker and In-Transit reports.  Commercial Invoices, Packing Lists and other relevant documentation can be uploaded and stored on the site which will facilitate pre-alerting the RLO Ops team who arrange the Department of Industrial Works (DIW) Import licence and ensure a smooth delivery on arrival in Thailand.
+•On delivery to the Reverse Logistics Operation in Thailand, the operator enters key data and once finished processing a container/shipment an automatic email with a link to the relevant shipment on the RMA Tracker Report for review or action will be communicated back to the relevant APJ Biz Ops location.
+
+What is in it for EMC? 
+
+•User friendly web tool that provides at a glance visibility/status of an RMA once created, while in-transit, and till processed at the RLO operation in Thailand.
+•Central Location for RMA data in the APJ region.
+•Web Tool will be able to capture both Direct and Partner Returns.
+•Ability to prioritize specific RMA’s easily 
+• Supports the region’s management of Field Inventory
+•Reduce communications between EMC, Carrier and RLO team.
+
+
+The Web Tool will provide enhanced visibility and control to EMC on status of RMAs once entered onto the web tool.  It will enable access to information instantly, on one system on all movements of an RMA once created to being processed.

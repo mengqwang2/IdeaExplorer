@@ -1,0 +1,13 @@
+Social Analytics Mobile/Web Application for Customer's feedback and insights
+The Idea Depends on getting the total customer feedback from all Social/interactive channels that either the Social media offers or EMC offers through customer/partner channels.
+EMC offers Social interaction with the customer on all the platforms, however are not linked together. Moreover the customer tools are not linked together as well. Linking both in one app, will have the customer's use it more frequently which will give us one backend for data analysis. Channeling all customer's media interactions from other platforms with the social/business app as well as basic services, will provide a more holistic view of customer trends, expectations. Thus better product/service models. 
+- The App, will have all the basic functions from opening Service request tickets to access to all communities. Thus will give the customer the ease of access, on the go, to all EMC traditional resource.
+- The App will be used to get customer's feedback/insights on all EMC service/product models through social space offered to the customer. thus the customer can for example hashtag a product service, to provide insight or an inquiry to a certain function/product/service of EMC.
+- the rules such as the "mentioning - @", "hashtagging - #", re-posting  from other platforms to the EMC business social space, will all apply thus all the algorithmic analytics already in place for "inside EMC" can be utilized.
+
+- For example re-posting of a customer of an announcement of a product from a competitor, while sometimes we have this product in place (customer is not aware of), will give the marketing/sales team an alert that there is an opportunity for the customer to consider the EMC product of the same category.
+
+- customer sometimes do not fill the survey, or because they filled a recent survey are not sent one. The application will give a better chance of getting more feedback from the customer's.
+
+- Linking the EMC app to customer's twitter mentioning will assist through real time analysis the interest of the customer's and how should we offer the customer a better experience at all times. 
+The category of success will be if customer was having a very easy/attractive interface that they favor to use to share all their ideas with EMC for EMC models and well as their technological aspiration in general. this will give a great insight on how we should position ourselves and thus continue leading the market, offering our customers the best experience. 

@@ -1,0 +1,10 @@
+Offline Replication
+VNX Replication feature improvement
+VNX Replication unlike rsync is running below file system level and can not sync existing files. Establishing replica it always replicates whole source file system from the master site.
+Two options: 
+
+1) Create software feature that dumps file system to offline storage at source site and allows to import the dump at destination site as slave replica establishing replication session. That works for initial replication for big file systems.
+
+2) Create software feature that convert source filesystem to slave replica by generating meta-information needed for VNX-replication. This would allow to recover master-slave replicas from offline-backup and make them in sync.
+Minimization WAN link traffic for VNX filesystem replication.
+Improves DRP / RTO for slave site.

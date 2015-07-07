@@ -1,0 +1,14 @@
+Customer Satisfaction Booster in Telecommunication Industry using EMC Big Data Solution
+
+ the idea came to my mind from the ringing tone feature applied by the telecom operators in an illogical way 
+The idea aims at :
+-	applying big data techniques to gather the huge amount of information available in social networks for example 
+-	analyze this data to know more about the preferred songs/music by each customer.
+-	apply this preferred songs set as the ringing tone this customer will hear when he calls somebody. each time we can surprise the customer by one of his most preferred songs that will greatly maximize his satisfaction. 
+Think of a customer who is surprised by a favorite song each time he calls someone. He/She will exactly say "this telecom operator is thoughtful to its customers".
+
+This idea is also greatly applicable to customers waiting on the phone in support centers calls (for example a customer calling EMC CST and has to wait few minutes).
+
+Big amount of data is available on the social networks which needs big data techniques to for analysis and data profiling.
+
+

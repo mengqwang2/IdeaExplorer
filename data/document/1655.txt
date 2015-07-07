@@ -1,0 +1,33 @@
+Proactive Preventative approach for sever customer issues like DU and DL (Data Unavailable/Data Loss) - using big data to predict complex issues. 
+•	Israel COE challenge: 
+The Idea leverages Big Data/Data Science to enhance EMC products and maximize TCE. This enables EMC to provide tangible value to our customers as well as generate revenue.
+
+•	Global product operations:
+The idea contributes greatly to TCE and enhances EMC products quality and availability.
+
+•	CTD Supportability in 12 Months or Less:
+The idea enhances products supportability and is applicable to all CTD portfolio. It improves troubleshooting by predicting the customer issues
+
+the idea came up when I was analyzing some logs to check for suspicious incident happening just before the problem occurred t takes years of experience to pass through such similar SRs to start relating symptoms to each other. We thought about leveraging big data techniques to provide predictive insights that will save us time and effort.
+ We built a team composed from technical leaders, software developers and Data scientists to brainstorm around the challenges where we used the domain knowledge that each one of us has and we came up with the presented idea.
+We as a team have the ability to collaborate and incubate this idea and bring it from piece of paper into life:
+•	Eslam will provide the business as a technical leader and support expert, he can give the  vision and  can evaluate the solution  (represents the customer)
+•	Omer and Amihai will work together to build the engine of the system by using data science and software engineering skills 
+•	Nimrod will work on the architecture and the software engineering part as data architect and senior developer.
+
+
+For severe SRs, we can take advantage of the vast amount of data that can be gathered regarding such issue (logs, SR notes … etc.). Collected data can be stored in a centralized data warehouse. Then, we can run Big Data analytics techniques such as text analytics and collaborative filtering  to classify and group similar SRs. for a group of similar SRs, we can analyze the relevant data such as logs and SR notes. Log entries will be analyzed in a chronological manner (with respect to time) to check for certain symptoms or events that happened before the issue. the data will be analyzed relating similar SRs to each other to find the most common symptoms that preceded the issue. For example, some data disconnection in some products is preceded with high latency for some time. In some products, unexpected reboots are commonly preceded with some hardware messages.
+
+we will analyze such events to get to know what was happening just before the disconnection issue. Afterwards, the results will be presented for Engineering and SMEs team for analysis to formulate the symptoms in a better and more precise way.
+
+This allows us to combine common symptom set for each severe issue. The symptom set can be fed into the box alerting software (may be in next code update).
+The next time, once the box logs report such symptoms, an alert can be automatically be sent to EMC (may be creating Dial Home SR). The support engineer will then check the predicted issue and its counter-measures and contact the customer to proactively check the box or use ESRS channel.
+
+This will help reduce severe problems, increase customer satisfaction and maximize TCE.
+
+1-	Prevent DU/DL situations and save huge amount of money for our customers
+2-	Being proactive rather than reactive in supporting our customers
+3-	Maximize TCE
+4-	Cost saving to EMC by support personnel man hour saving
+5-	Add competitive advantage to our products
+

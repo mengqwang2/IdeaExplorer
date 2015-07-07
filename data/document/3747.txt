@@ -1,0 +1,6 @@
+isi_health_check_info
+
+The idea is to save time and effort when performing a cluster health check. the script will give the result in order of the health check template.
+an script that can be implemented on the OneFS and can be run at the customer side. wit out TSE schedule a webex. 
+logs will automatically upload and updated on the case. 
+

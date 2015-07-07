@@ -1,0 +1,5 @@
+Mobile application for COE Egypt
+
+Idea came in idea tion session
+Mobile application on all platforms (iOS, Windows phone, Android) to be downloaded and send push notifications and reminders regarding any event in the COE
+

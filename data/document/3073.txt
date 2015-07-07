@@ -1,0 +1,6 @@
+Advanced GPU-centric Appliance
+GPE Challenge (HW abstractions that provide common platform services):
+As a CG Specialist, I'm aware of a growing trend in the need to offload formerly CPU intensive tasks to high-end GPUs for processing. This affects numerous, large, industries.
+I came up with the idea when visiting SIGGRAPH in 2014. After seeing a nvidia GRID demo, my gears started turning. I discussed it immediately with my local team upon my return. I also met with Industrial Design and Mechanical Engineering representatives to discuss the benefits of such technology.
+As far as I'm aware, there is no large-scale GPU farm to date. In addition, there is no significant CI offering for this solution on a scale of what EMC can provide.
+As noted above, we have an opportunity to provide a new CI product that can overwhelm the market with mind blowing speed and capability. Combining GRID GPU tech with super fast I/O for caching frames/simulations can not only provide a new, outstanding pro

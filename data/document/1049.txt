@@ -1,0 +1,32 @@
+Embracing developer friendly OPENSTACK on EMC's Hybrid Cloud reference architecture (PoC Available)
+EHC's integrated OpenStack is an EMC & VMware supported OpenStack distribution (distro) that makes it easier for IT to run a production-grade OpenStack-based deployment on top of their existing VMware infrastructure.
+
+Building on our existing expertise, administrators can foster innovation and agility by providing their developers with simple vendor-neutral OpenStack APIs on top of EMC’s best-of-breed Hybrid Cloud infrastructure.
+This idea came as part of multiple brainstorming session among core infrastructure team within IT & PoC lab is running in Bangalore DC within vBlock array. At this moment, we are trying to consume OpenStack API's for designing services into UI (Service Catalog).
+OpenStack APIs: Customer transition is seen towards Agile product development methodology or building cloud native applications. Integrating OpenStack with EHC will fostering innovation and agility by providing developers with OpenStack APIs on top of EMC's EHC infrastructure.
+
+End - to - End Support: Customer gains complete support for core OpenStack services like Nova, Neutron, Cinder, Glance, Horizon, Keystone & Heat.
+
+Web Client Based Deployment: Our ideation concentrates on vSphere Web Client deployment for VMs and its components that are needed to create a highly available, production grade OpenStack infrastructure in a few simple steps.
+
+Dynamic Resource Scheduling(DRS) and Storage DRS -Through Nova, the OpenStack compute service, customers can achieve optimal VM density. Features such as HA and vMotion are used to protect tenant workloads against failures.
+
+OpenStack Networking Service: Our proposal helps in an integration of Neutron drivers with NSX provides a highly scalable network virtualization solution with rich features such as private networks, floating IPs, logical routing and security groups that can be consumed through Neutron.
+
+Virtual SAN powered by EMC VMAX: VMDK drivers provide Virtual SAN features through Cinder and Glance, the OpenStack block and image storage services.
+Go - To - Market Strategy:: Service providers are a key group that can benefit from OpenStack. According to the Gartner's Research report, service providers will account for $486 million of total OpenStack market revenue in 2013. And that number will grow upto $980 million in 2015, according to forecasts.
+
+-- Enterprise grade OpenStack Cloud with simplified operations and deployments.
+
+-- Low OpEx provided by advanced management and operational features.
+
+-- Advanced virtualized network services with massive scale and throughput (routing, security groups, QoS).
+
+-- Leverage the Complete EMC & VMware Product Ecosystem.
+
+-- Simplified Configuration and Operation: Pre-defined workflows automate common OpenStack operations such as adding/removing capacity, configuration changes, and patching.
+
+-- Having an OpenStack cloud is just one piece of the puzzle. Operating, managing and retaining happy customers are all just as important.
+
+
+

@@ -1,0 +1,39 @@
+EMC TeachesBack
+This app/portal provides 2-way connect between the EMC professionals and nearby educators/students to transfer STEM skills, with collaboration from third parties willing to participate.
+Innovation challenge 2015.
+Database:
+1)	Integrating the app/portal with inside emc to fetch the details(Skills,                          availability, location..etc) about the EMC professional.
+2)	Schools already registered and new school registration details.
+3)	Third party registration details.
+4)	Schedules.
+5)	Requirement details.
+
+Application:
+1)	Search feature for both School representative/ EMC professional.
+2)	View to third to see the registered school and schedules, so that they can also 
+         nominate to help.
+3)	View to EMC admin about the third party activities.
+4)	Profile view, my schedules.
+5)	Scheduler: We can use pivotaltracker for this.
+a)	Book schedule
+b)	Reschedule option for both school/emc professional.
+6)	Logistics planner.
+7)	Alerting Component:
+a)	Event alerts
+b)	Reschedule alerts
+c)	Booking alerts
+8)	Feedback by schools.
+9)	Automatic appreciation for t completing the task for EMC professional.
+10)	Image upload based on the events.
+11)	Video recording of the sessions, which can be reused by everyone.
+
+Reporting:
+1)	Periodic reporting of the metrics.
+2)	Analytic based on the skill sets required.
+
+1)	It helps EMC to achieve its CSR goals.
+2)	Build a strong affinity towards technology in student community.
+3)	Faster communication between EMC and schools.
+4)	Better management of schedules.
+5)	End to end communication.
+

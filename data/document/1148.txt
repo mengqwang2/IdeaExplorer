@@ -1,0 +1,20 @@
+ Efficient Business End-to-End process for less products shipment – save money, time and the environment 
+ The idea highlights a current end to end process drawback that causes waste of money, time and energy waste. It proposes a clear alternative process enhancement that can save huge amount of cost and time. 
+ 
+The idea is scalable to all EMC storage products like VNX, VNXe and Isilon
+
+ 
+The idea came up from different customer issues in which VNXe replication was corrupt and needed complete rebuild over WAN which ended up by array shipment. I have been thinking about enhancing such end to end process in a way we can eliminate such waste
+
+ 
+The idea is to address this using the following solution:
+
+1-	Change replication algorithm to be ‘Modular’ meaning that it replicates data in chunks (having smaller concurrent replication sessions; one for each chunk). This way, when a session corruption happens, we need to replicate only this chunk data (which is faster than the whole filesystem). This targets the replication session corruption issue
+
+2-	Ship one Smart Disk instead of the whole HW array: This works by having a smart disk of certain size (for ex. 4 TB) that can store data for the whole filesystem as well as metadata and configuration (like USB stick concept). it can then replicate the same filesystem when injected in the destination array. It will provide a clone that is exactly same as source filesystem. Shipment of one disk is much more efficient in terms of time, money and energy than a complete array.  This targets the initial replication setup sync issue.
+
+1-	 Cost saving 
+2-	Time saving 
+3-	Maximized TCE
+4-	Energy saving and environment friendly
+

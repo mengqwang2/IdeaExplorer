@@ -1,0 +1,5 @@
+Smart Roads
+smart roads will provide less traffic congestion, and will use the smart city IoT to analyze data from many sensors, and then provide decisions. 
+we have lots of roads that arent 100% utilized, utilizing them efficiently can reduce alot the traffic jam
+we can monitor traffic using hundreds of small sensors, and cameras, each monitoring roads giving which routes are empty, then these data is processed, then a feedback is given to the smart traffic lights, which will re-route jammed roads to less jammed roads.
+it will surely enhance productivity and save time, we can call it a solution and sell it to governments, including all the big data analytics and storage included in the design.

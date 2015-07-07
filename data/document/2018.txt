@@ -1,0 +1,22 @@
+Virtual Collaboration Meeting Rooms - Simplified!
+A workplace isn't very contemporary if you spend 20-30 minutes just organizing a meeting. And then, need tech-support to help start the meeting!
+Meetings organizing, setup and joining should be simple, easy and fast!
+
+https://inside.emc.com/videos/10813
+
+For the past 5 years that I have worked at EMC, there has never been one tool to simplify
+meetings. 
+Wouldn’t it be great if you could join video meetings regardless of the device you were on? 
+And everyone in EMC could setup without requiring tech support’s help? And you could have as many
+people join the meeting as you wanted without without ever worrying?
+
+Personal Collaboration Meeting Rooms in the "cloud" can handle this. These virtual meeting rooms should 
+have the simplicity of Webex conferencing (one-click to join) but with video bridging capability. That is, join the meeting from a video conference unit using one-click (like Telepresence) and also get the content automatically without losing the video conference on-screen.
+
+The result is a meeting experience that requires the same meeting invitation everytime, like Webex except now the meeting can be joined from a VC unit or a Telepresence unit or any mobile device.
+
+One Meeting Invite, Simple to Join, Any Device. And because its in the cloud it easily scales, so you never have to worry about the size of the meeting or who you are inviting.
+It would be most likely a cloud service which will improve users experience of meetings.
+Success would be defined when the most technical illiterate of users can easily and quickly setup and join a meeting.
+
+This would greatly improve UX as well as improve productivity and save people hours or wasted time setting up and joining meetings.

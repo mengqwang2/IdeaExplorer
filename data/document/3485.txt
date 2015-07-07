@@ -1,0 +1,16 @@
+ Automated Feedback System to enhance Blaze! –  increase CSAT and maximize TCE 
+
+ The idea came up from the daily work as a Technical Support Engineers
+ The engine responsible of routing the SR to their corresponding queue is called “Blaze” engine. This engine checks for certain keywords and fields that help routing an SR to its correct queue.
+
+Our idea is to add a feedback system that enables “Blaze” to learn from its mistakes. Each time a misrouted SR is seen by a TSE, a feedback is provided back to blaze engine. This feedback will be a quick launcher in the SR page in service center denoting the SR correct queue. 
+
+Blaze will collect all the feedbacks provided and run its analysis to see what caused the misqueue issue and learn to avoid it in future using machine learning basic techniques  
+
+This way we can achieve the following benefits :
+
+1-	Save huge time and efforst for TSEs and the customer
+2-	Higher customer satisfaction and minimum TTR
+3-	Avoid any miscommunication to the customer 
+
+

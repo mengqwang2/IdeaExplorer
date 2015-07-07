@@ -1,0 +1,7 @@
+Lab-as-a-Service on Openstack
+LaaS will contribute to highly efficient and automated Elastic Labs
+Elab team have to take much effort to prepare/teardown lab environment for their tests. This is both time-consuming and tedious. We need a better way for Lab service
+We can leverage openstack Ironic project to provide bare-metal provisioning service. 
+Combined with other openstack projects, we can implement a free solution of LaaS.
+With horizon service, it's easy for user to provision a Lab server.
+This idea can save cost and energy on Lab provisioning.

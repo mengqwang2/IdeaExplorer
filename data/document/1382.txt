@@ -1,0 +1,6 @@
+Optimized Code transfers 
+This idea will save time and eliminate redundant work.
+NA
+When scheduling code transfer activities  , the PCE Team got to schedule code transfer activities for the same customer that have boxes on the same site  for the same upgrade engineer so he can transfer the code internally between the boxes and eliminating the redundant work to be done by other engineers.
+1-Saving time.
+2-Optimizing the slots of the Code transfer activity for better utilization.

@@ -1,0 +1,6 @@
+Using sensors for utilizing light consupmtion
+
+The idea came to me while working in the office during a night shift and finding many meeting rooms lighted on unnecessarily.
+Adding sensors in all floors corridors, printing rooms and training rooms so that the lights will be put on only when an employee/s passes by instead of being used unnecessarily at unneeded times.
+  
+

@@ -1,0 +1,9 @@
+Open Compute Designs specific to ViPR and Scale-io
+
+I read an article about the difficulties VMware VSAN was having with the customer defining under resourced hardware leading to issues, and about HP working on reselling Foxconn for some designs.
+Our hardware design team would take an either an existing internal design or one from the Open Compute project, but EMC would develop standard service processes for supporting this hardware.  The hardware could include specific components to improve the serviceability of the design (such as local laptop power ports and connection in the rack)
+
+We would encourage Chinese ODMs to produce these designs and then act as a value added reseller or work with our own channel to add these designs with our software defined storage on top.  The hardware would retain the ODM brand.
+
+We would give customers a bread on support costs when using a certified design, although we would not directly certify every hardware manifestation of the design.  This would reflect the savings from using the optimized design.  Additionally, we may chose to service these third-party platforms as a new revenue stream.
+

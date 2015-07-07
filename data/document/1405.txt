@@ -1,0 +1,5 @@
+Specialized TCE
+The challenge is asking for an idea that delivers efficient and scale-able business practices.
+Working in Support environment has taught me that the more you are specialized in one type of a problem the faster you solve and troubleshoot it. 
+Lets take product1 to be our product. Let's take this product from software point of view. Product one consists of x,y, and z parts that need support. Then the idea is to train each TCE to work on different part and become an expert. So when this part is faulted then this certain TCE will work on it quickely without wasting time in understanding the problem and doing useless troubleshooting. So the idea is that each TCE focuses more on a specific part and become an expert in it. 
+The idea is simply providing TCEs an opportunity to dig deep in one specific issue and master it.

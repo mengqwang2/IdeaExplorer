@@ -1,0 +1,11 @@
+Take test case design more more seriously
+Ensure the product quality with better designed test cases
+Found it's not easy to draw a valid set of test cases from existing test cases in recent test planning work
+Need more efforts on test case design phase which is the base of execution and implementation, we can achieve this by:
+- clean up the existing test cases by removing those duplicated, empty content, out of date;
+- align the folders structure in UTMS;
+- build field knowledge in depth, study existing cases, determine the coverage;
+- assign priority attribute to test cases for easy planning;
+- revisit existing test cases regularly for maintenance by adding new case, add new test data, removing invalid cases; 
+- study on issues from customer side, investigate the failures and seek possibility to add cases in test process;
+It's an action with poor visible output in short time, but doing this can gain more confidence from our customer by providing higher quality product 

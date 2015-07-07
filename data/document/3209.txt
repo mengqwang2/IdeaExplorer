@@ -1,0 +1,5 @@
+Live monitor of NCCs for Team Leads
+
+Started on trying to implement this after a Team Lead pointed out this problem. Currently trying to implement such script to address the issue.
+A script can be implemented on Team Leads PCs to monitor periodically the NCCs and alert the engineer assigned so he can take an action.  
+

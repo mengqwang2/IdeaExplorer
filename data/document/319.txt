@@ -1,0 +1,6 @@
+Cafeteria Improvement. 
+Increases employee satisfaction increasing the points for GPTW.
+Suggested since long, as this will improve the employee experience and save his time, adding points to the Great Places to Work For.
+Cafeteria portal to show the upcoming menu for the lunch / dinner beforehand from the vendor. Options to give online order, thus online payment to the various vendors, this will save time for the employees by not waiting in queue as the vendors may have food ready at the time employee reaches cafeteria.
+Saves employees time.
+Increases employee satisfaction.

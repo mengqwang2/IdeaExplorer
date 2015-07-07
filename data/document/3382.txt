@@ -1,0 +1,29 @@
+Natural Language Processing & Analytical methods for deterMINING Experts at EMC
+
+Worked on a similar idea related to Recommendation algorithms, that was a winner last year. 
+Typically Recommendation Algorithms are vastly used in e-commerce sites ( like Amazon; Netflix; etc etc ) for predicting items for Users. In this case a similar logic is applied to finding Experts at EMC, based on Natural Language Processing & Analytical methods.
+
+How it Works ?
+
+1.	Parse & Retrieve the Data ( The data sources or the repositories to be used, can be determined by the Business Groups. Say for skilled EMC Federation Employees, this could be a blend of the KB repo’s at EMC; Pivotal & VMware. For a GS employee could be a KB belonging to only his Group. )
+
+2.	Using NLP or any standard text mining methods, sanitize the data & stem the required words and insert them to a Database.
+
+3.	Form a Matrix of User Names who resolved the issue Versus the associated text words ( words that determine a User as an Expert )
+
+4.	Apply Analytics to determine the Max occurrences of the related group of words for each of the User in that Database.
+
+5.	Determine the top “n” Experts from the Analysis, for each of the required Expert Domains.
+
+6.	Bundle this functionality using Open Source application and can be displayed on any web sites as a widget. The widget could be plugged in Inside EMC as well. 
+(Note: Once Inside EMC is mobile enabled , this functionality will be a value add for field engineers/customer facing engineering’s looking for contacting or reaching out to Experts at EMC. They could online check the presence information of the Experts using IT’s Unified Communication Lync that is planned for roll out soon for all EMC Employees )
+
+
+Benefits include,
+
+-	Right Collaboration is key for quicker resolution of issues for Customers. The solution suggested here helps speed the process for reaching out to right people, right time esp for EMC Federation Employees, and any cross functional groups, where multiple technologies are involved.
+
+-	Good Big data use case for using the existing EMC Knowledge Base for collaboration resulting in maximizing the TCE & CSAT.
+
+
+

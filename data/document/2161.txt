@@ -1,0 +1,7 @@
+EMC solution simulator
+EMC has got many products under its belt. When a customer looks for a solution be it from a storage, backup, security, software , they do not know what are the products.
+When i joined EMC i was keen to know about the product map. It took almost a Year to know about the type of products EMC has
+This solution will be interactive for customers and internal users to understand the products that EMC has and from a very high level. 
+e.g we can provide a shockwave video of a datacenter and customer should be able to click on each part and can explore the product map from EMC
+This will ensure that the customer is well aware of our products and the area for which they are looking for
+It should be a small simulation UI where any customer/Employee of EMC can use it to explore different product range we have.

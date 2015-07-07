@@ -1,0 +1,9 @@
+Smart Suez canal Logistic Center
+Operating large logistic center using IOT technology is one of the showcases of how technology will facilitate the management, speed up operations and increase the efficiency of cargo management, customs and quarantine operations.
+N/A
+A integrated system leveraging IOT technology that:
+1- track the cargo from the minuet it enter the port notifying it's owner via E-mail that it arrived
+2- List all needed paper work and approvals and send them to the shipment owner
+3- Track all the operations done on the shipment and provide the estimated time of completion of each on a web portal
+For Suez logistic center to be The easiest, fastest and most efficient port you can receive shipments through.
+EMC to be a pioneer in the smart logistics management field 

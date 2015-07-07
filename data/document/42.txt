@@ -1,0 +1,13 @@
+Engaging Field Support 
+
+Our proposal will offer a systematic way on how and when to engage Field Support to directly assist the customer when needed. This process should be designed to encourage the customer to give the right severity to the Service Request and to save the right to resources to fix the different problems that the customer might face at the same time.
+
+Handling customers who face multiple issues is always a challenge to support. customer reporting different problems at the same time will exhaust support resources. Also different solutions/approaches for fixing each problem might contradict each other and affect the customers' environments negatively.
+
+Local Account teams should regularly track the number of sev1/2 SRs that the customer open. In an attempt to encourage the customer to give the right severity to the issue in hand we should set limit for the number of unbilled support cases that the customer open with the support within a certain duration for every severity - This should be decided and agreed upon the size of project installed. 
+After exceeding these limits, the local account team will be alerted that the customer might be facing serious issues that might need field support interference in supporting the customer or start billing for every high severity opened case.
+Local account team should directly contact all TSEs and their managers to raise a flag about the other recently opened SRs for the customer so that everyone is aware what change his peers are doing and consult them on the urgency of assigning Field support.
+Filed support  will act as a focal point who will review all opened SRs, contact the TSEs and review the action plans and implement accordingly at the customer side remotely
+
+Following a systematic procedure to asses the customer's need to engage a dedicated Field support will secure the customers environment from applying different actions suggested by different TSEs and will save support resources. That will improve customer satisfaction as he will be given support from only the field dedicated support instead of reaching and following up with different TSEs on the different cases. Also setting limits to the un-billed cases for every severity will help control the incoming volume of Service Requests and will generate revenue for EMC.
+

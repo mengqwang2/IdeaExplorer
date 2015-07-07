@@ -1,0 +1,11 @@
+Mobile Apps for Transport
+Transport Tool in Mobile Device and GPRS setting on every employee and driver mobile.
+I came up with this idea when I was out of my house due to some urgent work and need to change my pickup time and as I got a request of an urgent meeting. That time I need to call transport desk as I do not have access of transport tool. Also once I was about to change the roster and that moment power cut happened which eventually effected.
+
+Also it is tiring to update the driver everyday about the location of the pickup.
+If the Transport Tool is available in our mobile device then it will be easier and effective to update the transport roster at the proper time from anywhere.
+
+Also if GPRS setting (like private cab transport OLA, UBER etc) we can install it in every employee and drivers mobile then just enabling that will make it easier for the driver to find the route of the employee. This will reduce the cost of calling to each and every employee.
+
+Transport also can keep a track of the driver using this.
+This will benefit the employees as well as transport and also it will reduce to call cost.

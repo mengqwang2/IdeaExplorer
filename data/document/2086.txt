@@ -1,0 +1,9 @@
+Smart food ordering application
+Reduce time while ordering the food
+We usually waste 10-15 min and sometimes more during peak hours during lunch breaks waiting to pay the bill in food counter and also the food court becomes crowded at that period. So we planned to overcome this problem and came up with this simple solution which will be helpful for all the employees.
+A new Food court tool/page will be developed which will be connected to the food counter caterers. Our Sodexo coupon will be linked to it. When a user logins to this application, he can view and select the menu and pay for it. Money will be deducted directly from his sodexo card. SMS and mail will be sent to both the parties with order number, date/time, menu name and amount paid.
+
+User can show the SMS at the food counter and take his order. This way the time can be reduced, queues can be avoided. 
+
+Monthly chart will be displayed for the user which will contain the amount that he has spent in the food counter on various items through this tool. Sodexo balance can also be viewed in this tool. Various analysis tool can be employed here.
+If this idea is implemented, we can save the time of all the employees in the food court. Queue and crowd can be reduced. 

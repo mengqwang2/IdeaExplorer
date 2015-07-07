@@ -1,0 +1,15 @@
+"EMC - Up to date" Tool
+This is an improvement of the intall base update process
+These are combined thoughts aiming to improve the install base data integrity and efficiency.
+The idea is to have a tool to be downloaded by customers and Install Base Group.
+
+The tool will allow both parties to update the arrays information (software version, disks version,...etc) on periodic basis (i.e 3 months)
+
+Tools view:
+- A place where we can paste the array serial number and it reflects editable information on the array.
+- The customers should update the tool with the new change to reflect in EMC install base.
+- IBG should have the same tool for monitoring purposes and to be the tool used for systems updates based on the requests they get.
+- This tool should be linked to EMC install base to update the information.
+- The customer will be held responsible for the updates.
+- There will be a reminder on periodic basis to customer to update/acknowledge the server information.
+This tool will help in increasing EMC install base efficiency and accuracy of information.

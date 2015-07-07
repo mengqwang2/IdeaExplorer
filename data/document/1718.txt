@@ -1,0 +1,69 @@
+EMC Code - EMC's successful Crowd sourcing Web app leveraged as Mobile App with add-ons - 100% POC with Video demo
+* Mobile App has all the features mentioned by Sponsors
+      - 	It is compatible with iOS and Android environments 
+      -         Provided mock up of the look and feel of the app 
+      -	        Multi-lingual support
+      -	        Lot of concepts and features are provided
+      - 	Has the ability to upload photos/docs of any formats
+* Have additional features as well
+* Success story as Web App
+* Delivered Mock App with video demo
+EMC Code Forum is now being used by iCOE to get into Crowd sourcing , would be great to have it as mobile app.
+EMC Code Mobile App is the crowd sourcing and cultural digitization solution with the following features
+
+* Individual profiles for all employees with SSO of NT id and password
+* Search feature to search for existing users  and projects 
+* Feature to mark the project as favorites
+* Ability to create new or join existing project
+* Display the trending repositories and feature repositories 
+* Ability to add new member(s) for a project
+* Has "Wiki",  to maintain pages for project documentation. We can add the pages as many as we want.
+* Has "Wall" , a chat system for broadcasting inside the project.
+* Ability to upload photos or documents of any format
+* Has Issue tracker to track the issues once the idea is implemented
+* Has the ability to determine milestones
+* Can track and close the issues within milestones
+* Multi-Lingual Support
+* Way to upload the code for the idea implemented
+* User manuals and FAQs
+
+Link to the Web App demo
+-------------------------------
+
+Direct WebApp Video Link :
+
+https://inside.emc.com/servlet/JiveServlet/downloadBody/155571-102-1-518956/EMCCode_WebApp.wmv
+
+Inside EMC Page Link : 
+
+https://inside.emc.com/docs/DOC-155571
+
+Link to the Mobile mock app demo
+----------------------------------------
+
+Direct Mobile Mock App Video Link : 
+
+https://inside.emc.com/servlet/JiveServlet/downloadBody/155537-102-1-518845/EMC_code.avi
+
+Inside EMC Page Link : 
+
+https://inside.emc.com/docs/DOC-155537
+
+
+Leveraging EMC Code as android and Mobile App will encourage crowd sourcing and cultural digitization inside EMC
+Success:
+
+- EMC Code implemented as Mobile APP
+
+- Reach of EMC Code mobile app globally
+
+- Used by EMC employees for more collaborative crowd sourcing space
+
+Benefits:
+
+- Diverse ideas for better solution
+- Saves time and resources
+- Keep up with demand as the project grow
+- High number of employees ready to work on a project anytime.
+- Encourages Diversity and Inclusion 
+

@@ -1,0 +1,7 @@
+RCM Auto-Booking.
+This idea will facilitate the scheduling process in Remote Proactive Team.
+An an RCM Upgrade Engineer , seeing my colleagues that works in the PCE Team working with the customers trying to convenience them that there is no available slots to do the upgrades became a challenging process.
+
+My solution is a system that customer's can access to book a slot that suits them to do an upgrade and then after he confirms the suitable date the scheduling team start to contact the customer to do the pre-checks before doing the upgrade.
+1-Better customer Experience.
+2-Eliminate the time consumed for initial customer contact to schedule an upgrade.

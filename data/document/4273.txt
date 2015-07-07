@@ -1,0 +1,7 @@
+Products Simulator
+
+I have heard from my colleagues that in difficult SRs the customer's environment is replicated by engineering, or in the case of testing only it is done using the labs present, both of which needs actual hardware and time to set up. Given that a lot of simulators are available for routers, switches and security devices, the same idea & technology can be used to be present within EMC
+A software that allows you to add devices (ex. Symmetrix, VNX, Avamar, etc.) & hosts running specific OS (HP-UX, Solaris, etc.) with interconnecting devices and connectors. 
+Through the various combinations offered, the simulator can assist TSEs in replicating the customer's environment or even just sketching it to help in imagining and understanding these environments.
+The simulator would replicate this scenario that can help identify any cause of issues or interoperabilities without having to replicate this scenario using actual hardware (which at times may be unavailable).
+

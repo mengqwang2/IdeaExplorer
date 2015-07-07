@@ -1,0 +1,5 @@
+Next Gen Customer Feedback Tool
+
+In reviewing an idea of my colleague, Suresh Gopal, I got this idea
+One aspect that is missed in taking a written feedback from the customer is his emotions. Using voice survey with a centralized database would help with analyzing the data from the customer applying algorithms on detecting voice modulation and sending alerts to the responsible groups on the problem remediation. The voice survey tool can be linked to the social networking sites and the customer can provide this feedback on his mobile device
+

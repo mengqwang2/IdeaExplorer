@@ -1,0 +1,5 @@
+support site download criteria
+
+Just had this idea while assisting a customer who did not know that softwares are not contract controlled. 
+To categorize lock reasons like for example if the customer does not have a contract then the lock will have a header saying contract controlled "contract not found" for example. I dont think this will be an issue as the support site holds Service center which feeds from IB so contracts are already there so its just a matter of linking those contract controlled softwares to the customer contracts.
+

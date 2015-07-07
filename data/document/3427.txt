@@ -1,0 +1,5 @@
+accommodating the web based application to run on multiple browsers
+
+many lags made me try Firefox and Google chrome, but not having the expected results.
+making available the services on other browsers, without need to log in every now and then, within an hour
+

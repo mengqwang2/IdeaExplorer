@@ -1,0 +1,32 @@
+ACI:-  Accelerated, Collaborated and Incentivized approach for Customer Support in CTD.
+Problem statement:-
+EMC CTD sales and offerings is no longer a story of single unified shop. In the sense, we are selling more of integrated solutions which deals with one or more EMC products along with Custom built services. In view of this emerging eco
+Being in ASD and later DPAD, we released that EMC solutions are no longer single product and more of suite of products. In this scenario, the CSE role only becomes complex and also turn around time for issue/customer escalations grow.
+
+We also have Engineers who are willing to use their expertise for Customer/Field support but are not necessarily in CSE role. 
+If we provide this idea of CSE-non CSE ecosystem, we forsee better contribution from non CSE staff who would organize their time/skills to meet the customer issues.
+
+Trial DASHBOARD as below can be hosted for EMC wide audience as below. This should show the engineers which are the trending issues and if they can nominate for same to fix. Once issues is fixed, it’s the CSE and non CSE manager discretion to award the team award/smileys based on complexity involved in issue fix and skillset used. 
+
+https://inside.emc.com/docs/DOC-154141
+
+
+?	Incentivize & Collaborate  the efforts of non CSE engineers like DEV/Test/Maintenance engineers and thus attain an Accelerated customer support/issue handling . Awarding Smiley points or monetary rewards will surely boost the involvement and success on field/offline support .
+?	With the robust nature of EMC trainings given to individual and also individual skill set/interest of  non-support engineers (i.e non CSE) , we can in most likelihood leverage the collective ,effective and best fix of implementation/deployment and support to customers.
+?	By building an effective ecosystem of CSE & non CSE engineers who will have better sync in forecasting the bugs/issues/challenges in customer site, we can have better use of talent, skillset and this giving better customer satisfaction. This will surely be best of both worlds in one place. i.e CSE and non CSE talent pool who will solve complex issues on customer field faster and better.
+
+
+
+What ? All the engineers in DEV/ TEST come from diverse backgrounds and also have gained sound knowledge overtime of their domain and EMC product suite where they have spent time/efforts. Though these team involve in fixing customer issues as needed, seldom are these engineers involved with resolving full time issues. 
+Why ?Do we need non CSE engagement in Field issues/support ? One can debate that DEV/ TEST teams have full time job and how can they spend time for any support/CSE role. The fact remains that not all Engineers are engaged 24x7 in delivery and one can nominate themselves if they have their schedule free for some time as needed. Besides since this approach is INCENTIVICED , one will not hesitate to make use of hidden skillset if any ?
+How ? Details of proposed idea implementation as below.
+
+?	CSE engineers have good knowledge of their customers and their routine bugs, issues which may keep arising and not very easy to handle. 
+?	The DEV/TEST engineers can nominate/ volunteers  themselves who think can find time/skillset to involve with CSE in issue fixes/suggestion/debugging .
+?	CSE engineers take these above nominees and creates Email DG list. May be one email list for every customer deployment/product suite. It’s their prerogative.
+?	Whenever a complex/new issues which CSE think can be handled faster with above engineers suggestions , he can just blast the mail chain. 
+?	Based on the complexity/speed of fix comments/suggestions the CSE can allot the points to engineers which can finally be redeemed every quarter.
+
+Benefits:- The above exchange of  CSE, non CSE engineers will benefit the individual and CTD in more than one ways 
+a)	CSE engineers can focus on better handling and relying on expert skill set of DEV/TEST teams. 
+b)	The non CSE engineers will get closer 

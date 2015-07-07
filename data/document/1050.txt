@@ -1,0 +1,20 @@
+Predictive analytics for drive failure with machine learning algorithms
+EMC has a wealth of storage products available to the cloud infrastructure and data center. Certainly we would get a large number of device running status information and performance data with various benchmarking tools. This provides a strong support for us to build our own analytics design and platform; also, the analytics results supply a wider perspective and decision support for product optimization.
+This idea is come up with brainstorming and the cross-BU collaboration.
+We propose an extensible design supporting predictive analytics for drive failure, including the functionalities such as
+
+• Collecting metrics on disk usage and performance: not just S.M.A.R.T. information, more data collection of drive performance with various benchmarking tools is obtained from GHTS/GDE/GAME/CM/MFG drive tests running as well as OnRack, such as, amount of data read from/written into disk, how data is mapped, amount of data copied, erased and discarded, as well as external parameters like bus power, temperature and vibrations. Take the bus power as an example, dramatically power changes may cause disk failure.
+
+• Pattern analysis of disk read/write behaviors: technologies of association analysis and pattern recognition are utilized to build patterns hidden in historical data collections and statistics. For example, periodicity and burstiness of disk read/write operations can be easily detected by calculating the measures of autocorrelation and sample entropy.
+
+• Prediction model building: a large amount of historical S.M.A.R.T. information and disk usage data is learned to establish relationship between disk status (normal/failure) and monitoring data, so as to construct the prediction model. Suitable learning candidates include linear regression, non-linear regression, finite state machine in enforcement learning, and etc. Patterns abovementioned are helpful to adjust training time window, set stop criteria of learning iterations, and accelerate convergence.
+
+• Real-time prediction and decision: to perform real-time prediction with an enormous emphasis on what is happening now and next, especially looking for potential drive failure events; then trigger health warnings. Moreover, the time window of real-time data used by online tasks is adjustable parameters.
+
+• Incremental learning: when a drive failure event occurs without being predicted, the prediction model is trained incrementally with the event data and dynamically updated.
+
+A few more things about hardware acceleration: 
+The processes of training and building prediction model are completed offline with historical data set; while the prediction and incremental learning are performed online with real-time data. The online task of prediction can be implemented with NetFPGA board in order to get hardware acceleration. The NetFPGA board is a Xilinx Virtex-5 FPGA product, focusing on high-speed networking prototype. The learned prediction model can be converted to the logic design to burn into the FPGA board. The static and dynamic drive information, as well as bus power/temperature, which can be obtained through GHE OnRack RESTful API calls,  are sent to the board in the form of packets via 4 x 10 Gigabit Ethernet ports, and the predicted failure warnings is send out via the Ethernet port, too. The online task of incremental learning, however, is too complex to convert to the hardware logic implementation.
+The success of analytics relies heavily on the drive data collection. Besides S.M.A.R.T information, a large amount of drive performance data with various benchmarking tools can be obtained from GHTS/GDE/GAME/CM/MFG drive tests running as well as OnRack.
+
+With the rich data set and dedicated model selection, the design is capable of producing more reliable drive failure prediction. Furthermore, the flexibility and extensibility of design gives not only predictions, also deep insights into the running status and performance of disks, eventually supports to real-time decisioning.

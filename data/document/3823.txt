@@ -1,0 +1,8 @@
+Solar Powered Charging Station for Electric Cars
+
+The idea was formed when we were thinking of ideas to make our work place more environment-friendly. This will also attract the next generation employees who care to save the earth for future generations.
+
+For Solar Powered charging station picture..
+https://inside.emc.com/docs/DOC-100093
+Solar-powered electric vehicle charging stations are offered by many private venders for corporate customers such as EMC, with no up-front cost. Installation is fast, requires minimal space and is design adaptable. Each station simply uses solar panels to collect solar energy and a special module for electric cars to connect to the batteries. Once up and running, the service can be offered free of charge or can be connected to a computing-based service that automates payment processing and collects and tracks charging data. The service can be offered free or subsidized lower payments. Such systems are compatible with all commercially available electric vehicles including Chevy Volt, Nissan leaf, Tesla, etc. 
+

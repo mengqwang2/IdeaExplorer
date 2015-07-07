@@ -1,0 +1,5 @@
+Active License Tracking Manager for All Products and Licensing
+
+Today the maintenance renewal cycle requires a manual audit of the environment, especially if the customer has an ELA. A current example is a customer that had a 3 year all you could use ELA. We have now reached the end of that term and there is not any automated way to determine how many licenses have been deployed. This idea came about with my manager Lance Abla as he has had similar experiences as well.
+Have all Licensed Software that is deployed at a customer site report home via the ESRS Gateway.  Have it populate and application that tracks the maintenance cycle for each title and copy that notifies customer and Sales Rep of pending end of term.
+

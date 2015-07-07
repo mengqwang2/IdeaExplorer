@@ -1,0 +1,5 @@
+School Mentors Employees
+The idea will assist EMC to collect all the data about the employees who are willing to give back to the community and act as mentors for schools.
+It is a new idea that I though about
+The idea is creating and Intranet that will act as a database where all the employees data (skills, location, availability) are included. Then an interface can be created to show the availability of each employee where their can be an icon that can be ticket if this employee is free and available at that time. The teachers at schools have access to such interface ( application) to have access to the skills and availability. Then teachers can access and reach these employees accordingly 
+An application with a nice interface that all employees and teachers have access to.

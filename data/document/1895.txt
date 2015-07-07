@@ -1,0 +1,18 @@
+CloudHealthCheck for Install/Upgrade in Avamar 
+This idea will help the Avamar customers to upgrade without the assistance of EMC Support engineers which improves the TCE and cost saving for EMC 
+A TCE initiative was started and QA Engineers interacted with the Escalation engineers and the initial part we discussed about the Install/Upgrade issues and we were finding ways to solve some of their problem and one of the way is the idea of healthcheck tool with option of dynamic updates based on new issues found in the field 
+Just before Install/Upgrade of the packages on the Physical server/, the software will get the latest healthcheck tool from the pre-defined URL and run the script . This script will do the pre-check and if there are problems will recommend the solutions for the same. After the solution  is implemented the script will be rerun again to check whether the issue is resolved and the install/upgrade will continue
+
+Because the script is hosted on the server, dynamic changes can be made to the script irrespective of the release cycle and so as and when issues/scenarios are uncovered the same will be added to the script immediately resulting in the preventing same type of future customer issues
+
+Currently this downloading of healthcheck script can be done using Avamar Downloader service. In Avamar 7.3 the Avamar Downloader service will be installed on one the Avamar servers itself , so implementing the healthcheck script in the Avamar downloader service framework has become a lot easier
+
+Detailed implementation details is in the below doc 
+
+https://inside.emc.com/docs/DOC-155205
+ 
+Criteria of Success:
+
+Successful implementation of the auto download healthcheck script and executing in the Avamar release
+No of escalations due to Install/Upgrade issues reduce considerably
+Customers able to install/upgrade Avamar servers without the assistance of EMC Support engineers 

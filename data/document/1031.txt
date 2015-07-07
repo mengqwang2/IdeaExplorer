@@ -1,0 +1,6 @@
+EMC's support for Smart City
+Offer a whole solution for the smart city building, include data geometry backup, centralized data collecting-distributed accessing.
+The idea came into my mind while I'm searching the video cache mechanism, then I thought the smart city's data management problem can be enhanced with our storage array's backups.
+Use EMC's geometry backup array, all the data will stores in a array, and make some copy for this array in a series remote backups, anyone who want to access to the data will the use his/her latest geometry backup array as the access point.
+This will decrease the storage server access pressure and improve the velocity of data transport.
+smart city is a hot topic in furture, this will help us to grasp the opportunity to growing with smart city, and know what smart city will need.

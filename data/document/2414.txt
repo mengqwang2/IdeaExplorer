@@ -1,0 +1,11 @@
+Providing security over different products.
+RSA IoT Challenge
+Discretionary access control Idea, is to divide everything between subjects and objects, 
+We divide everything into subjects and objects, subjects are people who are allowed access and administering their objects.
+
+Objects are everything we buy and on the internet, everything we manage and everything we are allowed access to, 
+
+So we make objects are only managed by specific subjects who are authorized to, and these subjects cannot manage any more objects
+
+so building a product which can give access to subjects to admin specific other objects
+we are making sure no one else is managing our products over the internet, as we are moving towards smart cities and everything is being managed over the internet, like my garage doors, and my home air conditioners, and everything is managed over the inte

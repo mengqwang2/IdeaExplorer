@@ -1,0 +1,5 @@
+Mobile app for avoiding malls crowds
+
+-
+The idea is having a social mobile application based on feedback from social network members regarding the level of crowds at the shopping malls, this would be very similar to the tools based on feedback from users regarding the traffic conditions that would let you avoid certain routes, the app would require registration from users and posting their comments regarding the level of crowds at certain shopping locations through a rating from 1-5 as 5 would be extremely crowded which at this case you as a user of the application should avoid going to this shopping location at the current time and by monitoring the status of this location you should know the best time to make your visit to this location to save your time.
+

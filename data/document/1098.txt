@@ -1,0 +1,5 @@
+A mobile app for product health check
+The customer administrators can get the product health and working status easily just with a mobile app
+when I want to check the system working status in vacation days or weekend or at night, I need to login from PC, it's not convenient. 
+The mobile app got information by executing CLI command and then show it in GUI, the working theory are similar with Unisphere.
+It can give customers more convenience and can let them found system issues at the first time.

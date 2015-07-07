@@ -1,0 +1,34 @@
+ECD SyncP & Documentum enabled on Cloud NAS
+Often data centers are built as a distributed system with a main computing core consisting of multiple enterprise class servers and some form of high performance storage subsystems all connected by a high speed interconnect such as Gigabit Ethernet . The storage subsystems are generally combinations of Network Attached Storage (NAS), direct connected storage or a Storage Area Network (SAN).
+
+In today’s highly-distributed enterprise, NAS and SAN do not properly serve teams and applications that are geographically dispersed and yet require efficient, consistent, secure and often concurrent access to a shared data set. 
+
+Products ranges from ECD division like SyncPlicity has tried to address this deficiency by pushing file servers, cloud gateways or WAN optimization appliances to all branches. The proliferation of devices across the enterprise dramatically increases the complexity and cost of storage infrastructure. Furthermore, these solutions often create a consistency problem, where different users can end up accessing a different version of the same file. Inconsistent views of data leads to productivity loss or, even worse, may cause data corruption.
+
+Products like Documentum also face similar issues when data from across geographic is demanded and accessed.
+
+We are working on the GeoNAS feature for the upcoming release and visualize a great potential of this Idea and technology implications on the ECD products.
+
+This solution is also enabled and equally applicable for mobile and remote devices.
+Introducing MagFS-GeoNAS Appliance, that solves this problem with a unified distributed file system that provides data consistency throughout the enterprise. It centrally manages and does not require appliances at the enterprise data center/remote center edge. MagFS GeoNAS Appliance highly simplifies storage management in a distributed enterprise while boosting overall workforce productivity. 
+
+Like traditional NAS, GeoNAS Appliance provides standard file system semantics, strong data consistency and application compatibility. Like cloud gateways, MagFS GeoNAS Appliance is a general-purpose storage system that allows IT to securely consume cloud storage. Like sync solutions, MagFS GeoNAS Appliance enables access to enterprise data from remote locations and mobile devices and provides the workforce with simple file sharing and collaboration workflows. Yet MagFS GeoNAS Appliance offers a capability that none of the others can match; namely, near real-time collaboration with user mobility at enterprise scale (and without requiring appliances at the edge).
+In the deployment of the MagFS GeoNAS Appliance, the object store and the clients are all co-located, either on-premises or in the cloud. This model allows users to build elastic, distributed NAS-like functionality on an object store. Applications that require NAS can now run against an object store without modification, whether in the data center or in the cloud. Parallel applications and workloads can benefit most from this deployment option and include those in the Life, Media and Entertainment (e.g., video rendering) and Largescale Web server farms.
+
+This geographically distributed NAS solution appliance will add a lot of value to the ECD product portfolio by enabling  Cloud based storage and computation and add multiply its benefits to its customer base.
+
+Refer to this ppt for more details on the solution
+https://inside.emc.com/docs/DOC-156041
+
+Benefits:
+Enable ECD customers to Cloud storage and : 
+	1) Cost effective
+	2) Simplified Data lifecycle Management, 
+	3) Data consistency, 
+	4) Consistent access to Remote and Mobile users
+	5) Better Performance (Time To Recover a File)
+	6) Avoid Data corruption
+	7) Reduced Storage Cost
+	8) Simplified IT
+	9) Secure and fully controlled by IT
+

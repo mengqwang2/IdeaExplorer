@@ -1,0 +1,16 @@
+Federated Services Empowering Innovation and Collaboration 
+The aim of these ideas is to break down barriers, establish open communication across the federation and up and down the vertical business units while driving open innovation thus establishing a federated culture.
+(1) Extending the Ireland COE Software & QA Forum and taking this to the next level across the Federation it would be so much easier knowing who works at a similar level and focus as you. Hence the idea of a Federated Org Chart. This would show the equivalent person across the federation working in the same area as you.  
+
+(2) Our group (PS App Solutions) have created a new architecture and framework utilizing the latest technology stack (Gradle, Angular JS, Spring, Swagger, Protractor etc.) built on Pivotal Cloud Foundry with reusable common services to support business microservices and UI’s for User Management, Data Management, Task Tracking and Raw Data Management etc. These services/code could be reused, hence the idea of Federated Source / microservices catalog saving time to market, utilizing reusable components while providing the ability to extend and innovate across the federation. 
+
+(3) From speaking to colleagues that are now working in another group within EMC, it has become apparent to me that we are using the same commercial tools, We should look to obtaining a Federation License and reduce the cost to each group of this licensing/training for these tools.
+(1)	Federated Org Chart - https://emcorgcharts.corp.emc.com
+When searching the Org Chart it would beneficial to see your federated peer (e.g. split screen) thus enabling you to reach out and establish a connection with the potential of leading to brainstorming ideas and innovation at the same level and area of interest/focus.
+
+(2)	Federated Source / microservices catalog
+Similar to the Open Source movement we should establish a Federated Source offering. This will allow all Developers across the Federation to share, contribute and reuse existing federated source code. This will vastly improve communication between the companies and directly drive innovation within and beyond the federated product offering.
+
+(3)	Federated 3rd Party Licensing 
+We as a Federation use a lot of common commercial licensed tools, for which there is an initial financial outlay and in some instances a yearly license fee. We may also incur additional training costs.  These costs could be reduced by using a Federation Licensing of these tools (if possible) or significant group discount.
+We need to look inwards and breakdown the company organizational silos that exist if we truly want to become a federation. Having peers talk across the federation, share ideas, extend codebases will inspire a new culture and openness that is required to succeed on the journey to the 3rd platform and beyond.

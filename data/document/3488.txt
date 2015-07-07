@@ -1,0 +1,18 @@
+ EMC “VMS” for <15K Market – a Virtualized Mini StorageBox to penetrate the low-end market
+
+the idea came from the virtualization concept on commodity HW to cust cost
+EMC will join a partnership with one of the local bendors in APJ Market to market and support the VMS arrays.
+ 
+The idea works as follows : 
+
+1-	VMware ESXi cluster will be connected to a Disk Array Enclosure (DAE)
+2-	SAS disks of 900GB storage will be used for optimum performance
+3-	ESXI cluster will serve IOs using its ISCSI and FC ports and adapters
+4-	Data protection and replication is done virtually using VM cloning 
+5-	UMI – Unified Management Interface will be used on top of Vmware Vsphere and EMC unisphere for ease of management
+6-	Features and licenses are purchase on demand by the customer
+
+This will leverage the benefits of VMware virtualized environments to penetrate new markets
+
+
+

@@ -1,0 +1,5 @@
+Account Team Application
+
+Integration of the third platform in day to day duties.
+Web-based application that can be installed on smart devices (Mobile, iPad)to be accessed by Customers to get in touch with his dedicated account team.
+

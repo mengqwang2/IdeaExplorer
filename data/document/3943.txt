@@ -1,0 +1,28 @@
+Utilizing EMC Infrastructure to deploy Platform As A Service through a private cloud setup
+
+One of the hot-fixes delivered by the SRA team was to test an SRM environment with 500 VMs. This took considerable effort from both lab and product teams.
+
+We were exploring ideas to deploy a dynamic, cost-effective and easily configurable lab set-up solution, which can cater to requirements quickly without being overly dependent on the lab admins. It became known that the SBU lab team internally uses Vip3R for managing their storage arrays. The thought-process was to extend this to a more abstract level, by offering users a tool to directly use and configure resources as per need, and then decommission them after use. OpenStack was a popular Cloud-OS, and seemed to be a good choice for managing the data center.
+
+Pool available lab resources to create a software defined data center within EMC, deployed as a private cloud, and primarily offered as PaaS , but only across Business units within EMC.  The pools of resources need to be appropriately connected physically. Any product team should be able to easily procure their required environment using a simple third-platform application by following a few steps to specify the nature of the set-up. The system of actually creating the development/test environment can be automated and abstracted. This could provide a largely multi-tenancy, scalable, cost-effective solution to current needs.
+
+Since EMC already owns a large number of resources, which are often under or over-utilized, there is business value in making use of these resources optimally.
+
+The following resources are required for proposed solution:
+•	Pool of Storage Arrays – VMAX, VNX, Isilon etc
+•	FC/iSCSI SAN Connectivity
+•	Hypervisor pool – Virtualization environment ( ESX, Hyper V)
+•	Network Infrastructure – IP connectivity for the resources
+•	Application Repository ( ISO repository)
+
+Technologies to be used:
+• EMC Vip3R – Vip3R offers a range of features for heterogeneous Storage Arrays. Aside from ease of management and improved storage efficiency, Vip3R also provides multi-tenancy for its users. Vip3R is capable of managing most of EMC’s Storage Arrays. Since the solution proposed is in-house only, all of the existing arrays can be configured using Vip3R. 
+• OpenStack – OpenStack is an open source cloud Operating System, which has several modules to manage and configure network, compute and storage. It is capable of managing a wide range of Hypervisors, and provides a scalable, multi-tenancy, easy-to-use system to obtain compute and network. In addition, its network manager modules are capable of configuring the VMs with floating or static IPs, and even virtual IPs. 
+• Repository of Application ISOs – As an extension, OpenStack can be modified to directly provide a VM with the OS pre-installed, and other similar such configurations already in place. For this, a repository of application ISOs which the end user can choose from needs to be made available.
+
+Integration of resources:
+Vip3R is currently being used to provision and manage storage in the lab, so this can easily be taken forward in the proposed solution.
+As of Vip3R 1.0, there already exists a plug-in that can connect to OpenStack’s storage module – OpenStack Cinder. Thus the storage management from OpenStack will proceed through Vip3R.
+
+Through the proposed solution, a kind of test-run can be done, which could be followed by deploying a public/hybrid cloud from within EMC. Moreover, it addresses a valid requirement within the organization and reduces resource cost and increases resource utilization.
+

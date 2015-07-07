@@ -1,0 +1,5 @@
+Easier way of accessing EMC Building
+
+*
+For a bettner and easier way of accessing the building, emc can start using the swiping card machine where an employee has to swipe their id card to be bale to enter the building
+

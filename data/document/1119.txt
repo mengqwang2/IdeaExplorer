@@ -1,0 +1,8 @@
+Reducing Power Consumption
+Storage Disk Drive Down During Public Holidays
+I have a practice of switch off monitor when I logout from office daily and came up with this idea to switch off component on storage array which not used on Non working day.
+Considering 1 VMAX(2 Eng,360 Drive) located in US data center X will consume power of 9.5 kVA and of annual energy cost of approx of $ 24K. If we come up with new fix(it can be on VMAX3/VNX/Isilon) where storage is synced with Public Holidays according to their geographical on which of those days Non-Critical/Dev/Test Storage array's 90-95% Disk drive will be brought down to save energy consumption. As per calculation, approx $ 650 (considering avg 10 days of holiday) can be saved on 1 VMAX and this number will be multiple with number of array in that location.
+I see main 3 benefits
+1. Reduce in cost.
+2. Reduce in Energy consumption.
+3. Less CO2 emission.

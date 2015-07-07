@@ -1,0 +1,14 @@
+Brainstormer - using crowdsourcing for brainstorming
+Brainstormer is a platform for a crowd source ideas generation and collection on various challenges/threads in parallel.
+As a members in data science team we required to be innovative in our day-to-day live so our team came to the conclusion that such system can help us deliver more ideas on various topics on everyday basis. 
+Now it is in an internal and initial development stage with an existing prototype.
+Mocups on - https://inside.emc.com/docs/DOC-155482 
+Brainstormer is a platform which has the following features:
+1) engage employees to share their thoughts. 
+2) encourage employees to be creative and to generate new/more ideas. 
+3) a platform for employees (the crowd) to share the thoughts. (And receive some feedback for further motivation).
+4) a crowd voting for a “wining ideas”
+5) idea live-cycle management for the administrator
+Such tool will increase the number of employees willing to participate and will allow to increase the number of ideas relevant to a specific challenge. Moreover we believe that enabling voting and comments will generate even more valuable ideas.
+In addition, Brainstormer can enable global collaboration by allowing each local team to work on its timezone and mother tongue (while  the server will make the necessary analytics to normalize the information).
+The true value to a company can be evaluated based on the quality of ideas (which were implemented afterwards).

@@ -1,0 +1,27 @@
+Automated Data Analytics solving TCE challenges
+
+This is a constant struggle that every BU goes through trying to mine data on how the product is doing in the field, feedback from customers to improve it further and ability to get data to influence our roadmaps. 
+There are multiple meetings at every level in an organization to understand and address TCE gaps and concerns. The data from these discussions keeps getting added to a list and some are converted to actions. Challenge is to be able channelize the data from these discussion for it to be consumable and actionable by all of engineering.
+Having a tool to provide such analytics would definitely help in this regard.
+Currently the customer data analytics is a manual laborious process. Our proposal will look at the below unstructured data sources and be able to analyze the data and it can be further dispersed to a select group over a social network for further collaboration and final decision making. 
+Unstructured data sources:
+•	Call homes and customer defects opened
+•	Direct customer feedback
+•	Beta feedback
+•	Social Media inputs
+•	Market data
+•	Competition data
+•	Defect Backlog
+It will have the intelligence to analyze it and provide recommendations on the below:
+•	Customer scenarios
+•	What’s working  and not working well
+•	Prioritized list of problems over time to help with the roadmap
+•	Quality metrics based directly on customer data to make TCE decisions
+•	Prediction based actioning to help improve TCE
+Advantages:
+•	Eliminates/reduces manual laborious work
+•	Reduce the number of meetings dedicated to these tasks
+•	Collaboration over social networks
+•	A wider perspective on product acceptance, use cases and gaps for the entire engineering organization
+
+

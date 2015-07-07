@@ -1,0 +1,7 @@
+HR Big Data Analytics Tool
+
+This matchmaker tool is using the term  of “single point of truth” and big data analytic capability to do some like cross-application analytics, contingent employee management, merge talent profiles and career pathing and vertical concentration to be able to well service the HR talent acquisition and management.
+How would we develop a matchmaker tool by utilizing the Big Data technology to be able to underpin HR hiring process is becoming critical element to successfully transform HR.
+At many organizations, employees have two separate profiles -- a system of record housed within an HRIS system containing factual information like gender and marital status, and a talent management system profile that holds performance and learning data. This record split can be further complicated by having multiple HRIS systems.
+This matchmaker tool is using the term  of “single point of truth” and big data analytic capability to do some like cross-application analytics, contingent employee management, merge talent profiles and career pathing and vertical concentration to be able to well service the HR talent acquisition and management.
+

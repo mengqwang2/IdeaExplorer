@@ -1,0 +1,10 @@
+EMC Auto WebX recorder
+This is an idea to Auto WebX record all the meeting happening in EMC and Keep them for some time in common repository. (6 Months or 12 Months)
+
+This will help any team or the members of the meeting go back and refer.
+
+Using this we are achieving one centralized repository for all our EMC meetings.
+
+NA
+This will help any team or the members of the meeting go back and refer.
+Centralized repository for all our EMC meetings.

@@ -1,0 +1,5 @@
+Automatic update of microcode 
+
+this came up when the SE manually send the request to install base that he did a code upgrade and need to update the microcode, sometimes they send a missing data or not actual data.
+ESRS is sending alerts already to open a ticket if there is a problem on the box so why not we create a temple to be sent automatically after the code upgrade and any change to the account manager and he will approve the then it will update the microcode automatically or it will send an actual data to install base and they will easily update the system.
+

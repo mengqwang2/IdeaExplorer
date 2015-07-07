@@ -1,0 +1,8 @@
+Licensing Team Merge/Unified Service 
+This is a process enhancement that needs to be looked at and evaluated. Given where EMC wants to go, such an idea has to be implemented. 
+This came after seeing a lot of issues with the current model and it has been taken back to management and suggested as an idea to improve and take EMC to where it wants to go. We get a large number of Service requests for products that we do not handle and we send an email to the correct team and cancel the SR. This is causing a waste of time, resources and customers come back questioning the process. 
+Merge the two teams together or at least unify the process for which customers engage with licensing. The 2nd team should move away from Net agent possibly towards Sales force. This way we will have one unified service that is provided to our customers. 
+We will have one unified licensing team within EMC.
+Automated process for licensing cases with no difference according to products.
+Saves time and allocates resources to more important tasks.
+Most importantly, positive customer experience! with no confusion. 

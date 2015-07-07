@@ -1,0 +1,9 @@
+EMC joins Open Compute Project(OCP)
+EMC's hardware join Open Compute Project(OCP)
+The Open Compute Project initiative was announced in April 2011 by Facebook to openly share designs of data center products. 
+project introduction in WIKI: http://en.wikipedia.org/wiki/Open_Compute_Project
+N/A
+let some EMC's non-core hardware( physical server, enclosure, chassis) joins this project. When EMC benefits from this joining, some more hardware can be shared.
+Focus on software.
+get advantage of open source project.
+lower cost, easier development, quicker development, good design, general hardware design.

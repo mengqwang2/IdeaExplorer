@@ -1,0 +1,24 @@
+Automated and centralized Virtual Test Service Center (VTSC) for customer installed products
+APJ COE "Solutions Platform" Challenge:
+(b) Customer Experience: Will your solution infrastructure offer superior customer experience? Newer open-source frameworks may also deliver better customer experience.
+(c) Stickiness: How will you make the platform sticky? What glue will you build? This could be glue between platform components (simplicity of management), or glue between the application and the platform (mobile, social, etc.) 
+
+TCE Challenge
+Gathering and dissemination of customer, field and partner feedback and to identify strategic business priorities to improve the customer and partner experience.
+There is so much focus on test automation within EMC and each EMC products has automation frameworks for basic sanity, functional and performance tests. these tests are extensively used before releasing product or patch releases to customers. 
+idea came up when i started thinking of extending these tests as services to customer and improve TCE.
+The disclosure proposes to implement centralized EMC virtual test service center (similar to customer experience center) that act as one stop test center for the new/refreshed hardware products. 
+The new hardware after installed and initial configuration done will be fed through the VTSC for test and certification. VTSC will have comprehensive automated framework and test suites.
+these automated framework and test suite includes automated initial tests,basic sanity tests and performance tests. 
+Using the automation framework, a single VTSC will be certifying wide range of EMC products [VNX/VMAX/Vplex/ViPR/DD/XIO/ScaleIO etc] for customer deployment and comssioning of their LAB.
+
+How it works:
+1. Customer places order for new EMC products for new deployment or for hardwrae refreshes.
+2. Field engineers start installation and configuration of EMC products in customer environment.
+3. once the configuration is done, these system can have VTSC automation agent installed or pre-installed.
+4. agents can communicate remotely with centralized VTSC server and once successful communication is established, the automated test framework will recongnize the device type and start performing the basic sanity tests, install check tests and performance tests.
+5. test report along with certification indicating the successful completion of deployment can be automatically generated and shared with customer.
+VTSC can substantially increase total customer experience through engagement beyond initial sale phase upto the deployment phase. Also, customer can choose for VTSC services during subsquent periodic Patch release upgrades for retests and certification.
+
+VTSC platform can be further enhanced in future to add B2B and B2C apps that enable seamless customer engagement.
+

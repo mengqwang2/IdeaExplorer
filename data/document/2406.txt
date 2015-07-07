@@ -1,0 +1,68 @@
+Diversity Innovation Framework
+In a world where innovation is global, multidisciplinary and open, you need to bring different minds and different perspectives together to discover new solutions to long-standing problems. Tap in the world of Internal Crowd sourcing to collaborate & innovate.
+In the past, individuals have generated ideas on their own or within their independent teams. The winning ideas remain un-implemented due to a lack of skillset or time on the part of the idea owner.
+
+The solution is to involve a broader base of EMC employees across the globe in the idea generation process to get creative, innovative ideas and run the winning idea as an internal crowd sourcing project.
+Our proposal would foster innovation beyond geography, cross functional teams, gender and ethnicity.
+
+Use an Internal Crowd Sourcing Method to tap into the potential of 60K EMC employees and unleash their creativity by bringing together diverse thoughts & ideas. This is how the process would work:
+
+1. Post a Challenge that is well understood by the crowd.
+2. Employees will subscribe to challenges they are interested in. 
+3. Diversity Engine creates teams based on diversity factors given below from the pool of subscribed innovators.
+            a.	Geography
+            b.	Business Units
+            c.	Skillsets
+            d.	Gender
+            e.	Years of Experience
+            f.	Age
+            g.	Hierarchy
+            h.	Ethnicity
+            i.	Industry Experience
+            j.	Success rate of Individual in Past Challenges
+            k.	Rating by previous team mates 
+
+4. Team gets invited to Virtual Collaboration space.
+5. Team brainstorms and submits ideas.
+6. Sponsors review & select 3 Finalist Teams and tool notifies them.
+7. 3 Finalists present their ideas.
+8. Sponsors select the Winning idea.
+9. Team tags the technology stack & resource requirements needed to implement the idea.
+10. Diversity engine uses Inside EMC profiles to build execution team based on the tags associated with the winning idea & notifies the proposed team.
+11. Interested Individuals can then sign up for the project.
+12. Team gets invited to Virtual Collaboration space.
+13. Project Team implements the prototype and demonstrates the solution.
+14. Idea creation & Execution team gets awarded.
+
+Foundational Requirements:
+
+1. Intranet portal supporting collaboration with profiles for all employees stored (Inside EMC). Employee profile to include above diversity criteria.
+2. Mobile app around the portal allowing challenges to be reviewed, signed up for, collaborate and much more.
+3. Mobile Push Notifications to announce the challenge & winners.
+4. Strong analytics to look at trending of ideas, success rate and team diversity strength over time to tweak diversity engine as necessary.
+
+Additional Details on the idea is documented in a presentation at:
+https://inside.emc.com/docs/DOC-155706 
+
+
+Idea Unique:
+
+Innovation processes is becoming progressively more open, and companies like EMC have to explore several new paths when selecting their innovation strategy. Crowd sourcing is a new type of open innovation that companies are increasingly adopting. Internal crowd sourcing is all about extending problem-solving to a large and diverse group of self-selected contributors.
+
+
+References used:
+
+https://hbr.org/2013/04/using-the-crowd-as-an-innovation-partner/
+http://www.boardofinnovation.com/list-open-innovation-crowdsourcing-examples/
+http://atfortytwo.com/2014/06/23/open-innovation-internal-crowdsourcing-chaos-or-opportunity/
+
+
+We have implemented similar framework in our global team and is working very well.
+
+Benefits:
+1.  Corporate knowledge and creativity is harnessed within the company. 
+2.  The reward is less financial and more reputational as employees seek personal fulfillment more than monetary incentives.
+3.  Crowdsourcing promotes collaboration & employee engagement across the board.
+4.  Underutilized resources collaborate to aggregate innovation insights.
+5.  An agile informal innovation department ideates unbound by hierarchy or position.
+6.  Open Innovation + Internal Crowd sourcing = Opportunity!

@@ -1,0 +1,22 @@
+Import / Export Interface for Simple & Fast Resource Creation / Collection
+
+In R&A environment we have a customer like configurations, which we need to recreate the NW configuration quite often. This leads us to come up with this solution. 
+
+Benefits:
+* For a new enterprise customer, the import feature is much useful where he need to configure a large number of NW resources. 
+* This proposed export feature is very helpful to support and engineering team to get customer configuration data quickly without disturbing their live environment.
+* This will avoid uploading a large meta database which he normally shares in support portal, this exported XLS file can be shared easily as attachment in a mail.
+* In case if customer plans to migrate to another server /platform this import / export feature will provide a simple, easy, fast way for Resource collection / creation.
+
+*** This solution can be leveraged to other products such as Avamar and other similar products.
+Import: 
+* Customer can fill the XLS sheet with all the necessary NW configurations such as clients and its attributes (like parallelism, pool, storage node, save command, client direct, PSS, BBB, BRD, dedupe  details), Storage nodes, pools, save groups / policy, devices (such as DD, AFTD and tapes) & volumes. 
+* This will save the users time and effort to configure large number of resources in short span of time.
+
+Note: POC is already in place for importing huge set of NW resources configurations, which is being used in R&A. Please refer the typical excel file and python script to perform import operation. 
+
+Export:
+* Many escalations, support team requires NW environment details to understand the issue so that it can be reproduced in-house easily and provide the fix. There is no easy mechasism to get the complete configuration details. Currently customer provides there meta database to support portal, which are running in GBs of size, which is time consuming task for a support. 
+* Exporting the existing configuration from NMC /NW to a XLS with simplify the task. 
+* This can be provided by customer on request to support in short time. 
+

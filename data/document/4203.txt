@@ -1,0 +1,14 @@
+Federated, Globally Distributed Isilon to Improve Data Access Performance
+
+We did a project call World Wide Hadoop. It’s goal to manage the data and tasks world widely. And I have also investigated the Google’s Globally-Distributed Database. They both give me inspiration to next generate data storage should be cooperative and globally.
+
+In a brainstorming session between ELC and Isilon support team, we came out this idea to scale out Isilon to exabyte and golbally. 
+We proposed a World Wide File System based on Isilon. So the Computing can work well anywhere.   The scientists can collaborate globally.
+
+The idea proposed an automatic approach which can identify hot file or hot file trunks, automatically replicate hot file or hot file trunks to the data center nearest to client to improve data accessing performance and advanced data synchronization mechanism combined with explicitly lock mechanism to guarantee data integrity. Our approach could fit into in-band and out-of-band NAS federation. 
+
+This idea could resolve the data latency issue by improve Isilon to World Wide. Assuming there is a file shared by several Isilon Clusters. Any edit in any Cluster would share the modify content to the others. If there are no version conflicts, it’s very well. But if conflict happens, the destination Isilon would try to merge it. If merge fails, a new file named with cluster name suffix like “a.txt.clusterA”.
+
+In WLAN, it’s difficult to ensure consistency, but we can try the best we can. It’s useful for version management by leveraging some hardware such GPS and Atomic Clock. It can enhance the time synchronization. It’s competitiveness to Software Solution.
+
+

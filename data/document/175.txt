@@ -1,0 +1,11 @@
+"EMC Service Requests Create"
+This is a process improvement idea 
+This is the output of combined thoughts aiming to improve customer SR creation process
+The idea is to have a tool that simplifies the customer process of creating SRS.
+
+The tool can have a home view where the customer specifies the request type (upgrade, breakfix, hardware replacement,...), servers serial numbers and request details.
+
+After the customer submits the request, it auto creates service requests and moves him/her to a reference view of all SR numbers that are linked together and can be accessed through each other.
+
+These SRs will be auto routed to the relevant queues based on the information entered by the customer.
+This idea will save time and increase efficiency of SR information

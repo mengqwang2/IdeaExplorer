@@ -1,0 +1,43 @@
+3 Tier/Section based approach to resolve complex problems of network and storage with ease of using available software sophistication's. (Powered By - Virtual Acceleration Open Architecture)
+
+This idea evolved during a 3.5 hours of brain storming session with EMC IT members, ASD ViPR members, Network/CTC domain SME's.
+Infact, now proceeding further with a PoC environment. Soon, we will be sharing solution HLA for this challenge.
+
+***** Documentation uploaded in INSIDE|EMC portal *****
+https://inside.emc.com/docs/DOC-100096
+
+
+******* Layer 1: VMWare VDI
+In the fields of VDI, VMware has considerable proven records of achieving business results such as,
+i.	High Speed Access
+ii.	Data is safe and protected
+iii.	Single instancing
+iv.	Less or no IT resources
+
+Unlike other solutions, it delivers full desktop environment available all the time and accessible from anywhere and very much manged centrally.
+In addressing the basic business challenges such as increased remote users, continuing performance, security and compliance adherence etc. etc. , VMware Horizon View’s layered approach is indeed better solution available in-house. Horizon with PCoIP provides an optimized desktop experience for the delivery of the entire desktop environment, including applications, images, audio, and video content for a wide range of users on the LAN or across the WAN. PCoIP can compensate for an increase in latency or a reduction in bandwidth, to ensure that end users can remain productive regardless of network conditions.
+
+******* Layer 2: WAN Optimization
+In this layer, we would like to bring in to major technologies,
+1.	Silver-Peak Technology
+2.	Cisco – WAAS (Wide Area Application Service) Technology
+
+The traffic optimization process in both of these technologies provides virtual flexibility to users, runs on all major hypervisors with a cost effective solutions.
+Major advantages of using these technologies are,
+i.	High performance throughput.
+ii.	Real time network integrity.
+iii.	Data protection and secure mechanisms.
+iv.	Increased Buffering.
+v.	WAN acceleration across geographic locations.
+vi.	Supports varied applications.
+
+******* Layer 3: Software Defined Storage (SDS) - EMC ViPR
+In the layer we would like to provide the best solution pack from EMC and i.e. EMC ViPR so called Software Defines Storage. It’s indeed rethinking of storage i.e. transforming of Data Centers with SDS (EMC ViPR)
+
+ViPR is “Simple”, “Extensible” and “Open”. Now, the era of data silos are outdated. ViPR features block and file control services that provide all the functionality of physical and file storage arrays as virtual services. These control services allow users to manage block volumes, NFS and./or CIFS shares and advanced protection services such as snapshots, cloning, replication.
+
+It’s Global Data Services can span arrays and support hybrid data types. GDS are storage abstractions that reflect the combinations of a data types. The data types include “File”, “Block”, “Object” and “Hybrid” with access protocols such as iSCSI, NFS, SMB, REST etc. encompassing availability, security characteristics such as snapshots, replication etc.
+
+Object-on File Data service provides ability to store, access and manipulate unstructured data. This includes images, audio, video etc. HDFS Data Service will apply location awareness to data-intensive applications using object and file services. Worker nodes does processing thereby reducing backbone traffic by avoiding traversing of network.
+
+

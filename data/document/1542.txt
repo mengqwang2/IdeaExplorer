@@ -1,0 +1,12 @@
+TCE - Improved usability at the GUI
+This proposal is relavant to the TCE challenge. This proposal is about to implement the VPlex Engine information at the GUI.
+Work Experience
+To the user, GUI does not provide the option to work with the Engines from the GUI. TO the GUI users/users, today there is no way to use the Engine's functionality or work with the functionality of the Engines from the GUI.
+
+Whatever the CLI operations provide today to the user to work with the Engines, should be provided from the GUI as well. This will improve the usablity at the GUI and less dependant on the CLI.
+
+Also, if the directors go down, the user will be better informed during failures. This provides the improved user experience to better have an idea of what went wrong and easily identify the problem rather than to debug more by looking at the CLI.
+
+GUI shows the information in a precise way compared to CLI. [With all the color changes for the status of the engines], etc., 
+
+Improved usability

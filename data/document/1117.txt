@@ -1,0 +1,7 @@
+Audio Alarm for critical system error.
+The system send text alarm to system administrator. However, there will be a time gap if administrator didn't check the text info in time.
+However, if we could hear the alarm for critical errors. It will reduce the anthropic factor.
+People may could not sit with the monitor all the time. However, if some critical error happens, it the system could give administrator some notify by sound. This should be able to reduce the system failure time.
+Set a audio alarm for system critical error. User could determine weather to enable this function; User could mute.
+Report administrator failure in time.
+Reduce system down time.

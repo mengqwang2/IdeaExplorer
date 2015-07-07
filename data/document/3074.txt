@@ -1,0 +1,7 @@
+Speech Analytics
+This idea is an effort to bring Big Data Analytics more closely and useful to understand Customer experience & create new portfolio or solutions through Speech Analytics. 
+Everything today is being translated in different languages to reach the customer in a way a customer wants. 
+Chat, KB Articles, Support documents, Portfolio documents etc... Made me to think that speech can also be translated automatically and real time analytics could be used to analyze the translated information and improve our support model. That made me to read more about Speech analytics and convince that we should have this in EMC
+
+Market Research, Product failure trends, Customer satisfaction surveys or just a sales enquiry could be few examples where these technologies could be implemented. it’s very hard to know deliver customer experience, what best when we could understand more or analyze more through technology and deliver proactive solutions and improve our support model
+The conversations are structured using a variety of techniques and turned into metadata. Then, the output files can be analyzed and used by the enterprise.

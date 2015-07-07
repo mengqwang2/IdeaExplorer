@@ -1,0 +1,12 @@
+Setup and Configuration infrastructure Software for DCA(Data Computing appliance)
+Global Product Operations Challenge
+Customer Satisfaction
+Easy of Maintenance of Cloud Infrastructure.
+I started working in DCA since Jan 2015; After using the DCA setup sotware , I realized that Customers will have a problem in learning the usage of software. Hence I am proposing the idea of "DCA Front" software in which the is no learning and customers can directly start using it.
+This Proposal is to build a web browser GUI (Graphical User Interface) based DCA Setup and Configiuration sofware. This sofware can be naned as "DCA Front" and will be avilable in the Master node of the DCA inftrastrucure. User can use the web brower to login to Master node of DCA. After login, user can make the complete DCA setup with pictorial compents of backup master node, segments server, switches and storages attahed each of them.
+This "DCA front" software ease usage and will have the very good customer impact interms of ease of use and managing the DCA infrastrucure. 
+* Ease of use of DCA instracture
+* Ease of Maintence of DCA infrastcure.
+* High Customer satisfaction becase of GUI and easy usage.
+* Can be Leaverged to any Cloud based distributed computing System.
+

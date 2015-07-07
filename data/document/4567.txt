@@ -1,0 +1,6 @@
+Cooling / Air conditioning, integrated within products (VMAX/VBLOCK/VNX etc.)
+
+Cooling was a primary concern, when trying to assemble a gaming PC, which was to generate a lot of heat.
+Various cooling techniques are available for electronic / electrical devices. If we offer cooling integrated products, a new customer may not have to invest in cooling the data center. All he may have to do is to maintain natural airflow. Small portable self cooled EMC storage boxes may then be utilized by SOHO customers as well as they may not want to invest in a data center, they may just be able to keep a storage box like a refrigerator, any where in the office. 
+This will help boost sales as I do not know of any vendor offering such a cooling integrated product in the market so far. We may start with small and SSD based portable products with this integrated solution, and once they are popular we may offer the same as an option in bigger boxes as well.
+

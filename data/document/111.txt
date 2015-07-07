@@ -1,0 +1,10 @@
+Follow SRs On Sales Force
+This will serve the challenge/s listed below. 
+
+
+Service Center 
+Have the option to follow a specifc SR to see its updates and how it was resolved. 
+See updates
+monitor SRs 
+CSAT issues
+

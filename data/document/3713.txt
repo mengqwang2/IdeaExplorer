@@ -1,0 +1,20 @@
+Disaster Recovery of Virtual Machines across heterogeneous datacenters
+
+We work on an application which enables Disaster Recovery in VMware environment. We thought upon extending DR solution to differnt environments and conceived this idea.
+Proposed solution consists of Failover module and Administrative Interface.
+ 
+Failover Module is responsible for:
+1. Migrating VMs hosted on one Hypervisor type to another.
+2. Storage array operations - lun discovery, RDF failover
+ 
+Administrative Interface:
+1. To create Virtual Machine groups and Recovery Plan. Virtual Machine Group contains VMs which would be failed over to the other site. Recovery Plan defines the steps to execute in a failover operation.
+2. Enables user to trigger Planned Migration/Disaster Recovery operations.
+ 
+Let us assume that Protected Site is a VMware datacenter and Recovery Site is a Windows datacenter. Lun hosting VMFS and VM at Protected Site is replicated to a lun on remote storage array(1st RDF pair). A standby lun hosting VHD is also replicated to a lun on remote storage array at recovery site(2nd RDF pair). When Failover is initiated - VM, VMFS datastore and lun hosting the VM are unmounted(only in case of planned migration, if it is a DR scenario this step is skipped) and SRDF failover is triggered for both the RDF pairs. Once storage failover is done, VMware VM files on the target lun of 1st RDF pair are converted to Hyper VM files and HyperV VM is mounted from the target lun of 2nd RDF pair. On initiation of another failover operation, HyperV VM is converted to VMware VM at the other site and is mounted on the lun of 1st RDF pair. 
+ 
+Advantages  
+1. Reduced application down time with a DR solution across heterogeneous datacenters.
+2. Use existing heterogeneous remote datacenter for enabling DR solution hence reduced costs.
+
+

@@ -1,0 +1,7 @@
+Source Aggregated Test Platform
+
+The idea is from the previous QA forum and utest before a couple of years. 
+The tool should have two parts, backend is one data engine to aggregate and transmit the data from the different source(test 
+tools, databases and so on),frontend is  one friendly page/application to demonstrate test healthy status  called QA Dashboard using chart, report, and the tool should be able to analyze/evaluate  testing  quality cross the different products/projects. Even if the different projects has the different measure , But, this approach still has the valuable for monitoring the projects. 
+
+

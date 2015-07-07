@@ -1,0 +1,16 @@
+Automated System For Empolyees That Want To Borrow/Save Money 
+This will serve the challenge/s listed below.  
+
+NA
+Create an automated system among employees to borrow and save money. 
+
+This can be done peer to peer where each person pays an amount of money every month for 10 months and get the total in one of the months.
+
+So for example, I would pay 1000 each month for 10 months and get a total of 10000 on the 4th month for example. As if I saved them. 
+
+
+Easy to administer
+employee satisfaction 
+tracked down
+saves time
+

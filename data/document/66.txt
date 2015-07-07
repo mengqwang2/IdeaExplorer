@@ -1,0 +1,11 @@
+Incident Reporting Application 
+This will serve the challenge/s listed below. 
+
+Egypt's current events. 
+Create an incident application that is downloaded on all EMC phones and is used to communicate major emergencies and down times. 
+
+At times where employees can't go to the office for safety, this application can be used to send a message or push a notification to all employees 
+
+
+Safety first
+better communication 

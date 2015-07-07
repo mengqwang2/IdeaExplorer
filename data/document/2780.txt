@@ -1,0 +1,19 @@
+Remote management software.
+Durham Data Center Elastic Labs Challenge
+- Define group of nodes and configure them based on well defined policies.
+- Deployment of images on these nodes.
+- Running set of instructions/ script/commands from the central location.
+While configuring the libraries in datadomain ddr we need to do lots of manual tests. While thinking of automating these steps i figured out this way and i believe this can become a generic solution going forward.
+A remote management software will be created from which all the machines in the lab/cloud can be managed. This will make use of *ssh* as well as a well known open source software called as *Ansible*.
+
+The remote management software will be a daemon which does following tasks, 
+- It will maintain in-core information of all the machines it is going to manage.
+- Will create all the prerequisites for remote management using ansible, which involves writing the required playbooks, hosts files etc.
+- remote management software will maintain the group information, policy information of the tasks to be performed on the group of machines.
+- The solution will make management process easier than directly using the ansible and user is not required to understand the format/language which ansible understand.
+- A well defined GUI will help user/administrator to easily view all the machines in one screen.
+- Administrator will be able to run scripts/commands on remote machines from the GUI very easily.
+This solution is generic enough to solve the following problems.
+1) The solution will allow to manage all the machines in the lab/cloud remotely.
+2) The solution will allow creation of group of machines to manage groups with similar nature.
+3) The solutio

@@ -1,0 +1,11 @@
+Make operation in our lab be more easy
+N/A
+Need to stay in lab to do some troubleshooting. The lab is so noisy and hot. It's  helpful if operation in lab is more convenience.
+For the problem above, we can setup a display switcher for those that may need LCD for troubleshooting. 
+Make a lab deploy plan according to the requests, e.g. layout diagram, network topology, resource list. 
+Find a labman or let each team be responsible for some devices, regularly check those public devices' status (this may be executed by an automatic script), make sure lan cable be in good order.
+Lab operation (process) training
+
+
+
+Increase work efficiency and reduce the probability of mistake in our lab 

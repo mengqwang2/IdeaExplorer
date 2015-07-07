@@ -1,0 +1,5 @@
+Create a Web-Based VM Management Tool
+This innovation is about IT service.
+I don't want to install such a huge client for some simple VM operations.
+Create a web-based VM portal which provides only commonly-used features. The minority who want advanced features can still use the client.
+This idea helps improve IT service.

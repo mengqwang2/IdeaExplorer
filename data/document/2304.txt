@@ -1,0 +1,17 @@
+Smart Meeting Scheduler Addon for Outlook
+My idea is related to the IT Contemporary Workplace Challenge. The aim of the idea is to make sure our workplace is smart and efficient and to deploy automation and algorithms wherever possible for improving the way things are done
+
+The inspiration for the idea is the frustration I face in scheduling meetings using Outlook. I apply the pattern of using analytics and algorithms to build a system which does a job(which doesnt add a value) similar to how I do.
+The proposed idea is to build a program which runs on top of Outlook and has the following capabilities
+1. Employee can initiate a meeting request from the application choosing the attendees and a tentative time(optional)
+2. Time can be explicitely specified or only the date can be specified or an option like next best available time can be chosen
+3. The application find the first best slot based on the conditions(inputs or rules) and preferences(user preferences/machine learning)
+4. Polls all the users with the first best slot. If everyone is fine, it creates a Calendar request.
+5. If someone rejects the slot, it tries to find the next available slot and polls again. This goes until a time is approved by all or no slots the application can find.
+6. Application also smartly chooses the location based on no of attendees, features required(video conf facility etc) and optimally closest for all employees
+7. Application continues to learn from the entire process of scheduling and becomes smarter as we use and gets customized for the user
+1. Savings in productive time(and money) of employees
+2. Improved focus on work rather than non-work activities
+3. At an organization level, first step to measure the value created out of meetings
+4. Can be built using EMC product and can be show cased to the world on our innovation capabilities
+5. Can be contributed to the world as an offering from EMC(Selling as a product is not an option as this is not aligned with EMCs portfolio)

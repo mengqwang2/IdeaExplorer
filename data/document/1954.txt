@@ -1,0 +1,7 @@
+EHC Automated Resource Scheduling, Planning and Reclamation
+EHC utilizes the concept of leases when reserving VMs or services. This new service can improve this concept significantly.
+This concept grows from one of the services implemented in vLab backend, which is a monolith Java application working with VCD. Evolving this concept into a self-sufficient consumable service allows to include it in VRO workflows and improve EHC solution.
+The solution is a Scheduler service built in Spring Java, that implements current and future resource reservations and reclamation. All workflows providing services utilizing these resources would include a call to the Scheduler, that keeps track of the resources in its own database. 
+Benefits: with that type of tracking administrators have exact picture of future resources usage rather than the prediction. Also the system can implement new type of workflow: guaranteed future reservation.
+Currently none of EMC or VMware products have this kind of functionality.
+The solution allows to optimize EHC resources utilization, adds capability to implement a new service (future reservations), improves EHC administrators visibility into resources

@@ -1,0 +1,17 @@
+Native Automated Failover for VNXe
+Simplify - help EMC VNX BU to address the threat from Nimble Storage
+Solution - EMC is making its transition from a “product” provider to a “solution” provider. This is to make it simplified and affordable for data protection solution based on VNXe.
+We developed Automated Failover Manager 1.0 and 1.1 in 2011 and 2012. AFM is an off-array windows program which supports only VNX and VNXe is not supported. Based on two drawbacks of AFM, we came up with the idea to make AFM embedded into VNX and VNXe,
+1. Complexity of deploying off-array AFM
+2. It takes more time to detect disaster
+
+https://support.emc.com/products/25710_AFM
+Add embedded heartbeat among VNXes, and issue replication failover once disaster is detected. During failover, hook script/command could be executed to activate the standby applications and virtual machines on the disaster site.
+
+Powerpoint: https://inside.emc.com/docs/DOC-155822
+Video record of POC: https://inside.emc.com/videos/10898
+
+The success & benefits have been proved by AFM which were mostly in Europe market. Once the Native Automated Failover were implemented, we should be able to copy the success to more markets.
+
+1. Help VNX BU to make money by enabling native data protection solution on VNXe.
+2. Help customers to save money and protect their data assets, and provide uninterrupted service.

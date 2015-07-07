@@ -1,0 +1,12 @@
+Hybrid Replication at VNX arrays
+Software solution for VNX / VNXe arrays. 
+I worked for EOS and we used VNX replication to have build areas at all development sites. Replication of 4Tb file system to my site took 1 month. And it took 1 month when master replica have to rollback to monthly snapshot. 
+
+Having the ability to rollback snapshots at all sites simultaneously to the new replication point would take minutes for recovery instead of weeks.
+Extend VNX replication protocol with feature that keeps file system snapshots with the same timestamp at all sites simultaneously; and rollback snapshot at all sites simultaneously. Both actions do not involve replication of data - only snapshot meta-information is transfered. Replication continues when rollback is completed. 
+
+Snapshot creation and rollback should be managed from master site. VNX replication is continued from the recovery point.
+
+Detailed proposal description with graphics: https://inside.emc.com/docs/DOC-155206
+It would allow our customer to improve RTO at VNX arrays w/o RecoverPoint.
+Minimization of WAN traffic on filesystems recovery for VNX.

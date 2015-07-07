@@ -1,0 +1,5 @@
+mobile application for COE networking and communication
+
+N/A
+since in less than 6 months all EMC employees will be having iphones, a fun EMC application can be developed to connect all employees and give them a sense of belonging to the company. the mobile application will be user friendly, fun, has games, so it is fun for the employee to go through it in free time, while commuting, etc.
+

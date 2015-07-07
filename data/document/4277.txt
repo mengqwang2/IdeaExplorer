@@ -1,0 +1,5 @@
+Centralized demo center for EMC products
+
+As one engineer of IIG search team and there is opportunity to integrate the full text search engine xPlore to other EMC products. With such demo center, we could gain knowledge about these products and some new integration/ideas will come out. Also now we are transforming to 3rd platform, we want to see some EMC big data/SaaS/cloud examples leveraging such platform.
+Education service group set up a shared server which each one can access, each product owner can upload the videos or install the software on the server, employee can download the video and check the demo if they are interested in the specific product. Also to make it interactive, they an also have some quiz and some small awards can be granted to the winner.
+

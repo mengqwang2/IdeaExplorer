@@ -1,0 +1,17 @@
+Improve employee engagement using Microsoft Lync 2013
+
+The idea came up while brainstorming
+•There should be an expertise support group (DL) were related support teams can be added and provide solutions/suggestions using the groups.
+Example – For VDI SUPPORT there can be group VDI Support EMC IT India were all the VDI support engineers will be added and for any issues user can directly report or discuss issue in the same group.
+
+•Expertise Support teams across the globe should also connect video conferencing to know each other better and to work together on any common issues. This can be done by sending a notification in Lync for video conferencing seminars or any issue which needs urgent resolution.
+
+•EMC critical infrastructure notification and service interruption should be pushed via Lync to notify user.
+For Example: - Suppose there is an propel issue which can impact user so a push notification can be send to propel support groups /team and impacted user in the lync.
+
+•HR or corporate communication team can use this platform by making interest groups who are interested in common subject and can discuss the issues in general and boost employee satisfaction.
+For Example:-
+-By creating App which can link with MS lync
+Creating Multiple groups in lync like -- Fun group – EMC Global IT Fun – could be linked into Lync were an employee can interact with each other and have fun which will also boost employee satisfaction.
+Employee Common concern – This group can be implement were employee common issues and concerns can be addressed.
+

@@ -1,0 +1,9 @@
+Multi-Cloud Application Federation
+The idea targets to improve EHC in multi-cloud scenario. This idea will leverage new technologies, like MSA, container, Cloud Foundry to intelligent distribute different kinds of workloads and data between private and public cloud.
+When reading the book <The Phoenix Project>, the company has the requirement to perform recommendation analytics against the collected data. The recommendation analytics needs thousands computing nodes at burst, but only last several hours. The company then use AWS EC2 to perform the analytics workloads to save cost. This represents the common requirements of enterprises. 
+Our idea will includes following parts:
+1. A scheduler is needed to place different kind of workloads on different cloud based on some policy. 
+2. A workload controller is needed to provision different workloads via Cloud's API to create/configure VM, Network, Storage and Applications. 
+3. A VPN controller is needed to provide a safe data transmit network between different clouds. 
+4. Monitoring mechanism is needed to monitor the running status of different clouds.
+If this idea is incubated, it could satisfy customer's business requirements: supporting on-demand and secure with less money by managing enterprise workloads between private cloud and public cloud automatically and intelligently.

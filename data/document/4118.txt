@@ -1,0 +1,14 @@
+Crash Dump Analysis tool for EMC storages 
+
+As per our raw analysis of data for the year 2013.We received 6777 Block Customer cases out of which 2095(30.9%) are crash dump and 2027 crash dump cases from file side out of 5320 customer cases. The interested thing is 1256(62%) customer cases from file side are marked as duplicates out of 2027 crash dump cases. 
+We are team of 4 members involved in design, coding, testing and implementation of this tool.
+1.	Sudeep Mathew
+2.	Krishna Gudipudi
+3.	Riyaj Kazi
+4.	Subhash Babu
+
+As per existing process the engineer needs to use dump analysis tools like gdb/Windbg to analyze the dump manually. He needs to run commands to get the Back trace and other required information from the dump, and then compare that information with the existing information available in the knowledgebase.  The engineer then needs to narrow down the search results manually by looking at a large number of results returned by the knowledgebase. This process is very time consuming and can eat up a lot of hours.
+
+The Crash Dump Analysis tool will accept the case number as input and will return a list of case numbers which are potentially reported for the same issues.  When a new crash dump is reported it’s picked up by the tool, then the back trace and other required information is analyzed by running gdb/windbg automatically. This information is then stored into the tool’s database. Since all the information is in now available in the database, we can compare it with all the existing issues and report a matching list in couple of seconds, when a compare is requested by the engineer. 
+
+

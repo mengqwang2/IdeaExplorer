@@ -1,0 +1,19 @@
+EMC Carpooling Mobile App
+
+The idea was generated from my personal experience, suffering from Cairo's traffic jam and scarcity of parking slots, a carpooling system will definitely help me.
+If driving takes a big bite out of your budget and your time and if EMC transportation is not convenient for you, here is the solution “EMC Carpooling Mobile App”. 
+
+The idea is develop a mobile application that would allow EMC employees to car pool together. The application will work as follow:
+
+1- Employees will register their names, addresses (pickup/drop-off points), working hours. 
+2- Employees with same district and working hours will be grouped together 
+3- A schedule will be generated per group to arrange the commute details (driver/day, pickup time and number of occupants/day).
+4- Employees can check their schedules every day to better organize with the commuters.
+5- The app can also suggest the best route for employees to take while coming/leaving the office to avoid traffic jams. 
+
+This idea would have the following benefits:
+1- Carpooling will allow employees to cut their expenses by nearly 50% or more.
+2- Carpooling is a great way to make new friends.
+3- Carpooling offers a commuter option that may work better than other methods of transportation. 
+4- Carpooling will help free up parking space.
+

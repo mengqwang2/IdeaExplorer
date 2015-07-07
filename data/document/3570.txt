@@ -1,0 +1,14 @@
+A look into “PCE” for higher “TCE” – a new approach for better CSAT and maximizing TCE
+
+The idea came up while working with different customers from different backgrounds and different experience with EMC. This affected their behavior and it was much easier to achieve their satisfaction knowing they previous history with EMC
+My idea is to include in the Service Request (SR) a brief summary about :
+-	A 'dashboard' of the customers' most recent surveys to determine how the customer perceives EMC overall.
+-	Special preferences or concerns the customer has raised before.
+
+For ex. some customers is concerned about the frequency of communication while others have different preferences. The TSE will behave accordingly.
+
+This idea can be easily implemented by :
+-	Adding internal summary in the SR (visible to TSEs/SR owner) using service center
+-	Using existing CSAT data and records
+
+

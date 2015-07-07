@@ -1,0 +1,12 @@
+Update WOO AR status
+The test should be better to update WOO AR status everyday(include whether the test is running, and if test failed, does the failure related the AR, etc). But when the test ecounter below situation before reproducing the AR successfully:
+1. The array which will be used to reproduce the AR was not ready for several days
+2. Re-running the test, the test will run for several days 
+3. Re-running the test, but always failed with other issue 
+
+The Remedy AR will have many reduplicative notes, so before we grab any useful info, we have to read many useless reduplicative notes
+Have this idea this year after dealing many WOO AR which may need many days to reproduce
+add a additional status for WOO AR on Remedy:
+1. the reason why it has not been reproduced 
+2. the time of duration
+enhance productivity

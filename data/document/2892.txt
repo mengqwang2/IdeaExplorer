@@ -1,0 +1,10 @@
+Unified Host Agent for All EMC Array
+Currently, manually register hosts on EMC arrays takes a lot of effort.
+
+We already got an "host agent" for VNX,which is able to register host information on VNX array automatically.
+If there was a "Unified Host Agent" for all EMC arrays, that would be great.
+Here is 2 easy steps for solving the problem.
+1) Install "Unified Host Agent" on the hosts which need to register on EMC array.
+2) Login EMC array to check the hosts' information. 
+Customer could continue other planed work after the hosts' information are checked.
+Customer will take minimum effort on registering hosts on EMC arrays by using this "Unified Host Agent.". 

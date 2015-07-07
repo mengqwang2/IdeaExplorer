@@ -1,0 +1,5 @@
+Preventive Maitainance of Loopbacks, cables etc
+Loopbacks, cables and other test equipment can have a limited lifespan. However, sometimes a problem is not detected until a unit fails in test, adding cycle time and cost to the test process.
+Especially as products get older, equipment wears out and these failures can appear on our yields.
+Where practical - regular testing of test equipment. This may involve additional test equipment. But also by monitoring the "useful life" on each device. As it approaches it's end of life we know to expect issues. It may be as simple as a tag with the date of issue in some cases.
+This idea would optimise our current processes. 

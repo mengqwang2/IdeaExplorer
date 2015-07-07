@@ -1,0 +1,48 @@
+Easy Link to EMC & Social Media 
+Below solution is proposed for “HR Challenge – Diversity and Innovation at a Great Place to Work”, for developing a 3rd Platform responsive app which will promote “Diversity and Innovation” at EMC.
+We use "Inside EMC", "EMC Career", "Linked In" and other external social media often and currently there is no system which use or integrate all these system together to improve EMC recruitment and "Diversity and Innovation" at EMC.
+
+We are part of 3rd platform Application Development team in IT, having experiences working on end-to-end Application development and integration with multiple system using Open Source technologies.
+Link to presentation : https://inside.emc.com/docs/DOC-155951
+[NEVER FORGET TO SEE THE PRESENTATION]
+
+Proposal is to have a scalable role based Open Source Web Application built using 3rd platform micro services architecture which will integrate our “Inside EMC and EMC Career” site with external social media portals like Linked In.
+
+Functionally the App will be able to perform the below activities:
+
+1) Since the system is role based, only HR Team and authorized individuals can login and interact with this system.
+
+2) First thing is to collect data of diversified talents and people, this can be possible by providing registration link to people outside the world using social media
+
+3) To post any content to Social Media, HR shall login to “Easy Link” and post it there, there will be flags provided to post additionally to Linked In, Job portals and Inside EMC as well, user can select any option and post it.
+
+4) We did analysis on integrating applications to social media and job portal, we found that Linked In is supporting to post contents from other applications through REST API. Similar way we can post the content to job portals.
+
+5) Once the content is posted to social media, interested users can go through the registration link and provide their skills, contact information. In this process we will collect the user data related to diversity (especially employee with different skill sets/women/disabled).
+
+6) Since users’ information available with us, whenever any requirement available in EMC, HR team can login to “Easy Link” and search for the suitable people, can send notification to diverse people based on their skill sets and other attributes like women/disabled candidate.
+
+7) This process can be automated to trigger notifications to the users whenever any content is posted in EMC careers site.
+
+8) “Easy Link” shall measure the success % of people hired through this process.
+
+9) App will be designed role based to have admins that can provision and provide access to required team member (HR Manager/ Team Manager).
+
+
+10) We have done small analysis on how diversity improves innovation in EMC by taking the data from people soft and Innovation winners from last year we could see that most of the people who won are from diversified teams.
+
+Out Of 92 winners, 15 are females and 77 are males out of these males 
+The probability these people belongs to diversity team is 70%.
+
+1) Helps EMC to gather people with best diversified talents which improves EMC success rate. 
+
+2) Since we have to consider security when interacting with outside world this App will behave like intermediate application to operate and post contents to EMC applications as well as social media
+
+3) We can make use of this application to advertise EMC related products as it is having the ability to post any content to social media automatically, which EMC is currently doing by manually logging in.
+
+4) Since this app measures the success % of people hired, we can enhance this application to integrate with any other portals.
+
+5) Also this application is built using micro services architecture we can enable or disable functionalities easily.
+
+6) This application is responsive web application, this supports all different devices like mobiles, iPad, desktops, tablets etc.,
+

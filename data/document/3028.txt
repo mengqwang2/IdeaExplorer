@@ -1,0 +1,5 @@
+Integration of performance tuner and space freeing tools on the array
+It is always that we need to reach out to support/performance gurus even for a small and smaller issues also.
+While working with customer on an issue, customer was asking if we have any 3rd party tool to clear un-used files and improve performance and capacity
+Having a tool within the console itself will help the admins to get the first round of performance issue fixed before going to support which will save few dollars to EMC.
+Yes, with this implementation on the console tool, admins can run the available tools and get suggestions to free-up space, sharing resources which in overall improve CSAT, less dependent on CS-support which will surely save some dollars.

@@ -1,0 +1,5 @@
+Innovation Portal Chalenges
+
+I am wasting time every time i submit an idea to find the correct challenge and many times i address my idea under the wrong challenge, while if it was addressed under the correct one it may help.
+Add the feature of pop up box while selecting the challenges, this box will contain the challenge definition and the main objective of this challenge.
+

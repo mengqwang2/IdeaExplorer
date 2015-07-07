@@ -1,0 +1,23 @@
+SRDF Defined Networking for VMAX3
+1) This idea brings cost efficiency by leveraging the open source SDN, which will also bring better customer experience; this is an example of storage redefine (storage-defined networking) moving to the 3rd platform.  --APJ COE "Solutions Platform" Challenge
+
+2) This idea strength the relationship between storage and networking, both elements are the key components in the data center solution. This is a cross-product solution which will benefit VMAX3.  --CTD Supportability in 12 Months or Less Challenge
+
+3) This idea leverages the industry best practice of the Software-Defined Networking, will provide a new feature for VMAX3, and increase the scope of VMAX3 in the Cloud.  --Engineering Operations Services & Solutions (EOS2) Challenge
+During our qualification tests of Brocade VDX Data Center Switch, we drive the SRDF flow towards the VDX switches from local site to the remote site. There are several TCP connection modes (full-mesh or point-to-point), when the workload increases, full-mesh connection mode may cause switch buffer exhausting issue. We have to configure the switch manually to change the connection mode to reduce the TCP connection numbers. But when the workload decreases, more TCP connections will benefit the SRDF link stability, means we need to adjust the connection again by changing the switch configurations.
+
+So considering the needs of dynamic/auto configurations of the switch, and the agility of Software-Defined Networking, also to match the CloudArray strategy of VMAX3, we get this idea in mind.
+Utilizing the architecture of Software-Defined Networking, there are 3 key components in this idea:
+1) Application developed by SRDF engineering. This application will exist in VMAX3 as a plug-in and utilize the northbound API defined by SDN to deliver the network requirements from SRDF application layer. Not only delivering the requirements to the network, this application can also retrieve network workload status via the SDN API, which will help the SRDF application to adjust the SRDF parameters and define the network policy. 
+
+2) SDN controller. The SDN controller receives the network requirements from the VMAX via API and translates those requirements to configurations and policies, meanwhile the controller monitors the network status.
+
+3) SDN capable network devices. This SDN network devices are switches which will connect to VMAX3 SRDF and forward the SRDF data flow. SDN controller will use control data plane interface (e.g., OpenFlow) to communicate with the network devices to execute the translated configurations/policies and collect network status.
+
+Software-Defined Networking is more agility for the cloud environment, and it's the trend of the network development in the future. As EMC's strategy partner, Brocade has already invested a lot on Software-Defined Networking, it has released its SDN network devices (MLX Series already support SDN and VDX Data Center switches in the schedule, VDX is one of the EMC Connextirx product OEM from Brocade) and SDN controllers (Brocade Vyatta Controller).
+Besides Brocade, other vendors like Arista Networks also have similar commercial products. 2 out of the 3 key components will be addressed or has already been addressed. The main work to do is developing the EMC side application (component 1), and make it compatible with the SDN vendors.
+
+If this idea is fully implemented, it will bring below benefits:
+1) Bring VMAX3 new cloud features. Make our product more competitive in the market.
+2) Storage array will work more close to the network to better utilize the resources to provide higher QoS and reduce the OPEX. 
+3) We have good partners like Brocade which will help this idea to be developed and easy for commercialization.  

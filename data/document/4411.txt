@@ -1,0 +1,6 @@
+Fast Cache Rank and automatically Enlarge
+
+I like shopping in internet, so I have such idea.
+The solution needs an application running in servers that is watching on the access requests and analyse the access frequency relationship . For example, in summer, the swimming suit will be hot. The it ranked different caches in different arrays and merge cold caches to hot ones and enlarge the caches of the one has more access requests.
+
+

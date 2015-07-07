@@ -1,0 +1,27 @@
+Real-time feedback mechanism
+
+This thought occurs to me every time I get off the call/chat service with customer support, I'm sent an email notification to provide feedback regarding my experience. Most of the time I ignore them as I'd have other things to take care. Also the fact that EMC conferencing would allow us to key in the pin any time during the call led me to this thought.
+Introduce a mechanism on the phone/chat allowing customers to provide feedback in real-time - anytime during the call/chat.
+
+For phone calls, the mechanism allows customers to press different button/key combinations to provide feedback in real-time. At the beginning of the call, customers are educated on what the different button/key combinations are - see below example:
+
+Press *1 to provide feedback on 'Communication - Ability to communicate clearly and to be easily understood'
+Press *2 to provide feedback on 'Comprehension & Expertise'
+Press *3 to provide feedback on 'Frequency and quality of progress updates'
+Press *4 to provide feedback on 'Time to resolve'
+Press *5 to provide feedback on 'Courtesy & Professionalism'
+
+In order to rate on how satisfied 'the customer' is with regard to any of the above parameters (i.e., after they've selected one), they can rate the parameter on a scale of 1 to 5 (5 being highest/Totally satisfied) by pressing numbers from 1 to 5
+
+Please note, the above verbiage is just to make my point across, and hence is an exaggerated example. It does not have to be the same, it could be cut short significantly and/or the whole process of educating the customer can be done offline, when on hold or via other methods. Educating customer is a big challenge, as they shouldn't be overwhelmed or confused with the information. Also, the mechanism should be seamless, in that, the ongoing call shouldn't be interrupted when the feedback is given - by pressing different key combinations.
+
+For chat support, the chat window can be split into panes. Main window/pane allows customer to chat with the agent and a side pane to display the feedback form with radio buttons and 'Previous & Next' buttons to browse through the different parameters. These parameters could be similar to the ones mentioned above. It could also be context based.
+
+Customer can, at any time during the call/chat session, revisit the above parameters and re-rate.
+
+Additionally, when the call/chat is over, customer can be given an option to change and/or review the feedback they provided during the call. They will also be notified via email on the feedback provided with an option to review/change it at a later point in time (optional).
+
+This not only enables us to collect real-time feedback on the quality of service, but also saves valuable time for the customer - no time is wasted in providing the feedback.
+
+All the feedbacks provided (including changes - if any) are tracked, recorded and analysed. This information can then be used to improve or sustain the quality of service provided. 
+

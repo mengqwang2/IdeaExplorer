@@ -1,0 +1,7 @@
+The "EMC Buddy" Partnering System.
+This idea capitalizes on the immensely unutilized diversity available in the Global EMC network.
+I was inspired with the idea after learning about the HR Diversity Challenge for this year.
+The idea is about implementing a system that matches every two employees in the federation and assign them as "EMC Buddies" for each other. The assignment is done randomly and has to only ensure that both buddies are from two entirely different parts of the federation, and are from two different sides of the world.  Each quarter, a challenge could be released on a corporate level, only exclusively for buddies to participate in, and whichever team wins, gets to be recognized on the global network and the opportunity to visit each other in their local EMC offices. 
+
+EMC Buddies could officially endorse each other for new posts, live each others job virtually, or even participate in innovation challenges together and get more valuable points than being in a tribe. They could form coalitions with other buddies and get to start their own virtual tribes where they get to taste their cultural differences. 
+This initiative will provide EMC with a great resource to showcase the diversity among its own people. And not only will it spice up the internal culture of the corporation, but it will also give each and every employee another reason to feel like they are part of something bigger than they ever expected, and they will feel like they belong to an entity that goes beyond the extension of their own traditions and identities.

@@ -1,0 +1,10 @@
+The Project Tracker 
+This will serve the challenge/s listed below. 
+NA
+For every department, there can be a shared space where each team member logs in the projects they are working on 
+
+and everyone in the team has a view of that 
+avoid duplication 
+saves time and effort
+builds team spitrit
+updates are visible for all 

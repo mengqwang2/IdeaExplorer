@@ -1,0 +1,5 @@
+Add 'Mark' function in knowledge base for site engineers
+
+We camp up with this idea after hearing about the complaints from site engineers.
+The implementation is relatively easy. For example, if one site engineer palns to visit six customers today, then he can mark the kb accordingly in order. After he arrives at the first customer, then he can directly obtain the kb information that he has marked.
+

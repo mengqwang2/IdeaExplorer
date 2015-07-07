@@ -1,0 +1,41 @@
+ViPR Predictive and Self Healing Data Center Management
+Data Center Infrastructure has moved to Software-defined datacenters  and priority is to deliver new capabilities quickly for business advantage and competitive edge.
+
+Due to data center consolidation and rapid data explosion, huge amount of data is available in the customer environment for data analysis. There is a need for value added and analytical services on the available BIG DATA than ever before. 
+
+We had worked on ViPR SRM customization work and delivered various features to the customer. From that experience, we came up with this idea. 
+Modeling :
+
+Events and performance metrics are already collected from network/storage/Virtualized infrastructure by Monitoring and Reporting tool using standard protocols like SNMP/SMI-S. 
+Modeling of IT infrastructure which explains the relationship and dependency between the network/storage/Virtualized  infrastructure. The modeling will consider the relationship with other objects, events condition, associated problems, symptom and thresholds.
+By, leveraging EMC IONIX STORAGE INSIGHT AVAILABILITY in Private cloud ensures consolidation of issues, works towards co-relating the alerts/notifications, Helps in analyzing the root-cause problems, provides end to end information in alerting mechanism.
+The model will self learn based on the trending data, and apply analytics to predict behavior of performance metrics in real-time.
+
+Hadoop processing :
+
+The historical performance trending data and the object model relationships will be fed into a Hadoop Map-reduce jobs through the Spring XD framework.
+
+Prediction & Statistical Analyzer :
+
+Prediction Engine in statistical analyzer will make predictions on behavior of  performance metrics, based on forecasting formulas and probability statistics. A predicted event will be raised based on statistical analysis and will provide the detail about impacted objects in the datacenter network.
+
+Data Visualization :
+
+D3JS will  be integrated  with Monitoring and Reporting tool for customer to visualize the statistical data available in their datacenter using visualization techniques like binomial distribution, Frequency distribution, histograms, cumulative plots etc.
+
+*****Link To Presentation **** https://inside.emc.com/docs/DOC-155751
+Prediction of problem ahead of time and providing proactive solutions rather than  reactive fixes.
+Quick corrective actions can be taken based on the prediction to avoid issues in the data center.
+Historical trending data is utilized to predict patterns.
+
+Helps troubleshooting engineer to visualize the statistical data in datacenter for their troubleshooting – ProActive than reactive Trouble shooting by Customer Support before customer notice
+Reduced Downtime cost per year and datacenter maintenance cost.
+
+Increased reliability of the data center components due to early prediction of issues and correction.
+
+Improved visibility into KPIs for the customers.
+
+Networks, Storage and Virtual infrastructure inside a data center will be better prepared to handle flood of events, latency issues, breakdowns.
+
+The prediction will be used as a self healing technique using Data Analytics.
+

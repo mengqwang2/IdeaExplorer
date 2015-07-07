@@ -1,0 +1,7 @@
+Track Interactions with Files / Websites within EMC
+Communications need to be catered to the desired audience.
+There has long been a desire of the GMO Cork Pulse newsletter team to understand what articles are being viewed... we once tried to use Google analytics but learned that a portion of employees didnt have external network access on their computers which in turn excluded them from viewing content.
+
+We then identified the need for an Internal resource which could also give us EMC relevant information.
+By implementing an internal click tracking system similar to Google Analytics only fully internal we can learn who is interacting with what. When a user clicks on the tracked link they are unaware it is being tracked by their interaction is logged on a table recording what link they clicked, the date and time of the interction, who they are, where they are, what dept they work for etc...All this can be compiled into a report which helps publications identify what is effective and what isn't.
+The benefits of implementing such a tool would be excellent information provided to the teams providing content. The teams could identify popular content and unpopular content, test new designs, tweak titles etc... and learn whether what they were doing is a success... it would also test whether a pulication was worth the effort by identifying a user base versus effort.

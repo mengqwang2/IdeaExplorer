@@ -1,0 +1,14 @@
+No Routine from Now by using Big Data Approach.
+
+- Idea came up to kill the Routine when we'd like to extract any governamental paper and wants to utilize the new Approach to fix this issue
+- Provide Smart Software Solution that will be installed on H/W Machine similar to ATM Machines.
+
+- People can go to this machine and using Password or Smart ID as identifier for each person. Then he can extract any Governmental paper like birthday certificate or Marriage certificate and so on.
+
+- Fees can be delivers by providing Bank Account number in the beginning of the operation or by putting it to the machine.
+
+- Data Analysis S/W can measure the pressure on the Zones and Which region has the highest users for this service, Then we can put another Machine to help of minimizing the pressure on this machine and make it easy to the people to save the time.
+
+
+- EMC can provide the Smart S/W and Data Analysis Solutions.
+

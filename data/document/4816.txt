@@ -1,0 +1,15 @@
+Use data mining and machine learning for Automated Orthogonal Defect Classification
+
+While working on a pilot ODC of VPLEX defects we found it tedious and sometimes error prone and while discussing on big data analytics and data mining we hit this idea.
+Analysis of ODC data provides a valuable diagnostics method for evaluating the various phases of the software life cycle (design, development, test and service) and the maturity of the product(from IBM research webpage).
+
+As a manual process each defect from a sample is looked at and analyzed for the defect trigger(who found it, when, what triggered, how, impact of defect)and defect type(what was defective, which component was defective, when was it introduced, how was it fixed). Doing such analysis will help in identifying the source of defects and indicators for improvement. Such analysis will be done usually by few selected technical persons (SMEs). 
+
+Using data mining techniques and machine learning algorithms we can train the tool to do this ODC in an automated fashion. 
+Benefits of this approach:
+1. Reduces the time it takes for ODC
+2. Reduces the dependency on the availability of SMEs.
+3. Reduces the time frame required for implementing the improvements derived from ODC.
+
+The results of such a tool or exercise can also be fed as input to Risk Based Testing.
+

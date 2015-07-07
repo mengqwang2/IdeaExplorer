@@ -1,0 +1,5 @@
+Extend Chrome Devtools with a REST Client
+
+I have used third party REST clients. They are inherently insecure and very general. We can do better by implementing a secure and integrated REST client extension to Chrome Devtools.
+The Chrome Devtools are extensible. We will implement a secure REST client extension to Chrome Devtools Network tab. This extension will also understand our REST api structure.
+

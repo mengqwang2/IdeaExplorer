@@ -1,0 +1,20 @@
+EMC CONNECT
+
+Came up with the idea based on the process followed in the team, watching the customers attend webex for couple of hours just to know the updates and applying a thought on how they could be simplified and made more efficient just by the use of an app. 
+
+Detailed demonstration of the idea available in the Power point presentation attached: 
+https://inside.emc.com/docs/DOC-99989.
+
+
+1.EMC CONNECT app is installed on employees mobile, supported on all smartphones and other mobile devices.
+2.The app makes use of a centralized repository residing on the cloud to store the data of a team and private cloud to fetch information.
+3.Employees login to the app via their NT id and password.
+4.Customers are assigned a unique number, useful during customer-employee interaction.
+5.It is a centralized app and works based on the process followed by teams.
+6.Day to day updates are stored to the central repository for further processing.
+7.Team members can easily interact with each other / manager via the app.
+8.Customers get regular mobile updates of the escalation reported by him, there by avoiding his need to attend the WEBEX. Also interaction made easier, as he could get things clarified via the app.
+9.Deligation of work from the manager/ team lead to the team made easier using  the mobile app, increasing productivity.
+10.Auto search option available. Ex : Suppose if an emergency escalation logged, the app would look through bugzilla / esczilla to find similar problems and pop-up a message along with the previous bug /esc  id, to the resolver of the bug to take immediate action. If similar problems not found in the search, app would pop-up a message to the default assignee on his mobile.
+
+

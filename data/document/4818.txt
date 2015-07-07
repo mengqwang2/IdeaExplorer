@@ -1,0 +1,7 @@
+Mobile Apps can be created for raising Service request and to capture survey
+
+There was a sev-1 issue in our account, where Data Domain disk needs to be replaced and I was travelling when I get the notification. It was very tough time for me to raise an SR for the critical issue. I thought that if we an App created for EMC SR will be a good idea.
+* Mobile App needs to be developed.
+* Service Request can be raised over the App.
+* Survey can be captured easily to track Customer satisfaction.
+

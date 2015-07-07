@@ -1,0 +1,28 @@
+Similarity Detection of Test Cases Based on Phrase Structure Tree Comparison
+Improve the quality of test cases, make test more efficiency, remove human interference from the feedback loop.
+The current cases are reviewed  by architects, it is too time consuming. In order to eliminate human interference, automating the detection of  the similarity of test cases can achieve this goal.
+
+In previous work, an abstract syntax tree of java source code has been applied to detect similarity with another java source code, it obtained good performance and high accuracy. This method is well-suited for detecting the similarity of test cases.
+To detect the similarity of the test cases, this idea utilizes a NLP(Natural Language Processing) Statistical Parser to create phrase structure trees of the text and compare the trees. With the knowledge of language gained from hand-parsed sentences, the NLP Statistical Parser can eliminate ambiguity of new sentences by finding the closest Phrase Structure Tree. Also, we can train the parser to make it more suitable for our needs. This solution includes the following steps:
+
+1. Assume the cases are described without ambiguity;
+
+2. Generate phrase structure trees. Each tree node is a token of the word and tokenization can be customized ; 
+
+3. Define each token as a hash key;
+
+4. Calculate the hash value of each tree node from the leaf nodes to the root node;
+
+5. Compare the hash value of the  two trees from the root node to the leaf nodes;
+
+6. Calculate the similarity base on the result of step 5.
+There are two benefits out of this idea:
+
+1. Optimize the process and improve efficiency
+
+There are too many similar test cases and the current test case review process is inefficient. The similarity test cases detection system based on Phrase Structure Tree can reduce manual case review time and bring great benefits to the test process.
+
+2. Make the best of the existing automated test cases
+
+Since similar test cases can be automated by similar code, our solution can reduce the work of automation by using similar automation code after detecting the similar test cases.
+

@@ -1,0 +1,10 @@
+Automated Cafeteria Application 
+This is an automated process that will allow an ease of reserving meals and pick up of meals. 
+Cafeteria owner was asking for suggestions and going around with a paper and a pen asking. Employees miss reserving their favorite meals due to being stuck in a meeting or work. 
+Create an application that lists the fresh food available everyday in the cafeteria and allow employees to order and reserve the plates they need.
+This will be linked to the cafeteria where employees can view, prepare and reserve the order for EMC staff and will be able to set the pick time exactly. 
+Employees can aslo suggest food for the next week for cafeteria owner. 
+EMC employees will not waste time asking cafeteria staff to reserve food for them and wait again till it is heated.
+Even if you are stuck in a meeting or work, you will be able to reserve what you want. 
+Food will not be finished before employees get a chance to reserve what they need.
+

@@ -1,0 +1,16 @@
+Cross-BU support/sustain team
+- Global Product Operations Challenge.
+This innovation helps advancing the performance of our supporting processes and contributes to sustainability and customer TCE.
+- CTD Supportability in 12 Months or Less
+This idea improve the supportability of solutions that deploy multiple CTD products
+- Ireland COE Challenge
+We improve communication across our multiple EMC and Federation sites and also deliver enhanced collaboration across EMC’s Federation partners.
+Thought about it two weeks ago, while reading the innovation challenges.
+We suggest creating a cross-BU support / sustain team.
+Instead of having a dedicated personnel on the support / sustain team, create a team which will be comprised of engineers from different BUs, where each engineer will be assigned to the team for specific amount of time, e.g. 6 months.
+- Engineers know their product. Meaning 0 learning time.
+- Engineers, if needed, can get help from within their BU, by just picking up the phone.
+- It would be very beneficial for the engineers themselves, to see a real world’s use cases, and “feel” the customers.
+- Engineers will learn about other products
+- Engineers will make new, cross EMC connections.
+-  Improves communication across multiple EMC and Federation sites and also deliver enhanced collaboration across EMC’s Federation partners.

@@ -1,0 +1,6 @@
+Using Big Data Analysis to predict future diseases 
+This solution can be presented to healthcare organizations to present this service to their patients. This idea will address global solutions challenge.
+The idea came from the thought about the time taken to diagnose a patient and the money spend to archive the medical history of previous patients
+The idea is to make use of all the previous patients data and run a predictive algorithm to predict future diseases that could occur to current patients .
+This idea will make a lot of money and save a lot of time for medical organizations.
+

@@ -1,0 +1,31 @@
+Authentication and Usability Challenge in IoT
+Computer system is the most magnificent tool ever created to realize the dreams of humanity; however, improperly securing this vulnerable tool is certain to give nightmares to its users. Securing a computer system has always been a contest of wits: the adversary is always in search of holes, and the designer always tries to patch those holes. Pervasive computing and Internet of Things (IoT) has made it crucial to give security utmost importance while building these systems, which work on a variety of devices, locations, and forms. Secure and usable systems are need of every modern computing requirement. Harmony between usability and security is critical and quite often one is compromised for the want of other.
+This idea is inspired by the research publication Pixel Perfect: Fingerprinting Canvas in HTML5(https://cseweb.ucsd.edu/~hovav/dist/canvas.pdf ) . Our idea extends the original idea of using browser fingerprint for user/device identification.
+The idea extends the original idea of using browser fingerprint for user/device identification. Browser-fingerprint, can be obtained transparently, has high entropy, and can be used consistently to distinguish between the user devices.  Few of these elements, which constitute the browser fingerprint, are summarized below:
+1.	Screen Property	
+    a.	Width
+    b.	Height
+    c.	Depth
+2.	Browser Plugins
+3.	Time zone offset
+4.	User agent
+5.	Browser Name
+6.	Browser Version
+7.	Cookie
+8.	Storage
+    a.	Local
+    b.	Session
+9.	Language
+10.	Installed Fonts
+11.	Geolocation
+12.	Canvas 
+    a.	HTML5 Canvas
+    b.	Web Fonts	
+    c.	WebGL
+
+These data is easy to capture from the browser transparently without user intervention. In the proposed system, a broker sits on top of the IoT scheme. The broker will intercept all the incoming requests and will capture the browser signature. The broker will then match the signature in its archives. If a positive match is found access will be granted else the broker will calculate a risk score based on the matched factors and their weights. 
+risk_score= ? fx.wx (x=1,n)
+Here fx is the factor and wx is the associated weight
+Based on the risk score (which can further be classified into low, medium and high) the user can be challenged with single or multi factor authentication. For authentication, an RSA Authentication Manager Server can be used.
+
+We acknowledge that solutions like RSA Adaptive Authentication and RSA Authentication Manager are already there to address authentication challenges but they are designed for high level of identity proofing. Using these solutions in their current form for an IoT setup will be an overkill. Moreover, this solution will require no additional agent to be installed by the user. If implemented this idea will extend the functionality of RSA Authentication Manager server to be used with IoT schemes.

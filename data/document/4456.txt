@@ -1,0 +1,5 @@
+send message to specific groups in livewire
+
+I sent out a case review message in livewire, but it can only be seen by the group members I belonged to. 
+We can choose the specific messages before submit the messages, then people blong other groups if choosed, can also see the message.
+

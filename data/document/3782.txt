@@ -1,0 +1,7 @@
+High Speed Parallel Data Processing
+
+Sean's project was able to reduce the extraction and analysis of data from 30s to 6s. This collider issue looks to be a simialr problem to what he had in his project.
+We are currently capable of extracting and analyzing 500GB of data in 6.2s without using DSSD. We are hoping to experiment with DSSD to see if we can bring this down to 1s. Using parallel processing on top of that would speed this up even further.  
+
+The DSSD product is expected to address the I/O-intensive in-memory database so it seems like the next evolution for this would be to combine DSSD with Pivotal and seeing as the labs are remote from each other, we should also use VPLEX Virtual Edition (software-based storage availability platform), which will enable continuous availability for virtual machines.
+

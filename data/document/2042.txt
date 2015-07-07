@@ -1,0 +1,6 @@
+Integrated vacation taken system in email calendar
+Vacation taken system EAS is hard to use and maintain. We still need outlook calendar to let other team members know about our vacation to keep work ongoing.
+EAS are hard to open and update is slow. We need two way to take a vacation, EAS and calendar. We also needs to keep the EAS password. 
+Using outlook API to search the key word in your calendar. Set the vacation quota and type. 
+When vacation taken, calendar send out to all team members. calculate the available days then send feedback email to employees and managers.
+Make our HR management more flexible and portable. 

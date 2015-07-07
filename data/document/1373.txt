@@ -1,0 +1,7 @@
+Backup plus predictive analytics
+The idea is to build an application with additional features to see how can the product be better utilized
+There will be always a space to improve and analysis will be a handy to see the improvements in a business.
+Analyzing the data we can use regression techniques to build a data which can be used for new implementations and corrective measures in the existing environments.See the trend from the reporting data and can build regression techniques where analysis and solutions be provided  with in the backup software.
+Product improvement with additional technology.
+Can have this as licensed feature which can make money.
+

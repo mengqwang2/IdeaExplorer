@@ -1,0 +1,46 @@
+Diversity Analytics for Innovation @EMC
+HR Challenge is about knowing if & how diversity works. The proposed idea is about deriving some interesting facts about Diversity using the past EMC Innovation Central data (https://innovationcentral.corp.emc.com/) and coming up with a model to measure the success of diversified teams.
+The idea was thought through based on what is currently missing for Diversity & Innovation @EMC, a end-to-end Analysis Check solution would help. 
+The team has done below analysis using the data dump from the Innovation portal Winners using the past 3 years of data (2012; 2013; & 2014)
+
+-	22 Winners out of 1233 ideas submitted with a diversified team
+-	22 Winners out of the 1449 ideas submitted with a non-diversified team
+-	25 Winners out of 6430 ideas submitted by a Single EMC employee
+
+This derives, the probability to win as a single submitter is very very less and also the probability of winning from a diversified team is slightly higher (~20%) than the non-diversified team.
+
+Note that the chances of a Diversified team winning is 3 times higher than non-diversified & single submitters put together. 
+
+Other analysis that was done is to back trace, if the winners are coming from a Diversified team back ground. We tried a sample of winners from Bangalore & Shanghai, tracing back to their team backgrounds. Majority of the winners were coming from a diversified team background. Out of 44 winners from Bangalore & Shanghai, 28 winners are from teams with diversity.
+
+How can we better this? What next?
+
+The proposal to keep an Analysis Check on Diversity using the Innovation portal data. Any missing attributes required for the analysis could be derived using PeopleSoft dump & other IT systems if required. 
+
+The diversity model should have primarily two functionalities,
+
+-	Gather data from Innovation portal YoY, analyze the data, measure the metrics of diversified teams/non-diversified teams ( irrespective of the results as they would be crucial data points to to understand Diversity in Innovation better )
+-	To come up with different variants of a definition of a diversified team based on gender, geographic locations, and other related attributes to perform the analysis.
+-	Second functionality is to analyze the team background of the winners.
+Are the winners coming from diversified teams? What is their team composition? What is their teams span across different geographies? 
+-	Using Peoplesoft data, we can come up with Diversity Metrics of each of the teams in EMC rolling up to the Diversity metrics of the organization. 
+-	The above solution can be integrated with Open Source Web based portal, using Bootstrap UI & Angular JS components for Dashboards & Reporting purposes. 
+
+Proposed Solution to Test Diversity: 
+-	Using text analytics, analyze the skills required for ideating the posted challenges, choose frequent submitters at the Innovation portal based on the required skill sets for the challenge, sends notification to the submitters to form a Virtual diversified team for Innovating for that challenge. 
+
+-	Measure the success of the Ideas that is submitted from this Virtual fully diversified teams
+
+How the solution works: 
+
+-	Receive yearly dump of Innovation portal data.
+-	Cleanse the data with required attributes as required from other IT systems like Peoplesoft etc. Fill in all missing information like Gender, Locations etc
+-	Ingest the data into a My SQL database, derive metrics using simple Java based scripts.
+-	Extend the solution to Hadoop cluster as the data grows, and to perform any Text Analytics on the data.
+-	Build an Open Source Web Portal using Bootstrap UI & Angular JS components for displaying the analyzed data in the form of Dashboards.
+-	The solution can be implemented using micro services & deployed on Cloud Foundry to be compatible with 3rd platform solutions, so it can be consumed by other services.
+
+Benefits
+-	We can club the Diversity analysis with the ongoing Analytics that is done on the Innovation Portal. 
+-	Solution is simple to implement. As we increase our Diversity Metric at EMC, a need for a platform to understand its value is inevitable.
+

@@ -1,0 +1,6 @@
+The next Generation of Greenplum – an enhancement to current Greenplum database by adding “PIT” technology for protection
+
+The idea came up while reading about Pivotal Greenplum database and how to make this a cutting edge solution on top of all OLAP (Online Analytical Processing)systems 
+The Current Pivotal Greenplum database is built on top of postgress database and inherits its features. The current postgress version used (8.8) does not support the Point In Time (PIT) snapshots feature. While we can make use of this by using the recent postgress database version 9 that finally supports PIT recovery.
+
+

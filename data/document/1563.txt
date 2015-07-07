@@ -1,0 +1,10 @@
+Integrate OpenStack to ViPR for computing ability
+ViPR is a very important layer in EHC, the more powerful for ViPR the more powerful for EHC.
+OpenStack is popular, we should integrate ViPR and OpenStack as deep as possible
+There are two steps should be done for this purpose:
+Step1. Integrate OpenStack to ViPR controller node, then ViPR can manage OpenStack and implement its computing ability through calling API of OpenStack.
+Step2. ViPR offer storage through cinder driver to OpenStack.
+
+After integrated, user can create VM through ViPR and ViPR will create VM through OpenStack, OpenStack will create VM on storage offered by ViPR. Then ViPR will have computing ability through this integration.
+
+With this integration, ViPR will have computing ability which will make it more competitive.

@@ -1,0 +1,5 @@
+Blockchain(Open ledger) based security for IOT devices
+Helps in secure communication of IOT devices
+While exploring different apps built on of blockchain technology.
+A block chain is a distributed data store that holds a public ledger of transactions for cryptocurrencies, such as bitcoin. This record is enforced cryptographically and hosted on machines running the software. ( https://en.wikipedia.org/wiki/Block_chain_%28database%29). Blockchain could be used by IOT devices to track other devices & their relationship with other devices. IBM is trying in similar lines. See this article : IBM Sees Role for Block Chain in Internet of Things (http://www.coindesk.com/ibm-sees-role-block-chain-internet-things/ & http://www.coindesk.com/ibm-reveals-proof-concept-blockchain-powered-internet-things/ )
+creates new business opportunities for RSA

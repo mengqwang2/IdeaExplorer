@@ -1,0 +1,15 @@
+Inter-office SAN connectivity between core labs using Fibre Channel over IP (FCIP) router
+Improve efficiency related to Shared Service delivery
+Storages cannot be shared across multiple lab locations
+Limited Shared Service delivery for Storage infrastructure (Within the same lab)
+Efficiency can be improved by leveraging existing storage across all the labs
+
+
+As a lab engineer, normally get volume assignment request on different types of arrays from different vendors. Currently we re-route the ticket to the location where the requested storages are identified and this route is very lengthy and customer satisfaction is very low due to the longer closure time. The idea is evolved to address the current challenges (a) how to share the storages across the lab, (b) Increasing customer satisfaction by providing quicker allocation.
+We can have FCIP router installed in each location and connected together, instead of buying multiple storages of same kind in different location. Capital expenditure can be well utilized by sharing storage resources across global labs.
+
+1) Increasing usage efficiency by sharing storage resources across the global labs
+2) Minimized capex spending by keeping only one kind of storage in any location and that can be shared across all labs 
+3) Customer satisfaction through provisioning storages available across the global labs on demand
+4) Increasing productivity by providing speedy access to various storages available across the labs
+

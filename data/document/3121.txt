@@ -1,0 +1,5 @@
+Implement ADt logcat like functionality fot CF Apps
+
+The idea came about in order to address the difficulties I experienced with accessing logs of a app deployed on CloudFoundry.
+We can implement the logcat like functionality, integrate it with the CloudFoundry Plugins for Eclipse, and access the apps files using the CloudFOundry client library or using the Remote System View support for CF App filesystrem in the CloudFoundry Plugins for Eclipse(https://github.com/cloudfoundry/eclipse-integration-cloudfoundry/tree/master/org.cloudfoundry.ide.eclipse.server.rse). The feature will merge and collate log entries from multiple log files for understanding the timeline of events in the logs.
+

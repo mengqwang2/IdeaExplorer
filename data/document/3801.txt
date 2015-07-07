@@ -1,0 +1,7 @@
+XIO Manufacturing Test Time Reduction
+
+Idea is part of the 2014 manufacturing OE initiatives.  The test time has been reduced.
+Project lead: Jerry Diehl
+
+Reducing the manufacturing test time from 92 to 59 hours results in $160K in annual soft savings
+

@@ -1,0 +1,49 @@
+Kubernetes On EMC Hybrid Cloud - (An ocean of user containers - PoC Available)
+This is a new container service (open source), which can be integrated to EHC stack to provide Microservices and PaaS Sandbox environment to user based on demand requirements. This Solution integrates EHC, Kubernetes and Vmware Big Data Extensions (BDE).
+
+Containers are lightweight and easy to move around. They comprise just application and its dependencies, whereas a virtual machine has to store a guest operating system in addition to binaries and libraries. Kubernetes is designed for Docker container management at scale.
+
+Go-To-Market Strategy:
+
+3 million Kubernetes downloand till now is an immense scope for vendor cloud integration, which helps EMC EHC to provide a reference solutions to EMC customers. Kubernetes with multi cloud have shown a steady increase of 30% in the year 2015 in app container solution.
+
+https://inside.emc.com/docs/DOC-155552
+It is difficult to manage a large environment with containers. There are challenges in configuring environment for containers. This solution is tailored to address the the above challenges.
+
+
+ >> We can avoid vendor lock-in and run containers in the cloud of our choice. It is just as important that the management framework has the same properties of portability and scalability, and that is what the community will bring to Kubernetes.
+
+>> Efforts will focus on bringing the pod based networking model of Open vSwitch to enable multi-cloud integration of Kubernetes. Kubernetes is on its way to become the de facto container management tool preferred by cloud service providers and enterprises.
+
+
+>> Based on our experience, most of container users still see them as if they were faster VMs. Or in other words, each container includes an independent piece of functionality with a distinct lifecycle and dependencies with other containers.
+
+>> Such an approach is very useful in the earlier stages of adoption and helps enormously to improve development environments, however, it creates significant difficulties when containers are used in production like environments.
+
+
+>> Such a group of services is called pod in Kubernetes and it creates very elegant abstraction that eliminates the need to schedule these co-located groups and define shared network and storage configuration for each one of them. pods allow users to focus on the higher level challenges of orchestrating complex deployments, scaling, service level management, etc..
+
+
+>> Such higher, system level operations are managed by Replication Controllers with the help of Services that ensure that the right number of pods is running and the load is balanced according to the needs.
+
+>>  By integrating VMware Big Data Extensions (BDE) with EHC will simplify the provisioning of Container environment (Kubernetes) clusters on vSphere. Utilizing Kubernetes API and vRealize orchestration capabilities new services can be published in the Catalog for Microservices and PaaS sandbox environment. With vRealize Orchestration, manual administrative tasks on Kubernetes can be automated with ease.
+
+https://inside.emc.com/docs/DOC-155552
+Go-To-Market Strategy:
+
+3 million Kubernetes downloand till now is an immense scope for vendor cloud integration, which helps EMC EHC to provide a reference solutions to EMC customers. Kubernetes with multi cloud have shown a steady increase of 30% in the year 2015 in app container solution.
+
+
+Additional Benefits:
+
+Integrated Tools - Such as log analytics, performance monitoring and delivery pipeline simplifying life cycle management and deployment.
+
+Elastic Scaling and Auto Recovery - Providing resources when needed them most!
+
+Zero Downtime Deployments utilizing Active Deploy - Ensuring users are never impacted by application enhancements.
+
+Private Overlays, Load Balancing and Automated Routing - Enabling capabilities to address even the most complex business requirements.
+
+Support for Persistent Storage - Allowing data-centric application creation!
+
+Automated Image Security and Vulnerability Scanning - With Vulnerability Advisor alerts to security weaknesses before deployment.

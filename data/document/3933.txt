@@ -1,0 +1,11 @@
+Big data and data science for security
+
+My work experience at RSA WTD and thinking about 3rd platform generated this idea.
+Big data + data science can be used to enhance security by identifying and mitigating anomalous and fraudulent activities on a device, machine or even web session for a given IP or a given User. Even though RSA WTD product targets the last item identifying anomalous activities in a web session http traffic, it’s far from the big data scale. My proposal is to create behavioral analysis algorithm that can be run on vast amount of data – user, ip or a device data with the goal of finding behavioral pattern and detecting deviation from the norm, i.e., anomaly detection. The algorithm would work off terabyte or petabytes of data. The algorithm must create models for the real time analysis as well as facilitate batch analysis of big data. Data must contribute to a real time analysis engine before making its way to the persistent storage for batch analysis. 
+
+For example, to identify DDoS attack  a clustering algorithm can be utilized to identify users, IPs or devices behaving in the similar way (similar behavior of page visits, time between visits, patterns of page visits etc.). 
+ Another example is to identify anomaly in a profile from the vast amount of data available for that profile. How to detect anomalous activities for a user once you have a year or 5 years worth of data for that user? Anomaly detection should be both real time and batch mode. 
+
+Another use case is to detect anomalous activities on a device assigned to a certain user based on the deviation of usage pattern from the norm.
+
+

@@ -1,0 +1,16 @@
+“ViPR+” (The Next Generation of ViPR)
+
+ The idea came up when thinking about the wasted cost of IT refreshments at Data Centers and how can we, as EMC, lead in this opportunity and save money to our customers.
+The idea is to equip ViPR with an enabler or software layer that deals with EMC legacy arrays as an abstracted array of disks. This software enabler will emulate the function of certain backup solution. This was ViPR will help understand the legacy storage array and reuse it as a backup solution. 
+
+This helps with :
+1-	Maximizing  ViPR sales opportunities 
+2-	Enabling the customer to reuse his old array at minimal cost and save a considerable amount of money.
+3-	Environment friendly solution with no need to recycle old arrays
+
+Performance considerations :
+
+Performance requirements for storage arrays (for production data) are much higher than the backup solutions performance requirements. This means that legacy storage arrays have poor performance when we look at it as a storage solution but if we changed the way we look at them to be backup solution then they will have more than enough performance as an innovative new backup arrays. 
+
+
+

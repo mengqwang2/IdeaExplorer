@@ -1,0 +1,10 @@
+ MyVoice-quarterly
+
+ The idea came up while filling the survey
+
+
+Our idea proposes a solution for this problem to enable more granular analysis of myVoice data using temporal analysis (analysis over time).
+We suggest that the survey is done on quarterly basis to provide more depth in the analysis part afterwards and to avoid situations like filling the survey with any random answers due to time limitation.
+
+
+

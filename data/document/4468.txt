@@ -1,0 +1,8 @@
+Build an ecosystem, that will improve EMCs ability to gather customer/partner feedback, requirements, and concerns, in real time, at the source.
+
+During the course of work, cant think of any specific time. Wasnt something brought to the forefront as such.
+Every product of EMC should have an easy method for the customers/users to report feedback/requirements/concerns. Mostly, its when the products are being used is when users will identify these. Having an ability to easily and quickly report it will help, as opposed to putting it off for a later time (email/phone/web reporting) or even a periodic survey.
+So the thought is for every product to have multiple mechanisms to do this quickly. One could be an in-built form/page within the product where the customer can enter a few quick details, and just press 'send to EMC'. Right then and there. Optional could be to upload files, screenshots etc. The EMC product then uses internet to send this data to EMC, possibly as a background task. Users may not mind allowing (only) this information to be sent back to EMC, as long as its in the clause/agreement.
+In addition, EMC could have a unified APP which allows the same to be done, or even a separate tool on a PC, in case the deployments do not have internet connectivity by themselves.
+The mobile APP's could also be used to Tweet positive feedback (identified based on the data entered by the user) about the products.
+

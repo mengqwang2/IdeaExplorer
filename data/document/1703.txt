@@ -1,0 +1,42 @@
+ Smart City & Smart Platform - Modeling the Smart City over Enterprise Hybrid Cloud (EHC) and Business Data Lake (PDL)
+ The idea addresses he smart city market based on IoT technology and tries to provide the enabling platform allowing different government sectors to automatically store, manage and protect their data as well as create their own application to process and monetize such big IoT data.
+The idea positions EHC and BDL in a promising market
+
+Looking at Cairo as an example, we see a gap between the current value we are getting of public data and the potential we can get out of such data if we can offer secure centralized platform for storage and analytics. We found that EHC and BDL answers many of the current challenges and we can add some features to be built as modules (solution packs) to make the package best suited for IoT environment
+
+References:
+[1]- https://www.emc.com/collateral/solution-overview/h12476-so-hybrid-cloud.pdf 
+[2]- http://pivotal.io/big-data/businessdatalake 
+[3]- http://pivotal.io/big-data/pivotal-big-data-suite
+
+
+ 
+The solution consists of the following folds:  
+
+1-	EHC : will be packaged solution for data aggregation, storage, backup, security and management
+2-	BDL : will be packaged solution responsible for analyzing and monetizing centrally collected data
+
+3-	Use of Tenants for Privacy: different departments/sectors in the governments will be modeled as cloud tenants (ready in EHC). Each sector has its own private cloud (in EHC) for private data (such as electricity consumption data) as well as access to public cloud (in EHC) for shared data (like people demographic data).
+
+4-	Public access: citizens can have a limited public access to the public cloud to report issues to certain authorities. For example: a citizen can upload a photo of a wasted water incident or traffic violation and tag the proper authority.
+ 
+5-	Elastic data movement for collaboration: EHC offers defining rules to automate data movement between public and private clouds [1]. (for example: transportation department can share his traffic data with other department (security) or with all departments for collaboration/research). 
+
+6-	Smart Storage: EHC will utilize ViPR to manage the storage with different backend arrays. We will add an intelligence module that allocates storage efficiently depending on the IoT network behavior. for example: certain sensors data are more important than other data (higher protection) while  other sensor data remain unused until end of year (remain in cold tier till end of year then move to hot fast tier). 
+
+7-	Smart Backup: EHC offers self-service backup and options for end user to set policies [1]. We will add an automation module for this part allowing for backup to automatically adjust policies and rules depending on the IoT network expected behavior with no need for human factor in the loop. Backup policy will be determined using some factors like: criticality of data, required retention periods, type of sensors and location. For example public security sector may wish to keep some surveillance data from critical locations (like banks) for longer periods. Energy sector authorities may wish to have more frequent backup for data coming from certain energy meters (neighborhood aggregators) while more detailed data (from single houses) can tolerate less frequent backup or no backup at all. 
+
+8-	Data Analysis/Reporting:  Here comes the role of EMC BDL [2]. EMC BDL will tackle the task of translating this ‘Big Data’ into insights and decisions using two services:
+a.	Dynamic Reporting : simple real time reporting on the data showing trends..etc. such reporting can be in real time and utilizes Pivotal Visualization tools. 
+b.	Deep Analytics: gathering huge data centrally for correlation analysis and predictive analytics. This can utilize data from different tenants to get deeper insights. This will use batch processing techniques utilizing Pivotal Hadoop platform [3]
+
+9-	App Development: different departments can build their own applications over Pivotal CloudFoundry (CF) platform-as-a-service offering. For example: transportation ministry may wish to create public transportation mobile app based on traffic and map data already collected. 
+
+Solution offering will target governments allowing them to save a lot of money by smartly utilizing their resources and allow EMC to generate revenue from selling, managing or maintaining such solution. Different offering models can be solution or service depending on the government financial and expertise capability
+
+
+1-	Save money for smart cities
+2-	Efficient use of smart city resources using distributed efforts and centralized data
+3-	Huge market for EMC to generate revenue
+4-	Promotes EHC and BDL
+

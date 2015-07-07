@@ -1,0 +1,18 @@
+OpenStack Managed Enterprise Database Service for Cloud Foundry
+Cloud Foundry Services enable end users to provision a resource on demand. Examples of a resource a service might provide are databases on a multi-tenant server.
+These resources are known as Service Instances. Think of a service as a factory which produces service instances. 
+There are two ways in which Cloud Foundry enables developers to provision services: Managed Services and User-provided Service Instances. 
+A Managed Service integrates with Cloud Foundry via a service broker that implements the Service Broker API. A service broker advertises a catalog of service offerings and service plans to Cloud Foundry, and receive calls from Cloud Foundry for four functions: create, delete, bind, and unbind. The broker then passes these calls onto the service itself.
+Our idea target to provide OpenStack managed database service to community Cloud Foundry.  
+When using community Cloud Foundry, only naive database service is provided. Since Trove in OpenStack could provide Database as a service, we think it will a great idea if we can expose OpenStack managed database service to Cloud Foundry.  
+Trove is Database as a Service for OpenStack. It's designed to run entirely on OpenStack, with the goal of allowing users to quickly and easily utilize the features of a relational or non-relational database without the burden of handling complex administrative tasks. Cloud users and database administrators can provision and manage multiple database instances as needed. Initially, the service will focus on providing resource isolation at high performance while automating complex administrative tasks including deployment, configuration, patching, backups, restores, and monitoring.
+First our idea will integrate OpenStack with EMC storage (Also we could leverage EHC OpenStack Powered Edition directly) to provide enterprise database service with HA, Backup/Recovery, Replication support.
+Second our idea will develop a Cloud Foundry database service broker to enable Cloud Foundry to provision the database service provided by OpenStack.
+
+Success: 
+1) OpenStack + EMC Storage are well integrated for Trove scenario.
+2) A database service broker is developed, which could enable CF to provision OpenStack managed database service.
+
+Benefits:
+1) Dramatically increase the adoption of community Cloud Foundry.
+2) Dramatically increase the market of EMC OpenStack solutions, including EHC OpenStack Powered Edition.

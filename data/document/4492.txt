@@ -1,0 +1,14 @@
+Art Request tool Enhancment
+
+The wasted time that is done every time while opening an ART request, last month i was searching for an access to one of my employees and i opened more than 17 Art request and i got the approval and after that i discover that is a wrong access and till now i am searching for the correct access and i checked with the IT and no one can help.  
+Create a manual for all type of access on the ART tool and this manual to be implemented on the tool it self through a search engine that detect what manager needs and find the correct access.
+
+Example:
+
+If i need to have access on the oracle 11i install base, i write on the search bare install base and this guide me to the full path of 
+Go To Market --> Synergy 11i --> Install Base Oracle --> Installed Base User --> read access.
+
+The problem if i don't know that Install base user access is under Go To Market i will never find this path.
+
+Also if i am a supervisor and i have a list of access that are basic to any member of my team, we can add on the system a feature of having a model that contains all access that i request to any new joiner, so i make this model once and  then i can request it for any new member and this model will open all requests for all access needed. 
+

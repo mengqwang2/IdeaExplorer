@@ -1,0 +1,7 @@
+CE call back timeframe
+
+customers' satisfaction is one of EMC's values and this is one of the major issues customers face
+setting time frame (24 hours) for CEs to get back to the customers if they call for help 
+customers will be notified that they should expect a call within 24 hours
+if a customer needs immediate help and doesn't want to wait, we can let the CE call back within a couple of hours
+

@@ -1,0 +1,23 @@
+Creating new era in healthcare by enhancing EMC clinical archival solution using big data analysis
+new business
+using existing EMC products
+n/a
+Currently EMC clinical archiving solution has the following things: 
+•	Reduce IT costs by decommissioning obsolete systems
+•	Archive structured and unstructured clinical data documents
+•	Access complete patient records including electronic health records (EHR) systems
+•	Provide on-demand access to all archived patient information through a web-based application integrated into EHR.
+
+Proposal:
+
+Data from different regions(different clusters) could be stored in Isilon, which is a scale out NAS. Based on the performance required, we choose IQ s-series(performance), IQ x-series(throughput), IQ np-series (archival).
+
+Data which is gathered globally could be used for the following things:
+-	Could be used to analyze the health trend locally and globally
+-	If a particular disease is endemic/epidemic, analyzing the patient data could help in finding the cause for the disease.
+-	Anomalies in treatment/diagnosis could be recorded and tagged by doctors across the world. When similar case occurs, some other doctor across the ocean could use it as a medical reference.
+
+For analyzing the health trends we gather data from across the globe and do big data analysis.
+
+Point to note here, we should also be compliant to the rules and regulations say HIPAA. While getting patient information, we should also get their consent to share the information for data analytics and research purpose.
+we can create a new era in the health care sector. Health sectors across the world would buy EMC products for their reference medical records and archival.

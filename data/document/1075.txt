@@ -1,0 +1,15 @@
+ESM service now Mobile APP 
+* Customers get the immediate updates on the incidents or requests logged in service now
+
+* Will be able to measure the quality of service delivered
+
+
+I work for EOS2 lab team, when interacted with Customer for their incident update after office hours, the answer will be need to login to system to  update. with this APP the customers will be having the flexibility to update & log incident any time as it is portable.
+Create ESM service now Mobile APP, with this customers will be able to log incidents, answer the queries of the engineers working on the incidents. 
+
+Integrate customer feed back link with ESM service now incidents to measure their experience with the work delivered 
+
+Create a LAB IT help desk for service now (integrated with Lync), so that any service engineer will be able to address the queries
+will be able to receive timely update on the incidents & will help to close the incidents with in SLA .
+
+We can  Improve our service with the customer feed backs.

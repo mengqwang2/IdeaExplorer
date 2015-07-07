@@ -1,0 +1,5 @@
+eDiscovery as a solution (SaaS model)
+
+Q2 - 2014 internal team discussions
+Build an eDiscovery SaaS based solution on top of NGIS wherein eDiscovery can be another offering to the customers. Running any existing eDiscovery products on the data residing on the cloud ("Storage as Service") would need to access the data remotely OR pull down the data on premise for various means. A SaaS based eDiscovery solution will offer the customers a great business value on top of the "Storage as a Service". 
+

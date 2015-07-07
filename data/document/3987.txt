@@ -1,0 +1,5 @@
+Education Access Anywhere
+
+I usually listen and watch technical training at home and in the way to work via podcast apps. So I think it is a great idea to put this idea to EMC's education course.
+The application needs a login process as the website has, the account has the same authorized level as the website account.The registered course can be sycnchronized to the mobile end as an option, both document and video. The training material needs to be encrypted so that the downloaded materail can not be shared to other account. Once download, the person has unlimited permission to access the training course.
+

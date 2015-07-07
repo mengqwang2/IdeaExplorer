@@ -1,0 +1,5 @@
+Install phone/tablet casting for meeting rooms
+
+This is commonplace feature I use at home for sharing pictures, website and videos and I was wondering why we didn't have this capability at work. 
+Add a casting device (Apple TV ($99), Google Chromecast ($35), Roku Streaming Stick ($50) to the TV in each meeting room would enable a user to instantly project whats on their phone or tablet to the screen enabling instant collaboration adn sharing without looking for cables and connectors that are varied and get damaged easily. This idea could be trialed in dedicated collaboration spaces and expanded to all meeting rooms over time. Because the device is hidden behind the TV it is never physically interacted with by the user and as such would reduce physical wear and tear.
+

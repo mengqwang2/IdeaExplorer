@@ -1,0 +1,18 @@
+Transfer xPression to 3rd Platform Application Service
+
+
+I have worked on Cloud Foundry for years, and am involved in several initiatives of customizing CloudFoundry service.   During a brainstorming with IIG colleagues, we identified this opportunity to transfer powerful xPression into service.
+
+We are proposing to transfer xPression to a Cloud service that can be on-demand provisioned and used by applications running in Pivotal Cloud Foundry.  The xPression service can be used like below process:
+
+1.	xPression service is implemented to provision xPression as a Service that involves implement several REST interfaces as Cloud Foundry requests.  The service will register itself to CloudFoundry by requesting a POST HTTP request to Cloud Foundry Service Broker.
+
+2.	Application developer can create an xPression service through Cloud Foundry dashboard or CLI.
+
+3.	For each service creation request, xPression service creates a new xPression service instance.  Since xPression doesn't support multiple transformation, one instance could be new xPression deployment running in Docker container.
+
+4.	Then, application developer is able to configure the xPression instance for designing output.  If the input data locate in other service like mysql, it may be true for the most of 3rd platform application, the configuration will also involve specify the input data source.  For example, an application in Cloud Foundry usually bind database for persisting data.  The database service need be specified during the xPression configuration if it is input data souce.  A web-based xPression designer is preferred in this case, so that the configuration process can be integrated into CloudFoundry seamlessly.
+
+5.	When configuration is done, the application is start to be benefit from powerful communication capability of xPression.
+
+

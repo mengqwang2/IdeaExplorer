@@ -1,0 +1,10 @@
+OpenFlow For a Software Defined Data Center
+My suggestion aims to simplify network management by abstracting its components, enabling greater control, efficiency, scalability and automation.
+I learned about OpenFlow by reading the following articles about SDN designs of Google’s and Facebook’s networks:
+http://www.wired.com/2012/04/going-with-the-flow-google/
+http://searchsdn.techtarget.com/news/2240184752/The-SDN-implications-of-Facebooks-open-source-switch
+All major network equipment manufacturers support the OpenFlow protocol, so getting adequate equipment shouldn’t be hard. The architecture of the network should be designed according to the specific requirements of Durham’s data center. Without being closely familiar with Durham’s data center it’s impossible to suggest anything specific. More on OpenFlow can be found on the Open Networking Foundation site at:
+https://www.opennetworking.org/about/onf-overview
+Success criteria would be if Durham’s data center will be redesigned around the SDN concepts. This will save EMC lots of money due to simplified network management and better resources utilization.
+
+SDN and OpenFlow specifically emerge as the future of networks design. All the big players, including Google, Facebook, Microsoft and others already in the game. The major equipment manufacturers such as Cisco, Brocade, ECI, Huawei and Radware already supporting it in their products. EMC can’t allow itself to lag behind! 

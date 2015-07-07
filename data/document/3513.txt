@@ -1,0 +1,14 @@
+ Faster Performance Analysis for better TCE – save TSEs wasted time
+
+ The idea came up from the daily work of the performance team working on different performance issues in CS-USD
+The idea works as follow :
+
+-	Use a centralized platform to process the performance data and send the results to the TSE
+-	The centralized platform will meet the application requirement (high CPU and RAM) to run the analysis at minimum time.
+-	This platform can be a powerful Virtual Machine that is deployed and equipped with the needed applications and software tools
+-	A pool of TSEs (performance team) will have access to this VM and can use it anytime.
+This approach makes use of the fact that a TSE will not need this resource (VM) all the time hence it allows resources pooling of the VM between more than one engineer
+
+
+
+

@@ -1,0 +1,7 @@
+Customer Feedback after SF case
+
+Brainstorming session
+When a customer submit a case on salesforce and it is completed, we flip the case into resolved with the notification mail that is sent back to the customer notifying him the case is "Resolved", the customer could complete a survey on salesforce so that the case will be flipped to close.
+we notify the customer that the case has been resolved and please complete the survey so that the case would be flipped to closed.
+that will increase the feedback from the customers as they need their cases to be closed.
+

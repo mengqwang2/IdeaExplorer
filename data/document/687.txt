@@ -1,0 +1,20 @@
+Documentum and xDS search improvement
+Nowadays when data amount multiplies every few years the focus moves toward data search. Current implementation of Documentum employes Lucene seach engine which is quite powerful but lacks of important capabilities we propose to address
+We are working on Meta4 engine to address FBDL needs. We performed thorough analysis of existic solution and found out that they don't fully satisfy requirements for modern systems, hence we proposed new approach to solve that
+We propose to replace Lucene with Meta4 engine developed at Skolkovo R&D center. It is designed for FBDL applications and ideally address Documentum and xDS needs.Here is short description of meta4:
+
+meta4 is the solution intended to provide capabilities for similarity discovering and searching over the complex interrelated data. 
+
+Features
+
+* Federated search and similarity discovering both over the data and relations
+* Pluggable domain-specific similarity models (more accurate ranking and similarity)
+* Fast and effective relations management
+* Support of all classical search engines features (e.g. phrase queries, proximity queries, range queries, etc)
+
+More than "just Lucene"
+
+* Lucene/Solr/ElasticSearch lacks support of complex relationships due to its document-oriented nature. You should execute expensive joins internally.
+* Lucene/Solr/ElasticSearch uses vector space model in conjunction with natural term frequency distribution model (e.g. TFxIDF) as the similarity model (serious restriction). Such approach does not work fine in a number of cases (e.g. schema comparison).
+
+The products search algorithms will provide much better quality of search results improving user's experience by narrowing most relevant results and including those which could potentially be missed in previous search algorithms. It may potentially attract new customers and increase sales.

@@ -1,0 +1,54 @@
+Customer Helper
+The idea looks at solving customer problems as much possible in the customer environment without having to log an escalation (In case of issues related to network / configuration / integration). Many times the support people would take weeks together to collate all the required logs , and during this the logs would have already flushed out of the system, thus making the customer wait for a longer time to get his problems resolved. The idea aims at resolving this problem by collecting logs before , after the problem occurred, and would provide quick solutions to the customer that might help in troubleshooting some problems, without having the customer to co-ordinate with the support guys for every issues.
+Also if the issue continues to persists, the customer environment details would be auto collected , which would make the support people to resolve the customer problem in short time span.
+
+Came up with this idea when working on escalations. Many a times we request for logs and the time taken to get the required logs would be almost like a week or so, thus making the customer wait for a longer time. Also in some cases once the logs are got it would turn out to be some simple integration configuration issues which could actually be solved in a small time span. Hence came up with this idea of involving a rules engine deployed on the customers end that could solve these kind of simple issues and / or some problems that could be corrected in the customer environment itself without having to file an escalation.
+
+Also even if the escalation is logged, now the engineering / support people need not have to wait for weeks together to get hold of the logs, as they will be collected well in advance, and no loss of logs required for investigation thus saving both the customer and support people.
+1. The idea is named as "Customer Helper", would be a small text box and button on all the product UI / GUI.
+2. This at the backend would make use of an engine called 'Rules Engine' designed by using E.X.P.E.R.T SYSTEM and is deployed on the customer environment.
+3. The engine has 4 main functionality : Initial analysis, Log collection, Log analysis, Solution Provider.
+4. A set of intelligence (rules) troubleshooting tips and information , all logs locations that needs to be collected for the given customer environment will be fed into the engine, thus when an issue occurs, the engine would query its database to find for a solution and present it to the customer / collect all the necessary logs.
+5. When a problem is encountered on the customer environment, he would simple press the 'Customer Helper ' button.
+6. The engine would 1st run a set of initial checks like network, configuration and integration related settings. If no problem observed, then would go to next step, else would pop-up a message to the customer to correct the required settings.
+7. Once it ensures initial configurations are all fine, would collect all the logs (say 3  days before) before and after a given problem occurred from all the product(s).
+8. It would then analyze the logs to find out if any error / exception occurred (By checking for 'error' or ' exception' keywords) , If any found, the solution provider would query for the words present in the errors, and present the solution to the customer via a box.
+9. Even after the above steps the issue is seen to persist, the system would present a detailed description of the customer environment to the support people consisting of version, platform, products integrated, platform in the form of a text file located at a specific location.
+10. Similar engine when deployed on the support side, would query all the bugs / esc to see if the issue already had an existing solution, if so helps the support people to resolve the customer problem at a faster pace.
+11. The customer could also enter his issue and click on the button, to find any solution, before directly logging escalations. 
+
+
+Example of how the idea works :
+
+1. Engine troubleshooting the issue without escalation being logged :
+
+- Suppose we have avamar and DD products integrated in the customer environment.
+- The customer would try to backup a file to DD (located in a different network)  via avamar.
+- During this the DD's network goes down, and the customer does not realize it, he would try to backup and the backup fails as long as the network is down.
+- Now once he clicks on the helper button, the engine has the intelligence to analyse the networks and pop-up an indication to the customer saying he needs to check his network before backing up the file.
+
+Like the above one, some of the issue that could actually be addressed on the customer's site would now be resolved easily.
+
+2. Engine collecting logs, analysis of logs, solution provider:
+
+- Suppose we have a product(s), and the UI loading fails due to some heavy load on the server.
+- Once the customer clicks on the customer helper button , the engine would first perform initial checks.
+- Here since the initial checks would pass, it would collect logs and analyse the logs from all the products involved in the customer environment.
+- It would query for keyword error.
+- If the logs had say ' ERROR : Loaded server' the engine would search its database with keywords say ' Loaded server'.
+- In the database the following keyword was found ' Loaded server : Please clear off few older backups and restart the services : mcs ' 
+-Once this is found , the solution provider would pop-up message stating ' Please clear off few older backups and restart the services : mcs ' to the customer, thus resolving his problem.
+
+
+As described above similar operations would also be provided by the engine employed on the support side, if an escalation is logged, similar bug / esc if present would be got to the support people helping in resolving the customer problem easily and at a faster rate.
+
+
+
+
+With the success of idea following are the benefits :
+
+1. Escalation count would be reduced.
+2. Most of the initial troubleshooting things would already been performed on the customer site.
+3. Helps to strike out problems due to basic configuration / network related issues.
+4. Since logs before / after a  problem , even if an escalation is logged, helps the support people to assist customer at a faster pace, instead of spending almost weeks together on logs.
+5. When an escalation is logged, the support people need not manually collect information from the customer on the  environment like the products integrated, their versions, platforms etc, as all these informations would already be collected by the engine.

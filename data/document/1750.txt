@@ -1,0 +1,13 @@
+Acces to Shared-drive Back-Up Files and Folders
+In an IT contemporary workplace, there should be flexibility to view archive / backed-up files and folders on shared drives. 
+Earlier this year, someone accidentally deleted a file I had saved on a share drive. I needed the file and opened an IT ticket to recover it. The file was eventually recovered, but it took almost 2 weeks before the file was made available. 
+
+Again, recently, someone in the department cut a shared file from a shared drive instead of copying it. Kieran was able to recover it, but it raised questions on ease of access to back-up files and folders.
+
+When you are spending time working on documents, it can be very frustrating when the document or part of the document is lost. Particularly when multiple people are collaborating on a document, there is a higher risk of mistakes being made. 
+Each employee should have easy access to read / copy files and folders from back-ups of the shared drives that they have access to. 
+ - Instant access to previous versions of files / folders on shared drives
+ - Easier/faster time to recover documents and folders
+ - No IT ticket needed
+ - Reduce frustration
+ 

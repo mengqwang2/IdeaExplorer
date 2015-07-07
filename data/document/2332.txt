@@ -1,0 +1,5 @@
+available resolutions, best practices , tricks : combined to be as a single document 
+Some times its get difficult for customer to go through every guide and look for resolutions , for which customer raises an SR and reach out to us for guidance .
+What we can do here is try collating gall the best practices resolutions and the the common issues and have it documented and share it with the customers as and when customer implements or upgrade his env
+Help customers to refer this guide before they troubleshoot / implement the EMC Product.
+this will be cost saving and customer's satisfaction will be high 

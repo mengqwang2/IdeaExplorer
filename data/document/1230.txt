@@ -1,0 +1,10 @@
+Mac OS (OS X) support for Captiva Capture
+OS X is the second most widely used OS after Windows and has benefits.
+And supporting this OS by Captiva Capture can will give benefits to ECD.
+N/A
+Why need supports MAC OS:
+1) OS X is the second most widely used OS after Windows
+2) Number of users which are usinng MAC OS (currently OS X) is increasing year-to-year.
+3) Because of significant advantages to be noted that Mac OS X is a complete UNIX like operating system, a standard Posix, and it is perfectly protected from viruses and trojans.
+Increase number of customers.
+Improve customer satisfaction (allow to use MAC OS)

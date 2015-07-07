@@ -1,0 +1,7 @@
+Interaction With Field Engineers
+
+- Many times I have noticed that if Field and remote support have better co-ordination , we have better approach to resolve the issue
+- Experienced and knowledgeable person form Field should visit to support centers
+- They should share there experience with remote Engineer
+- Exchange of the knowledge between two will result in a lower TTR when customer issues comes in as Service request
+

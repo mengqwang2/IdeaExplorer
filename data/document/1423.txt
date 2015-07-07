@@ -1,0 +1,5 @@
+Product Improvement Collection APP
+Sometimes when we use EMC product, we may find for customer using the features more conveniently, there can be improvment for product using GUI. eg, RP has "add a copy" function but not "delete a copy" function, this is inconvenient for customer. which interface can we talk to RP design guy about the feature design improvment? similar problems happened on other product.
+no else yet
+no other link or approaches as i know. maybe there is web link of wiki for each product, but no common interface for customer using. it costs much time to find the way to feedback for each product. why not a common way?
+it would like a app or common web interface. have each product channel to collect the informations.

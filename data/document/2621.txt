@@ -1,0 +1,56 @@
+Prediction Engine for Sentiment Analysis
+Various sources on the web provide deep insight about customer’s opinions on the products and services of various companies and we should also leverage the same for our product and service too. Social networking sites like Facebook, Twitter, Google+ etc., With our move towards the third platform, means of communication are taken to a completely new level.  With advent of social media as an indispensable form of communication, the information reaches to millions of people in fraction of Time. Increasingly people are replying on social media as a means of communication and thus an undeniable source of tracking customer sentiments. Thus, social profile is becoming very important.
+
+Social media also accommodates all means of communications, like, text, images and videos. And thus, is an ideal example of Big Data, where data is in all forms and is highly unstructured. While initially all the data on social media was considered as noise, today experts are relying on social media for key information and trends.
+
+Being a part of manage service , we can resonate  with customer concerns and thoughts. 
+
+Social media is best and neutral medium to reach GenZ (Potential Future customers) .
+Details (Please refer to the attachement)
+
+https://inside.emc.com/docs/DOC-155606
+https://inside.emc.com/docs/DOC-155896
+
+The main idea is to set up predictive engines that can analyze data current sentiments (in quantifiable terms), understand the reason behind it and predict the next sentiments. This can be done by setting up a Predictive Hadoop engine. Prediction Engine on big data retrieves posts, comments or tweets about a product/ service to obtain predictive insights on customer thought process about our services as well as customer looking for new services, it will also gives us an edge over the our competitors to learn from the positive and negative feedback to enhance our portfolio, strengthen our service and improve our products.  
+
+Develop a tool that can identify and analyze data and quantify customer sentiments on social forums. This toll can be programmed to consider external factors like Geo, economy, market conditions etc. Prediction Engine examines the data from social sources, scores the post, comments, tweets, etc., on the sentiment scale and classifies the text by sentiment, as ‘positive’, ‘negative’, ‘campaign’, ‘reply’ or ‘query’.
+
+
+                                
+
+It then analyses the impact and influence of this data. It predicts the next sentiments.
+
+The tool should process sentiments for every single post on social forums, allowing the application to separate the mood around a particular product from the changes in the overall mood of the moment. 
+
+Machine Learning and Sentiment Analysis
+
+Machine learning deals with construction and study of intelligent systems that are developed to identify changes in the data in hand and improve the algorithmic order to accommodate new findings.  For service provider, this provides a high degree of success in selling its products/service. 
+
+Ratings based on buyer sentiment can appropriately be used to recommend a product/service that meets the expectations of a customer and be used as a reference or baseline point.
+
+When we gather large volumes of direct or indirect opinions, views, interests and perspectives, we need to apply learning algorithms to generalize or establish new points of interest for sales enablement.
+
+For analysis purposes, Prediction Engine cane applied over time periods across all the social media data this enabled us to comprehend how customer actually felt, when the company released a product, raised its tariff or modified the existing service model for existing customers. 
+
+The outcome of prediction engine can be different social media, and also quantified the volume of keywords related to the company or its products. (Example: #tag on twitter/Facebook). Before vs. after, how one customer influences other, and overall sentiment about the product or service can be detailed.
+
+                
+
+             
+      
+              
+
+We can give meaningful context to the conversation on social media. The science of extracting relevant data and using statistics to quantify how people are expressing themselves is evolving rapidly and this can be the right means and time to provide edge over competitor and exceed TCE.
+
+The predictive model can then address the issues in backend even before the issue is surfaced. The correlations like, Which customer impact each other, what factors influences these sentiments, how each customer perceives TCE can be extracted via social media conversation.
+
+This analysis can be timed like, short term and long term. When sentiment analysis is applied to such focused set of conversations over longer durations, it gives precise outcomes to open up prospective avenues for a company to enhance the value of its product / service portfolio. 
+
+Implementation idea
+
+Natural language processing (NLP) can be used developing the predictive / sentimental engine (learning engine). 
+NLP widely used for 
+1.	Automatic summarization (Produce a readable summary of a chunk of text, for summarizing large content of social media text)
+2.	Machine Translation (Automatically translate text from one human language to another, as EMC deals across the globe deals with different divers customers type)
+3.	Part-of-speech tagging (Given a sentence, determine the part of speech for each word. Some languages have more such ambiguity than others. Languages with little inflectional morphology, such as English are particularly prone to such ambiguity. Chinese is prone to such ambiguity because it is a tonal language during verbalization. Such inflection is not readily conveyed via the entities employed within the orthography to convey intended meaning.)
+4.	Sentiment analysis  (Extract subjective information usually from a set of documents, often using online reviews to determine "polarity" about specific objects. To understand customer  emotions)

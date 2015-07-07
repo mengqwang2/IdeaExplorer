@@ -1,0 +1,16 @@
+Auto Remediation – Using SRM alert framework
+This idea would help in improving Total customer experience by proactively managing alerts and triggering actions without any user intervention in EMC AppSync.
+
+It improves the operation recovery and minimizes the data loss situation in product environmen
+The idea came up during the brainstorming session on how to save RPO on AppSync and avoid any manual intervention if any backup copy failed.
+
+Storage infrastructure, service plan completion, health and activity of service plans,  events/alerts metrics specific RPO failures are collected using AppSync solution pack
+This provide visibility on the health and activity of Application specific service plans
+ViPR SRM do an analysis on an Event/alert based on RPO miss on AppSync and triggers an action to AppSync to generate a backup copy and proactively saves RPO. 
+
+More details available @ https://inside.emc.com/docs/DOC-152169
+
+Maintaining SLO’s  for application by triggering copies/backups when RPO violations is detected.
+Proactively managing alerts and triggering actions without any user intervention. 
+Providing self healing mechanism and improving operational recovery
+Minimiz

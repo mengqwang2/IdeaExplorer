@@ -1,0 +1,21 @@
+Storage & Cloud universal appliance for Seamless Migration & Replication
+A one stop solution to migrate Non EMC Storage infrastructure with live data to EMC Storage/Cloud platform
+Working on this idea since last 3 month
+With every Storage MS contract win, EMC focuses on migrating customer's existing Storage ( SAN & NAS) infra to cutting edge EMC platform. 
+
+This solution is named Storage data Migrator &  Replication named VUMR appliance which will be build on open source Linux, having open source SQL DB or Oracle.
+
+Once there is a migration needed, an OVM can be downloaded and deployed in customer's vCenter.
+
+The appliance will have existing algorithim which will help the deamon to search the non-EMC array & the disk/Lun information.
+
+Discovery Engine -Responsible to run native commands against non-EMC Storage arrays ( Hitachi, Netapp ,HP,IBM) to pull all the information such as overall Disks layout, Luns, Used & Freed luns,Volumes,Filesystems etc and insert into SQL DB/Oracle DB .Discovery engine will provide a detail report which can have custom views to select the Luns or Filesystem , DG can be migrate to EMC Array
+
+Migration Ingine-Responsible to run native commands against non-EMC Storage arrays & EMC Array as well ( Hitachi, Netapp ,HP,IBM) , create the required space according to the requirement & start migrating the data.from Non-EMC Array to EMC Array
+
+Replication Ingine-Responsible to run native commands against non-EMC Storage arrays & EMC Array as well ( Hitachi, Netapp ,HP,IBM) , check the connectivity & Link status , dending upon the requirement start replicating the data from Source to target 
+
+Specific algorithim can be written to make this operatinal
+
+This idea is one of it's kind and provide a definite lead to EMC in Storage  industry where more and more customer's data will be migrated & replicate  seamlessly to EMC infrastructure. Will impact high sales with regards to Storage /EHC sales.
+Customer will get benefited by reducing the migration & replication time /cost and improved data security  with EMC 2.5 & 3.0 solutions.

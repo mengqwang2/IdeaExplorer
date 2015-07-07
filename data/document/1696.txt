@@ -1,0 +1,51 @@
+ New distributed IoT Security Paradigm - using Trust Scoring and Authentication Leveling
+The Idea suggests a simple yet powerful way towards IoT security using the huge number of devices in IoT network to serve themselves. 
+
+It allows authentication to be distributed between the IoT devices and let them cooperate for the ease of usage for authorized users and for blocking intruders/hackers
+
+ The idea was inspired by VPN authentication inside EMC premises, some applications like outlook needs only your password when you are inside EMC VPN (trust zone) while it needs token+password (full authentication) when you are outside VPN. 
+
+We have been thinking about a way we can make benefit of the increasing number 
+
+[1]- http://ebiquity.umbc.edu/paper/html/id/450/Proximity-Based-Authentication-for-Mobile-Devices 
+[2]- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.412.4346&rep=rep1&type=pdf 
+
+ 
+The solution depends on the simple idea that when I authenticate to certain device, I get its trust and it will help me authenticate with other devices. 
+
+To achieve this, we define the following methodologies:
+
+1-	IoT cluster: each user has a cluster grouping his devices. Each device has an ID and knows other devices in the same cluster (knows the cluster members)
+
+2-	Trust Scoring: each device has a trust score for me. If I have my mobile device authenticated with me, then it gives me high trust score. If I have not authenticated my smart watch or smart car for a long time, then it gives me low or zero trust score. 
+
+3-	Authentication leveling: define the level of authentication needed according to your current trust score:
+a.	Full Authentication: need for password + token if you have low or zero trust score; for example you have not recently authenticated any devices in your cluster, you have not authenticated your mobile today so you need full authentication to activate your car/smart watch. 
+
+b.	Medium Authentication: only need for password (or couple of security questions) for medium total trust score. when you have few of your devices authenticated in your cluster. For example you have your smart phone + smart fitness wrist band and want to authenticate to your laptop.
+
+c.	Lightweight Authentication: short simple part of the password or basic security question for high trust scores. when you have all or most of your devices authenticated with you. For example: I have my smart phone + smart wrist band +smart watch + laptop and I am trying to access my smart car or login to smart transportation system.
+
+Researches already exist about using proximity (distance between devices) for devices authentication [1][2]. We will also add the ability to look online for cluster status and update trust scores online in real time defining the terminology of “online proximity”
+
+4-	Smart Protection: automatically report threats and reset trust score by detecting unusual behavior for certain device using two dimensions:
+a.	Location: a device was detected to go out of the normal zone based on historical patterns. For example: my car was detected to enter an area I never visited before. This lets the car resets trust score to its current user to zero and require full authentication to function.
+
+b.	Time: a user is trying to login to my laptop at a time while I am usually out of office or asleep. This will reset trust score to zero and require full authentication. Timeout is defined to reset trust for a device that has not been authenticated for long time. For example a mobile that has not been authenticated for few hours or a car that has not been authenticated for one day (possible threat/theft).
+
+The user can also report loss or theft of certain device marking it as blocked and unable to function.
+
+5-	Algorithm accuracy factors: 
+a.	Scalability: this solution gets more accurate and mature with more devices getting connected (which is already happening) this way we can convert the increasing number of IoT things into opportunity rather than a challenge.
+b.	Weighting: some devices have higher weight in trust scoring than other devices. For example; a smart phone that I use frequently, is almost always with me and has powerful security has more weight than my smart wristband or watch.
+
+The use case for Personal Area Network (PAN) can be scaled to enterprise environment and smart city levels.
+
+RSA can lead this market and fulfill the above architecture employing security analytics + distributed token technology (secureID) and add clustering/profiling module.
+
+1-	 Increased IoT security using dynamic distributed policy
+2-	Ease of use and management for authorized users
+3-	Market opportunity for RSA
+4-	Scalable solution ready for huge number of devices.
+5-	Cost efficient approach 
+

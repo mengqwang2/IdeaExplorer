@@ -1,0 +1,13 @@
+A 2015 Approach to a 2002 Problem
+The payments industry faces new and different security challenges as the transaction environment continues to grow in size and complexity. With more stakeholders, payment channels and people driving the use of payment cards, maintaining the integrity of the payment system has never been more challenging or as important.
+Last month my American express card has been hacked and I lost 2600 Euro in Switzerland however I never went there. The thief hacked the credit card and bought a play station console, as he only wants the information on the card on the internet.
+By creating innovative security solutions, beside the current solutions such as the first tamper-evident signature panel, the use of three-dimensional holograms and advanced fraud prevention and detection technology, we can add a new layer of using the RSA authentication token to secure every transition on the internet.
+The solution will consist of 2 layers:
+
+1- Normal authentication contains the number of the card, expiry data, and the 3 numbers on the back of the card.
+2- The user will be redirected to a central authentication service provided by the bank or by a network provider " Mastercard, Visa, American express,...etc" to add the RSA token details beside the pin code memorized by the user. 
+
+
+The approach will guarantee by almost 100% that the user of the card is the authorized one to use the card and not only a copied version of it. 
+
+The heritage, combined with the applied insights into security technologies that RSA provides and trends provided by the leaders of the online banking will help the customers, merchants and other partners to combat fraud and ensure the integrity of the payment environment.

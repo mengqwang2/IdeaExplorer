@@ -1,0 +1,19 @@
+Experts Room in Data Protection Applications
+Detailed description can be found in this path: https://inside.emc.com/docs/DOC-146423 
+
+Idea of this disclosure is to provide faster/instant solution or support through electronic communication to end user for any issues occurs in particular section of t
+Team found this idea while verifying some of the escalations  which we got to engineers by late from L1 and L2 support and trying to get specific information from customer and trying to understand the issue. 
+Highlights of the solution,
+- Expert Room is a feature built within Data Protection applications, it will act like online communicator provided within application.
+- User of application can set automatic capture of issue and sent it to Expert Room
+- Expert Room members are engineers involved in Product engineering, can be developer, QA engineer, SMEs, Architectures, tech support experts, etc.
+- Eligibility criteria for member of Expert Room: Engineering department nominates selected member from above areas, they signs up with official id and choose their expertized area by selecting tags defined  in “Expert Room” and they will be available to help needed in their expertized area.
+- Expert Room Server will be hosted in Product engineering department and will be available all the time.
+- Customers deploys application and signs up for expert room as a customer
+- Existing data protection applications can be tuned more in future by adding more error/feature codes in application and that will act as error codes to specific issues while incident happens.
+- Expert Room will be constantly getting updated with previous issues raised in it and comparing those with future issues and hinting to users for making it duplicate or relating the issues.
+- This will be linked existing tech support tools so that if any response arrives within set time then this issue will be converted directly as SR and raise in tech support portal.
+
+- Stabilize the product more 
+- A customer does not have to wait for reply from engineering for issues which does not require hot fixes or any code fix. Many times some of the issues ends saying configuration issue after debating for week or more.
+- Save 

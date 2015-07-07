@@ -1,0 +1,23 @@
+Method for product quality improvement to x times in same length of test cycles by adopting the approach of dynamic test case creation and documentation to the test repository through automation.
+1)The ad hoc /exploratory test cases are not usually documented in test repository. This makes test engineers execute some non-documented test cases.  This would cause some discrepancy in the test metrics.
+2)The test engineers have to spend a good amount of time to document the exploratory test cases. And those test cases may be used only in one instance.
+3)The test engineers have to spend a good amount of time in automating the exploratory test cases but it is not worth spending the time to automate as they may not be used later.
+Idea conception: No sufficient time in the test cycles to do the exploratory testing and documentation, hence less confidence in the quality of the product
+This idea came in early Q2 time period by me.
+This is not currently implemented.
+This approach works exactly the opposite way of traditional mechanism where the test case is captured in test repository, later chosen and automated.
+Often defects of escalation type demand specific scenario to be tested. These test cases are often not documented in test repository, even though they are documented they get missed to be executed as they require a specific scenario which could be a corner case or require a complex setup or a negative test case.
+With the approach on dynamic creation of test case and running it in automated way , will provide more confidence on the quality of the product and reduces the mistakes in the forth coming releases as such issues are already tested in the current release.
+
+The test cases evolve over a period of time and automated scripts are to be maintained with every small feature change. This would take considerable amount of time by the automation engineers. There could also be situation of test case absolution. This will have big impact on the automated test cases. Automating all the test case steps tightly in one single script will require a maximum amount spent in future to make small changes. The test cases are interdependent on each other, but the automation is focused only on specific test cases. If the testing is to be performed on the exploratory basis, a big effort on manual execution is to be spent.
+
+As a prerequisite, the basic test components are automated. These automated test components function as the test blocks in automating the test cases. These test blocks can be arranged in a very flexible manner along with various types of data to stitch dynamic test cases. These dynamic test cases can be derived from customer scenarios or corner cases or exploratory test scenarios. In a conventional style of automation where a test case is automated in one script, there could be abundant time consumption in verifying the manual test cases.   In the proposed method of automation, manual test cases are created in test 
+repository based on the scripts that are automated. This gives the product lot of confidence in the quality as there lot of test scenarios gets covered.
+1)Confidence in quality of the product to double in the same length of test cycles.
+2)Better & cleaner test metrics
+3)Better quality of the product with more test coverage
+4)No effort on automating exploratory tests
+5)No effort on manual test case creation in test repository.
+6)No effort on running newly documented test cases as they are already run in automated way.
+7)Improved test coverage
+8)Less time spent on exploratory testing

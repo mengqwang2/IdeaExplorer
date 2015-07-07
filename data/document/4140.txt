@@ -1,0 +1,17 @@
+car and bike pooling among different companies
+
+benefit to the company is free publicity. and free advertising facility of emc products and emc interviews or emc open opertunities in web portal and in android app.
+
+initially we need to coordinate with companies about this facility.
+we can develop a web based portal and android app linked to portal. in that we can nominate our self who is travelling in bike or car every day.  it will have what time i am travelling , from where, though which location and destination. so we will have all the list of vehicles. 
+person who don't have vehicle or who want to use pooling facility. they can see the details and subscribe them self. so that they will get auto sms to both. we can set limit one person can subscribe max 3 vehicles and viseversa.
+because in reality vehicle can be early or late. or subscriber didn't available when vehicle in pickup point. or sudden changes of plans.
+
+in such times using our android app, we can send msg to the others. 
+if one vehicle have more than one subscribers. if one of the person already used the pooling. using app they can comunicate using app.
+
+only thing we need to do is,
+when ever person using the pooling, vehcle person need to send info to other subscribers using app or msg or call.
+
+it will solve all the communication problem and. it will increase the effective usage of pooling. because there is less chance all 3 vehicle will come in wrong time.
+

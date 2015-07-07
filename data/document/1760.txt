@@ -1,0 +1,32 @@
+MyCity – Video/Photo Surveillance by EMC Employee/Citizens of City
+1. Relevant to smart city where Govt require help from Citizen to improve lives of city
+2. Resource allocation by Govt
+3. Scalable to various cities around World
+(This idea won 1st prize in community challenge last year at Banglore CoE)
+When i brainstormed around Smart city discussion in India and around world, I could think of citizen as equally responsible for city improvement.
+
+1. Provide an interface to post photo or capture short video of problem.
+   At time of submitting, it will capture location of Site from where problem is submitted.
+2. Capture IP address for legal aspects of identification.
+3. Add watermark during upload and also add watermark at server side  (sort of PKI but in watermarks) to protect original data.
+4. Upload to cloud storage will ensure there is not tapering at User end or at server end and can be used by City’s corporation / Government.
+5. Provide unique identifier to problem for follow-up.
+6. Tie-up with NGO for further follow-up.
+
+Implementation
+1. Andriod App , Cloud interface
+2. Network cost is paid by employee or person participating – at client and EMC at server side.
+
+Other details :
+1. Start with employee only option. 
+2.  Make it invite fwded by Employee to their network/contacts etc.
+3.  EMC can provide public Cloud interface for more such applications.
+
+This can be scaled or implemented to any City that EMC CoE or has office in.
+
+Benefits
+1. EMC can make cloud storage available
+2. EMC will get exposure to community involvement.
+3. Participation from employees ( to start with) and later invite based participation from citizen will ensure there aren’t any legal issues.
+4. This solution can be initially funded by EMC and later on work with Local GOVT for funding for Smart CITY solution.
+

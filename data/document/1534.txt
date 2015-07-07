@@ -1,0 +1,14 @@
+EAS can be optimized 
+Currently, we need to enter the date by ourselves. 
+We should follow the data format as 29.06.2015.
+It's not simple enough.
+I suggest when we choose the date box, a calender can pop up.
+We can choose the data easily.
+Except this, If the EAS can merge into outlook.
+We can easily see who are not available.
+When i first use EAS, I spend a lot of time to figure out how to input the date.
+add popup calender when choosing date.
+1: It's popular that we choose date by clicking calender. 
+It's simple and easy.
+2: If it can be merge into outlook,We can easily see who are not available. 
+No need two system.

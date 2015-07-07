@@ -1,0 +1,7 @@
+Array Layout - VNX.
+
+There are best practice document available, to layout physical disk in a VNX. Most of the time, as shipped Array layout is not as per the best practice.
+
+Incorporate all best practice into NSDU, and let the tool generate the array layout. Which would eliminate any chance of human errors, and we can save considerable amount of time spend by an SA on array layout.
+
+

@@ -1,0 +1,7 @@
+Effective way of monitoring Air Quality and Urban Traffic
+Air Pollution is one of the major threats in EGypt as per current the socio economic scenario. 
+Air pollution is one of the major threats in developing economies like India, Egypt. Western nations have some strict measures to tackle & control the levels of air pollution. But we should address them as they are one of caused of global warming.
+We can consider few characteristics like Sulphur, NO2,CFCs, Hydro carbons etc. Threshold/permissible levels of these pollutants in air are defined. These parameters can be measured using a sensor network & data can be livefed everyday Cloud-based servers as they have advantageous for their centralisation and scalability in thestorage and processing of data. EMC Isilon has tremendous potential in this segment.
+
+Hadoop can be natively integrated with Isilon to provide robust data analysis. Daily/hourly/weekly trends can be analysed & actions can be taken by govt agencies. Maybe we can have a public display of air pollution levels for general public awareness. 
+There is a need for awareness among people in country about air pollution.

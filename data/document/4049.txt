@@ -1,0 +1,7 @@
+Tool to colloberate and Manage all EMC related storage platforms.
+
+I was working with the customer having wide range of EMC products and face difficulties to manage and monitor the infrastructure by using EMC specific tools and remembering their passwords.
+
+Managing customer infrastructure is challenging when having multiple EMC products, for ex: DMX4, VMAX, VNX, VPLEX, RP, DD, Avamar, Networker, etc in their infrastructure along their DR sites Customer's face challenges to manage and monitor their Enterprise and midrange storages, backups, replication etc using EMC individual product tools. It's difficult for them to troubleshoot in case of any performance issues arises.  EMC should develop a tool which can effectively manage and monitor the entire infrasturcture including DR setup.
+
+

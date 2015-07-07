@@ -1,0 +1,11 @@
+Reduce cycle time for booking order - Clean Order submission & processing
+As this challenge is looking making processes simpler and more effective, This Idea aims at reducing the cycle time to book orders through clean order submissions, which will help gain more efficiency and faster revenue for EMC as this will help reduce TA
+As a APJ RSL for GRO, I wanted to make a big impact to the process and when I analyzed the data for past 1 year I figured out that amongst the total orders we process 40% to 45% of the orders and unclean and want to try to make a change by reducing the unclean order submission for APJ.
+The solution will be to turn these unclean order submission into clean orders where GRO can process these orders in the first time of submission itself, this will require working with the APJ buz Ops communities and educating the sales communities, provide trainings..etc. this will help all the downstream processes to reduce their TAT and bring in more efficiency, also we might have to formulate stricter policies and procedures.
+If this is implemented, some of the benefits would be as below.
+
+Faster Order processing/reduction of TAT.
+Faster Shipping and invoicing.
+Better service to our customers and increase in reputations.
+Better revenue to EMC
+More orders to EMC mean bigger rev

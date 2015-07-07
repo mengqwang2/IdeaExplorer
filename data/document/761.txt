@@ -1,0 +1,24 @@
+Security in light of 3rd platform technologies- Vipr enhancements
+There is no doubt that the IT landscape is undergoing fundamental changes. The third platform will be a far more interconnected world.
+Security challenges will be at the forefront of these changes – exciting times are ahead. Those entrusted with security responsibilities are going to be challenged like never before. 
+As a growing number of businesses and organizations embrace the benefits of third platform technologies, and above all the advantages of cloud computing, new-age IT security strategies are more important than ever.
+I came up with this idea after reviewing some customers security auditors requirements/concerns.
+Through ViPR Management Console/dashboard we can include security tab under the monitoring and reporting plugin to show and evaluate online the infrastructure security status by rating the environment overall security integrity and show the compliance percentage online on the dashboard and this by considering below and give score by achieving each evaluation criteria:
+
+V-ASA ( ViPR - Automatic Security Assessment Tool ) 
+
+The security evaluation methodology must cover the Storage Systems, Backup Systems, Hypervisor Systems, Monitoring Systems and access management. 
+  - Verify on all the available systems the default passwords has been changed
+  - Backup failures impact the security rating
+  - Check and validate new patches or urgent upgrades online and highlight the risk with online reflection on the security dashboard rating
+  - For the NAS (CIFS or NFS) verify that no file systems published and accessible for any by default
+  - Avoid using shared accounts and create separate accounts for all the administrators will use the systems including detailed information about each one role and once this done can increase the security rating as well
+  - Consolidate the access management for all the systems integrated with ViPR …etc.
+
+By having live security dashboard on ViPR this will make the customers more confident about the cloud security status and their environment and insure the data security/protection level identified instantly and proactively, finally this will reduce the Opex and raise the TRUST bar.
+
+Conclusion:  Single Security dashboard to show online the overall infrastructure environment status using scoring system.
+- Hardening security for the modern data center using Vipr.
+- Visibility for the administrator about any potential attacks or security concerns.
+- Enhance the customer's confidence about the current and near future status of their environment. 
+

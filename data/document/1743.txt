@@ -1,0 +1,6 @@
+Integrate EAS vacation requests in schedule 
+Facilitate one of the daily administrative tasks for managers and employees
+The EAS became inefficient and slow tool to perform frequent tasks like vacation requests
+-Integrating the vacation approval process inside the team schedule protal so it can be reflected directly to the EAS will decrease the time and effort needed for this task.
+-Also, it would be possible for the emplyees to use the schedule portal to request his vacation in simple clicks.
+Facilitate one of the daily administrative tasks for managers and employees

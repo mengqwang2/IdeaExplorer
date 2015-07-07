@@ -1,0 +1,7 @@
+Where are you my friend .... EMC Asset ?
+
+Srikanth, Prasann and Raju have been passionate at EMC in giving back to the community and were brainstorming on challenges like identifying end of life laptops which can be utilized for community engagement and involvement. We felt that EMC can improve its brand image by involving in similar social activities at a global scale.
+There are two options which we want the students to research and develop on. 
+1. RFID (Radio frequency identification) tags: Install RFID tags globally on EMC assets to enable tracking globally. End of life Assets can be easily tracked in EMC locations and identified for donations to local communities.
+2. Software Daemon: As part of core load, have a daemon installed which tracks the device and routes it to the server displaying the status of the device.
+

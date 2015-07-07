@@ -1,0 +1,10 @@
+Voice/SMS based Alert notification during any critical event
+
+Current Challenges:
+There are chances were customer might miss to notice  critical event on the EMC hardware's.
+I have noticed the same setup in Vodafone Datacenter this idea helps the Admins to monitor the Servers.
+Solution Approach: 
+Creating a voice/SMS based alert notification software which can be embedded on our products. This notifies any type of critical event on customer side system admin or management. In any occurrences of critical event such as node failure, disk failure …etc.
+Benefits to the Organization:
+This idea will create a very good benchmark about EMC products compared to any other products with customer. 
+This would be another way of attracting customer.

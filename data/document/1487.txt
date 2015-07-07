@@ -1,0 +1,14 @@
+Roads pit map locator "Taree2y"
+Relevance to Challenge:
+-This idea is suited for the Community Involvment challenge; it will enable crowd utilization to digitize the overall road problems, thus saving money/lives for our community.
+History:
+-I recently moved to a new location in Cairo, & had to change my tyres several times until I learned all the pitfall locations.
+Solution:
+-Since the people living in each area are the only ones familiar with these dangerous elements, they would use the app to send the location of these pitfalls, thus saving others from falling into them.
+-They can also use the app to locate these pitfalls when they drive in unfamiliar locations.
+-The overall locations of the pitfalls can then be used by the government to locate the road problems & fix them.
+-The app would be using the necessary Big Data Analytics tools, to analyze the roads' problems sent by the crowd, & map out the data across roads/districts/regions.
+Success & Benefits:
+-The App would enable the community to avoid potential accidents on the road.
+-Save Money for the community.
+-Enable the goverment to reactively fix the road problems.

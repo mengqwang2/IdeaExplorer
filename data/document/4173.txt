@@ -1,0 +1,6 @@
+Cab request on mobile
+
+In existing portal when you schedule the cabs for a week/day that schedule will be activiated for next coming week/day as well so ther is more probability to miss that cabs. I faces this problem many times.
+A mobile App can be devloped to access this portal to scehdule cabs.
+once you have scheduled cabs from this application ,can activate/gives pop-up alerts for your schedules that save SMS costs and lesser probability to miss the cabs.
+

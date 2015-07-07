@@ -1,0 +1,6 @@
+Viking SSD ESS
+
+Capacity constraints came up in a conversation and I was thinking of future DAE that we will be using - why not use them as test beds also.
+Use Viking DAE in ESS to double-up the capacity of an ESS chamber. A Viking can store 120 x 2.5" drives, and we could house 10 x Viking in an ESS chamber.
+This would allow us to test 1,200 drives per chamber.
+

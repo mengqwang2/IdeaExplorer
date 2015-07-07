@@ -1,0 +1,15 @@
+Smart Meters for Smart Cities
+Electricity issue in Egypt, where electricity is a main challenge. Power outage is something that need to be solved within any new smart city. 
+Electricity issues all over the country.
+The solution is to provide smart electric meters to the building, where the meter has 3 outputs of power covering the total power of the house. The idea of having 3 power outlets gives 3 levels of power supply. 
+if the 3 outputs are on then full power is provided. If 2 only are provided then half power is provided. and if one output is only working this gives minimum power.
+
+Using a central data analytics and collection of statistics from all meters, the platform can decide which houses will work on 1 output,2 outputs , 3 outputs.
+This will provide a distribution of power and avoid complete data outage. 
+
+Houses with low power utilization will not have power outage but houses using several ACs for example, will have half power disconnection so this will decrease the power utilization. 
+
+Storage and analytics of all the metrics will be done through EMC platforms. 
+
+ 
+make money, sell full solution, expand business and improve analytics.

@@ -1,0 +1,11 @@
+use PCI Pass-through (or VFIO) technology to deploy a number of IO-hosts in a single physical server through KVM
+It addresses the following challenges:
+1. Physical deployments that could be made virtual and placed in the central cloud
+2. New technology that could reduce the amount of hardware needed for lab R&D processes
+We bought a Lenovo server to setup a IO host, and it's equipped with several FC HBAs and Ethernet adapters, the initial method was to setup a single IO host on the server but sharing the devices with a single server. however, this would be a problem if several users need to use the IO host. after using KVM, each guests were isolated, also, a windows IO Host and several Linux IO hosts were installed to support various requirements from users. by using the PCI pass-through technology, each KVM guest could still use the PCI devices directly (for example FC HBA for FC IO while 10 Gigabit or 1 Gigabit Ethernet adapters for iscsi IO).
+ 
+1. use the KVM to support multi IO hosts in a single physical server;
+2. use PCI pass-through feature in KVM, a VM Guest can directly access the real hardware using a native driver which is critical for IO hosts;
+3. or use VFIO which accessing PCI devices from userspace.
+1. It reduces the hardware needed to setup IO hosts, one server can run several IO hosts depending on the number of PCI IO devices, hence save money, juices and space for the Lab.
+2. Easier to manage IO hosts through the Hypervisor, IO hosts can be starte

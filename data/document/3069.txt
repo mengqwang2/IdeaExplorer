@@ -1,0 +1,8 @@
+Desktop as a service solution
+Provide a seamless experience from anywhere with device flexibility and less restrictions.
+
+I went to VMworld where they talked about the new features of VMwares DAAS offerings and it seamed ideal to me for handling the needs of a call center for technical support.
+the ability to create a new VM and provision software to it based on a user profile looks particularly useful.
+instead of using laptop computers to work from home, we could switch to a DAAS solution such as VMwares.  a Desktop as a service solution uses virtual machines to provide the actual desktop.  then you have a client that allows efficient remote access to that virtual machine.  TSE's can have multiple VM's which would simulate the multiple phisical machines many TSE's use now.  client access from the office could be done through simple cheap dumb terminals that do not need to be expensive laptops.  when working from home you can use any computer to access the virtual machine.  this means you don't need to carry a laptop home with you in order to work from home.  you just need to own a home computer.
+reduce the cost of equipment in the office
+increase our ability to share office space, increasing building utilization and decreasing our expenditures for 

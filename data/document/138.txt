@@ -1,0 +1,5 @@
+Domestic services system
+Smart city and IoT
+Inconsistency of service sectors data as it is taken from different sources
+Automated controlling systems shall collect data on different city resources including (fuel,electric power generation, public transportaion.....etc) and trasnfer live data over networking methods ( wireless, ethernet , fibre & satelleite)to be captured in high capcity storage (VMAX) and being protected via replication (using SRDF or Recoverpoint )data need to be processed by data analytics methods providing detailed information on city needs broken down by region or by type of service to be available for descion maker for planning purposes.
+Optimize process

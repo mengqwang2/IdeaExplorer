@@ -1,0 +1,16 @@
+EMC-Pulse
+
+Despite of MyVoice survey every year, there are still un-addressed areas. EMC Pulse can provide deeper insights to identify exact areas and  reasons which need improvement.
+The current software can address following human resource areas by analyzing data inputs from past years:
+1>	Decline trend in specific Areas
+2>	Improvement Trend in specific Areas 
+3>	Sudden Spike Areas
+4>	Groups/Teams which are happy and unhappy.
+5>	Identify concern, suggestions, and future trends from each group/team that EMC should address.
+6>	Reasons for each of the above criteria [Attrition, Work Life balance, Recognition, Compensation].
+The above data has to be available at organization and group level.
+EMC ASD group has software called Watch4net, it will collect different type of raw data and then analyze the data and generate comprehensive reports and identifies alarming trends [alerts] based on conditions. Its capability to analyze the historical data (data collected for weeks/months/years), is very useful for MyVoice data which is collected for years.
+
+Work flow -- MyVoice data analysis using watch4net 
+MyVoice data-> Collector (text based/XML based) ->Configuration (specify set of attributes, thresholds, metrics, etc.) -> Reports/Alerts.
+

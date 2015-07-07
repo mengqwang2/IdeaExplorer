@@ -1,0 +1,48 @@
+3rd Platform Predictive Analytic Solution for ViPR Controller using Machine & Deep Learning Algorithms
+The idea is focused primarily on coming up with Disk failure Analytic Solution for 3rd platform SDS Predictive Maintenance - ETD (EMC Code) and how this could be integrated with ViPR while provisioning. 
+We are team from Global IT ( Open Source 3rd Platform & from Storage), while brainstorming we were looking at using the existing infrastructure that in used in our data centers for Log Analysis, which is why we recommend using EMC SMARTs/SMART as the input sources for Log Analytics & determining Disk failures.
+Proposed Solution is to leverage the existing logs collected from EMC Smarts monitoring solution & SMART to predict storage disk & array failures to the ViPR administrators provisioning the devices.
+
+The end-to-end solution involves 3 parts to implement,
+
+1.	Predictive Analytics on logs ( coming from both EMC Smarts & SMART )
+2.	Packaging the Analytic solution for consumption using REST API using microservices 
+3.	Consumption of the provided services by ViPR 
+
+How it works? 
+
+EMC SMARTS monitoring solution & SMART (Self-Monitoring Analysis & Reporting Technology) which is widely used in all our Data Centers will be used the primary sources of data for the Log Analysis. Both the above systems consists of all logs required to predict a failure for the storage devices.
+
+Both the SMARTs data is streamed into the Hadoop & Spark for batch and real time processing. 
+
+SVM machine learning method for classification & Regression using EMC SMARTs logs
+
+-	Using OpenNLP, Text Mine EMC Smarts logs parse & transform them into a format required for Analysis and store using a Greenplum Database for further analysis. 
+-	For EMC Smarts Logs, we identify the features from the logs, preprocess them, to be used by SVM model.
+-	This will be a typical time-series prediction model, where we sample the events coming in and use an Observation window, validate with the Current window and predict the failure in the future window interval based on the past data & analysis.
+
+Neural Network algorithms consisting of a feed-forward & a back propagation elements for SMART
+
+-	For SMART (Self-Monitoring Analysis & Reporting technology) attribute data, we plan to use Open Source H2O in-memory Deep Learning Algorithms on Spark. H2O is compatible with Pivotal HD and is used for massive computing on Spark. 
+-	Backpropagation (BP) neural network models are very effective and it will be used to predict drive failures based on SMART attributes. 
+-	The model requires design of layers – Input; Hidden & Output Layers. The input to the model will be a set of SMART Attribute Values ( like say Raw read Error rate, Seek Error rate ) Raw Values, etc.
+-	The network is first trained to take decisions based on the past & recent data.
+-	Any errors in predictions can be trained back for accuracy. 
+-	Any real time event coming from SMART, parsing the neuron network traverses the layers for accurate output prediction. 
+-	The predicted output from the analysis will provide us with expected failure events on the storage devices on a specific EMC & multivendor storage devices that is controlled by the ViPR controller.
+
+The output of the analytic solution with list of failure events, can be packaged into a REST API using 3rd platform microservices architecture and hosted on Pivotal’s cloud foundry. This can be provided for consumption by other services. 
+
+Open Sourced ViPR controller can be customized to consume the REST Services. 
+
+The ViPR dashboard when consuming the REST Service, can be implemented to indicate faulty disks while provisioning. Say for example, a red indicator while provisioning will indicate that the disk is faulty. Green could be healthy disk. 
+
+Customized tab on ViPR, to indicate all the Disk & arrays that have been predicted for failure & already failed. 
+
+Benefits 
+
+Solution is end-to-end, and provides a proactive approach for dealing with disk failures as predictions will happen even before the disk fails.  
+
+Real time solution, so makes provisioning fault free, which otherwise might have greater negative impact to the services provided by ViPR. 
+
+Deep Learning is the next level of machine learning algorithm used by a lot of companies like Twitter, Facebook,  Amazon etc & is promising solution that will be leveraged for this

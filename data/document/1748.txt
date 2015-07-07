@@ -1,0 +1,14 @@
+Alert Me Application
+The challenge is targeting the big data and how EMC could offer solutions from it’s products to help in serving the big data concept and taking part in customers’ business. And, this exactly what this solution offer is how EMC could offer solution to customers’ in Health care sector and how it could be used in a very useful application that would greatly help in protecting people’s lives and contributing in spreading high awareness towards  dangerous diseases.
+This idea was first introduced in Information Technology Institute in cairo , where we made a lot of analytics on real data from Ministry of health and where able to get statistics about diseases and the percentage of each disease in each area in egypt.
+Also, a prototype of the application was implemented.
+Since Big data is contributing greatly these days in solving many issues and from it’s analytics we could reach a very important conclusions and collect a lot of useful information which helps greatly in solving a very critical issues just exactly as our case. So, here from the big data found about each disease we could collect data about the location of each disease, it’s severity, degree of infection and the percentage of infected people. And, from an application installed at people’s mobile devices we could alert the people if they are located or going nearby any infectious area before reaching it. This is done by detecting their location through GPS and sending them SMS messages to alert them, Moreover we will send them in the SMS the required precautions to take before going to such places.
+
+Here, for building this solution we could use:
+1)Isilon scale out NAS for big data integrated with Hadoop for data analytics.  Could be used for data analytics.
+2) Use Cloud Hybrid solution for cloud infrastructure.
+3)For cloud management open source platform OpenStack could be used. 
+
+The idea if succeeded and implemented it really will benefit a lot of people worldwide as it will solve a critical problem facing nearly every person living nowadays. Also, this will encourage a lot of Hospitals in joining the solution and being part of it. Moreover, the exposure EMC will take for implementing such a useful complete hybrid solution.
+This also will encourage different sectors of making agreements with EMC for building those solutions serving their needs and requirements.
+

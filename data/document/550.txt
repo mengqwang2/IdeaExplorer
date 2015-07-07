@@ -1,0 +1,91 @@
+Cultural digitization using crowd sourcing techniques and its life cycle management process (Mobile POC to be completed soon)
+The solution to the challenge provides for building a mobile application and a platform which can help cultural digitization using crowd sourcing concept. Further the challenge brings out the complete life cycle management of the digital content.
+Idea was generated while brainstorming with Amitabh & Pawan for Innovation conf-2015. 
+Our proposal is to provide solution to the five phases of digital content life cycle:
+ 
+* Capture –  Create a mobile application which can capture(and view) digital content and 
+  tag them with relevant information 
+  --------------------------------------------------------------------------- 
+  + The mobile application can detect and tag geo location as meta-data information of 
+     the digital content.
+  + A user can also create custom tagging on the digital content for automatic 
+    cataloguing.(if no tagging is mentioned, a tag is auto generated for the user)
+  + The digital content is uploaded automatically to a central server in cloud for 
+    further processing. The back end can be based on any of EMC’s cloud storage 
+    technologies.
+
+* Automatic Cataloguing  – Based on the tagging done in the previous step, and the 
+  metadata of the content; the system will automatically organise the content according 
+  to some meaningful ontology. This will facilitate crowd-sourced refinement and curation 
+  in the next phase.
+  -----------------------------------------------------------------------------------
+   + Some examples of the catalogue entries could be:
+       o   Various cultural events:
+           - By manually creating an event (with a location & time information).
+             Ex: The event created (Oktoberfest) have attributes of time (late 
+             September to the first weekend in October ) and  location (Ex: Munich, 
+             Bavaria, Germany).
+           - By creating events through automation – using  text analytics & machine 
+             learning algorithms on News Paper content.
+             (Ex: Analyzing cultural events in every city).
+       o   Location of cultural significance:
+           - Create a repository of locations of cultural significance (Geo coordinates 
+             used for tagging. Ex: Rushmore mountain - 43°52?44.21?N 103°27?35.37?W).
+   + The digital content captured & catalogued in STEP A. is run through the set of 
+     (catalogue) rules and is checked for close match of meta-data.
+   + With the matching meta-data, digital content will be moved to specific pre-existing 
+     collections. If a collection does not exist, based on tagging, a new collection is 
+     created.
+
+* Curation –  Crowd sourced Identification of digital content that has significant value.
+  -----------------------------------------------------------------------------------
+This is done through an online portal where users can rate, tag and categorize or refine automatic tags/metadata on the content.
+
+    + The ratings are assigned to digital content based on:
+       o Based on user’s reputation.
+       o Based on ratings given by other users.
+    + Gamification techniques will be used to encourage users to participate and rate 
+      content.The platform will include a system of rewards for the users based on the 
+      media content uploaded & reviewed.Based on the points garnered by the users, they 
+      will be awarded titles. (Preservation - Basic, Intermediate, Expert).
+    + The application will have option to do  ‘like’ and ‘share’ of digital content. 
+      Based on the popularity of the digital content, the value of digital content is 
+      increased.
+
+      Ex: Based on number of likes & shares, the value and ‘Life Time’ of the digital 
+      content can be increased.
+
+* Storage of content
+------------------------------------------------------------------------------------
+    + Based on the value of the digital content, further storage decisions are made on:
+         o   Storage of the content:  Based on the value of the digital content, 
+             decisions where/how to store, organize the content are taken.
+
+             Ex: Based on the importance the digital content is stored on relevant 
+             storage tiers (SSD v/s mechanical disks v/s archival storage)
+
+         o   Fidelity of the content stored:
+             - Based on the value of the digital content, the quality of the digital  
+               content to be stored is decided.
+               Ex: A full HD digital content with medium/low value will be converted to 
+                   Low HD;A 16 MB photo with medium/low value will be converted to  4MB.
+         o   Replica copies of the content: If a rare copy of cultural digitization is 
+             created (high value), it will be copied on multiple locations for extra 
+             protection.   
+         o   Archival decision of the content:
+             -  If the value of digital content is important only in near future, the 
+                content will be archived.
+         o   Life Time of the content: 
+             -  If a digital content is found to of low value, life time of the content 
+                will be set appropriately
+
+
+* Consumption
+--------------------------------------------------------------------------------------
+         o   The user will use the app to browse & share digital content. Search/ browse 
+             features will allow users to slice and dice content based on time, tags, geo 
+             location, ratings etc.
+         o   The application would be written multilingual support in mind.
+
+
+The solution at the end of it would have a mobile/web application and backend to maintain the life cycle of digitization project. 

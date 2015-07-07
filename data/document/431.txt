@@ -1,0 +1,5 @@
+Gather Social Insights to Improve Total Customer Experience
+This idea will provide solution to TCE challenge how to continuously improve EMC's Total Customer Experience (TCE) In order to improving TCE, we should gather customer sentiment about the product. nowadays social media is the source to gather this information. This will be more accurate than traditional survey method.
+Facebook is using user information such as cookies, social activities to provide personalized ads on their site. I got this idea to use same method to gather EMC customer information to provide TCE
+Develop a application, which can gather and integrate publicly available social media data into master contact view by leveraging sophisticated identity-resolution capabilities. This allows us to enrich customer information not just with demographic attributes and segmentation, but also with social influence and sentiment.
+If this idea is implemented, we can get insight of customer experience about all EMC products and used to identify actionable customer challenges.

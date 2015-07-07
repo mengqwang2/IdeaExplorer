@@ -1,0 +1,5 @@
+Convert some operation to the script
+EMC have a lot products and each storage has its own UI. So people need to be familiar with all of them. What if there is a way to export some script for user's operation. So they can use script instead.
+XtremIO, ViPR, VMAX, VNX. we all need to do some setup and clean up in UI which will cost us a lot of time.
+We can record user's action and then reflect the according code like testcomplete.
+n/a

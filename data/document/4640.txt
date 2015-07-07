@@ -1,0 +1,8 @@
+Study Guide App - Leaving Cert
+
+This idea originate from a GBS  Idea Generation Session
+EMC would record educational videos on the basic structure of developing an app thus educating on cloud computing. This video would be distributed to the applicants.
+The participating applicants would then work on designing an app for Leaving Certificate students: somewhere they can use as a study resource inclusive of study notes, past exam papers, live forms with fellow students to discuss potential exam topics. The students would be responsible for carrying out surveys as to the needs of Leaving Certificate students. Upon summarizing the needs the applicants would then work on designing the app with assistance and support of EMC Engineers.
+The judging panel within EMC would shortlist the applicants and organize a prestigious awards ceremony whereby the shortlisted candidates would attend where EMC would reveal the winner. The challenge would create community involvement whilst publicizing the work and opportunities available at EMC.  The pool of applicants would be an ideal talent resource for EMC.
+
+

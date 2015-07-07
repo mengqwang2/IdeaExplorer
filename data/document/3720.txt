@@ -1,0 +1,22 @@
+A small step with ViPR SRM and a big leap towards 3rd Platform
+
+The ideas started with the development of a set of scripts to ease the deployment and troubleshooting tasks of ViPR SRM. These scripts where later given a 
+better user interface and hosted on a web site public access. The architecture that these scripts are built on provides tremendous possibilities in terms of improvement and integration with other existing technologies.
+Please view the Video Demonstration of the Idea at:
+https://inside.emc.com/thread/157028
+
+Introducing ViPR SRM Workbench - A single web portal to Design, Deploy, Troubleshoot and gain Analytics on ViPR SRM. The portal provides an interactive interface that generates live designs, and additional functionalities such as generating a design document, peer review process etc. This allows the engineering teams to update the sizing algorithms in the backend which are reflected instantly on the next design.
+
+The Design phase is closely integrated with the Deploy phase as the design can be used to generate Deploy scripts. The Deploy scripts helps in implementing complex configurations of SRM in a very short period of time, which would otherwise take hours or days to complete. 
+
+The Troubleshooting feature of the tool provides an interactive interface with graphs that indicates the links between different components of SRM and data flow. This helps an engineer to spot the root cause quickly. 
+
+The workbench downloads Primus Articles from the EMC Support Knowledge base, processes the articles and stores them in an internal Index database. The log files uploaded by the user are compared against this database and appropriate Primus resolutions are recommended (Knowledge centered support). With an integration with the EMC Service Request tool, the logs can be pulled directly from Service Requests, and even an initial round of log analysis can be sent to customer once the logs are processed by the tool (Self Service). If SRM could be 
+configured to send log files to EMC servers over the internet (the channel is already available, which is used for online updates), it is quite easy to integrate the Log Anaysis module of this tool to periodically analyze these logs and, engage support professionals to contact customer to resolve an issue that the customer is not yet aware of (proactive services). Integrate the deploy and the troubleshooting modules within the SRM Suite itself and you get the self healing technology!!  
+
+Over a period of time the database would have a large number of designs and logs created by different users. The analytics feature of the tool provide insights from the logs in the database. This can be used for identifying usage trend and to create better service offerings. You can identify the most common designs, the most common problems, the objects discovered most frequently by SRM, identify the most commonly integrated pair of products and use it to create new report packs, identify problems by region etc. This can be used to identify grey areas of products and provide inputs for product improvement.
+
+Please view the Video Demonstration of the Idea at:
+https://inside.emc.com/thread/157028
+
+

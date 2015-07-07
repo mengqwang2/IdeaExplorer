@@ -1,0 +1,25 @@
+Product Collaboration Via Resource Enablement Through A Slack Social Network Bot
+This is an enablement of TCE across EMC through platform supportability and communication
+
+This idea matches the CTD Supportability in 12 months as the solution could be developed and deployed in under 12 months.  It would satisfy the mandate of platform 
+As part of the NetWorker development team I am aware that one of the areas of improvement as described in our Net Promoter scores is Ease of Use.   At the beginning of April I was looking at ways to achieve better TCE via Ease of Use.
+
+One item that came to me was elevate resources to be part of the communication path within a team.  If they were viewed not as physical devices  but part of the social network within a team then they could be part of the solution by being directly within the communication path..
+
+
+There are a number of social network tools that enable collaboration and communication amongst teams. These social network tools allow people to interact but none really consider the physical and virtual resources of a product as being part of that interaction and communication.
+
+A recently introduced social networking tools that is truly geared to team collaboration is Slack.  It provides for teams to define a secure channel with which they can share various content such as documents, videos, email, etc..  It also has support for other social networks (such as Twitter) and a myriad of other application plugins.   The tool can be deployed in a free mode which would allow for customer POC without a financial committmemt.
+
+The Slack ecosystem allows for the concept of Slackbots that can enable automation of communication from physical and virtual resources.   .
+
+See also https://inside.emc.com/docs/DOC-145764
+
+The solution would create an EMC Slackbot that could be enabled on EMC platforms.  It would allow the customer to enable secure channels for their technology staff on which the Slackbot could provide information on application/platform health, performance and status.  
+
+The collaborative nature of the Slack ecosystem would allow team members to share the information being reported in a manner that is seamless. 
+
+The Slackbot would also have a level of business intelligence that would also allow it respond to commands  from the team. This could involve application intelligence to allow for configuration and maintenance activities and even execution of product capabilities (i.e. perform backup).   In many EMc products the availability of a REST API would be a means of adding business intelligence to the bot.
+The solution would be an independant software bundle that would include a Slackbot, application plugins, and documentation.  
+
+The customer will have a means of sharing information from resources and also be able to perform simple maintenance and configur

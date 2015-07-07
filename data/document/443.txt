@@ -1,0 +1,5 @@
+Employee Utility Portal
+Improves Employee satisfaction by allowing them to share useful information Like house for rent,Car pooling,car sale,etc
+Thoght of this as its difficult to find house for rent,PG info,etc easily. And have regulary come across colleagues later. If employees share this info it not only saves time but also promotes employee interaction
+Create a Employee only portal/database to share information.
+- Employee satisfaction as it facilitates easy access to shared info regarding day to day needs

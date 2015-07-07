@@ -1,0 +1,5 @@
+Create bootable backup using NetWorker
+
+The idea flashed to me when i was reading the reviews about the backup solutions that are available in the market.
+The software can make your backup bootable. Usually, this tool is available in backup applications that create drive images and disaster recovery disks.
+

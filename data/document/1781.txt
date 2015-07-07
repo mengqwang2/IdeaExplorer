@@ -1,0 +1,17 @@
+connect employees with schools through chat and standard case processes
+helps connect employees to teachers and students to make use of their community service time and help promote stem education
+this is a combination of a few ideas I've had kicking around for a while.
+
+we can set up a chat line over our normal technical support web page for STEM and VEX robotics questions.  If we give participating teachers a login that allows them to open a chat from the support.emc.com site then we can easily connect them to an EMC employee.
+
+Since a chat also creates a case at the same time, we can easily transfer the case back to the chat_STEM_VEX que in case the original engineer cannot assist.  going through chat first will allow both immediate pickup as well as allowing for the teacher to set up a case and leave it for a day or two in order to wait for an engineer to pull the case.
+
+engineers who decide to pick up the case would either work from home on their own time using their EMC laptop, or they would use time at work by making use of their EMC gives back time, which allows for paid vacation time to be used on community service.
+
+We would need to have a VEX robotics kit available here at the COE for TSE's to use in problem reproduction scenarios in order to better assist the teachers and students.
+
+an additional item we could introduce is allowing teachers and students to access EMC's CS labs and other lab resources through the assisting EMC engineer.  students could then do things like set up a linux web server or run database commands to learn more about technology and how it works.
+We could put together basic troubleshooting lessons aimed at teaching the students how to troubleshoot networks and PC's using the lab equipment. The TSE's that volunteer would act as an instructor for the course, giving hints and helping them when they get stuck on assignments.  The school teachers then could give in depth IT training to students even if the teacher himself doesn't have the expertise to teach the class.  the teacher would present material prepared by EMC, and when assistance was needed they could contact EMC employees to make use of our years of troubleshooting  experience.
+success would be teachers and students all over utah valley being able to quickly contact an EMC employee who is willing to volunteer his time (or his emc gives back time) to help them improve STEM education at their school, or to help them troubleshoot a problem they are having with technology such as the vex robotics kit.
+
+assistance would be provided in multiple ways.  either on chat, through email, through webex/video conferencing or in person at the school.

@@ -1,0 +1,19 @@
+Intelligent Resolution Provider System (IRPS)
+The IRPS system must be to provide the customers with immediate resolution if they encounter any problems/issues while using any of the GSE products. The System must be a store of all relevant data that has been collected before and also should have a mechanism to retrieve new data that gets logged for a product.
+We used to interact with customers and provide resolution to the customer for the issues they face while using our products. The time the issue reaches to us takes more than a day or 2, by that time the customer must have already escalated it or found some improper alternative.
+
+The IRPS should be able to help them get through the problems quickly which will make the GSE product usage seamless.
+The IRPS has primarily 4 components
+
+1. Analytical Engine
+The primary responsibility of this engine is to process customer data and provide the most appropriate solution to the customer.
+
+2. NoSql Database
+The NoSql Store can have preloaded data which is available for a product and the data that is obtained after processing the customer problem by the Analytical Engine. MongoDB/DocumentDB can be an example.
+
+3. Client Plugin
+The plugin will be integrated with the GSE products and must be able to collect data and send to the IRPS MQ
+
+4. Message Queue Service
+The MQ Service will act as a message broker and send all the collected data to the Analytical Engine on demand/schedule. ServiceBus/RabbitMQ can be an example.
+Better Selling and Customer Satisfaction of our products.

@@ -1,0 +1,12 @@
+Order your meal using an application 
+
+we waste a lot of time in the q to order food , or sometimes we go down and we found that the food is over so to avoid wasting time 
+A mobile application that is connected to a server where information of all daily meals with quantities is saved 
+
+Features:
+
+- know the available food , beverage
+- You can order your meal for a desired time.
+- Give feedback about the meal 
+- suggest new menu
+

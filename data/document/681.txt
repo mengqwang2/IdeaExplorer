@@ -1,0 +1,17 @@
+Performance Management Training
+Improve training provided to first line managers in order to manage performance of their subordinates
+As Isilon support manager, I found a lot of employees dissatisfied of performance appraisal as well as performance management system. Moreover, when I work with supervisors and Team leads, I found that they have received inadequate training regarding tools that will be use in managing their employees performance.
+- Engage HR in training materials
+- Allocate senior manager in each BU to customize the examples required in the training
+- Include in the training the following:
+* Performance Management Process
+* Performance planning through job description as well as Organization and BU mission and goals
+* Performance Appraisal process (Manager errors, assessment methods, review meetings best practices)
+* Performance Appraisal Form content
+* Development plans for employees
+* Coaching styles and process
+* How to give effective feedback to employees
+- At the end include such training in Management essentials in order to ensure that every first line newly promoted manager will go through the training
+- Impact on employee retention
+- Employee satisfaction of performance management process
+- Competent first line managers to manage their business

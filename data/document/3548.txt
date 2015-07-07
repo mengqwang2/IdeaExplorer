@@ -1,0 +1,7 @@
+CSAT improvement 
+
+Having challenges with the CSAT scores has led to the generation of such idea
+-team leads and supervisor will be granted access to tableau
+-weekly reports generated from Tableau will be shared on individual basis and discussed in one on ones with employees
+-Actions will be taken on weekly basis for improvement and feedback based on survey results
+

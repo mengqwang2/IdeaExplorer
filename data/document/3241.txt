@@ -1,0 +1,8 @@
+Vipr SRM sensors
+
+-
+Sell a package of sensors that could be integrated to Vipr SRM . 
+Those sensors are places inside EMC racks and close to devices to gather data like temprature, vibration, humidity ..etc
+
+This could be useful in predicting possible potential issues based on the gathered paramters.
+

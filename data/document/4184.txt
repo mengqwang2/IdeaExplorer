@@ -1,0 +1,5 @@
+EMC Car service center
+
+when there is an issue with my car, the only way to get it fixed is to take a day off as there is no time to take care of this after work. 
+Setting up a car mini service center on EMC premises equipped with a mechanic. This would eliminate the need to take days off to take the car to the mechanic. We can simply arrive at work, explain the issue at the service center and pick up the car good as new once we finish the work day. The center would also offer other services such as car cleaning/washing.
+

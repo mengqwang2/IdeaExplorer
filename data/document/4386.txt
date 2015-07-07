@@ -1,0 +1,12 @@
+Dynamic Node Sizing and Monitoring Solution for ScaleIO Architecture
+
+- While discussing solutions for automation of datacenter management, we come across a limitation of ScaleIO in terms of dynamic node sizing and monitoring.
+- This idea is a result of discussing about adding these capabilities to ScaleIO, so that it could well integrated in to automated cloud infrastructure management products.
+1. The solution maintains a free pool of hosts called Server Nodes that are reserved for deploying in any protection domain of a ScaleIO storage cluster.
+2. ScaleIO Monitoring Service (SMS) maintains the dashboard of information about ScaleIO cluster and its various protection domains. The information contains QoS and Capacity requirements of the different protection domains.
+3. The SMS automatically using the dashboard of information, powers  on the Server Nodes and adds the node to the   protection domain, which requires the additional QoS/Capacity requirements.
+4. SMS further based on the dashboard of information and pre-allocated thresholds, recalculates the number of nodes required for the protection domain. If determined can automatically power down the excess number of nodes or trigger an alert. This could result in reduced TCO.
+5. In addition to that, SMS could monitor the health-check on the participating nodes. It could dynamically replace the unhealthy node with manual intervention required from the administrator.
+6. SMS could play better role in dynamic sizing of the node requirements, with respect to hardware refresh cycle of the commodity servers. Commodity servers over a period of time, tend to have increased bandwidth and capacity, while being more power efficient. 
+7. This idea could integrated in to ViPR control plane, to automatically mange ScaleIO storage cloud in better & efficient manner.
+

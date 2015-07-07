@@ -1,0 +1,5 @@
+Conference Room Booking Global Site
+
+Sometimes we find difficulties to book the conferense rooms.
+Through this global site we can easily book a conferense room with in a few minutes and status of the rooms can be checked(like for whom the conferense room is being booked).
+

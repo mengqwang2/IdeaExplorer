@@ -1,0 +1,25 @@
+You Define EMC Voice
+
+The RCOE has only 2+ years of working with GPTW (no external ranking so far in Russia). The Idea came up from the HR department when we started to analyze data and develop recommendations at the RCOE level.   We implemented and piloted that approach, and do believe it may scale out to the entire EMC. 
+Below it is a description of approach taken by the RCOE HR team, actually each bullet is a separate idea, and can be freely applied separately. However, based on our empirical work, we noticed that combination of all these ideas is better than one. 
+
+1.	Run Comments Report analysis:
+Plenty of comments provided by employees, it is very important to analyze them since they provide a lot of insights and valuable ideas from people. One easy way to do is -- use an application that generates “word clouds” from text you provide.  You will find some hot topics and will be able to see some patterns especially if you use 3 years MyVoice data. 
+See visualization here: https://inside.emc.com/docs/DOC-99811      Slides #8 -12
+
+2.	Do brief, express surveys before and after MyVoice 
+•	  eg. in the  Russia  COE  when we received a low score on question “I  feel good about the ways we contribute to the community”, we decided to clarify what employees meant under “Community” with help of express survey.  Results were very interesting and pretty diverse, a lot of engineers meant “Open-Source Community” :) 
+•	At the entire EMC level we believe that Inside@ EMC can be used for Express Surveys
+
+3.	Run a Facilitation session with volunteered employees after My Voice Report received. 
+•	Goals are: generate ideas, proposals to be included into Action Plan. Typical duration – 3-4 hours.  At the end of such session a list of great ideas produced by diverse team. 
+Visualizations see here: https://inside.emc.com/docs/DOC-99776
+
+•	To scale out at every level of EMC it might be done with the help of online tools (MS Link; Webex,  Inside EMC etc), for small teams very effective to do it in person. 
+
+4.	Build small Cross-BUs/ X-Geos/X-Functions  My Voice Task Force that:
+-	Drive Action Plan development for their teams 
+-	Generate ideas to be included into Action Plan 
+-	Present proposals to the Leadership teams, drive some initiatives
+
+

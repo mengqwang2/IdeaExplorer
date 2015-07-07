@@ -1,0 +1,10 @@
+Low Latency iSCSI+ Service with QUIC-enabled network stack
+
+I had the feeling when doing iSCSI performance tuning that this is a bottleneck, but not sure of how to improve it. Recently I notice Google's effort on QUIC, and believe this is a right move and fit very well to our demands to improve iSCSI performance.
+This new service iSCSI+ intends to significantly reduce latency in network stack with new QUIC technology. QUIC (Quick UDP Internet Connections) is transport layer protocol implemented by Google in 2013. UDP is normally regarded as connectionless and low-overhead transport layer but not any guarantee on packet delivery; TCP is more connection-oriented and more functionalities like packet order and congestion control but bigger overhead. Therefore it is somehow straightforward to figure out a transport protocol to place in-between UDP and TCP, which should be low-overhead and then low latency, but still have similar delivery guarantee. QUIC is designed by this in mind.
+
+iSCSI+ is placed on top of QUIC/IP network stack, which combines the benefits of UDP and TCP but well-control the negative effects of both transport protocols. In this way, iSCSI+ can remove overhead as TCP’s hand-shaking mechanism and congestion control, and then enjoy low latency.
+
+With iSCSI+ service deployed as proposed, customer can leverage existing network investment and benefits low latency block service only with upgraded software module as a new transport protocol. This solution would be very competitive for low-end products in new emerging markets. This solution also offers an alternative for customers in mature market to reuse what they have today and avoid big volume of cash to deploy HW offload block service.
+
+

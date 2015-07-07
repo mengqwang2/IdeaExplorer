@@ -1,0 +1,5 @@
+Real-time display of Bus waiting time at bus stops
+This idea is intended to solve the transportation problems in big cities. Convenient transportation is an important part of smart cities.
+The idea is discussed at a group meeting.
+Install an electronic board at bus stops, which will display the bus arrival time. 
+with the real-time display of bus waiting time at bus stops, commuters will be able to plan their time more reasonably and conveniently, readuce time wasting.

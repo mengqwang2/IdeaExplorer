@@ -1,0 +1,51 @@
+Solution for Cloud Performance Monitoring and Cloud Services Delivery
+
+Performance is the main challenge for Cloud solution offerings; looking at the new technology to manage all Cloud solutions would risk in high Financial investments, challenge in recreating or shuffling the existing services for the customer.
+
+
+Two Solutions from the Network Perspective and as a Cloud Service provider (EMC):
+
+(i)MPLS (Multi-Protocol Label Switching - Virtual Private Networking) WAN Network.
+
+MPLS has solution to predict/monitor the actual usage and performance of bandwidth and application levels. Thus, drastically addresses the efficient troubleshooting and availability of Services.
+Quality, Reliability, Flexibility of MPLS VPNs is a perfect complement for Cloud Operations.
+
+ii) Leased Line - WAN Ethernet Network (or Global VPN)
+
+Increase in ISP availability in industry provides a concrete lead in availing the Network services for competitive cost and architecture.
+For Cloud Operations, we could have the Fibre Optic connectivity as ‘end to end’ connection.
+
+Ex: (TATA ISP) Connection ‘A’ starts from the EMC Data Center to the ISP MUX box or base located in or near EMC Station, from there to ISP Network Operations Center channel, then to the Customer MUX port and Customer Data center (This how the traditional Internet connectivity services being facilitated in Cloud or general Network infrastructure setup.)
+
+In brief: Assume that Connection A (EMC DC) is located at Bangalore and Customer site located at Colombo, SL.
+
+Estimated Connectivity Design: Connectivity drives from Bangalore ISP Channel to ISP Network Operations Chennai (TATA Communication ISP major base is at Chennai), then to Colombo through ‘Fibre Optic Cable Network’ an unbreakable Sea Cable solution.
+
+To ensure, the Cloud services have the backup support upon the failure of connection between the sites. “Multi-Link” /or “Ring Network” ensures the availability of Cloud services with help of Backup lines (traditionally ISP also provides a Backup Network connections with same or moderate bandwidth) – It can be from same ISP or Other ISP’.
+
+By developing a “Multi-Link” or “Ring Network” enables the opportunity to deliver the services 
+(i) efficiency (ii) redundancy (iii) Easy access (iv) Data Assurance etc.
+at the end it is going to be a Private and secured network line and in turn it offers a secured and highly scalable Cloud services.
+
+This Solution is just not about the “NETWORK”; it is about the Sustainability factor of EMC Cloud Services & Solutions.
+
+How: A similar to the described Network operations, we should have the redundant Cloud Data Center (Disaster recovery DC) elsewhere located in the same region (here assume, we have Cloud base Data Center in Bangalore and DR-DC at Mumbai).
+When the Cloud Services is being affected due to whatever reasons, then the secondary cloud base resumes the services to the customer site.
+
+This ‘Multilink’ facility also ensures the services is being delivered and captured from the nearest site (Nearest, doesn’t mean the distance between the EMC DC1 and Customer site, could be from DC2 as well, irrespective of area distance) it means services from fastest reachable sites.
+
+Solutions through Fibre Optic Leased Lines are cost-effective, flexible and it eases with positive time to market services, to maintain and manage.
+Two core values out of this:
+
+“Multi-Link” or “Ring Setup /Network” ensures Seamless connectivity between the EMC Data Center 1 & 2 (Automation) and with Customer site. (Here DC1 could be EMC DC Bangalore, DC2 [let’s say as Child /Mirror DC] could be from Mumbai, Pune, Kochi elsewhere in India or from nearby regions)
+
+By doing this, in default redundancy is enabled between the sites; this Architecture will be simple and easy to manage. Performance could be Handled and managed effectively, loss ratio would be too less – This is applicable for ‘Cloud non-resident’ operations, which means the Cloud DC located elsewhere from customer base. In fact if the customer needs the Cloud solutions for multiple locations, then the same action takes in wider level.
+
+In precise, it is an Automation between the EMC Data centers and Customer site through Effective Network system (MPLS or LL /VPN), so that the performance will be measured and maintained at the promised level.
+
+Kindly Note: I had discussed here about the shortest distance, this is applicable between and within the continent [AMER/APJK/Europe] EMC Data Centers (including Child DC) and across, its various regions.
+
+Kindly Note: Mentioned TATA Communication as an Example to understand easily.
+
+This is simplified, intuitive and just expanding the wings from the traditional infrastructure setup. If the Infrastructure expansion or change is needed in this perspective..,  then it would be too less while comparing to investing in new solutions.
+

@@ -1,0 +1,27 @@
+Health Care Alarm Notification Service based on Big Data Analytics
+1. Skolkovo R&D Center Challenge
+
+Our idea explores an area where EMC solutions could bring revolutionary benefits to customers and communities. So it can be “a new market niche where EMC technologies will enable building new solution” and meet the criteria “Health Care and Life Science”, “enabling new market at one of strategic direction”, “big data”, “Attractive for businesses born in digital era”, and “Complemented with potential market overview”.
+
+2. Global Solutions Challenge 
+
+Our idea implements “Big data and analytics” that represents “unprecedented opportunities for our customers in competitive vertical markets”, and offers health wristband vendors, who could be EMC Federation customers, new business points by “monetizing their data through insights, models, and distribution”.
+Reliability engineering of software and other engineering areas have applied the way to use counter or status data analysis to predict if a release of software, a building, or a mechanical product is reliable enough to deliver or not. This idea can be expanded to the area of people healthcare and alignment with predictive analytics on big data.
+Based on predictive analytics and comparison of health status data of millions of users, decide for individual or certain group of users by certain probability when there might have health issues and how severe the issue might be. Then push appropriate alarm or recommendation messages to users’ wristband or integrated mobile apps.
+
+The general sequence of events is listed as below.
+
+1. The health wristband collects health status data of an individual user.
+
+2. The wristband or its integrated mobile app uploads the individual user’s data to the Cloud. 
+
+3. Big data predictive analytics engine on the Cloud side finds out health status data structures, patterns, and their relationship with health issues based on the data from millions of other users.
+
+4. Big data predictive analytics engine on the Cloud side compares the pattern of the individual user and other users and make the decision of what kind of notification will be sent.
+
+5. The Cloud pushes alarms or recommendations to individual user’s wristband or app to notify him or her potential health issue that might happen in future and the recommended action plans.
+
+6. The Cloud will work with health wristband and mobile app to collect new data from individual user, monitor and follow-up whether he or she has any change or improvement after the notification. Further and updated alarms and/or recommendations will be pushed when necessary.
+For health wristband and mobile app vendors, this is a new area of business to provide much more smarter and comprehensive services to their customers, and they need Big Data software suites, services, and solutions from EMC Federation to help them build up the infrastructure to support such productions.
+
+For the area of professional healthcare, this innovation would bring significant benefits. The Cloud’s prediction and notification service can connect with hospital database, medical equipment, and emergency rooms’ reaction center to expect severe health problems of patients and elder people and take actions before real occurrence. The products of EMC Federation can engage here to provide solutions to healthcare institutions and hospitals to achieve more contributions to our communities.

@@ -1,0 +1,5 @@
+Panorama view of cultural digitization photos
+Improves cultural digitization
+Own thought process
+Develop a mobile app using which one can take Panorama view of their surroundings and upload them with some tags. Similar to - http://www.airpano.com/. Other users can search & upvote interesting photos. A panorama view gives real-time viewing feeling. 
+.

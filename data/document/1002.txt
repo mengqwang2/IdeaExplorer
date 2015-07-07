@@ -1,0 +1,58 @@
+Enterprise Database Management Solution (EDMS) using Docker with support to PCF and Hybrid Cloud
+The solution is based open source using docker technology. It enhances the usage of existing EMC storage products and supports PCF. It could play a pivotal role in 2nd to 3rd platform migration. This could well be packaged as a new product under software defined solution.
+We are using PCF for our projects. I noticed that database creation is not as flexible as we are creating the applications. This is were I thought we could come up solution based on docker so that we can make database creations as easy as any other applications 
+To build a enterprise database management solution based on docker which can provide interface through API and UI to manage database based on the plans and back end storage of choice.
+
+Feasiblity of the solution is based on the latest version of the docker which provided extensions for the volume drivers. There docker volume drivers already avaiable for scale io, xtreme io.
+
+Solution supports PCF too. The users can request for database instances from PCF too through command line "cf create-service". For this we will create service broker and upload in the PCF market place. This service broker internally talks to our EDMS API to manage database instances.
+
+During maintence work on the underlying infrastructure it is easy to move the docker container and backed up volumes to different infrastructure using this solution
+
+The solution is unique in a way it below ways
+1. Using docker for storage solutions
+2. Support for PCF through service broker
+3. Supports hybrid cloud
+4. Built on top of EMC storage solutions
+5. Provides solution for migration and backup of databases
+
++--------+----------------------------------------------------------------------------+
+|                                                                                     |
+|     	 EDMS PORTAL		   PCF (Service Broker) 	       Other tools    |			  |                                                                                     |
++-------------------------------------------------------------------------------------+
+		+                           +                          +
+		|                           |                          |
+		|                           |                          |
+		|                           |                          |
+		|                           |                          |
+        	v                           v                          v
++--------+----------------------------------------------------------------------------+
+|                                                                                     |
+|     			             REST API			                      |					          |                                                                                     |
++-------------------------------------------------------------------------------------+
++--------+----------------------------------------------------------------------------+
+|                                                                                     |
+|     			            EDMS Engine		                              |					          |                                                                                     |
++-------------------------------------------------------------------------------------+
++--------+-----------+-----------------------------------+----------------------------+
+|                                                                                     |
+|                   Redis, Mongo DB, Oracle, MSSQL, Postgres, Others 	          |                                                                                     |
++--------------------+-----------------------------------+----------------------------+
++--------+----------------------------------------------------------------------------+
+|                                                                                     |
+|     			           Docker Engine                                      |								          |                                                                                     |
++-------------------------------------------------------------------------------------+
++--------+----------------------------------------------------------------------------+
+|                                                                                     |
+|     			  IAAS (Includes public cloud like EC2) 	              |                                                                       |                                                                                     |
++-------------------------------------------------------------------------------------+
++--------+-----------+-----------------------------------+----------------------------+
+|                    |                                   |                            |
+|      Scale IO      | 	            Xtreme IO	         |          Others	      |                    |                    |                                   |                            |
++--------------------+-----------------------------------+----------------------------+
+
+1. Databases can be provisioned instantaneously
+2. By using docker we are effectively utilizing the underlying infrastructure and all the goodies that docker brings in
+3. User can choose the back end of choice based on this needs. Eg. When a user wants a redis instance for high availablity with high performance we can provide the redis instance backed up with xtreme io. The user could be metered accordingly based on the choices made.
+4. User can also choose to create database which could be backed up by the public cloud instance like EC2. This could be based on needs or sensitivity of the data.
+5. Migration of database between machines for any reason is much easier in this case. All we need to move docker container to a different machine and attach the volume to it.

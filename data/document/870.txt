@@ -1,0 +1,29 @@
+Time series model prediction architecture with Revolution R open and Apache Parquet with GPU accelerated processing
+An architecture is proposed which will do efficient time series prediction. The architecture an be taken as blueprint and more complex analytical projects also can be done using this architecture
+
+Proposed architecture can applied easily on top of EMC products like Data domain or VNX with attaching a GPU
+
+
+We were using R statistical tool for one of our projects and doing some linear regression and when looked at this challenge , thought of working on the same.
+We thought hadoop ecosystem can be used for doing massive combinations and during secondary research came across apache parquet which is integrated with hadoop and can efficiently access data for analytics and this architecture came out of that secondary research 
+
+Architecture components: 
+
+Front end UI interface will be done by nodejs and it will use REST API interfaces to access the R function using opencpu.
+The R package will revolution R and will be installed on Hadoop ecosystem and the data will be stored in apache parquet.  The hardware will have GPU installed on that so that computations are done faster 
+Revolution R open will be used for the doing the time series prediction. Revolution R makes uses of 
+
+Advantages of the architecture:
+1.	Revolution R is open source and parallelizes R across multiple clusters/cores
+2.	Apache parquet is designed for faster retrieval of data by storing it in columnar format
+3.    GPU   accelerated processing 
+
+One example is temperature prediction can be done using this model and same has been explained in the below attached doc
+
+https://inside.emc.com/docs/DOC-155868
+
+
+Criteria of Success:
+1. From the blueprint, develop a working model with those components.
+2. Measure the time taken to predict different time series models and ensure that there is a huge performance improvement because of this architecture
+

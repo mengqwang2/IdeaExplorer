@@ -1,0 +1,8 @@
+Customized KB pool for certain customers
+Higher level of customized service. 
+-Customer sometimes don't know how to collect product log.(basic troubleshooting)
+-New customer has no clue where to start( basic admin)
+-When customer has multiple EMC product like RP and VPLEX and VNX, sometimes there are some ETAs related to certain combination, but customer don't know if it's related. 
+In all those scenarios, CS has to send KB articles each time, sometimes in pdf attachment. Not easy for customer to search and maintain. 
+Set match criteria for KB articles pushing to customer based on customer environment setting (product/version/environment)
+Customer could easily check their categorized KB pool that are all useful and customized to match their environment, to resolve some issue/questions by themselves; CS could save time and mailbox space for sending KB pdf copies; Information can be easily reused if customer change their admin.

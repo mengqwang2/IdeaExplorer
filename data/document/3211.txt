@@ -1,0 +1,15 @@
+EMC product Design Database
+
+-
+A web portal, like esrs and we could ingerate it to esrs where the design documents of each product is stored linked to the product. This way, when we would like to check the design and compare it to the current configuration it would be an easy task. It would be handy for troubleshooting and for upgrade planning and new designs. 
+
+Also it would be benifial to tag all the design based on the components of the project. This way, for example , we get a new project and the solution architect would like to check how were similar projects designed. He gets on a portal, marks the requirements of the project and all design documents matching this criteria are displayed. 
+
+A team could be built up to optimize the designs and mark a design as the best approach design. This could then be a reference for all upcoming projects.
+
+The person with best design could be qualified for an award.
+
+This way, we are minimizing design errors. Optimizing the designs and making sure to follow best practices. This will also decrease the time consumed during the design phase and troubleshooting and any related tasks.
+
+
+

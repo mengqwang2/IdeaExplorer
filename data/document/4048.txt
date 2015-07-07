@@ -1,0 +1,12 @@
+Customer Direct Ideas.
+
+This came when I was seeing the EMC world Videos. 
+
+the Main purpose of the EMC world is to gather feedback for the cusotemr's. BUt unfortunate we have 15% of our customer base come to our EMC world for various reasons know to them.
+
+so need to Have a place where Customers(people working with our product) can write to us directly 
+We need to Integrate a space in support.emc.com / emc.com where customer can submit an Idea / request /suggestion.
+
+These Suggestion / Idea should be redirected to the product operations / Customer service Management teams for review.
+
+

@@ -1,0 +1,44 @@
+Sensing and Actuation as a Service for IOT based Smart City
+According to a recent Gartner Analysis there will be 30 billion devices connected by 2020 with an exponential growth of 30 times the installed base in 2009 generating incremental revenue exceeding $300 billion. 
+With the exponential growth of IOT devices over time , there is a need for EMC to provide a  unified, flexible and scalable hybrid cloud based solution required to handle and optimize the immense growth of data generated with millions of different heterogeneous sensors and actuators connecting over the internet.
+We had discussed with the sponsor to understand the expectations and the kind of solution they are looking for, team has very good diverse skills in Hybrid Cloud and Big Data, and we understand the challenges and potential market opportunity for IOT based cloud services, we have also worked on multiple innovation and patents, leveraging those skills and experience we had come up with Hybrid cloud based solution. 
+In Current scenario, EMC has been the leader in extending the User centric model to different distributed contexts and applications by providing Infrastructure as a Service and Data as a Service.
+
+Our idea is to adopt such approach to sensing and actuation resources, thus providing a Cloud of sensors and actuators as “Sensing and Actuation as a Service” (SAaaS).
+
+Sensed information is generally acquired/consumed by independent organization deploying their own infrastructure and software resources. 
+
+The proposed solution is to offer a unified service oriented architecture for the Smart city where any sensor and Actuator can be dynamically added and consume the huge data generated from multiple devices based on Publisher/Subscriber model and thus providing the data generated through it in a secured fashion.
+Also in the proposed solution, the enterprise sensor devices will have the capability to expose the selected set of data to the outside world and protect the sensitive data. 
+
+The solution can be achieved using the existing cloud technology and intelligent storage/archival/backup/visualization solutions capabilities provided by EMC
+
+1.	Hybrid Cloud Based Service which helps the providers to integrate seamless and secured fashion
+2.	Along with Senor Integration services Enterprise EMC could provide multiple Storage as a service option suiting their needs
+3.	Scale Out secured storage solution: Scale IO
+4.	Isilon based Solution to provide Analytics on source which reduces time included for data movement , also helps to protect integrity
+5.	EMC BRS systems to be used to backup unused and important data, which can be recovered at any point of time. 
+
+
+This result is achieved by accomplishing a high level of abstraction of sensing technologies and sensed data.
+Proposed Model: How the solution can be achieved:
+
+Not all sensors are powerful enough to connect to central cloud repository system. 
+--In this model we propose a system where multiple sensors (SI’s) and data consumers for a site are connected in a full multi –hop wireless SAN in a secured way on the cloud. 
+--In the scenario of Smart Cities, a site can be a building, a factory, city roads, or also a whole city. Each site is an autonomous system (AS), in which Clients and Services interact with each other. 	
+--The multiple sites deployed at various places in the city stores data through a Database (DB) Manager in a local relational database over the analytics cloud. This database could be delocalized and distributed in order to share and store information in a smart way and in a transparent manner for the users based on publisher subscriber model. 
+-The DB Manager publishes sensed data on a global and distributed column-based hybrid based cloud solution and the sites which are subscribed for that data can get the access of data.
+
+--The central hybrid cloud interacting with multiple sensor networks will be scalable, dynamic and secure to add/ update and manage the duplication/redundancy of the growing network of adhoc sensor devices on the network.	
+--The multiple storage infrastructure thus involved in the data sharing across the sites can be arranged in an intelligent way thus allowing and making the data replication faster and reducing the data latency as done in intelligent Network CDN(content Delivery Networks)
+
+
+- Enable EMC to enter a niche and growing market with its existing Products and technologies  
+- SAAS solution powered by EMC federation stack which is highly stable, scalable and secure which will have greater potential for multiple subscribers to consume the the services, which in turn increase the user base which demands for scale out storage which is expected to fetch more Revenue/Return on Investment.
+- Data captured in the cloud can be pushed to Data Lake, where it can be used for various kind of analytics, Research
+- Correlation of data across different smart city sensor/sources which will get potential insights which includes any Real Time actionable insights also.
+- EMC Isilon based storage can used for dynamically spawning the Hadoop Clusters and provides work spaces for users perform analytics on the Source.
+PAAS offering for the consumers to perform Analytics on the sources, which eliminates IOPS involved in large data movements for Anlaytics.
+- A charge back model can be introduced for each sector to generate cost based on usage.
+
+Architecture Diagram can be found at : https://inside.emc.com/docs/DOC-155873

@@ -1,0 +1,9 @@
+Transformation to Mobile - EDU Portal
+User Experience enhancement platform 3.0 direction and mindset
+The increase of the mobile transformation need
+The idea is to have a mobile application of https://education.emc.com/ for employees to be able to access their online trainings from their phones/tables.
+
+This will increase employee engagement and by giving the ability to attend their online trainings from anywhere.
+
+The app can cover employee transcript with privilege of registering in trainings as well.
+This feature will make life easier as well as increase employee engagement.

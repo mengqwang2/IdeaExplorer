@@ -1,0 +1,26 @@
+Big Data/Cloud Animation Movie Project Contest
+
+The idea was generated from my personal experience. While trying to explain a concept to a young child, I tend to understand it even better. So in order to allow students to learn more about the 3rd platform we need to embrace fun and creativity with the learning process.
+Contest Topic:
+Design and implement an animation movie that you would use to explain Big Data or Cloud concepts to a 6 years old student.
+
+Your task is to research, understand and simplify big data or cloud concepts to be able to deliver those findings to a young learner though a simple 7 to 8 minutes animation movie.
+
+The winning movie will be the one with the most accurate information delivered in the simplest way. “If you can't explain it to a six year old, you don't understand it yourself.” ? Albert Einstein
+
+Contest Structure:
+Duration: 5 weeks
+Groups: 4 to 5 students per group
+Condition: Each group will select his topic (big data or cloud) during the first day of the competition.
+
+The contest will be divided into 3 main challenges/phases:
+
+Challenge 1 (2.5 weeks): Research “What do you know about Big Data/Cloud?”
+Challenge 2 (1.5 week): Simplify concepts and findings
+Challenge 3 (1 week): Create an animation movie to show and deliver your findings
+
+
+Benefits of this contest include:
+1- Students will fully understand the concepts of big data and cloud.
+2- Use their outcomes to teach even younger students those same concepts.
+

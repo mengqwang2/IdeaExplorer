@@ -1,0 +1,5 @@
+Standardized API
+
+N/A
+EMC Corporate would take the various architectures and future architectures into account and create a framework for APIs that each BU could choose to adopt.  They wouldn't necessarily replace the current API's.
+

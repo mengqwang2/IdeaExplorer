@@ -1,0 +1,9 @@
+Extend Chrome Devtools to export and import raw network traffic data.
+
+I have used the HAR export and third party tools to visualize the exported data and found it wanting. The idea came about out of my frustration with this.
+
+The Chrome devtools are extensible and I have done a lot of work extending the Chrome Devtools.
+At IIG we are using more and more Web and Mobile technologies to develop applications. The Chrome Devtools is an integral part of developer's tool chain. The Chrome Devtools Network tab can capture and visualize the network traffic with high fidelity. It has the ability to export the data in the standard HAR format. However there is a loss of information when the raw network data is exported. Also one has to use third party tools to import and visualize the data. The use of third party tools may have security implications. 
+
+This is a proposal to add export/import/visualize/replay feature to Chrome Devtools Network tab. The feature will export the raw network data in JSON format. The feature will import the previously exported raw network data, visualize it the exactly same way as the Network tab does and allow it to be replayed. This will allow QE to export the data when filing bugs and Development to import it, visualize it. The Replay feature will allow automated testing of certain scenarios.
+

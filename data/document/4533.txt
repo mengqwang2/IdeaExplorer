@@ -1,0 +1,18 @@
+Online Performance Analytics Service
+
+performance usually is very challenging to both customer and EMC engineer, usually many back and forth. This inspire me a good opportunity to provide such integrated intelligence and online service to resolve customer pain point.
+
+
+The proposal includes product integrated triggers, policy and public access cloud.
+1. Monitor and alert by policy: Such policy is much like AWS CloudWatch, customer selectively enable array integrated triggers with throttles such as CPU usage over 80%, and/or IO latency exceeds 500msec, when closing to the throttle, detail traces start working to collect data, Once hit, system auto alert Admin, meanwhile pack all relevant data to EMC powered cloud and the system now is in EMC radar. 
+- Metrics supports CPU, disk, cache and network, policy could be flexibly defined or combined. EMSD products now already have many traces can be leveraged or improved. The eventual uploaded materials also include system config, healthy, and wider environment info if they’re EMC footprint or data could be retrieved via orchestration APIs such as EMC backup/Rep destination. Data will be compressed and encrypted. 
+
+2. Analytics cloud: the cloud is powered by EMC platform (such as GP+HDFS) and analytics engine and public access portal. 
+- Analytics engine: include data transformation, modeling and correlation analysis and leading factors analysis to identify bottleneck, this could leverage most of existing analytics offering such as Watch4Net, M&R, Unisphere Analyzer, Unisphere QoS. Meanwhile it analyzes the historical trends for performance and capacity prediction
+- Portal and report: once analyzed done, customer is notified, summary and detail reports can be accessed via HTTPs anytime anywhere. So all complex analysis is hidden to customer. 
+
+3. Link to knowledge center or bug DB, so that we could interact and point to potential root causes and make proper recommendations to customer.
+
+Such framework could be further expanded to capacity or configuration analysis. With plenty of data collected, we could do more statistical analysis on system config, use pattern to know deeper about product and further guild system design.
+
+

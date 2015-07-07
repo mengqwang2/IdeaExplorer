@@ -1,0 +1,12 @@
+Mandatory Trainings Tool
+
+Managers has to everytime keep track of the trainings completed by which enployee
+We can have a tool created to remind employees about the mandatory trainings.
+Tool Features :-
+1. Managers can add the trainings by their ID to the tool, which needs to be completed.
+2. Once a training is added to the tool, the same will replicate for each employee. And this will keep reminding engineers to complete trainings via a Pop-up.
+3. Complettion of training will remove training ID from that particular employee tool.
+4. Tool can have a direct link to re-direct employee to the training window.
+5. Toll will have a snooze button
+6. Tool can generate a excel sheet for all the employees showing which training is completed by which employee.
+

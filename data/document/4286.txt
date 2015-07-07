@@ -1,0 +1,5 @@
+Using System Noise Polution to reduce/replace battery load.  
+
+Queen Mary University is doing a lot of research in this area, and suggested uses include screens on buses and subways powered by vibration. EMC systems might initially be able to use these to power screens and some of the "cosmetic lighting" used on front panels.
+"Vibrational Harvesting" absorbs sound and vibration and converts to energy. These can be then used to power elements like screens and lighting, or trickle charge batteries.
+

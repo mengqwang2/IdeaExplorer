@@ -1,0 +1,41 @@
+Improve Vplex Firmware logging facility
+EMC's promise to customers is that we will protect data always and in the unfortunate even that does not happens, we will provide the cause for and a fix.
+** The way Vplex logging is designed, EMC cannot keep the above promise. **
+
+There are many critical DU/DL issues/SR's could not be RCA'ed because of Vplex could not keep logs. 
+Ref SRs: 70007548 ,70582762 ,  70723108 , 66331610 , 66358912  .
+
+Make below 4 changes to the way Vplex logs Firmware evenets. 
+
+1.  Tag every log entry with severity. There are many lines 
+For example , 
+below lines should be tagged as S3 as they are kinda informational 
+--------------------------------------------------------------
+128.221.253.67/cpu0/log:5988:W/"00601636f400215140-1":90076:<3>2015/06/04 15:34:54.84: tach/23 tach03 (A0-FC03): Possible unzoned port
+128.221.252.67/cpu0/log:5988:W/"00601636f400215140-1":90078:<6>2015/06/04 15:35:10.92: tach/36 tach00 (A0-FC00): probing topology hpFabric.
+
+Below should be in S2 . they are important but not impacting IO at this time.
+----------------------------------------------------------------------------
+128.221.252.36/cpu0/log:5988:W/"00601636bce520588-1":141786:<6>2015/06/04 15:37:51.72: scsi/142 Cancelling reset timer for luid VPD83T3:60060160058034001e81a959dffde411
+128.221.253.68/cpu0/log:5988:W/"00601636eb7c215143-1":16510:<5>2015/06/04 15:52:11.05: floor/30 55% of memory in use:  2705637400 bytes
+
+Below are fall in S1.  They need to be preserved for at lease 2-4 weeks.
+-----------------------------------------------------------------------
+128.221.253.36/cpu0/log:5988:W/"00601636bce520588-1":141935:<6>2015/06/04 17:00:38.38: disk/1005 lost disk REMOTE:ab
+128.221.253.36/cpu0/log:5988:W/"00601636bce520588-1":141852:<4>2015/06/04 17:00:38.38: comscsi/15 COM port B3-FC01 (role: com) link down
+128.221.252.35/cpu0/log:5988:W/"00601636d08965722-1":5304605:<4>2015/06/18 13:00:24.00: amf/45 disk SLICE:f00f7b673a21b87a: write failure: marking this in-use disk dead
+128.221.252.35/cpu0/log:5988:W/"00601636d08917753-2":9880:<6>2015/06/04 22:03:06.71: stdf/10 Scsi Tmf [Abort Task] on fcp ITLQ: [MCC_DC1_DTS_UCS_C2B1_LQAM2074_vHBA_P1_LC 
+
+
+
+2. Have multiple log files for different severity.
+
+   Eg. firmware.S1.log.xxxx,  firmware.S2.log.xxxx,   firmware.S3.log.xxxx .
+
+3. increase  size to 200mb  each log file. (At present it is 10 MB , which can hold appx 60k lines. which is very low for the amount logs we are getting) 
+
+4. Increase  /var/log file system to 50 GB .
+
+.  success measurement: No defect should be returned with out proper RCA because of non-availability of  vplex logs.  
+Benefits ,
+Saves Money:  Saves support cost because it is very clear for the first CS engineer to pin point the cause of the issue for a

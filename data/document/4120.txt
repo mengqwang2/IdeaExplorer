@@ -1,0 +1,16 @@
+Helping xCP customers enforce process changes in real time
+
+The base concept of the idea is inspired by IFTTT(.com). The xCP Designer team brainstormed on how this can be leveraged by us to enable Documentum consumer be more agile and responsive to their process changes.
+xCP will provide a mechanism to register new recipes to application. A recipe is essentially a binding between one or more events and actions. When building, xCP will add functionality to application, so that it can listen to a web/rest service. There will be three such services 
+* Event Service – to publish new business events
+* Action Service – to publish new actions items
+* Recipe Service – to publish new associations between the events and actions
+The runtime in the application will understand how to consume these services. It will perform the required tasks to create appropriate objects in repository.
+Such a mechanism will enable the customers to react to process changes without having to modify and redeploy the application. Thus saving not only the maintenance costs but also reducing the downtime of the business applications.
+
+For example: 
+In a loan sanction process, a new document is now required due to new government guidelines. Typically, customers will have to use xCP and modify the process and redeploy it.
+With this innovation, the customer can publish a new business event bound to the loan approval action. The application will detect the new process change and will make the necessary modifications the repository
+
+https://inside.emc.com/docs/DOC-100031
+

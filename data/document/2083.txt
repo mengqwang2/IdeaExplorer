@@ -1,0 +1,5 @@
+establish a real EHC to enhance Eos2 efficiency
+establish a real EHC by using Vmware Vcloud Hybrid Service to make resources sharing between different groups of EOS2 come true and make the best of open resources from internet.
+resources sharing limitation and experience from daily work.
+Do research and request in different groups of EOS2 to find valuable resources. Evaluate valuable resources and update to EHC by using Vmware Vcloud Hybrid Service regularly. On the other hand, collect frequently-used external resources from internet and share them on EHC. For POC, some kind of testing environments are established based on open resources such as Docker and Openstack. But those resources are blocked by firewall. Those open resources can be shared through deployment of EHC.
+meet the need of resources sharing need in EOS2, reduce cost and improve efficiency.

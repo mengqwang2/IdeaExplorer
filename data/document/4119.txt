@@ -1,0 +1,6 @@
+Enabling EMC Storage Arrays for Cloud Platform
+
+On trying to understand the platform three infrastructure, I thought of utilizing the new architecture as well utilizing the existing products and their strengths.
+The converged adapters with the capability of remote DMA shall become the data movers of the storage arrays. The converged adapters gives us the ability to separate the data and the control plane and it would enable us to have a "software defined Storage network". The MultiTenancy needs to be implemented for all the resources: Front end and Backend adapters, Cache.
+Next, the monolithic arrays need to form a federation(pool) of storage. This will enable the arrays to be dynamically added and with stand array/site failures. Internally, the data is stored in a RAID capable storage. But with federated storage, the data can be encoded with erasure codes and can be distributed across multiple arrays. The strengths of EMC arrays like SRDF, MetroCluster can be defined at the software layer and this will enable the data being replicated across geography and can also enable data distribution to more than 2 sites and the data can be dynamically replicated.
+

@@ -1,0 +1,13 @@
+Smart Government gateway
+Nowadays governments have a challenge in updating the database for each individual. To have better security utilization for the government, the government should have an up to date data for each individual. Outdated data could lead to unsecure environment. 
+The idea came to me by the time wasted in renewing the governmental document and how easy it could be in a technology based system in the smart city we are talking about. Also what is the document and fees needed to renew any paper is something unknown, so you have to do things twice first time to know the document needed and the second to actually do what you need.
+- A reminder that could help each person to remind him with the outdated or close to expiry date document such as the passport, National ID, Personal License, Car License, Visa Card ….. etc
+
+- For Government the system will work automatically when the user enters his name and his national ID number, with a security token (EMC product). This will lead the user to a profile where he will find all his papers such as his national ID, Passport, Personal License and his own car License.
+
+- When any of the above documents is close to their expiry date, a notification will be sent to the user (through his mobile phone) with the documents needed to renew this paper, from where he could renew this paper and the fees needed for this renewal. Finally if he is willing to pay extra fees for this paper renewal and a career will deliver it automatically to the user’s home address.
+
+- To help the users to use this system, there will be a category where the user could add card, the expiry date for this card and the fees needed for renewing this card. This could be a visa card, club membership annual renewal or even a card that opens some channels in the television.
+- Succession of this idea by implementing a system to track the expiry date for any document related to all citizens in this smart city. This will lead on an up to date database that will help the government for better utilization of their security resource, giving the people a better quality of life to live a better life and saving our environment.
+
+- The company will benefit from this idea by giving a solution for the big data to save a profile for each user (in this case each and every one live in this smart country), giving each user a soft token (RSA product) to make everyone entering their account in a secure way. EMC2 will make money by entering with its storage system to store the data for each individual with its dates and apply data analytics to track the expiry date for every document in this system such a smart idea for a better smart life for governments and individuals.

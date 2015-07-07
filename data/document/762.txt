@@ -1,0 +1,14 @@
+Virtual Expert panel
+Maximise the use of existing technology to:
+Improve communication across our multiple EMC and Federation sites
+Deliver enhanced collaboration across EMC’s Federation partners, and across the COE Ecosystem
+
+Solution is currently impelemented in other orgs.
+"Chat with an expert" - instead of using lync to find a friend use lync to find an expert - input your question and lync will use keyword matching to ping up to 5 people who can help.
+     Lync will only message someone who is online
+     Keyword matching would query multiple databases such as (training and certification, skills and education, job function etc.)
+     Not just for technology questions could be anything (Finance, HR, Facilities etc.)
+ 
+Option to opt in/out - but if you are using Lync correctly this should not be an issue as it will only ping you if you are available.
+
+Improve customer satisfaction and enhance productivity

@@ -1,0 +1,32 @@
+Unified EMC Product Management Interface
+1. The customers are using multiple EMC products and each product has individual management interface.
+2. Customer faces challenge in maintaining and controlling the management interface for each EMC products.
+
+During troubleshooting the customer cases,  came across the challenges customer had faced in handling multiple EMC Management interface for each product.
+The Unified EMC Product Management Interface is divided into 3 parts:
+a. Unified Management Interface
+b. Monitoring and Reporting Dashboard
+c. Setup Wizard
+
+Unified Management Interface:
+1. Categorize EMC Product into EMC Storage, Data Protection, Big Data App, Cloud App, Security App and Content Management.
+
+2. Integrate the Management interface of each EMC Product under the categorized container.
+
+3. At the customer site, when an EMC product is installed, depending on the License; enable the Interface for that Product.
+
+
+Monitoring and Reporting Dashboard
+1. A Dashboard which allows the customer to monitor the status of all the installed EMC product in one view / screen.
+
+2. A unified status report of all the installed EMC product to be sent to the customer email ID and to be displayed on the Dashboard
+
+Setup Wizard
+1. A simple GUI interface to be designed for all the EMC Product with minimum specification to be taken from the customer has input.
+
+2. The wizard should automate most of the data as per the given specification from the customer and give the best performance for the storage utilization or schedule has per the product.
+
+
+1. Enables ease of Access : Dash Board to access  all EMC product.
+2. Enables ease of Monitoring : Easy Maintainability by enabling user to look at single dashboard.
+3. Ease of configuration : Avoids multiple GUI interface needs to be accustomed by the cu

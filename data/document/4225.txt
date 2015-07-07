@@ -1,0 +1,5 @@
+Approval Dashboard [Desktop and Mobile app]
+
+Discussion 
+A simple desktop and mobile based application dashboard can gather & consolidate this information. This desktop and mobile based application can send the reminder popups to the approver, if he/she has any approval pending. End user or approver will have the ability to configure the dashboard, in such a way that from which all system the reminders should be send out.
+

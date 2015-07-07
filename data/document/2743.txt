@@ -1,0 +1,12 @@
+Advanced notification on critical bug fixes
+The idea solves problems in the following 3 service areas listed in the challenge:
+
+1. Customer Solution & Qualification Labs 
+2. Product Security
+3. Application Lifecycle Management 
+The idea came up after PSRC team was talking to VCE team who wanted pre-notification on security bugs fixed in products that are used VCE offerings. Cisco has similar 7-day pre-notification process for their security bugs. However the solution can be extended to non-security critical bugs as well.
+A portal where solution organization (including support) can pre-preview the list of critical functional and security bugs being addressed in a particular release or a patch of the EMC product used in the solution. The information will be shared 7-14 day in advance before actual release (pre-notification time limit is needed to protect sensitive info).  The solution team can pick the product and see list of critical bugs they need to be aware. The scope is limited to critical and high severity bugs that can have a significant impact on the individual products and solutions. They can also register their solutions and get notified about upcoming critical bug fixed in the future.   Other severity issues can be handled via other channels that are currently present.
+
+Shared services team can use the same portal if they need to push any critical information in timely manner for all registered users.
+
+The idea will help EMC provide seamless support for end customers and better planning for solution teams by providing access to real-time critical information.

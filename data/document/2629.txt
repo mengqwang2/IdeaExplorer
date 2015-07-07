@@ -1,0 +1,30 @@
+B2B Social Media Analysis Over Social Cloud Platform
+We will propose a big data analysis solution on business to business realm to dig the value inside massive social media data. We provide several valuable business use cases to positively impact the customer and partner experience.
+We have a big data analysis platform already and always think about how to use it to benefit the company. It's a really good opportunity to leverage it to positively impact the customer and partner experience.
+Following is several valuable business use cases:
+1.Find the Real Influencers
+In general, influencer marketing is about ensuring that you’re getting the right message to a relevant audience at the right time. Influencers can add tremendous value to your marketing initiatives because they are trusted sources for potential customers, meaning that it’s really worth the time and effort spent in identifying, engaging and supporting the relevant people who impact these decisions about your brand, products or services.
+Our Social Cloud Platform can help to make this process easy by identifying, tracking and providing key performance metrics like reach, engagement rate and page views for key influencers and influential publications over time.
+
+2.Products Comparison - Who is Winning the Social Media Battle (For example, EMC VNX vs Huawei Oceanstor S5000T),we can get these conclusions:
+(1)Social Media Performance: which products are the most discussed?
+(2)Most active products on twitter or facebook
+(3)Most active audience
+(4)Sentiment towards two products
+(5)Who is the champions in terms of positive sentiment 
+(6)What is the top key words for EMC VNX
+(7)Who is lose at customer service
+
+3.Predicting Trends and Measuring the Future
+As well as being able to use social data to improve products and services and tailor them to customer needs, the increasing relevance of social networks and the information shared on them allows companies to predict future developments. We can do following analysis:
+(1)Analysing sentiment towards the economy
+(2)Understand costumer opinion about your products
+(3)Identifying opportunities for customer interaction
+(4)Planning & fine-tuning product launches
+(5)Staying on top of instudry & economic developements
+
+
+4.Online reputation management and Crisis Management
+Monitoring one’s online reputation is essential for brands and products.Get it right and the organisation’s reputation and value can be enhanced; get it wrong and serious brand damage can result.  
+
+What we propose will be a big data analysis solution and user will see a portal to show the data,images and tables they are interested. With this portal, user could get trend and influence of the product they want to see in real-time. 

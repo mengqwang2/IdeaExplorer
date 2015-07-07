@@ -1,0 +1,5 @@
+Data Domain Command Line Interface integration with System Manager[DataDomain GUI]
+
+While working with customer on Data Domain implementation, I personally felt CLI can be integrate with System manager-GUI to avoid several login
+The idea is to get both GUI & CLI on one Window rather than using separate tool for SSH {putty, secure shell etc...}. CLI option can be integrated to the Data Domain System manager-GUI and CLI window can take an input command on a field and display the output on same window.
+

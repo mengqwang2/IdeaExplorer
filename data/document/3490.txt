@@ -1,0 +1,25 @@
+ EMC “KittyHawk Express (KHx) ” – A gate to “<15K” APJ Market
+
+I have been working as a support engineer for VNXe arrays which are very close to the targeted market sector. We usually see what functions the customer use the most and what other functions are considered as cost-overhead. I have drafted an array design that is under 15K  based on the different VNXe models 
+
+
+ The KHx will add modifications  to existing KittyHawk VNXe3200 to achieve lower cost and optimum performance as follows :
+
+-	Use only one hardware : one enclosure accommodating SPs and Disks as well
+-	2 or 4 TB disks will be used for optimum capacity at low cost. 
+-	8 iSCSI base ports + optional 8 ports FC/iSCSI (4 per SP)
+-	Use the KittyHawk Linux OS as Free Open source Operating system. Cut the cost of OS licenses.
+-	Customized features : each feature will have a separate license to customize the solution to custoers’ needs and cut cost over heads.
+-	Scalable : if the customer needs more features he can add new licenses. For example a customer would like to add Hyper-V storage module and NFS shared foldure module .. etc
+-	Simple management interface under the Unisphere family
+-	Mobile management interface app
+-	Data protection is done at high compression to save space 
+-	Replication and data protection is offloaded to the cloud for minimum cost. Replicate and protect the data on the cloud for minimum cost
+-	The box will be pre-loaded with services and ready for installation by the customer.
+
+
+REFERENCES:
+(*) https://store.emc.com/Product-Family/EMC-VNXe-Products/EMC-VNXe3200-Hybrid-Storage/p/VNE-VNXe3200-Hybrid-Storage
+
+
+

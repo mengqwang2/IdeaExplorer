@@ -1,0 +1,5 @@
+Automatic email, phone call and webex update on service center
+
+Brainstorming for customer service challenge.
+CC a certain email (servicecenter@emc.com for example) in the email thread, so service center automatically updates the SR with emails to/from customerAs for phone call, there could be an option to make a phone call from service center which automatically opens CosmoCall and calls the number requested while updating SR with time of phone call, and after the call is complete asks TSE to write down the summary of the conversation. Finally, the same can be done for webex, an option on service center to open a new webex session or join an old one, and it automatically opens cisco webex while updating SR that TSE joined webex, and after webex is done, it asks TSE to write a summary for the webex.
+

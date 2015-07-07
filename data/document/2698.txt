@@ -1,0 +1,5 @@
+XtremIO NightRider
+This will help EMC and Customer with the ease of implementation and cluster identification. 
+Helping customer implementations CEs and customer have a hard time identifying what cluster they have. Especially if the CE racked/stacked and left so the customer is stuck checking a cable it would be silly to send a CE for.
+Before implementation run the LEDs on the SSDs from side to side. Once implemented the LEDs blink as they should. 
+Improved customer satisfaction, optimized process

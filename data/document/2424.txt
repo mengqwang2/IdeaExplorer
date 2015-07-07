@@ -1,0 +1,17 @@
+Smart Electricity Billing System
+This solution will allow customers to have predilection of how much their electricity bill is going to be and have the ability to reduce their usage if its above specific threshold which will contribute in Smart City.
+-Having troubles with frequent electricity outages in certain locations.
+-The need to be in home while government send on-site person to collect reads.
+-Each house has electricity counter while someone has to be on-site every month to take the reads of the counter.
+
+-We will be automating this through a sensor that will send the reads to government.
+
+-Each householder will have access to web portal/mobile app where he can see the average of his usage and the tool will predict how much he should pay if he remains within this average.
+
+-The tool will have the ability to warn householders when there is electricity congestion and suggest them to reduce their usage if its above specific threshold.
+
+-Government will have the ability to broadcast messages to householders if they are planning a scheduled outage in certain locations
+
+
+Success would be reducing the amount of electricity outages and making people more aware of importance of electricity.
+This is going to improve customer satisfaction as well as enhance productivity and optimize the usage of that energy source

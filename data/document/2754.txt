@@ -1,0 +1,10 @@
+EMC Service Catalog for EHC OpenStack Powered Edition
+Our idea will enable customer adoption of EHC OpenStack powered edition by providing comprehensive service catalog and automation. We will leverage the open source technologies, like Docker, Cloud Foundry service broker, OpenStack Trove (DBaaS).
+Inspired by EMC Service Catalog of EHC VMware Edition, we (Jie, Jinlong, Layne and I) think we could leverage open source technologies to provide similar services to our customer to enable the adoption of EHC and EMC infrastructure products.
+Our idea will provide two major functionalities:
+1)	EMC Service Catalog. It contains two parts: Common Service and EMC Data Service. The Database service in common service as an example, Trove in OpenStack could be leveraged to provide database service and implement a service broker to provide database service to Cloud Foundry. The object storage service in EMC data service as an example, CoprHD could be leveraged to configure and provide object storage and implement a service broker to provide object storage service.  
+2)	Service Catalog M&O. A management and orchestration mechanism will be provided to manage all the service provisioning/monitoring/logging. The Service Catalog M&O will orchestrate with Cloud Foundry, OpenStack and EMC infrastructure products.
+
+OpenStack Heat and Murano could be used here to orchestrate VM or docker based infrastructure M&O automation.
+
+Increase customer adoption of EHC OpenStack powered edition to obtain more market share.

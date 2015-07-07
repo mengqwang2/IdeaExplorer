@@ -1,0 +1,11 @@
+Geeky Car
+Our idea will introduce more features for the Smart City.
+Yomna and Me were thinking about Smart cities , and how we can use our knowledge in network security to enhance the idea .
+
+
+In Smart Cities , Cars will have IPs , therefore they can be connected to the internet . Our idea is to make cars send warnings to each other. If a car experiences bad traffic or bump on the road  , it can warn other cars so that drivers can take precautions .
+
+Also when a car sends a message that the road is crowded , GPS can adjust the suggested route .
+If this project is applied , it will warn employees about the traffic and which roads to avoid and which roads to take without the need to open the radio and listen to a certain program that will announce the traffic .
+
+This will help them arrive at work faster and without delays caused by traffic .

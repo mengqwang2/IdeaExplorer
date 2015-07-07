@@ -1,0 +1,6 @@
+Enhance SYR Centera Health Reports
+The idea aims at enhancing the user experience as well as realizing cost and time saving in handling Centera requests by IBG as well as other teams 
+The idea came to me while working on a cleanup of a huge Centera cluster in the Install Base and having to figure this information manually instead of having it automatically added to the Health Report 
+Work with IT/BTG, CLM/SYR team as well Engineering to enhance the data that calls home in SYR by Centera clusters.
+An extra field would be required in the Health Report to Identify the Serial Number of the Base TLA where each et of Nodes belong
+Once completed, this will provide a better visibility on all Centera clusters for all concerned entities as well as reduce the man hours required by IBG to uncover and update the required information I IB

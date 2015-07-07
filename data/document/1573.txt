@@ -1,0 +1,10 @@
+Lab Topology Automation Tool based on EHC solution
+This idea could provide better customer experience for EHC solution.
+During EHC solution discussion, we got this customer's concern, so we think out this solution.
+In EHC solution, all lab hardware including storage arrays, switches, hosts are managed by ViPR Controller, and based on ViPR Controller, use VASA, vCops etc VMware to provide cloud service, so our solution will:
+1. According hardware registration info in ViPR, our tool could get all hardware lab topology info, then provide a physical assets lab topology picture.
+2. After customer complete Virtual Assets management in ViPR, our tool generate virtual assets and physical assets connection info, then provide a virtual assets lab topology picture.
+3. From any one phiscal/virtual assets, the tool should let customer see all connections and relationship around it and provide easy-understanding description.
+4. Any one update based on hardware/virtual assets, the tool should automatically update.
+5. the tool should provide report generation, history record funciton. 
+help customer fix their concerns about EHC(ViPR), could provide better customer experience and help EHC sell better.

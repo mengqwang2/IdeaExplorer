@@ -1,0 +1,7 @@
+Electricity Sensors on each block and each building in a City
+Idea would help authorities and government to manage the current Electricity Problem in cities
+During sub tribe meeting
+Putting Electric sensors on entrance of each block and each buildings to calculate the power consumption of the total block and total buildings. The Difference between two readings will help authorities to conclude if the specific block X in the city has a lot of Kiosks/Markets using public electric power without paying bills.
+
+Also these sensors will help to compute and analysis trends of power consumption to know peak hours and avoid cutting of power during these hours 
+will save more money to government and will reduce power electricity crisis 

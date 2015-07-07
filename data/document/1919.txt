@@ -1,0 +1,16 @@
+Fraud Management and Prediction as Service
+New solution opportunity in SDDC, Big data and data Science for fraud and security management domain
+This idea came as part of bringing new business opportunity for EMC and its federation
+Fraud management & prediction as a service is new offering from EMC. This service offerings includes – 
+
+1.	Real-time predictive fraud scoring service
+2.	Compromised account monitoring
+3.	Transaction Risk Modeling
+4.	Online fraud Monitoring
+5.	Identify suspicious transaction in real-time
+
+FMPaaS will be built on EMC powered Hybrid Cloud Software Defined Data Lake where ScaleIO and VF Cache will play significant role. Domain based analytical engines will be deployed as docker containers in the Data Lake.
+Analytical Docker images will contain domain based m/c learning algorithms to calculate fraud & risk scores, predict suspicious transactions and fraud before it happens. This is multitenant service offering across domains.
+Real-time & Batch Data will be ingested from customer premises including data from social media via connectors. RSA Security products will be used to provide security.
+This will be new market opportunity in fraud management and security industry for EMC starting from startups, SMB and enterprise customers. EMC can adopt VALUE based charging model for this service.
+

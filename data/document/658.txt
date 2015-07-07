@@ -1,0 +1,5 @@
+Integrate compression algorithms (EMC C-EDRS compression library) into Syncplicty to improve data transmission throughput.
+Our idea can advance the performance of our designs, and supporting processes.
+The idea has been born during Captiva brainstorming session in EMC Russia CoE.
+Our solution is to compress data before syncplicity sends this data to remote location.  Then at receiving point the data is decompressed and used as needed.  We propose to use EMC Compression library C-EDRS for compression/decompression since C-EDRS shows better performance than any open source compression algorithm in LZ, LZ+H class
+Syncplicity transfer will be faster, network overload may be avoided

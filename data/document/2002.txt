@@ -1,0 +1,5 @@
+Remote Management of patching on Avamar servers
+The hotfix and patch installation like security and non-security updates for Avamar server should be managed remotely and EMC should remotely push these kind of patches which doesn’t need any reboot.
+While working on Avamar Leap second patch installation and Avamar "ShellShock" vulnerability which was reported recently, I got this idea.
+If the patches installation and management is done remotely then Customer do not need to get their resources involved in it.
+Customer satisfaction.

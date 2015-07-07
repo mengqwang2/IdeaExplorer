@@ -1,0 +1,6 @@
+A new vacation system instead of EAS(Employee availability system)
+A new web based light-weight vacation system can make employees feel happy in office when they are submitting vacation plan.
+n/a
+EAS is a complex, not friendly, or less compatible system. Employees have much complain about this vacation system.
+A new web based light-weight vacation system is easy to develop, and does not cost too much.
+A new web based light-weight vacation system make employees feel happy in office when they are submitting vacation plan.

@@ -1,0 +1,23 @@
+Reducing the number of customer contacts
+Reducing the number of customer contacts
+When I bought HP printer for my home. It was amazing with experience of it setup workflow 
+
+Proposal is in similar line. 
+
+At every Unisphere page; have a link to EMC support link, Self-learning Clip or Document. 
+
+Also add Customer Details page at Unisphere which gets collected as a part of SYR data.
+
+Depending upon the platinum/Diamond customer get the link to chat or call.
+
+Also the Unisphere page shall show what all features Customer can have if not opted for or has bought license. 
+
+Details
+Ex: 
+   File system page shall show the protection features can be enabled. EMC link to start engaging those.
+Unisphere page shall have a support link/ Document link for how to use the feature. 
+
+This will improve customer experience and provide confidence. 
+
+EMC can make/save money by providing these services. 
+

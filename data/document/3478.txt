@@ -1,0 +1,13 @@
+ Equip EMC arrays with Pivotal CloudFoundry plugin – Let EMC arrays market for Pivotal CloudFoundry in a smart way 
+
+ The idea came up from the latest  EMC world and EMC latest mission statement
+ The idea aims at adding a new feature to all EMC arrays. This new feature is an entry to Pivotal CloudFoundry Services where the customer can use and experiment the services for free or at a very low cost.
+
+This will be done using an enabler/plugin that will be installed to the box or may be at the next code upgrade. This plugin will enable the cloudFoundry feature and will add a small dashboard to the GUI management interface.
+
+This approach fits EMC strategy for 2014 as it enables it to 
+1-	Penetrate the 3rd platform
+2-	Promote Pivotal
+3-	Keep dominating the 2nd platform
+
+

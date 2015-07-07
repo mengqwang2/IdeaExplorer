@@ -1,0 +1,5 @@
+A workflow designer for D2
+D2 currently allows existing workflows to be started on selected document. But clients have to create a workflow in a separate application. Integrate a workflow designer within existing D2 UI.
+Came across this idea when an engineer working on a D2 customer case reported in an internal meeting that he does not have the application to create and deploy workflows. D2 should have the capability to do the same using underlying platform.  
+Create a web based workflow designer that allows the customers to create a workflow and deploy it using D2 UI alone. Clients will not have to look beyond D2 application for processing their documents.
+It will improve customer productivity as workflows creaton and deployment process is simplified.  Majority D2 users are business users(e.g. lifesciences users) who would like to create/retire their own workflows based on evolving business processes

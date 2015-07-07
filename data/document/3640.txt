@@ -1,0 +1,5 @@
+REST based end to end File System provisioning from VNX
+
+When our team, was working on the unified Management UI and Link & Launch options, we also had the opportunity to look into the current REST based API Interfaces exposed by vMAX and we wanted to leverage on this and see a better model of unification of the vMax And VNX operations, and hence the thought.
+Currently the vMAX is providing a rest based interface to access its operations and consume them in any REST client layer. So utilizing the same, at the VNX a framework can be built to have rest client to consume the REST API’s from VMAX and a REST provider on top of it to expose the VNX operations to be consumed. So any clients layer at VNX itself or other systems including Viper should able to access the VNX REST interface to provision end to end, File System in a single use case flow. And the problem of managing two different applications can be avoided. Since REST uses http protocol and is web based, the abstraction of the two set of objects and its operations can be easily achieved. This will provide a single, consolidated, mode and unify the operations involved in File System provisioning.
+

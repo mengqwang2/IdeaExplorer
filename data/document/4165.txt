@@ -1,0 +1,8 @@
+PaaS using vCloud Director or vCloud Automation Center
+
+During a vCD Training, the instructor had mentioned about vCD and vCAC usage in various production environments. Taking it as the basis, the above idea is being suggested for the challenges that could be addressed with very little enhancements and major development work. It is ready-to-use solution and from VMWare which can be used with least cost implications
+Usign vCD or vCAC, we can pool our resources and create Organizations based on different areas - Programming Languages, Technology, Tools etc. For Product Development, we can have development environments categorized as required. In each of the Organizational vDC, create Catalogs based on requirements. Few templates earlier will help us to learn and understand in later stages to improve efficiency. Specific Policies can be set and access to user groups can be restricted as needed. 
+Using vCAC, we can create workflows to create the machines on need basis automatically just before the training and make it available with very little manual intervention. We can also modify them by adding activities from an activity library or calling scripts even during the servers being used. The vCAC Development Kit lets us create new activities, workflows, and models as well. 
+We can create a Custom Portal calling vCloud Automation Center’s services from an existing portal or service desk application to know the requirements. Few examples and overview can be found here -
+https://inside.emc.com/docs/DOC-100020
+

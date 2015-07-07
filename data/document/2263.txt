@@ -1,0 +1,5 @@
+Create a developer wiki for every product feature
+Sometimes, the developer do some modification as design, but the tester have no idea about it.
+Sometimes, I run the test case in previous cycle, it failed. But while I raise an AR for it, the dev told me there is an update, it's funcation as design.
+Create a wiki for every feature. And update it while the developer do modification, 
+The developers and testers are on the same line.

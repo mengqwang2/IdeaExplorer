@@ -1,0 +1,28 @@
+Mobile Application - Internal Car Pooling system
+.
+I have been car pooling with one of my teammates and it really works.
+-	The idea is simply internal application that works on iPhone ,Blackberry and andriod devices.
+-	This Application will be Java application with Friendly GUI.
+-	The input will be the user destination and the time of arrival and departure as well as any extra preferences.
+-	Every employee should sign in and put his daily route and the time he arrives and leave the CoE building.
+-	If someone looking to go to different destination than the one he/she got used to go search for the desired destination and the time.
+-	For Example: Person X used to come to the COE by bus and decided to leave one day to different destination.
+a	He/she will open the application to search for the desired destination and the time.
+a	When He/She find the matched results he/she will contact this colleague to arrange with him.
+-	There will be advanced search option for Example: 
+               Drivers: Male or Female 
+               Smoker or non-smoker
+               Car with AC or not a|.etc.
+
+Benefits of this idea: 
+-	Helps people who might miss the BUS.
+-	Avoid taking taxi from/to remote destinations alone ( Specially for Ladies )
+-	Go to Sahel on Weekends from the CoE.
+-	Prevent being tired from driving through the whole week as you will be sharing with someone.
+-	Increase the friendship between the employees.
+-	Minimize Gas and Car service Costs.
+-	Minimize the hassle of the tough and uncomfortable bus check points.
+-	Covers more points than the COE Transportation Service.
+-	Increase the environmental awareness of the employees 
+-	It will be car pooling with trusted and known people to avoid any problems
+.

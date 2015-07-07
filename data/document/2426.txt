@@ -1,0 +1,15 @@
+Information of Compatibility of EMC products with third party dependent products in support.emc.com
+Total Customer Experience with the Product usage and maintenance.
+We work in Documentum product support and these are Irrelivet SR that come to us for just checking the Compatibility Matrix. we can avoid these if we have a Upto date Online place where customers can see the Latest compatibility's.
+There should be a place in support.emc.com where customer can view the existing information and Raise a request for the Compatibility of a product with third party / dependent product.
+
+This request's should be directed to ECD_FieldInterlock <ECD.FieldInterlock@emc.com> team and they can consolidate and request to engineering.
+
+This way we can track with the Site ID + we have count of what are the products our customers are using ,we can proceed in that direction.
+
+Customer can also direct interact with supportality team  and 
+Customer would be have a better experience with less Time to response
+
+Reduction of the Service request on Compatibility of our product's.
+
+ECD_FieldInterlock <ECD.FieldInterlock@emc.com> team can consolidate the customer request to Engineering and have m

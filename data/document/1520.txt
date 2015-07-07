@@ -1,0 +1,32 @@
+Unified open source community for EMC by EMC
+TCE Challenge: The objective is to engage EMC engineers and EMC customers and users on a common tools development platform where engineers and customers can collaboratively solve frequently occurring technology problems and write tools to make it easier for our customers to perform day-to-day technical chore in an open source fashion that the entire EMC community can benefit from.
+Customers using EMC proprietary products have special needs related to day-to-day technical chore and troubleshooting which require development of tools that need not be proprietary. For example, RSA writes scripts for troubleshooting purposes such as automatic network statistics and packet capture, network bandwidth tests, etc. from time to time to help customers troubleshoot frequently occurring issues.
+
+By the very nature of scripting languages, the source code of the scripts is available for viewing by the customers. Many times, admins of customers have viewed our scripts and suggested improvements that have made our tools better. Therefore it makes more sense to make such code legally open source than to keep them proprietary. This would encourage customers and engineers to modify the code, make improvements and send pull requests to EMC engineers to consider including the improvements back to the script. In this manner, EMC as well as the entire community of EMC customers benefit from the improvements.
+
+Note that there are some EMC organization accounts on GitHub already:
+
+- https://github.com/emccode
+- https://github.com/emccorp
+- https://github.com/EMC-Documentum
+
+The objective of this idea is to unify all of them into a common organization account, a one stop shop for all open source code from EMC.
+
+- Create a single account for EMC in a social coding website like GitHub to share and develop non-proprietary non-secret code in an open an collaborative manner.
+- Allow engineers from cross-functional and cross-geographical departments as well as customers to contribute to any tool or piece of code shared by this account.
+
+This is better than the existing practice of holding all rights reserved for all tools (even those which are not critical to our business) and keeping them proprietary because making the tools open source encourages organic development of the tools more rapidly and seamlessly due to the developer friendly social coding infrastructure provided by platforms like GitHub and direct collaboration with customers on developing solutions on such platforms.
+
+If the idea is fully incubated and implemented, we would see the following artifacts.
+
+- A single account or GitHub or some such similar open source project hosting portal where all tools and scripts written by cross-functional departments of EMC would be available as neatly arranged separate projects. Note that GitHub is akin to social media for developers, therefore GitHub would be a good choice for hosting non-proprietary tools, and engaging developers and customers.
+- A README file with every project that provides clear and precise instructions to engineers and customers on how to use the tool and how to contribute to improving the tool.
+
+If the idea is successful, it would benefit EMC in the following ways.
+
+- Expert administrators of customers contributing directly to improving the toolset by suggesting improvements in the tools or code changes.
+- The time of the author/maintainer of each tool is saved and productivity is improved because he can easily pull changes from customers, colleagues or cross-functional departments with the help of the social coding infrastructure provided by open source portals like GitHub.
+- Development of higher quality tools and scripts. When an engineer knows that his/her code is open source and would be viewed by the world, he/she would write better code with better design.
+- The tools and scripts would get better peer review because several customers may download and use the tool, modify them to suit their special needs and while doing so read the existing code and design and report internal design/code issues if they find any.
+- When an organization is on GitHub sharing useful reusable tools with the community, it makes EMC appear cool. Talented developers all over the world would take note of it. It would attract them to EMC's work and might turn them into prospective employees.
+

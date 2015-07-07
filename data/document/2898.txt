@@ -1,0 +1,9 @@
+Use cacti to manage all Lab equipment in Durahm Lab
+Relevant to "Durham Data Center Elastic Labs Challenge",  this challenge require that a way to detect underutilized resources. My idea can address this,  it can also enable us to monitor the error,  traffic, and generate a report.
+I am testing SNMP feature of CMCNE, and this challenge remind me this solution
+We can use an open source software cacti which leverage ICMP ping, SNMP, and collecting syslog to achieve the functions I described above.  
+ All equipment to be managed should support SNMPV1 or V2 or V3 (In fact, all the equipment support this), and set the management server IP as Trap recipient,  from the server side, the equipment need to be added for management.
+For implementing this policy,  all the equipment in lab should be added into the management of the software, so that we can have a full coverage of all the equipment
+This idea need very low cost but enable us to have an overview of all equipment usage, running status,  give us the ability to prevent some error proactively.
+
+my idea can definitely save management cost

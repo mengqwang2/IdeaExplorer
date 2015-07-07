@@ -1,0 +1,44 @@
+Intelligent Voice-Activated Digital EMC Office Assistant 
+Talking about cool office space for IT Challenge, what can be cooler than something like Siri
+Idea is the result of using Siri, iPhone's Personnel Assistant. Also the release of Windows new personnel assistant - Cortana.
+With Digital Voice Assistants trending their way up, the latest being Windows Cortana, an Internal Digital Assistant is always a need.
+The proposed idea, is to have a EMC Digital Voice Assistant similar to a Siri or a Cortana or a Google Now, that can consume existing or new intranet web services and provide the data we need just as we walk around our office with our mobile phones.
+
+Some of the use cases we have explored,
+-	Searching for conference rooms on the corridor
+-	Trying to call, say EMC Facilities Bangalore
+-	Trying to call, say EMC Service Help Desk Sobo
+-	Search an employee, just using a voice interface
+
+The list goes on to make our life easy and simple using a Digital Voice Assistant for EMC.
+
+This mobile App will be able to interface with all available EMC Intranet Services that a Siri, or Google Now or a Cortana cannot interface with.
+
+How it works?
+
+The solution is to have a Mobile app, with inbuilt Voice recognition Software library that takes voice commands and perform tasks the user demands. 
+
+Voice commands could be,
+-	Search available conference rooms sobo5
+-	Search <employee name>
+-	Call  Service helpdesk 
+
+Feasibility 
+
+The implementation of the mobile App is very simple, it is integrated with available out of the box, Voice recognition library that converts speech to text and text to speech. 
+The speech to text input is then passed to an existing EMC web services. The response is received from the services and in turn converted from text to speech to the user. The response text is also displayed on the App.
+
+The team has built a prototype of a basic mobile App, using open source Voice Recognition software. The App takes in the Voice commands (like Siri) and gives the output on the screen. 
+
+Below commands are implemented using the App,
+
+Search available conference rooms - we have used Dev Exchange services, to give the list of available conference rooms using the Voice command
+
+Call < Service Helpdesk > -  we have a mapping of EMC departments (like facilities, transport, Service help desk ) in the App, to call any extensions within EMC using a Voice command
+
+The use cases could be explored to integrate this App with any API/Services available within the EMC systems as we move to the 3rd platform services (like say searching a video on Inside EMC, searching any content in Inside EMC using the Voice Assistant)
+
+
+Solution is easy to implement.
+One single interface to get all information across different applications, avoid multiple clicks to search, saves a lot of time for the employees.
+

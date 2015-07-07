@@ -1,0 +1,11 @@
+Usage Statistics to improve TCE
+
+I thought of this idea when in DPAD/NetWorker/QA, which contains 1000s of test cases, and we did an exercise of Test Case prioritization which classified them into Critical/Medium etc, and run them accordingly. Then I thought instead of assuming what is critical/medium etc, why not get actual statistics from the customer and map it to our engineering process for better efficiency? And thus we improve TCE by spending energy and bringing new ideas in the areas the customer really uses.
+The idea is to collect the usage statistics of various features by different customers. Based on the so that Development effort for enhancements can be directed towards that, and testing efforts can be saved for those features which are hardly used by customers. If data like which workflows results in the maximum errors can be collected, this will hugely help in reducing the number of escalations , proactively
+
+The current approach to prioritize feature enhancements is based on some way of manual feedback received by Product Managers and Support. This attempts to get that info by automating it within the product
+
+Supporting ppt at this location 
+https://inside.emc.com/docs/DOC-100111
+
+

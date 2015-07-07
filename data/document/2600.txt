@@ -1,0 +1,7 @@
+Customer faster and easier reacting to our systems 
+Customer services and statisfaction
+I have seen this in other partners systems it always satisfy me that I don't have to go through the whole website to upload something small . so much easier and efficient  
+I would suggest to have an exchange server which if you send logs by email it upload the attachments of this email to the related SR number in the subject or with a Scripting language.
+
+it will depend on the sizes of the attachments and how much the mail can carry.
+Customer satisfaction and faster handling 

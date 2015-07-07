@@ -1,0 +1,11 @@
+Utilize Big data capabilities to store, analyze and automate medical ultrasaound measurements
+
+Ultrasound tests are important to track fetus health. 
+The test cost is high in case it is done by professional doctors. 
+I hope this will reduce the test cost and will increase accuracy. 
+The ultrasound data will be translated to three dimensional PostGIS (Geographic Information Systems) data and will be stored in a GreenPlum DB. 
+The data will be analyzed using special algorithm that will include the specific curvature for the measurement. 
+The analysis will provide the required measurement size automatically, without the dependency in the Doctor professionalism and picture angle.  
+The reason to use the GreenPlum product is to allow storage of huge amount of data and allow querying the data easily.
+The other advantage is to use the PostGIS capability to support calculation on a rounded interface. 
+

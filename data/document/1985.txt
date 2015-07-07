@@ -1,0 +1,6 @@
+Meeting Room Utilisation
+Meeting rooms are block booked and not been used to their full potential. Resources are valuable and enable greater tools on the communications and operations side of the business.
+We carried out a brainstorming session and we all agreed that this is a big issues across GMO.
+There should be an inactivity sensor in the room and after 5/10 minutes the room should become available and there should also be a screen status with a must accept/decline in a given time. The GUI and the room status are interconnected and then synced and updated. The GUI allows visual confirmation of Room status.
+There should also be a visual display outside the room to let you know that the room has become available also. This will really improve customer satisfaction and save money as well.
+Room availability is a tool needed to enable communications, lets ensure we use them properly. Technology is there too.

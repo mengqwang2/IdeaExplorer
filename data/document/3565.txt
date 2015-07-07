@@ -1,0 +1,5 @@
+Displaying the basket for recycling
+
+some Employees forget to dispose there  garbage in the proper pin.
+Display the recycling basket for plastic beside the water dispenser as many employees drink water in the plastic cups and dispose it in the basket beside the dispenser and forget to throw it in the intended basket for plastics so by this way we will be sure that the employees automatically dispose it appropriately.
+

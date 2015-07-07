@@ -1,0 +1,7 @@
+REUSABLE UNIFIED CHASSIS PACKS FOR RMA'S
+These new designs would streamline and standardize the packaging options for multi sized chassis products returning back from the field.
+This idea was resurrected during the current RMA simplification project for racks.  Also, at one time, Apex had most of the inbound purchased materials in returnable packs when the supply base was domestic.  We also have put returnable door crates and empty racks returnable pallets in play when it made sense to do so.   
+The idea is to create standardized design that would be capable of containing more than one type of chassis. For example, we could combine 1 and 2U chassis together and 3 and 4U chassis in a second pack design.  The cushioning could be designed for the weight spans of products.  A second design feature could be creating a smaller than current FRU pack size as all accessories are not usually returned (only the bezel).  A third design feature could be making these packs reusable as the return logistic cost is all ready imbedded within the RMA process making these ideal candidates for returnable and reusable packs.  This idea could be also used world wide.
+Concepts of the packs can be found at:  https://inside.emc.com/docs/DOC-151960
+
+The benefit would be insuring product is properly packaged for the safe return back to EMC at a lower cost point.  Because there would be less choices, the RMA process would b

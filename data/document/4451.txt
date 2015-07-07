@@ -1,0 +1,5 @@
+Prohibit the user to operate the disks when they are managed by ScaleIO
+
+This idea came out when I was sharing the ScaleIO knowledge to technical writers. They asked the question if we format the disks that were used by ScaleIO, what would happen. Data loss obsolutely. So we need some mechanisms to avoid that. A new driver added in SDS should be an option.
+Add a new driver to the SDS components. If the local disks of the server are added to the ScaleIO system, SDS must be installed. So with this new added driver, the OS knows the disks are managed by ScaleIO and will prohibit other applications or users to used disk.
+

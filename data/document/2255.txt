@@ -1,0 +1,43 @@
+Automated Lab Operational Service System
+Durham Data Center Elastic Labs Challenge
+
+Our idea provides a solution that automates considerable proportion of Lab operations, makes them complete remotely and immediately in a shared SAN Cloud environment, and dramatically reduces the time and resources consumed. So it matches the following criteria items of challenge “Durham Data Center Elastic Labs Challenge”:
+- Automations that will replace manual work done in R&D labs today
+- Remote control of equipment to reduce the needs of hands on contact
+- Ways to utilize a shared Network/SAN backbone to more efficiently utilize lab resources
+1. We had filed many tickets for simple requests like VM CPU core upgrade, zoning, IP assignment, etc. But each of them may need days to resolve, and many times new tickets must be filed because the operation done by original ticket is incorrect or incomplete.
+
+2. This system is inspired by credit card application website like Chase Freedom and Discover Card. The applicant just needs to put some personal information and the system will automatically retrieve and review the credit history to decide if the applicant is qualified and then return the result in a few seconds.
+Our solution is a fully automated system in which the equipment users can see their requested operation done automatically in a few seconds or minutes by several next-clicks. It could be a website or GUI application. Here are examples showing how it works.
+
+Example 1 - Make FC zoning between a VM host and a VNX array	
+Step 1.1: The user opens the app, selects “zoning change” from general catalogs; then clicks “Next” button.
+Step 1.2: The user fills in ID info of the host and array, and then “Next”.
+Step 1.3: The app retrieves the host and array properties info and then displays the available initiator ports of the VM host and the target ports of the array.
+Step 1.4: The user selects the checkboxes of initiator and target ports to be zoned together, then “Next”.
+Step 1.5: The app triggers the zoning operations in Lab and after a few seconds or at most 1 ~ 2 minutes a “Successful” icon is displayed in the GUI notifying the zoning is done.
+
+Example 2 - Assign IP addresses of 2 10-Gbps ISCSI ports of a VNX array
+Step 2.1: The user opens the app, selects “network change” from general catalogs; then clicks “Next” button.
+Step 2.2: The user fills in the ID info of the array, and then “Next”.
+Step 2.3: The app retrieves the array properties info, and then displays the available ISCSI target ports which have not had IP assigned.
+Step 2.4:  The user selects the checkboxes of ISCSI ports for which he/she wants the new IPs assigned, and then clicks “Next”.
+Step 2.5: The app checks the VLAN or Ethernet switch where those ISCSI ports are connected, and scans SWARM and real-time status DB to find out 2 unused or unreserved IP addresses of the subnet. After a few seconds a “Successful” icon is displayed in the GUI notifying the IP assignment is done.
+
+Example 3 - Add cores to a VM (special case showing permission control)
+Step 3.1: The user opens the app, selects “host configuration change” from general catalogs; then “Next”.
+Step 3.2: The user fills in ID info of the VM, and then “Next”.
+Step 3.3: The app retrieves the VM properties info and then lists the configuration items that the user has permission to change.
+Step 3.4:  The user selects “CPU” and requests expanding its one core to 2-core.
+Step 3.5: The app performs the host shutdown, CPU upgrade, and boot-up. Then a “Successful” icon is displayed in the GUI notifying the CPU upgrade is done.
+Step 3.4’: The user selects CPU and requests expanding its one core to 8-core. (Let’s say it goes beyond this user’s permission to request such configuration.)
+Step 3.5’: The app refuses the CPU upgrade by displaying a “Failed” icon and reports a message like “Sorry, you have no permission to request this kind of change”; then it provides a link to another website to submit traditional ticket for review and actions by Lab engineers.
+Our idea solved all three problems mentioned in "problem solved":
+
+1. Time Consuming - The requested lab operation can be finished within seconds or minutes.
+2. Fault Tolerance - the description of requests is no longer given in textbox manually by the user, and no more misunderstanding or mistakes made by people.
+3. People Resource - repeated lab operations are performed automatically and it’s not limited by shifts or time zones; lab engineers can focus on more advanced administration jobs.
+
+With a lab constructed on “Network and SAN foundation that will allow us to connect any device in the Durham Lab or Data Center to any other device no matter where it is racked within the facility”, this service system would be one of the first applications to be implemented and integrated into current R&D processes to dramatically enhance the efficiency of any tasks relying on Lab.
+
+For example, now quality engineering teams may take a week to setup one group of test environments. By using this automation operational service system, the time consumed could become less than 1 hour. The time saved could allow many more test executions with original inventory and resources, and bring unlimited values to EMC products and customers.

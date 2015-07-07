@@ -1,0 +1,15 @@
+Enhance Every One Sales Program
+
+- When we tried to submit a request, we tried to add some information and we tried to know the updates about the process.
+
+- Also, Some Customers asks the Engineers why we didn’t receive any contact from EMC About this deal. That’s why the updates from the engineer will be very useful as we can make a deal and increase customer satisfaction and get revenue 
+
+- Enhance Every One Sales Web page to make the submitter updated by the status of the process and we can also make a communication between sales team and submitter
+
+- Design portal (Web-based) to be opened between sales team and submitter
+
+- Request should be assigned to Sales Representative and Submitter should see how is the owner to make the communication easy for any update.
+
+- Submitter can make any update note in this web page and it will be visible for both.
+
+

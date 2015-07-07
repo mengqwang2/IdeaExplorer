@@ -1,0 +1,50 @@
+Using a custom management software, Vip3R and Openstack to setup a private cloud in EMC "Elastic Lab"
+The idea presented below addresses the problems of automating storage and compute provisioning, and reducing time and effort taken to procure test and development environments. Furthermore, it attempts to optimize use of resources in EMC.
+One of the hot-fixes delivered by the SRA team last year was to test an SRM environment with 500 VMs. This took considerable effort from both lab and product teams.
+
+We were exploring ideas to deploy a dynamic, cost-effective and easily configurable lab set-up solution, which can cater to requirements quickly without being overly dependent on the lab admins. It became known that the VMAX lab team internally uses Vip3R for managing their storage arrays. The thought-process was to extend this to a more abstract level, by offering users a tool to directly use and configure resources as per need, and then decommission them after use. OpenStack was a popular Cloud-OS, and seemed to be a good choice for managing the data center.
+
+The proposal to connect all resources across all labs in EMC has several advantages - it creates a pool of shared infrastructure -all of storage, network and compute. A competent data center management software installed over the pool of resources would allow any team across EMC to easily procure their required environment using a simple application.
+
+The application would allow users to request a setup by following a few steps to specify the nature of the set-up. The actual creation of the requested environment can be automated completely, and is taken care of by the application back-end. This could provide a largely multi-tenancy, scalable, cost-effective solution to current needs.
+
+Since EMC already owns a large number of resources, which are often under or over-utilized, there is business value in making use of these resources optimally.
+
+The following resources are required for proposed solution:
+•	Pool of Storage Arrays – VMAX, VNX, Isilon etc
+•	FC/iSCSI SAN Connectivity for all storage
+•	Hypervisor pool – Virtualization environment ( ESX, Hyper V)
+•	Network Infrastructure – IP connectivity for the all compute resources
+•	Application Repository ( ISO repository)
+
+
+Proposed infrastructure stack:
+
+                Custom Management Software
+-------------------------------------------------------------
+                          Openstack
+         Nova       |      Neutron        |  Cinder, Swift
+-------------------------------------------------------------
+   Hypervisor pool  |    Network pool     |    EMC Vip3R
+-------------------------------------------------------------
+                                          | VMAX, VNX, VPLEX, Isilon etc.
+
+
+
+Custom Management software:
+Openstack provides a range of APIs which can be used to develop the software, which include APIs to create VMs with particular OS and a particular combination, configuring storage and network for the VMs and more. The Openstack SDK is available in several platforms. Python or Java could be a suitable choice of language to develop the application, considering ease-of-use. The interface between the front end and back end could be REST.
+
+Technologies to be used:
+• EMC Vip3R – Vip3R offers a range of features for heterogeneous Storage Arrays. Aside from ease of management and improved storage efficiency, Vip3R also provides multi-tenancy for its users. Vip3R is capable of managing most of EMC’s Storage Arrays. Since the solution proposed is in-house only, all of the existing arrays can be configured using Vip3R.
+
+• OpenStack – OpenStack is an open source cloud Operating System, which has several modules to manage and configure network, compute and storage. It is capable of managing a wide range of Hypervisors, and provides a scalable, easy-to-use system to obtain compute and network. In addition, its network manager modules are capable of configuring the VMs with floating or static IPs, and even virtual IPs.
+ 
+• Repository of Application ISOs – As an extension, OpenStack can be modified to directly provide a VM with the OS pre-installed, and other similar such configurations already in place. For this, a repository of application ISOs which the end user can choose from needs to be made available.
+
+Integration of resources:
+Vip3R is currently being used to provision and manage storage in the lab, so this can easily be taken forward in the proposed solution.
+As of Vip3R 1.0, there already exists a plug-in that can connect to OpenStack’s storage module – OpenStack Cinder. Thus the storage management from OpenStack will proceed through Vip3R.
+
+The solution could help reduce amount of time setting up environments for testing and development, which often take long times due to several challenges involved in the process. Automation of the process would considerably reduce time required. Further, since the data center introduces virtualisation at a bigger scale, it allows for better use of EMC resources.
+
+This solution could potentially lead towards EMC's own version of public/hybrid cloud as well, catering to customer needs as well as internal needs, comparable to that of Amazon EC2.

@@ -1,0 +1,33 @@
+Data Grid management system (software application)
+
+The idea has come during working on iRODS project. iRODS is a Data Grid implementation. But it suffers from the following disadvantages:
+1) lack of professional support. There is no good documentation on the project. There is no timely customer support
+2)"handmade" software. All reliable tools are command-line and non-obvious in usage
+3)administration in not easy and requires in some cases knowledge of programming languages and iRODS internals
+4) weak fault-tolerance
+5) absence of good diagnostics
+6) weak maintainability of the code
+7) no "dialog" between the Grid and storage
+8) existence of single point of fail
+9) weak load-balancing of Grid managing servers
+10) etc...
+
+EMC has proven success in solving all these and similar issues at cluster level at Isilon project. There is a hope that some of cluster-level solutions may be reapplied at Grid level also.
+
+No independent evaluation of the idea was done. Continuing improving iRODS.
+Two levels of Data Grid management may be expected in general:
+1) Data management
+2) Storage resource management
+
+Ideally, different intersections of these management levels should be available for Data Grid and storage administrators. For example two possible scenarios could be:
+1) Storage administrator just agrees to allocate resources for a Grid but he doesn’t want to know anything about the Grid tasks, users, operating modes and etc. That means that storage can only notify the Grid about its configuration. For example it should be able to say that currently it’s configured to provide N+3 data protection. If storage administrator changes protection level to N+2, the Grid should be able to catch this change and (may be) react in some way. In this scenario Data and Storage management are done independently
+2) Grid is allowed to administer the storage itself. In this case Grid is allowed not only to query the storage but also to order some changes in service. In this scenario two management levels intersect significantly.
+
+The idea is to make a Grid capable of "talking" with storage resources. And storage resources should be able of talking with the Grid in its turn.
+
+Grid should be aware of any service that the storage provides. That knowledge may be used in data management decisions. For example if data management policies require 5-fold replication and some storage resources are configured to provide 3-fold replication, the Grid may decide make less than 5 copies on its own because additional copies are guaranteed by the storage.
+
+Similar reasoning may apply to quotas, users, access, network, and etc. management aspects.
+
+Data Grid implementation should have an Open Source part so different types of storage resources and services could be integrated with it. Open Source initiative may span EMC's influence significantly. Of course it should heighten the competition but also it will make unique value of storage resources more visible.
+

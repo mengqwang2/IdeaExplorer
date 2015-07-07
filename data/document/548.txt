@@ -1,0 +1,6 @@
+Transportation enhancement using traffic density map to determine the bus route
+Employee satisfaction 
+An employee's house could be in the same route of the bus, but the bus does not pass by it because the driver is strict to a certain route. This would result in taking another transportation to the house.
+Each employee using the transportation has to save his specific address on the transportation portal. The transportation portal should be linked to a traffic density map such as "Bey2olak". The bus route and collecting points must be determined according to the employees  specific registered address on the transportation portal and the traffic density found on "Bey2olak". The route should be determined according to the registered address at the current month.
+
+It would save the time taken in passing through crowded squares and streets and help employees reach to a nearer place to their house.

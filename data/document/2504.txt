@@ -1,0 +1,11 @@
+Another quick support add on
+To provide additional level of reporting to customer and more interactive relation with support and support eServices
+Sometimes we still surprise customer onsite, that we are informing about open SR done by DH.
+We could go a step further and also notify by SMS when a Dial Home is received under SEV1 and SEV2 or S7M and S7H
+It is great for customer awareness, specially on ESRS that often a reboot is required.
+the SMS would also trigger a EMAIL to the registeres USER EMAIL and informing a SR progresso and EMC survey
+i propose a ease Short message texting solution, triggered by HW cal homes, for Sev 2 and Sev1, or S7M and S7H
+customer will have more feedback and can consult further on ios / android devices, or trough support.emc.com
+Addicionally a QR code, reader added to the Support app EMC provides, could read a QR code, EMC prints on the EMC cabinets installed @ customer. Customer would, if just using the app, check at any time, on any of theyr systems if a Open SR exists
+the succes would be measureable on the surveys replyed with SMS trigger added.
+it is planned to increase customer awareness of EMC working SEv1 and SEv2 SR that are caused by HW failures

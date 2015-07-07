@@ -1,0 +1,7 @@
+Unified Database for EMC Products and Services
+
+The idea came up during group discussion and looking into the EMC storage product roadmaps. Group has discussed this opportunity and idea but nothing has been done within the group since it requires overall EMC companywide attentions.  Without corporate sponsorship and accepting this is an issue, this idea would not product any results. This is a new idea and only discussed internally within our group.
+Creating a unified database will eliminate the redundant information related with the EMC storage families and provide concise positioning based on the different use case. Mobile device or any cloud-based application will leverage the database for effective sales, service, and product management activities. 
+There is a huge amount of competing and undermining activities going on while positioning one storage system over other systems. The result is hurting every business units. By presenting facts about every storage system and positioning guide in a unified database can accelerate market adoption for each products line without deprecating other storage family system. 
+
+

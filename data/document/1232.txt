@@ -1,0 +1,12 @@
+Non-VIC Service Requests Handling Process 
+process improvement project.
+The “Voice Initiated Calls” function within the CST team receives requests from internal customers (and sometimes from external customers) via different communication channels. The phone should be the only source of incoming requests. Service requests received through Office Communicator, Email, Individual CST direct extension and face to face conversations negatively impact the CST Voice Initiated Calls team utilization metrics.  This workload is NOT counted in any other operational metric from a VIC perspective. The EAS (Employee Availability System) tool is the only resort to track time spent to process such request although its data accuracy cannot be 100 % granted as it depends on manual data entry.
+Monthly, the team receives an average of 2000 requests in “CST Shift Leads” email inbox. These requests are totally out of the CST VIC purview. 
+Formalize Non-VIC service request handling process, establish baseline metrics,  and distribute related workload among team globally.
+Quicker Service delivery: the real time assistance through phone or live chat will ensure quicker support and full necessary data gathering.
+
+10 % Reduction of  the incoming volume: Having the “Preferred Dispatch Resource” updated in our database, more than 9% of requests will disappear as the cases will be automatically dispatched to Unisys Support as it meant to be.
+
+Better team Utilization: the workload will be distributed among team globally rather than a specific Geo and sometimes a specific shift.
+
+Better performance Tracking: every single minute spent will be reflected in the operational metrics. Automated reporting and tracking will ensure data accuracy as the data was ONLY tracked manually

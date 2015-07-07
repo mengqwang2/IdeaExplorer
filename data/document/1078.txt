@@ -1,0 +1,12 @@
+Smart Identity Card as a Replacement for RSA Hard token
+#IT Contemporary Workplace Challenge.
+This Solution intends to move out of secure ID tokens by integrating the display  on to employ Identity card. 
+My cubicle is next to the Asset Management team . I see many people queue up to collect Hard tokens, which i feel is completely unnecessary !
+Every EMC Employ/ contractor are provided with EMC Identity card.  Turn this ID card into a smart card by inserting a  6 to 8 digit display. The display works   in  same manner in which the Secure ID token works. Each Smart ID card number is tagged to employ ID number.
+When a manager requests for VPN access to his/her reportee,  Smart ID Card number  which is mapped to the User ID of the employ gets coupled with Secure ID . Employ receives an auto generated email to activate his secure ID by selecting PIN. All this can be  automated and manual interventions can be avoided.
+
+.Avoid Foot Print of RSA Hard Tokens
+.100% self service model
+.Avoid Asset management FTE cost
+.One time cost in integrating Display to the ID card. Probability of loosing an ID card is  negligibly less compared to  loosing RSA secure ID tokens.
+. Improves TCE 

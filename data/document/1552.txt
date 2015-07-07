@@ -1,0 +1,11 @@
+Next generation data center operation system based on Apache Mesos
+There will be multiple platforms and multiple clusters in modern data center. Apache mesos is a framework that can manage different platform resources and expose capabilities (such as GPU) directly to applications.
+From the study of docker ecosystem, I know apache mesos as a cluster management framework. With the deeper exploration on apache mesos, I think it can do far more than just a container orchestrator. 
+Apache mesos is a distributed system kernel and next generation data center operating system. It can manage the basic resources (cpu, memory, port) of every server and execute tasks.
+
+Extending these capabilities brings to EMC the capability of exposing hardware specific features (such as GPU computing, FPGA calculation, RDMA access) to framework and in turn to applications. EMC storage's unique capabilities (such as replication, tiering, de-duplication) could also be exposed to applications. These features can make application run more efficiently.
+
+A data center operating system not only need to manage the resources, but also provide the ways for using these resources effectively. Apache mesos provides the feature of running both native applications and docker containers with some resources. Extending these capabilities makes EHC and BDL converged with EMC storage.
+
+There is already a big ecosystem for mesos, frameworks like Apache Spark, Apache Cassandra, OpenMPI are all able to run upon mesos. The mesos framework itself can also run on AWS as well as bare metal. It is a platform for both production and data analysis.
+With the full leverage of EMC hardware and storage capabilities, EHC and BDL can be used for both production and data analysis. Resource utilization and productivity will be largely enhanced.

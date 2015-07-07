@@ -1,0 +1,7 @@
+UC Unified Communication for courses
+
+sometimes we get notifications that new courses are available after working hours or at weekends and until we can register it's too late and all the seats are taken
+- register to courses in education portal through lync mobile app
+- the portal should also automatically show that there are newly updated courses available courses available 
+- take online courses through the mobile app
+

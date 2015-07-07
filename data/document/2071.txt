@@ -1,0 +1,5 @@
+Social media feedback Engine
+This idea is about gather our customers opinions through social media other than the CSat surveys and make EMC customer feedback experience proactive not reactive and use big data analytic tools to get results from social media feedback to work on it to improve our services.
+No specific history for this idea.
+My solution is to create a system that use big data analytic tools to gather information through many social media sites and categorize these information whether it's based on products or EMC services or processes and depending on the data category we get results from analysis these data and with we can improve our products or our customer satisfaction experience.
+If the idea is implemented, it'll certainly improve our customer satisfaction and improve our system of customer feedback other from the surveys and enhance our productivity and could lead to improve certain products that customer complain about. 

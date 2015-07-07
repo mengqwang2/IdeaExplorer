@@ -1,0 +1,38 @@
+Social Media vertical market invasion by adaptive Storage solution - an adaptive storage solution for social media variable load
+
+This idea addresses the social media vertical market. It addresses social media variable data and workloads using EMC smart technologies over cloud services. 
+The solution employs big data techniques to deliver value to social media industry and answer its needs.
+
+  The idea came up when we saw huge amount of posts/tweets related to certain events that sometimes cause social media websites such as twitter to have outage. We started to think about how to provide an adaptive infrastructure to address such challenge and the rapid growth of social media data.
+
+  The idea aims at providing a cutting-edge storage solution that is customized to social media. 
+
+In social media, We will define what is called “Seasonal Data” as data that are created and is heavily accessed within certain amount of time then becomes inactive. An example of this data is tweets that are related to certain event. These tweets boost at the event time and decays quickly with time.  Such seasonal data cause the IO to be highly variable in social media networks.
+
+What is the solution? 
+
+It will be a software defined storage solution that can connect to different backend storage arrays. It can be a customized version of ViPR or an enabler that is added to ViPR. The enabler is coupled with a connection to Big Data Platform that is used for load prediction depending on the major events happening over the world.
+
+Why software solution?
+
+The solution is meant to be software-defined to provide huge scalability feature and to make use of the abstraction and aggregation features. This allows better and smoother mobility between different arrays with different performance categories (moving data between VMAX and VNX..etc). a software solution will be generic and can be integrated to any existing hardware arrays.
+
+The enabler will do the following :
+
+-	Assess the current workload and predict the load for the coming amount of time (days, weeks) using the data analytics platform connected.
+-	Move and reshape the data between different storage tiers accordingly (if the load is expected to be higher on certain data, then move it to the highest performance tier)
+-	The algorithm will run one step ahead of the IO load using the predictive mode instead of real time allocation which allows better performance.
+
+-	When more and more data is expected to be produced, the enabler allocates more storage accordingly to accommodate the anticipated demand
+
+-	After the significant event passes, data are moved to the low performance tiers
+
+-	Resources are allocated and de-allocated automatically by the software enabler.
+
+-	The resources can be allocated in a cloud-based infrastructure meaning that the customer does not have to buy the hardware infrastructure and rather have it as a cloud service.
+
+
+1-	 Penetrate a promising vertical market
+2-	Revenue generation for EMC
+3-	Social media efficient storage
+

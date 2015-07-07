@@ -1,0 +1,9 @@
+Adding Business intelligence to Documentum (CMS tools)
+
+When thinking of the Next generation, I had an idea that if Documetum has BI to it then we can Make use of it to make more business decision based on the data we store in CMS solutions 
+Integrate Green-Plum Database with Documentum and also integrate the storage Plat form to make the Best use of the Internal architecture.
+
+We can use the Storage availability  + Documetum  content management security and GreenPlum BIg data analysis to Product a Solution supplied.
+
+We need to Integrate Greemplum with Documentum / XCP suit. closed coupled integration of these two products would help achive thinking / analysising capability to Content managment Solution.
+

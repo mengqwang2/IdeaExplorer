@@ -1,0 +1,14 @@
+ An Optimized solution for  real time global collaboration for graphics intensive OpenGL applications at asynchronous distances for High Latency networks
+
+ The idea came up from the daily work and handling remote replication performance issue. we have been exploring how different approaches can help when it comes to huge files replication 
+ The idea works as follows :
+
+-	A software layer is tied to the scientist’s workstation and will keep track of the copied data. It will utilize EMC smart deduplication techniques (source based deduplication) to detect the modifications in the files sent. It will only send the changes + the new metadata. This will help reducing size of data sent 
+-	Before sending the data, it will be compressed to achieve minimum size before sending 
+-	The data will be sent using more than one source node at the same time to maximize the performance.
+-	EMC replication solution (RecoverPoint) will be used for the replication. Cascaded and parallel replications can be used as offered by RP.
+-	The solution will make use of famous WAN accelerators and optimizing tools such as SilverPeak to add better performance.
+-	Hashing is used to ensure filesystem consistency over all nodes in the ad-hoc system 
+
+
+

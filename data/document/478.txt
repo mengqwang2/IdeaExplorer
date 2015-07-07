@@ -1,0 +1,38 @@
+EMC STEM Community App
+This idea addresses the Utah COE Challenge and provides a solution that will simply and effectively match employees interested in supporting their local community (in the STEM arena) with teachers or advisors that are looking for support.
+We are a team with experience in promoting STEM in the community through the VEX Robotics platform in Ireland. This challenge highlighted the need to more easily make the connections between EMC employees and the community – this is something we believe is important to do and the solution we propose will be portable across the globe and can be themed for more than simply STEM activities.
+Our web app solution, (readily ported to either the Android or iOS) provides the ability to make the connections between someone looking for STEM support in the community and an EMC employee looking to get involved. To keep the solution achievable in the near term, we went with a basic solution that will meet the key requirements of the challenges:
+• Registration: A teacher, advisor or volunteer will register with the app by entering some basic info (name, email, phone # etc. – essentially basic contact info)
+• Once registered, those looking for support can then add a request/opportunity in the App with the following basic information:
+ o General description of the support required (e.g. ongoing mentoring for a program, visit to talk on a specific topic, support a specific event etc.)
+ o Skills being sought – keywords (e.g. VEX Robotics, Maths, Programming, Agile techniques, etc.)
+ o Location – where is the opportunity
+ o Dates and Times support is being sought
+
+• For EMC volunteers, once registered they can browse the opportunities posted by teachers and decide if they want to connect with any (visually this could take the form of a map with pins identifying opportunities by location). 
+• Once they decide to connect with a specific opportunity and register that wish in the App, they can then view the contact details for the person who posted the opportunity. Initially this could be controlled by a moderator
+• All registrations, opportunities posted, expressions of interest in opportunities and connections are logged
+• Employees are offered the option to record their time as EMC Gives Back time if it applies (many outreach/community support activities will be performed in a volunteer’s own personal time)
+
+Further potential enhancements of the app:
+• Aligning the skills entered into the app with those on Inside EMC – leveraging Inside EMC as the source of employee info
+• Make recommendations for matches so that an employee is notified once an opportunity arises in an area in which they’ve expressed interest
+• Providing opportunity for feedback in the App from both teachers and volunteers on their experience
+• Creating profiles and ratings so that experienced volunteers are readily identifiable
+• Ultimately adding the ability for teachers to connect with each other, thereby empowering the community – an altogether more powerful result from an EMC perspective.
+
+The technology:
+• In order for the application to work on mobile devices we’re proposing to use “mobile first” approach. 
+• To leverage OpenSource technologies, the application would be built using the MEAN stack, consisting of MongoDB for database, Express.js for the MVC framework, AngularJS (and Bootstrap) for frontend development and Node.js for backend. 
+• We have the requisite skills on-site to be able to deliver but would need to identify individuals. We are willing to collaborate as part of a larger team to develop the app.
+We can provide a mock up of the app.
+The app would become an integral part of all STEM community engagement activities. It would provide a ready-made platform to engage on both sides – requestor and volunteer – a one stop-shop for all.
+We will have the information on all our STEM outreach activities (and more) at the touch of a button
+This App will result in enhanced collaboration between different BUs as volunteers breakdown silos when they come together in these ventures. The act of developing the App will also contribute to the collaboration.
+
+Benefits: this is a win, win, win…
+• Win for the Utah COE: Utah COE will be the first site to leverage the app that will make it easier to connect with the community and also be able to offer the App into the local community and STEM Action Center partners.
+• Win for employees: EMC’ers will be able to download the simple app and see where they can offer help to their local community without hassle. A real sense of EMC Giving Back – feelgood/GPTW bonus.
+• Win for the Community: Teachers will be able to easily ask for help, students will benefit from EMC’s support, STEM gets a major shot in the arm 
+• Win for EMC: branding for EMC in the Community – EMC becoming a more recognised name and a place that students will hopefully connect with as they move through their educational life. Great PR story for EMC, maximising the benefits of programs such as VEX.
+Not to mention a win for every EMC site looking to engage with their local community. The look of the app can be tailored to the specific requirements of an EMC site/COE/country. STEM or other outreach activity, it doesn’t matter – this could be the one stop portal for the community to enter their requests to the corporation…

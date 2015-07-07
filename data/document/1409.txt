@@ -1,0 +1,9 @@
+New Paging System For Licensing On Call
+This is a new process that will resolve several issues with on call. 
+When no one is in seat from the license team. CST leads need to page the on call person for escalations which always causes issues as some pages don't go and even licensing is sometimes not paged. 
+Once a CST logs an escalation for licensing and the on call needs to be paged. the CST should call the specialist and let him/her know there is an E4 in the queue. 
+Instead of sharing the RPA schedule with the CST leads, we would put it in the shared folder or on the eRoom for all CSTs and add our phone numbers. 
+Will ensure a consistent paging system.
+Customers will be reached on time after the escalation.
+Will avoid reaching out to Christine every now and then with an issue. 
+Escalations will be handled right away. CEs are sometime on site. 

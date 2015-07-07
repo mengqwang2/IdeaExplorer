@@ -1,0 +1,27 @@
+Storage Entry level Challenge <15 K approx
+
+Exploring entry level solutions of EMC
+EMC can be a big gainer in this market , if we have a product with some cost reduction features.
+
+The architecture could comprise of a modular storage architecture product where components can be scaled up as and when the customer needs it. 
+
+Several features can be embedded to reduce the cost factor, viz, 
+Firmware based os can be provided rather going for Disk based os : Leads to better capacity utilization and no disks have to be dedicated for os and config. 
+
+Management software embedded in the firmware os. 
+
+Config can be saved to nvram area . 
+Cache management can be done via DRAM chips and battery attached for approximately 72 hours backup in case of failure. 
+
+Hotspare dedication to be ruled out and hotspare space to be taken from existing configured disks equally in case of failure. 
+
+IO modules can be iscsi initially with the option of fc if the customer wants. So we keep the base price low and customer willing can speed up his infrastructure with limited fc io modules. 
+
+Focus on customer installable with basic config done in factory : like code upgrade, etc. 
+
+Basic configuration documentation with best practices included with the storage kit , so that customer can configure the infrastructure himself. 
+Add services if the customer needs assistance in setting up the environment. 
+
+This addresses the points in providing a low cost scalable storage with customer installable procedures.
+
+

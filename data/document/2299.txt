@@ -1,0 +1,13 @@
+Data driven CI components evaluation
+Global Platform Engineering (GPE) & Global Product Operations: In a converged infrastructure environment, identifying anomalies in different HW parts or configurations, transcending the specific infrastructure properties, is expected to provide significant actionable insights for hardware administration, part replacement and configuration best practices. 
+
+3rd platform SDS Predictive Maintenance & Global Product Operations: the idea suggests an analytic solution to identify possible issues with hardware or software components of complex products transcending the specific infrastructure properties. Thus, making development and maintenance processes more efficient and effective.
+We thought about this idea while analyzing the factors influencing the number of service support hours in one of our GS projects.
+We suggest a data driven, statistically based approach for evaluating components and their performance taking into account various infrastructure properties. The proposed approach allows accounting for the differences in machines properties within a population and includes the following steps: 
+1. A supervised machine learning scheme for predicting the expected support level of each machine in accordance to its configuration. 
+2. Calculating the difference between actual and expected support level. This provides a high-level relation between support hours and hardware components. 
+3. Identifying the existence of anomalies using statistical analysis of variance. 
+The methods rely on combining the various data sources residing in the BDL: Service and Support information, Software and Hardware Part types and the Install Base History.
+Additional information: https://inside.emc.com/docs/DOC-154460
+This approach allows early identification of anomalous HW components and configurations and increase system reliability, availability and TCE. A PoC have on VMAX microcode versions have shown that we can accurately identify difference in microcode reliability. By applying it on CI systems we can reduce support hours cost, update internal and external best practices, manage configuration changes proactively and provide direct data-driven feedback to engineering units. 
+Outputs of such a system can be consumed via simple and intuitive dashboards. 

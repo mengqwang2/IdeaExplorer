@@ -1,0 +1,20 @@
+Egypt COE - Smart City
+My idea is to empower the use of the internet and big data analytics to enhance the quality of services provided to the Egyptians. We live in an atmosphere that's far away from smart cities. We have  red tape. Filling out any paper work, as well as obtaining new license need the approval of different governmental entities. 
+Having a difficulty in getting any governmental paper work done or obtaining a license. I spent hours in queues and it took me days to finish anything.
+
+My Solution consists of the following aspects :
+
+1st aspect : A web application through which citizens can submit a request of any paper work , license ...etc. 
+This application will help the citizens to view all the options that they've got in things like medical insurance , pensions , salaries. Paper work and license will be sent to the citizens by mail.
+
+2nd aspect : All the citizens data will be gathered in a huge storage . Big data analytic to analyze this huge amount of data and to detect any patterns , suggested enhancements.
+
+3rd aspect : Citizens will be encouraged to have a card on which all their salaries , pensions will be directed automatically. This will save time and effort spent in banks , especially for people who want their pension. The card can be used all over the city. Money will be a legacy , and like credit-cards will take over. But machines will be provided for those who want to transfer their credit to money.
+
+
+4th aspect: Finished paper work will be delivered by mail.
+
+Any e-solution is a better solution as it requires a minimum presence of the citizens of the city in their working hours. This approach saves time and money.
+
+A  beta/trial version of this idea will be released and we will allow aged people and people with special needs to use the application to make their life easier. As aged people and people with special needs are the ones who suffer the most from the red tape in Egypt. 
+I'll consider my plan successful if it was able to minimize the time needed for paper work.

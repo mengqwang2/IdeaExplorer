@@ -1,0 +1,30 @@
+Increasing energy efficiency using code optimization and performance enhancement techniques
+optimizing the code (software part),
+writing effective test case,
+removing dead code,
+enhancing performance. 
+By doing the above steps, the code execution time is reduced thereby increasing the energy efficiency.
+Two circumstances led to the generation of this idea
+
+1) A session on "Extracting Performance on the Next Generation Parallel Platforms, Austin Cherian, Intel" conducted by CMG Bengaluru on 20th march, 2015 changed the perspective/importance towards writing better efficient code and code optimization leading to the lesser use of energy even if the sophisticated processors are introduced in the markets
+
+2) Generally, the application server should be the saturation server with the increase in load but there was an interesting issue where the database server (70%) was the saturation server and the application server couldn't scale (20%). On analyzing this issue, it was understood that some of the queries written in the application went for a Full Table Scan thereby leading to the high CPU utilization of database. Once this issue was identified and fixed, the CPU utilization came down to less than 20% in database server and execution of CPU cycles were normal.
+
+
+To optimize the code, we are suggesting to employ code coverage tools, which generates the code coverage report, which tells how much percentage of code is executed. The executed part of the code is highlighted leaving the dead code (which is not covered by any test case).
+This dead code could be analyzed to find:
+-	If it is of any use.
+-	In case the code adds any value, the test case could be revisited.
+The code could be covered on number of coverage criteria like Function, statement, Decision,Condition, Path, Entry/exit coverages.
+
+If we remove the unwanted code and increase the efficiency of code, it takes lesser time to execute and easy to maintain/enhance.
+
+In addition, there are profiler tools, which can be integrated to the application to find the inefficient loops and algorithms, average method execution time and memory usage. Identifying these issues can significantly optimize the code thereby resulting in energy efficiency.
+
+In case of database tier, reports such as Oracle AWR can pinpoint the CPU time spent in executing the SQL query and the tuning can be done based on it.
+
+Generally, the issues such as Full Table Scan in SQL query execution can result in high CPU utilization that can be found in the database reports and can be fixed for improving the energy efficiency.
+
+Thereby, implementing code coverage and performance enhancement techniques can lead to better code optimization, which in turn helps in enhanced use of CPU executions resulting in improved energy efficiency down the line
+
+In most of the production/customer environments, the software inefficiency is often overlooked and  performance is believed to be achieved if additional computing power/servers/high network bandwidth is added to the existing system. This can cause several millions/billions of dollars either to the customers or to our company. A well tuned/optimized software can run efficiently on the required hardware, cutting costs on the purchase of extra/higher computing power servers and high end use of network bandwidth usage

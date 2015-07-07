@@ -1,0 +1,5 @@
+Clean up the VMs regularly
+No resouce waste on VMs
+When an employee is not in EMC, but there is still some VMs on his head.
+Check the usage of VMs regularly, if the VMs owner is not in EMC, then reclaim it to the resouce pool.
+No resouce waste on VMs

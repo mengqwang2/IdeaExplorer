@@ -1,0 +1,28 @@
+Security Testing tools as a service using vCloud automation center 
+This ideas provides solution which addresses the below area
+      - Improve product time to market
+      - It uses the EMC hybrid cloud solution suite 
+      - Cost savings for the different BU's 
+We were using Nessus scanner for Avamar product and Networker team was doing only minimal security testing because of lack of tool So we started sharing the scanner appliance across two different products Avamar and Networker 
+As security requirements were similar a single scanning tool was sufficient to test the product against different vulnerabilities.
+So as next step the ideal thing would be to share across different product units based on requirements and if it is offered as a service then it can be consumed by different product units 
+Currently every product unit has their own security testing tools , but most of hte security requirements are common across products and are prescribed by Product Security office. So Security testing tools can be offered as a service by gathering requirements from the PSO and building on OVA with those tools and provide as a service in vCloud Automation center 
+
+Frontend UI with nodejs ( with options for the user to enter his requirements)
+a.	What Security tool he wants ( a dropdown box will be there)
+b.	Email address to provide the VM details
+2.	On a backend ESX, a Linux VM will be hosted which will deploy the respective VM with the security tool built into it.
+3.	Initially list of OVA should be made available for different Security tools. These OVA’s will be deployed using vCloud Automation center, so that it is easy for the EOS. Details about how vCLoud automation center used is explained in a separate section below 
+4.	In future the docker option can be tried where the deployment time is very less compared to VMs
+
+Detailed description is explained in the attached doc 
+
+https://inside.emc.com/docs/DOC-155188
+
+Benefits 
+
+1. Cost savings - Security product related licences can procured and shared across the Products 
+
+Criteria of Success:
+After the service is rolled out, the Product teams/Support team should start using it 
+In the initial period the number of requests from them should be atleast 20 per month

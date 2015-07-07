@@ -1,0 +1,5 @@
+Health checks cloud based application
+
+-
+The idea is about having a 3rd platform Cloud based application for sharing X-Rays and laboratory test results  remotely with your doctor through a cloud based applications that could run on smart devices like mobiles or tablets at which you could take high resolution images of your health tests and share it through a secure remote mobile application with your health advisor and get their advice instantly, this would be critical at some situations and would save a lot of wasted time in traffic and at hospitals or clinics.
+

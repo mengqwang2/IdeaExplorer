@@ -1,0 +1,5 @@
+End-of-Day Notification
+Following the IT Value of Respect, creating more awareness of time zone differences, and when peoples work day has ended would be helpful.
+IT Values made me think about this.
+If the alert could be trigger when the user logs off the Corp Network for example. the user should also be given the choice to turn on/off this notification. 
+greater respect for our global colleagues.

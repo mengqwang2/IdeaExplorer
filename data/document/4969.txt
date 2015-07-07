@@ -1,0 +1,5 @@
+Incremental build for any moudle and image
+
+Suffered a lot to waiting for cem.rpm after modified cp codes.
+Consider also the dependencies between source file and generated files (object file, shared library, generated source files, rpm, build), and do incremental build only if no 'full' flag specified
+

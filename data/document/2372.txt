@@ -1,0 +1,6 @@
+Web-based EMC solution learning and simulation tool (EMC Internal)
+We have several products on different technology.
+Today's market is on solutions not on proprietary product. Solution engineer heeds to know how to use proprietary products to derive solution which can be sold by company instead or product.
+We have several products, but it is tough to know each every product's "How it works" theoretically and derive solutions by combining all of them.
+The tool will have simulation for all EMC products. A person who has knowledge on technology can login there and virtually use different EMC products to derive a solution. Or engineer can simulate a customer problem to prepare solution for that. This tool will help engineer to create solution by effectively use all EMC products and it will give a heads-up if we are missing any connecting product in our portfolio to prepare a solution.
+It will help all engineer (who is aware or technology) to be aware of each and every EMC products and way how to use them to derive a complete solution.

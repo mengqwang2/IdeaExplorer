@@ -1,0 +1,20 @@
+Online Compatibility Matrix and Self Debugging Search Engine
+Currently CTD business unit has various different but associated products and each one has its own product documentation. If customer is integrating two or more products from CTD into their environment, then they have to go through individual product docu
+Currently there is no easy method to know the compatibility among 2 or more EMC products and product versions when doing product integration to build a solution. Also the solution for common customer facing integration issues are not properly documented or scattered in multiple places.This often reaches to EMC support as escalations. This two problems mainly constitute the origin of the idea proposed.
+
+Detailed Document : https://inside.emc.com/docs/DOC-151185
+The proposed to solution is to build portal search engine to fetch the required compatibility information for two or more CTD products. Also when customer or user is looking for the some immediate resolution for issues, they can search with problem statement, based on the problem statement keywords, the proposed solution when implemented will fetch the step by step solution from available error guides, known issues guides or release notes. The algorithm written in such way, it should map the error number and known issue guides content and build new index and resolution notes. When customer /user are searching solution for their issue, the engine will lookup based on the keywords and provides the resolution notes to customers/users.
+In a nutshell, user or customer will be able to do the following
+1.	Compatibility information for two or more CTD products. This would be granular upto the version level of the product and its version numbers.
+2.	Step by step resolution for common configuration issues or known issues when doing product integration or implementation.
+   The idea is to build a search engine environment utilizing the following underlying BigData technologies like Hadoop, Big data analytics and Greenplum database. The individual product documentation will be fetched from online portal and stored in Hadoop file system. Hadoop file system is distributed file system having all the files stored in distributed nodes. Using Hadoop tool like [Apache tika, Elastic search [ELK], Amberi] detects and extracts metadata and text from over a thousand different file types (e.g. PPT, XLS, and PDF etc.). These entire file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation.
+There are following different levels involved in this search engine model. 
+Level 1 - This level stores all bigdata information into Hadoop file system [data stored in HDFS file system] in distributed nodes. The information gathering and storing [Building the data lake] is continuous process, and since all related contents will be fetched from internet/ online, we have to create continuous pipe steaming method to fetch and store the information into Hadoop file system
+Level 2 - ETL engine. Using Open source tools like Apache tika will detect and extract the information to process the analytics 
+Level 3 – Analytical engine. Implementing different algorithms to reduce the exact information from whole data and map to user queries. 
+Level 4 – Search engine. Wrapper [lower levels]. Feed the user input as query to the analytical engine and return the output to the user. The search engine we can adopt open source like xapian
+Level 5 - Application level. Build the application or interface where user can access easily.
+
+1.	Provides compatibility matrix information related data when integrating two or more products in just one click search operation.
+2.	Reduce the TTR for the SR ticket resolution
+3.	Inbuilt Language translation helps makes the application UTF compliant an

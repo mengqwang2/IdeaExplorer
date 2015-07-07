@@ -1,0 +1,11 @@
+ Solution Support Vs Product Support
+
+
+
+ The idea came up from the experience working in technical support team 
+
+
+The idea is simple. It utilizes the human factor (the employees) to provide a generic solution level support to the customer. This can be done by starting with a small number of TSEs from each support team and let them be cross-trained on other products technologies that heavily interact with their product they are specialized in. for example if a TSE is supporting VNX product and VNX is heavily interacting with RecoverPoint and certain type of hosts such as VMware ESXi, then we will have the TSE cross-trained on RP and VMware ESXi so that he/she can understand the whole picture and provide a consistent support to the customer.
+
+
+

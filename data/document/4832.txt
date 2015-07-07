@@ -1,0 +1,11 @@
+3rd Platform Air Services  
+
+Idea came through reading about the old technology still used in most of the airports
+A key aspect of the 3rd Platform is that it's not just about mobile, social, cloud, or Big Data taken in isolation. The real key is weaving together two or more of these technologies to create high - value industry solutions. The criteria to define best Airlines in the world is currently based on Best of Cabins, seats, caterings, lounges, staff and prices. this criteria should be modified after transforming the Air line systems and data centers to 3rd platform, provide all services over the cloud and intensively using data analytics and mobile services to provide new generation of air line services:
+- Statistical and computing services to provide and measure passengers electronic services.
+-implementation of new computer software for data analysis
+- Statistical procedures provided by spreadsheet and database packages which are best treated with caution
+-use the standards required for academic research. That leads to accurate statistics and reduce their limitations that might be poorly documented and enrich the essential supplementary tests ,Such packages can be very useful for data entry and management.
+-intensively using the mobile services integrated with PAAS platform as a service and data analysis to provide passengers with their flight data, recommendations, surveys etc……
+
+

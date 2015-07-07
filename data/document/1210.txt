@@ -1,0 +1,15 @@
+Performance Appraisal Process
+This impacts the employee satisfaction and the quality of performance rating.
+The aim of the project is to develop a process to enhance reliability of performance measurement and increase employee satisfaction.
+
+Currently, there is a lack of having a reliable system for employees’ performance appraisal. This is causing employee dissatisfaction and would potentially affect the attrition rate.
+- Use graphical rating scale system
+- Each BU to determine performance dimensions
+- Manager will communicate these dimensions to employees at the beginning of performance appraisal cycle
+- Manager will determine weight of each criteria in performance appraisal scaling system
+- Manager will use facts to score each employee against certain dimension
+- Tool will automatically calculate the ranks of employees
+- Manager will share tool results with his manager
+- Manager will use results in his performance review
+Employee Satisfaction Rate %
+Errors % in Appraisal systems

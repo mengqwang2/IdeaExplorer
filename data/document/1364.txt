@@ -1,0 +1,19 @@
+Smart city IoT Security
+BUSINESS+DOTCOM+IOT = SUCCESSFUL SMART CITY
+This is the mantra for our design, data center and appropriate security is where all future magic is expected to happen for IOT/ubiquitous than any other area. IOT is nothing without the inetrnet actually supporting the distribuion of information.
+Our thought provess --> Problem statement-->existing EMC/RSA tecnologies including recently launch INFINITE IOT OS platform -->Solution(to address typical threats such us spoofing identity, tampering data and lack of matured/standards of technology in this area.
+
+For more details please visit --https://inside.emc.com/docs/DOC-155856
+Our solution is a combination of the  below for smart city IOT-security
+1. RF+RSA authentication/authorization framework.
+2.Datacentric approach routed via EMC access point(location based)
+3.Security with easy authentaction and identity protection
+4. Scalable to things identity, 5 sense identity enabled with superior RF/Wireless technology
+
+For more details please visit --https://inside.emc.com/docs/DOC-155856
+
+1.IOT privacy concerns are expected to be addressed.
+2.New security layer over INIFINITE platform (RF+RSA technologies) will help increase 
+3.Safegaurds to assure the availablity of IOT based system and Data.
+
+For more details please visit --https://inside.emc.com/docs/DOC-155856

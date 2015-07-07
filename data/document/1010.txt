@@ -1,0 +1,13 @@
+L2 tasks seperate section in Service Request
+Enhancing the process of service requests being handled to make it easier for TSEs
+Being confused when taking ownership of previous SR where tasks are mixed and narrowed in small space with field tasks
+-Having separate side-section in each service request showing if there are L2 task being created.
+
+-Section will show the following:
+1. L2 task description
+2. L2 task owner and queue
+3. NCC of the L2 task
+
+
+-Saving employees time as this will result in faster resolution to customers
+-Making it easy and quick to view L2 tasks

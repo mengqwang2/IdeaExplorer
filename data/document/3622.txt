@@ -1,0 +1,9 @@
+HR-MyVoice Challenge
+
+Thinking about different ways to provide insightful actionable information, leveraging Big Data concepts and identifing drivers (metrics) which are related to employee engagement levels at the functional/workgroup/department level.
+Provide a composite MyVoice score for each functional organization and calculate correlations between metrics such as; span of control, turnover rates, training hours per employee, and absenteeism rates. Provide drill down detail such as MyVoice dimension, in addition to department/group, location/region within functional organization.  
+
+In addition, provide annotations or lenses to the findings based on an environmental scan at the time of the survey and key metrics.  Such perspectives could be stock price, notable socio-economic conditions, NPS score, product quality statistics or other variables such as significant organization changes.
+
+Based on the findings, utilize visualization software to distribute easy-to-understand, action-ready data presentations.  This could provide HR, managers and BU leadership the ability to track changes over time, looking for positive trends in engagement and business outcomes and identifying key metrics that can be indicators or predictors of engagement.
+

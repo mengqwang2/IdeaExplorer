@@ -1,0 +1,22 @@
+ScaleIO over the cloud
+-Encourage our customers to penetrate the cloud storage market by using ScaleIO.
+
+I came up with a similar idea back there on 2012. 
+This idea is somehow related to an idea I submitted 3 years ago: https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2012000702
+
+Many customers have many Tera bytes of unused free capacity which is not going to be used in the near future. 
+
+My idea is to allow our customers to make some profit from this free capacity by allowing them to rent this free capacity over the cloud to other users using ScaleIO.
+
+I believe ScaleIO can do this easily by adding a module to make it work over the cloud, not only LAN.
+
+This can be a selling point for ScaleIO, that will encourage customer to buy it, because not only will they be able to fully utilize their storage resources, but they will be able to make profit out of it too.
+
+
+
+
+If my idea was implemented, I think buying ScaleIO will be a win/win situation for our customers. 
+
+Look at it, when a customer buys ScaleIO, they will be able to fully utilize their unused server storage resources, and if they want, they can also make money out of it too.
+
+

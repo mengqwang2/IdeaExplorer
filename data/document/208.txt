@@ -1,0 +1,14 @@
+XtremIO Based Solution for Bioinformatics Research
+The solution proposes a multi-layer architecture involving XtremIO flash arrays to solve the HPC requirements of Bioinformatics industry by embedding it along with EMC's EHC ecosystem and a variety of open source and domain specific workflow tools to support their business process end to end. 
+We came up with this idea while brainstorming about this challenge.
+There are 4 layers to our proposed solution:
+
+The Infrastructure layer consists of EMC’s ECS appliance which has been acclaimed as the cheapest cloud storage on the planet forming the core of storage infrastructure. ScaleIO provides Software defined storage and XtremIO provides the all-flash performance characterized by consistent low-latency performance. Hypervisors are deployed for provisioning VMs with the embedded CUDA architecture. This will enable us to achieve unprecedented chip level performance resulting in support for highly parallelized computing and peak performance which are most needed for this industry.
+
+In Service Provisioning layer -  ECS Appliances are integrated with data centre orchestration stacks like EMC ViPR, VMware vCAC or open stack while also providing analytics for usage trends and peak loads.  For SAML based authentication, authorization, identity and access management we can integrate RSA’s best of breed Security solutions such as NGX and Virtual Directory and other security tools like RSA security analytics. This will distinguish us from competitors. The solution also involves creation of services such as Compute, Storage, Network, DBs, Bioinformatics tools and applications, Big Data Analytical packages etc. Pivotal R, Bioinformatics industry specific Workflow management systems such as Galaxy or Taverna and EMC ECD's Apache Lucene based mature enterprise content search platforms like Documentum xPlore can also be integrated into this layer.
+
+The Bio-informatics Packaging Layer - relies on WSDL, SOAP, REST and other Orchestration APIs. This solution comprises creation of a Bio-catalogue which is a grouping of services for specific use cases.
+
+The Service Delivery Layer - will enable customers to choose from the catalogue of packages as per their business requirements.
+
+Our solution offers a customized solution taking advantage of XtremIO's AFA for HPC along with EMC EHC ecosystem which will enable bioinformatics projects to become operational within a short span of time and scale their operations on demand. This solution mitigates resource wastage leading to lower cost of operation. Apart from creating New Market Opportunities for EMC Products it has the Potential to make us a Game Changer in the bioinformatics industry.

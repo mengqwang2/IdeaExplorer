@@ -1,0 +1,5 @@
+consolidation of lab equipments within EMC
+
+We can see the resources of lab in our group only and can't see the resources of other group if there are any resources free and can we used by my team when we are in need.
+Currently the lab consolidation is at either team or group level, in this case the problem is one team/one group can't see the lab resources of other team/ other group . so even if one team/group has lab equipments free other team/group is not aware of it whether they are any resources available to use.
+

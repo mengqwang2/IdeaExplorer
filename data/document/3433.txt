@@ -1,0 +1,5 @@
+ART requests should be based on Job descriptions and not individual applications
+
+We have a lot of contractors switching to full time. When converting someone it can take multiple requests and many months to get access to all of the systems required to perform the job
+Group the many individual application/system requests required to perform a job into categories defined by job description templates. 
+

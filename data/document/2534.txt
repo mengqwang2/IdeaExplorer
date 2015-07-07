@@ -1,0 +1,8 @@
+Multipath Readiness Tool
+Many outages and performance issues result from misconfiguration of the host I/O path.  Build a tool to make these issues go away.
+18 June 2015 - customer asked for this, says he gets this functionality from IBM for their XIV platform.
+
+Build a customer tool to analyze and optionally correct host configuration.  In particular, review and correct MPIO and driver settings.
+At one enterprise account in my district, we have spent tens of days this year due to multiple cases with incorrectly configured hosts.
+
+If this ratio holds across the globe, we must be dealing with 1000s of cases each year due to this issue, and spending

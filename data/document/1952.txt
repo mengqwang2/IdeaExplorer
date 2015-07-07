@@ -1,0 +1,10 @@
+Xtrem Availability
+Create a new use case for XtremIO in our traditional markets.  
+
+Use XtremIO's deduplication to efficiently store source and target databases for database replication. 
+This idea developed from internal conversations about how to make Postgres nearly as available as Oracle RAC.
+1. Use database layer replication [ available with Oracle, SQL, Exchange, DB2, PostgreSQL ] and replicate from source to target hosts.
+2. Place XtremIO under both the source and target.  This should enjoy near-perfect deduplication.
+3. Fail-over from the source to target no longer requires starting the database on the target node.
+4. We can sell this is RAC-like recoverability for non-Oracle RAC databases
+We could partner with the rest of the database world with a cost effective, XtremIO-based solution which delivers RAC-like failover times.

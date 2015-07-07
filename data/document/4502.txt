@@ -1,0 +1,6 @@
+Avamar with Microsoft windows
+
+I lost all my data on my personal PC due to forgetting to restore a recovery point on windows 7. 
+I suggest that we do a deal with Microsoft to add EMC Avamar Recovery and backup SW to the windows operating system, this will help in always maintain a backup to our operating system, and also will help in EMC marketing as Windows Microsoft is one of the best commercial operating systems among the world.
+  
+

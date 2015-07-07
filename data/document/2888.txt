@@ -1,0 +1,8 @@
+Customer Unreachable or not cooperating
+This idea will improve TTR time in SRs.
+We ( Me , Hala ,Tarek and Mennatallah ) got the idea during a discussion on problems we face during our daily support.
+
+
+Adding in the "Site Information TAB" the manager (name & email ) of the customer in order to proceed in contacting him and push the case to resolve by getting another point of contact.
+
+This will decrease TTR time of cases.

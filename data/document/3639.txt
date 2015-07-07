@@ -1,0 +1,14 @@
+Compression Big Data Transferring on the fly 
+
+Compression seminar which has been presented by Alexey. 
+Let's say we have sensor with rate of 500Gb/s. 
+On transferring the data we need to analyze and compress the data. One 32 Core Processor has compression rate  ~500 Mb/s on each core. => One processor has about 16 Gb/s rate. One processor can compress data in 25 times. 
+
+But it is too small for 100Tb with rate of 500Gb/s. 
+The solution is that we will take not all of the Data from the sensor. As you know from the math we can approximate continuous function by a set of polynomials. The assumption is that the sensor has piecewise smooth function. So, we can restore the sensor function with only several points. 
+If we decided to take 1/20 of the sensor data => the rate will be ~25Gb/s. And the channel should have at least 25GB/25 = 1GB/s. Which is possible.
+
+The idea is to have a bunch of the processors 'after' the sensor. It will take only several of registrations, compress it and transfer data on 1GB/s channel.   
+
+In conclusion I want to say that as I know compression team has algorithms which allow to compress data on the fly.
+

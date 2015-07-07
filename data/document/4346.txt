@@ -1,0 +1,5 @@
+Automatic product's updates 
+
+MS auto-update.
+Auto-update software\tool is installed on the setup, which connects to DPAD product\update servers and periodically checks for new products\updates\patches and notifies the customers. DPAD updates servers maintain the new updates\bulletins\patches\new products and information which may be useful for customers.
+

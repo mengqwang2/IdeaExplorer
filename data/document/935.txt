@@ -1,0 +1,42 @@
+Predictive server storage performance and proactive SAN failure notification for using ViPR Controller
+Enable ViPR Controller to leverage PowerPath’s unique position in host I/O stack to offer:
+1.Predictability of IO performance for the application running on the server
+2.Help in implementing storage QoS end to end from OS to array
+3.Proactively notify ViPR controller about possible ITL nexus failures by leveraging PowerPath’s advanced pro-active path testing algorithms.
+
+The idea came up when we saw that PowerPath has a restricted visibility in to the data center to tune the server’s IO. 
+We realized that if this is fixed, PowerPath can help in effectively implementing the QoS guarantees that the Host OS and the Arrays provide. Being in host IO stack, it can also feed in the control data not easily visible to the other components of the data center.
+Al-tough the proposed solution suggests PowerPath as the component on the host , in general any suitable host based agent can be used . 
+
+Solution involves:
+
+1.) Data interface:
+     Data to be gathered:
+          By ViPR controller - 
+              i.From Arrays: Port usage (FE queue depth) , IO characteristics
+              ii.From Switch: RSCNs, Fabric reconfiguration, Zoning information, queue depths
+
+      By the host - 
+	       i. HBA – queue depth and speed
+
+      ViPR controller maintains:
+              i.History of statistics (which can be gathered via SRM or by ViPR controller itself) which is exposed via REST interface 
+              ii.Provides an interface for hosts to notify about failures that it has detected 
+
+Host queries for data relevant to it (Switch, Array being used by the host).Based on the obtained data, the host can tune PowerPath’s advanced IO routing algorithms, to satisfy the QoS criteria set on the host.
+In this fashion the host has taken into consideration all factors that may impact QoS for IO. 
+
+This can be implemented by a REST Client on the host which interfaces with PowerPath and ViPR Controller.
+
+2.) Control Interface:
+
+        This could be as simple as a port opened by the ViPR controller to listen to notification events from PowerPath. 
+        This control interface can be used to understand data center failures better (E.g. : Array port and host HBA  involved in the failure)
+ 
+E.g. : When a host component like PowerPath notifies the ViPR controller about a possible failure in the ITL Nexus , the ViPR controller can then use that information to see if corrective action is needed for E.g.: to change zoning dynamically. 
+
+
+PowerPath’s algorithms can factor in the historical congestion that it has obtained and suitably predict/choose paths to satisfy the application QoS requirement 
+
+
+EMC can leverage the existing heavy deployments of PowerPath and ViPR controller in its enterprise customers and provide them a simpler guaranteed QoS solution at a very low cost.

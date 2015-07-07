@@ -1,0 +1,14 @@
+Solution to Migrate the Archived data into cloud
+
+While discussing about the various features of ViPR, this idea occured as ViPR supports both file and object  and why not have a converter which can convert it into one form from the other. Then, I read an article about the cloud adoption in health care, it seemed like a valid business case.
+This could be implemented as a standalone solution which converts the file data in NFS Store into object data through EMC Atmos and provide Object storage as a service.
+
+Alternatively, ViPR also could implement this as a capability where any file data in the arrays managed by it is converted into object data using the Object APIs.
+
+This solution will provide:
+- Higher flexibility and scalability 
+- Cost Effeciency
+- Better way to manage complexities of unstructured data.
+- Higher level of data protection.
+
+

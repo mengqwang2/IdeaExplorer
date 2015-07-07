@@ -1,0 +1,9 @@
+EIC (EMC Ideas Center)
+The idea is using the crowd sourcing technology to have one centralized platform where people can share and develop their own ideas which can turn into projects if we get hands on enough experience.
+Innovation competition.
+We will create a platform which can be accessed from both desktops and mobiles (iOS and Android) where which employee will have his own profile with interests in each area.
+
+Each employee will have the ability to post an idea in specific category where others can check it and assist him if they can.
+
+Not only this but also we will be able to develop these ideas and make them under EMC's name into real projects designed and made by EMC employees.
+Success would be seeing ideas being developed into real projects.

@@ -1,0 +1,27 @@
+Web search for backup applications
+
+In a production environment, the backup and recover requests are handled through SLA. SLA puts each request to be services within a time-bound manner but within conditional approach. If a user wants to recover some specific data, the details have to be put within a request. For any additional files, a new request has to be raised adhering the SLA. The proposed solution gives the user a freedom to recover the data owned by the user.
+
+Additional details can be accessed in the mentioned location:
+https://inside.emc.com/docs/DOC-99844
+
+How does this work??
+As security remains a major challenge. The proposed solution will not work in workgroup/standalone environments. The solution is proposed for domain environment which would have a tiered authentication structure with access controls/tokens.
+
+The search engine will remain consistent within the web administrative console packaged with the backup software. In case, the current packaging is base-lined on the JRE based apache engine, the same will be used by the search engine, could be on a specific port.
+Searching the data:
+
+The search engine can be accessed using any standard browser (IE/Mozilla/Chrome) supported for backup administration. The user launches the web search console (these are standard http calls.. something like http://<servername: port number). The user is presented with multiple options 
+1. Search for files
+2. Browse the files/directories already backed up.
+
+For using any of the options, the user has to authenticate, the authentication mechanism is governed by the Active Directory which will perform token based authentication, validate if the user does have backup permissions.
+Conditional approach:
+In case the user is a part of backup operators, the user is allowed to search as well as browse the backups performed.
+In case if it is a normal user, the user is allowed to view only files owned by the user backed up through normal backup schedules.
+
+Once the user is authenticated at the domain controller level, the user session query is forwarded to the data zone backup server. The backup server will need a dedicate agent which would be on-demand wake up daemon. Whenever a search request is received, the request handle is forwarded to search daemon. The search daemon will perform a check within the catalog to determine the files/folders available for the user. These files/folders are the ones owned by the user. The agent sends the details of files and folders to be displayed to the user. Once the user selects a file, there is always an option to view the file within the file without downloading/the user can download and view the file.
+
+However the folders can be downloaded to local drives to view all files within the directory. Once a download/view option is exercised by the user, the request is taken by the search agent, in turn requests the server to make the files available. The storage medium containing the file are loaded and made online to service the request
+
+

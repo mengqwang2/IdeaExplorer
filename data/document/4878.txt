@@ -1,0 +1,12 @@
+Integrate ELK stack into EMC products
+
+While investigating how to improve overall TCE in trying to provide faster RCA and solution to reported issues during ProSphere/SRM Suite development. Currently only I have been using this solution to root cause during development and resolving of reported issues across ProSphere/SRM Suite.
+
+By integrating ELK stack into the products, it enables engineering, support or even customers to perform real-time and historical analysis by searching across all log files of the application thereby providing means to make sense of the logging data of the application through search and analytics.
+
+Logstash takes logs and other time based event data from any system and store it in a single place for additional transformation and processing. Logstash will scrub your logs and parse all data sources into an easy to read JSON format.
+
+Elasticsearch is a search engine with focus on real-time and analysis of the data it holds, and is based on the RESTful architecture. It comes with compatibility with standard full text search functionality, but also with much more powerful query options.
+
+Kibana is the frontend part of the ELK stack, which will present the data stored from Logstash into ElasticSearch, in a very customizable interface with histogram and other panels which will create a big overview for you.
+

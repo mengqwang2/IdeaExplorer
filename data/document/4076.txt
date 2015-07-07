@@ -1,0 +1,12 @@
+API layer extraction for unified hardware
+
+talked with Andy, Liu from USD and came up with the idea. 
+Nowadays, ESD and USD engineering team develop the whole Enginuity and Flare system separately from the bottom of the stack. However, both Symmetrix and Clarrion arrays are built up upon the same hardware set, e.g. DAE, SLIC, SP etc (and that’s why we have an unified hardware team GHE), which means at least the driver for those hardware should be the same and letting ESD and USD develop hardware drivers separately causes duplicated development efforts. 
+
+My proposal is to set up a specific team to develop the API layer for the unified hardware. We can have the following benefits:
+
+* The duplicated development effort is reduced.
+* The overall development cycle is shortened. 
+* The hardware modules of further storage system can be designed in a plug and play manner, whereas currently if we want to replace a FA port, the whole system needs to be re-imaged.  
+
+

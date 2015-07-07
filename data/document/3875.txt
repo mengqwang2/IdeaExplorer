@@ -1,0 +1,5 @@
+Use Drive Background Media Scan (BMS) in EMCs Manufacturing Test Process
+
+Idea to implement BMS in the test process first came about as result of a presentation on BMS functionality at an Engineering Staff meeting at the Cork COE. The idea was again visited during a GDE brainstorming.
+BMS is a function internal to the drive that is used to validate the media. This occurs when the drive is idle. In contrast to EMCs existing drive media tests, BMS requires no additional test equipment. It does the validation by performing sequential read operations across the entire media at a reduced correction level. It then logs those marginal sectors. BMS will start automatically on power up and will continue to run. 
+

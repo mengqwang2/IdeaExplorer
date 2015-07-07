@@ -1,0 +1,13 @@
+Creation and design of the low end array for the emerging markets
+
+I saw the challenge and got this idea and after speaking to Mr. Christoph, I believed that the design is the best suited for the challenge and the market needs
+This idea will use existing concepts in the hardware design with certain changes and also offering an innovative way that we can provide solution for the low end market with "storage solution in a box"
+
+The basic design involves using the Viking type of enclosure design but the form factor will be increased to 4'' instead of 3'' that we currently have in the Viking enclosure.
+
+The rear view have vertical SLICs of MMCS, 8G/16G Fibre, 10G iSCSI/FCoE, Exp slot for future expansion and these will replacethe LCC SLICs that we currently have.
+
+Between PICs (Power Interface Card) and rear fans in the enclosure a single flash card with 64G will be installed on the extended SAS bus to the midplane which will be used as memory (Cache) between the incoming IO and the disks
+
+More details of the design and shown in the slide deck
+

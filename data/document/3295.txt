@@ -1,0 +1,5 @@
+EMC Products tracer Mobile Application
+
+from my past experience in customer service i know that customers usually don't like to get back to the customer service teams for issues or even inquiries, so having this application will raise their satisfaction
+Mobile application where customers will have to install it on their smart phones and enter their serial number and know the status of it and when it will be installed for example or the end of service date,   etc.
+

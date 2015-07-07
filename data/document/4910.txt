@@ -1,0 +1,5 @@
+Content management product back up in cloud
+
+Currently there is no backup service for content repository solutions through DPAD current products in the upcoming releases. This would benefit numerous businesses which are dependent on content management solutions.
+Provide the backup services to CMA products through DPAD products. The backup solution to host in the cloud service will help the content repository to be available at low cost.
+

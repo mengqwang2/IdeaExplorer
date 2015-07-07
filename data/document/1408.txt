@@ -1,0 +1,5 @@
+"In-app ads" in XTremIO GUI
+My idea is about use cases for the XtremIO array to offer new capabilities and efficencies to XTremIO end users.
+I suggested this idea for VNX GUI - for "opposite" advertisements.  That is, if VNX is too slow for customer workload then produce advertisement  in VNX GUI to buy XtremIO AFA
+Have simple analytics in XTremIO to judge overall AFA efficiency and to suggest additional purchase from EMC in XtremIO GUI, e.g. if the AFA is too fast produce "in-GUI advertisement" to buy VNX array from EMC.
+One more marketing channel for EMC complementing products.

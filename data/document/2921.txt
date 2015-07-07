@@ -1,0 +1,16 @@
+Real-time rapid interchange of information across geographical boundaries for business on any device in any place.
+Many of today's teams are composed of members from around the globe with diverse rich skill set mostly contained in the geographical boundaries. A collaboration forum platform where people can broadcast and ask questions, share their experiences, and disc
+Read a thought on web which goes as below
+" These days It's Not the Big that Eat the Small... It's the FAST that Eat the Slow!
+by Jason Jennings and Laurence Haughton
+So i thought that "fast" these days is not fast enough we have to work more closely as one team globally to be super-fast to stay in competition. Hence we needs some platform where we can have unified communication anytime on any device in any place.
+A collaboration tool to provide a unified electronic platform  that supports synchronous and asynchronous communication through a variety of devices and channels.Everyone in that group has visibility to all the question/discussion/queries/answers.This collaborative tool will helps facilitate the dynamic networks of co-workers working together over geographic distances by providing tools that help communication, collaboration share documents,ideas and the process of problem solving by providing the team with a common means for communicating ideas and brainstorming.t Brings together all members of BU/division/project/product/teams in one broadcast group for real time quick exchange of information .All communication are saved for a predefined log cycle to prevent repetition. Messaging and email application are for conversation. My tool will be for collaboration.Predefined groups can be created by for people to join e.g 
+a.Marketing team
+b.Operational team
+c.Support team
+d.Sales team
+e.Engineering team
+f.Development
+g.Support team
+All of below as we will connect people and content to enable deeper insights, and rapid collaboration for teams to execute across global time zones, on any device in any place.
+Make money/save money/improve customer satisfaction/enhance productivity/optim

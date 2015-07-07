@@ -1,0 +1,9 @@
+Transparent NAS Failover with synchronous replication powered by VSPEX BLUE, VSAN and Virtual Isilon
+In some SMB companies, a synchronous mirroring for file-protocols may be required. In small customer sizes there is a potential risk a VNX-based solution would be oversized and therefore would not fit against competition (e.g. NTAP Metro Cluster etc.). In
+The idea had been a result of brainstorming together with EMC colleagues in regard of the question how to attack completions offerings for cheap synchronous file requirements.
+To avoid VNX hardware battles a "VSPEX BLUE" solution "with underlying VSANs" and a virtualized Isilon could be an alternative. VSPEX Blue is able to offer synchronous remote replication and instant VM sitefailover. A virtual Isilon (Isilon as a VM) can combine the advantages of VMware based HA solution, the appliance character of VSPEX Blue and over all a transparent NAS Failover for CIFS and NFS. Also a "Full Array Snap" would be possible in this scenario >> how cool is that?
+
+In an existing account where VPlex Metro, EMC Storage and VMware HA already exist, a virtual Isilon could be the last piece of a puzzle to serve file requirements as well. As virtual Isilon is existing already (today it’s called simulatior but the ova is fully functional), this could be realized without the requirement of any new developments. VSAN isn't yet supported to be streched across distances, anyhow the solution would be functional on campus distances.
+
+
+By having this solution customer could get a linear scale-out with small incremental, cost-effective building block approach for this file requirements. Per design of VSPEX Blue  this is imitated to the 14TB Raw per Node capacity nature of this Hyper Conv

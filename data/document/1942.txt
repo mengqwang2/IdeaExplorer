@@ -1,0 +1,5 @@
+Different databases support for Captiva and Documentum
+ECD has different products like Captiva and Documentum but these products are supported with very limited database versions/types
+Customers have raised concerns to have support on Oracle for Captiva which triggers the idea of supporting different DB servers
+Use a technology like Hibernate so as to use different database servers/versions. This would highly benefit customers using ECD products 
+Customer will have different options for back end systems and ease up their licensing problems

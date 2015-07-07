@@ -1,0 +1,12 @@
+Application for car pooling
+Egypt  COE & a more Diverse company
+N/A
+Application that consists of three important parts:
+1) Pool of cars for each route
+2) Routes
+3) Pool of employees that need transportation to and from the company
+
+Daily employees submit their names in a specific routes, and dividing those among the cars, informing car owners of who he/she can take in his cars, and a meeting point for each route.
+
+We can also reward car owners for sharing their cars in that manner as a way of thanking them.
+Reduce the huge amount of money paid on transportation each month

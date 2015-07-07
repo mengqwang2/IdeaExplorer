@@ -1,0 +1,25 @@
+Professional services's (GBS) managed service provider handled Tickets Volume reduction process change
+My idea shows a business process solution that derived cost saving for EMC (approx.750,000 USD Annulaized - which means the benefit is ongoing year after year moving forward)to an existing end to end business process. 
+More detailed analysis for the black belt lean six sigma project (https://inside.emc.com/docs/DOC-155570) attached link should offer detail/analysis and measure process improvement as it is already implemented 
+
+Business Case
+It appears that managed service providers are handling too many incidents beyond their scope of technical responsibilities.
+This adversely impacts EMC’s operating expenses significantly.
+We changed the operating support model to minimize these expenses.and also to ptovide better customer sat.
+
+Action Plan update as follows - more info : https://inside.emc.com/docs/DOC-155570
+1. IT Support process change 
+2. Enagaging business in the unity requests to handel any business related asks 
+3. Engage service operations to enhance the current model 
+4. Communicate  Education / Training  content – Education Items  & Business process changes .
+For each business process area  (ex. : Time Entry – Booking  - see appendix for more information  ) we need the following :
+Communicating the edu package to delivery owner 
+Agree on best delivery approach 
+More utilization to inside EMC  jobs aids and Tips/Tricks (Upload and share the link )
+Available training document / recorded sessions  
+
+Q3,14 Saving (141,000 USD)
+Q4,14 Saving (214,000 USD)
+Q1,15 Saving (202,000 USD)
+Total 3 quarters (743,000 USD Approx.)
+Total Annual saving = Approx.750,000 USD Annulaized 

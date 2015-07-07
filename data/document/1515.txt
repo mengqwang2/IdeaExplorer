@@ -1,0 +1,5 @@
+MS batch 
+Employee Satisfaction by offering new IT solutions to EMC  employees 
+Came up with this idea to save time, instead of opening each tool separately, click on single file. 
+A Microsoft batch file, that will open each tool in order.
+Enhance productivity and save time

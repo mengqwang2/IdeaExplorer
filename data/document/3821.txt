@@ -1,0 +1,29 @@
+Hybrid Lightweight Virtualization Technology Stack (VMware + Docker) for Smart City
+
+I got the idea when joining the Edison program - video surveillance workstream, when I talked to Docker experts, they gave me some hints that we can use a hybrid virtualization technology to meet the requirement.
+Here is the Lightweight virtualization solution background:
+- Lots of physical node in surveillance system is responsible for storage and video surveillance business;
+- Lots of video analytics needs and hope deploy computing apps easily and quickly;
+- Move app to data because there is so much data and moving data is high-cost work.
+The lightweight virtualization solution should meet the following requirements :
+- Lightweight, consuming little CPU, Memory;
+- Easily to be embedded to existing storage or surveillance server;
+- Can aggregate many physical servers and represent them as a single virtual system;
+- Decouples VM abstraction from host OS abstraction and can run on many unmodified OSes in the mode of an ordinary application
+- C/C++/Assembly and hence anything else is also supported
+- Isolate apps, storage, computing
+
+
+Hence we propose use a lightweight virtualization technology hybrid with VMware. 
+In the data center, we’ll leverage VMware technology to support the easy deployment and better resource utilization.
+In the distributed nodes, we propose to leverage Docker (http://www.docker.io/), which is a lightweight technology with LXC (Linux Containers) + AUFS (AnotherUnionFS, Writable single-system images or Copy-on-write at the filesystem level)  
+Three reasons why we can choose Docker:
+1) They are fast, it usually takes minutes for deployment and boot
+2) They are very lightweight, on a typical physical server, with average compute resources, you can easily run 100-1000 containers On disk. A few megabytes per container. No need for special storage like SAN, NAS...
+3) They are almost Virtual Machines, each container has its own network interface (and IP address), filesystem and isolation (security and resource usage) 
+
+What we need to do to leverage Docker:
+a) We build specific Docker image for different applications, e.g. for video surveillance, we put all video stream analyze tools in the image
+b) Each distributed host have an agent, they can get the image and deploy them on the host
+c) There will be a central management tool to manage the agents, there is some mature solutions, like Tutum (www.tutum.co), which makes its hosting framework open sourced.
+

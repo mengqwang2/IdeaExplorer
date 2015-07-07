@@ -1,0 +1,8 @@
+Combine computer vision and Dedup technique to reduce IT cost  in Video Surveillance application
+To detect abnormal behaviors in video surveillance applications ,it usually requires the application to record all the scene day and night. It takes a lot storage space and have to delete old video records to reduce cost.
+
+My idea is to selective store vi
+got the idea in the daily life
+The solution has two component: abnormal behavior detection and dedup.
+In front-end , the application keep the video frames in cache and use computer vision analysis to find the abnormal behavior in , if the abnormal behavior was detected ,the application will push those video frames into storage back-end . If there is duplicate video frames ,those duplicate frames will be deduped by storage back-end
+The solution will reduce IT cost, and improve the customer experience when they need to replay the video because there is little noise in video records.

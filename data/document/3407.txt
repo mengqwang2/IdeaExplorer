@@ -1,0 +1,5 @@
+Checklist SW on tablet and Mobile
+
+The wasted time in writing the checklist and collecting the work flow.
+Creating EMC Mobile app that contains the checklist to be easy for end-user by only click on the check box and this will be connected on a system that records the milestones to track the work flow.
+

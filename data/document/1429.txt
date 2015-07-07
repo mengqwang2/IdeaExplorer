@@ -1,0 +1,6 @@
+VNXe OS boot progress indication optimization
+This idea can optimize IT administrator's experience when they boot the VNXe system. It's easier to know whether the system boot process complete.
+Every time I reboot SPs of bearcat, I don't know when the system boot complete. After waiting for a period of time, I think the system may boot ok if there is no more information printed on the console during that time. It wastes much time. And sometimes, the system is still booting after I login.
+1. Print some clear information such as "system boot completed" or give a graphic prompt on the console after all boot tasks complete. 
+2. If the boot process is not completed, login prompt should not be displayed.
+Save time and make the boot progress indication more friendly.

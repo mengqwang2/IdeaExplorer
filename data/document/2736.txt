@@ -1,0 +1,14 @@
+VMs instead of personal laptops to access 
+We would like to think that our idea will help EMC create a modern and fun workplace.
+This idea will allow us to utilize EMC's IT infrastructure and product to address the challenge. 
+
+We came up with the idea to utilize EMC's infrastructure to make work more fun and more third platform oriented.
+Since then we have been adding features for the ID usage, as well as working on other ideas,  and all of them will be added in ONE big idea to involve them all.
+
+The whole word is getting into third platform, this is why I am proposing this idea.
+Each employee in EMC will be assigned a VM with certain capabilities depending on their specific roles.
+They can access this VM form any 3rd platform device, or even a 2nd platform one.
+You might say that working from a tab or a mobile phone is unpractical but there is always Chromebook (for example).
+
+This will allow us to virtualize our resources, when an employee is no longer working the resource his VM was using could now go into powering another VM for another one now starting their shift.
+This will on the long run save us money and time, and if we

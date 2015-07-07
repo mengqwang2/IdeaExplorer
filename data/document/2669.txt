@@ -1,0 +1,17 @@
+(LOST AUTHOR) TCE - Make Software Upgrades Easier
+The idea is to improve the TCE.
+Work Experience
+The proposal : 
+
+Have both SMS and director upgrade fils (*.tar) in a single package and build the enviroment such that the user/customer is allowed to upgrade all at once. The customer should be able to get their SMS's / directors at single shot. The procedure might be some thing like this:
+
+Let's say the build is now available <VPlex-5.5.0.0.5.tar> .The user will execute the command like, 
+
+VPlex-Cluster-Upgrade --upgrade-both /tmp/VPlexInstallPackages/VPlex-5.5.0.0.5 from any of the clustered site. 
+
+This should first upgrade the local SMS and then upgrade the remote SMS and then proceed with the director upgrade. The user/customer does not have to spend lot of time copying the files to the remote system for SMS upgrade and doing NDU pre-check etc., 
+
+As part of the command that was executed by the customeer, all other proceedings should be made automated.
+
+
+This is improve the TCE and make customer feel happy and happy customers means more profit.

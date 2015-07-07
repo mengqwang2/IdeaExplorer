@@ -1,0 +1,5 @@
+Quick lookup tool for Product Release notes.
+EMC product software is updated frequently and subsequently new Release Notes are published. 
+Downloading individual "Release notes" and manually checking "known issues" and "Fixed issues" is laborious and time consuming.
+We need a central repository for all Product release notes.(VPLEX,VNX,BROCADE,SYMM,SOLUTIONS ENABLER etc). A Tool should index the Release notes and allow for key word searches. This will allow Customers, Field Engineers and TSEs to quickly search all release notes, for a specific product, and identify if the problem is a "known issue" and if/when the problem was "fixed".
+A smarter way to review "known issues" and "fixed issues"  will improve troubleshooting efforts and speed time to resolution.

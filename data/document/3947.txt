@@ -1,0 +1,7 @@
+SkillUp - Mobile Application
+
+The tools that are currently used for tracking the skills ( PROPEL in Professional Services ) where the employees can upload their resumes and which inturn helps RMs to identify the right skill set but inspite of doing that it is difficult to ge the right resoruces for right projects, Sometimes while placing a resource request selecting the right skill set may or may not fetch you right resrouce and becomes a challenge so in order to have an agile ,fast , app based tool can help in solving these problems.
+EMC employees work on various domain,products,funcitonal areas and there is a need of an internal application where each employee can add the skills and fucntional areas where he/she can add and skills depending on the work that they do and add connections within EMC and get endorsements and can be integerated with resrouce management tools which will help Resoruce management to assign employees to projects with right skill sets.
+
+EMC Employees can create profiles and add other employees in their network ( similar to any social networking app) but can also add the skills / funciton areas and areas of interest so that an alert mechanism hits the resrouce management team ( admins) who manage this with respect to each Business Units in EMC.
+

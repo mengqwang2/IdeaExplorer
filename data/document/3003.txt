@@ -1,0 +1,7 @@
+Dynamic routing of printouts to nearest printer
+This idea even though small saves efforts of the employee and help us to save the cost in long time. And printing without thinking about where I am currently, really helps in flexible workspace model of modern work spaces(against fixed seat model). 
+I am a user of Ola Ride now option and trying to apply the same strategy to my normal day to day problems.
+Develop an application which uses the GPS of the PC which fired the printout and routes the print out to the nearest online printer(with paper) and gives an information to the user on where the printer is located. It may atleast list the closest printers and let the user change it if required.
+1. Makes Employees happy
+2. Optimal utilization of printers. We can get rid of the ones which are underutilized.
+3. With the source and destination date more analytics can be done to improve the utilization of the printers

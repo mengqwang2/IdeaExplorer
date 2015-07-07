@@ -1,0 +1,40 @@
+App Collecting Innovation Ideas from STEM Students
+Utah COE Challenge - This is general design idea of an app that can “match skill profiles and desires of our employees with opportunities in the local communities” and “allow our employees to give back to communities in meaningful ways and address the needs of our children in school” by helping students incubate their innovation ideas which could significantly benefit both students and EMC.
+We have Innovation Central for collecting ideas from EMC employees and this program has made remarkable success and achievements. This simple Challenge-Idea mode could be expanded to the EMC-College/Community relationship to create mutual beneficial collaboration of innovation by College students.
+This application consists of employee-oriented and student-oriented features depending on the login account.
+
+I. Functional features for EMC employees
+
+1.1 Employee Profile
+EMC employee signing up this app can edit description/tags of his/her own skills to build personal “Profile”, e.g. “Perl Programming”, “Predictive Analytics of Big Data”, “Linux Kernel”, etc. The app will match such profile with tags of any inputs (see 2.1, 2.2, and 2.3 below) from students to let the employee know which ideas he/she would be interested in and which students he/she probably would like to mentor or work with.
+
+1.2 Post the Wanted Ideas
+EMC employees can post “what innovation idea I’m looking for” in the app and let students understand what ideas will interest EMC, think about their solutions, and submit their ideas. This is similar to the innovation “Challenges” of current Innovation Central.
+
+1.3 Escalation Request
+For high-potential and promising student ideas, employees can use this feature to “escalate” to higher level of management or committees to review and decide if EMC could allocate more resources to help incubate such ideas.
+
+1.4 Notification from Community
+The app will send notifications to employees about what’s new in College communities such as recent course updates, activities, success stories, and other important information relevant to the innovation of STEM students.
+
+II. Functional features for the students
+
+2.1 Sketchnotes 
+Students could write down their ideas anywhere and anytime in arbitrary, informal format. A few keywords/tags of a raw idea or several pictures that inspired their thinking would be good enough. EMC employees whose skill profiles match such tags will be able to read these notes and help students connect dots together to make progress for their most original thoughts. 
+
+2.2 Submission of Ideas
+This feature works together with 1.2 “Post the Wanted Ideas”. Students can read the description of wanted ideas and submit the summary of their ideas, demos, and business prototypes for review by EMC employees whose profiles match characteristics of such ideas.
+
+2.3 Ask EMC for Help
+When submitting ideas, student authors can list what kind of help he/she needs from EMC: Funding, mentoring, training, documents, environments for development and debugging, systems for test and demo, test users, or anything else? This feature will collect information about the essential needs of students, or even their teachers and parents, to make sure EMC gives back what our communities really want.
+
+2.4 Notification from EMC
+Similar to 1.4, the app will send notifications to students about what’s new in EMC technologies, products, innovations, the latest wanted ideas, and other collaborative programs to remind, encourage, and inspire students to innovate.
+1. Benefits to Students
+The enterprise-level platform provided by EMC where students can freely discuss with the best EMC experts, practice their STEM knowledge and skills, implement their ideas, and even prepare for their future business success.
+
+2. Benefits to EMC Employees
+Unique opportunities to fulfill the accountability of “EMC Gives Back” to our Colleges and communities, and a channel through which EMC employees can verify their skill profiles and work with young talents together to create something exciting and meaningful.
+
+3. Benefits to EMC Business
+EMC could obtain valuable business opportunities in future by collecting and incubating great ideas earlier than venture capitals and EMC competitors. Also, like many professional sport teams do in America, EMC could make early connection to the best talents in Colleges, support their innovation, provide them change of internship, make them get familiar with EMC culture, and eventually hire them after graduation.

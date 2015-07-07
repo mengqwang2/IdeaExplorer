@@ -1,0 +1,32 @@
+NoSQL XtremIO Appliance (Xtrem-NoSQL)
+Many of our customers demand NoSQL solutions, and we are not offering them yet. Building a tightly integrated NoSQL appliance (such as MongoDB) on top of XtremIO (even running inside the cluster) would unlock performance advantages that our competitors can't touch at convenience that our customers can ill afford to ignore.
+The idea is a merger of two adventures in my career: I am currently the Senior Product Manager for the SaaS ISV market - so I am talking to dozens and dozens of application hosting companies who are leveraging SQL and NoSQL workloads almost exclusively in their environments. They have a need for an integrated, validated and proven solution so they can stop dealing with infrastructure and start dealing with application building.
+
+I've also talked to the CTO of a  leading DBaaS provider (ObjectRocket) who confirmed that the time is right for such a solution; optimization of the NoSQL servers is moving the workload parameters from a CPU bound solution to an IO bound solution: perfect time for disruption.
+
+On the other adventure of my career - when working for the now defunct Israeli startup Exanet I was responsible for the integration of an open source product (Samba as well as Netatalk) into a clustered file system that has a very similar architecture to XtremIO). I have firsthand experience into the type of optimizations and capabilities one can unleash when integrating open source software into a clustered storage product.
+The concept is very simple: Run a NoSQL server (such as MongoDB or Cassandra) on top of an XtremIO cluster; have the server (leveraging the pluggable storage backend architecture available on the most commonly available NoSQL servers) directly contact the XtremIO software, bypassing file system, block and SCSI drivers and context switches.
+
+Essentially the cluster will speak BSON (for Mongo) or CQL (for Cassandra) directly on the wire. EMC will integrate the NoSQL software along and release tightly controlled releases that are optimized and verified to be known good.
+
+Leveraging the inherent inline dedupe and zero cost copies - we can build on the XtremIO capabilities to complement the NoSQL use cases such as DevOps Dev/Test copies, incremental database backups, and more.
+
+A brief powerpoint presentation diagramming some of the concepts and the solution stack can be found at : https://inside.emc.com/docs/DOC-155667 
+A successful implementation would be a:
+
+1. XtremIO + (MongoDB/Cassandra) applicance that speaks (BSON/CQL) on the wire
+2. An integrated management UI for both
+3. DevOps APIs for both
+
+
+That would:
+
+1. Sell to ISVs and application hosters
+2. Sell to SPs for DBaaS scenarios
+
+Increasing:
+
+1. EMC revenue and margin
+2. Customer satisfaction
+
+and demonstrating a proven thought leadership position in an emerging and rapidly growing market.

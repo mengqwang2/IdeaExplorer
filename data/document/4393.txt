@@ -1,0 +1,5 @@
+Ease of access to programming ports of Test Equipment
+
+This was an Issue I encountered while setting up and programming the test Equipment for Cumulus Deployment to Flex Cork.
+By connecting the set up port of the test equipment to a patch panel on the side of the cart this will make them accessible to the operator (No need to climb a ladder)
+

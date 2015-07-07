@@ -1,0 +1,11 @@
+addition to the scsi protocol to add native support for advanced array features
+HW abstractions that provide common platform services
+when working on storage array support and working with software clients intended to allow consistent snapshots of database clients I thought it would be more efficient if the array could just directly inform the operating system of the backup through the scsi protocol
+include in the scsi command set some commands that allow the hard drive to alert the operating system of planned pauses in IO for hot backups.  this allows the storage array an API for communicating to the host about snapshot, mirror and raid operations without the need for a separate piece of software.
+ 
+the scsi command would allow the array to warn the host of a pending backup ahead of time.  It would also allow the array to tell the operating system how long the pause in IO was expected to be.  The os could then flush all IO to disk in preparation of the snapshot, and quiesce the lun, before going into hot backup mode for the required time.
+
+once the snapshot is done the array can inform the host and then continue IO as normal.
+
+reduced complexity of solutions
+streamlined API which lends itself to automation and converged infrastructure.

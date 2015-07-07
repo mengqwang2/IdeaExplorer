@@ -1,0 +1,5 @@
+Automation of Customer Alert Reporting
+High relevance to Customers and support team as the report generated is automated and no misses by manual pulling of reports. This report adds to the reliability as it is sent in a timely manner.
+For few customers, alerts don't get generated for more than a week. When L1 support team communicated the same to GCC monitoring team , i came up with the idea to automate the report such that we can go about with the BAU rather than manually generating the reports every time the L1 support team asks for it.
+Created an access report with Sql Coding and automated the report such that L1 teams can do a qualitative analysis of the number of alerts and the teams can fine tune the volume of incoming alerts.
+This has already been implemented and the L1 support teams hugely appreciated it as they are at ease with the report being sent to them and optimizing their process. It has also improved customer satisfaction and enhanced productivity as the L1 support team informs the customers according to the occurrence.

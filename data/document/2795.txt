@@ -1,0 +1,8 @@
+GYM Online Game
+Expand the scale of gym competition and make the physical competition online on the social network. New business.
+There are many online games have associated with online communities, making them a form of social activity. As of April 2013, the number of daily active online gamers worldwide has reached 144.9 million.
+Mobile game app has the rules and the levels of the gym exercises and trainings. Gym machines have sensors to detect and track the user exercises and weight, then send the output data to the mobile app via Bluetooth. The mobile app is linked with the social network like facebook to share, comment and challenge. This will add the sense of the fun competition to the gym sports, which will encourage the people to participate.
+* Make it fun.
+* Encourages the people to a health path.
+* Your body will thank you in the long run :).
+* Increase the count of participation. 

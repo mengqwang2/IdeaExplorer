@@ -1,0 +1,7 @@
+Full chain commitment to product deployment quality
+The customer experience at this time is lacking due to a limited incentive program for manufacturing and hardware teams (such as GHE).
+As a cross-unit idea it had never seen the light of day beforehand...
+
+The idea came to me by watching the interaction between the groups responsible on the delivery of the hardware to the field and watching the field fall-out in early failures and the impact it has on our customers perception of the product.
+Make it a goal for all parties (mfg, hardware, program, bu) that early field failures do not happen or happen with a very low rate. Then the entire team can optimize the cost and benefit to the product as an aligned unit. This could remedy the current disease where mfg teams only want to reduce testing as much as possible since it reduces their exposure to failing the unit and thus to reduced yields which affect their current goals.
+The goals for the teams involved would be set to take into account the first 30 days of field behavior after installation (important! it may take time for equipment to be installed after shipment). Overall goals will also reduce the weight of yields and w

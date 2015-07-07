@@ -1,0 +1,15 @@
+improve controls on distribution model to achieve better performance in quality and cost for plastic, die casting, hardware and label commodities.
+1. make GPO/EMC’s supply chain and manufacturing operations more efficient and effective;
+2. significantly improve the distribution and installation of our products across the globe
+Above idea is just my personal thoughts base on past experience, It is pain point sometimes. All that I want to do is to try to improve EMC supply chain to achieve better performance from QCTAS perspectives.
+1. For the making parts like plastic, die casting and label
+   SBMC should be aware of a supplier's in-house production capability  before they issue PO to this supplier.
+   in the case if they require a supplier (The one who receives PO from EMC or EMC's supplier directly) to outsource EMC products from their subcontractor. How better do we valuate this solution from QCTAS perspectives will be better benefit to EMC. Besides, We should get this reflected on AML to showing difference of "in-house making" and "outsourcing" parts.
+
+Furthermore, We local SBMT don't think this is the best option for EMC because we local SBMT do believe the solution of having us work with the direct manufacture in region will be better benefit to EMC on such making parts.
+
+2. For off the shelf parts like hardware
+   A, If it is patent reserved, We should place the brand and product MPN or code on AML to reinforce the approved distributor always provide the right parts to EMC and/or EMC's suppliers.
+   B, If it is not patent reserved, The approved distributor on AML is allowed to source this parts from their supply chain, To ensure the parts they supply to EMC and/or EMC's suppliers are always same as the original FA samples they submitted to EMC for approval, We should get the direct manufacturer info reflected on AML.
+
+Improve EMC supply chain, Create open fair environment to align with EMC culture.

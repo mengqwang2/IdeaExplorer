@@ -1,0 +1,11 @@
+Automate best practices and recommendations to maximize performance and data capacity utilization of the XtremIO Storage Array
+Currenty EMC provides customers with some best practices and recommendations to maximize performance and data capacity utilization for XtremIO Storage Array. These steps are quite elaborate and the end users will benefit immensely if the procedure is automated.
+We chanced upon this idea while brainstorming PowerPath features to enhance XtremIO experience
+The recommendations and best practices to maximize performance of XtremIO array specify that the lun queue depth and executing throttle needs to be adjusted based on the number of hosts added to the array. This process is quite elaborate. This can be automated by introducing rules in PowerPath to dynamically change the lun queue depth/execution throttle upon addition of each host. In addition to this we can also automate some of the other recommendations such as implenting host QOS, creating correct redo log size, multiblock IO size and so on.
+
+These best practices are generally following with Oracle DBMS.
+If this idea is implemented it can provide
+1. Distinguishing feature for Xtremio 
+2. Improve customer experience 
+3. Increase revenue by selling more PowerPath licences.
+

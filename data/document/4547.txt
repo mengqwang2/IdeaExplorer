@@ -1,0 +1,9 @@
+Voice Recognition and Detection 
+
+- We have to spend slightly long time to updat the case by typing each character and we'd like to make it easy.
+
+- Sometimes, We have to update the case at the same time of troublshooting to make everything updates in the case notes.
+- Create an Application on Mobile or Computers that can convert the Voice to Text and Can update the case notes in Service Center.
+
+
+

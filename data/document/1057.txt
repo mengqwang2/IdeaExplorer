@@ -1,0 +1,30 @@
+Sentiment Analysis for Software Products Based on FS2, CIS and NLP
+TCE/ECD:This idea leverage EMC Documentum product FS2 to get content from different resource, CIS which includes a natural language processing (NLP) module to analyze structured/unstructured data, and provides a solution to obtain sentiment and identify actionable customer insights.
+We have this idea from group discussion.
+FS2 provides the ability to search in web resources like google, twitter, blogs, forums. This solution tries to extract comments from user generated content (e.g. research data, scientific papers, customer reviews of products, blogs and twitters) using FS2 and analyze the comments.
+ 
+For example, if we want to know comments about EMC product xPlore, we can use this solution to search new content about “xPlore” in google, twitter, blogs, forums.
+
+We can implement a natural language processing (NLP) module, incorporating with Documentum CIS, to recognize the named entities and extract the relations between named entities and their opinions from unstructured data.
+
+Each item returned from FS2 about “xPlore” will be listed in a GUI and analyzed by engineers. The items returned from FS2 may include five types:
+
+[Defect or bug]
+If it is a new defect, a new incident will be created in JIRA or other defect tracking system for it. If it is an already know defect, supports or engineers will try to answer it in the twitter, blogs or forums.
+ 
+[New Feature]
+If it is a new feature, a new incident will be created in JIRA or other new feature tracking system for it.
+ 
+[Complaints]
+If it is caused by user’s misunderstanding, supports or engineers will try to answer it in the twitter, blogs or forums. If the complaints make sense, it will be recorded and categorized. Product managers or engineers will later be able to know the pain points of the product.
+ 
+[Questions]
+Supports or engineers will try to answer it in the twitter, blogs or forums.
+ 
+[No-harm Comments]
+No-harm comments will be ignored.
+ 
+This solution will keep track of the processed items or comments from users and analyzers or engineers only need to process the new post or comments.
+ 
+This solution helps to solve users’ issues or complaints at very first time. Product managers or engineers can also know the paint points of the product based on sentiment analysis. This solution will improve software users’ experience. This solution is especially useful for new products for which product manager or engineers are eager to know customer’s feedback.
+Improve customer satisfaction, and improve products based on customer feedback.

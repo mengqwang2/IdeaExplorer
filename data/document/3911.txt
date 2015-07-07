@@ -1,0 +1,17 @@
+Interactive Educational Competition... (Root,STEM,Buds) 
+
+Brainstorming Session
+The idea is to create a web based competition where teams of students log in to a profile and are presented with questions/clues  based on STEM. The Students are also provided with a list of source websites and extracts from these sources that correspond to the answers of the questions/clues. The catch is that letters in the extracts are jumbled up/encrypted. The aim of the contest is to decode as many answers as possible and store them in their profile. 
+Students have options as to where they would like to store their answers. Their options include:
+
+1. A ‘My Computer’ section which limits the storage capacity to a minimum
+
+2. An ‘Open Cloud’ section Cloud where they must create their own encryption to protect their answers, but their encryption is subject to time constraints at which point their answers are automatically decoded and open to the threat of poaching from other teams. This creates interaction between teams and demonstrates the importance of data protection
+
+3. An ‘EMC Cloud’ where teams can buy access to secure storage but only by scarifying answers or answering EMC based questions
+
+The Brainteaser in this case is the decoding exercise with questions and answers based around STEM education. Exercises can be altered to make them as complex or time consuming as required. As far as time frames and logistics of the competition go, these would be open to variation as required. The structure of the competition would allow for as many teams, as long or short a time frame as required and would be reusable in the long run. The competition structure provides for local or global competitions. It introduces teenagers to Data Analytic's, Cloud Computing and Data Security while engaging them with computers and STEM topics in an interactive environment. 
+
+  
+
+

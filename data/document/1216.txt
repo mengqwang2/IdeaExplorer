@@ -1,0 +1,7 @@
+Contract entitlement check for chat SRs
+Lean six sigma process improvement
+received an escalation for a customer who was asking for a non entitled box with an argument that he has another box with an active contract
+if this SR was sent to a TSE through chat this would have went through and the customer would have received a replacement disk without being entitled for it
+Training to be done for TSE and CST who receive chats directly on how to check contract entitlement and its importance and who to contact in case they need further entitlement check.
+Also explain to TSEs that they need to confirm the actual box S/N they are working on through webex or esrs to be matching the one used to open the SR
+measure the revenue saved by the number of SRs the new process have prevented a non entitled customer from having support.

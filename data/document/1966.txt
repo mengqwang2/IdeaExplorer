@@ -1,0 +1,12 @@
+Security policy enforcement and management for could
+The Israeli COE puts a lot of resources to address the growing needs for the secure cloud management and provisioning. The suggested solution shall improve drastically the process of security and cyber protection policies implementation , which might be deployed automatically after definition in the Archer Policy Government Tools.
+The idea was born when the cyber security team in Israel was working on the tender preparation for the Israeli defense departments (3 months ago). The idea was later presented to technical people from EMC /RSA and CSC and got their support. Now we are discussing an ability to create the working prototype at Beer Sheva site.
+The solution comes to design and development of the automatic policy deployment module, which contains the policy terminology and mapping mechanism for the integration between policy definition artifacts and execution services, which typically are coming with the cloud management systems, for instance, Agility CSC.
+The solution takes specific definitions of policy, and turns them into practical processes that will be controlled over the cloud. Any change from the expected margins of normal behavior will be identified as an incident and will be raised to the incident management console.
+The idea shall be implemented as and extension service/s to the RSA Archer GRC with a generic capability to connect the security policy procedures to any kind of the cloud management system.
+Benefits:
+1. Effectiveness - End-To-End Security Policy Management and Execution Life cycle
+2. Cyber Security - Support of Advanced Cyber Incident Response
+3. Improved management capabilities - single point of management
+
+

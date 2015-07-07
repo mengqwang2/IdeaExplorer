@@ -1,0 +1,22 @@
+Life Care Platform Anlytics Designer Work Bench
+Life Care Platform is meant for Health care domain. This platform consists of various frameworks and components meant for various purposes. There are many open analytics tools and health care enterprise suites available in the market to do the analytics. 
+The data analytics can be done using the traditional map-reduce and HDFS data stores distributed across various data nodes. The same data analytics can also be done using the proposed new method of using a CallBackHandler along with the In-memory data grid. The work flow creation is going to be at runtime behind the workbench using DataCollectionFrameworkManager which in turn uses Spring XD as a framework. This avoids the pre-condition to users that they have to know the data flow components such as adapters and the data format etc.
+The Core Components of this Life Care Platform Analytics Designer Work Bench are:
+•	LC_Platform_Canvas – It is the work bench canvas wherein the domain experts can drag and drop the domain model objects and link each other.
+•	ExternalDomainModelManager – To import external domail model and drag and drop the domain objects, selecting the data source and data link connector to be used to pull data from, link the object with Life Care Domain Objects using unique keys such as Aadhar Id. 
+•	DataSourceConnector- Connector to establish a connection with the data source objects for each of the external domain objects.
+•	DataSinkConnector - Connector to establish a connection with the data destination objects.
+•	AnalysisController – This is the controller component that would trigger the analytics job once the user clicks the “Start Analytics” button in the Life Care Analytics Designer Work Bench.
+•	AnalysisModel – The model that will be used to produce final analytics reports.
+•	DataColletion Framework Manager- This is a data collection framework manager which will create and deploy data stream flow to pull data from the selected source to store them into the desired data sink after passing through the intermediary nodes for processing if needed.
+•	ExternalDataSourceInterface – This is the interface through the Analytics Designer Work Bench would use for creating various DataSourceConnectors.
+•	NoSQLCacheManager – This is Cache Manager to be used for storing and retrieving the analytics output reports in any desired format such as JSON (Java Script Object Notation)
+•	NoSQLCache – This is a cache where in the analytics report output will be stored using the NoSQLCacheManager.
+•	Life Care Domain Model – This is the domain model pertaining to Life Care Platform / System.
+•	CallBackHandler – This is a CallBackHandler which implements Callable interface contains the Future Object to store the intermediary results of In-Memory Analytics and the logic to handle the In-Memory data grid for doing the analytics using the data available in the data source.
+•	In-Memory Data grid – This need to be used for in-memory data analytics by the CallBackHandler wherein the data source doesn’t want to share their data.
+
+6.1	Novel aspect 1
+In-memory analytics capability provided by the CallBackHandler implementing Callable interface and containing the In-memory data grid detail to be used during the analytics step happening at the external data source.
+6.2	Novel aspect 2
+

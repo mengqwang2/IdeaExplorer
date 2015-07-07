@@ -1,0 +1,7 @@
+IDPmeter
+N/A
+N/A
+IDP-individual Development plan used to put your steps towards your goals, but are you tracking this?, this application used to track your steps taken and to be done according to the input that you have submitted before in the system.
+
+This application will pop up for any notifications, alarms or reminders to help you to complete and progress towards your goals
+Very beneficial to the employees to never get out of track

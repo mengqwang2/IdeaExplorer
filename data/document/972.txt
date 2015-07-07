@@ -1,0 +1,12 @@
+TLA 360 View (summary of all service interactions)
+TCE - improve customer experience with better service and pre-emptive identification of underlying problems
+CTD - supporting solutions requires an integrated view into all the components of a solution, this is it!
+SDS Predictive Maintenance - use machine learning for identifying system wide issues at a customer site, can be integrated into a rule engine or IBPMS
+Text Analytics for Service Request analysis has been a focus for Dr. Alon Grubshtein and Dr. Raphael Cohen for the last 2 years. In the past 9 months the natural language processing framework was applied for creating a customer summary for TCE, in a project headed by David Dionisio. After demonstrating the system Dr. Lena Tenenboim-Chekina identified the value for Root-Cause-Analysis in a specific TLA or a solution, in relation to the Hot-Box identification project which she is leading.
+We suggest using an existing Text Analytics engine for service request (SR) free text analysis to identify the underlying topics of each SR. This process is based on state of the art machine learning and NLP techniques: Latent Dirichlet Allocations, Passive aggressive learning and Brown Clustering, tuned especially for understanding customer relations.
+The labels can be used to show the trends of service events for an installation and quickly browse the history. The labels are combined with an effective query search engine and a timeline browsing for easily exploring the customer’s history.
+We have already built a PoC for a similar screen, summarizing customer interactions (instead of specific installation or a solution), have a look: http://10.15.25.40/ccv/ 
+
+The dashboard and data enable the TSEs to immediately and effectively understand the history of an installation without long manual browsing of the service events. 
+This will provide CS with the tools required to quickly support complex solutions.
+Using the same view we can compare different solution architecture to choose the ones with minimal issues.

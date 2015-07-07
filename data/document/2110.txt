@@ -1,0 +1,5 @@
+Build an EMC Talent Pool
+Every employee has IDP every year and wanna to learn more about the storage technology, that will provide a easy and efficiency way to get these.
+From the EMC org chart, we can only get the Employee icon and org chart. we don't know which project he/she worked on, or how many documents he/she shared to team, or how many innovation ideas he/she submitted in EMC.
+Employee can enter search criteria in pool. Such as Employee name:the search result will list the current org chart of the employee, then click the icon ,it will redirect to a page which lited all related info, include involved or working projects, submitted ideas/documents/questions/comments.etc
+if this idea was fully implemented, employee could know more about the EMC product and storage technology, will help us have a good understanding about the new product.

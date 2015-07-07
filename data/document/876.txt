@@ -1,0 +1,32 @@
+SMART City Waste Management for a Better Tomorrow - EMC Solution
+The idea is related to Egypt COE Smart City and IoT Challenge.
+
+A Complete solution for efficient waste management in Smart Cities from the time waste is generated, segregated, collected, picked up and Disposed/Recycled.
+Waste management is a problem that all of us face. No matter how posh an area might be, miserable waste management can be seen.  The processing of the garbage is also not given much thought. It is thrown in the dumping grounds without following the rules required for its management.
+Detailed Presentation:
+https://inside.emc.com/docs/DOC-155830
+
+Summary:
+
+Waste Segregation:
+- Enable the implementation of Pay As You Throw (PAYT) policies.
+- Proper segregation of waste.
+- Proper collection, transportation, treatment and disposal system.
+- Segregation of recyclable and non-recyclable waste as well as wet and dry waste at the source so that there can be 100% recycling of solid waste.
+- Appropriate   technology should be adopted for treatment of waste at decentralized locations.
+- On-board weighing will provide a citizen-centric approach to collecting waste data.
+- Enable the implementation of Pay As You Throw (PAYT) policies.
+- Put in place an effective collection and disposal system.
+
+Waste Collection & Disposal/Recycle. (An EMC Solution):
+- Install RFID  (Radio- Frequency Identification) in all waste containers to gather fill-level data which will be tracked by the Waste management Staff remotely.
+- Once the fill-level is achieved, sensors to trigger for the pickup of waste containers.
+- Develop most efficient schedules and routes for pickup of the waste filled containers.
+- Keep track of the waste measure and forecast the fill-level in waste containers.
+- EMC Solution can be a value add for SMART City management.
+- Clean & Hygiene in the City.
+- Control different types of pollution, i.e., air pollution, soil pollution, water pollution etc.
+- Stop the spread of infectious diseases
+- Conserve all our environmental resources, including forest, minerals water etc.
+- Recycling of hazardous wastes for further production
+

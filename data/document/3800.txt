@@ -1,0 +1,7 @@
+Charity Portal and Mobile Application
+
+Sometimes , we want to give some money for charity but we don't know to who we can give the money or what it will be used for. Sometimes , we know the day for collecting money , but we don't have cash or may be we are out of office. So this way , if we are willing to give some money or time, it will be easy for us and for the people who are organizing the charity events  to know their budget and the type of events organize.
+Also, sometimes we don't know about the events that are going on. Through the mobile application , we will know about the events before and reserve some time to help our community. 
+The idea will be creating a portal to deduct money from the employees who are willing to participate. The amount of money will be used for charity purposes through BelMasry. Also there will be a mobile application , this application will help all the employees to know about the events.
+That way, EMC will be engaged to help the community and will engage the employees and encourage them to be more effective in the community.
+

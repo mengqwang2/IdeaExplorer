@@ -1,0 +1,5 @@
+Effective and quick Email management
+
+When we receive lot of mails regarding the same subject, in order to minimize it we can use this idea which eliminates repetitiveness
+Without this for the same subject if there are 10- 20 mails by different people it takes lot of time to read those mails. Instead if our mail box shows only the latest mail then we can easily go through which will reduce our time also.
+

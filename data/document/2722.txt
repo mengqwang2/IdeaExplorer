@@ -1,0 +1,24 @@
+Automated deployment of Data Protection Backup add-on for FEHC 3.0
+This idea would add an automated deployment of Data Protection Backup add-on for FEHC 3.0, reducing the complexity and time.
+When developing SAP solutions on FEHC 3.0, we find that it is time consuming to configure the environment. We begin to seek the possibility to automate the deployment.
+This idea leverages PowerCLI and MCCLI/Rest API to deploy Data Protection Backup add-on for FEHC 3.0 automatically. During the initialization of Data Protection Backup add-on, administrators will only need to specify a few information, for example:
+- Root password of Avamar VE
+- IP ranges, gateway, DNS for Avamar servers and proxies
+- Hostname prefix. (if you enter ‘ave’, the script will automatically populate the hostnames with ave-<site>-<pair#> )
+- Port groups for Avamar servers and proxies
+- Datastore to be placed
+- Number of Avamar server pairs in CA/DR scenario
+- Data Domain server on each site
+
+The following VMware PowerCLI cmdlet can enable auto deployment fo Avamar VE and proxies:
+- Get-OvfConfiguration
+- Import-VApp
+
+Then we can build scripts to to login to proxies using SSH and register them to Avamar servers with the following command:
+/usr/local/avamarclient/etc/initproxyappliance.sh start --mcsaddress=<MCSADDRESS> --avdomain=<DOMAIN>
+
+With MCCLI or Rest API, we can configure Avamar VE to perform initial configurations, build replication, integrate with Data Domain and etc.
+This idea is a set of vCO workflow that leverage VMware PowerCLI, SSH and MCCLI/Rest API to:
+- Automate the deployment to free administrators from repetitive work
+- Reduce complexity and time of deployment to enhance productivity
+

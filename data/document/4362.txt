@@ -1,0 +1,17 @@
+E-Mail based solution to retrieve KB articles 
+
+When working at a customer site, we have very limited access to the internet and most importantly the EMC intranet. To search and view a KB article becomes challenge and sometimes even requires assistance from a colleague.
+The idea is practical and fairly simple and easy to implement. 
+1. Dedicate a server with some Mail Server instance on it
+2. An e-mail address - to which all requests can be submitted
+3. Send an e-mail with the KB ID you wish to retrieve
+4. Receive a pdf copy of the KB article in your inbox
+
+A repository will be maintained on the server and each time a query is submitted the KB article is saved in the repository. So the next time someone requests for the same article it is instantly send to the requester. 
+
+This solution will be very helpful when we are at a customer site with no internet access and can use our smartphone to get the KB article.
+
+The solution will be enhanced to request a KB article with its title.
+
+Single slide presentation: https://inside.emc.com/docs/DOC-99981
+

@@ -1,0 +1,16 @@
+troubleshooting lab competition
+Opportunities for sharing equipment in a central pool, or between product development groups
+
+position EMC to take market share in Platform 2 and 2.5
+ground breaking in terms of our contribution to sustainability and customer TCE
+
+this is based off of the capture the flat tournaments run at Defcon and other computer security conventions.  These contests force IT personnel to truly master the systems they support.
+
+proper access to good remote labs would be a necessary prerequisite.
+Set up capture the flag tournaments based on a solution such as vblock.
+TSE's compete by creating a problem in the environment.  The other teams capture the flag by fixing the problem.  prizes can be used to encourage participation.  contests can be run outside of work time.  The best problems can be recorded and used for training purposes.  The troubleshooting techniques used by the wining teams can also be recorded and used in training classes for new employees.
+
+reduce time to resolve for complex problems involving multiple EMC products
+improve TSE's ability to offer solutions support
+improve TSE's ability to collaborate effectively with other product teams.
+improve training resources so managers can more quickly

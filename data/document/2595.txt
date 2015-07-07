@@ -1,0 +1,5 @@
+Superconductor Powered Datacenters
+Due to the increasing demand of computing power and the exponential growth of the amount of data Data centers handles this translate to higher consumption of electricity to power them and one of the challenges of power transmission in general is the inter
+I came up with this idea while watching the video of the 2015 environmental stewardship challenge. I have started googling it and found a couple of studies that I will help me take the idea to the next level
+ It have a global impact on the power consumption of all components of the data center while being  independent of their types and vendors.
+It should have a significant impact on the power consumption level of the Data-center and their carbon emissions   

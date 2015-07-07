@@ -1,0 +1,5 @@
+Legacy Data Migration Automated Software
+
+I came across some projects where all new manual process is being written to transform the data from one platform to another platform. We can build a automated software which provides the flexibility od data migration or transformation.
+We can devlop a automated software where we have to chose the target and source system and the software is intelligent enough to connect the two systems,analyse,transform,load, new objects creation in the target system.
+

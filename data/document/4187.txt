@@ -1,0 +1,7 @@
+Data Mining and Knowledge Management in JIRA/Perforce Help Improve Product Quality and Customer Service
+
+In the past, often engineers found that they spent long time to dealing with a certain problem which someone has met before. However, there is no easy way find out how the problem was resolved before. JIRA and Perforce contains some history information, we need a good way to digging out valuable information from JIRA and Perforce's large amount data.
+Data mining in JIRA and perforce data. The data mining program may collect below data:
+1) quality metrics of a product, like what kind of problems the product has most, which component has most problems. This can give us opportunity to improve the product quality.
+2) problem's solution. This will help it easier to find out how a problem was resolved in the past. Developer's or support engineer can leverage this to resolve problems quickly.
+

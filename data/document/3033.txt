@@ -1,0 +1,19 @@
+D2 cloud using a NoSql database
+1) EMC can own the infrastructure required for the hosting of such deployments for clients.
+
+2) Alternatively, EMC can provide consulting for setting up such a private cloud for other interested clients.
+VMware offerings can be integrated in both cases
+The current D2 stack is cumbersome and candidate for refactoring considering:
+1) Documentum platform is outdated and does not provide any integration with a nosql database. 
+2) Data model for D2 seems to be more suited for a nosql repository
+3) It should be easier for developers and vendors to create solutions on top of D2 using a schemaless database
+4) Faster migration to cloud with new approach
+5) With new API, underlying legacy layer can be removed, resulting in overall simplified product to maintain for the clients. 
+Re-write the middle layer to store data in a no-sql repository. Move away from current platform layer. Simplify technology stack by using opensource java offerings like MongoDB or Cassandra. Although, one can use a multi-tenant approach with current RDBMS but it would be better if a fresh no-sql approach is taken. One should also strive to stick to single java technology stack end-to-end which would be easier to maintain. Overtime, solutions like lifesciences can also migrate to the cloud as well gradually.   
+
+  
+New approach will:
+1) Improve client satisfaction as new approach moves to the opex model
+2) Enhance productivity since developers will maintain a simpler stack
+3) Make money since VMware offerings can be bundled
+4) Allow solutions in cloud

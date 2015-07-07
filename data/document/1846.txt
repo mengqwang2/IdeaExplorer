@@ -1,0 +1,45 @@
+ SES - Smart Electricity System for Smart City- avoid power cuts using data analytics
+ Our Idea has the following scope:
+Target Market:  Smart City Market (Energy vertical market)
+Target Technology: IoT and smart meters
+EMC Technologies: reinvents both storage and data analytics
+Goal: avoid power cuts in smart city using data analytics
+
+The idea came up from one of the pains we face in Cairo which is power cut, having worked on pattern recognition basic project and data analysis, we detected the potential we can achieve in this field by offering data-driven approach. 
+Talking to engineers from the electric and energy field helped us build the problem statement and perform basic market analysis.
+
+Our solution uses real-time analysis of energy sensor data from smart meters to model the usage patterns and generate recommendations for efficient use and money saving.
+
+We have done a basic research that included qualitative surveys to power engineers in electricity sector in Cairo. We found that the biggest reason for power cuts is related to the usage pattern not the limited resources meaning that power is cut at peak times in which most of the devices (used and unused) consume a lot of power. Hence, if we can model the pattern for electricity usage (with a graph) and try to make this pattern flat enough (avoid peaks), we will be able to reduce power cuts and save money. Moreover, during peaks, there are a lot of unused devices turned on (in each house) that consume a huge amount of energy when scaled on the neighborhood level.
+
+The solution will have the following structure:
+1-	Input Data:  data collected from sensors measuring consumption (integrated to electricity meter in each house or electricity panel in each building)
+
+2-	The Analytics Engine: The engine does the following tasks :
+a.	pattern recognition (to detect peaks) 
+b.	compare usage per user with historical records using machine learning algorithms such as clustering and classification.
+3-	Output reports: Two types of reports (user-level and supplier level). Recommendations sent to the user via mobile app about:
+a.	Money saving opportunities by recommending certain usage pattern (for example: use clothes washer in the morning instead of the evening to save 10 LE/Month)
+b.	Expected power cuts in the neighborhood and some tips to avoid it (for ex. If 5 Air Conditioner are switched off in your block, power cut is avoided)
+Supplier level reports are sent such as:
+a.	Neighborhoods that has the worst usage patterns (high peaks) as potential area of investigation
+b.	Expected power cut times (predictive analysis using time-series analysis) to alert citizens
+c.	Recommendations for deferential pricing based on the usage pattern (you may charge more for an irresponsible use of resources if the user is not following any tips for efficient use
+
+The system will also provide recommendation for the government on the best allocation for the resources (the best location for the next power station ..etc).
+
+A Proof of Concept (POC) can be built as a primary stage using R or MATLAB coding to simulate the current usage statistics and test our proposed solution to be able to quantify the cost saving and hence the ROI. 
+
+EMC Business: EMC provides two core technologies for such solution:
+1-	Storage for huge amount of data ( we propose HDFS on ViPR for Application integration with Isilon backend for data analysis using OneFS.)
+2-	Big Data Analytics: leverage Pivotal stack for real time analysis like GemFireXD or open source tools like Spark. Larger scale batch analytics can make use of Pivotal Hadoop Distribution, Data Loader or Sqoop.  Statistical Algorithms to use are Time Series Analysis, regression and pattern recognition available on libraries like MADlib or Graphlib. 
+
+Go To Market: 
+the solution can be packaged into EMC Enterprise Hybrid Cloud (EHC) solution (to be sold to power supplier company) or can be offered as a service over Pivotal CloudFoundry using EMC Business Data lake (BDL)
+
+1-	Minimize power cuts
+2-	Save money for end users
+3-	Save money for the power supplier company
+4-	Revenue generation for EMC
+5-	Positions EMC as the infrastructure provider of choice for the smart city platform using its storage and big data technologies
+

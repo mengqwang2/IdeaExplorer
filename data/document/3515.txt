@@ -1,0 +1,14 @@
+Social Assisted Collaboration
+
+ 
+The idea came up when I was browsing the new profile style in “Inside EMC” where the Expertise section is added. I was thinking of making benefit of Inside EMC and activating it in the same time
+
+ The idea works as follows:
+
+-	When a TSE needs to collaborate with certain Expert in certain skill area, a request is submitted to “Inside EMC” portal.
+-	Inside EMC  will scan the expertise of different employees profiles and will return a list of candidate calibers
+-	The list of calibers will be sorted according to skill level and total collaboration points earned (the more a TSE collaborate the more points he/she gains)
+-	The nominees list will be returned to the requester TSE who will then contact his peer engineer to start a collaboration
+
+
+

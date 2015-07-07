@@ -1,0 +1,103 @@
+Object based Unified Cloud Application Development Platform -- EMC Platform as a Service
+
+Wish to make cloud technology easily and generally avilable to all spheres of business.
+Wanted to build end to end solution using existing storage products.
+The idea is to develop a high performance, massive scale out, object based, unified cloud application development platform. This will act as "platform as a service".  We will provide an Object based Application SDK using which any application developer can build their own customized cloud solutions. This will also provide in built implementations of common functionalities specific to each identified business domain.
+
+The platform will be developned using EMC storage and Openstack integration as base. An application development SDK will be developed on this base and object based interfaces will be presented to application. We can add performance optimization at each layer of integration(storage/openstack/SDK) to meet our requirement.   
+                           
+The SDK will provide a set of interface objects (Interface to application), common utilities (readymade implementation available to user) and customization scope with which application can be built and modify easily and quickly. User can derive their features from these in-built objects and can customize it. User can create their own customized objects as well if required. Various relationships and connectivity among objects will be provided as by SDK. Application developer will write their application using SDK and register it to EMC cloud platform.
+
+Resources like storage/network/compute can also be represented as objects can be presented to user for advanced customization.
+
+The technology will bring cloud technology closer to end user and facilitate programmer to write efficient cloud application.
+
+Few use cases for this solution are listed below:
+	1.  Mobile application development - Android based interface objects can be provided. Common utility for data sharing, image processing/storing/fetching, contact management, group management, mobile gaming etc. can be provided as utility objects.
+	2.  Social media -- Data profiling, data sharing, concurrent access, data integrity, graphs can be made available as utility objects.
+	3.  We can apply this solution on online multimedia library, e-commerce, IT solutions, enterprise, banking, e-governance areas and many more.
+
+
+Advanced IDE can be provided where cloud application can be built and deployed in no time by dragging, dropping and connecting block diagrams. An example of building social media application development is depicted below:
+
+
+**********************************************************************************************                                                                                                 *
+*  Application Space  - IDE (with Drag and Drop application development feature)            *                                                                                               
+*  -----   SDK Provided Object                                                               *
+*  .....   User's customized Object                                                          *
+*                                                                                            *
+*                                                                                            *
+*                                                                                            *
+*             ---------------                                      -------------------       *
+*            |               |                                     |                  |      *
+*            |  User Profile |                                     |    Data Profile  |      *
+*            |               |                                     |                  |      *
+*             ---------------                                      -------------------       *
+*                   |                                                       |                *
+*                   |                                                       |                *
+*                   |                                                       |                *
+*                   | Customize/derive                                      |                *
+*                   |                                                       |                *
+*                   |                                                       |                *
+*                   |                                                       |                *
+*            ...................                                            |                *
+*            .                 .                  ...............           |                *
+*            .                 . ---------------- . Public data .----------Derive            *
+*            .  My Profile     .                  ...............                            *
+*            .                 .                                                             *
+*            .                 .                  ...............                            *
+*            .                 .                  .             .                            *
+*             .................. -----------------. Private Data.                            *
+*                 /    \                          ...............                            *
+*  Create/Join   /      \ Share Notifications                                                *
+*               /        \                                                                   *
+*          -------------------------                                                         *
+*          |                        |                                                        *
+*          |    Community           |                                                        *
+*          -------------------------                                                         *
+*                                                                                            *
+*                                                                                            *
+*********************************************************************************************
+                      
+                        Platform and Application Integration Plane
+                      ******************************************* 
+
+
+                      Cloud SDK (Object Based Interfaces) 
+
+Pluggin(Mobile app) Pluggin(Social Media)     Pluggin(E-Commerce)  
+      |                 |               |            |             |                 |
+      |                 |               |            |             |                 |
+      |                 |               |            |             |                 |
+      |                 |               |            |             |                 |
+**********************************************************************************************
+* Platform Space                                                                             *
+*                                                                                            *
+*  -----------   ------------   ------------   ------------   -------------       ---------  *
+*   Mobile SDK    Social Media  Banking         E-Commerce      Resources          Common 
+*  -----------   ------------   ------------   ------------   -------------       ---------  *
+*                                                                                            *
+*                              ---------------------------                                   *
+*                    	     |     Open stack          |                                   *
+*                              |                         |                                   *
+*                              |                         |                                   *
+*                              --------------------------|                                   *
+*                                        |                                                   *
+*                                        |                                                   *
+*                                        | OpenStack+Storage Intergation                     *
+*                                        |                                                   *
+*                         -----------------------------------------                          *
+*                         |                                       |                          *
+*                         |                                       |                          *
+*                         |                                       |                          *
+*                         |  STORAGE POOL (EMC Storage boxes)     |                          *
+*                         |                                       |                          *
+*                         |                                       |                          *
+*                         |                                       |                          *
+*                         |                                       |                          *
+*                         -----------------------------------------                          *
+*                                                                                            *
+*********************************************************************************************
+
+
+

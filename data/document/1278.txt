@@ -1,0 +1,10 @@
+Propel effect on RM process
+After Multi resourcing scheduling module in propel went live, we discovered broadcasting functionality which is the function responsible for routing requests to COE's is not associated with any notification/alert to the responsible RM, considering COE is covering EMEA and US thus different time zones, running a query every couple of hours is not realistic. 
+An additional action is required from the Project manager for the resource manager to get notified on the spot about the demand being submitted accordingly Better response rate for PMs accordingly to customers  and faster engaging an engineer.
+
+
+Desired Outcome: A work around to –on the spot- notify the responsible resource manager that a request has been raised and he/she needs to process the request.
+
+On a sample of 20 requests the average time to staff decreased per demand from 17 working hours to 11 working hours which meets the 2 working day SLA.
+Time to staff decreased which enables more utilization to engineers according delivering more hours thus achieving the VSD targets.
+

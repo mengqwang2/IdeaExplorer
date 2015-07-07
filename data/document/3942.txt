@@ -1,0 +1,9 @@
+Predictor from MyVoice survey
+
+Thinking about big data analysis in HR realm caused this idea to spring in my mind.
+A centralized survey module is envisioned that would allow creation of survey and gathering of the survey data thereby allowing any analysis to be performed to gain insights into data.
+Historical MyVoice data need to be correlated to the performance of the business divisions and their personnel and then based on the three years of data predictive analysis must be made so that the management can work on the lead measures (predictor of the result) rather than the lag measures (after the fact). Correlation analysis of the results would show what worked well and what didn’t work and seed the prediction engine. For example, if an HR initiative caused a negative impact on some aspect of the organization identified through survey then any clustering of such initiatives should be discouraged or given extra considerations. Another example, if a particular group consistently provide negative input then something could be wrong in that group’s management or team dynamics. Survey data need to be categorized and tagged with related keyword. Sentiment analysis needs to be performed for free form text input (this is a hard problem, but automation in this area is definitely preferred) 
+
+Data can be stored in a cloud. If such survey needs to be done quite often causing data to grow rapidly then big data (Cassandra, MongoDB) is recommended for storage.  Analysis can be performed either through custom application or R Script and then the results can be visualized over the web by any browser. Mobile applications can be written to access results showing rich graphics and drill down capabilities. Web application would be HTML5 with javascript for rich visualizations.
+
+

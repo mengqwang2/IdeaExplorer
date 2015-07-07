@@ -1,0 +1,10 @@
+Single pass VM backup with  MS applications
+Need to perform backup twice for Recovery of Exchange ,Sql,Sharepoint installed in VM Environment (Avamar and Networker)
+
+Found customers complaining about the Backup Window 
+1>VM backup
+2> Application backup
+Developing single VSS provider that does the VM and Application consistent backup , so no need to perform the backup twice and when we restore it should restore everything backup
+
+It would Reduce the backup window , as well as save restore time and make customer satisfied
+

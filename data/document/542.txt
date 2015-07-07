@@ -1,0 +1,36 @@
+Reduce power consumption by improving hardware, software and systems of by EMC products
+The idea propose to reduce power utilization by EMC products through various approaches available.
+The idea was created 15 days back while discussing with members on how power consumption could be optimized in EMC's context.
+Our idea proposes a 2-stage solution at a Data Center level. Data center managers are fraught to juggle the business demands with budget limitations. They need more power optimized and environment friendly products and solutions. 
+
+1. At the Software Level - 
+     + Power management system inside Linux Kernel: EMC server systems usually work on Linux based 
+         systems. Building power management systems within the linux  system (kernel) should be one of 
+         the best practices to adopt: http://free-electrons.com/doc/power-management.pdf. This power
+         management system should be placed behind an analytics engine which can guide power
+         management system on workload pipeline prediction.  If the work load pipeline is sparse,
+         immediately the excess hardware at disposal should be put to low power state.  In an active-passive
+         EMC cluster setup, gain can be huge if passive node is put to low power mode (not switched off). 
+    
+    + Focus more on Virtualized product delivery: In the current industry scenario which is heading
+        towards cloud solutions, work to deliver more Virtualized EMC product solutions where ever possible
+       .This can lead to lot of optimizations with in the virtualized environment.       
+
+2. At System Level -
+   + Architect the EMC systems to accept direct DC current:
+        Statistics prove that Data centers that use DC power distribution to the rack have been shown to
+        operate more efficiently than existing ones operating on, and even at higher AC voltages. In fact DC
+        has been used extensively in the telecom sector. Modify the onboard SMPS to take DC current as          
+        input and step down according to the hardware requirements. This avoids AC/DC conversion from
+        the system stage and improves efficiencies by ~28%.
+
+    + Include power optimization practice with in architecture, development and testing:
+       There is always a tradeoff between power consumption and performance. Lot of times we need
+       choose between one of the above. But if an architect thinks on better ways to conserve energy by
+       well placing the system + software architecture, developer is concious of creating a design which is
+       efficient but less power hungry and  test team about list of practises, tools (powertop) to nail the
+       power consumption issues, the products would be much better placed on what they are. Atleast in
+       our testing experience we have not seen a test plan which talks to reduce the power consumption of
+       a Purpose Built System.     
+
+If the idea is fully implemented, EMC would be saving on power usage at our Lab to almost 30% resulting in saving money in our bills or can add more servers for the same power capacity.

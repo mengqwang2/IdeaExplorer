@@ -1,0 +1,11 @@
+To manage muliple test areas activities on same array
+
+This is raised during an engineering meeting when we want to do cocurrent testing on same array
+My understanding of the main challenge is how to handle the conflict of soft objects usage. I image the 12 testing as  muti-tenants customers, so for every object it should belong to a tenant, if we properly keep the object-tenant mapping info in testing, then the 12 test areas can work on the same array. 
+For muti-tenants customers, every object it should belong to a tenant, if we properly keep the object-tenant mapping info in testing, then the 12 test areas can work on the same array. 
+So we can have test framework to do object mapping process as:
+1.	Before each object create operation command, test framework query the Object ID in mapping table to check conflict.
+2.	If there is no result, which means no conflict, the Physical ID and Physical Name can be same as Object ID, Object Name
+3.	If there is query result, which means there is already existing object. Test framework assign Physical ID and Name by defined incremental rule and insert into the table.
+4.	Before each fetch/update/delete commands, test framework query the Object ID in mapping table to get the Physical ID and Name and translate commands with Physical ID and Name.
+

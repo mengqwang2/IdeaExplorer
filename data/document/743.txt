@@ -1,0 +1,13 @@
+Sync BT, EAS, Apex & Shift Planning together
+Time waste Reduction
+too many apps to fill everyday to be compliant which is time consuming & a big hassle to fill and/or track
+we can create an app that 
+1. automatically extracts necessary reports from BT
+2. extract the number of SRs logged on EAS (SRs/hour, rather than calls/hour)to accurately measure the occupancy of CST
+3. import odd hours to Apex from the BT login log out Reports rather than manual entry
+4. compare shifts starts with the login logout report extracted from BT that measures adherence & compliance
+NO MORE:
+*EAS incompliance reports 
+*"Forgot to submit my annual, sick or swap shift"
+*"Forgot to request the P/H as double pay or compensation"
+*"I didn't get the pay for my odd hours work!"

@@ -1,0 +1,7 @@
+Smart Office using Internet of Things
+To increase the productive of the employees smartly.
+This idea came into my mind when I think about routine tasks that every employee usually does in his day today life eating up some of his productive time.
+The employee's ID card should have sensor to emit his / her badge ID and which will be read by a device at the office gate by a sensor. In the office every data emitted by the sensors would be aggregated by a device aggregator. This device aggregator can propagate this information to all the subscribed devices based on subject or context of the emitted information.
+This information of badge number would be sent to Employee Discovery Server which would interact with Employee repository to get his Cube location or room location. This information would be sent back to the Device Aggregator. All the subscribing devices such as the employee's room door sensor or employee's workstation would receive this information and make his workstation get started. If he or she has a room in which the workstation is location, the door would be opened within 5 to 10 mins by the time he reaches his /her room.
+If he has a laptop, the laptop would be attached with a sensor which will get activated by device aggregator signal and power on his / her laptop. If the laptop's battery ran out of battery, the employee will be sent an SMS message / alert from the device aggregator to charge his laptop after reaching his location.
+This could be part of a smart city project if EMC gets a chance to develop the smart city.

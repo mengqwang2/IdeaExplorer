@@ -1,0 +1,63 @@
+ Pivotal CloudFoundry + Big Data-as-a-service =  EMC meets startups’ needs +  Pivotal higher market place
+
+ The idea came up from research on EMC pivotal portfolio and discussion with small startups using AWS 
+
+STRUCTURE :
+ 
+The idea is to use EMC CloudFoundry coupled with Big Data as-a-service platform. 
+-	The solution will leverage VMware virtualization layer and Isilon scale-out storage, VPLEX as well as powerfull Greenplum analytics platform to offer :
+
+o	Scalable storage and compute
+o	Elastic and highly available application platform 
+o	Integrated business analytics platform
+o	Zero setup cost and low operational cost
+o	Data protection and restore
+o	100% availability using components hot sparing 
+-	We will leverage EMC VPLEX “SCALE-OUT CLUSTER ARCHITECTURE” together with VMware virtualized technology to offer a scalable and highly available compute. VPLEX ,as a cloud solution, also offers data availability and migration. For huge scaling storage purposes, Isilon scale-out NAS will be used at the backend.
+-	The virtualization layer will abstract the compute and the storage layer to provide what is called “Boxes” consisting of compute and storage.
+-	As a key differentiator, EMC Analytics platform will be integrated with the cloud service. It will use Greenplum platform centrally to serve many customers. The analytics platform will be accessed over the cloud. 
+-	EMC will add High Availability for the “Boxes” by using data replication and backup techniques.
+-	EMC can add another differentiator feature by using the concept of hot sparing on the “box” level. Each box will have a VM that is a replica of its configurations, data,…etc. this Hotspare will be used in case of any failures
+COMPETITIVE ANALYSIS :
+
+This EMC solution will provide the answer to major AWS drawbacks/problems as follows :
+
+-	“Retirement” process issues in AWS : retirement in AWS implies availability problems. Boxes shutdown process is not predictable. EMC has the answer to this challenge using redundancy as well as seamless data migration supported by VPLEX 
+
+-	Elastic Compute Cloud (EC2) lifetime is not very big. The answer to this relies in VPLEX and ATMOS reliable cloud solutions and box hot sparing technique proposed above
+
+-	“Availability zones” issue : you are more likely to lose an entire zone than to lose an individual box. This issue makes redundancy (master/slave) in AWS useless. EMC has the answer to this challenge as it uses single point of failure-free approaches. EMC does resource abstraction and aggregation in away that there is no single point of failure (for example the striping of data across many disks and RAID groups. EMC replication solutions (RecoverPoint) adds another layer of protection here.
+
+-	Multi-zone failures happen: and another issue is that  it is expensive to go multi-region. For example : US-east, the most popular AWS region, had region-wide failures in June 2012.  EMC has the answer to this challenge using disaster recovery and Node hot sparing using a VM as well as VPLEX stretched clusters
+
+
+-	AWS Elastic Block Store (EBS) has slow IO rates:  EMC ha sthe answer to such problem by employing its fast caching techniques as well as FAST features for autotiering.
+
+
+-	Reliability will differentiate  EMC from AWS especially in the following events: (1) a node failure , (2) a scaling event (in/out); (3) a process restart; (4) a software upgrade
+
+Solution STACK :
+
+?	Use : Pivotal CF, a distribution of the Cloud Foundry PaaS,
+?	Pivotal HD, a distribution of Apache Hadoop,
+?	Pivotal AX, providing automatic analytic instrumentation.
+
+Solution Key Strategies for Pivotal CF to maintain market value :
+
+-	EMC to focus on ease of migrating of the finished application to an internal cloud, or to other platforms like SAP.  AWS uses proprietary APIs, which makes it hard to migrate the finished application to an internal cloud. EMC needs to address this challenge using standard APIs
+-	Maintain the critical existing market needs like Scaling, flexibility and ease of restore.
+
+-	EMC to be more business aware to be able to tune/ customize its service to the business need which enables EMC to put itself as the consultant partner of its customers as discussed in the idea “EMC business locator and Analyzer” in the same challenge.
+
+-	The Business Locator and Analyzer is described in the following Diagram : Picture uploaded to “Inside EMC” https://inside.emc.com/docs/DOC-99770
+
+
+REFERENCES :
+
+http://www.carpathia.com/ 
+www.CloudFoundry.com 
+http://wikibon.org/wiki/v/Can_EMC_Pivotal_Compete_with_AWS%3F 
+http://www.emc.com/storage/vplex/vplex.htm 
+
+
+

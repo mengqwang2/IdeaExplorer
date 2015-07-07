@@ -1,0 +1,5 @@
+Smart Parking solution
+the challenge is encouraging the idea of smart city. So I am proposing an idea that is making parking more easier.
+Car pooling is a known idea but how we implement it is something new that I thought about
+My idea is addressing the parking issue in the premises. It is about creating an application that includes a small map of Cairo for example and all the employees are marked based on their place of residence. Then following the idea of car pooling, if I live in New Cairo then I can look at the map and the employee who is ready for car pooling providing the time, I can ping him to confirm. This will reduce the number of cars definitely and maximize the free parking slots.
+An application that is accessible by all employees if applied for a certain company

@@ -1,0 +1,11 @@
+Storage Energy Efficiency and Effectiveness
+Not all storage systems consume the same amount of power or deliver the same performance with the same number of ports, controllers, cache, and disk drives. A challenge with storage systems is gauging power consumption and performance. For example, can system A use less power than system B while system A delivers the same level of performance (is it as fast), amount of capacity, or space to store data (how useful)? It is possible to create a storage system that uses less power, but if the performance is also lower than with a competing product, multiple copies of the lower-power-consuming system may be needed to deliver a given level of performance.
+Usually EMC estimate the power consumption for its products through the " EMC Power calculator" http://powercalculator.emc.com/Main.aspx. Which I consider not too accurate due to lack of operating conditions and configurations. 
+
+Employ our powerful EMC analytics to collect information about the operating conditions, configurations, write errors, ...etc. to a dedicated cloud hosted by EMC to make our researches and suggest new best practices based on real data gathered from the "in production" storage arrays. 
+By having accurate information we can gain the next
+
+1- Reduced power consumed by our products.
+2- Effectiveness of EMC products Vs competitors' ones.
+3- Lower TCO for EMC products.
+4- Increased TCE. 

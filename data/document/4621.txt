@@ -1,0 +1,5 @@
+IP replicator failover destination interface choices
+
+Faced issue of a misconfigured gateway IP during a migration cutover. It will make the process more user friendly.
+When doing a failover/swithover for a IP replicator session, we should have a choice of interfaces on the DR to be used by the CIFS server. This would make the process user friendly and remove the restriction of having a same named interface on the DR . Also a ping test to the NTP or DNS  on the DR should be included in the failover/switchover menu to check the network readiness of the DR for CIFS readiness .
+

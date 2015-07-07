@@ -1,0 +1,10 @@
+360 Degree FAST for 3rd platform storage platform
+
+NA
+The solution is to provide a notion of shallow and deep FAST capabilities between vVMAX and vVNX and their physical variants.  Depending the how the vVMAX storage configuration is setup, 
+-	the FAST engine could just migrate the LU configuration to the backend (assuming the vvMAX LU supports data portability) 
+-	Or do a deep migration by offloading the copy process to the back end so that it could migrate the LU w/t from the source device (exposed to the vVMAX) to the new target (created on the physical VMAX or VNX) involving vVMAX.  Once done the LU ID could be switched thru block federation process.
+
+It is called FAST 360 as this would allow us do FAST sideways, top and within. This feature would make the system very elegant and dynamic. 
+
+

@@ -1,0 +1,12 @@
+Solution Enabler as a Service
+
+ESI for SAP LVM heavily uses solution enabler for performing storage related operations. While thiking of how the platform dependency can be eliminated for a an application that needs to use the SE, I thought of this idea.
+Currently, to perform storage operations on host which uses VMAX storage array, it is required to install platform specific Solution Enabler(SE) libraries on the host. Any application that needs to use the SE functionalities, need to be installed on the host.
+
+If the SE functionalities could be exposed as web service, the calling applications can be platform independent.
+
+SE should run as agent in the host. It can provide REST interface using which authorized user should be able to perform storage operations at host level.
+
+
+
+

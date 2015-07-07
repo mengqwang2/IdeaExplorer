@@ -1,0 +1,5 @@
+Mark a location on map for navigation usage
+We always met the issue that we could not find the car we parked due to the parking lots not organized well.
+I suffered a lot when finding the car.
+We can map a location on the off-line map when park the car. When we comes back, we can navigate to the location we mapped. 
+It could save a lot of time to find the car.

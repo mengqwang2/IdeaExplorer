@@ -1,0 +1,6 @@
+Chemical leakage detection in rivers and seas 
+n/A
+Used in some countries 
+With a device that can detect leakages and wastes of factories in rivers with a certain percentage and give us a daily report which we can put analysis with graphs and check when peaks and down times are occurring, who is throwing those things, and also we can predict the percentage of the leakage and the wastes and we can stop it now.
+IoT
+Health life, green Environment 

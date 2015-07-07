@@ -1,0 +1,5 @@
+Meeting Mate
+
+I have created a prototype of this application for a college project I developed. This works by attendees scan a code with their smart phone when entering a meeting. http://www.meeting-mate.appspot.com/tutorial (this uses your gmail account to authenticate) 
+Allow uses to check into meetings via their mobile device quickly and easy by using "Contactless Technologies" i.e. NFC or QRCodes . The organizer will have a list of all who attended. All attendees will have access to minutes of the meeting,  that can be downloaded or accessed at any time. No need to send emails to everyone and create long endless email threads.
+

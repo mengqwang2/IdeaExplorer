@@ -1,0 +1,6 @@
+VPlex as software agnostic to hardware or OS failure
+
+During discussion on VPlex
+Idea is to make VPlex as an application agnostic to hardware or OS failure by moving/migrating VPlex application to the existing directors in the cluster in case of hardware or OS failure without impacting the host IOs using virtual ports.
+
+

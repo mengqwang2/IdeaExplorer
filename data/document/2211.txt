@@ -1,0 +1,18 @@
+New Procure to Pay tool 
+New tool that can be built by EMC and can sell it off to customers also as a services with other products as a package.
+I have worked on a similar tool in my previous role successfully and has worked from scratch in creating a new process and implementing automation.  
+Catalogue based web interface which displays all EMC products and services. Clients, EMC employees can go on to create a requisition from the tool. This will have all approval processes based on cost of the requisition, or based on business unit or available budget. 
+
+Post successful approval a PO# will be generated and user will be notified. There will be a separate ticket created in the inventory management to check if the requisition is available in the inventory or not. 
+
+IF not the ticket then passes to the procurement  team where the procurement team can get in touch with the vendors for price negotiation. Once procured then the user is given the product or services. 
+
+ 
+Now Invoice is received from the vendor to the accounts payable team, which can scan the invoice using OPTICAL SCANNERS. All sort of operations are performed in the invoice to insure its not a duplicate or if the payment has not already made. 
+
+Tool will have the capability to have the payment terms captured based on the vendor and make the payment based on that. 
+From Data storage, EMC can start looking onto expanding into Supply Chain management tool. 
+
+This can replace the current concur tool also and since it will be home made tool lot of cost savings. I do not have the visibility in current accounts payable and Procurement processes in EMC so i am not able to get a figure or $ value of savings. 
+
+Benefits - Better visibility and opportunity for EMC to get into services space where a request is tracked form requisition till invoice is paid. 

@@ -1,0 +1,7 @@
+data center virtualization
+Idea describes how better the physical hardware in the data center can be Utilized with the help of EMC technology. Also it talks about introducing the new open source technologies like FreeNAS which is doing a lot better as centralized storage for home s
+I was trying to create the best environment out of the minimal resources that are available to me. Like on my laptop i tried to simulate creating data center environments like multiple hosts, AD, Windows cluster, FreeNAS etc..When i saw this challenge i thought my idea may contribute some thing.
+Making sure that the Physical hardware is utilized to the best with the EMC technology. Like automating the hibernate and wake up feature on ESXi with a script when the machine is not utilized. Also,
+Adding open source technologies like FreeNAS will help improvise the way of Data center storage visualization to its best. 
+I call it as enhancement which will help EMC showcase this new feature which should bring good will and customer satisfaction.
+Also, encouraging the open source for R&D giving more cost efficent data centers and opening door to the innovative technology

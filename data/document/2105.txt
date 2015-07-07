@@ -1,0 +1,8 @@
+Save only software information when save array configuration 
+1: Different customer own similar use scenario can share the classic configuration without setup everything from scratch
+2:Sometimes we need duplicate customer array configuration to try to debug or reproduce customer issue.
+1: When we need to reproduce customer issue,  we need to set up from scratch.
+2:During testing, bug make system can't be recovered and needs ICA. Configuration duplicate work with error due to hardware port change or capture operation executed when system in problem situation.
+Arrayconfigure capture command can capture all system configuration or only software configuration. So even system is partly down, software configuration can be captured and reloaded no matter what kinds of hardware situation.
+1:Save the customer configuration time and make our product more smart.
+2:Improve customer support 

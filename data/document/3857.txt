@@ -1,0 +1,5 @@
+Vacation App
+
+Innovation Session
+App calendar for the countries we work with and their vacations/important events so when they have vacations we know and we can work from home and save power.
+

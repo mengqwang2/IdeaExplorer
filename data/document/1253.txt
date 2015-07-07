@@ -1,0 +1,9 @@
+EAS enhancement to avoid overlap and overlogging 
+new idea to facilitate and improve time logging
+because we face everyday the problem of overlogging and overlap on EAS 
+implement a counter, in the service center an option like the initial response selection.
+
+once the TSE start a webex or investigation with the customer the time sent is automatically calculated and that counter stopped only with the final log note, so if we submitted a log note in a different SR the initial counter will not be reset.
+
+On the other hand we can dim the log time if the current total time is exceeding the actual time spent since the start of business hours.
+we will have more accurate time logging and overall better reports 

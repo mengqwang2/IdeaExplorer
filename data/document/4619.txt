@@ -1,0 +1,5 @@
+Using Data mining and Business Intelligence techniques to resolve errors during test
+
+I had this idea while discussing possible solutions for debug tools with engineering.
+Using the existing data contained in the Log files from previous test runs and the information contained in the Global reporting dashboard. A BI tool could list possible solutions for an error based on how the error was resolved previously.
+

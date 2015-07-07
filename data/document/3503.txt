@@ -1,0 +1,17 @@
+ Centralized Test Lab – Accelerate time to Market and Product Development by accelerating testing  
+
+the idea came up from working on the New VNXe KittyHawk and using its simulator
+ The idea works as follows:
+
+-	For any product release, there is a huge amount of testing needed. Development team and Engineering team are the ones who do this in nearly all the cases.
+-	We would like to use the huge collective effort combined from different support teams across all Geos in the testing process. 
+-	We will have a central lab over the cloud that is accessible to all TSEs supporting this product to run their test scenarios. 
+-	Each test scenario will have its own logging returned back to the TSE. He can also consult with SMEs/Engineering 
+-	For example: a new product release of VNX is being released (Rockies), the central test lab will be accessible to all VNX support teams to run their tests.
+
+Product simulators can also be used such as VNXe3200 KittyHawk simulator.
+REFERENCES:
+http://supportinfo.lss.emc.com/VNXe/KH-_Simulator 
+
+
+

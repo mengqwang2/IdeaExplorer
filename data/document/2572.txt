@@ -1,0 +1,6 @@
+Standard Set update
+This idea will benefit TSEs in the time they need to get information from Service Requests.
+I was discussing with one of my colleagues the difficulty of getting hold of the connection information, version of the cluster, any comments about he connection, customer information etc ... when we came up with this idea.
+Create a standard Website that will contain specific fields relevant to each product. All the TSE is required to do is to open the website, select some options from a checklist, fill some fields and then click on submit. the submit button will then copy the data inserted adding to it the standard wording agreed on to the clipboard, the TSE can then take this text and past it in the SR notes. later on this could be implemented with Service Center to actually reflect directly in SC rather than copy pasting it.
+It would looks like a website, and later on it could be implemented in Service Center.
+It would mainly benefit the CS organization and any BU that uses SC or would need to have a standardized update process.

@@ -1,0 +1,10 @@
+EDU Portal Mobile/Tablet App
+
+This feature will make life easier as well as increase employee engagement.
+The idea is to have an application aligned with https://education.emc.com/ for employees to be able to access their online trainings from their phones/tables.
+
+This will increase employee engagement and by giving the ability to attend their online trainings from anywhere.
+
+The app can cover employee transcript with privilege of registering in trainings as well.
+
+

@@ -1,0 +1,6 @@
+Simple and efficiency EAS
+Create a new easy way when apply the vacation to the employees
+The idea came out when using the EAS at first time.
+This will benefit to all the employees.
+Build a new portal for vacation application. It should be easy. Move the employee vacation application out of EAS since EAS is always very slow.
+More ease with vacation application.

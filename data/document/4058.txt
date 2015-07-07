@@ -1,0 +1,5 @@
+Asset Management Automation
+
+I have this as an idea as i am unable to track and optimize cost, while i see an opportunity. Manual tracking is very difficult especially with a headcount of more than 500+ employee in my organization. So I guess its the same issue to a wider EMC.
+Today in EMC to my knowledge we dont have a centralize place to issue, track & Maintain Asset including Laptops, desktops, VDI's & phones etc which are being issued to employees
+

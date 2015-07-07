@@ -1,0 +1,19 @@
+EMC Employee Service application (EES)
+The idea offers the collaboration of every department to nominate one or two from each to go through a competition in some fields to win and be in charge of the community that will help EMC employees. 
+The idea came from that we always serve customers if they need help. What will it be if EMC employees themselves need help?
+There will be a global competition;
+-Technical (Programming Languages) Linux python, java and more. To win, There will be a    
+ script must be written by candidates to make it applicable for certain applications.  
+ Winners must have the highest Code's efficiency.
+
+-Non-technical (languages) German, Spanish and Italian and more languages
+ To win, There will be essay, poetry and conversation competitions 
+
+The winners will be the head of each community and will be responsible to recruit more people to serve large amount of EMC employees and arrange sessions for the employees who are interested to learn more. 
+
+
+- Team work in each department to nominate the suitable candidate
+- Breaking the ice between EMC employees all over the world, as they are going to be in   
+  charge of a community and will serve their colleagues.
+- Increases employees' skills & accuracy in work.
+- More educational courses in a form of fun workshops 

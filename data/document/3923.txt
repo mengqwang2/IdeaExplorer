@@ -1,0 +1,5 @@
+Integration of BRM and Data Domain as backup solution for small customer.
+
+The small shopping malls, resturant,small IT vendor etc do not have Infrastruture to backup their environment. if we enable BRM which automate backup and integrate with Data Domain this will give them option to protect their data. 
+We have BRM which currently used as monitoring for Data Domain. We can add customized version of networker in BRM with backup target as Data Domain using CIFS or DDboost protocol. The initial target is to backup for filesystem, SQL ,mysql etc. These sql and mysql database are used by small enterprise to keeep record of their daily trasacation data.
+

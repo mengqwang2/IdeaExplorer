@@ -1,0 +1,16 @@
+EMC Greenplum Real-Time Big Data analytics
+Google, eBay and LinkedIn were among the first to experiment with big data. They developed proof of concept and small-scale projects to learn if their analytical models could be improved with new data sources. In many cases, the results of these experiments were positive.
+
+Today, big data analytics is no longer just an experimental tool. Many companies have begun to achieve
+real results with the approach, and are expanding their efforts to encompass more data and models.
+The idea stems from a paper written titled “Introducing GRACE 2020 – A Cloud Computing Blueprint” by Bruce Yellin for the 2012 EMC Proven Professional Knowledge Sharing Contest, for which it won a Best Of Cloud Computing award. It is based on where technology is going in the next 8 years.  It has become quite evident that what we know of big data today is just the beginning of where it will be by 2020. It will continue to evolve, become vary more user friendly without the need to highly paid, scarce data scientists, and be capable of supplying real-time data on par with today’s fastest OLTP systems. If pre-packaged with data feeds and targeted towards market verticals, it could be sold as a complete solution.
+By combining real-time data feeds into a prepacked Greenplum Hadoop solution Or Pivotal HD, it would have real-time knowledge of events and be delivered to market as a low cost, turn-key solution aimed at retailers. Use case, for example: If parents and their young kinds had just watched a Transformers movie at a movie theater using Fandango pre-purchased movie tickets for the family, they could be sent real-time messages about half-price Transformer toys for their children at their local Toys R Us. They would also be greeted by a giant e-sign as they walked into the store as identified by their GPS-enabled frequent shopper card or an application on their smart phone. Sales would increase from the allure of the direct marketing of Transformer toys.
+Another example of pre-packaged Greenplum real-time marketing: Through the unification of consumer detritus data used by popular “big data” advertisers worldwide like Catalina Marketing , GPS-enabled smart phones, and frequent shopper card devices to allow for real-time data mined advertising, such as a e-sign for “Mrs. Smith”. As Mrs. Smith approached her Allston neighborhood Shaw’s grocery store with her young daughter sitting in the shopping cart seat, she passes a grocery window that flashes “Mrs. Smith, your daughter Betsy would love some Oreo cookies. You haven’t bought them in a long time and they are on sale today”.
+
+Cost reduction of services
+Better customer experience.
+Faster, & better decision making
+Make money
+enhance productivity
+New products and services
+improve current products and offer enhancements for the current technology

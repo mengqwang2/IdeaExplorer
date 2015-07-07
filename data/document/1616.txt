@@ -1,0 +1,8 @@
+One controller for the 4 elevators in Egypt’s COE building
+Cost reduction for EMC Egypt COE
+Noticing that nearly all employees call the elevator from both controllers and those elevators cost EMC a lot of money only because they are in a rush.
+I suggest having one controller for all 4 elevators so that people are forced of calling only one of them.
+A workaround could be connecting both controllers together so that if one of them is called in one direction, the other controller gets disabled to be called in the same direction.
+If the elevator is called in a specific direction by more than 3 floors at the same time, 2 elevators should start moving. This should be beneficial in rush hours.
+
+This will save a lot of money for EMC since we are guaranteeing that every time the elevator is called it will be used. EMC will save electricity, less maintenance and it will shorten the lifetime of the elevator

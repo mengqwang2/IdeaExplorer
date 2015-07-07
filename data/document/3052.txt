@@ -1,0 +1,15 @@
+Using XtremIO as a cache server
+New use case for XtremeIO (new market), using XtremIO's unique capabilities, such as deduplication and compression. This offers new capabilities and efficiencies to our end users (ISP) by reducing the networking payload.
+
+
+
+The idea came up as a result of a brainstorming session within the QA group. 12 ideas were presented by ten people in the group. This solution is one of the 12 ideas that will be submitted.
+This idea provides a quick storage update by using XtremIO's internal storage capabilities.
+Due to its unique capabilities, such as deduplication and compression, XtremIO writes the data only once. In order to implement the solution, XtremIO will need to have the ability to clone data between clusters. The clone can result in one or more of the following: 
+1. Sending the minimum data (after it is deduped and compressed) - minimum networking payload.
+2. Sending the metadata to achieve a full clone between clusters.
+3. Using replication/snapshot algorithm (using snapshot Diff tool).
+The solution would be a code, residing on the Storage Controller, sending/receiving efficient Ethernet payload packets.
+Success: XtremIO will replace the current cache servers on ISP sites.
+For the company, it would mean substantially increased business.
+

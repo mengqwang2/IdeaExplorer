@@ -1,0 +1,12 @@
+Debook & Rebook Process Automation
+The CA team works on the Debook/Rebook report on a regular basis which is extracted from OBIEE. Each contract from the report needs to be checked to match the SAP details. Post which the contract needs to be activated if it’s a rebook contract and cancel/terminate if it is a debook contract. This involves lot of manual effort. Here we are looking for automation of the process either whole or part where we can make the process standardize by reducing the manual efforts. 
+As team used to receive high volumes in DB/RB activity, we brainstorm and came up with this idea to remove the manual efforts involved in this process. With this automation, we can bring lot of value add to the business also increase the scope of automation which can be extended to other warranty activities. 
+The idea is to work/amend on the logic and coding that is used in OKS because of which the contracts are not flowing with the correct details based on the order types & group name they fall. We are working with BTG, OKS team, SAP team to automate this process. 
+Benefits of the process automation are:-
+•	Removal of Non value added steps in the process
+•	8 FTE resource savings
+•	Will make major impact on the other warranty activities such as TBW, Lease and Entitlements resulting in less volumes
+•	Increased business process efficiency due to automation and reduced exceptions
+•	Process efficiency gains greater that 75%
+•	Increased bandwidth for GBS processes
+

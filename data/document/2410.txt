@@ -1,0 +1,13 @@
+EMC Connect
+This is a range of ideas to overcome the perceived challenges presented by working and communicating across the many EMC and federation sites. We came together to brainstorm a range of options that could help us to communicate and collaborate with all of 
+These ideas came about as part of an idea generation session within the International Customer Operations, (ICO), group in Cork. 
+a.	Provide Everyone with Webcam for their docking stations
+Most laptops have inbuilt webcams that can be used for Lync, but once the laptop is docked, you cannot use it any longer. Suggest that webcams could be installed on screen so that people can see each other when on the phone or chatting on lync.
+b.	More Tele-presence Rooms - Right now it is very difficult to book a room with this technology - suggestions is to add to the current inventory of rooms.
+c.	Shuttle bus between sites - one of the most frustrating things about travelling to other sites for meetings is dealing with parking and traffic. If there was a regular bus shuttle service, (every 30 mins perhaps), it would encourage more people to travel to 
+other sites for meetings or for one to ones. 
+d.	Hot-desking available at all sites. e.g.if someone has a mid morning meeting in another site, it would be very useful to be able to go to that site first thing in the morning and work from there for an hour or two and then attend the meeting. suggest that a certain area of each building be dedicated to hot-desking where you could just have access to a desk and chair. With the new "no fob" wireless technology just introduced, the requirements to set up should be minimum.
+e.	One of our more unusual ideas was to use some technology that is currently being used in the gaming world - one of our team members spoke about the Oculus Rift and a Virtual Reality camera which takes panoramic footage. It allows the user who wears the visor to believe they are in the place that the camera has taken footage of. perhaps this type of technology could be used to take conference calls to the next level. Some information in the attached: http://www.theverge.com/2014/1/10/5295568/the-virtual-reality-camera-the-oculus-rift-was-waiting-for
+We suggest that a range of things could be done to enhance connections across the sites both in Cork and globally. 
+
+For us success in this area would mean no barrier to having that meeting, no barrier to chatting to your colleagues who you used to meet for lunch, but are now no longer in the same building, no barrier to reading body language. Success in this area is br

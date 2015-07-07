@@ -1,0 +1,7 @@
+Add battery pack to wireless testing rack
+
+Idea developed while entering near contactless and wireless network smart cart ideas.
+Adding batteries to a 'smart' test rack would give the ability to power up product where traditionally product would need to have been placed in a dedicated cell and physically powered up.  The batteries would be charged while the product is on test and provide power to the product for a 'short' period of time should some checks be required.
+This could be coupled with the wireless network card and near contactless power to give greater flexibility.
+Alternatively, larger batteries could be used to test the product, providing a stable power supply, and the mains power ensures that the batteries are charged akin to a hybrid car.
+

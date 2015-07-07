@@ -1,0 +1,20 @@
+Automatic deployment in virtual environment
+- Durham
+This innovation will substantially reduce the amount of manual work done in R&D labs today.
+
+- Engineering Operations Services & Solutions (EOS2) Challenge.
+This will improve customer experience for all EMC virtual products.
+Several months ago, we were dealing with automation for VPLEX/VE, which is really cumbersome.
+This innovation offers a mechanism which will enable fast, automatic and transparent deployment / removal of any vApp, regardless of how complicate its prerequisites are. We suggest developing a plugin for hypervisor OS, e.g vShere, which will be responsible for parsing the relevant OVF fields, creating / removing the entire listed infrastructure and alerting when needed. The needed steps are:
+
+1. The creator of the OVF will add all the prerequisites inside the already existing OVF descriptor, thus making a clear statement of all the prerequisites. Please refer to https://inside.emc.com/docs/DOC-155858 for an example.
+It is up to the creator of the vApp to indicate whether these prerequisites are mandatory for the deployment. At the above example we indicate it with 'required=”true”.
+
+2.  During deployment, the plugin would automatically read the requirements and generate the required infrastructure.
+The plugin would be capable of generating and configuring various components, e.g. virtual switchs, distributed virtual switchs, VMKernels, clone vApps/VMs, etc.
+
+3.  During vApp removal, the plugin will revert the process, and the entire listed infrastructure shall be destroyed (unless not in use by other VMs).
+This innovation is a mechanism for a fast, automatic and transparent deployment / removal of any vApp, with no Admin intervention.
+This innovation increases the scale capabilities of any hypervisor.
+This innovation greatly simplifies the existing deployment / removal processes / automations.
+This innovation reduces the amount of work hypervisor administrator has to perform in order to deploy / remove a vApp.

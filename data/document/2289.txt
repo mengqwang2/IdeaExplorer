@@ -1,0 +1,5 @@
+SAP HANA database load simulation tool
+Improves internal development processes for various solutions (storage, DR, backup) around SAP HANA
+The idea came up when we started witha  small tool to generate random data to create a larger HANA database for the HANA certification projects.
+Create a tool which generates random HANA data (multi-billion records), simulates various HANA workloads (OLAP and OLTP), and utilize the HANA in-memory database as well as the disk based Dynamic Tiering component based on SAP IQ (aka Sybase IQ)
+Such a tool would improve productivity of the teams working on SAP HANA and significantly reduce time and effort to create HANA lab environments.

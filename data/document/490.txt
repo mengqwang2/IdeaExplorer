@@ -1,0 +1,40 @@
+Real-Time Hardware Failure Prediction using Deep Neural Machine Learning Analytic Solution 
+This idea is for Global Platform Engineering group, for capturing real time data analytics of telemetry information coming from hardware components.
+We are team from 3rd platform Open Source team, having experience with end to end development of 3rd platform application Development. We have couple of projects in IT using Analytic Solutions, idea is extension of our existing solutions we offer. 
+Proposed Solution is to leverage the existing logs collected from SMART - Self-Monitoring, Analysis and Reporting Technology (SMART), which monitors internal attributes of individual drives and Predicts any drive failures using thresholds. 
+
+This will be designed as an end-to-end solution, where predictions are done using a Analytic solution, packaging the solution using a Web portal UI, providing customized dashboards for viewing the analysis and REST services for consumption for other applications. 
+
+We plan to use Deep Learning Backpropagation (BP) Neural network models are very effective and we will use this to predict hardware drive failures & trends based on SMART data.
+
+Modeling the Network, How Deep Learning Works  ? 
+
+-	Stream the SMART data into Hadoop & Spark for batch / real time processing. 
+-	While there a lot of Open Source Deep learning algorithms, we plan to use Open Source H2O in memory Deep Learning Algorithms on Hadoop using Pivotal HD. H2O is compatible with Pivotal HD and is used for real-time massive computing on Spark. 
+-              The data for the analysis can be stored in a Greenplum DB.  
+-	The Neural Network Model will be designed with 3 layers – Input; Hidden & Output Layers.
+-	They have two phases – Feed Forward & a Back Propagation. Feed forward is when the input traverses the network and provides output in real time. Back Propagation is when the network is trained, weights adjusted for accurate predictions. 
+-	We first provide a list of training data for the network to learn before the real-time predictions. 
+-	The input to the model will be a set of SMART Attribute Values (like say Raw read Error rate, Seek Error rate) Raw Values, etc. Hidden layers will also have attributes defined with activation functions clubbed with weights assigned for each neuron to the connected neuron. 
+-	Any errors in predictions can be trained back for accuracy. 
+-	Any real time event coming from SMART, parsing the neuron network traverses the layers for accurate outputs. 
+-	The predicted output from the analysis will provide us with the expected failure of the devices.
+-	The output can be used for capturing the trends in how hardware components are performing over a period of time. 
+
+The output of the analytic solution with list of failure events, can be packaged into a REST API using 3rd platform microservices architecture and hosted on Pivotal’s cloud foundry. This can be provided for consumption by any other services.
+
+The above solution will be integrated with a java based Web Portal UI using Spring Boot with JS libraries like Angular.js Dashboard and reporting purposes. 
+
+The data can be used for analyzing trends in hardware failures. 
+
+Technology Used : 
+
+- Use Open Source Deep Learning algorithms on Pivotal HD, with a Greenplum Database for Analytics
+- Leverage Open Source Spring framework for Web portal development with Bootstrap UI & Angular.js components for Dashboards & Reporting
+- REST API back end development using Spring MVC
+- The solution will be designed using 3rd platform microservices architecture and can levereage IT Pivotal Cloud Foundry solution for easy deployments and maintenance.
+
+
+Proactive approach for dealing with disk failures as prediction will happen before failures. Capturing the trends gives us a view of how the EMC hardware components in a data center are performing over a period of time & can be used for Enhancing EMC hardware products.
+
+Deep Learning is the next level of machine learning algorithm technology that is currently trending in the industry for accurate predictions for analytics. We plan to leverage this technology for this solution. 

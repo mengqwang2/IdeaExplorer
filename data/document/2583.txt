@@ -1,0 +1,8 @@
+Automation of the Parking system in Egypt
+ In order to become a smart city and to utilize our resources (Water, Energy, Security, Transportation ... etc.) and achieve efficiency we need to automate our existing systems and one of the major systems our issues we have in Egypt is traffic and parkin
+Its almost impossible to be able to park in areas known with its disastrous traffic jams as downtown, nasr city, zamalek, etc and it takes almost 30 min to just search for a parking lot specially if you dont leave your car to a valet that doesnt even work in any registered institutes "sayes".
+First to have each parking lot with its own simple parking stations as the ones in Canada with a sensor to detect that a car is parked and automatically generates a tickets, locks the parked car (so no other car can park beside the parked car) and calculates the time of the parking.
+Then when the driver needs to get out of the parking lot just scans the ticket or puts the ticket in the machine; the machine calculates the total cost and the lot Payments can be via cash, credit, or city cards(custom made for paying parking ticket which is charged in any vodafone, mobinil store, kiosk, etc) and the parking lot is then unlocked and driver can proceed with his/her day.
+Second these parking lots can all be connected to a database system that is stored on EMC Symmetrix where there is an application that displays the available slots to the destination selected and can be used to search for the nearest empty slot.
+
+To be able to park easily and reduce time wasted by just checking the App, reduce consumption of fuel by not taking so much time looking for parking lots, avoiding cars stolen and above all the government can use the parking payments in enhancing the park

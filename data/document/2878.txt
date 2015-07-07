@@ -1,0 +1,28 @@
+Universal issue tracking mechanism across CTD product line
+The issues resulted due to product integration needs different brains from integrated product lines fix the issue. Idea is to build universal issue tracking system by looking into various issue tracking system from different CTD product lines.
+This idea came during one of the issue we were dealing in NetWorker+VMware solution where fix for DDBoost went into one of the boost release whereas same boost version was not bundled into NW and ultimately it resulted a multipl support calls
+
+Along with me, Shelesh Chopra (shelesh.chopra@emc.com) also involved in this idea. The detail architecture along with some flow diagram is listed in the below document location
+https://inside.emc.com/docs/DOC-149278
+The idea here is build a single platform which enables support and engineering organization by making ease of information availability by providing simple user interface  and searching thru different source of information (such as bug tracking, KB articles, support site, product guides). Since there is huge data to be processed from different set of product line, the solution to be built on big data analytical platform such as EMC Pivotal big data suite with Hadoop object store. The Pivotal big data suite helps to quickly deploy and manage the analytical optimized business data lake based on Hadoop, this solution helps to leverage the huge set of information available for different product line and process them thru analytical engine to make it available for team using it. 
+1) A simple user interface to collate the symptom
+o A user points to browser and launches the web interface 
+o Web interface provides a user simple search mechanism with error message and product name.
+2) Build the data lake of information from different product lines
+o Consolidate individual product line defect tracking and releng data base into Pivotal HD
+ Data lake should contain the nodes containing defect tracking and releng servers from different product line 
+ An integration of online DB from defect tracking system and releng DB into Pivotal HDFS
+o Data lake should also include the systems/nodes containing KB articles and different product lines documentation information
+3) HDFS Map reduce and HAWK analytical engine to query on massive amount of data from multiple nodes
+o Use the Pivotal Spring XD to quickly gather the data from different set of sources and pass the information to query engine
+o Process the data using Pivotal HAWK query engine to query the massive data from different product line
+o Using HDFS map reduce functions will help to query the structured and unstructured data by processing on multiple nodes containing different product line information  
+4) Business processing logic
+o Looks into signature of the defect containing similar issue and fixes 
+o Consolidates the information and provide end user the related KB article, similar bug and possible best practice information and present it with easy and efficient manner
+5) Integration of solution to Mobile App
+o An APP which can be integrated into Web Portal for searching relevant data similar to web interface with information search anywhere and everywhere
+1) A simple user interface to collate the symptom
+2) Collating information across different product line 
+3) Helps support and engineering team to quickly search thru the portal 
+4) Improve the efficiency in process by reducing the TTR for any integration

@@ -1,0 +1,9 @@
+Intelligent Converged Hard disk - Bringing Compute Close to Disk
+With Convergence Technology in play now, I feel the next step would be to take it further and have X86 and Flash(or HDD) co-exist. This would commoditize storage further and our EMC Storage Products(VNX, VMAX) can linearly scale(true Scale out)
+Looking at how Nutanix, changing the landscape. And VSPEX already seems late in the game.
+Intelligent Hard drive, which has X86,Flash(or HDD) and Software(ESX,HDFS,ONEFS etc). Expecting the density of the drives will grow in future, this would be a smart move.
+
+These Intelligent Hard drives go into VNX or VMAX, and could become next generation VSPEX that we see today.
+
+These 4 disks can do what Nutanix or Vspex can now!!
+Huge.

@@ -1,0 +1,17 @@
+Avamar - Small additions to product feature to make it more user lovable
+Currently the Avamar product with 7 versions has more features. But still when we work on daily basis on the application along with other backup application (netbackup and networker) we find some small features can make our more easier and avoid more time consumption
+By addition of below features it would be very helpful for Avamar administrator to work on daily basis.
+I have worked on netbackup and networker along with Avamar.
+And Both these backup application provides us an ease of restarting the job from activity tab and also provide better client search options.
+
+This made me feel.. it would be helpful if we have the same option in avamar to make it more user friendly.
+1. Create a "Search button" under "Policy Tab" in Avamar.
+When we have an environment with huge number of clients, This will help us    search for the client easily rather than scrolling down to find it.
+
+2. Provide an option "restart activity" to restart a failed activity from Activity monitor.
+This will avoid the navigation back to policy tab just to restart a failed backup job.
+
+Avoids unnecessary navigation to multiple tabs
+Avoids Time consumption
+Betterment of a product
+

@@ -1,0 +1,18 @@
+Integrated Intelligent Instrumented City Management System (IIICMS) 
+Egypt COE Smart City and IoT Challenge/APJ COE "Solutions Platform" Challenge/RSA IoT Challenge
+As world populations migrating to cities, different problems like garbage, infrastructure, accident, crime, city illumination, Water, Energy, Security, Transportation etc are accompanying this shift. Point and manual resolution for some of these problems are available; however there is no integrated and holistic solution available for these challenges. The problem reporting is sporadic and there is no intelligent decision support system available to address these problems in an integrated fashion in the most resource (time, cost, quality) efficient manner. This solution is addressing the smart city challenge using FEHC and FDL both of which is big rock for the company.
+We have made a conscious effort to keep the citizen app architecture simple and extendable. We are working on a prototype. Architecture doc uploaded to : 
+https://inside.emc.com/docs/DOC-156018  
+The solution is a reference architecture which is open and extended using FEHC (Storage, Data protection, Virtualization, Security, Analytics -all EMC, VMware, Pivotal, RSA assets covered)for data storage, management and analytics. The solution has a few distinct characteristics as follows. 
+1. Use Crowd sourcing, sensors, public-private partnership for data collection to be stored and managed in FEHC 2. Integrated system that co-relates different problems and provide real time/on demand decision support to address issues (Pivotal cloud foundry)3. Trend and predictive analysis 
+The entire data will be stored using FEHC and analysis by using EMC Federated data lake (The two big rocks of EMC)
+Use case to demonstrate:	
+1.	Citizen/Civic body/Automated Sensors take photograph at point of occurance (example garbage piled up, open manholes ,accident ,traffic etc) with the GPS enabled devices/smart phone and upload the photo (CITIZEN APP) to cloud (Single portal for all data) against a predefined tag like traffic, infrastructure, garbage etc. 
+2.	Once data gets captured with latitude and longitude, EMC Federated data lake decision support system triggers the action required to create the necessary work order for the concerned authority depending on the tag and location. Frequency of triggering the action will depend on business logic defined by tag. Work order will also consider the optimized resource utilization to fix the issues ; example all the road infrastructure issues of a particular area being fixed by a single vendor in same day etc
+3.	Once the problem is sorted out, the problem reporter and department is intimated back;;Citizens/Authority gets credit point for socially responsible action
+4.	Heat map and trend analysis and budget decisions for city authority on basis of historical data
+
+
+1. Clear use case of top line revenue generation for both FEHC and FDL
+2. Corporate Social Responsibility and better branding of EMC in a social context
+3. Community development/smarter city 

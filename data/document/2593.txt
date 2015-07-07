@@ -1,0 +1,12 @@
+EMC Storage Network Simulator (EMC SNS)
+Testing and analyzing storage solutions before implementing on them.
+In 2013, I had this idea shared with a friend called Sayed Eldawy (Unfortunately he is not working in EMC anymore). We didn't take any steps to start it.
+Since i have somehow good knowledge of java i think of the idea as a java developer. Each EMC product is implemented as an object which includes all its hardware/software components and features. Each products' components are implemented as parameters to the object. All data center components (Application, compute, network & storage) should be implemented with all their real features. This would provide a complete platform for simulation.
+
+Simulator Layout:
+- The layout was thought about to look like Cisco Packet Tracer.
+- All components (storage arrays, switches, cables, PCs, backup devices, ...etc) are clickable icons, where they are dragged and dropped into the simulator layout to design the required or expected storage solution.
+- Components that need manual configuration is clicked to be configured. As an example, Let's say we added a VNX array to the layout. When the icon is clicked the simulator opens a new window which directs us to Unisphere client to configure and manage the array. Same applies to the rest of products.
+- After the whole solution is designed, running the simulation starts to apply all needed tests and checks if this solution is applicable and optimum or not.
+Benefits if the idea is implemented:
+- Save money --> Real implementation could result in technical or compatibility problems which could result in losing the money spent on applying it. Applying and testing the solution virtually at no cost using the sim

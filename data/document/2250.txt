@@ -1,0 +1,43 @@
+Diversity-Innovation ToolKit : a Data-driven approach for diversity measurement and  management 
+Our solution aims at ingrain the idea of diversity as an innovation catalyzer through quantitative measuring of diversity and innovation based on organizational data assets. Allowing managers to measure the diversity of a given group. 
+
+We demonstrate our Solution using visual powerpoint slides showing Solution structure and how the end product will look like : https://inside.emc.com/docs/DOC-155444 
+
+Eslam and Amihai have appealed to the Utah challenge last year, they found that consulting and collaborating with partners from different COEs can be very contributing and can take the Ideas two steps forward in creativity. We thought that in order to understand the HR challenge and suggest a perfect solution we need to build a team that includes HR, Business and management experts, technical leaders, and Data scientists. After we built the team we had a brainstorming around the HR challenge where we leveraged the domain knowledge that each one of us has and we came up with the presented idea.
+We as a team have the ability to collaborate and incubate this idea and bring it from piece of paper into life:
+•	Maya and Ron will provide the business and HR vision and evaluate the dashboard (represents the customer)
+•	Eslam, Omer and Amihai, will work together to build the engine of the system by using data science and software engineering skills 
+
+Create a data-driven model that defines both diversity and innovation and visualizes the results in a customize dashboard. The dashboard will help managers and organizations to build and manage teams that are more diverse and hence, have the potential to be more creative. 
+
+Our solution is based on the notion of “what gets measured gets managed”. We propose a method for data-driven measurement and management of diversity and its effect on innovation, based on both conventional (e.g. PeopleSoft) and non-conventional organizational real time data sources.
+The Input to the solution:
+We define several quantitative measurements for diversity, distinguished by surface-level diversity metrics and deep level diversity metrics: 
+1.	Surface level diversity metrics – These are traditional diversity related features (age, gender, education, professional roles etc.) that can be measured by aggregating HR information systems’ data into headcounts, percentages, rates, proportions, ratios, scales etc.
+2.	Deep level diversity metrics – Those metrics capture larger scope of diversity that is not tracked by HR information systems. For example: Big data platforms and machine learning algorithms can be leveraged to calculate team’s multilingualism  score (using Lync or outlook data), inter-connectivity score (by analyzing team-members calendars, Lync connections and social networks activity (such as activity in inside EMC) and diverse interests score (by implementing topic modelling in employees’ interactions and social profiles).
+
+The Solution engine:
+•	Following to diversity metrics calculation, we’ll leverage machine learning algorithms such as neural networks, deep learning and regression to  calculate correlations between the above mentioned diversity features and innovation metrics - such as number of proposed\winning innovation ideas, number of approved patents, EPAS rating, new products’ sales percentage etc. The correlation results will allow us to assign weight for each diversity feature and using that we can calculate diversity score per each team. These results may support resources allocation (such as diversity trainings) for areas and teams that will benefit the most. They can also be integrated in team-building programs, recruiting processes and more.   
+
+The output of the solution:
+1.	Diversity Score: one number describing a collective score for diversity for given team or employee. 
+2.	Dashboard for mangers: will be built to measure both diversity and innovation criteria of a team, visualize relation between different aspects of diversity and innovation and indicate the strengths and pitfalls of each team, to help managers make decisions that will increase their teams' performance.
+
+More details: 
+We prepared a visual demo of our Solution showing Solution structure and how the end product will look like in this PowerPoint presentation: https://inside.emc.com/docs/DOC-155444 
+
+This proposed solution is scalable to 3rd platform innovations as it relies on social data and big data analytics that are two dynamic pillars for 3rd platform. It also packages the end product in a web-based dashboard ensuring mobility and agility which are the other two pillars for 3rd platform.
+
+
+1.	Make life easier for HR and Management using accurate data driven insights in a friendly and dynamic dashboard.
+
+2.	Fulfill the need for accurate quantified diversity and innovation measurement  
+
+3.	Extend the way we can measure diversity (using not only demographic data, but data from innovative sources that usually aren't defined as diversity-based, such as Lync, Outlook, Inside EMC etc.) in addition we offer a practical way to visualize and manage diversity and detect the most relevant factors affecting diversity and innovation.
+
+4.	Enabling the development of a support tool for employee’s career development and retention.
+
+5.	Set managerial goal for diversity/innovation based on our results (globally, per BU, per team)
+ 
+
+

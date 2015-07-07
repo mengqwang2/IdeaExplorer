@@ -1,0 +1,5 @@
+Using of Powerline Communications (PLC) to Reduce tester/chamber setup cost and complexity. 
+
+From working with testers and chambers, and seeing the complexity and difficulty changeovers can inncur.
+Power Line Communication (PLC) is a communication technology that enables sending data over existing power cables. Ideally, just plug you device into the AC mains, and you have also connected to the local Ethernet. The technology already exists and adpators are commonly available. IEEE standards exist. Already used in home networking and also metering by some utility companies.
+

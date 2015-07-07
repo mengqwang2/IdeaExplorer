@@ -1,0 +1,20 @@
+Enterprise Containerized PaaS Enabled by CloudFoundry Lattice and Openstack Magnum
+Lattice is the lightweight opensource version of CloudFoundry. Magnum is the quickly growing Openstack container service. We want to bring Lattice into Magnum to provide enterprise level containerized PaaS platform, opensourced.
+CTO office has long time investigating Openstack and CloudFoundry. Every emerging of an Openstack component marks a new opportunity. Lattice attracts our eyes by its connection to CloudFoundry and the lightweight design. We try to bring it into Magnum so that Openstack container community enters to make it more complete.
+Magnum manages containerized application by concepts such as BayModel, Bay, Pod and Service. The concepts are mapped into its supported drivers such as Kubernetes and Swarm. To run applications, Magnum first boot the Kubernetes/Swarm cluster on Openstack infrastructure, then launch applications on them.
+
+To bring Lattice into Magnum, firstly we provide the heat template to boot Lattice cluster on Openstack. The template should be fully configurable for different cluster setup. Common Magnum operations such as BayModel and Bay are mapped to the creation of Lattice cluster.
+
+The Magnum ReplicationController monitors container health and maintain the proper scaling count. The corresponding component in Lattice can be the controller and health monitor. CloudFoundry uses bosh template to boot up applications. Magnum supports its home-brew application manifest. This would require a translator between those two.
+
+Further work is needed such as how to bridge Openstack’s complex yet flexible network management into Lattice in Magnum. To support stateful applications, we need to connect shared storages in Openstack such as Cinder into Lattice. The concept “service broker” ported from CloudFoundry helps it.
+
+The solution should enable Lattice to be in Magnum. It provides below benefits
+    1) Increase EMC influence into Openstack container community
+
+    2) Bridge CloudFoundry and its influence into Openstack
+
+    3) Provide the choice of enterprise level PaaS, Lattice, to Magnum users. Consistent user experience to CloudFoundry is retained.
+
+    4) Leverage the population of Openstack community to promote CloudFoundry influence
+

@@ -1,0 +1,6 @@
+Scheduleing Alert System
+
+brainstoring with colleague Mostafa Hashem
+The idea is to invent an alert system for better scheduling system. 
+for example, if staffing is short in a particular geo, the system will alert to managers in other geos to indicate that it is short staffing in one area. the manager will have enough time to provide enough coverage to support in the same time frame where the staff shortage is occurring
+

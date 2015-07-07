@@ -1,0 +1,10 @@
+Reuse software components at finer granular level with the help of Hadoop
+This big data solution will simplify and accelerate the development of new products.The efficiency of the products will be increased by re using the existing components.
+We got this idea when we were discussing on reusing code and HDFS.
+EMC has different products for various needs of the customers.  The code bases will be in different languages for every product. But if we see in a broader perspective, a function or code component can be useful for other products if we know that availability. The idea suggests to collate all EMC product code bases, functional specs and other technical docs under one Hadoop File system. We can categorize them based on properties like functionality, comments and name. A separate extraction tool we need to write for every language. For example ‘C’ language, the tool will parse the code to capture the function names, comments, file description etc. The effort required only to write a extraction tool for every language.  We can use the compiled data also for knowing the function names.
+
+If any new product requires a feature, a component or a function, instead of developing from scratch, we can search the big data in various ways whether that component or function already exists.   If so, they can directly contact the appropriate team to reuse the code base for that particular functionality.  For this each team may need to run some standard tools to input the necessary information from the code bases to the HDFS repository.
+
+This solution can be extended to documents that describe the features and functionality.  We can also extend this solution to the QA scripts, test documents, performance tools, etc.  We can analyze which portion of the component is most reutilized and also its efficiency.
+
+This solution can be implemented in a phased manner like collating information with a Business Unit, implementing for a COE and then to entire EMC. We can utilize most of the legacy and existing product components to design new components with less effort

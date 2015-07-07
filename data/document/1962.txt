@@ -1,0 +1,20 @@
+Gameunity
+This app will increase employee engagement and involvement.
+By experience, competitions already held increase employee engagement. Increases fun, enthusiasm.
+Gameunity is a mobile app for EMC employees; that serves online gaming across all countries.
+
+Employees can download the app to their phones and start competing.
+Competitions can be in many aspects: Examples (not limited to)
+- General Information (instant competition between 2 members)
+- EMC Technology (instant competition between 2 members)
+- Board games (ex. monopoly)
+- Paper based games (ex. Tic Tac Toe)
+- Ongoing competitions by teams/BUs
+- Monthly winner competition (ex. picture of the month)
+
+Other app features:
+- Member profile 
+- Social discussions
+- Posts (pictures, videos,...etc)
+
+Building a community inside the EMC community will increase employee engagement and provide a more fun environment with a healthy competition

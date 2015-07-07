@@ -1,0 +1,14 @@
+Let PivotalTracker accompany our Agile journey
+Reveal potential customers for PivotalTracker: CTD VNX, and GPO that have applied Agile in daily workflow.
+Annoyed by Rally, I decided to poke around and found PivotalTracker which is definitely superior!
+- Replace Rally with PivotalTracker!
+- A short list of PivotalTracker strengths that beat Rally
+    a. Concise and well organized GUI, less fields, faster speed! (Rally editing has high overhead)
+    b. Mobile capability with consistent user experience, yes Go Mobile!
+    c. One place management of Backlog, Icebox, Epic and Stories with customized side menu
+    d. Vivid colors and Intuitive Icons which you are already familiar with and you could get started immediately
+    e. Use product from your own company!
+- Engineers productivity would be boosted by saving time, tedious editing and frustrations
+- EMC would save money by not paying Rally
+- Prevent potential leaking of confidential technology or data
+- PivotalTracker gains more popularity and market share

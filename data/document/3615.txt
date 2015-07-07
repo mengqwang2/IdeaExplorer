@@ -1,0 +1,23 @@
+One stop shop for all EMC employees
+
+We got the idea during an ideation session made around how we can make Egypt COE a unique place and also interesting one.
+Its a mobile application that will combine several already existing things that employee uses, but it will be all in one place "One stop shop" concept. 
+
+This application will involve:  
+. Electronic newsletter 
+. HR vacancy spots 
+. meal cards bar code instead of using the manual cards
+. application will involve ads that will notify the employee with the upcoming events  
+. COE club events
+. Directory with important contacts
+. COE offers and employee discounts
+. EMC highlights with important news about people with achievements in EMC
+
+Each employee will create an account and he can customize the app interface with the things that interest him the most or would like to know more info about in the future. This would be achieved liking the news that appeal to him the most and accordingly it will be more towards the top of his application page.
+
+
+On the other hand the COE will know which events that most people like to engage in and focus more on how to enhance them or increase the frequency of those events for more employee satisfaction.
+
+
+This application will be created in around 6 months and it will help in the engagement of the employees.
+

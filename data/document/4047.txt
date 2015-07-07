@@ -1,0 +1,11 @@
+VIPR integration in Docker for seamless provisioning and management of storage
+
+Ideation and brain-storming sessions.
+Docker has a edge in performance and scalability compared to virtual machines , since containers don't have copies of the operating systems. For all the VM's running on a physical hardware , each of them would load their OS taking away lot of CPU & RAM for loading and running the OS in each of the VM's . In that sense operating system level light-weight virtualization based on LXC/Docker can be deployed in much less time and scales better compared to VM's.
+
+Storage containers enable new levels of application agility by enabling the movement of active applications between physical servers.
+
+The approach would be to have LUN as the storage container exposed to docker. This way they are better aligned to the application containers and can seamlessly and transparently migrate to different machines across the cluster retaining the  traditional data services ( replication , cloning , snapshots etc. ) support.
+
+The provisioned LUN storage will be at the ViPR level , and we can seamlessly move to/from different arrays ( VMAX, VNX, etc ) managed by ViPR.
+

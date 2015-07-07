@@ -1,0 +1,45 @@
+Connected Commuting in Bangalore
+
+Bangalore the Garden city has grown into an IT City offering millions of Citizens of our country with job opportunities. This exponential growth has created a need for multiple modes of Travel which is predominantly on road.
+Due to many mode of travel like public transport, auto rickshaws, taxi's , individual vehicles , are adding to a pile of traffic, causing pollution, stress to everyone travelling across Bangalore roads.
+
+It is said that an average of 15% of an individual life is being spent in travelling. This calls for a need in looking to possibilities of using existing infrastructure to ease the travel and contribute to a greener Bangalore. 
+
+This solution is to work towards connecting multiple available means of transport to ease the travel for the Citizens of Bangalore.
+
+Bangalore has the below mode of public transport
+1. BMTC Transport
+2. Bangalore Metro
+3. Rail
+4. Auto or Taxi 
+
+The solution will work as follows
+1. Connecting the 4 means of transport to travel smoothly and safely. 
+2. 4 Railway lines of Bangalore currently not even used 50% of its capacity can be leveraged to connect 4 directions of Bangalore 
+   i.North - Yelahanka, Devanahalli near BIAL Airport 
+  ii.West - Yeshwanthpur
+ iii.East - KR Puram Railway Station
+  iv.South - Electronics City
+  v. Central - Bangalore Central and Cantonment
+  These lines can be used for public transport as they connect to many parts of the Bangalore City
+3. Bangalore Metro
+   i. Byappanahalli - situated near KR Puram Railway Station
+  ii. M.G.Road - situated near to Bangalore Central
+ iii. Peenya Metro - passes via Yeshwanthpur
+  iv. Malleswaram Mantri Mall - situated near to Bangalore Central
+4. Connectivity between Bangalore Metro and the Rail lines can be achieved using BMTC Transport or Auto forming a network of Transport
+5. Time, Fuel, Pollution can be controlled and minimized by improving the connectivity of Public Transport.
+
+An Example route explained below -
+1. A Citizen has to travel from Yeshwantpur to Electronics City - Time Taken -45 Minutes
+   Direct Train from Yeshwantpur Railway Station to Bommasandra Railway Station
+   Major Traffic Junctions Avoided - BEL Circle, Hebbal, Nagawara, KR Puram Railway Station, Doddanekundi, Silk Board
+2. Electronics City to Kempegowda International Airport
+   Time Taken - 60-90 Minutes
+   Step 1 - Bommasandra Railway Station to Hebbal Railway Station.
+   Step 2 - BMTC  
+   Major Traffic Junctions Avoided - Nagawara, KR Puram Railway Station, Doddanekundi, Silk Board   
+3. Peenya to Mahadevpura - Time Taken - 45 Minutes
+   Step 1 - Bangalore metro from Peenya to Yeshwanthpur
+   Step 2 - Yeshwanthpur Railway Station to KR Puram Railway Station 
+

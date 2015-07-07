@@ -1,0 +1,11 @@
+An ideal method to create soft configuration of storage on storage systems 
+
+Creation of storage units or LUNS on different storage arrays involves a tedious job of creating/allocating/deleting one single LUN at a time in User interfaces such as Unisphere for clariion.
+If we have a single configuration file where in we can specify the storage requirements and storage array,loading this configuration file to the Storage Array Management System User Interface would automatically create and allocate the LUNS. This will reduce the manual work of doing one at a time.
+If we have a configuration file which contains all the details of number of LUNS,capacity and the storage array name and these details can be modified by the folks based on the request asked,we can have the Storage Array Management System User Interface to accept this configuration file (like loading a script)and run the file on the specified array. This configuration file will work like a script and creates the soft configuration on the particular storage system named in the configuration file.
+
+This method requires the Array management software to have an option to load the configuration file and execute it.
+
+This also helps us to reduce the manual work when we get requests from customers to create and allocate storage based on the customer specifications. If this method is implemented work involved will be just to make modifications in the configuration file and trigger the configuration file for creation of LUNS on the specified array.
+
+

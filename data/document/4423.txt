@@ -1,0 +1,5 @@
+Gather customer feedback through social network
+
+The idea arised from my personal observation, seeing that social networks are excellent channels for people to share their experiences regarding any services they receive. 
+With the networking now integrated into nearly all aspects of everyday business use, almost everyone is connected through one or more sites of social network and people tends to share their experiences through those networking channels. EMC can leverage from this fact and gather customer’s feedback through those channels. EMC can enable and track keyword search so whenever an EMC product name is mentioned in the social media network (Facebook, linkedIn, Twitter,…etc) EMC gets notified through a web portal fro example and gather the feedback accordingly. 
+

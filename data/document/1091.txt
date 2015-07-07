@@ -1,0 +1,16 @@
+A cloud service to discover, identify and remediate customer's problem automatically
+This idea give "TCE Challenge" an solution to identify or solve customer's problems efficiently or even automatically.
+This idea also leverage EOS2's cloud computation to perform searching, analyzing and recommendation.
+This idea comes originally from CTD CTO's Prometheus Projects. The projects focus on providing auto identification and remediation solution from EMC Cloud to on-premise customer's devices. The project has already had two products. One is Support Central, which auto scans bugs for DataDomain via logs. The other is Sales Recommendation, which auto generate SalesForce leads via rule based analysis. We also had a POC named Hermes, which to auto deliver job from EMC Cloud to customer's data center and execute.
+This solution is to build a cloud service to discover, identify and remediate customer's problem automatically. The cloud service contains three sub services: Discovery Service, Identification Service and Remediation Service. The three sub services can work independently but provide best total customer experience when work together.
+
+* Discovery Service is trying to detect customer's problem automatically from variable sources, including email, social media, device log file and service request. Discovery Service contains a set of data source connectors, which manage the connectivity and data transport to different type of data sources. It also has a set of parsers deployed in the EMC Cloud. The parser tries to extract the information from data sources and pass them through a series of defined rules to find matched patterns. It also create index on them for quick search. The output of Discovery Service is a collection of rule matches.
+
+* Identification Service is trying to identify problems from the rule matches. It checks knowledge base to see if the problem happened before. It also sends notifications to subject matter experts if the problem seems a new one. The knowledge base is a database fed by machine learning and manual management. When Identification Service identifies a problem, it sends notification to the service subscribers. The service subscribers can either be support engineers or customer engineers.
+
+* Remediation Service contains a solution package store. For an identified problem which has already had a solution, the solution can be packaged in a bundle containing data, configuration and execution scripts, etc. The bundle has a standard format which is recognized by the Package Execution Engine/Tool. The packages are shelved in the package store with descriptions and instructions after they are verified and well tested. When Identification Service identifies a problem and finds there's a related solution, the Remediation Service will notify users who are interested. They can choose either allow the package execution engine to do remediation automatically or download the package from package store then execute it by using the package execution tool.
+
+Each of the sub service has its own success. 
+For Discovery Service, when it's deployed, you can collect user feedback as well as machine feedback. 
+For Identification Service, when it's deployed, you can get valued information out of tons of information.
+For Remediation Service, when it's deployed, you can have problem solved automatically.

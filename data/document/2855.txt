@@ -1,0 +1,5 @@
+Record the assigned IP addresses into SWARM 
+Avoid the repeat effort for array users and lab man.
+A array new user cannot find the IP addresses assigned for the SP ports or data mover interfaces and have to file a lab ticket to request them.
+Record the assigned IP addresses into SWARM 
+Avoid the repeat effort for array users and lab man.

@@ -1,0 +1,5 @@
+Virtual private Cloud Storage
+3rd platform SDS Predictive Maintenance - ETD (EMC Code)
+Discussion with my customers and listening to their concerns
+When workload is migrated from the on-premise private cloud to the public cloud provider the volumes of the virtual machines are encrypted (data at rest encryption on volume level). The keys for the encrypted stay at the customer, so that they are still the only having access to data also it is in public cloud
+we, the federation would have an approach to secure the customer data in the public and would have a unique selling point

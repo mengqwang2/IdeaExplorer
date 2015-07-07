@@ -1,0 +1,5 @@
+Auto-logs and events analyzer and alerting software
+
+none
+Idea is to gather all logs which has been produced during testing\development\ from customers. Put intelligence in the solution to analyze the logs. Solution would be self-learning as new logs\events are generated. 
+

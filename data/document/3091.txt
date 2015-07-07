@@ -1,0 +1,5 @@
+IPv6 Alias
+
+When implementing IPv6 operations on the Data Domain systems it became obvious the problems with dealing directly with the multiple IP addresses on one interface.  The question of providing an alias like IPv4 was brought up but it required a lot of work where the kernel could become unstable and future kernel releases would require a lot of extra work.  Doing in the configuration application was viewed on as hard to do and disruptive, but later with the right design it became easy and transparent.  This looks to be a good idea for a patent.
+IPv6 Alias is implemented at the application level and automatically handles the IPv6address add and delete within the kernel.  The user only needs to add the long address only one time.  After that the configuration programs will handle the deleting of the address.  It allows only one address to be statically configured per interface.  The alias allows multiple addresses to be added to the interface.  To manipulate the addresses only the interface needs to be manipulated.  And the interface name is no more than 15 characters.  The display of the addresses are more organized.
+

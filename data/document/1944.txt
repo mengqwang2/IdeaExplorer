@@ -1,0 +1,18 @@
+Increasing Customer Focus  (https://inside.emc.com/docs/DOC-155114)
+Target to increase customer satisfaction and reduce Escalations
+Net NPS score for EMC products and customer satisfaction surveys
+Using the below data for the project for the past 2 years
+1. Number of SR's a customer as an individual and company raised
+2. Number of CSATs and DSATs from the past 2 years
+3. Number of escalations a customer as an individual or company made.
+create customer pools in 3 categories. Red, yellow, and green.
+
+Steps involves the moment a case has been raised by a customer falling under Red zone
+1. Involving SME's & Management(including Account managers and field persons) in a timely manner
+2. Educating customer about the process and product capabilities
+3.Review the SR’s by management on a regular basis.
+Increase in 
+Customer satisfaction
+NPS score for EMC products
+Decrease in 
+Escalations and DSAT's

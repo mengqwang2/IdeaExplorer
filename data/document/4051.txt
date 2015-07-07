@@ -1,0 +1,13 @@
+"Blocky" maze with IT research 
+
+Having an idea generation session with the group on the innovator list - started drafting out slides as this would work really with our CoderDojo and BTYS events.
+
+We have used the blocky "maze" successfully to get kids interested in coding through solving a challenge in a game way - this idea is a blends in another element in the challenge (learning of IT topics/processes) 
+
+a. Contest structure? Simple highest score with in a time approach - or reach a target number Vs Time
+b. Timeline? Not fully thought through - but could be developed into a paper-based solution reasonably quickly
+c. Logistics? Simple on line or paper-based approached - preference long-term would be to develop an app or software solution 
+
+This concept is similar to the maze demo in the Blocky software development platform -  an analytics brainteaser/challenge  that easily transforms to time based contest  with increasingly difficult levels and can be tailored easily to different age groups around the world. There would be a sequence of tasks that need to be completed in order for let's say analytics (initiation
+,Build reference data, Extract, Validate, etc.) - the team needs to research the order/priority and then create a program to move around the maze in the correct order. 
+

@@ -1,0 +1,5 @@
+APJ COE "Solutions Platform" Challenge
+Address Vertical Opportunities. - Business Data Lake is Generic - EMC needs a productization of this to sell into a $2.5B TAM for Healthcare Big Data PaaS solutions globally.  
+Its the basis for a five year collaborative we are doing with Partners Healthcare to build a Medical Research PaaS of the next 4 years.  It is funded by $15M investment by EMC.  We are on track in that project but we have opportunity to extract IP and build SMART Apps (http://smarthealthit.org/)  
+Today we have a services led approach to which relies of consulting / development resources to develop use cases, pilots etc.  These are just starter sets and do not deliver instant value.  If we lead with a SMART Apps PaaS layer we could sell directly to the business vs. low level IT. (See http://smarthealthit.org/)
+Customers would buy at the app level and would drag EMC BDL package along.

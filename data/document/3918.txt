@@ -1,0 +1,13 @@
+Advance Analytics With My Voice Data
+
+The idea came when we were brain storming to improve upon the My Voice survey 
+Data inputs : Mt Voice Survey data, My Voice data(past three years), ACR data (proposed), Employee/team data.
+The My Voice survey data is collected analyzed to perform a trend/pattern.
+The will be categorized against different attributes such as – location, teams, groups, work group( Product, Services), etc.
+The  current/recent survey can be correlated against the historical survey data to identify the changes.
+Also once we identify the threshold in the patterns from the correlated data and relate them against the events that happened for it. Eg.- a very positive or high score in the feedback by a team, we can find a event that occurred during that time such as ACR cycle or and Reward n Recognizing for that particular team.
+This system will also provide a recommendation for Employee promotions to managers using ACR related data. The system will be smart enough to learn how the ACR data is utilized and promotions are giving, hence it learns optimize itself and make the recommendation more accurate. The system can then also suggest to other teams based upon its learning.
+ACR data can be analyzed and a team wise comparison can be done.
+
+
+

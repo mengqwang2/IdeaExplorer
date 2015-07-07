@@ -1,0 +1,8 @@
+On-site DAE screen and refurb (MFG Apex)
+Global Product Operations Challenge:
+-make GPO/EMC’s supply chain and manufacturing operations more efficient and effective
+-drive cost out of our operations to enable investment in Platform 3
+
+Idea initiated and implemented by Hong Zou in Apex.  Hong observed the dollars we were spending on this activity and worked with her team mates to identify an on-site solution - equipment, personnel, training. She was able to establish the process and is ready to hand it over to operations to maintain going forward. 
+Set up a FRU screening and DAE conversion process in Apex Mfg to avoid vendor test and rework charges. 
+Based on history and volume projections, net savings from the FRU screening is estimated to be $160K per year.  Net savings on Voyager DAE conversions is estimated to be $300K per year.    

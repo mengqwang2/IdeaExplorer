@@ -1,0 +1,5 @@
+Improve performance troubleshooting technology
+
+Performance issues are very time consuming for high level TSE's that could contribute much to other area's.
+Create a tool that can analyse performance information and more importantly tell the customer if his performance is within expected guidelines. If the custoemr knows that there is nothing wrong with their performance then if they are unhappy with it they know they will have to change something. This will prevent calls to support and time being wasted analysing logs to work out that there is little wrong.Also performance training should be given to customers so they understand what they need to do to maximise performance.
+

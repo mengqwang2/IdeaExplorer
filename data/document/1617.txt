@@ -1,0 +1,39 @@
+EMC Smart Connected Personalized Spaces - Lets move on to dynamic and energy saving work place 
+IT Contemporary Workplace Challenge
+
+1. EMC Smart Connected Personalized Spaces is a new and cutting edge way to communicate and collaborate, thus creating a modern workplace. 
+
+2. EMC Smart Connected Personalized Spaces provide a seamless experience from anywhere with device flexibility and less restrictions
+
+Environmental Stewardship Challenge
+
+Effectively implemented Smart Connected Personalized Spaces will reduce the energy consumption by more than 60% within 2020
+We have only changed the workplace 3 times in 5 years, thereby it reduced collaboration, reduced chances to meet new employees and if a person is on long leave/onsite it makes the place non-collaborative. There are lot of disadvantages and energy wastage with respect to static workplace , hence we came up with this idea
+Changing business environment and new workforce call for a flexible workplace. 
+
+Solution combines 
+* Unified communication
+* Web technologies
+* Digital signage
+* Media technology
+ 
+The solution works by dynamically allocating seats based on employee reservations. 
+
+1) A web-based application needs to be designed that allows end users to reserve a workplace one time or on a recurring basis. 
+
+2) IP phone should be automatically updated based on the employee location as per the web application info
+
+3) Web app should display the employee
+    * Location
+    * Meetings
+    * How to get to employee location? etc
+
+4) Room comforts should be integrated to web app as well like temperature, brightness etc 
+
+IF NOT RESERVED, THE WORK PLACE SHOULD GO TO ENERGY SAVING MODE TURNING OFF LIGHTS AND AIR CONDITIONERS THUS SAVING ENERGY
+ 
+* Dynamic work place environment
+* Reduced real estate cost
+* Opportunity to meet new people
+* Collaborate effectively
+* Save more energy

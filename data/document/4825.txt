@@ -1,0 +1,7 @@
+Isilon- Greenplum integration (Big Data)
+
+shared the same idea in knowledge sharing competition 2014
+Greenplum Unified Analytics Platform (UAP) is a unified platform enabling agile Big Data Analytics by empowering data science teams to analyze structured and unstructured data in a unified platform. Greenplum UAP delivers a simple entry point for organizations seeking business agility through high-performance data analytics, enabling them to become data savvy, to develop a data-centric culture and to evolve into data-driven companies.
+The Greenplum UAP solution integrates Greenplum Database, an analytics optimized relational database, Greenplum HD, an enterprise-capable Hadoop distribution, Greenplum Chorus, an analytics collaboration platform, Greenplum DCA, a flexible appliance for hosting the Greenplum UAP and Administration Tools for managing all components. The UAP solution is augmented by the talent and services of the Greenplum Data Scientist team. The diagram below highlights the Greenplum products in UAP and explains how all parts work together to enable agile Big Data Analytics  
+
+

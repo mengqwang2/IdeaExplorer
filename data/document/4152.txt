@@ -1,0 +1,8 @@
+Data protection regulatory compliance using geo specific RSA Security model
+
+One of our cloud project customers was concerned to move the data cloud because of this reason.
+At the RSA AxM administration level there should be provision to define the policies which tell which data can be accessed from which region.
+By collection users location information from browser and send it to RSA AxM for authentication and authorization we can address the data protection issue.
+Based on location information passed by browser, RSA AxM will validate whether the user is authorized to access data or not.
+
+

@@ -1,0 +1,13 @@
+ Adaptive and Predictive Keyboard  Plugin in Outlook and Service Center using Data Analytics
+
+  The idea did come up from my daily work as I use email templates ina manual way. I thought of an adaptive way to do this.
+ On daily basis, we write similar emails. We use certain keywords and expressions very often in our emails. The idea is to equip the “outlook” with a plugin that enables data analytics in real time on what I write. 
+
+This plugin will offer adaptive and predictive typing experience depending on what words/sentences I write the most. The Data Analytics association rules will be used to detect what words normally come together?
+
+While typing the predictive keyboard will provide nominations from y most-used words/sentences.
+
+Such approach will enable a huge amount of time and effort as well as money saved for all EMC employees.
+
+
+

@@ -1,0 +1,5 @@
+Data in Sync
+Keep all applications in IAM to be in sync in short duration and provide functionality to admins and support team to view the details and reprocess accounts/access if needed
+this started when the data was not received in the end system and they have to wait for another day to receive the data
+Trigger a event or put it ins the queue and ask the consumer to consume it from the queue. upgrade the batch jobs to SOA.
+Data will be received in shorter duration and team can close the incident or knowthe results ASAP

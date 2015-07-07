@@ -1,0 +1,24 @@
+Honeyguide - A scalable pull framework
+End to end solution to the given challenge which includes pulling from various listening EMC posts, analyze the text and extracting customer insights. As the challenge is looking for big data analytics on text, a Scalable, Extendable, Configurable, Fault tolerant framework is proposed.
+Held brain storming sessions with the team after seeing TCE challenge.After that
+A scalable Apache Spark cluster was deployed on Hadoop cluster to do sentiment analysis after pulling #EMCWorld data from Twitter as a POC. POC accomplished that Stanford NLP can be used in a scalable Spark environment to pull data and analyze the same in distributed fault tolerant way using Resilient Distributed Data sets(RDDs).
+The given Solution provides a framework to extract Customer insights by leveraging EMC listening posts and social media. Framework pulls and uses NLP text analyzing to extract features and classify them. The essence of analyzed information is presented in an intuitive format. This Framework is designed for scalability and adaptability. Framework is easy to modify and configure using API. What makes it unique is it learns and improves over time and extendable for different languages.
+
+{TCE surveys, EBC, EMC World, ..., Twitter, Facebook, Technical blogs including comments,...} --->
+ ---> Parallel pull engine ---> NLP text analysis engine ---> DB
+
+UI ---> RESTAPI (Web services with Analytics) ---> DB
+
+The solution can be deployed in a Apache spark on Hadoop cluster or Greenplum
+
+Please see attached PPT and document for more details...
+https://inside.emc.com/docs/DOC-155932
+https://inside.emc.com/docs/DOC-155898
+1) Instant insights into the customer needs and pain points thus improving TCE
+2) It can be made as separate product and given/sold with Greenplum. As it is customizable and extendable.
+3) Improves the product by constant feedback.
+4) Get insights of customers on competitor products, this will be useful input for product enhancements.
+5) Get to know trending data on different products.
+Please see attached PPT and document for more details...
+https://inside.emc.com/docs/DOC-155932
+https://inside.emc.com/docs/DOC-155898

@@ -1,0 +1,14 @@
+EMC Game
+
+EMC world, redefine.
+Create a game that would be on Appstore and Play store for download.
+The games would be happening in the datacenter, and there are missions and levels.
+Each mission has a moral that would explain the concepts of IT and mainly EMC.
+
+So for example, we have invadors in the datacenter that want to steal data from the racks. The player has to pass through levels of code creation to protect the data on the racks from the invadors breach.
+
+Also fire could happen in the datacenter and the player would have to upload the data on the cloud to protect it.
+
+More ideas could be tailored in brain storming sessions with creative gamers :)
+
+

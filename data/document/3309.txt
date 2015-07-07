@@ -1,0 +1,17 @@
+Real-time EMC crowd sourced App to foster collaboration between Business Units
+
+Crowdsourcing and Microtasks' concepts led me to come up with this idea
+What happens in a BU, most likely stays in that BU. The purpose of this App is to change that notion.
+
+When an employee gets an award or completes a certification, his/her achievement is only acknowledged and appreciated by the team he/she is part of, or that business unit. Same case if a team accomplishes something great. By the way, it doesn't have to be always great achievements, it could be as simple as an employee finding an easy route to get to office, or traffic updates en-route to office and so on.. 
+
+This real-time EMC crowd sourced App is aimed at connecting and sharing news, achievements, special upcoming events, technical discussions, knowledge sharing or anything related to EMC that can be shared across BUs. The information is crowd-provided - by EMC employees.
+	
+App's interface could be divided into different sections/icons, each section representing a BU. If there is an update made pertaining to a specific BU (eg: Awards, Birthdays, Certifications etc.,) that BU section would have a pop-up notification. We may even integrate 'hashtags' into the comments made by employees, to see what the general interests are, and what BU and/or topic is currently trending.
+
+Employees can tag each other, pat on back or even award points for sharing info/thoughts. More the points, better the reputation!
+
+The whole purpose is to foster social collaboration between BUs and if the discussions are technical/creative then the idea is to facilitate connection between different perspectives.
+
+All of the data is tracked, saved and analysed. We eventually make use of this as a platform similar to Microtask and/or Amazon's mechanical turk where short-duration tasks can be distributed based on expertise and reputation.
+

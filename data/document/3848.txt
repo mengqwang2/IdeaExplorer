@@ -1,0 +1,5 @@
+ Create a new tool for shift handover with search option
+
+ Was searching   for the   some last history of  issues throgh mails. And it was difficult to find the   mails.   A common tool will  resolve  this  issue  and can access  each time.
+  We  will have track for each issues reported on past.
+

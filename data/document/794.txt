@@ -1,0 +1,31 @@
+Expert @ EMC
+Utah COE Challenge
+Description :
+STEM Education Community Involvement app – Create an app which connects employees with opportunities in nearby schools where teachers & advisors are looking for mentors or presenters on STEM-related topics, including VEX Robotics. Leverage data from our VEX Robotics partnership in addition to data offered by the schools and the employees. Leverage employee profiles on Inside EMC to gather details on skills, location, etc. Leverage this for ease of reporting on EMC Gives Back days for Community Involvement.
+Criteria :
+Leverage the following technologies, systems, applications & data sources: - Inside EMC (https://inside.emc.com) - VEX Robotics (http://www.vexrobotics.com) - EMC Federation technologies (e.g., http://vcloud.vmware.com & http://www.pivotaltracker.com).
+Commitment :
+The Utah COE will provide contacts at local Utah schools if needed as well as at VEX Robotics for all Innovators who request it.
+To target the innovation challenge, our team had come up with several ideating sessions to collaborate and brainstorm around the problem statements in the challenge. We have collectively built around our ideas on the solution as a team. We thought of mobile as a solution which can impact the user base more than any web based solution. As InsideEMC is a central platform for all EMC communications, so we thought why can't we use InsideEMC as our backend collaboration platform with Utah COE employees and STEM Education students. The ideating cycle took around 6-7 sessions for ideation and 2-3 sessions for creating the design and solution architecture.
+
+Team members involved:
+Aru, Rahul <Rahul.Aru@emc.com> - Senior Application Developer, Bangalore COE
+Goswami, Piyush <Piyush.Goswami@emc.com> - Senior Application Developer, Bangalore COE
+Kandali, Suneel <suneel.kandali@emc.com> - Principal Developer, Bangalore COE
+Menon, Chitra <Chitra.Menon@emc.com> - Principal UX Designer, Bangalore COE
+
+Building a mobile app (iOS and Android) and targeting the solution the following steps:
+1. Gather EMC Employee Data: Create collection of profiles for all employees at Utah location through InsideEMC (https://inside.emc.com) backend. Create communities specific to STEM Education subjects and Vex Robotics.
+2. Target Audience: Send personalized invitation the Utah Employees to join the Communities. Invite the STEM education students to register to the communities. Advertise initiative and invite to join through InsideEMC home page.
+3. Deploy Mobile App: Develop mobile app connecting to the specific communities in InsideEMC backend. Embed Vex robotics study materials’ links in the app. Publish mobile app (iOS and Android) to respective App Stores.
+4. Engage & Collaborate: Students post questions to related communities. Employees post reply to community posts with text, audio-video files, pdfs, study materials, pre populated links from Vex Robotics library.
+
+Solution Design and Architecture link: https://inside.emc.com/docs/DOC-155902
+
+The Benefits:
+1. IT Proven solution, can potentially expand to COEs outside Utah and increase revenues. Potential $1M saving within EMC.
+2. Boost User satisfaction through awesome user experience delivered by Mobile Experience Team in Global IT.
+3. Quick support in maintenance stage through Global IT. Expand scope and coverage anytime.
+4. Out of the box configuration in InsideEMC backend and security driven infrastructure. Usage of existing infrastructure and expertise of Mobile Experience Team developing similar solutions.
+
+Reference: https://inside.emc.com/docs/DOC-155902

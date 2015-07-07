@@ -1,0 +1,19 @@
+IOT based EMC hybrid cloud enabled solution for Energy industries.
+Solution related to New Market opportunity for EMC Corporation where EMC Technologies are being utilized to build the solution that addresses the industry  demands and  provide value added service
+Idea came through multiple collaboration among us while exploring solution for business problems in Power & Energy industry
+
+
+
+
+The solution contain new market opportunity for Power generation industries where EMC can  provide a hybrid cloud platform solution where following services can be offered
+
+1. Predict and prevent power generation outages
+2. Predict and predict operational issues
+3. Manage the load capacity of the grid without relying on manual interventions
+
+
+In this solution, all the data from every location like ERP, Grid, SCADA will be injected to a data lake hybrid platform and get analyzed from continuous sources in real time by executing predictive models.  The storage is from EMC ECS and he Analytical platform contain pivotal suite. 
+
+Load forecasting, Distribution, Outages prediction can be offered additional in the service catalog. 
+
+This is a potential market opportunity using EMC's hybrid cloud solution and it's best of breed products.

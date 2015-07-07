@@ -1,0 +1,13 @@
+Dynamic Policy Updater
+
+Based on several customer calls we understood that policy calibration is burdening task and in most of the cases they are not have the necessary knowledge/skills and time to keep the policies updated.
+In addition, by investigating several missed fraud cases we came to a conclusion that the customers didn't tuned some policies to meet the new fraud trends and therefore suffered from increased fraud losses. This might be avoided if the customer would test policies performance oftentimes.
+We present a system for automatic policy updates. This system would allow customers to define a policy which fits within their set thresholds that support their business needs and to suggest rule modification or creation of a new rule to align to a customer’s business needs based on customer’s data history.
+After the initial policy definition the system will use machine learning techniques (for example – decision trees/random forest) to mine from transaction history records (which stored in AA) the best policies configuration both in terms of thresholds calibrations and new policies creation. 
+The system will constantly verify whether the current implementation provides the best results and mine for new policies in cases of poor performance. (The option of manual update will still be presented.)
+
+Such system will eventually provide improved fraud detection, reducing operational costs (less calls to call centers), better alignment with customer business requirements and improved end-user experience by reducing the number of false-positive challenges / transaction denial / account blocking.
+In addition, it will reduce the manual work of CTO/PS research time to improve fraud detection for customers which suffer from poor detection performance due to lack of appropriate policies configuration. 
+
+Note: Although the description is based on AA Policies use-case, such techniques might be applicable for a variety of use cases where the customer overloaded with thresholds/parameters needed to be maintained in the system. 
+

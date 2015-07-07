@@ -1,0 +1,6 @@
+enhance the debug method during software development
+
+in team meeting when we discuss how to improve the debug capability.
+we can integrated some of GDB function like backtrace into our runtime code. so we can do backtrace at any time when we want.
+we can implement some of these functions as one common library and then we can use these APIs for debug at our code at any position.
+

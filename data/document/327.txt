@@ -1,0 +1,31 @@
+Integration of Pivotal Cloud Foundry to Graph DB
+This Idea is related to Integrating Pivotal Cloud Foundry with Graph DB for the Analysis of the Logs
+While we were working with PCF for the project, we discovered that this idea would bridge the 2nd platform and 3rd platform transition.
+Logs are very important part in the Application which provides information on the Application health and performance.
+
+In Micro Service Architecture we have Micro Services,every micro service will give its own Log information.
+
+We have to Integrate Pivotal Cloud Foundary with Graph DB like Neo4j.
+
+By Using Graph DB like Neo4J we can tag individual nodes with Individual Services which in turns gives Logs respective to Individual Nodes.
+
+We are basically Filtering Logs from one big monolithic files to small chunks of Logs for individual services or nodes.
+
+The Logs which we get can easily tracked for any issue/Exception or the searching of the service will become easy.
+
+The Logs which we get from this Nodes can be streamed into some Log Analytic system,to find out which service is frequently throwing error.
+
+It is very easy to represent  Log with connected data.
+
+It is very easy and faster to retrieve/traversal/navigation of more Connected Logs.
+
+It represents semi-structured data very easily.
+
+The Logs will be well organised now.
+
+
+The following are the benefits
+-Its easy to track the logs
+-We can store this Log and do Analytics about which services is working or Giving error.
+-Saves time for Developers to track the issue
+

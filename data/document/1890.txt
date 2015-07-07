@@ -1,0 +1,16 @@
+Virtual Departmental Library
+Enhance the learning experience and improve accessibility and management of learning material within an organization
+We started a traditional library in our organization, which turned out to be very successful. It became obvious that we could capitalize on this by taking this to the virtual level.
+Provide a virtual library at the department level to provide eBooks that are specific to that department needs. 
+
+For illustrative purposes, an Amazon account can be configured with up to 6 devices (physical or virtual) that can be accessed concurrently by employees.
+
+The books contents can be accessed via the Cloud Web Reader (a web application) concurrently by employees regardless of time and location. Physical readers (e.g. kindles / tablets) can also be used depending on the organization needs. 
+
+Benefits include:
+- Encourage and enhance learning experience
+- Reduced cost of training material as one library item may be concurrently accessed by 6 users
+- Text search on learning material
+- Easy to set up and maintain: Managed at a department level
+- No book management issue (Check-in, wear and tear, loss of training material)
+

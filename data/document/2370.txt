@@ -1,0 +1,14 @@
+Authentication using EEG signature
+Israel COE Challenge - the idea can be utilized to prevent fraud and increase security
+RSA IoT Challenge - EEG sensors can be used for strong authentication e.g. when life supporting devices (like insulin injector) need to be activated.  
+I just thought that there must be a difference between good and bad intention in brain activity and just googled how brain activity is measured and came up with EEG and EEG sensors. Than I discussed it with my colleague and friend Aviv Avital, and he came up with an idea of using EEG signature as a unique user identifier.  (There is some problem with the system today, and I wasn't able to add him as innovator and contributor for this idea, but he definitely is )
+Recently EEG sensors became available in the market for relatively small price and ready to use SDK.  We propose to use these sensors to identify user, and to identify the type of activity he is trying to perform. The research to use EEG as unique identifier is well researched, and I assume that there is distinct EEG signature to fraudulent and legitimate activities (needs additional research).
+
+what is EEG:
+http://en.wikipedia.org/wiki/Electroencephalography
+EEG sensor and SDK:
+http://neurosky.com/biosensors/eeg-sensor/biosensors/
+EEG as unique identification:
+https://engineuring.wordpress.com/2009/08/16/identify-person-by-unique-brain-activity/
+
+When fully developed we could market another authentication method as stand alone service or integrated in AA product. It can be used as an authentication for activation of wearable devices as well. 

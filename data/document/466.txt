@@ -1,0 +1,22 @@
+Flexible Power Management System for lab machine
+Frankly, how to save the cost for our lab machines is always a topic for us. By any times, there are some of the arrays are alive and idle. This idea is to try to shutdown and save the cost from those idle machines but still satisfies the needs from engineers.
+I found not all the arrays are occupied, then it would be good to make our lab pool flexible to save more energy and lower down the cost.
+There are two things this power management system take advantage of:
+1. SWARM system, it has almost all the machine info, status, reservation, etc.
+2. remote power control mechanism, As I know we have bought some remote power control system already and implemented some in our lab. It leave us the interface to shutdown and power up the machines.
+( 2.5 I am not sure whether simulator have some interface for us to shutdown VM as well. If so, we could also save the energy from simulator) 
+
+
+With the SWARM system we could get an average number of reserved/busy array in pool per day. assume the value $AVE(average of three days or so, define as $PERIOD). It might change everyday.
+Define a value $THREASHHOLD, prepare for extra backup arrays incase of accidents or so.
+Define a value $MINIMUM, the minimum number of alive arrays.
+
+Just make sure $AVE + $THREASHHOLD > $MINIMUM, And in the list of unreserved arrays automatically shutdown ($TOTAL - $AVE - $THREASHHOLD) arrays through the remote power control system and update the related status in SWARM like, "status: down"
+
+When the number of reserved array might exceed ($AVE + $THREASHHOLD), minus result in $DELTA. Reassign $THREASHHOLD to $THREASHHOLD + $DELTA * 2 immediately  and power up the new machines.
+
+When the number of reserved arrays had been less then ($AVE + $THREASHHOLD) for $PERIOD days, calculate the new $DELTA, and reassign $THREASHHOLD to $THREASHHOLD - $DELTA / 2, and power down the unreserved arrays
+
+This method can be improved later if this is applicable and can be integrated into SWARM.
+success : a standalone service or integrated into SWARM
+benefit : cost down

@@ -1,0 +1,6 @@
+Decreasing size of FASTVP metadata
+
+Alexey Romanovskiy talked with Alexey Fomin on FASTVP development.  As a result of this discussion the idea has been formulated.  No internal idea evaluation or implementation has been done.
+Temperatures then calculated for such regions instead of slices, or periodic patterns of access are applied to such regions to decide which region to promote/demote among tiers.
+There is much less metadata needed for big regions.  As well, slices inside regions may be  placed in faster tier sequentially thus possibly improving spatial and temporal coherency of IO for slices in region.
+

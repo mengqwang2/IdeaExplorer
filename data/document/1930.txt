@@ -1,0 +1,17 @@
+Integrate public cloud storage into the EHC(Enterprise Hybrid Cloud) solution
+[APJ COE "Solutions Platform" Challenge]
+
+This solution will make it possible for the EHC customers to put insensitive/non-critical data on public cloud storage instead of the private storage arrays, migrate data between them and so on. By doing so this solution can improve the customers' cost efficiency and user experience.
+The idea comes up from the current EMC EHC solution, which can use different types of storage arrays but it cannot use any public cloud storage, we think the ability of using public cloud storage is very important for a hybrid cloud solution.
+The current EHC solution uses ViPR Controller to manage the underlying storage layer. We can enhance ViPR Controller to make it be able to manage public cloud storage services besides the storage arrays. After that from the EHC solution level it has an universal view of the cloud storage, no matter public or private ,then it is possible for the customers to use the storage on public cloud, migrate data between private cloud and public cloud, and have an overall view and control panel of the storage.
+
+From the applications' view there are two modes to use the public cloud storage in the EHC solution. We want to support both:
+
+1. Transparent mode. The application is not aware of the underlying storage is on public cloud and use it as normal file system. This can be done by ViPR Controller to provide the ability to mount a bucket(use "Amazon S3" for an example) on the cloud storage service to the server where the application is as part of the file system. After that all the read/write operations on the mount point directory will be translated into HTTP/HTTPS requests to the public cloud storage service.
+
+2. Non-transparent mode. The application is aware of the public cloud storage managed by EHC. Then the application can use the public cloud storage directly via API provided by the public cloud storage provider. This is also the traditional way to use public cloud storage as S3.
+
+From the implementation perspective, ViPR Controller needs to support the public cloud storage services as new types of storage providers, then enhance the existing VirtualArray/VirtualPool/Network models to handle public storage services. After that ViPR will be able to create a storage unit("file system" for the transparent mode, "bucket" for the non-transparent mode) based on the public storage services. Also, the current ViPR security model needs to be extended to secure the public services accounts.
+
+More details about this idea can be found from: https://inside.emc.com/docs/DOC-155141
+Make the ViPR users can use not only private storage arrays, but also public cloud storage, which can reduce our customer's IT cost and improve their efficiency.

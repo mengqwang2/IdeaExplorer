@@ -1,0 +1,7 @@
+Cross BU collaboration
+Now that we have all resources/employees trained in almost all the products specific to each technology(Storage/Backup) we may have to elicit maximum throughput from them, which would in turn help people to keep the learnt things intact.
+Engineers have to have dedicated time to work with other products for two weeks in a quarter, eventually it helps them understand the product better.
+I have alone come across such an incident and it has passed it's incubation period too
+This helps engineers to have a broader sense towards the technology and helps them improve the trouble shooting speed.
+Time=Money ; I would certainly say that it saves a lot of time.
+

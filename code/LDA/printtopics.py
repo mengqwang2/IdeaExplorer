@@ -32,14 +32,20 @@ def main():
     vocab = str.split(file(sys.argv[1]).read())
     testlambda = numpy.loadtxt(sys.argv[2])
 
+    #print len(vocab)
+    #print len(testlambda[0])
+
     for k in range(0, len(testlambda)):
         lambdak = list(testlambda[k, :])
+        #print lambdak
         lambdak = lambdak / sum(lambdak)
+        #print len(lambdak)
         temp = zip(lambdak, range(0, len(lambdak)))
+        #print temp
         temp = sorted(temp, key = lambda x: x[0], reverse=True)
         print 'topic %d:' % (k)
         # feel free to change the "53" here to whatever fits your screen nicely.
-        for i in range(0, 53):
+        for i in range(0, 10):
             print '%20s  \t---\t  %.4f' % (vocab[temp[i][1]], temp[i][0])
         print
 

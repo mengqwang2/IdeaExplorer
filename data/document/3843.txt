@@ -1,0 +1,5 @@
+Factory Automation for manufacturing order fulfillment nodes
+
+This idea originated with the Manufacturing Engineering tean within the Global External Manufacturing organization. Over the last 12 months this team has constructed the vision for factory automation. The converged infrastructure has been deployed to serveral GEM and some cloud based manufacturing services are already being leveraged.  
+Manufacturing cloud services will be hosted on converaged infrastructure in the data centre of the order fulfillment sites. These cloud based manufacturing services will include manufacturing configuration services, part substitution services, Genealogy services, test services, licensing services etc. The cloud based services will communication in a standardized fashion with the Manufacturing Execution Systems of the various fulfillment nodes. This close interaction between the cloud based manufacturing services and the MES will drive factory automation and eliminate many manual tasks currently employed in the order fulfillmet process from manufacturing configuration, order release, assembly, test, prep and pack. See presentation attached for more detail.
+

@@ -1,0 +1,12 @@
+Big Data for Customer Service productivity - E2E business process challenge
+Measure the productivity of CE's, TSE's, FSS's and others professionals in CS was always a challenge due to multitask and consultative function. Systems like WFM and CSI doesnt measure productivity properly so imbalance workload an hidden patterns can mas
+I got this idea studying Big Data concepts. It's clear productivity is a problem to any company and a Big Data platform can help a lot on this challenge.
+Build a Data Lake Solution to gather data from CSI, WFM, EMC tools like ESRS system, email server, web servers etc, to collect variables related to productivity like:
+time spent in productivity tools(ESRS, EMC remote, webex etc)
+time spent in productivity sites(internal and external). Classify ones...
+time spent in labor time CSI and WFM
+time spent in productivity aplication in desktop.
+ETC
+
+IE, define a Big Data problem, go though all Big Data problem steps, define variables and tests associated to productivity and at the end build a model to better measure it so providing better info to the CS management staff.
+If implemented successfully, CS workforce can be utilized more efficiently impacting investments and costs positively. Furthermore, CS management team can better take decisions to manage their teams and rethink partner utilization and strategy. Also, can 

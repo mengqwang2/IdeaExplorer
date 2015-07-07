@@ -1,0 +1,5 @@
+Use EMC home-built full text search engine xPlore to search the emails/chats/voices/videos with Microsoft Lync 2013
+
+When I searched one conversation history with IT, I found it's hard to search the message I targeted for. The outlook built-in search capability is not very good.Also it lacks the possibility of searching for video and voice.
+With Microsoft Lync 2013, the chats/voices/videos can be synced in Microsoft outlook, at the same time, we can provide a crawler to pull these messages to xPlore search server, later on, employees can search these messages easily which will reduce the cost if they met the issue again(e.g they consulted the IT service desk for an issue, and other employee might meet the same issue as well), xPlore is EMC home-grown full text search engine.
+

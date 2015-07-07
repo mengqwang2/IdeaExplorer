@@ -1,0 +1,65 @@
+Yes, you can DizIt (DIGitize IT)!: An App to crowd source cultural digitization project ideas from employees
+We propose a mobile app (available for android and iOS) called DizIt for all employees, and an interface for admin to create, manage and analyze such ideas for crowdsourcing from EMC employees across the globe. 
+- Mockups 
+- Prototype to get a feel of proposed app
+- Solution and Architecture
+- App delivery and availability mechanism
+- Inside EMC community integration 
+
+Employees can join the Heritage Initiative projects and can contribute, pictures, files (video, audio etc), comment for any fellow colleagues contributions and enhance the knowledge base thus making crowd sourcing more effective . Not only that, there is feature where people can suggest new Heritage projects in their local communities. DizIt supports English and One local language by default and can support a number of languages. Prototype/Mock ups shows you English and French as an example.
+While browsing the challenges, we found community challenges as an interesting one. We being part of applications workgroup, found this complementing our skill sets. So Started on the idea. We did multiple white boarding sessions, learned the prototyping tool and came up with multiple intermediate versions before proposing the final prototypes. 
+DizIt is based on an open source platform which can be integrated with EMC products. DizIt provides an interactive way to participate and contribute to the digitation projects under Heritage Initiatives. 
+
+Link for Mockups : 
+https://inside.emc.com/docs/DOC-155998
+
+Link to get a first hand feel of app: https://www.justinmind.com/usernote/tests/15986602/15986606/16065460/index.html
+
+Along with user profile on top left, it has:
++  home screen to show latest projects and view details
+- Contribute to the projects, comments on other employees submissions, like feature
+- Suggest new projects by submitting a simple form to Heritage Initiatives team and admin
+
++MyDizIt  to show:
+- my  (employee's) latest submissions
+
++ Browse:
+- browse projects by category - art, music, manuscripts, dance etc 
+- admin can add more categories
+
++ DizIt provides you a Search functionality to search any entries - standard feature for any mobile app 
+
++ Language Support: Along with English, it automatically finds your region and preferred language based on your location. It can support all major languages and is user configurable.
+
+Additionally, you can tag your colleagues/friends while uploading any picture, audio, video
+
++We also propose a web interface for admin activities to;
+- create new projects
+- analytics capabilities to see the traffic, usage and other crowdsourcing trends
+- respond to employees suggestions on new heritage or digitation projects coming from DizIt
+
++Architecture : Based on standars mobile architecture it uses:
+- responsive design, Angular JS and HTML5 for front end
+- REST APIs 
+- MySQL data base
+- Uses SSO to integrate with inside EMC and get user profile information (JIVE integration)
+
+This can use EMC's 3rd platform to scale up and accommodate enhanced features on archiving. 
+
++App Distribution and Availability: 
+Option 1) Use EMC app store to make the app available to the people
+Option 2) Use Inside EMC app page to download the app
+
+
++More on app: Inside EMC Page: DizIT app page will be available for any user trainings, latest updates and comments/suggestions
+- Simple user interface to browse the projects and contribute
+- Personalization feature with my profile and My DizIt tabs
+- Search capabilities to find the relevant content
+- Tag the colleagues
+- Admin console to create new projects and run analytics
+- Easy availability through EMC app store or Inside EMC app page
+- Auto locale support using the GPS (two languages supported using this)- so user don't have to bother about language selection
+- Comment, like features, tag features to enhance the crowd sourcing help in more contributions
+- Interface for employees to suggest new digitization projects in their local communities 
+
+

@@ -1,0 +1,23 @@
+ Enhance the Performance of Link Aggregation protocol with EMC Arrays
+
+ The idea came up from real life experience with performance issue with link aggregation in which the expectations were different than what is happening in reality 
+The idea works as follows :
+
+We will consider a storage array with two Ethernet ports : eth2 and eth3. Ling Aggregation of these two ports forms one bond called bond0. There is one host talking to the storage array through this bond.
+
+The current Link Aggregation works as follows: 
+-	When one host is connected to the bond, it will only use one eth port eth2 or eth3 instead of utilizing the whole bond
+-	This is because the link aggregation works on the layer of host MAC address, it maps one MAC address to only one physical eth port at a time
+-	This works by running the function “XOR” on the host MAC address and the bond MAC address. The result is used to map the IO communication to one physical eth port. This XOR will always give the same result as it always has the same input parameters
+
+Our proposed enhancement will be :
+
+-	When calculating the “XOR” of the host MAC address and the bond MAC address, consider a flag that denotes whether one eth port of the bond is idle (for example eth3 is idle and eth2 is always use by the host)
+-	If this flag is set and there is only one eth port used (eth2) in this bond then load balance the IOs of the host between the two eth ports to utilize the whole bond 
+-	If another host is added is mapped to the other eth port (eth3) then the flag is reset 
+-	Abstract the host level IO mapping and load balance the IOs on both eth ports equally for better performance
+
+This approach enables higher performance and better utilization of the bandwidth.
+
+
+

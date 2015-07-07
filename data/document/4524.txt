@@ -1,0 +1,9 @@
+Social dynamic Screen
+
+*
+There should be a web portal, where employees should upload their photos, and there a place for the employee's name and the event(optional)
+
+As there are new screens in each floor, they should be connected by a slide show of these pictures.
+
+Photos should be updated monthly (or daily , it optional, whether the employee would like to share a new event with his EMC collegues)
+

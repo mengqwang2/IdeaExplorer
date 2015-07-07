@@ -1,0 +1,19 @@
+RFID and NFC Access
+In the workplace of the future, security and access will be streamlined.
+ - I noticed when on holidays in Hungry that they used wrist badges to control entry to the baths, the bands were scanned on entry. 
+ - When passing through a toll using RFID, the car is read as it approaches and it can pass through without stopping.
+ - Contactless payment services provided by banks is proof that NFC is a safe technology
+Use a combination of RFID and NFC on wrist bands, mobile devices and/or I.D badges to provide access to buildings, use equipment, log into PCs and for contactless payments in the canteen. 
+
+ - Extend the capabilities of single-sign on by using NFC technology to securely log onto PCs (swipe the access card, wrist band or mobile device) and use RFID to determine if the user is close to the PC. 
+ - If the user walks out of range, they would be auto-logged out. 
+ - RFID could be used to open doors for people with the correct access as they approach (like a car toll pass). 
+ - NFC also provides the capability of contactless payments, which could also be implemented in the canteen/coffee dock.
+ - NFC could also provide the capability to 'unlock' secure print jobs
+ - Improved Single Sign-on Capabilities
+ - Using emerging technologies to improve the workplace
+ - Streamline security and access
+ - Easy to use
+ - Secure System
+ - Seamless access
+ 

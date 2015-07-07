@@ -1,0 +1,21 @@
+Non-Disruptive Upgrade of virtual hardware
+
+The idea came up while working on the product upgrade feature for VPLEX/VE and its in very nascent stage. Technicalities needs to be explored and worked on.
+
+VMware starting from vSphere 5.1, supports hot add of memory and cpu for vms. But this also requires VM downtime at least once to do the config since you can't modify the settings while the vm is running. 
+
+This can be clubbed with existing vMotion technology which does not involve VM downtime, but not moving the VM as such.
+(Borrowed these vMotion steps from http://blogs.vmware.com/vsphere/2011/02/vmotion-whats-going-on-under-the-covers.html )
+
+1. Create a shadow VM on the host of users choice.
+1.1 When this happens, modify the VM config for vHW as per user choice. Increase in vRAM or vCPU or add any other vHW. Rest of the steps are the same.
+2. Copy each memory page from the source to the destination via the vMotion network.  This is known as preCopy.
+3. Perform another pass over the VM’s memory, copying any pages that changed during the last preCopy iteration.
+4. Continue this iterative memory copying until no changed pages (outstanding to be-copied pages) remain.
+5. Stun the VM on the source and resume it on the destination.
+
+
+Ex. With respect to VPLEX/VE; what if vDirectors require a vHW upgrade? Ex. Increase in vRAM, vCPU, Remove/Add/Change type of vNIC, May be add vCDROM or any other vHW. This is similar to going from VS2 -> VS3, non disruptively. Its easy here because of existing half-half model and making use of multi-pathing software on the application host. But, you get the idea.
+
+
+

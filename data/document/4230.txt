@@ -1,0 +1,9 @@
+Data Analytics of My Voice Data
+
+This is idea is good and user friendly
+Basically we should create a web application containing all the managers as the chart and on click of then we can navigate in internal data. 
+Example is there will be authentication for the web Application ,this for security and authorization.
+When HR logges in there will be dropm down containing year,on select of the year there will the list of all managers appearing as the Chart.
+On click of that chart,we get the internal data of the feedback given by the employees under him.
+so it will be easy to read and easy to analyse the data,we can make use of Data  anlaysitcs and Big Data.
+

@@ -1,0 +1,5 @@
+EMC's social media
+
+We need an easy interface for the customer to give his direct feedback and comments regarding certain SRs
+As customers are our first priority, my idea is to develop a mobile application on a mobiles, tabs or any electronic devices available for MAC or androids to update the customer with recent updates and also to check with him directly his feedback regarding certain SRs
+

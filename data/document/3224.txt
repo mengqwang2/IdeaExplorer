@@ -1,0 +1,8 @@
+No OS, Platform on Array
+
+-
+Remove the OS.
+Run application directly on a platform that is embeded on the array.
+So for example a database could be running directly from the array.
+The platform integrated into the array, gives the flexibility of having some applications running directly on the array and no server requirements.
+

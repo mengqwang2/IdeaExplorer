@@ -1,0 +1,19 @@
+ EMC “VirtoBox” is a semi-p EMC “VirtoBox” is a semi-physical semi-virtual storage System <15K for APJ low end markethysical semi-virtual storage System <15K for APJ low end market
+
+ The idea came up from studying different market needs at the low-end range as well as EMC’s vision for 2014 
+ This “VirtoBox” will serve as EMC’s ambassador in the low end market. The box will be physical entry level storage array (one enclosure) that will have the compute (SPs) and the Storage (disks) in the same hardware enclosure. 
+The box will run free open source OS for minimum cost.
+
+All different features (file sharing, protection, deduplication ..etc) will be sold on demand using separate licenses.
+
+The physical box will run all necessary functions at high performance (this will be called “Head”). The box expansion will be over the cloud by integrating to one or more storage cloud services like Pivotal CloudFoundry or Openstack (this part will be called “Tail”) . This will add scalability and data availability at low cost.
+
+Storage auto-tiering will be used to move data between the “Head” and the “Tail” to achieve optimum performance.
+
+This idea is a 3 wins step for EMC towards :
+
+1-	3rd platform integration
+2-	Low-end market penetration
+3-	Expanding Pivotal CloudFoundry Market
+
+

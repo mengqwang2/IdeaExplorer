@@ -1,0 +1,33 @@
+Distributed system for Time series analysis
+Brazil R&D Center Time-Series Architecture Challenge
+I have been interested in Distributed systems like hadoop for a while now, and I have done some research  when I saw the Brazil r&d challenge
+If my calculations are right there is a need to process approx. 5TB of data at a single run, which is something that can be done in memory but with great cost.
+
+So the logical scenario is to use a distributed system like Hadoop but to make it run effectively we will face some challenges
+
+>How to store the Data
+
+This is  a great challenge as we need to make sure that the data is stored in a sequential manner in flat files (key-value Pairs) to minimize read time and to make it more easier we can make an index where each period of the time series is located to make sure we can fetch it easily, andto build this index we can use HAWQ on top of Pivotal HD.
+
+
+>Read IOs
+
+to make the read faster we need to increase the disk IOs, so we can use Flash disks instead of regular HDD and since the storage cost of Flash disk is getting cheaper every year this can be very convenient
+
+>Map Reduce & Time series calcualtions
+
+I had my doubts when I was thinking of the Hadoop approach because I didn't know whether Map Reduce could do the time series calculations  but after some research i found that there has been some research on this and there is an open source library called Hadoop.TS that achieves this.
+
+https://github.com/kamir/Hadoop.TS
+
+
+>Another approach 
+
+Is to use Hadoop also but instead of storing the data in single files (key value pairs) we can store them in HAWQ directly and make use of the in db analytics capability of MADlib. 
+ 
+This approach makes the analysis easier since we can make our models in R and upload them to the MADlib library to run directly, unlike the first apprach where we will have to write our own code to find the data and make the needed calculations.
+
+But to know which approach is superior that will require some testing. 
+
+Time series analysis is used alot and with the IoT and the scale of data that is generated now and how its growing exponentially, there will be a huge need for a system that can handle this kind of analysis.
+

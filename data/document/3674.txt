@@ -1,0 +1,5 @@
+Product Playground
+
+This idea was sourced from a combination of seeing the variety of product onsite at the COE and various presentations and feedback of the value the COE brings through having a state of the art facility combined with all EMC R&D testing.
+The Durham COE currently represents the widest variety of EMC's latest and greatest product. A portion of the lab called "Product Playground" would be allocated and geared towards a true testing of product development.  Since there is such a wide variety of EMC product onsite, under-utilized product can be transitioned to this space.  This development can range from testing and utilizing VIPR on any EMC product to the development of product collaboration such as Isilon & ATMOS.  This playground of product allows EMC to have the ability to stay up to speed with the 3rd Platform and the future of EMC's Federation.
+

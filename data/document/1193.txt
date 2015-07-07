@@ -1,0 +1,16 @@
+Quick Routing System in the Office Building
+This solution can help the people to find out the other's seat or meeting room or the location of lab machines easily and quickly in the large office building or lab building.
+We notice the new members often have the problem to find out the meeting rooms.
+The key of this solution is to use the QR code to identify the positions in the office building, and use a mobile map app to store such information; and the people can use this mobile app to highlight the destination, his current position and the way he has passed.
+
+The solution consists with 2 parts:
+1. The QR code tag for every cubical and every meeting room and all other locations.
+
+Currently, we have the digit number tag for everyone's cubical; however, this tag is difficult for the people to locate where it is, and it's also very difficult for the machine to recognize it. if we use the QR code to identify the location, then it will be easy for the people to use a smartphone to recognize it.
+
+2. A mobile-based routing application with the digital office layout diagram.
+
+This mobile routing APP can highlight both the destination and your current position, and where you've already passed. and then you could find out the way to the destination easily.
+For the destination, the QR code can be display in the Lync for the people, or show in the existing meeting room booking system.
+For the current position and the way passed, as every position has QR code tag, so it's easy for the people to use smartphone to scan it.
+This solution can improve the working efficiency and make people easy to find out each others or meeting rooms.

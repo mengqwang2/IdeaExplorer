@@ -1,0 +1,5 @@
+Templates,checklist,best practices for project phase
+
+I could not find a one location (may be my knowledge of the system) where I can easily download all key material related to planning KT for maintenance support. I suppose there should be any easy way to download all key checklists, templates, process for each phase at one place.
+Every day we starts new project or project moves from one stage to another stage. There are many new team members who joins us on daily basis. It is very difficult to locate templates, checklist, best practices by project/phases at one place to download
+

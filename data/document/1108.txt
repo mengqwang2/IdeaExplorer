@@ -1,0 +1,9 @@
+Express Install Build process improvement
+N/A
+We need to setup the connection of a new machine and console server to begin the Express Install build. Then we must file a ticket to ask labman for help which is inconvenient for developer to debug/test in a hurry.
+Now Express Install script complete the classic install through the interactive with console server: detect the expected message and enter corresponding command. But if the connection lost suddenly or script didn't catch the expected message from console server, the build is stopped and failed. 
+
+We can follow the ripit mechanism to complete the classic install without console server and then scribe the install image include Linux image and NAS software.
+
+
+If we fully implemented this idea, we would reduce the risk of every official build and save engineers' time to investigate other technical error not the environmental issue.

@@ -1,0 +1,8 @@
+Customer Centric Knowledge Based System
+
+The idea came up with my previous work experience.
+EMC should target client's technical team and arrange free seminar and workshops for them to make them aware about the technology and preliminary trouble shooting steps.
+Targeting clients technical support team and engage them using social media platform which can later be used to promote new products and services, feeds from the social medium should also be tagged and can be stored in the central repository. Regular update to this knowledge database should be carried out to make it more simple and easy to use. Support groups while resolving client issues should provide client with the related link to the knowledge base related to same issue to provoke them to use it next time.
+Also, while supporting client remotely we could visit the knowledge base and educate the clients to use the same to address their issues themselves.
+
+

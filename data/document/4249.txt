@@ -1,0 +1,5 @@
+Converged infrastructure including computing and storage enabled by OpenStack and EMC products working with local vendor called Mpstor
+
+I got the idea from another famous product called Nutanix. Their approach is that in order to reduce the cost of infrastructure, it is smart to put storage and compute together instead of leveraging SAN network.
+In order to reduce the cost of all infrastructure, I think it is a good idea to put compute, storage and network into one allpiance. And here I suggest a san-free approach. We can just put storage and server into one block and by using OpenStack, it can have low lost and scalability as well. One local vendor called Mpstor may work with us to approach it.
+

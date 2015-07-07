@@ -1,0 +1,35 @@
+Smart Fire Warning System Based on Big Data Analysis
+1. Global Solutions Challenge 
+
+Our idea implements “Big data and analytics” that represents “unprecedented opportunities for our customers in competitive vertical markets”, and combined deliverable EMC “Federation products and capabilities”. Solution “will help our customers to achieve key aspects of the goals above quickly and effectively.”
+
+2. 3rd platform SDS Predictive Maintenance - ETD (EMC Code) 
+
+Our idea involves Viper controller to takes advantage of customers’ existing storage to setup data warehouse. On the 3rd platform layer, it builds up “machine learning” algorithm to dynamically tune criteria weight and uses “Hadoop” to do data analysis. 
+ 
+3. Egypt COE Smart City and IoT Challenge
+Our idea could be one part of smart city. It provides “better ways to utilize their resources (Water, Energy, Security, Transportation ... etc.) in order to achieve efficiency and eliminate waste”.
+With the fast speed of cities expansion, kinds of explosive fire urgencies are pushing fire polices into a mass. Currently, efficiency is not good, from getting fire urgency call to reach site, most time is wasted rushing on road. If there’s a smart system to help them do some analysis and prediction, fire polices could ease a lot from rushing and even do many fire prevention.
+Smart fire warning system is a software suite, which can be deployed directly on the existing central servers of fire police department. 
+Components:
+1.	Data Mining Engine
+2.	Data Analysis Engine
+3.	Prediction Engine
+Working theory:
+Step 1: Based on defined criteria, system continuously scans data from given databases as well as mines public web servers to collect raw data and store into local data set. Incremental scanning or mining will be considered here to speed up whole process. Criteria types are tunable during production, which means adding or deleting criteria dynamically is supported.
+Step 2: Based on collected data, analysis engine tries to group results according to each criteria.  Grouped results can finally be used to build up benchmarks.
+Step 3: Prediction engine merges all the benchmarks with predefined weights and algorithms to compare with historical fire data. And then tune the weights to best match existing historical fire data automatically. When tuning is done, prediction engine starts to use such weights and algorithms to predict next few days fire alarm trend and delivery prediction result to fire polices. Tuning procedure works in loop mode as machine learning.
+Criteria:
+Public data resources can be historical records and future trend predictions, including but not limited to temperature, humidity, city planning, building health/ages, large assembly, and fireworks policies.
+Private data resources can be historical records of fire urgencies.
+Result:
+Electronic map with area or buildings in different color, fire polices can easily read which part might be the next most dangerous one and take necessary action based on that.  
+Deliverable:   
+System is independent Big Data analysis software suite, working on the 3rd platform.  
+
+Governments around the world are pushing smart city construction. High speed deploying of kinds of cameras and sensors will generate huge data set. As well, fire police department has lots of historic fire urgency records in their back-end database. Relies on predicted result of this smart system, fire police department might be able to take action in advance. More lives and assets could be saved, and even more fires could be avoided.
+EMC federation is speeding up Big Data solutions for kinds of customers. To deliver such kind smart fire warning system will benefit a lot for both fire polices and EMC federation. If fire police department needs to acquire best performance for data analysis and result prediction, EMC federation provides total solution from ground to top.
+On the top layer, Pivotal provides fire warning system running on performance tuned HDFS to speed up data analysis and archiving.
+In the middle layer, VMware provides virtualization for existing servers of fire police. It gives huge flexibility in tuning priority policies for precious computing and memory allocation. It makes sure upper layer fire warning application acquire enough resources.    
+On the ground layer, EMC II provides kinds of high reliability, availability and serviceability enterprise storage solutions. It makes sure upper layer applications acquire perfect I/O performance. Viper controller is involved to help customer to build up hybrid and elastic data warehouse to store raw data.    
+

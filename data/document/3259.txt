@@ -1,0 +1,7 @@
+Optimization of deduplication for VNX product
+
+When I 'm doing F2968 for VNX products, we discuss current dedup feature which is the latest functionality of VNX, but when we talk about dedup technology, we thought there are lots of things to do on dedup since fixed size block mapping is not as efficient as variable-length dedup, so the idea came up that we can leverage the advantage of datadomain.
+EMC acquired two famous companies that specialized in the area of deduplication, they are Avamar and Datadomain, in which Datadomain is a company with leading dedup technology for its remarkable on-line dedup module, this idea is to consider deploying the technology and consolidate the on-line dedup in current VNX2 or even other unified products.
+
+We can take advantage of the front-end of Datadomain system, which provided high efficiency of on-line deduplication and the backend side could be VNX so we can leverage the best block services and best compression technology. Generally, DD is used to serve as a big VTL system, but we can also take advantage of its technology to work for unified storage system with high throughputs.
+

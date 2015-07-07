@@ -1,0 +1,12 @@
+Captiva + InfoArchive integration
+Integration of products and create new solution is part of ECD challenge
+N/A
+According to law - companies must storage data (invoices, claims, forms etc.) for a certain period of time.
+Captiva Capture allows to:
+Scan/Import -> Structure-> Export data from paper or digital carrier
+InfoArchive - a unified enterprise archiving platform that stores related structured data and unstructured content in a single consolidated repository.
+
+
+So I suggest to integrate Captiva and InfoArchive
+To create solution which will allow to customer storage data for a certain period of time.
+Customer will have end-to-end solution for import and processing the documents or another data and them storage it using enterprise archiving platform (InfoArchive)

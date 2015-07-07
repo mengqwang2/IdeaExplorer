@@ -1,0 +1,14 @@
+GPS assisted EMC transport.
+Part of making EMC a great place to work, the service EMC transport many employees use to commute daily can be improved with use of GPS and maps. 
+Cab driver calls for location 2 or 3 hours before pickup and guiding them to the actual pickup point has become a pain.
+In cab portal every employee pin point the exact location in a new tab maps. This can be edited/updated once you change your current location.
+For cab administration it makes easy and efficient to assign cabs for pickup and drops using maps. Cab administrator will have access to the main maps console. For each shift how many employees are requested and their exact location will be pinned in the maps and highlighted when the administrator select the time in map. This will be easier for last minute changes and re-arranging cabs and utilize the cabs effectively. Using this we can lower the current pickup and drop request lead time required. The cab drivers can access to maps using a EMC_transport app downloaded to their mobile and it will show the assigned employees exact location for pickup.  
+
+Cab administrator can effectively club employees for pickup and drop. 
+Knowledge on the entire streets in the city not required for cab administrators. 
+Last moment changes can be updated even after the cab has left for pickup and drop without calling the cab drivers.
+Reduce the current lead time required for pickup drop requests.
+Using maps it’s easy to arrange nearby pickups/drops and on same route pickups/drops.
+With proper cab arrangements employees can reduce the valuable time spend in cabs. 
+Cab utilization can be increased with proper pickup/drops mappings.
+

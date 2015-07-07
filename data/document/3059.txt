@@ -1,0 +1,6 @@
+Use Case based search tool for product
+ improving addressing of new solution for 3rd and 2nd platform use cases.
+very often after customer meetings I've several discussion and brainstorming meeting with my sales team (presales, DPAD sales specialist, presales specialist, etc..). It's very difficult at the end find out the right solution with the right value proposition to match customer use case. 
+creation of a product search tool based on use case. For example large file sharing solution, ROBO back up solution, etc..
+for each use case tool indicate solution or product to address that specific need, with customer reference link, presentation link, best practice and all internal and external related documents and collaterals.
+time & cost saving for design and planning customer solution, and avoid wrong solution positioning (ex: Isilon for very small file sharing solution, etc..).

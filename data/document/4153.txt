@@ -1,0 +1,28 @@
+EMC Employee Timeline
+
+The Idea came up while talking to Darshan, our principal architect on timelines..
+Key Milestones achieved by the Employee like promotions; pay hikes; assessments; in an Employees journey goes into his Profile Timeline integrating this solution with the existing systems. These profile details can be considered private and will not be shown to others.
+
+Key Activities that an employee performs, should be left to be updated by the Employee himself for others to view. 
+
+Key Achievements any awards & recognitions could be pulled in from the systems.
+Employees journey in Education & training at EMC, all his certifications, technical & non-technical trainings.
+
+Technical Solution
+The implementation of this solution involves an open source based application that can aggregate data from below different data sources, and provides RESTFUL services that can be consumed by UI components built on Java Script frameworks like Jquery, Kendo, Bootstrap etc..
+
+-	Peoplesoft; 
+-	Excellence at EMC system; 
+-	Saba for Ed Services
+
+Along with the pulled in data, the employee also will have an option to add his own key experiences on his timeline. Ensure that confidential information is hidden and only can viewed by appropriate team.
+
+The solution could just be a widget on its own and could be plugged into any appropriate websites including Inside EMC.
+
+Benefits,
+-	When an Employee moves into a new group, it is easier to just walk through his timeline to know more before you hire.
+-	Inspirational & Motivational element for younger employees to see the timeline of the senior leaders in the Organization and how they have grown.
+-	Its like an Employee Self-Pulse check tool
+-	When you want to re-hire an employee into the Organization
+
+

@@ -1,0 +1,15 @@
+Modified Raid-Hotspare concept for EMC VNX Pools
+DFRG cases in the field due to unavailability of Spare drives in the Array.(VNX & VNX2)
+DFRG cases in the field due to slow rebuilding process on spares in the Array.(VNX & VNX2)
+Degraded Luns performance during singly faulted drive out of an RG.(VNX)
+From DFRG cases in the field.
+<1>.  Assume in a VNX box We have a Pool with 6 RGs [1-6], one of the drive from RG 1 went DEAD. Ideally we engage qualified HOT Spare where data will be rebuilt, that data will be copied back [equalize] to new drive once inserted in failed slot.
+
+Proposed Solution :- Will bind a temporary lun of desired size in some other RG [2-6] that can be chosen depending on different criterias (RGs with Less load,  BG Services on RG etc). Will start rebuilding data to temporary lun of RG 2 which will be comparatively faster than rebuilding on a hot spare [single spindle]. Chances of hitting DFRG will be comparatively lesser due to faster rebuilding writes on temporary lun. Temporary Lun can be unbound once we will finish copying on newly inserted drive.
+
+<2>. In a VNX2 box we use permanent sparing where we don't need to equalize the data but what will happen if we don't have spare drives available.
+
+Proposed Solution :- Above design we can be implemented here to handle drive failure/DFRGs in VNX2 arrays. 
+
+Same can be implemented in upcoming products like Unity, Cyclone as well. 
+Improved customer satisfaction

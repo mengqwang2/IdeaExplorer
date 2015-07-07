@@ -1,0 +1,9 @@
+EMC VNX Implementation Check Tool 1.01
+For E2E Horizon to provide a post implementation script, to verify the implementation quality, and accuracy with relation to the provided design. Check TOOLS are necessary as documentation of a successful implementation and also as a documentation of the current VNX configuration.
+
+This Macro was built during a quality initiative, that aimed that the VNX delivery is verified in an automated way, which provided the IS with guidance on what needs modifications in the VNX configuration, and also a documentation of the VNX implementation. The prototype can be found @ https://inside.emc.com/docs/DOC-141603.
+
+The prototype of the Excel Macro developed, is aimed to verify that all the parameters of a VNX configuration match the initial Design, with color-coded output that recommends all necessary modifications so that the VNX perfectly follow the SA Design. The input of the Tool is the NSD Design along with the NSD output of the current configuration. 
+
+This prototype can be further developed either as a part of E2E solution or as a stand-alone Post Implementation checks. Also it can be built to be compatible with even more products, such as Symmetrix, VPLEX, RP, ... 
+

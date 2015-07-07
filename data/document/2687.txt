@@ -1,0 +1,17 @@
+Monitoring our business-critical services and infrastructure
+I am trying to use an Open Source tool "Zenoss" which can be hosted anywhere Server/VM/Cloud for Monitoring anything int he IT infrastructure.
+Was exploring opputunity for Infrastructure Monitoring different hardwares which is Agentless.
+We can use Zenoss which is an open source tools the delivers the precise insight into potentially affected services so you can fix the problem before our users are impacted. 
+
+The Tools can be customized by building Zenpacks, which can integrated with Zenoss with desired changes to Monitor what we want. Open architecture makes it easy to customize and extend
+
+The Tools is completly Agentless and hence does not require anything to be installed in the infrastrcture.
+
+This one Tools can Monitor Converged Infrastructure, Database Applications, Networking, Servers/Operating Systems, Storage Systems, Virtualization and Cloud in a single pane.
+
+Zenoss can deliver to achieve scalability, flexibility and efficiency while reducing the cost of operations with simplified, unified monitoring and event management that adapts easily to any environment, identifies service issues more quickly, and reduces infrastructure and productivity costs.
+We can save huge money using Single integrated view of networks, servers and apps rather than using proprietaty tools.
+
+Seemless visibility between virtual and physical machines
+Cross-vendor, cross-platform support (Windows, Linux, Unix)
+Open architecture

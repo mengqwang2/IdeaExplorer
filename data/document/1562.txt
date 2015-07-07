@@ -1,0 +1,9 @@
+Query language for EHC resources(File/Volume/Object/VM)
+With this feature, it will be more easier for searching resource from EHC.
+During testing on ViPR, we found that it was hard to find the proper resources. Why can't we use an query language to help us on that? And it can be supported by EHC.
+The language support the query on the meta-data of the resources, and find the proper resources with the query conditions, just like using SQL querying records from db. It can support public cloud and private cloud.
+
+For example:
+We use this query language to find all the Volumes that meet the conditions (allocatedCapacity>1G and snapshotCount>1 and snapshotCount<3 group by virtualPool) on EHC.
+
+With this feature,EHC will be more easier to be managed.

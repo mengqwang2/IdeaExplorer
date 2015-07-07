@@ -1,0 +1,5 @@
+Casual Leaves
+n/a
+I got this idea by observing the employees complaining about the current vacation system 
+The idea is about having a new user friendly Vacation System on the Apex. This system should be accessed also through mobile from outside Egypt COE. In case of causal leaves, employee can easily access this system and notify his manager that he is on casual leave.
+n/a

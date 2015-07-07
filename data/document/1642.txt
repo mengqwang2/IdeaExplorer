@@ -1,0 +1,6 @@
+Customers products Family Tree
+it can provide revenue opportunity to the business
+I attended a workshop in the COE that discussed this challenge
+I suggest a new process to register the product as follows:
+- when a customer purchase a product and the factory is ready to ship it, the factory to produce a birth certificate for the product with the customer name and location. it should then be added to customer's product family tree. the family tree to have three main branches: EMC II, VMware, Pivotal. EMC II branch to have three sub branches: CTD, ETD, solution. the new product to be located correctly in the tree.
+if all customers have the product family tree, it will help in new sales. using business analytics, we can run report on a tree or group of trees to identify a proposed new product that can give the customer a solution based on what he already has. if sales intend to sell a certain product, they can consult the tree app to check if it's a good step or it could have a conflict with an existing product. it can also recommend some configuration to better match with the existing products

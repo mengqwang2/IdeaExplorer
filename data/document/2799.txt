@@ -1,0 +1,11 @@
+Sensors Power consumption detection and IoT security- New security authentication paradigm for IoT
+Stuxnet, BlackEnergy, and numerous other recent attacks have shown that IoT systems cannot be adequately protected with software alone. Security software is easily bypassed by clever attackers, who can then remotely control physical systems. The combination of software and hardware offers an optimal balance between security and flexibility.
+When power is first introduced to the device, the authenticity and integrity of the sent data from the sensors is the 1st thing that we should think about. We are thinking about implementing special algorithms to help us understand the behavior of the sensors based on the routine and daily activities, which will lead to detection of any suspicious behaviors when there is  unauthorized attempt to access the generated data of a sensor.
+Our solution is based on metering the usual power consumed of the sensors in a mesh and under certain circumstances "this will be registered as a fingerprint for every sensor". this approach will help us detect any potential threats or un authorized access to the flood of the data of the looped sensors based on special algorithms that can pass certain activities and gives us an alarm for other ones.
+Security cannot be thought of as an add-on to a device, but rather as integral to the device’s reliable functioning. 
+
+Our approach will use the same intelligence that enables devices to perform their tasks must also enable them to recognize and counteract threats. Fortunately, this does not require a revolutionary
+approach, but rather an evolution of measures that have proven successful in IT networks, adapted to the challenges of IoT and to the constraints of connected devices. Instead of searching for a solution that does not yet exist, or proposing a revolutionary approach to security, we will offer only an add on for the current structure. 
+
+
+Based on the normal behavior, we can receive data from the sensor, otherwise it will be marked for intensive security analysis and risk calculation.

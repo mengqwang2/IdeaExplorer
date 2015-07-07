@@ -1,0 +1,36 @@
+Data lake solution to seize big opportunities in telematics industry
+This idea provides a new business model utilizing portfolio of existing EMC products to seize big opportunities in the emerging telematics market.
+I did once have the opportunity to work with partner of my previous company in telematics industry. I know that this market is growing rocket fast and there are large potentials in it. I see some products and apps utilizing OBD data so they help drivers checking their car health and be more aware of how they drive their cars. But there should be more opportunities besides this using model which only utilize data locally from one car. The combination of telematics and bid data opens a door to a big market.
+
+Beyond the various needs from different parties I realize that the data lake with raw driving data is the key to solve all these challenges. Our company's business focus and capabilities give us the chance to grab this great opportunity.
+While there are various parties involve in the about challenges separately, there is an ultimate solution which can provide essential data that serves all above needs -- data lake with raw automobile driving data that can feed into big data analytic.
+
+With the standardization of car industry and existing telematics technologies, the following real time raw data can be retrieved from a car while driving:
+. A large set of sampling data from OBD interface recording car performance from various sensors;
+
+. User's driving behavior sampling data: turning right/left, hit gas/brake, honk...;
+
+. Car routing information from LBS;
+
+. And even more data as deeper integration with car components;
+
+EMC's strong portfolio of products have perfect match to store and process the above data. We have the opportunities and abilities to take over the following market:
+
+. Hardware and software abilities to build up the data lake;
+. Software Defined Data Center to manage the raw data from telematics terminals;
+. Pivotal and other software for big data analysis;
+
+This data lake and analysis can benefit all parties mentioned above:
+
+. Traffic administration can provide more accurate of traffic control by using real-time driving data based on massive volume;
+
+. Automakers can design more efficient and environmental friendly cars by analyzing OBD data from field and user's driving habit;
+
+. Insurance company can promote attractive service package to drivers who have good and safe driving habit, this in turn helps drivers to drive in a more safe manner;
+
+. Users share their driving data in social media which show personal favors and unique experiences;
+
+. And lot more may benefit from these raw data.
+
+The idea behind is that even we see a lot of different needs around the automobile industry, this data lake for storing raw driving data provide this one repository which can meet all requirements. And these driving data are treasures which can provide much potential business opportunities.
+This solution will help our company penetrate into a fast growing market. It helps EMC leap forward to the big data industry. I believe the raw data from massive volume of automobiles which are retrieving from real time driving is a gold mine.

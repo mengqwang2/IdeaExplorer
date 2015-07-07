@@ -1,0 +1,7 @@
+Memory Tiering
+This idea aims to create a new use case for XtremIO
+At some initials calculations, total infrastructure cost can be reduced up to 30% using this solution. But it still need to be tested for viability and best practices.
+Use XtremIO + ESX capability of memory swap to increase the vRAM:RAM ratio, lowering the $/VM cost 
+XtremIO low latency to support very fast Memory Swap to Disk operations, with low impact to VM performance.
+
+As a new compelling use case for XtremIO, it will increase product applicability and increase sales numbers.

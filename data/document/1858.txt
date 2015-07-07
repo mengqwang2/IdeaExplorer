@@ -1,0 +1,9 @@
+Merge Mainframe Data Collection tools
+Make data collection easier for customers and therefore speed up problem resolution
+IDea is a simple merging of two existing products
+The two tools should be merged, taking the best functions from each, and the resulting code shipped with the MFE product (as EMCMGRAB is now)
+Customers find collecting large numbers of logs and EMCMGRAB is a great tool to automate that.
+
+GDDR is becoming installed at more sites and requires all the MFE logs and extra GDDR logs.  GDDRTRAP collects these but is currently non-GA.
+
+Combining both products to a single data collection tool, that is easily run by the customer, would provide benefits to problem resolution.

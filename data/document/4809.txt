@@ -1,0 +1,7 @@
+BRS/SAN Product should have capability to capture the SR details
+
+Tracking Service Request getting raised for each product is always good for Service based industry. Person who manages the product on day-to-day basis doesn't know what are all the issues occurred for a particular product couple of years ago.
+1) Design the Product to talk to the ESRS gateway server and then the Product itself need to have a separate option to raise SRs manually or automation for critical alerts
+2) Product also needs to capture the SR details from EMC Support with SR reference, Plan of Action, etc...
+3) If any issue has been raised for a particular BRS/SAN product - when the SR gets closure - Product needs to capture RCA of all the issues.
+

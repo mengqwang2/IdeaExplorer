@@ -1,0 +1,8 @@
+Minimize the steps in Exchange & Vmware Client Integration with Avamar
+
+This is something product team needs to be think on this & do some innovation in Avamar & VMWARE integration & Exchange. There are some additional steps we have to perform while implementing VMWare solution in Avamar. Whereas in Symantec NetBackup & Backup Exec there are less steps to be performed. 
+
+During the POC this would be very hard to convince about this steps & also this will be win-win situation for our competitor products. Minimum Configuration steps would save the critical administration & Implementation task for the customer, so Sales will be helped during the POC & in terms of proposing the effective Product solution in the customer environment. 
+
+Minimize the steps in Exchange & Vmware Client Integration with Avamar.
+Minimum Configuration steps would save the critical administration & Implementation task for the customer, so Sales will be helped during the POC & in terms of proposing the effective Product solution in the customer environment. 

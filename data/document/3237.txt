@@ -1,0 +1,6 @@
+Fingerprint in RSA token
+
+-
+Create new tokens that have a fingerprint check to display the token.
+High level of security if the token is stolen for example
+

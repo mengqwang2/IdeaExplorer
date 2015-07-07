@@ -1,0 +1,9 @@
+Mobile Instant Messaging Support
+My idea can increase the customer satisfaction
+Ideation Session
+Create a mobile application that receives a message from the server if anything goes down, and then customer immediately goes to the application and chat with one of our customer service representatives to define their problem.
+
+If the problem needs a call our representative will give them a call.
+
+At the end of the chat conversation a feedback will be conducted by our representative to the customer.
+If the idea succeeds this will increase the customer satisfaction  

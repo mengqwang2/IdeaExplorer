@@ -1,0 +1,17 @@
+Log/Support Material Collection Tool - Much Required!!!
+This Idea is very much relevant to the challenge as it cuts across and relevant to all Core Technologies. It will improve customer experience. And will definitely improve troubleshooting speed & accuracy and prevent customer issues, and reduce the number of customer contact points.
+The first thing which a support engineer requests when working on an SR is the support materials and very few customers have the skills to collect those files. A procedure is shared with the customer to collect the required files. 
+Also the support files are required for various migration planning.
+We propose to create a tool which has the ability to collect Logs\Support Materials\Diagnostic files from various EMC products and upload them to the desired FTP or DR directly. It will eliminate any manual effort required to perform this task and will also save a lot of time consumed. The tool will have the following abilities:
+1. Collect Support Material required from any EMC supported product
+2. Upload the Log files to FTP/SR
+3. Scheduler to schedule the collection and uploading of files
+4. Send an e-mail to the user once the required files are collected
+5. Send an e-mail to the EMC representative requesting the files
+The authors of this idea believe that if implemented the tool will provide the following benefits:
+1. Save a lot of manual effort and time
+2. Standardize Support Material collection
+3. One tool to collect required files for all supported products
+4. Automate Support Material collection
+
+A beta version of the tool can be demonstrated within 2 months and complete tool delivered with the time frame expected by the sponsors.

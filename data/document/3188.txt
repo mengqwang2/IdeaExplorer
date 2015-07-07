@@ -1,0 +1,15 @@
+EMC Greenplum for HR decisions
+
+I came up with this idea when i read the Greenplum slogan, "Data In. Decisions Out".
+EMC has lots of HR data sources where each and every source is isolated (Not directly connected) from the other, like:
+ 
+-Employee Quarterly Goals/Results
+-Employee Development plan/progress (IDP)
+-Employee Quarterly skill assessment
+-Employee Performance History
+-Employee Training History
+-Innovation
+ONE HR database using the EMC great product "Greenplum" where all HR related information can live.
+This database will be directly connected to all HR data sources, ready to pull data and to give decisions to Managers.
+Managers will have a direct access.
+

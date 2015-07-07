@@ -1,0 +1,9 @@
+Security Analytics for WiFi Networks
+Better Analysis of WiFi networks would allow us to analyze IOT devices which are mostly on Wifi network 
+
+
+
+This is part of Innovation Mining workshop
+RSA Solutions like Security Analytics/DLP and ECAT should be able to analyze Wifi network data and also prevent data loss or takhe actions 
+
+Complete Solution for customer in terms of protecting data in Wifi networks 

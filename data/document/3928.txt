@@ -1,0 +1,5 @@
+EMC cloud app for storing mobile data
+
+We all use mobile which has limited data storage
+Idea here is EMC should have a mobile app which will allow customers to store their data in the cloud. The backend can be any of EMC storage arrays. Customer just has to install this app - we can have some amount of free space for eval. Then on can be licensed. User can purchase the license based on data size.
+

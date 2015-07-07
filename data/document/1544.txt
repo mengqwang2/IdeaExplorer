@@ -1,0 +1,14 @@
+TCE - Active Data Path visibility for the virtual volumes via CLI and GUI
+This proposal is relevant to the TCE challenge. 
+Work Experience
+Implement the active dorector that is serving IOs to the particular virtual-volume to the user via CLI and GUI. This way the user is better informed about the flowing active data path. This is very helpful during maintenance and other activities that are performed by the users.
+
+This can be implemented vi CLI as a command for each virtual-volume or club it with the existing "show-use-hierarchy" command.
+
+From the GUI, at the virtual-volumes context, upon selecting the virtual volumes, towards the right side, display the active data path for that particular volume.
+
+Or, include the information about the Engines in the GUI and display the necessary information at that context. 
+
+This information is useful even if any disruption happens, so that the user is aware of the active data path for a particular virtual volume.
+
+This avoids the downtime / additional time that the user/customer would spend during downtime/maintenance/ or any activities that the customer has planned to perform.

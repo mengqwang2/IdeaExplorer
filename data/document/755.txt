@@ -1,0 +1,5 @@
+Project Roadmap online portal
+Roadmaps are currently layed out as a powerpoint presentation and act as a guide for upcoming projects. The idea/challenge is to create an interface which ties the roadmap to the daptive account and project colleratal docs. Having this as a living identity, allows for better colaboration and project visiblity. This will also tie into equipment/resource planning.
+I came up with this idea during an innovation brainstorming session held by team earlier today.
+The solution keeps the roadmap in sync/living with the project lifecycle. It's unique because it will provided a central location for all support docs for a project tied to a project reference in daptiv and linked back to the the roadmap. single pain of glass for projects. 
+success company would save money, this would improve the current roadmap process and improve cross-funtional interaction in this process. 

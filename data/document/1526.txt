@@ -1,0 +1,26 @@
+Any-IO - A server side application which acts as a manager for designated IO generation applications
+The major challenge is to encapsulate any number of IO generators apps under a single unified external interface, orchestrating IO generator slaves underneath. 
+A while back we decided to find a new IO generation tool for Recoverpoint ongoing testing. we came a cross various apps, each with its own uniqueness. all of the tools we encountered had the same upper level abilities (Write/Read/Stop/Resume/Test) but the behavior of the operation was different from one app to the other and we wanted an integrated solution which will combine all behaviors into one easy to manage product. We started defining the abilities such a product should obtain and wrote an initial HLD draft.  
+Many IO generators (IOX, Chimera, DCB, VDBanch, IORate, IOMeter etc.) are in common use as part of various EMC products  development process. each IO generator has its own capabilities,features and UI. IO generators by nature share common characteristics which can be identified and wrapped under a single product with a unified API.
+
+Currently such a product does no exist and if it did it could dramatically simplify the management and orchestration of a group of IO generators and provide one product which can be used by all EMC storage based products.
+
+ANY-IO will implement a scalable architecture able to deploy and automate multiple IO generators (Cores) on several OS types
+ANY-IO purpose is to expose unified/easy-to-use interface for clients to use (via Web Service), and manage the slave IO generators sessions, track states, watchdogging etc.
+Each core application may be an application, collection of scripts, manageable API etc., that is capable of generating some sort of IO Pattern. Each core may be platform dependent, and suitable for running on a specific OS types only.
+
+Examples of ANY-IO basic capabilities:
+1. Initialize core components with specific parameters.      
+3. Set/Get core components configuration/status.
+4. Generic flows for all core components - Start, Stop, Pause, Test.
+5. Collect logs of core components
+6. Analyze failures of core components.
+7. Manage a collection of cores as if there were one “mega” core (UBER Session).
+
+Basic ANY-IO diagram : https://inside.emc.com/docs/DOC-155499
+
+
+Fully functional product can benefit EMC in a few aspects:
+1. Provide a unified cross product tool that will improve automated testing procedure in storage    based  products.
+2. Save money and resources (Shorter training/One product for all). 
+3. Improve the quality of EMC storage based products (ANY-IO will cover more aspects than a single IO generator)

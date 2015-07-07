@@ -1,0 +1,18 @@
+iEMC 
+Easy Accessibility of Information and Notification. Natural Language Processing.
+Working in EMC from past 9 years, have gone through various application changes. Changes takes time to get adopted and slows down productivity. One has to keep a close eye on his emails and take action.
+
+A Dashboard with various notifications like on a Windows Phone would be more helpful for Employees and especially Managers.
+In this Big Data World, we need a simple search solution for multiple places.  How can one know what is the site for booking a hotel, fixing a plumbing / electrical probem. People use Google most of the times and sometimes other search engines like Bing.
+
+We need a local Google within EMC. You would have a large search screen and type "How to get a new laptop?", search result should get output from infinit and also other results about reviews of the laptops offered, types of laptops offered. 
+
+Similarly, to apply for a Business Visa if you type "Business Visa to USA", one should get the details along with Tips and Tricks. If I give the name of an employee, should get details easily. 
+
+If I type the name of a server or database or application,  CI Item should get autocomplete and I should get options below such as Raise an ART, Raise Unity, Contact Primary Application/Database/Server owner etc. The list goes on...
+
+We need to implement Google Enterprise Search or Microsoft FAST search server or any other Enterprise Search Engines. Search Engine should have Natural Language Processing capability.
+
+
+We would also need to develop our applications like widgets similar to iGoogle. Every employee should get his own portal called iEMC. Employee should get widgets from his local office as well as global office. For instance, for financial claims, USA has different application and India has different application. Based on employee location, it should have right widget. He should be able to configure based on his needs. His frequently accessed widgets should come on the top and less frequent on the bottom something like Windows 7 icons. Widgets based on the search history should also get added. We would also need a similar Mobile Application. It should automatically remind users such as Last Date to Submit IT Proofs, local office events etc.
+This gives altogether a different feeling to end users within EMC and moves things faster. It saves lot of Man Hours across the Globe which can be wisely invested in other important things.

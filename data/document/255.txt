@@ -1,0 +1,9 @@
+Advanced Metering Infrastructure Based Solutions for Optimal Utilization of Electricity, Gas and Water Resources
+This idea proposes how XtremIO's high performance computing can be leveraged to build an IoT enabled Advanced Metering Infrastructure that will allow us to realize Optimal Utilization of Electricity, Oil & Gas and Water Resources.
+We came up with this idea while brainstorming about this challenge.
+IoT sensors have to be embedded across the entire distribution networks with data being fed in to the system powered by XtremIO. Any issues related to transmission loss will be transmitted by the sensor in real-time which can be monitored from a central console allowing us to respond immediately to fix the problem with least loss. Past data as well as current data can be used to predict and be prepared to proactively address load balancing issues to optimally utilize the water resources.
+
+Technologies to be used: EHC Solutions embedded with XtremIO/ECS, REDIS, GEMFIRE and RabbitMQ for in-memory database to enable real-time monitoring and analytics. 
+
+We can look at integrating some solutions like freeboard.io for providing Real-Time analytics dashboard for the system to monitor the IoT devices.
+If this idea were to be implemented, we could become a leading player in the emerging smart city projects all over the world.

@@ -1,0 +1,5 @@
+One key tool
+
+Do automation via Automatos.
+We can integrate some scripts or plug-in for customer. And the customer just need to give simply parameters and press one key
+

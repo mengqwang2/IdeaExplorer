@@ -1,0 +1,14 @@
+EMC software download, installation and upgrade portal. 
+
+came across the idea during discussion. 
+Adobe Creative Cloud (which is similar to App Store) is a good example that we can learn from. Customers need to install Adobe Creative Cloud on computer first, then every Adobe product will be downloaded and installed through this portal. So whenever there is a newer version of a certain product coming out, it will scan if there is any previous version of the product installed on the computer, if there is, the icon of the software will be automatically changed into “upgrade” and customer will be notified about the new version. 
+
+What I propose here is, we can create a similar portal for EMC software products. Any software products which need to be installed on customers’ server will be installed though this portal. After customer logs into the portal from any server, it will scan the current installed EMC software product, and give install or upgrade option accordingly. and customer can check the portal to see if there is any newer version of the software.
+
+For example, if the customer already installed Powerpath 5.5 on one server, and now we have 5.7 version, Once he logs into the portal, there is an upgrade icon beside Powerpath, and detailed description can be seen after expanding the message. If there is no previous Powerpath installed before, after the customer searches it out, there will be install button beside it. 
+
+By doing this, not only is it more convenient for customers to get aware and make software upgrade, with the data on version extracted from the portal, we can also proactively check the compatibility of their environment (e.g, if customer has an Enginuity code upgrade on array, if the portal’s gives info that the corresponding host software hasn’t been upgraded, an alert will be sent to the customer reminding him to upgrade) 
+
+This will greatly reduce the issues caused by incompatibilities and customers’ server management cost. 
+
+

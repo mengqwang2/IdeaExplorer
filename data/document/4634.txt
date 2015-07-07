@@ -1,0 +1,6 @@
+Firmware update for Xtremsf card
+
+Working for a customer install , customer wanted to update the firmware when he took downtime to install the card. Since no option was available , we needed an extended downtime during the driver install to accomodate 2 reboots .
+The firmware update of the card is possible after a xtremsf driver install which requires a reboot. Adding a power cycle post firmware update means we need 2 server reboots. 
+If there is an offline utility that can be used to update the firmware as soon as the card is installed , firmware update can be done when the card is installed without need for a driver .
+

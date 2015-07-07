@@ -1,0 +1,8 @@
+Malware Reverse Engineering as a Service
+Israel COE Challenge - The idea address the hot topic of cyber security.
+The project has the potential to include external design partners and/or relationships with academia.
+RSA IoT Challenge - Doesn't directly address the challenge but RSA IoT would ben
+I work for the RSA FirstWatch Advanced Threats Research Lab. We do much similar related work in the area.
+Many times when an organization is attacked or is already breached the SoC\CSO would obtain various binaries. Those binaries could either be attack tools or backdoors\trojan horses. One of the most interesting questions that comes up is what are those binaries exactly? How do they work? What are the full capabilities of a certain peace of malicious code? What's the attack methodology employed with conjugation with a certain tool?
+RSA should offer a service where if such come up, one would be able to send RSA the relevant binaries and within a short amount of time receive full answers to such question and other the client might have. 
+A successful implementation would be a highly capable dedicated team of experts which address requests quickly as they come whilst developing and improving their practices and procedures constantly. A success would be if such a team could address a threat

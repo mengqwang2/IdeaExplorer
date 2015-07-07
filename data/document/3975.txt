@@ -1,0 +1,10 @@
+Self-healing of the affected system at the customer place by consuming the log events
+
+Most of the times the work around for the customer seen issues would be a set of internal commands and they could be easily automated if the system has the intelligence to analyze the log events.
+Also as mentioned earlier, the troubleshooting of certain issues would be easier if the system could collected timely data.
+For VPlex, it can be as follows:
+1. There should be a logic to watch for the set of events on which the healing process can be applied. Probably this could be done while the management server do fetch the events from the directors.
+2. Collect the data required to analyze the issue more through firmware commands which could be specific for the event.
+3. Apply the logic to come out of the situation based on the analytic on the data gathered from the directors.
+4. If the problem persists,a call-home should initiated.
+

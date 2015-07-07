@@ -1,0 +1,26 @@
+Root Cause Analysis of backup application by using database
+
+Came while debugging multiple log file for a simple error 
+Error can be tracked by log files
+
+Example : System errors can tracked system log files
+                  Data base errors can be tracked by database log files
+                  Storage Errors can be tracked in storage arrays by log files
+                  All these log file information can be collected in a common database like SQLite (can be collected in different tables of SQLite) later error/fault messages can be filter to another tables 
+Suppose if backup of one client has failed and other clients have passed.( Considering  file system backup)
+
+Now Support of field Engg has to  debug this error by 
+checking client if it is  down ( No errors there)
+Performs manual backup which  work fine at that point
+Performs Schedule backup of this client  that too works fine
+No Clue in backup application log
+No System errors 
+
+IF suppose he has log backup application/system log/ connected device log at one place
+Then if he grep for error message. Easily if finds error in dedupe engine like exceeding stream count. Then it easily to conclude error is from dedupe engine.
+I know database holding all errors is tedious task and increases the storage space.
+Method can adopted to filter/remove  information and warning message and only keep error messages for a short duration.
+Also a database can keep performance information continuously of top 10 utilized daemons and plot the graph.
+
+Simple Perl Scripts can be used to collect the errors and push to a database (LAMP Architecture helps here)
+

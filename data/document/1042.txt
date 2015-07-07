@@ -1,0 +1,28 @@
+LabOne --  A framework that can manage all labs within one platform
+This solution is an integrated platform to manage all resources under all labs with highly efficient and automated way.
+N/A
+There are two parts for this solution. One is the management platform for all resources under labs. The other is a 3D management UI that based on the data from management platform.
+
+Management platform:
+Layer one – infrastructure hardware management layer:
+There are many modules for manage the specific infrastructure hardware. Including Air-conditioner management module, Power System management module, Network management module, Rack management module and Monitoring System management module.
+
+Layer two – hardware resource management layer:
+Modules in this layer are used to management the hardware resources. Such as Server management module, Storage management module, Switcher management module and so on.
+
+Layer three – virtual resource management layer:
+Base on layer two, we will setup the resource pools for computing, storage, network.
+
+Layer four – IaaS layer(we use ViPR,OpenStack/Exsi for this layer):
+With the virtual resource that offered by layer three, we can provide IaaS services. Such as VM, block storage, file storage, object storage, vsan, zone and so on.
+
+Layer five – Authentication and user management layer:
+This layer will manage the authentication and map the virtual and physical resources to user. After authentication, the user can use and management the resources that assigned to him.
+
+Layer six – Workflow and self-service management layer:
+User can apply for physical or virtual resources through workflow, and the admin will approve or refuse the request.
+
+3D management UI for infrastructure hardware and hardware resources:
+Based on the data managed by management platform, this part will show the data with 3D pattern. The admin can find any hardware through this and power on/off the hardware. The admin can find the alert and find the issued point through the 3D UI. The admin can monitor the temperature of each corner of the lab through this UI.
+
+With this solution, the admin can manage all their labs and all the physical/virtual resources in these labs easily and remotely.

@@ -1,0 +1,10 @@
+Analyze cloud storage with Pivotal big data suite
+
+During test, we noticed that ViPR generate thousands of metering data every hour. When found that S3's storage price will adjust base on sysytem load, an idea came to me that we can make full use of metering data. So I discussed it with our EVP interest group and also some ELC co-workers.
+Since ViPR is targeting to cloud storage, take it as an example. 
+ViPR can contain 1 million volume/FS at maximum. Consider a customer has 500 thousands of volume/FS, each of them will generate 1 piece of metering data each hour. Pivotal big data solution is suitable for such big data. By analyzing such metering data with the time-series analysis provided by Madlib or Mahout, we can summarize the I/O characteristic of a day, a week, or a month,then predict future values based on previously observed values.In this way, customer can adjust its I/O to avoid TPS peak that may exceed capacity, or adjust billing policy based on different I/O characteristic.
+
+Meanwhile, as ViPR also can provide user/project/Class_of_service information along with I/O metering data. We can use data mining algorithm such as classification like logistic regression and decision trees or regression like linear regression provided by Madlib or Mahout to predict the I/O type for certain user using certain class of service, which might mapping to a certain application. Customer can decide where to put such applications to achieve better performance.
+
+We can use Pivotal Greenplum database or Pivotal HD to store the data.Moreover,Pivotal big data suite provide real-time, interactive and batch capabilities according to the latency. According to the requirement of business, we can choose different method and product to handle it.
+

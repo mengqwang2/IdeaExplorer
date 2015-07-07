@@ -1,0 +1,7 @@
+Stack Ranking Engineers in CS
+na
+v
+This idea came up to me so that we can make the R&R more transparent as all the engineers who are supposed to be recognized would have their score displayed and viewed by everyone. So people who stand on top 10 in the list can be recognized as gold/silver and bronze award winner.
+
+After the common metrics are decided across the BU's there would be one team who would collate the data from the daily/weekly reports and update the scorecard on a weekly/daily basis and rank the engineers on the scorecard. The scorecard should be normalized according to the number of days worked by the engineer. This can be run on a quarterly basis. So every quarter there would be stack rank for engineers based on their scorecard on the board which can be viewed by engineers. This would help to pick the Gold/silver and bronze champions.
+employee satisfaction.

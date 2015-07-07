@@ -1,0 +1,11 @@
+Paging System For Incorrectly Parking Cars 
+This will serve the challenge/s listed below. 
+
+
+NA
+Create a new paging system that is on the mobile phones for emplyees to get paged whenever there is a car parking incorrectly or need to move 
+
+a text message can be sent to employees phones or a push notification 
+easy
+better
+saves time 

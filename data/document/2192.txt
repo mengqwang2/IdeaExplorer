@@ -1,0 +1,7 @@
+Googleable EMC Knowledge Base Articles
+N/A
+While working with customers we have observed that VMWare, Microsoft, Symantec knowledgebase articles are quite easy to find through Google.It saves lot of time, provides a quick fix and saves the hassle of engaging third party support.
+Just like our partners like vmware and symantec the knowledge base articles should be searchable through Google or redirected towards support website using any search engine.
+However the above would be applicable only for customer viewable published articles not the internal or the work in progress articles.
+
+N/A

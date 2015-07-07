@@ -1,0 +1,9 @@
+ Solution-level Logs Vs product level logs
+
+the idea came from working on analysing logs from different sources like VNXe and VMware ESXi
+ The idea is to equip EMC products with an enabler that can detect other components in the environment that are part of the issue (eg. Host, networking..etc) and automatically collect logs from these components at the same time of the issue and provide them along with the primary product logs. for example if VNX issue is being investigated and another EMC RecoverPoint array is part of the issue then RP logs will be collected automatically in coherency with the VNX logs and the set of logs will be provided to the TSE(s) through the SR page.
+
+This approach will save considerable amount of time and effort in asking for logs and enables effective collaboration
+
+
+

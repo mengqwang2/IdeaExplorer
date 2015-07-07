@@ -1,0 +1,16 @@
+EMC Cohorts Program
+One aspect of diversity is learning from others and one way to learn is debating with others.
+I have first hand experience of the benefits of this kind of program.
+Create an EMC Cohort Program. Cohort structure is following:
+1. Each cohort has a cohort leader.
+2. There are 8-10 participants in each cohort and they are 2 levels below in the Organization hierarchy. For example, if the cohort leader is a VP, then the cohort members are Director and few Sr. Manager people.
+3. The members should not be in the direct org of the leader.
+4. The agenda, topic and content for the cohort should be maintained by the central team.
+5. The content should be geared toward the strategy and goals of the function. For example, IT Cohort Program can focus on ITaaS or 3 Platform or similar topics whereas Engineer Cohort can focus on other topics.
+6. Cohorts are actively encouraged by the leader to share their perspective openly and freely. To support that openness, whatever is discussed in Cohort remains within the cohorts.
+
+This can be piloted in a function such as IT and can start with Management cohorts before expanding to cohorts for IC.
+I believe that this will
+- Increase employee engagement and awareness about the diverse employee base that we have at EMC
+- Increase the relationship between the diverse group of people
+- Provide a forum to get a different perspective and idea around key strategies from a diverse group of people

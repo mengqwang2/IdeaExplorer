@@ -1,0 +1,8 @@
+Consolidated Lab fro India COE (CS department)
+
+- Many times we lack lab resources to deal with customer's issue
+- There are different teams in CS, every team has its own lab
+- If we can consolidate the lab we can our own small set up where we have many resources
+- Roll based access should be used to limit the access of different teams to different products
+- Concerned team should be given all rights, whereas all other team should be given (read only access)
+

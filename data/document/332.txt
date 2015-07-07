@@ -1,0 +1,16 @@
+Wifi LAN backup Solution
+Nowadays People are having multiple wifi devices like Smartphones, Tablets, Laptops and other smart wifi enabled devices ,asking for better ways to back up and secure the data, media and other content across all computers and devices.
+
+Also they tend to switch to a newer versions of devices quite often and they want their data to be accessible with that device as well.
+Copying the data manually is a hectic task, also downloading/uploading to/from various web drives available currently, is also a tedious and time consuming task. 
+In our daily routine we face mobile /laptop crashes and the data being not available.Or incase when we switch to a newer device we want the data to be accessible to the same as well.
+In our daily environment we  have multiple smart wifi enabled devices connected to the wifi backup router, so now this backup router shall schedule backups for all the connected devices and further maintain a catalog of different device types- assigning them a unique key/address .And hence this automated solution shall secure your device the moment it is connected to the backup router and configured to be backed up.
+
+Now the backup router shall initiate/schedule backups and restores of the various wifi devices and the monitoring/management shall be done through a mobile App or a web management page which can be accessed through laptops/computers as well.
+  
+Initially the backup will be FULL and further proceeded by Incr backups ,hence optimizing the router storage resources.
+Also future enhancement to this backup router could be introduction of Data duplication technology.
+
+Further to this the backup catalog along with the associated data shall be backed up to the EMC cloud solution, hence providing  answer to Disaster recovery scenarios-like crash of backup router device.
+
+This solution will be quite effective in Home/small-medium scale enterprise/start-ups and hence can give EMC a newer product line channel.

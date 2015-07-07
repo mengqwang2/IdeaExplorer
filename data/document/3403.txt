@@ -1,0 +1,5 @@
+Competitor Comparison Application
+
+I got this idea from the different cases we get on competition but cannot find resources.
+The application will contains everything on the Competitor linking it to the similar EMC product. It will have advantages and disadvantages, prices, and specifications related to the competitor’s product in relation with EMC arrays.
+

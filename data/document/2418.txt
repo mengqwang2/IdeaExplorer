@@ -1,0 +1,14 @@
+Smart Public Transportation
+After applying this solution, we will be able to collect a lot of data about public transportation in Egypt, amount of people using them and the information about routes being used for each of the transportation methods.
+
+
+A lot of people in Egypt relay on public transportation and it would benefit all of us if the service is enhanced.
+By having a sensor in each bus, we will be able to track location and speed.
+
+Data will be sent to a centralized place where software will be analyzing all these information to provide us with graphs and maps.
+
+The amount of data being sent can be used for other ideas as well but this could be the start.
+
+Data can be used as well through making a public mobile application where people can know information about specific bus and ETA of each of them.
+Success would be seeing the whole system improved and smart enough to keep up with the increase of traffic in Egypt.
+

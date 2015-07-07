@@ -1,0 +1,21 @@
+Electricity Consumption Analysis
+
+NA
+Create an application for the public, to be able to track the power consumption of their households/factories, thus enabling them to monitor their consumption, and act accordingly to become more green. 
+
+This app would generate a huge amount of data, which we can perform Big Data Analytics on to: 
+-Measure the consumption usage trends of the households & factories
+-Allocate the correct amounts of power resources
+-Predict the usage of electricity in the future based on the dramatic expansions of our community.
+
+We can work with the Government of Power on this massive project, by providing them with our analysis and assisting them on this task.
+
+Benefits:
+-Increase our market recognition.
+-Provide the necessary tools for the community to track their power consumption.
+-Proper allocation of resources.
+-Power Saving.
+-Future planning to prevent power outages.
+-Saving money for our community.
+
+

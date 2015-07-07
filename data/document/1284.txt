@@ -1,0 +1,78 @@
+App to Incentivize Cultural Project Contributions by being Social and Utilizing Gamification
+Improves quality and quantity of documentation of cultural artifacts by both allowing users to easily upload their artifacts, and also focusing on connecting users with similar contributions.
+
+Screenshots: https://inside.emc.com/docs/DOC-156031
+Team meeting on June 28, 2015
+Single-sign on app that encourages users to contribute quality content. This is accomplished via tagging of contributions, which makes it easier for contributors to see others’ similar content and feel more of a compelling reason to continue submitting, and with high-quality content. This foundation also allows for further encouragement, including a social feed, gamification using points, and sponsored challenges for specific types of cultural content with the possibility of monetary incentives.
+
+Screens:
+1.	Artifact screen
+•	Accessible via Search screen (#2), Browse Artifacts screen (#4) and Feed screen (#10).
+•	Each submitted artifact has associated with it: its submitter, number of likes it has received, Tags associated with it, which Challenges it had been submitted to, and Comment/additional content included when the artifact was uploaded.
+•	Viewing an artifact shows this information below the submitted image.
+•	Users who did not submit the image can suggest additional tags, for approval by the user who originally submitted it.
+•	All users may “Like” the image once.
+2.	Search screen
+•	Accessible from top navigation bar.
+•	Searches search among tags, as well as automatic generation of an image’s text description based on just the image (see http://www.nytimes.com/2014/11/18/science/researchers-announce-breakthrough-in-content-recognition-software.html). Also searches among users’ names.
+•	Search results are shown in Browse Artifacts/Users screen (#4).
+3.	Browse screen
+•	Accessible from top navigation bar.
+•	Dropdown box selects:
+o	  List of all tags that have been used. This is the default selection.
+?	    This view by default is ordered by number of times each tag has been used by that user’s submissions (by popularity of the tags for current user), or can be ordered alphabetically, or by number of submissions associated with that tag (by popularity of the tags among all users).
+o	  List of the Challenges instead of a list of Tags.
+?	    This view by default is ordered by the date of the Challenge deadline, or can be ordered alphabetically, or by number of submissions made to that Challenge.
+?	    While showing a list of Challenges, a “plus” sign button is displayed to allow the user to create a new Challenge. This can be restricted with permissions.
+•	Drilling down into either a Tag or a Challenge shows the Browse Artifacts screen (#4 below), which includes mid-sized thumbnails of submissions within that Tag/Challenge.
+4.	Browse Artifacts/Users
+•	Accessible from Browse Tags and Browse Challenges screens (#3), after a Tag or Challenge is selected. The results of the Search screen (#2) as well as the Leaderboard (#6 below) are also instances of this screen.
+•	Drilling down by clicking on a submitted image’s thumbnail displays the artifact on an Artifact screen (#1).
+•	Drilling down by clicking on a user displays the Profile screen (#8).
+•	Sorting of artifacts is by default according to relevance if via Search screen (#2), otherwise according to number of Likes, and can also be alphabetical.
+•	Sorting of users is by default according to relevance if via Search screen (#2), otherwise according to number of points, and can also be alphabetical.
+5.	Login/Logout
+•	Accessible via hidden-by-default side navigation.
+•	Ability to associate your EMC identity with the app, which is critical to gamification. That is, incentivizing the user to submit more and higher quality contributions using points. Points can be their own incentive without incurring additional cost via a “leaderboard”, or with promotions/contests via Awards (Cause for Applause, Silver, Gold, etc).
+6.	Leaderboard
+•	Accessible via hidden-by-default side navigation, as well as from Challenge screen (#7).
+•	Dropdown box selects:
+o	  Users
+?	    Displays avatar, user’s name and number of points.
+?	    If looking at leaderboard for a Challenge (via link on screen #7), only users who submitted to that Challenge are listed. The number of Likes for artifacts they submitted to this Challenge is also displayed for each user, and it is ordered by default by number of Likes for artifacts they submitted to this Challenge, or alternatively alphabetically.
+?	    If looking at leaderboard overall (via hidden-by-default side menu), all users are listed with AJAX pagination when the bottom of the screen is reached. Nothing further is displayed and it is ordered by default by number of points the user has, or alternatively alphabetically.
+o	  Artifacts
+?	    Displays mid-sized thumbnail of the artifact, as well as number of Likes.
+?	    If looking at leaderboard for a Challenge (via link on screen #7), only artifacts that were submitted to that Challenge are listed.
+?	    If looking at leaderboard overall (via hidden-by-default side menu), all artifacts are listed with AJAX pagination when the bottom of the screen is reached.
+?	    Ordered by default by number of Likes the artifact has, or alternatively alphabetically.
+7.	Challenge
+•	Accessible by drilling down within Browse Challenges screen (#3) as well as Search screen (#2).
+•	Shows title of the challenge, description of the challenge, name of the sponsor, prize(s) for winner(s) (can be a number of points or prizes with monetary value), name of current leader, link to Leaderboard screen (#6) for that Challenge, number of entries, and link to Browse Artifacts screen (#4) for that Challenge.
+•	If the user is the Challenge sponsor, user can edit the Description via menu item
+8.	Profile screen
+•	Accessible via hidden-by-default side navigation as well as Browse Users screen (#4).
+•	Show user’s name (user IDs are not used outside of the app internals), contact details, as well as number of points accrued and Challenges participating in, sorted by expiration date.
+•	Points are the sum of aggregated Likes from submitted artifacts, plus the number of points won in Challenges.
+•	If the profile screen is of the user logged in, also shows a list of Tag additions pending their approval.
+•	Dropdown to select language (default is Android/iOS default)
+9.	Upload artifact (photo) screen
+•	Accessible from within Browse Artifacts for a Tag or Challenge screen (#4 after having drilled down into a Tag or Challenge from #3) or Browse Challenge screen (#7 above).
+•	Upload button to select from a file on the OS
+•	Freeform comma-separated text field for Tags, which autocompletes with already existing Tags as user types. New Tags are allowed.
+•	Multi-select field for Challenges listing only Challenges with deadlines in the future.
+o	  Artifact can be submitted to unlimited Challenges.
+•	Description in free form multi-line text box can be included as well as any additional content.
+10.	Feed screen (home screen)
+•	Default screen
+•	If greater than 1, shows the number of Tag additions pending their approval, with a link to their Profile Screen.
+•	User sees a stream of submitted artifacts (photos) they haven’t yet seen in their feed, sorted by number of likes.
+11.	Single Sign-On
+•	If used on a device within the EMC network (like “CORP-WIFI”), there is no need to explicitly sign on. Otherwise, CORP credentials are required.
+12.	Android and iOS compatible
+•	Native code (Objective C / Java)
+13.	Multiple languages
+•	Uses "properties" files and labels to define different phrases for each language
+Improves engagement by being social with gamification using points and the potential for prizes with monetary value. Tags improve order, and makes it easier for contributors to see others’ similar content and feel more of a compelling reason to continue submitting, specifically high-quality content.
+
+This solution would realize high-quality input and in significant quantity.

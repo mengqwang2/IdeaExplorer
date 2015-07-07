@@ -1,0 +1,9 @@
+Software Defined Flash to scale-out the memory center
+The local storage can be combined together to create large scale elastic pools of storage by ScaleIO. How about the memory? could we have some solutions to create large scale elastic pools of memory?
+1,The rapid increase in the use of ScaleIO 
+2,The cost efficiency of the whole storage system
+3,Lower latency and allowing applications to commit data quickly and consistently.
+1,MCS DIMMs can also be used as an expansion of system memory,  allowing TB of addressable system memory instead of GB. 
+2,ScaleIO in it’s simplest terms is a software defined storage solution that allows customers to leverage the local disk in applications servers in a pooled manner.  Through the installation of the ScaleIO agent known as the ScaleIO Data Sever (SDS), local storage can be combined together to create large scale elastic pools of storage. 
+3,ScaleIO technically converges the storage and application layers and can be used in a number of different configurations.  Hosts are of course interconnected,  this can be achieved using Ethernet or Infiniband. As ScaleIO deployment is small the SDS (100Mb – 400Mb) and the SDC (20Mb) can be deployed side by side and all the assets in a server can be sweated to deliver a complete solution.
+this idea is based on ScaleIO, and if it's implemented, it will reduce latency and allow applications to commit data quickly and consistently.also it will enhance productivity and optimize data access.

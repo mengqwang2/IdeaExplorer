@@ -1,0 +1,9 @@
+Education Portal Mobile
+
+Always hard to find seats in courses because its too late to register once the courses are on the portal.
+Basically a mobile application for the education portal:
+1. Register for training on the go.
+2. keep track of your transcript and certifications.
+3. Take courses right from your tablet/phone.
+
+

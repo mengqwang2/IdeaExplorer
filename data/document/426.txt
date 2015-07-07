@@ -1,0 +1,8 @@
+FEHC catalogue improvements and Link to live Chat Support 
+Any Cloud Solutions Be it FEHC or Open Stack will go through the Issues like  device failure ,code upgrade, scalability etc which a traditional Data center faces. These platform challenges are concerning to the customer or cloud owner as issues need to be notified to EMC and resolved.
+
+This idea has a history as EMC started deploying cloud solutions, we focussed on design and deployment of it and ignored the support part initially. EMC faced issues to set expectation about what components are covered in support and what by third party. 
+Customer can feel protected and secured as they know that they can reach out to EMC CLOUD SUPPORT immediately from vCAC cloud Portal and can get assistance right away.
+
+Also a guide book can be downloaded from portal for customer to read and figure out the description of what's supported and how can support be approached.
+If this idea is implemented we will win customer confidence on our cloud solution. Thus will definately improve customer satisfation, optimize a support process and will improve the product life cycle.

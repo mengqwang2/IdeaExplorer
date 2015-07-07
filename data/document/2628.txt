@@ -1,0 +1,21 @@
+Application to automate and manage diverse culture at EMC
+Diversity and inclusion in the workplace are essential business tools today. The benefits of diversity in the workplace are obvious-men and women of different cultural, ethnic, socioeconomic and religious background work together and create a harmonious w
+Never come across employee database which helps to check the diversity in a team.
+
+Detailed document on this is available in https://inside.emc.com/docs/DOC-153166
+System will work on the above mentioned key areas by a pre-defined algorithm. For such keys below kind of rules can be set and based on them the system will identify teams/groups which are in good shape and others which need attention and also the area which need attention. 
+
+
+Predefined rules can be such as shown below:
+For eg :- If there are 10 team members in a team
+1)	More than 3 should not be from same STATE.
+2)	Maintain 1:2 Female and Male gender.
+3)	EMC experience in same project should not be more than 10 years.
+4)	Should not work more than 5 projects under same manager.
+5)	Different age group team members.
+6)	There should be mix of experience, something like 1 PE, 2 APE, 4 SSE, and 3 SE.
+This Database and application should be visible to management. Anybody can raise a question, if “Hiring team” or management breaks these rules. System will also alert if the structure of any group is not up to the mark. So management will get enough details regarding changes which are needed to do. “Hiring team” and “management” should adhere to these rules based on the suggestion provided by system.
+
+Detail Idea can be found it here : https://inside.emc.com/docs/DOC-153166
+
+If this idea implemented at EMC , will become top 10 global diversity employer by 2017 and remaining a top 25 global Great Place to Work. 

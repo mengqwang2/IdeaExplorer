@@ -1,0 +1,8 @@
+Third Platform Idea for Egypt COE
+
+We should check about the Security issues to for Login.
+All users should be accessable the application.Only EMC employees should access the appications.
+Now we have some Web Application which only be accessed by employeed in EMC network like Finance or ant Time Management portals.
+This Applications should be available by mobile and should be hosted on Cloud Foundry.
+So that those time sheet ot finanace portal are accesable any where.
+

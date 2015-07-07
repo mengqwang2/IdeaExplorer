@@ -1,0 +1,5 @@
+Advanced OA System
+We are having email system, share drives, ticket systems and kinds of systems in our daily work. We are spending much time to manage emails and kinds of tickets, and also feeling inconvenient when sharing files and working together.
+I ever used similar OA system in other company. I think it can greatly improve our current systems and processes.
+Introduce an Advanced Office Automation System. First, it manages email well. Second, it provides strong database to store and maintain kinds of data in daily work, and easy to share files and support concurrent access to the same file. Third, it integrates all ticket systems together including HR systems, bug systems and lab request systems etc.
+It greatly improves our efficiency and eases our daily work. Also save money!

@@ -1,0 +1,7 @@
+EMC Products for Visually Challenged
+EMC has multiple products, but none of it have voice recognition feature for implementation or management for it - so none of visually challenged person can neither implement nor manage it without support of other person with sites.
+I am part of Diversity and Inclusion part at EMC COE and we have very limited employability options for Visual Challenged, so thought to check under this category - is it possible to involve this feature or not?
+Kindly enable voice recognition for all the possible EMC Products. I am not the product developer, so we have to work with product development for feasibility checks.
+1.) More employment opportunities for Visually Challenged
+2.) EMC will be first such company to introduce such feature with its product
+

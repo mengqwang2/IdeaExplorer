@@ -1,0 +1,9 @@
+Blackbox-as-a-service for EMC Products
+This is new product idea and it's as a service - which align with long term goal of EMC. It uses EMC's existing product such as RSA, VNX or VMAX as case required.
+This also help EMC get into x-as-a-service model of payment.
+During Malaysia Airplance tragedy, we thought of having blackbox-as-a-service for EMC products.
+
+1. Currently EMC runs SYR tool on VNX Products to collect customer’s site info as feedback wrt customer’s configuration. We can enhance this tool to collect all VNX Auditable data which meets Federal compliance.
+2. This data could be stored on EMC Private Cloud in secure method (using more secure policies) and can be used perform all compliance verification.
+3. Compliance verification is huge market.
+Any customer that cannot afford to keep their compliance data safe (due to restricted funds or restricted data-center design limitation etc), can use this service. It helps EMC penetrate into low-end as well as high-end market.

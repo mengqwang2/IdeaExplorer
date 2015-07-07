@@ -1,0 +1,31 @@
+Smart Agriculture Systems - solving the water scarcity problem world over
+This idea makes use of networking and Data Analytic to better handle a Smart City with millions of internet-connected sensors geographically distributed across different locations across the city/state.
+Due to Global Warming, climate changes have affected the whole world. We are facing drought like situations in many parts of the world. With less water, agriculture is the most impacted sector may fuel food price costs to rise world over. Most adversely impacted will be countries in less developed or developing economies. This necessitates the need to device ways to use water in most efficient manner and at the same time agriculture requirements are also met. I am moved by the recent reports of Drought in many parts of the world. We discussed and this solution came
+Governments world over are emphasizing on Sewage treatment plants(STP) or Industrial Effluent treatment plants (ETP) to recycle the waste water and efficient use of water.
+Here is how our solution works
+At a small farm level:-
+There are sensors available in market to monitor the moisture level of the soil. These sensors send information to the central system in the farm. Drip irrigation or water sprinkler system is activated when soil needs moisture leading to efficient use of available water in the storage tank.
+At the city/village level:-
+Sensors can be installed in each storage tank for each farm to monitor the level of the water. These sensors send information to the central system in each village. In case the water level falls below the minimum level in any storage tank, water can be dispatched to that farm via tanker or other means.
+At the state level:-
+Information from the each village level system can be feed into the central system at the state level. Depending on the requirements of each village, recycled water from Sewage treatment plants(STP) or Industrial Effluent treatment plants can be dispatched to those villages for irrigation. 
+Here EMC can provide solution where in:-
+1. EMC can source sensors to monitor the moisture in the soil. (Either manufacture such sensors or buy in market or partner with such company or acquire such company itself)
+2. Provide connectivity via Internet of Things (IoT) or networking:-
+      a. between sensors to the central system in each farm
+      b. between system at farm to the central system at village level
+      c. between system at the city/village level to the system at the state level
+      d. Storage solution for such systems at the state level
+3. Provide Data Analytic to study 
+      a. the water usage differences for different crops, 
+      b. help in planning which crops to be planted in different geographies to meet the state requirements and thus estimating/forecasting the water requirements.
+      c. Real time monitoring of the water availability at a micro farm level to village level to state level.
+
+If this idea is implemented, it provides the following benefits
+1. It will lead to efficient utilization of water that is a scarce resource due to global warming
+2. bringing Internet of Things (IoT) in daily lives of the farmers.
+3. Efficient use of recycled water from Sewage treatment plants(STP) or Industrial Effluent treatment plants (ETP)
+4. Solution to world food shortage
+5. Use of Analytics will help EMC to device smart automated systems that automatically take decision regarding water supply.
+6. EMC achieves the goals for community welfare
+7. Revenue in terms of Sensors, Connectivity, Systems at farm level, village level and state level and the Analytic services.

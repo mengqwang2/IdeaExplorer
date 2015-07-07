@@ -1,0 +1,31 @@
+Weighted Average Days Paid late (WADPL) – Impact on DSO (Day Sales Outstanding)
+Day Sales Outstanding (DSO) is a measure of the average number of days that a company takes to collect revenue after a sale has been made. It is very important to understand the good and the bad customer’s in order to create an impact on the DSO of the company. WADPL is one of the ways to identify the good and bad payers as it shows the average number of days a customer takes to pay their invoices.
+WADPL is a common procedure followed in many companies to improve the collection strategy. It was also followed diligently in my previous organization to keep customer payment pattern under control which in turn impacted in reducing the company's DSO. 
+
+The whole purpose of submitting this idea is to follow this practice in EMC's business which would definitely bring in greater and positive results.
+•Here, Average number of days a payment was late is calculated weighted by dollar amount.
+•Days late are the number of days between the due date and the accounting date of the payment that closed the item.
+•The amount of the closed item is used to weight the days.
+•The average days are based on the invoice net due date rather than the invoice date.
+•This method assumes that a $100,000 invoice that is 10 days late is more serious than a $10 invoice paid 10 days late.
+•It is possible to have plus or minus average days to pay.
+•A customer who pays ahead of schedule would have negative average days to pay.
+•A customer whose account is delinquent would have a positive number of days to pay.
+•Adjustments, write-offs and open unapplied cash receipts on a customer's account are not included as part of the "average days to pay" calculation.
+•How to Calculate WADPL
+WADPL = SUM(item amount x days late) / SUM(item amount)
+•EXAMPLE
+	Amt	Inv Due Date/Receipt Date	Days Late*	Calc of weighted days**
+Invoice 1	 $1,000.00 	31-Jan-15	31 days	31 X $1000 = 31,000
+Receipt 1	 $(1,000.00)	3-Mar-15		
+Invoice 2	 $100.00 	28-Jan-15	41 days	41 X $50 = $2,050
+Receipt 2	 $(50.00)	10-Mar-15		
+
+       1.	Total weighted days = 31,000+2,050 = 33,050
+       2.	Total Receipts = $1,000+$50 = $1,050
+WADPL = SUM(item amount x days late) / SUM(item amount) = 33,050/$1,050 = 31
+Hence this customer pays 31 Days late than the agreed NET PAYMENT TERMS which impacts the DSO.
+*Days Late = Payment received date minus the due date
+**Calculation of weighted days = Days Paid Late X Receipt Amount
+
+We can target customer’s whose WADPL is above 10 and talk to them about their WADPL days which impact their credit rating with EMC and at the Global Level. Providing facts to the customer will also help them improve the payment process at their end. We can also understand the various issues that are causing late payment and get those permanently fixed at our end as well as at the customer’s end. By Reducing the WADPL of top dollar customer we can also reduce the DSO of the company in a long run.

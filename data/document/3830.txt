@@ -1,0 +1,9 @@
+Dual product testing
+
+Came up with the idea when seeing that we had a number of free Greenplum tester that were not been used while the Atmos cell was operating at full capacity and needed more testers to meet demand
+We take a current tester that can currently only test one product. We upgrade the software on this tester so that the tester can now test two products instead of just one.
+
+An example is Greenplum and Atmos, two very similar product but each only be tested on a product specific tester. Take the testing modules that are exclusive to each product on place both on the same tester so that now you can test both products on the same tester.
+
+Allowing for tester utilization and flexablility  
+

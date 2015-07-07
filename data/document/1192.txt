@@ -1,0 +1,5 @@
+ELA/Atlas Big Data Analytics
+With the help of business analytics, one can get huge amounts of information that can be beneficial to EMC, in terms of Lifecyle of Data Center, Compliance Data, Storage Policies etc 
+Brainstorming with the PS App Solutions team resulted in this idea. It was our view that the information that is gathered by both of these Cloud-Based solutions is underutilized and could provide EMC with a wonderful base of real-world data to analyze for the betterment of EMC and it’s Customers.
+Its involved in various Data Migration (Atlas) and Remediation (ELA) processes. With the help of analytical information, such as Global Data Center profiles and Compliance Data, a better understanding of Data Center Lifecycles can be determined and thereby used to create opportunities for EMC sales to be able to cross-sell products & services to our Customer base.
+EMC can cross-sell several solutions based on analytics suitable to the problems that the customer might be having in the data center. Huge revenue opportunity for EMC.

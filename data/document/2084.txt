@@ -1,0 +1,7 @@
+A method to provide a lossless connection between a storage subsystem/host with/without a switch though data center bridging, auto configuration based on the OEM specification.
+Remote control of equipment to reduce the needs of hands on contact, Ways to utilize a shared Network/SAN backbone to more efficiently utilize lab resources, more successful deployment, improved troubleshooting speed/accuracy/scalability
+Improve communication across our multiple EMC and Federation sites • Deliver enhanced collaboration across EMC’s Federation partners, and across the COE Ecosystem
+
+We had this last year while I was observing a switch auto-configuring routing protocols.
+addressing specific customer needs where different vendor components integrated together and an auto-configuration of the port parameters in the components will help to improve the performance and with out any user intervention since it auto-configures with the pre-loaded config algorithm depending on the components integrated
+It provides a touch-less configuring and improves performance, utilization and bandwidth.

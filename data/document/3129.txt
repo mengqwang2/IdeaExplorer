@@ -1,0 +1,5 @@
+ODX for Exchange Database Same Server Seeding
+
+After testing ODX to minimize the Jetstress testing cycle which typically takes upwards of 1-2 weeks, I was able to utilize our VNX2 ODX capabilities following the requirements and settings of Windows 2012 and drop the jetstress copy times down to 1 day.  Stressing this thought, I purposely created 3.6TB databases, 2 times larger than Microsoft recommends because of the amount of time to restore/seed, I was able to ODX copy 50TB in 23 hours proving EMC can not only offer much faster restoration of service of a single database in hours but an entire server in less than 1 day max 2 days and allow customers to utilize MUCH larger databases, which allows for larger mailboxes sizes for customers.
+Utilizing ODX capabilities with Microsoft 2012 and Robocopy.  This solution would require at minimum 3 total copies, however 4 copies, 2 on 2 arrays would allow dramatically reduced times for RPO/RTO times including the full restoration of service of an entire Exchange server in 1 day, not 1 month.
+

@@ -1,0 +1,14 @@
+TCE - Uniplex - VPlex to support mutiple array types
+This is relevant to the TCE challenge as it talks about the enhanced usability and limitation of the current product.
+
+This might also be relevant to the new solution proposals. 
+Work Experience
+Design the BE port connector to identify all the array types such as "FC" and "SAS", etc., and has the intelligence to inform VPlex about their protocol. 
+
+Or implement the FC to any array connector at the traditional Back End port panel of VPlex. Hence, any customer can use their array and plug in to this port using this new connectivity option. So that the customer can easily upgrade without having any issues.
+
+Internal architecture should be re-designed/changed appropriately for all the calls that are made today based on the arrya type being used. There can be a separate flag set that explicitly mentions from which kind of array the requests comes from. 
+
+Also, provide option for "Smaller storage types". The customer can plug in and use it based on their needs. 
+
+This enhances the usability of the VPlex in today's drastically changing environment.

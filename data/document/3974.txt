@@ -1,0 +1,21 @@
+Converged Storage with blade architecture for entry level customer
+
+Come out the idea when see the challenge
+EMSD purchased ScaleIO which is a server SAN technology; it enables us in a very superb position. However, pure software software solution is not popular per China status quo. And it is not easy to avoid environment issue considering the complex customer environment.Blade technology is quite mature and our China partner e.g: Lenovo has deep investment in that fields as well. 
+
+We can combine our advantages together to form a new converged storage product. It would work as below:
+
+1. We will find one partner to produce Blade server. Blade server can form one blade cluster per configuration and requirements.
+
+2. VMware ESX is installed in the blade cluster; it is control bus for the server SAN VMs.
+
+3. One customized virtual machine is created to host ScaleIO to best suites its server SAN role.
+
+4. The ScaleIO VM will be deployed in the ESX to provide storage capacity.
+
+5. Other VMs in the ESX would act as computing resources.
+
+6. The storage / computing capacity can be tuned via adding more blade server in the cluster.
+
+7. One central management portal is provided to simply the management tasks.
+

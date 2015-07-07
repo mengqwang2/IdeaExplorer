@@ -20,7 +20,7 @@ import sys, re, time, string
 import numpy as n
 from scipy.special import gammaln, psi
 
-n.random.seed(100000001)
+#n.random.seed(100000001)
 meanchangethresh = 0.001
 
 def dirichlet_expectation(alpha):
@@ -105,11 +105,17 @@ class OnlineLDA:
         Note that if you pass the same set of D documents in every time and
         set kappa=0 this class can also be used to do batch VB.
         """
+
         self._vocab = dict()
+        #print len(vocab)
         for word in vocab:
             word = word.lower()
-            word = re.sub(r'[^a-z]', '', word)
+            word = re.sub(r'\W+', '', word)
+            if(word in self._vocab):
+                print word
             self._vocab[word] = len(self._vocab)
+
+        #print len(self._vocab)
 
         self._K = K
         self._W = len(self._vocab)
@@ -122,6 +128,8 @@ class OnlineLDA:
 
         # Initialize the variational distribution q(beta|lambda)
         self._lambda = 1*n.random.gamma(100., 1./100., (self._K, self._W))
+        #print len(self._lambda[0])
+        #print self._W
         self._Elogbeta = dirichlet_expectation(self._lambda)
         self._expElogbeta = n.exp(self._Elogbeta)
 

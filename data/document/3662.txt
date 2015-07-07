@@ -1,0 +1,5 @@
+Smart Customer GUI with Services Automation
+
+I led a project before with EMEA Renewals & Contracts departments. We worked on enhancing the database setup for EMC customer. As a result of this EMC gained more 29 Million dollars + promoting e-Services. I guess if the database is setup in more smart way, the benefits will be much more in terms of cost savings, revenue generation and customer satisfaction.
+The idea is to have a smart GUI (Graphical User Interface) for all EMC customers'. Each customer can access a global map presenting all his locations. Once he tabs on the location, he sees all the boxes and EMC products he owns at this location. He then can choose the box he needs to have service on. And choose the service he wants (opening Service Request for example). Then once he click on the tab "Open Service Requests" an automated process is kicked off to open Service Request for the customer using all the needed data stored on his account. That way EMC will save millions of dollars annually spent on the headcounts working on opening service requests and other services, while the customer can start using more e-Service when this smart GUI takes place.
+

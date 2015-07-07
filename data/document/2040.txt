@@ -1,0 +1,11 @@
+Federated CTD Products Support Hub
+This platform targets to the CTD products supportability, and focus on cross-products support. So I think it matches the “CTD Supportability in 12 Months or Less” challenge.
+Henry and Sophya are from CTD escalation engineering team. They met the practical problem in their daily work. An IDA tool is also developed for some basic functions. So we discussed together to come out this solution.
+We propose the “Federated CTD Products Support Hub” solution to resolve above problems. The platform will be unified in following four layers:
+1. It unifies the escalation system for multiple products. All issues from customer support will be record in the same system and described in the unified format. For cross-products cases, a group issue will be opened in the system. Engineers from multiple products can check, update all issues, communicate and work cooperatively to troubleshooting it
+2. It unifies the dashboard for support engineers, escalation engineers, TCEEs and development engineers. The issues, logs, analysis results will be shared among them, which will speeds up the flow, speeds up the troubleshooting and resolve process.
+3. It unifies the persistence of all logs and issues. And big data analyst can be performed on it.
+4. It unifies the troubleshooting tools and components for each engineer. 
+This platform will be web-based and friendly to end users.
+
+This platform will benefits the CTD escalation team obviously. It can optimize the escalation process, improve customer satisfaction significantly.

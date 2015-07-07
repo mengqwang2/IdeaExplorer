@@ -1,0 +1,7 @@
+Over Head Gantry for Manufacturing Test Equipment 
+Simplify the management process of test equipment in a Cumulus environment while reducing footprint of test equipment resulting in freeing up production floor space.
+This idea originated from an IGS within the Test Equipment Management Group. The team initially developed a proof of concept to determine its feasibility and desirability. Using feedback from the different stakeholders and conducting critical assessments to evaluate the design. Following several design iterations the team deployed a working prototype into the manufacturing floor.
+Factory of the future design where we maximize the Unit Under Test (UUT) density and maximize flexibility within a manufacturing cell was our driving force. We designed and installed a light weight frame to support CTF equipment, suspended from overhead. The key differentiator of this solution is that it is very effective in removing all test equipment from the floor while maintaining test infrastructure capabilities.
+Proof of concept completed and prototyped implemented in DPE cell realizing 100% increase in UUT density, along with providing maximum flexibility and productivity where any product can be tested anywhere on the manufacturing floor.
+Other benefits included a reduction in cable issues, remove double handling and improve housekeeping on the manufacturing floor.
+

@@ -1,0 +1,7 @@
+Integrate ESS & ENCLOSURE TEST
+
+This Idea was conceived during Test Equipment Idea Generation Sessions,  this was further fleshed out with Systems and Module Test Engineering Cork.
+
+Assemble SUB-TLA parts to DPE level, roll-in roll-out for Environmental Test in ESS chambers. This new process would merge two existing process into one, eliminate the need to have dedicated ESS testers with associated capitalized material. It would eliminate dedicated DPE Enclosure Testers and free-up floor space currently supporting this process.
+
+

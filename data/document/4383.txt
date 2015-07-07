@@ -1,0 +1,7 @@
+Data-lake to Knowledge Repository
+
+This idea stuck to our mind  during coffee table discussion over topic 
+- "How to Manage Big-Data (Is it  asset or liability)"
+Our solution is proposing a solution stack to organize the data-lake in knowledge repository.  Our solution enables the customers to mine the data-lake in real time by processing the data with taxonomy libraries and organize the data as per ontologies.
+The taxonomy libraries define set of keywords / patterns / relationships.  Taxonomy libraries are domain specific (e.g. healthcare / banking / retails etc...). The information is extracted from the data lake, and the data is organized with domain specific ontologies. The taxonomies and ontologies are adaptive libraries and can be built by the organization over a period. This also enables knowledge collaboration as knowledge gained by someone can be leveraged by others and need not reinvent the wheel to do similar analysis or information discovery. 
+

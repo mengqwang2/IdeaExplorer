@@ -1,0 +1,13 @@
+CloudArray loadable server agents
+We in the CloudArray group have long had the goal of finding ways to help customer develop applications and workflows that span local and cloud environments. We have the capabilities -- almost. Bringing our solution the rest of the way will give us a hybr
+The idea has been kicking around for years as part of the CloudArray compute-anywhere initiative. For full migration capabilities, we need to build a metadata migration tool -- a fairly small amount of work, but has been a lower priority than some of the basic storage functionality. In the past few months, we've kicked around a POC using docker running on the cloudarray, with great success. In truth, Docker is the missing key to the puzzle.
+By adding container technology to CloudArray, we open the door to an incredible workflow solution. CloudArray will provide the container storage management technology (while the actual container management remains up the customer). Using the basic CloudArray technology, containers are automatically replicated to the cloud. What that means to us is that compute tasks can now sit alongside the data they consume and produce -- an agent which works locally will work just as well in the cloud. 
+
+What can we do with that? Everything. It's just automatic -- analytics, monetizing backups and archives, complex workflows which move compute in and out of the cloud. And as far as CloudArray development goes, we spend our time working on our core strengths of storage management, rather than workflow development.
+
+We can also leverage the same technology to fit into a more comprehensive set of customer environments, using the containers themselves as custom (customer-built?) servers.
+
+Link to PPT: https://inside.emc.com/servlet/JiveServlet/downloadBody/153793-102-1-513439/20150618CALSA.pptx
+The success criterion to me is clear: satisfying more customers with less effort.
+
+

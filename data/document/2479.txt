@@ -1,0 +1,18 @@
+Universal Converged Infrastructure Dashboard for Management and Telemetry services
+Easier Converged infrastructure management and effective telemetry services with the help of REST API.
+This idea came from the understanding of Openstack cloud offering. They have a single management portal called Horizon which integrates with all the components of Openstack (Swift, Cinder, Nova, Neutron, Keystone etc.) via REST API.
+Having Rest supporting hardware makes multi-vendor hardware management through REST API a simpler task. 
+
+With VSPEX offering now we are faced with multi-vendor hardware integration and management. Having to know how to manage hardware at various layers of Converged infrastructure requires knowledge of multiple management tools. 
+To simplify this process, we can make use of REST API and set up a single web based portal where users can log in and manage all the Converged infrastructure hardware.
+
+To perform Mining activities we will need to provide a Database software in the converged infrastructure offering to customers. Any alerts that will be generated can be pushed to this database and meaningful reports can be generated. 
+We can offer free database software like MYSQL. 
+For larger environments we can also consider MONGODB which is known to have deep query-ability.
+To perform this, we will need to set up: Polling agents, Notification agents, Collector daemon, REST API and Database like MYSQL. The working of this is clearly explained "Elaborate Presentation" deck. Please follow the link below. 
+https://inside.emc.com/docs/DOC-153952
+Also please find the supporting document for Openstack Overview using the following link: https://inside.emc.com/docs/DOC-153953
+1. One Single interface to manage & report all the Converged infrastructure components
+2. Simple and Easier Management
+3. Reduced need for multi-product skilled staff
+4. More reliable system with failure prediction capability

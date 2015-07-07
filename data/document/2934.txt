@@ -1,0 +1,14 @@
+Elastic automation and test harnessing
+This idea will help to run test automation suites for enterprise products like Application agent , Avamar and Networker leveraging cloud capabilities by integrating it with CTH which has dynamic provisioning and test harnessing in built in the framework.
+This idea has been started with DD QA's Cloud based automation approach where the CTH infrastructure is capable of provisioning DD on demand and an external test framework can be plugged in to CTH for test suite execution. 
+This idea has been extended to use existing DDBDA ATAP based automation suite plugged into CTH, leveraging the cloud capabilities of CTH. 
+POC of the integration is done and we are working to make the process more smooth with less human interaction.
+ ATAP is a test execution framework used for Avamar and App agent testing. This framework is flexible to run test suite against Avamar and DD servers to test the backup restore functionality for Avamar and DD App agent.
+* CTH - Common Test Harnessing is a cloud based automation and test harnessing solution which provides the solution for test bed and app host provisioning, test suite execution and harnessing reports for further analysis. 
+
+Integrating both solves the problem of using static test beds for test execution by providing elastic way of provisioning to meet the currency and qualification requirements by leveraging existing automation suites for backup softwares.
+We have plugged ATAP into CTH by extending the CTH API to launch ATAP along with handling required test bed provisioning and test reports harnessing.
+
+* Efficient Test Bed provisioning and resource pooling for automation suite execution. This will result in optimal resource utilisation
+* Test report harnessing
+* Quick engineering turn around for currency qualification leading to improved revenue.

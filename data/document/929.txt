@@ -1,0 +1,19 @@
+xTest - A declarative, graphical, distributed, extensible performance and integration test framework
+Global Operations Challenge : advance the performance of our designs, and supporting processes. A good performance and integration testing framework can save a lot of time and money, and provide performance numbers in setups which manually might be prohibitevely difficult to set up.
+Russian COE Open Source Challenge : innovative use of the XStream (3rd party open source)/xDB (EMC XML DB) combination. xTest also uses the open source Hyperic Sigar for runtime collection of various detailed system parameters (memory, CPU usage, IO, ...). Finally it uses the open source VIM library from VMWare which enables automation of VM setup by providing a Java interface to the VSphere Web Services.
+I was asked to run some performance tests for xDB. Furthermore we needed to test a distributed xDB multi-node setup. Rather than write a set of one-off tests I decided tro create a framework which can deal with many kinds of tests, and makes it easy to create and execute them.
+In xTest, a Test Suite is declared in XML - the XML fragments in the XML document map to Java objects through XSTream. Currently the suites are declared by writing Java code but a UI is perfectly possible.
+
+Java "Action" objects can be created, which perform simple atomic tasks. These are then used in Tests to execute test logic. The framework takes care of transactions, batching, ...
+
+xTest can create and start client VMs, perform various configuration tasks on it (add/format disks, create directory layouts, transfer files to/from the client). It can than transfer itself, and start the test suite. The xTest server and clients can synchronize, and perform complex tests. Everything is still declared in a single suite, with scopes defining which instances (clients or server) will performe which actions.
+
+The "Provider" subframework is an innovative, lego-like approach at supplying values for actions which are repeated (such as query parameters, document content, ...). It contains a seeding facility for test repeatability in the presence of randomized parameters.
+
+The "Values" subframework allows declaration of parameters in such a way that they can be supplied/overridden easily at runtime.
+
+There is support for conditional execution of actions.
+While the framework already exists for a large part, I would consider it a full success if :
+* the UI part was implemented, allowing easy creation of very complex tests
+* a "test server" component was created, allowing management and scheduling of tests
+This will enhance productivity in QA departments and development in a big way.

@@ -1,0 +1,14 @@
+Proximity-based authentication
+o	Create a modern and fun workplace with new and cutting edge ways to communicate and collaborate 
+o	WLAN Redesign to give trusted devices access to a cafe wireless network experience
+o	Seamless Access to the wireless network i.e. no SecurID token required when inside EMC and access to applications seamlessly when off network for trusted laptops
+o	Any new ideas suggestions are welcome
+Team meeting last week
+o	While the below can be even more useful by eliminating the need to login altogether, 2nd factor as implemented at EMC and at most places is "What You Have", which is what this is. So this best replaces the need to authenticate 2nd level, despite its ability to replace login altogether.
+o	Many luxury cars allow both keyless entry and keyless ignition. The user carries a fob on their person, and when walking from elsewhere to within a few feet of the car, the doors unlock automatically. Similarly, with the fob in their pocket, the car can be started with the push of an ignition button and without the need for a key.
+o	A smartwatch, smartphone or other portable device can be configured to be paired with another device, and serve as a fob to allow automatic login.
+o	For example, a smartwatch can be paired with a smartphone. So long as the watch is within 3 feet of the phone (like when the watch is worn), the phone can remain entirely unlocked.
+       ?	The phone can furthermore be configured so that as soon as the devices are not within proximity of each other, take a picture using its camera and send it to preconfigured e-mail addresses, sound an alarm, etc as an anti-theft measure in circumstances when in areas where theft is prevalent and the devices are expected to be in close proximity to each other (e.g. in an airport).
+o	As another example, a smartwatch or phone can be paired with a tablet, laptop or desktop computer. The user can be automatically logged into the OS and/or websites and/or applications when in proximity.
+o	Both devices interact via RFID
+No need to do anything in order to log in to 2nd factor authentication. Your registered device simply needs to be in proximity.

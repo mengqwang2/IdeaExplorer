@@ -1,0 +1,12 @@
+Digital Scavenger Hunt
+
+I reflected on the high school activities that piqued my interests in STEM. Competitions were a fun and effective way to not only motivated me to elevate my skills and deepen my knowledge of the subject, but more importantly instilled qualities critical to success in STEM such as intellectual curiosity, diligence, creative problem-solving, persistence and collaboration. Hence, I've designed the digital scavenger hunt to accomplish the sponsor goals of showing the value of STEM education, exposing them to EMC’s areas of focus, as well as inculcate these qualities.
+The contest will require participants to answer 10 questions each week for 3 consecutive weeks. My participants must participate all 3 weeks to qualify. (This highlights the importance of perseverance and continued effort to succeed in STEM.) Participants will be judged on the accuracy of their answers with a tiebreaker question related to a recommendation of how EMC's technology can be applied to promoting STEM education.
+
+The questions will be based on news events / tools related to EMC technologies (e.g. Target data breach / online identity risk calculator, big data explorer, economics of hybrid cloud), customer stories (e.g. Lotus F1, Vatican Library) and initiatives on EMC's websites / blogs / Youtube (e.g. innovative packaging design, climate change). To solve the questions, participants will need to apply a combination of STEM-relevant skills, such as math calculations, scientific principles, basic coding, online search etc.
+
+This digital scavenger hunt will be easy to administer since it is web-based. Participants just need to create an online profile with an email account, where we can email them a link to the questions and scavenger hunt submission form each week. Having the participants' answers in electronic format makes it easier for us to grade. 
+
+
+
+

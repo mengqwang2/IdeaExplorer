@@ -1,0 +1,13 @@
+Carpooling Gamified
+
+NA
+Carpooling becomes a game. 
+To encourage people to carpool, we should give employees an opportunity to connect with other employees nearby. We can use the address data for each employee, and layer it on top of Google Maps. Any employee can then see how many EMC employees live in the vicinity. They can contact each other (anonymously) to make carpools. 
+On a day an employee carpools successfully with 1 or more of her colleagues, she gets 50 points. We will put a mechanism in place to verify that the employees actually carpooled. Bonus points are awarded if the carpool had more than 2 people. 
+Simple app based mechanism to report carpooling can be used. 
+
+Awards on the contest are announced beginning of the year. One award for individual, one for a car-pool team. 
+
+To measure total number of cars in a day, a sensor can be installed at the parking entrance. Number of employees in office is measured by cards swiped at entrance. 
+Daily data can be published on an Inside EMC page. A Leaderboard of individuals and teams can also be published. 
+

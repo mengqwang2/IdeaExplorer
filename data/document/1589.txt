@@ -1,0 +1,8 @@
+Consolidated EMC Software  
+This idea will enhance customer's usage for EMC software tools to manage EMC's products.
+NA 
+A Software product that consolidates all the products of EMC that the customer purchased that shows the whole environment of the customer.
+
+This software can send Alerts to the customer if something went wrong with any product of his environment.This software can include a support system when an alert occurs ,it automatically open a chat or create an SR with the support Team to investigate the issue.
+1-Improved Management for EMC product from one interface.
+2-Consolidated software for managing and monitoring customer's environment for all EMC Products.

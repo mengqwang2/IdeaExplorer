@@ -1,0 +1,8 @@
+Simplified end-to-end product solution document
+TSE spends a lot of time researching a topic. Unable to identify where to search for a topic/issue or what to look for and how to gather all information. A GSAPer spends a lot of time researching about a topic in OLS, going through pdf based documents and guides, consulting SMEs.
+
+Say, if one needs to configure/troubleshoot a particular option in a product, he/she will have to refer to Admin Guide, Installation Guide and Configuration Guide to figure out what this particular option is and how to configure it. If the configuration fails then he/she will have to look for solutions in an Error Message Guide or a KB articles. This is a time consuming process and confusing as one has to go through multiple documents.
+Every-time when we try searching for a topic in OLS, we get lots of information which are not relevant to what we are looking for. Each time, we have to look at different documents to identify information about the topic. We spend a lot of time without finding the accurate information.
+A single simplified topic by topic web based page which will provide single repository for Configuration, Installation, Administration, Troubleshooting and All Generic Information. Each topic explained in simple terms so even a person with little knowledge can understand. This will be decision tree type of solution which gives basic to advance information under one document.
+An engineer can find all information on specific topic easily under one document.
+This will eliminate time spent on research by an engineer, increases productivity, improves product and technology knowledge and most importantly enhances TCE.

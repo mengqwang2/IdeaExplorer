@@ -1,0 +1,7 @@
+Create data centers providing IAAS and stand in competition to competitors like Amazon AWS
+The market for Cloud services is multi billion dollars in future and there are only a few vendors in this market space. Entering in the field of providing cloud services of IAAS will ensure continuous revenue stream for EMC and utilize our expertise in St
+I was thinking about our largest Competitor Amazon and how in future we can be the largest challenger and capture a sizable chunk in cloud computing market.
+Create more data centers around the world. Obtain old DMX, Clariion and other storage arrays that are being discarded by EMC Customers, for Recycle/Refurbish and add network and compute layer and create a Public cloud. When we are adding computer layer we can add more of internal local disks in those servers also and create low cost ScaleIO storage also. EMC can make use of other technologies that we sell to customers in setting up these datacenters. VMs can be provided to Internal EMC Employees, EMC Customers. We can also cater to need for VMs for EMC trainings and VMWare trainings for which labs are hired from third parties. Also provide such VMs to general public for a price. 
+1. We will have enough Virtual Machines to meet the needs of EMC Employees for LABs
+2. Meet the Needs of EMC Trainings
+3. Also provide the LABs for VMware trainings being conducted by VMware trainers or VMware approved trainers. This will involve a policy

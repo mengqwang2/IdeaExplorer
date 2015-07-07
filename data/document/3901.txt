@@ -1,0 +1,9 @@
+EMC Mobile Chat (Employee & Customer Editions)
+
+Studies show that chat contribute to better customer satisfaction, also the 3rd platform is based on mobile and social media, so having a mobile interface for EMC Chat will be a great experience to our customers.
+
+This is one of the favorite options to our customers which we should not neglect.
+Employee Edition: The idea is to extend the reach and the communication of the employees, not just when they are connected to their desktops, but also when they are away from their desks, this will help especially the field engineers to communicate easily with their managers and office based teams.
+
+Customer Edition: The customer edition is to have another interface for the customer to chat with EMC Support, from EMC side it will be the normal Chat tool through the PC, but for the customer he will be chatting with the EMC support through his mobile App which is faster and easier.
+

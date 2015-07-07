@@ -1,0 +1,8 @@
+Team DU/DL United
+
+Worked on a number of DU/DL cases recently where it is difficult to undertsand what was occurring at the customer site at the point of the outage. 
+When a DU/DL outage is experienced the Site Engineer records a completed picture of the customer site e.g. system type, config, work load, environment, syetem position, fire alarm activation, wireless hub or telephone repeater overhead etc. and updates the DU/DL case template. 
+All this information along with the system error codes and log files are loaded to an eRoom. Then the Site Engineer or CSM sets up a call with the SBMT or GDE Engineering team to hand over all the details and answer any of the additional questions that may arise. A sense of the customer temperature would also be communicated. Point contact names would be put forward should additional questions arise.
+All information would then be shared with the commodity supplier to speed up the root cause effort.
+
+

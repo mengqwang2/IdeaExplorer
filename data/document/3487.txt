@@ -1,0 +1,19 @@
+ Your DR Site On the Cloud – Towards a new approach of affordable data protection and availability
+
+ The idea came up when I saw many customers tend not to have DR sites due to budget limitation. They struggle backing up their data and leave their data at risk. EMC has the answer to their need with a new approach 
+ The idea is to offer a “DR site on the Cloud” service that will enable customers to have a fully virtualized DR site using EMC cloud Services (such as Pivotal CloudFoundry). 
+
+The DR site will be a Virtuall Machine that is mirroring the whole box configuration and host access. It is hot swappable and ready to work in case of any outage. 
+
+The DR site VM will be continuously updated and synced with the source array to offer reliability.
+
+This achieves the following benefits :
+
+-	No need for DR site configuration or maintenance 
+-	Cost efficiency 
+-	Scalable storage
+
+The customer will be charged on demand/space and utilization basis offering a cost-effective solution .
+
+
+

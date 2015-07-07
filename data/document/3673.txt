@@ -1,0 +1,7 @@
+SustainabilityApp - Increasing adoption of EMC Sustainability website
+
+Based on my personal usage pattern of apps
+To get higher engagement on EMC Sustainability website (http://emc.practicallygreen.com/), we need to get app easily accessible to employee. Proposal is to use a two-pronged strategy:
+1. Build a mobile app, encapsulating the website, as apps have higher engagement than typing the URL and opening websites in browser. There are existing frameworks which can convert a website to a mobile app, instantly without requiring any programming.
+2. Build a Outlook plug-in to display the daily sustainability challenge on Sustainability website to employees. As Outlook is one of the app which gets highest views by employees during work-day, it can be a great place to engage employees.
+

@@ -1,0 +1,29 @@
+Massively-Parallel Aware EMC Softwares, to Dynamically Scale for the Third Platform.
+
+Seismic Unix is the open source package available in the market. These applications requires very high computing power. 
+
+As part of POC, few years back, I have optimized and parallelized these applications to run on multicore cluster. The performance speed-up obtained was ~94 times (i.e. the processing time was reduced from 100 minutes to ~ 1 minute!!!.)
+
+The optimized single threaded code reduced the time taken by ~4 times. On top of that, when it is parallelized to run on 16 core cluster (4 * Quadcore nodes), the benefits of optimization gets multiplied with number of cores.
+
+Please note, the computing time taken by the application could still be reduced, if cores/nodes are further added.
+The performance of the applications could be massively improved by the following.
+Step # 1: Code optimization to extract more performance from single thread.
+Step # 2: Convert the optimized single threaded applications to multi-core aware, which could ideally reduce the processing time by 50%, by adding another core. Also, achieves linear scalability  as the number of cores are added.  
+
+To achieve this, today High Performance Computing (HPC) world supports lots of parallel processing techniques, mentioned below
+
+1. Code Optimization: 
+Tools like Intel Vtune Analyzer, identifies performance bottlenecks of the applications. This includes even the deeper look like Cache-2 misses, branch misprediction etc. Using the output of this tool, the applications could be easily modified to improve the performance. 
+
+2. Parallelization of applications:
+a) Parallelism at Multi-core level: HPC supports standards like OpenMP, which is widely used to make the single threaded application to multi-core aware applications. This supports easy macros by which we could achieve parallelism at various levels like thread-level, coarse-grain Vs Fine-grain, and even at for-loop level etc. 
+b) Parallelism at across nodes in cluster level: MPI is generally used to make the multi-core aware applications to split and run on the different nodes on the cluster, to achieve massive parallelism. 
+
+The greatest advantage of these technique is that the number of software threads are linearly increased as and when the new cores / nodes are added to the system.
+
+How does it count to EMC on the 3rd Platform:
+All the EMC software could be benefited from the above technique, to achieve massive parallelism, in 3rd platform. For e.g. the software that runs on the DataPath, backup /restore, Replication etc.
+For instance, if the backup software is parallelized, then  data to be backed-up could be divided in to chunks; and multiple threads could back-up different chunk in parallel. If the data size increases, then the number of threads could be increased, just by adding more cores / nodes.
+
+

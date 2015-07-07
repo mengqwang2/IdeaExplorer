@@ -1,0 +1,21 @@
+Optimizing alerts in a Backup Management Software using Anomaly Detection 
+The idea changes the way we customize or configure our systems at the customer site, automating some of the deployment process, tailoring it to the specific customer data center using a disruptive method to create policies based on data science and machin
+Amihai and Raphael (Data Scientists) collaborated with Michael and Roi (DPA)  based on our experience using DPA and understanding of the client needs  and based on our experience with Machine learning and data science methodologies .
+
+IT operation environments house a large number of applications required by the business for daily operations. Backup management software products assist IT operations by alerting the system manager when a risk is identified in one of these systems (e.g. number of active files in a networker client or job name and error string in a SAP HANA backup job). DPA ships with a generic policy on which events to alert on, since this policy creating too many alerts the users may edit the policy to alert using various business rules. Tuning this policy may be time consuming (months of expert time) or even dangerous if the user chooses a bad policy. Moreover, many users are not even aware to many of the rules that exist in DPA.
+A major transformation in IT technologies is the use of statistical methods to improve and optimize on rule based systems. We describe a system for optimizing the policy by customizing it for each IT system by learning the specific system characteristics using anomaly detection methods. A similar approach used for the alerting engine for monitoring Exchange servers within IT has successfully reduced false alerts by over 50% while providing earlier warning times on real events. This system is currently in use by the IT Global Command Center and is offered as a Big Data play by Professional Services (see patent request EMC-13-0902, included in the additional material).
+
+We describe a new process and tool for minimizing the number of alerts produced by a backup management system such as the Data Protection Advisor (DPA) by utilizing anomaly detection machine learning approach.
+
+The anomaly detection system for optimizing DPA rules will be built of the following modules:
+1.	Data ingestion and parsing – this module will get a copy of the DPA agent reports and transform these into structured event values or counts.
+2.	Time series model – this module will constantly build and update a time series predictive model, such as Holt-Winter or ARIMA depending on the agent type, and provide an expected range of values for the tracked data. For example, identify that a backup job backs up 8-10 gb of data daily and 40-50 gb on weekends.
+3.	Rules optimizing mechanism – this module will use the time series output to create rules automatically with the expected value ranges of the tracked events. In the example above, one rule will automatically be created for alerting on the daily backup will alert when the backup is significantly different, and another rule for the weekend job.
+When DPA is installed the default policy will be enacted and a time series model will be launched for each applicable rule in the policy. After a burn in period, the rules will be tuned using the time series model based on the actual data collected from the DPA agents. The system may be fully automated or ask the expert for permission before changing a rule.
+
+Main advantages:
+1.	Experts do not need to tweak policy.
+2.	Reduced adoption complexity. 
+3.	Become predictive instead of reactive.
+4.	Improves total customer experience of backup management software with a more intelligent advisor
+

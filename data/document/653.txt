@@ -1,0 +1,12 @@
+De-install automation
+This idea is to make the process more effective and simple.  The objective is to automate the process through system integration and thus reducing the manual intervention in turn we are saving few head counts globally.
+Team is handling Global De-install and I have been reviewing the de-install report from past 18 months, where I can see nearly 50 to 60% of instances can be terminated by system as of end date. Primary analysis has been completed and now we are in the process of approaching BTG.
+The solution will be system (OKS) has to identify the contract end date and it should compare the de-install date.  If de-install date is beyond the end date of the contract, then system has to terminate the contract/instance as of end date. So that our TAT will improve, we can avoid manual intervention in turn quality will be 100% and we are saving few head counts globally also slowing all the downstream processes.
+If this is implemented, below are the some benefits. 
+
+Faster Order processing/reduction of TAT.
+Nearly 50% of reduction in volumes.
+Reduce the manual intervention
+Few head count saves globally
+Overcome the quality issues
+

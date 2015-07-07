@@ -1,0 +1,19 @@
+A smart way of identifying the idle time for lab hardware and save energy
+A large data center like Durham lab where different BUs hosting their hardware and accessing it remotely. As data center scales in terms of hardware the challenge with respect to saving of cost due to excessive energy consumption would be high.
+We happened to faced the situation where one of storage array in Durham lab was idle from many months. No one was knowing its status and obviously it was idle and consuming energy. We encounter such situation in many instances in local labs as well and idea came to address this kind of situation
+Idea would be addressed with following method by leveraging the server/storage hardware OS native capabilities.
+
+EMC application/firmware:
+Let EMC build a OS specific application to capture the idle time of stand alone server, storage arrays. Let the application leverage the native OS tools running on server or storage arrays to capture the idle time. Classify application as user application which could run on major OS such as Windows and UNIX machines and firmware application which could run on storage array OS such as VNX flare, VMAX Enguinity etc..The application should record and maintain the idle time information into user  or firmware data base  based on hardware. The application should also capture the virtualization information and should use the ESX CLI utility to capture VM idle time.
+
+Centralized Portal:
+Let there be centralized server hosting the portal with type of hardware, name, serial number and IP. Let there be a EMC agent running on each server and send the requested information to centralized server. For array, portal server should probe the storage arrays using remote CLI utility and fetch the information from firmware application. Portal server should keep the lab hardware equipment  idle time related information into its own master DB and should keep it updated based on probe time.
+
+Monitor and Control the hardware utility:
+Let there be a web service to connect to centralized server hosting the portal. User should be able to monitor and analyze the idle time trends from central server master DB. The central server should probe the hardware idle time and take the decision to auto power off based on Idle time (e.g. if server is idle every day during night hours). The central server should bring up the servers every day morning for those who got shutdown.
+
+Detail idea can be found at : https://inside.emc.com/docs/DOC-151319
+1) Helps to build the eco friendly lab
+2) Servers are made up and down based on their idle time to save energy and cost associated to electricity
+3) Centralized controlling and monitoring system for lab equipment 
+4) Helps to trend the historical data for

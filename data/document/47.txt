@@ -1,0 +1,10 @@
+ XtremeIO HDFs Integration for Massive Real-Time Analytics
+ This idea defines a market use case for XIO in which it can gain market share utilizing XIO unique characteristics
+
+ The idea came in from big data infrastructure experience and study.
+ 
+If XIO can combine its performance with HDFS integration, it will be the answer for any real time analytics storage infrastructure especially for massive data sizes for which in-memory analytics is not a feasible option. Hence, XIO can then offer near-memory analytics
+
+1-	 Penetrate new market 
+2-	Provide powerful analytics
+

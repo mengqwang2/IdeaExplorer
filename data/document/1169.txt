@@ -1,0 +1,16 @@
+Automated debug support helping Supportability
+In the present environment, support has to face many challenges while dealing with critical issues in customer environment. Customer expects support to be proactive, agile and provide quick response with effective resolution. Having said that, it’s very difficult to achieve such efficiency when the issue is very critical and with high severity.  Since most of the time application is unable to provide enough debug information to the support. Or sometimes collecting and analyzing logs take more time to revert back with resolution. Some of the times support has to wait for issue to be reproduced to get debug logs and other information to able to analyses what has gone wrong with the system.  Also some of the customer environment it’s difficult to get immediate access and permission to work upon the issue.
+CTD supportablility is facing various problems.Since most of the time application is unable to provide enough debug information to the support. Or sometimes collecting and analyzing logs take more time to revert back with resolution. Some of the times support has to wait for issue to be reproduced to get debug logs and other information to able to analyses what has gone wrong with the system.  Also some of the customer environment it’s difficult to get immediate access and permission to work upon the issue.
+
+More details available in https://inside.emc.com/docs/DOC-155768
+Our solution reaches out to below areas to help support for handling critical customer issues.
+•	Solution is to have application enabled with automatic debug mode selection. Let’s take an example daemon “x” on application hangs for few minutes and crosses “expected response time period”.  If the admin has enabled automatic debug enabling then system will enable debug mode with default level let’s say “level 9” for the daemon.
+
+To provide this application should have a separate process which just does daemon monitoring and check if all are in proper state. This process will keep periodic information about all the system processes and keep track how are they behaving. As soon as any unexpected behavior ( eg showed above of res time more ) is observed , this will enable the debug mode for the process and send an alert or support mail or SMS.
+•	Solution also deals with incase any daemon cores or any crash is observed in the application by the same monitoring process. Then the core file will be automatically uploaded to a support share location and debug details and other logs will be automatically captured and kept in the share location. Also an alert stating the core file details, crash details, and affected process details will be shared to support in mail or SMS. 
+•	Solution also suggest to have a web/mobile based application helping to support to immediate upload core file and get the trace details which can be analyzed and send to backend for further work. 
+•	Same web/mobile based application can be used to upload and parse log files for error trends and analysis. This can be achieved by providing more analytics into the application
+
+It allows effective logging mechanism and debug solution.This helps customer support team to address the issue efficiently.
+
+More details available in https://inside.emc.com/docs/DOC-155768

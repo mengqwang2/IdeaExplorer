@@ -1,0 +1,36 @@
+Green VNX/VNXe Storage Enclosure
+This idea can increase the energy efficiency of our storage products and reduce the thermal pollution accordingly, and this helps the EMC to provide more "Green" products to our customer.
+We have a local lab in Shanghai for the VNX/VNXe projects developing, and I found the lab became very hot after we set up 10 more Bearcat systems in it. So I'm think if we can use this power, I know the semiconductor thermoelectric generator is used widely in many areas; thus I consider we can use this technology to  increase the energy efficiency of our storage products and reduce the thermal pollution.
+The solution is to add the semiconductor thermoelectric generators into the VNX/VNXe storage enclosure and we may develop a small control module to collect the generated electric energy and use this power to charge the battery modules  or drive some monitor sensors in the enclosure.
+
+The position of the semiconductor thermoelectric generator can be between the CPU module and the CPU heatsink.
+
+In following example, we use the semiconductor thermoelectric generator "SP1848" to integrate into the existing VNXe Bearcat DPE.
+
+Reference Spec of the SP1814:in
+http://www.alldatasheet.com/view.jsp?Searchword=Sp1848
+
+SP1814 can generate the electric energy in following conditions:
+Temperature difference of 20 degrees: open circuit voltage 0.97V, power current: 225MA
+Temperature difference of 40 degrees: open circuit voltage 1.8V, power current: 368MA
+Temperature difference of 60 degrees: open circuit voltage 2.4V, power current: 469MA
+
+The VNXe Bearcat DPE has 2 Storgae Processors (SP) and supports 25 SAS disk drives.
+
+1. Since the SP CPU module is the major heat source in the DPE, so we assume it can provide 40 degree temperature difference and we can integrate 3 SP1848 in series connection to the CPU heatsink. Thus the power of this sub-system can be:
+
+1.8V x 368mA x 3 = 1.9872W
+
+2. For the SAS disks, if we assume it can provide 20 degrees temperature difference; and we can attach one SP1848 for one disk, then the power of this sub-system can be:
+
+0.97V x 225mA x 20(*) = 4.365W connection
+
+(*) Assume the SAS disk number will be reduced to 20 as multiple SP1848 will take up extra space in the DPE.
+
+3. So the total power of the new VNXe Bearcat DPE will be about 8W. 
+
+1.9872W x 2(*) + 4.365W = 8.3394W ~=8W
+
+
+So one new VNXe Bearcat DPE can generate 70080Wh electric energy every year, and it can reduce the thermal pollution in 252288000J.
+As we've calculated in the above example, one VNXe Bearcat DPE can generate 70080Wh every year. As the Bearcat DPE is a low-end product, and our customer can use multiple Bearcat DPE to build a large storage cloud. So we can image if such storage cloud has 100 VNXe Bearcat DPEs, then it can generate 7008000Wh=7008kWh every year and this means this storage cloud can reduce the thermal pollution in 25228800000J.

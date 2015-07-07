@@ -1,0 +1,5 @@
+Waste Management 
+N/A
+Available in some countries 
+Device where can be attached to the can like a sensor, when the can is filled with rubbish notify the driver to go directly to it instead of moving to all cans with role Detection of rubbish levels in containers
+Saves time, decrease traffic jam 

@@ -1,0 +1,24 @@
+Automated Fault Classification based on Naïve Bayes Algorithm
+This idea improves automation of the quality assurance by utilizing machine learning algorithms, removes human interference from feedback loop.
+Auto-triage is becoming a must to guarantee success of test automation. The current Fault auto-triage in CTD MRQE is based on pre-defined rules maintained and updated by human. In order to eliminate human interference, machine learning algorithms are promising candidates to achieve this goal. The Naïve Bayes algorithm has been widely implemented and discussed in academic field, it has been proven to be suitable for text classification problems.
+This idea utilizes a text classification algorithm -- the Naïve Bayes algorithm. There are three steps to be implemented in this project. The first two steps are executed in the training phase, the last step is executed in both training and testing phase. The training phase is executed based on historical data, and the testing phase uses the resulting data obtained from the training phase, evaluates the class with the highest probability that a new Fault belongs to, then predicts to which class each new Fault belonging based on the evaluation. 
+
+1 Data pre-processing (Word segmentation)
+
+This step separates words in Fault materials, constructs a dictionary containing each word as keys and its word count as values. Labels of Faults are also attained in this step, which includes to which group or team a particular Fault belongs.
+
+2 Data processing (Statistics and vectorization)
+
+Based on statistics of word frequency and common sense, select a word set that is meaningful and able to distinguish different Faults. This word set may also considered as a list to effectively illustrate a Fault. Then, all Faults are transformed to vectors, in which each word element is labeled as 1 if it exists in that Fault.
+
+There are large amount of existing Fault data can be used for training in step 1 and 2.  
+
+3 Classification
+
+After the previous two steps, vectors and labels of each Fault are able to explain what Fault should be assigned to which group or team. When a new Fault is coming, the similarity between the new one with all current, available Faults will be measured, and the Fault is assigned to the group with maximum similarity.
+
+There are two benefits out of this idea:
+
+1 Optimized processing and improved efficiency
+
+2 Making the best utilization of the existing data

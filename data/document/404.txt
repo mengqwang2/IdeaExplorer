@@ -1,0 +1,10 @@
+BMB - Bring more Business
+NA
+EMC support website
+This tool has to be installed in the Infrastructure Decision maker's desktop with all his contact details in customer office. Whenever customer has a need to expand their business/infrastructure and looking for new solution. He / she has to open the tool and enter their requirement in the Specific fields and submit the request.
+The tool will in turn connect to the EMC database through internet and suggest the best possible solution with basic details. This solution will give fair idea on what products are inline for the solution and its features. At the same time, whenever customer submit the request for new solution, new case will be created with the customer requirement and the ticket will be assigned to the sales/presales team.
+Based on the requirement, SMEs can plan a visit to customer place and provide the solution.
+
+This tool will bring more business.
+Avoid multiple visit to customer place and lot of time/money can be saved in travelling.
+Entry level Non-EMC customer can be identified easily, who is not open to contact EMC.

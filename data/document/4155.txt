@@ -1,0 +1,5 @@
+Automated test planning depending on code churms
+
+i just thought the traditional test planning methods are not enough to deal with the changing codes in the bundle. We should find our testing focus for each bundle and they are different.
+We consider the code churm when we define our test strategy. The release engineering team can provide us the data about what functions/features had most changes in the coding, and we can enhance the testing for these functions/features.
+

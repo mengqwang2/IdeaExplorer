@@ -1,0 +1,12 @@
+SAP vHANA TDI scale-out System Provisioning on vSphere 6 and XtremIO 4
+Accelerate the adoption of ESI for SAP LVM.  SAP HANA is strategic direction for SAP and is the underlying database and platform for OLTP and OLAP applications such as ERP and BW as well as for BIG data and data tiering.
+SAP Landscape Virtualization Manager is part of SAP’s Cloud automation Strategy for SAP landscapes. Today a high % of SAP customer landscapes are on EMC storage. 
+We combined all the separate components of separate solutions being presented to our customers in a solution relevant to all customers interested on SAP LVM, EMC and VMware integration for Automated System Provisioning on the newest SAP, EMC and VMware products.
+Dawn Levinson did oversee the solution idea.
+
+Extend ESI capabilities and show case SAP LVM System Copy for for vHANA scale-out with ESI 4.0 on XtremIO 4.0 storage on vSphere 6
+Increase the adoption of ESI for SAP LVM with EMC's existing and New SAP Customers. 
+Increase deployment of vHANA TDI with EMC storage arrays for joint SAP customers where SAP LVM is a differentiator.
+Compliment the SAP LVM  solution with additonal XtremIO capabilities and inherent benefits.
+Simplify the solution choice for the customer.
+Generate incremental service and product revenue for EMC and VMware.

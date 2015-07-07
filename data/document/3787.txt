@@ -1,0 +1,14 @@
+Cross domain Bigdata Analytic using EMC M&R (Watch4Net)
+
+This proposal is in idea stage.
+The proposal is to use an bigdata datastore to store the W4N data and run an analytic layer on top this store. The problem that is solves are
+        a) Improve the scale factor for W4N
+        b) Cross domain analytic
+
+There are two approaches in this proposal in populating the bigdata store. In the first approach the new data in W4N is replicated onto the bigdata datastore periodically. The Analytic layer is independent of W4N and it uses this replicated data. In the second approach the mysql database in W4N is replaced with a bigdata store. In this approach we shall consider Greenplum as it has a sql interface and thus reduce the changes needed to W4N. Greenplum gives better performance and it can scale out.
+
+Some of the useful cross domain analytic we can do are
+	a) Relating deterioration in application performance and the network traffic
+	b) Correlate the degraded storage performance and the poor application performance
+        c) Predictive alerting : Finding out the related events the precedes a network/storage/application fault and just using this model to detect occurrence of future instance of the same fault before it occurs.
+

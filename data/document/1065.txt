@@ -1,0 +1,6 @@
+Video analyze and compress (traffic information capture)  based on solutions by Public Sector
+ECD is responsible for enterprise content management, and video is a kind of content, thinking about the pain point of huge space cost for video storage, we can compress it before storing into our storage. Meanwhile, we can do real time analysis for the video, which for example will help to monitor and manage public traffic.
+Inspired by the "God eye" system in the film "fast and furious". To analyze the video, we need to solve the huge storage issue, so compression came into my mind.
+1.Compress the video with high compression ratio algorithm before storing into our storage.
+2.With the help of real analysis, we can easily tracing the movement of a hit-and-run suspect.
+This product will make traffic management more efficient and more intelligent, and of course it will bring benefits to our company. 

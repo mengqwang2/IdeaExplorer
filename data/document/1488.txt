@@ -1,0 +1,9 @@
+Tech chat room
+Simple and Effective Collaboration and Knowledge Sharing
+Issues faced while working on specific corner cases of certain EMC products which is not in scope of any documentation and can be solved only with prior experience.
+The solution to address this problem is a Technical Chat Room. Very similar to IRC (Internet Relay Chat) client. Specific EMC products will have a specific chat room with Devs/QA/Support Engg, etc online 24x7 across timezones. For eg product specific separate chat rooms for Avamar/Networker/vMax/DD..,etc. So that in a short and given time an issue faced by an engineer can be raised to a wider audience at real time and responded by almost all people working on a specific time across globe at any point of time.
+This will help the productivity and end to end knowledge for any EMC product.
+ - This online chat forums can bring in more technical advancements in a product by gathering knowledge and discussions of varied technicians. For eg. a dev can get more understanding of product usage from a support engg or a qa by more frequent discussions on issues faced by them.
+ - Efficient work around's from different technicians with a varied experience also resulting enhancement in a product.
+
+Solution is a easy installation as it would be a simple IRC client which can be installed in any desktop also can be a mobile app. Chats can be saved into outlook also.

@@ -1,0 +1,10 @@
+Workforce Analytics using MyVoice
+
+Last years workforce analytics idea improvised to incorporate myVoice historical data so that we dont reinvent the wheel and make use most of the existing platform to avoid more efforts and costs. This was also run by our BU HR and taken inputs to improvise accordingly to cover all use cases
+MyVoice data is a great infomation, however it depends on how we interpret it, what other data is needed to take actions and how can we improvise on making decisions based on year on year data to fine tune. There fore we need a self learning analytic engine along with multiple data sources and best practices fed to the myVoice results to give an output that can be used to take actions
+This will make sure every and avoids every business unit having their own action plans reading similar myVoice results and helps thereby to improve the company score in a unique manner, providing HR management to implement simple initiatives to address common pain areas across the company
+
+Please go through the inside EMC One page for full overview on the solution and benefits : https://inside.emc.com/docs/DOC-100208
+
+THis also includes SMAC(Social, Media, Analytics and Cloud) so that the solution going forward be closed to modifications but open to extensions
+

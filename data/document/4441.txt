@@ -1,0 +1,23 @@
+Spectrum--A web application of automation test tools
+
+Currently, there are many automation test tools used in FWQA team for firmware testing, such as ATOM, which are very helpful. However, we find that it is complicated to configure the tools before they can run, and it is inconvenient to check the test results and reports. Considering the conditions above, an integrated web application is born.
+Just as a normal web project does, Spectrum can also be divided into two parts, frontend and backend. The frontend is based on JSP, HTML and JS, and the backend is based on JAVA and MySql server. By functional division, Spectrum can be divided into: login and authentication module, test status and history query module, test template module, test process control module, test report module, mail module, administrator module, communication protocol module, service management module, etc.
+
+First of all, the login and authentication module works when a user tries to login. This module will check and verify whether a user is authorized to the system. 
+
+After a user's login, he can use the test status and history query module to query the current test status or the previous test result.
+
+If user wants to create a new test, he can use the test template module to create one based on the default or his own template. User doesn't need to edit the automation tool's configuration files any more by using the web app.
+
+If user wants to control the test process, then the test process control module works. User can stop, resume a test, and can also delete, edit test cases in a test package.
+
+If a test finish, user can review the test report via the test report module. The test report module provides user very detailed info of a certain test. For example, test case pass rate, test platform, software or hardware revision, test start time, test end time and test creator are all showed in the page. And this module also provides PDF or word report download per user needs.
+
+If the mail module is configured, users in modification list will receive test information mails, including test start notification. test finish notification, critical failure notification, etc.
+
+Spectrum also provides administrator permissions. Spectrum's administrator can manage all of the users' account and other stuffs with highest priority.
+
+Spectrum uses JSON-RPC protocol to communicate with the automation tools like ATOM. JSON-RPC is a JSON data based remote process call protocol. It is used to transfer data between Spectrum and automation tools.
+
+In Spectrum backend, there is a cron service thread which used to manage all of other tasks. By doing this, the task management becomes easier and be of high efficiency.
+

@@ -1,0 +1,12 @@
+Unified M&O Tool for Lab Automation
+Unified M&O Tool provides an effective way to deploy resources from bare-metal to applications in data centers. It allows users to access and manage remote resources via a centralized portal and reduce manual work.
+We works on orchestration stream in Heliosphere project from CTO Office. We have successfully build an solution which covers bare metal operation system installation, OpenStack installation on bare metal. We also planed to add more functions like storage and monitoring system integration.
+Our solution leverages some exited tools or systems to manage the data center from bare-metal to applications, such as:
+• Razor, an open source project focusing on Bare-metal provision to Operating System installation.
+• Puppet, an open source configuration automation project. After the installation of operating system, it will take charge of managing the service installation and configuration;
+• Nagios, a popular monitoring system. 
+Besides above, we need to union those tools together in a unified system, with a pre-defined policy, a central controller, and central data store contain the whole topology of data center. 
+A pre-defined policy will add intelligence to the data center management. Razor has some policy functions but limit to bare-metal level, which we can leverage. But according to customer’s real requirement the policy should vary. We need to design pluggable policy modules to suit different need, or even secondary development. 
+A central controller is the key of the unified orchestration. We own the whole topology of data center and the different level information, we should leverage these information and coordinated orchestrate the different level resources. Users could scale in/out resource dynamically according to real application requirements. The central controller also provide an unified interface to users, and it also enable remote power on/power off/restart servers via IPMI.
+
+If implemented, we can reduce the manual work of providing resources from bare metal to application, and make resource management more agile and efficient.

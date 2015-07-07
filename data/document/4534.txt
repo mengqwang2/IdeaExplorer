@@ -1,0 +1,19 @@
+Trusted Big Data
+
+The three solutions obviously are not my idea (e.g. secrets is from 1979), but the use of them to solve Big Data problems is original. Similar to my 2012 presentations on using forward secrecy (1975) in cloud, which was adopted widely in 2013, I've been researching Big Data security for several years and writing a book on it (Wiley). I have been discussing these solutions publicly in my conference presentations (RSAC, SOURCE, ThingsExpo, ISACA) and internally with PMs of Isilon and Pivotal to encourage use. As far as I know there has not yet been integration of this or related technology into our products.
+Vanish
+======
+Vanish encrypts with a secret key split into many small pieces and distributed widely to a P2P network, making it exceptionally difficult for an eavesdropper to reassemble the key. Behavior of P2P clients make the secret key "vanish".
+http://vanish.cs.washington.edu
+
+LAFS with Accumulo
+==================
+Tahoe-LAFS is a "least authority" filesystem that distributes data across many devices. Even when some percentage of devices fail or are attacked, the entire filesystem preserves privacy and security. Accumulo is a sorted, distributed key/value store that enables granular classification of data.
+https://tahoe-lafs.org/
+
+Secrets
+=======
+A form of protecting a secret by dividing it into unique parts and distributing them such that some or all of them are needed in order to know the secret
+https://github.com/amper5and/secrets.js
+
+

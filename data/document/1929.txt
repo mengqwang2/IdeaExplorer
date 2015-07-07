@@ -1,0 +1,16 @@
+Automated Tool to check product compatibility or environment checker
+1.Customer planning for upgrade of a component does not know if the upgrade will break other components.
+2.Customer checking for compliance of the backup environment does not know if what they are using is officially supported or not.
+3.Customer should know the sequence of upgrade when multiple components/entities/cluster are involved in the environment.
+4.Customer should know the prerequisites/best practices before the upgrade.
+5.Customer before logging a support call wants to get details of the entire backup solution stack.
+While validating one of the upgrade scenarios in Avamar plugin for vCloud Automation Center we found this idea. There were multiple components involved and facing issues due to incompatibility of different products and their versions. Before upgrade, we had to refer multiple compatibility/support matrices in different places.
+We can look at some pre check tool which can do:
+1.Gather the current set of components + suggested changes from user, and validate against a collection of data (which can be provided by EMC website or hosted locally)
+2.Produce a report showing how compliant we are currently as well as what would be breaking compliance if changed
+3.Adding to above, suggest ways to go about doing the upgrade, like suggest an upgrade path say component-X first, then Y then Z.
+4.Generate a runbook, say customer wants to upgrade to DD5.5, so tool can generate workflow to show what is needed to get to DD5.5 (say upgrade this first and upgrade that next) or call out what component will never be compatible.
+By implementing this idea, customer or support engineers, can easily validate their existing environments before upgrade and get all relevant documents for seamless upgrade without having to go to different sites to check search for different product compatibility. This will reduce number of support calls, save money from the support, improves customer satisfaction and enhance productivity.
+
+Flow chart is attached https://inside.emc.com/docs/DOC-156042
+

@@ -1,0 +1,11 @@
+Power regeneration from waste heat to Thermoelectric converters
+Solution to recycle energy coming out of heat coming out of racks in the data center
+Idea came out during a brain storming session with colleagues
+Our solution is simple; recycle the wasted. Regenerate electrical power from the heat resulting from our nodes , disks , processors sitting in the data Centers. Thermoelectric converters can be used to convert the heat into electrical power.
+
+Research has arrived to Silicon Nanowires to Turn Heat to Electricity. our idea is use these devices and mount them on heat sinks inside our racks. From here can benefit from the Heat , store the power into Batteries. Recycle the power will also minimize the need to cool down since the heat is transferred to heat sinks. Power spent on A/C will also be reduced.
+Success would be to incorporate such system in all EMC boxes. Designing and selling such a system to recycle power from any data center components. 
+
+Incorporating the idea with others that contribute into reducing and recycling power in the data centers.
+
+ 

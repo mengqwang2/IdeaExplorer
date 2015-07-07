@@ -1,0 +1,10 @@
+Clinical Archive as a Service-For Developing countries
+This idea is venturing into a new business areas where we believe would make a lot of sense for EMC
+We have been discussing this idea for many months within our team and believe having something is much needed for developing contries
+Seeing this opportunity the solution we propose is to have a Clinical Archive as a service solution which would have these features:
+      Platform which different MRS providers can easily integrate with their solution making it easily adoptable.  
+      SAAS based. Should be able to integrate with the standalone systems (running in small clinics) as well as big cloud based systems.
+	
+We also believe partnering with companies like Practo would benefit EMC as they already have a platform with a big customer base and lack this capability. 
+
+By bringing a stable product as service to the healthcare market, it would make more sense to crack through in providing the solutions to digital health care. Healthcare cost/expenditure is almost 18% of American GDP and in order to bring more success, we need to address the needs of lower/medium customer. Looking at the potential of the market expenditure, it becomes one of the much needed area where we need to have a solution to cater the requirement. 

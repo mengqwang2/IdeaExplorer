@@ -1,0 +1,40 @@
+Intelligent/Adaptive/Automated Feature level Code Coverage algorithm  for VPLEX cluster
+
+I am from medical software background where I have learnt people loosing lives due to miss of bugs in their products. This always kept me aware that testcases should validate every line of the code atleast once. I was having this discussion with Mani Jangde on how can we do code coverage on our VPLEX clusters which is a complicated environment. 
+The proposed solution covers each line of code based on priorities/weightage of existing customer install base and selected feature for that deployment. 
+
+For Example: If for a particular release the targeted customers are having 25% on Local, 60% on Metro and 15% on Geo install base, then my priority will be decided as follow:  1st Metro, 2nd Local and 3rd Geo deployment. 
+For my 1st Metro Priorities deployment – Feature’s will be listed automatically for code coverage testing. User can select to choose all OR only specific feature from that list. And then same for my 2nd and 3rd priorities of VPLEX deployments based on the release timeline and project management call.
+
+Our proposed “Intelligent/Adaptive/Automated Feature level Code Coverage algorithm” has below phases: 
+
+PHASE-1:
+
+User needs to find the total number of VPLEX cluster deployment configurations (Local, Metro or Geo) in Healthcare customer install base. List out and add priority/weightage based on most deployed customer configuration. Choose that deployment configuration for your code coverage TEST SETUP.
+
+PHASE-2:  Its algorithm (piece of code running on the SMS) that provides intelligence to test code coverage in clustered system:
+
+•	 Install instrumented build (A build created from Dev specific for Code Coverage) onto selected test setup form PHASE-1.
+•	Automated detection of VPLEX setup type – Local, Metro, Geo with its configurations(single, dual, quad)
+•	Auto listing of features for the deployment type.
+•	Adaptive selection of those listed feature based on user choice based on single/Multiple feature or system level code coverage. 
+•	Automatic “CODE ENABLEMENT” for the selected features only. If user selects system test, the complete Vplex code will “CODE ENABLED”.
+•	Execution of test for the selected features for code coverage on setup.
+•	Validation of the total number of code lines vs code covered during testing on the VPLEX cluster setup.
+
+PHASE-3:
+
+Results required in form of percentage of the coverage.  Result in html or any other format in which the below should be showcased:
+
+•	Feature wise code coverage percentage: 
+
+Lets say Feature-X have 2000 lines of code out of 10000 lines of code in the given instrumented build. The result of the feature code coverage must be picked from those 2000 lines only, pertaining to Feature-X and should not count other feature lines of code. This requires instrumented build to have “CODE ENABLEMENT” only for those 2000 lines of feature X.
+e.g. 1500/2000 is the result to be displayed.
+
+•	Over all VPLEX block code coverage: 
+
+Complete VPLEX  should  have “CODE ENABLEMENT”. Let’s say VPLEX block has 10,000 lines of code and system test result covered 7000 lines of code then the result should be shown as 7000/10000. 
+
+•	http link for the html page displaying the actual covered and uncovered lines of code. 
+
+

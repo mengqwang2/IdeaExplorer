@@ -1,0 +1,5 @@
+EMC Strategy CheatSheet/Blueprint
+
+Searching for strategy documents surfaced the following examples ( http://pulseblog.emc.com/wp-content/uploads/2013/05/Rick-Keynote-Blueprint.jpg & http://www.buraguy.com/wp-content/uploads/2013/05/EMC-Software-Defined-Storage-EMCBLUEPRINTS.png ) but none seem to show the whole picture
+Create a EMC strategy cheat (double sided A4 or letter size) sheet that explains visually what the are the key startegy elements and how they tie together in one simple to use and understand message
+

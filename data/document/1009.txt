@@ -1,0 +1,15 @@
+Next Generation MFG Test solution for Converged Infrastructure
+Under the big picture of platform 2.5 transformation, hardware of solutions is moving into Converged Infrastructure which is commodity hardware. EMC MFG Test solution is adapting to change but currently still keeps a high percentage of internal designed, which is being challenged to support commodity hardware testing. Though there have been couple of experiences on outsourcing MFG test solutions, couple of challenges or issues were being faced, such as inadequate test coverage, test yield issues, and redeployment problems.  
+The idea was coming out when converged infrastructure became to lead the hardware design mode of EMC's solution. On the other hand, I myself actually was experiencing several projects in which test solutions were outsourced to our contract manufacturer's (CM) but found lots of challenges and pain points during the project management, where EMC did not engaged much traditionally. In those projects, when test requirements were correctly interpreted to our CM's, the process were becoming smoother, but on some test cases, CM were not able to provide test code as good as EMC's.
+It's a test case and requirement defined test solution. That is, EMC provide a test platform that leads service providers to develop and execute a dedicated test solution to support a commodity hardware project. 
+
+Test solution development and operation are fully outsourced, but EMC define and manage the test requirements, and the requirements are defined by test cases, which EMC enable to provide the code bundle of each test case to service providers. On the other side, service provider develop the test solution both hardware and software according to the requirements, by either secondarily developing on EMC provided code bundles, or initially developing their own test code, or the hybrid mode. 
+
+On process control perspective, EMC can develop a web-based test solution management system which manages all project development and code resources, and service providers login into the system by their own authorized credentials to receive requirements of test cases, grab EMC code bundles, and report project status.
+
+If this idea could be fully implemented, it would benefit the whole MFG test processes to support converged infrastructure. Here are some break down points. 
+1. Move EMC MFG test solution to a service mode for converged infrastructure. 
+2. Save money by outsourcing MFG test solutions instead of building our own.
+3. Keep EMC test quality by leveraging EMC technologies and experiences in MFG test.
+4. Total management on world wide test solution providers.
+5. Make the redeployment of the MFG test solution more easily and cost effective. 

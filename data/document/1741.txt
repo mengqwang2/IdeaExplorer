@@ -1,0 +1,19 @@
+Smart City Solution built on ECD content management platform
+The idea is to solve how to build the infrastructure of information processing/storing/analytics/archiving based on ECD's SaaS solution. It matches Egypt COE Smart City and IoT challenge.
+The NGIS as ECD SaaS product is a new generation product of content management area. We are always thinking of how to make it as the information infrastructure especially for IoT as IoT providing us all kinds of data in different types. And that complexity is just what ECD product can handle. Smart City is a good opportunity to start.
+ECD NGIS platform could be the base of the infrastructure to take care data storing/analytics/backup/archive.
+What is NGIS? It is a full-featured content management software platform. It is built as SaaS. It is capable to store structured or unstructured data. Based on NGIS, we can build applications for specific purpose. As we talked about data sources from IoT, there must be a data extractor as an application that play a role to receive image/video and extract structured data with image processing technology. After the extracting, structured data will be saved into NGIS's database, while image/video will go to archive with EIA(Enterprise Information Archive). In addition, except the extractor, there is also a response maker as an application that play a role to give a response to specific audience according to the information saved in realtime. To energy/transportation, the response could be an optimization implementation; to security, the response could be an alert. At last, there must be a centric controller as an application which is the unified interface to IoT and is responsible to communicate with IoT.
+So how does this solution function for Smart City?
+Let's take transportation in the city as an example. One requirement is to do traffic realtime monitor and provide intelligent optimization. When the traffic in one direction of the road is more heavy than another direction, the optimization is supposed to to increase a reversible lane in the heavy direction if it has. To meet this requirement, our solution will perform as follows:
+1. Traffic images are stored via REST API of the solution.
+2. Controller gets the request and transfer to data extractor.
+3. Data extractor extracts the traffic info - vehicles on each lane per minute, and saves it.
+4. The responser pull the realtime data and provide the suggestion (based on the rule we predefined)
+5. Controller gets the suggestion and response to IoT to inform the traffic control system.
+Now we can go to another challenge earlier. How to deal with high volume and high throughput?
+The applications we will build are deployed on private cloud, and they are decoupled with each other and easily scaled up. So the concern actually is with I/O side. How to save the data more efficiently? The solution could be as follows:
+1. NGIS can support multiple data storage as backend. We can attach two different data storages, one is the shared SAN storage to save the structured data, the other storage could be private as it only save the image/video content that would be archive directly without too much value in realtime.
+2. To increase the overall throughput, XtremIO is a perfect choice as it is all SSD array that could be fastest.
+3. To save structured data, the data from extractor could be stored in memory for a duration and after that data should be saved in batch to lower the data writing I/O to storage.
+For archiving, EIA that is also a ECD product would be very suitable as it leverages ECD's advanced technology like xDB and EMC storage produce like Isilon.
+To serve for Smart City information infrastructure, it will do good to our reputation and influence. When we once have Smart City, we will run everything in our life and work more efficiently, all the benefit from Smart City will become benefit to us and certainly, it is a two win to company as well.

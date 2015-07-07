@@ -1,0 +1,10 @@
+EOS2 Value add for developers and testers through bundled service offering
+This idea enhances the productivity of developers/testers who are the key consumers of EOS2 and could be a key value add for them.
+Within India COE Lab, we are working on offering this as a service on top of vRealize Automation Center Suite and workflows are being created to meet the above.
+
+We are currently doing the POC which is in a demo-able form if needed.
+Bundled PaaS service offering through self-service portal.
+ - Client system with necessary tools pre-installed for developers/testers to eliminate productivity loss for them.Ex: eclipse,STS,WorkBench, Android Studio etc...
+ - PaaS environment for developers/testers where they can seamlessly deploy/test the code.
+ - Runtime components as well as other middleware components such as MySQL, Messaging service, in memory cache, mobile services, hadoop etc... in a PAYG model.
+Improved productivity not only for the developer/tester community but also for the support personal. Access to latest technologies for users to consume with few clicks in a PAYG model. Improved user experience. Shared Infrastructure across users saves cost.

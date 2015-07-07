@@ -1,0 +1,9 @@
+Data Erasure Data Mining
+Common location Data Erasure Logs 
+Proof of erasure of Disks
+Can be mined to see if the erasure process is breaking down in a particular are or disk type etc.
+Can be mined to derive business analytics.
+Can be mine to see trends and resource accordingly.
+Was asking about mining results and there did not appear to be a easy way of doing this.
+Upload the logs from CXClear/VNXClear and 1UClear to Cloud based storage and mine the results - who/where/when and how successful were the erasures. 
+Success would be where any authorised person could immediately scan the results for erasures performed in their relevant areas and have available the number of a erasures done, number of disks, disk types and if there are failures why there might be failures and who performed the erasure.

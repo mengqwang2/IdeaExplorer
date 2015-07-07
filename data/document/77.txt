@@ -1,0 +1,17 @@
+Software Defined Data Backup broker for industrial primary storage and backup storage 
+With this integration broker,  it will be much easier for CTD to manage the primary and backup storage
+The idea is triggered from the ViPR,  software defined storage middleware.  We may build similar broker coordinator for primary storage and backup storage. 
+My idea is to develop some kind of standardized and open interface to integrate industrial primary storage and industrial back up storage.   With this solution,  it will accelerate the integration progress and reduce cost.  
+The broker looks like a coordinator, which consists of: 
+
+  - Standardized and open interface to connect primary storage and backup storage;
+  - Can control data backup stream from size to performace
+  - Can do automatical data backup according system workload
+  - Can do data back up on demand
+
+With this data backup broker,  it will be much easier for EMC to backup data not only from EMC's primary storage to Data Domain DDRs, but also from 3rd party vendor's primary storage to Data Domain.  The benefits are obvious: 
+
+ - Increase Data Domain's mareket share
+ - Reduce integration cost and time
+ 
+

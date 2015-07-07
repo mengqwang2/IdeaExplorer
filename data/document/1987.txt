@@ -1,0 +1,6 @@
+Automatic Archive of Conference Calls / Meetings
+Many people host meetings and are responsible for writing the minutes. The meeting minutes need to be captured accurately and sent to the meeting invitees.
+This idea was generated during the idea generation session held by the Cork Process Engineering department.
+Use a device in the room, software on your laptop or other technology to record the audio during the meeting. The technology would then transcribe the audio into text format and send this text file in a mail to the person who booked the room.
+
+This system would help to make the process of taking minutes quicker and more accurate. It would allow all the relevant points to be captured accurately. The text file produced could be referenced by anyone questioning any contentious issues discussed.

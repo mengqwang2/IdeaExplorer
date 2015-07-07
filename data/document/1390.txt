@@ -1,0 +1,5 @@
+Documentum on Hadoop
+N/A
+N/A
+Change in documentum architecture to support hadoop
+N/A

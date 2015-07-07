@@ -1,0 +1,5 @@
+No need to full copy during initial migration when the source file system is empty
+When we are doing the file system migration ,we find that the migration would do the full copy when the first time no matter the source file system have data or not. It would save a lot of time to skip the full copy if the source file system is empty.
+During the test, we found it would cost a lot of time for those empty but large size file system.
+Before doing the migration ,check the source file system size,if it's empty, we can skip the full copy during migration.
+It would save a lot of time when doing migration or replication related action not only for the tests but also for the customer usage.

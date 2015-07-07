@@ -1,0 +1,8 @@
+An Improvement of current File System Access Process
+I have met the end of life of SSD drives during testing for some times. so I propose this idea to improve the current file system access process to reduce the additional write times to SSD drive.
+Auto-tiering is a good solution to resolve hot data and cold data access.but as we known,the life of the SSD drive is limited, write frequently and data update will reduce the SSD performance,especially the irregular data update,lacking consistency, regularity, or uniformity.
+1,Add a new flash media as a memory to store the metadata of the filesystem, such as inode table, inode mapping, metadata table and so on,system could add, delete, update the metadata info in the media instead of W/R the local SSD.
+2,the bigger data can be stored in the local SSD, such as the buffer data, the write I/O data.
+3,When there is a Write request, will update the I/O data in the SSD and the metadata in  flash media,so the write times on the SSD will reduce and no any other additional write on it.
+4,all the metadata stored in the flash media will copy to the local SSD regularly,if there is a failure on the media, all meta data can be protected safely.
+if this idea was fully implemented, it will improve the consistency and durability of the filesystem, and reduce the amount of the additional writing, extend the service life to SSD drives

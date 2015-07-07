@@ -1,0 +1,13 @@
+Storage Platform for 3rd platform – Federated VMAX/VNX and vVMAX and vVNX
+
+NA
+The solution is to deploy multiple instances of single engine vVMAX and vVNX instances in front of physical VMAX and VNX systems and seamlessly federate them so that the aggregated system looks like a single system with each vVMAX or vVNX serving a virtual tenant.  With write through cache in the front, the read intensive workload could be served optimally with the CPU power/memory on the servers on which the vVMAX/vVNX is deployed.  Offloading the data services could as well help us save a lot of VMAX resources.  Optimal use of server side PCI flash could help us deliver even better performance off vVMAX and vVNX to cater to the third platform workloads.  
+
+In addition, virtual editions deployed help us address the 3rd dimension needs of the 3rd platform, which is elastic scale with ease of management thru automation and machine learning.  With simplified deployment model, this would also help us deliver upgrades and new features rapidly to the end user w/t going thru comprehensive hardware/firmware upgrade process.  
+
+Added to that, varying deployment models like no_RAID (where we short ckt the front end RAID on vVMAX and provision the storage directly into the frontend pool) could also help us address performance where the RAID level reliability may not be required.  Such a deployment could use backend RAID for delivering the reliability needs for 3rd platform. 
+
+This could also be used for realizing the ROBO configuration in the block world. Federated deployment of ROBO with WT cache would help us open new market avenue in the internet of things centric appliances. 
+This configuration could also be used for realizing hyper converged appliances as well. 
+
+

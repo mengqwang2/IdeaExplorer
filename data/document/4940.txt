@@ -1,0 +1,17 @@
+Designer-friendly component cost information for design reference
+
+In an effort to brain storming cost reduction idea, we found that multiple similar parts cost significantly differently.
+
+For example, for below two capacitors, using 2x 22UF is considered equivalent to a single 47UF in most applications, however there is ~4x cost difference for different approaches.   
+366-476-005 (47UF 20% 6.3V X5R 0805 PKG)  $0.12100 
+366-226-000 (22UF 20% 6.3V X5R 0805 PKG)  $0.01790
+
+If a user sees this data when he simply searches bulk capacitors in the database, he will most likely choose the 2x 22UF for a design and saves EMC cost. 
+Currently the component database only record parts' functions and characteristics. Upon enquiry the database can list out a group of parts with similar feature or function. But they don't include any cost information. 
+
+The only way for designer to retrieve that information is to look into the SAP or run the question to commercial team. However that is restricted to a certain list of components he/she has on in mind.
+
+In many cases, the design can be minor tweaked to adapt to multiple parts. However with the limited knowledge of cost, as a result of unuser-friendly database,  obviously restricts the designer's ability to make the right choice upfront.
+
+In order to achieve the end to end cost efficiency, it is as well, if not more, important to do a correct design upfront, than to drive the supply chain for a lower price for a given "unwise" part. 
+

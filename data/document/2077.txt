@@ -1,0 +1,17 @@
+Improved cusotmer cases handling for space full DDFS conditions in DDFS/DDR
+The new idea is specifically associated with DDFS and DDR.
+The idea provides improved customer experiences while dealing with file system full situations. it also provides faster resolutions with lowering costs involved in mechanical replacements. It is aligned with challenges faced in APJ COE CTD supportability.  
+Problem had been noticed since the India COE involved in ART. Customer escalations resolution experiences gave birth to the idea. That lead us to try solve it in the way proposed above. 
+Proposed solutions to resolve above situation for customers having ER enabled DDR are as below: 
+
+1st: Allow ‘cleaning’ on active tier & files migration to archive tier to perform 'simultaneously'. 
+
+
+2nd: If customers have new cayenne shelves installed with archive tier, then few packs / disk groups can be pulled out from archive tier to active tier under a ‘special storage license’. The newly defined storage license would be similar to “CAPACITY-ACTIVE” and it would have archive tiers’ borrowed storage provisioned.
+
+1) Idea would save extra cost involved in shipping new / spare shelves to customer site. 
+2) It would save time involved in the whole process. 
+3) Improved customer satisfaction. 
+4) It would save on price negotiations for a loaner shelves. 
+5) lesser downtime at customer site.
+

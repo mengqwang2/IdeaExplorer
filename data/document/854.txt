@@ -1,0 +1,39 @@
+Storage System Architecture for Smart City Using EMC Federation Products. 
+• Efficient solution using  EMC Federation storage products to create a Smart City Storage System.  
+• This solution uses Open source as well commodity hardware therefore is cost effective.
+• Supports Data Analytics natively as well as storage and archival of smart city sensor data. 
+• This solution can be deployed to multiple cities to solve smart city problems with minimal changes. 
+• Solution provides real time as well as predictive analytics. 
+• A Scalable distributed storage solution to handle different workloads and data explosion using data lake. 
+IOT creates a unique problem as the storage requirements keeps on increasing. Also compute requirement grows with time. This team internally discussed and came up with a solutions. 
+The detailed solution is available at the following link  https://inside.emc.com/docs/DOC-155042  and below describes the summary of the solution 
+
+- This has two major components, multiple Edge storage systems to handle IOT sensor data situated at differential geographical parts of the city and Central Scalable Storage system (Smart City Data Lake) to perform real time as well as predictive analysis using Pivotal HD platform.  
+Following is the proposed storage architecture
+
+- Smart City Data Lake is created mostly of ECS storage with a comparatively smaller presence of DSSD. (Something like 80% 20%) 
+- Smart City Data Lake performs real time analysis using a DSSD hadoop cluster.
+- For near real time or predictive analysis this solution uses ECS hadoop cluster comprising of various of performance tiers fast, medium and mass storage tier (SSD, SAS, SATA disks). 
+
+This would be short description of the workflow 
+
+1) IOT sensor data is pushed into the Edge Servers which will perform local processing of the data as well as data analytics based on the localized requirements. The data is processed and stored in Mongo DB using RabbitMQ message queue between IOT and localized application servers. 
+2) Later the data is compressed, refined and pushed to Central Storage System (Smart City Data Lake). 
+3) Smart City Data Lake system will receive JASON objects via RabbitMQ from multiple Edge systems based on subscription.
+4) Data ingestion is handled by utilizing Spring XD to receive and transform the raw data. The processed data is stored in an Apache Hadoop® File System (HDFS) cluster as part of Pivotal HD.
+5) For immediate/near real time response ultra-fast and fast tiers would be utilized. Real-time near real-time processing is done with Gemfire XD on a DSSD based storage. Periodically, GemFire XD will perform clean up of the files in Hadoop to compact the data into a single new file to reduce HDFS footprint. Customers can also choose to leave all the historical files on HDFS to track transaction history and derive additional insight in the future if they desire to do so.
+6) For batch jobs, the proposed solution leverages HDFS end-point of ECS storage using HAWQ – an HDFS based sql engine. With HAWQ it is possible to process huge data.
+7 )Also applications can be developed  using pivotal framework for map reduce application using HIVE and Pig
+8 )An open source hadoop replication software like Apache Falcon could be used to replicate or transfer data across hadoop clusters. 
+9) The archival data can be stored on public cloud storage or tape libraries. 
+10 ) A orchestration layer could be integrated to automate provisioning and deployment and monitoring of the storage system. 
+
+•The solution talks about a storage architecture which is scalable, implements archiving and supports data analytics natively. 
+•This solution is based mostly on EMC Federation products,  Therefore will definitely help EMC financially. 
+•A solution can be deployed or implemented using minimal hardware and software infrastructure. Later it can be scaled up as per change in requirements. 
+•This will help to increase awareness of EMC products involved. 
+•This solution can be replicated to other cities in the world.  As well as can be modified without making major changes to the solution to solve the local issues in that city. 
+•This solution leverages the open source products with EMC Federation product and therefore we can keep up with the change in storage and data analytics eco-system. 
+•Since this uses known products,  the developers lesser learning curve to deploy new applications. 
+•Ease of deployment could be achieved using Cloud Foundary platform provided by pivotal . 
+

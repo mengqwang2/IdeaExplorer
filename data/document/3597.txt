@@ -1,0 +1,9 @@
+History of customer support feedback
+
+thinking of other ways of knowing customers' feedback about EMC service in general, not specific to a particular support agent.
+Through a third party entity, EMC customers can rate their experience with customer support on EMC website. After every interaction with customer support, they will rate through smiely faces; happy face(satisfied), flat face (neutrally satisfied), sad face (not satisfied).
+
+The idea is different from the CSAT surveys that technical support recieve. It is not related to a specific customer support agent, but it is about EMC customer support as a whole.
+
+The purpose is to show the history of customers' feedback through the percentage recieved for happy faces, flat faces and/or sad faces. This will help EMC know to which extent customers are satisfied or dissatisfied with the service so they can enhance it. In addition, the ratings are to be made public and this allows non- EMC customers make their decisions whether to be EMC customers. It also assure the faith and loyality already existing customers have in EMC.
+

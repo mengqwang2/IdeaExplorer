@@ -1,0 +1,7 @@
+Script to switch network on VMware
+
+The always fear that we are facing while using the social media on EMC VPN.
+I have implemented a script that we can run it on our system to switch between networks, like wireless and wired, my idea is to use this script on a VMware SW on EMC operating image.
+The First operating system will be using EMC VPN and on this system it will be prohibit to enter on any social media or any out of EMC websites, that will help to secure our data.
+The second operating system will use any other wireless available and this operating system will be open to any websites this will help our employees to be connected to any social media that is now one of the essential use for anyone, and also will keep our data secure from any threads that is now available on the social media.     
+

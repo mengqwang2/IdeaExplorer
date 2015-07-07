@@ -1,0 +1,27 @@
+Making restore process more easy for the data which is available in other data zone in Networker.
+Right now, Networker has the functionality to restore data from one datazone to other datazone by running "scanner" command only for the specific tape.
+
+For the bulk restore data, it would be very difficult to scan "N" number of tapes to get the data.
+
+Networker engineering team should be able to identify solution for it.
+
+Our customer has legacy and landed environment.
+
+Where we are frequently asked to restore legacy data which are in different networker servers (in tapes) to the landed environment.
+
+Each scanner takes 8 hours to scan a tape which making delay in getting data. customer is focused on amount of time to restore data.
+
+It would help backup administrator to act quickly on restorations.
+My Suggestion:
+
+Insert the index tape into other datazone use scanner to rebuild the data for the index tape and create the client resources (requested for restore with the same client ID) in NMC of the NW server. Keep the data tapes available in the library. These would be in unlabled state.
+
+use nsrck -L7 or create other command to build the index for the data tapes from the index tape available in the library. or 
+
+Write the index from the tape to the /nsr/index location and the index should be available to restore the data in the datazone.
+
+
+
+I believe, it will create huge impact in the market to compare the features available in Networker to other products.
+
+

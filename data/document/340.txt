@@ -1,0 +1,19 @@
+IoT over Wi-Fi
+Recently, Machine type communication devices (MTCDs) for the purpose of monitoring and automation have been deployed at an accelerating pace.
+This has lead to the frantic search for the most proper access technology for such communications.
+It's expected that machine to machine (M2M) communications are to be the main traffic contributor through the Internet of Things (IoT) paradigm.
+My idea is to extend the capability of an existing technology, Wi-Fi, to adopt this type of communications.
+IoT is one of the hot topics worldwide that is being worked on and has been done a lot of researches through.
+I have read about that topic and got interested in and meantime i am working on some researches to complete my proposed argument.
+Considering the 3 technologies that can be used for enabling M2M communications:
+Cellular technology has the advantage of higher data rate and ubiquitous coverage, but is of high cost for both the device capabilities and access cost.
+Zig-Bee has the advantage of low power requirements, but lack immunity against interference and low data rates.
+Wi-Fi technology stricks the balance between both technologies; it has the advantage of wide use, high data rates, being underutilized and average access cost.
+Since private Wi-Fi networks are most likely secured, so it's not possible to allow external access.
+My idea is adding an new dimension towards the idea of achieving the smart world; a new proposal argument for the possibility of enabling M2M communications over private Wi-Fi networks by extending its capability. 
+In modern era, world is moving faster and faster towards the meaning of being one whole connected world. One of the most important aspects towards that achieving that meaning is knowledge transfer and data acquisition.
+The new age paradigm we are trying to achieve is called smart world which corresponds on the measurable meaning implementing the concept of IoT.
+Adding a new proposed dimension for enabling and reaching such paradigm  by exploiting an existing technology is a key success.
+Thinking more steps further, people can get limitless benefits in a smart world.
+IoT promises the future ..
+

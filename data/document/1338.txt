@@ -1,0 +1,5 @@
+Use Availability to Test and Store your product
+This idea addresses the costs incurred in manufacturing test due to additional foot print for testing product in one location and storing in another.  
+This is an idea I've really had on mind and discussed openly over the last 2-3 years.  The introduction of Cumulus has already started, various programs are already looking at the test solution but giving no thought to how we want to move and store the material.  
+With the introduction of Cumulus which is VM based some gantries (or similar solution) is likely to be implemented to support power and TCP.  Already the infrastructure is starting to take shape but with the old testing mindset in mind. Availability is where tested material is typically stored, be it on stationary racking or CMRs.  This idea is a proposal to test and store in the same location.  There are a number of wins with this solution namely saving in floor space as well as reduced handling.
+This idea will save money, money incurred due to foot-print.  This idea will reduce material handling and keying - test and store in one location

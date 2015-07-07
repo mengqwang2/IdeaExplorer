@@ -1,0 +1,5 @@
+Text formatting of the Service Center for log update needs to be changed for ease of reading the output of commands.
+
+We either rely on previous SR's to check the status of the product we are working on and/or depend on the LOG NOTE UPDATE from the previous engineer. Engineers sometimes have to paste the output of the important commands and once it gets pasted, the text alignment changes from the original text to the new font and renders the output of the command completely unreadable.
+If we change the way Service Request displays the text that we paste as a LOG NOTE from the "current" FONT to CONSOLAS or COURIER NEW. The problem with the spacing that we see with the command outputs will cease to exist.
+

@@ -1,0 +1,32 @@
+Seamless RSA Web Agent securid authentication using mobile or Out of Band Authentication
+
+This idea was conceived about an year ago when me and my colleague (Abhilash) were trying to see how we can use mobile for user authentication. Since we have worked on SecurID Web-Agent release earlier and one of the releases from our team during that time used QR code, we came up with the idea to integrate all these and build a solution which is more secure and provides better user experience.
+Later with the help of one of our colleagues (Narendra Nallu) we developed a prototype of the solution. Kiran helped us refine the idea in many ways.
+
+Please refer the demo video to see how the prototype works.
+
+This is how it works:
+•	User tries to access protected resource from his device 
+•	User gets a securid page which contains space to enter username and user enters username and submits 
+•	Server generates a random number creates a QR code which contains username, random number and serverURL(ip) 
+•	User gets a page/window which contains QR code and authenticate button 
+•	User scans the QR code using the mobile authenticator and generates the token code using softtoken software in mobile and sends the token, random number , location artifacts (gps) (?) to server through an encrypted channel 
+•	Then user clicks "authenticate¨ button on the other device 
+•	Server sends success / failure depending on the request from mobile authenticator to this new request.
+
+Advantage of New Approach:
+ 
+•	Authentication is happening through separate channel hence more secure 
+•	User does not have to manually type in the securid code in authentication page 
+•	Better/proprietary channel encryption mechanism can be used for authentication channel
+•	Current RSA WebAgent can be easily extended to support this new model along with the existing model
+•	With server/client side changes now we can support following: 
+o	Since the token code does not have to be manually entered hence it can be bigger in size and more secure. 
+o	Token code no longer has to be restricted to numbers. It can have non readable chars as well
+
+Design details and flow diagram available at:
+https://inside.emc.com/docs/DOC-99838
+
+Video showing how the prototype works:
+https://inside.emc.com/docs/DOC-99839
+

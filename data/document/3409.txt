@@ -1,0 +1,8 @@
+) Mobile Application with voice recognition
+
+CSAT is not an easy way for the customer to get their feedback.
+Create a mobile App that used to get a customer feedback without any survey or any question, the customer will record a voice message with his feedback, and through a voice recognition SW that will get the voice message and make analysis on it to know if the customer is happy or not.
+Example: The customer will record a voice message like I am not happy from the service that I got due to the wasted time that happened due to wrong info in the SR opened.
+The SW will recognize that this customer is angry, from words (Not Happy, Wasted Time, and Wrong SR)
+
+

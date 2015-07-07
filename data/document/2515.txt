@@ -1,0 +1,10 @@
+Software Defined Information System
+Being a storage company in the cloud era, we need to help manage consumer storage efficiently and promote move towards thin devices having only minimal storage and move the rest to cloud. Also provide object view of the typical 80% of content that exists.
+Conventional file management by end users is responsible for data deluge. We owe responsibility to bring some sanity and control creation of info. People keep downloading and uploading content and the value of this and the fact that it is not changing data demands better management, more like objects than unstructured files. Hence this thought.
+Aggregate peoples cloud storage like g-drive, one drive, drop box, or even EMC managed cloud.
+Do data ingestion from consumer devices into aggregated cloud. Default schema of object metadata can be provided or customizable by users.
+One pushed to cloud, offer to delete from devices, ensuring high availability.
+Have a mechanism to access these from multiple devices including tablets, mobile phones.
+Data can be music, videos, pictures, documents to begin with. Can expand to mails, SMSes etc.
+Idea can be found at this link: https://inside.emc.com/servlet/JiveServlet/downloadBody/155979-102-1-520134/2015-SDIS.pptx
+Based on "One Size doesnt fit all". Having all data managed in one file system may not help. Success will be to help control data deluge! We lead the consumer storage management space moving stuff to cloud and manage as objects.

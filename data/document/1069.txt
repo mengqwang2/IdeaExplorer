@@ -1,0 +1,7 @@
+Smart healthcare service
+Smart healthcare will help doctors to collect data remotely and will use smart city IOT to analyze data from WiFi sensor network and take perfect decision
+Idea came in my mind to think about smart healthcare system where data sharing and analysis for team members is spanning multiple locations
+In Healthcare, doctors can monitor patient healthcare sensor data of all types will require analysis and mining on-the-fly. The Internet of Things can collect information from our bodies, store historical data and let our doctors know when something is wrong. E.g.1.wireless EKG machines allow doctors to collect heart patient data remotely. 2. For Diabetics iBGStara blood glucosemeter with connectivity to the iPhone allows to view and share accurate data, to share with doctors.
+All collected sensor data will be stored in EMC data storage with redundant reliability for preserving long term and big data analytic is used to analyze more accurate data and system send flexible SMS or email alerts when something is wrong. Doctors can take immediate decision for particular patients.
+
+Useful for Structural health monitoring and condition based monitoring of high value assets. EMC can sell this product to Government and non-government healthcare division 

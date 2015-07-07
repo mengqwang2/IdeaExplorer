@@ -1,0 +1,20 @@
+Unique way of logging messages across  CTD products
+Idea will improve the supportability of solutions that deploy for multiple CTD products
+Improves the trouble shooting 
+Helps in preventing/predicting customer issues 
+Ease of use 
+1 Wrote a script to perform search and build analytic's for NetWorker product messages same thing didn't work for Data Domain or Avamar product because there message structure differ from NetWorker product.
+2 Took time to understand data domain log files to debug and obtain a message for particular backup information message which was performed using NetWorker
+My solution is develop a binary shipped with the product that will convert log files into a unique format irrespective of the application (It can be even for SQL or Oracle application log if it interacting with CTD product)
+Note: format can be decided on discussion
+Eg: <Message id>,<Time Stamp>,<daemon or affecting binary name> <error message id> <type> < Message > 
+How it meets the criteria of sponsor challenge 
+Searching of logs file becomes easier, Single script can suffice the needs
+No need understanding message structure of each product because log file contains message in unique format.
+Monitoring of application becomes easier like plotting trend of particular message ,analysis of results data mining can be easily done. 
+Time of debug the message from different log will be reduced
+Customer love to buy different product which has unique way of logging message --Make money
+Debugging time reduced will saves money
+Enhance customer satisfaction 
+Improves productivity
+

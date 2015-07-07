@@ -1,0 +1,5 @@
+Employee Performance System(EPS)
+Currently @EMC the performance tracking is based on perception and deliverables. Another part of the puzzle is that the performance tracking is done pockets and not at a centralized level.
+Since the performance tracking was not stream lined and perception based. There was a scope of improvement hence my Manager told me to design a tool/System which is centralized and can implemented to a larger Audience hence we have come up with the idea of EPS.
+EPS would be the system which will rate the employee on basis of a set of KPI that can be decided by the management and this will provide rating to the employee on the basis of score that the employee has achieved. Cascading your corporate goals throughout the organization can align your entire workforce to the overall strategy
+If the idea is implemented it will be one stop destination for kind of queries related to performance, ratings etc. It can be implemented at an organization level. It will play a big role in bringing about customer satisfaction, employee satisfaction, man

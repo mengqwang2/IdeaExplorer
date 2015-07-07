@@ -1,0 +1,6 @@
+Add-ons in Everyone Sales Portal
+
+Customers have reached support several times stating they have not heard from Sales team and request for the tracking id or oncall number.
+Whenever there is a request submitted on behalf of a customer on Everyone Sales Portal, there should be an unique tracking id generated along with the on-call number where the customer can reach the Sales team directly.
+There should an option to provide the customer's email address so that the customer is intimated with an auto-generated email along with the unique tracking id when we submit a request on behalf of the them so that they get to know that there has been a request raised for them and this will also build a trust relationship with our customers and customer need not come back to support to confirm if the request has been processed or not they can follow the Sales team.
+

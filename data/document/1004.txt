@@ -1,0 +1,5 @@
+Restoration of client files in Networker Environment in absence of backup server.
+This will enhance EMC backup and recovery tool namely EMC Networker.
+As my primary skill has been TSM so when I started working on EMC Network I faced this difficulty and came to this idea.
+Once server is moved to a new dc where we do not have a Networker environment under which the client was being backed up in that case if the data is there on the tape which is >LO5 then we can perform restoration by directly attaching the tape library to the client and perform restore.
+This will be an added feature with EMC Networker once incorporated. This can be a salable point to the customer.

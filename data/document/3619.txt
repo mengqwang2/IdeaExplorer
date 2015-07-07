@@ -1,0 +1,6 @@
+EDI Consolidated Specification
+
+In early 2013 after setting up a new fulfillment CM site in China it was identified as a key goal for GEM to augment our CMs ability to support EDI data exchange for any EMC product as no individual spec at that time covered all products.  BTG IT responded and did an analysis of the differences between the EMSD spec and that of DPAD's.  This evolved into the development of a consolidated spec for use in setting up the new fulfillment CM in Cork Ireland (Flextronics) this quarter.  GEM is targeting to roll it out to all CMs over the next 9 months.
+EDI (electronic data interchange) is an industry standard protocol on how to trade electronically with your partners. EDI provides a standard for exchanging data between business partners in this regard.
+The idea folds all of the separate specs into one consolidated spec. and by upgrading all of our CM partners to this consolidated spec. gives EMC the capability to move products from one CM to another at a much faster pace (it is estimated to reduce product on-boarding lead-time by over 20% if a CM has the consolidated spec in place).
+

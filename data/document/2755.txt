@@ -1,0 +1,24 @@
+Dynamic and intelligent scale-out and scale-in engine for enterprise applications on hybrid cloud
+This idea would build a dynamic and intelligent scale-out and scale-in engine for traditional enterprise applications (SAP/Oracle/Microsoft) running on hybrid cloud (FEHC/Virtustream) or virtualized environment to maximize utilization of compute resources
+When developing SAP solutions on FEHC, we find that it is easy to scale out for SAP application. But scale-in is a complicated process and was require too much manual intervention.
+This idea will introduce a sophisticated engine to address the pain point. Here is the typical scenario:
+- Company A has a SAP ERP production system (1 Database server VM and 2 application server VMs) running on FEHC 
+- Current compute resource allocation can meet the regular workload
+- During the night time, there are quite a lot background jobs scheduled and require more CPU and memory resource. The SAP administrator setup a policy to power on 3 additional application server VMs in the private cloud at a specific time to provide sufficient computer resource. After the background jobs finished, the 3 additional application server VMs become idle. The engine keeps monitoring the resource usage and shutdown the VMs if necessary. (Before shutting down the application server VM, the engine will perform application specific cleanup. For example, migrating active sessions to another application server).
+- There is an unplanned workload bursting due to the blooming of sales orders. The engine detects the heavy workload and automatically power on 2 additional application server VMs based on predefined policy. However there is not enough compute resources available in the private cloud. The engine instructs FEHC to power on or provision 2 additional application server VMs in the managed cloud or public cloud. The engine keeps monitoring the resource usage and shutdown the VMs if necessary.
+- When the engine collects more and more application specific performance data, it can predict the workload pattern in advance. Then it will be sophisticate enough to manage scale-in and scale-out proactively and accurately.
+
+This idea features:
+- Sophisticated learning engine based on historical application specific performance statistics.
+- Dynamically manages VMs in the private/managed/public cloud
+- Policy based scale-in and scale-out. 
+
+There are 4 main components:
+- The core component is an monitor and learning engine that, analyzes the performance data from applications which is collected by collector component, learn the workload pattern and give suggestions whether and when to scale-out or scale-in.
+- The collector component contains adapters to collect performance data from different applications (SAP/Oracle/Microsoft…)
+- The resource pool manager component manages available VMs in the private/managed/public cloud resource pool and perform application specific provisioning and cleanup
+- The policy manager component allows administrators to define scale-in and scale-out policy. It could be suggestion only, regularly, or fully automated. it also allows administrator to define policy of how to manage standy VM pool, whether and when to destroy or provision VMs to the pool.
+- Increase cloud compute resource utilization thus lower TCO
+- Help traditional enterprise applications to transform to platform 2.5 and 3.0
+- Enrich the hybrid cloud features for FEHC and Virtustream.
+

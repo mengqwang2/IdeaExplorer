@@ -1,0 +1,34 @@
+Proximity-based step-up authentication
+o	Broadly applicable
+o	Increases security
+o	original and feasible
+o	Cross platform global solution
+o	can be combined into EMC Solutions (as a replacement for an RSA SecurID Token)
+o	allows Potential Financial Gain
+o	has a significant customer impact
+
+
+team meeting
+o	Many luxury cars allow both keyless entry and keyless ignition. The user carries
+        a fob on their person, and when walking from elsewhere to within a few feet of 
+        the car, the doors unlock automatically. Similarly, with the fob in their pocket, 
+        the car can be started with the push of an ignition button and without the need 
+        for a key.
+o	A smartwatch, smartphone or other portable device can be configured to be paired 
+        with another device, and serve as a fob to perform 2nd factor authentication.
+o	For example, a smartwatch can be paired with a smartphone. So long as the watch
+        is within 3 feet of the phone (like when the watch is worn), the phone can remain 
+        entirely unlocked.
+?	The phone can furthermore be configured so that as soon as the devices are not 
+        within proximity of each other, take a picture using its camera and send it to 
+        preconfigured e-mail addresses, sound an alarm, etc as an anti-theft measure in 
+        circumstances when in areas where theft is prevalent and the devices are expected 
+        to be in close proximity to each other (e.g. in an airport).
+o	As another example, a smartwatch or phone can be paired with a tablet, laptop or 
+        desktop computer. The user can automatically perform 2nd factor authentication 
+        when in proximity.
+o	Both devices interact via RFID
+
+Instead of having to enter a code for 2nd factor authentication, your 2 registered devices only have to be in close proximity to each other
+Would not require that OS, apps, websites, etc change their login method. It instead would target companies with a low tolerance of fraud (e.g. banks), that likely already allow step-up authentication as a plugin.
+

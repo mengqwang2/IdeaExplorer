@@ -1,0 +1,5 @@
+NT password renewal
+When NT password renewed, it should automatically synchronize all the application linked into each EMC user.
+Came up during the first issue encountered, and also hearing from other team of the same issues. 
+The innovation is that when NT password renewed it should automatically sync all the applications linked to each particular EMC user, a program that linked to each EMC user
+Ease to all EMC user, customer satisfaction, no downtime, no cause of delays on urgent EMC matters, enhance individual productivity.

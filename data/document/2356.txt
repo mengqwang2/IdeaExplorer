@@ -1,0 +1,7 @@
+Demo page of unisphere
+We know that customers are taking benefits from knowledge base and online discussion forums. This application will help them further as they can do it all themselves
+I recently visited a mobile shop and he had a dummy mobile, have all the screens that an android has. Yes, it was not real
+A web based page can be designed, similar to the unisphere. This can have all the tabs and links similar to Unisphere, yet no actual data in it.
+Customer can get hands on experience using the unisphere and its related options without worry about meddling with his actual array
+Customer's will become more comfortable using the options in unisphere and hence learning to the use EMC services better.
+The idea can not only be implemented for Unisphere but for all other EMC applications

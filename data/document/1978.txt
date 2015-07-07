@@ -1,0 +1,10 @@
+Securing car industry
+Securing cars while connected to the internet, we open the door of a new market (car industry) to EMC 
+check my other ideas for EGYPT COE SMART CITIES & RSA IOT challenge
+Connecting cars over the internet and a mobile application connected to our cars
+Implementing a piece of software like (agent) this software gives us some statistics like:
+1) where my car is now.
+2) gas level, and maintenance time.
+3) we can even secure access to the car, with different authorization levels like (who can access the car, and who can drive and run the motor, connecting it to an authentication product for ex via or securid, with of course some feature of offline authentication so we can maintain access to the car even if it is not connected to the internet.
+A mobile application to check everything remotely is a privelege
+We can sell this idea to different car trademarks or could be exclusively to specific trademark, having such a utility in my car is needed nowadays, also if implemented, we -EMC- are invading the Car market, and hence a whole new financial source.

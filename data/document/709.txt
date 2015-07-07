@@ -1,0 +1,5 @@
+How to merge Brocade switches?
+Right now it is manual work to check the fabric parameters like Domain ID, BBCredit, RA_TOV,E_TOV value, uses virtual fabric feature or not, whether uses ICL or ISL. Firmwares are supported for merge or not.Zonconfig names are identical or different.
+2 days this idea came to my mind while working on a complex project. No one is involved in bringing this idea. It is a manual work and takes lot of time when too many switches are involved in a fabric.
+There should be a GUI developed where you enter existing switch logs and prepare report what values needs to be changed incase if there are any to support fabric merge and GUI and CLI procedure for the same.
+If this idea gets success it would save lot of time of implementation time which they can use to deliver other projects. Second manual errors would be avoided. Project can be completed in a short duration. We can meet customer demands. This is every day activity where we get projects for fabric merge. Customer would like to introduce new switches in their fabric as their environment grows and decommission the legacy switches.

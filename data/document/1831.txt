@@ -1,0 +1,11 @@
+New Product Proactive training during Alpha/Beta and Release phase 
+Customer and Support Engineer participating on New product test during Alpha/Beta and Release phase and sharing feedback to New Product development team
+Lots of issues found during how to use new products functionality, Pre Release Documentation does not cover all steps and Engineer/tester are struggling for validating basic functionality and not even reach to level to test new advance  feature/functionality  
+
+EMC Product development/QA team needs to share at least basic product usability details 
+
+At present Engineering training session in Alpha/BETA phase only covers new feature/functionality and not having information how to use/test the same  
+
+Facing issues during product Alpha/Beta phase 
+Proactive training during Alpha/Beta phase 
+Better product testing before release, Support reediness  

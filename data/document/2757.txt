@@ -1,0 +1,21 @@
+One Install Upgrade and Uninstall manager for CTD product line
+CTD today has around 20+ products, both hardware & software. On the backdrop of the 'One EMC' goal is, if we see back on the Install-Upgrade-Uninstall part of our products, we see a very diverse set of methods/tools/wizards in use.
+During solution level installation, end user generally has to juggle with multiple product deployment before using the solution. e.g. EMC Protect point 2.0 has EMC NetWorker, DD, VMAX which are 3 different CTD products. The common installer can be leveraged to install and upgrade each of these components with centralized mechanism
+Following are probably some answers to the above problem.
+1) Introduce Common look & feel across all CTD product installers.
+2) Standardize a single utility for all CTD product installers.
+3) Standardize service, process & registry names as much as possible.
+4) Develop a 'Common Install Manager' to 
+    i) Manage install/update process operation of all CTD software's
+    ii) Auto discovery of all CTD products with their version levels 
+    iii) Ability to automatically suggest required/desirable new patches/service packs for any discovered CTD software's
+    iv) Ability to interact with EMC support link(or any other software depot location) and download suggested patches/service packs for selected software products.
+   v) Reporting capability.
+
+The 'Common Install Manager' tool/utility needs to be a scan-pull-push utility. This should scan the given domain/network zone/SAN zone for all installed CTD products and populate a database with detailed information report on product name and there version level. This scan can either be scheduled to run at a particular time or on-demand. It should have the capability to perform a generic scan or an advanced scan. Advanced scan will have capability to scan particular hosts/zones or domains about particular CTD/EMC product(s). Option should also be provided to list these products in different categories (like Storage software's, Data Protection software etc...) or segregating similar results together (like 10 VNX arrays, 2 NetWorker data zones, 4 Data Domain etc.). 
+               Once the products are scanned/discovered, the results (version) can then be compared with the latest available version of each product [This will require that we maintain proper indexed information of all CTD products in a central repository like EMC support site]. If any products require upgrade, such products can be marked for “required update”. Later user can be provided with an option to install all updates or select the products to be updated. Once user chooses to upgrade, option can be given to do an interactive upgrade on a set of hosts at once or do a silent upgrade using a standard response file. Result of upgrade can then be posted back.
+               Some goodies like different types of reports, graphs, export to excel can also be provided. This utility also gives us a chance for advertising new CTD products in the areas of customer’s interest and may be helpful in increasing service revenue generation.
+1) Ease of data center management.
+2) Reduce the complexity of having different installation methods.
+3) Compliance regulatory checks for the product and patch levels.
+4) Enhance the TCE value proposition by making simple and easy management of all EMC pr

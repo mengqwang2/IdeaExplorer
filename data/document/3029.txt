@@ -1,0 +1,5 @@
+Open Source Change List Crawler
+Russia COE Open Source Challenge - The idea directly addresses usage of open source technologies in products development.
+Aviv Avital has previously developed a similar system to track versions of all browsers, which enables triggering tests of an RSA product component. These test discover compatibility issues early and prevent customer escalations. I read Russia CEO challenge and realized this idea could be implemented for this purpose as well. 
+"Open Source Change List Crawler" will automatically monitor open source projects websites and poll for newly published change lists. It will periodically send digest of all changes in all monitored projects to team leader and product owner. 
+For example if we are talking about JAVA/MAVEN technologies, the developer will use a simple UI to configure pom.xml's in SCM to monitor, and emails to send periodic digests. The tool will crawl open source web sites and notify manager about recent change

@@ -1,0 +1,50 @@
+Customer Environment Sense Tool
+CTD Supportability -  this idea will prevent customer issues and provide methods for improved trouble-shooting
+ E2E Horizon- This solution is a simple, efficient add-on to the business process which contributes to TCE and improves business productivity
+Customer Services Challenge - This idea facilitates customer services to identify if the problem is in the customer environment or the product
+I handle customer issues in communications and driver components in VPlex. Many of the customer issue would be because of unsupported configurations in the customer environment. From this experience, I have always felt that the customer environment must be evaluated first before installing the software components so that there is. If at all there is a problem in the network in case of the lab systems, we use performance and reliability measuring tools. It would be great if all the EMC products have one such suite to test the customer environment. 
+Before installing the EMC products in the customer place, the reliability, interoperability and health of customer environment should be checked. This can be done with a suite unique for every product. Also, if there happens to be issues in the live-system because of the external factors, the suite should be able to confirm if the issue is external or internal for the product.
+
+- Do the following for all the EMC products,
+- Brainstorm with all the architects and SMEs  in the product group and come up with a list components which face customer environment
+- Introduce internal commands for those components so as to measure the customer environment for instance, if it’s an IP based driver, introduce commands to measure the latency period of packets of different orientation and size. The network can be measured for corruption as well.  
+- Create binaries with only such components. 
+- Implement automated scripts which can instrument, check and measure the customer environment
+- Come up with the optimal soak time required for the suite to catch most of the issues in the customer place
+- Document all the possible issues that the suite can catch.
+
+Use the script at the following times
+
+1. After deploying the hardware and before installing the software base of the product
+
+The field engineers can run the script in the deployed hardware for the stipulated period of time. The script might report two kind of issues.
+    - Genuine issues in the customer environment such as high latency in the network, corrupted packets etc. In that case, the field engineer can refer to the documentations and advise the customer to take care of the issue before installing the product.
+    - Interoperability issues such as unsupported commands, unhandled conditions etc. In that case, refer to the documentation and discuss with the customer if there is an option to configure the environment accordingly or raise it to customer support and then to CS and then to Engineering so that the issue can be fixed before installing the product.
+
+
+Also advise the customer to intimate CS whenever there is a change in the environmental elements such as changing network, deploying new arrays etc so that CS can go run the scripts and confirm the sanity. 
+
+After the issues are resolved(if any), take a snapshot of the results, store it somewhere in the EMC storage and link it to the SYR for the customer
+
+2. When issues are hit on live-systems(related to the environment)
+
+Since the suite was a part of the actual full-fledged software, the internal commands created for the suite will be supported by the live-system software as well. So run the automated script on the live software system and compare them with the results collected before installing the software. 
+
+While comparing,
+
+  - If the results do match, the issue must be within the software. This is because the automated script does not involve any components other than environment facing ones. So the problem is within the software.
+
+  - If the results do not match, the issue is in the hardware or the network. The same script had better results sometime back but not now. So the issue is outside the software.
+
+This provides a better means of troubleshooting.
+
+I have provided a sample design of such a tool for VPlex in the following document
+
+https://inside.emc.com/docs/DOC-155989
+
+
+- Since the suite is going to be almost the subset of the existing code repository it would not take more than 6 months to implement this solution
+- Provides more confidence that the product will co-exist in the customer environment
+- Catches environmental/interoperability problems even before installing the software and thereby saves a significant number of man-hours spent in debugging the environmental issues later on.
+- Is useful to track the issues hit on live systems and provides means to be assertive on if the problem is within or outside the software
+

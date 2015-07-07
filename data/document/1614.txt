@@ -1,0 +1,9 @@
+NCC Alert Mobile Application
+This idea will improve the customers experience with EMC and will enhance the communication between the employees and the customers.
+
+NA
+My solution is a mobile app. that sends alerts to the employees when an NCC of a certain SR approaches ,and the employee can access the SR from the mobile app and update it as well.
+
+1-Enhance customer satisfaction.
+2-Meeting customer expectation to contact them with the expected time.
+3-Improving the following up process with the customers

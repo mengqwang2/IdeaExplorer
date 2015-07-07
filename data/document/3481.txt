@@ -1,0 +1,10 @@
+ EMC ATMOS + Openstack  “Swift” = 3rd platform Object Storage
+
+ The idea came up from checking the customer needs especially in the low to mid end market range 
+ 
+The idea aims at the integration between openstack swift and EMC Atmos to cover the whole market band starting at the low end object storage needs such as video surveillance market in APJ till the high end market in which Atmos is currently dominating. 
+
+This solution enables EMC to lead the 3rd platform as well as keep dominating the 2nd platform
+
+
+

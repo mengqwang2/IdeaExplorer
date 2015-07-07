@@ -1,0 +1,16 @@
+Automation Testing Services Provided by Labs to Accelerate Project Development
+This idea proposes EMC Labs to build an automation testing services for production team to accelerate the complex and time-consuming testing procedure. In this way, it can reduce huge manual work and improve the automation of R&D labs. 
+This idea of thought was evolved during brainstorming between China COE Lab team and CTO team. CTO team meets some resource problem sometimes when new project is design. Lab team needs to manage many kinds of hardware and system to support product development. It make lab environment complex and take huge cost for hardware purchase. So we have this idea to use cloud service centralized lab service and resource , moreover let engineer team use open API for integration test to speed up product development. 
+In this idea, we propose to exploit the existing multi-tenancy cloud platforms, such as OpenStack/vCD, to setup the automation testing services to R&D BUs. The platform integrates all kinds of lab resource/services to form a cloud platform. The cloud platform will build several template OS systems with testing environments built-in. When R&D teams need some testing environments, the lab can orchestrate the corresponding environments to them. 
+
+The platform will be built with the following three key features: 
+    
+    1. Auto orchestration: automated orchestrate the corresponding develop/test resources to users, such as server, IPs, volumes, users, etc. 
+    2. Rich and customizable templates: the system provides rich built-in testing resource templates, and the users can also self-define their own templates. As such, the users can generate the testing environment based on related templates to create the same environments. 
+    3. Automatic testing scripts: develop automatic testing script to run function testing. If passed, the platform will terminate application and take cloud resource back. If failed, the platform will keep application/system for developer debug.
+    4. Pay-as-you-go charging model: use a pay-as-you-go charging model to charge R&D teams by the resource utilization to reduce the cost of R&D team. 
+
+
+    1. It can reduce huge manual work for production team to setup the testing environment and hence highly improve work efficiency;  
+    2. It will improve the utilization rate of lab resources and enable resource sharing between product development groups. 
+

@@ -1,0 +1,39 @@
+Federation Hybrid Cloud Express - cloud solution targeted to Mid-Market Customers segment
+APJ COE "Solutions Platform” Challenge
+- Cost Efficiency for FEHC, thanks to reduced management overhead, automated deployment, reduced licensing requirements and use of hyperconverged infrastructure resulting in overall reduced entry cost for FEHC solution;
+- Customer Experience - thanks to reducing deployment time, effort and delivering greater value “out of the box” to Customers.
+
+E2E Horizon – End to End Business Process Challenge - without changing the way the FEHC solution is deployed it will be nearly impossible to scale and achieve EMC strategic goal of 2000 well-run hybrid clouds BHAG by 2016.
+
+Global Product Operations Challenge
+- advance the performance of our designs, and supporting processes
+- transform across the end to end supply chain in terms of cost, quality, availability and time to market
+- significantly improve the distribution and installation of our products across the globe
+
+Address much greater market with FEHC solution, streamline the process of deployment and development by treating FEHC as an automated software package, which can be deployed in a matter of minutes/hours.
+I’ve came out with this idea back in September 2014 with the initial experience I had with EHC opportunities. More specifically our partner, wanted to resell small cloud solutions (up to 300 VMs) based on EHC architecture to their Customers, leveraging commodity server infrastructure and ScaleIO. It was impossible back then (lack of support for ScaleIO) and the estimated management infrastructure required for the solution was much bigger, than the actual infrastructure for Customer workloads.
+
+Since then:
+- I've presented the idea to the team from Cloud BU responsible for EHC solution,
+- Ive presented the idea to Presales Management and COO EMEA,
+- I've implemented a prototype of deployment automation tool for FEHC and shared with the above groups,
+- shared the source and knowledge regarding the automation prototype with Cloud Solutions Engineering.
+
+Some aspects of the solution has been improved since then (FEHC 3.0 coming in end of July 2015 should introduce support for “collapsed” management Pods and ScaleIO, some licenses can be lowered with the exception process, but still I haven't seen progress and concrete plans regarding deployment automation on any platform - VCE partially automated deployment on the top of Vblock).
+- Lower the entry licensing point for FEHC solution, by reducing the license version of vRealize Automation/vCloud Suite to Advanced, leveraging vDP as a built-in default back-up option and by leveraging hyperconverged infrastructure based on ScaleIO;
+- create automated deployment tool for FEHC, which would lower the effort and cost of deploying FEHC Foundation services from over 100+ man-days and 10 resources involved to as much as 10 man-days of 2 resources and deliver more value for the Customer out of the standard services;
+
+Download the demo of a prototype of such a tool from this location: https://my.syncplicity.com/share/uecumrsbk78ajy3/20150216-EHC-Automation-Prototype
+
+- treat FEHC as a software package and use agile software development methodologies to release new versions instead of waterfall approach.
+
+I would be happy to share more details of the work I’ve done so far via a WebEx meeting.
+Success:
+- defining an optimized FEHC package targeted to Mid-Market segment, that could be potentially upgraded to an "Enterprise" package when the environment grows;
+- deliver and maintain FEHC automated deployment tool, which could be leveraged by EMC & Partner Professional Services (to reduce effort related to deployment and personal learning), EMC vSpecialists & Partner Presales (for PoC activities, standing up a demo for marketing events, etc.), EMC Engineering (ability to quickly install a "fresh" environment of any FEHC release for testing purpose / reproducing errors).
+
+Benefits:
+- sell more FEHC solutions by addressing much broader market (address new market segment - Mid-Market),
+- make the 2000 well-run hybrid clouds BHAG by 2016 achievable without significant investment in PS field resources,
+- reduce the entry cost point of FEHC solution for Customers and deliver more value out of standard FEHC services, 
+- be more agile in releasing new versions of FEHC solution.

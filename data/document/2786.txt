@@ -1,0 +1,9 @@
+Using Face Recognition for Machine Security and Employee Well being
+Better EMC resource security and Employee Well being.
+The idea on Employee Wellness came to me during a discussion I had with Rajesh Rayachoti
+This solution is purely for individual PC's and laptops.
+
+We can have a simple Face Recognition engine that runs in individual machine which would take a snapshot of the person logging in and do a quick face comparison with the machine owner. In case there is a mismatch, it will be triggering an email/sms to the machine owner phone. The logged in person will be unaware of this. If the machine is not connected to internet, the email/sms will be queued and will be triggered when the machine next connects with the internet.
+
+The same face recognition engine can be also used for sensing the mood of the employee. It could categorize the employee mood like happy, sad, angry etc and keep the employee informed of his mood statistics. This will gives the employee a glimpse of his mood swings and help him to control his emotions. 
+It will promote better EMC resource security and Employee Well being.

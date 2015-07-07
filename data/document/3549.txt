@@ -1,0 +1,7 @@
+Resolution through Videos
+
+A way of enhancing issue resolution
+Instead of KB articles that provide troubleshhoting steps for issue reolution, we can develop videos for the same purpose.
+
+If we leverage videos to resolve customer's issue, it will be way better and will allow customers to better understand the break/fix issues. Knowing through seeing and observing is better than just reading things that customers might not know well about them.
+

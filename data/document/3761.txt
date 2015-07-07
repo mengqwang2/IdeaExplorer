@@ -1,0 +1,7 @@
+Solution for SW development companies
+
+Was thinking about how to reduce infrastructure impediments to a custom-tailored build system. This idea is more generic and alternative to cmake/ccash approach.
+Have a source code repository snapped and built. Master snap backed up.
+
+Then make a writable snap of build-server for every developer -> so he/she can apply the delta of their source code and build system will only re-builds necessary objects and new final system can be tests in a very short period of time.
+

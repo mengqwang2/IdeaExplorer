@@ -1,0 +1,11 @@
+‘GS-Skill Up’ Mobile Application 
+-	Consolidation & Integration of SABA skills , Development plans, Training and Cert Tracker into a Mobile Application
+-	One can update skills directly without entering into (https://learning.emc.com/Saba/Web/Internal)
+-	New add-on feature of manager’s end
+All resources have to update their skills in SABA tool, IDP (Internal Development Plan) on a quarterly basis and if undergone training and taken certifications PMs need to update them in different individual tools which are cumbersome. There is a need to integrate these discrete pages of the tool into a single mobile app and quantify these different aspects to rank a resource from a skill-set standpoint with some additional add-ons like endorsements and alerts (alerts – to update the newly acquired skill or certification)
+The SABA skills portal (https://learning.emc.com/Saba/Web/Internal) currently provides an opportunity to update the skills whenever they want but specifically on a quarterly basis but this is usually done by a manager’s intimation, This application will not only help the GS resources to update their skills & competencies but can automatically throw an alert to update their skills and intimate them to update as soon as any training is undertaken. This also would help in better measurement of skills and competencies for better skill matrix so that the Sr. Management can align projects based on the skill, training, competencies and addresses the challenge of updating saba skills, IDPs, certifications, training in discrete pages of the portals and instead update in one shot using mobile based app in one go without waiting for Manager’s intimation and quarterly reminders. To add to this we can also have ‘Endorsement’ feature so that the manager can endorse the employee on the GS based saba skill.
+-	One Touch application for updating saba skills, cert tracker, IDP and trainings in one go, Automatically!
+-	More quantified measurement of skills
+-	New Add-On Features like
+o	Dashboard view of #of Resoruce vs. Skills for Sr. Management 
+o	Manager’s skil

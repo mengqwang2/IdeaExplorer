@@ -1,0 +1,37 @@
+"DigiCulture" -- One Click App :: Inside|EMC & Instagram Integrated, Centralized Sync, Pivotal CF Based, Mashup Design (PoC Available)
+This ideation provides a platform for transforming heritage & cultural contents like monument images, manuscripts etc into digital formats with an ease of integration to Inside EMC and Centralized sync features to EMC employees with secured login features and with rich UI design.
+We are part of EMC IT Digitization-Automation group and working towards digitizing EMC assets and automating process workflows.
+This idea was generated during 3 hours brain storming session within the team.
+DigiCulture - Basically, it's a one click application that can be built on Pivotal CF or Open source technologies with seamless integration to Inside|EMC, Instagram & Centralized store hub.
+
+Features:
+
+a) Light Weight App - This app/platform will be built on dev stack that consumes less resources on laptop or mobiles along with faster response services.
+
+b) Crowd Sourcing Functionalities - DigiCulture app will be having back end integration to Inside|EMC via Jive API's and along with Instagram with Developer API's for tagging EMC employees or people for heritage/cultural images, contents, manuscripts etc.
+
+c) Language Internationalization - DigiCulture will be embedded with Localization functionalities to support different language formats. Idea proposal will now supports 33 languages like en, 
+fr, it, de, ja, nl, es, pt, pt-PT, da, fi, nb, sv, ko, ru, pl, tr, uk, ar, hr, cs etc.
+
+d) Secured SSO Access - Proposed solution will be integrated with SSO for EMC LDAP authentication by covering security aspects for this app.
+
+e) Platform Independent - Runs on iOS, Android & Windows OS along with web browsers like IE, Chrome, Firefox etc.
+
+f) Dynamic Sync Functionalities - DigiCulture is going sync with Centralized EMC object storage for easy store, share and archiving purposes.
+
+g) Mashup UI Design - Rich UI will make ease of use, better sharing mechanism with LIKES & COMMENTS category.
+
+h) Instagram Integration - Provides picture enhancement API's for allowing users to modify brightness, contrast, color, saturation within DigiCulture app. Meanwhile, it's an optional for end users to select integration to Instagram during installation process.
+
+i) Acknowledgement Triggers - Provides acknowledgement triggers to end users during picture uploads, deletion, modification, sync process or during sharing the content.
+Benefits:
+
+a) Mashup UI design allows for quick modifications as per the new events/initiatives or new requirements from community group.
+
+b) Low cost application development by consuming Open source technologies!
+
+c) End users (EMC Employees) can download this application via VMware AirWatch mechanism. Thus, by allowing multiple installations at a real time.
+
+d) By application open source ELASTIC modules, DigiCulture is going to scale as per the new user demands and application load mechanisms.
+
+e) Aligns better to the vision & initiatives driven by Community Involvement group within EMC along with better application management capabilities.

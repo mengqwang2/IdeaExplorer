@@ -1,0 +1,13 @@
+LCHP (Low Cost High Performance) Hyper Scale Storage array for multiple markets
+
+
+This idea came during brain storming for Low cost model for Scale-out and performance, Capacity Storage model.
+The Solution comprises a JBOD chasis of SAS drives of 6GB back end speed. JBOD will be of dual expander and dual port backplane.  It comprises ports of mixed iscsi and FC ports as per the scalability requirement.
+
+
+The management of storage array is via virtual VNX which is hosted from a ESXi platform as a VM.  Two vVNX nodes can be deployed for redundancy.  The vCenter will have vVNX plug in for the easy deployment and manageability.  The management layer for the Storage array is Unisphere.  The Unisphere will be single management solution for file and block services. Unishpere will be single pane of management to monitor physical and virtual systems.  The JBOD can be able to scale out and can be managed via Unisphere and it installs in minutes.  Alerts,capacity,CPU and performance metrics can be viewed from the console.  The configuration can be cloned at any point of time.
+ 
+Customer values are faster time to revenue/production and flexible server based deployment.  This will address opportunity for entry to Midrange markets.
+
+
+

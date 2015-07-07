@@ -1,0 +1,45 @@
+EMC Gives Back APP(100% POC with Video Demo) - Utah COE specific App integrating IR2014 winner's STEM Brainteasers.
+- Integrates 2014 Community Involvement Challenge Winners Prototype 
+- Utah COE specific App
+- Ability to track details during EMC Gives Back Days like School Kits Donation, Sponsor a Child, etc.,
+- Involves STEM education
+- Helps in Community Involvement b/w Schools & EMC Employees through Open Forum for Discussion
+- Integrates current technologies like VEX Robotics
+- Capability to use EMC Federation technologies(Pivotal tracker,VCloud) for project development and database
+- Employee details
+We already had a winning prototype of STEM Brainteasers under Community Involvement Innovation Challenge 2014. We have created STEM Brainteasers for Students of Grade levels 9-12.
+
+Going through Utah Challenge, we felt it would be great to leverage the winning STEM prototype with other requested features in the App.
+
+Link to winning idea : http://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014001050
+Application integrating Employee Skills, VEX Robotics & STEM Brainteasers with School kits donation tracker.
+
+Links to Video demo :
+------------------------
+
+Direct Link: 
+https://inside.emc.com/servlet/JiveServlet/downloadBody/155532-102-1-518801/EMCGivesBack_App.wmv
+
+Inside EMC Page: https://inside.emc.com/docs/DOC-155532
+
+* 100% POC done to have look and feel of the app
+
+* App will keep track of EMC Donated School Kits and other activities during EMC Gives Back Days
+
+* App provides Students with various STEM Brainteasers to solve based on grade & difficulty levels.
+
+* App allows active engagement between Teachers & Employees via Open Forum for discussion
+
+* App connects to various resources like 
+'http://stem.utah.gov/emc/' , 'http://www.vexrobotics.com', etc., for extended knowledge resources.
+
+* App clearly segregates data and access between different user roles say, Students, Teachers, Employees & Community Involvement Admin
+
+* Will further enhance the App with analytics on Inside EMC profiles to gather employee interests automatically
+
+* Can be delivered as Desktop, Web, Android, iOS Apps as required
+* Success - Schools & EMC Employees leveraging our App
+* Helps to easily track EMC Gives Back activities
+* Helps School Students on STEM Education through fun activities
+* Provides an interface for EMC Employees Giving Back to Community
+* P3 activities in one place

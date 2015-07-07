@@ -1,0 +1,9 @@
+File Archival Solution - Combine CTA and DX
+Currently we have two products which primarily does archiving (Storage tiering)
+CTA - Cloud Tiering Appliance which could use policy based archival to Cloud / Traditional storage from NAS (VNX/Netapp)
+DX - DiskXtender for Windows which could archive data from Windows hosts to low cost secondary storage
+I have received many questions from customer and also internal teams related to both the products CTA and DX which made me realize about this possibility.
+Create a solution which has the features of DX ad CTA so that customers can archive files from NAS and also Windows host to a variety of secondary storages like VNX, Netapp, Isilon, Centera, Atmos, DataDomain, Amazon S3 Tape Libraries, Optical Media etc..
+
+With combining the features of DX also, it can address the block storage archival (to an extent) as the Extended drive in DX can be a LUN on SAN storage.
+A good archival solution for the customer and expand the capabilities of the Cloud Tiering appliance which growing popular in demand.

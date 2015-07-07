@@ -1,0 +1,5 @@
+Import Excel option in Global Scheduler
+Importing the Shift details from excel will make the updating in Global Scheduler easier and quicker. Ours is a dynamic team when the schedule needs to be assigned or changed everyday. Its very time consuming to manually update all the details and verify the same. 
+I had included to import the schedule from excel when I did a project using VB during my graduation. 
+Reduces manually maintenance of schedule in Excel, Software. Reduces time of management to upload the schedule every month and every day. Avoids confusions to engineer and WFM for monitoring.
+Optimize process, save time

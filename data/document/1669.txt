@@ -1,0 +1,18 @@
+RecoverPoint as a VPLEX witness
+- Durham Data Center Elastic Labs Challenge.
+This innovation will reduce manual work done in R&D labs today, create opportunities for sharing equipment and reduce the amount of hardware needed and reduce the amount of traffic in the network. 
+- Engineering Operations Services & Solutions (EOS2) Challenge.
+This will improve customer experience and improve product quality and capabilities.
+- Israel COE Challenge.
+We are creating a better offer, leveraging RP and VPLEX technologies. 
+We saw that customers complain about a need for a additional cluster VM, and thought how could we eliminate this requirement.
+We though about it several weeks ago.
+The VPLEX Witness is a virtual machine that is deployed on a customer-provided ESX server. The VPLEX Witness has IP-based connectivity with both Metro-Plex clusters, and it maintains knowledge about each VPLEX cluster's view of inter-cluster connectivity. 
+By reconciling its own observations with the information reported by the clusters, the VPLEX Witness can arbitrate between inter-cluster network partition failures and cluster failures, should they occur.
+When a customer already has a RecoverPoint installed, we suggest the RP cluster to act as a witness. RP cluster already monitors both Metro-Plex clusters, and hence already possesses most of the required information to act as a witness.
+This change will allow the customer more flexibility, won’t require additional resources for the VM and encourage using RecoverPoint.
+Another benefit of this solution is a built-in redundancy, since we have at least two RPAs at each site.
+Please see the ppt at https://inside.emc.com/docs/DOC-155406
+It will improve customer satisfaction.
+It will enhance productivity and optimize a process, since the deployment process will take less time.
+It will save money, since a VPLEX Metro deployment needs less resources.

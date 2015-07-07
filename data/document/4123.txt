@@ -1,0 +1,7 @@
+Disk Level Performance Troubleshooting Feature in Storage Virtualization Product (VPLEX)
+
+As the environments are getting virtualized, this is the most common issues we see in case of troubleshooting.
+Performance issues are the most common issues of all in almost every environment. In environments like VPLEX where Virtualization comes into picture, we always never get easily the end to end Performance real-time/historical values in a single click. So need to implement an in-built feature which can give us the values/data starting from the first level of Virtualization till the back- 
+end disk level values.
+
+

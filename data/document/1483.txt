@@ -1,0 +1,19 @@
+DERG: Coding using speech recognition
+As part of EMC's goal of Inclusion of talented people with Profound disability as part of DERG initiative I have got the opportunity to work as a software engineer which is my long-term passion. 
+As I thought the journey to become a programmer was not so easy, as speech recognition simply would not go along with coding.
+I have been using speech recognition for more than five years now, but I never thought it would be useful in programming or rather coding.
+
+Here is a small presentation about my journey with speech recognition and coding.  
+
+https://inside.emc.com/docs/DOC-155771
+
+I have been extensively researching on speech recognition friendly IDE for python. In this journey I have tried many software’s such as:- 
+Notepad++ 
+Sublime Text
+Pycharm 
+Netbeans, but none of them catered to my speech recognition needs.  Finally one day I came across eclipse with PyDev Plugin for python coding.  Eclipse IDE suits very well with speech recognition and one can do almost all of the task using speech recognition in eclipse with respect to coding.  This is much better than other IDEs as it takes direct speech, one doesn't have to worry about indentation, programs can be easily executed and debug using a single click (Single speech command).
+
+Apart from the above mentioned solution I am also trying to make a consolidated script for special characters as it is tough to enter them into the IDE in a single command as they are combination of at least two keys. 
+If programming tools and made accessible, there would be more programmers who are differently abled into the mainstream.
+
+As far as my innovation with respect to eclipse is concerned I can contribute what I know to the corporate world in the form of programs. I'm sure this innovation of eclipse being speech recognition friendly would help more people like me to come and do programming.  It would also result in inclusion which is good for specially abled individuals as well as for MNCs.

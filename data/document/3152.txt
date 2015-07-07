@@ -1,0 +1,5 @@
+2014001190.Elastic 3rd platform - Hadoop-as-a-Service in 3 clicks integrated with Pivotal Cloudfoundry. 2014001626.Elastic Hadoop Cloud 
+
+
+Different approaches for a similar problem; would like to see discussion and simplification
+

@@ -1,0 +1,26 @@
+Does EMC customers have ELK Stack on ViPR implementation? (Machine Learning Model & Open Source Framework)
+3rd platform SDS - There is no widely-adopted standard format for data, although many vendors are working on one. This means that the massive amounts of data flowing into customers environment are in any manner of format, from CSV, TSV, log line, xml, and even some legacy formats that defy logic at first glance.All of this data must be transformed into a standard format in order for our machine learning algorithms and predictive analytics models to process.
+
+Russia - Embracing opensource ELK stack on ViPR for extended logging & visualization capabilities.
+
+Office of CTO - This proposal is built to address a new sales growth chances for EMC EHC along with ELK stack for analytics, logging & visualization. Solves IoT security issues by enabling SSL/TLS connections between Elasticsearch and Hadoop clusters. Also, extending the functionalities with ViPR by providing end users with Deep search and data analytics via ELK stack.
+ 
+This idea is been logged after having 2 hours of brain storming session in Innovation workshop conducted in EMC IT division.
+Schema-Free -- Our proposal on ELK stack allows end users/customers to get started fast by simply indexing a JSON document and it will automatically detect the data structure and types, create an index, and make your data searchable. Provides a better control to customize how our data is indexed.
+
+Build on Apache Lucene -- Apache Lucene is a high performance, full-featured information retrieval library, written in Java. Elasticsearch uses Lucene internally to build its state of the art distributed search and analytics capabilities. 
+
+Visualize Data from Many Sources -- Our ideation also enables customers to easily visualize data pushed into Elasticsearch from Logstash, es-hadoop or 3rd party technologies like Apache Flume, Fluentd, and many others. 
+
+Storm Integration -- In addition to Apache Spark, ES-Hadoop 2.1 also provides native integration with Apache Storm, exposing Elasticsearch as Spout stream search results or as a `Bolt' indexing Tuples flowing through our topology and making them accessible for analysis immediately. 
+
+Inclusion/Exclusion of Fields/Filters - On the mapping front, it is now possible to specify what fields to be included or excluded for data about to be written to Elasticsearch. This makes it quite handy not only for doing quick transformation of the data but also specifying document metadata without storing it.
+
+>> Revenue Generation --- Grew revenue by 400% in 2014, Hit nearly 6MM downloads and also was adopted by well-known tech giants like Netflix, Facebook, Wikimedia and many more.
+Provides 20 million dollar revenue generation mechanism to SDDC vendors.
+
+>> Better integration with ViPR and Cloud Foundry elements --- Logsearch is comprised of a BOSH release that brings together the various parts of the ELK stack. It also adds redis to the mix, which provides a temporary buffer to protect against surges in traffic. 
+
+>> Enhanced Security keeps our Big Data in right hands (IoT Benefit) --- ELK stack for Hadoop versionis  enhanced security includes basic HTTP authentication, support for SSL/TLS for connections between Elasticsearch and Hadoop clusters, and also works with Kerberos-enabled Hadoop and Shield-enabled Elasticsearch clusters. 
+
+>> Watcher Benefits --- Monitors our infrastructure by tracking disk usage over time. Opens a helpdesk ticket when any servers are likely to run out of free space in the next few days. One of this integration allows for monitoring the end-to-end health of our environment. Basically, capacity information about the hosts local disks, in this case VMDKs and since it is a virtual machine, the datastore and Path details for the disks attached to the host.

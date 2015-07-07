@@ -1,0 +1,19 @@
+ “Daily/Weekly Brief” – keeps EMC CS oriented and focused  
+
+ The idea came up from a real example. It is implemented locally in one department and it raises awareness gradually.
+
+
+ The idea is simple. A team gathering will happen for 5 to 10 minutes daily/weekly in which the team manager will :
+
+-	Give a brief on where the team stands and its status 
+-	KPIs brief
+-	A message of the day/ lessons learned from yesterday
+-	A mission of the day
+
+This will help to :
+
+-	Increase employees awareness of their mission and performance
+-	Solve issues before they evolve
+-	Maintain better KPIs
+
+

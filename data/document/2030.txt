@@ -1,0 +1,7 @@
+TL;DR decks for EMC products
+The idea can help expose workers to the stack of solutions provided by the federation. 
+We came up with the idea when as part of our jobs we wanted to learn more on different business units within EMC.
+Our solution is a two-fold solution. The first level is to create a Federation platform map to show where each solution of the federation located at. The second level is to provide a deck / video on each solution that can provide several levels of overview on the solution. The different overviews can be from different levels. The Highest is a very general description, and the lowest gives a very deep dive at the details level.
+The current decks / videos that exist for products are either too high level or too specific.
+
+The benefit of the idea is that it will create a knowledge base that will help employees learn more on the solutions that exist in the federation. Each employee would be able to choose the level of details he/she would like to learn about the product.

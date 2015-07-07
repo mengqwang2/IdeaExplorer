@@ -1,0 +1,11 @@
+Robust system enhancements
+The challenge is to bring end to end efficiency and this idea's project goal is to get the efficiency
+The only expectation that any leader in EMC has is Value addition through digitization, this lead me to think that why dont we simplify the system we use and put more control at different stages so that we book the order at the earliest, this made me get an idea and it is mentioned above
+At the current market, it is all about digitization.hence the idea will be innovative and have lot of head count saving.
+The idea is create interface between all the systems that we use in order to cash cycle and as it flows we just need to validate the details and system should book the order with a click. The data should be validated at different department level and once they approve, the data should be accurate and they will held responsible for an incorrect data, this way the booking process will speed up and DSO will be reduced.
+Eg, (Online booking of product)RRS(quoting team) creates a quote in RQF, that gets interfaced into OKS and CA(Financial services) team validates but we need to create a system which is simple to add the required data for CA and this data should be accurate so CA just validates and approve and once approved should result in correct invoice and that will be sent to customer
+I would call my idea success is because of following reasons
+-No manual intervention
+-DSO reduction
+-Head count savings
+-More efficient process

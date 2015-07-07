@@ -1,0 +1,15 @@
+Business oppurtunities in Government Sector (Public Transportation)
+In this era of sophisticated consumer, governments require a technology partner that can take best practices in the private sector and translate them into a solution that will help streamline the process that drives agencies in servicing their citizens better.
+In India, respective state governments are the sole providers of Public transportation service. 
+This Idea of business oppurtunity is specific but not limited to Bangalore Metropolitan Transport Corporation (BMTC) an oraganization run by Karnataka State government.
+In India, respective state governments are the sole providers of Public transportation service. 
+This Idea of business oppurtunity is specific but not limited to Bangalore Metropolitan Transport Corporation (BMTC) an oraganization run by Karnataka State government.
+
+Presently the public transport service provider of Bangalore (BMTC) is struck with operational challenges which include high number of breakdowns, %of fleet cancelation, staff position which has resulting in depletion us profits. As on 10 june'14, margin on revenue of BMTC stands at - minus 385.90 crore rupees. Due to this new era of technological challenges, government agencies have an opportunity to foster new opportunities that will benefit constituents. Current legacy systems that drive the daily operations of an organization, while serving their respective organisations, are in need of re-engineering or replacement in order to increase effectiveness and drive costs down. 
+Our idea is to get involved as a technology partner by building a software solution product (Transport Asset Management System) which as a broader vision of uplifting user experience & with a mission of using high tech technologies like big data analytics which can be implemented in Government sector to overcome the operational challenges of BMTC.
+
+Transport Asset Management System is a single solution/platform to manage all classes of assets at a component level and supporting infrastructure of any public tranport system. Using which executives can take a comprehensive approach to how assets are purchased, maintained and optimized throughout their life.By performing more preventive and predictive—rather than reactive—maintenance, by using the big data analytics BMTC can avoid number of breakdowns & can better meet customer expectations for service and motivate riders to use public transport.
+
+An Transport Asset Management System will provide a ability to gather the data about the riders density on a route basis on any particular time of the day/week/month which inturn with the help of data analytics, transport organization can identify changing travel patterns and place appropriate fleets on right time based on ridership data.
+
+Getting a new business & helps in improving user experience in public transport modes (Bus, trains..) which inturn will help in reducing the carbon footprint.

@@ -1,0 +1,28 @@
+Community transformation by IoT
+•My idea encourages the concept of having predictive analysis using real time data from our community by using cloud computing ,big data analysis & EMC products "2.5 & 3rd platforms" to transform cities & lives.
+•An article about "IDC’s Top 10 technology predictions for 2015" was listed there that IoT is one of the most important factors for growth of the 3rd Platform in 2015.
+ 
+Energy:
+------
+•Governments will need to collect real time data about energy consumptions per each state & with respect to the time by having sensors in each power sources from end users devices &  power sources.
+•Implement Smart grids which about adjusting and re-adjusting to optimally deliver energy at the lowest cost and highest quality possible.
+•Real time data about water consumptions from the river, suburb & the end consumer level using Level & consumptions sensors.
+
+Security & transportation:
+--------------------------
+•Implementing sensors & cameras in roads to track the security ,roads status & free parking lots.
+•Policeman to add information about roads status through mobile applications & to update the statuses frequently so we can get real time data which will lead to have accurate statistical information about the traffic jam in each suburb.
+
+Water:
+------
+•Sensors to track the movement of water "floods", contaminants & any conditions in waterways.
+
+Implementation:
+---------------
+•Centralized databases have all records for citizens national IDs , driving license ID , vehicle plates, citizens addresses to have automated system to facilitate services.
+•We can have all these data to be stored on private cloud using EMC storage arrays connected to high speed connectrix switches connected to real-time web applications "databases" with big data analysis "hadoop".We can manage all of these product using ViPR & Secure the private using our RSA appliances & Software's.
+•Predictive analysis.
+•Growth in cloud computing.
+•Governments can take actions based on facts & analysis.
+•Increasing the networking of machines and personal smart devices.
+

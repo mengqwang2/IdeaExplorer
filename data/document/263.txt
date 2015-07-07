@@ -1,0 +1,9 @@
+XtremIO Time Based Prefetch
+Idea is to enhance or compliment the memory based read cache mechanism currently employed in XtremIO - to further increase the read cache, and ultimately the overall, performance of the array
+Prefetching mechanisms on arrays have always been a topic of interest to me.
+In the XtremIO array, the read cache is organized by content fingerprint. Blocks whose contents (represented by their fingerprint IDs) are 'more likely' to be read are placed in the cache. This memory based approach can be further enhanced by Time-Based prefetching: Where mappings of data blocks and all the times of day the data blocks were accessed, are collected and maintained in the array. This mapping record can then be used to determine for patterns. Irrespective of their contents (content fingerprints), if a set of data blocks are found to be regularly accessed around a particular time of day, the array prefetches those data blocks to the cache during those times. This approach would ensure better use of read cache and hence better overall performance of the array.
+
+Example: If (content agnostic) data blocks A, B and C are regularly accessed everyday around 9:00 am, the array would automatically place these data blocks in the cache around that time going forward. It could also be that, the data fetched, varies on different days of the week, i.e., the data placed in cache on Monday around 09:00 am might not be the same on Tuesday. The decision is completely based on the access patterns identified by the array.
+
+Furthermore, the time based prefetching approach would be of greater use if implemented on other EMC array products where sequential and random IO has a bigger impact on the performance.
+FASTeR approach - Intelligent prefetching, better performance and a superior customer satisfaction

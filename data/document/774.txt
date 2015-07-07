@@ -1,0 +1,6 @@
+Configuration Management Database and Metering Functionality for Enterprise Hybrid Cloud
+EMC offers Enterprise Hybrid Cloud to customers and enables them to provide IT as a Service. This idea would add much needed features/functionality to EHC offerings.
+We have built a service catalog in vRealize automation offering various services like IaaS, Hadoop as a service, PaaS etc. We wanted a CMDB which consolidates information about deployments in each of these services like owner name, time stamp, status, cost etc. Also we needed a common metering tool to meter all of these services. We used vRealize orchestrator and VMware wavemaker to build CMDB and Metering tool.  
+Build a Configuration management database along with a customizable metering platform and offer it with EHC. This needs to be outside of vRealize automation.
+
+Without a CMDB and a comprehensive metering tool a cloud setup is not fully complete. As part of EMC's Enterprise Hybrid Cloud offering these features/functionlity is a must. Customers have often asked us about these in EBC Briefings. Once the same are added, EHC offering could make more inroads in customer engagements.

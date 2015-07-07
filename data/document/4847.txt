@@ -1,0 +1,8 @@
+PBNE (Product Based Networking Event)
+
+The idea has stemmed from our team in GPQE supporting a variety of EMC products and most of the engagements on theose products happening with groups based in the US. From time to time we realize that the US groups we enage with are actually funneling project work back to their peer groups who are based at the COE. We have tried to do local networking events with various groups with some success. However we feel that a campus wide initiative would reap many benefits for the Ireland COE
+A networking event is set up around a particular EMC product like VNX2. People from across the COE who support VNX2 are invited to attend this event. The permise will be to connect with other groups at the COE who support the same product. The format of the event could be:
+1) An icebreaker, to get people engaged, outside of the meeting room like an egg & spoon race, buidling a tower blindfolded, etc
+2) Bring the people to a meeting point for speed networking where everyone gets 2 mins to talk with everyone in the room
+3) Each BU represented at the event gives a 2 min elevator pitch of what their group does and how they support VNX2
+

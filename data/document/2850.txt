@@ -1,0 +1,5 @@
+Support gesture and touch actions to register devices
+Refine the way that RSA soft token interacts with devices that have no keyboard input. Improve the user experience of RSA soft token on devices without keyboard input or that have so small screens to input with keyboard 
+It comes to me when we talk about how to integrate RSA soft token to smart devices
+Instead of link or QR-code, we could generate a series of gesture and touch action combinations. Such as left/right/up/down swipes, press or draw a single character.
+A feasible and simply way to register smart devices to RSA server.

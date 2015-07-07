@@ -1,0 +1,19 @@
+Hardware recycle for Converged Infrastructure test and Data Server
+1. CI Scale Out and Self Remediation
+2. HW abstractions that provide common platform services
+3. Mining of HW faults and alerts to predict part replacements
+1. Find many idle materials including SP, SLICs, DAEs, Drives in the lab.
+2. Those materials are hard to maintain
+3. CI system need many servers to do testing.
+4. Research CI system and Openstack to evaluate the idea to see if feasible.
+1. Collect idle and working materials in lab to build the hardware resources pool
+2. Setup CI hardware environment to connect server, controller, storage devices etc per ethernet network.
+3. build CI software environment to provide management service.
+4. Setup Openstack over CI and provide compute and storage services to global per RESTful interface
+5. Build a background service on the system to predict bad hardware components and then back up and migrate the data to keep the data consistency.
+
+
+1. Save cost for CI & data server material purchase
+2. Provide large-scale infrastructure for CI testing
+3. Reduce the efforts to maintain the idle materials and avoid wasting of material scrap
+4. Avoid data missing and inconsistency

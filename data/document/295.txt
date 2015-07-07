@@ -1,0 +1,27 @@
+Mobile app with an interactive facility map that would allow you to move around any COE
+You can use employee info to collect information when registering with the application the employee is required to enter their Name/Number(office+mobile)/Workstation Location (Floor+Desk number)/Car Information (Model/license Plate)/ Employee Photo. By this each COE can collect all the employee necessary information that would help build a database.
+
+This information can be updated regularly just in case anything changes.
+
+Always trying to find the employees work stations. The need of a meeting room and trying to book them without knowing they are busy from accepted/rejected e-mail.
+
+Also, the e-mails of move car notification that is becoming a spam.
+
+--> Ease of finding an employee:
+The idea is not tracking the employees, its just an interactive map to show you each employee workstation ex. if you need certain employee from the HR and you don't know where they are located you can just type in their name and the map will lead the way.
+
+--> Ease of building evacuation (Fire drill when not at your workstation):
+Most of the employees are trained to exit the buildings from certain exits when they are in their locations, so when the alarm sets-off and they are not at their location they can find another exits. Also, for the fire marshals that are required to take attendance after evacuation, each employee can just enter their current location and they would know where they are. 
+
+--> Ease of booking a meeting room:
+When needing a meeting room it can be booked  through outlook, and it can't be booked from the phone even if the e-mail is configured on it. So, now it can happen now through this app. Also, once a room is booked its marked as busy on the map.
+
+--> Ease of finding Clinic/cafeteria/flex/smoking areas
+
+--> Addressing move car issue (name/car number/phone/location)(Specific to Cairo COE):
+(Cairo COE always sends e-mails to people who have parked incorrectly to move their cars without knowing the car owner)
+
+This idea would be a success if as many employee as possible would use it, by that it would have used 'Crowd Sourcing' to help in building any COE contact database.
+
+The idea will help optimize few processes such as the Frill drill evacuation, ease of finding any employee and booking of meeting rooms etc..
+

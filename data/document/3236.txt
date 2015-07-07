@@ -1,0 +1,5 @@
+RSA fingerprint token
+
+-
+Have an app that uses this fingerprint and generate the token code to the user to have secure access. The code could then be entered on a pc or whatever.
+

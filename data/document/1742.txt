@@ -1,0 +1,61 @@
+FPGA-based Smart NIC/FC - A high-performance low-cost design for Data Domain
+Data Domain (DD) is a critical EMC product addressing data backup market. DD’s de-dup workload is CPU intensive. Take Apollo, DD’s high-end product, as an example, it uses 4 Intel E7-4880 v2 processors which are very expensive ($5K for each processor), in order to achieve its designed performance objective. It has huge business impacts to EMC, if we can find a better hardware and software design for DD, to achieve higher performance, and at the same time lower cost.
+In this idea, we propose a FPGA-based Smart NIC/FC for DD, and quantitatively evaluate its performance, cost, disk capacity and power consumption. Our study shows that, as a potential game-changer, FPGA-based Smart NIC/FC can achieve
+- 2X on performance
+- 2X on disk capacity 
+- 30% of cost saving
+- 150W of power saving
+
+This is a cross BU collaboration. The team members are from Data Domain, GHE and CTO Office. We came up this idea several weeks ago. Since then, we studied DD’s profiling data, identified the major performance bottleneck, came up several different design options, evaluated the performance/cost/capacity/power consumption of each option, and finally decided to follow FPGA-based Smart NIC/FC option. 
+A common data flow of DD is:
+(1) Raw packets come in from Ethernet or Fiber Channel;
+(2) CPU does the protocol processing (TCP/IP, NFS, CIFS, FC and etc.), and extracts data stream;
+(3) Data stream is partitioned into segments by an operation named “Anchor”. The size of a segment is from 4K bytes to 12K bytes;
+(4) Each segment is calculated for a SHA1 digest, which is called “Fingerprint”;
+(5) The fingerprint of a segment is used to look up the fingerprint table which contains the fingerprints of all previous segments sent to DD for backup. If the fingerprint already exists in the table, it means the segment can be de-duplicated, otherwise, the fingerprint and its segment will be added into the fingerprint table, compressed and stored into disk drives.
+
+Our solution is as follows:
+We propose a FPGA-based Smart NIC/FC to replace current NIC and FC adapters on DD Apollo. FPGA (Field Programmable Gate Array) can be regarded as programmable hardware. The new data flow on Apollo + Smart NIC/FC system is:
+(1) Raw packets go to Smart NIC/FC directly from Ethernet or Fiber Channel;
+(2) Smart NIC/FC does the protocol processing (TCP/IP, NFS, CIFS, FC and etc.), and extracts data stream;
+(3) Smart NIC/FC does the segmentation (Anchor) operation on the data streams, and calculates the SHA1 fingerprint of each segment;
+(4) Raw data stream, segmentation and fingerprints are written from Smart NIC/FC to memory;
+(5) CPU reads fingerprints from the memory, looks up the fingerprint table and decides whether the segment should be de-duplicated, or saved. For the fingerprint and its segment that needs to be saved to disks, CPU sends a request to Smart NIC/FC for compression. After the data is compressed, CPU stores the compressed data to disk drives.
+(6) When Smart NIC/FC receives a request for compression, it reads data from memory by DMA, does the compression, writes the results to the memory, and informs CPU the completion of the request.
+
+Performance Projection:
+Networking + Anchor + SHA1 + Compression use 50% ~ 55% of CPU cycles. Offloading them from CPU to FPGA means roughly 50 ~ 55% CPU cycles can be saved. Therefore, the performance gain is 1/(1-50%) ~ 1/(1-55%), i.e., the performance gain is 2X ~ 2.2X.
+
+Capacity Projection:
+2X on disk capacity can be expected. FPGA can use algorithm with higher compression ratio (like gzip), a compression ratio of 4:1 is achievable.
+
+Cost Estimation:
+Apollo controller uses 4 Intel E7-4880 v2 (2.5GHz, 15 cores, $5506 for each). The cost of current Apollo controller is $37312. Assuming we replace 4 E7-4880 v2 with 4 E7-4820 v3 (1.9GHz, 10 cores, $1502) in current Apollo, and add 2 FPGA-based Smart NIC/FC (PCIe 3.0 x8, $3K for a mid-end FPGA), then the cost saving is:
+- Total cost of Apollo controller = $37312
+- Saving on CPU = 4 * (5506 – 1502) = $16016
+- Saving on NIC adapter = 2 * 400 = 800
+- Saving on FC adapter = 2 * 450 = 900
+- Additional Cost on Smart NIC/FC = 2 * 3000 = 6000
+Total Saving = 16016 + 1700 – 6000 = $11.7K, 31% of $37312
+
+Power Estimation:
+TDP of Intel E7-4880 v2 = 155W
+TDP of Intel E7-4820 v3 = 115W
+Power Consumption of Quad-port 10GE NIC = 20W
+Power Consumption of Dual-port 16GE FC = 7.5W
+Power Consumption of a typical mid-end FPGA = 30W
+Power Saving = (155 – 115)*4 + (20 + 7.5)*2 – 30*2 = 150W
+
+In summary, as a potential game-changer, FPGA-based Smart NIC/FC can achieve
+- 2X on performance
+- 2X on disk capacity
+- 30% of cost saving
+- 150W of power saving
+
+If our ideas are fully implemented, DD’s high-end product will have following benefit:
+- 2X on performance
+- 2X on disk capacity
+- 30% of cost saving
+- 150W of power saving
+This is a significant improvement on performance, cost, disk capacity and power consumption. As SHA1, compression and NFS/CIFS/FC protocol processing are also used by other EMC products, this technology might also benefit other EMC products. This is a game-changing technology that EMC should invest and develop.
+

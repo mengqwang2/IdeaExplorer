@@ -1,0 +1,5 @@
+SNMP proxy agent to monitor multiple VNX arrays
+
+CCTV signed strategic partnership with Huawei because Huawei can provide the integral MIB to accommodate CCTV's requirements. CRCS Communication and Inforamtion Corporation insists on SNMP eventhough we have an alternative. 
+SNMP proxy agent is installed on a host system and it is comprise of master and subagent nodes. Master node is responsible for the dispatch of SNMP request, and subagent nodes is for the data collection of the MIB property. 
+

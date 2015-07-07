@@ -1,0 +1,8 @@
+Print through Mobile Device
+Currently every employee has to rely on his Desktop / Laptop which has Printer drivers installed. In transition to staying smartphone dependent for all our tasks addressing "Contemporary workplace challenge".
+I use Android application to access my Office/personal emails and many a times find the necessity to print documents, for which Currently I have to take a long route of reaching a desktop / laptop and then sending 
+Using already available Android applications of different printer vendors, Configuring printers in EMC campus on those applications and at the printer end enabling the access from  mobile devices, we can explore the all new feature of sending documents of any type for print on the run using mobile device.
+Reduced data foot print
+Printer access through Mobile devices
+Journey towards a smart workplace
+

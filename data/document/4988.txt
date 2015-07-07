@@ -1,0 +1,10 @@
+Schedule Auto-Defragmentation in Raid Group for VNX - Tiering within the Raid Group
+
+-This idea we have come up with scheduling Auto-Tier in a Storage Pool.
+-By Defragmenting the Raid group the Performance for the lun's going to be increase and we can name it like Tiering within the Raid group.
+-Schedule/Automate Defragmentation for the Raid group, during non-business hours.
+-The largest contiguous free space will be available after the Defragmentation.
+-If there is free space at the mid track of the hard disk, then after the schedule/auto-Defragmentation, the inner track chunks of data been moved to mid track of the hard disk.
+-This improves the performance of the Raid group.
+
+

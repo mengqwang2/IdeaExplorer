@@ -1,0 +1,16 @@
+Test Log Analysis Tool
+1. Some potential issues are slipped to the manufacturing process although there are no visible failures. 
+2. Lots of potential issues cannot be easily discovered by reviewing log but have to deeply analyze the log manually which costs a lot of time.
+3. T
+GHTS QA encountered the challenage described in the Problem solved box during qual. These challenges inspired GHTS QA team to initiate an integration solution to deeply analyze the log as the second test.
+
+GHTS QA has implemented some features of this tool and applied the tool to the certain log type generated from manufacturing process.
+To solve the above 3 challenges, we have following solution:
+Create a Database Center to store all the data from the different kinds of logs. Develop an adapter module for each type of the log to extract the data and then save to the database center. 
+
+The different test log analysis / verification modules should be developed to mine the data in the log to meet the different purpose (e.g. issue discovery, schema generation), and then report the data mining & analysis result. 
+
+Currently there are no powerful tools to analyze logs. The third party tool for log analysis cannot address our problem.
+1. It can tremendously save engineer's effort in log analysis.
+2. It can help to discover all the potential issues deeply hiding in the log which are hard to be discovered by eyes.
+3. It can mine the data in the log and output the summary, table, and char

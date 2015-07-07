@@ -1,0 +1,12 @@
+Leave Monthly Report (Leave no Leave) 
+In the modern world of users and development the process is a bit more subjective and collaborative, people feel so lucky "It's on our Doorstep".
+This is a small challenge to create a Leave Monthly Report, which will be useful to EMC employees to keep a t
+Its an employee requirement or knowledge session that should be shared during the Training period. It would be helpful for all the people and our approach towards the planning of leave would be better.
+The best solution to this idea is to send a Monthly Leave Report to all the employees stating, the exact no's of Privilege Leave, Sick leave, Casual leave, Maternity Leave, Maternity Extension LOP/PL, Paternity leave, Compensatory Off, Adoption Leave etc.
+Leave Credit should be an add on to it, for e.g.: CL balance of previous year gets converted to SL, maximum accumulation is of 30 days.
+Employees have to make sure that prior to proceeding on any long leave , it must be updated on Inside EMC link where in a Leave Balance sheet could be created for this purpose.
+
+In the Monthly Leave Report we can attach a Link to the inside EMC, where the employee can feed in his leave details. By this way Inside EMC portal can we even more user friendly and interactive. 
+I would definitely call it a SUCCESS, as myself being an employee I would be glad to have the report sent to my mail every month.
+
+It would definitely optimize a process and result in employee satisfaction.

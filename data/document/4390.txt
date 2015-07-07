@@ -1,0 +1,28 @@
+App for Workplace or space management 
+
+Implemented a similar solution in previous organization for PwC and was one of the  revenue saving app.
+Seat Reservation Concept :
+User can use Reserve a seat(for a particular hours say for 5 hours)  to assign his profile to the ip phone kept at that workspace.It means whenever user selects the Reserve option from Mobile App or WebApp interface then Cisco Call Manager API's are called which loads the user profile to the ip phone kept at that workspace. If profile loading is successful then that ip phone will have particular user extension.
+
+Configuring Cisco Call Manager Extension Mobility Details:
+
+User Device Profile
+You can assign a user device profile to a user so that when a user logs in or out of a device, the corresponding user device profile is loaded onto that device. Devices can adopt user device profiles when a user logs into a device or when there is no user logged in.You can modify, or delete a user device profile in the Cisco CallManager administration pages.
+Logging In and Logging Out When a user logs in, the current configuration of a device is replaced by a particular user device profile.When a user logs out, the current configuration of a device (the user default device profile) is replaced by the logout profile.
+
+
+As of now we could have following users:
+Full time Employees:  (assigned a permanent workspace and he can checkout his permanent workspace for the period if he is going on vacation or working from home so that this workspace will be available in pool list for that particular period)
+
+Contractors: Short term(No permanent places and need to reserve a workspace for using for a particular period) 
+Internal Visitors: (Have a permanent workspace and needs additional workspace for short duration)
+
+Backend DB  need to maintain:
+Each building will have one database.
+Each employee will have one profile associated with any of the building .And that user will be considered Long termer for that building
+For any other building he will be a Short termer
+If user doesn’t have any profile then he is a internal visitor.
+
+
+
+

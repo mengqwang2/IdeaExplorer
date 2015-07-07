@@ -1,0 +1,25 @@
+Federated Search using search catalogues maintained by Storage Systems
+ECD has got strong presence in search and federated search services domain. We can make use of this and create a new solution using EMC core (storage) products.
+
+A new product proposal which suits CTO office challenge
+
+It is relevant to the APJ COE challenge as the defined problem and the proposed solution are very well applicable for the hybrid clouds.
+Internal discussion and brainstorming
+Portal to allow simultaneous/parallel search of multiple online storage (EMC & others) 
+based on the search catalog maintained & published by each of them.
+
+Search catalog primarily contains the basic metadata attributes of content maintained by the storage.
+
+The storage will fall into any category ranging from cloud based to simple file/content store.
+Thus storage could fall under variety of vendors not necessarily from EMC.
+
+This will enable users to view search results in a single integrated list. 
+Thus enabling them to search multiple search catalogs all at once.
+The reduced time it takes to do a basic search is benefit enough.
+Unified access to diverse content sources.
+Simultaneous searching across all sources.
+Ability to Simple search as well as advanced search.
+Integrated results which are easy to view and use
+Direct links to the native source for further searching.
+Ability to filter, sort, save, print, export and e-mail search results
+

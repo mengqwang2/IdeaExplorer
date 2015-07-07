@@ -1,0 +1,13 @@
+Enhance TCE using Data Lake based Solution
+An Offering using Data Lakes to provide intelligent information about customers will enhance probability of Sales and Faster resolution to Customer Tickets
+Came up with the idea while working with Salesforce Team and Avention Data. We had discussed with the sponsor to understand the expectations and the kind of solution they are looking for, team has very good diverse skills in SalesForce and we understand the TCE challenges and potential Sales opportunity for EMC. We have also worked on multiple innovation and patents, leveraging those skills and experience we had come up with TCE improvement idea. 
+Our idea proposes a data lake solution in B2B space. The solution will be offered as a service on EMC hybrid cloud.
+EMC is a company where most of the selling is done through EMC partners and distributors. There is a need to enrich the B2B layer of our business to improve the TCE.
+There are various sources available today where we analyze customer activity and maintain EMC customer history and buying records but there is no unified service which correlates that data to partners/customer strategies.
+The idea is to build a Facebook kind profile for the customer detailing on basic data pulled from different EMC services and databases that already exist. In addition to support dashboard with insights on customer specific to EMC i.e. open tickets, current resolution status, kind of recommendations to make to customers and all there is a visible need to utilize analytics and big data concept. To execute this, we can create a data lake which holds raw data pulled from different EMC databases that store specific customer related information. The analytical results from the data lake combined with user related information to create a Facebook page can be a powerful tool in guiding representatives dealing with the customers in sales or service issues.  
+
+Solution Architecture Diagram: https://inside.emc.com/docs/DOC-155864
+- Derive better Customer Insights through Analytics 
+- Customer Centric Sales and Service Offerings
+- Quick wins and Quick resolution of Customer Tickets
+

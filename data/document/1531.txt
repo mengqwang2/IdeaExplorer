@@ -1,0 +1,15 @@
+Customer Sentiment Analysis Platform
+Sentiment analysis through opinion mining of customers' thoughts on social media, blogs & comments, product reviews etc. about EMC's product portfolio can give a deep insight about customers’ experience which can be harnessed to improve the overall TCE by bridging the gaps. Also the pain-points of the customers can be prioritized to be resolved in the immediate next release of the product, such that our competitors don't get an edge to work on those pain-points and push their own solutions.
+This idea inception happened while working across DPC & Mozy product portfolio. 
+PowerPoint Presentation: https://inside.emc.com/docs/DOC-155479
+
+We aim to solve the problem through sentiment analysis of customers by mining their opinions and expressed thoughts on social media (Facebook, Twitter, LinkedIn), technical blogs, Q&A forums, 3rd party reviews & comments and also through traditional methods of surveys. The web is a huge source of opinionated texts which can be harnessed to gather important & relevant information and applied to the way we do our business. 
+
+Example: 
+
+A customer tweets "@EMC_Avamar is an amazing product, but I wish there is a way to push the old data to cloud." This tweet gives us an important insight about what the customers wants from his backup product and how we can pro-actively push our solution like CloudBoost before customer initiates the need through partner channels.
+
+Along with this we can also harness the opinions of our customers who are using our competitors product and identify the needs/wishes which the competitor is not fulfilling. 
+
+These are a few of the many things we can achieve by mining the emotions expressed as texts in the web. To accomplish this, we propose to develop a platform developed on top of Hadoop/Spark which scraps data from web in near real-time, apply machine learning algorithms and NLP techniques to do sentiment analysis of customer's thoughts and general opinions about EMC products and thereby enabling us to pro-actively take actions.
+The idea when implemented will mostly be a sentiment analysis platform based on Hadoop, Spark or similar platform. The product will be called a "success" if it can correctly analyse customer sentiments on our products through opinion mining which will give engineering, product management and sales an opportunity to pro-actively fix issues across verticals. It will improve customer satisfaction, thereby improving EMC's earnings and market presence.

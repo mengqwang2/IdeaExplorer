@@ -1,0 +1,14 @@
+US/CA CST Time And Materials  Documents on File Project
+Lean six sigma process improvement
+Used to receive SRs from the Vic Team with a note that the customer is having Docs on file while we are not having any docs for this specific customer.
+
+Found that we have expired documents on file and need to clear them out.
+Validate the customer Information in our Database and adjust T&M and VIC Processes Guidelines accordingly. Eliminate the negative impact that CST have on the revenue accounting team by eliminating the percentage of Error (17.6) to reach 0 percent
+Hotkeys and CST Knowledge Data Base are updated To accurately Reflect the  Docs on file.
+
+T&M Team Check to see what the customer have on file Prior to sending the Quote to the customer.
+
+Revenue Accounting Team are being able to collect funds from Purchase orders on file instead of being unable to perform the task due to expired Purchase Orders.
+
+Process Consistency and CSAT improvement as the customer is getting the exact same message on every SR.
+

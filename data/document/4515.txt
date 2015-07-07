@@ -1,0 +1,32 @@
+Multi-Dimension Analytical model of MyVoice survey result
+
+Group discussion
+Nowadays, the EMC employees ranges from different age, roles, background. The analytical model is aimed to dig into the statistics from the employees in different dimensions in order to pinpoint the existing problems.
+
+For example, we can analyze the data for the employees in different roles. There're software engineers, technical support engineers and of course the management team. Each role performs the similar type of work every day and is likely to encountered the same issues in their work life. From the result of analysis of each type of question, it is easily to identify the similarity for the employees in the same role and management can have a better understanding of the Pros an Cons for the target employee group and figure out the best way to work on the weak spot in order to improve the employee total satisfaction in the company.
+
+Here's the dimensions that our team thinks of.
+
+1. Role
+
+We can divide the survey data into the parts for software engineer, techinical support engineer and management team to perform the further analysis.
+
+2. Year of service
+
+Employees may have different thoughts and needs in different stage. The  employees just entered the company may be very excited and anxious to get familiar with the current job contents. The employees with many years of service may seek a new opportunity to keep his passion for current company.
+
+3. Education Background
+
+Employees with different education background could have different answers to some of the questions.
+
+4. Location
+
+Employees located in different GEO may have different needs for their work life due to the culture of the country.
+
+5. Gender
+
+Male and female employees are different in many ways. Female employees may be more focusing on the family and male employee would prefer to pursue their career path.
+
+We can leverage the current analyzing tools to generate the reports of the result in different aspects and compare the result from different dimensions to get a better understanding of what employees are thinking about the company and what can be done by the company to reach the mutual success.
+
+

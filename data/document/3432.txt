@@ -1,0 +1,13 @@
+Live or recorded video streaming (and photo sharing) system for social interaction among (all/GS) EMC employees in different locations
+
+Youtube, flickr and surveillance apps have been a major source of inspiration for this idea.
+EMC is a happening place! We get involved in a lot of fun filled activities (eg: celebrating holiday occasions, family day celebrations, birthday celebrations etc.,) within BU's and/or within a particular site and hence are restricted to only those BUs or sites. The experience is not shared.
+
+The idea is to create a video streaming (and photo sharing) system which enables all/GS EMC employees to see, experience and also take part (virtually!) in such activities/celebrations. Employees at one end of the globe would get a gist of how their peers at the other end celebrate different holiday occasions and the different traditions they participate in. This would even allow all EMC employees celebrate major occasions (New Year, Christmas..) together. Thereby, building and strengthening peer relationships.
+
+Introduce a system in the form of a mobile app (working over 3G, LTE, and Wi-Fi connections) and/or intranet service, providing live video feed or recorded video playback. The app would require EMC employees to login to watch the video stream from anywhere, anytime. They'd also get notifications regarding the schedules and other details of such activities or celebrations.
+
+As for the video capture, we could conduct such activities in either specialized venues (with all the equipments in place) or make use of the existing 'select' security cams at 'select' areas in the workplace. Photo sharing could just be plain simple uploads to the system.
+
+This would also open up whole new possibilities of creating new and innovative programs for social interaction, learning and enjoyment among all EMC employees.
+

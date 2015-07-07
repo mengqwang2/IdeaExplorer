@@ -1,0 +1,9 @@
+Book Club Application
+
+I love reading and I just joined EMC one and half months ago. I didn't find a tool that can sum up my reading interests and gather lots of the reading society in EMC. 
+
+We can make a physical and online library, that has different books and e-books which an EMC employee can donate, borrow and return back.
+An application can include all the online and hard copy books that exist in the library, if these books are available or not, if someone borrowed them, when the return to library date is expected and if we can mark the book to borrow. 
+Also, who can add more books, add a review for a book.
+Another feature is to select a book and create a scheduled gathering for this book discussion and share the event for whoever interested to join that book discussion.
+

@@ -1,0 +1,11 @@
+An API change detection and notification system
+The proposed API change detection/notification system will streamline all sorts of project development, especially the ones that require close cooperation between API provider and consumer teams. All sorts of projects (EHC...etc) are in this category.
+Sometimes my build fails without any code changes on my side, this is usually caused by some dependent API changes made by other teams who didn't notify me of the API changes in a timely fashion.
+The proposed system will scan the builds in the CI environment trying to detect if the API interface has changed. If there are changes, what has been changed on the API interface will be sent to a pre-configured contacts (API consumers). 
+
+With this system in place, API provider teams are relived from the cumbersome work of notifying partners of the API changes. Partners will be able to receive notification on API change in a timely fashion and the content would be much more accurate.
+
+Also, via CI configuration, the frequency of the API change detection mechanism is to be triggered can be controlled. For example, you can configure in a way that only API changes on release branch will be monitored, feature branches, bugfix branches won't be accounted for as a means to reduce unnecessary noise.
+
+This system can be leveraged for collaborations between sub-teams, BUs, and even different corporates. 
+When the system is integrated into an engineering team's CI environment, many "mysterious" failed builds (actually caused by API change) can be quickly accounted for, this helps improve API consumers' productivity . The automated process will also relieve API providers from manually maintaining the API change notification process, thus improving the productivity on the API providers' side as well.

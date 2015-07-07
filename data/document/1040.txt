@@ -1,0 +1,47 @@
+EMC Unified Mobility Configuration Wizard (UMCW)
+Everyone wants to make their life easy, so as customers. EMC customers are now using different configuration tool for different products, this process always invites investing lot of time. This will bring the idea of having a unified solution to configure more than one product from the same solution and also a tool which can perform diagnostics to verify if there is anything wrong in the configuration. 
+This idea is the result of excess amount of time spending on basic configurations of EMC products.  Thought, having an integrated method would give some ease to customer’s life. 
+Proposal is to have a unified configuration wizard which enables customers to quickly configure basic settings of EMC products with diagnostics tool which can be run anytime, after completing initial configuration, to help to understand if there is anything broke in configurations. Diagnostics tool can even run alone to check configuration status any time after configurations have been completed. 
+
+Detailed doc is here: https://inside.emc.com/docs/DOC-155792
+
+Solution is proposing to have unified configuration wizard:
+
+- A plugin product which will be installed with all the EMC products 
+      o	 Single product with EMC UMCW (Unified Mobility Configuration Wizard)
+      o	 Multiple products with EMC UMCW (Unified Mobility Configuration Wizard)
+- A standalone product which will let customer perform configurations remotely using browser. 
+- Diagnostics is a CLI tool which will be installed along with plugin and standalone product 
+
+How it works being a plugin product: -
+
+Being a plugin with all the EMC products, EMC Unified Mobility Configuration Wizard will be integrated with other EMC products installer.  EMC Unified Mobility Configuration Wizard will launch by itself as soon as user logs in to installed product, after EMC products have been installed.  EMC Unified Mobility First Time Configuration Wizard will also have web-browser support. EMC Unified Mobility Configuration Wizard can be launched using web-browser using credentials that were specified during installation EMC Unified Mobility Configuration Wizard.   EMC Unified Mobility Configuration Wizard will help to perform configurations at one place on different products, based on user selection, so that user need not have to go multiple windows to perform configurations of different products.  
+
+In case if user is installing multiple EMC products, EMC Unified Mobility Configuration Wizard being a plugin on each products,- here is now it works:-
+
+In this scenario, despite user has different EMC products installed, EMC Unified Mobility Configuration Wizard software will not be installed if this is already installed by another product. However, it will perform an upgrade ONLY if it finds an older version running with previously installed products and new product contains a latest version of EMC Unified Mobility Configuration Wizard.  
+
+There are two ways to recommend user about Unified Mobility Configuration Wizard when system has multiple EMC products installed:
+
+First Method:-
+- As expected, as soon as user logs in to software it will launch EMC Unified Mobility Configuration Wizard. In a scenario with multiple products, auto launch EMC Unified Mobility Configuration Wizard will let user know it detected multiple EMC products, it’s advised to user web browser to configure multiple products at the same time to save configuration time. 
+
+Second Method:-
+- End of the second product installation, installer will let user inform about multiple products detected and advantage of using web-browser of  EMC Unified Mobility Configuration Wizard to configure everything at one place to reduce configuration time.
+
+
+How it works being a standalone product:- 
+
+Being a standalone product EMC Unified Mobility Configuration Wizard will only have browser support login and perform configurations to remote servers. 
+In this scenario, customers will have EMC products installed on multiple products or all products on a remote server.  After login to EMC Unified Mobility Configuration Wizard browser using browser, EMC Unified Mobility Configuration Wizard will let user chose the products that user wants to configure. After choosing the product and clicking on Next button will let user connect remote server using IP/FQDN with user name and password. As soon as the credential supplied EMC Unified Mobility  Configuration Wizard will perform an internal scan to make sure the remote server has all the required agents running to perform the configurations of selected products and navigate user to continue configurations intelligently to help users to configure products in accurate order,  it will help to eliminate errors.  Intelligent agent will perform scan, after user products selection, and bring up the EMC UMCW of products that needs to configured first despite user order. 
+
+
+Diagnostics CLI Tool:
+
+This tool is part of EMC Unified Mobility Configuration Wizard will be installed as part of EMC Unified Mobility Configuration Wizard. This tool can be run any time after configuration is complete to make sure nothing is broke. This will help while triaging any issues, support need not have to go one by one to check the configuration; one click for configuration checks.  
+In case of standalone configuration of EMC Unified Mobility Configuration Wizard, this tool will be pushed remote server as soon as the configuration is successfully completed so that user can run the command locally to remote server to verify the configuration anytime. 
+
+1-	Integrated wizard will help in configuring different EMC products at one place
+2-	Saves lot of time in configurations 
+3-	Help support to ease diagnose configuration problem
+

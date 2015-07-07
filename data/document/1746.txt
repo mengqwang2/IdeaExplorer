@@ -1,0 +1,7 @@
+Webex Mobile Application 
+As we are looking forward to move to the 3rd Platform ,This idea will support this transformation.
+NA
+My solution is to create a webex mobile application that can be downloaded on any mobile software i.e 'Android , OS , Windows ,etc ..' ,this will enhance the user experience and will guarantee access anywhere and anytime to the webex whenever it is needed.
+1-Access Anywhere. 
+2-Flexibility to use Webex anytime.
+3-Support 3rd Platform Transformation.

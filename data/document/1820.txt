@@ -1,0 +1,25 @@
+InSightful: New Software Technology
+Our submission is relevant to the CTO Challenge by meeting the following criteria:
+-Opportunities across EMC's large, vertical markets
+-Idea bears no resemblance to any existing product but is within EMC's capability to develop
+-Provides a transformative collaboration of software, innovation & technology
+InSightful is a new incubation based upon internal evaluation of long standing EMC Employees looking for faster ways to adapt to market change and increase EMC revenue.  Chris Lessard & Keith Briggs, from the Durham Center of Excellence, contacted Mike Wade (within the sales organization) earlier in the year asking if there was any area where a new, innovation solution would benefit EMC.  Mike proposed the concept of a software technology that could automate the manual effort today for customer research, hence InSightful was born!
+InSightful is a new software technology providing customer analytics through scanning customer profiles (websites, blogs, white papers, twitter...etc.) in order to pull back key information for our sales org to respond with real-time.  This provides a breakthrough to the manual effort existing today and therefore can significantly improve EMC's time-to-market (TTM).
+
+Here's how it works:
+
+1.  InSightful possesses a data lake of key words (hybrid cloud, virtual, 3rd platform...etc) aligned to EMC's products & solutions.
+
+2.  InSightful references the data lake while scanning customer profiles, searching for any instance where those key words are trending.
+
+3.  InSightful works with Pivotal technologies by analyzing the data and categorizing reports relevant of EMC's 4 pillars: Data, Cloud, Mobile & App
+
+4.  EMC's Sales Org reviews the reports and utilizes the data to create new opportunities or improve opportunities within SalesForce.  
+If this idea was chosen, EMC would benefit by:
+1.  Increasing Productivity 
+2.  Improving our TTM & Increasing EMC Revenue
+2.  Increasing our Close Rate 
+3.  Generating a Larger Opportunity Rate
+4.  Identifies New Opportunities
+
+In addition to its benefits to EMC's Sales Org, InSightful could be the software technology for any Big Data company to discover, analyze and track information across their customers.  As an example, the banking industry could utilize InSightful to scan small businesses for insightful data giving banks a better picture of what's important to it's customers.  

@@ -1,0 +1,48 @@
+Security systems
+This idea makes the hidden cameras more secure
+Nowadays we see thieves destroy or cover the cameras before stealing. this solution is powerful enough to alert at the earliest 
+1.	The cameras are to be connected through wireless network to a remote system that 
+        collects the streaming recorded videos. Destroying the cameras should not destroy the 
+        database.
+2.	Sensors attached to the hidden cameras which send alarms or messages immediately when 
+        they detect themselves getting covered. These days we get very inexpensive sensors.  
+        Options should be available for entering the secret password before touching the 
+        camera so that if at all the house owner wants to relocate the camera or remove the 
+        camera, he should do that by entering the password in order to disable unnecessary 
+        alarms. 
+
+3.	The database which receives continuous incoming of the streamed videos from the CCTV, 
+        experiences a sudden stop when the CCTV is damaged, broken or stops working. Alert can 
+        also be sent in such situations by the system connected to the databases.
+
+
+4.	In order to identify the person who is damaging or covering the camera, a different 
+        inexpensive camera is placed on the opposite side of the main camera which instead of 
+        capturing the video throughout the day, only starts capturing images as soon as it 
+        gets message about the alert. 
+
+         An extended version is to have a long range iris scanner that scans the iris of the  
+        person even if he has covered his face. The iris scanner immediately starts scanning 
+        the iris of the thief when the main camera detects getting damaged. The iris, being 
+        the uniquely identifiable content of the individuals will definitely help us in 
+        getting the thief identified provided we keep tract of the irises of all individuals 
+        like in Indian AADHAAR Card. Also there are popular face detectors to detect the face 
+        these days. 
+
+       Link:  http://www.theatlantic.com/technology/archive/2015/05/long-range-iris-scanning-is-   here/393065/
+
+
+5.	Alarms can also be directed to the nearest police station or can be made to horn 
+        loudly alerting the neighbors to reach the location instantly. Also, if the camera 
+        stops working naturally by battery loss or something without the robbers’ 
+        intervention, that should be detected and message regarding this can be sent to the 
+        home owners separately. Since the video streaming is cut down, the system associated 
+        with the database can send messages.
+
+6.	Lastly, the cameras can be made more intelligent by training all about our lifestyle. 
+        If there is no motion detected for long time, go to sleep instead of keep sending 
+        videos. Motion in front of the camera wakes up the camera and it starts recording . 
+        Sensors are to be equipped to sense obstacles placed by the thieves
+
+
+The implementation of the idea can make powerful security systems at home and public places. make money by selling such systems

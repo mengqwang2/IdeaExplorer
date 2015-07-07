@@ -1,0 +1,5 @@
+Space strategy 1 – Hot Assets
+
+Floor space allocation is a constant threat to EMC with an ever present and strengthening hockey stick quarter tester utilization is back ended and inefficient. As a result, the need to reduce floor space and cost is driving us to come up with projects to combat this issue. This project came to the table in the middle of Q4 while a brain storming session was taking place among the Test Equipment group.
+Take testers from the FC area, which for 60% of testers are not in operation for 2 of the 3 months in each quarter and move them to an offsite location. Reposition these testers at EOQ to a location where the EOQ tester requirements have finished. These flexible test areas provide a proactive solution to reduce floor space caused by unwanted testers and free up the space for other EMC functions.
+

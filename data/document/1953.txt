@@ -1,0 +1,7 @@
+Generate revenue through standard support as post paid scheme.
+Idea is to generate revenue when Technical support Engineers are engaged to provide Hand Hold support to the customer.
+I worked as a Captiva TSE (an ECD product) and have seen many customers with similar requirement. 
+We can assign any one of the senior engineer as designated person who is going to be the common point of contact for all the customers who require Hand Hold support on Install, upgrade and Migration or any other operation (where standard support are not supposed to engage).
+
+The designated person will provide a standard price quotation to the customer's account manager as a post paid plan. If customer agreed then designated engineer will engage one of his TSE who will provide hand hold support to perform the requested operation.
+If this can be implemented as a process then definitely it will generate revenue for business unit. 

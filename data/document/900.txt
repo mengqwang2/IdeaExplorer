@@ -1,0 +1,18 @@
+Flexible road lanes - Track-able traffic behavior solutions
+With people, business and homes Moving to the new city from various cities and entities. Traffic will be a very challenging point in terms of logistics especially in the early phases when all the people will arrive in the same time in the same direction to the new city and by default the leave time and direction will be the same too 
+
+Endless traffic jams and misdistribution of lanes and roads in the different times of the day
+Flexible road lanes , along with track-able behavior of traffic solutions Using cameras and sensors will allow efficient use of roads and high ways.
+
+Scenario:
+
+-Majority of traffic heading towards the city at 8:00 AM
+-Minimum traffic in the opposite direction
+-Suppose we have 5 lanes on each side of the road
+-Avoiding traffic jamming by cutting 2 lanes from the opposite direction adding them to the towards direction with total 7 lanes 
+-Same scenario can be applied in the opposite direction in the rush hours after work
+
+This can be done with the help of smart behavior tracking solutions , cameras sensors with big data analysis technology providing fast road status updates and efficiency in distributing lanes for both directions
+
+User can be informed by 3rd platform applications on the move with high level of mobility
+EMC can provide this solution to be used for tracking and analysis by its big data and 3rd platform technologies with surveillance storage to be used on roads and high ways. People will use mobile applications for real-time notifications 

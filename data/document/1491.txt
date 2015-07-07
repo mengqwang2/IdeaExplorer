@@ -1,0 +1,5 @@
+Developing tools for mainframe
+The developed product could be a great collaboration for Open Source community
+This idea came up when I met up with the difficulties of the interaction with mainframe systems. Then my colleagues joined me and we discussed how this could be implemented. During the EMC Hackaton#2 in RCoE we developed a prototype of a tool which could be integrated with other to conform the unified developing environment.
+Compared to existing product like RDz, we'll create more friendly interface with several useful instruments that is developed for the developer needs.
+The final state of the idea will be a developing environment for the mainframe that would contain all useful tools for developer. This environment could save companies money cause of accelerating of the developing and maintenance process for the mainframes.

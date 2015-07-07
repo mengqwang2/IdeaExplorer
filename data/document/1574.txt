@@ -1,0 +1,20 @@
+Leverage Error Messaging bus and deployment pattern analysis to do realtime failure detection
+Our idea provides a flexible way to build up a failure detection/analysis system. It fully leverage open source projects with their strength. With our solution combined with ViPR's strong management capabilities, we can provide customer accurate real-time failure detection and reduce outrage impact to the least extent.
+I have some discussion with colleagues and we spring up this idea during our communication.
+To address this problem, we’d like to recommend one solution that leverages Active Event Monitor, Failure Message Bus, failure analysis engine and ElasticSearch micro-service to do failure detection and analysis.
+
+The system is composed of 4 components that are: Active Monitor Service, Failure Message Bus Service, Failure Analysis Engine and ElasticSearch Service. Each of the 4 components is architectural micro-service encapsulated as a docker instance which means they are independent from each other in deployment and could scale out easily.
+
+The Active Monitor Micro-Service is responsible for monitor arrays, hosts and any other monitor objects. Administrator can define the monitor object based on his/her business requirement. Once exception is detected by the Active Monitor Service it will do 2 things, it will send out notification to configured contacts for the failure, the second it will wrap the failure message, timestamp and related info into a message to the Failure Message Bus service. We can leverage the open source monitor tool Nagios to build our Active Monitor Service. There are 2 reasons:
+
+1.	Nagios is open source and easy to customized
+2.	There are a large number of plugin and strong user ecosystem for it which means lots of 
+monitoring objects have already be implemented and supported by it
+
+The Failure Message Bus is manly used to communicate failure message between Failure Analysis Engine and the Active Event Monitor Service. Failure Message Bus is used to make sure the system is equipped with scale out capability. Failure Message Bus could leverage the popular open source project kafka which is equipped with the capability of tagging for the message. A scheduler keeps close eye on the message running on the Failure Message Bus. Once error happens, it will select specific Failure Analysis Engine to processing the message. Zookeeper could be used to build the scheduler.
+
+The Failure Analysis Engine Micro-Service is responsible for failure or error message/logging analysis. It is a real-time analysis engine using Spark. Basically, it will use 2 dimensions to form the computation model, one is the time that the failure occurred, and the other is the deployment topology.  The deployment topology is kind of analysis Meta data and is pre-defined during the system setup (Or we can get the info from existing configuration files).
+
+The ElasticSearch Micro-Service is responsible for query the Failure Analysis Engine process result  and form the dashboard.  The Elastic Search Micro-Service is based on ElasticSearch, LogStash and Kibana (ELK). The ElasticSearch Micro-Service would provide interface to query and drill down specific failure. User can easily view top issues and the root failure point, and he can define his own rule to query the info he interests in at ease.
+
+Flexible, Realtime analysis, scalable

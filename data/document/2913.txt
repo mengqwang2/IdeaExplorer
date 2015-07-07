@@ -1,0 +1,11 @@
+Advanced Telemetry Collection & Analytics
+The challenges proposed are about using data and analytics to improve our customer experience and improve our product engineering. To do so, the first stage is to collect a large volume of valuable data from our products.
+AS a data scientist working with engineering and global services departments, I constantly try to make use of data to enhance our TCE, product understanding and monitoring. The challenge I am constantly faced with, when trying to analyze EMC product telemetry is that it is either not being collected or it is difficult to obtain, so this idea was am obvious solution to that.
+The solution proposed is to build a flexible, big-data platform backed environment combined with a custom built flexible agent that will enable:
+-	Easy integration to all products using convenient API. Decoupling from specific products, choosing a common format (such as JSON) combined with a flexible agent would allow for easy integration.
+-	Capability of sending any type of data
+-	Analytically capable platform that will enable pulling statistics, understanding our install base and identifying challenges with our products
+-	Easy integration to the BDL 
+
+See more information: https://inside.emc.com/docs/DOC-148523
+Success would mean that EMC now collects a large amount of telemetry, log and performance data to a centralized capable platform that enables developing analytics and extracting insights in order to drive and improve TCE, product design and monitoring.

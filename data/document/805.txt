@@ -1,0 +1,19 @@
+CS Service Request Inspection Process
+Improve Customer Service Request inspection process
+Working as Isilon support manager, I found a problem with Service inspection process hence I thought of defined process to be followed by managers quarterly to ensure high quality service handling which will impact positively customer satisfaction
+- Management to share CSAT surveys that are below target with team members for learned lessons
+- Improve and Communicate New Support procedures
+- Management team to make three customer calls weekly to collect customer feedback on active Service Requests
+- Project Lead to prepare Service Request Inspection scorecard
+- Managers/Supervisors Collect  Random  Service 
+Requests at EOQ
+- Inspect  the Service Requests and  complete Inspection Scorecard
+- Manager checks individual Technical Support Engineer Quarterly Average Score
+- Share  Inspection score and comments to TSEs
+individually
+- Review Service Request Inspection Process metrics with managers for continuous improvement
+
+The main focus of this project is to improve Quality of Service Request handling
+We couldn’t realize exact financial figures
+However, such quality initiative has positively impacted Customer handling and satisfaction, as CSAT composite score went up from 87.5% to 91.2%
+

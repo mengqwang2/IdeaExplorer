@@ -1,0 +1,16 @@
+Use SLA to simplify Unity/VNXe data protection function.
+This idea is to simplify usage of Unity/VNXe data protection function, and integration with AppSync to provider easy-of-use experence.
+Our CA also had an idea to discover remote system autmatically, and it providers the possibility to configure replication automatically, so come up this idea.
+Now, we hope to provide a simple way for user to configure their data protection, when they're provisioning production resource, just one steps to select SLA (Service Level Agreement), then system will confiugre all data protection envrionment, for exammple:
+Platinum: Snapshot with schedule on each day and every Monday, remote replication with RPO 10'
+Golden  : Snapshot with schedule on every Monday, remote replication with RPO 1h 
+Silver  : Snapshot with schedule on every Monday, local replication with RPO 1h
+Bronze  : Snapshot with schedule on every Monday
+
+Also, we should analyze users' usage data to define the most common used options; on a service level, may provider mulitple chocice with different parameters, such as
+Golden-1 : Snapshot with schedule on every Monday, remote replication with RPO 1h 
+Golden-2 : Snapshot with schedule on every Friday, remote replication with RPO 1h 
+
+In addition, integration with AppSync
+AppSync also provider SLA, and we can integrate Unity/VNXe into it, and provider simpler usage.
+After this function implemented, user can focus on their business value and sevice level, but not confiugration of storage, and improve effciency.

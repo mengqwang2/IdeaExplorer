@@ -1,0 +1,26 @@
+Audio Search Based on xPlore
+This idea is for Enterprise Content Division (ECD) Challenge.
+Audio Search may be a potential requirement of Content Management.
+This idea came to us when we were trying to find an audio.
+Documentum xPlore is a multi-instance, scalable, high-performance, full-text index server that can be configured for high availability and disaster recovery.
+Now xPlore doesn't support audio search. We can add this new feature to xPlore.
+
+The audio can be downloaded from repositories or some FTP sites. This solution includes three steps, parsing, indexing and searching.
+
+[parsing]
+In parsing phase, audios will be downloaded from repositories or FTP site and parsed into text files. The parsing can be done using some speech recognition (SR) engines. 
+Here are some speech recognition (SR) engines:
+http://www.microsoft.com/en-us/download/details.aspx?id=10121
+
+[indexing]
+In indexing phase, the text files generated in the previous step will be ingested and indexed by xPlore Index Agent and the indexes will be saved into xDB. 
+The audio URL should also be saved as a separate field in dftxml in xDB.
+
+[searching]
+The end users can input key words and select file types while performing full text search in xPlore. He can choose to search in all file types or only search in audio files. 
+When a matching audio file is found, the summary together with the file URL will be returned to the client side. The end users can open the audio file following the URL.
+All the existing features provided by xPlore, like wildcard, thesaurus and facets are also supported in audio search.
+
+This idea can be built upon xPlore.
+Currently there is no competitor product in the world and there will be a big market for it.
+

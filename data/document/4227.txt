@@ -1,0 +1,5 @@
+Notification Enhancement
+
+I work in a project where we dont have client side email address and at times we receive emails in a delayed fashion due to various reason, if any Storage monitoring tool or SRM kind of tools has the option to configure and send SMS notification it would have been easier to address issues in timely manner. 
+Usually we get emails alerts for any notifications from storage systems , if we add an option to receive alerts via SMS it would help to track the events in case of email delays or for people who dont have smart phones that has email configured. or for clients who dont give email configuration for contract employees.
+

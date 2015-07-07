@@ -1,0 +1,5 @@
+A method to provide a lossless connection between a storage subsystem/host with/without a switch though data center bridging, auto configuration based on the OEM specification.
+Must be reasonably within EMC’s capabilities to develop. Innovators: Describe what core competencies EMC has to develop your idea. 2. Must be related to something (i.e. fall within a market) EMC would be likely to pursue. Innovators: Explain why EMC would be interested in this market. 3. Must not bear obvious resemblance to existing products or services covered by other Sponsor Challenges
+We had this last year while I was observing a switch auto-configuring routing protocols.
+addressing specific customer needs where different vendor components integrated together and an auto-configuration of the port parameters in the components will help to improve the performance and with out any user intervention since it auto-configures with the pre-loaded config algorithm depending on the components integrated
+It provides a touch-less configuring and improves performance, utilization and bandwidth.

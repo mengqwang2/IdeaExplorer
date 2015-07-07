@@ -1,0 +1,8 @@
+Hot water cooling datacenter
+water cooling has been around for many years traditionally chillers are used to cool down water used in cooling data centers this increased the cost of power consumption to high level.
+the idea is to use the heat the water carry for heating employees offices then as the water cool down after this circulation it's pumped back to carry more heat from the servers and so on 
+N/A
+use the heat the water carry for heating employees offices then as the water cool down after this circulation it's pumped back to carry more heat from the servers and so on 
+
+eliminating the need for a dedicated cooling system
+decrease the power consumption and operation cost of data centers 

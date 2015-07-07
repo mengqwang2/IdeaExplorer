@@ -1,0 +1,9 @@
+Mobile App for Employee Availability System
+Allowing Employees to access the EAS through their mobiles, help them submit/approve request more efficient and flexible.
+EMC is WW company, some employee are work at home or either in remote office, in some situation, we are not able to log in EAS through PC or laptop, not able to submit or approve these request easily.
+Having an EAS application can allowing users to be able to:
+
+-Submit their day off request
+-View the available vacation
+-Accessed from multiple platforms such as iOS and Android
+Allowing Employees to access the EAS through their mobiles.

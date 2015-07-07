@@ -1,0 +1,5 @@
+Control Station on site retest
+
+Idea originated from previous opportunities where we've demonstrated that cost can be significantly reduced by performing on site retest.  
+Develop a retest process that provide equal or greater coverage to the supplier test process and perform this test within EMC.  All returned control stations require a retest prior to being introduced back into production, and the defacto has been to return them to the supplier who charges us a standard cost which far exceeds the cost in which we can test them ourselves. 
+

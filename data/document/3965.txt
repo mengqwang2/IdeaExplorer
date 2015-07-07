@@ -1,0 +1,5 @@
+EMCIANS App.
+
+Being an EMCian, website is a part of my life, I use it to query anything of the services EMC is providing me. I thought what if I can do the same through my mobile via an application saving effort and time, for example using bupa medical ensurance web page to check the closest medical centers to my area, checking the meeting points and the bus routes regarding the transportations, that is in addition to the items listed earlier in "How it Works" section 
+The application is to be downloaded to Android, and Apple mobile. Application shall provide authentication to the user, and once the user login, he/she shall be interfaced with different icons each allowing him to query services including but not limited to benifits-buses-medical network-address book-holidays-feedback- ASK HR-IT-Imp numbers-Cafeteria menu-events- EMC belmasry(COE club).
+

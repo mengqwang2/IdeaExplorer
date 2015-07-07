@@ -1,0 +1,6 @@
+Fully submerged server cooling
+one of the most power consuming component of a data center other than the computation is the cooling system.
+using mineral oil as a cooling medium for your servers provide higher efficiency and lower power consumption than regular air based cooling
+Came to me from a video on YouTube of a PC hardware modding in a fish tank filled with oil as a cooling midium
+using mineral oil as a cooling medium for your servers to provide higher efficiency and lower power consumption than regular air based cooling
+Significant decrease in cost of operations and power consumption of datacenter

@@ -1,0 +1,5 @@
+Build a software library
+Our work rely on many softwares. Usually we will spend a lot of time to look for and install softwares. The more terrible thing is sometimes even we installed successfully, the software is not follow EMC's policy. We will got warming email and have no choice to unistall it.
+When I install adobe flash which is a must for unisphere on host, I spend a lot of time. So I hope if a library contains all software we need must be very useful. It can also prevent our mis-installing.
+My solution is to build a software library. This software library will classify softwares according their property. Every software should have it's own description and instructions for installation. 
+Save time of looking for software and prevent emplyees mis-installing. IT will also save time from giving mis-installing people a warm. 

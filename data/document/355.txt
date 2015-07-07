@@ -1,0 +1,13 @@
+Proactive balance sheet
+The challenges is targeting big data and how we can start applying new services to utilize big data and storage solution provided to our customer specially for the banks
+The idea came up when i was attending one of the innovation ideas and discussing how we can start providing IOT as a service, i recalled the everyday talk for most of the employees on how the slayer finish and we lose track of our expenses and ends the month in debt state
+By using the storage solutions and big data, banks can start analyzing the end user expenses for couple of month, and then start offering a proactive balance sheet for the upcoming month
+It will be done in 3 steps
+1. Monitor and analyze the current expenses 
+2. Measure the rate of each of the expenses 
+3. Offer a predictive balance sheet for the upcoming month
+
+The idea will allow EMC not only to offer the storage as Hardware solution, but also to offer a whole package from h/W and S/w solutions for the banks
+It will builds up on what we are already offering and strengthen our market position
+It will help the end user to save money in addition to start controlling there expenses
+

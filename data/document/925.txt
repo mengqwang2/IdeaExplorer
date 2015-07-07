@@ -1,0 +1,14 @@
+Portable storage array for consumer
+Nowadays, individual person doesn't have any portable storage array that can help them to protect their data or have good performance when connect their storage to personal computer or personal pad. people only have one USB flash drive or USB portable hard disk. 
+personal NAS is too big and require direct power.
+people have too many USB devices and always lost them or waste them.
+
+I am thinking following:
+1. make the VNX/XIO/VMAX smaller.
+2. this smaller storage box have multiple USB ports
+3. people can plug their USB devices into those ports and with simple clicks on the touchpad outside this box, all storage spaces from those devices will be integrated and configured as Array or DEDUP.
+4. inside, there will be battery to support power.
+5. hot plug for USB devices
+6. allow different brand or size of the USB devices.
+7. with WIFI, this storage system can synce data with cloud.
+this might be a good start to open consumer market. there are people that don't want their data on cloud only. but have local copy.

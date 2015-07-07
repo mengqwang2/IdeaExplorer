@@ -1,0 +1,13 @@
+Data Science to help prevent Forgotten Baby Syndrome
+The idea addresses reducing a risk that occurs on almost every city. The solution relies on Big-Data and may relate to transportation in the city.
+The idea allows EMC to provide analytics solutions leveraging smart city capabilities that help preventing such tragic incidents.
+
+Too many times we open newspapers to read about cases were a child was forgotten in the car. Although many solutions exist in the market to help reduce the amount of cases, the amount of cases doesn’t decrease.
+Our innovation presents a novel approach to solving this unthinkable scenario of the “Forgotten baby syndrome” by incorporating GPS data from the parents mobile phones and Data Science algorithm to allow a proactive solution to the problem while, unlike other tools that aim to solve the problem, the parents don’t need to actively use the application. The solution is based on the idea that most reported cases are when one of the parents drive the toddler to the daycare but for unknown reasons, skips the location and continues to drive to work.
+For this reason, we wanted to create a solution which is not based on active usage from the parents but on data collected from GPS sensor and running probabilistic models to predict anomalous behavior. For an instance, if a father passed his son’s kindergarten on his way to work without stopping, while his wife didn’t passed near the kindergarten at all – our tool will alert the father for a possible hazard.   
+
+There are two types of current solutions for these scenarios. The first, using applications that require the parents to be active (e.g., add reminders, fill weekly forms) and the second relies on sensors that are installed in the car and prevent locking in case of weight detected in the child car-seat.  The problem with the second solution is that such sensors are expensive and not yet reliable enough. 
+1. Reduce the amount of cases of Forgotten child syndrome 
+2. Utilize EMC’S stack for both providing the storage, processing and analytics.
+3. EMC can create an application for the community.
+

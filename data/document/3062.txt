@@ -1,0 +1,9 @@
+CS break / fix
+Not sure if this matches a current challenge but something that has bee obsered since corp. has begun to re-use / re-furbish parts (hardware) for CS break / fix.
+(FRU) Replacement parts are frequently arriving to the field in a less than adequate conditio
+This idea came to light recently when (consistently) FRUs arrive in damaged cardboard containers, that are obviously being re-used. Several times parts are un-usable from being damaged in transit; could be carelessly packaged or container no longer sufficient due to over-use; This has been observed with (single) hard drive FRUs and larger 2 & 3-U components...
+Idea was just a brainstorm, not mentioned to anyone...this is the first being submitted to corp.
+The simple idea is back to 'QOS' (2 parts)...1) randomly spot-check parts that have been 're-furbished' for re-use. Verify if part coming from corp has been completely re-furbished and packaged correctly for shipment to the field. 2) Specifically, hard drives (VMAX, VNX, CX, NAS)...why not develop a proto-type container; currently, we utilize a 200-drive (blue-cube) caddy for disk upgrades, can't EMC develop a simple (similar) container for a 'single' drive that can be used over (multiple times)? May be the container can have a permanent built-in sleeve on the outside for paperwork (return labels, shipping info...etc.) This would cut cost on purchasing any further use of cardboard containers, as well as plastic shipping bags for outside the box...
+As suggested above...re-usable containers for FRUs (hard drives), may be 2 & 3-U components down the road would reduce following costs:
+- no longer purchasing cardboard boxes that will eventually fail
+- reduce man hours (OT) by not having to re-order part

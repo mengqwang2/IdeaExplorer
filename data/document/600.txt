@@ -1,0 +1,15 @@
+Plugin for Dispatcher to extract text data from text PDF
+N/A
+The idea comes from customers escalations where customers describes their workflow for text PDF document. partners needed to implements such functionality each time.
+Captiva Input Accel extraction is based on Dispatcher product. Dispatcher has number of different OCR engines (Abbyy OCR, Nuance OCR etc). Every OCR engine is like a separate plugin although all of them has the same interface. The idea is creating pseudo OCR engine which would not OCR images but just extract text information from text PDF document. It would allow our customers get fast and high quality results when they are processing text PDF documents without significant changes in their business processes. 
+So instead of following steps currently customers have for text PDF: 
+1. convert text PDF to images 
+2. classify documents 
+3. convert images to internal text format using 3d party OCR engines 
+4. extract data
+ new steps will be like following 
+1. classify documents 
+2. using new PDF text extractor plugin convert to internal text format  (this plugin is actually just one more pseudo OCR engine in Dispatcher so no changes in customer’s workflow except he/she should select this PDF extractor engine in list of OCR engines)
+3. extract data 
+This will allow to reduce time (no conversion to image and no time-consuming OCR) and improve quality since there is no OCR and text is extracted from original text pdf without any errors in text (added with OCR in original workflow).
+It will significantly enhance productivity for non-image documents from customer side. We can sell it as licenses for additional module

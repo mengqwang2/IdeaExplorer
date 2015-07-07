@@ -1,0 +1,9 @@
+Chat Team mailbox for dropped customers
+To have an automated reply for all the disconnected chats that occurs.
+
+The usual scenario is that we send an email to the customer from our email and customer sometimes reply back with their questions and this is a long loop as sometimes we are not able to assist the customer immediately or we go off shift , the correspondence go back and forth till the issue is set or resolved. This may take 1 or 2 days .
+
+it came to me as we do face disconnected chat from customer end , and we send them email asking to rejoin chat , sometime customer reply to those email with their request , While we can be off shift or sometimes the request is not clear so the Correspondence go back and forth . 
+I was thinking to have like a shared inbox , and we can add to the moxie the Drop chat option which will generate the Disconnected email associated with the chat case number . 
+We can also have a daily rotation , where the CST can work on this queue, cleaning it up and assisting customer with their requests , maybe 1 hour each daily.
+It will be more easier and efficient to both the customer and the CST who got the chat dropped. 

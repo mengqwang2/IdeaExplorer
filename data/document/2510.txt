@@ -1,0 +1,8 @@
+Improve TCE by accelerating ticket scheduling
+In my opinión match perfectly as this idea tries ti improve TCE by analyzing several key elemtnes as CSAT, Tickets opened for same customer, Time to contact and Schedule, and also giving some relevant information to S&AS to improve ticket scheduling. 
+I started thinking in this idea 2 weeks ago. I have presented to my Manager and to the CS GLOBAL FSM-PROJECT (https://inside.emc.com/groups/cs-global-fsm-project) The idea is being analyzing by this team.
+I think there isn't a similar solution implemented today, this idea analyze several key factors prior to contact a customer in order to identify "Customer Temperature", which will help S&AS to manage in a better way the ticket scheduling
+TCE and CSAT, Reduce escalations from S&AS to FSM/SAM/Ces, Accelerate time to Scheduling, Decrease ticket backlog, Aligned with EMC Transformation
+
+
+

@@ -1,0 +1,5 @@
+EMC Inventory/Assessment/deployment/migration "tool"
+Reduce time, risk and cost to implement an FEHC in a brown-field site. 
+Research existing tools and brainstorm possible implementation ideas.
+Toolset to MAP, Design, Deploy, Migrate exisiint environmnets and application stack. Application stack will include Oracle, Microsoft, SAP, etc.
+Ability to interrogate VMs/workloads and application implementations. Represent information and control  back to EMC EHC Cloud operations 

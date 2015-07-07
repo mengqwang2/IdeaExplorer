@@ -1,0 +1,39 @@
+EMC Insight - Social Media Analytics Platform for B2B
+
+According to the Content Marketing Institute and Marketing Profs’ B2B Content Marketing 2015 Benchmarks, Budgets, and Trends – North America report, social media is the tactic used most by B2B marketers to promote their content. 92% of B2B marketers report using social media content. SocialMediaExaminer.com’s 2014 Social Media Marketing Industry Report adds that 97% of survey participants (both B2B & B2C) revealed that they are doing social media marketing.
+
+From the above survey results, it's very clear that social media analytics plays a very important role in B2B marketing and EMC as a company can also benefit hugely by having a native and customized analytics platform which can pull information from various sources to gain customer insights and impact the Customer and Partner experience in a positive way.
+
+
+The idea came up while reading blogs about the positive impact social media and analytics have on the sales of products in a company like Flextronics, one of the world’s largest electronic services manufacturers, worked out how to use Twitter to its advantage. One of their customers was expanding into an adjacent market, but Flextronics’ sales team lacked key knowledge on the timing or specifics of that market segment. The sales team used personal business analytics to monitor related market segments and trends, observing signals that might provide more insight into potential customer moves.
+
+
+The solution lies in building the platform and it can be explained by dividing the platform into the following modules:
+
+1.	Identify the audience and social media sources for capturing data
+
+It requires a little research to identify the right social media outlets for your the company.  A good place to start is by seeing industry publications, credible industry blogs and forums, and/or attending trade shows and industry events.  Doing so will allow you to tap into the community and find out who the power players are and where the buzz is generated. Also, we will need to figure out the social media sources where we need to pull data from. Research has shown that sources such as Twitter, LinkedIn, Google+ and Facebook are playing a very important role. The platform should listen to these social media sources and pull information based on hashtags and keywords. A detailed analysis can be also made by using demographic filters such as data-age, location etc.
+
+2.	Analysis of the data
+
+The data is then analyzed by implementing algorithms. These algorithms are built upon a specific set of metrics which will help in B2B marketing such as:
+
+    Follower growth
+    Follower engagement
+    Visits by social media channel (Twitter, LinkedIn, etc.)
+    Leads by social media channel
+    Customers by social media channel
+
+The collected data is analyzed using the above metrics and converted in a presentable form.
+
+3.	Dashboard
+
+A unified dashboard will be built which will display the data analyzed in earlier steps in the form of graphs and charts using the metrics as mentioned in #2 step above. It is important to maintain consistency in metrics over time. This dashboard can be viewed by the TCE and the prod. management teams to understand the customer centiments.
+
+4.     Prioritize action items
+
+Now that we have this high level view, we need to prioritize your action items.  For example, if the analysis reveals a perceived weakness in strategy, we might opt to make our firm’s strategic approach a key message in all public relations and marketing initiatives going forward.  Another potential action item might be responding to some comments.  In that instance, it behooves us to reach out to customers/prospects directly—especially if they have a lot to say—because they are likely to continue making similar comments about your brand.  Even if the comments are all positive, directly reaching out to them will help you reinforce a positive brand image, perhaps by offering them entry into a new service that your company is beta testing.  In addition to those who have a lot to say, don’t forget to reach out to those with “extreme sentiment” in their comments, particularly if the sentiment is negative. 
+
+
+If the platform is implemented, then it will have the ability to collect information from various social media sources, algorithms to analyze the information and present in the form of dashboards. The success of the idea can be measured when using the view provided by the platform, company prioritizes the areas and plans action items to increase the customer experience. For example, if the analysis reveals a perceived weakness in strategy, then EMC might opt to make strategic approach a key message in all public relations and marketing initiatives going forward.
+

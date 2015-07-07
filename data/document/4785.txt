@@ -1,0 +1,9 @@
+Mobile App for Inside EMC
+
+Just like facebook application and other social network applications.
+My idea is creating a mobile app that is integrated with the new inside emc.
+
+The mobile application should show notifications for any new posts/updates in any of the pages that we are following.
+
+Also the ability to chat with employees through the application.
+

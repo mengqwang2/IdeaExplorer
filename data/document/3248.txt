@@ -1,0 +1,27 @@
+People own the cloud
+
+-
+Everybody needs storage! Everybody has internet.
+This idea let people own their own cloud.
+EMC designs a device that everyday consumers would get and connect it to their internet.
+So this device is targeting home and small business users. 
+This is basically a storage device with network connectivity, security encryption and a cloud OS. 
+
+The storage capacity of this devices connects to other similar devices owned by other people around the world.
+When a user stores data on his own storage. This data is replicated to another user's storage somewhere in the world. 
+
+If one user storage fails or gets disconnected, the alive replica of the data (different device) gets replicated to a another user device until the first device has recovered. 
+This way we guarantee that data is stored twice  and gives access to the owner of the data anytime.
+
+Data of each user is encrypted in a certain way that no other clients can decrypt. If the devices senses a breach to the data of a certain client's data, the devices corrupts the data instantly and replication takes place from the source device to another device in another place. The owner of the device where the breach happened is informed and gets a warning.
+
+The data is accessible from anywhere since all devices are connected to the internet. 
+
+If the owner of the device travels for example and will need part of his data along his trip. he sets his travel date and return, the replica of his data moves eventually from one device to another until it reaches a device close to his destination.
+
+This will gurantee a smooth transmission of the data and fast access when the user needs it.
+
+We could also build a social network on this network of devices. The data of this social network is stored on the devices owned by the people. Each user has his data encrypted with his own encryption key. When the user accepts a friend request, the users exchange encryption passphrases that would give access to the social data of the users that they are willing to share.
+
+This will open a complete new market to EMC and will open a new market for software developement if users use the feature of storage at other users given the guaranteed encryption.
+

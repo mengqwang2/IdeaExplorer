@@ -1,0 +1,7 @@
+Rules, regulations and processes drop down menu
+Finding the rules, regulations and processes of every aspect in EMC is very fragmented. 
+grouping all sectors in a simple drop down menu in InsideEMC toolbar that has all departments and under every one a link to the page containing the info
+N/A
+a simple drop down menu in the insideEMC website that has all departments and COEs and under each it's various policeis and processes as link to the page containing the info
+will decrease the time spent searching for various rules and regulations docs whenever needed specially when new to the role or traveling for example. 
+decrease the confusion of getting unreliable info from fellow employees who may want to help but give wrong or outdated info

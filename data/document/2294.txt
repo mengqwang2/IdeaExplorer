@@ -1,0 +1,8 @@
+Hot Spare Servers for Cloud infrastrcture
+Hot Spare Servers for Cloud infrastructure is highly relevant and required for third platform storage supports such as ECI (Elastic Cloud infrastructures) and ECS (Elastic Cloud Storage). It provides a mechanism for predictive maintenance and better customer experience.
+
+we are working on DCA (Data Computing appliance) since 6 months and starting identifying the problems of general cloud infrastructure.
+The Proposed system uses the SNMP based heath-monitor software to get the status of all the segment server. These status includes the cpu and memory utilization of each of the segment servers. When the healthmond (health Monitor) finds that a particular server (say server Y) is severely loaded, then migrate the data from that server Y to the spare server X which has more cpu and memory. The healthmond can then also generate a dial home specifying that segment server X is replaced with a standby server and suggest to replace the server X with another more powerful server (say server Z) to make the new server Z as the new spare server.
+1. Better Customer Experience.
+2. A very Good Service based (though EMC dial home) business to EMC
+3. Unique feature to effective presence of EMC in thirdplatform storage

@@ -1,0 +1,14 @@
+Egypt COE -  IOT  Health services 
+The internet of things is the future. Although Egypt ranks 176 out of 192 countries for internet speed, but Egypt's current coaxial cables network is being replaced by optical fibers. So it's expected to have higher internet speed in the near future. My idea is to provide a special health care for pregnant women , aged people , and citizens with critical health conditions. Beside improving the medical care system by making it based on cloud. Indicating any possible enhancements to the current health care system , by data gathered.
+The idea evolved from my observation of  the sufferance of aged people to get the medical care they need.
+In Egypt ambulances has slow response time.  My idea is to enhance the health care / ambulance system  : 
+1- A smart device ,connected to the internet, will be given to people with critical health conditions. This device will have GPS. Data will be gathered about their current health status and in case of any health issue , the nearest ambulance will be notified by the citizen's current location and health status.
+ 
+2- Dividing cities based on regions and measuring the ambulances response time , as well as the needs of the region residents , this will help us to indicate number of hospitals  , pharmacies  , and  ambulances needed. 
+
+3- Data gathered from smart devices will be subjected to big data analytic , so we can indicate the health condition of the residents of the region , epidemic diseases ,hospitals and medical centers needed. Suggestions of any possible enhancements to the existing health care services can be deduced from the analyzed data. 
+
+4- Making the ambulance system based on cloud and thus benefiting from cloud's fast response.
+
+
+Faster Ambulances response will be achieved , if my idea was fully implemented.  This will enhance the health care system in Egypt , as we can indicate regions within the city that needs more hospitals , health centers and ambulances.  In the health care world , every minute counts , people with critical health condition will have faster access to ambulances.

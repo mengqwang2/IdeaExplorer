@@ -1,0 +1,41 @@
+Method to improve VPlex performance using XCOPY throttling mechanism.
+
+While working on XCopy and Vplex.
+
+
+Proposed Solution:
+-----------------
+
+1.With respect the problem statement 1, 2 & 3 the proposed solution is to have priority based initiation of XCopy operation at VPlex. The Priority can be defined in 3 different ways, say:-
+
+a.High
+b.Medium
+c.Low
+
+2.With the above implementation the biggest advantage that can be achieved is :-
+a.It will lead to application critical XCopy operation being performed first and the least used or least critical XCopy operation being performed at last, which will lead to great user experience.
+b.With the above implementation the performance at VPlex level can be boost up making/Queuing the XCopy operation based on the utilization or based on the VPlex incoming load.
+
+3.With respect to the problem statement 4 & 5 the proposed solution is to have an intelligence of XCopy process control at VPlex level. The implementation could be by provide the Control of Pause/Halt or Stop operation at VPlex level, which would result in  
+a.Great User/Customer Experience, where a customer can go ahead and Pause/Halt the XCopy operation when there is High application traffic.
+b.It will provide greater flexibility to the customer having a control at times when he/she wants to stop/halt the XCopy operations in between.
+c.At times it will prevent to get rid of the ESX hang issues, when a User would have a flexibility of Stop/Halt/Pause the XCopy operation at VPlex level.
+d.It will be a win/win situation at both VPlex and VMware level when this flexibility is being provided at VPlex level.
+
+4.With respect to the problem statement 6 the proposed solution is to have Status window at VPlex UI level say :-
+
+a.% Complete
+b.% Remaining
+c.Bandwidth utilization 
+d.Time taken
+
+5.Which will :- 
+a.Lead to a greater Customer experience, since he/she would have greater flexibility of making decision based on the status shown at VPlex level.
+b.It will provide a greater flexibility to the admin by having Current ongoing Progress of XCopy operation.
+
+
+References ->
+
+For Detailed Description, please refer to the link ->https://inside.emc.com/docs/DOC-106811
+
+

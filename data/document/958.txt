@@ -1,0 +1,11 @@
+Innovation Incubator to extend the Innovation Roadmap
+Currently the Innovation Roadmap is annually held, but actually innovation is not a once a year event. It occurred in our daily life. Innovation Incubator would be a good thing to extend our roadmap.
+I came up with this idea when I am doing this innovation roadmap. I want to make the whole process more interesting and meaningful.
+Innovation Incubator is a place whenever you have some brilliant idea, you could put it here as a project seed. Every one could see it. Every one could be a contributor to it. Every one could help to improve and perfect it and make it grow up.
+
+Innovation Incubator could provide following functions:
+1. Each idea would be regarded as a project. you could follow up any idea you are interested. you might be notified if there is some new updates from it.
+2. The idea in Innovation Incubator has version control as well. Could revert back to the last version if the new idea is not feasible.
+3. There is no owner but contributor, if the idea is chosen in the final list, which means this idea is relatively mature. Anyone interested could help to create prototype for it or improve better.
+
+I would call it success if we truly inspired engineers passionate and cultivated some valuable project which could bring company business value.

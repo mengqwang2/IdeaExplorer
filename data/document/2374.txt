@@ -1,0 +1,24 @@
+Extensible, Machine learning, Solution geared, Analytics product/framework
+Challenge Addressed: CTD Supportability in 12 Months or Less
+Relevance: Leverage Analytics to help debug customer issues. Since analyzing logs of one product in isolation does NOT help when it comes to solution debugging, a tool that can co-relate, having capabilities to learn over time with more data can be very very useful and would ease the supportability of the solution. 
+TCE being a constant challenge for the product line I am working for.
+
+Also, I worked on a product to improve the TCE of NetWorker but it was product specific and this idea is more geared towards SOLUTION.
+The solution is to create a product/tool which can gather and analyze 
+- Logs/output of the various EMC products involved in the solution
+- Customer environment (Hardware, network, software etc.)
+
+Based on the solution, correct analytical model (Naive Bayes, KNN, Random forest etc.) can be chosen and the product give the customers:
+- Possible causes for the issue
+- Possible remedial actions
+
+The development of the tool is not very difficult and can be achieved in around 12 months:  
+- "R" can be used for Analytics 
+- Getting environmental information is also not very tricky. 
+
+But the tricky part would be analyze logs from multiple products and then co-relate them along with other intelligence to come up with causes/remedies.
+
+In order to be extensible and effective, each product line should implement some REST APIs to analyze their logs which can be consumed by this tool/product and do Analytics.
+The product would be a machine learning framework which can has the provision to analyze new products, new environments and provide relevant solutions to customer issues.
+
+Most of the frustration of using a product/solution comes when the failure happens and the customer has no clue why it failed. This would give him/her a chance to understand why and where the solution failed and what to do next. This should SURELY have a very positive impact on overall TCE and also ease supportability.

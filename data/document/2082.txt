@@ -1,0 +1,5 @@
+making use of big data to improve work efficiency and user experience
+big data can be used both in intranet and internet to collect valuable information and deliver them to their owner. It improves work efficiency and users receive a better experience at the same time.     
+advantages of big data technology
+in internal system, big data technology is utilized on intranet such as community.com and inside.emc.com. Big data technology can collect, evaluate, classify and delivery requests and advices to their owner. Big data can be also deployed on internet to analyze hot topics of storage relevant solutions on current market. In this way, selling will have a better understanding of market. 
+Improve working efficiency and user experience, help EMC know customers’ need better.

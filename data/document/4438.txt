@@ -1,0 +1,5 @@
+Use NFC for employees' identification and communication
+
+null
+Develop an APP that can modify NFC’s information.  
+

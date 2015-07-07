@@ -1,0 +1,19 @@
+Book a room
+Using IT resources to change process of booking rooms
+It takes us time to find a free meeting room every time we want to reserve one. We have to check schedule of these rooms by name using microsoft outlook.
+A mobile application that is connected to a server where information of all meetings rooms are stored.
+
+Features:
+
+-You can check for free rooms.
+
+-You can get info about occupied room and what is it occupied for.
+
+-You can book a room for desired time.
+
+-You can book a meeting and invite any other employees.
+
+-*Application can be integrated with other EMC applications.
+
+-*Each employee's schedule can be integrated with mobile's calender.
+Saving time

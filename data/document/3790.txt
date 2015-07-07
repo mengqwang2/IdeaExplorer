@@ -1,0 +1,6 @@
+On-Array LAN-Based ICA
+
+We suffered doing off-array LAN-based ICA before, and we have setup such an environment for several local VNX arrays in recent months, and we can not do LAB-based ICA remotely.
+Setup a shared ICA server in the Lab environment and enable DHCP relay on those subnets that arrays reside in, so arrays could boot through PXE boot service provided by the ICA server. 
+Configure arrays with serial access, e.g. dedicated console or even terminal server configured is OK for it so we can kick off LAN-Based ICA via serial line.
+

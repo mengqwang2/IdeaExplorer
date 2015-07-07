@@ -1,0 +1,12 @@
+InfoArchive Connectors Store/Marketplace
+It addresses creation of archiving connectors marketplace and framework for InfoArchive.
+The idea came to me from using IFTTT and another emerging solution called StampPlay both of them address different domain, but the idea of having customer friendly integration layer (connector framework) is applicable ad well to information archiving solution, so I propose it here. 
+Building an online store for InfoArchive connectors (marketplace), where a partner has an experience with archiving an enterprise application, they package that and make it configurable and sell it to other partners or even customers. 
+
+This will require developing archiving connector framework so that developers will have specific interface to develop connectors/jobs which could come with metadata about configurations to be changed by archiving admins. The framework is responsible for execution of the connectors/jobs and configuring them in user friendly GUI. The connectors can be uploaded to the store by developers later on and be sold to others.
+
+Then InfoArchive customers and partners can browse the store and download the required connectors which are configured to archive the designated systems. I dream to build something like IFTTT for InfoArchive, i.e. making a modular connector framework.
+
+- It allows partners share their best practices.
+- It will create an echosystem for information archiving that grows quickly and autonomously, sustainability of the growth in this market will depend on building strong echosystem
+- It allows customer to gr

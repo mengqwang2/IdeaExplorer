@@ -1,0 +1,16 @@
+Intelligent cloud based client/server application to identify test machines
+
+We faced a lot of issues in reserving and using test machines. Due to this there were delays in unit testing. Also a lot of time went in manually searching for the required test system and reserving it in the application.
+This idea occurred to us while brain storming on innovative ways to improve productivity, effective resource utilization and solve resource crunch problems. 
+Develop a client server SNMP based application provides real time test machine status
+- The server consists of a repository of all test systems belonging to a product.
+- A client capable of communicating with the server is installed on all the test systems.
+- Upon user login, the client sends the information to server and the test machine usage count is automatically incremented.
+- The server queries information such as test machines, Operating system, reserved or not reserved (color coded), Usage count, the user who has reserved the test system and displays to the user.
+- Once the user chooses a test machine and logs in the usage count is automatically incremented in the server.
+- Option is provided to reserve the test machine for long intervals.
+-If a user has reserved a test system and is not using it for more than a stipulated time the machine is automatically released to free pool and the user notified.
+- If the user has not reserved the host and is using the machine the tool should notify the user/tool admin that the machine is being used without reservation.
+
+This application results in productivity improvement and solves the resource crunch problems.
+

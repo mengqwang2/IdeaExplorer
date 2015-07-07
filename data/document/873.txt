@@ -1,0 +1,8 @@
+Smart Transport App for EMC Bangalore
+This is a Challenge addressing the transport issue for EMC Transport 
+There is lot of turbulence in recent times for cabs where there is a Cabs crunch and also the routing issue with larger login times which you need to board the cab way before the login time. 
+The idea will solve the problem of Logging in and out for Cabs and is it better than other approaches as it will pop out the Drives location 
+and as well the Pickup location and drop location with approx timing.It is unique and innovative as it will be paper less and be added more and more features 
+with upgrades.
+It is a Unique and innovative idea and will benefit the company For instance, It will save large amount of money on paper and it is a green initiative
+and also increase the productivity  and also improve the customer satisfaction and can decrease the manual effort. 

@@ -1,0 +1,31 @@
+HPCaaSv2 Focus Idea
+This idea submission is a new business opportunity (market) which I hope can convince EMC to pursue further.
+
+Commercial HPCaaS (High Performance Compute as a Service) 
+
+The office of the CTO "New Business" Challenge is the only one I'm submitting for.
+This idea is the second attempt (v2) submission of my original 2014 HPCaaS idea.
+
+Idea has evolved with the introduction of VxRack, which fulfills the Hyperconverged stack I proposed in v1 of the idea as well as changes on the cloud orchestration layer.
+
+Original idea came about during my engagements with my Semiconductor/EDA customers who manage & run their HPC environments.
+
+List of problems solved stated earlier are actual challenges both HPC customer engineering & IT team faces and I'm certain we can definitely address the overall big picture challenge as compared to just proposing Isilon Scale-Out NAS for their HPC compute farm or address high performance requirements with VNX/Lustre.
+
+From a customer standpoint, we have shared the high level architecture of our idea to a existing EMC EDA customer and they have expressed support towards beta/prototype testing within their environment with the target of offering their own external customers with a hosted XaaS offering based on this idea.
+
+Detailed solution deck available on: https://inside.emc.com/docs/DOC-154253
+
+HPCaaS: Single interface + dashboard for users to decide where they want to submit their jobs (On Prem infra or Cloud based) and predictability on long it will take to complete processing the job (Big Data Analytics) + display associated costs
+
+Infra: Hybrid Cloud Architecture consisting of:
+- On Prem HyperConverged Infra on VxRack with option of DSSD (Data localization/Lower Storage Latency/increase compute utilization) or vOneFS and private cloud framework of choice.
+- Off Prem Cloud access of compute (VMware VCA or SP partners) & ensure data transmitted between On Prem & Cloud is secure (Security)
+- Orchestration layer - single platform to model, migrate & manage clouds, applications & users
+
+Based on my research and customer interactions, I am not aware of any similar approach that provides HPC customers with "Turn-Key" On-Prem Hyperconverged infra as well as ability to burst out workloads to the public cloud. Closest offering is Cycle Computing's partnership with AWS.
+
+This idea is unique as it offers HPC customers a single ecosystem for their entire HPC needs and takes out the guess work of whether their workload should run on-prem or on a public cloud provider and still gives them a choice to keep their sensitive datasets secure.
+Success = HPC Program office setup to drive standardized offering for HPC market and EMC getting on IDC's vendor tracker as one of top 3 HPC providers.
+
+This creates a new revenue stream for EMC, possibly up to $8.1 Billion by year 2017.

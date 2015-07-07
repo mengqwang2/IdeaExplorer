@@ -1,0 +1,5 @@
+Auto Zone when all FC port are cabling ready 
+Currently FC zoning operation are still operated on switch side which need lab man to search each WWN port then create zone configure. This is a operation waste. especially in cloud fabric which located at remote site.   
+When I cost whole month to communicate with labman to complete one zone. We used to have that tools on MEL but abandon it now. it is better if it can be integrated on array.   
+Just a easy scripts involved in current VNX serials network tab to let the FC port listed can zone with other port on other array or host by providing several zone ways. That scripts will find the switch info by it self and recognize the port information then add zone on switch.  
+Save time and labor. Lab administrator no need to focus too much details of zone configure  

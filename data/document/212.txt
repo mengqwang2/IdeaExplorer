@@ -1,0 +1,53 @@
+"Digitize It"
+This idea will help in digitizing cultural heritages by offering a crowd sourcing platform and mobile app
+This idea came up as my colleagues and myself decided to brainstorm and combine our efforts and thoughts to get better ideas for this year's innovation conference.
+Our idea is to develop a platform where EMC offers a customized application that connects cultural heritage providers with employees who are willing to give to the community and contribute with their efforts to digitize the information.
+
+Platform:
+The platform where EMC is the admin is open for reactive and proactive requests to the app.
+
+*Reactive:
+Heritage providers to create profiles where they log the below information:
+- username / password
+- First Name
+- Last Name
+- Phone
+- E-mail
+- Organization
+- Title in organization
+
+After they get the confirmation they can submit an app request where they will be directed to choose the existing template or create a customized one from scratch:
+--Template:
+- App Name
+- Organization Name (imported from profile)
+- Organization Location
+- Logo
+- History
+- How many users will access this application
+- Platform Support (IOS, Android, Windows Phone) -we can use any of the new development platforms "Titanium, Phone Gap"
+- User accessibility preference (Public, Private, Hybrid)
+- Kinds of data that will be imported and estimate size (images, texts,...)
+- Application usage (educational, cultural,...)
+
+--Customized:
+- The same template + additional space for comments and special requirements.
+
+After submitting the request, it will go through an approval process by EMC where we specify a lead time based on the app requirements.
+
+After it gets approved, the submitter can verify the information once again to give the final confirmation and sign the terms and conditions for the mobile app creation.
+
+*Proactive:
+EMC employees will submit credential requests where they get username and password to access the platform.
+
+Employees can suggest a heritage provider and/or register themselves as volunteers.
+Heritage suggesters will go through a form that goes through an approval process.
+
+Volunteers will get notified with the new projects; projects can be 2 types:
+- Proactive - after a proactive request gets approved, this committee of volunteers will reach the heritage providers to propose the project and take ownership of it.
+- Reactive - after the app is launched the volunteers to be part of the project (Public and Hybrid) and help uploading the hard copy of the materials.
+
+App:
+Please find the prototype in this link:
+
+https://popapp.in/w/projects/55933152168bc14427235c27/preview/5593321dc42191457e460d57?transition=pop&t=1435712442541
+This platform and app will help in preserving heritage by giving back to the community by allowing EMC employees to contribute.

@@ -1,0 +1,5 @@
+Sports Betting App
+
+Innovation Session
+In important sports events like world cup/champions league/olympics there can be a betting competition where each bidder pays a small amount of money and the winners get money/prizes but a percentage of all this money goes to charity or to funding sports. All this via an app sponsored by EMC.
+

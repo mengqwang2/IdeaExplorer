@@ -1,0 +1,23 @@
+Better space utilization for Greenplum – an enhancement to current Greenplum system for smarter space allocation
+
+The idea came up while reading about Pivotal Greenplum database theory of operations and how to make enhancements to optimize space and reduce overhead in Greenplum without affecting performance. 
+The two  features that cause huge space overhead  in Greenplum database are :
+1-	Update operation: the logical update feature used does not update the requested records, it rather leaves the old records as they are and creates new records with the new values and use pointers to point to the new locations.
+2-	Delete operation: The logical deletes feature in Greenplum does not free the space used by deleted records, it rather deletes only the pointers
+For example, if you are using Greenplum database in an OLAP system and updated 1 million records, the system will not override the existing 1 million records but it will create a new 1 million records with the new value and update the pointers to the new location. 
+
+The drawback of this approach is that :
+1-	Each update operation means adding more space if needed which means unnecessarily growing space allocation
+2-	 If the current segment has no space this may allocate space in another segment of the parallel Greenplum system which may impact performance by increasing the data motion when the new data are used.
+3-	It leaves unneeded gaps in the database. 
+
+The only benefit of the existing approach is having faster update and delete operation. However this feature is designed for OLTP (Online Transactional Processing) systems and is not that necessary in OLAP (Online Analytical Processing). In OLTP system the Performance is the key requirement while the nature of OLAP systems is different.
+
+The proposed solution is :
+-	When the update operation tries to allocate more space for new records, use physical updates rather than logical updates. Meaning update the old record themselves.
+-	When deleting records and performance of the operation is not sensitive, the use physical deletes to free more space.
+-	A flag can be set to switch between physical updates and deletes to logical updates and deletes depending on the performance Vs space requirements
+
+
+
+

@@ -1,0 +1,10 @@
+Intelligent public transportation app
+
+Public transportation networks in big cities are very complex and many people use them as the primary way of transportation.
+An app facilitating the use of different public transportation options to go around the city and the estimated time of arivel will greatly help residents and visitors of the city
+Wanted to integrate 3 app ideas one that tell you the traffic condition of your route "bey2ollak", the other is "Wassalny" which tell you which public bus you can ride to go to your destination and the last is google now which give you recommendation about places near to you.
+An app were you write your place and the destination and it will give you different public transportation options including the time of next journey and the estimated time of arrival depending on the traffic by querying this info from other apps like "bey2ollak" for each option.
+Moreover it highlight significant places and events happening along your route.
+
+
+The app being available on the app store and google play and used by many people 

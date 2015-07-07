@@ -1,0 +1,11 @@
+Graphics and Images database with Product Description
+Reducing the potential risk of employee error. Alongside the product part number, it would provide a second source of confirmation; ensuring the correct product is on hand/ being shipped. Reduce any potential shipping errors, and help maintain high quality customer relations. Improving communications within EMC and with our business partners.
+The idea was a product of a group innovation workshop incorporating employees across various teams within CS. The program was facilitated by co-ops. The idea was discussed and refined through group discussion.
+Many products are known by their hardware designated name, i.e Megatron, BoneCrusher , Luna, Europa, Viking, Derringer, some parts are interchangeable between with exception of small changes which made compatible to a specific system, employees can currently only confirm they are working with the correct product based on Solve Desktop and part-number alone.
+The solution would be to introduce a means by which all products part numbers can be checked against a graphic or image database, which the user can compare. This could be easily implemented in an upgrade to the current Parts Compatibility Database. 
+The only comparison of a second source of confirmation currently available to employees is their own personal experience. Some employees are able to recognize a product by sight, but this is not a foolproof method. A more secure and reassuring method is needed.
+
+By supplying a database that can give an image of a product, anyone can ensure they are selecting the correct part number which will fix the issue on the first call, without fear of error, reducing the logistic cost associated with part’s dispatch, by consequence avoiding unnecessary field visits to a customer site related to a given Service Request.
+
+This will benefit all staff member from the Global Customer Support department up to the Logistics Department.
+

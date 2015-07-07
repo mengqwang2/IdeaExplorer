@@ -1,0 +1,17 @@
+Smart portal for meeting rooms 
+
+We got the idea during an ideation session while thinking about the challenge of the IT and how can we enhance the interaction and facilitate the process of booking the meeting rooms.
+We will simply get a portal which will connect all the meeting rooms globally and create a dashboard which shows the availability of every meeting room.
+
+We will get an extension outside each meeting room. There would be 10 touch screens/Ipads that will be used to display the upcoming schedules and the status of the room.  (when it is booked during the day)
+The dashboard also could also be used to book an upcoming meeting. You would just have to input :
+number of people , time and date of meeting, and this application can suggest for you if this would be a suitable meeting room, or it can suggest for you another meeting room to book. 
+
+Each employee would log in using their SSO credentials so that they can synchronize the date and time on their calendars.
+
+Employees can still book their meetings through their email and it will automatically reflect on the rooms schedule. 
+
+System will be connected to the unified platform for EMC IT.
+
+
+

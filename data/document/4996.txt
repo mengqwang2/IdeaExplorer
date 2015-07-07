@@ -1,0 +1,13 @@
+Continuous Availability for VNX/VNX2 File in Cloud Infrastructure
+
+We came up this idea when we implement MDU feature in Inyo SP1. We tried several different approaches for the 60 seconds target in large configuraion, but do not work. Richard Hooker, Eric Vook, Huang Yechen, Lin Colin and He Colin are also part of the projects in Inyo.
+MDU(Minimal Disruptive Upgrade) on Inyo SP1 was designed to use Data Mover failover mechanism during upgrade to decrease the IO interruption time, instead of Data Mover reboot. It can handle most IO interruption requirements for small/medium system configurations, but when the customer have large configurations(thousands of file systems, checkpoints, replications etc), even the data mover failover mechanism can not help decrease the IO interruption time.
+
+However as VDM(Virtual Data Mover) is more popular today, we can leverage VDM move feature to further minimalize the IO interruption time by decrease the upgrade fineness. During uprade, we will not upgrade a physical data mover all together, instead, before we upgrade physical data mover base software, we will move VDM from the target physical data mover to other active physical data mover in the same cabinet firstly. Only when the VDM has been moved successfully, we will continue the physical data move ugprade.
+
+For any host IO(even high load) to a specific file system on one VDM, if the protocol is NFS, then the VDM move will be transparent to the host from protocol view. Consider application on top of the protocol, if application has put time-out on protocol request the transparency will depend on this. For example VMware by default does not tolerate a DU more than 60s.That means the host will not detect any IO interruption if the VDM move can complete in 60s. If the protocol is CIFS, as far as the VDM move can complete in 2 minutes and CA enabled, it will be transparent to the host.
+
+As the failover IO interruption timing data on large configuration before, the DU is always < 120 seconds from the test. With VDM applied, in a typical environment the customer should apply at least 2 VDM per physical Data Mover(For example, in City Group's IT environment, it deploys 29 VDM per data mover). As VDM move happens on active data mover, it is believed that VDM move performance should be better than failover mechanism at same configuraton level since failover happens between primary and standby data movers, more configurations need to be loaded when failover happens. As a result, in a typical environment, with IO load/file system balanced among VDMs, VDM move should be able to help VNX/VNX2 File upgrade achieve the 60s IO interruption target.
+
+
+

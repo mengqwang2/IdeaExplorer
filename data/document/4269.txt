@@ -1,0 +1,63 @@
+iEngage - Employee Engagement Portal (EEP)
+
+At present we don’t have a common platform where technical, best practices, social knowledge can be shared across BUs that are happening inside EMC. 
+
+We had found cases where in case if an employee leaves the organization, then his work, ideas and best practices, knowledge on the product is not being shared effectively to the resident employee in the group.
+
+There are cases where employee wants to engage themselves in learning other EMC products which are not part of their BU. But due to unavailability of such common platform where knowledge can be share, it becomes obstacles for learning and growth of the employees.
+Functions of iEngage: 
+--------------------------
+                                  iEngage is a 3rd platform application which is like a wall ( or comprises multiple walls) where every employee would come and post his / her thoughts, only that this wall is not a real one but a wall in the virtual world of the computer network.  It can be open to all employees for posting anything as long as the "anything" complies with a certain set of restrictions. 
+
+
+Target Areas in iEngage:
+-------------------------------
+            This can be leverage not only for technological forum but also for social networking,innovation, improving productivity etc. This helps binding EMC employee together and support among themselves.
+ 
+        1)	Knowledge sharing on EMC technologies and products.
+                
+                a)	Currently we don’t have a dedicated platform where the knowledge sharing can be achieve among the employee who are eager to learn on the EMC technologies and products.
+                
+                b)	This also helps employees across BU to participate and share their experience and expertise.
+
+        2)	New evolving technologies across globe
+
+                a)	This will help in growth of the employees in shared or acquiring knowledge on the new evolving technologies and ideas, to implement new technologies in conjunction with EMC technologies.
+
+        3)	Technical discussion
+
+                a)	Currently we don’t have a proper medium of storing and referring the ideas, discussion, tech sessions. This application can be leveraged to store such thing which will become a knowledge base for the EMC employees.
+ 
+                b)       It will also help the current employees to gain most of the technology in a faster way.
+
+        4)	Sharing issues and finding solution from inside/outside project groups 
+
+                a)	If any module expert leaves the organization then their knowledge is not being shared among the existing or the new developers. They need to struggle a lot in order to get a fair hand on experience on the product.
+ 
+                b)      This app can be leveraged to store and share the discussion outside the BU in order to get their feedback/suggestion. 
+
+                c)	Best practices can be shared for resolving issues by the development team which can be referred by the CS/Escalation team.
+        
+        5)	Classifieds by Employees (Buy/Sell/Rent)
+
+        6)	Day-today conversations.
+
+        7)	Healthcare. 
+
+        8)	Entertainment and Events.
+
+        9)	Sports.
+
+        10)	Social talks.
+
+                a)	It involves discussion among employees want to share or express their views on social topics. 
+
+
+Users of iEngage: 
+----------------------
+
+          There can be different categories of user such as 
+               •	Information Seekers.
+               •	Guides.
+               •	Subject Matter Experts.
+

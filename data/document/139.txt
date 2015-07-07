@@ -1,0 +1,5 @@
+Remotely Controlling Electrical devices
+N/A
+Available but not as a mobile application 
+Application to be used to control remotely the electrical devices by just pinging it via IP or its local host name like "VNC viewer application" but we need an application to run also on the phone to make it much faster and easier to deliver the high quality of service 
+Internet of things 

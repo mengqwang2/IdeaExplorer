@@ -1,0 +1,11 @@
+Community Services Live Dashboard
+I believe the community involvement challenge is aiming to get ideas to promote and enlarge the community activities done by EMC employees. Having a regular dashboard with numbers and metrics saying what EMC has done to the community and sharing this on a regular (quarterly) basis will give the employees a clear insight on what the real value of helping the community is, and will motivate them to do more to make the achievements and numbers higher.
+I led many projects with having measures of success communicated to people on a regular basis and know how much this engage and motivate people to participate. Here in Egypt COE I see great progress in the Community activities, but I guess there is a big room for more participation if such a dashboard with measure of successes takes place and is communicated with people.
+First dashboard metrics (measures) should be chosen, covering all areas EMC can help the community in (power/energy saved, number of classes delivered for raising the community skills, number of blood donation events with number of volunteers, number of fund raising events with amount of money raised, number of houses re-built...etc)
+
+Then an automated dashboard should be designed and developed to keep the metrics and numbers achieved updated live at each point of time.
+
+Apple and android applications to be developed to have all EMC employees and customers' access it and see EMC community involvement dashboard with all successes at any point of time.
+
+P.S: I can help in the design, development and implementation of this whole idea as I have led many similar projects with dashboards and reporting designs.
+This will give EMC management and employees visibility on all community work done and its benefits with numbers which will help give more value to the community and get many many more employees to be engaged. I have developed many dashboards and can I think this can be very easy and feasible to implement and track progress/updates.

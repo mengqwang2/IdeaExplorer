@@ -1,0 +1,24 @@
+CONNECT EMC Employees APP (for mobiles/tablets)
+
+We wanted to create a chatting group for my team to be able to broadcast any urgent/new updates. Having similar application will make it a lot easier to communicate within our teams or within the organization.
+
+Application can be like facebook messenger/viber/ skype
+A mobile application that uses EMC Badge ID and official email address of each employee for authentication.
+
+Features:
+
+-Application will have the ability to add any EMC employee using their Badge ID, Email and Name.
+
+-Application will have the ability to create group conversations between different people.
+
+-Application will have the ability to do file sharing - Can be integrated with syncplicity-.
+
+-The ability to do voice calls between employees.
+
+-The ability to do video/conference calls between employees.
+
+-You lose access to application once your email is no longer available "No longer working for EMC".
+
+-Ability to post status and profile pictures.
+
+

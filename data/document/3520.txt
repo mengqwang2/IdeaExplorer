@@ -1,0 +1,29 @@
+ EMC Lab Service for customers
+
+I have been thinking of such solution when I saw many customers would like to run tests on their production environment and are limited by time and HW components available 
+
+
+ 
+The idea works as follows :
+
+-	EMC will build a cloud based lab-as-a-service that will be available for all EMC customers. It will be booked and used online
+-	The lab will offere different EMC products and environment setups like :
+o	Host 
+o	Networking 
+o	Storage 
+o	Software tools 
+-	The lab components will be simulators for real appliances (a virtual machine serving as the desired component)
+-	The lab will be available via a web portal
+-	The lab will be presented in GUI that is friendly to the customer with drag and drop feature to connects components together
+-	The lab infrastructure is intelligent and aware of the compatibility matrix for each product
+-	On demand IO simulators
+-	Performance dashboard is used for performance analysis and testing
+-	EMC can add its own charging mechanism for billing
+-	After the booked lab is released, components will be ready for use by another customer.
+-	An example of this lab simulator already exists in VNXe KittyHawk simulator 
+
+REFERENCES :
+http://supportinfo.lss.emc.com/VNXe/KH-_Simulator 
+
+
+

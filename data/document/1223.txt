@@ -1,0 +1,9 @@
+Captiva Captute API for 3-rd party integration. Integration Captiva and 1C
+New API will allow easy and fast integrate any 3rd party component and Captiva
+While virtually unknown in the West, 1C:Enterprise is a market leader in Russia.
+But Captiva doesn't support this system.
+Integration Captiva and 1C - will allow to increase attraction of Captiva products on Russian market.
+
+Generally - need to develop API for easily integration Captiva and any 3-rd party component 
+Make money - via new customers
+Enhance productivity 

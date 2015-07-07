@@ -1,0 +1,19 @@
+EMC Smart Solver (Troubleshooting App for customers)
+Enhancing the process of troubleshooting and solving customer's issues when they face one with EMC Products.
+
+This is going to enhance customer's experience and make solving issues much faster as we will make use of IT.
+EMC Solve Desktop and internal troubleshooting guides
+-EMC Engineers will develop an application (similar to troubleshooting guides) which will have list of products.
+
+-Each product will have list about common errors categorized into software sections where customers can go through them.
+
+-Application will have the ability to search inside Knowledge-base Articles as well to assist customers.
+
+-If issue is serious, application would advise the customer to contact the support and while doing this he can gather the logs to save time.
+
+-Tool itself can open the service request automatically and customer can add his own note/problem description in the tool.
+
+-Application will be always updated with new issues and features.
+Customer will be satisfied solving common easy issues on their own and increase the level of service in EMC Support.
+
+We will be also saving time with initial troubleshooting as customers will collect logs for example and provide us with the output of the application.

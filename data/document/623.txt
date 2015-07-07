@@ -1,0 +1,10 @@
+Handover Tool for RSA
+In RSA department the WFM at the end of the day sends an e-mail to the team to ask if anyone has a handover, which leads to many e-mails in the Outlook. 
+
+NA
+We would like to introduce a new tool: the handover tool.
+Everyone will have access to this tool. 
+Once an engineer has a turnover, he/she opens the tool and enters all the required details in the tool. 
+Another employee from the handover region will open the tool too and check for the newest handover to his/her region. 
+The process of handover will run smoothly. 
+The engineers will simply open the tool and check for all handover cases. 

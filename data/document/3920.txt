@@ -1,0 +1,17 @@
+Leverage Big data analysis for energy saving in our array
+
+come out the idea when see the challenge.
+Every business or organization has some kind of working routine or practice, its peak time, rest time etc.
+
+These legacy data is not leverage in the past days, but they are much valuable data for us to define power-saving strategy without impact to customer's production.
+
+Below is the way to implement power-saving module:
+1. Array is running with its full speed in the beginning, but recording the I/O history in certain data store.
+
+2. After monitoring certain period, power-saving module will do history data analysis and get the rough rush hour and rest hour and prompt suggestion to customer in management console to implement power-saving strategy.
+
+3. Once customer adopt the strategy, the CPU will be turn slow during rest time and save the energy.
+
+4. The power-saving module will continuously collect the history, if the power pattern changed, new suggestion will be provided to customer.
+
+

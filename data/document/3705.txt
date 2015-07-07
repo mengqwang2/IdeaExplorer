@@ -1,0 +1,7 @@
+Implement a manufacturing "Yellow Bar" process to eliminate FC testing on ~3500 Data Domain DAEs per quarter.
+
+This is a 2014 manufacturing OE initiative.  Don Hon is Project lead.  Savings $1K Hard, $50K soft
+By integrating FC testing of the Data Domain product into the ET process, Data Domain orders will be customer shippable directly from availability 
+ 
+
+

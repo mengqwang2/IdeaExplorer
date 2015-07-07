@@ -1,0 +1,20 @@
+Taking XTREMIO  Flash Storage Architecture to the next level - Penetrating the Datacenter 
+
+This idea came while attending the xtremio training where the product postioning was explained
+XTREMIO  Product plays the role of what VPLEX is currently doing. It is positioned in the path from the Host to the Storage.  Of course this might require any architectural changes. The architecture remains the same as vplex where the vplex virtual volumes are presented to the host and the underlying storage can come from  emc or third party.
+ 
+This would help the customer environment in multiple ways. 
+All customer volumes are serviced by xtremio. We get performance boost immediately. 
+
+Repurposing of existing customer storage . Hence better ROI. 
+
+XTREMIO acts as a filter with the data deduplication feature. Hence since inline deduplication is in place storage capacity requirement is less at the backend storage array. Also while disk zeroing , since the xtremio does not actually zero out the storage area, this would also lead to storage space savings in the backend. So Better capacity utilization. 
+
+The XTREMIO performance benefits are leveraged with any backend storage array. 
+
+This can further be developed in a similar vplex metro solution . Hence a robust data center performance levels  repurposing existing storage. 
+
+Management can be integrated with api plugins to the vcenter and the cloud stack. 
+
+The focus helps expand XTREMIO horizon and more business opportunities & revenue
+

@@ -1,0 +1,14 @@
+VCE VxRack sales targeting
+This idea is applicable to the "End to End Business Process Challenge" as an idea that may improve our sales process and also develop the products and services necessary to execute the idea.
+My idea comes from working at a previous company. It was a steel service center with multiple branches, owned by a national steel conglomerate that has over 300 locations. 
+
+When this company was previously a family-owned business, they probably wouldn't have cared that much about VCE's value proposition. That $10k difference would be coming out of their pocket, even if it would save them $20k over the next few years. Additionally, they probably wouldn't be technical enough to understand the differences between VCE and Nutanix.
+
+If VCE sold to a national organization, they would have a head of IT that could comprehend the technical value of the VCE platform. They also know that if it was possible to improve utilization or decrease headcount for each branch, those cost savings would multiply quickly.
+
+My idea would be to sell VxRacks to clients that have multiple branches, each with their own computing needs. A small business that only needs one rack will probably choose the low-cost provider, but a larger business will see the value that VCE provides in terms of stability, especially the Release Control Matrix. 
+
+For example, if Target needs a couple racks in each of their stores, they would vastly prefer the solidity and one-stop customer support that VCE offers. The value in downtime reduction or increased utilization is always there, but multiplying that value over hundreds of stores will make it much easier for clients to choose VCE over Nutanix. 
+The initial success would be to get clients that want to buy dozens or hundreds of VxRacks, then deploy them across dozens of locations.
+
+Further down the line, there may be an opportunity to create "VxRack-as-a-service," where VCE helps to manage these deployed VxRacks. I'm sure that remote and branch offices have plenty of inefficiency in IT services that could be reduced.

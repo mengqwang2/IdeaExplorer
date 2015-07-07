@@ -1,0 +1,22 @@
+Content Intelligence/Process Services based on Map-Reduce for data lakes
+Business Data Lakes storage + Map-Reducible Enterprise Content Services
+Use ECD technologies to analyze massive data on EMC storage
+open-source embrace
+
+
+Talking with ECD xPlore and performance colleagues.
+This product is trying to providing analysis services to customers around hadoop/DCTM/NGIS-based data lakes. 
+* Salable design. heavy analysis services will be implemented by Map-Reduce pattern.
+* Structure and non-structure data support, use HDFS, xDB, SQL-on-Hadoop etc. 
+* User-based secure access. Information in data lakes can be accessed by the authorized users.
+
+For example, if we want to statistic the count of sentences to approve homosexual marriage versus  the ones to disapprove that. We can launch the emotion analysis job in the new content intelligence lib, and got the final result. This job can used to count different emotional trends in the financial reports too.
+Another example is relation-retrieve, if we want to know what's the connection between "Melinda French" and "Microsoft", it will find "Melinda French" is the wife of "Bill Gates", and "Bill Gates" is the founder of "Microsoft".
+
+Since those jobs cost a lot of computing power, and it varies from business to business. What we can deliver to customer is the out-of-box libraries to manipulate contents, to process natural language understanding and to handle the information cycles. 
+
+The key of this solution is transforming current services into MR pattern, which gives scalability to support big data. 
+
+The basic focus is how to refine value or how to make customer refine value easily from the EMC massive storage. The MR architecture is hot now, and more important is that it is proven useful. It might be cool to provide easy ways for customers to get benefit from MR.
+
+Customer can perform high-performance content analysis with map-reduce architecture on the massive EMC data lakes easily.

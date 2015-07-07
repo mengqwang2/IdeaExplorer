@@ -1,0 +1,5 @@
+All Business Units tools portal
+
+while working on Unisphere for RP and Vplex and found out that they are very useful for IBG
+Need to have a portal with all tools and applications used by different teams in EMC and best practices on how to use them ( video made by each BU) , i.e “Oracle 11i and SAP view used daily by IBG” this overview will assist people to brainstorm on how to make use of data available and processes of other teams that can be utilized in their work  
+

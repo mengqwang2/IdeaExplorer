@@ -1,0 +1,15 @@
+Object storage interface for VMAX3 using ECS docker instances running inside VMAX3's Hypermax OS
+Unavailability of an object storage interface on VMAX3 is a competitive gap. Traditionally, objects stores have been used for storing cold, immutable data. However, with the rise of 3rd platform applications (that use cloud based object stores), it has be
+The idea originated from Brian Riordan a few months back. His idea was to leverage VMAX3 data services for 3rd platform applications.
+
+Kevin Rodgers from VMAX CTO office has successfully created a proof of concept of ECS nodes running on VMAX. 
+
+The idea is being discussed with both VMAX and ECS product management.
+ECS is EMC's software defined storage solution. The idea is to embed dockerized ECS object nodes inside VMAX3 thereby exposing an object storage interface natively from VMAX3. There are many use cases that originate with such integration.
+
+1. Block, File, Object interfaces from VMAX3 (File interface is already available in the form of Embedded NAS).
+2. An application using Block, File, Object storage all together at the same time can have its storage protected with SRDF remote replication using consistency groups ( that guarantee write dependent consistency for all LUNs in a consistency group).
+3. ECS Cluster spanning across VMAX3 and the ECS private cloud using ECS geo replication technologies. ECS nodes onVMAX3 provide higher level of SLO storage services. ECS storage engine understands that and tiers the data accordingly.
+
+
+The idea would be successful if we can release ECS as a new Embedded Application as part of a VMAX3 release. With this new technology, it will help VMAX retain its existing customers who want to move to 3rd platform. It will help ECS expand its business b

@@ -1,0 +1,17 @@
+Dynamic Interoperability Matrix and process improvements for Quicker Solution Deployment and RPQ turnaround time reduction
+The proposed solution and enhancements to the process will improve the time to deploy a solution involving components from multiple vendors integrated.
+The idea came out of a brain storm session involving both the Innovators, looking to improve the process. One of the innovators had worked with e-Lab in the past where he had handled RPQ's on a daily basis. 
+We intend to introduce couple of proposals to improve the turnaround time for interoperability related decisions to continue with the deployment. From the generic nature of the requests coming via RPQ, it is found that majority of these requests doesn't actually need qualification from EMC. Additionally most of the requests 
+are solved/approved based on additional validation at the respective vendor's inter-operability matrices. The flow typically takes 2 to 3 days, request raised from 
+customer representative --> e-lab validation --> approval --> customer representative --> Implementation. 
+
+In a three step process improvement we intend to bring down this time overhead in deploying EMC solutions:
+
+1. Training the EMC field/customer engineer on relevant vendor inter-operability matrices with a reference handbook/wiki, so the field Engineer can directly look in to the appropriate product details to make the decision 
+2. Develop a tool on top of EMC interoperability navigator that takes input feed from other vendor matrices to generate a report of support. The tool can dynamically 
+discover and update the relevant vendor support information as when a new version of SW/HW product becomes GA. This will avoid the need for an RPQ when the information
+is readily available and only correlation required. For instance, when a RPQ is submitted with a cluster component or volume manager or a new switch type that is involved, we turn to the vendors matrix to arrive at a decision. 
+3. Further analyze the incoming/historical RPQ nature to identify useful patterns and trends to optimize the approval process with help of the tool itself and avoid
+an RPQ itself.  
+
+The proposed solution will benefit EMC by having quicker product/solution deployment in heterogeneous environments including products from multiple vendors. The proposed enhancements can be materialized in 12 months time. 

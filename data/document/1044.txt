@@ -1,0 +1,7 @@
+Networker client includes binary for filesystem and modules
+Different binaries(NMM,NMDA) for different applications along client(NWclient) agent binary
+
+I came up with the Idea after i saw customers getting confused with different Networker binaries
+Developing a single Networker client Agent  , that contains dll’s for different modules in one binary.
+
+Would make less confusion to customer and EMC resources, no need to download and install multiple binaries.It will improve customer satisfaction

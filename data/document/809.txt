@@ -1,0 +1,58 @@
+EMC EduComm App
+The idea suggests various functional aspects of the APP that is amied at bringing EMC employees, School students and Teachers together.
+It was a result of thinking more about the challenge.
+Who can login to the APP
+- The app will support SSO for all EMC employees
+- The Teachers, who have EMC approved access. 
+  New teachers can request registration by sending request to EMC through the APP (because we need manual authentication of the credibility of the person to make sure that they represent the specific school)
+- The Students, who have EMC approved access.
+  The approved teachers will have capability to add new students.
+  The students can request access through the APP, by selecting their school
+
+Which Schools
+- The list of pre-approved schools show up in the drop down list.
+  New schools can request addition through APP
+
+The APP!
+The access within the APP will be 'Role-based'. That means that based on the role of the person logged in, various options appear on the APP screen. It will be seamless (similar to Innovation Central portal access)
+
+Functionality
+The APP provides lots of functionality based on the user's role.
+
+STUDENT
+For those in STUDENT role, the following options are available:
+- STEM learning (where relevant contents pushed from youtube will be available for students)
+- Robotics (where they can learn more about it and could also read about the latest trends in the field)
+- QUIZ/Puzzles (to test their learning)
+- Student Scorecard (based on their scores in quiz/puzzle)
+- Redeem Points (to buy EMC merchandise)
+- Ask a Question (Forum posting on any STEM topic)
+
+TEACHERS
+- Approve/Reject new student access
+- STEM Learning (similar to students)
+- Request for Help! (where they can request EMC for VEX Kits donation and/or request for online/campus visits)
+
+EMC EMPLOYEE
+- Opportunities in the neighborhood (based on school location and employee skills & interests -- tied with the 'Request for help' from teachers)
+- Personal Dashboard (based on contributions including forum posting, online/campus trainings & sessions - linked to EMC gives back program)
+- Forum posts (based on employees specified interests)
+- Suggest content (ability to suggest video/material content to STEM learning section)
+
+There could be few EMC employees who are given ADMIN privileges. They will be provided with the following additional functionality in the APP, apart from the regulare EMC EMPLOYEE options.
+- Approve/Reject Kits request
+- Kits tracker
+- Approve/Reject new teachers
+- Modify Moderator list
+
+There could be few EMC employees who are given MODERATOR privileges by the ADMIN based on recommendation by other EMC employees, teachers and/or students. These MODERATORS will have the additional ability to modify/delete any forum posting. This is to ensure that EMC is not misrepresented and also for resolving conflicts in the forum.
+
+There are several databases (few that exists and some new ones) that will come into the picture to make this whole thing work. It includes:
+- EMC employee data base (including skills, location etc.)
+- STEM learning info and links to videos
+- Database to hold dashboard info for students & employees
+- Database to track kits
+These is a variety of EMC and EMC partner solutions that we can choose from.
+
+All said and done, I think the success of this APP would depend on its seamless integration and its ease of use.
+This will definitely improve employee engagement in community activities and will also ease kits tracking and 'Give back' days aggregation.

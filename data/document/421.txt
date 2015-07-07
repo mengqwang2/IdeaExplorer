@@ -1,0 +1,27 @@
+Automating the Supportability of Data Protection Software
+When the Data Protection Software fail for some reason, the customer is having great difficulty in finding the cause of the failure and troubleshooting the same.
+
+There is generic error message displayed for multiple issue,  means same error code displayed for multiple issues.
+
+Customer is having great issue in "User Experience" in using the product.
+Many Customer escalation was due to configuration issue in the Data Protection software deployment and Customer lack in troubleshooting skill (due to complexity of the product). 
+Every Product has different state in the workflows. 
+For example, for backup work-flow, their could be a following state.
+State-1. Initialization - say code 001
+State-2. Snapshot creation - say code 002
+State-3. Rollover start - say code 003
+State-4. Delete all temp files --- say code 004
+State-5. Backup complete - say code 005
+
+When there is failure of Snapshot creation, this will end up with display code-002. The code 002 define the scope of problem and debugging requirement.
+
+Based upon the error code, the software "automatically" should connect to the EMC support site and perform the following tasks:
+1. Provide the list of "steps to try" to the customer that could possibly fix the issue.
+2. If the auto response message doesn't solve the problem, then open the SR request automatically for further follow-up.
+3. Automatic mail notification send to the relevant support staff.
+4. If the problem is not solved within the expected time, automatically (through mail) escalate the issue to the next level.
+5. Update the customer deployment to EMC support site, which is a resource for engineering for analyzing for feed-backup and quality improvement.
+Better Responsive to Customer
+Higher Customer satisfaction
+Better Supportability
+Improves Efficiency

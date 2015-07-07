@@ -1,0 +1,7 @@
+Diagnosis of Guests at VMAX 
+Improved troubleshooting speed
+When eNAS issues comes it is difficult to know what was going on  FA emulation. And it take lot of time to co-relate the Data Mover and FA logs 
+Hosting NTP server at the Tools Guest. So all the guest can be configure with same NTP server.
+
+Writing procedure to collect the logs of Hypermax OS hosted. 
+Speed up diagnosis and increase in productivity. 

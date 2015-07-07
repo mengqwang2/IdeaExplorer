@@ -1,0 +1,6 @@
+Pooling of telecoms services for enterprises
+
+The idea spawned from a conversation John and I were having while travelling to an ICMR event on Big Data.  I was using a Sat Nav app on an EMC provided smart phone and we were discussing the data allowance being used, how users phone usage can fluctuate from one month to the next leading to some users being 
+under-provisioned one month and over-provisioned the next for their telecoms needs.
+Instead of every individual having for example, 100 mins talk time, 200 text messages and 1GB of data allocated monthly, EMC would work with our telecom providers to analyse company usage across voice, text and data services with a view to creating a Company plan rather than Individual plans.  While individual telecom needs may fluctuate, the average Company needs should be more stable and thus easier to plan and budget for.
+

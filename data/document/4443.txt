@@ -1,0 +1,18 @@
+BBU Status Sensor
+
+Rui Liao, Adam Zhang, Vicent Wu, Yuga Yang, Jia Huang, Emily Lv and Bernie Hu are involved. Idea came out in brainstorming session of EMSD SSIE Endurance team in Jun 2014.
+Two functions to be added:
+1.	Hardware level. Add an additional real time battery electric quantity sensor, which is an electric module on BBU in detecting charging status. Detected result will be stored into a small NVRAM chip. Circuit algorithm can be the existing Coulombmeter Circuit, which is broadly used in Iphone battery detection. Coulombmeter circuit has ability to narrow error <=1%, which handles battery aging issue in a very good degree.
+2.	Software level. On Unisphere.
+a.	Under System->System Health, when SPx Battery clicked, Unisphere will pull to get real time charging status from BBU electric quantity sensor,  and print result on the ‘Component Description’ board. 
+Define properties: 
+Charging state: Charging/Charged 	 --System already has such function to get charging state, just add a print
+Designed quantity: #mAh 		 --Data got from hardware BBU version, e.g.  100k mAh
+Charged quantity: #mAh 		 --Data got from BBU electric quantity sensor, e.g.  80k mAh
+b.	Under System->System Alerts, add BBU quantity alerts. Alert levels are set as Warning(<=75%), Error(<=60%), Critical(<=45%). When ‘Charging state’ equals ‘Charged’ and  ‘Charged quantity’ / ’Designed quantity’ meets alert levels, BBU alert will be issued. Customers will base on BBU alert level to prepare aging BBU replacement. 	
+
+Advantage: 
+1.	Foresee DL risks caused by BBU battery aging issue when unexpected power fail encountered. Risks can be greatly reduced by aging BBU early replacement, as well it can help customers avoid investment wastage by replacing BBU too early. 
+2.	Better user experience: customers can get BBU status on GUI directly. 	
+
+

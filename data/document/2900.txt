@@ -1,0 +1,12 @@
+Intergrate Jenkins and Docker
+N/A
+Come up with the idea when I am studying docker technical.
+Use a docker host to dynamically provision a slave.
+
+Use docker container as slave. Use "docker plugin" to connect.  It will automatically close the container after the execution is performed. 
+
+No need to do much changes in Jenkins Build Script.
+
+With Docker, it will be possible to run each test in a new dedicated environment. It will permits use to avoid problems of collision and ensure consistence between the environments.
+
+

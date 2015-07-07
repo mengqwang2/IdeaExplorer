@@ -1,0 +1,16 @@
+Food Portal
+One of the most common activities people do at work and one of the least to leverage IT is ordering food and in a big company it's common for people to order food only to find that someone in another room have done the same and that they could have split 
+Been introduced to the concept in my postgraduate studies in ITI when we used facebook group to do something like this system
+Creating an online portal that people can post the place and the time they will make the order (order pilot). Others if interested can add their own orders to the original one (order passengers). When the time of ordering come no more orders are accepted and when the order arrives the order pilot can send a notification to all order passengers to get take their food.
+key features:
+1- The location and contacts (email, phone extension, etc.) of the order pilot in the organisation is published for the order passengers to know who to get to him.
+2- The ability to upload a picture of the receipt
+3- The ability to add the delivery fee, taxes, discounts and splitting them among the order passengers 
+4- Ability to integrate with exiting online solution that provide complementing features (ex: elmenus.com & otlob.com)
+5- A review and rating system
+6- Email notification system
+7- Simple, user and mobile friendly design
+ 
+High adoption rate of using the system 
+public offering of the portal as a service
+

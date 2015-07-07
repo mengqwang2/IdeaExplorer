@@ -1,0 +1,7 @@
+leverage hypervisor features to accelerate development cycle of SDS
+Software Defined Storage is a focal point in present IT industry, and EMC released the free vVNX for end-user in 2015 EMC world. In order to dominate this area, we need to accelerate development cycle of these products.
+this idea came to my mind when I tried to deploy vVNX by myself instead of reserving exist ones. I tried taking snapshot/revert back to snapshot on vsphere, it works. But I can't do test on that VM, because it lacks of many resources for testing. For the exist vVNX in swarm, we can't take snapshot, because we don't have authority to perform this. So this idea needs help from lab team, to give individual access for each vVNX.
+The solution is based on hypervisor features-snapshot. For virtual platforms deployed on hypervisor, it's VM. e.g. vVNX. 
+For problem 1, we can take a snapshot after setup environment for large workload testing. It makes testing easily to revert back to snapshot and restart a new round of testing. The limitation is it only works for same build version.
+For problem 2, we can take a snapshot after test fails. If developer wants that specific problem state, we can revert back to snapshot, and developer can do investigation immediately.
+The idea can accelerate development cycle of virtual platforms which are deployed on hyporvisor, and enhance productivity.

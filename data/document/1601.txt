@@ -1,0 +1,5 @@
+Crime Activity Prediction System
+This idea is about to use big data analytic to able predict crimes activities in major cities and take results from these analysis to have a better vision about reducing it and improve the services to city residents.
+No specific history for the idea.
+My idea is create a system that studies and analyses crime activity and its locations and rate and then this system can get results about these data and provide crime patterns to able handle the crimes and its category and map them to certain locations and predict crime activity in certain areas to able provide more security or prevent them by defining the reasons to these crime activities and improve the services at the ares with higher crime rate.
+If the idea is implemented it'll help to have an integrated solution to implement in a city scale especially with the increase of using 3rd platform solutions to improve cities' services, so it will increase our work with public sector and improve the use of big data products to work in new fields and improve customer satisfaction by providing a variety of solutions depending to his needs.

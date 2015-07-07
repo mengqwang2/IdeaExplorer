@@ -1,0 +1,10 @@
+Lab spider
+This idea is intend to setup an automatic mechanism to make lab operation more efficiently, to reduce manual lab management work, to create opportunity for sharing equipment. This can be a part of a lab automation
+We are from E-lab team. Remote lab operation is always a pain point.   We need to verify the hardware information very frequently.  In current procedure, we need open a lab ticket, and the lab administrator need go to the lab and check the equipment status. This Spider application can help us to do the work automatically. 
+1.	Setup “Lab Spider” application in lab network. 
+2.	The Spider application will automatically ping the IP subnet arranged as need.
+3.	If the IP address can be accessible, the Spider application will login to the equipment (host, array, switches, etc) with known credentials via different protocols.
+4.	After login, the Spider application will get useful information which we need, and record it into a database, and also create an “index” to identify this record.
+5.	In this database, lab users can check all useful information they need through searching, sorting, chart generation, and report generation.  Take close eyes on the equipment utilization status and determine to share the resource, power down, etc. 
+
+This Spider application can help us identify all lab equipment information automatically, replace manual work, make direct and visual report, detect underutilized resource. 

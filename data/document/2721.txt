@@ -1,0 +1,21 @@
+Customer Experience Management (CEM) Dashboard
+Dashboards will be used to leverage and utilize structured and unstructured data analytics to proactively provide information about customers with primary objective to increase customer loyalty
+I am manager in Customer support, leading Isilon team in Cairo. Our daily job is to handle and manage customer escalations as well as problem resolution. There are no proactive tools to inform the support engineer about the updated history of that customer (recent problems, current deals as well as customer install base). I started my research in customer experience management to check how we can fill these gaps in order to increase our customers loyalty.
+- Collect all operational historical data per customer through the whole cycle (Sales, implementation and customer support)
+- Ensure data is up to date and contain enough history for example 2 years operational metrics
+- Gather customer satisfaction/loyalty event driven, product surveys scores as well as feedback/comments
+- Collect feedback from account team regarding customer perceived quality of service
+- Gather information from Sales team regarding forecast and potential deals
+- Collect current customer install base information
+- Aggregate all this data and apply predictive data analytics
+- Through data analytics, place customers on 4-quadrants grid (Very Loyal, Somewhat loyal, Neutral and Critical) where thresholds should be determined by SME's
+- Create multiple views in such Dashboard
+1. By Level (Individual Contributor, Manager, Director and Executive)
+2. By BU (Sales, CS, GPS)
+- Depending on the view, the following should be shown:
+1. Customer placement retention/Loyalty Grid
+2. Summary of customer experience with EMC
+3. Suggested action plan as per customer placement on grid and history
+- Moreover, data analytics should provide proactive measures in case critical measures should be taken whenever customer is in "Critical" zone, or some events have negatively inpacted customer loyalty. BU leads and Account team should be alerted in order to take corrective actions proactively before customer escalations
+- Thresholds as well suggested action plans should continuously be revisited by SME's in order to ensure they are up-to-date and appropriate
+Aggregatingbid data and other customer service metrics to apply analytics to identify the customer loyalty level and take preventive/corrective actions to tackle these gaps and increase customer loyalty

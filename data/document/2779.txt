@@ -1,0 +1,9 @@
+Global material sharing solution based on REST API and port forwarding
+Global Product Operations Challenge: This idea meets GPO’s challenge by making the design process more efficient and effective, driving cost out of our operations to enable investment in Platform 3 and advancing the performance of our design process. 
+FFV handles projects on a global, 24x7 basis. Material availability in the Shanghai COE labs due to cost, logistics and schedule are frequently an area of concern. A central sharing approach was required in order to introduce efficiency and alleviate the additional burden of infrastructure maintenance such as license procurement and physical relocation of DUTs. 
+The solution consists of two components: Port Forwarding Agent and Web UI.
+
+The Agent consists of a Python application script running on a Windows or Linux host. It controls user access to DUT material registered in its local database via a technique known as Port Forwarding. Included within the physical testing infrastructure is a console management server that supports the port forwarding feature. All physical DUT serial ports are connected to the console management server. Using port forwarding, the agent builds a logical interface between the DUT and the requestor. The agent maintains control over the interface and can enforce policy such as DUT reservation time.
+
+The Web UI services all requestor access. Web administration can spawn and tear down multiple agents via a RESTful API. The API also provides a backend for test management and automation component integration.	
+This idea will save much time and money from global material manufacturing and delivery which happen in each design phase and are always costly and time-consuming. Also it will advance the efficiency of our material which will in turn promote our design p

@@ -1,0 +1,5 @@
+Software Library
+Further we no need shared folder for EMC recommended APPS .
+One of the added future in SCCM
+No need access the shared folder then copy the software package . you can directly  run from the software library
+If we enable this future in SCCM we no need to keep the share folder anld not need to copy in user machine . can  directly install the need apps from library .

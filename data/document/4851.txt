@@ -1,0 +1,9 @@
+Space Reclaimation In VMAX
+
+While working with the customer i came to know 
+We have to follow similar to 3Par Solution. I.e
+With 3PAR 
+StoreServ thin technology, the process of zero-detecting is done inline using a custom 
+ASIC. This has no impact on the controller processor or cache utilization levels and 
+occurs in real time at line-speed. There are no restrictions on replicated LUNs
+

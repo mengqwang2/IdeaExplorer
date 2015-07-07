@@ -1,0 +1,7 @@
+Direct access of CDA-2 (CDAR2) XML from Healthcare integrated portfolio (HIP)
+This idea is venturing into a new business areas where we believe would make a lot of sense for EMC HIP
+We have been discussing the problems that customer facing on HIP and this is one of the prime problem that is being faced. A lot of customer are trying to bring a bespoke component to achieve the same functional requirement
+HIP is built over top of Documentum and XML Store/xDB and both are owned by EMC. The HIP solution processes and stores CDAR data in xDB.
+If the customer has pre-processed CDAR files which are needed to be stored, there is no direct  way to communicate directly to xDB. Similarly if only CDAR are needed to be fetched, the request has to be routed through Documentum interface. 
+If a solution could be provide to configure directly accessing the xDB store with an independent layer/interface to store and retrieve using xDB capabilities, it really become easy for customer to instant get information available to them. 
+This solution could be sold additional to HIP as a plugin which should be widely accepted as audience of HIP certainly needs such interface for disbursal.

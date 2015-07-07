@@ -1,0 +1,41 @@
+EMC Unified Communication using Microsoft Lync Server (Lync essential features +  Web Conferencing +Telephony Integration)
+EMC CAN NOW SAY BYE TO MORE TELEPHONY, TRAVEL AND IT COST !!!
+IT Contemporary Workplace Challenge
+ - Provide a seamless experience from anywhere with device flexibility as all modes of communication are achieved using Lync.
+E2E Horizon – End to End Business Process Challenge
+ - ROI increase by using this E2E solution using Lync
+Environmental Stewardship Challenge
+ - Energy Efficiency increase by using server virtualization & by reducing dedicated hardwares for each roles
+
+We are analyzing various features with respect to Unified Communication and we come up with this idea. We also analyzing how EMC can leverage Server virtualization to increase ROI in this solution
+To have better resource utilization and consolidation, we can leverage the SERVER VIRTUALIZATION offered by Microsoft Windows Servers with Microsoft Hyper-V.
+
+Hence, a single Microsoft Lync Server will be configured optimally to handle multiple features using different roles. Some of them are:
+
+*Front End Server Role : Handles Instant Messaging, audio-video conferencing , archiving, monitoring, web conferencing and interoperability.
+
+*Edge Server Role : Handles all communication using SIP, RTP, etc., (except HTTP/HTTPs) to external users.
+
+*Mediation Server Role: Handles communication between Lync users and users on PSTN (telephony network) with the use of SIP trunks or PBXs/voice gateways.
+
+*Office Web Apps Server Role : Provides enhanced web conferencing with high resolution content sharing.
+
+*Persistent Chat Server Role - Handles chats like Multi party chat , Topic based chat, etc.,
+
+and so on...
+
+"BY VIRTUALIZING THE LYNC SERVER ROLES ON TOP OF HYPER-V HOSTS, DEDICATED HARDWARE FOR EACH ROLE IS NO LONGER NECESSARY"
+
+Link for DETAILED ARCHITECTURE:
+---------------------------------------------
+https://inside.emc.com/docs/DOC-100160
+Success : 
+Unified Communication in EMC
+E2E Solution for all modes of communications
+Increase in Energy Efficiency
+
+Benefits to Company:
+Saves Energy & various Costs like hardware, maintenance, etc., 
+Efficient, flexible work experience to Employees
+Real time communication between locally & geographically distributed clients 
+Instant communication with partners , suppliers and customers

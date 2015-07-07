@@ -1,0 +1,14 @@
+Google Cardboard and Virtual Reality Apps
+Successful deployments EMC products, improved troubleshooting speed/accuracy/scalability, preventing/predicting customer issues, or reducing the number of customer contact points
+Although, I had submitted this idea last year, Google with their Cardboard concept has made virtual reality all the more real. Hence publishing it again
+Develop Google cardboard virtual reality apps which enable customer or EMC personnel to explore and understand the architecture, underlying components and even capabilities of an EMC array/product. The apps can be divided into two categories - Customer centric and Employee/Field centric.
+
+Customer centric app, would focus on the cosmetics and architecture of the array - Can have features such as 360 degree view, zoom in & zoom out, show info regarding the different components (DAEs, PS, SPS et. al,) and how they fit in and function together. It may also allow customers to customize the array; assemble and disassemble major components (eg: adding/removing DAEs, add/remove modules), as per their requirements.
+The app can help customers visualize how the array(s) and/or other components would look like in a datacenter (how much space they'd take up and/or how they'd fit in with the current infrastructure) well before the actual array(s) or other components are installed in that datacenter. This way customer could plan in advance on the space required, cabling/power requirements & installations, or any other infrastructure related requirements.
+
+Employee/Field centric apps would be more focused on the internal architecture of the array - how the internal components fit, provide guidance in identifying and replacing faulty parts (display step by step instructions for removing/replacing parts), give info (configurations, caveats, warnings, cautions) regarding different components and how to handle them (eg: how much an SPS weigh and how to hold them).
+
+Furthermore, these apps  doesn't have to be restricted to EMC arrays. It could feature any number of products/components/techonology which make up a datacenter - assisting customer/employees well in advance on what they wish to achieve in the datacenter. 
+
+The app will also allow customers/EMC personnel to provide real-time feedbacks, requirements, suggestions and priorities about pertinent products and/or technology.
+Successful deployments of EMC products, improved troubleshooting speed/accuracy/scalability, preventing/predicting customer issues, or reducing the number of customer contact points

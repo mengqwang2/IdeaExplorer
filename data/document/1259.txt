@@ -1,0 +1,8 @@
+Tech Refresh for Core products in EMEA
+this creates a new process to realized lost revenues due to customer install base not being refreshed timely
+POC is being done currently and a similar pilot has been run for DPS Tech refresh and it proved to be a success
+Existing TSSO services (Quoting, Tech Drawings, Power Savings Calculations and Sizing) will be combined to produce a Tech Refresh proposal for the field sales team
+
+Instead of a simple reminder, Account teams will get a qualified proposal including a EMC proven solution including a Solution Description document, a Technical Diagram and quote. Later this could be extended to include an SOW.
+
+funding a team of TSSO individuals to process these types of requests to generate a new line of revenue for EMC EMEA

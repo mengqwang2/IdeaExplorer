@@ -1,0 +1,5 @@
+Deploy desktop cloud within EMC under virtualization environment
+
+Lots of companies start to deploy their desktop cloud under production environment, that will save lots of money for the IT buget.
+We can deploy desktop cloud within EMC under VMware virtualization environment, the employees can login their virtual desktop and do the daily work.
+

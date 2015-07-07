@@ -1,0 +1,12 @@
+TSE assistant - makes customer support easier
+-the idea is all about creating an open source tool that helps the TSE in getting better analysis in the SRs
+-it enhances the process of handling SRs in customer support
+-it helps in increasing the productivity of EMC products as it makes the support proc
+i'm currently a new TSE so last week we were shadowing with our colleagues and i realized that whenever there was a case that required the logs to be checked the TSE would take a lot of time to identify the problem by checking the logs manually so i thought it would be a good idea to come up with a tool to automate the process and make it easier, and we could use the wasted time to increase the productivity in something that has a higher priority.
+-the idea is to create an open source tool that searches for the error codes and corrupted log files directly and has the ability to notify the TSE that it has found some errors and it displays the best practice to solve them.
+-the advantage of it being open source is that it can be modified to work with any of EMC products and even work with different vendors products so it solves the issue of vendor lock in
+-saves time
+-saves effort
+-customer satisfaction
+-better productivity
+-adding features to the tool will be more easy as it is open source

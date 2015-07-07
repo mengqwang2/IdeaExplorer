@@ -1,0 +1,28 @@
+Smart city and IOT infrastructure
+Egypt COE Smart city and IOT challenge - The solution is specifically to address the challenges of the internet of things and its storage and consumption.
+Mainly through discussion forums and brainstorming sessions
+Typically IoT data will flow from multiple geo-distributed sensors and devices to a massive data lake ( low-cost capacity based storage ) , most likely powered by a distributed hadoop infrastructure. Some processing and distillation will take place in the data lake and then the high value portion of the data will likely move to a Pivotal big-data suite/greenplum database or alternatively 
+to an operational database or system. Here the analytics is run to gather critical data points from the various group of sources and facilitate insights.
+
+In addition, it is also likely that the data architecture for the IoT will have other new characteristics such as:
+
+– Real time processing of time-critical IoT data
+– Archiving data from the data lake
+- Backup and recovery solutions for compliance
+- Sharing data across company boundaries
+– Multiple sources of data
+– Geo-distributed IOT devices
+– Moving huge volumes of data
+
+We can enhance and leverage multiple EMC technologies :
+- DSSD for low-latency time-critical workloads
+- Need to scale-out BRS portfolio for web-scale archiving/backup/recovery
+- HA/DR and data mobility using geo VPLEX cluster
+- Geo-scale de-duplication and compression solutions
+
+The market for Industrial Internet of Things (IIoT) is growing tremendously, which is where the bulk of IOT implementations are going to happen. Some of that data might require real-time analytics and predictive feedback. 
+
+The current database implementations are equipped to handle the volume of the data. The data generated will be structured , semi-structured and unstructured. Some of the data might require to be analyzed in real time , and current typical usage of Hadoop as a “big data” platform, is not well suited to low-latency processing, and points the way to future work on data analytics platforms that can handle “big” as well as “fast” data.
+
+The huge number of geo-distributed devices in an internet of things would require some hierarchy to be defined for grouping or applying specific policies based on function,service or even region. It would be supported by a micro-services based distributed architecture using containerized runtimes along with an scale out object-storage back-end. Data kept only for compliance can be pushed to tape.
+This would give EMC a good head-start since it would be a first-mover advantage to be able to have scalable IOT infrastructure.

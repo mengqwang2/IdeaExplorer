@@ -1,0 +1,15 @@
+Thank You Template In Sales Force SRs - Customers Rating The Service Provided Instead Of Traditional Survey Model
+This will serve the challenge/s listed below. 
+
+Add a thank you template to the SR where customers can give you a rating > instead of surveys 
+We receive thank you emails but not frequently. Some agents provide great customer survey, yet, get not feedback as there are no surveys or for the teams where there are surveys, there is a low participation rate by customers. 
+Add an option where the customer can select to add a thank you note to the SR after he has been provided with the service. 
+This can include a rating of the overall service (from 1 till 5). The customer would press on 'thank you' note and can add an optional word to the agent, choose a rating and submit. we will be able to see it in the SR. 
+
+In Sales force, we no longer update the SR with customer emails, we will actually email the customer form sales force and the customer's reply will be updated there automatically. 
+Will be able to track customer satisfaction 
+Updates/comments will be in SR
+can pull reports/metric
+can be used in the recognition program 
+will encourage customers to provide feedback
+will save time and effort 

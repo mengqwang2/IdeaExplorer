@@ -1,0 +1,16 @@
+Backup Challenges for Open stack cloud Platforms
+This Idea would provide solutions to Global Product Operations Challenge and I would assume that this would help EMC to focus more towards 3.0 platforms. This would also help to enhance the Customer TCE
+work experience
+working on backup for VMware cloud solutions
+EMC should provide the DD Boost protocol with necessary API to backup to Data Domain from open stack cloud environment. As EMC DD boost already have backups solutions with Database & application, same can be extended to the Open stack Cloud platform integration with necessary API’s  to have a complete solution. Charge back model can also be integrated to provide the cost details. This solution would help customers to meet their SLA’s with desired RPO & RTO.
+
+Advantages
+Increase the TCE.
+First in the industry to have backup complete solution for open stack cloud platform.
+Encourage more small and mid-tier customers towards the cloud with complete backup solutions.
+
+Advantages
+Increase the TCE.
+First in the industry to have backup complete solution for open stack cloud platform.
+Encourage more small and mid-tier customers towards the cloud with complete backup solutions.
+

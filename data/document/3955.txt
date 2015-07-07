@@ -1,0 +1,7 @@
+Reorg and free all eLearning courses to all EMC employees
+
+Since the first day we work in EMC, we have difficulty to find eLearning course. And sometimes when we find an interesting eLearning course, it's said to charge hundreds of dollars. 
+1. Reorganize the eLearning materials in a better way
+2. Introduce a powerful search engine to help us search courses we are interested in
+3. Open/Free all eLearning courses to everyone
+

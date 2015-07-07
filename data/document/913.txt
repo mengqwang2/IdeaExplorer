@@ -1,0 +1,10 @@
+Dockerize VIPR-SRM
+Minimize the total cost of ownership of EMC VIPR-SRM by efficiently utilizing the available scarce system resources.
+Enhance deployment or upgrade experience.
+Some times due to the shortage of IP's and System resources i was finding hard to have an installation of multiple versions of VIPR-SRM 1VM Setup's and also 4VM setup's. So i thought of using docker and was able to deploy multiple versions of SRM inside a light weight ubuntu docker containers and was able to overcome the shortage of IP's and system resources. In the process i observed the efficient use of system resources and thought of even removing the dependency on VMware (Self managed bare metal SRM installation with nice self service catalog type management UI).
+If we dockerize SRM components then a new component deployment can be done inside a light weight docker linux containers instead of entire VM. Dockerizing SRM components will enable us to deploy multiple SRM components (backends,collectors,forntends etc) inside one big VM which will make SRM footprint lighter than before.
+
+If we write a web based application which will manage the entire life cycle of SRM docker components then if a customer wants to deploy a new collector/backend he can simply login to the web based application with nice GUI and deploy an SRM component (Who cares where it runs)
+
+This approach will greatly enhance the deployment, maintainance, and upgrade experience of the customer.
+If my idea is implemented then we can provide an installer for SRM as an OS image with prebuilt docker SRM images and management application. Customer can install this image wherever he may want and can himself manage any complex deployment and SRM upgrades with a click of a button. This will definitely reduce the SRM foot print on system resources and also enhance the deployment experience by reducing the deployment times from days to just minutes.

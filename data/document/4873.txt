@@ -1,0 +1,12 @@
+Relating the webex session number and chat transcript to the related SR.
+
+1: While taking transitions from other GEOs and from other teams, most of the time the update was like;
+“Did webex and resolve the issue” Very few engineers used to provide a detailed description of troubleshooting.
+2: While watching some of the escalated/complex, encountered the same thing.
+
+This will help a lot during the transition of the SR. Whoever will take the SR, will be aware of the commitment made to the customer by the previous engineer.
+It will also help during the SR audit process.
+We can make it as an automated process. While ending the webex session, the application should ask to put the Service Request Number.
+Or we can copy paste the chat transcript and update the SR notes.
+
+

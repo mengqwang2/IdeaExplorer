@@ -1,0 +1,11 @@
+Donations Are a Button Away! The Charity Donation Application 
+NA
+I was one of the collectors for orphan's day and it came to my mind that the way we use to collect the money is old fashioned and not motivating enough for employees to donate. 
+Create a mobile application that very simply allows you to donate money safely for a specific cause. This is easy and done all the time, EMC employees will register their card numbers and the amount they want to transfer and just donate the money.
+Teams can send the admins requests to create specific customized events that team members can donate to such as someone's birthday for a gift. 
+This will ensure full participation.
+Will raise more money.
+Will make it easier on people working from home to donate.
+Will be better in counting the total sum of the money.
+Automated, faster and safer. 
+

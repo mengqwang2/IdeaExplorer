@@ -1,0 +1,11 @@
+New Software To Record SR Time on Sales Force - Replace EAS
+This will be a new software associated with sales force. 
+EAS has lots of issues already and is not a practical software to be used by EMC.
+This is an issue we will face as a team firstly to go on Sales Force
+Create a new software that is much better and fasted than EAS and link it to Sales force. This can be done for all teams as we will all use Sales force eventually. 
+
+It needs to be faster and simpler to record our time more accurately and regularly. 
+Time will be recorded off sales force accurately
+add more options to reflect other work than SRs
+get rid of EAS
+

@@ -1,0 +1,13 @@
+Visual representation of customer installed-base
+Customer environments are becoming increasingly more complex and often there are many EMC products installed and interconnected within the same customer environment. The ability to visually represent the customer environment and track changes in the configuration can help EMC customer support to quickly isolate and resolve issues and recommend improvements/optimization and proactively prevent future problems.
+I thought about the idea as an use case for EMC Federation Data Lake solution and to improve customer support quality which in my opinion has been deteriorating in recent years as customer environments were getting more complex and at the same time their expectations were getting higher.
+The idea is to embed the basic ViPR SRM topology mapping and configuration compliance functionality with the ESRS installation without providing a user interface from the customer side. This installation should maintain an up-to-date topology map with configuration details within EMC customer support central installed-base repository. Updates should be pushed from the field in an efficient manner only when there are configuration changes. 
+
+Whenever a new SR is opened, EMC customer engineer will be able to quickly understand the customer environment and track configuration changes that may have led to the problem.
+
+Also, normalized/anonymous information can be collected and saved into a data lake to help understand patterns across similar customer environments and similar fault scenarios.
+
+1. SR data includes an up-to-date visual representation of the full customer environment with the ability to track configuration changes for a reasonable period of time.
+2. Support engineers are able to query a live data lake repository for similar configurations and similar faults/symptoms as part of fault isolation and root-cause analysis.
+3. Shorter time-to-resolution.  
+

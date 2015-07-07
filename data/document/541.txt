@@ -1,0 +1,5 @@
+Backup of High Density File Systems( HDFS )
+Networker is not optimized for HDFS \ Hadoop \ Big Data backups.
+Customer came up with this query, as they are moving to big data solutions 
+Networker should improvise in backing up HDFS
+Optimized solution for Big data backups

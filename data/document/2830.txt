@@ -1,0 +1,5 @@
+Use best of breed PLM tool to initiate/change and track CR and BOM documentation
+SAP PLM module is cumbersome.  Arena, DD's PLM tool is very easy and intuitive to use
+After having to use Arena to find and review some legacy documentation, it was easy for me to use and find required data with only have 15 minutes of adhoc training.
+If the Arena solution is now owned by EMC via the acquisition of DD, then a review of the best of breed tools are within our grasp to review and benchmark without potentially having to expend more $$ to vet out the process.
+Much time is wasted waiting and searching with SAP for the documentation.  For anyone who uses SAP PLM module it would certainly cut down on search time alone with the "clock" spinning awaiting for SAP to respond with a search that may return no data, or 

@@ -1,0 +1,6 @@
+Monopoly Money
+
+while playing monopoly
+Reward employees with your own custom phony money (or use Monopoly money) and allow them to redeem it for gifts at the end of each quarter.
+
+

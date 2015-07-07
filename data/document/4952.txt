@@ -1,0 +1,14 @@
+eDiscovery capabilities to xPlore
+
+Q4 - 2013 during Mike Mohen's visit to India CoE
+xPlore right now does majority of the functionalities of eDiscovery solution like 
+ - Collection
+ - Content and Metadata Indexing, 
+ - Exhaustive search techniques, 
+ - Various administrative features e.g. multiple instance configurations, reports, collection management etc.. 
+And also it is already integrated with DCTM and NGIS platforms.
+
+Only the missing piece here is the Legal operations like Legal export, Legal Hold, tagging (adding extended metadata) and reviewing etc…  Hence enhancing the xPlore to support eDiscovery capabilities is easy and feasible. Please note, this idea is not to replace our existing appliance based eDiscovery solution 'Kazeon'. But to provide basic eDiscovery needs to DCTM or NGIS (or any xPlore supported data repositories) customers as a business value OR value added service.
+
+We may consider this as an opportunity in future to build a cloud based eDiscovery solution.
+

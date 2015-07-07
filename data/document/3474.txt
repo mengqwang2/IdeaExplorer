@@ -1,0 +1,24 @@
+ Drag-and-Drop Lab Booking Application
+
+ The idea came up from the experience dealing with different labs in EMC like Education services labs as well as CSLabs
+The idea works as follows :
+
+1-	The student will use the web-based portal to drag and drop “components” (can be storage, connectivity, hosts,..etc) to his “Environment Dashboard” 
+2-	The environment setup will happen in a visualized manner till the setup is complete and the student hits “Submit”
+3-	The environment will be translated into a structured request (can be translated configuration files) that is sent to the cloud lab service.
+4-	The cloud service understand the incoming structured request and automatically translates it into lab booking and setup
+5-	Finally the whole environment will be ready and will be submitted back to the student according to certain ETA.
+6-	The student will enjoy the lab experience with EMC Education Services 
+
+Implementation of such application is feasible and realistic. A good example that can serve as a quick POC of this idea is Cisco’s Packet Tracer Software program referenced below. EMC will be something similar to this GUI user experience but on the web. EMC’s app will be much simpler as it will not include that much logic. EMC’s app will be rather a thin app that communicates to the lab service.
+
+The web-based app can be coupled with a mobile app for more ease of use and mobility. 
+
+By implementing this approach EMC will define a new generation of Customer-Facing lab experience 
+
+REFERENCES : 
+http://cslabs.emc.com/newuser.php 
+https://www.netacad.com/web/about-us/cisco-packet-tracer 
+
+
+

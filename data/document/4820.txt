@@ -1,0 +1,5 @@
+IB error check identifier
+
+currently involved in 10 cleanup projects spotted after a while and stuck in investigations and troubleshooting since almost a year
+IB error check identifier should be created and setup on specific metrics to monitor and identify any new incorrect configuration like (Software in shipped status and standing alone Model without TLA and UI) , once the issue identified and checked it could be reported and fixed immediately by SAP manufacturing team.
+

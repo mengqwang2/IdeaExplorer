@@ -1,0 +1,12 @@
+Internal Social collaboration based appreciation system
+
+Had this idea as part of an internal discussion with my friends
+Option 1:
+A simple quick integration with Lync (EMC unified communication platform)that enables an option upon clicking on an employee to press a LIKE button. These likes can optionally be converted into points in order to reward an employee. Please note that a simple database is needed to store these LIKES and points.
+
+Option 2:
+A standalone mobile app with simple PeopleSoft integration to retrieve the employees and their pictures and enable a quick search to find a named employee and give an option to LIKE.Please note that a simple database is needed to store these LIKES and points.
+
+
+
+

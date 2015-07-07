@@ -1,0 +1,17 @@
+Automated Business Continuity Solution for Mid and Small Sized Companies
+
+wanted to leverage BRS product as alternative to storage BCP products
+My solution is about an automated tool which can run on any application servers in conjunction with EMC BRS products such as Networker/Avamar/Atmos. My idea is to combine the best features of
+1)	Source One – On-demand data recovery (eg Attachments to email)
+2)	DataDomain NFS/CIFS Share or SAN Storage
+3)	Leverage Avamar or Networker Filesystem eg Exchange GLR used to restore individual messages
+4)	Flash Recovery Area in Oracle
+Assumption is Customer using EMC BRS product (along with DD). Solution involves creating automated recovery app that will run on Client (Application Server) and integrate with Application (SQL/Exchange/Lotus). This recovery app will integrate with EMC BRS product and DD to find the last successful full and log backup and provide it as a virtual drive using DD NFS/CIFS, to Application server.
+
+This virtual drive (DD CIFS/NFS share) will be acting as a failover (BCP) when there is data availability issue for application. Virtual drive can be presented as a location where application can come up (similar to instance access in VM) and keep running while in background the actual data recovery can happen.
+
+Advantages
+1)	Less or no RTO as application can come-up using the data in virtual drive.
+2)	Can be used by Testing Team to check the application readiness in a non-disruptive manner.
+
+

@@ -1,0 +1,18 @@
+Deliver Information Security Awareness in Innovative ways  on fly & in small doses to make it a cultural habit of corporate life.
+Damage from cyber-attacks can run in to monetary loss of millions and negatively impacts Brand reputation. Safe computing environment can be realized with the combined focus on People, Process & Technology. None of these three entities can protect the environment on its own. Keeping that in mind, corporate conducts security awareness training for staff at intervals, in addition to investment in security technologies. Still the analysis of past attacks identifies the weak chain as “Ignorance in following security controls" 
+I am observing the conventional Security Training practices in IT organization from years. It only serves as Green compliance report to Organization's customers that employees are trained. Majorly employees either ignore it or acknowledge it for record purpose. I felt the objective of training is to bring the security culture in staff of following it. 
+I have noticed that if the safety guidelines are presented to us for the risk involved in the job while we are performing that job, it is immediately followed by us and it registers in our mind to follow next time while we do the same/similar task. Think of common road safety Instructions displayed on signboards, Think of warning displayed about of depth of Swimming pool etc. Don’t we follow those guidelines where we visit similar sort of road route or swimming pool?  It indicates that if we learn all the security guidelines in installments which if presented to us when we can relate it to the current situation, it will be a permanent learning. I just recommend to follow the same concept for IT Security Awareness to make it a habit/ culture among staff.
+Security guidelines always refers to vulnerable pockets in our day to day job where cyber-attack could sneak in to corporate environment. There could be simple and effective ways to impart the knowledge in a fun way at the avenues which user touches daily. Learn security guidelines related to the risk involved in the activity while doing the same activity, So it can relate by user & register as permanent learning . For Ex:
+
+1.Displaying instruction of protecting the password and keeping it strong on CNTRL-ALT-Delete Screen.
+2.Instructions about being careful to phishing and spam emails, is popped up to users during a login at Email (outlook) client.  
+3. Roll the Popping up the message on Users laptop about “Not to download the unauthorized software on corporate machine”.
+4. Popping up user friendly simple message via web proxies about “Avoiding browsing to risky sites and ensure no confidential data is uploaded to/ downloaded from Internet, It may expose your bank account as well”.
+5. Send the guidelines as SMS via Mobile Notification system to the employee community about mobile security.
+6. Brief comical strips explaining the  security attacks scenario to the users either in video or text form.
+
+1. Since the idea proposed presenting user's regular automated notifications about security guidelines, it doesn’t need commitments of Trainer and Employees presence at the particular time and particular place.
+2. Effective Learning: Learn safety guidelines related to the job while doing the same job.
+3. It may not be money hungry project as it uses IT existing infrastructure to impart training.
+4. Learn on fly and in fun way. No long boring sessions.
+

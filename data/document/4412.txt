@@ -1,0 +1,11 @@
+Translate Now Button in Support Chat
+
+This idea was generated from my own personal experience dealing with a Spanish customer who does not speak English, every time I typed a sentence the customer copied/pasted in google translate to respond to it. So having this button would have definitely eased the way we communicated together.
+The idea is to add a new button within the customer chatting tool or the Webex chat that would allow the customer to translate the support chat into his own local language. Since not all customers understand English we can offer the customer this button to get an instantaneous translation into his own language. 
+
+The way the idea will work:
+1- The support representative will type in English in the chat window
+2- The customer will have the option to translate the chat into his own language from a drop down menu that contains chat languages supported. 
+3- The customer will then type in his own language.
+4- The chat representative will receive chat into English (or any preferred language)
+

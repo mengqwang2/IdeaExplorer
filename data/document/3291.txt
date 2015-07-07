@@ -1,0 +1,5 @@
+SYR Omega website with same IB details
+
+IB accuracy is what i work on, and it's been noticed that there are some discrepancies especially in products configurations compared to its quantity
+SYR Omega site will have the same fields as the IB such as the models under each serial and its quantity,....etc
+

@@ -1,0 +1,46 @@
+The EUREKA App (EMC's Multi-Purpose Mobile App)
+There are very limited means to collaborate on the Regional/Global challenges. Travelling to an EMC office (in a new location) would require a lot of time in gathering contact details specific to Emergency, EMC regional/global initiatives, ongoing contests, Places to Visit, Entertainment, restaurants etc. There is no internal online classified marketplace where EMC employee can buy/sell stuff. InsideEMC is a great means of collaboration, however, there needs to be a mobile app which would encourage larger participation. We also feel EMC needs to come up with an enterprise App which can be offered to other enterprises as a Service through EHC.
+1) We often observe the employee being unaware of certain initiatives resulting in poor participation. 
+2) We often waste a good amount of time  to seek details (Emergency contact numbers, List of Restaurants, Shopping Malls, tourist attraction, entertainment, taxi etc)
+3) No platform to buy/sell commodities from an EMC employee
+4) None of the Enterprise we know have similar mutli-purpose App. EMC can sell the framework of the application or host the same in EHC to generate higher revenue
+We have built a layout of the app which mitigates the challenges mentioned earlier. The Eureka App supports the preferred language selection and tracks the current location through GPS. The app would require one time information around corp credentials, blood group, contact details etc before it may be use. 
+
+Please refer to the link below to view the layout of the app:
+https://inside.emc.com/docs/DOC-155986
+
+Highlights of the Eureka App below:
+
+Home Screen: Through GPS the app identified the current city. Here the app displays the current temperature, currency converter and time zone converter (with current time). We also get the below options to dive in for relevant information:
+
+1) Around EMC Office
+2) Sustainability Events
+3) Ongoing Regional/Global contents
+4) Buy/Sell - Online classified marketplace
+5) Emergency Contact Details - Police, Hospital, Ambulance, Fire, Cabs, etc
+
+
+Details below:
+
+Around EMC (Office): An on-device guide to make onsite travel well-planned and convenient for employees by providing information such as
+Places to visit
+Restaurants
+Shopping malls
+Cab services
+Entertainment
+
+Sustainability: It will be the best way to connect EMC at global/regional level and contribute towards EMC initiatives in spite of cultural, language or timezone differences. The plan is to integrate Inside EMC and implement any Global sustainability programs. We will have options to participate or contribute to the events or calamities happening across the globe via crowd funding. We can upload photos for completed initiatives and share it across globally.
+
+Contests: This feature will help to enable EMC as "A great place to work". It gives an option to drive any contests at global/regional level such as video/photography contests, quiz etc with maximum participation. We have an option to tag people to whom the app would shoot a notification and keep them updated on the ongoing activities.
+
+Buy/Sell: This piece of the app would provide an in-house online classified marketplace to employee to buy/sell commodities.
+
+Emergency contacts: It provides all the contacts needed in case of an emergency. For example, the app lists the contact and location details of the nearest Hospital, Police Station, Fire Station etc
+
+We have designed the layout of the app and this is provided in the link below.
+https://inside.emc.com/docs/DOC-155986
+Drive increased Employee satisfaction through the benefits listed below:
+1) Increased participation for Regional/Global events (Sustainability, EMC Contests etc)
+2) Quick details of places around the Office (Emergency contacts, Entertainment, Restaurant, Shopping Malls etc
+3) In house online classified marketplace to EMC employee to buy/sell.
+4) EMC can sell the application framework to other Enterprises or sell something similar as a Service Offering in EHC to generate Higher Revenue

@@ -1,0 +1,39 @@
+Efficient End-to-End Collaboration for Problem Resolution 
+The idea meets the E2E Horizon – End to End Business Process Challenge as it aims to enhance a complete End-to-End process at EMC customer service organization. We highlight the current drawbacks causing money and time waste and suggest a complete End-to-End alternative. We also added details about how the idea will work/be implemented.
+
+ The idea came up from experience working in Tech. support teams dealing with many collaborations per day that are time consuming and inefficient. We have also seen the potential of insideEMC that can be leveraged as a knowledge network not only social network. In each insideEMC profile there is two tabs that can be directly used: connections tab and employee expertise
+ The solution works as follows: you open a collaboration session by one click in Lync, you add your question and the engine recommends you the best automated answer as well as the best experts to collaborate with based on different data sources.
+
+Solution Structure: 
+
+1-	Collaboration Request:  when collaboration request is submitted by Lync, a session is open, the user (e.g. TSE) writes his question which is automatically submitted to the engine.
+
+2-	The Recommender Engine: takes the question (problem description) and does Big Data Analytics over different data sources such as:
+a.	Social Data:  from insideEMC using employees profiles and expertise section and social interactions
+b.	Knowledge Base: text analysis on KB articles and ranking for authors (experts)
+c.	CSAT survey data
+d.	Historical Incidents: text analysis and clustering over historical SRs/collaborations matching relevant previous incidents (checking experts who solved relevant issues before)
+
+Analysis algorithms to be used include:
+1-	Natural Language Processing (NLP) of textual data analysis
+2-	Collaborative Filtering (CF): for ranking most relevant experts/solutions
+3-	Classification and clustering to  detect similarity between historical incidents
+
+3-	Output report: the engine returns a result report to the user including:
+a.	Solution suggested automatically: based on most relevant materials
+b.	List of suggested Experts: ranked based on relevance to the issue
+
+4-	Feedback and Rewarding: after collaboration session is established between the user and the right expert, historical incidents database is updated and insideEMC is updated with reward points. Connections are built on insideEMC defining better dynamic workplace
+
+** We have prepared a demo diagram showing the solution architecture and operation and process in this PowerPoint presentation: https://inside.emc.com/docs/DOC-155389   
+
+1-	Money and time saving
+2-	 Seamless more efficient collaboration among federation 
+3-	Effective communication between employees
+4-	Faster efficient problem resolution. Hence maximized TCE
+5-	Better solution support
+6-	Upskill for employees by knowledge transfer
+7-	Build centralized expertise reference on insideEMC.
+8-	Enable self-support
+9-	Build an interactive social workplace in inside EMC
+

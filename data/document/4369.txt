@@ -1,0 +1,21 @@
+ViPR Object de-duplicate service
+
+This idea stuck to the  authors over coffee table while discussing innovative ViPR Data services.  
+Data deduplication consolidates the redundant information enabling you to efficiently utilize your existing storage space and improves OpEx and CapEx. Our solution augments the object metadata for de-duplication and combines the concepts of -
+1.	Object hashing	- Primary  metadata 		-  Object hashing 
+2.	Object snapshot	- Snapshot metadata 	–  Delta object
+We don’t have to maintain the separate repository for Object hashes as we will be reusing the object metadata repository. Any operation on the object will start with the query to metadata service to find the object reference in repository - 
+•	If the signature is found,  the read write operation will be on the reference object with versioning
+•	If the signature is not found, the object is  created and a reference is sent to the client.
+Object hashing works at Object bucket pool (Figure 1) – 
+1.	Create hash of objects in the pool (chunk of child objects)
+2.	Create a master hash of object in the pool. Mater hash is computed by hash of hash of objects in pool.  
+3.	Any new modification in object pool is versioned and a new master hash version is updated
+Workflow of Object dedup service  (Figure 2) –
+1.	New object is added in object repository – Compute the hash of object and search the hash of exiting objects in the repository. 
+If match is found, a reference of the object is added in the repository. 
+If no match is found, a new object is added in the repository.  Update the metadata of the object with the hash value. 
+2.	Object is modified / updated in object repository – Object which has been retrieved from the repository will have GeoObjectHandle. Any subsequent update on the object will be compared against the hash of objects in pool (chunk of object).  The chunks of object which are updated / modified are versioned and new hash is computed.  Finally we computed new master hash  and a new master hash version is updated
+
+***** Please contact the authors for finer details *********
+

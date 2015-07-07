@@ -1,0 +1,5 @@
+Mobile App for Car Pooling
+
+I came across this idea when i see huge Traffic block in front of all major IT campus, which even blocks ambulance to pass through in case of emergencies
+An App which can be installed on Mobiles, which help a person to update the route he is going to and people can vote for it if they are willing to use that route. This will increases the chance of using car pool across the teams. It reduces the use of Cabs which intake create cost cutting to the Company.
+

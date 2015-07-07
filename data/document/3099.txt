@@ -1,0 +1,9 @@
+Storing Of Wifi Data For Emergency Purpose
+
+
+I had to carry my phone and i didn't had Internet (GPRS/WifI) connection while coming on the way... I had to reply few urgent mails... I felt i was helpless until i reach
+ office premises i couldn't use the internet connection provided by Office...\
+
+This problems can be resolved, If in case you have stored Mobile Data... (No matter if we have GPRS and dont have the Network Signal to catch... Or we don't have Wifi)... We can use it On-Demand basis... 
+Whenever user gets connected to Home/Office Wifi... The device should allow him to store the Internet Data (in MBs or GBs)... So later in case if the user is travelling out or he is in a remote place... He can access the stored data during emergency situations.
+

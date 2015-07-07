@@ -1,0 +1,5 @@
+Build accurate Customer Inventory based on Customer Products data
+
+I led a project with EMEA Renewals department before to enhance customers' inventories on EMC's database and hence generating more revenues. I thought of this idea that might make everyone's dream of having an accurate database comes true.
+Using the IP address of customers box, with consolidating all dial homes technologies in one solution and make it customized on each EMC product.
+

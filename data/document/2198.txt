@@ -1,0 +1,6 @@
+Virtual Lab for all EMC product and Solution by using cloud / virtualisation.
+N/A
+Hands on experience on products will give us more confidence on the product and the solution we design. It also help us to design new solution.
+EMC has several products and solution made from them. By using virtualisation and cloud we can have same lab globally and locally. Local lab will be maintained by responsible product / solution support team. It will help the team to be more equipped with greater technicality.
+With the flexibility of Lab restore every month to the initial config automatically without any manual intervention. 
+N/A

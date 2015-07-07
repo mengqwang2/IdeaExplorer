@@ -1,0 +1,10 @@
+Making partial backup visible and restorable in Avamar Management console
+
+While working as an Avamar admin I have faced such situation and from ECN forum for Avamar, I can see other customers questioning on this. The simple question is, if we have partial backup on Avamar which will be retained for 7 days, What is use of disabling user/admin to see and restore it ?
+
+
+If Partial backups are visible in GUI and can be restored, it will be highly useful for customer in several cases. For example, if customer is allowed to run backup of a critical server only on Sunday which has huge number of files, it may not complete backup within specified time frame and may get canceled after completing 50% backup. Now customer can only run backup of this server next Sunday but Customer will not be able to restore anything from 50% completed backup.
+Since partial backup is going to be removed after 7 days, customer has to start backup from beginning on next backup run.
+
+In other case, if backup is canceled today and it completes tomorrow, from no where customer can restore anything for today. There should be feature where at least user can restore the amount of backup which was completed.
+

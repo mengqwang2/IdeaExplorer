@@ -1,0 +1,8 @@
+Visualize it!!
+
+On analysing community involvement challenge.
+The visual representation of the whole data set - should be backed by formulas and data. The categorization of data can be in any manner. 
+In this way, the students get to understand the complexity, volume and diverse nature of Big Data, and get a initial hands-on on the analytics and visualizing it.
+Post the contest the finalist students can be given a session on EMCs solution to big data and analytics.
+
+

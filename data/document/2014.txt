@@ -1,0 +1,16 @@
+Deep learning troubleshooting algorithm
+The idea addresses automating troubleshooting in general which can help 
+I have always been interested in data science in general and I'm looking for new ways that would help us gain competitive advantage 
+The idea of a machine learning algorithm that trouble shoots error logs is out there for quite some time, even more, the idea if a machine learning algorithm that analysis a solution a trouble shoot various products is out there.
+What makes this idea different is;
+1-	The raise of Deep learning and hoe accurate is that becoming, if we can analyze the logs coming from all the equipment in the data center and classify it into a problem category that would help assign the case to the more relevant person
+2-	The Implementation techniques that we will use, the raise of Kaggle like platforms will help us source the solution from external sources with minimum investment and quickly
+The Plan 
+We can in 12 month develop a plan to develop the algorithm using a microservices architecture to build up the algorithm across different products, we can even priorities what products we will start with based on the solutions sales, in other words we can start with the solutions that have more sales and start with the products in such solutions, work on three parallel streams 
+1-	We would start by looking at the logs from the products from out top solution, follow our standard datascience process to come up with an algorithm
+2-	At the same time we can post a gamified competition or a hackathon to develop the content on EMCcode.com
+3-	In parallel with all the we can post a couple of competitions in Kaggle and Innovcentive to build different parts of the code
+
+Once we develop that algorithm we can use it to create a platform that shows the customer real time diagnostics of the problems in his data center
+% of the time the algorithm can classified  the problem
+Impact of the platform on CSATs

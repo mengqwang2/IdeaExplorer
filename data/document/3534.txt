@@ -1,0 +1,18 @@
+ Collaborate with yourself – a new approach for Solution-support
+
+ The idea came up from a local initiative 
+
+
+ The idea is as simple as having all skill-sets needed within the support team itself. For example if a support team for VNX is combined of 10 members and the top 5 skill areas that are needed are :
+
+–	Host Consult - Windows
+–	Connectivity-Brocade or McData
+–	Host Consult - ESX
+–	Connectivity-Cisco
+–	Host Consult – Linux
+We will assign these skill sets to the team members. So for example 2 TSEs will focus on windows host skill set other 3 TSEs will focus on ESXi host skill set .. etc. The TSEs will get training in each skill set assigned and will be assigned a mentor from the Experts in this area as well.  Each TSE will be the reference for his team in this specific skill set when needed.
+
+When it comes to collaboration, the team member will collaborate with the TSE assigned the skill set inside the same team. They will work together for a resolution to the problem. If any further technical assistance is needed, then a collaboration to the next level can be done
+
+
+

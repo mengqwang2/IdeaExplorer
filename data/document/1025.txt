@@ -1,0 +1,18 @@
+Boosting open-source Search System performance with XtremeIO
+Full-text indexing and search system has been a ubiquitous information infrastructure for either enterprise or public service provider. This idea proposes to enable XtremeIO as the backing store for large scale open-source search system for boosted I/O performance and high scalability, thereby incubating a potentially large XtremeIO deployment use cases.
+The idea is based on experience build from our social media project and investigation of XtremeIO technology.
+In this idea, we propose to use XtremeIO as the backing store for such open-source search system, further unleash the performance with custom-optimized modules within those system, push performance data and best-practices, etc, thereby building an established search ecosystem with XtremeIO as the critical building block.
+
+Typically in current large scale search system, such as deployment of Solr and Elasticsearch, clusters are write-heavy and can easily saturate the disks, which become the performance bottleneck. In this regards, replacing hard disks with XtremeIO system will greatly boosts the performance of the search system. It has been reported that Flash-based Solid State Drives works very well for Lucene searches. SSD are about 100 times faster than even the spinning disks in seek time. They have lower latency for random access and higher sequential IO, most importantly, they are better at the highly concurrent IO that is required for simultaneous indexing, merging and searching.
+
+To further unleash the power of XtremeIO with search systems, we propose to invest development resource in customize corresponding configuration in OS or implementation in either Solr and Elasticsearch. For example, OS I/O scheduler is usually configured for spinning device, and BufferedIndexInput class will read 1024bytes off the back store each time, which only makes sense on hard disk with regards to the seek latency involved. As a result, there is still room to squeeze the performance gains from XtremeIO by customized configuration and implementation.
+
+The scale-out feature from XtremeIO is also very desirable for large scale deployment of the search system with low management cost.
+
+Last but not the least, the performance data can be disclosed in publishing, white paper and reference architecture can be disclose to public with the purpose of incubating the corresponding ecosystem.
+
+1) Showcase the performance advantage and high scalability with the domain of search system
+2) Expand the deployment of XtremeIO for large scale search system for increased revenue 
+3) Establish influence in open source search community 
+4) Let search system as the new use case for further exploring how XtremeIO is used in industry and what existing or new features will benefit the system.
+

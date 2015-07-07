@@ -1,0 +1,17 @@
+Automated Engineering Lab Services
+This idea matches in line with the sponsor's challenge
+NA
+By developing the application framework that has the following features.
+
+Talk to all the equipments in the Durham LAB/Datacenter via running the query that fetches the devices (servers, storage arrays, etc) through their IPs in the SAN environment. This is an in-built solution that can be configured to run based on the user needs. This way the admin can run them when there are any physical changes happening and to keep the application updated.
+
+(Via Integration) User requests/tickets are fetched from service now based on the "key words" that requires the manual contribution to install/configure OS, host based configurations, storage array configurations, switch specifics, etc.,
+
+Based on the requests, the application then decides to do remote configuration of the requests that the user had asked for. All these are automated solutions built in the framework/software that is built to address the problems. 
+
+The user requests are piled up in queue based on the priority and are served. 
+
+
+Link to the document : https://inside.emc.com/docs/DOC-143342
+
+Ease with the solution for the user tickets. No dependency as it is completely automated. 

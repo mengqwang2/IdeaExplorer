@@ -1,0 +1,18 @@
+Leverage EHC to integrate and streamline EOS2 engineering activities
+Leverage EHC to integrate EOS2 engineering activities (e.g. Interoperability tests/support matrix posting/project planning/resource allocation) therefore to provide more efficient and automatic solutions to EOS2 customers.
+
+Cost efficiency is one EOS2 emphasized priority to better manage and maintain lab resource and maximize hardware resources to utilize their computing capabilities. 
+Integrate EOS2 engineering activities (e.g. Interoperability tests/support matrix posting/project planning/resource allocation).
+
+1. Leverage EHC for auto OS/storage provisioning (vCAC/ViPR) for E-Lab/PoC engineering with  automatic testcases  which can be shared across different  groups. This is to avoid duplicate/uncovered test scenarios between product BUs and EOS2 engineering.
+
+2. EOS2 customers including product BUs/partners can self-service based on their request and leverage EHC to export their configuration to be EMC approved support Matrix instead use lots manual work for support matrix/RPQ approve and maintenance. 
+
+3. Leverage EHC backup services to do test environment migration among different arrays incase storage to be tested in EOS2 are in rotation basis per projects and minimize projects impact during BU hardware rotation
+
+4. EHC can also provide cost reporting (ITBM) to estimate CAPEX/OPEX cost for managed resources thus project management team can do resource allocation in an more efficient way
+
+5. EHC provides a powerful storage operational monitoring to give administrator and end-user better idea regarding to hardware limitation and avoid unnecessary resource waste.
+
+6. EHC provides Add-Ons modular with Pivotal CF/Hadoop to big data application and analysis based on data over ESO2 Lab infrastructure.
+Streamline process for ESO2 customer requests and complete them in an more efficient way. 

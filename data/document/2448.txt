@@ -1,0 +1,5 @@
+EMC International Exchange Program
+Increase exposure of EMC employees. 
+Thorughout my career, I have seen that travelling gives me exposure and allows me to rethink existing problems in a different way, i.e., see things from a different prespective. Therefore, I came up with this idea to utilize EMC's diversity into something bigger. 
+My solution is build or reuse a portal for employees to apply for exchange. For example, an Egypt COE can apply for an exchange in Utah COE or Argentina COE for example. The portal implementation should not be a problem.
+Employees wiill gain exposure, multi-cultural experience and will learn to work wth different types of customers; hence, gain new skills.

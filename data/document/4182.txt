@@ -1,0 +1,14 @@
+Boost IIG Products to SaaS
+
+I have worked around Cloud Foundry for years, one of the challenges I met is to integrate different product into Cloud Foundry as service.  Along with more request came, we realized that it’s become more and more reasonable that we can design a general solution to extend Cloud Foundry services.  We have implemented a PoC that supports MySQL, Redis, Mongo through a single service broker by leveraging Docker and existing Docker images. 
+We are proposing a solution that is able to transfer IIG products to Cloud Foundry Service in a unified way.  Start from v2, Cloud Foundry can be extent through service broker.  External services can be add into Cloud Foundry through implementing several REST interfaces for registering, provision, bind and delete service.  One important question we need address is how to implement service instance provisioning.  Since not all IIG product support multi-tenants, as a result, let single IIG deployment serve different service instances doesn’t work.  We are proposing to stage a new IIG product when request a new service instance.  There are two options: 1. We prepare each VM template for each IIG product; 2. We prepare each Docker image for each IIG product.  Both work, and can be co-exist, can choose based on specific product.  The solution works like below process:
+
+1.	There is a general IIG service broker be implemented for common tasks, like registering, service management;
+
+2.	There are several VM templates or Docker images are built for representing capability of IIG products.
+
+3.	The resource pool is prepared for supporting provision service.  For example, several physical servers are prepared and orchestrated by Nova Compute for VM-based provisioning.  If we choose Docker solution, several servers with Docker installed are prepared and orchestrated by Nova or other Docker orchestration tool.
+
+4.	For responding to the service instance provisioning request, the service broker will map the request information, like service type and service plan, to VM templates or Docker images.  And request the orchestration to provision a VM/DockerContainer with specified VM template/Docker image.  The information of the new provisioned VM or Docker container can be used to generate service instance access information.  This access information will be used to bind/access service instance by Cloud Foundry application.
+
+

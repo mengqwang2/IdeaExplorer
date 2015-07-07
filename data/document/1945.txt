@@ -1,0 +1,22 @@
+Massive combinatorial time-series analytics
+Brazil R&D Center: The idea suggests an efficient and cost effective architecture for massive combinatorial time-series analytics which is based on existing EMC platforms.
+
+Global Solutions: the idea suggests a combination of EMC and Federation products designed as EMC Solution that will help our customers to efficiently and effectively apply time-series analytics on vast amounts of data.
+
+Egypt COE Smart City and IoT: Various Smart City and IoT analytical solutions involve time series analysis (e.g. forecast or anomaly detection). The idea suggests an efficient and cost effective architecture for massive time-series analytics which is based on existing EMC platforms.
+Working on data science projects we have some experience with time series analytics and processing massive amount of data, thus we have decided to respond to this challenge and propose an appropriate architecture.    
+Based on our past experience with massive data analytics and some recent literature review we propose the following architecture for efficient storage, batch and real-time processing of fine-grained time series data. Its general idea is to allow a distributed, in-memory online analytical processing. For this we would use the Pivotal-HD suite: 
+1. HDFS for data and output storage
+2. Apache Spark for parallel in memory analytical processing. It can process HDFS data up to two orders of magnitude faster than Hadoop MapReduce and includes streaming data support, machine learning, and graph model computation.
+3. HAWK for allowing direct data access, querying and visualization.  
+Based on this architecture the time-series analysis process can be parallelized as follows. The steps of data preprocessing, time-series model selection and empirical evaluation are naturally parallelized in the Spark architecture where the data is represented as matrix; and in the case of time-series data each of the variables represents a column. All of the computations in these steps (data cleansing, correlations analysis etc.) can be performed independently for each of the time series variables in a parallel processing and the results finally summarized on a single node. Each of the evaluated machine learning models is independent from others and thus learning and forecasting steps can be parallelized either using Spark architecture or multi-threading. The framework can handle two types of models, one for which updating the parameters is done online (e.g., Exponential smoothing, Holt-Winter) and the other where a batch-oriented update is suitable (e.g., VAR, VARIMA). For both cases each model parameter updating can be done independently and thus can be paralleled by using simple threading but for the second type we can run the updating stage as a task in Spark. Processed data and output can then be stored with HAWK for reporting and visualization purposes.  
+The most natural Hardware platform which should be considered for this architecture is Isilon.
+To provide a storage and time processing estimation consider for example computing Pearson correlation (in O(n) time) between all pairs of 256 considered variables: 
+• For 10 years * 31,536,000 seconds , there are  ~ 3.15*10^8 values per variable
+• 256 variables -> 32,640 pairwise computations (over 2 GB of data which can fit in memory). 
+• Assuming a performance of 10 billion FLOPS (i.e. 10^10 operations per second for a single-core 2.5 GHz processor) it takes ~0.1 sec for one pair computation. With 10 nodes cluster of 4 processing core machines the task can be completed in 2 minutes. 
+
+Benefits of the suggested architecture: 
+• Based on Federation products
+• Scalable and provides data protection and backup
+• Suitable for enterprise, governments and high availability environments

@@ -1,0 +1,28 @@
+Goals and IDP tracking tool
+Manage/track and plan Goals more effectively
+Just as a thought
+We are suggesting a mobile app or a pop up in the laptop that sort of reminds us about these things on a regular basis.
+
+These things can also be tracked from web profile at EMC (inside.emc.com .. Nano blogger) 
+
+Highlights of this App are -
+
+View Goals anytime
+Send email reminders/chat to other colleagues in case of shared goals
+Get scheduled reminders
+Set reminders for goal's completion
+Get/Suggest training related information 
+Get new training plans and schedules.
+Help plan for future Goals
+Update Goal measurements or comments if missed out while submission.
+Draw analysis on how employees work on the goals - 
+          like --> Average number of Functional goals/year
+                   Goals completion rate
+                   Percentage coverage on all functional areas at the end of each year
+                   Graphical representaions
+
+
+
+Employees tend to manage their Goals more effectively.
+It avoids last minute rush
+Analysis explained above can create an awareness on how to manage Goals more effectively

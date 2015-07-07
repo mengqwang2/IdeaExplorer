@@ -1,0 +1,5 @@
+Auto re-setup workspace for KH/KH+ development
+
+When working on KH, the build script would ask users to input the modules he would like to build. Most of the time, people need to input all the modules, and the order for those modules should meet the dependency requirement. This is not a good practice as it requires people to keep in mind all the modules and they orders. To improve the practice, the build script has been improved to let people build all with only one option "all". Tools make people's life much easier, so developing a tool to auto clean up and re-setup and update workspace will be very helpful.
+It should be a simple tool, which could clean up the workspace you specify and pop up the same workspace from the stream, update the workspace. And according to your option, it could start a new build immediately after pop up the  workspace or just leave it as it is in case you want to build all after making some changes. The implementation should be very easy, but the output will be very delightful for developers.
+

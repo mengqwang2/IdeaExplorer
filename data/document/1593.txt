@@ -1,0 +1,5 @@
+E-magazine application
+The challenge is to help the employees of EMC to share their cultures and traditions together globally. They can share photos, events and activities to be familiar with the environment of EMC all over the world. 
+The idea has no history.
+My idea is to make an E-Magazine application on Android or IOS where the employees can share their photos or write articles about their different activities and events so they can reduce the gap between them and give them the opportunity to participate in different activities all over the world. The E-magazine will be delivered with different languages to all employees and we can use some algorithms to make translation for the articles written. 
+The idea will help the employees to share their best moments and it will have a positive impact on them as they will feel that they are really one community. 

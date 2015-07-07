@@ -1,0 +1,22 @@
+A general framework for EMC to leverage structured and unstructured data generated in the B2B context for improved decision making and gauge customer sentiment towards EMC product and services.
+The TCE team is looking to use the existing data available through EMC listening posts and through text analytics try to provide a differentiated value to the customers.
+
+The suggested framework is an attempt to solve the challenges. Data will be pulled from various mediums. Data will be analyzed in batch mode to build a predictive model. This model can be applied to positively impact customer experience. 
+The idea came up when I was doing a Coursera MOOC for Data Science and Text Analytics. 
+The solution is a general framework which can be used to build a predictive model for deriving actionable customer insights through it. The challenge was to quickly and productively make sense of humongous amount of unstructured data and harness it to achieve the deliverable.
+
+The framework is mentioned in detail at https://inside.emc.com/docs/DOC-155926
+
+Some examples of applying the predictive model outcome are: 
+
+a. If a customer has made a positive feedback, that can be re-tweeted or liked so that EMC online followers can see the positive comment.
+b. If a negative feedback has been made, the customer can be contacted and send pointers to the solution.
+c. Based on machine generated data/alerts (Dialhome) the customer can be presented with KB articles which provide fixes for the alert/error, when s/he logins to the support portal.
+
+It has been attempted to not tie this framework to any hardware or software solution. Some general tools have been mentioned, but they can be replaced with other similar ones.
+VALUE PROPOSITION:
+1. Accuracy and Precision
+2. Employee productivity
+3. Efficient processes
+4. Reaching the customer faster
+5. Increased Revenue

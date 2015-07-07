@@ -1,0 +1,13 @@
+Elastic data center optimization based on Graph models
+The idea is aimed to provide automated optimization of a data center based on telemetry data collected within the data center.
+The idea was forged in a meeting of the data science as a service team. 
+Our idea is comprised of the following stages:
+1.	Automatically create the current layout of the data center by using thin and flexible sensors attached to each of the required components
+2.	Collect telemetry data from the different elements in the data center. For example: the amount of network traffic between all the components, CPU levels for each application.
+3.	Define a cost function to describe the cost of a given layout based on the given telemetry data.
+Once we have the above data we can reduce the input into a commonly used data structure in computer science called a graph which is described by a set of nodes, connections between the nodes and, for each connection, a set of weights (i.e., each based on a different telemetry parameter). Given a graph we can solve the following optimization problems:
+1.	Find the optimal layout of the data center given the cost function and the telemetry layout
+2.	Enable ‘what if’ analysis capabilities based on simulation and semi-supervised approach in which algorithms identify the most appropriate levers to change and investigate the simulated outcome
+
+Examples and use-cases can be found here: https://inside.emc.com/docs/DOC-155422
+The success & benefits of the innovation can be measured by reducing the amount of man power needed to plan or transform a data center. In addition the solution can be used to reduce maintenance costs (select which hardware to replace or transit).

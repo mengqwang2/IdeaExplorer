@@ -1,0 +1,16 @@
+EMC Green Infrastructure - Use Big Data Analytics to save energy in EMC arrays
+ The idea aims at reducing amount of energy used by EMC arrays using data driven approach
+
+The idea came from the sensor networks technologies where the energy is the critical focus and everything else is optimized for it 
+Energy consumption in HW infrastructure is highly dependent on the way they are used, the workload type and technology used. 
+
+The solution aims to use data analytics in real time to collect data and metrics from the array about its power consumption and IO patterns. Data analytics techniques will run to analyze the data collected and provide insight on new patterns/approaches that can use less power. It can point out the factors that waste power the most and consider them in the next engineering phase for improvement.
+
+Big data comparative models can compare energy consumption reports for similar arrays (same array and workload type) to provide insights about factors affecting energy consumption that can be optimized. 
+
+The analytical algorithms to be used include regression and classification.  Solution is generic to different EMC arrays.
+
+1-	Reduce energy consumed by EMC infrastructure 
+2-	Data Center cost saving 
+3-	Environment friendly 
+

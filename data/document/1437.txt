@@ -1,0 +1,30 @@
+Integrated Collaboration leaverging EMC digital and Social platform
+Social Collaboration in our organization is dispersed across various sites, there is a need for a unified social and diverse platform across EMC ecosystem.
+The power of digital platform needs to utilized more in building a Social and connected network.
+Came with the idea after talking to .COM and analyzing the participation on inside EMC 
+This idea is about empowering all EMCer’s to have an enriching and diverse collaboration experience.
+The solution is to reuse a integrated solution(Inside EMC) to enable EMCer’s to share and socialize on the go.
+
+Inside EMC integrated with other existing tools i.e. Share (A platform currently used only by the Social Advocates of EMC to socialize EMC with the external social networks like Facebook, twitter, LinkedIn, Wibeo) and Sustineo (EMC’s sustainability portal) to enable te various channel communications helping users to :
+
+- Know your “Team” – global teams based on interests, work ,united with a sense of purpose
+- To follow on specific groups or area of interest and participate by creating posts, pages, documents on those
+- Trendsetter for events and Showcasing product releases
+
+Integrated platform should be plugged with exchange to push notifications to users based on their subscriptions through Outlook and Lync. 
+
+What’s the measure? 
+- Collaboration Score, the more you are social and share, blog, create groups, activities and so on you’ll be rewarded for it. 
+- This score can be like the India COE EMC Smiley points where EMCer’s can exchange points for small goodies. 
+How the collaboration score will increase:
+1. Global connects with team across geography with diverse teams.
+2. Face to face meetings.
+3. Lunch with external BU members.
+4. Active participations in various forums, competitions
+5. Comments and generating ideas for improvement.
+Another option is to integrate Inside EMC in SHARE, enabling every employee to be a social advocate of EMC.
+- Increased level of participation from EMCer’s with a sense of purpose
+- Enables forums with access to skills and strengthen EMC network.
+- Improves Work efficiency and enables to Innovate faster and better by exploring ideas and brainstorming.
+- Enhances Diverse collaboration, aid in more productive and successful workplace.
+- Stay connected with happenings in and around EMC 

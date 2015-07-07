@@ -1,0 +1,7 @@
+A new storage solution for OpenStack powered clouds
+The challenge in OpenStack storage environment is the availability of many open source storage solutions like LVM, Ceph etc. With commodity hardware it is really easy for anyone to adopt these technologies where the investment is significantly less and anyone who adopts this for production will be well aware of the tradeoffs. Most of EMC’s arrays support OpenStack. I think new customers who adopt OpenStack may now buy a storage array to evaluate it. OpenStack support of EMC array may come in handy for existing customer with arrays like VNX, VMAX etc to easily evaluate it. But the real challenge is to get customer who start with OpenStack from day 1. For them significant investment on storage hardware may not be a viable option. 
+After studying OpenStack for few months the challenges around storage part intrigued me and in March 2015 I thought of this idea. As of now the idea described in the document is strictly theoretical and a prototype can be built. 
+The solution is discussed in detail in the attached article. 
+
+Link : https://inside.emc.com/docs/DOC-155404
+The proposed idea can turn into a new product. If successful it may open up a unique market for EMC to explore.

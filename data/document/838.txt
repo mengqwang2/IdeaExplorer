@@ -1,0 +1,29 @@
+Consolidated, Scalable, EasyUse Data Movement in Hybrid Cloud
+To address data free/fast movement in hybrid cloud env, it's hot and highly relevant to EMC business such as data migration, backup/recovery, data dispatch/aggregation, data re-balance per SLA/Cost change.
+OCTO is building projects around data movement either share or non-share storage. we believe our in-progress projects as well as EMC existing portfolio could be strong weapons to further build up a "as-service" solution that tackle realistic customer problems. 
+We already validated part of above tech like online moving Docker with CRIU and Kubernetes to manage cluster
+Perhaps one tech can't fit all, so let's do something fancy.
+We fully leverage EMC existing portfolio and most recent OpenSource (Docker, Kubernetes... ) to deliver consolidated, scalable, easy-deploy/use, building block solution. It may pack as Appliance(VCE/ECS), or pure software, or Mobility as Service running in EMC governs cloud (VirtualStream) or other clouds.
+see 8-page slides @ https://inside.emc.com/docs/DOC-155946
+
+The solution consists of Scalable Data Movement Platform (CDMP) cluster with EMC data movement as plugins and necessary clients in data src (such as for running Docker instances). Existing EMC tech will be hidden magic that transparent & invisible to end-user, instead, user just specify the src, tgt info and requirements such as how often, how long, sync/async etc, then CDMP would 
+1) Auto probe, analyze and match the best suitable tech based on built-in engineering knowledge and/or config policy
+2) Auto provision the instances and resources; 
+3) Multiple instances and tasks are monitored by centralized dashboard 
+4) Auto scale new instances to meet SLA.
+
+particular,
+- The CDMP cluster itself running as scalable Docker instances
+- Docker-lize existing movement tech: for fast deploy,launch and scaling. Right now, EMC already release many VMs like vVNX with Rep, vRPA.. depends and they cloud be wrapped as Docker, or Intel ClearLinux VM (customized Linux with ~200ms boot time and 20MB mem footprint) or VMWare Photon.
+- Auto match the best-suited tech based on environment and requirement and built-in intelligent. such as CRIU to move Docker, vRPA for VM, sync, heterogeneous; vVNX Rep for VNX/VNXe; CloudBoost for backup with dedup etc.
+- Task/Data partition and auto-scaling: leverage Kubernetes to manage Docker/VM cluster
+- Orchestration: Resource provisioning, config, monitoring etc
+Feasible and valuable: maximizes EMC existing investments (also with minimum risk) for fast growing data movement requirement. also embraces and fully leverages container Docker, ClearLinux, Photo. Extra gain or output is Docker-lize our software for new era of software-defined.
+
+Innovation: creatively hides lots of internal complicity for end-user so easy to deploy and use, and efficient/less prone to mistake as built-in knowledge. also succeed in good scalability and data parallel. besides, it's pluggable for any new coming tech.
+
+Flexible delivery options: 
+1) Pack as Appliance in VCE or ECS  -> integrated/optimized 
+2) Software on any commodity HW -> cost-effective
+3) Mobility as Service running in EMC governs cloud (VirtualStream) or other clouds. -> Pay as you go
+Idea could implemented in phases, Phase1: overall architect design, Docker image movement and vRPA as Docker instance.

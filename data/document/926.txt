@@ -1,0 +1,13 @@
+Dogfooding - Idea towards product quality 
+CTD Supportability - This idea will prevent customer issues and provide infrastructure for improved trouble-shooting
+
+Customer Services Challenge - This idea facilitates customer services to identify if the problem is in the customer environment or the product
+
+E2E Horizon – End to End Business Process Challenge
+
+This idea/process if implemented will contribute towards product quality improvement, faster release cycles and internal marketing
+This concept has been vastly used in many multinationals in the past successfully and is currently used by much smaller companies as well. This concept was first ideated by Microsoft.
+Soultion: DOGFOODING
+Dogfooding(“eating your own dog food”) is a slang term used to reference a scenario where companies use their own products to improve quality and build confidence. The idea is that if the company expects customers to buy its products, it should also be willing to use those products. By using our own products, we are forced to first hand what the user experience is like and raise hands whenever there are issues or concerns. Here the employee will not be testing the product but will act as an end user, that means he will use it only when it is required for his job. So, ideally there is “NO” investment required. However, the challenge is to implement this and make it part of daily work life.
+
+Internal marketing, potential quality improvement, recommendation of products, process optimization and zero investment.

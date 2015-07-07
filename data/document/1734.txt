@@ -1,0 +1,13 @@
+Wireless Charging Tables
+This challenge main concern is to create a modern and more comfortable workplace for employees to make their working environment more easier and this what the idea is trying to target is making the work environment more flexible and equipped with the latest technology.
+The idea origin is Starbucks as they are the first place to offer such service for their customers.
+Using wireless Charging Tables This technology is described as ‘inductive charging’ because it uses magnetic induction. The current coming from the power outlet moves through the wire in the charger, creating a magnetic field.The magnetic field then generates a current in the coil inside the device, which is then connected to the battery to charge a mobile phone.
+
+To use the system, customers must have a mobile with built-in wireless charging, or a phone accessory that provides the same capabilities.This spots could be offered in the Cafeteria place, on each floor office maybe a corner is just equipped with spots for wireless charging.
+
+
+
+
+-Offer a more convenient methods for employees to communicate as the battery won't an issue anymore.
+-Offer a more flexible environment.
+-Bring more technology to work place.

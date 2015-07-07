@@ -1,0 +1,12 @@
+Backup Licensing Tools 
+This will serve the challenge/s listed below. 
+
+Faced similar issues and did not want to impact customers 
+Communicate and have a set of backup licensing tools that can be used when our major/main tools are down. 
+
+we can use the test environment to create license keys and all team members should have access and be trained to use it 
+Avoid affecting customers 
+have a plan B
+better service 
+best quality 
+

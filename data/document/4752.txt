@@ -1,0 +1,5 @@
+Lync Mobile integrated with EMC Desk Phone
+
+Communication with EMC Employees triggers this issue
+If we can integrate Lync and EMC desk phone so that we can use Lync as collaboration tool for any type of communication.
+

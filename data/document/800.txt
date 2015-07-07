@@ -1,0 +1,27 @@
+Inbuilt & Dynamic Performance Booster for NetWorker
+Performance is a key challenge in a enterprise backup appliance. The appliance by itself does not have an intelligence inbuilt to identify the bottlenecks in the data protection environment.  
+
+Whenever a customer hit any performance issue, he need to refer many documents such as KB articles, whitepapers, best practices guide, the POPG guide and sometimes he directly raise a support call to tune and boost the performance. It is a manual task and takes lot of time to address the problem. 
+
+NetWorker need to have an intelligence, which should alert, notify (in NMC) the admin about the bottleneck in the system at runtime, also it should suggest the solution that is best suited according to his environment. 
+
+In other words, the solutions mentioned in POPG guide can be integrated (inbuilt) and dynamically alert the admin and suggest the optimal solution at runtime when any bottleneck is identified (based on the POPG guide). 
+
+The idea is to have inbuilt Listener (Program) in the product which will track all the Parameter/Attributes which degrades the Performance of a Product.
+
+Determine client browse and retention policy requirements.
+Some suggestions to help identify bottlenecks and define expectations are:
+List all system, storage, network, and target device components
+List data paths
+Mark down the bottleneck component in the data path of each client
+1) Collect environment details
+2) Capture the resource utilization
+3) Identify the threats based on the utilization 
+4) Analyze the configurations
+
+Refer more @  https://inside.emc.com/docs/DOC-155904
+- On the go "alert" and "solution". 
+- No need to refer any documents.
+- Reduce the support calls
+- Improves productivity 
+- Saves time and energy

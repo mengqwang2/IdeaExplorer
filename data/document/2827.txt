@@ -1,0 +1,15 @@
+Saving energy/power/space/heat in a Datacenter through a battery built into EMC hardware
+I intend to eliminate the need of the BIG UPS In the datacenter. This would save significant cost, space and prevent heat contributed by the UPS. A step towards "Green Data center"
+My mobile phone and the home UPS is the source of the idea It is powered through a built in battery and eventually we charge the device when the battery is low. We can therefore introduce a built in battery and charger with an inverter on every EMC hardware device so that the power is drawn through the battery as much as possible eventually saving a lot of power. 
+
+I came across a few articles and understand that there are practical implementation of servers with Built-in batteries already exists and the benefits directly linked to energy saving. Google and NEC (Japanese company) already have servers with built in battery. I would like to post a few articles which make excellent reading very relevant to my idea of having hardware with built in battery with a different perspective (benefits of eliminating the BIG UPS in a datacenter):
+
+http://www.cnet.com/news/google-uncloaks-once-secret-server-10209580/
+http://www.datacenterknowledge.com/archives/2009/04/01/efficient-ups-aids-googles-extreme-pue/
+http://www.nec.com/en/global/techrep/journal/g13/n01/pdf/130108.pdf
+
+Article below talks about Facebook looking to adopt the same design of hardware with built-in batteries:
+http://www.datacenterknowledge.com/archives/2009/11/27/should-servers-come-with-batteries/
+
+My idea is to upgrade all EMC devices with built in Battery. Doing this would eliminate the need of the BIG and Expensive UPS in the datacenter contributing to direct cost, space and energy saving. At present the data centers have a BIG UPS for uninterrupted power supply. This is extremely expensive, consumes a lot of space and contributes to a lot of heat. With my solution all EMC devices would come with a built-in battery replacing the need of a BIG UPS. We would not only save electricity since AC/DC conversions are limited but also save space. The built in UPS being small in size can be cooled through air (room temperature), this way we build a "Green Datacenter" and register a small contribution to prevent Global Warming.
+If the idea is incubated we would see a built in battery on all EMC hardware which would eliminate the use of the BIG and Expensive UPS in the Datacenter. This would mean we would cut down on the cost, space and energy requirement very significantly.

@@ -1,0 +1,104 @@
+ViPR Smart Diagnostic Engine
+The solution provides capability to predict drives, arrays and hosts failures by utilizing a cloud based knowledge repository and alert system administrators to proactively take necessary steps.
+We started ideating for this challenge by having discussions with the Sponsors to understand the challenge better and the key wins they are looking for. We (IT) were collaborating with Professional Services team for other initiatives related to ViPR, we decided to take this working relationship further by jointly coming up with the solution for the challenge and the proposal we have put across is the result of this collaboration.
+The proposed solution is based on micro services architecture style with each business capability realized as independently deployable services which deliver business value. It is planned to be developed on open source, java based Spring technology stack and offers complete flexibility in deployment - On containers like Docker or on a VM or on a PaaS platform or in OVF format.
+
+
+At the crux of the solution is an intelligent Diagnostic engine which is responsible for failure prediction by applying thresholding technique, rule engine & machine learning.  
+
+
+It provides an intuitive User Interface through which all functions of the applications can be managed. Its responsive UI enables stakeholders to work seamlessly with the system across all type of devices without any change in the user experience.  
+
+
+One of the key differentiators of the solution is to do with its ability to have it hosted On-Premise or on the cloud:
+
+1. On-Premise
+      - Solution is deployed within the data center. Its ability is restricted to predict failure within the data center.
+
+2. On-Cloud
+      - Solution is deployed on the cloud, typically useful for enterprises which have multiple data centers. The learning's and the knowledge base built over a time is reused & applied across the data centers 
+
+
+The application constitutes of 5 key modules
+
+1. Data Engine
+2. Diagnostic Engine
+3. Learning Knowledge-base
+4. Notification & Reporting Engine
+5. Portal
+
+
+1. Data Engine
+
+It constitutes following key services
+
+    -  Asset Meta Data Service - Responsible for collecting Meta data from ViPR Controller on the various storage devices and its components
+
+    - Extraction Service - Responsible for extracting all performance metrics like Spin up time, Raw Read Error Rate, Seek Error Rate, Reallocated Sector Count, Total IOs, KB-Transferred, IO Time Counter etc..
+
+   - Transformation Service - Performance metrics across devices, for each component (Array, disk, processor, port, host) will be in heterogeneous form, transforming the data into a uniform structure for each of the component in important to simplify the process of analysis. This service is primarily responsible for the same 
+Diagnostic Engine
+
+2. Diagnostic Engine
+
+It carries out multi-pronged analysis on the data 
+
+        - Monitor internal attributes of drives, hosts, ports & arrays and predict potential failures by thresholding technique
+
+        - Run data through a set of pre-defined rules maintained in Learning Knowledge base which looks for specific patterns of data across different attribute set  
+
+        - Apply machine learning algorithm (Support Vector Machine & Navie Bayes Classifier) which learn from the past data and predict failure
+
+
+3. Learning Knowledge Base
+
+This modules is primarily responsible for
+
+   - Managing rules, patterns, thresholds, alerts
+   - Introspect and minimize false positives 
+   - Continuously analyses trigger points, false positives, fault detection rate etc. and self-learn from previous actions by applying reinforcement learning thereby providing recommendations to improve rule sets, tweak thresholds and enhance machine learning algorithm        
+        
+4. Notification & Reporting Engine
+
+This modules is primarily responsible for
+          - Responsible for notifying operational staff on the potential threat through various configured means - Email, SMS & UI Dashboard
+
+          - Provide various reports - Most failed components, vendor with most failures, prediction success rate, failure detection rate etc..
+
+5. Portal
+
+Provides responsive User Interface which allows authenticated users to carry out various functions with the applications based on their access rights. The User Interface for the application will be built using HTML5, Angular JS and Bootstrap
+
+
+Technology Stack :-
+
+1. Micro Services to be built on Java Spring technology stack - Spring Core, Spring MVC, Spring Data
+2. MySQL or Postgres Database for storing all configurations, rules, patterns, user roles etc. 
+3. User Interface built on HTML5, BootStrap and Angular JS
+4. Diagnostic Engine - Pivotal Hawq, Pivotal HD, Greenplum, Apache flume, MadLib
+
+
+To summarize, the solution employs micro services architectural style & separation of concerns design principle with each component self-sufficient and responsible for a specific capability delivering appropriate business value. It proposes to utilize federation technologies for solution implementation, comes in 2 variants - on premise and cloud, employees self-learning. It augments ViPR Controller capabilities by offering automated fault detection capability thereby making it a one stop shop for all the needs of the operational staff right from storage automation to detecting failures.
+
+Please refer to this URL link for Architecture Diagram : https://inside.emc.com/docs/DOC-155826
+
+From ViPR Product Perspective:-
+ 
+•	Predictive diagnostic capabilities to detect failures to arrays, hosts and disk drives
+
+•	Manage and Monitor Storage devices & its components through a Single User Interface
+
+•	Ability to define rules, thresholds & alert mechanisms 
+ 
+From Admin Perspective:-
+
+•	Proactively take actions and avoid failures
+ 
+From EMC Perspective:-
+
+•	Improved Customer Experience & satisfaction
+ 
+From Customer Perspective:-
+ 
+•	Improved Availability, up time & Reliability of Data Center
+

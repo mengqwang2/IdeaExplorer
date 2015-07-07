@@ -1,0 +1,11 @@
+Desktop monitor gadget
+
+-
+Create a desktop gadget that could be installed on the IT admin desktop. This is linked to SRM and displays some reports continously on the gadget placed on his desktop. 
+
+the user doens't have to login everytime to check for something.
+
+He selects which reports should be sent to the gadget and can monitor it continiously while he is performing his normal jobs.
+
+Also when any crutial alert happens , a red blinking alert could be displayed as well as an alarm.
+

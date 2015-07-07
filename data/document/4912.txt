@@ -1,0 +1,11 @@
+Infrastructure Self-healing engine - The Doctor
+
+We came across the idea while discussing about the challenges faced in EMC production data center activities. 
+The solution comprises of an analytical engine, Knowledgebase and a self-healing engine.
+
+Analytical engine: Collects monitoring data (viz., alerts, logs etc.) from existing infrastructure products and monitoring tools (Smarts, vCOPS, SRM, Hyperic etc.). Based on the gathered data and KBs, analysis is performed and recommendations are fed into the self-healing engine.
+
+Knowledgebase: Repository of KBs pertaining to various EMC products.
+
+Self-healing engine: Initiates a corresponding work flow to fix the issue with/without the admin’s intervention, based on the recommendations received from the analytical engine. 
+

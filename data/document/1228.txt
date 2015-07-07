@@ -1,0 +1,16 @@
+subsidiary service request!
+The idea aims to improve the support function. We will introduce a subsidiary Service Request and TSE should be able to select the required skills from pool of resources, before referring to the concerned teams.
+After checking CTD challange
+We can use sub-Service Request, to replace the collaboration with the concerned teams to have:
+
+1.	The owner sub-SR will deal with it like a normal SR and will be their responsibility to have contentious support, if needed
+2.	All details and analysis done by the team owning the sub-SR will be included in it and it will automatically appear in the SR itself
+3.	Time taken to open new collab or follow up with owner will be reduced, as we will be updating sub-SR directly, regardless it has owner, or will be assigned, due to turnover process 
+
+New features to be added:
+
+1.	Add pool of skills for each team and link the sub-SR to the Global Schedule and Self-assessment tools, so that requester can select the skills they need and it will be assigned to the available TSE; that matches the selected skills and criteria.
+
+- Easier and faster communication between teams.
+- Enhances the ownership of the SR and sticks to the idea that their is one point of contact as seen from the customer side.
+- Increases the relevance of the engineer to the nature of the problem and matches the SR with the most suitable engineer based on his qualifications and readiness to accept and support the sub-SR

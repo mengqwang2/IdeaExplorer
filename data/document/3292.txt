@@ -1,0 +1,31 @@
+Life-Cycle System Usage Analyser
+CTD Supportability in 12 Months or Less
+This idea can help to improve the system upgrade experience and reduce the upgrade failure for our customer.
+
+In the VNX/VNXe developing period, the Install&Upgrade team develops some scripts to parse the system upgrade status of all the lab machines to get the Install&Upgrade code quality status of each release and improve our code. So we consider we can extend this approach to all the function areas in the real customer machines.
+
+In this solution, we will implement an application (it could be a Perl Script) to run on our VNX/VNXe systems regularly, and this application will do following works:
+1. Collect the system usage data of system.
+    The system usage includes the time-based CPU/Memory utilization data, system reboot info, hard disk/SSD usage data, etc.
+
+2. Parse the system and component logs and then extract the customer usage data.
+    The customer usage data includes:
+       1) Backend storage usage
+       2) time-based data I/O usage
+
+3. Generate customer usage report and store it on the customer machine.
+
+4. Send back the system usage and customer usage data to the EMC via the existing callhome function.
+
+
+
+
+If this idea is fully implemented, we expect it will have following benefits:
+
+1. Help the customer to find out the most appropriate time to perform the system upgrade.
+When our customer decides to perform a system upgrade, a primary problem is how to make the upgrade to make less impact for the normal use. With the help of this solution, we can easily find out the low usage time window for our customer based on the historical system and customer usage data.
+
+2. Provide more accurate warning for our customer before the system upgrade.
+Some features like the file systems on the "Thin LUN" may meet the "Low Space or Out-of-Space" issue during the upgrade. If we have implemented this solution, then the upgrade script can parse the customer usage report and provide more accurate warning for our customer before the upgrade, and avoid potential upgrade error.
+
+3. The support team and Dev team can review the incoming system and customer usage data, and dig out the potential limitation or improvement area of the system upgrade feature or other components.

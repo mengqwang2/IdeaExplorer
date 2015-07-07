@@ -1,0 +1,15 @@
+Virtual Assistant using Lync bot in Lync Unified Communicator
+
+When I thought through my day to day activities that could be made easy with Lync.
+Here are few virtual assistants that would be useful for both EMC personnel and EMC customers.
+
+1) UnityAssistant (Unitybot) -   User initiates a chat session with Unity Assistant in office communicator/lync and provides the incident number.  The Unity Assistant will respond back to the user with latest status of the incident and URL to the incident for additional reference.
+
+2) ServiceRequestBot - Users including EMC customers could key in a Service Request number to receive the latest update.   This could be used by customers outside of the EMC network as well which provides an easy and quick response on the status. This would really handy when available on users' mobile.
+ 
+3) Conference Room Assistant (CRbot) -  How many times has it happened to you, when entering a  meeting room (without the display monitor) someone else tells that they have the room too and both wants to check to see who has it ? How many times you had challenges in locating a meeting. 
+a. CRbot is virtual office communicator assistant, that when a conference room name is booked,  it responds with location details (location details such as the floor, landmark, pole no., etc) and current and next confirmed booking slots. 
+b. When pinged with “BOOK Zepplin 07/15/2014 3.00-4.30 pm EST”,  the CRbot should book the room if available.  If the room is not available CRbot should provide suggestion on similar rooms in the same location and time.
+ 
+4) Acronym Assistant (ACRObot):   People often uses many EMC specific acronyms such as ESRS, IIG, EMSD,  CLM etc in their verbal and email conversations.   Many times, people find it quite embarassing to ask what it stands for.  With virtual assistant (ACRObat), when pinged with any EMC acronym, it should return what that acronym stands for and also provide some knowledge around it.
+

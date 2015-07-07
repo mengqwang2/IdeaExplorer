@@ -1,0 +1,34 @@
+OnDemand EduLabs
+
+We are implementing vCAC for couple of customers including EMC IT which automates the provisioning of virtual servers, desktops and even physical servers. 
+
+The same solution can be customized to address this challenge.
+Sridhara Santhosh, Satya Jha and Naresh Madiraju developed the idea
+We evaluated VCAC for solving the idea challenge and did some brainstorming sessions for “what if” situations
+
+No manual intervention: 
+Self-service to request technical labs and are provisioned automatically. Technical labs are provided on-demand as a cloud service
+Integrated workflows:
+ From a user request and administrative approval through decommissioning and resource reclamation
+Modular Architecture:
+Provision and manage multi-vendor, multi-cloud infrastructure and applications leveraging existing infrastructure tools and processes 
+Service Catalog:
+•	Service Catalog approach where training coordinators can browse the catalog to request required labs, schedule, track their requests and manage the provisioned items
+•	New services can be defined and publish to the common catalog
+
+Products integrated:
+
+VMware vCloud Automation Center (VCAC)
+VMware VSphere
+VMware View
+Microsoft Terminal Services
+VMware vCenter Orchestrator
+EMC RSA,
+EMC VIPR
+Cisco UCS (optional)
+Pivotal (optional)
+Puppet
+MSSQL DB
+Postgress DB
+
+

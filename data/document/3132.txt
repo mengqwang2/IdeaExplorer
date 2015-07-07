@@ -1,0 +1,5 @@
+Block level differential snap shot replication
+
+Basically enable the storage processors to manage their own snaps and replicate them with meta tags on replication job that embed the catalog, DVR and journaling natively in the Storage OS, with out a host or software add ons. This saves the customer money and time having to manage one system vs. many.
+Ability to have one primary product storage array take snapshots, move them to staging non production disks on the same array, and\or move the snaps to the second array have all the snapshots replicated natively inside the OS on the storage frames.
+

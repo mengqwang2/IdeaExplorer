@@ -1,0 +1,17 @@
+Smart Parking Meters
+
+This idea tackles the use of the internet of things to improve parking meters and tariff.
+
+This idea started with a simple way to minimize hardware production and maintenance of parking meters, then the feature of payment with registered credit card was added.
+We also came up with the idea to gather user/car information to be able to control tariff as well as create some offers for regular users.
+All the new cars now, and certainly all the cars that will be manufactured in the next five years will have
+All parking areas will be equipped with one piece of hardware that spreads a signal within a certain range.
+On the software running the car we add an application that will start to count the time once parked in a parking zone that require fees.
+Once un-parked payment will be automatically remitted to the proper authorities from the car driver credit card registered on the software.
+In addition these parking meter could collect the data of the cars that park and when do they park. It can also collect the user information from the credit card used. Using all this info the authorities could then control tariff depending on the type of cars, the users, the time, the amount of time they park each day.
+They could also approach certain users with renting some spots for a certain amount of money per week. 
+
+
+This idea will reduce the cost of hardware and maintenance as well as create an easier way for car users to pay their parking fees.
+It will also create profit when used to market offers to certain users.
+

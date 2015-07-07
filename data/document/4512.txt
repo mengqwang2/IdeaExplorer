@@ -1,0 +1,14 @@
+Optimized Converged Storage
+
+Came up this idea when I read converged storage related articles.
+Traditional IT were enabled by compute, network and storage, but in the converged architecture, they all in one box. compute, network and storage are standardized and supports virtualization.
+
+Optimization:
+1. Compute, network and storage are connected through PCI-E rather than FC or Ethernet. This enables fast I/O speed and high throughput.
+
+2. Load can be balanced throughout the converaged cluster, data can flows from high load node to the idle one.
+
+3. Offer class of services based on application needs: different applications have different I/O patterns and requirements. For example, some needs higher performance while some needs big capacity. Some requires advanced data services while some just need simple stupid services.
+
+4. Enhance data mobility. Based on this, data are also standardized and modulized can be easily migrated from one node to another.
+

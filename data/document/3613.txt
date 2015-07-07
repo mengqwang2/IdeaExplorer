@@ -1,0 +1,5 @@
+Mobile App for Employee's Profile (inside EMC)
+
+The increasing need for transformation and mobile usage.
+The idea is to have a mobile app aligned with inside EMC to have the ability to edit and submit employee's quarterly goals, submit appraisal,..etc
+

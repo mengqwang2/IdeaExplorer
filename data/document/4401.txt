@@ -1,0 +1,9 @@
+hybrid Education Cloud model using EMC Federation products
+
+New market capture on education, reaching global audience via education market and third platform.
+
+The solution comprises repository of EMC/VMware/Pivotal's elearning modules, Instructor LED Videos and product trainings stored in EMC II products example Isilon storage.  The cloud service is via Pivotal Web Server and vCloud Hybrid and the authentication for the service is via RSA's Adaptive Authentication and Digital Certificate manager.
+
+The data lake of Unstructured high volume educational content,customer interaction histories, service transactions via mobile, web will get analyzed using Pivotal HD engine with Gemfire XD.  This extracts the business value and provide recommendations through in-memory data processing.  The complete offering will able to use via mobile App and other mediums.
+
+

@@ -1,0 +1,11 @@
+Smart Environment Monitoring System by employing Wireless Sensor Networks on Vehicles For Pollution Free Smart Cities
+The challenges faced by Govt. in effective monitoring of Air Pollution and its causes. 
+As air pollution being a major environmental change that causes many hazardous effects on human beings that need to be controlled. Below are the hazards for Air Pollution.
+•	Global Warming
+•	Health Hazard
+
+This Idea came to mind, while reading an article regarding the Air pollution and Chronic diseases caused due to this.
+The general outcomes expected through the measure implementation are: To control pollutant emissions level. To achieve reliable information regarding CO, NOx and Ozone emissions in several areas of the city.
+
+This Would help in providing information regarding the current situation of air quality in several areas of the city, both to citizens and to the decision-makers of mobility policies.
+This idea would help company to make money by providing cloud solution and Big data analytics solution to Government and helps in effective monitoring and control pollutant emissions levels.Helps in gathering Reliable information regarding CO, NOx and Ozone emissions in several areas.

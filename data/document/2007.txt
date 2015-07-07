@@ -1,0 +1,23 @@
+Using financial Data Analytics in systemic risk prediction
+Systemic risk and the ability to predict financial crisis and measuring systemic risk for financial firms and banks have been very important and critical especially after the last financial crisis in 2009.
+The idea uses Business data lakes, big data, hybrid cloud and predictive analytical techniques to calculate and predict the systemic risk of banks in a manner that provides financial gain to the customer
+
+The idea came while we were discussing systemic risk and the difference between systemic risk and systematic risk and what happened in the financial crisis in 2009 and why there were no prediction about what happened back then.
+The idea works using concepts of business data lakes and hybrid cloud as follows
+-	Crowdsourcing the data by establishing a trusted Cloud-based data cooperation for a collaborative management of financial reference data from banks, insurance companies and other financial institutions
+-	Using EMC storage as Isilon will give EMC the opportunity to sell to the customer the infrastructure as a Service layer and to give an advantage in real time transactions processing. The system will more mature enough than the older approaches to handle the implications of the real time transactions being executed supporting risk management decision-making at speeds matching the transactions.
+
+-	We would make advantage of EMC Hybrid cloud (EHC) to move data between customer private clouds and EMC public cloud for analytics taking into consideration the security of the private clouds.
+
+
+-	Using Pivotal Gemfire for real time data analytics and to establish statistical models using machine learning techniques.
+
+-	We will be able to provide the user with visualized reports using Pivotal Suite
+
+This idea is of more benefit than the old approach in systemic risk 
+The old approach was relying on historical data to build statistical models in a more reactive way, defining causal relations between the different variables of the equation.
+
+The old approach cannot asses risk exposure in real-time. Our solution would be able to do this.
+
+Our idea aims to improve the decision making process in banks by allowing them to manage systemic risk in a better way. The solution we offer, not only improves the Core business processes, but will also realize financial gain to the customer by reducing total cost of ownership. Moreover, using shared cloud between banks allows to mitigate the data governance limitations and insure data availability in real-time from different data pools. On the other hand, it provides the privacy and data security required by the customer. Our purpose is to provide the customer a reliable easily-managed data lake.
+

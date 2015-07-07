@@ -1,0 +1,5 @@
+Instant User feedback for applications
+A full proof mechanism to capture and act of end user or customer feedback within the application
+The background of the idea is around empathizing with the customers or end users as part of the Design Thinking way of doing things
+The solution is inline with Design Thinking concept by allowing the developers to empathize with the end user through a Embedding a customer feedback capturing mechanism within all the applications. The user can then provide instant feedback while using the application which the development team and then act upon
+The major benefit is bridging the gap between what the customer wants to what is being developed by the application. The goal is to move towards a process were there will be little or no training required to use an application.

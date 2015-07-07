@@ -1,0 +1,12 @@
+Real time Analysis and Monitoring of Documentum platform
+The way we address this challenge is to integrate ECD Documentum platform  as part of the Pivotal Big Data lake which has the capabilities of storing huge amounts of data as well as providing Real time analytics.
+While I was working on the customer location this requirement was seen at the customer end. On reaching out to the wider ECD community I came to know that many customers have asked for similar requirements but EMC never had a ready solution or product to solve this problem
+The solution I envision is to integrate Documentum with the Pivotal Big Data lake so Documentum becomes a part of it along with other sources present at a customer site. Then we do analytics on the information coming from the Documentum platform using the tools provided in Pivotal big data suite which would help in providing insights as well as real time monitoring. 
+A lot of information can be derived from Audit trail if that is mined properly. Some useful insights are:
+1.User events - User actions and usage patterns (log in, log out, time they typically work on, what they work on). Alerting/Notification happens when there is a change in user pattern or some other anomaly is seen.  For a new deployment this also would help to provide the adoption trends of the system and providing information on where the adoption is less so some action can be taken.
+2.Storage – Show the storage consumption and alerting beforehand when storage is being exhausted.
+Other input for monitoring would be the system parameters (CPU, Memory & Network usage) using tools like collected which also pushes the system parameters to the data lake. Some insights from it would be : 
+1.System performance – Alerting in case the CPU/Memory/Network usage is too high and can impact the system performance.
+2.Providing recommendations for time periods (or months) when the usage is typically high so that more resources can be allocated to it during that duration and later pulled out.
+1.We have thousands of customer who are using Documentum and its related products like webtop, xcp and D2 along with it. If they have a ready product to capture real time events and  performance monitoring  with enhanced UI , dashboards  and scheduled reports ,the customer  will definitely prefer to buy the license for this new product as well. 
+2.This would add value to our core product and also contribute towards revenue generation

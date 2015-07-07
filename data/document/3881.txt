@@ -1,0 +1,6 @@
+Energy Pulse
+
+Several people from different business units have approached me recently seeking data on energy usage on different systems across manufacturing. 
+The team have completed an exploration activity to develop the idea with customers and stakeholders
+Integrates real time data from machine sources, facilities systems along with data from within existing manufacturing systems into one application to generate metrics. This application will produce an energy dashboard and visualization for key performance indictors within the environment. Analyse the current pulse of the system, drill down to determine system performance and run comparisons to identify trends and outliers
+

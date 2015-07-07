@@ -1,0 +1,15 @@
+Data Lake using object virtualization and federation
+
+None
+The core innovation address the following problems in one the key design tenets of the Data Lake, which is data virtualization.  On the north side, the framework exposes simple RESTful  interface based object API and on the south side the framework support wide range of data sources.  It internally creates a scalable object name space that virtualizes the data and tracks the sources without moving  them entirely. In order to provide Hadoop level function and performance it caches the data records from the source on demand on to Hadoop and recycles them as per LRU.  This eliminates the need to source the data from all data sources of the data lake.  The object name space is browseable and can be managed directly for data services like replication,  compression and de-duplication across virtualized data sources.   The way it works is as follows:
+
+•	User refers to the object using RESTfull API
+•	The data virtualization layer identifies where the data is using the handle presented or key presented using it’s internal object namespace.
+•	It reaches out to the data source using appropriate connectors provided by vendor 
+•	Gets the object using the global handle. 
+
+The key novelties of this approach are:  1. Global Namespace for objects in the data lake 2. Selective caching of the objects if Hadoop compatible access is required. This is kind of virtualization of HDFS wherein, we implement stubs in HDFS to pull out the objects on demand from the original data source itself  3. Federation among multiple data sources. 
+
+The data lake virtualization layer could be implemented by any of our storage platforms by embedding the object namespace based data virtualization layer. 
+
+

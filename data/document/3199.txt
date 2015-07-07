@@ -1,0 +1,12 @@
+Perspective Study on Client Side Avamar Infrastructure
+
+While we go across Escalation and Client-Side Bugs, even after all types of testing conducted over the Product, intimates need to enhance the testing environment to the replica of Client. 
+EMC Product Testing is based on Functional Testing, Performances, Load, Scalability Testing etc but these doesn't matches accuracy in Product Testing.
+Usually, the Client Side Infrastructure is different and with large number of units such as Clients, Servers, Grids which engineering might have such scenarios in there testing as they might not have live infrastructure details like how the customer environment is. Customer usage of resources will be quite different and long run setup which we might not know to build same with internal resources.
+To avoid issues/escalations on such kind of infrastructure we need to have some process like below explained, 
+
+We need to build internal engineering scenarios to match with customer’s live production environment, EMC should send engineering team to frequently to customer place to understand their environment and critical areas so that it will build/teach engineering strong use cases and they can implement those in internal environment and test thoroughly. 
+-	Considering EMC has large number customer throughout world and branch offices also, can send local engineers (Development/Testing) to understand environment 
+-	Can be 3 to 5 days session
+-	Can send local engineers and transitioned to remote areas to avoid high expenditure
+

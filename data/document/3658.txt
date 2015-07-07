@@ -1,0 +1,12 @@
+Cross Device Single Sign-On
+
+While I was thinking solution on wearable security devices, thought of this idea.
+The solution proposes to have cross device SSO. The authentication tokens/sessions created in one device type get used as user moves from one device to the other device. There is no need to enter password as user switches to another device. 
+As part of the solution, each device to share session will get a software module that allows sharing session with the consent from the user. As a device comes to contact with another device, the software modules will exchange known session information securely with each other.  Once user tries to start a transaction from the other non-authenticated device type, the token/session information shared by authenticated device gets submitted from the new device type. As it is a valid and legitimate session user gets access to the resource without authentication prompt.
+The implementation can be in three forms:
+1.	Just software modules which gets installed in the user device types and it is responsible for session sharing
+2.	A new wearable security device which keeps track of the sessions and shares session with device types.
+3.	SecurId token as new wearable device with session sharing feature to avoid multiple logins from different device. 
+User logs-in from one device and device shares session with other devices which user uses hence there are no multiple prompts for authentication. Overall user experience would really be single sign across multiple devices and also with multiple resources. The SSO definition used to be confined to single user agent for different resource access but in the changed world it should really across multiple devices by same user to access different resources.
+
+

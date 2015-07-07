@@ -1,0 +1,12 @@
+Know Your Customer
+
+Q3 of 2013 while having discussions with various Account Managers got to know about the Documentum D2 product had the most RFQ/POCs done.
+I got the team trained on D2.
+With the Spike in D2 volumes, we were able to manage efficiently as we had sufficient staff trained.
+
+Support/Sales/Engineering should have access to the page.
+This will provide a good overview of customer pattern of IT investments which would be useful in the following ways
+Support to train the staff appropriately.
+Engineering can have a good and effective road map of future products.
+Sales team can have a clear Market Segmentation.
+

@@ -1,0 +1,5 @@
+Windows hotfix auto discovery and installation
+The idea could enable faster and more secure product development through expanded, more efficient, and higher quality Engineering Shared Services.
+I have to reinstall the hotfix after reinstall the windows OS. It take me a lot of time in my work. So I think if they could be done automatically, then a lot of effort could be saved.
+The windows hotfix auto discovery and installation server will check all the windows servers in Elab and install the hotfix automatically. There is no other similar solution there. 
+It will optimized a process and improve work efficiency.

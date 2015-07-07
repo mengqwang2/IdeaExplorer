@@ -1,0 +1,5 @@
+Service Request searchability
+
+Due to my frustration with our support tools and the extended timeframe for various KBs to be officially published, I feel that the field needs a faster solution at their fingertips until the KB is officially released.  If a KB type of note is added into an SR, the framework of the KB will already be in place.
+We currently have no way of indexing current SRs within support.eme.com and a solution must wait for a KB to be developed, reviewed and published.  If the solution/work-around was noted in the first SR where the problem occurred, and the SRs were instantly searchable, we could reduce TTR over many customer issues.
+

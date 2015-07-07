@@ -1,0 +1,21 @@
+Drive way to office- Car pooling App
+The idea is to create something innovative which would help employees travel conveniently to office and develop interaction among themselves.There are million of us who engage in solitary travel from home to office driving million of kilometres, spending stock of cash on fuel and polluting the environment like a smoke hub 
+Many times when the bus gets late and I have to travel to a different spot to catch a public transport, especially when its pouring from the sky . It becomes very tedious when you have to are getting late for a meeting. I always wished if there could be a better way to reach to office in traffic safely without being dependent on EMC transport/public transport.
+An app can be designed that could be deployed both at IOS/Android/Windows which can connect us with our near by EMC employees living in our locality,travelling to office via their own personal vehicle and calculate how much money each has to pay to other.
+
+-The app would show the location of your colleague,available slots and how far it is from your  location/route to pick you up.
+-The colleagues would have to share their  contact nos. in order to know the route. 
+-It would show which route to take to avoid traffic.
+-If 3 people travel in a car,each one's share could be calculated and can be shown in the app as who owes whom how much on the distance travelled as per the fuel rate. 
+-Payment mode could be cash or online transaction using payment gateways
+
+  A drive to office could never been so much fun..easy..economic !!!
+
+I feel it hold a lot of benefits:
+1.Fuel safe
+2.Car pooling would definitely cut don the no. of vehicles 
+3.Less pollution
+4.Interact with others develop. Socialize with others.
+5.Good for pocket and environment
+6.Wear tear of car
+

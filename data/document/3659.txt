@@ -1,0 +1,25 @@
+DPAD TCE Automation using Universal Framework and Scripting
+
+The Idea was formed during various knowledge sharing and brainstorming sessions between the members of the DPAD community and other PS members.
+Presentation:
+https://inside.emc.com/docs/DOC-100140
+
+The idea is to create a flexible and open source framework which can be incorporated for the various DPAD products. The framework will be accessed through an easy to use and intuitive web interface. The tool will accept captured data from various products and will have the intelligence to use the right tool to process the data.The entire process is automated and requires minimal knowledge of the tools used.The generated information can be presented in different formats - csv, ppt, html 
+
+The framework will consist of multiple customizable modules:
+1. Data Collection Module
+2. Database Module - SQLite
+3. XML Module
+4. Analysis Module
+5. Configuration Script Generation Module
+6. Report Generation Module
+
+The customization enables the end users to query the database and extract information as required.The development team will work closely with the DPAD members to enhance the current process reduce the overall time and effort required to perform the tasks.With the framework in place the authors plan to initiate an open source community for the benefit of all DPAD professionals.  
+
+The authors have built some of the building blocks which can be put together to demonstrate a proof of concept in a short span of time. This model is successfully implemented for EMSD for the analysis and report generation of Symmetrix Arrays. For a Video demonstration of the same please visit  http://10.63.32.191:8084/SymmMergeWeb%20v1.5/Video.do
+
+DPAD automation can be easily integrated into this framework.
+
+Presentation:
+https://inside.emc.com/docs/DOC-100140
+

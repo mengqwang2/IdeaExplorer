@@ -1,0 +1,12 @@
+Continuous delivery is great !  What about predictive SecCloudOps to operate it ? Bringing predictive monitoring and cyber Defense in new app lifecyle
+Today, Operations teams operate in silos: NOC, SOC, dev support, DBA gurus, etc.
+Continuous delivery is promoting faster go to market, this requires more agile, end-2-end, predictive operations to support it. Leveraging EMC2 portfolio, a Ready-2-Use solution can be designed and made available for our customers.
+
+In my previous job, I was selling Operations bridge & monitoring solutions. Customer does not want anymore to invest in costly monitoring framework which is very long and challenging to implement, plus the recurring cost and required skills to add content. So, next gen IT needs a more agile end-2-end solution, aligned with continuous delivery phases and security aware to implement efficient cyber-defense.
+Leveraging infrastructure datalake (ISILON), PaaS (PivotalCloud Foundry), predictive analytics (Pivotal Big Data Suite BDS) and security Analytics (RSA), a ready-2-use solution can be build to answer this challenge.
+Key features to bring disruption are :  ready-2-use content, out-of-the-box data collection and analytics processing for some predefined use cases, open solution based on open-source BDS so that customer and partners can promote and enrigh the solution content, Collaborative shared content on Internet (splunk style), No limit scale out (ISILON)
+
+Key success feature is ready-2-use content with collaborative shared content
+Key success is quick implementation, like the speech around EHC (you can deploy your hybrid cloud in 28 days)
+Key benefits for EMC federation is to answer new business and IT requirements, getting new customer and providing a disruptive solution to the market.
+

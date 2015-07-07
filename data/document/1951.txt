@@ -1,0 +1,9 @@
+Dashboard for PERFORMANCE DATA across project lines
+Test data not published. Comparison amongst data across releases not present. Currently comparison between product and data not present.
+There were lot of questions and mails floating in from various stake holders like product management ,support and marketing ,always to query on numbers and comparisons on what's the improvement ,what are the new features ,which improved the performance of product ,can we have older data Vs newer .All these data were there in mailbox or in erooms or in various reports .But there one not one place to look and compare .There was dependency to query individuals stakeholders to get the product data. Then the solution was proposed by Shelesh to provide one place for everything.This was started by Krishna and then the design was not very scalable and swapnadeep/SOnali added the charm and completed a prototype for MS apps.
+Stakeholders like QA, Marketing etc can refer this data and present the performance history to the potential buyers as well as existing customers. This has got huge TCE advantage. This can be implemented across projects like DDBMA, Cross Apps etc.
+
+Technology can be enhanced to improve performance, if required.
+SUCCESS: Better prospect for marketing, peers who can decide on the product based on performance aspect for the product.
+Benefits: Improve customer satisfaction, improve technology, increased sales.
+Can be used for data comparison, product management, project planning, requirement planning, 	product comparisons across board.

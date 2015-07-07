@@ -1,0 +1,5 @@
+Build a self service portal to connect with our customer w/ Office Communicator and Lync
+to be more reactive to our customer it is extremely helpful to be able to chat with them with Office Communicator or Lync. We would even integrate closer with them. TCE would be enhanced
+Working with my customer RWE I was asked frequently if I am available on Lync or communicator. We for the moment use Whatsapp, but a direct connection via Office would be better
+Build a self service portal where we can register customer contacts and get them connected easily.
+We would integrate in our customers environment more seamlessly and would be come a member of there team. That would us give more relevance.

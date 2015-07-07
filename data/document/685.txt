@@ -1,0 +1,20 @@
+Analytics of indoor tracking systems
+A big data solution that uses data generated from indoor tracking systems. 
+basis of this idea came within a graduation project of close my friend Gasser Salem, we have been since discussing the idea and improving it over time , till we can implement it. 
+The solution proposed complete solution design partnering with other companies and sold as a tailored solution (software and hardware ) or cloud based to Customers mentioned in the previous section. 
+
+This Example is based on one large shopping mall 
+1. Shoppers will enter the mall and will be tracked using wifi nodes ( this system already exists ) 
+2. Users will be notified on their mobile devices via sms to download an application to their mobile phone. The App is a customer app for for the shopping mall , will help deliver advertisements ,  catalog based search of existing stores. Indoor maps with interactive directions (google maps like) 
+3. The data generated from this system can be manipulated using our federation products in the following manner. 
+
+      a. Isilon storage and Pivotal big data analytic solutions can be employed to store and manipulate customers position and footpath inside the mall. 
+      b. many business useful statistics can be driven out of this data. 
+         examples : number of customer entrance per store. most dense locations. studying customer's paths travelled within the mall. average time spent per store. Sales per store. 
+      c. statistics later can be sold to the stores and help them improve their sales strategy. Help them orient their ads based on location and history.
+      d. Analysis can also lead to identifying top spots that drive highest revenue , based on the mall can decide the optimum rental price. 
+      e. Predictive analytics can be run to provide number of visitors per store / season / day / night time .. all this information is valuable to the stores and businesses. 
+
+
+
+Success of this idea will enable EMC to compete in a market closer to end users, creating more tailored and innovative solutions leading to direct sales. 

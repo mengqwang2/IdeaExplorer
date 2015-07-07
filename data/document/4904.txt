@@ -1,0 +1,14 @@
+Work from 'Home Office' 
+
+It has been noticed that there is a big gap between 'employee asking for WFH' and 'management approving it with challenges'. Asker and approver needs to meet together at some point keeping in view employee satisfaction, retention and organizational/BU goals.
+
+Spcific guidelines can help formulate policy for WFH. The policy is about checking readiness at home for better WFH. 
+For example, following points can be taken into consideration when developing WFH model
+- ways of avoiding external noise
+- power backup
+- uninterupted internet service
+- a designated SPOC to monitor engineers who are doing WFH. Making SPOC and engineer accountable for their performance. 
+- promoting idea of seperate cabin like structure at home or seperate room to avoid distractions.
+- brainstorming on ideas to have better & apt operational control over an engineer who is doing Work from home
+
+

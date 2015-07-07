@@ -1,0 +1,9 @@
+Switch Off your Device Now
+Create a mobile software that enables customers to switch off their devices remotely
+
+Once the device has been disconnected from the customers' site, this should automatically create an SR to set the device as Deinstall Customer Site.
+
+Then a case could be sent automatically to the concerned team to remove the Remote Connection
+Some customers complaints, and IB accuracy is my main job
+Switching off the device and having this updated on our Database will enhance the process of having accurate data on the IB, also will decrease the power consumed on EMC Products and will also satisfy our customers as they will get their request done right away
+This will increase customers' satisfaction and will decrease the power consumed on EMC Products

@@ -1,0 +1,7 @@
+Networker integration "Integrate to accelerate"
+
+This idea is based on the winning article in the annual knowledge sharing 2013 competition where covers many areas and solve many issues with the integration between Networker and the other EMC backup portofolio.
+A known aspect of large, modern data centers is that they are heterogeneous environments with many products from different vendors.
+
+Smooth integration between these different products and avoidance of the bugs and the errors will easily help sell the complete EMC portfolio to current users of a single technology. 
+

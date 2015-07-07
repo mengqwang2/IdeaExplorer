@@ -1,0 +1,6 @@
+Resource evaluation link
+
+-
+Add an icon to our email signatures. The icon is small and eye catching. 
+The icons when clicks opens a webpage where the customer can send an evaluation to the resource he is dealing with. The evaluation is visible to the resource and his manager.
+

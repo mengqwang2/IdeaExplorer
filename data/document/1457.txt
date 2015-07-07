@@ -1,0 +1,17 @@
+IMAC team in Cairo COE
+Here in Cairo COE we are having a massive number of employees relocations.
+
+personally, I've moved my desk 2 times in around 18 months, a 3rd time might be coming.
+I found my self spending hours and hours in the moved trying to pack/unpack connect/disconnect my stuff from my working hours which affects the TCE.
+Having an IMAC team under the local IT department which is notified for every scheduled move to happen.
+This team should be responsible for 
+1-moving employee's IT devices with all connections during employee offshift.
+2-make sure network and electric plugs are functioning properly.
+3-keep the cabling neat and tidy.
+4-keep track of hardware serial number with employee name and location.
+
+Note: employee is responsible for packing his "personal" belongings in a box to be moved with by IMAC team to his new desk
+1-No wasted hours from employees in the move.
+2-EMC assists are kept safe from destruction.
+3-keeping track of serial numbers, hardware owner and  location.
+4-cabling are kept tidy.

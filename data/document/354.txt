@@ -1,0 +1,6 @@
+Documentum sizing tool and HA need fulfilment
+Current sizing tools are good but away from practical resolutions
+Several customer don't buy the idea of pulling the numbers up from the output of CORE/RAM that appears in the output of sizing tool. Presales and professional services team has to find odd ways to defend the extrapolation of the sizing appeared from the tool.
+It becomes very challenging to make the customer understand the gap from the field experience and output provided by the tool.
+Idea is to have a sizing tool taking care of %of customization more into account along with third party integration. Also the tool input should consider the correct products getting employed.
+By improving the inputs and output, sizing tool will become more reliable and field experience and personal dependency will eliminate

@@ -1,0 +1,5 @@
+Creating Cloud API for Replication Manager/Appsync and DPAD products
+
+Have seen some hosting centers managing the data protection on their own. Eventhough SLA's are in place customer is still not comfortable since they are not managing the environment neither protecting the data on their own.
+To resolve the issue, Replication manager/Appsync needs to have an open API or Vendor based API and should have the Groups/roles defined for individual customers with their environment view only, apart from this customer should be able to view his protected data history which will help them to restore the data. 
+

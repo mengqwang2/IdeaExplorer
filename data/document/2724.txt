@@ -1,0 +1,11 @@
+EMC Docs - online web-based office suite similar to Google Docs
+Our solution is based on reusing open source software to create a collaborative web environment for simultaneous editing of text and presentations.
+Modelling our solutions as service would lead pre-existing products to the 3rd platform.
+Inside EMC network we are not allowed to use Google Docs due to security restrictions. 
+The absence of a good collaborative office suite hinders local and remote collaborative work. 
+We assume that many other companies may suffer from the same problem.
+Authors will edit a document held on a EMC Docs repository (Documentum, Syncplicity, Isilon, Mozy, etc) by using a simple browser editor. Users will register once with the service and could then create documents and invite collaborators who could update the document. There will be also a “viewer” category of user; those could only read a document.
+An extensive revision history will be maintained. It will be possible to view the entire document as it appeared at any time past. An author could choose to revert to an earlier version. There will be also tools to compare any two versions of a document.
+For versioning we plan to use Git.
+Our solution will take advantage of the existing features of our products, such as Isilon deduplication, Syncplicity expiration link, etc.
+The launch of a corporate (intranet) collaborative tool, integrated with our content management products, allowing for  simultaneous file editing could change the way people create content.  We want to achieve the same usability/simplicity of Google Docs.

@@ -1,0 +1,30 @@
+CFC (Collaborative Food Circles) - (Ready to Go Concept, 100% PoC done with  Video demo).
+#HR Challenge - Promotes collaboration among employees irrespective of race, culture or any difference.
+
+# Ireland Challenge,   # IT  Challenge 
+                        - Provides a platform for employees of all cadre to engage in a friendly conversation without needing any extra time or effort.
+
+We had a chance to attend a non-technical training conducted within our COE. The day involved a couple of team activities which made us collaborate on particular tasks. This helped me to approach those colleagues as and when required, without any hesitation, anytime in my office. In fact, at times, I reached out to them for technical help as well.
+Link to video demo: https://inside.emc.com/docs/DOC-155518
+
+Just think about the wide range of discussions we have had in the lunch table.  When is the last time you got a chance to interact with a new person in the office premise? And how frequent it happens?
+How about spending the lunch time with a group of new people once in a week? In other words, how about making new friends every week?
+
+Nothing – not a conversation, not a handshake or even a hug - establishes friendship so forcefully as eating together.      – Jonathan Safran Foer, an American Writer
+
+Actions needed: 
+# The COE management can take this initiative to pool people. There could be three options per week, say Tuesday/Wednesday/Thursday.
+# The interested employees can sign in for the food circle concept. COE leaders should be encouraged to be part of the food circles.
+# The management has to randomly select people for each group in the current week food circle. The size of each group should be less (preferably not more than 5) to prevent sub-groups within the circle. 
+# At least one day prior, the management has to notify the employees their food circle members for the current week.
+# The rest of the planning is to be done by the food circle members. The members can collaborate to decide on factors such as time and place (in case they wish to go out).
+# The member can back out from the food circle for that particular week in case of unpredictable commitments.
+# Similar food circles need to be formed for night shift employees. Hence, two pools need to be maintained: one for day-shift and other for night-shift employees.
+
+Link to video demo: https://inside.emc.com/docs/DOC-155518
+
+# The crux of this solution is the engagement it provides among employees. 
+# Leaders can provide their valuable insights to them and get to know the concerns/opinions from employees, in a friendly way.
+# Solution is flexible and scalable. It can be implemented within BU or across COE. 
+# Truly leverage diversity in the workplace; Offers inclusiveness.
+# Single click-in mobile app to reach wider audience

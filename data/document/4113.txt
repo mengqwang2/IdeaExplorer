@@ -1,0 +1,11 @@
+Index of Customer Sentiments (ICS)
+
+I see the importance of stock index not only for trading but also to get sense that how is the company doing in general. It creates a perception among customers and other stake holders. 
+So I want to exploit the perception part and I feel collecting sentiment index would help both - EMC and its customers.
+
+We would create application which analysis the big data collected from various social and mobile media- like twitter, facebook, blogs, articles, cloud based mobile apps which are used as EMC mobility drives..etc.
+
+- This app would be integrated with EMC website (internal and external).
+- Various levels of sentiments water marks can be send to stakeholder.
+
+

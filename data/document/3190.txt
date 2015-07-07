@@ -1,0 +1,5 @@
+EMC Cloud app
+
+The idea was reflected based on drop box 
+EMC will have its storage app on IOS and andriod market where users will have free storage space on cloud then they can pay to get more space on the cloud  
+

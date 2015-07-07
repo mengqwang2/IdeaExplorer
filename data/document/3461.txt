@@ -1,0 +1,13 @@
+ MyVoice – Reversed and Proactive parallel myVoice approach 
+
+ The idea came up while thinking of new approaches towards a more accurate and larger input to enable successful data analysis.
+MyVoice survey is structured to measure employees’ satisfaction in different aspects like : Honor, credibility, Fairness…etc. we will use the same structure to build a parallel proactive myVoice portal that is open for employees to raise their voice
+The idea works as follows :
+-	A web-based portal/channel that is open along the whole year for employees to raise their voice.
+-	The web-portal will be simple and quantitative in structure means that the employee will rather choose from a set of options rather than write free text.
+-	When the employee wants to raise his voice regarding something, She/he will go to the portal and select one of the major criteria categories like: Honor, credibility, Fairness…etc. 
+-	He/She will choose whether it is positive or negative. Then he will choose the closest items from a list that match his situation.
+-	The vote is taken and added to the database that will be used in analysis as in the idea I proposed in : https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014002147 
+
+
+

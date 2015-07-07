@@ -1,0 +1,15 @@
+Solutions related to Life sciences, health care, banking and finance.
+
+Solutions related to Life sciences, health care, banking and finance:
+Creating customer base application using EMC products (Greenplum, cloud, big data) which helps in bringing individuals medical history on board across India.
+
+
+its troublesome to carry all the medical files and remember past history. This cloud application will help hospitals to get information with one click. 
+Using Cloud, Big data analytics’ and greenplum database we will create an cloud base application to maintain Individuals medical history by hospitals.
+
+This application will be accessed by the various industries. This helps in saving lot of time, money for patients as well as hospitals and insurance companies.
+
+- once click medical history availability.
+- based on medical history right treatment would be given to patient.
+- insurance company can save lot of money by avoiding medical examination and fraudulent individuals.
+- individual can avoid carrying medical history.

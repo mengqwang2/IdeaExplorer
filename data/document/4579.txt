@@ -1,0 +1,11 @@
+Smart Community Involvement Dashboard
+
+I led many projects with having measures of success communicated to people on a regular basis and know how much this engage and motivate people to participate. Here in Egypt COE I see great progress in the Community activities, but I guess there is a big room for more participation if such a dashboard with measure of successes takes place and is communicated with people.
+First dashboard metrics (measures) should be chosen, covering all areas EMC can help the community in (power/energy saved, number of classes delivered for raising the community skills, number of blood donation events with number of volunteers, number of fund raising events with amount of money raised, number of houses re-built...etc)
+
+Then an automated dashboard should be designed and developed to keep the metrics and numbers achieved updated live at each point of time.
+
+Apple and android applications to be developed to have all EMC employees and customers' access it and see EMC community involvement dashboard with all successes at any point of time.
+
+P.S: I can help in the design, development and implementation of this whole idea as I have led many similar projects with dashboards and reporting designs.
+

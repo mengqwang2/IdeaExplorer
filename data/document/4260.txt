@@ -1,0 +1,13 @@
+CLI to Voice Bridge
+
+Just a radical thought. Possibly subconsciously influenced by Google's Voice activated Search Engine. ;-) This could probably be a step towards a peek into futuristic technology. The edge over our competition relies on what tasks are automated and triggered by certain voice activated commands.
+
+We could innovate and take it a step further by also integrating smart-phone menus or tablet or Phone IVR based 
+Tasks dependent on CLI commands could be consolidated with scripts on various platforms and triggered by voice commands.
+
+The ability to switch between various input methods (keyboard vs. voice) would be task dependent.
+
+We have been using the same method (CLI access) of interacting with computers for decades. Its time to innovate!!!
+
+
+

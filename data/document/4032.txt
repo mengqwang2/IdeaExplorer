@@ -1,0 +1,12 @@
+Linux namespaces for multi tenancy
+
+the idea is the result of about one year work of Networking Config VNXe development team in the area of data IO networking configuration and multi tenancy.
+Details are available here: https://inside.emc.com/servlet/JiveServlet/downloadBody/100054-102-1-347153/Namespaces%20prototype%20description%20v01_1.docx
+
+Modern versions of Linux have the “namespaces” feature. A number of different kinds of namespaces is available; the most interesting for us are the “network namespaces”.
+The crucial feature of the namespaces is that the application can use a foreign namespace sockets as usual, residing in the default namespace itself.
+To open the socket in a different network namespace, the client switches its process to that namespace. There is a system call to do it. Then the client opens the socket the usual way and switches back to the default namespace.  To open another socket this procedure is repeated. Being in the default namespace, the client does all the usual socket operations like bind() and write() while the sockets are in another namespaces. 
+In the production system based on the current Unity codebase, a single Linux application should serve the network connections in a number of namespaces. It is possible even to make a single VDM, an entity inside file service application, to be accessible from the different namespaces.
+For the outside world, every namespace correspond to a part of the network with a contiguous address plan. In a “Coke & Pepsi” scenario the Coke company would have one address plan, the Pepsi another one with the same IP addresses, while both use the same storage system. 
+
+

@@ -1,0 +1,6 @@
+Re-discover IO module slots to extend VNX's capabilities and target market
+APJ COE "Solutions Platform" Challenge - This idea re-invents VNX/VNXe to give it much more functionalities and make it a killing product to meet customer needs as well as save their investments. 
+Virtualization is a very hot topic, but how to adapt it to our current products is really a challenge. When think about how to evolve our VNX/VNXe with Docker/KVM/VMware, I come up with this idea. 
+We can make the io module slot a more general purpose slots. Not only for IO purpose. We can have video adapter card, video surveillance card, SSD extension card, and any special purpose card. And thus with KVM/Docker/VMware, we can build any application in the array in addition to storage function. Customer must be willing to buy this products to save lots of investments. 
+When we can support new cards from both hardware and software level in a very flexible manner, and integrates other functions like video surveillance in a single array, we can think it as success. 
+This new product can meet customer needs with much less i

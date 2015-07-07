@@ -1,0 +1,22 @@
+Elastic Workflows Via OnRack and ViPR
+Our submission is relevant to the Durham Challenge by satisfying the following criteria:
+Our Automations will replace manual work done in R&D labs today.
+Previous physical deployments will be made virtual and placed in a central cloud.
+Equipment will be shared in a central pool between product development groups.
+Hands-on control in place of manual operation.
+The ability to detect unused resources.
+Utilizes existing EMC technology.
+Steve Todd visited the Durham facility and spent some time in discussion about Data Center innovation with Christopher Lessard. As the two began to collaborate on the 2015 challenge Steve recognized that members of OCTO's Converged Infrastructure team (Brad Maltz and Sue Young) were working on relevant technologies to the challenge. The four members began collaboration months ago to arrive at the current solution, with the core suggestion for Durham to deploy OnRack, and additional suggestions in the areas of reservation and deployment of higher level solutions like Vmware and OpenStack.
+An elastic, centralized lab environment for EMC's BUs needs automated workflows that coordinate deployment at the server, network, and storage level. Durham is providing an API for a unified fabric; our idea is to leverage OnRack for server level deployments, and ViPR for storage level deployments, and then to wrap workflows around all 3 things: OnRack, Unified Fabric, and ViPR. The real innovation is the use of OnRack, a new CTO/GPE offering that provides a thin, low-level HW abstraction layer for servers: http://virtualgeek.typepad.com/virtual_geek/2015/05/emc-world-day-3-onrack.html.  In addition, the idea focuses on two additional innovations:
+
+1. A BU reservation portal that enables reserving physical/logical assets in a recursive nature (e.g. a BU reserves an aggregate amount, orgs within the BU sub-divide, and teams within the orgs further sub-divide).
+2. The ability to layer additional automation on top of OnRack, whether it be VMware vSphere and/or OpenStack.
+
+Full idea can be found here: https://inside.emc.com/docs/DOC-155647 
+If this idea is chosen and ViPR and OnRack augment the Unified Fabric, the BUs would be able to
+1. Reserve resources through a new reservation portal simply and efficiently, and then dole out that resource to increasingly granular levels of sub-teams.
+2. Allocate the reservation requests by creating workflows on top of ViPR, OnRack, and the Unified Fabric.
+3. Overlay different application orchestration frameworks (VMware vSphere, OpenStack) on top of the reserved resources. These frameworks could be deployed as previously created templates.
+4. Quickly release all resources back to the global pool when development is complete.
+
+Down the road the same approach could in theory be used to automatically deployed templated PaaS solutions (e.g. CloudFoundry) on top of application orchestration frameworks.

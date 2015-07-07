@@ -1,0 +1,14 @@
+Dynamic Recursive Graph-Dependent Method for Churn Detection in Healthcare
+Churn, or customer attrition, is a major concern in customer relationship management in many companies in many industry verticals, where it is easy for customers to move to a competitor, primarily telecommunications and recently also HMO’s (Health Maintenance Organization) and other healthcare organizations. Churning is a costly process for the company, as it is much cheaper to retain a customer than to acquire a new one. The objective of churn discovery and prediction models is to pinpoint, as early as possible, those customers which are most likely to churn, to allow the company to take mitigating actions.
+However, it is obvious that the sooner we detect a rise in the churning tendency of the customer, the easier it will be to make offers mitigating the danger. Our invention concerns such a way of fast and precise detection.
+
+Developed while responding to Maccabi RFP in April 2015. 
+The suggested approach includes three steps:
+1.	Estimating users’ connection graph (social networks). These social networks are not those from web applications such as Facebook or LinkedIn, but come directly from the HMO data i.e. assembled from joint billing information, joint doctor’s appointments, information about family relations etc. This part will generate a graph of connections between users based on their groups.
+2.	Churn calculations. Users are assigned with churn scores based on behavioral analytics,  anomaly detection, and so on using any of the well-known churn algorithmic methods.
+3.	Social-network-based churn score update. User’s churn scores are updated based on their relations’ score. Churn scores will diffuse(by e.g. Page Rank)  along the connections of the social graph such that a user that is connected to many users who show risk to churn, will also be assigned a growing churn score even if he does not demonstrate any change in behavior.
+
+ince the decision to churn in many cases has a strong social element, the behavior in the social network of the customer contains essential information, which is lost by ignoring it.
+The churn score is expected to be more accurate yielding a lower false alarms rate. Since each churn alert involves implementing costly mitigation factors, lowering the false alarms saves a lot of money. 
+By taking into account theses essential and moreover openly available churn clues of social connections, we greatly enhance our churn prediction strength. 
+

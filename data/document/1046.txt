@@ -1,0 +1,36 @@
+Real-time Analytics using Deep Learning Neural Networks for Fraud Detection @Banks
+The suggested solution is for Banking/Finance vertical, to detect fraudulent transactions made through ATMs & online transactions.
+Just like machine learning algorithms, deep learning techniques are predominantly used by in the industry like Amazon, Facebook, Twitter, Paypal, Cisco for various purposes and their accuracy with predictions. Idea came in when watching a video on how PayPal uses Deep Learning for fraudulent transactions.
+ 
+Proposed solution is to design a deep learning neutral network analytic algorithm that can be trained to learn user’s pattern of withdrawing money from banks to detect any anomalies.
+
+Say for example, when credit card is being used by unauthorized user the neural network based fraud detection system check for the pattern used by the fraudster and matches with the pattern of the original card holder on which the neural network has been trained, if the pattern matches the neural network declare the transaction not fraudulent.
+
+Deep Learning algorithms involve, 
+
+-	Designing a Neural Network 
+-	Feeding the network with historical data set.
+-	Once the historical data is fed, as you input new values, decisions are taken based on the learning's from the network
+-	Measure the accuracy of the output provided
+-	Train to network to with new values for predicting output with less errors.
+
+Designing a neural network for banking fraud detection involves,
+
+-	Coming up with a list of input neurons to be fed to the first layer of the neural network. For example – Users Age, Income, Occupation, balance, number of large purchases on the card, frequency of large purchases, Locations where the money is withdrawn, where the purchases are made, spend on each of the areas, etc, etc
+-	Coming up with 2 or more hidden layers as required, through which the input traverses for making decisions. It could be attributes ( functions ) like Location, Category of purchase, etc, etc
+-	The input value traverses each of the nodes for validation and the final output should predict if a transaction made is fraudulent or not. If the pattern matches with genuine bank user’s pattern the transaction is considered not fraudulent. 
+-	Next step is to train the neural network based on accuracy of the prediction
+-	Calculate the error rates of prediction & adjust the training data for improvements. 
+-	As a transaction is made in real-time, key attributes are passed into the Predictive engine for detecting frauds. 
+
+Technology Used: 
+
+-	The proposal is to package the recommended Analytic Solution using Pivotal Hadoop Distribution integrated with a Greenplum DB, either for green field or a brown field requirement. 
+-	While there a lot of open source tools available for designing out of the box deep learning algorithms, the recommendation here is to use Open Source predictive in-memory analytic solution H2O on Pivotal HD. 
+-	A java based web UI, using Spring Boot with JS libraries like Angular.js can be built & integrated with the above solution for Dashboard and reporting purposes. 
+-	Rest API using 3rd platform compactible micro services architecture can be built using cloud foundry for App deployments & sending notification/alerts to the banks as required. 
+
+H2O delivers parallel and distributed advanced algorithms on big data at speeds up to 100x faster than other predictive analytics mechanisms.
+Success of the idea would mean integrating Open Source Deep Learning algorithms to EMC product offerings and derive meaningful insights with vast amount of data that is available with Customers.
+
+

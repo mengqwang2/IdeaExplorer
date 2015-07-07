@@ -1,0 +1,5 @@
+EMC Market
+Creating an app that would allow crowd sourcing (crowd sourcing simply is the process of connecting with large groups of people via Internet). Allowing all EMC employees to connect, share their items that they would like to sell.
+Had a bad experience with internet purchases so it could be useful for both seller and buyer to get benefit.
+Create a multilingual App that can be accessed from different platforms such as IOS and Android to let the employees market their unneeded items safely to others in organized attractive and easy way. 
+Gather all the employees in one place (App) to benefit each other through crowd sourcing technology nowadays.

@@ -1,0 +1,5 @@
+Build next Gen VNX Micro-Services in Docker Containers
+
+Docker, Micro-Service, Cloud Foundry
+Snap, Mirror, Active-Active, etc, a lot feature should be build into Docker Container in the micro Linux, hosting specific feature and can separated up and running, and hook with the core VNX services. 
+

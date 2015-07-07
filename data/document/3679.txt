@@ -1,0 +1,9 @@
+EMC World - A mobile App
+
+In today’s mobile world, there should be no question as to whether a business should have a Mobile App. So I got this idea while attending one of the idea mining session.
+Users gets on board with few important information like name, contact information, industry they belongs to and what role they play in current organization which helps app to make intelligent decisions like what content to display when he/she selects any product to view, customer success stories from similar industry etc.
+User chooses to submit a feedback about the product, App brings interactive user experience where he/she submits the feedback (Key here is to get user feedback interactively i.e. questionnaire with minimum text input). App immediately sends acknowledgement about submission. Feedback gets broadcast to responsible mailing group, they review it and respond. App notifies to the user that his feedback has been responded. App also provides community live feeds for each product where user can post new thread or participate on existing thread. This helps to get quick replies for general questions rather then waiting for customer support to revert back.
+This App also allows users to customize notifications for selected product version where App notifies about new version release, patch release or any promotional announcement.
+Now the biggest challenge is how to get stakeholders on board? This can be addressed to much extent by doing rewards programme announcement like submit feedback about EMC product using EMC World mobile app and you could win a holiday trip (based on reviews EMC chooses to reward top ten feedbacks).
+
+

@@ -1,0 +1,12 @@
+Backup File system with zero Impact to Network and NAS server
+Provides ability to take a backup with NAS (eNAS/VNX) with zero impact on Network Impact and Host server. 
+Protectpoint was first integrated solution between VMAX and Datadomain organizations. As eNAS embedded on VMAX3 using HYPEROS, so explored integration with protectpoints. 
+Solution is to integrate NAS with Protectpoint product. 
+1.	The File system created on the blocks (SymmDevice) shall be shared with Protect Point for backup, full restore and Granular restore.
+2.	ProtectPoint Agent can run on Control Station of eNAS to trigger protectpoint commands. 
+3.	Applications or File system consistency is delivered by freezing the IO on the File System and triggering the backups.
+ 
+- Proving backup solution for FILE, full back up at the cost of incremental. 
+- Very less Application freezes time for back up.
+- Integrated solution using multiple EMC products
+

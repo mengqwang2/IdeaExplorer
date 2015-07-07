@@ -1,0 +1,9 @@
+XtremIO Configuration Report
+Currently there are no automated configuration analysis report system available for XtemIO like we have for VMAX and VNX (Environment analysis report for VMAX in GsCloud and NSD-U for VNX) As sometimes we need to involve in planning migration and storage solution to customer this type of detailed report helps to preparing in-depth planning and proper impact full solution to customer.
+I had to involve with customer in planning data migration from XtremIO array and had to manually collect lot of configuration details through webex.. its time taking and there is a chance of mistakes and also collecting WWN and other details through manually are difficult.
+Developing a detailed configuration analysis report in GsCloud with proper layout and Standards like we have for VMAX and VNX
+Standardized Report for in depth analysis and planning solution.
+Avoids manual mistakes.
+will help to deliver impact full solution to customer.
+Build customer confidence.
+Saves lot of time by avoiding manual collection. 

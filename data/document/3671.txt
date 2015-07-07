@@ -1,0 +1,11 @@
+Integrate EMC Isilon OneFS CLI with OneFS GUI.
+
+This came to my mind recently when i was working on a Celerra and had to toggle between the GUI and the CLI for various tasks. The old school NAS storage that had this feature that was quite handy.
+However the later VNX's and Isilon's dont have this add-on. I dont see a reason why it should be removed. Although I do understand most of the CLI tasks can now be managed through GUI. But, ask an admin, he/she would probably admit to using CLI more than GUI. 
+Personally, if you ask me or any other Unix lover, CLI gives a more aesthetic feel while working on a Storage box rather than using the Web-GUI like old grandpas and grandmas ;)
+Bring back integrated CLI with the GUI!!!
+Consider a scenario where access to the Isilon Cluster is only through a secured management station.
+The management station is in a secured private network and does not allow external sites or downloads.
+A storage admin logs in to the management station and realizes that he needs Putty to run a few traces or modify certain parameters on the cluster (For ex: 'Adding static IPv4 routes to all nodes' that is available only via OneFS CLI)
+Since the management station does not allow installing application from the internet, he has to raise a ticket with the IT team and have the "authorized" Putty tool installed into the management station. A lot of unecessary time getting approvals just to run a few commands. Not really worth the struggle dont you think?
+

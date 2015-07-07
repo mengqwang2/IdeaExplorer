@@ -1,0 +1,21 @@
+GPTW Analytics Tool
+
+Tribe Ideation Session
+EMC never stops striving for improvements. Every year a survey is conducted (GPTW Survey) to analyze and see how EMC can improve to always fit employee needs and increase their level of contentment and satisfaction. However every once in a while some concerns seem to be missed out, none the less there are some miss collaborations within all the teams in EMC.
+
+Managers tend to be focused only on the results from their most recent survey and they are the ones who are putting the action plan along with their teams to build a better place to work. Each manager is working alone with his/her team without getting any ideas/suggestions from outside.
+
+A tool with the use of big data will help in analyzing the surveys collected and matching the week teams in each area to the strong teams so they can work together
+
+The tool will be created to consolidate all the survey results and it will be divided into 3 levels:
+
+Level 1: Matching weak vs. strong teams within a CoE or Country in each area. 
+-Manager or team members can work with other teams with strong results trying to build a better place to work; this will increase diversity and collaboration within the same CoE, and pinning out the areas of concerns and their solutions.
+
+Level 2: Matching weak vs. strong CoEs or countries in each area. 
+-This is a higher level; the HR teams can work with other CoEs or Countries with strong results trying to build a better place to work on the COE over all. 
+-This level looks more over on within the CoE as a whole other than that of a single department or team.
+
+Level 3: Engaging consulting companies in solving top level problems/issues across all EMC worldwide.
+Employees can also submit tips and ideas on the tool to help in building a better place to work.
+

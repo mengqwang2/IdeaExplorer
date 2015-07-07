@@ -1,0 +1,7 @@
+Shrinking NAS File System
+
+We have many NAS storage space requests where space was allocated and later space was not used. These type of easy reclaims helps in efficient space planning in NAS Arrays.
+As part of Day to Day activities, NAS space extensions are common. Requester (in some cases storage admin) will not be sure whether the request is for permanent use or for temporary use. In some cases the additional space added will be used as Buffer area/ place holder for any sort of activity like migrations. In these type of cases after allocation is made, reclamation of the UNUSED space is a major challenge. 
+
+We need a EMC tool (inbuilt) which should be very much user friendly and easy (similar to partition Magic as an example) to dynamically decrease (reclaim unused space) the Filesystem space online without any downtime/Business Impact.
+

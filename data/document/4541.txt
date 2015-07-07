@@ -1,0 +1,13 @@
+Car Pool Software.
+
+- Idea came to help about reducing the pressure on Country Roads.
+
+- This will save the fuel as well.
+
+- Garage will accommodate multiple cars at the time because the number of cars should be decreased and we will combine more than one car in one only.
+- Just Create S/w and Access by specific User Name and Password for EMC Employees.
+
+- Each Employee will put his comment about his way and time.
+
+- If there is another one will pass to this location, They will agree to go together by using one car and so on.
+

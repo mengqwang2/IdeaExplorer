@@ -1,0 +1,5 @@
+Smart parking.
+helping smart cities to overcome the parking cars problem.
+.
+Developing a solution that is fully integrated to facilitate the parking and to manage the parking lots, the main idea is to have integrated sensor that are connected together to sense and count the number of free parking cars areas, and start giving this info to the cloud, then develop application to be installed on mobile phones, to give feed back to the user about the nearest parking space that is available for him, this will also can be connected with my previous idea about smart traffic helping to reroute the cars based on the free parking lots.
+this will help to make parking more easy and more organized.

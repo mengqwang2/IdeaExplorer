@@ -1,0 +1,7 @@
+Vplex WAN COM port Support Multiple type
+Currently Vplex WAN COM Port are of only Multimode which does not support long Distance. This basically forces the customer to have the Switch which supports Multimode and if the Customer does not have they are spending lot to buy Multimode supported switch.
+
+ 
+While working with customer.
+Vplex should support WAN COM PORT of Multiple types i.e. Single mode and multimode fiber.  
+This will give more scalability in terms of network bandwidth and the distance support.  

@@ -1,0 +1,5 @@
+Big Data Analytics of EMC Installations
+
+Have used EMC products like Networker, Avamar and DD and beleive practive analysis of customer data will help in TCE
+Each EMC customer has a different type of setup in the way the EMC appliance/software has been installed/setup in the customer's infrastructure. Every time there is a issue with a product customers are raising support cases or auto cases are being generated which are worked up on individually. By using Big Data analytics all the support bundles/mails/logs  which are updated in EMC databases can be analysed on a proactive basis and most common issues across multiple customers can be highlighed and proactive solutions or hotfixes can be recommended to customers. This will go a long way in showcasing TCE and EMC will gain lot of trust and business value with customers.
+

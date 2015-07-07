@@ -1,0 +1,6 @@
+Availablility of granular checkpoints in IP replicator 
+
+When demonstrating VNX block and file failover using RP ,customer who had important data on VNX did a comparsion of block vs file replication and desired more from IP replicator
+Allocate more space for checkpoints on source and DR.Checkpoints to be distributed over the WAN and retained according to definied policies of checkpoint retention. 
+Options similar to consistency groups may be added for dependent data .
+

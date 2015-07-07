@@ -1,0 +1,6 @@
+Cloud based queue query system for government service departments
+When people go to the government service departments for some issues, they have to spend much time to get done, but most time is spent to queue, the business itself only contribute small part times. If the issue needs several service departments involved,
+Get this idea in daily life
+Setup a cloud based query system, people can query the numbers of the queue before they go to the service department, this can help save a lot of time especially some government service department only service people from Monday to Friday, please have to ask for a leave.
+Also after analyzing the big data, the system can recommend a optimal time choice if the issue needs different department involved.
+This solution will supply people a better service experience and save a lot of waiting time improving the business efficiency.

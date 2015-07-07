@@ -1,0 +1,14 @@
+Realtime Search by integrating xPlore and XtremeIO
+EMC Documentum xPlore is a full-text search engine built on Lucene and xDB. As a search engine, performance and stability is always considered important. Integrating xPlore and XtremeIO makes benefit to both XtremeIO and xPlore:
+1. xPlore uses XtremeIO as the storage can improve the indexing throughput and reduce search latency.
+2. XtremeIO can leverage xPlore as a search service to search documents in the storage.
+When developing xPlore, we got many customer cases related to search/index performance. We tested xPlore running on different environment and found better IOPS can lead to better performance. We are sure XtremeIO can improve the xPlore performance dramatically.
+We propose to integrate xPlore with XtremeIO to get the realtime search experience.
+xPlore as a search engine is IO intensive. Ingestion and index merging requires read/write operations, and search requires read operations. In a large organization, many indexing and searching request run in parallel. Sometimes xPlore will throttle indexing for search requests, but the search result may not get updated index in realtime.
+XtremeIO is all-flash arrays with high performance. Here are the solutions:
+1. Install xPlore on XtremeIO, feed data to xPlore and compare the performance between other environment and XtremeIO.
+2. Try to leverage XtremeIO in-memory snapshots in xPlore hot upgrade (upgrade without shutting down) and backup.
+3. Leverage XtremeIO high availability for xPlore.
+ 
+Another proposal is to install xPlore as a service in XtremeIO, leverage xPlore to index XtremeIO document, then XtremeIO will have full text search capability.
+Integrating xPlore and xtremeIO will benefit both xPlore and xTremeIO. xPlore will have better performance and more Documentum customers will have requirement for XtremeIO. Due to the adding-on search capabilities, XtremeIO will also be suitable for customers who have realtime full text search requirements.

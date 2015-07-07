@@ -1,0 +1,21 @@
+Automatic debugging tool and SR creation. 
+
+Basically I am working on SMARTS sustenance for the past 5 years and i see a pattern where the same issue from different/same customer has been raised repeatedly and most of the time, its only lack of knowledge and we land up educating the customer and also the number of SRs on particular product with repeated issues are more.
+
+So with my current knowledge base and my team's knowledge base, if we happen to create a self debugging tool (usnig perl/shell/asl) and self data collecting tool, we could reduce close to 60% from the incoming SRs thus reducing the cost of sustenance on a single product. 
+The tool should primarily be developed based on the history of issues encountered in that product and the resolution that was given.
+
+When a customer is encountering an issue, he just launches this tool and the tool would basically have an interactive standard questions which are predefined. based on the input, the tool tries to look through the knowledge base and also perform a self debug on the running product and gather necessary information and come up with a suggestion/solution/clarification for the customer and displays to the customer.
+
+The customer can have a better idea from the suggestion/solution/clarification given by the tool. 
+
+Also if the tool could not come up with the appropriate suggestion/solution/clarification and based on the nature of the problem it collects the necessary debug information and automatically creates an SR ticket for EMC.
+
+By making use of the debugging tool, customer would get answers for most of commonly raised issues and thus not creating SRs for unwanted questions.
+
+Since the tool itself collects the necessary debug information, we have further plus points:
+
+   -- collect debug information when the issue is live.
+   -- saves time in collecting the information at onces and thus reducing back  
+      and forth communication with the customer.
+

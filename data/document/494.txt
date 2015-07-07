@@ -1,0 +1,7 @@
+180º Feedback mechanism
+To develop an internal app to allow a mechanism to give feedback to an individual, similar to that the current a 360º Feedback mechanism, but without the heavy workload associated with mentoring. This may help an individual to develop, collaborate and align themselves with the future direction of the company and enhance the opportunity to position themselves for future job roles.
+This idea is as a result of the Ark Project in CMO, which would enable people to invest in themselves and identify ways in which we can develop as a group.
+The idea was first considered by Pat O'Regan, Jacek Elzyk  and Barry O'Shea and is going through proof of concept at present.
+To develop an internal app, which would be available through approval of your supervisor, which would be used to solicit feedback on the core EMC competencies.
+This may help identify opportunity's for development, by using pre-selected surveys relevant to different job roles and desired EMC competencies.  
+The benefits would be seen through its use , especially by "high potential & high performers" to the understanding of perceptions, interactions with others and through their contribution to EMC. This may feed into the structured 360º Feedback mechanism which would have a more structured approach and development mechanisms for the individual. 

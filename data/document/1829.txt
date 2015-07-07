@@ -1,0 +1,27 @@
+"Apply It" Tool
+This is a process we go through daily that can be easily automated and optimized for a higher efficiency,
+Being a member in the Remote Proactive team, I always work on multiple SRs for the same customer and some times the number of SRs can be 10+ where I have to open each SR separately and log the same note that for example says (Initial Contact)
+My solution is "Apply It" a tool that allows engineers to apply the change they want to multiple SRs at the same time with one click.
+
+How it works:
+The tool to be downloaded and linked to the employee's support.emc profile by simple login page.
+
+Features:
+- Service Request Numbers -2 digits number- (That auto populate the customer site name for assurance)
+- The change they wish to apply (a similar view to the service center)
+
+Changes that can be applied to all:
+- New Note Logging 
+- SR Status
+- SR Owner
+- SR Owner Group
+- NCC (next customer contact)
+
+**After clicking submit, the change will be applied to all mentioned SRs
+Having a tool that applies to all (NCC, logging notes,...etc) will
+- Save time
+- Increase Efficiency
+- Minimize confusion and mistakes of SR handling
+- Project efficiency to customers who check the SRs and find them organised and clear
+
+

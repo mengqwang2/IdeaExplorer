@@ -1,0 +1,46 @@
+IoT-SWS : IoT based Smart Water System “no more flooded streets”
+prevent Water System issues and Traffic blocks in smart city using Real Time IoT Sensor Data Analysis 
+
+
+How many times traffic is blocked due to streets flooded by water?   
+How much does it cost to fix such situations in terms of money and time?
+And obviously how much water is wasted due to this?
+
+Underground water pipes explosions or leakage cause flooded streets which is a nightmare to a smart city, actually any city. 
+
+A smart city cannot tolerate such huge waste without taking advantage of technology and penetrate new market for EMC to be positioned as the facilitator for smart city applications.
+
+The idea came up from one of the great pains we face in Cairo and think is faced in any city especially in developing countries.
+We thought to face some of such pain points which are Water and Traffic. We thought about having a packaged solution that can achieve both Wins in the same time with minimal effort to ensure feasibility. The solutions solves water issue and partially the traffic as a secondary by-product
+-	Feasibility study showed the applicability of the solution at low cost
+-	EMC market analysis showed that Pivotal stack is well suited and that this is new market for EMC that will promote Cloud Foundry
+
+
+ Our solution is aiming at leveraging IoT-based data analytics to solve such problem. The solution will do the following:
+
+1-	Monitor the sewer system components health and decides possible issues (week points, pipe potential break points or leakage points
+2-	Proactively reports potential issues to the maintenance company/government
+3-	The maintenance company will take the measurements to fix the issue before any trouble happens to mitigate the risk
+
+The solution is composed of the following parts:
+
+1-	The Data:   will be collected from different sensors implanted in the sewer system (Pressure sensors, water sensors).
+2-	Data Aggregators:  will collect data from the nearest sensors (in the cluster) and will transmit to the central point that will do the rest.
+3-	Central Points: will aggregate data for the whole neighborhood and will do trend analysis to detect any anomalies. The collected data will include sensor location data to highlight the potential issue location. In this components EMC comes to play the important role offering the following:
+a.	Data Storage: using “Key-Value” based real time analytics database like “Pivotal Redis” or “RabbitMQ” ( from Pivotal Big Data Suite stack)
+
+b.	Analytics Engine: will analyze the data in real time and do “trend analysis”  and “Anomaly Detection algorithms” to detect any anomaly in the behavior (increasing pressure at certain point or increasing water leakage in certain joint). EMC can offer this analytics Engine as a service over “Pivotal Cloud Foundry (CF)” to reduce the cost of ownership for the maintenance company/government
+The proposed stack can be checked here: http://pivotal.io/big-data/pivotal-big-data-suite 
+at the end the engine will report suspected behavior (anomalies) and the expected time of issue (pipe explosion/breaking) using Time-series analysis techniques
+c.	Reporting system: will report potential issues to the authorities who will take proactive actions. The reporting system can have a GUI interface (web-based) simulating the water system network and highlight the issue in a user-interactive way (inspired by faulted HW part highlighted in Unisphere GUI) 
+
+
+Note: The same paradigm with the same structure (pressure sensors) can be used for gas industry especially that nowadays almost every house in Egypt (or Cairo at least) is connected to Gas network.
+
+1-	Solve Water loss issue
+2-	Automatically solves Traffic issue partially at no cost
+3-	Cost saving for Smart City
+4-	Opens a market for EMC as the platform provider for Smart City Apps offering (Storage + Analytics P-a-a-S) using Pivotal stack
+5-	Promotes Cloud Foundry
+6-	Feasible to be achieved in measured milestones
+

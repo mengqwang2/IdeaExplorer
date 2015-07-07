@@ -1,0 +1,5 @@
+Business Use Case and Incident Report
+Customers who bought our product can come across similar issues multiple times due to their environment or product related issues. So how we are enabling them to make a repository of their - "all known issues" in order to tackle them when occurring in future or prevent them occurring in future. 
+Idea came in the mind to help the customer and gain the total customer experience.
+Proposing a portal wherein customer can access all their open cases and corresponding use case study under one roof. It enables them to use it as a repository or KB database. Helps them to convert into a pdf file for sharing purpose and it gets populated all the time when they create a new.
+Customer would be happy that they know what they have reported and how the issue is been resolved with a official documentation. Account team can look at the challenges faced by their customer and propose new solutions and upsell lot of upgraded versions. Becomes easier for the sales to connect with the customer and gives a clear picture about how we as an organisation helping them to successfully use our product. 

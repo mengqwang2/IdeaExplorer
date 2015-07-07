@@ -1,0 +1,8 @@
+Periodic health check for all EMC products
+
+customers' satisfaction is an important EMC value this could help in increasing it
+with any customer buying a new EMC product or upgrading their product they will get a catalogue of how the periodic health check works 
+that health check will be based on each product's type
+for example: customer will get a product that is annually health checked so every year the support will remotely check it and inform the customer if any flaws found
+after that they will inform the IBG team inorder to reflect that on IB so as to have a record for this issue on our database for future record
+

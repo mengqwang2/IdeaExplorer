@@ -1,0 +1,17 @@
+Central Log analyzer for multiple CTD products.
+For more details please refer to -https://inside.emc.com/docs/DOC-154984
+
+Storage, analysis and management of logs for multiple CTD products by providing central repository. Easy to use GUI with better log readable interface for providing quick and smoother customer support experience. Provides flexible query options to retrieve most relevant logs for user analysis.
+This idea originated as our team works on multiple CTD products and handles customer escalations as well. In an escalation wherein we have multiple products, log retrieval consumes lot of time and effort to fetch logs from servers and interfaces involved .It is also tedious to mark the event time stamp of error or exception. So as a team we thought Automatic retrieval of logs from multiple products to a central log repository.
+-Have a log analyzer server in the data center, which can be the log analyzer program on a simple Linux VM. So that all the EMC products send logs to this central server for log analysis & reporting.
+-System health check & log analysis of multiple CTD products become Atomic as the logs are now in a central server instead of on individual products. Hence dependency on customer is reduced.
+-Provides intelligent log analysis reports to engineers with flexible query options which is not easy to do by directly accessing logs on production server.
+-Provides user friendly GUI to read, manage and analyze logs.
+-Provides flexibility to QA/Dev to implement automated analytics/logic without disturbing the production servers.
+-Run on demand or can run as a cron job as well.
+-A central place with historical data for future reference & analysis.
+-Improve customer satisfaction and total customer experience (TCE) with fast and efficient problem solving.
+-Optimizes process as it reduces references of multiple interfaces.
+-Improved supportability and serviceability through easy troubleshooting.
+-Reduces the total time involved for customers, Dev, and support involved in troubleshooting.
+-Enables capability for proactive customer support.

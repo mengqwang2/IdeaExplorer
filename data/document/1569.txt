@@ -1,0 +1,9 @@
+Mobile phone centralized car management
+Car is the most important component of smart city.
+Group dicussion.
+Mobile phone centralized car management:
+1. connect mobile phone and car using bluetooth(or something similar) 
+2. control and store Driving Recorder datas.
+3. monitor and record car running status.
+4. centralize other smart things. 
+Centrailize the management via mobile phone. Avoid to use numbers of different devices to send/retrieve car informations. And the collected datas could be used for further analysis. 

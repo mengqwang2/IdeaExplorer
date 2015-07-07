@@ -1,0 +1,24 @@
+ Cloud-RAID Cloud Data and Workload Distribution - Multi-Lingual EHC
+ The idea aims at enhancing EHC and making it better aligned to customer needs. The proposed solution achieves higher security, compliance and efficiency for the user. 
+
+ The idea came up from researches running about security and cloud-RAID concept [1].  We thought about reinventing the concept to cover workloads and integrate with EMC EHC to make it better aligned to customer needs
+
+References:
+[1]- http://link.springer.com/chapter/10.1007%2F978-3-642-38027-3_10 
+
+ The idea aims at enabling EHC to provide two main features:
+
+1-	Data Distribution:  Distribute data (encrypted) between different cloud providers in the RAID fashion making it more secure and avoiding vendor lock-in dependency we will utilize the Cloud-RAID concept [1]. EHC/Cloud Foundry can be equipped with Data Controller that can move data to other vendors public clouds (ike AWS) or open source cloud solutions (like openstack). EHC will allow the user to define his own policies for data movement and distribution.
+
+2-	Workload distribution:  the ability to distribute workloads between different cloud platforms based on performance, capacity, compliance and cost requirements. for example: a reporting job can run on EHC private cloud while another heavy job that needs huge resources can be moved to a public cloud (openstack for example). The user can define a policy for this ‘workload Distributer engine’.
+
+3-	Centralized management and reporting in EHC using the proper APIs.
+
+4-	EMC Business Data Lake BDL integration: EHC can integrate with BDL to seamlessly move big data analytics workloads and data to run on BDL and return back the reports/insights to the user after monetizing their data.
+
+
+1-	 Higher security
+2-	Higher agility and cost saving
+3-	Improves EHC and extends its market
+4-	Integrates and promotes BDL 
+

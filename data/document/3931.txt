@@ -1,0 +1,8 @@
+Improvements in Propel
+
+Many such issues are faced by everyone using propel
+Claimed & remaining hours claimed in a PAS
+PAS should not be selectable if hours are exhausted
+No need to manually select the PAS from Worklist, once assigned it should show up under WBS Element
+Everyone should be able to change assignment dates (limited to SAs now)
+

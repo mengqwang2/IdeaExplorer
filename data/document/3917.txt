@@ -1,0 +1,6 @@
+STEM orientated Puzzle Quiz.
+
+Arose from a group brainstorming session.
+
+A set of different themed puzzles with varying difficulty are given to a series of teams either within a school or across different schools over a series of 3 or 4 one hour sessions in a team quiz type format. Have a mix of one solution only puzzles and  posed challenges with multiple solutions. The theme of the puzzles and challenges could vary with some aligning with Big Data, Cloud and Trust themes and other aligning with STEM concepts. egs Data center build puzzle using associated building blocks that only fit together in a certain way , A Vex robot team building session from a bucket of parts, etc.
+

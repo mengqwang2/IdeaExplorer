@@ -1,0 +1,27 @@
+High efficient single deployment framework to deploy the clustering solutions, Be it VPlex-Appliance, VPlex VE or other.
+APJ COE "Solutions Platform" Challenge: - Cost Efficiency, Customer Experience.
+Brazil R&D Center Time-Series Architecture Challenge: - cost effective, efficient reference architecture.
+Durham Data Center Elastic Labs Challenge:- Automation that will replace the manual work done in R&D labs today
+
+Being a part of the QE organization has faced lot of times when deployment got delayed because of the above pain points.  
+In order to simplify the whole process would like to propose an efficient automation framework to deploy the cluster solution without the need of individual administrators required.
+
+1.A deployment framework which would detect the entire components available in the data center and then present to the customer.
+
+2.A deployment framework which would let the customer choose which clustering solution he/she wants to deploy. Based on the chosen solution, configuration window pops up with the entire required component.    
+
+3.A deployment framework presents the connectivity diagram as well of the components to the user/customer ,as a part of the GUI which will ease customer to understand the solution as a whole.
+
+4.A deployment framework allows user/customer to choose from the listed components and user can go ahead, just drag and drop the respective component on the end configuration window.
+
+5.Once done deployment framework checks for all the pre-requisites to deploy the configuration.If meets all the requirement user can chose to run the configuration.
+
+6.Once chosen  deployment framework internally run all the task and deploy the solution. 
+
+7.Once done deployment framework would provide all the necessary information to the end user/customer of the deployed solution/configuration.
+
+If the proposed idea gets fully implemented, then main benefits that an organization would get is 
+1.Make more money by reducing the deployment cost and sell the automated framework.
+2.Improved customer satisfaction
+3.Improve a product or technology.
+

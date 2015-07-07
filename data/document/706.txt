@@ -1,0 +1,17 @@
+Contemporary Workplace with echo technology , Save cost Go green with trending Equipment’s
+Present CFL light technology consumes lot of electrical energy,  it produces ultraviolet, mercury leakage due to less life space , cant reuse by fixing , recycling and maintenance cost is high  
+CFL bulbs produce more heat compared to LED ,  in other words need more cooling methods to keep workplace temperature at certain level
+ 
+With flow of electrical energy in  Different conductors, it produces heat, light, magnetic field, i am working on these concept since i completed education E&E in 1997, only thing is major companies invested on R&D to discover efficient conductor produce more light with less energy by combining  power electronics , it can be redefined with our own research.
+Note: Complete innovative case study, recycling , process to implemented @ EMC ppt attached  on below URL
+
+https://inside.emc.com/blogs/khasim/2015/06/13/innovative-best-practices
+
+Manufacture  sell  Laptop, smart phone integrated with different vendor patented processors , firmware and storage device etc with their Brand name,  can we have our own implemented LED integrated to 3rd platform and have patent of invention.
+
+Life of LED bulbs is 50K Hrs, if we compare CFL, LED saves 135$ cost
+( its old KWR Tariff , please refer latest tariff @ www.eia.gov)
+Think every EMC employee need average one bulb illumination at work station and cabins For 70000 employees (70000 *135)  i.e. "$9450000" Saving (excluding Labs, campus and other location) Recycle and reuse by fixing saves further cost(Requires proper handling and recycling methods)
+I am implemented own LED lamps with Disposed Soft Drink bottle slice (Coke ,Pepsi) to fix LED, driver circuit 
+Working bit on safety concern, Done with motion sensor detection.
+Working on how to integrate with Mobile app.(Logic all set)

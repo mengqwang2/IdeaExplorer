@@ -1,0 +1,8 @@
+Deploy array disk drive on demand in lab use cloud
+
+I came up with the idea when raise LM to request drivers needed for my test. I need to wait for labman buy the driver since not enough in hand .
+The solution to the above problem are as follows:
+1. Deploy kinds of drivers on cloud , every array can request drivers on demand  by ourselves.
+2. Monitor driver resource usage on cloud , improve driver utility rate. If some type driver is limited , find the driver have been deployed on array but not used , notify the user then reassign to whom need it.
+3. Prepare the limited driver in advance from array request. It will save time for testing .
+

@@ -1,0 +1,12 @@
+Improve supportability of cross product solutions, for data protection products from CTD
+Our idea matches the sponsor challenge "CTD Supportability in 12 months or less" as we propose to build a new supportability tool in a cross product deployment which uses existing logs that are created by the CTD products. 
+The proposed change to provide a better supportability tool does not require re-architecture or re-engineering of any CTD product and can be developed in 6-8 months.
+I and my friend Karunakara Seelam have conceived this idea while having a general discussion to improve the supportability of product in CTD. We have not implemented the idea, but if the idea is accepted it can be implemented quickly in 6-8 months as mentioned above. 
+
+The details of the idea is discussed in the below link;
+
+https://inside.emc.com/docs/DOC-156038
+Our idea solves the problem as it provides a quick visual display of the problem,  and also has the ability to set up alerts and email for the problems seen in a cross product deployment.Complex log analysis and exchanging email from the customer to know how the product is used is not required for troubleshooting the problem.
+If we were to implement the idea, the product can be sold as a supportability/monitoring appliance that will be deployed in customer site. This appliance will gather the data from different products and provide a dashboard for the support/admin to monitor the product behavior.
+
+Success of the project will be defined by ability for support to diagnose and detect the issues faster, provide a quick turn around time for support and a better customer experience

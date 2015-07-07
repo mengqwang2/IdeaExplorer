@@ -1,0 +1,13 @@
+employees of the Federation program
+consolidating the resources of the federation to be represented to the customer as one entity and ease of having communication between the federation's employees
+trying getting the companies under the federation appears as on entity to the customer , and the employees can deal with the different entities inside the federation easily 
+-Creating a program that focuses on getting employees who are directly facing the customer offering new solutions from EMC to be trained and  exposed to most of the federation products , like VmWare products , RSA solutions, EMC products , ...etc
+-that program will make the candidate have a rotation in all the fedrations products and solutions 
+-those employees can be under an entity , which is representing EMC federation to the customer as one entity , and when a specific help is needed , the employee can get the specific resource to refer to 
+-Try consolidating the web portals of the companies under EMC federation to one portal , which those employees can refer to and collaborate with a specific resource 
+-providing a large database of the Federation's emloyees, which can provide every employees mail and method of contact , if any of his colleagues in the federation needed him
+-Having big events that let all the federation's employees know each others more 
+-Try having all the companies under EMC federation to be in the same buliding , or in the same campus , and the buildings to be near each others 
+-providing a full solution to the customer, not an EMC , RSA , or VmWare , every one is separate from the other
+
+providing the customer a full solution without feeling that every entity is isolated from the other 

@@ -1,0 +1,5 @@
+Auto-Migrate VM when one ESX server only have few VM running on for power saving
+When one ESX server only have 2 or 3 VM on it and other ESX still have resource for supporting these 2 or 3 VM. Keep this ESX server running to these few VM is a waste of power. 
+Sometimes, we find that one ESX server keep running only for 2 pr 3 VM. We can save this part for power. 
+Provide a policy selection for Admin:If one ESX server only have few vm. Auto-migrate those VM to existing ESX server which still have resource, then shutdown this ESX server for power saving.We should better log these operation for admin to trace the VM and choose the suitable target ESX server considering load balance. 
+Can save money for lab setting up. 

@@ -1,0 +1,5 @@
+Online Health Records
+it will utilize EMC infrastructure products to build the cloud, RSA to secure it and Big data to provide the analytics
+I attended a course in 2013 in Lausanne where my team came up with this idea in a way to use our products in the future demands " I don't remember my team members names"
+it will help the Health care from using the 3rd platform tech to service the human better
+that can save many lives by having accurate history record that can be accessible in few minutes any time especially for road accidents.

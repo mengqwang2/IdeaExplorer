@@ -1,0 +1,12 @@
+Global EMC TED - to share ideas in EMC
+Global EMC TED talks can encourage people of EMC to share their ideas, lifes, families, hobbies with everyone else in EMC. Everyone can submit, everyone can talk, and everyone in EMC can get respect. This can show much respect to diversity in EMC.
+TED becomes more and more popular. A lot of scientists, artists, and ordinary people have shared their ideas through the platform, and make the world to hear their voices, and know their names. We can copy the pattern to EMC. That's where the idea come from
+It needs to build up a platform to do that.
+This platform is a browser based application, and employee of EMC can visit the platform either outside or inside EMC offices via their employee ids/NT accounts.
+On this platform, people can make a video to record some talks - food, festival, technology, views to the world, environmental protection, etc. Then they can upload the video and PPT to the platform. After filling in the category, title of the video and some necessary information, they can publish it and everyone in EMC can watch it. 
+When people login to the platform, they can navigate/search the topics/categories of videos they are interested. They can add their comment, score to the video (like - 1-5 stars).
+HR or some specific people can view those videos with the highest scores, and decide whether to invite the authors of the videos to present lively. For some extraodinary topics, HR can invite the authors to process a lecture circuit on all sites of EMC.
+- Everyone can share his/her ideas with anyone else in EMC, and thus to have chance to express him/herself, and concequencely gain notice and respect.
+- Ignore time difference. People can listen to others talk without concerning about time difference.
+- Show enough respect to diversity. People can get respect, and thus feel more warm in EMC.
+- Culture exchange. Get to know people with different cultures.

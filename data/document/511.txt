@@ -1,0 +1,6 @@
+EAS light web client.
+This will save our time and effort with easy EAS updates.
+Every time while using EAS it comes to my mind to get its speed increased.
+Create a web based client for the EAS tool, it will be faster thus more efficient, saving time effort and storage space on the Laptop / Desktop.
+EAS light web client will be much easier and faster to use.
+No need to install the EAS client software which is too slow.

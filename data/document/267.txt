@@ -1,0 +1,5 @@
+Training Feed-back 
+This idea will help Employees to select what training to involve in.
+NA
+My Solution is to add the courses that is provided each quarter on the education website , where employees that had attended that course can leave a feedback about it that can each other employee that want to involve in the same course can decide whether to enroll or not.
+will help the Employees to select the relevant training according to their interest and know feedback of other employees about that course.

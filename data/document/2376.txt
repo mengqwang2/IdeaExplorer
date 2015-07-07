@@ -1,0 +1,7 @@
+Elastic cloud based Lab for EMC and other IT companies 
+Hiring technical people by interviewing but not through practical test on technology and configuration.
+Organization wanted to hire an experience MS Exchange expert. Who must know how to configure MS Exchange cluster. The interviewer has overall knowledge of the product but not hands on configuration.
+EMC will have an elastic web based virtual lab. That lab will be available publicly to EMC employee, other IT companies and colleges.
+There is that lab registered member can create new configuration for different popular technologies like - MS Exchange, Oracle RAC, OpenStack, VCS, Hadoop, ScaleIO, CoprHD (Vipr)and so on.
+After taking an interview on theoretical knowledge, company can invite that person in this web based lab to check his/her hands-on experience.
+This lab service will help EMC employee to be up-to-date by theoretically and piratically. It will help us to provide end to end service to customer. Once the lab will be available to other IT companies, EMC will be more popular and will get into lab cloud service.

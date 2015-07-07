@@ -1,0 +1,31 @@
+Enterprise Application Store
+This innovation proposes a method of utilizing an enterprise application store to mitigate common problems associated with cloud based SaaS solutions and as a cross selling channel for EMC Federated products and services. 
+EMC IT is well on the journey towards becoming an ITaaS organization. This innovation team has often talked of developing this concept into a capability to offer IT services throughout the Federation & beyond. By opening this service platform to external companies, we can expand this idea to enter EMC into a new market.  
+The proposed solution leverages EMC Federated core competencies as a leader within information infrastructure, virtualization and cloud provisioning, and enterprise security to host an Enterprise Application Store (EAS). This EAS serves to provide a consolidated location for SaaS based cloud service vendors to host and distribute their solutions in a best of class environment featuring EMC software defined datacenter hosting and security solutions. Customers can review, research and engage a multitude of service providers from a centralized location and with standard technologies and practices.
+
+Steps to realize:  
+
+1)Plan – Work with innovation sponsors to solidify idea, business plan, operating  model, etc. 
+
+2)Implement the Platform – Leverage existing service management platforms such as Force.com, ServiceNow, or develop in house.
+
+3)Weaponize EMC IT – EMC IT supports hundreds of applications that enable internal and external business functions. Review existing applications that have been built in house and bring them up to consumer grade to jump start the EAS.
+
+4)Winning Story: How has the EMC Federation come together to demonstrate strategic value for EMC and our customers. 
+
+5)Open to external vendors - Use this success story to help persuade other vendors to host and offer their services with EMC’s EAS. Include EMC Federation development platform for vendors to develop EMC specific applications (similar to the Salesforce AppExchange).
+
+Benefits for EMC:
+
+This solution provides several new revenue streams. By hosting cloud based SaaS solutions from vendors, EMC can charge for the utilization of EMC core technologies in a subscription model and explore commission rates from consumers engaging with vendors.  For consumers pursuing hybrid cloud, platform 2.5, or on premise solutions, EMC can partner with vendors to develop ‘plug and play’ implementations. This serves to remove friction between consumer and vendor engagements and as a cross selling channel for EMC’s core product families.
+
+Beyond generating new revenue, this venture serves as a story of how EMC’s federated products and services interlock to create strategic value.   
+
+Benefits for Vendors:
+
+Common platforms and frameworks between all vendors increases the level of ease and speed of their customer engagements. Additionally, the centralized EAS, opens vendors to a larger, more accessible customer base as opposed to the desperate distribution channels that exist today. 
+
+Benefits for Consumers:
+
+The ability to quickly engage a vendor through a centralized channel with standardized technologies and processes enables organizations to become more agile while reducing overhead costs of managing these engagements. 
+

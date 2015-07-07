@@ -1,0 +1,5 @@
+Name resolution issues with networker
+Most failures in Networker are related to name resolution of client i.e ping works fine but nslookup fails..
+After seeing many backup/recovery issues because of nslookup not working for FQDN/shortname but ping works... 
+Any mechanism wherein the IP/shortname/FQDN and aliases are capsuled as a single entity and any one can be used for backups and recoveries.
+Improved Customer satisfaction and less number of calls to the support teams.

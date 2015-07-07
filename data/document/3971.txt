@@ -1,0 +1,5 @@
+Interactive plant map
+
+Just after starting work in EMC, initially I've found it difficult to find the places that I was looking for. This lead to coming up with the idea of interactive maps.
+Interactive map would provide directions based on current location and selected destination. To improve usability and real time directions, it could be available on mobile devices like phones and tablets.
+

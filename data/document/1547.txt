@@ -1,0 +1,40 @@
+EMC ViPR SRM As A Product Advisor
+EMC has a robust performance monitoring tool ViPR SRM which collects inventory, performance and topology data from devices.
+
+ViPR SRM already reports underperforming devices in datacenter and gives out of box reports.
+
+As industry moving towards data driven model, it is the right time to introduce the feature in ViPR SRM which will suggest EMC product to customer to replace other vendor products which is not performing well.
+
+Now-a-days in commercial marketplace, customer navigation within the website is tracked, based on that customer is advised to appropriate product what they are looking for in the website. Similarly, we can bring it in IT industry as well. 
+ViPR SRM:
+Events and performance metrics are already collected from network/storage/Virtualized infrastructure by EMC ViPR SRM
+Spring Batch will pull the data from ViPR SRM MySQL Database and push the data to NoSQL Database such as Cassandra.
+Spring XD runs map reduce job on the Cassandra database and send the data to Performance Evaluator.
+
+Performance Evaluator:
+The performance evaluator consists of microservices which will self learn about underperforming devices based on the performance trending data and identify the underperforming devices.
+It also predicts the impact in datacenter efficiency due to the device.
+
+
+EMC Product Advisor As a Service:
+EMC Product Performance Matrix service should be hosted in private cloud and it can be deployed using EMC Pivotal Cloud Foundry.
+This service will be updated as on when the product release is happening from EMC.
+
+
+Data Analytics:
+Data Analytics Service will analyse the underperformance data and correlates the features available in third party device and identifies the equivalent EMC product and provide the report to ViPR SRM
+If the third-party features used by customer and if it is not available in EMC product, it will send the feedback to EMC Product Performance Matrix service which can be used to take decision on incorporating the features in our Product by EMC product lead.
+
+Data Visualization:
+On login into EMC ViPR SRM, pop-up will be shown to customer on the underperforming device and recommendation in replacing with EMC device. Customer can drill down more in detail to explore the options that can be leveraged. 
+
+
+******Link to the Presentation******https://inside.emc.com/docs/DOC-155760
+Helps to identify the lagging features in our product and which is on demand to the customer.
+Product owner can decide on the right features that need to be incorporated into the product.
+
+
+Identifies non-performing devices in customer environment
+Recommends Equivalent EMC product to the customer to get rid of underperforming device from data center.
+Thus, promotes the sale of EMC product
+

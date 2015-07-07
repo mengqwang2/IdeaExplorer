@@ -1,0 +1,15 @@
+Transportation Mobile Application 
+The application will be helping employees in getting information they need for an essential sector such as transportation, it will also help EMC in promoting to ideas for a cleaner environment and with less traffic. 
+
+The mobile application can be also replacing the Web application that is currently being used. 
+
+
+The idea was inspired by the importance of Smart phones nowadays and how EMC appreciates and gives a lot of effort in this area.  
+The transportation device will be an easy way to subscribe the transportation for employees who need to get to work, The mobile application will be including the routes, maps, Driver names, and the time the transportation will be scheduled. 
+
+It will also be including another page that would include employees who would need to use car pooling by their cars to make it easier to find people living in their neighborhood.
+
+It will also be a social application where we can share our traffic experience for the day that would enhance the level of communication between the employees. 
+If the idea was implemented, it would help employees use a friendly user application that would help them get the information they need asap. 
+
+It will also help decrease the traffic, in the car pooling section of the application since EMC has been promoting for the idea initially. 

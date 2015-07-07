@@ -1,0 +1,5 @@
+Array Wokshop 
+
+Innovation Session
+There should be a Workshop lab course for all employees during their first months in order to get to know what each array looks like in real life and take a look at the disks and have a basic knowledge of the technicalities of the array (ex. remove or install drives). Most of us have worked in EMC for over 2 years and do not even know what VNXs or Symmetrixes look like.
+

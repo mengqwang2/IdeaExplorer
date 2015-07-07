@@ -1,0 +1,7 @@
+Assurance of Best Practices delivered by our Delivery Team
+
+During few of the projects, after the project was delivered, and closed, customer came back (sometimes after 6 months), informing, performance, feature related issue. On few of them, during analysis we identified, that the issues were related to gaps in whats in the SA design, and whats delivered.
+After the SA Propose a Solutions based on customer requirements and EMC Best Practices and Recommendation, and the Implementation Engineer delivers it, we run the as build configuration scripts.
+
+Once we have the as build config guide, we can have a process / tool, to identify if what was proposed, is what has been implemented, and if gaps are identified we fill those gaps. This ensures that the delivered project works as per customer requirement, EMC Best practices, and we can assure / re-assure customer on our delivery. This could be part of the Project delivery process. This will can enhance TCE as well.
+

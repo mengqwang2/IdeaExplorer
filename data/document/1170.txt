@@ -1,0 +1,25 @@
+Cloud Application Reverse Auction
+Leverage EMC's Pivotal Cloud Foundry asset in order to attract Cloud Providers to use EMC Services and take over portions of growing cloud PaaS offerings.
+We came up with this idea while comparing the cloud provider offerings trying to understand the difference between the offerings (price, value)
+The implementation requires a well defined capability format for application owner (customer) to describe the application requirements.
+
+The components supported in the format must cover all cloud application requirements and be extensible for the always growing data services market.
+
+For each resource, the customer will describe the SLA's & latency requirements. Cloud providers or a broker managing those suites can bid.
+
+The deployment, once a bid is accepted, can be automated to configure the services and push the application to start serving in the winning cloud.
+
+Application resources to be described:
+
+Database - relational standard SQL database (e.g. MySQL/Postgres instances)
+Object Store - key value pair service (E.g. Amazon S3)
+Messaging (E.g. RabbitMQ)
+Memcache (E.g. Reddis)
+NoSQL
+Mail service
+Each resource will describe SLA for performance and Copy management including RTO RPO. each resource type with it's specific relevant metrics that will be defined in the protocol.
+
+EMC will certify the cloud providers for the reported SLA levels, and their support of EMC enterprise grade data protection products where possible.
+EMC could charge cloud providers for joining the site, or take percentage out of every successful deal.
+Pivotal Cloud Foundry will become the de-facto industry standard for PaaS.
+ 

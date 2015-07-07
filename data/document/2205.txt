@@ -1,0 +1,54 @@
+Smart Parking lots for Bikes and Bike Sharing/Renting using Keyless systems
+Internet Of Bikes and Internet of Parking lots
+
+Sports awareness and communities have developed rapidly in the last 3 years in Egypt, 
+and different groups started to gather and do cycling sports.
+
+Early in the morning I see cycling groups passing by my home,
+I thought i would like to join them every now and then but since i do it occasionally why don't I rent a bike.
+
+or maybe buy a bike and rent it during the long period in which my bike is not utilized
+My solution consists of 3 parts
+
+1- Mobile/Web App
+2- Smart Bike that can connect to the internet to communicate with the app
+3- Smart Bike Parking lots 
+
+
+Smart Parking Logs.
+
+- This is the place where you can park you bike, it must be smart to authenticate Bike owners and other people bike owners share/rent the bike too
+
+- It camera for each slot to send the bike owner a picture for his bike so he can make sure the bike is in good condition (In case of sharing/renting)
+
+- Smart algorithm to determine the condition of the bike
+
+
+Features for Bike Owners
+
+1- Create an account on the App
+2- Add your Bike(s) to your account
+3- Bikes are parked at the smart parking lots and kept in a locked position
+4- Authenticate yourself from the application to unlock the Bike- Keyless entry (we can get help from RSA)
+5- Enjoy the Cycling then park the Bike at the nearest Smart Parking lot
+6- Get requests for bike sharing and renting.
+7- Receive payments and insurance (Incase of damage/lost Bikes to be returned upon parking the bike and after the parking lot acknowledge that the bike is in good condition) in case of bike renting
+8- Track the bike location
+9- Get various notifications
+10- have access list of people who can use keyless access to the bike
+11- Rate the bike renter
+
+
+Features for Bike Renters
+
+1- Submit a request to rent the bike
+2- make and receive payments
+3- Keyless unlock for the App if allowed by the Bike user
+
+
+
+
+Good opportunity for Cycling movement in egypt to grow by encouraging on the go Bikers to join
+Utilizing unused bikes
+Safe parking lots
+Safe Bike Sharing between friends and relatives

@@ -1,0 +1,14 @@
+Live Actions
+
+We thought about this idea during a recent ideas mining workshop conducted in RSA last week. The workshop was split into groups and my group was discussing the "Sync with Lync" idea. While Sync with lync mainly focusses on archiving communication data and therefore aims to build knowledge base and avoid loss of data in out of band communication and helps people in the team stay in sync with each other on the matter. 
+
+The live actions or "live links" as I initially termed it is different in that it focusses on real time use cases dealing with interaction with various project tools for increased productivity and real time collaboration.
+The idea is to build tool integrations with Lync, such that Lync has access to data from all the tools in the project like VersionOne, Jira, QC, Code collaborator etc.  Lync continually scans or on a user trigger analyzes messages for identifiers that it can lookup in any of the existing tools and show up different widgets relevant to the tool based on which tool's DB the entry was found.
+
+In the problem case discussed above, lets say we have built an integration with QC. When Jack sends that message ("Hey Jill, can you please update the status on test case 293857?") to Jill, On Jills Lync UI, when Jill hovers over the test ID "293857", Lync searches this number/tag in all the tools registered and if any tool has a matching primary key, the tool will load the corresponding record in the corresponding tool's widget and show it as some sort of a pop-up. At this point Jill can update the status of the test case right there in the widget and save it.
+Now on Jack's screen; when Jack hovers over the same number he has sent, a similar widget is popped up showing him the updated value/record; this way Jack knows the update is done immediately in-band. There is no need for Jill to send an update to Jack again that she has made the changes and no need for Jack to acknowledge the same.
+
+The IDs in the messages can be preprocessed and highlighted in a different font/color suggesting that it is a call for action; depends on how we want to design it. We can also support meta data tagging for better search performance, meaning we can set conventions with the users that if a message has something like " QC:26328 or Jira:376389 " etc, the tool can now automatically limit the search to the specific tool instead of all tools and respond faster.
+
+The same idea can be extended to entities/identifiers in emails also.
+

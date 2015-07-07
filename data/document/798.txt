@@ -1,0 +1,12 @@
+Smart car parking
+In order to acheive Egypt COE Smart City, will need to having a smart car parking
+new idea
+-create car pooling mobile application
+-all employees can register for the next week 
+-system organise the picking point 
+-pooling car has the priority in parking
+-Award for the best achiever
+
+save parking slot
+save gas
+save time

@@ -1,0 +1,12 @@
+A Framework in storage platform (like viper) to take exact clone or snapshot from and Application layer to Storage layer in cloud environment
+
+SAP has a product Landscape volume management (LVM).  We are working on providing storage interface to SAP to do clone/snap of storage layer and while working on this, we got an idea to come-up with generic framework in storage platform so that application/service providers in cloud environment can make use of the framework.
+Third Platform i.e. Cloud is strongly coupled with virtualization software and underlying storage provided by storage platform like Viper and Storage arrays or any custom developed storage to have extensibility and provide data storage capability.
+ In Third platform, if consumer needs to create “Clone of the Host/ Virtual machine” or “Snapshot of the Host/ Virtual machine” along with the storage stack (File systems, logical volume, database), cannot take exact “Clone or Snapshot” of the host or Virtual machine because this involves multiple layers, i.e. 
+1.	Application Consistency of application installed on host (This activity will be done by the application layer and framework would never bothered)
+2.	Virtualization layer (This can be done by using virtualization suit  and frame work should incorporate)
+3.	Virtualized Storage Layer (The frame work should use underlying storage arrays features to do clone/snap in a consistent way )
+We are proposing a framework within the storage platform to help the cloud user to take exact clone or snapshot from Application layer to Storage layer. 
+Consumer will add extra intelligence in the Application consistency layer depending on application which is installed on host.  The frame work will then have intelligence to identify the underlying Virtualization layer which is used and identify the underlying storage layer to create exact copy of the host along with the storage (FS/logical volume/Database etc..).
+
+

@@ -1,0 +1,9 @@
+Mainframe: make JOBLOGs more convenient to read
+idea is Mainframe-specific, therefore I am expecting to have some challenges devoted to Mainframe.
+There exists an utility called JMFT, which sends JOBLOGs by e-mail. Many ideas are inspired by it (some missing features etc), so improved features are wanted.
+Mainframe JOBLOGs are plain text files, called "SPOOL files", containing several logs.
+A small simple program needs to be written (Perl or Rexx script, working on Mainframe or on PC) that will insert HTML+Javascript markup.
+This will allow to have some summary info handy, as well as instant navigation between elements of the said SPOOL file. 
+Additionally, HTML is browsable by any modern browser, providing extra nifty features, such as pretty printing, etc.
+Dealing with SPOOL files is everyday task for Mainframers, so improvements in this area are useful.
+

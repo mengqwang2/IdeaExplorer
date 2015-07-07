@@ -1,0 +1,7 @@
+E-Lab internal knowledge database
+The idea will improve cost efficiency and reduce workload listed by APJ COE challenge
+I came up with this idea because I find Elab has a huge coverage of all types of expertise but across the individual teams, a lot of knowledge are not efficiently shared. Huge amount of time are wasted on queries from time to time. An integrated database could become an overall first-to-go reference for all engineers who need to query.
+1. Build up integrated database for all kinds of technical problems, including Q&A, best practice and technical guidelines under certain categories on internal servers.
+2. The database contents will be input by engineers across all groups. The database management style could be wiki-like, engineers will be encouraged to add or enhance the related knowledge and earn points as valued contributors.
+3. A powerful search engine need to embed into the database in order to quickly find out related knowledge items.
+It would be like Elab internal wiki with precise contents, clear categories as well as efficient search interface. It will ease engineer expertise queries and knowledge sharing. Besides, it will also ease new hire technical training.

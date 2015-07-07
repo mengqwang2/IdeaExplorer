@@ -1,0 +1,38 @@
+Quality Indicators of the Ambulance service
+1.	Not Easy to pass through the roads and Navigate. 
+2.	Public Not Fully Compliant with Traffic Rules without the traffic police.
+3.	Vehicles don’t stop to give passage to the ambulance.
+4.	Limited, Analysis and Reporting for Patients details and the pick up.
+5.	Limited Availability of the Paramedics.
+
+We all face this traffic issue in our day to day life.
+
+================
+
+Ambulance service to the neighborhood population for patient transport during emergency and non emergency needs. 
+EMC Strategic collaboration with the private/govt. to provide ambulances details.
+Data Collection on Patient’s vital details.
+Availability –  As the ambulance is stationed at your neighborhood it reduces the time needed to reach you in case of emergency. 
+
+Data collected/managed from Big Data-Hadoop.
+
+All of the mandatory data our organization requires to be sure in the database are accurate, compliant and fast– in just a few minutes.
+Imagine an EMC software solution that serves as a guide, leading each crew member logically through every mandatory data field that you seem necessary for the type of emergency medical call.
+The trend analysis at our fingertips and done in minutes. This can be done by using the app.
+Transforms the traditional electronic patient care reporting, ambulance related required details and EMC data management process and puts control back in the EMC organization’s hands.
+At the same time, we enable quick, easy and limitless ability to find the available ambulance with paramedics, in-built app based GPS etc.
+======================
+
+Please refer the PPT attached.
+
+LINK : https://inside.emc.com/docs/DOC-155765
+
+====================
+
+Ambulance service to the neighborhood population for patient transport during emergency and non emergency needs.u00a0
+EMC Strategic collaboration with the private/govt. to provide ambulances details.
+Data Collection on Patientu2019s vital details.
+Availability u2013 As the ambulance is stationed at your neighborhood it reduces the time needed to reach you in case of emergency. 
+Paramedics u2013 Ambulances to be fully equipped with advanced cardiac and trauma life support facilities.
+Paramedics have a head start and can cut down their response time.
+

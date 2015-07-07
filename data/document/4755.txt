@@ -1,0 +1,13 @@
+ask me
+
+- after many cases i faced that could have been solved in no time if someone could quickly answer a question without having to escalate.
+
+- other thing i notice is when someone has a question, he open a chat conversation adding all team and ask the question and when someone has the answer he helps. 
+
+having a tool dedicated for that issue would facilitate the process
+- ask me is a desktop tool or 3rd platform based application that every technical support engineer should have, each tool should be dedicated to each product, for example TSE working on Symmetrix in a region should be available on one tool, another one for VNX and so on.
+
+- through "ask me" you can quickly ask regarding any issue and have an instant response from the one who know the answer, it's a more time saving application since you won't take time to start procedure to enter a collaboration or escalation unless it's a big issue and remote assistance is required.
+
+it's a like a quick question and answer tool that can save time
+

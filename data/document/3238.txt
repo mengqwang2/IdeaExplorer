@@ -1,0 +1,8 @@
+Client to server security
+
+-
+In Social media pictures and data are stored and accesible through clients. This is also the case for any client server.
+Have RSA use the same code generation it uses in tokens to generate the link and file names. So the client gets a passphrase based on which it will generate codes and sequences identical to the codes generated on the server side.
+
+This way the naming of all pages are dynamically changed based on the passphrase sent from the server to the client at that instance.
+

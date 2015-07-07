@@ -1,0 +1,7 @@
+Build my Data Centre
+
+Systems Test Engineering brainstorming session
+The students are given details of EMC products, their functions, how they can be configured (at a high level) etc. They are also given details of the fictitious company and their requirements. The students must research, build and design the optimal data centre to meet the company needs.
+The competition can be adjusted to pitch student vs student in a short timeframe or be scaled up and made more complex to have school vs school other a longer period.
+
+

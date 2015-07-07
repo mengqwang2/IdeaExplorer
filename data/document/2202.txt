@@ -1,0 +1,23 @@
+Establishing Developer Community in Inside EMC
+The Ireland COE is looking for ideas that will help leverage the strength of the EMC Federation in Ireland by promoting collaboration and communication between Federation members to ultimately bring our service and product offerings to a new level.
+The idea is evolved looking at the under-utilized capabilities of Jive Platform.
+Our proposed solution aims at providing a medium for Developers across EMC to connect to each other using Inside EMC. Also futhermore management can get a better insight on the technology culture in EMC by following what is currently happening in program specific groups.
+
+The solution is to enhance InsideEMC as follows:
+     - Create project specific developer communities (groups) that will act as developer discussion forums.
+     - This community can be used for discussions around 
+       - Environment Issues
+       - Conversations between developers and testers
+       - Communication related to deployments/test case executions.
+     - Developers looking for assistance in another business unit can post a question onto that BU's/Projects Developer forum.This cuts down the process and helps individuals collaborate effectively.
+     - Similarly communities specific to EMC products can be created to share information around where to use a particular product or what are the best practices involved while using a product.
+   - Create feature for people to write testimonials
+   - Create feature for people to endorse each other with respect to their skills.
+     - This will be an indicators for other people to get an expert opinion on a particular topic.
+   - Use Jive Anywhere browser plugin to post messages directly onto a group, instead of having to login to InsideEMC and search for a particular group.
+   - Use technology specific developer community discussions to create a knowledge base that can be made public facing to attract new talent.
+ - Creating project specific developer communities(groups) will encourage people to use Inside EMC more effectively and collaborate better.
+ - Creating EMC technology (like PCF, VIPR, Avamar, DPA etc) specific, public facing, discussion forums will help build the developer community online and also attract new talents to EMC.
+ - Additional features like testimonials & skill endorsements will help to identify an expert in a technology, domain or business unit.
+ - Using EMC's existing infrastructure to make collaboration and communication.
+ - Also establishing a mature Developer Community is inline with EMC's Vision to embrace Dev Ops model going forward.

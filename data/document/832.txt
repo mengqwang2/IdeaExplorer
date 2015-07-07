@@ -1,0 +1,5 @@
+EMC Daemon (Agent) running on Virtual Machine inside FEHC
+Relevant to the Global Solutions Challenge by providing a daemon that broadcasts customizable meta data about the EMC applications or Cloud/Big Data specific information residing on the VM
+Idea came from developing solutions for Microsoft Applications on FEHC. Specifically Database as A Service. The limitations around not having visibility within the VM stops the solution from delivering true cloud scalability, elasticity and ease of deployment
+A daemon/daemons (agents) that run on all VM's deployed in FEHC on VMWare stack that serves information about the application deployed (Oracle, MSSQL, Sharepoint) Leverages native libraries to communicate with and manipulate the application objects. Can leverage Restful principles to serve the information back to cloud management tools.
+The end user would have no visibility or awareness of the agent, it would be silently installed as part of machine provisioning allowing an end user to pool/manage vms based on the appplications/software installed, giving a hook to inventory vm's based on the software installed etc. 

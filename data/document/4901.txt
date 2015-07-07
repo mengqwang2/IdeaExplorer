@@ -1,0 +1,27 @@
+vCAFEs - vFabric Cloud Application Platform with Authorization, Federation and Enterprise Social Security
+
+I had worked on a POC for an AxM AuthAgent for Tomcat. I drew inspiration from that POC which shares a similar architecture and feature set. 
+tc-server AuthAgent is the core component of the vCAFEs identity framework.
+tc-server AuthAgent has a plug-n-play design, where-in required security aspects can be configured.
+At the core, the AuthAgent uses Valves to intercept requests for processing and custom JAAS modules to associate the Subject to the appropriate access control context.
+AuthAgent also leverages the Spring framework, to provide support for Social Logins, REST and runtime performance monitoring.
+It has out-of-the-box integration with enterprise grade products like, 
+	-RSA AccessManager, 
+	-RSA Federated Identity Provider, 
+	-RSA Aveska, 
+	-RSA Authentication Manager, 
+	-RSA Adaptive Authentication, 
+	-RSA Passban
+	-RSA Adaptive Directory and
+	-RSA Envision 
+
+Basic Workflow:
+---------------
+-Configure an appropriate valve in the context.xml of the web application
+	- For ex-  
+		-Configure XACML valve for fine grained AuthZ
+		-Configure OpenID | OAuth valve for social logins
+-AuthAgent intercepts requests for processing.
+-If resource is protected, a login page is provided based on the configured AuthN method.
+-Post login, the user is redirected to the resource.
+

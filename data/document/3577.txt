@@ -1,0 +1,32 @@
+“ Build your Data Center “ is an interactive in-class activity by EMC
+
+The idea came up from the most common games played online by this age range which are mostly strategic games in which they build a city or a castle. We thought of projecting this to the Technology of Big Data and cloud in a STEM context.
+STRUCTURE:
+
+A team from EMC  will have students in the class divided into teams that will compete together building their datacenter. The game will go as follows:
+1-	The volunteer introduce students to the concept of cloud , big data, security and storage.
+2-	Students will get introduced to main EMC products and the role of each one.
+3-	The volunteer will then give the student a set of prototypes of EMC products (small plastic cubes with different colors and tags for example). He will also give them sheet of papers and coloring pens.
+4-	He will ask them to design a datacenter that will have certain characteristics (shared storage rather than distributed, security , backup applied for some hosts, different types of storage arrays..etc). in the same time we want max storage space and performance.
+
+5-	The puzzle should be simple features to design (we will not ask them deep in technology). The volunteer will show a demo as well.
+6-	Students will have sometime combining the products and connecting them together and drawing some cabling on the paper sheet..etc.
+7-	Each team will explain his design to the other.
+8-	Different designs will be assessed and the winner team will be rewarded.
+
+TIMELINE: 
+
+One day activity in High Schools for STEM students
+
+LOGISTICS:
+
+Pens, paper, color pens, cartoon pieces (to build models), products paper prototypes
+
+
+Note: this game can be grouped with another in-class activity I suggested in the idea called “EMC in Class” in the same challenge.
+
+- “EMC in Class” can be considered for young students (10 to 15) and “Build your Data Center” can be considered for older students (from 13 to 19)
+-They can also be provided together as a 1st step (EMC in Class) and 2nd step   (Build your Data Center) in one activity in the class. This will achieve the maximum benefit as the 2 games can build on each other.
+
+
+

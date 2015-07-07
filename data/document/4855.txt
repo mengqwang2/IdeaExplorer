@@ -1,0 +1,13 @@
+Enterprise Feedback Management solution using IIG product stack
+
+While brainstorming with a friend
+Solution
+------------
+Context sensitive Feedback is inevitably associated with the URL/page that is being viewed on various customer facing websites.
+
+Upon authoring the actual content page, a custom XCP solution can be built to author Context sensitive Feedback questions in various languages and can be published to a central location after a necessary workflow to approve the questions. 
+
+
+A Simple Jquery based lightweight customizable feedback widget is included as a JS plugin into the website Side navigation. This plugin uses AJAX and REST API
+to query the Feedback questions published in the previous step
+

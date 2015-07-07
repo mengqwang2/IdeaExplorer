@@ -1,0 +1,29 @@
+ EMC Big Data Lake–as-a-Service for Telecom Industry – generate revenue leveraging EHC and Business Data Lake (BDL)
+ 
+This idea addresses a huge vertical market for EMC which is Telecom industry. It delivers value to these customers in the core of their business which is “Customer Satisfaction”. The idea makes use of the fact that Telecom Operators have many in common like customer service models, channels of customer feedbacks and focus on customer satisfaction. The idea is also suited for Social Media industry. 
+
+ The idea came up from a market analysis research we did on social media for mobile operators and qualitatively surveying customer service representatives/ managers in the telecom sector. We thought of a Win-Win solution for both EMC and teleco operators to make money and achieve high CSAT.
+
+Our solution is to have an EMC-provided centralized data warehouse that automatically collects, analyze and monetize customer sentiment data and generate insights.
+
+Solution Structure: 
+1-	Input Data:  gathers data from all structured and unstructured sources like (customer calls, survey data, social media data, historical complains and buying behavior,..etc)
+2-	Big Data Engine: analyzes the collected structured and unstructured data using Data Analytical techniques such as Sentiment Analysis, Topic Modeling and Text Analysis for social media data. Classification algorithms for structured data. 
+3-	The output insights: data-driven recommendations and advices to maximize CSAT. the analysis results includes factors and causes of dissatisfactions, proposed offers/features that can be provided. A dynamic Dashboard visualizing the analysis results correlation between CSAT and other input variables.
+
+The solution Architecture will consist of:
+1-	EMC Enterprise Hybrid Cloud (EHC): offered by EMC to telecom operators to collect and manage their data with the ability to move data between their private cloud (for daily reporting) and EMC public cloud (for advanced analytics)
+2-	EMC Business Data Lake: the platform that will consolidate the data warehouse with the analytical tools (Pivotal Stack) to analyze and monetize data. results are returned back to the telecom company through EHC. 
+3-	Teleco customers not willing to buy EHC solution can have the option to have Platform-as-a-Service offering using EMC Pivotal Cloud Foundry (CF).
+
+Market Analysis:
+•	Mobile operators subscribers are increasing rapidly every day (huge data growth)
+•	Customers churn rates are high between operators (cost saving opportunity)
+•	Teleco market has very fast and dynamic offerings to gain market share (revenue generation opportunity if offers are well-suited to customer needs) 
+
+
+1-	 Market for EMC EHC and BDL
+2-	Penetrates huge vertical market with a customized new service offering
+3-	Revenue generation for EMC and telecom operators
+4-	Maximize customer satisfaction
+

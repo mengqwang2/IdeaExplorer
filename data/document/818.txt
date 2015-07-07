@@ -1,0 +1,14 @@
+Efficient data accessibility using floating and dynamic data services layer
+New business solution for accessing data residing in cloud storage
+internal discussion and brainstorming
+The idea is to create and maintain a subset of floating data using data service layer. The Solution will based upon the proximity of the end user and the host. The data service will keep the subset of the data using one or more of the following strategies
+1- Most frequently used
+2- Most recently used
+3- Adaptive replacement data set.
+
+Whenever end user tries to access any data, the data service layer will check if the required data is already available in the maintained data subset. This will reduce the access latency and hence will result is faster data retrieval.
+
+Gaining maximum profit with minimum required investment on the cloud storage space.
+Cost saving
+Suitable for businesses which rely on customer loyalty
+

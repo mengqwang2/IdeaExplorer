@@ -1,0 +1,5 @@
+EMC Workplace Prism
+EMC workforce needs new and better ways to communicate and collaborate. 
+This idea came when I was reading article about future of work.
+Build platforms similar to Facebook where rather than receiving 100 e-mails about a projects and organization activities, one goes there and see what’s new.   Provide facility so that all the documents that are pertinent to that project will be available in this space. One can create new subgroup to talk about something. Lync integration is provided. User can create a challenge or an ideation or a digital brainstorm to advance the interests of that project. Facility to co-create a document on a wiki and create microblog. Provides ability to make decisions based on facts - not opinions - by using built-in tools to analyze, explore, and visualize data. This platform can be accessed via Mobile as well.
+Reduce email overload, improve productivity, and drive faster, more informed decision making.

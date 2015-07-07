@@ -1,0 +1,14 @@
+Embrace the new technologies to renovate EMC product infrastructure
+
+As the first line developer, I am always in a dilemma that whether to fix the issue in old codes from root or just provide a workaround fix. As the schedule is strict and the second choice mostly is prefer than the first. Finally we are in the situation that lots of technical debts are there and you even cannot debug your code with debugger.
+
+This idea is connect to another one but this is a general. It focus on the long term cost the the future of us.
+We need embrace the new technologies, evaluate them and use them to improve the source infrastructure of all EMC product. This include the engineering environment as well as all product codes. Ideally, those software components are well encapsulated and replaceable. Engineering team maintains those software component and make sure they are up to date. Product and integration team use them to release product. 
+
+At current phase, we need do:
+1. setup the interface of software components. from service level to ABI level, according to the level of component
+2. apply static analysis and security audit to all source codes
+3. encourage refactor and renovation and invest on internal quality (those factors will not affect product end user experience, such as good design, unified naming schema, test coverage etc.) of product
+4. hire engineers who familiar to latest technologies as well as those familiar to old ones
+5. design for and refactor to extendability and composability.
+

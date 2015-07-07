@@ -1,0 +1,17 @@
+Direct fulfillment of the C- configurable Viper DAE shelves out of the EMC internal plants. 
+
+This is a further development of the last year's idea "Splitting Data Domain Orders containing Viper DAE Shelves".
+
+People involved in this initiative were:
+D. Ovchinnikov, J. Conroy, G. Griffin, K. Watson, J. Lemons, J. Lyons
+The direct fulfillment is not possible due to the following reasons:
+- The Shelf Capacity license, which constitutes the Viper Bill of Material, must be installed to the head unit. The head unit is built by the CM plants. Installation is initiated by the presence of the "C-" shelf part number.
+- Printing of the license Key Sheet (LKS) containing the licences for the shelves is done by the CM plants.
+
+The Shelf Capacity License must be removed from the Viper BOM and released as an independent license model "L-". By doing so we provide a mechanism for the CM plant to trigger the license installation process and printing of the LKS.
+
+The order for the head with the C- shelves would contain the:
+- Head unit (CM plant)
+- "L-" Capacity Licences (CM plant)
+- Shelves (EMC plant)
+

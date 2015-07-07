@@ -1,0 +1,26 @@
+Business Data Lake Management Studio Using BPM Concepts
+Faster time to market : Solution modeled based on BPM ( per Capgemini: Pega BPM development is 6.4 times faster than development using Java )
+Improved Customer / developer experience :Visualize data analytics with automated code generation helps organization to  build for change with agility.
+Simplicity of Management : unified platform for managing entire BDL solution and process over cloud(PCF) utilizing EMC and open-source offering.
+Cost reduction: reusable component shared across the enterprise and built on top of EMC existing BDL offering, validate the solution before build.
+While working on BDL and PCF projects for EMC IT, we felt the current offering can be improved to make our BDL solution to be market leader with reduced cost and time by adopting the BPM concepts.
+
+Presentation link : https://inside.emc.com/docs/DOC-155835
+
+EMC federation offers BDL to enable the enterprise data analytics utilizing open source technologies( CF, Hadoop, Spring XD, sqoop etc), we propose improvement over current offering using BPM concepts by bulding an abstraction layer  using web technologies and Java over current BDL solution. The Solution would be deployed as an app in PCF with following functionality
+
+1. providing Unified platform for managing the BDL development and maintenance over cloud(PCF) 
+2. Automated development using visual modelling with near zero manual coding . In the background system will use prebuilt configurable services (Ex :Data Injestion using spring XD).
+3. Will build the capability to prototype/simulate the solution during design phase
+4. Will have the ability to share reusable component across the enterprise
+5. Secured access to the data in data lake for the users based on the hierarchy
+6. Managing the deployment across the environments in simplified way
+7. Provide monitoring and System learning capability within the platform.
+1. Ability to manage complete  development from requirement capturing to deployment in PCF  and monitoring BDL using single web platform.
+2. Provide modelling capability for the developers to be able to design from Data Ingestion to Analytics in organized way and system generating the code required in the background.
+3.Build the capability to simulate the data flow and review the decission before actual implementation.
+4.Provide the standard functionalities required as reusable components that can be directly utilized in the development.
+5.Ability to add new functionality to manage unique requirements.
+6.Shield the developers from worrying about the underlying technologies unless they want to. 
+7. As the platform is an abstraction for the underlying technology, any new future technology addition of upgrade would be handled seamlessly for the developer.
+

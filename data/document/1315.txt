@@ -1,0 +1,25 @@
+Next- Gen Intelligent Sales Experience to EMC Customers & Partners
+There are many sources in EMC and outside world to gain information about customer, competitor and partner sentiments. These have helped in cross selling and up selling EMC products and services. However with trend in data analytics and computing available to process data from different sources and identify meaningful insights, there is a ready need to combine multiple information offering sources. This will help EMC intelligently utilize the data and drive business growth.
+Came up with the idea while working with Salesforce Team and Avention Data.We had discussed with the sponsor to understand the expectations and the kind of solution they are looking for, team has very good diverse skills in SalesForce and GreenPlum databse, and we understand the TCE challenges and potential Sales opportunity for EMC. we have also worked on multiple innovation and patents, leveraging those skills and experience we had come up with TCE improvement idea. 
+Idea in a nutshell:
+This idea focuses on building a simple sales recommendation engine using key data sources: TES  Product Usage intelligence repository (Transformation E-licensing Solution), Avention (An intelligent b2b tool integrated with Salesforce already used by EMC) ,Install base, EMC product taxonomy(T3),Solution bundle repository.
+
+Key steps to build the solution:
+1.	Build a process that runs once a day (Note: product usage is streamed to EMC once a day )to create a time series based extended profile in EMC Green plum database hosted on EMC pivotal cloud foundry for every EMC customer and prospect by querying salesforce, Product Usage intelligence repository (Transformation E-licensing Solution), Avention (An intelligent b2b solution integrated with EMC Salesforce DB) ,Install base.
+2.	Using , EMC product taxonomy(T3),EMC recommended Solution bundle repository and time series based extended profile from step 1 build a recommendation database , which identifies customer needs from additional product requirements perspective. 
+3.     Build a simple Salesforce integration to query this recommendation database using REST API to help Sales folks (both Partners and Reps) with upsell and cross sell and brand new product opportunities.
+
+Business Case:
+Existing Customer
+An already existing customer contacts EMC sales Rep/Partner to query about a new product.
+EMC sales representative through his sales recommendation engine could easily know that his customer is moving towards M& A strategy (this information is pulled from Avention) and his storage needs are going to increase and previously he has Isilon boxes installed(this information is pulled from TES) in his datacenter which are over used and mostly consumed.
+The combined data from Avention and TES will now empower the Sales Representative to approach the customer with better sales pitch and tell him his usage about the previous data storage and recommend him better solution to use VMAX, Vplex or a better bundle with a solution. This type of intelligent recommendations can help EMC to gain multimillion dollar deals and strengthen the relationship with the customer.
+
+Solution Diagram: https://inside.emc.com/servlet/JiveServlet/downloadBody/155836-102-1-519785/TCE_Challenge.vsd
+
+Solution PPT : https://inside.emc.com/docs/DOC-155837
+- Improve TCE
+-Enable EMC to provide/provision recommendations and suggestions to the existing  customers hence aiding EMC to convert more prospects in to opportunities.
+- Strengthen EMC Business Partners to approach a customer with better sales pitch.
+- Improve Customer Sentiments and feedback
+- Win Win for Partners and EMC

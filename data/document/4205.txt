@@ -1,0 +1,5 @@
+Facial recognition and Data Analytics to measure employees engagements
+
+Tracking employees participation manually in events and activities is a very tedious exercise which consumes a lot of effort and time, and in most of the case, it doesn't provide accurate results. It also doesn't provide the required transparency to encourage more employees to participate.
+By using Command controlled cameras and facial recognition software, we can capture information about the employees participation in different activities (CSR, LSS, training, Social, Sports, ..etc). And them using Big Data Analytics tools, we can make analysis and statistics about employees engagements and instantaneously share with them this information. We can also automate the process for granting badges and awards for the top participants.    
+

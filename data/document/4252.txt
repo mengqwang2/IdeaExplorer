@@ -1,0 +1,9 @@
+Hack CPU cycles from anywhere and everywhere
+
+many of Greenplum Data computing appliance(DCA) sit idle due to less workload and some DCA`s are 100% utilized, if there is a mechanism wherein one DCA can utilize the power of another DCA in LAN or WAN would help EMC and its customers in efficient resource utilization.
+cloud has the elasticity capability, on need basis we can grow and shrink VM`s processing power.
+The same elasticity feature can be provided in EMC product lines at the hardware level. additional to this, one hardware if falling short of processing power can borrow or hack into other systems and utilize their CPU cycles (provided the system is free of resources)
+This would help existing customer utilize EMC hardware efficiently
+Would also help AWS customer who owns EMC hardware stick to EMC and not move to cloud since their existing hardware can be utilized 100%.
+
+

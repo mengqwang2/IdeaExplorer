@@ -1,0 +1,6 @@
+unify meeting room reservation system with outlook
+For IT department, the more systems they maintain, the more workload they have and got more chances to make mistakes
+just feel tired of switching between 2 systems to do one thing
+Use outlook only to include all existing meeting rooms and only link meeting room details to rooms.emccrdc.com if someone wants to figure out more details of that meeting room he wants to reserve
+1. employee don't need to remember another URL for meeting room reservation
+2. outlook is the common tool everyone is using, there will be almost 0 learning cuve for new process adoption

@@ -1,0 +1,19 @@
+Formation of SWAT Team to reduce Backlog >28d
+This idea has a 3 pronged benefit:
+
+1) Improved TTR: This will help us service customers in the least possible time, thereby improving TTR.
+2) Backlog Management: This will also help us proactively control our backlogs due to rigorous monitoring and actio
+In Captiva and Documentum teams, we see quite a few SRs which have breached the 28d mark, mainly due to the following reasons:
+1) Waiting for customer's action
+2) Open Relief - Waiting for customer's verification.
+
+We implemented the idea briefly by sending out hourly updates, with extreme focus on this aspect. We still took 4 days to successfully clear these backlogs and start meeting requirements, due to lack of a SWAT team.
+> Form a SWAT team with coverage spanning complete hours of operation (Noon shift, evening shift and night shift logins respectively).
+> This team would scrub through all SRs >28d of age apart from S1 and S2 cases and engage with the customers accordingly.
+> Once they speak to the customers, they can de-escalate the SR or close it, depending on the outcome.
+
+
+If the SWAT team is implemented, we would see:
+
+1) S1, S2 cases >28 days would not cross 20% of the overall S1+s2 cases.
+2) Customers not expressing Dssatisfaction over the time taken to resolve the case due to lack of communication from our end.

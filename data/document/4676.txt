@@ -1,0 +1,5 @@
+EMC pop up news application
+
+Some employees are waiting a certain email during the weekend for example ( HR announced that it is aday off , Circumstances in the country and it is safe to stay at home ) and have no internet access to check this through mails so it will be easier to communicate it through a pop up message on an application
+To have an application though the EMCers could communicate the important news through it as most of EMC employees donnot setup their outlook on their mobile so this will give them the chance to check the important news sent  on the app frequently.
+

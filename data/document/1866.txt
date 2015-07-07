@@ -1,0 +1,15 @@
+interactive meetings / conference tool
+IT Contemporary Workplace Challenge
+came up today with it because I had time to spare
+Meeting Rooms:
+- microphones for desks
+- portable microphones you can clip on your shirt
+
+Personal Desks:
+- conference tool (like http://www.blackboard.com/)to replace Webex where everybody signs in and then when they speak or write we see this persons name
+- this would also help with the noise because the room owner has admin rights and can mute people who are interrupting the meeting because the mic is still on
+- it features interactivity as well, so every meeting participant can share files and write on the collaboratevely used white paper / blackboard
+- some rooms have good equipment already with big monitor or projector but they lack interactivity
+- sometimes meetings are only held via Webex and you join in with your personal computer and headset and when you don't get involved and have a hard time understanding the person talking then you lose interest and the whole time & effort is wasted
+- make it so that we can see (via camera) the people holding the meeting and more important that we hear them clearly and loudly
+- this will make meetings less of a chore and it will provide a gain in participation, better transfer of information (that won't just pass by) resulting in increased efficiency of the meetings -> when you have 10 persons not working for 1h because of a meeting then it is quite costly for the business, so it should definitely be worth the time.

@@ -1,0 +1,20 @@
+Auto Drive Replacer
+
+As a storage administrator it gets into your nerves when a simple hard-drive replacement takes days to replace. The time taken to co-ordinate with the Field Team and create an Access ticket for the CE to visit the datacenter results in unwanted wastage of time, resources and money.
+With the help of ADR, storage admins would not even have to bother about Hard-drive replacements anymore.
+
+Basic Hardware Requirements install ADR:
+1. A spare Drive Bay with JBODs (that contain disks of the same part number/capacity as the ones that are already in production)
+2. A robotic arm that facilitates drive replacement.
+
+The Auto Drive Replacer can be integrated into the Form Factor of the Storage Array and also into the Flare/Enginuity Code in such a way that, whenever a Hard-Drive fails, a message is sent to the Robotic Arm.
+The robotic arm will first verify if the data on the faulty drive has been copied to a hotspare. 
+Once verified, it will read the drive partnumber/drive type from the XML files and select an appropriate drive from the Spare Drive Bay.
+Finally, the faulty drive is removed from the slot and replaced with a new one.
+
+The software can be built in such a way that 
+> It autmatically detects a faulty drive, communicates with the robotic arm and repalces it without human intervention
+OR
+> It sends a message to the customer/storage admin that the drive has faulted and takes permission from us to initiate a the ADR action sequence.
+Either way, the cost and time involved in simple hardware replacements can be significantly reduced.
+

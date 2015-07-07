@@ -1,0 +1,12 @@
+Social Media Intelligence Powered By Social Media Data Lake 
+Social is one of the four pillars on 3rd platform, and there are huge demands for tools, approaches and platforms to realize real-time social media conversation monitoring, analysis and reporting. EMC has strong product portfolio and great opportunities to break into the social media market vertical. 
+
+At Office of CTO and EMC Labs China, we have been investigating social media analytics and developing the social media data lake solution since 2014. The idea and system prototype have been showcased to both APJ innovation leadership team and external customers like CCTV and Beijing TV in China.
+This idea proposes to develop a novel Social Media Data Lake (SMDL) that collects, analyzes and visualize user generated content at social media sites from across the web to generate timely and actionable social insights, powered by EMC storage, EMC converged infrastructure and Pivotal PaaS/analytics portfolio.
+
+Please refer to https://inside.emc.com/docs/DOC-155492 for a concrete description of SMDL, including the motivations, use cases, system architecture and solution development based on EVP products. We have built a system prototype of SMDL which is now crawling massive data from numerous social sites (e.g. Twitter and Facebook) and providing both real-time search services and social computing services.
+
+
+As a vertical-oritented instantiation of recently announced EMC business data lake solution, social media data lake will extend the competence and business value of EMC storage and CI, Pivotal's Big Data Analytics in Social vertical and position EMC as Social solution infrastructure provider. The target customer will be social application ISVs and customers who are interested in social solutions for reputation management, marketing, market research.
+
+

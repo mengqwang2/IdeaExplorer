@@ -41,11 +41,12 @@ class dataParse():
 			for fl in fieldList:
 				fl=fl[:-1]
 				if(ind[fl]==None):
-					doc=doc+""
+					doc=doc+"\n"
 				else:
-					doc=doc+ind[fl]
+					doc=doc+ind[fl]+"\n"
 			docList.append(doc)
 		
 		return docList
+
 
 

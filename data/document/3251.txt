@@ -1,0 +1,12 @@
+Solution support Model
+
+- Redesigning/Streamlining of the solution support model we have
+- We are starting Solution support model in CS
+- The only thing I want to add is that there should be a structured way for this program and criteria set to measure the efficiency of this program 
+
+Few suggestion which I have is : - 
+
+- Along with brown bag session there should be exchange of Engineers between teams so that they can work closely and have hands on experience on the product
+
+- Engineer should be taken out of production from his team;s business so that he can focus on what he is learning and make use of the program
+

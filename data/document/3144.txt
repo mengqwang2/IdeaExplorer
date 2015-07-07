@@ -1,0 +1,14 @@
+Enable EMCInfoachive as SaaS offering based on Docker
+
+I started to work on the test automation to have distributed environment to execute regression and found the provision of VM and Content Server occupy most of the time. Fascinated by Docker technology, the provision of Docker image only take seconds, which occurred to me that it would be interesting to have Docker in the production environment and leverage it as PaaS platform.
+Compared with other PaaS solutions, Docker is a tool that can package an application and its dependencies in a virtual container that can run on any Linux server.  It runs as an isolated process in userspace on the host operating system, sharing the kernel with other containers. Thus, it enjoys the resource isolation and allocation benefits of VMs but is much more portable and efficient.
+To leverage Docker to implemenate EIA SaaS offering, folllowing are how it should work
+* EIA should have REST API ready 
+* Setup IaaS platform, either vSphere or Openstack
+* Package all EIA components in a set of Docker images and build links of them
+* Build controller to deploy virtual-machine on IaaS platform and controller will deploy 1 or N sets of EIA Docker images on the virtual-machines per request and per resources of virtual-machine
+* Setup a router and user could access different EIA tenants via different URL and the router will dispatch the request to actual EIA provision
+
+Alternatively, BOSH could be used to deploy Docker @ https://github.com/cf-platform-eng/docker-boshrelease 
+
+

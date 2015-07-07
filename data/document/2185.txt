@@ -1,0 +1,20 @@
+Support for FsaaS (File System as a service) in Pivotal Cloud Foundry (PCF)
+This idea is related to enhancing the PCF platform to support file system dependent workloads.
+While we were working with PCF for the project, we discovered that this idea would bridge the 2nd platform and 3rd platform transition.
+Develop a persistent file system service and service broker to solve this problem. With this service, applications can scale to dozens or even hundreds of instances while sharing persistent file storage.
+
+Any applications that are in need of persistent file system can dynamically bind this service. File service can use any of the back end storage including EMC products.
+
+A persistent file system service allows apps to do the following:
+Share files across multiple instances of an app
+Store files that persist if an app is removed (providing the service is not deleted) or if the server is restarted.
+Conserve space on file systems allocated within the VM instance by referencing the persistent file system instead.
+
+This new FsaaS service will enable new/existing customers who has file system dependent workload to move to 3rd platform PaaS PCF.  
+Existing customers who are already using EMC products can also migrate to 3rd platform with out changing the architecture.
+New customers will be attracted to buy EMC converged infrastructure storage systems as the support is available via this service.
+
+Use cases/industries: 
+Content management system (CMS) such as wordpress, Documentum etc
+Video hosting services
+Media content delivery

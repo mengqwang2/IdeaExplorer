@@ -1,0 +1,32 @@
+EMC STEM Drive (100% PoC with video demo)
+UTAH COE Challenge: Developed an android APP which lets employees and teachers to collaborate on STEM topics and organize STEM events.
+It is our new idea. We already have the experience of developing prototype. We thought, with the knowledge of Android, we could do this. So we had a initial brainstorming to have simple and user-friendly interface which could leverage resources mentioned in the challenge. We redefined our idea as and when required and finally came up with a solution satisfying all needs.
+Link to video demo: https://inside.emc.com/docs/DOC-155510
+
+EMC STEM Drive has following modules:
+
+- Forum 
+# The App has forum which lets users to discuss on the topics or events. This module lets users to create a new discussion and offers user interface which categorizes the page as All posts, Latest posts, Trending ones. This module helps users to create a new discussion and view updates on their posts. It provides an option to attach any kind of documents.
+
+- Resources 
+# It leverages data from resources VEX Robotics, stem.utah.gov/emc, EMC resources and other STEM related topics. This module is scalable and can include any number of resources.
+
+- Multiple Directories 
+# The APP has directories for employees, schools and teachers. It lets users to search for mentors based on skills. The App lets users to directly call, message or send mail from the profile search. This module also allows users to edit the profile information. It lets users to upload photos as well.
+
+- Events 
+# The APP leverages data from insideEMC and lets users to view all the events and check event calendar. It also lets admin to schedule an event. 
+
+- KIT tracker 
+# This App has Kit Tracker which lets others to view all the details of kits. It also lets admin to enter new details. The details will be reflected in insideEMC.
+
+- Varied Access 
+# App changes the access and interface for different role players, say, Employee, Teacher, Students, Admin.
+
+Link to video demo: https://inside.emc.com/docs/DOC-155510
+
+# The UI part of all the modules is completed.
+# The APP is scalable which can be used to support any crowd-sourcing requirements in UTAH COE.
+# The App can be enhanced to support features like multi-lingual support, chat and analytics if required.
+
+

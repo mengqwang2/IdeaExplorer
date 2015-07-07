@@ -1,0 +1,16 @@
+Enhancing the reporting of data protection products. 
+>This idea will improve the supportability of solutions that deploy multiple CTD product.
+> Enhance the present reporting tool for backup products which will increase the overall total customer experience(TCE)
+> Improved troubleshooting/predictability/analysis
+> Reduce Support Call
+Obtained through review.
+Compared with other enterprise backup software compititors in industry.
+Our solution is to produce a report which will contain
+>Statistics of job done/clients backed up or restored/size of application etc.
+>Graphical representation of backup or restore done which passed/failed
+>Color coding for job status like passed/failed/aborted/completed job with errors/killed jobs etc.
+
+>Reporting will be awesome!!
+>Enhancement of Reports will improve Total Customer Experience(TCE).
+>Can be easily implemented in cycles because reporting is obtained by the data which is already available in the repository.
+

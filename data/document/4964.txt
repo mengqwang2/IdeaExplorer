@@ -1,0 +1,5 @@
+Service Management Search
+
+A lot of times we see issues that we have seen before but not everything gets turned into a KB article. If we could search for the problem description or resolution field. We could use it very effectively.
+We should have a search option on which you can search in the problem discription and resolution fields.
+

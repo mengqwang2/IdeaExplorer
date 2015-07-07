@@ -1,0 +1,17 @@
+Smart Canteen/cafeteria
+By implementing the smart cafeteria we can Reduce the time in ordering and waiting for the food to be delivered in the cafeteria.
+Also we can order food in advance and also request the vendor to keep the food if employee is stuck in meetings or critical issues.
+Usually we spend lot of time in waiting for food to be served during peak hours.
+Also if we are stuck in some issues and cannot eat at the right time and once the ongoing technical issue is resolved we sometime don find any food to eat. As kitchen would be closed out.
+1)Make sodexho coupon transaction online by creating an application only for EMC employee.
+2)Link this app with Sodexho account and also cafeteria vendors.
+3)Employee can manually add the amount to Sodexho as Sodexho wallet.
+4)Cafeteria vendors will update their menu everyday and broadcast to the users.
+5)Users can manually choose the food the would like to eat and commit the order by paying for order through Sodexho wallet.
+6)Once order is committed the employee will get a reference token number, also the cafeteria vendor would also receive the order and also reference number.
+7)Vendor would update the time required for food to be delivered and as the time clicks and when there is less than 5 mins needed for food to be delivered, the employee can move from their seats and go to the cafeteria to collect the food
+8)The employee can show the reference number to vendor and receive the food without having to wait for long.
+9) Also if an employee had ordered the food and committed, but if there is any emergency issues to be addressed, then he can send a note to keep the prepared food for 1 more hour so that he can collect it once the issue has been addressed.
+
+This will help employees in reducing time needed to manually go to cafeteria and order food and wait till its served.
+Also this would benefit employee who are in a critical issue and cannot eat at right time by keeping the ordered food in pending, this also makes food available to employees at any point of time.

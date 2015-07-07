@@ -1,0 +1,16 @@
+Auto Claim the Storage Arrays and Volumes connected to VPlex
+
+Prior Work Experience
+Add the intelligence at the nsfw to detect the storage arrays connected to the VPlex the moment they are plugged in.
+
+When connected, do the initial checks on the storage arrays and identify the type such as the vendor, etc and claim the storage array automatically and also the volumes created via those arrays.
+
+The VPlex must have the intelligence to automatically claim the storage arrays and their volumes for direct usage of them 
+
+Claiming the array and volumes is an additional step and it need not to be done manually. This prevents the customer to claim the volume manually. Once the array is connected to the VPlex, let the VPlex claim those volume for the customers and keep the volume ready for usage.
+
+
+
+
+
+

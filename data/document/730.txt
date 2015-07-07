@@ -1,0 +1,13 @@
+Power saving by having EMC shutdown across globe 
+"Environmental Stewardship Challenge" has the need to address how we can save power consumption @ EMC. Our solution helps achieve this.
+This is already followed by other IT companies so thought of having the same for EMC
+We propose to have yearly twice complete shutdown of EMC for atleast 5 days (including weekend) across globe during this time
+1. All the floor AC's/light/desktops will be off.
+2. All the Testing and Development teams hardware labs will be powered off.
+3. Minimum usage of power will be seen
+
+
+Reason we are proposing is that we have observed during the year end, 80% of the people take leaves - we just wanted to propose the solution to be consistent across during the same time of the year which will benefit both EMC & the employees
+
+
+Huge power savings will be reflected 

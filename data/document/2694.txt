@@ -1,0 +1,5 @@
+Topic Time horizon for publishing
+Provide customers with a reliable ESM/ESSM publishing schedule while not making the engineer's life frustrating.
+So far as I know, Elab has never had this capability. The engineers have always asked for it and it has never happened. I can't understand why as it seems like it should be fairly straightforward.
+Through some means to be determined by later innovation stages, add the ability to ensure content entered into topic can be tagged with a 'Do not publish before' date which ensures that content will not be included in any ESM or ESSM generations on or before that day. How, exactly, to implement this? I have no idea. It might take a piece of software that is not topic.
+Engineers could complete their testing, enter their data into Topic, and move on to the next qualification or test cycle without the day or two lost to tracking down a Topic admin and ensuring that the posting date was far enough out. It removes the need 

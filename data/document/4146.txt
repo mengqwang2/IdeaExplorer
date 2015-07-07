@@ -1,0 +1,5 @@
+The Cube - EMC³
+
+Idea was created during a team brainstorming session recently. It is based on the TV show "The Cube" but with an EMC twist. Hence EMC³ - the "³" symbolising "Cubed" and also "3rd Platform". The challenges could be online based, released weekly to schools/ classes where they solve an Big Data, Cloud and/ Or TRUST challenge.
+A group of challenges/ brainteasers are predefined and rated in order of difficulty by the EMC team - all collectively incorporating Big Data, Cloud & Trust. From these, a school student or team can be given a challenge, as chosen by EMC, to complete in a set time. If completed, then its on to the next challenge which is harder and so on. The last person/ team/ school which completes all challenges is the winner. This can be online based or classroom based
+

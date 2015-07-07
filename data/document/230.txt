@@ -1,0 +1,33 @@
+Secure Online-Offline Data Analytics & Computing Platform
+A comprehensive platform for productively using both structured and unstructured data towards knowledge discovery via application of linguistic, statistical, machine-learning and visualization techniques. Interactive analytics on the inferred knowledge helps derive contextual relevance and business intelligence for social enablement.
+We did a POC for an IoT  project to apply machine learning to derive metrics from email streams for use in dashboards. During our explorations with Weka and related API's (Balie/KEA), we stumbled upon Spark, that provided parallel computing with machine learning capabilities.
+
+Udayendranaidu Gottapu
+
+We have only done an internal review and evaluation of the solution based on our learning from Weka API and explorer.
+Secure Online-Offline Data Analytics & Computing provides an unified platform for-
+-Data ingestion and aggregation
+-Security, Governance, Coordination, Monitoring
+-Workflow Management
+-Information Extraction
+  - Real-time data processing 
+  - In-Memory data processing
+-Meta-Learner - Iterative Machine Learning 
+-Real-time Analytics and Visualization
+-Feedback
+
+PPTx -https://inside.emc.com/docs/DOC-156187
+
+At the core,we use Apache Storm for In-Stream processing and Apache Spark for In-Memory processing with Machine Learning integrated into processing pipeline. 
+
+Hortonworks Data Platform (HDP) serves a similar purpose, however it relies on Apache Storm for In-Stream and Hadoop MapReduce for In-Memory. There is no inherent support for Machine Learning capabilities during processing.
+
+Meta-Learner, is an unique iterative machine learning module, that analyzes, evaluates and measures models derived from both in-stream and in-memory processing. 
+The intent of the same is as follows-
+-Data / Algorithm Insight
+-Data / Algorithm Characterization
+-Algorithm Comparison Analysis
+-Learning Curves
+-Bias Variance Analysis
+-Derive experiment datasets
+If it were to be fully implemented it would be an unified and comprehensive framework to manage big data processing requirements with a variety of diverse data sets (text data, graph data etc) as well as the source of data (in-memory v/s in-streaming data).

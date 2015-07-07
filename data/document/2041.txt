@@ -1,0 +1,26 @@
+Top-of-Rack Switches
+Office of the CTO ‘New Business’ Challenge
+•	It is very much relevant to the technical capabilities of EMC.
+•	It opens new market as well as have an significant revenue potential
+Skolkovo R&D Center Challenge
+•      Data Management; New Market; High revenue potential
+I came across an article about ‘Open Compute Project’. This gave me an idea about the TOR switches and the massive impact of delay of microseconds in data centers. 
+
+Reference: https://www.facebook.com/notes/facebook-engineering/building-efficient-data-centers-with-the-open-compute-project/10150144039563920
+
+TOR switches belongs to billion-dollar market. The advantage is that it is the transition time for switches. Hence EMC can leapfrog the outdated technologies in the field of switches and directly embark into new technologies with new competitors.
+
+This is the huge business opportunity for EMC if it can find a way to build efficient Top-of-Rack switches. This is not just a new market for EMC to enter, but it will also help EMC to provide efficient data centers thereby improve the market share of existing products. Further, it will mark the first step for EMC to get into networking infrastructure.
+
+
+Meeting all the criteria:
+
+1. It is definitely within the technical capabilities of EMC.
+2. It is closely related to data centers in which EMC leads the market share. Venturing into TOR switches will further improve the market share of data centers.
+3. It is the new market which EMC has not yet embarked.
+4. It offers huge market potential in the field of both TOR switches and data centers. The Big advantage here is that data centers and TOR switches complement each other.
+
+Huge revenue potential in new market (networking infrastructure).
+Easily attainable market share if we market the product along with data centers.
+Improve the market share in data centers.
+

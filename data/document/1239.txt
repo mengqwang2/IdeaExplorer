@@ -1,0 +1,40 @@
+Contribute as Anonymous
+HR challenge - Provides a platform to contribute their ideas in their own words, without revealing the identity.
+Ireland challenge - An efficient way for the decision-makers to collect and understand suggestions from the fellow members in different locations.
+EMC is a global company thereby has diverse audience. Diversity of ideas plays an important role in innovation. Generally the current tools which collect the voice of the people such as survey monkey depends majorly on closed ended questions. The closed ended questions might be good for providing opinions but not for innovation or brainstorming. For our case, the participants must be let to think ‘out of the box ‘. I came across this article which supports this idea.
+http://www.cea-ace.ca/education-canada/article/engaging-students-through-effective-questions
+this article analyzes the best way to brainstorm students and agrees that the open ended questions serves the best for this purpose.
+We have come up with the following proposal for a tool which facilitates the contributors to provide open-ended text inputs for the discussion and utilize big-data tools to analyze the inputs and provide collective reports to the decision-maker(s)
+
+Please refer this page for the straw-man diagram of this design.
+
+http://creately.com/diagram/example/ibgmj7ll/hr_challenge
+
+The overall design of the tool will be as follows,
+
+1. The arbitrator has to create an instance of discussion with the topic of interest and details specified. The tool has to be integrated to InsideEmc(suggested to be under Tools and Support)
+
+The arbitrator should be able to
+   - Login into the tool account with his network id and password
+   - Create a new instance of the brainstorming session
+   - Propose the topic of discussion
+   - Select the participants for the discussion and fix the deadline for the      contribution
+
+The participants have to be notified via automated mail process.
+
+2. The participants can log in to the account(network id credentials)and provide their opinion in the form of text. However, original text from the contributor will not be accessible to anyone else in the system thereby keeping up anonymity.
+
+3. The text inputs obtained from the participants will be placed in the greenplum databases(open source). The advantage of using greenplum databases over the normal text based databases is that they have their text processing methodologies incorporated in the form of stored procedures, Mapreduce and in-database analytic which could be embedded, open-sourced and user-written as well. With these advantages, the text inputs received from the contributors could be processed and made available as any other SQL databases.
+ 
+4. The greenplum database provides support to access and query the data through ODBC, JDBC, spring frame-work just like all the popular SQL based databases. So this database can be integrated as a source to any of the open-source report generation tools which process the SQL databases such as Penteho community, Report Server etc. These reporting tools have the capability to query the SQL databases and generate charts, tables and reports. The report has to be generated automatically on the dead-line. 
+
+5. The arbitrator/decision-maker can login into his/her tool account and access the report post dead-line.
+
+By this method, the work of the contributor and the decision-maker(s) is made easy.
+For the contributor its just to fill a form. The decision maker receives a report after analyzing the inputs from the contributors and do not have the overhead of organizing a brainstorming session.
+- Since the opinion is provided through forms, inclusion of diversified audience from different geographies is made easy.
+- The contribution is open-ended. It facilitates the participants to think out of the box.
+- The arbitrator receives the output in the form of collective reports. This eases the work of the arbitrator.
+- The solution will provide a platform to provide genuine opinions. This helps the arbitrator to get real-time perspectives of the topic.
+- The solution will offer the arbitrator to treat all the suggestions/ideas alike without any inherent bias. Studies reveal that humans (even good humans) have a bit of bias towards others at least in the subconscious mind. It removes the barriers to achieve bias-free environment.
+- The introverts/underrepresented are shy to come forward to put across their suggestions. This solution will offer them the chance to provide their insights.

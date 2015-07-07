@@ -1,0 +1,10 @@
+Mobile APP for Education Services Portal
+
+I tried to search for mobile applications that have those features and i came through an application called Coursera so why not have our own educational application?
+Having an application that is integrated with EMC Education Services Portal and allowing users to be able to:
+
+-View the available courses
+-Subscribe in one or more courses.
+-View courses on their mobile phones and being able to solve tests/quizzes
+-The ability to pause at specific part and resuming at any other time.
+

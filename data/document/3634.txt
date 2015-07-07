@@ -1,0 +1,7 @@
+Health Check Tool 
+
+- Customer opened low severity cases to run health check on different array
+- This can be solved on the spot if there is no errors which will enhance customer experience when we deal with the low severity cases with speed 
+- Desgin an automated tool for CST to run Health check by just enter the array name and generate a health check report , if the report is clean, to be sent to the customer and CST to close the service request 
+- If reports generates any error to dispatch it to the Lab to investigate 
+

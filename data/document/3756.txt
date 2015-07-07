@@ -1,0 +1,6 @@
+Jetfire Enclosure Test Stop-on-Error reduction
+
+Kaizen Leader: Neil Thomas
+The production test processes within manufacturing are automated to remove operator intervention.  Well written test automation scripts and diagnostics should run end to end without failure and without the presence of a test operator to help the system complete test. 
+Savings: $90K Soft, $30K Hard   
+

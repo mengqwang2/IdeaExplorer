@@ -1,0 +1,13 @@
+Install Base parts in "Created" status
+The idea was addressed as a Lean Six Sigma project in order to capture the value it brings in terms of time and cost savings.
+The results are impacting many entities, and thereby affecting CSAT.
+
+The idea came after realizing the issue is recurring in the Install Base and discussing its impacts with BTG team.
+After brainstorming with BTG team and system developers, Work Request 398354 was raised to fix the issue of Ship Install Interface changing the FRU parts to “Created” status.
+
+Work Request 399215 was raised to perform a cleanup on the current data, and was implemented in Q2 2015
+
+Work Request 399215 for the cleanup of the current data was implemented in Q2 2015
+
+Work Request 398354 for root cause fix is in progress, after it's completed the data accuracy will rise and the forecasted number of requests for fixing this issue will be reduced, thereby saving man-hours as well as increasing CSAT
+

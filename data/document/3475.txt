@@ -1,0 +1,5 @@
+Voting button during chat
+
+It came to me while I was reading the list of challenges. As soon as I read the description for the IT challenge I got this idea. Also, I once heard my supervisor Afifi talking about something like this but for mobile.
+The new Unified Communication app will combine email features with chat features. Email has an option to vote, and my idea is to add real-time voting option to chat as well. For example, if someone initiates a group chat to talk and agree on a certain time and place for the next meeting, all the members of the chat could vote on the different options and thus the meeting time can be set. 
+

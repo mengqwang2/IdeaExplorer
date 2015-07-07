@@ -1,0 +1,7 @@
+Middleware of automation test framework
+Provide a middle-ware of automation test framework to leverage different test script or code.
+Test engineer had faced the difficult which use legacy test script or test framework to test our legacy product.
+Regrading thousands of test script in different test framework, However we have not the unified interface provide to test engineer to design or execution them. A idea is provide the middle-ware able to abstract interface of the different test framework design and execution. Let all test engineer work in the same test interface and leverage any legacy test script and design.
+1.leverage legacy test script to cover legacy product feature
+2.QE could have the unified entry to test our product
+3.Reduce the gap which use different test framework

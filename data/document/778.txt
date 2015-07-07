@@ -1,0 +1,24 @@
+Tapping Pattern on a Digital Device with a Touchscreen as a way to Trigger Behavior
+o	Broadly applicable
+o	Increases security
+o	original and feasible
+o	secure data management
+o	Cross platform global solution
+o	can be combined into EMC Solutions (RSA AA etc)
+o	allows Potential Financial Gain
+o	has a significant customer impact
+
+
+team meeting
+o	Tapping pattern can consist of number of taps and speed (rhythm)
+o	Similar to gestures commonly done via mouse on a desktop computer or swipes of
+        the finger on a smartphone
+o	Correct pattern can do an action, including open an app or trigger a sequence of 
+        actions (similar to Android app “Trigger” or “Llama”, or how NFC tags are 
+        commonly used). This is often called a “macro”.
+
+o	Particularly useful for smartwatches and IoT devices
+o	Not necessarily better than macros by voice, except that people are often
+        reluctant to speak to their devices around other people (e.g. in public)
+o	Immune to fingerprint reverse-engineering
+

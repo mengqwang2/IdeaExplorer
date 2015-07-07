@@ -1,0 +1,18 @@
+Doing Social smarter
+An easy-to-build, easy-to-implement, costless and insightful concept that leverages social media to create reports, analytics and insights through; open-source, sentimental analysis and a compilation of social media dashboards. It also works on expanding & maintaining the existing online platform and establishing a strong online presence.
+Got it today.
+The TCE challenge this year wanted a pull approach using text analysis while also expanding the current online platform. 
+Which is what this idea actually does and in an easy, effective, maintainable, cost & time efficient way.
+I suggest using this approach because it provides us with quick results that are actionable;
+
+-First; We use LingPipe (http://alias-i.com/lingpipe/demos/tutorial/sentiment/read-me.html) which is an open-source software that not only does text analysis but it can do sentimental (structured and unstructured) analysis as well. That means it has the ability to differentiate and classify sentences into two classes; subjective or objective and positive or negative. Then it can tag negative sentences regarding the same topic together and vice-versa. This information can be later displayed and clustered to spot; competition, issues, dissatisfaction, trends and patterns.
+ *The same concept can be easily implemented using other famous open-source projects like; python has its very own (http://www.nltk.org/) or Apache's (http://opennlp.apache.org/) or (https://gate.ac.uk/sentiment/). All of them are easy to configure and use by non-technical users.
+
+-Second; We should not reckon with power of social media and invest in a social dashboard. Why?
+A single place for all EMC's online social accounts. We can't be online 24/7 responding and listening to customers. So using a single action that reflects on all accounts, increases productivity. Also having the ability to schedule things to be posted in the future. Tracking everything and receiving insights in real-time. (https://hootsuite.com or https://buffer.com)
+
+-Third; combining the information generated through the social media dashboard and the online-information related to EMC analyzed by LingPipe to provide actionable items that some of them can be resolved automatically through IFTTT which s a web-based service that allows users to create chains of simple conditional statements, called "recipes", which are triggered based on changes to other web services. In other words; if a negative comment is spotted we are notified and the unsatisfied user gets an apology and a "someone will contact you shortly in regards of your concern". 
+
+Combining LingPipe with social media dashboard and the power of IFTTT we are technically unstoppable and setting them up would be a breeze and maintaining and scaling out is not a problem since these tools provide us with these flexibilities.
+
+If the concept is implemented successfully it will provide EMC with a panoramic 36o degree real-time feedback and exclusive insights derived from the data will be analyzed and used to spot patterns and create trends based on the valuable inputs provided by our customers. Providing both a way to manage social media while using it to save cost and create opportunities. 

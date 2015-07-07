@@ -1,0 +1,23 @@
+Smart Car License for Smart Traffic – a novel approach to solve traffic congestions, automate traffic management tasks and optimize city planning using IoT Analytics
+A smart city has a huge market for EMC to store, manage, analyze and monetize data. Traffic data is one of the most valuable data to leverage for the good of a Smart City. Traffic Optimization and City Planning (resource allocation) are two potential areas to benefit from such data
+
+EMC will play the facilitator role providing the platform for storing and analyzing such data. 
+ We have been engaged in traffic analysis research in the past two years.
+We have been thinking about the shortcomings in the existing traffic optimization approaches and how we can achieve the maximum wins in both “Traffic Optimization” and “City Planning” by novel less complex approach. with the advent of IoT, we thought of leveraging such technology to address this issue in a novel way
+
+ Connect cars to the internet by using smart chip-enabled license. This smart chip has the ID of the car and can send location data in real time. Each chip reflects the vehicle properties such as size (bus or private car), car plate numbers..etc
+
+The solution architecture is composed of 3 main phases:
+
+1-	Data Collection: Car ID, location and speed
+2-	Data Analysis & Traffic Mapping: combining car data with the city map to have a real traffic heat map showing areas of congestions and bottle necks.
+3-	Insights & City Planning: Analysis of per-user traffic flows showing Source, Destination and Journey. That can determine why there is high loads on certain routes (for example people living in certain part of the city and working in the other side of the city). City planning can be data-driven by using this map to simulate certain scenarios. This can be achieved by using a GUI based dashboard showing the smart city map with the traffic flows details and Authorities/City Planners can interact with it by moving places/roads and re-run the simulation to see the new traffic congestion heat map and measure improvements. Let’s take a solid example: like moving certain governmental facility building (often visited by citizens) from one place to the other and re-run the simulation and see the traffic load balancing improvements
+
+Another win to this solution is that traffic management tasks can be automated by having the data for certain Car ID such as “Automatic Fining” for breaking rules or exceeding speed limit. This eliminates the need for human efforts which also includes human errors.
+By implanting the GPS chip in the license, we simplify the solution by eliminating the need to inspect the existence of the GPS device in the car (as some people may opt to remove it and not be monitored at all) that because car license is already being inspected regularly by existing systems/authorities hence no extra effort is needed.
+
+
+1-	 Solve traffic congestion issue
+2-	Better city planning using data-driven approaches
+3-	Automating Traffic Management tasks
+

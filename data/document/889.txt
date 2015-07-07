@@ -1,0 +1,20 @@
+ONBOARDING KIT
+The current challenges includes: 
+1)Tools 
+How, When , Where , Why, What , Who.
+e.g: What are the frequent terms users gets confuse like Consult time and Case time in EAS. What does different status code means in Service center. 
+
+2)Product Specific structured tools and technical training 
+No detailed list of product specific tool/technical ( ILT, eLearning , etc. ) training. 
+ 
+
+GSAP usually would hit the floor and would not understand how to provide
+Realizing the current challenges  faced by new joinees specially GSAP this project would be beneficial in smooth transitioning to production support . This would help existing team members to upgrade their skills in other product 
+
+Target project provides a unique location to all CS engineers to reduce time in researching about the existing trainings and tools through different portals of EMC.
+
+Solution :Tool Refresher Document(Provides help to the associates where they can get to most used terms)
+Solution :MYPRODUCT training document.(Document which would have details of product specific tools and training list_
+This idea is being worked at the CS level in India.
+Except for manhours from each of us, there is no other cost involved to execute this idea.
+This would help the GSAPers to get into production in short span of them

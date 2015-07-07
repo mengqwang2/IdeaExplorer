@@ -1,0 +1,11 @@
+Code Reference Overview in Bug Trackers based on EMC Documentum
+N/A
+Innovation brainstorm.
+Based on log error output and exception stack trace, locate the possible code segment. Display the related code segments in the bug trackers.
+1. Integrate Kazeon as the crawler to get all there contents
+2. Integrate xPlore as the search engine to provide search service.
+
+A PoC search for all in one is: http://xplore.lss.emc.com/
+This search service can provide the search across projects, and platforms, from code side, customer service side and so on.
+
+N/A

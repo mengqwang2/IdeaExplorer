@@ -1,0 +1,5 @@
+integratng EMC technologies viz; SMARTS/SAS with SAN to make Solution Support model of EMC more comprehensive.
+The idea is towards integratng EMC technologies viz Bridge between IP/LAN & SAN World
+very customer environment has both SAN & LAN component where EMC majorly leads in coming up with SAN solution & supports it there is also product line which takes care of IP/LAN part of. At present both are running in different streams & if we can come up with collaborative effort & find a solution to align both LAN & SAN world as one offering from EMC then not only it will be a big boost for Sales team but also will help in scaling the solution support model where customer need to to worry about engaging two different teams 
+With EMC roadmap towards solution support I see a big disconnect between SAS team with rest of the team.though the customer base is same but since we have different product to handle the interaction with other teams are very limited. This idea can facilitate that & expand the scope of solution support.
+This could be a CSAT impacting factor.

@@ -1,0 +1,6 @@
+Using the age of empires idea to promote a concept of building up a data center. 
+
+Brainstorming session.
+Similar to the game the student must start off at the lowest level and build up a data center using EMC products and solutions from the low end of EMC technology range up to the high end. The data center can then ascend into the Cloud arena. 
+This can be an EMC APP rolled out to students in schools or even outside of the school environment.  
+

@@ -1,0 +1,12 @@
+Mobile App for Education Services Forum
+Making use of the crowd sourcing technology to educate employees.
+n/a
+Having an application that is integrated with EMC Education Services Portal and allowing users to be able to:
+
+-Being able to write questions in forum for each product/category
+-View the available courses
+-Subscribe in one or more courses.
+-View courses on their mobile phones and being able to solve tests/quizzes
+-The ability to pause at specific part and resuming at any other time.
+-App can be accessed from multiple platforms such as iOS and Android
+Enhancing employees experience when they are learning new courses

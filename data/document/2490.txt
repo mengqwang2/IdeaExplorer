@@ -1,0 +1,7 @@
+Continuous gathering of Traffic statistics
+Data Storage & Big Data use in Smart City
+The idea came into my mind through seeing, in countries where traffic is a big issue, ambulances and fire fighting trucks being stuck in traffic at times where their help is needed.
+Through sensors implemented in roads, an estimate of the average speeds of cars can be determined and reported to servers.
+Based on big data and analytics, ambulances, fire fighters & police officers can get information on the best roads to take to reach the area for which assistance is needed.
+The idea would be successful when the help of civil forces are sought in timely manner.
+Money can be made through the deals with government to implement big data technologies used in this model, as well as the publicity for the company for being part of t

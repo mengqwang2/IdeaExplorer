@@ -1,0 +1,5 @@
+Sizing in the cloud
+
+ideation session
+Lets take example of a VNX sizing. The customer first collects the NAR or NAZ files, then, instead of FTP, he uploads them directly to the VDI that has DiskSizer tool installed. That way the EMC employee can start file analysis immediately instead of waiiting to download and upload the files which is time consuming.
+

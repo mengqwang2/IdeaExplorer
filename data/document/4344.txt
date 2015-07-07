@@ -1,0 +1,13 @@
+Cross-System High-Availability of VNX/VNXe
+
+We proposed this idea in brainstorming session of EMSD SSIE Endurance CTC team in June 2014.
+(The basic idea is applicable to both VNX and VNXe although I use VNX only in the description below.)
+
+With this feature, end user can setup a group of two-SP VNX systems and configure HA relationship between them. Once the production VNX system suffers both-SP failure, its dedicated standby VNX system would kicks in and load up the objects of the failed VNX immediately without impacting the production. One VNX could be the standby system for one or multiple VNX systems in the same group. The HA policy can be configured as active/active in which the standby VNX has its own objects and online production, or active/standby in which the standby VNX is in pure standby mode and would not act as production unless the takeover happens.
+
+In order to implement transparent takeover to front-end hosts running applications, the iSCSI/NFS/CIFS production IPs could be transferred from the failed VNX to the standby VNX with iSCSI/NAS server configurations, and the FC connection could use NPIV to transfer the alias WWPN from the failed VNX to the standby VNX.
+
+For the back-end connection, we need both active and standby VNX to have access to the same set of storage objects. One design scenario is making standby and active VNX share the same group of DAEs holding storage objects. This design has a limitation that the production VNX system normally have DAE and DPE in the same rack and the HA is unable to survive in rack level failure.
+
+Another scenario is to use high performance mirroring and replication technology to do closely synchronous backup of production objects from active VNX to standby VNX. If the active VNX is down, the standby one would identify which objects are the backup copy of the production system, and then load up them quickly for the production takeover.
+

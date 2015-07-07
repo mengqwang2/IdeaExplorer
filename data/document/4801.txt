@@ -1,0 +1,6 @@
+Adding Employees Engagement in the Appraisal system
+
+Brainstorming session
+We will add a new factor in the appraisal system where we will rate the employees on their engagement with EMC activities and events. EMC employees engagement reflects EMC good image so the Employees must be rewarded for it.
+
+

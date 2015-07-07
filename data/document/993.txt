@@ -1,0 +1,14 @@
+XCP based Community App
+Idea is based on app which gathers details on skills, location etc of EMC employees from Inside EMC  and leverage this for connecting employees and schools nearby . It also provides reporting capability on EMC Gives Back days for Community Involvement. 
+
+This idea came when we were discussing this challenge
+
+There will be three parts of solution.
+1. Employee Skill Management: Based on Documentum XCP with visual map on skills. POC has been done by IIG in same.
+2. Analytics / Recommendation Engine –Skill management will be integrated with Inside.emc.com where algorithms automatically match the profiles with the opportunities and issue alerts on both sides.
+3. Collaboration, Reward & Reporting Service –Utilize ‘Circle ‘collaborative concept from SMILES  , connects LinkedIn ,Twitter , Facebook ,manage schedule and rewards . Provides reporting on the givebacks.
+This will also be available via mobile application.
+
+-Save time and money
+-Ease of collaboration
+- Promotes EMC give back

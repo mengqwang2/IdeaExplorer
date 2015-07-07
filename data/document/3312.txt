@@ -1,0 +1,16 @@
+Service Delivery Management as a Platform
+
+None
+• The proposal here is to leverage IIG NGIS to as the basis of the delivery framework, on which ‘Services Delivery Management as a Platform’ is built.
+• xCP Techonology is used for composing services offerings (xCP@Cloud)
+• Each custom service would be composed like mini application in xCP
+• For every new service customer would have option to select pre-configured service or build from scratch
+
+Representative list of capabilities of ‘Service Delivery Management as a Platform’ also include:
+1. Sharing data and content across services leading to better alignment of content across the various services
+2. Provides a holistic view of the resources usage (storage, data, performance). There by helping to effectively manage the health and availability of the cloud ecosystem.
+3. Identification of high volume applications/services and on demand scaling of those services
+4. Rapidly deliver services that address emerging business needs
+5. Better understanding of the customer and there preferences leading to Enhanced customer experience
+
+

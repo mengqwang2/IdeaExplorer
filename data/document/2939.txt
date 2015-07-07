@@ -1,0 +1,17 @@
+Cloud computing - Big Data in Medical imaging
+The sponsors are looking for a new market where EMC technologies will enable building new solution and I believe that Healthcare industry and medical imaging is a new market for EMC to invest in.
+As we go, we will be facing  greater challenges in medical images, as they are growing more  complex and  high dimensional, so in order to cope this huge enhancement in the medical imaging field , we will need to work hard and smart enough to make use of such big and important data for people better life.
+This can be achieved using both cloud computing and big data analysis.
+
+Cloud computing: 
+In order to be able to save these huge numbers of images in one place where we can manage, research and work on them, we need supercomputers which can’t be handled by healthcare vendors; they will need to deal with vendors to allow them to  store, share, access and archive medical imaging data using cloud computing.
+Using cloud computing will extend the Life of PACS ( picture archiving and communication system )as there will be no need to replace existing PACS that still have value to an organization. However, we can make these PACS work efficiently by converting it to vendor-neutral imaging data, which will make life easier in data analysis.
+
+
+Big data: 
+As we have solved the problem of storage by using cloud computing, we are now having an enormous amount of data images and we need to analyze it to retrieve back what we actually need from them and here comes the role of Big Data analysis. Having such big amount of unstructured data can be considered as a big opportunity to create clinical & research values, which can cause a great intervention for better health of people.
+
+Images need to be analyzed and connected someway to the diagnosis, the actions taken and the treatment in every case. Taking in consideration how medical images are high-dimensional and complex.
+
+1.	Being able to have case based search which will cause a huge enhancement in the healthcare sector. This will enhance the diagnostic and treatment process of diseases especially in tumors.
+2.	Benefit all the components of a healthcare system i.e., provi

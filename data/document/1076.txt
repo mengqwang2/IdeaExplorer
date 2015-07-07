@@ -1,0 +1,14 @@
+Unisphere Management for EMC products.
+Customer's face challenges to manage EMC products (VMAX, VNX, RP, VPLEX, Backups DD, Networker, CTA etc.) by logging onto them individually.
+Managing customer heterogeneous environments is challenging and need a Unisphere management software tool to manage all the EMC products instead of managing them individually.
+It would be easy to manage by all the EMC products from Unisphere management software. 
+
+When launched it should display all EMC products in the main page and also provision to support 3rd party software vendors. When selected the appropriate product it will launch in another page.
+
+Administration becomes easy to use the software to get complete information of all the Products installed in the customer environment by managing effectively and saves time.
+
+Appropriate User roles and permissions to be set for the users to manage different EMC products effectively so that the environment is secured.
+
+
+
+Time saving.

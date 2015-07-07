@@ -1,0 +1,8 @@
+Adding an option in the service center to allow the SR to send a notification email to any TSE whenever an update is made in the SR.
+It will be a time saver, as instead I check all my SRs at the beginning of the day, I only check the SRs that got updated by a coach or the customer.
+I had a case where I put the NCC 3 days after and the customer already updated the case at the same day but after I set the NCC.
+So I got back to him but thought that it would be a lot easier if there is a notification sent to my email.
+We can add an option in the service center to give the TSE the choice to be sent an email whenever any change happens in the SR.
+Even when another TSE wants to monitor the SR he can have this option also.
+
+This will enhance productivity through time saving, leading to better customer care and overall customer experience.

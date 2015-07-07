@@ -1,0 +1,39 @@
+“Hermes”; a Disruptive Memory Centric Database Solution
+We can disrupt the 24B USD database market through memory centric architectures with disruptive database technologies. This idea is relevant to the CTO challenge due to the size of the market, it's adjacency to our markets and our ability to execute.
+We socialized the idea with the MCA group and are in the process to file several patents
+“Hermes”; A database alternative for memory centric architectures
+ 
+In a world where internal memory will be substituted by non-volatile memory we need to rethink database technology. Traditionally databases serialize objects into e.g. table structured using dedicated database server products. Databases offer useful capabilities such as:
+- A transaction model
+- A consistent view over data
+- Query languages such as sql
+- Update capabilities of individual fields
+- Index structures to speed up search
+ 
+However this comes at an enormous costs slowing down software solutions. The serialization - deserialization process typically goes over various hubs and caches which leads significant overhead on both CPU, internal memory and storage costs. 
+ 
+Here's an example execution path that illustrates the potential overhead of retrieving a persistent object from a database into a e.g. Java in-memory data structure. Note these inefficiencies highly depend on the database implementation. 
+ 
+- A sql query is executed from the Java interface
+- The query is analyzed and translated in a query plan
+- The query will be executed on the database client
+- The database client will access data pages from the database to execute the query
+- The database client requests data pages from the server
+- The database server requests the data pages from the disk
+- The operating system retrieves the data pages from the disk potentially using the OS page cache 
+- The database server populates the disk page in the database server cache
+- The database server transports the data pages to the database client
+- The database client populates the data pages to the clients cache
+- The sql query engine will process the data pages and creates a result set
+- The result set is populated into the java object
+ 
+In a system where objects are always persisted into flash memory we need a different approach to retrieving objects from what we will call an All Flash Database (AFDB). None of the above overhead is needed in an AFDB since you directly address persistent objects into the all flash array which leads to unbelievable performance benefits.
+
+AFDB contains the following components
+- AFJC; an all Flash Java Compiler
+- AFJRE; an all Flash Java Runtime
+- AFTM; an all Flash Transaction Manager
+- AFHM; an all Flash Heap Management implementation
+- AFOM; an all Flash Object Manager for explicit Garbage Collection 
+
+The ultimate goal of this idea is to destroy the dominance of Oracle and MS SQL server. Oracle is a threat to EMC since the acquisition of Sun. Memory Centric Architectures have the capability to disrupt this market and drive billions of dollars of net new revenue for EMC.

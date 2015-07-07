@@ -1,0 +1,48 @@
+Effective Smart City
+EMC infrastructure solutions has a unique combination of products such as Gemfire, PCF, Pivotal Spring XD, ViPR, Isilon, Open source NoSQL databases such as Cassandra which will be leveraged to solve Smart city technical challenges.
+
+As our products has high demanding capabilities such as caching techniques, scalable, data replication which are mainly required to solve Smart city platform’s technical challenges.
+
+EMC has already proven its product capabilities by providing infrastructure for Aadhar project in India. Its time to prove for Smart city project.
+
+Our team has already developed a POC for smart city. From my understanding and experience, I came out with this idea.
+Modeling :
+
+Smart City Platform will be secured by Spring SAML Security application developed in connection with Country’s unique registration service (such as Aadhar,ID).
+
+Big data collected through ICT, public application will be filtered through ETL tools and the only required information will be sent for further processing.
+
+Data will be categorized for streaming, real-time and batch processing.
+
+Track your kids, Health care records --  Real time analytics -- Gemfire
+Call data records and Weather analytics -- Batch analytics   -- HAWQ DB
+Traffic modeling and stock trading data --  Stream analytics -- Cassandra
+
+With Spring XD, stream data will be injected into Gemfire XD. For Real time data, Gemfire XD is the appropriate database to store.
+
+Structured data will be transferred to HAWQ DB for parallel query through Open source ETL tool Pentaho for Batch analytics. We can customise UJDC(Java defined classes) to transfer the data from various data sources into HAWQ DB.
+
+Semi structured data from different application will be fed into NoSQL DB cassandra through Spring XD.
+
+Isilon will be leveraged as a storage resource for the data lake.
+
+PCF can be leveraged as public cloud to host Smart city application.
+
+EMC ViPR can be leveraged for storage provisioning and automation.
+
+
+Hadoop processing :
+
+The data and the object model relationships will be fed into a Hadoop Map-reduce jobs through the Spring XD framework for data analytics.
+To interpolate missing data, k-nn algorithm can be used.
+
+Data Visualization :
+
+D3JS, R reports will  be integrated  with tool for customer to visualize the statistical data available using visualization techniques like binomial distribution, Frequency distribution, histograms, cumulative plots etc.
+
+
+******Link to the Presentation******https://inside.emc.com/docs/DOC-155759
+EMC, the maker of storage equipment and software already thought through the demands of Smart city and it believes that the Smart City and digital India initiative is likely to add more business to the company. 
+
+As EMC is working very aggressively to challenge the technology disruption phase in IT field, we should be able to prove that our storage products  and its capabilities can be leveraged to achieve Smart City.
+

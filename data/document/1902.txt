@@ -1,0 +1,8 @@
+migrate data between different file and block hardware type
+As viper can support heterogeneous hardware like VNX ,ISILON,NetAPP, Datadomain,etc. There should be a tool to  move file and block data in between different hardware venders. If a client has hardware different venders. They can inject them in viper and based on the rules engines, data can be moved to different hardware. 
+Also if the data is old it can move from vmax to data domain for LTDR which can save money for clients.
+
+day to day work issues
+As viper can support heterogeneous hardware like VNX ,ISILON,NetAPP, Datadomain,etc. There should be a tool to  move file and block data in between different hardware venders. If a client has hardware different venders. They can inject them in viper and based on the rules engines, data can be moved to different hardware. 
+Also if the data is old it can move from vmax to data domain for LTDR which can save money for clients.
+sucess

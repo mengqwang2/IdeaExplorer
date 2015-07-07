@@ -1,0 +1,65 @@
+cPulse - Customer Sentiments in Pocket
+A solution to robustly analyze customer sentiments with a backend Analytics program, 
+probably sensing the pulse and delivering it through easily consumable Mobile/Web 
+app is discussed. The solution would leverage existing analytics framework available 
+while including methods to pull hot spot feedbacks.
+
+Also solution describes a system and method to disseminate and influence EMC 
+stakeholders at the click of a button to improve TCE.
+
+Was thinking about this idea for sometime. Read through other inventions, Steve Jobs 
+
+while introducing iPOD said "1000 Songs in a pocket". To improve TCE, we need "1000 
+
+sentiments in a pocket". Some of the data/reports could be confidential. We have discussed about what would become as a Mobile app and what would become a web app in detail.
+The Solution describes Operationalization & Simplification of customer sentiment analysis
+
+Crux of the idea: 
+
+This system address two set of problems.
+1) Simplification:
+
+    There are various dots (data/databases/excel/webpages/OPT) available within EMC. 
+
+Connecting these dots will provide a way to PULL the data from listening posts 
+
+instead of they pushing them all. For eg: if we know HYPERMAX OS/VMAX 3/SE 8.0.0 is 
+
+released from any of the dots(probably new webpages mentioning these releases). A 
+
+text analysis on emc pages to figure out new releases would give us this data. This 
+
+data would be feed back into the PULL engine, so it could listen of the new release 
+
+related tests here HYPERMAX OS/VMAX 3/SE 8.0.0.
+
+    Another example is customer is shipped with a particular product, how does he 
+
+react to a new product or version. Text analytics on "Customer name" and the "New 
+
+Product Name" could give us hints. Not all the time but we could end up with a hint.
+
+The above are just examplee, likewise there would be lot of other use cases which 
+
+would help us PULL data. All those would be incorporated into this system
+
+2) Operationalization
+
+    Proposed system is a Client/Server system. Simplification will be carried out in 
+
+the sever system. The client system will help Operationalize this by bringing in the 
+
+Customer sentiments to pocket.
+
+For eg: Top 10 tweets of happy customers in a week, is a good data to be 
+
+disseminated to the Social Marketing team to positively impact TCE. The Mobile app 
+
+will generate ALERTS for areas where the customer is not completely happy by 
+
+analyzing the customer feedback. Alerts will not give complete information, just 
+
+pointers for TCE team to look deeply in those areas.
+
+-> Simplifies the way we listen to customers without affecting quality of feedback
+-> Greater power to Influence & Disseminate customer feedback to EMC stakeholders positively impacts TCE

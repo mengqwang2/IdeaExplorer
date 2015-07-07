@@ -1,0 +1,54 @@
+Harnessing technology - Town Sanitation
+
+The need to act in this area occurs to me every single day when I travel in the city. I remember that  travel to work used to be a pleasure during my tenure at London.The healthy surroundings always made for a healthy walk. This is however not true for areas that I pass by during my daily commute today.
+
+I have also recently moved from a crowded city area to cleaner outskirts. My health issues have completely disappeared post this move. 
+Therefore, I feel this effort can make a big difference to lives of many people.
+
+Also, with so much education and technology around I believe it is worthwhile to use the knowledge towards a basic cause like this one.
+
+With these thoughts in mind I propose this idea.
+
+The following presents an overview of the working :
+
+> Teams collaborate to finalize upon the Hardware, Software configuration  requirements and Strategy for implementation.
+
+> Get a Detailed Picture of  5  localities  in terms of  :
+• Littered Areas
+• Garbage Bin Locations
+• Observation of Waste Segregation
+• Open Drainage Pipes
+• Damaged Structures
+• Non - green Patches of land
+• Other Challenges
+
+> Query and Analyze the Data and Survey results at regular intervals and incrementally define Corrective Measures.
+This will include educating the people on the following topics to make the locality self-sustaining.
+• Pack-it-in, Pack-it-out garbage mentality
+• Organizing Segregation Areas
+• Allocating optimal number of Bins
+• Processing Wet waste
+• Recycling Dry waste 
+• Planting Saplings
+• Painting Stained Patches  
+
+> Generate Statistics on the Garbage Volume per locality to  enable best possible processing of the same.
+
+> Suggest Optimal Placements of Dry Waste Processing Plants & Compost Bins based on volumes of waste material generated.
+
+> Engage local Government Authorities, Residents, and local Workers to monitor and maintain the areas.
+
+> Monitor the Wards in question until achievement of  target success rate.
+
+
+I believe that significant results can be produced by deploying appropriate technology & engaging employees across Global Services , NGOs (viz. the Ugly Indian) and local authorities.
+
+1. A real time report /website is provided to track sanitation status
+2. Technology provides a meticulous approach to the solution
+3. Cross BU collaboration is encouraged 
+4. Health and Sanitation issues are effectively addressed 
+5. Applicable EMC Products and solutions can be referred to BBMP and local authorities.
+
+
+
+

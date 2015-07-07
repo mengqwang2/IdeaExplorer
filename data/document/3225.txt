@@ -1,0 +1,5 @@
+Vplex HC automation
+
+it takes me a lot of time to generate the reports.
+Create a tool that takes as input the logs and perpetual outcome and generate the template. Then the report is validated manually and recommendation are written and tailored based on the case.
+

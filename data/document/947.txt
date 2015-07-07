@@ -1,0 +1,20 @@
+Social media mining to detect potential customers
+EMC has vast amount of customer and field data in data store and its power can be harnessed in multiple ways. Restricting to already existing technologies/products might result in stagnancy in years to come. Better way is to create a local low-cost setup to target potential clients by understanding their needs. Using social-media to understand and fulfil market demands based on feasibility and EMC’s expertise is one way to make EMC more vertical. 
+During a brainstorm session with our team, we realized that the power of social-media is immense and public posts are usually non-biased. Existing dataset with EMC can be put to good use to get more informative tweets. This data can help target companies in need of EMC’s technologies and products, thus helping in expanding EMC’s customer base.
+Idea is to use available data as seed to get powerful insights. Steps are:
+1)	Available data: Use EMC customer-dataset to extract customer’s twitter-handles. Reduce noise by using only verified profiles. List of EMC products/technologies also available.
+2)	Data extraction: Twitter’s streaming API used to extract tweets(and its metadata) with EMC related hashtags/products. 
+3)	Filter relevant tweets:  Using metadata, tweets mentioning EMC or its products/related-technology are filtered.  Tweets from customer/non-customer further separated. 
+4)	Noise-reduction/Spam-detection:  Use existing noise-reduction(removing emoticons, twitter specific syntax, etc.) and spam-detection techniques to eliminate spam.
+5)	Sentiment analysis: Sentiment detection algorithms applied using bag-of-words to capture non-customer’s interest in EMC or its products.
+6)	Potential customer identification: Customer’s follower network analyzed. This gives a list of firms interested in EMC’s customers, thus might have interest in EMC and its products. Competitive firm’s follower network also investigated to detect customers interested in similar technology/products.
+7)	Technology/product in demand: Mine the tweets to infer any demands for improvement/modification in EMC related technologies. This helps to shortlist areas where EMC can expand/improve.
+8)	Dashboard: Automated system set up for data-collection, analysis and a GUI to statistically/pictorially represent potential customers, possible areas of expansion and associated pattern.
+
+The idea if implemented will capture in real time the industries with interest in EMC’s products and technologies.  This can be beneficial to EMC in following ways:
+1)	Expanding customer base: It’s a low cost implementation from the combination of pre-existing and continuously generated stream of data. Real time customer identification can help target the industries in need of what EMC provides.
+2)	Target interaction improvement: Based on the identification of potential organizations, EMC can do targeted advertisements to approach and convince them to use EMC products. This can be done by passing potential valuable leads to the marketing team.
+3)	Monetary flow: Increase in the number of customers and product innovation would increase the money flow to EMC. 
+
+Note:  I have resubmitted the same theme slightly retuned for “TCE Challenge”
+

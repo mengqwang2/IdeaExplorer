@@ -1,0 +1,13 @@
+Creating Mobile Device Restore-Point in Cloud
+
+We have read about Virtual Hard Disk. We identified it can be used as an efficient backend storage in cloud. We find many people asking for protection of complete mobile device, not just the backup of documents, photos, contacts etc. Thus we think complete protection of mobile as a service is a new area where EMC can add values to mobile service providers.
+This idea describes an end-to-end solution to provide Cloud based mobile device restore-point service. It describes how a user can create\manage multiple restore points & how efficiently the storage\backend keeps the data corresponding to those restore points.
+
+An App installed in your mobile device can track the new files or modified files after an restore-point is created. All your mobile data (In HDD, SD Card, SIM) are sent to service provider during creation of the 1st restore-point. From subsequent restore points only the new\modified files are send to service provider.
+
+In the backend the Service provider uses the "Virtual Hard Disk" (VHD format by Microsoft or VMDK format by VMWare) technology to store restore points. VHD (Virtual Hard Disk) is a file format which represents a virtual hard disk drive (HDD). It contains what is found on a physical HDD, such as disk partitions and a file system, which in turn can contain files and folders. 
+The incremental changes for virtual hard disks are stored as Automatic Virtual Hard Disk (AVHD) files pointing to parent VHD\AVHD. There are utilities provided by Operating Systems (Windows or ESX) to merge a chain of child AVHDs with parent.
+ 
+A virtual Hard Disk is created on backend during creation of the 1st restore-point. For subsequent restore-points a child Automatic Virtual Hard Disk (AVHD) file is created pointing to the previous VHD\AVHD. A user can easily delete a restore-point (AVHD is merged with its parent) or add a new restore point (a new AVHD created with incremental change in data and pointing to parent). Thus in backend multiple restore-points can be stored and managed efficiently. 
+A mobile App can read the VHD to perform a granular restore thus the service can also work as backup solution.
+

@@ -1,0 +1,9 @@
+Having the first Egypt based pool.ntp.org server
+with frequent time zone changing in Egypt, synchronizing all IoT devices to a global public NTP server is not as easy. global public time servers are not keeping up with the frequent time zone changing in Egypt.
+every time of the year for the day light saving, in Egypt, we are always out of sync, because public NTP servers are not keeping up with the frequent changing time zone.
+
+this reflects on nearly everything, starting from computers and servers, till iphones, tablets and even whatsapp.
+we can implement a server of our own here based in Cairo COE, we need a server with 99.99% uptime, and a steady internet connection, we also need a static public IP based in Cairo "not going through our gateways in Europe".
+
+we can enroll this server to the eg.pool.ntp.org, we will be the first and highest weight for information about time zones in Egypt. we can then maintain the time zones, and this will replicate to all rest NTP servers.
+we can have our own Egypt based time server, as part of the ntp organization, with correctly set time zone. the NTP organization has a very high reputation, and most of the public NTPs follow time zone changes promoted by pool.ntp.org

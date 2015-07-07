@@ -1,0 +1,47 @@
+Mobile Voting Application to increase citizen participation in elections
+
+In recent elections very low voter turnout was observed in some places of India. 
+A survey conducted on this identifies some of the reasons for the low voter turnout is as follows.
+•	Long lines at polling stations make voting inconvenient and difficult if you don't have time, patience, or energy to stand in a long line.
+•	People who are outside of their town/city don’t want to come to their area for just casting the votes due to the expenses and trouble of transportation. 
+•	Few people don’t vote due to weather conditions in different areas during the election. 
+•	Voters with disabilities, literacy issues, ballot and voter equipment problems
+•	Entire voting system, from registration to actual voting is complex and not voter-friendly. 
+
+Present Voting Methods
+1.Regular 
+In the current Election System the voting is manual. People go to the Polling booths allocated by the Election Commission.  Voters are allowed to cast the vote after verifying the identity of the voter.
+2.Postal Ballot
+
+Voting by post is a convenient way of voting if you are unable to get to the polling station but at present this is available for few categories of voters   like voters on election duty, service voters and family of service voters. In this method of ballot papers are distributed or returned by post to voters. After casting the vote, a voter needs to send back the ballot to the election officer.
+
+Now-a-days the use of mobile phones and its applications are becoming more prominent in day to day life especially in banking and financial domain where security is very important criteria. 
+The Idea is to develop an application which turns every mobile phone as potential electronic voting device. This idea gives an option for people to vote from their mobile phone, that increases larger voter participation.
+
+
+There is a lot of research is going on online voting and some of the major security requirements of this are
+•	Authorized voters should only be allowed to cast their vote.
+•	No vote should be modified, tampered  
+•	No one should be able to find how someone voted.
+•	Each voter is only allowed to cast one vote in a given election..
+
+How the proposed system works.
+==========================
+Proposed system has following phases 
+
+Voter registration process
+====================
+Users who are interested to vote from their mobile devices have to register with the election officer by submitting the relevant documents including Voter identification, Mobile number and email address. After verification officials will send one time password to the mobile and email address.
+
+Voting phase
+=================
+On the voting day user downloads the voting application from the election commission, Log on to the application using the voter identification number and one time password received from registration phase. Election site verify the initial authentication information and registered phone number mapped to voter identification number. Authentication can be verified with Election commission internal Data or Any other trusted third party services like Unique Identification Authority of India (UIDAI).
+After verification it sends the ballot to the mobile. Voter will select their candidate from the list of candidates and casts his ballot. The ballot is then cryptographically secured (blinded, signed, encrypted and) sent to the election system.
+Once user cast it vote system marks the entry as voted not to allow the person to vote multiple times. All the casted votes are stored in encrypted format with election commission public key until the counting day. 
+
+Counting phase
+=====================
+When voting period is completed, counting server will decrypt count the ballot and determine the counts for each candidate and update them to the other votes casted by other methods regular and postal voting.
+
+
+

@@ -1,0 +1,9 @@
+EMC in a photo
+
+brainstorming
+A student or a group of students can capture a photo with a mobile device thus the photo is stored on the memory card which introduces the idea of the storage.
+Most of us use a security kep/pattern to secure the access to his/her data which introduces the idea of RSA.
+Then they try to have a backup for it by putting it on a PC or laptop which introduces the idea of backup and recovery. As even the laptop might crash, they might load it on something like google drive and here we introduce the concept of cloud. 
+Then we might introduce the idea of big data and analytic with social media, so for example Facebook can recognize the faces in pictures and ask you just to confirm before tagging people.
+So by going through their daily life and activities, we can introduce them to our primary areas and business 
+

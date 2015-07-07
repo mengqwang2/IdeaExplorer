@@ -1,0 +1,8 @@
+Carpooling apps/sites inside an organization themselves
+N/A
+I have seen many apps/sites which provide platform for people interested in carpooling concept. But it is not necessary that the person you contact is someone known to you, same travel destination is also one problem.
+A carpooling app made by an organization itself can contain employee names and their shift details with location, so rather looking for some unknown person, people can contact their colleagues which will be definitely more helpful, useful.
+People using this can leave from same locality can reach to same destination with less efforts, which are needed to be taken on other apps/sites available.
+
+For Organizations like EMC where 4000-5000 people work in same office can have very big impact using this. organization should encourage employees for this as well.
+Will have some impact on increasing road traffic.

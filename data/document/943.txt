@@ -1,0 +1,11 @@
+Integrated troubleshoot tool for VNX/VNXe
+N/A
+We are working on VNX/VNXe, sometimes meet the scenario that the array is in abnormal mode, need much time to troubleshoot.
+1. Like health check tasks, create tasks to do common checks, e.g. network, core dumps, boot process, key components
+2. Obtain the failure symptoms, the commands sequences before issue, environmental information, collect and analyze the necessary logs, give the summarize, e.g. which step the error occurred in.
+
+Currently, there may be many auto triage tools, we can integrate these tools first.
+
+
+
+Improve the work efficiency

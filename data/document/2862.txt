@@ -1,0 +1,5 @@
+Unified authentication for IT system
+Improve the usability of existing IT system
+The EMC employee need to remember different user/password for different IT system(NT,UNIX, UTMS, EAS, ESS, MENGID). It is not easy to remember all the credentials as user and password need be updated routinely. 
+One central system is responsible for authentication about all IT system. The user need remember and update one group user/password.
+It will improve the usability of existing IT system

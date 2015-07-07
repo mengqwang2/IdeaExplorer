@@ -1,0 +1,11 @@
+Simplifying backups to capture new markets
+
+This idea was conceived while addressing customer concerns over additional cost and effort associated with new backup infrastructure. Also, as we are moving to third platform, simplifying backups to  support  cloud infrastructure  more efficiently and gain business from SMB segment was also a mile stone which led to this idea.
+To address the above issue we can design data backup on SAN with backup policy enabled on LUNs. This method will provide customers an additional option of data backup along with data storage. Hence, customer needs to request for backup policy of their choice with data storage and we can create LUN based on backup policy requested.  
+
+The above ides can be realized by integrating storage system (VNX/VMAX/Isilon) with a DD so that the same set of disk can be used on demand within DD or as block or file storage. Backup solution will be a part of storage OS (flare or engenuity ) or separate engine can be provided to host DD OS 
+
+•	Business Advantage: Mainly targets SMB segments which doesn't want to invest too much on IT (storage or backup) separately. This product  can be used as cloud enabler for infrastructure support (SaaS, BaaS )
+•	Technical advantage:  Restoration time can be reduced by using storage FAST VP policy. Data domain de-duplication for backup is an added advantage.
+
+

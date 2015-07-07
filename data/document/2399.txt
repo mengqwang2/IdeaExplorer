@@ -1,0 +1,17 @@
+Unified Federation Portal
+•Queue contains the tickets which are eligible for federation swarming.
+•Adding the different skill sets from all the federation queues to the current swarm queue so we have engineers from different skills sets across federation having same queue.
+•I'm part of EMEA Swarm team & BEN member as well so we are working with the same concept in the Swarm team so I thought that we can increase our scope by adding the federation queues to the SWARM queue & having unified federation portal/queue.
+•As BEN member I can see this will help EMC toward the 360 "transformation for the new support model but for the federation ".
+•EMC "SWARM team", RSA & VMware are using now sales-force portal as ticketing system.
+•Adding the federation queues to the to the current swarm queue & name it as the "Unified Federation Queue".
+•Chatter Desktop in sales-force will allows to connect the engineers to work together and be more productive & the functions as below:
+        1)View your Feed 
+        2)Follow an SR to monitor or stay up-to-date on its resolution progress
+        3)Upload files to share relevant information with group to support troubleshooting.
+        4)Involve others in a discussion or request their input by using the @mention 
+        5)Join or create groups to share knowledge & insights with people who have same skills. 
+-On-duty engineers can set their availability in the "Unified Federation Portal".
+•This will increase the TCE.
+•The cost to implement this solution is very low since we already have same ticketing system & SWARM team.
+•The sales-force has Chatter Desktop which will allow engineers to work together easily across departments.

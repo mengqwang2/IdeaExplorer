@@ -1,0 +1,12 @@
+MetaVolume Snapshot
+N/A
+Prior work experince
+Proposed Solution : Keeping the snapshot of the metavolume in the local setup
+===============================================================================
+
+1. Take the snapshot of the metavol when the system is optimal
+2. Copy the metadata snapshot in to your local setup
+3. When the system is in unrecoverable state, reset the system and import this metadata snapshot to restore all the soft-configuration
+
+Conditions : This script might work only when all the hardware's (like initiators, BE arrays, SV's and Vplex directors) are remain same
+Enhance productivity

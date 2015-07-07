@@ -1,0 +1,21 @@
+Let's Game it!
+
+I have been involved in many of the employee competitions in EMC and I felt the sustained competition spirit was missing. Many a times EMC had to bring new programs and ideas to keep the work force engaged. With the concept of Gamification, the interest and engagement level would not diminish as there are more ways to keep employees engaged.
+Gamification is the mantra here. To build a healthy and beneficial work environment, a collaborative platform is developed to make the employees compete against each other and between BU's. The more the employees participate the more they get engaged and rewarded. This will make a tighter workforce who are on top of the latest skills and technologies.
+
+Gamification areas would be as follows
+1) Employees who complete maximum number of BU specified training in a quarter. The faster they accomplish, the more the rewards. 
+2) Number of technical articles, white papers and patents published
+3) Puzzles with EMC related technologies, concepts and products completed
+4) Maximum number of EMC surveys completed across BU's
+5) Scoring rewards based on how active employees are on InsideEMC individually/BU wise
+6) Employee participation in CSR activities by BU
+7) Number of brown bag sessions hosted. This could be at individual and at BU level
+
+A real time dashboard leveraging 3rd platform technolgies would display the scores and progress status of each employee and at BU level. Employees who signup in Gamification portal would get a sign up bonus rewards. Rewards can be redeemed after each quarter in exchange for merchandise coupons. Competition scores would be reset back to 0 at start of every quarter allowing employees to en-cash them.
+
+Seasonal offers on Gamification rewards based on current trends and topics would be published to give employees a chance to win substantial rewards quickly.
+
+
+The rewards over the time being can be personalized according to employees interest by applying big data analytics.
+

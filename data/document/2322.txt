@@ -1,0 +1,5 @@
+Get SMS Messages on phone about logout details.
+difficult to look into emails while logout hour can be due to meetings or other tech issues.
+I was in a meeting till 9 and my logout was scheduled for 9, so i couldn't check my mails. As a result i had to hurry down to check the cab details and then board the cab leading to lot of inconvenience and tension. 
+Currently we get Emails of Cab details during logout. sometimes we get it very late and it becomes difficult to check the mail. so instead if we get an SMS we can check the details on our way to cab as well.
+it will be much user-friendly and time saving 

@@ -1,0 +1,12 @@
+Converged, Agile Test Contents Architecture for Manufacturing Test
+By bringing up a new converged, hierarchical test contents structure with reusable, platform agnostic test modules and can be dynamically configured, applied to target platforms / test stages, to dramatically improve efficiency of MFG test development and operation, and to position EMC MFG process for the scale-out environment of 3rd platforms and CI systems test.
+
+The reusable test modules / sequences concept was initially implemented in Moon platforms ESS test ware package. The efficiency of this design has been demonstrated by the Moon platforms MTiaS test solution delivery, and is supporting our Moon Platform Pass & Fail features development as of now as well. We would enrich the idea into bigger scope, to cover all products TW content structure and potentially support the 3rd platform / CI MFG test process in the future, as the wider use cases.
+Define the test content building blocks hierarchy as 5 layers: component, sub-system, test module, sequence, and solution. Implement each layer’s content blocks as platform agnostic, reusable, configurable modules, which support dynamic execution parameters such as test duration, stress degree, Pass & Fail criteria, etc.  For each content block, define its pre-condition, exit-action, environment attributes (stages, concurrency, etc) to allow the construction of whole test flow through policy driven test flow generation tool. Test contents quality is assured by both enough module tests and integration test (for default test flows) and atomic nature of the design. Through this test content packaging framework, we can combine the content blocks and test flows of various test stages (AFT, ESS, ENCL, FC) for wide range of Platforms, SLICs, DAE, Drive product lines into converged test solution release package.
+
+In longer term, corporate with the cloud based test infrastructure (Cumulus), to implement test contents deployment to distributed target systems with test flows driven by policies, to achieve the scale out, heterogeneous environment of CI products test.
+Reduce the development and maintain cost for the large quantity and dispersed test ware packages that GPO has to maintain to support EMC products.
+
+Enable at factory dynamic test content customization and policies deployment on top of installed test ware, to improve productivity, support build on order and on-demand HW defects debug.
+
+Support test contents deployment to test heterogeneous platforms/systems for CI environment of rack scale.

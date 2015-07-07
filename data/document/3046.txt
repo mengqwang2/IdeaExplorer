@@ -1,0 +1,5 @@
+Use XtremIO for malwares dissection (research / reverse engineering)
+This idea could introduce XtremIO to new markets.
+I just thought about it.
+When using XtremIO as the backend storage of the Windows VM(s), the inline deduplication saves the base Windows VMs installed with the tools very efficiently, the quick snapshots creation and reverting lets the user dissect much more binaries then before, the great XtremIO performance is crucial because the dissection process may be write-intensive due to the large pcaps that are taken for each network-intensive malware.
+Penetrate the research market (academy/security industry) where low-end storage systems are usually preferred due to dollar-per-GB cost-efficiency (rather than dollar-per-IOPS).

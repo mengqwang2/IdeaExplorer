@@ -1,0 +1,9 @@
+SaaS based record and publish system
+
+I am always thinking of there is a way to levearge the avaialble IIG technologis for SaaS application when IIG starts the 3rd platform journey.
+1. The record data can be either input by clients or captured by Captiva.
+2. xPression technology can help customer to do page layout and publish layout.
+3. xPlore can be used to search record data.
+4. BPM can be levearged if small/medium and public services want to add workflow on the record data. 
+For individuals, the record data could be either their personal financial statement or their family materials (babay growth history). For public service, the system can be used to record student growth history. etc.
+

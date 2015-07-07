@@ -1,0 +1,5 @@
+GUI (screen) screenshots for customer problems
+Improve TCE, improve service quality
+The idea was suggested in the course of brainstorming for Captiva.  I asked guys if I may transfer this idea to VNX/XTremIO
+Have single button in GUI to get screenshot(s) and to send screenshot(s) to EMC support
+Implementation of idea would improve customer satisfaction, and optimize process of AR analysis and resolution

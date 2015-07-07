@@ -1,0 +1,16 @@
+Lync as the Entry Point of EMC IT resources powered by xPlore and FS2
+
+While thinking about how to leverage Lync to facilitate daily works
+We can leverage Lync as the entry point of all IT resources or even all the EMC resources, in the backend, xPlore and FS2 will support the search and crawling staff.
+
+xPlore, which home-grown enterprise search product, supports dozens of languages, hundreds of file formats, efficient security filter and many other fancy search features, e.g. dynamic facet, thesaurus, spell check, wildcard.
+FS2  can crawl different the query result of different data source and provide a consistent view of the result.
+
+For the shared folder, there is no search services for it, we use xPlore to index the data (the simplest solution is just index application name and location). 
+For the Wiki/eRoom/CenterStage and other team portal, they might already have sufficient search capability, we can use FS2 to get the search result with the user credential.
+
+As the data is crawled from all EMC websites and internal resource locations, some information is not accessible to all users, we must set security policy to control information access. The user security information is retrieved from Lync current dialog, it will be passed to the end search services.
+
+The benefit is that we would have a central entry point for all IT resource, this will save a lot of time for our daily work.
+
+

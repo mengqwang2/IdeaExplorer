@@ -1,0 +1,5 @@
+Phonetic search with xPlore
+
+The idea firstly comes from xPlore support, the support states that some customers are asking about this feature. After discussion with Dingmeng, we think it is a valuable feature.
+xPlore is based on Lucene full text search library, to support Phonetic search, what can be done is to implement an analyzer to encode/decode these videos and index in Lucene with these encodings. 
+

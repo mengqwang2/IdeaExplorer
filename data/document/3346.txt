@@ -1,0 +1,9 @@
+Redefine Lab By Software Define Data Center
+
+when learning the Software Define Data Center
+In a software-defined data center, all elements of the IT infrastructure( networking, storage, CPU and security) are virtualized and delivered as a service, so ITaaS may represent an outcome of SDDC.
+
+There are three core components of the software-defined data center: network virtualization, server virtualization and storage virtualization.
+
+We can use the VMware virtualization products to virtualize our Lab, thus this will reduce the IT budget, and automating the Lab management, including the resource and services.
+

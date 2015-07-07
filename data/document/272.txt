@@ -1,0 +1,10 @@
+Smart door
+Using technology to make people's life easy 
+Forget my house keys & I was unable to enter it, Ending by calling a Carpenter to smash the door to let me in.  
+
+Implement a secure mobile application, Each user has a profile with a username & password, You can add multiple doors to your profile (house, office, car,...) Only by clicking on the desired door you can choose to lock or unlock it. The doors have certain credentials ,you will need to identify the credentials of each door only once at your first use.
+
+Note: You can use normal keys to lock/unlock the doors if you don't want to use the application for any reason at a time.
+
+Save time & effort by introducing people to an easy & secured technology 
+

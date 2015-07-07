@@ -1,0 +1,9 @@
+Inside EMC Career Suggestion 
+This idea will support maintaining the Employees within EMC and setting a career path for them within EMC.
+Idea history came from talking with some of my colleagues that are satisfied with their current jobs and need to have a different exposure and not sure what is the available vacancies in EMC that can fits them whether in the same GEO or another GEO in a different country.
+Using Inside EMC web application, Each employee can update his profile with his latest achievements'i.e certifications , CSATs Champ , Projects ,skills ,etc'.
+
+Then adding a feature in Inside EMC  web application can suggest on him the available current vacancies that might be the next good move in his career path.
+1-Maintaining the employees within EMC.
+2-Creating a career path for employees.
+3-Enhance Employees satisfaction about their job.

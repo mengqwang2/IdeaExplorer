@@ -1,0 +1,8 @@
+Web-based Lightweight Unisphere for VNX/VNXe
+
+When launch the Unisphere, it always cost us so much time. but I just want to check some information from GUI.
+The Web-based Lightweight Unisphere just implements parts of the functionalities of current Unisphere:
+- Should be easy to access the array information from mobile devices
+- Should be quick to launch the GUI
+- Can provide the necessary functionalities
+

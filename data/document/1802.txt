@@ -1,0 +1,17 @@
+New updates meeting with customers
+Allowing customers to keep up to date with all EMC updates/patches which resolves specific issues in certain products.
+
+Enhancing customer's experience and making them more aware of the product itself.
+Internal known issue meetings
+Scheduling frequent conference calls with customers where EMC support will be explaining new features/enhancements in specific products.
+
+Customers will have the ability to see the new features/updates and how it can be useful for them so they can plan their future upgrades.
+
+Call will have questions time so customers can ask about anything they want to understand regarding the discussed points only.
+-Enhancing customer's experience.
+
+-Customer will be aware about new features and releases so he can plan his upgrades easily in the future.
+
+-Customer will have the ability to attend discussion calls with high level of support to understand the new features.
+
+-Customer will be knowledgeable about new ideas and will be easy for him when he opens a service request with support. 

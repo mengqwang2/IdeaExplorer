@@ -1,0 +1,7 @@
+Egypt COE Smart City and IoT Challenge
+The Smart City is an increasingly hot topic these days. Further, with numerous technologies enabling the Internet of Things (IoT), many governments are looking for better ways to utilize their resources (Water, Energy, Security, Transportation ... etc.) in order to achieve efficiency and eliminate waste.
+Future availability 
+Specialized sensors can also be equipped within living spaces to monitor the health and general well-being of senior citizens, while also ensuring that proper treatment is being administered and assisting people regain lost mobility via therapy as well.
+
+Behind This important application can't be implemented without a strong platform can serve that app, Big data analysis and storage devices must be used to get the best usage of this and We can use this app as for the safety for our employees using EMC app mentioned before 
+n/a

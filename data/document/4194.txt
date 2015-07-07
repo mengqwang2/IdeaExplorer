@@ -1,0 +1,7 @@
+Improving FASTVP prediction algorithm
+
+Alexey Romanovskiy saw presentation "Use DBclassify data to provide hints for FAST-VP.pptx" on GINA network, asked Alexey Fomin to elaborate the presentation. During discussion and understanding limitations of the presentation this idea appeared.
+No internal implementation or evaluation of idea has been done.
+Long time patterns may be detected and constructed by FASTVP algorithm or they may be selected from a set of patterns on per application basis.  In the latter case FASTVP gets hints for application for selecting pattern or sequence of patterns for slice promotion/demotion.
+Using long time periodic patterns allows to time-shift promotion/demotion decision one (a few) hour earlier making it more efficient.
+

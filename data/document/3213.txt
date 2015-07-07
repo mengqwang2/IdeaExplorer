@@ -1,0 +1,11 @@
+Cellular population analytics
+
+-
+Collect data from BTS stations of mobile operators. 
+This data gives the number of cell phones connected to each BTS within periods of the day. The movement of the cell phones from one BTS to another BTS could then be monitored and analysed.
+The analysis of this data could then be used to estimate the population in certain regions. Also the number of people moving from their home to their work destination during the morning period. Traffic advisory could also be provided.
+
+We could also check for frequent routes and congestions and suggest improvement to roads to the government.
+
+
+

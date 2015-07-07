@@ -1,0 +1,7 @@
+Linking Related articles on KBs.
+It will help Reduce time in finding KBs related to the issue.
+All the time when I strive for resolution, i want to see related articles which talks about the same/similar issue. 
+
+Salesforce Article Management should contain a new column under article content, titled as "Related Articles" and one you paste the related KB number it should present HyperLink for that KB to customer and TSEs
+Improves customer satisfaction through faster resolution. 
+

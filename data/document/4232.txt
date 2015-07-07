@@ -1,0 +1,45 @@
+Rebuild functionality Improvement by Priority tagging, scheduling and dedicated Rebuild director
+
+When working on the VPLEX VE Verison 1 product , we identified bottlenecks in the product and created a list of items that are hampering current daily activities. We wanted to provide a solution to these problems in a way that assists customers implement and work with VPLEX faster
+How it Works:
+---------------- 
+
+We propose a number of solutions for the problems above: 
+
+ Solution1:
+------------------ 
+Rebuild Priority Tagging of DR Volumes 
+
+1)	Customer will tag DR Volumes with Priority , eg: Priority 1,2,3,4,5 
+2)	When and if a rebuild of these DR Volumes are to happen, the Rebuilds 
+        will happen in the order of the Priority Set
+3)	Customer can change the priority whenever he wants to
+4)	The Rebuild engine will look at the priority tag and then perform the 
+        rebuild operations accordingly.
+
+
+Solution2:
+------------- 
+Rebuild scheduling
+
+1)	Customer will decide if he wants to do a Rebuild at the time the Rebuild 
+        starts and/or schedule it at a later time
+2)	Customer will do this with the added risk that if the surviving leg has 
+        an issue then he could face a DU scenario.
+3)	This can be used when the customer network has high latencies and he is 
+        aware that the rebuilds will take a longer time to complete and instead 
+        wants to schedule this during non production hours.
+
+Solution 3:
+--------------- 
+Using additional dedicated director 
+
+1)	A additional director is attached to both Site 1 and Site 2 
+2)	This director doesn’t participate in quorum and is responsible only for 
+        performing rebuilds
+3)	Failure of any of the directors doesn’t result in a restart of rebuilds.
+4)	This director can run a thin version of nsfw and can be optimized for 
+        high performance.
+5)	Additionally the CPU , RAM and Cache on this director can be customized.
+
+

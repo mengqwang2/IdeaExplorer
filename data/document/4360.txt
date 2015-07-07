@@ -1,0 +1,19 @@
+Travel Ambassadors Web Portal
+
+NA
+Since EMC employees travel frequently in business trips all around the world, the idea is to create a travel web portal that would allow employees to register their names as ambassadors for their countries. 
+
+How the idea works:
+1- An interested employee register his name in the ambassador web portal
+2- The ambassador employee is contacted when another EMC employee (from another GEO) is traveling to his country.
+3- The ambassador employee will have the following duties:
+   a- Welcome EMC traveler in the airport.
+   b- Guide and facilitate EMC traveler in the country.
+   c- Provide an Emergency contact number.
+
+Benefits of the idea:
+1- Provide a safer option for the traveler (he will be contacted by an EMC employee).
+2- Allow EMC employees from across the globe to know each other.
+3- Cut the cost of travel for EMC. 
+4- Ambassador employees will receive a compensation allowance.
+

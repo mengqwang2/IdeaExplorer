@@ -1,0 +1,13 @@
+Software defined data center for Durham Lab
+Our idea is to address all of the challenges and make it a software defined data center (SDDC).  Software defined data center enables agile and efficient services and automated management. Virtualization is key to it. 
+It addresses saving money and space, easy to build and setup configurations and templates, automated, monitors resources, notifies failures in the Lab, automatically opens lab tickets for failed scenarios.
+I and Pranay discussed and brainstormed to get this idea.
+The whole process can be automated with user interface. More description is in the attached document. Please refer to document. 
+
+https://inside.emc.com/docs/DOC-156232
+
+This solution can be architected, designed and implemented in 6-12 months. If needed we can develop a simple prototype and proof of concept. 
+
+For benefits refer to the attached document. 
+https://inside.emc.com/docs/DOC-156232
+

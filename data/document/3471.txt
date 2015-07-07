@@ -1,0 +1,12 @@
+ Educational Services Lab Service integration with Training Schedule/calendar
+
+the idea came up from attending different trainings in which we use lab acceess to EMC producs that are in UK or Germany
+ This idea works as follows : 
+-	The cloud based lab service will be updated automatically with the training calendar/schedule and location matrix
+-	The cloud will allocate the nearest resources to the demand location to offer the lab service.
+-	For example; if a lab service can be offered from resources located in England, US or China, if a course is scheduled in France, this means we expect a high demand from France to the resources then the resources will be allocated from the nearest place (England). Other resources can be proactively migrated to France data centers as well during the course duration to provide highest performance. This may include VMs migration ..etc
+
+The idea uses the cloud-based services with a resource-demand matrix structure to allocate the best matched resource to serve the demand 
+
+
+

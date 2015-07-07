@@ -1,0 +1,17 @@
+Utilizing and Extending P2P Protocol to Conduct Real-time and Global Synchronous Replication
+
+The idea comes out from a brainstorming between ELC and ASD. We plan to use VPLEX to do the data replication, but VPLEX can only do this between two nodes. So we come out the idea to use P2P for real time data replication. 
+A peer-to-peer (P2P) network is created when two or more nodes are connected and share resources without going through a separate server node. P2P is able to more reliable and faster transfer data among all peer nodes. The over-all cost of building such network is comparatively very less. Many existing P2P network and applications can be directly employed, such as BT, aMule, eDonkey, Bittorrent, etc.. 
+
+The idea works as follows. We will build a P2P network among all these applications. Each node (i.e. application node) will run an extended P2P application, such as aMule. All the data will use this P2P application and protocol to distribute. 
+
+The detailed work flow of the data replication mechanism is elaborated as bellow:
+ 
+  (1). When data is produced in each application (50 to 500 GB file-based data), the application first dedups the data to reduce the data volume, DataDomain can be utilized. We can also do incremental compression based on the characteristics of the data to reduce the volume of data to transfer. 
+  (2). The application generates the Torrent file: first, segment the data into equal pieces; second, hash each piece; third, write index of each piece and hash value to torrent file. 
+  (3). The application uses a reliable network protocol (such as TCP) to distribute the torrent file to all the other applications. The torrent file is small (typically under 10 MB), and hence this distribution is very quick. 
+  (4). When received the torrent file, the application peer retrieves each piece of the data from the P2P network, and then hash each piece of data and compares the hash code with that in torrent file. If the hash code is equal (data is correct), it will save it. Otherwise, it will re-retrieve this piece. This guarantees the data integrity and correction. 
+  (5). When in an intermittent network, the connection between two application peers can be lost at any time. So each application peer will connect and maintain connections with all the reachable application peers, and get data from them simultaneously. If any connection is lost, it will try to connect other application peers. Any lost connection can only have a small affection to the total data distribution procedure. This makes the data be spread very quickly and hence reduce the total data distribution time. 
+  (6). After got all pieces of data, the application peer will re-compose the original data. The data replication is success. 
+
+

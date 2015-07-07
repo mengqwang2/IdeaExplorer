@@ -1,0 +1,6 @@
+EMC Theme and styled Putty
+
+A lot of times people have exotic console programs that slow up the support process.
+Create a standard putty version with some extra tools in there.
+Tools like a better logging of the console. So that when a customer keeps using it we can take control easier and continue working straight away.
+

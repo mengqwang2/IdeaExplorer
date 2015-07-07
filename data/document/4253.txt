@@ -1,0 +1,12 @@
+Survey Analysis
+
+Observing the case histories and feedback from the customers.
+We should have a web portal which list the customers who have surveyed DSATs to us.
+The portal is like a database which maintains the Site Name and customer name who have surveyed us with DSATs so that it help the engineer who is going to work with the customer to understand the customer before start working with him/her.
+
+The Engineer can review the Site Name and Customer Name on the Portal and check if the customer has surveyed us with DSAT so that we learn from the mistakes made in the previous issues and make sure we do not repeat the same mistakes again with those customers.
+
+The DSAT Portal would contain the list of the Site Names and Customer's with whom support worked with and along with the reason of the DSAT and the issue the customer was facing.
+
+This will help the support engineer who would be working with the same customer to understand the customer's state of mind so that we can deal with the customer in a more efficient manner.
+

@@ -1,0 +1,10 @@
+Isilon Smartconnect Advance-Dynamic-Auto Reserve Ip Addresses 
+
+Several occasions that the IP addresses which are provided by Network team may got over and the process of getting them may be tedious. And also 
+the main reason is that the share which is connected via SMB get disconnected if their is a IP failover to the other node.  
+In an approach to solve this problem we need to have an option which can reserve IP addresses but not assign them to the clusters nodes.
+The option need to give us to set range of IP addresses to reserve for the future use as they need to look on the external network that they are used. 
+This is mainly due to two reasons firstly there is no need to approach network team for IP addresses whenever they exhaust and secondly due to the SMB share 
+disconnection whenever their is a IP Fail over. 
+
+

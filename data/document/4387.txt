@@ -1,0 +1,21 @@
+EMC = Everyone Meets Customers mobile app
+
+This idea stems from my frequent frustrations when I meet an existing / potential customer / partner and identify a lead / receive feedback e.g. Pinterest considering building on-prem infrastructure (in addition to AWS); CIO of Santa Clara's reasons for switching to Nimble Storage from EMC; NTT President's interest in learning about EMC's vision for vertical solutions; Head of GE research considering moving certain workloads to the public cloud. The current process is I need to log onto my laptop then search for the relevant sales rep or partner rep via my manager or EMC contacts. Often this causes a lag, as the 'find-a-rep' database / Salesforce.com may not be up-to-date.
+The app is designed as a form with fields / drop-down boxes that make it easy for one to populate, filter and follow-up. Example responses will be included to ensure users know how to populate the form
+
+1. Alert type: (lead, complaint, positive feedback, concerns, competitor views etc)
+2. Customer / partner 
+3. Customer / partner organization name (Drop down menu searchable by keyword or Other)
+4. Customer / partner employee name
+5. Customer / partner employee role
+6. Location (State/Country)
+7. Source (news / in-person interaction): 
+8. Date of news / interaction
+9. Customer contact information / media URL
+10. Time-sensitive: (FYI, action required, urgent)
+11. Content:
+
+Any EMC employee can log into the portal using their network ID and password. Once an entry is submitted, the system will send a confirmation email with a contact to the employee such that he or she can follow-up if the entry is marked urgent and requires a timely resolution e.g. a sales lead / customer complaint. Depending on the entry type, the entry will be routed to the Global Account Manager / inside sales rep / partner rep / support team, who can reply directly to the employee who submitted the entry. The Global Account Manager / inside sales rep / partner rep / support team will be asked to mark if the entry was helpful. This is to maintain quality and avoid them being overwhelmed. We can also use the helpful entries as sample entries for others to emulate.
+
+Once we are confident with the quality of these entries, we could consider integrating them with Global Services’ Customer Account Profile (CAP) project, TCE dashboards and Sales Analytics’ salesforce.com interface.
+

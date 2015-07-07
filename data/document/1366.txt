@@ -1,0 +1,24 @@
+"Social Media Ruler"
+This app will leverage structured/unstructured data and produces deep analysis for customers insights
+2015 TCE Challenge
+The solution is to have "Social Media Ruler" an application that collects all EMC related content, analyses, and produces relevant statistical reports.
+
+The app will work on three steps/phases:
+1- Information Gathering
+2- Data Analysis
+3- statistical reporting
+
+The app will be gathering information from the different social media channels where customers left feedback to be put in a database engine that has all the information (i.e per month), and then the data analysis will start based on the predefined parameters to end up and produce a report that entails (not limited to) the following -if available-:
+- Experience details (i.e remote upgrade, on site service, remote breakfix,...)
+- Product
+- Customer name
+- Customer district
+- Overall experience
+
+Then the data will go through the process of history search.
+By allowing the app to access the service center database, we can simply get the associated Service Request by checking the customer history and most recent activities.
+
+Different categories can be set to maximize the output efficiency.
+
+
+This app will work as a data factory for customer insights on social media channels 

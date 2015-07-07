@@ -1,0 +1,7 @@
+Sales++
+N/A
+N/A
+Sales++ is an out-of-band channel between all field employees (e.g., ADSs, TCEs, etc) and Sales account managers. The channel helps technical employees communicate the opportunity they  see to Sales people . Once the opportunity is locked by the sales managers, the formal process can start using Everybody sells. 
+
+This could be done by implementing a communication channels that records the name of the opportunity hunter and the sales person he/she contacted. 
+Accelerating Sales Cycle. 

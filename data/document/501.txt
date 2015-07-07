@@ -1,0 +1,8 @@
+Automate EHC deployment using Puppet
+Although the EHC solution will reduce the time to deploy the server or an application from days to hours or minutes  the time taken to deploy the EHC solution itself takes weeks. Currently we are loosing the customers to other cloud and converged infrastructure providers as the EHC  deployment is time consuming.
+Puppet is a DevOps tool, which automates the installation and configuration of the data center components in an easiest way. And, it ensures the deployment is error-free.
+
+Create and configure puppet modules/manifests to automate the installation of all the EHC components in the order in which those are supposed to be installed. 
+
+The reduced time in deploying the solution will benefit the organizations to start the business in a quick time.
+

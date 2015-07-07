@@ -1,0 +1,5 @@
+Open Data Platform across EMC
+To leverage the data sets of any specific product or service catalog or Inside EMC forum contents or history data from inside.emc.com 
+CKAN being powerful open data platform and its free and most of the government web sites are already started using and gaiting lot of benefits by sharing these data set to public. 
+Install CKAN kind of platform along with inside.emc.com which provides the open data set to EMC community to download or visualize the data set before they download it. it will support multiple formats of the data set. 
+Enable the EMC employees to refer the data or app that is used or available any time rather than going through the documents which is not providing any insight about the data.

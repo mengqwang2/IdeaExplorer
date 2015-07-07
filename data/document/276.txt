@@ -1,0 +1,12 @@
+EMC Migration Program World Wide 
+This will serve the challenge/s listed below. 
+
+Looking at travel and sponsorship rules and obligations. 
+Create a function within the global HR that would be responsible for studying and approving the act of sponsoring EMC employees that are based in one location and would like to migrate to another country where there is an EMC office operating there.
+
+For migration, EMC can sponsor an employee (who they think is a great addition to EMC and can't lose when migrating) so that he can move to another country and work at EMC there - either change jobs or work from home. 
+EMC will move and utilize talents 
+Employees who would like to migrate can do that though their jobs
+Cases will be evaluated and either accepted or rejected 
+employee satisfaction 
+

@@ -1,0 +1,5 @@
+Unishpere Apps for Smart Phones
+
+The oncall person is notified about the incident either through Service desk or email or from support. If the oncall person is noticed as and when the alerts are triggered the issues are addressed quickly. 
+Critical alerts on arrays should be reflected as notifications on smart phones through the unisphere app. The same app should have basic management of array and to suppress the alerts.
+

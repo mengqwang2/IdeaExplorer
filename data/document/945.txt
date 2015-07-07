@@ -1,0 +1,25 @@
+Securing IoT - the SDP way
+Idea tries to secure the IoT by building on the architecture of CSA's SDP model based on a need-to-know model, in which device posture and identity are verified before access to application infrastructure is granted.
+While browsing through the internet, did come across the CSA's SDP model. It looked promising and did brainstorm on this further to understand how to fit in RSA into this model and thus the idea.
+The solution proposes to build capabilities into RSA Via Access to act as cloud controller. We can also offer the SDP Accepting Host gateway as a Via component which in addition to the SDP protocol implementation will also have a light weight Via agent built into it so that it provide services like validating Via sessions, perform second level of authorization based on the trusted headers, perform security logging, forwarding security events to SIEM and other services.
+
+The Via Access will be deployed in the cloud and the IoT devices will be protected behind an Accepting Host(AH) acting as a gateway and will be made invisible till the host is authenticated. 
+
+The workflow of the solution would be as follows,
+
+1. The initiating host(IH) needing access to any of the device would first connect 
+   with Via Access.
+2. The Via Access authenticates the IH depending on the policy and upon successful    
+   authentication, provides access to the list of accepting hosts that he is authorized 
+   to access to. 
+3. IH would then initiate a connection to one of the AH in the list. 
+4. AH upon receiving the connection would try to validate the IH and Via session and also  
+   perform authorization based on the headers made available and give access to the device  
+   only after successful authorization.
+
+The Software Defined Perimeter (SDP) is a research initiative from CSA  with the goal to develop a solution to stop network attacks against application infrastructure. With the adoption of cloud services the threat of network attacks against application infrastructure increases since servers can not be protected with traditional perimeter defense techniques.
+
+More information on SDP is available here
+https://cloudsecurityalliance.org/research/sdp/#_overview
+
+Using RSA Via Access to provide enhanced security for IOT devices

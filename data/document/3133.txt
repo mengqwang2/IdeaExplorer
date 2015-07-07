@@ -1,0 +1,6 @@
+Commodity Drives & Custom Carrier versus Integrated Assembly
+
+Drive part number proliferation is a large problem that is exponentially growing due to common drives being used in various drive carriers, several form factors with several interface cards and unique firmware.  One drive can explode into almost 100 unique EMC part numbers that must be manufactured and stocked driving compelxity ad cost.
+Seperate the traditional Disk Drive Assemlby into two discrete modular components - Disk Drives and Carrier/Interface board.   Develop a quick connect 
+capability to allow a drive to be mated within 10 seconds, with no test requirements.  This allows EMC to plan, test and stock assemblies (Drive and Carrier), Carrier or Drives.  This could radically change how EMC services, as we could stock Carriers and Drives independently, allowing large field inventory reductions.
+

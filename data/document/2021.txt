@@ -1,0 +1,5 @@
+Unnecessary CE visits on site 
+the idea will help to reduce the time for Customer engineer  and costs for EMC2
+since i am from the CST, i have everyday many calls requesting to have Customer engineer  paged to go onsite and i thought that we can have a solution to reduce these visits.
+My solution is that the account manager, DSM , SAM should have more than one contact for the site, the TSEs should have a template or a procedure to reach the account manager to get the other contacts instead of paging the CE to go onsite. that will reduce CE time and EMC2 costs. also for the SP collects, EMC2 should inform their customers how they can collect the logs by providing them instruction CDs or a template that can help them collect the logs. we already have the FTP link but many customers dont know how to use it.
+it will reduce Customer engineer unnecessary visits which will result to reduce Customer engineer time and increase the availability of resources. also will reduce EMC2 costs  

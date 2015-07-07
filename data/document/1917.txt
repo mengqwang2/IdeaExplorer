@@ -1,0 +1,7 @@
+Smart traffic Signal
+Taking advantage of big data, data mining and AI, the system could reduce traffic jam according to the time, location and the traffic load
+2015/3
+The signals on the crossing allow the cars to get into only when the roads has enough capacity, otherwise, it always show "stop" lights.
+All signals in the city forms a big network. The system can lead the traffic according to the real-time traffic load, location, time, traffic trend in history , customized policies and so on.
+At the same time, the real-time traffic status can be exported to navigators. With it, drivers can avoid traffic jam.
+The traffic jam could be reduced and navigators can utilize the real-time traffic status.

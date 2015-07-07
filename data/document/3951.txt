@@ -1,0 +1,9 @@
+GS involvement in Product and code testing
+
+New products and code releases raises the SR counts across products
+Whenever we release a new code version or a new product, customer who is using it first will generally face a large number of issues in the code or product.
+
+Idea :- How about including CS,PS and MS engineers whlie testing the product,before we release it to customer. The engineers are technically more skilled than customers and they can provide a better feedback for the products and code.This will save customer from all the issues which he may face when he is the first one to use the customer
+
+Pros:- Customer will get less number of issues since most of the issues will get cleared during the GS testing
+

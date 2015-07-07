@@ -1,0 +1,6 @@
+Intelligent Lab
+This will improve the Lab efficiency.
+As it is remote Lab, waiting for the issue fix is really a headache.
+1. using Segway Human Transporter or something like that to reduce the walking time and relief the engineer. 
+2. using Micro Aerial Vehicle? this machine can take photos. then Lab engineer can set them out to taking pics for issue initial diagnosis.
+it will save time and projects may be closed in shorter time.

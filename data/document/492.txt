@@ -1,0 +1,6 @@
+IT Tasks - Videos
+Cross-skilling on multiple technologies.
+Acquiring secondary skills will be quicker with very less training requirements
+Create a repository of videos for each and every task of install, configure, administer, troubleshoot of every IT component. For example: The repository is the one-stop shop for all the L1's to perform the task without any assistance from the L2's. We will leverage the bigdata framework Hadoop to store these videos. And, the videos are tagged to the corresponding technology or software for easier navigation. 
+The cross-skilling on any technology will be easier and at a faster pace. Anyone can start working on any technology with a little knowledge on the functionality of the component/technology.
+

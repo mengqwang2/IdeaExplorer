@@ -1,0 +1,10 @@
+Cloud based widget/artefact store for APaaS/xCP Designer
+
+Got this idea when interacting and guiding customers on how and where to get a custom artefact for their requirement. Most of the customers had an aversion to the term custom artefacts and if they can leverage something like this within their Designer platform would be much appreciated by them
+A customer or PS who write a customisation artefact puts his artefact into the cloud artefact store managed by EMC
+When an another customer wants a custom extension, he would open his Designer and browse for extensions.
+The required extension chosen will be installed automatically from the cloud store to his platform and restarted.
+When the customer no longer needs the extension, he just opens his Designer and disables the same.
+
+With more and more solutions in pipeline for IIG, a widget store would be perfect to share artefacts and customisations across solutions and applications. This will also make the process of integrating a customisation more transparent and seamless from end user perspective.
+

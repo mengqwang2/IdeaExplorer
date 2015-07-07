@@ -1,0 +1,22 @@
+Increase Employee Social Interactions by providing a Custom Timeline Feature
+
+Experience with use of social networking sites...
+The suggestion here is to provide the employees with an option to create a Custom Timeline information of all the topics & discussion groups they are interested in within the intranet. So any updates that happen to these topics, the employee would get to know and increases his chances of participating in the discussions. 
+
+Not only limited to Intranet, the timeline information should be provided on Customer facing EMC social intranet sites where there are community groups, so the employees get to know the interested discussions going on from the Customer front and can participate on those forums. 
+
+How Twitter does it ?
+Twitter provides the Users with an option to create a “Custom Timeline”. The User chooses to include the tweets he is interested in. So once this is done, he gets to view all the tweets in the respective chosen timeline.
+
+This feature could be implemented as a standalone functionality and could be integrated with any of the social intranet sites that the business unit uses. Say if Global Services uses a separate space in Inside EMC, this feature can be plugged in only for GS employee, so they get to quickly run through all the activities that is performed on a site and can choose to participate based on their interests and save time.
+
+A simple open source java project that tracks all the activities in a site and provides the details on a web page should be good enough feature to start with. Say if some group member posts a video blog; or submits a Blog; or any conversation; or any document that is uploaded; that interests the user.
+
+Benefits include,
+-	Easy to implement
+-	Increases Social Interactions & Discussions 
+-	Improves Employee Productivity as info is rightly available on time.
+
+Suggesting this idea, it brings in big value for the employees, and these are the features that External Social Media sites use for driving in massive discussions and interactions.
+
+

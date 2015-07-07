@@ -1,0 +1,5 @@
+Increase VM utilization and Save VM counts by using Docker and Mesos in CI 
+
+This idea come from the CI solution that eBay published, in EMC we should do a way that achieve the goal to save VMs counts. 
+Docker is a Linux container for Jenkins running, Mesos is the cluster manager , Marathon is to launch the Jenkins master, using Mesos Jenkins plugin to launch and build salves in Docker container and run Jenkins service in the container. 
+

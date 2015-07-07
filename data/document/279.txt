@@ -1,0 +1,9 @@
+IoT Based Water Supply Management System to Reduce Distribution Loss
+This idea proposes to make use of IoT devices in combination with EMC EHC solutions to make water management systems smart and efficient. 
+We came up with this idea while brainstorming about this challenge.
+We have to embed sensors that can measure water pressure across the water transmission infrastructure in every key point of the supply lines and keep monitoring the water pressure in real-time. Any leakage or transmission loss will immediately cause drop in water pressure which will be transmitted by the sensor in real-time which can be monitored from a central console allowing us to respond immediately to fix the problem with least water loss. Past data as well as current data can be used to predict and be prepared to proactively address potential damage/leakage issues and take necessary actions. This will help us to optimally utilize the water resources.
+
+Technologies to be used: EHC Solutions embedded with XtremIO/ECS, REDIS, GEMFIRE and RabbitMQ for in-memory database to enable real-time monitoring and analytics. 
+
+We can look at integrating some solutions like freeboard.io for providing Real-Time analytics dashboard for the system to monitor the IoT devices.
+With the latest UN estimates predicting that by 2030 half of the world's population will suffer from water scarcity and most of this population will be from developing countries, governments are most likely to invest in technologies that will allow them to avoid distribution losses and enable optimal utilization of available water resources. This solution will also fit in to the Smart City concept being envisaged by both developed and developing nations.

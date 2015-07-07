@@ -1,0 +1,14 @@
+Security Forum
+
+I came up with this idea when I attended the Security awareness Session
+Create an application that enables employees to have a forum addressing everything related to the Security of EMC Employees
+
+
+Employees will get connected to this application through their NT Logins. there will be discussion boards where Employees can post their questions and concerns. those Discussion boards will direct employees how they can proactively react if they got stuck in a situation that would risk their security
+
+Employees will have 24/7 access to this application
+
+through this application, employees can open a ticket for any incident that might happen ( Example; Emergency car request, emergency Cash request if stolen while traveling, emergency flight transfer, telephone numbers request etc..)
+
+
+

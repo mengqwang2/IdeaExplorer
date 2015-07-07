@@ -1,0 +1,5 @@
+New EMC mobile app for chat, integrated with UC platform
+
+It came to me while I was reading the list of challenges. As soon as I read the description for the IT challenge I got this idea.  
+We should design a new app for mobile devices. This app can be installed by any EMC employee on an iphone or android device, and it will allow the employee to connect with other EMC employees while any of them can be out of the office or in the office. Employees can now participate in gropup chats wherever they are, no matter if on mobile or on their laptop. 
+

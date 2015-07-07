@@ -1,0 +1,5 @@
+A method to replace backup markers marked on the backup datasets from different vendors on the protection storage during backup process with a unique backup marker for a single vendor backup solution.
+Incubation feasibility, Financial impact, Industry and customer impact in Backup and recovery,  more successful deployment, improved troubleshooting speed/accuracy/scalability, preventing/predicting customer issues, or reducing the number of customer contact points, and other similar areas
+The idea was developed 8 months ago
+When a backup software takes a backup, it installs backup markers on the backed up data. these markers can be modified to a marker of a specific backup software by this way all the existing backed up data and be modified to single backup software and altering the backed up catalogs can provide 100% recovery.
+This idea can generate revenue for backup softwares for unified backup software solution and helps the customer to maintain only on backup software reducing the IT infrastructure, Administrator and license cost

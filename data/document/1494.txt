@@ -1,0 +1,8 @@
+Automate lab testing environment setup by using ViPR and EHC
+E-Lab is doing system compatibility testing, which require a lot of manual setup with various arrays/switches/servers. Leverage EMC Enterprise Hybrid Cloud, can automate some of our manual setup steps, to help improve work efficiency. And also, bring testing into EHC, can change E-lab traditional way of testing to be more cloud-oriented, and help to develop/test/improve use cases that is more suitable to 3rd platform requirements
+Came out with this idea after took VIPR training, and was discussion about how to improve Recoverpoint testing efficiency within the team
+- There were some previous attempt to automate elab testing, but normally, these involved different tools to separately automate works on switch/array/servers. Now doing this on ECH, especially with ViPR, all the automation can be done on the cloud itself
+
+- We can achieve also resource tracking with our systems in cloud. Which help to see our test cycle, manage our test resource, generate reports more easily
+- Improve team work efficiency
+- Help to tailor Elab testing scope to be more 3rd platform oriented

@@ -1,0 +1,57 @@
+Solution Support Expert-Team
+suggestions are aimed at improving the support-ability of CTD products.
+Support experience and relevant situation we were facing with the solutions.
+ 1) Customer is setting up the CTD environment
+
+option I :
+
+Prepare a Master document for the a solution with all the Compatibility info of the related products in one document- this way it is a one time process and would be used for all customers. 
+
+Option II :
+
+Prepare a Solution Note's for a the solution CTD version Links referring to all the Information documents in that note, this would enable the Customer to get the information required in one place. 
+
+Option III :
+Create the sample deployment guide for each solution with all the steps for Imtegration of the related products in one document.
+
+
+Option IV :
+
+The support team should be trained on the all the related products and should have the Information ready to provide for the customer.
+
+this Information should be prepared in advance by the team for the different version and combination of the products, this way it is a one time process and would be used for all customers. 
+
+
+2) Customer is facing issue in the environment.
+
+Option I :
+
+Create a team of SME's who are cross trained more that one product called Expert-Team.
+The Expert-Team would be trained on the integration of the Product major.
+
+when there is a service request that required multiple product knowledge then engage the expert Team rather that a one single product SME. engaging team would have the issue troubleshooting from all the product engineering at the same time resulting in reduction of the resolution time and increase the customer experience.
+
+Option II:
+
+When customer comes with a service request on the CTD / solution.
+
+The product TSE how gets the service request would engage and arrange a Meeting with all the related products TSE (can engage the other products TSE / SME with collaboration task) to look into the issue at a time to have reduction of the resolution time.
+
+Option III:
+
+Create a List with a SPOC for each products and add them in a particular DL.
+when a TSE has a question they can mail to this DL and product SPOC can have a look and reply accordingly.
+
+3) Customer is facing Critical production downtime issues / root cause of the critical issue.
+
+Option I:
+
+Create a SWAT team of SME's on different product teams, who can be engaged in this situation.
+
+Option II:
+
+Create a Exper-Team of TSE crossed skilled on related products. In the critical situation the Expert team can be engaged and worked on the Issue for faster resolution.
+
+
+
+It will certainly improve customer satisfaction and internal efficiency.

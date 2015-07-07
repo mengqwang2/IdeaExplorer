@@ -1,0 +1,12 @@
+A budget data protect solution for low end customer
+It's no doubt that EMC has been trying to take more share on the low end market. VNXe, Bearcat are all target for low end customer. Obviously, those customers are more sensitive to cost. My idea is to provide a cheap data protect solution for them.
+Our team had worked on a similar project which mount TwinStrata cloudarray's volume to VNXe, then create vDisk on top of that, and finally create pool from vDisk and replicate locale Lun data to the vDisk pool. And CloudArray will eventually async all data to the cloud.The problem is this solution is not right for low end user because the price of cloudarray is too high for them. So I am thinking if we can somehow turn the VNXe/Bearcat itself into a kinda of cloudarray so that user don't need to pay extra money for cloud replication solution. Then one day I found s3ql, and came out of this solution.
+
+I haven't done any POC or prototype about this solution yet. But I believe it is highly practicable. Because it's very similar to the TwinStrata CloudArray solution which we successfully did POC before.
+The open source project s3ql (https://bitbucket.org/nikratio/s3ql/) allow us to mount cloud storage directly to a linux. And our LxFusion component (developed by vvnx team) can create a virtual disk(vflare lun) from either a file or block device. Based on those, my solution is:
+
+1. Mount cloud storage (such as amazon s3) to bearcat/VNXe SP via s3ql
+2. Use LxFusion (vflarecli.exe) to create a virtual disk from the mounted storage
+3. Create pool using the virtual disk from 2nd step.
+4. With the pool created, we can leverage lots of existing data protection solution such as local replication to replicate data from locale Lun to this pool. Since the pool is created on a virtual disk, the data is actually stored on the cloud storage. But replication will not aware of that.
+I believe it can increase the attraction of EMC's product on low end market. Because it provide a built-in cloud data protection solution, which can save customer's money. And low end customers are more sensitive to money. As for EMC, we can sell more VNXe/Bearcat. 

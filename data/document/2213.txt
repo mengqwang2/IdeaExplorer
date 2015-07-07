@@ -1,0 +1,5 @@
+Configure network cameras on storage racks
+Engineers work remotely can not view the live status of the hardware(host, array, switch etc) in lab, which could lower the work efficiency.
+Even I have worked for VNX several year, I just saw the real storage hardware 2 times, don't familiar the real components and but the terms only, I think it's a barrier to impact us study storage knowledge.   
+Configure a network camera on the back of each cabinet, the owner of the device is able to control the camera, such a turning around, zooming etc, so the owner(engineer) could view the live frames on his/her laptop remotely.
+It would benefit the work efficiency and employees' personal development, investing in employees is investing the company.

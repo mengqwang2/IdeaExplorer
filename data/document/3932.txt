@@ -1,0 +1,18 @@
+EMC Networker as OVA[Open Virtualization Format] for VMware infrastructure Data protection 
+
+While working with customer on EMC Networker with VBA implementation, I personally felt both can be integrate as OVA bundle
+EMC Networker will be preinstalled on OVA bundle and this will also act as VBA proxy to perform a VMware-Image level backups.
+OVA bundle will have two options to select 
+1. Networker Server with VBA
+2. Networker Storage node with VBA
+
+1. Networker Server with VBA
+    This can be a primary Networker server and protect the local VMware backups which are associated with one Vcenter infrastructure.
+2. Networker Storage node with VBA
+    This option would be implemented on other Vcenter infrastructure at the same or different location to perform a backup of respective VM's and will get integrate/configure with primary Networker server.
+
+By implementation this solution we can minimize the resource requirements such as
+1. No need to get a dedicated OS license for Networker application to install. 
+2. Not required to allocation separate memory & CPUs for Networker server and VBA 
+3. Can be used to configure other physical server’s backups on same environment.
+

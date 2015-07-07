@@ -1,0 +1,11 @@
+Recycling usable drives that are not required for EMC products 
+This will improve the efficiency of use of drives, reducing energy use to shred these and to manufacture replacements.
+This can be implemented globally, there are 4 erasure sites within EMC, Franklin, Apex, Cork and Thailand.
+This is easily implemented, just using spare capacity within the erasure cells.
+
+This has been submitted by me before, a few times, but has not yet been implemented. 
+innovationcentral.corp.emc.com/#menu_view_ideas?id=2013001978
+innovationcentral.corp.emc.com/#menu_view_ideas?id=2011000345
+innovationcentral.corp.emc.com/#menu_view_ideas?id=2010000270
+With little extra cost these drives could also be erased to remove all traces of customer data and either sold on to a 3rd party to recover costs and save recycling waste, or passed on to charities/schools for them to use / benefit from. We already have this Data Erasure process in place for all drives that are being returned to vendors or being re-used in manufacturing, to remove customer data, so these drives would just utilise spare capacity on these Erasure systems. 
+Success can be measured by the reduction in waste material and possibly a new revenue stream from recycled drives.

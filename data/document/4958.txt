@@ -1,0 +1,34 @@
+inverse Workforce Analytics
+
+Thinking about this idea for a while, discussed this idea with Sathish and Sai. 
+
+We discussed about having an architectural diagram of the Proposed Solution.
+
+Will be coming up with an Architectural Diagram and post in inside.em.com, will share the link.
+Towards this we propose the idea “inverse Workforce Analytics”.
+This actually is a System and Procedure to do an inverse of a Big-Data Analytics on worforce data.
+
+1) We propose to Analyse every persons 3 years People related data
+     1) Performance data
+     2) Individual Development Plan(IDP) data
+     3) Learning & Development (L&D) data
+     4) Rewards and  Recognition data   
+   and generate Analytics reports. These reports act as a intermesdiate reports for organizational level insights as well as a report for individual, for everyone to predict progress. Acts as a Mirror !!
+2) We propose to Analyse MyVoice data at workplace level for past 3 years and come up with intermediate reports.
+3) We propose a Platform, where in hooks can be created between the above (2) data. These hooks acts as a core and links MyVoice data and other people related data. Eg: How IDP and MyVoice are related could be specified via this Platform.
+
+Once we have the link between MyVoice data and other people related data, managers could run Analytics at will to estimate the actions vs the progress towards Great Place To Work.
+
+Also we propose to use the Intermediate reports, and cumulate them, to get Organizational level insights, which we would get using Traditioonal Big-Data Analytics Solution.
+
+Benefits:
+
+1) Prototyping as well as sustaining such a Model is easier, because we could take a single workplace data, run this Model against that data and adopt it for entire Organization.
+2) Only such a Model is viable if we are to run Analytics at any time to predict progress
+4) Individual analytics which we proposed at Step (1) of the Model could be available for everyone in the Organization and could be a valuable tool.
+5) Decreased complexity - No need to scramble and keep running large amount of Hadoop Clusters.
+
+The core of the idea is, 
+     Lets NOT do Big-Data Analytics, lets do the reverse. Because, that is more appropriate in problems like this.
+     Lets NOT leave out what  traditional Big-Data Analytics could offer, create intermediate results, cumulate them and arrive at Organization insights.
+

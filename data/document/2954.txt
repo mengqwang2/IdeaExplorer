@@ -1,0 +1,14 @@
+Integrate XtremIO with EMC Big Data solutions
+EMC Big data solution and infrastructure delivery is a critical part in company's strategy this year, we need to make sure the large data set can be ingested, processed and analyzed in high performance, high performance is especially important for some in
+This idea comes from my project experience in eDA, which is kind of big data solution to customer, the performance is not so good especially for some real-time processing.
+1. Storage consumption: XtremIO is EMC flagship flash array, we could add it into the EMC big data solutions such as the EMC Data lake, which will speed up the data flow efficiency.
+
+2. Big data Application integration: We could integrate the advanced XtremIO storage feature into the application benefits, such as storage compression, space reclaim and snapshots.
+
+3. Expense optimization: considering the expense of flash array, we could combine the XtremIO with other storage together, make the most frequent read/write data on XtremIO and other legacy data such as Archived data on other storage.
+
+
+
+Combination of EMC Big data and XtremIO will benefit both of them, and eventually make the overall solution competitive. 
+
+One hand, the big data solution can take advantage of the advanced XtremIO features, and even offload some features to storage level

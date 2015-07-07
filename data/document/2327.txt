@@ -1,0 +1,6 @@
+Mob app with the employees phone numbers 
+make easy call , easy search for EMC contacts 
+I am looking for an app similar to True caller/directory  but for EMC employees 
+create a mob app with a and add a call button , send a message , send a mail , weekend , working hours , out of office messages , country , location , etc... 
+easy access to phone directory 
+make easy calls from your mobile 

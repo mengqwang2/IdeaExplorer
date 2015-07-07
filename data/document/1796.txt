@@ -1,0 +1,7 @@
+Email categorization/prioritization on both composition and receipt
+Plug-In style feature for Microsoft Outlook to better manage the Email User Experience
+This idea was generated at an IT Idea Generation Session in Cork on 25th June.
+This proposal is looking to address this problem through the implementation of a mail categorization system that can be used both when mails are sent and received. Microsoft Outlook provides the capability to categorize mails on receipt, however if all mails could also be categorized on composition, recipients could manage rule based categorization to prioritize which mails need their immediate attention vs. those that can be dealt with at either a later stage or need not be read unless required on a later, search driven basis. 
+From an organizational perspective, a number of common pre-determined categories could be implemented and integrated into the Exchange Server/Mail application. In addition, teams or projects could set up their own categories. Existing Outlook rules could be used to sort, file and prioritize mails for the recipient’s attention.
+
+Increased Employee Productivity, more efficient use of a company wide product. Ability for Exchange Administrators to archive non-critical emails earlier

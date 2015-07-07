@@ -1,0 +1,5 @@
+Dedup system with HW accelerator
+Dedup system is useful in the platform 2.5/3, adding HW accelerator can improve the performance and lower the cost of the system.
+this idea came up when we reviewed the platform architecture with the latest intel technology and other HW solutions, we found we can use these latest solution to help us achieve same or higher performance with lower cost. 
+Adding HW accelerators to offload the CPUs: 1. Using the latest NVDIMMs from Intel to cache the data. 2. Using ASICs to handle the general compression, SHA1, etc algorithms. 3. Using FPGA in data path to provide parallel caculations. These HW accelerators can lower the requirement of CPUs and provide lower power consuming/lower cost solution. 
+It can give the customer a higher performance/lower cost product than current ones. it will save money and enhance productivity.

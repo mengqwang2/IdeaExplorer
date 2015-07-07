@@ -1,0 +1,11 @@
+Discounts program for EMEA region with Jumia
+helping in employee satisfaction , creating better atmosphere  and closing gabs between COEs
+Discounts boards
+We will create a discounts portal like :
+
+http://discounts.corporateperks.com
+
+but only for EMEA region with cheaper deals :)
+
+and that portal is linked with Jumia or any other retailer 
+employees satisfaction , hard work

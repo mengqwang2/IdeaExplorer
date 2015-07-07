@@ -1,0 +1,11 @@
+Redefining Information Sharing with Federated EMC Hybrid Cloud
+This idea applies across all the sponsor challenge criteria.  
+The idea came out of an internal brain storming held between 11 members of the Singapore Proof of Concept, APJ vLab and Cloud Operations team.
+We advocate the creation of a common shared knowledgebase across the entire EOS2 that can be modularized and expanded. This KB would be accessible anytime, on any device and available to all stakeholders to allow employees across the world to collaborate 24/7. The KB would of course be authenticated for security, and have a simple interface. It should use EMC’s Big Data principles to categorize, collate and store information and to provide an analytics capability. For an uninterrupted flow of ideas, it should have links to external website/data.
+
+This KB would be provisioned using Federated EHC, allowing the flexibility to expand, and to provide external links.
+Once implemented, we would reduce the number of knowledge silos, resulting in faster knowledge sharing across worldwide EOS2 teams, accelerating product development cycles, and improving the quality of customer proof of concepts.
+
+This new system will also consolidate and reduce the cost of maintaining the many disparate systems out there.
+
+If successful within EOS2, this idea can be applied across all EMC.

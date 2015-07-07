@@ -1,0 +1,5 @@
+Shared Drive to Share information and used for documentation
+Providing a tool to easily share files.
+In RCM Team we have a Drive that all the employees within the team can access ,Can  place on it their information,or Exchange files together on it.
+Creating a drive that all the Employees within the Team can access it.
+Provide a tool to easily share Knowledge among the Employees

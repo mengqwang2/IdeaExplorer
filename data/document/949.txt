@@ -1,0 +1,17 @@
+Hybrid approach for storage allocation optimization in ViPR
+How to optimally allocate storage for tenant request has been an enduring challenge for a storage controller. In this idea, we propose to enable a hybrid approach in ViPR for solving the combinatorial optimization problem for storage allocation by taking the best of both worlds: exact method and heuristics algorithms.
+The idea is inspired from some research literature that leverages both exact method and heuristic approach for solving Container Loading Problem.
+In this idea, we defined storage allocation as the process to map the storage requirements of hosted applications to available storage devices, which takes into account both SLA fulfillment and resource management costs. Essentially, this process can be modeled as multi-dimensional vector-packing: mapping request to resource is just like packing object into bins. The vector packing problem, in turn, can be formulated as integer linear programming and the exact solution can be derived with some ILP solver. 
+However, for at-scale allocation problem, heuristic method will be more practical since of the computation complexity imposed by the vector-packing, which is NP-hard. This is where heuristics comes in, as it is expected to find 'good' solutions on large-size problem instances. 
+The heuristic methods are used for their speed, however sometimes it will not generate ‘good enough’ results.
+As a result, how to balance the quality of the result with the time spent on computation has been a challenge. For tackle this problem, we propose to employ a hybrid approach for ViPR:
+1) The first step will produce reduced sub-problems from the original problem instance, while preserving the original constraints. For this step, some metaheuristic will serve this purpose.
+2) The second step is to solve instances derived from the first step.
+3) The value of the object function resulting from solving the sub-problem serves as feedback to step 1 for guiding the search of solution space
+
+The above approach has been proved successful in solving Container Loading Problem from some research literature. It is expected also works for storage allocation problem as a generic methodology.
+
+1) Optimized storage allocation for ViPR without human intervening
+2) Strike good balance between quality and speed
+3) Scalable to large deployment that uses ViPR as the control plane
+

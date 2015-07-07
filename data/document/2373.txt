@@ -1,0 +1,24 @@
+An EMC IoT Platform
+The Internet of Things is a new growing market for our world and EMC couldn’t miss this amazing opportunity. My idea is to create a new solution that will complete the lack in EMC products portfolio and prepare us for the next wave of IT.  
+When I started to work for EMC three months ago, I couldn’t believe that EMC has not any IoT products. It’s not possible to find any IoT information on the web site www.emc.com. We have not an IoT strategy based on the top-management support. And I suppose that it’s not the way how an innovative company works. 
+The IoT is the next tidal wave and you have only two possibilities – to ride on this wave or to be rinse with the wave. 
+
+An EMC Internet of Things (Iot) Platform for the enterprise enables to better use the information present in its devices. This platform allows obtaining data from connected devices, and aggregating to the cloud to the enterprise's systems, where that data can be analyzed and converted into insights and action by enterprise employees and systems.
+An EMC IoT Platform is an integrated offering simplified billing and easy provisioning to help businesses connect, manage and analyze all of their smart assets. 
+-	Improve efficiency by monitoring and tracking the health of assets.
+-	Enable innovation by analyzing data from multiple sources in real time.
+-	Use advanced analytics to transform organization by creating new business models and revenue streams.
+
+An EMC IoT Platform combines:
+-	End-point devices: Sensors, modules, GPS receivers or RFID tags, etc. 
+-	Device Management. The device functionality or application logic and security needs to be managed. 
+-	Connectivity. The data will need to be transmitted from the devices to enterprise systems via an IoT cloud service. 
+-	Applications. Business rules, functions and applications that the device will need to run. 
+-	Security. Security domain provides functionality to protect the integrity of the devices and the data. 
+-	Analytics Layer. Advanced data analytics based on Pivotal Big Data Suite (commercially-supported Hadoop distribution) and Pivotal HAWQ.
+-	Presentation Layer. An integrated platform that will provide functionality for reports, dashboards and data markets.
+
+An EMC IoT Platform should be a new set of the Pivotal Cloud Foundry-based services that provides device connectivity and data aggregation to the EMC Data Lake. 
+
+With an EMC IoT Platform we will complete the lack in our solutions portfolio.  We will declare for our customers, partners and competitors that we have a vision for the Internet of Things, we have a strategy for it and understand customer needs.  
+We will provide solutions based on our Federation Products – Pivotal CF and Pivotal Big Data Suite. For hardware we will recommend EMC storage arrays for data storing and VCE Vblock as a converged system for cloud infrastructure. 

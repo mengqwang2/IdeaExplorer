@@ -1,0 +1,14 @@
+Effective Data Mining to evaluate survey results and drive change
+
+Every year, every manager will have task to effectively use the myvoice survey data to identify underlying issues and correct the same. However, this is a very challenging and time consuming task. Most of the times, previous years data is never looked at. The idea explained above will automate few steps in the process and help managers to utilize the data effectively and make better decisions for his/her team and EMC.
+1. For each question in the survey, Collate all the answers (over 3 years) for each team, BU, and company wide. 
+2. Now, each manager would list top 5 lowest ratings questions.
+3. Try and categorize these questions, does all of them come under one single umbrella? or at-least few major areas? such as Training and Development? Team building? Identify what is the underlying issue.
+4. Now, For each question, look at the team / BU who have performed well /improving over the last few years. 
+For example: If a team has bad ratings for questions a, b, c and d. Then dig up data for question "a" for past years. Look at which team has performed best for this question this year and also look at which team / BU has progressively performed well for this question.
+5. Once the team/BUs are identified who have performed well for the questions in step #2, HR should connect the manager in step#2 to top performing team's manager or BU head. 
+6. HR should talk to the best performing team /manager  to try and identify what best practices they are using which results in highest ranking for these questions.
+7. All of the above till step #6 could be easily automated using db and sql scripts.
+
+The above mentioned method is just one of several ways of data mining that could be done using myvoice survey data.
+

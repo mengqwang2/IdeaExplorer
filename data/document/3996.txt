@@ -1,0 +1,8 @@
+Patient registration and health records retrieval using mobile platform.
+
+Cross enterprise patient discovery mechanism present in today’s healthcare industry is an extra burden to implement in Healthcare solution. If patient can register their own demographics directly to the registry we can avoid the patient discovery mechanism currently existing. To analyze the patient records from different communities will take time for the physician to conclude the consultation. Using this analyzer provided in the registry can give holistic view of the patient health information.
+Patient can register their health demographics to a common registry directly using mobile application. Then the registry sends back a patient unique ID to the patient. This ID can be used across the healthcare communities. Healthcare institutions upload the patient medical records to the common repository using this unique ID provided by the patient.
+When patient has to visit the hospital for consultation, he sends a message to the healthcare helpline with physicians ID. The hospital sends an appointment details to the patient. With this he is no longer needed to wait in the hospital for his turn to visit the doctor.
+When the patient sends message for the appointment, all his historical health records are collected from repository across the communities using the patient unique ID. This information is processed in registry and present to the physician in a structured way so that he can analyze the patient health history from a single health record summary.
+
+

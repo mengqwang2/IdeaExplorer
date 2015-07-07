@@ -1,0 +1,8 @@
+Application for the available parking slots in B1 and G floors.
+
+Alot of times I'd go to the underground parking and not find a spot which leads to me going around the building again to check if B1 is empty and worse the other side to G to find a parking spot. Alot of times cars park infront of other cars and consume time for me to get out of my parking spot
+o We need an application from which I would know the available parking slot in B1 or G floor (if any) while I am on my way to work. (This application could be part of the EMC IT project where all EMC employees would use this application to determine the availability of parking slots among many other things).
+o This application could also be used in big malls (city stars, Cairo festival city …) where we could find the nearest parking slot to our location.
+o Also this could be used in downtown Cairo as we all know that the parking there is a quite frustrating experience. We also know that there is a company that developed  parking areas in the streets using an access card and so, perhaps this idea would be even enhanced through partnership with this company and integrate their parking spaces onto the application. 
+
+

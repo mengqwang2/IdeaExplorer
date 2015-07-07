@@ -1,0 +1,9 @@
+To create IP management for all EMC Labs
+
+IP management in Durham lab across product divisions have become very difficult .They are currently tracked either in spreadsheet or in simple access database
+The Converged Cloud Platform will create a database (no SQL or something in that order so that big data analytics are much easy in the later stages) for the IP address management and tracking.Each IP address will be certain attributes like hostname associated, type of system, the physical port its connected, belongsto which BU and which project etc.
+
+This service will track all the IP usage for all the VLANs for all the BU's in a given facility
+
+Each user/group (with SSO or LDAP integration) will be provided with certain privileges and based on the privilege certain operations will be allowed, ex: assignment of the IP address from the pool, release of the IP to the pool etc
+

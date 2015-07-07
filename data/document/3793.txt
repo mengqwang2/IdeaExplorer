@@ -1,0 +1,7 @@
+Application specific security using lockbox
+
+Lockbox is used extensively in SAS UIM and NCM products. Lot of customers are annoyed with the lockbox inaccessible issues in NCM - especially when they dont know which system values its tied to.
+
+Instead of relying on the system stable values, the unique hashing code should rely on the application process information. It can also be computed on a combination of application processes and the application license key.
+This way the data is secure and access is confined only to the application and also the application is portable.
+

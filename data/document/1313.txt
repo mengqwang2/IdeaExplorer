@@ -1,0 +1,5 @@
+Aggregated Cloud Account Management 
+By providing the cloud agnostic and cross cloud account, access and resource management service we are getting aligned with the EMC strategy in cloud services interoperability. This solution can be integrated into Pivotal Cloud Foundry portfolio as part of the open cloud platform.
+The idea is started as a projection of bank/credit card account aggregation services to the world of public cloud providers. It has been discussed internally and we agreed that it could be a reasonable extension of the Pivotal Cloud Foundry offering.
+Aggregated Cloud Account Management is going to provide the single gateway to different public cloud accounts as well as unified access management and resource utilization view.
+When implemented it will be a part of Cloud Foundry portfolio and another step in alignment of different cloud providers. It will also reduce the integration effort customers need to spend in order to be able combining consumed infrastructure and services of different cloud providers into the single view.

@@ -1,0 +1,7 @@
+EBC ready CTD products solution => CTD|One
+We are addressing the challenge of CTD supportability of multiple CTD products solutions found in one place
+In the past EBC demos every product solution team had to to start setting up their demo setup atleast a day prior to EBC. 
+This solution will make sure we have a single set-up with all the product solutions to be demoed during EBC without the need for setting up separately for every product solution.
+1. Less time consumption as every solution is found in a single place.
+2. People wont waste time setting up for every other product solution.
+3. Same setup can be re-used for every demo just with a upgraded version 

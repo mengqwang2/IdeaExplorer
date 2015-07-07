@@ -1,0 +1,6 @@
+Key Management Algorithm with Hashing 
+help to secure the machine communication through IP network 
+I designed a similar algorithm by modifying 3DES algorithm, to be used in machine IP network  
+use a key management algorithm with hashing that used for one encryption and decryption for a single data send.
+i.e: when send a single data or payload, date should be encrypted with a key and hashing, then in the receiver it should be decrypted with the same key then compared it's hash, then a signal send to the sender to create a new encryption key.
+Improve the security of machine communication through IP network 

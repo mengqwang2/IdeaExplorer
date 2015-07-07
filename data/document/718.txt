@@ -1,0 +1,6 @@
+ISSC- SALES TAX review Team
+There are multiple challenges with regards to how EMC charges Tax while invoicing the customers. Good percentage of invoices are reviewed and reworked for tax prior sending them to the customers. The entire process of review and approval is also a cause for the delay in getting the invoices paid
+In the recent past there have been multiple cases of CSAT issues due to the inability to resolve it for the customer.
+We should have an in-house sales tax review team (may be as part Corporate tax) to review invoices based on the tax law or set guidelines and create a TAT to avoid delays in review
+We need to document customers facing issues with the tax and find a permanent solution to fix the issue in the system
+Collection numbers increase / helps cash Flow/ Customer satisfaction

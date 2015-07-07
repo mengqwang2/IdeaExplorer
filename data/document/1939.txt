@@ -1,0 +1,10 @@
+Integrate User Quota IO for interface
+Different users might access storage system via same interface. But sometimes when some user perfrom heavy IO on one interface, it is hard for other users to access the storage system via the same interface again.
+This idea came from our brain storming meeting when we discussed about interfaces. Someone compain about it is hard to write data to storage system when heavy IO is performing.
+1. Set IO quota in configuration files
+2. Periodically check different users IO stream, if user's IO stream is bigger than IO quota setting in the configuration files,  restrict the IO according configuration files.
+3. IO quota setting should have several ways:
+   - set on average
+   - set according users access
+   - set automatically according to IO stream
+Guarantee different user can keep IO stream through the same interface.

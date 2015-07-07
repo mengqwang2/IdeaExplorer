@@ -1,0 +1,25 @@
+Bolt-In & transparent Threat Detection and Action using Man-in-the-Middle
+The RSA IoT challenge is about bringing in security in IoT world, where components are characterized by low resources/capabilities, high-degree of heterogeneity and emergent designs and standards. Our idea provides a potential approach to bring in security despite these challenges. 
+
+Israel COE challenge also talks about security in IoT, among other areas, so the idea appears to be a fit there too. 
+Brainstorming
+"Bolt-in" security - something that can be externally attached to the entities and works transparently without the knowledge of the entities involved - is perhaps better positioned to address some of the security and privacy challenges at this point in time. 
+
+Our idea is build a "bolt-in" software/hardware module that serves as a "Man-in-the-Middle"/intercepting proxy for T2T and T2N traffic: 
+- It intercepts all traffic going in/out of attached devices (managed devices). More on this later. 
+- It sends all traffic to a cloud service which is responsible for providing authenticated end users visibility on communications and anomalous behaviors,
+- Optionally, allow users to achieve the effect of blocking all incoming T2T or T2N traffic to managed devices on a temporary basis, by redirecting intercepted inputs to a null sink. This might be useful, say, when the end users is going on a family vacation, or is informed about suspicious traffic and wants to limit the damage during investigation/remediation, or the like. 
+
+How do you intercept traffic in IoT networks? There are usually two ways an IOT node attaches to an IOT network: a) via a network access gateway over IP-network via Wireless (like WiFI), or b) node-to-node using an IOT interface like ZigBee.  While literature in the Web explains a number of mechanisms, just for an example, for Wifi a customized wifi access points or software access points can be setup within the module, which each IoT device registers itself through its SSID, resulting in all traffic routed through the module. 
+
+The core benefits would include:
+- Can provide visibility of communications within an IoT network to an end user, that individual devices may not be able to do on their own. 
+- Can provides threat detection capabilities using behavior anamoly detection, and a degree of control to end users over who can talk to their IoT network and at what times
+- Can serve as a vehicle for implementing other security functions, via the "bolt-in" module. 
+
+To keep the problem domain tractable, we think it should be limited to:
+- Enterprise IoT 
+- IoT devices of well-known vendors
+Output: a software module
+Benefits to RSA: A foothold into IoT Security market
+

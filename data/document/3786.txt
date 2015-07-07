@@ -1,0 +1,12 @@
+ePanacea
+
+We have seen that some time different customers face same or similar issues which  needs same  solution. But for same problem also turnaround time for customer is high due to lack of automated problem resolution. This “automated healing” will bridge the gap. 
+
+Most of the EMC product has its own vast troubleshooting knowledge base and the reasoning about particular problem. The “Auto Healing” platform provides the facilities to create an analytic engine which based on different symptom find the different reason of the problem. EMC SMARTS already has root cause analysis engine which outputs the problem in network or storage based on the observed symptom in network or storage domain. 
+
+The “Auto Healing” will use the SMARTS RCA (root cause analysis) engine to provide the platform. The RCA engine needs to run on Big Data platform as the symptom base is very huge. 
+The symptom for the problem would be the different anomalies observed for a particular scenario seen in customer place. The input to the “Auto Healing” service would be just a XML file stating the problem and the probable reasons. So whenever customer faces any know problem based on different symptom the “Auto Healing” service will suggest the remedy to the customer at customer place. So customer need not to contact customer service for already faced issues by somebody else. 
+In case of unknown problem the “Auto Healing” service should be able to collect all the required data for father analysis. 
+Once the customer issue is fixed the “Auto Healing” service should have intelligence to updates it’s knowledge base.
+
+

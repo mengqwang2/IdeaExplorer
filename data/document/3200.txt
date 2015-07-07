@@ -1,0 +1,42 @@
+collective hospital system
+
+interacting with Doctor on existing challenges in medical field.
+Collective hospital system,
+Data entries in medical field are done in two ways, one is objective and the other is subjective. Major hurdle in Data Analysis is in analyzing the subjective part of the data and at present we don’t have any system to analyze both the objective and subjective data combined. The system we are proposing will address this issue.
+Current data entry can be widely classified as below,
+1.	Objective data
+2.	Subjective data
+3.	Semi-objective data
+4.	Totally subjective data
+Objective data- example an ongoing heart beat monitored for a patient in ICU.
+Subjective data- Data entered by a paramedical personal after checking the BP.
+Semi objective data – you touch a patient and say you have less or high fever, which subjective to the person testing it, one may say low other may say high.
+Totally subjective data- if you ask someone are you happy? Now you may say happy and after 5mins this can vary, this is 100% subjective to the situation.
+In order for a hospital data to be analyzed all the above mentioned 4 different data is needed for whether we do any good to the patient. This is the whole objective of the system to analyze the whole data available in medical domain even in the subjective data available; we will give some objective to the subjective data as well.
+As a hypothesis, let’s assume that patient has got a cancer stomach. Some treatment option is given to the patient and the doctor says the normally the patient could have died end of one year, but with this treatment 15% of patient live beyond an year.  From a data point of view it appears that 5% of patients are living better. But when we actually go into both the subjective and objective analysis we may find contradiction. The former 10% might live happy, the later 15% might live unhappy after the treatment. Then  the 15% patient living unhappy didn’t went through a fair treatment, the unhappy part of the patient is not seen in the system or not taken into analysis, where the subjective data is completely missing. If we ask the patient, Would you take the treatment?  The answer will be effective only after knowing the 15% lived happy or unhappy after the treatment, which is an effective decision when the subjective data is also analyzed. In order to evaluate any treatment simply going by the data produced by the papers should not be taken. We need to have a collective hospital system where we know everything, right from surgery to the current state of the patient.
+One way of getting data is from the existing systems in the hospital, the existing data should be retrieved and sent to the Doctor or the paramedical people and used for decision, when a patient data reaches certain threshold. Second is to get the data which is not there through crowd source, thirdly to create a data format for the subjective data.
+Data entry in the system, is done by multiple people.
+a)	Doctor entering the data in to system given a higher rating.
+b)	Paramedical medical assistant entering the data given a lower rating than Doctor.
+c)	Anybody (patient, relatives) entering the data given the lowest rating.
+So the crowd-sourced data can be also used for analysis along with the objective data available in the system.
+Data format in the building this system for Doctors, paramedical people, patients and relatives.
+  The data collecting system can have inputs like a) verbatim talk  b) Prompted questions.
+Prompted question for certain medical procedure,
+1.	Certain surgery Procedure
+2.	ICU Procedure
+3.	Inward procedures
+4.	Outpatient procedures
+Patient inputs to the system after certain procedure,
+a)	Normal
+b)	Able to do essential work
+c)	Unable to do essential work 
+d)	Bed ridden
+So all these values entered by the doctor, paramedical assistance, patience can be collected via an Android app available on mobile phones can be the input data to the system. 
+Android App interface, this app interface will vary depending on the profiles like doctor, paramedical assistance, patient and relatives.
+To summarize the current data in the hospital objective data are not retrieved for analysis, semi-objective data might not be completely reliable. Subjective data are not captured and analyzed. The system which we propose will capture the objective and subjective data which closes the analysis loop better.
+
+for further details please go through the below PPT.
+https://inside.emc.com/docs/DOC-100225
+
+

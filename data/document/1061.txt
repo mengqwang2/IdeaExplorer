@@ -1,0 +1,31 @@
+iPark Mobile App (Built on SpringXD Platform) - To Ease Parking Problems across COEs/Congested Cities
+We want to build a prototype Mobile App to reduce parking problems in our COE. 
+
+We want to use India COE to test our APP and apply the same across all COEs. 
+
+This App will help users to Book the parking slot( the slot can be reserved for one month in advance or for just one day)
+
+It will ease parking confusions and it will help Facilities management to track parking and maintain.
+
+This app will be built on SpringXD and 3rd Platform products.  
+Parking issues that we face regularly. 
+This happens in our offices and when we go out for shopping and other congested places
+Hence a 3rd platform based app with intelligent analytics can reduce much of the problem.
+Monitor and track movement effectively. 
+An employee/newly visiting customer for EBC in any of the EMC COE can book his parking slot and the slot will be available for 2 hours or for a pre-defined time slots/. 
+
+If the slot is not occupied in one and a half hour the next available slot will be given to the person.
+
+The booking can also be done for a month or for a specified time.
+
+SpringXD can be integrated to Archibus App so that the Facilities management will have graphical representation of the occupied slots and free slots. 
+
+The sensors/GPS in Phone can be used to send real-time navigation and also the data can be sent to the Master terminal. Also the employee can easily locate their vehicles using "Locate my vehicle" feature.
+
+The facilities can monitor various attributes/data that are received. 
+
+Turn by turn Map based navigation can be integrated for guiding the employees / customers to designated parking zones. 
+ 
+If we are successful in getting this Application prototype in our COEs, we can develop this
+product as an EMC product and help the community around. Especially in crowded cities like bangalore, chennai this app will be a boon even to search nearby parking areas. EMC can partner with TOP Malls and Movie theaters for increasing user experience. 
+For EBC customers this tool will be very handy as the app can be accessed either as a standalone application or through the web. The hassles of parking and enhanced experience can be given to our customers

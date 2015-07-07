@@ -1,0 +1,5 @@
+Information Analytics Agent
+
+EMC IT is facing similar challange. More than few PETABYES of information is available. By deploying the agent to filter at sources, we could bring the size down to < 1 PB. This iwll save millions of dollars. 
+Introduce Agent that can understand data sources and implement filter conditions at the source. Also extend this approch to all the data sources. This can be done with EMC Storage Compute ad Pivotal Greenplum. It will help simplify business lakes and make it smaller and easier to handle. The agent will need to be configured with logic to fliter and data discovery. 
+

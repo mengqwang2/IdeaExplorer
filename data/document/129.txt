@@ -1,0 +1,5 @@
+Speed up BIOS boot by initializing system simultaneously with multiply CPU Cores 
+Now the memory size of servers is become larger and larger, it takes long time to initialize and do basic memory test during BIOS boot up phase after cold reset.  This symptom is obvious in DD9500 and later Eos platform, the time for boot after cold reset is much longer than that after warm reset.
+I notice that the boot up speed of DD9500 and later Eos platform is very slow, and the memory initialization occupies most time of the boot phase, and I participated in similar task when I was in my last employee.
+Change BIOS code to use every CPU core of our server to do system initialization work as long as the job can be done simultaneously, the tasks includes Cache / TLB initialization, memory initialization and test.
+It will be an enhancement of BIOS, and we can say it is successful if the boot time after cold/hard reset with this enhancement is much shorter than that without the enhancement, so that customer may feel the time gape between cold/hard reset and warm reset.

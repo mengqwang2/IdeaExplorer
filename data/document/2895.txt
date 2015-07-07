@@ -1,0 +1,23 @@
+Smart City through Internet of Things!
+Increasing population density in urban cities demands adequate provision of services and infrastructure to meet the needs of city residents, surrounding residents, workers, and visitors. The utilization of information and communications technologies to ac
+This idea came into my knowledge when I started thinking about a SMART CITY concept through an IT give-back. Since we are working in an IT field we should do something to get balanced our echo friendly system.
+Please refer the link "https://inside.emc.com/docs/DOC-151711" for the detailed solution.
+
+Nowadays, the most common post-event investigations on surveillance video are done by hardworking security officers who manually browse through hours of video footage. With a good video analytics platform, we can further leverage the structured insights Hadoop provides by using an advanced query language like SQL. These sorts of questions can be written in a simple SQL SELECT query. Some other use cases in which structured data can be best utilized are as follows.
+Utilization of this platform for existing video data archives: - Such technology can be further applied to use cases like: video indexing to enable content based video search, traffic analysis based on route analysis for optimizing city transportation.
+Scaling up the existing video analytics algorithms to Hadoop and MPP Database: - Anyone using traditional/manual video analysis can be migrated to Hadoop based analytics system.
+Correlating video data with other structured data sources: - Once the structured insights are extracted from the video dataset, joining with other data sources can generate deeper insights from data sources. For example, we will be able to help correlate retail stores’ surveillance camera data with transaction logs.
+Enhancements in existing Town Planning system: - Along with real-time data management we should manage other vital things also in order to instrument the SMART-CITY. They are 
+1.	Electricity/Water distribution based on actual need and usage.
+2.	Planning and maintenance system.
+3.	Staffing in Hospitals based on patience urgency and effective utilization of human resources.
+4.	Availability of foods, cloths, shoes etc. in shopping malls based on seasonal changes, trend and fashion etc. 
+We must have access to historical data’s/information’s to predict and implement above gears. Those data should be analyzed first and get them structured and have them stored DB’s for easy access.
+Historical data in the sense the old information which we had about the system to analyze and get a conclusion before taking any decision.
+Best Supporting Hardware Solutions:-
+EMC’s best Proven Solutions to implement this framework such as the backend of Hadoop system would be Isilon scale-out storages as we have tremendous growth in data size. For monitoring and reporting of backend arrays for performance analysis we should implement ViPR SRM Solution. To automate storage systems to enable Data Lake solution ViPR controller can be used hence less number of administrators only required to manage the entire solution. For best performance SQL DBs EMC VMAX3 200K/400K should be best fitted.
+
+
+
+
+This will be a Big success if this solution gets implemented.

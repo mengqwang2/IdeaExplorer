@@ -1,0 +1,13 @@
+RSA token
+
+This idea came up in my mind since I have seen a lot of employees suffering with the same problem, have lost their RSA, have broke it and so on..
+
+So thought of using soft token when we have the facility..
+Soft RSA will help in many ways: 
+
+Firstly we need not have to carry any token with us.
+
+Secondly amount spend in building the RSA and providing it to employees could be eliminated by providing soft token and that amount could be used in the development of the company business.
+
+Thirdly and most importantly, employees would be happy to have the soft token instead of carrying hard token everytime with them..Since EMC is awarded for best place to work where employees concerns are given 1st priority, this should be taken in action..
+

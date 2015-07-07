@@ -1,0 +1,76 @@
+ New 4th platform Market - Towards IoT Data Management Platform By EMC
+The idea addresses CTO office challenge for new market disruptive innovation. 
+
+Note: Presentation Slides are prepared to illustrate solution diagrams and results. Specific slide number is use for referencing throughout the idea.
+Presentation link: https://inside.emc.com/docs/DOC-156151 
+ 
+*Opportunity and Market Growth:
+ IoT technology is booming enabling promising markets that needs cutting edge solutions that can cope with such demand. This market is growing rapidly. However, There is a huge gap between the demands of such applications and what technology is offering nowadays. Thus, Many IT market leaders (including EMC) are trying to fill this gap. Slide 2 of presentation shows expected IoT growth in 2020: https://inside.emc.com/docs/DOC-156151 
+
+*Mission:
+Our mission here is to provide a complete IoT data platform over the cloud that reinvents storage, networking, backup and analytics to dominate the market of IoT. Visual high level architecture view is demonstrated in slide 3 of the presentation: https://inside.emc.com/docs/DOC-156151 
+
+*Prototype and Implementation done:
+We defined a complete Roadmap with milestones to build this IoT Smart Data Platform. We have already developed a Proof of Concept for one block (Storage + Networking) in which we defined, simulated and tested a novel algorithm we called ‘Storage Path Optimization or SPO’. The remaining two blocks (backup and analytics) are defined below in the solution part (not yet implemented)
+
+I had the SPO algorithm idea almost one year ago inspired by a completely different field which is finance! When payment happens by credit card transaction that just gives orders to banks and does not include a real tangible cash flow. The bank here for me was the cloud (cloud of money) and the credit card is the end device. I presented the idea to executive sponsors (Sarv Saravanan, SVP) from APJ COE and ensured alignment with EMC 3rd platform strategy for 2014. Then decided to implement a proof of concept and do simulation testing for the networking part.
+
+*References:
+
+[1]- http://qz.com/179980/the-plans-for-5g-to-power-the-internet-of-things/ 
+[2]- http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6380493 
+[3] - http://www.contiki-os.org/ 
+Idea presentation link on InsideEMC: https://inside.emc.com/docs/DOC-156151 
+
+*Solution Structure and Operation:-
+
+IoT-Smart Layer resides between the ‘Sensors Network’ and cloud doing the following logic: 
+
+1-	Storage Path Optimization by Ownership Mapping: The engine will send large data chunks on the storage layer than sending it on the devices layer. For example if I will send data from one “Sensor” to the other over the internet, then just send the data on the underlying storage layer (inside the same datastore) and send just the metadata and pointers over the network to save time and battery. This means that if all the storage is cloud based, why to send the data (if I do not want to process/read it now) if we can just change the “Data ownership” from one device to the other and copy data internally inside Data Center!
+Visualized figures for the algorithm operation are in slide 10,11 and 12 of the presentation: https://inside.emc.com/docs/DOC-156151 
+
+#Note: Why is the above approach best suited to M2M communication especially sensors in smart city?  Because 1- sensors tend to work as data generators and aggregators, they do not consume or process data instantly. Instead, they just need to store it for further processing by central servers. 2- sensor are very critical constrained devices in energy (battery) and bandwidth and require minimum traffic possible over the network/internet
+
+Visualized figures for the algorithm flow chart are in slide 8 and 9 of the presentation: https://inside.emc.com/docs/DOC-156151 
+
+We have Implemented the above algorithm (SPO) using environment simulation (MATLAB) and tested its performance over the current storage and networking approaches (for TCP and UDP). Results showed up to 25% improvement for the average delay per user. 
+
+test result graphs are illustrated in slides 13 and 14 of the presentation: https://inside.emc.com/docs/DOC-156151 
+
+2-	Cluster-Aware Resource allocation: Data in IoT tend to move between a set of devices “Cluster” that belong to certain profile such as same user or between sensors in the same area reporting data to an aggregator point. Hence, the engine will locate data for the same “Cluster” in the same datastore to get maximum performance as data mobility inside the cluster is high. Copying data inside same datastore or same array is much faster than copying data between sites or different arrays.
+
+We have provided a demo for Resource Management Database doing this allocation on the compute level (VMs) and storage level (Pool). Example of this database is illustrated in slide 7 of the presentation: https://inside.emc.com/docs/DOC-156151 
+
+3-	IO profiling: Some IoT devices tend to send more than receive data while other devices tend to receive data more than send. For example : home appliances connected to the internet are more likely to send data (reports and notifications) to other devices such as mobile phones. Hence:
+a.	Locate data for the “Send intensive Devices” in a storage/RAID type that is suitable for high read performance such as RAID 5.
+b.	Locate data for the “Receive-intensive Devices” in a storage/RAID type that is suitable for high Write performance such as RAID10
+Visual illustration in slide 5 of the presentation: https://inside.emc.com/docs/DOC-156151 
+
+We define one more module for the ISDP to reinvent backup by doing the following:
+1-	Dynamically change the backup policy based on the data usage pattern and lifecycle. For example: for a stream of sensor data, backup the summary data and graphs longer than the raw data as for IoT applications, data trends and summary is much more important than raw data.
+
+2-	Route data dynamically to the best suited backup solution and configuration based on the data type, sensors type and application criticality.
+
+3-	Use customized compression techniques that suits IoT data that is very correlated and streamlined. Such techniques include ‘Integer packing’ and ‘Dictionary-Indexing’ compressions. 
+
+We define 3rd module for the ISDP to reinvent Analytics by doing the following:
+1-	Smart database allocation: dynamically choose the suitable data base type to used based on data, sensors and application types (for ex. Column stores Vs. row stores or in-memory databases for real time analysis (water system sensors) Vs Hadoop for batch analysis (surveillance videos))
+2-	Pre-data preparation: do in-storage early data preparation for batch processing depending on application type. For example:
+a.	Camera Data: do pre-structuring for the data making it ready whenever batch processing is required
+b.	Traffic data: do data cleaning, summarization and storing it ready for batch processing anytime.
+
+*Solution Offering & Customers:
+
+1-	Service: IoT-Smart Layer will be introduced as a service on top of the cloud offering (Pivotal CloudFoundry (CF) or Open Source IaaS like OpenStack. 
+
+2-	Solution on EHC & ViPR:  the IoT Smart Data Platform can be integrated to EHC allowing it to be powerful solution in IoT industry especially that most telecom enterprises are adopting IoT-5G technology now [1]. EHC is a ready platform to host this solution as the Storage intelligence module can be integrated in ViPR offering IoT Data Service as part of ViPR Data Services.
+
+This IoT-Platform will be compatible to IoT standards stack [2] (different applications) and will talk to IoT operating system such as “contiki” [3]
+
+1-	Invade a new growing market
+2-	Higher IoT network performance by minimizing network delay for IoT sensors/devices.
+3-	Adds competitive advantage to EMC EHC and ViPR in the platform 3 market
+4-	Promotes EMC cloud solutions like Pivotal CF
+5-	Positions EMC as the infrastructure provider of choice for all cloud service providers and telecom operators investing in IoT.
+
+

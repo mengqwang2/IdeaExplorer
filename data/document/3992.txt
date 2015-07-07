@@ -1,0 +1,5 @@
+Notification
+
+The idea came to us when we were thinking of ways to be able to know in real time if the case has been modified or replied to by the engineer so as to be more efficient
+Basically the idea is sending notifications to the Presales engineer tablet or phone the same as a normal notification on the new Mobile OS system to inform them with modifications to the case or a new question by the Engineer or if the Quote has been modified and as such
+

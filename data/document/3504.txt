@@ -1,0 +1,17 @@
+ A new ERA of EMC Cloud Services using Cloud-RAID (CR) - A Secure and Reliable Storage above the Clouds using Pivotal CloudFoundry
+
+ The idea came up when we were reading about cloud security and trust challenges. We started to think to position Pivotal CloudFoundry on the top using an innovative approach leveraging these critical security needs.
+ 
+The idea is to employ the powerful RAID protection and distribution concept over the cloud for maximum Security and data availability. The idea aims at spreading the data across different cloud vendors in a RAID manner. Each cloud provider will have a piece of the information and EMC will orchestrate the data flow between different parties. This allows the following wins :
+
+1-	Maximum security : as no single provider has the whole data
+2-	Highest data availability : cloud provider failure will not affect the data
+3-	Maximum elasticity: the ability to use data between different cloud providers to benefit from different advantages (for example one provider is more reliable while the other is better in performance ..etc)
+
+
+REFERENCES :
+CR Implementation : http://link.springer.com/chapter/10.1007%2F978-3-642-38027-3_10#page-2 
+CR Performance evaluation : http://www.hpi.uni-potsdam.de/fileadmin/hpi/FG_ITS/papers/Trust_and_Security_Engineering/2013_Schnjakin_ICCCN.pdf 
+
+
+

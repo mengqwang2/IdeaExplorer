@@ -1,0 +1,11 @@
+Digital health documents care and analysis
+it is new solution to provide the best service using patient's data analysis. we can build this new solution with our existing products.
+when i was carrying all the health  reports of my father every time we went to hospital.
+
+when H1N1 virus infected in india, it was difficult for govt organizations  identify the infected cities or towns or villages with in less time.
+
+
+
+By using the web or mobile application hospitals can upload the data of a patient to server and access the data any where.It is easy to identify the people or places which are effected by the deadly diseases with in less time. Using this application we can analyze all the patient's data in the server to give a solution for the cure.
+This application  will minimize the time for health organizations to identify the contagious diseases before spreading to large number of people by analyzing the input data of the application.Hospital's can upload the patient's health info and reports in the application and same can be access through the application by other hospitals. No need to carry the documents. prescriptions to the medical stores.Other organizations can use the data Pharmaceutical,Insurance companies,Health care organizations.
+

@@ -1,0 +1,14 @@
+Improving Payables and Expense Claims Process : Green IT
+This will help in creating a hassle free workplace making use of advanced technology, saving costs and environment at the same time. Hence making EMC workplace modern as well as cool !
+The current process requires, in many cases, taking unnecessary print of form/receipt which are originally provided as soft copies. Taking print outs in such cases even be more avoided as many times signature is also not required. This certainly can be avoided.
+
+In cases, where signature is required we surely can make use of technologies, as proposed above.
+The solution I propose here requires issuing appropriate digital signature/certificate to employees who are eligible for making claims. The claims submission process be so modified that it allows uploading supporting documents and signing them digitally so there is no need of hard copy prints. 
+
+Appropriate diligence must be followed for issuing digital signature/certificate. Various countries have different norms for issuing such credentials, which must be adhered.
+
+If the idea gets implemented -
+*) we would be saving on lot of papers (environment)
+*) claims submission process would be hassle free
+*) claims processing would be fast
+

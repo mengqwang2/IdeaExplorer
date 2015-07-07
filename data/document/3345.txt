@@ -1,0 +1,22 @@
+Green COE - Energy Saving Competition in EMC COEs 
+
+Real Life experience seeing considerable amount of energy loss in different areas.  
+the idea works as follows:
+
+•	EMC can monitor the electricity consumption per floor/building depending on the design. the average usage acn be monitored for a month/few month to know the average consumption.
+•	EMC will announce a competition between floors or different building sections. to minimize the energy consumption.
+•	EMC will also broadcast to the employees simple instruction to follow in electricity saving such as (turn off AC and lights in empty rooms when everyone  leaves).
+
+•	the average consumption can then be measured for a month/quarter to determine the % saved.
+
+•	winner team is rewarded and can be marked as the "Green Team" for the month/quarter
+
+•	this Idea can be extended to be between EMC COEs. this is easier to implement and can spread the initiative across COEs
+
+This achieves the following wins:
+
+1- being environment friendly by reducing energy consumption
+2- cost saving for EMC
+
+
+

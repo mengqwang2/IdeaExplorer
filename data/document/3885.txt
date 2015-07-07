@@ -1,0 +1,15 @@
+Automated Data Migration from Competitor Backup software to EMC BRS products
+
+I faced challenges while migrating customers using Netbackup or EMC competitors backup software to EMC on how the existing backup will be handled.
+Solution
+Am taking an example of Avamar and Networker migration for the purpose of explaining my idea. Assume customer having Avamar with DD will be moving to Networker with DD. In this scenario, I propose a solution whereby 
+1)	We install Avamar virtual edition ( DD AVE) in DD. This AVE will be running inside DD
+2)	Physical or existing Avamar will be shutdown. 
+3)	Using the checkpoint available in DD, we will bring the DD AVE to act on behalf physical or existing Avamar.
+4)	Similarly we will have Virtual Networker running on DD. This Networker will have the structure and configuration exactly similar to the future Physical or Virtual Networker which will be the ultimate goal.
+5)	DD AVE will start restoring the longer retention data from DD to temporary location (CIFS/NFS share) in DD. 
+6)	Once a complete cycle of data let’s say 1 year data of a client is restored, then DD Networker will start backup the data.
+7)	Once all longer term and selective backups which customer want to retain in Networker are backup. We will take the bootstrap of DD Networker and create the actual Physical Networker which will be in customer production environment.
+In above example, we are not using any 3rd party tool for data migration, we can use the actual existing backup application (Virtual Netbackup, TSM, CommVault) to restore the data within DD. So from above example, we can use DD Virtual Netbackup to DD Networker/Avamar to migrate data from our competitors without having to maintain their software for longer period of time.
+
+

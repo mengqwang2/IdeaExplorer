@@ -1,0 +1,28 @@
+Intelligent Predictive/Preventive Model for ViPR 
+Analytical system for ViPR managed Software Defined Assets and providing valuable dashboards and integration
+This idea came as part of multiple brainstorming session among core infrastructure teams.
+This solution contains prediction model to analyze the log data and come up with the dash board and injectable parameters of top issues and prediction measures to ViPR controller.
+
+Central Syslog server's log DB is getting injected to a Real time distributed Sandbox environment where R framework will get used for the analytics and this model will do 
+1. pattern of error
+2. prediction
+3. Probability of Assets failure
+
+Analytical steps in this model execution:
+1) Data Loading: in this stage Log data will be loaded in the context of 'R' in integration with HDFS for distributed data
+2) data staging: in this staging , Log will be parse to extract the data which is valuable to run predictive model
+3) data trimming: in this stage invalid data will be deleted so that model run on only valid data
+4) Data modeller: A predictive model will be build based on linear regression model using 'R' machine language. 
+5) Model validation: predictive model can be run on test data to predictive the possibility of occurrence and find the pattern of the errors with respective to devices within the array of controller.
+6) Model Updation: since this analytics model build based on the log data which is available till data, this need to be update on every cycle(lets say every week) so that accuracy of prediction will be high. 
+
+Technologies: 
+Outcome will be presented in a dynamic web portal and this portal is inbuilt with ViPR Controller's GUI under the prediction pane. This prediction is viewable by ViPR administrator. During maintenance activities, threshold time interval values for pre maintenance and post maintenance will be set. This model will inform ViPR controller not to use the assets which are going to get failures and thus avoiding outage of data services.  
+
+The analytical execution is packaged to a VM or Docker container which will have options to directly integrate with ViPR service VMs or Rest APIs as well. 
+
+Below are the benefits of the solution:
+
+1. Easily deployable and direct integration
+2. Efficient time management on the pre and post maintenance activities.
+2. Reducing and preventing data services downtime and MTBF reduction.

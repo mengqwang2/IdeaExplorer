@@ -1,0 +1,23 @@
+Reducing the # of returns of our products through predictive analysis-- prototype in progress
+'Maintenance Expenses' The costs incurred to keep an item in good condition and/or good working order. When purchasing an item that requires upkeep, consumers should consider not just the initial price tag, but also the item's ongoing maintenance expenses.
+
+
+This is a real challenge cost for every company which need more attention when speaking about the 3rd platform.
+I thought about the idea with our colleague Denis Canty and when I was brainstorming about the idea of self healing IoT enabled DC.
+This idea proposes to build a complete holistic, cloud based Predictive Analytics Engine, which can be a plugin into Vipr to check the healthy status of EMC Products, taking data over the complete life-cycle of the product, and use this data intelligently to reduce the number of product/commodity returns we have. We have BIG Data from our products, but are we using it? We need to extract value from this data.
+
+Once a failure happens, we create a DNA styled footprint of this data, which we then add this to a failure DNA pooling. As this accumulates we can trend and predict the probability of failure of systems that have characteristics in common with the Failure DNA Pooling.
+
+Data includes, but not limited to initial configuration, mfg test performance data, field profiling of system performance. 
+
+The platform would have an API to view the product DNA footprint big data, with a series of apps to generate reports for every stage of the product life cycle management.
+
+This would have a big impact to our customers, and would show them we are actively looking at reducing failures in their sites.
+
+
+- Our solution will rely on MAHOUT machine learning module for " historical, streaming, and simulation " analysis for more accurate and preventive approach.
+1- Improved customer satisfaction.
+2- Decrease items downtime.
+3- Save EMC money for free interventions and replacements.
+4- Will enhance the HA of EMC products and will increase the stability.
+5- Will make a difference in the SDDC

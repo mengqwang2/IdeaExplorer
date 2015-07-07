@@ -1,0 +1,17 @@
+APJ POM/DOM Support team
+In APJ all the preorder admin work like preparing the paperwork, DXP completions and routings etc.. is done by the respective in-country Bus Ops teams. The Idea is to move these admin work to GBS so the Bus Ops teams can invest this valuable time in more analytical and productive jobs which helps build customer/partner relationship, thus increasing the sales for EMC.
+The EMEA and NA teams have teams similar to POM, where they are responsible only for orders from partners, but I wanted to widen the scope of this role and bring in more meaningful work rather than just a Admin work.
+The solution will be to remove all Admin work like preparing the paperwork, DXP completions and routings, Partner follow-ups etc...by setting up a team similar to POM/DOM (Partner & Direct Order Management support team), this team will be responsible for submitting orders to GRO teams and this team will be a first line of control for submitting order accurately with all paperwork in accordance with Rev Rec.
+
+This team will help reduce delays in order booking process and will work closely with Bus Ops, GRO, AR teams to ensure they submit cleaner orders to GRO, which will in turn reduce the booking and shipping , ultimately reducing the DSO and greater customer experience and fast collections.
+The benefits of this service is as below.
+
+Removed admin of loading documents into DMS which is very time consuming.
+Provided a point of contact in countries local hours to ensure all the information are available for GRO, so we can proceed with the bookings.
+Follow-up for approvals and help submit DXPs.
+Screen the required paperwork if complete resulting to clean order processing for GRO.
+Gives times to the Bus Ops teams to perform other value added tasks.
+Helps the various teams in managing the Q-end better.
+Helps us in being more Rev Rec complaint.
+Helps us to have greater control.
+

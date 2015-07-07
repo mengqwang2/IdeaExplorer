@@ -1,0 +1,8 @@
+Imporved backup to export selection criteria for Avamar Extended Retention
+
+One of my customers wanted to export 3 months old data from Avamar to Tapes. We used AER however due to the lack of date selection we could not select the backups we intended to export. The backp tag of all the target backups had to be manually changed using Avamar GUI one by one for more than 400 servers with Filesystem/systemstate/database backups and then export them. This task has to be repeated thrice and even now this task has to be done as and when required. This is when i realised that how easy would it be to have a data range option in the export policy itself.
+With the current version of AER, to export a backup from the Avamar grid you have selected the backup tag that needs to be exported. AER will find the latest backup with the tag you have selected to export and export it. There are times that there are multiple backups available with different dates, it is impossible to force AER to export the backups with specific date & tag. By providing a choice to select backup between dates in the export policy will ease the problem. AER will go and look for the backup tag between the dates specified and export the user intended backups rather than exporting the latest backup with the tag.
+
+Here is an example:- Exchange client exch1 has 2 monthly backups on Avamar grid 1 from January_M & 1 from February_M. In March if the customer wants to export the January backup he cannot. The customer will have to make sure that there shouldn’t be any backup with tag monthly apart from January_M. He will have to manually change the backup tags, which is quit painful and this can be solved with the idea of adding date range in the export policy.
+
+

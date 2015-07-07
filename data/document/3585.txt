@@ -1,0 +1,12 @@
+New software-defined DPAD solution with minimal cost – another look to legacy arrays
+
+The idea came up when I was thinking about the information lifecycle and wondered how we can have another look to what is called “product lifecycle” and couple it with the information lifecycle by utilizing legacy storage arrays
+The idea is to develop a software layer application/enabler that can enable legacy storage arrays to work as a backup and recovery array. This can be achieved by the following :
+
+1-	Developing a software solution that can emulate the behavior of backup solution 
+2-	The software enabler will be a license that can be sold to the customer 
+3-	The software detects legacy storage arrays such as Clariion AX and CX series and will do abstraction and aggregation of its resources then provide it to the backup solution emulator.
+4-	The emulator can emulate Avamar, Datadomain or any other DPAD solution. 
+
+
+

@@ -1,0 +1,20 @@
+Next Genetartion Education TaaS :  "Teacher-as-a-Service!" for developing countries.
+
+Previous experience working as a teaching assistant and using social media as a workaround to provide internet based teaching service. 
+the idea works as follows:
+
+-  Expertise pooling : we will have a pool of experienced teachers and a pool of students having access to the questions cloud using a web or mobile app.
+- students access the cloud portal to submit his question in the relevant subject
+- available teachers view the questions and answer them.
+- notifications can be received when a question gets answered.
+- students can rate teachers depending on the level of answers provided.
+- the cloud can be applied on one school or group of schools leveraging the concept of private and public cloud.
+- detailed design can be discussed such as (tips section/announcements section/wall of fame).
+- a teacher is registered in one or more subject/year. a student subscribes to one or more subjects for his year of study.
+- competitions can be held between schools online saving money and time needed for such events.
+- the solution can be provided by EMC to Ministry of education to be applied in governmental schools.
+- this will dramatically enhance the quality of education especially when the resources (teachers) are not enough to cover the need (students).
+- the cloud can be managed under the umbrella of Education Ministry to promote skilled teachers and reward good students.
+- when this solution is tested with some schools, the students result will be better. these better results will now then be the best marketing campaign for the solution.
+
+

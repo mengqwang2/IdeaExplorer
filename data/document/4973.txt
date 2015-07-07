@@ -1,0 +1,12 @@
+Coordinate Code Review, AR Updates, MluSanity and Promotion Request
+
+Get tired with lots of such tedious and valueless works.
+Here are some points considered at the first glance:
+1. Put MluSanity.pl execution result to a global location grouped by AR number
+2. While creating/updating code review, it also generates a Promotion Request, the contents come from Code Review, MluSanity result, AccuRev, and AR from Remedy
+3. The code review could also get some information from Remedy AR
+4. While sending Promotion Request, the necessary information also updated into Remedy
+5. The promote request could be done automatically once it is approved
+
+Keep it simple and stupid!
+

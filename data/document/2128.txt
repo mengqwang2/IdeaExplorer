@@ -1,0 +1,5 @@
+EMC Car Pooling
+N/A
+N/A
+EMC Car Pooling is an Mobile Application / Website that helps EMC employees car pool with each other. Using the application, an employee can pick the time and place, then the application will find possible matches to car pool with(i.e., employees who travel to work at the same time and from the same place). 
+The benefits of such app is reducing commuting costs to work and letting employees socialize when they car pool together. 

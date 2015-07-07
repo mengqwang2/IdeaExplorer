@@ -1,0 +1,19 @@
+Federation Global Interface (FGI)
+Reaching to other Companies to get a collaboration and support is somehow pain even by different workarounds in place. Many customers look to EMC as the big mother of different Federation companies because it is simply Work on all with Federation under one big Name EMC
+Customer complain that all Federation are one EMC, and the time to get them together is super delayed and customer became the net of a ping pong game, due to no collaboration inside the mother company EMC
+the Idea is: to have a web interface called FGI (Federation Global Interface) and this web interface interacts with different systems for all Federation companies, as not all are using the same system (this can be coding change when all federation companies use the same internal system).
+
+FGI will provide the option to select which company i need to collaborate with, and open a check availability agents to collaborate with.
+the IDEA is not only for the CS, but also for all BUs as GPS, Pre-sales, etc... to widen the collaboration to better solutions for our customers.
+
+FGI can be accessed from any platform, or even smart phones with their own interfaces.
+
+if no available agents, the FGI can contain an option to contact the Management, where drops an email to the management to take their attention that someone needs to chat.
+
+KPIs can be set on FGI
+this will provide:
+better team collaboration
+better customer satisfaction
+best solutions to be provided to the customer 
+enhance the solution support for Employees as the target for EMC 
+etc...

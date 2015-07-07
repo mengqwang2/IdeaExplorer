@@ -1,0 +1,25 @@
+Unified TCE Dashboard Framework for B2B - Social Media Analytics and Life Cycle Management   
+In today’s business realm customers are engaging more with social media and blogs to express their views, needs and the pain points. Hence social media analytics has become a potent instrument to understand the attitudes and preferences of customers. 
+Idea originated after identifying the bottleneck between EMC and its B2B customers by  leveraging social media analytics. Proposed solution produces and value adds to business development and new business opportunities
+
+The proposed framework will have the following 5 stages of process. The entire process will be contained in one Unified GUI/Dashboard. 
+
+1.	Data Capture from Social Media
+2.	Analytics of the captured data
+3.	Present the Findings on a dashboard
+4.	Recommend Actionable Strategy.
+5.	Life Cycle management of Recommended Action Items.
+
+Data Capture: The framework will use advance Profile Filters to selectively listen to various data sources in social media like blogs, forums ,twitter etc. The tool keeps a list of hashtags or keywords for searching relevant content from the data sources. It will also have different categories of filters in addition to keywords, like the demographics, the region to search, where to search in social media, sentimental keywords etc. Once we enter the search criteria in the profile dashboard, the tool can search the web and retrieve the relevant data.
+Analytics : Analytics leverage computational linguistics, natural language processing and other methods of text analytics to extract user sentiments and opinions from data sources at any level of granularity.
+Dashboard: The structured data obtained from analytics engine can now be displayed in a Dashboard or an Unified GUI. The information regarding customer buying patterns, customer sentiments about different products, trending topics, predictive analysis, competition in the market etc can all be displayed in real time in the Dashboard.
+Recommendation: Dashboard will also have a tab with recommendations. The results of analyzing the usage, buying, usability patterns of the customers, incoming rate of appreciation or dissatisfaction of the customers, the buzz around competitor’s products and services, adoption rate of technology and insight into customer’s needs versus the solution available converted into action items
+Life cycle management: It is essential for the business that the ‘recommended’ action from the previous phase is acted upon. The solution proposes to implement a Life cycle management of these action items. Role based access can be given to this tab to prioritize and work on the action items
+
+Detailed Document and mock up presentation are available in the following locations:
+
+UTDF Document                : https://inside.emc.com/docs/DOC-154792
+UTDF mock-up PPT            : https://inside.emc.com/docs/DOC-154793
+1. Unified GUI framework for identifying and bridging the gap of B2B business by pulling the most impactful and relevant Social Media activity.
+2. Real time data ingestion ensures agile process for TCE strategy
+3.can be improvised for an end to end busine

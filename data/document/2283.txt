@@ -1,0 +1,39 @@
+XtremIO support for Odd number of X-Bricks
+XtremIO offers best performance compared to any other AFAs in the market today. XtremIO has  robust architecture and future proof. We can leverage the existing architecture and improve the scalability and make it the best AFA. 
+
+While working on XtremIO sizing requests we came across a request where the customer needs 100TiB usable capacity. We have modeled a solution with 4X20TB X-Bricks and the array is not fully utilized we thought that 3 x 20TB X-Brick would be an optimal solution for the capacity requirements. 
+So we thought why not we give an option to customers to add XBricks incrementally and allow XtremIO to support 3,5 & 7 X-Bricks 
+
+XtremIO architecture should allow odd number of XBricks because we do not see any constraint in the current architecture with regards to this. Having this scalability in XtremIO will help cater to the dynamic capacity requirements of the customers. Also it helps providing a cost effective solution by allowing to expand 1 XBrick at a time 
+
+Use case Example:
+
+For Tech Refresh:
+If the customer requested capacity can fit in 3 or 5 XBrick, the solution demands a 4 or 6 XBricks due to the current limitation.
+
+Customer Requested capacity =100TiB Usable 
+•	After Dedup(Assuming dedup ratio as 3:1 default) physical capacity=33.3TiB 
+•	Physical capacity for each 20TB XBrick -14.8TB
+•	In this scenario:
+•	A 2 X 20TB X-Brick array cannot fulfill the customer capacity requirements. Therefore this is not a viable option
+•	XtremIO architecture demands a 4 X 20TB X-Bricks but the array will be only 50% utilized.  This leads to lot of unused space and also results in costlier solution
+•	A 3 X 20TB X-Brick would be the optimal solution to fulfill the customer capacity requirements
+
+For Upgrade:
+If a customer currently has 2 X-Bricks and wanted to expand by a small increment, they are pushed to buy 2 X-Bricks just because the current architecture does not allow them to scale 1 XBrick at a time
+Customer Requirement:
+•	Upgrade existing XtremIO 40TB 4-Xbricks with 100TiB Usable capacity 
+•	Required physical capacity assuming dedup of 3:1 =33.3TiB
+•	 Physical capacity for each 40TB XBrick =29.6TB
+•	In this scenario the capacity requirement can be met just by adding another 40TB XBrick. Because the current architecture does not allow odd number of XBricks the solution requires 2 X 40TB XBricks which will cost more to the customer and also results in under utilization of available capacity 
+
+In both the above scenarios the support for odd number of XBricks would help customers to buy what is actually required & also helps greatly in positioning XtremIO against competition
+
+For an elaborate pitch of this idea please refer to the following link
+
+https://inside.emc.com/docs/DOC-154485
+Better competition for all flash array products
+Customer can avail the capacity as needed and scale as required 
+Increase in XtremIO sales by aligning to the capacity needs of wider customer segment
+Helps positioning XtremIO strongly against competition by allowing incremental upgrades
+

@@ -1,0 +1,5 @@
+Radio frequency identification
+
+Our inventory control team are currently spending many man hours to clear variances in our systems due to spare parts lost.
+RFID or radio frequency identification is a well known technology in supply chain where parts are bar-coded and identification devices are implemented in warehouses and also in carrier vehicles. one more advantage is that parts location is updated on the system automatically without any need for parts scanning. Also it will enable us to get proof of delivery for parts at customer site which enable us also to measure our 3PLPs 
+

@@ -1,0 +1,42 @@
+EMC XtremScaleIO - 
+Creating the most scalable and elastic All-Flash Software Defined Data Center
+
+Israel COE - "Innovation Around SW Defined Storage and Flash"
+   The XtremScaleIO Idea combines the ScaleIO elasticity and "Software Defined" approach with the  XtremIO All-flash efficiency and guaranteed performance to form an elastic All Flash Data Center.
+
+XtremIO - "Identify new use cases and integration options for XtremIO"
+  The XtremScaleIO idea will extend XtremIO capabilities to support unlimited scalability and elasticity, enable mixing of several generations and models of XtremIO in a single very large pool of Flash Block storage, and guarantee XtremIO incredible growth for the forseeable future.
+When trying to position XtremIO and ScaleIO workloads for customers, I found myself creating this "Trade offs" between the two products. Each one with his advantages and disadvantages.
+This led to the idea of : Why not combine the two products together to create the most elastic "All-Flash" Software Defined data center.
+
+In May 2015, as part of the Israel COE "nGin" program for innovation, we formed a cross BU innovation groups to promote creating new innovate ideas. 
+The XtremScaleIO group consists of:
+Niko Farhi - XtremIO
+Yaniv Kaul - XtremIO
+Nir Sela - VMAX
+Yochai Gal - Sales
+
+On June 2015 we held a "Hackaton" as part of the nGin program and brainstormed the idea for long two days with the help of external consultants with deep experience in creating innovation and "Taking to the market" new innovative ideas.
+During the Hackaton, we have validated the idea both technically and business wise, and presented the final XtremScaleIO idea to the "Judging committee.
+
+The XtremScaleIO idea won the first price.
+Full presentation of the idea can be found in:
+https://inside.emc.com/docs/DOC-155405
+
+The idea is to run the ScaleIO SDS server inside the XtremIO cluster, thus creating an All Flash, Data Efficient ScaleIO domain.
+Each of the XtremIO clusters will form a "All-Flash" domain with "no mirroring required" because each XtremIO cluster is already protected. That way we can create a ScaleIO SDS network of XtremIO clusters as "efficiency domains". 
+Each cluster can be of a different generation and Brick size thus enabling customers to evolve and upgrade. Levereging ScaleIO elasticity, it will be able to "Move" luns from one XtremIO cluster to the other by termprary establishing Mirroring between the XtremIO domains, copying the data and than de-committing the moved lun's space.
+ScaleIO "SDS" server will be embedded within XtremIO "R Module" and will present a collection of volumes to ScaleIO SDC client.
+The combined solution will have the best of both world:
+- Predictable low latency
+- High storage efficiency with XtremIO Dedup and compression
+- Support multiple generations of XtremIO bricks and clusters in a single pool of block storage
+- Scale to hundreds of nodes and hundreds of thousands of volumes
+- Enable smooth transition from a "Physical SAN" based data center to an "Hyper converged" efficient and performing all flash data center.
+The team strongly believe that the XtremScaleIO idea will enable EMC to lead the Block storage market for the foreseeable future.
+
+By analyzing current and future storage trends, with support of qualified data from IDC and Gartner, we predict that the XtremScaleIO will enable EMC to outgrow the market and win the competition since no other solution in the market come even close to this idea.
+XtremIO grows very fast today, and ScaleIO is just ramping up.
+Soon there will be many customers with multiple generations of XtremIO on the floor with difficulties to manage it as a single pool of storage. 
+While this is happing, the competition for both "Software Defined" storage and "All flash arrays" will intensify.
+The new XtremScaleIO will enable EMC to ride on both curves of "AFA" and "Hyper Converged" for many years to come, because it is so disruptive.

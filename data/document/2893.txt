@@ -1,0 +1,5 @@
+Sensors in laptop/Desktop to monitor user activity.
+In coming years we need to move  from smarter thinking to smartest  thinking. And  IOT devices , around us could be of great use for this. For this we need to make such devices which should be capable of handling human behavior to a great extent.
+This is part of Innovation Mining workshop.
+The proposed device will be based on ECA(Event, Condition and Action). These devices will be attached with IT equipments such as laptops/monitors. Device will be capturing the user's activity(so called Events). And bsed on condition , suggest for appropriate action.
+Its next generation solution, which might not available in the market by now. The intended device/soution would  be a great driver for the next generation's smartest cities plan.

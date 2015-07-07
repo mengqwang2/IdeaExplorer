@@ -1,0 +1,62 @@
+ECC (EMC Customer connect)
+
+Team discussions on different ways to improve customer service
+Today, EMC maintains different websites/mobile apps for different products and for multiple different purposes. This means that the information is scattered all around. This solution aims at enabling single access point for all customer needs which acts as big data of all the customer information.  
+
+This solution proposes a “Single point of access for websites & mobile apps” which would include the following categories (categories could be subscribed by customer):
+1.Highlighted EMC events
+     a.	Details about EMC world, VMworld, other partner events
+     b.	Stakeholder information
+2.New launches
+     a.	New product information 
+     b.	New feature releases for existing products
+     c.	Access to virtual environment for product experience
+3.Existing products information
+     a.	Release notes
+     b.	Product documentation
+     c.	Support matrix
+     d.	Product configurations
+     e.	Product upgrade documentation
+     f.	Configuration guides
+     g.	Key highlights
+4.Knowledge base
+     a.	Whitepapers
+     b.	Product integration options
+     c.	Product inter-op documentation
+     d.	Primus
+     e.	Commonly faced issues
+     f.	FAQs
+5.Product forums 
+     a.	Discussions
+     b.	Live chat service
+6.RFP & RPQ
+7.Big data analytics
+     a.	Suggest solutions based on customer requirement
+     b.	Product market performance
+     c.	Product competitive analysis
+     d.	Forecasting solutions based on growing business need for existing customer
+     e.	Product statistics
+8.Product troubleshooting 
+     a.	Diagnostic tools
+     b.	Frequently faced issues and resolutions
+     c.	Recovery procedures
+     d.	FRU procedures
+9.Health report
+     a.	Generation of health report using diagnostic logs (highlights product issues)
+     b.	Product performance report
+     c.	Usage report
+     d.	Summary of product configuration
+10.Service contracts
+     a.	New service contract 
+     b.	Renew service contracts
+11.Issue reporting
+12.Notifications (forum, email, or mobile app notification)
+     a.	Issue notifications and resolutions
+     b.	Upgrade notifications
+     c.	Patch release
+13.Customer feedback
+     a.	Surveys
+14.Contact us
+     a.	EMC locations
+     b.	Contact information
+

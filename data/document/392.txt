@@ -1,0 +1,10 @@
+Collaboration Template improvement in Service Center.
+Saves time and effort in understanding the collaboration notes in Service Center.
+Many a times its not clear while going through the SR notes that who was the initiator of collaboration and who assisted in collaboration, until one digs deep in the details of the SR. It always bothered me that why not have a better collaboration template.
+The Template for Collaboration Initiated at present does not have the fields for 
+Collaboration Initiator Group Name.
+Collaboration Initiator person name.
+Collaboration Initiated with (Group Name)
+Collaboration Initiated with (Person Name).
+This makes things not clear at the first look as to who initiated and who assisted. It needs a deep scrutiny of the notes and the time stamps to understand this. With addition of these fields it will become clear at the first look.
+While going through the SR notes, it will be clear about the group which started the collaboration and the group which was collaborated with.

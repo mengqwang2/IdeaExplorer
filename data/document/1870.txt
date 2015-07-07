@@ -1,0 +1,11 @@
+Licensing Knowledge Base Project
+This aims at greatly enhancing the current way of doing business. It is designed to serve the new EMC model, the service 360 which will better align with our overall direction and greatly impact our service performance.
+
+Possible lean six sigma green belt.
+Part of the 360 transformation and how we want to provide closure to customer issues without passing the SR around and increasing the total time to resolve.
+A KB article is created for each product that we support. It details the steps of how to install the given license keys.
+
+Customer is provided the requested license key along with the KB article on how to actually install it. 
+Licensing will have a knowledge base with all the articles detailing how to install the license keys.
+Licensing team will provide closure and resolve this issue while avoid engaging tech support.
+Decrease the number of SRs sent to tech support allowing them to focus on more important issues like errors. 

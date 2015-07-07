@@ -1,0 +1,20 @@
+Automatic Escalation/Support Request Analysis which gives input to various stakeholders of Product Development team.
+
+We used to quarterly escalation analysis for our team, We thought if this process is automated to some extent, it would be save lot of time and also has the potential to help other stakeholders 
+Automatic Analysis of escalation/support can be carried out to give inputs to various stakeholders like QA, Documentation, Product Management etc .
+Some of the use-cases is given below:
+1.	If large number service requests are coming related to a configuration issue in a particular domain like retention configuration etc, then in a common url this information should be published and the corresponding doc/engineering team should be notified 
+2.	If a large number of escalations turn into a bug due to a error condition not handled properly, then the respective QA team can be notified 
+In the above statements: the large number should be clearly quantified. For example if the number of requests related to bad configuration is more than 10% of the total number of requests then notify it to the documentation team 
+
+Above type of analysis can be done once in a quarter (SR’s Escalation’s in that quarter) and input can be given to the different stakeholders depending on the analysis. 
+
+Implementation:
+A common dashboard can be there where any user/management can take a look at the analysis taken place. The dashboard will point to each quarter analysis. The user can click on the quarter he wants and check for the improvement areas in different domains(QA,documentation,development etc)  and take corresponding corrective action 
+An Analytic engine should be developed which will talk to the different database( Service request, escalation) and from that data will do the analysis. 
+For this to work properly the escalation bugs and SR request will have information related to different fields like whether this issue is documentation etc. 
+
+Advantages: 
+If proper action is taken on the analysis report then future SR’s/Escalation will get reduced thereby reducing cost to maintain the Product. 
+
+

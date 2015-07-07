@@ -1,0 +1,15 @@
+Cloud computing meets big data in healthcare
+Data is a tool and means to help build a consensus to facilitate human decision-making, but not replace it. Analysis converts data into information, information via context leads to insight. Insights lead to decision making, which ultimately leads to outcomes that brings value. So, data is just the start, context and intuition plays a big role.
+I though about the complexity of having a limited number of experts in certain medical areas and the huge number of patients which make it impossible to cover all this increasing number of patients. This made me think about innovative ways to employ the technology to overcome these difficulties and help the nations in one of the most challenging problems.
+My idea simply will employ EMC powerful big data solutions on the cloud for patients.
+
+With our approach every patient will have a unique profile which will contain many sections like :-
+
+1- Historical data from birth to death " available for predicting " if applicable any future health issues. This can lead to recommendations for stop smoking or changing the daily diet/ routine.
+2- Analysis and collaboration can be done for the patient over the cloud between the doctors in case the patient can't travel for the place where the expert provide the service, so that the patient can be examined with the help of the local doctor who can provide full explanation of the patient case.
+3- Our big data solution can show graphs, brief analysis for the expert doctors to help them understand the root cause of the illness and how they can treat with.
+4- Patient will not be worry about memorizing every thing about his case and be aware of every detail.
+5- This approach is doable with current EMC technology and its powerful Big data solutions.
+More positive collaboration for the sake of the patient
+Enhanced treatment process.
+Enhance productivities of the experts.

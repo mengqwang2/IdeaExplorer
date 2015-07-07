@@ -1,0 +1,23 @@
+External Tiering in XtremIO
+This idea is to enable XtremIO support,  large scale datacenter consolidation with varying application types through external tiering
+The idea evolved during the XtremIO Blended solution sizing, as most of the request would be for top 30% volumes to XtremIO and remaining would be on VNX or VMAX. So though XtremIO as a frontend would manage the top 30% workload volumes and remaining would be handled by array configured as external tier.
+Have the support for External tier in XtremIO, similar to FAST.X in VMAX3. But in this case the frontend controller will be XtremIO and not a VMAX3.
+
+Operational Workflow:
+
+1. Identify the busiest (top 30%) volumes to be moved into XtremIO and an appropriate replacement array (VNX/VMAX) for the remaining volumes.
+2. Storage pools from the new replacement array will be made available to the XtremIO as external tier.
+3. Bind busiest LUNs to XtremIO tier and the remaining LUNs to external tier
+4. Fingerprint space is allocated for all incoming IOs in XtremIO 
+5. Memory Mapping table will have:
+    a. LBA to fingerprint mapping 
+    b. Fingerprint to the Physical Location(either XtremIO or the External tier)based on the binding of the LUNS
+6. Any redundant data to both XtremIO and external tier are deduped by validating existing Fingerprint and a new fingerprint is created only for unique data.
+
+Please refer the following link:
+https://inside.emc.com/docs/DOC-155558
+
+As XtremIO is used as frontend, inline data deduplication and compression would help consume less physical capacity in XtremIO as well as in external array resulting in lower TCO and footprint.
+
+Additional cost involved for the Virtualization hardware like VPLEX is eliminated.
+

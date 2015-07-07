@@ -1,0 +1,10 @@
+Supporting customer and using the data to build a robust knowledge base for Customer Support
+
+Most of the folks do not have contract with EMC and use Google to support themselves.
+Many organizations and customer do not have valid support with EMC and thus rely on Google to help them out. 
+Whenever they search for any issue related to EMC products, it should lead them to EMC webpage and it should give them an option as to if they have a valid EMC contract or not. If they have an invalid contract or no contract , the webpage should still allow them to send the case details to EMC but clearly let them know that the issue can be given a best effort support however if they can they will surely help. Now for such cases if the issue matches with an existing kbase issue provide it to them. 
+This webpage should actually be used to gather data which otherwise was being lost in the alleys of Internet.
+Big data technology to be used to analyse and see if these customers can be contacted and sold relevant and correct products. 
+Big data to be also used to grab all the data from existing tickets and match them with the issues logged by the folks without contract to see if they can be assisted.
+This data should also be used to see if our existing kbase is up to date and update existing documents with relevant tags to ensure they are pulled when relevant key words is put.
+

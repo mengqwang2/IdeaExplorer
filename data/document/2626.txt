@@ -1,0 +1,8 @@
+Print from Anywhere
+This idea uses technology to have seamless experience of printing from anywhere. Also provider printer(MFP) flexibility and practialy no restrictions
+Whenever i visit different office and there is a necessity to take printout, i have to go through all the hurdles explained above.
+Send an email to particular ID along with workplace or building/floor/cube location. Ex: Send email from outlook(corp) to emcprint@emc.com with other details in specific format. This email will scan the info and print to the nearest printer physically located to that person. It can even determine the physical location using port attached/associated(WiFi). Automatic reply will come giving the exact location where printer is located.
+Avoid IT support and saves money
+Customer(end user)satisfaction
+End user need not waste time looking for driver/printer
+

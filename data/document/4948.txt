@@ -1,0 +1,8 @@
+Smart cache system in SaaS applications
+
+In performance test, I have found that overall performance of an application is dragged down by few requests. Sometimes those requests are common to all users. Therefore I'm thinking if we can cache the results of such kind of requests can be helpful to improve performance. But one problem is, how can we determine which requests need to be cache?
+In SaaS system, SaaS monitor tool can track all the requests and responses, including their contexts and elapsed time. Therefore, based on the tracking, SaaS system is able to know which requests are the heaviest and which requests are the most frequent to trigger. Then, SaaS system will cache the results for such kinds of requests in memory.
+When SaaS system processes a request, it'll check if the request is cached in memory; then it'll decide where to fetch the results - either from the cache or normal process.
+Also, it can define cache rules to the cache system - by telling the system the thresholds and SLAs for determining to cache a request or not.
+Furthermore, cache system can remove a request from the cache by some rules - e.g. if the request hasn't be triggered for more than 6 hours.
+

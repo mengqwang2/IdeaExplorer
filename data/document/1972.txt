@@ -1,0 +1,5 @@
+Customer Care
+The challenge is seeking an idea to improve the communication between the partner and the customer 
+The idea is very simple but doable and very useful
+The idea is about sending a bi-weekly survey to the customer entitled as Customer care survey. This will be like a questionnaire that will assist the customer to give feedback, provide comments that will enable EMC enhance the relationship between the customer. This will make EMC closer to the customer that will leverage text analytics to gain valuable customer insights. 
+This is a simple bi-weekly survey that will make sure that the customers are happy and satisfied with EMC support and services

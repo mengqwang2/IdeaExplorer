@@ -1,0 +1,16 @@
+Data Replication as a Service – DRaaS
+
+I am a part of AppSync/Replication Manager team that automates storage level replication technologies and the products are heavily resides on EMC arrays and its licensing policy. By this DRaaS model we can increase market share of AppSync.
+1] Integration of DRaaS to ViPR data path:
+
+ViPR is a storage virtualization layer that virtualizes EMC and Non EMC arrays through control path. It provides Block, File, Object level services under data path. Here we can integrate DRaaS with achievable way through REST interface.
+
+2] Integration of DRaaS on 3rd generation platform:
+
+We can integrate DRaaS as cloud services through third party cloud storage providers and in future on EMC atmos – EMC owns cloud storage platform.
+
+Customer will be provided cloud access URL to register and access DRaaS, he/she can provide necessary information like infrastructure, host, application, replication technology, consistency level to service platform as input parameters, with this information by deploying agent we can analyze the host and take the replication.
+
+we can provide restore, backup and recovery solutions as a services too.
+
+

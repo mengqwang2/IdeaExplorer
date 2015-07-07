@@ -1,0 +1,20 @@
+Automated Recommender System for Backup Management Policy
+The idea changes the way we customize or configure our systems at the customer site, automating some of the deployment process, tailoring it to the specific customer data center using a disruptive method to create policies based on data science and machin
+Amihai and Raphael (Data Scientists) collaborated with Michael and Roi (DPA)  based on our experience using DPA and understanding of the client needs  and based on our experience with Machine learning and data science methodologies .
+
+IT operation environments house a large number of applications required by the business for daily operations. Backup management software products assist IT operations by alerting the system manager when a risk is identified in one of these systems (e.g. number of active files in a networker client or job name and error string in a SAP HANA backup job). DPA ships with a generic policy on which events to alert on, since this policy creating too many alerts the users may edit the policy to alert using various business rules. Tuning this policy may be time consuming (months of expert time) or even dangerous if the user chooses a bad policy. Moreover, many users are not even aware to many of the rules that can be created using DPA’s advanced business rules platform.
+A major transformation in IT technologies is the use of statistical methods to improve and optimize on rule based systems. We describe a system for optimizing the policy by customizing it for each IT system by applying recommender system methodologies such as collaborative filtering and text analytics on data (Policies) that we collected from different IT systems and customers.
+
+We describe a new process and tool for automatically recommending business rules for backup management policy. The tools allows an easy way to optimize the policy, share standard practices and  minimize the number of false alerts produced by a backup management system such as the Data Protection Advisor (DPA) by utilizing big data analytics on historical data which collected.
+
+The gist is to find strong correlations between different policies (set of rules) and recommend rules for improving the customer’s policy based on similar customers (e.g. “customers who used the number of open files alert in Networker also liked…”).  The automatic recommender will leverage configuration and exiting rules to rank and recommend the most relevant new policy rules.
+The recommender system for optimizing DPA rules will be built of the following modules:
+1.	Data ingestion and parsing – this module will get policies that were defined on different system by different customers, parse and learn the rules using text analytics technics.
+2.	Recommendation Engine – this module will constantly build and update similarity between different policies using collaborative filtering methods  
+3.	Rules optimizing mechanism – this module will use the similarity that was calculated in the last step in order to rank for each given policy the relevant top five rules. The top five rules will be suggested to the customer
+
+Main advantages:
+1.	Experts do not need to tweak policy.
+2.	Reduce adoption complexity. 
+3.	Prescriptive business rules, provide more value to the customer.
+4.	Improves total customer experience of backup management software with a more intelligent adviso

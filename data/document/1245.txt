@@ -1,0 +1,8 @@
+Data distribution for power saving
+A new way for data distribution across storage nodes and disks allowing nodes to go in sleep mode and power off automatically.
+We work for Centera which is an archiving storage where we can see data that has not been used for years.
+
+Brainstorming with colleagues Ragy and Mina on how to decrease power consumption for this product having the fact that there is disks/nodes with no I/O for years
+A new internal process for data organization inside the archive clusters to move data that was not used for long time to specific disks and nodes. these nodes to be power off automatically to save energy and incase these data is needed, nodes to be powered on automatically as well.
+This will give EMC product an edge  to any other competitor for energy saving.
+decreasing datacenter power consumption saving our environment

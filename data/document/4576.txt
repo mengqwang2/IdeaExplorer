@@ -1,0 +1,5 @@
+MyVoice Big Data project
+
+Once I saw the HR challenge, this idea came to my mind.
+For example: EMC Spain had 1st place in GPTW for the 2nd year, so all the factors in Spain workplace should be analyzed (as well as other successful places) and it should be compared with the places with less results to see in which factors we have gaps. Here - from my experience - I am talking about using the Lean Six Sigma data analysis tools (correlations and regression analysis as an example). Based on a clear FULL analysis on ALL provided data, better business decisions will take place that will definitely cause a better place to work.
+

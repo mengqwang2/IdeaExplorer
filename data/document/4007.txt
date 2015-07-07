@@ -1,0 +1,13 @@
+Elite Customer Portal
+
+-
+Elite Customer Portal :-
+
+We always talks about being pro-active rather than re-active. Here is a Way to implement the same. The idea is :-
+
+1. Create a seperate portal for elite customers, to get feedbacks from them. A feedback can be ranging from Customer services, products they are using. Any constant problem cutomer is facing with their environment.
+2. Customer can also Submit what are their needs, be it specific to any products or a new product. Or may be a enhancement they need in their products.
+3. This portal will have option for SR creation as well.
+
+Based on the customer feedbacks, EMC can act in the direction of addressing customer queries and inturn imporve the TCE.
+

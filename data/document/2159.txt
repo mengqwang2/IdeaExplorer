@@ -1,0 +1,10 @@
+Smaller form and factor for FLASH
+Currently EMC is aligned with the SSD industry and rely on the size of the flash drive, form and factor. The maximum size of Flash drives we have adopted at this time is 1.6TB and it eMLC grade. However, when the industry moves to all Flash arrays, it will demand higher capacity and power, space and cooling expenses for data centers will become a huge consideration. 
+Note: the highest density DAE EMC has is 120 drives in 3U
+The idea started with the recent introduction of Viking DAE which accommodates 120 drives, but we continue to use standard 2.5 drives. I just purchased an Intel NUC and bought a 100 GB mSATA drive, this gave me the idea of increase capacity and reducing size of our DAE. I also thought of the name as WEE-DAE...
+Currently Flash vendors are offering approx. 1X2 inch Flash drive and maximum size of these Flash SSD are in 500 GB range. These drives are called mSATA and M.2 drives and form and factor of these drives are going smaller in size and higher in capacity, these drives plug into standard connectors. The idea is to create a 1U DAE with connector board at the bottom of the DAE, and plug in these drives with standard connectors. According to my calculations, we can accommodate 500 Flash drives in one DAE. By the time this idea becomes a reality, vendors will be shipping 1TB capacity in these drives. 
+This means that EMC can ship 500TB in 1U, this will put EMC as a leader in Flash density, and the DAE could be used by all storage platforms such VNX, VMAX, XIO, etc
+Tremendous benefits to customers and EMC
+1- EMC will lead the AFA density space and competition will be 2 years behind
+2- Customer will space tremendous amount of Operating cost
+3- Huge revenue potential as customer will look for AFA that reduces their foot print

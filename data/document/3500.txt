@@ -1,0 +1,5 @@
+Say Hello to your Customer 
+
+- Idea Came up in order keep EMC in touch with the customers all the time.
+- Mobile S/W Application to send SMS on Customer's Mobile Phone at the Holidays and Public Occasion.
+

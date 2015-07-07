@@ -1,0 +1,5 @@
+Virtual Storage as service(Example  virtual memory Card for mobile and virtual HDD for Laptop/Desktop)
+Due to space constrains, lot of data’s (like images, document and videos) would be deleted, and those can be stored with the help of virtual storage. Even the device is lost; they will get back their data’s.
+While downloading the whatsApp images, my phone memory is running out of space, I am forced to delete the old data’s. That time I thought about virtual Storage, so that I can move my data, instead of deleting it and can retain it for long.
+Most of the mobile and laptop user are going for memory Card and external HDD, instant of they can go for Virtual Storage with the help of EMC cloud.
+Both organization and the user can be benefited. Organization can make money by selling the service. The user will get the advantages like Usability, Accessibility, Scalability, Disaster Recovery and Device independent.

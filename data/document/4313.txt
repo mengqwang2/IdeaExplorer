@@ -1,0 +1,6 @@
+The seamless handoff of conf-call, WebEx or other tasks between one's desktop/laptop and mobile devices
+
+Lync is a commercial software we don't have any demo environment so far. But Apple released a new feature called "Continuity" which has a prototype of our idea.
+1. The "seamless handoff" feature (of the app or system) gives our employees the ability to pass whatever they’re doing back and forth between their nearby desktop, laptop and mobile devices. The tasks could be writing email, conf-call, WebEx(Live Meeting), sharing files and so forth. If we could achieve this, EMC would be a great place to work.
+2. By Microsoft's design, all communications between the clients takes place through the Lync server. So we can deploy the system on that server and our app only communicates to this system. This makes communications more secure, as messages do not need to leave the corporate intranet. 
+

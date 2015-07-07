@@ -1,0 +1,7 @@
+Energy efficiency by Performance Tuning the app
+By performance tuning we can improve the energy efficiency
+Own thought process
+When designing the application when compared with application features generally performance and security are given least preference. A performance tuned application consumes lot of cpu cycles and hence lot of wastage of server energy. Consider an example: A badly designed bulk loading application takes 12 hours to complete, same can be tuned to run with in 2 hours. Hence saving 10 hours of cpu cycles.
+
+Hence create a "Performance Lab", where the application will be designed with Performance in mind. Its not just the performance testing, include the performance as key process in the SDLC.
+This not only saves energy but also as the application runs much faster, customers will be delighted.

@@ -1,0 +1,26 @@
+Efficient NoSQL solution for XtremIO
+Create new use case for XtremIO; build new creative tech differentiation over other AFA
+EMC OCTO is building a Big Data project where Redis is evaluated, we found just as many customers complained, performance drops significantly when mem is going to full and VM failure causes warm up curve. 
+Meanwhile,we notice recent KV offering like CouchBase and Aerospike are trying to optimize with SSD but still immature, so we think good opportunity for XtremIO to embrace NoSQL via creative and effective solution.
+Current situation is simply combining NoSQL with XtremIO, simple but can't address aforesaid issues efficiently because of many layers and overhead like FS, system cache, context switch etc, the latency and efficiency are not convinced enough. Also, it dosen't create a strong tech barrier, X-IO can be displaced easily by whatever other AFA that exports fast store. 
+
+We need a more competitive and efficient solution. A tight couple option to integrate Redis etc into XtremIO-Linux via Docker, but sounds not well align with current focus/strengths, see detail in https://inside.emc.com/docs/DOC-155756
+
+We propse an efficient interlocking by a smart add-on client atop XtremIO, so change in X-IO is minimum, meanwhile maximize strengths from both through independent & interlocked sw for 1+1 >2 effect. 
+Smart Client: a client that runs on each KV node to make it X-IO aware, bridge them in a fast (bypass FS/system cache),efficient and smart way. include control plane: auto config, monitor, path management, and data plane: 
+1) Upper plugin layer: to support various NoSQL like Redis on hot/cold data management 
+2) Core data management layer: aggregated write, proactive read, expiry&GC, zero-copy etc 
+3) Storage layer: X-IO oriented optimization for perf and efficiency. we may offload Value’s fingerprint computation to the client since KV is memory intensive not CPU, then dup 'value'traffic could be avoided for perf. From this point it likes a DDBoost. 
+
+Further, we can enable client-aware data partition to reduce IO path. Different than LUN where offset is maintained by X-IO for addressing, KV is indexed by its unique 'Key' where key is always pinned in memory, so we can offload X-IO partition logic to the client that it talk to X-IO C/D module directly,
+Further, data RDMA is possible IF with IB or SER/iSER on SCSI/iSCSI.
+
+Overall the solution enables higher perf, efficiency, scaling with lower cost and risk, it has more potential in perf and closer integration.
+We can make the client flexible enough even Open Source and extensible to various K-V/NoSQL as it's running out of box
+1.Create new use case on high growth NoSQL. The solution offers customer better ROI: higher performance with much better capacity scalability and less cost. we expect TCO save 50+% comparing to pure mem and other vendors. For delivery, we may
+ 1) XtremIO box + Smart Client (free download) for the most flexible; or 
+ 2) Pack NoSQL nodes + XtremIO box as Appliance solution.
+    Pivotal Redis/GemFire could be the first NoSQL then others like MogoDB etc.
+2.Build new tech barrier for competition, show XtremIO’s leading architecture and innovation
+3.May open source the client, thus enable more NoSQL into EMC landscape and show EMC commitment on Open Source
+

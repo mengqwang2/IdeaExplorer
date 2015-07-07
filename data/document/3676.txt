@@ -1,0 +1,8 @@
+Great People, Great Place 
+
+I have tried this with my team  this year and a got a very positive vibe. I am talking about a campaign "My place, Great Place"; "Great people, Great Place", "Greate Leader , Great Place" The whole idea here is not to talk explicitly about the area of improvement. However it talks about the positive reasons why the above capmpaign is true and talking about the reasons. Those reasons are automatically bringing the area of improvement but from a postive reinforcement.
+1. Use EMC greenplum and establish a corelation between the high score of individuals and the comments section across years ; The relation will be established to findout the comment pattern for postive scores
+2. Establish a pattern of behavior from comments to make people understand what behavior is creating those scores
+3. The whole shift here is we are not focusing the analysis on low scores; but we are looking at high scores only
+4. Drive those positive behavior charaters as a campaign ; my philosophy is positive reinforcement will over power the improvement drive from improving the  negative behavior
+

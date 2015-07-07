@@ -1,0 +1,18 @@
+Scalable, easy-to-use platform to analyze and visualize MyVoice data
+
+This idea is inspired by two experiences: (1) my desire to visualize and benchmark with previous years/other teams/geographies at a more granular level when receiving the compilation of my team's MyVoice survey responses and the (2) my familiarity with Greenplum and Tableau from prior big data analytics and reporting projects.
+Infrastructure: HR can work with Business Analytics-as-a-Service to obtain a Greenplum sandbox where the existing 3 years' MyVoice data for all teams are stored as the single source of truth. Then we use Tableau as the graphical user interface over Greenplum to visualize the data. In Tableau, each manager can manipulate how they wish to view the data (e.g. by previous years / benchmark against other teams / MNCs), as well as export as reports to share with their teams. Managers do not need to know Greenplum to analyze and visualize the data. Subsequent years' MyVoice data can continue to be funneled into the Greenplum sandbox. Other HR data (e.g. manager characteristics from Peoplesoft) can also be fed into the Greenplum sandbox to identify potential correlations with the MyVoice data set.
+
+Additional data:
+-We can collect additional information from managers on their team characteristics to conduct further benchmarking and analysis. Examples of data points gathered that could increase the value of the could be the function (sales/customer support/engineering/marketing/finance etc), team size, single/multi-location, seniority, average tenure etc.
+-We can also run experiments to test initiatives that could improve our ratings in certain categories by piloting them in certain regions for a year. Then we can measure the effectiveness of the initiative on the change in ratings between the piloted region vs. other regions. 
+
+Potential analyses: Here are some preliminary ideas
+1. What are the categories we have improved / deteriorated?
+2. How do our trends compare against top MNCs?
+3. Are there correlations between categories' ratings and team characteristics? (e.g. Do sales teams / certain geographies generally perform better on certain categories? Do teams spread across multiple location underperform on certain categories?)
+4. What are the biggest drivers for employee satisfaction / high Great Place to Work ratings? (via regression analyses)
+5. What are the common best practices of top-performing managers overall and by categories? (identify and interview top performing managers, and share findings with other managers)
+6. What are strategies / initiatives taken by managers whose teams' Great Place to Work ratings have improved? (identify and interview teams with significant improvement, and share findings with other managers)
+7. Are there correlations between MyVoice categories ratings and employee performance? (correlation analyses if annual performance data are fed into Greenplum sandbox)
+

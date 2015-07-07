@@ -1,0 +1,7 @@
+DCA Test Time Reduction
+
+Jerry Diehl: Project Lead
+Rick Albert: Test Engineer
+Currently accumulating data to present proposal.
+Eliminating non-value add testing can reduce the test time by 50 - 90%
+

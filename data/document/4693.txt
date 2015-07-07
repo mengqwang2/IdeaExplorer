@@ -1,0 +1,5 @@
+Electricity generation by using of the piezoelectric effect
+
+Read an artical about ecological methods of power saving.
+Generate electricity for the office autonomously by piezo elements built-in under floor material.
+

@@ -1,0 +1,10 @@
+EMC Solutions to Banks
+
+I used to work for a bank that uses the old archiving way to store data
+EMC to provide solutions to banks that still use the old archiving way to store their data. 
+
+This solutions could be for example: Centera.
+
+EMC could use big data analytics to know what banks still use the old archiving way in saving data, as some banks especially in the developing countries still use it.
+
+

@@ -1,0 +1,5 @@
+Innovation Suggestions
+
+Innovation Session
+Innovation Portal automatically suggests challenges from keywords written in idea description to better categorize the ideas and maybe proposepose suggestions automaticall like "can you make this idea also environmentally friendlier? "
+

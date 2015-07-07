@@ -1,0 +1,13 @@
+Self Healing Ability for backend tools (ECC, SRM & DPA etc)
+High availability is the major advantage of having the Self Healing Ability in our backend reporting tools. 
+Just came in mind and then discussed with my Manager like a week back.
+real-time monitoring and reaction will allow us the system to constantly tune itself to an optimal state. Anticipation will enable the system to automatically look for problems that could trigger larger disturbances and also will allow the system to isolate parts of the network that experience failure from the rest of the system, to avoid the spread of disruption and also avoid human intervention.
+High availability and Stability
+Less Human Intervention
+Effective utilization of the tool
+Better control over the customer environment
+Improved Customer Satisfaction
+Effective utilization of resources
+
+
+

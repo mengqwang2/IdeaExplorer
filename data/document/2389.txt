@@ -1,0 +1,7 @@
+EMC Storage Lockers
+This idea is about to expand the EMC to Maximum customers instead of keeping it for Enterprise big customers. This idea is about to provide flexibility on access the space for user to store their personal information like Mails / Documents/ Photos / Healt
+Today every one talks about Cloud, but in cloud you get space through online. Remaining things you need to setup on your own. What if EMC Provides same space in Required format for end user ?
+EMC has its own Data Storage. Leveraging existing EMC Storage Concepts, EMC should come up with Solution where we Provide Space[Like Cloud] but allocate space in required format for End user to access and Store the Data.
+This idea can be implemented every where who deals with Data and wanted to store Data in certain formats.
+This solution can be expanded to whatever extend and EMC can grab market from each individual person like cloud business.
+

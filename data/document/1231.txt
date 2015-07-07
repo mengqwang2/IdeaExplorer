@@ -1,0 +1,11 @@
+IoT secure femto cells
+in a smart city, no need for BTS towers for cellular data.
+we will rely on IP backbone with hundreds of very small home devices that propagate 4G.
+
+ideas of femto cells is still under research but surely it will dominate.
+
+it is considered as IoT, and the amount of data generated from these cells will be huge.
+
+http://www.smallcellforum.org/
+for these femto cells to work together to avoid signal fading, they need to be connected together and communicating with all the information for each cell, so collaboratively we can do RF scanning, prediction, avoid fading.
+better and smarter way of communication

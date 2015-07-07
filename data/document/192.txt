@@ -1,0 +1,11 @@
+Integration of Platypus Diag into HW M&O Solution (OnRack)
+Incorporate the rich and in-production level feature sets of Platypus Diag test solution. Enrich the capabilities of OnRack HW M&O solution at nodes discovery and catalog, real time data analytics of telemetry.
+We heard the idea of the "at field diag" use case of Platypus solution from GHTS management, and also kept watching and being interested in the HW M&O solution progress of our Group. The integration of Platypus Diag into OnRack is a great idea we think about.
+Use customized Platypus builds as the compute node bootstrap image for OnRack to run on new discovered compute node. Through this integration, the advanced features of Platypus physical discovery(PCIE/I2C/USB/Memory/CPU etc) and system healthy test functionality can be easily leveraged to meet the HW M&O requirements on nodes discovery.
+
+Run customized Platypus as another CI platform service either in bare-matal OS or virtual machine of compute nodes. Add PCP protocol adapter in OnRack Stack to communicate with OnRack. This way we can leverage the scalable, comprehensive test features to collect and analyze the telemetry data ( include IO performance, faults, thermal, power, CPU/memory performance, etc).
+
+
+Reduce the new development cost by leverage and reuse existing features that Platypus already provide with limited customized effort.
+
+Incorporate real time diagnostics agents into the HW M&O solution scope.

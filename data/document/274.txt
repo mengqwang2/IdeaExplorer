@@ -1,0 +1,17 @@
+My Offers And Discounts Application 
+This will serve the challenge/s listed below.  
+
+
+NA
+create an application on mobiles that would show you the offers and discounts offered to EMC employees. 
+Further, it would show you the road to the nearest shop of what is listed in there. 
+
+You can pick a category, view the offers, see the nearest shop and get directions! 
+
+Include travel offers. 
+ease of use
+more usage of offers 
+free directions 
+employee satisfaction 
+loyalty 
+

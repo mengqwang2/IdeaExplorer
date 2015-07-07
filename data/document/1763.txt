@@ -1,0 +1,12 @@
+Consistency Group for NAS (Embedded NAS) & Remote replicas via FarCopy
+NAS applications require consistency across multiple filesystem systems – to improve RPO for NAS customer.
+eNAS team is working on its roadmap and it is limited by current Snapsure count limits that is impacting overall eNAS. Symmetrix provide better technology as SnapVx that can be integrated with eNAS.
+eNAS is embedded NAS solution for SymmV3. eNAS can integrate with SnapVx technology using SYMAPI interfaces and use storage-group as Snap-Unit. 
+SnapVx also provide target-less snaps so that current limitation of 196 Snaps for VNX can be improved. 
+
+Thus all filesystem using Storage-group in backend, will be snapped together and provide application level consistency. All filesystem using SG could be freezed by Datamover to allow Snap consistency.
+
+1.	Better technology for customers. 
+2.	Address new application challenges that require consistency at multiple filesystem level – which is limitation of current SnapSure techonology.
+3.	Ability to sale more Symmetrix V3 systems that are required for hosting embedded NAS.
+

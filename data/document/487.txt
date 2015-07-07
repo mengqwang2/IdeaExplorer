@@ -1,0 +1,8 @@
+less crowded workspace
+Having your monitor and only internet connection on your desk while all other hardware stuff is just disappeared by suing virtualization. We will have a more modern and less crowded workspace.
+I was discussing this idea with a colleague.
+The solution aim to use the virtualization layer we have at EMC. Using installed Vmware each engineer will have Desktop software. Each engineer will be able to run multiple instances of operating systems he need and he will be allocated with the memory and the processor requests he need.
+He also wil have access to the cloud and there will be no need for any additional hardware as the hardware will e centralized in the lab only
+- Less crowded spaces
+- EMC will save more money that was spend having to replace the CPUs and different hardware every 3-4 years
+- More efficient support due to the fact that the engineer will be always equipped with the latest versions and highest speeds.

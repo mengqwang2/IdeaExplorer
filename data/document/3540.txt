@@ -1,0 +1,5 @@
+Enhanced security for telebanking with sensitive and confidential information
+
+A thought 
+We can channelize the customer communication thru an IVR system and generate a unique code along with an RSA hard/soft token number; this unique number can be shared with the telebanking representatives to identify the customer to ensure no personal sensitive data’s are shared with customer support desks. These can also be leveraged for online transactions for an additional level of security like OTP
+

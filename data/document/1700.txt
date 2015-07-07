@@ -1,0 +1,5 @@
+Google Apps for Inventory and supply chain manegment
+different spread sheets and docs are used to document the operations in the supply chain this documents are very hard to keep synchronized and can be a way for manipulation and coruption
+during the challenges fast track event
+Using Google Apps (docs & spreadsheet) as a cloud based solution to replace the legacy documentation tools
+increase the security and consistency of the data 

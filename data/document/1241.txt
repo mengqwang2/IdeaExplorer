@@ -1,0 +1,11 @@
+Business Demand LookUp of Backup and Replication of Data
+Global Solutions Challenge is the challenge which we are targeting.
+
+We have the solution which collects all kind of backup/replication data, asset location, usages, change rate etc.
+By doing analysis of this data we can predict the customer usages of EMC product and this information can be used further to grow the business with the customers by helping them to understand the new capacity they might need in future to protect their data and recommend them EMC products which can help them in reducing their cost and grow their business.
+Me and my colleague Lokesh Gaur is involved in this idea. We have searched on internet and we don't find such kind of facility or tool available to help the customer.
+We do the analytics on the gathered data and show the UI charts to the customer and indicate them their future demands for the backup and replication so that their business runs smoothly.
+
+As we have all kinds of data of customer for example asset locations, replication usages, backup usages, file system backups , vm backups and different other plugin backups. We run the batch analytics on top of this data and find the relevant information.
+This idea can bring a new business for EMC as the future trends of the usages of data is predictable for the customer now.
+An implemented idea would depict much relevant information on UI which helps the customer to visualize there data and usages. It will be good money maker business. 

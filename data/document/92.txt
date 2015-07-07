@@ -1,0 +1,16 @@
+EMC product lifecycle and the value of unused data
+In my current role in Wind telecommunication, I face every day a failed part from their different data centers across Italy. The thing that made me think about proposing a new solution that can reduce and minimize such failures for the minimum we can. The solution will reduce the DC components downtown to the minimum, and will save a lot of money to EMC.
+I though about the idea when I saw the huge amount of disks that are replaced every day at WIND datacenters, which needs a huge amount of efforts to be done plus the cost of the CE who performs the task and also the cost of shipping the new parts to be replaced. 
+We need to pick a golden opportunity to learn from the life cycle of our products. EMC ships every day thousands of products to many customers in the world, and after the installation/ implementation EMC doesn't know any thing about these devices. 
+
+I aim at having a powerful analytics engine for every product line " VNX, Symmetrix, DD, Avamar" to learn about the different conditions and the different operating environment to predict certain " disk/controller failure -actually it costs EMC tons of money- and future performance tuning. it can made by analyzing the SRs opened by call home or by the customer himself. Every product can have under its serial number, a text file that contains this information for analytics for preventive actions against future downtime.  
+
+
+By this solution EMC can only gather a certain type of information that can help us in future savings and convenient customer service. This data can be combined and related in an intelligent way by our in house data of " SW/HW testing, MFG, type of material used, and final configuration requested by the customer" with the fed data from the customer side " for example the " operational environment, heat conditions,...etc.
+The solution will help EMC to have like "eureka" approach with the failures and the root cause analysis, which will permit it to avoid in the next production releases.
+
+Proactively predict failures
+Maximize TCE
+Save cost & time for customer service
+
+

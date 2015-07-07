@@ -1,0 +1,5 @@
+IPv6 Security
+As mentioned our daily life if full of devices that can be greatly affected if compromised. If any of the daily used devices like Mobile phone, PC, smart watch, etc... get compromised, we not only suffer the loss of data and PII but also we could suffer the loss of a huge ton of Money as most of us save credit card numbers and details on such devices.
+I have worked before with IPv6 and implemented it on more than one devices and made tests to compare between IPv6 and IPv4.
+My Solution is to use IPv6 on all new devices, specially the ones that we don't take care of security within. IPv6 has a very important feature which is that IPsec is mandatory and not optional like in IPv4. This helps a lot in Data in Motion as traffic now is force to be encrypted "To prevent sniffed traffic from being interpreted", hashed "To prevent any alteration of transit data", and authenticated "To prevent any rogue access"
+Success in this, is having all devices in the near future use IPv6 to force Security in all communication along with all other benefits that IPv6 has.

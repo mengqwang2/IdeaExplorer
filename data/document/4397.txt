@@ -1,0 +1,5 @@
+Resource-As-a-service model for effective Human Resource optimization
+
+This thought came from reading challenges and problem statement.
+The solution comprises a database of Skill matrix and employee profiles.  The Database contain each employee's skill sets, their competencies, educational qualifications, Certifications, Project deliverables etc.  The entire database will be injected to a Pivotal Bigdata analytical engine.  The analytical engine will analyze using it's optimization Algorithm.  The type of analytics used will be Descriptive Analytics and Predictive Analytics.
+

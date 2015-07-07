@@ -1,0 +1,20 @@
+Ensure Employees/customer/vendor/visitor Security and Safety awareness in Minimal time and effort
+1.) All COE has safety and security as one of major concern so how we can ensure that the employee, customer, vendor, visitor are aware of safety and security with minimum cost and time.
+2.) Currently no Meeting room/cafeteria has emergency contact number
+I am new joiner to EMC but I found myself unaware of Emergency Evacuation and safety plan. As of now there is no such practice exists on sharing safety information to new joiners, customers or visitors on emergency contingency plan.
+
+
+My solution is:
+1.)Add a Safety slide in EMC PPT template after Title Slide where presenter will quickly touch upon emergency evacuation plan and facility briefing which will make employees, customer, vendor and visitors aware and safe in EMC premises.  This is highly cost effective solution and can be done in minimal time of 30 Sec.
+
+2.) Meeting Rooms Should be displayed with emergency contact numbers Internal/External.
+3.) During Phone Meeting Host should announce the security guidelines at the start.
+4.) Also keeping safety slide should be mandate in all the presentations which will result the safety becoming part of EMC culture. 
+
+Link of PPT Template and phone guidelines uploaded  on inside EMC:https://inside.emc.com/docs/DOC-143356
+
+
+Success factors:
+1.)Rolling one slide with basic safety information will not take more than 30 Sec.
+2.)No Additional Cost to company for educating customer/vendor and visitors.
+3.)Over the period of time by seeing the slides Safety becomes culture.

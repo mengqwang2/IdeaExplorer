@@ -1,0 +1,5 @@
+Cloud Migrator Utility for ATMOS(EMC Private cloud offering)
+
+Being in IT we faced the same issue when deploying ATMOS private cloud, this idea is to address that pain point.
+The idea is to have a utility which helps to migrate the data to private cloud(ATMOS). The utility should be integrated to the ATMOS GUI and should be user friendly for administrators to migrate the data to ATMOS. The utility should use the various migration tools in the back end to perform the activity and the GUI should hide these various operations giving the administrators a simple to use utility to migrate the data.
+

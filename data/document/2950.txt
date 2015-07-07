@@ -1,0 +1,5 @@
+One Stop destination to learn about products in an organization
+Organization do  not have single destination to locate/learn/share information about product. Collaboration among stakeholders like Customers, Engineering, Sales, pre-sales, customer support, product management is a challenge.
+Work experience
+Proposed idea is to build an application portal which would integrate all available tools in an organization like, JIRA, wiki, Inside EMC, eRoom,knowledge base,customer feedback blogs etc. Also have a blog spot to relevant parties for vote, comment and propose ideas which helps in betterment of the product. Have search facility to spot any topic for: education purpose,helps in building/testing of products. Search by:products, issues (JIRA integration), component tags, test data (wiki, Inside EMC). Cool dashboard to show top 10 issue areas for any product faced by customers.
+Share information to build better product, teams can advertise on cool things they build(eg:one click installation of the product test bed), improving quality, understand product usage in real-world,"HAPPY CUSTOMERS", ultimately better sales and revenue.

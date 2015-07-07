@@ -1,0 +1,55 @@
+Cloud Enabled Smart City
+This idea talks how to effectively manage energy consumption in a smart city. It also talks about some points which can be implemented very easily and it is cost effective.
+
+When we are discussing about how to reduce the power consumption we got various ideas and we listed all of them. We also discussed other various options that are missing in the current infrastructure which will help people.
+
+	In this idea we have proposed multiple solution that can be implemented as a part of smart city.
+	
+	1) Creating a private cloud in a smart city
+	
+	Today each and every house has a laptop/desktop and most of the house has both of them. But if we consider the usage vs capacity of the hardware it is very minimal. i.e. we have octa core processor with 16GB RAM but we don’t utilize these resources effectively. This in turn has lot of pitfalls like
+	- Initial investment on laptop is very high
+	- Consumer has to update the OS regularly
+	- In case of any issues it has to get repaired
+	- And most important the life time of laptop doesn’t last for more than 3 years because of tech upgrades
+	- Need to track of warranty/guarantee 
+	
+	All of these will add to most power consumption and more e-waste. In order to avoid this, we can adopt a private cloud kind of environment(similar to water pumping/generator which has connectivity to all of the house) which will provide a thin client with which depending upon the number of house we can adopt VDI solution or we can have 4 to 5 ESXi servers with which we can create any number of VMs depending upon the requirement and it will be charged accordingly. And we don’t need any high-end arrays for this kind of purpose.
+	
+	With this all the computing and storage are centralized and it will easy to implement backup services and for archiving. And the energy consumption and maintenance will be much reduced when compared to current model. Since all the servers and the contents are within premises there is no worry about data privacy and data loss.
+	
+	This approach is scalable in case if the number of occupants increases than the original plan. And It can be extended to multiple cities also.
+	
+	This solution will solve another problem i.e. most of the buildings has CCTV and it has a backend storage attached to it. There is a size limitation for the storage. With proper planning and with the technology smart city developer can plan for solutions that has deduplication enabled which will reduce the footprint of the video that is captured.
+	
+	2) Smart Lock
+	Security plays a vital role in any system. Because of the busy schedule people might forget to lock the house or they don’t recollect whether the house is locked or not. Smart lock is an APP which will help to confirm whether the house is locked and if not the customer can lock remotely with self generated PIN number.
+	
+	3) Energy Efficient
+	These are some of the ideas that we can implement to save energy and also house owners can generate energy.
+	- We can implant solar panel in rooftop.
+	- We can cover all parking lots with solar panel.
+	- Can use Rain water to cool the house
+	- Automatic temp control for Air Conditioner
+	
+	4) IoT - Internet of Things
+	- Use real-time dynamic data to analyse the shops open in smart city, their crowd level. With this house owner can plan his visit to the shop.
+	
+	
+	5) Some of the other ideas includes:
+	- Smart access to all smart devices => With this a customer/house owner can access/control  any of the house-hold devices so that he can switch ON/OFF even when he is NOT in the house. 
+	- Common wifi with wifi meter => Similar to power meter, can implement wifi meter so that individual don’t need to bother about different plans from ISP and also the outages and maintenance. 
+	- Garbage compactors => Use garbage compactors to compress the garbage to reduce the space occupied by the garbages
+	- Can also implement PAYT - Pay As You Throw. i.e. to increase the idea behind the composting. There are different types of composting methods available and we need to encourage the composting methods.
+	- Sharing of parking space with an app
+	- Online Health tracking system so that doctors can visit some area and visit all patients. And it can also suggest hospital for complete health issues instead of people roaming for different hospitals.
+	- Alerts via APP/SMS regarding heavy traffic in areas so that they can opt for alternate routes and also it will avoid more traffic jam.
+
+
+More details reg this idea is available in https://inside.emc.com/ideas/3473 
+	- Creating private cloud in smart city is both energy efficient and cost effective
+	- It will provide opportunity and a great place for cloud providers and solution vendors
+	- Since most of the solutions are APP based and it can support multilingual, it will reach easily to public unless other means of communications.
+	- Most of these ideas can be implemented in both Green field project and brown field projects
+
+Last but not least to implement these ideas the control/governing body should be centralized else it will be difficult to implement in a system where we have private sectors.

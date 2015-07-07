@@ -1,0 +1,5 @@
+Graph based Sales Team Hierarchy
+Identify a Solution Principal or CSD (Client Solution Director) across EMC Geography 
+During the sale team meeting happened at India team, this was raised and difficult to track the account head or regional head who is handling multiple accounts with SP.
+Graph Based Data Sets using Neo4j
+It will help them to search the CSD or SP quickly and associate their properties from outlook such as Phone Number, Location, Email so that they can connect from the graph to email and send out a faster communication. if they want to capture additional info, there will be a UI provided to capture the properties such as customer or prospect they dealt or dealing so that it will help us to work on a similar deal for the same geo or other geo

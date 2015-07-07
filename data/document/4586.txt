@@ -1,0 +1,5 @@
+Customer's Online support application
+
+customers need to check the equipment and sites through the customer online tools which are accessed through laptops and desk tops only
+mobile application that enables the customer to access and check on his/her equipment and sites remotely,as for the upgrades and installations mostly happen after the working hours or on the weekends,so he/she could monitor and have visuals to his /her data centers and labs through his/her mobile/tablet and through it they could contat the support teams on the spot when there are any issues that pop up,this application will also give indicators if there are any failures to the system as he/she will be able to ask EMC customer help desks to interfere right away
+

@@ -1,0 +1,11 @@
+Smart Car Security
+One of the most common security threats in our lives are car thefts and car hijacking.
+I have found out that the usual way to deal with those thefts or hijacking is really outdated.
+Thought of having this sorted out using a simple click using a Wide infrastructure of networking that is already implemented as well as the concept of internet of things.
+I had several car theft incidents within family and friends.
+- Implementing tilting sensors in the car to sense if car is being moved without owner's permission.
+- Securing access to the car through synchronising users mobile and an implemented KIT inside the car.
+- If car is being broken into/hijacked , the owner will receive an SMS identifying the location the car through GPS inside the KIT.
+- Owner will have an application on his own mobile enabling him to take control actions on his car through the implemented KIT. Controlling actions are stopping engine, initiating car alarm for grabbing attention to surrounding environment, locking thief inside the car
+- There'll be a hidden Camera with the KIT, that remotely the owner can take a photo of the thief and send it over to the police stations connected to EMC Hybrid cloud. Photo will be analysed to check if the thief has any criminal records to easily identify him and catch him.
+Introducing automotive market for EMC Launching a full car security system using EMC's hybrid cloud, hardware and security RSA.

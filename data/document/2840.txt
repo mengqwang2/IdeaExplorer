@@ -1,0 +1,7 @@
+ScaleIO Data Rebuild Policy Optimization
+This idea is related with Software Defined Storage, ScaleIO. It's aimed to reduce hardware usage and performance improvement.
+During E-Lab certification testing, we need reboot SVM and server node several times. We notice that each planned reboot will trigger ScaleIO rebuild all data on the node. Each rebuild will cost hours, during this period, we can't reboot other nodes to avoid data loss. 
+ScaleIO installs an agent on both SVM and server node. If it's a planned reboot, OS will shut down services first, ScaleIO will capture the shutdown operation via the agent, then do not trigger data rebuild. As there're mirror data stored on other node, there's no impact to production.
+Once the SVM or server node start up, ScaleIO system gets healthy at once.
+This idea will help to reduce ScaleIO data rebuild times, reduce hardware usage and improve its performance.
+Then ScaleIO will have more competence in the market.

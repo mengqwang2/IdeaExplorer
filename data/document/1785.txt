@@ -1,0 +1,5 @@
+Digital white board
+The challenge is looking for an idea to modernize the workplace, the digital board will serve this need.
+N/A
+A board which has a functionality to upload the notes written on it on a specific location through network connection in order to keep them documented somewhere.
+Help in keeping a softcopy of what is written on whiteboard will help in trainings and meetings.

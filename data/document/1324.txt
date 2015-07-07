@@ -1,0 +1,19 @@
+Identifying anomalous charging in hospital billing using Natural Language Processing
+We suggest a solution for the health care market that contains Data science on top of EMC's Federation products and the BDL Idea (see architecture details in the doc attached https://inside.emc.com/docs/DOC-155540 )
+Dr. Alon Grubshtein and Dr. Raphael Cohen created this Big Data play for a presale meeting with a large Israeli HMO (over 2 million patients). Raphael is an expert in health care analytics and electronic medical records text analysis with a number of academic publication in the field (AMIA, BMC Bioinformatics, ACL). The idea was further honed with the help of Amihai Savir who is an expert on delivering data science applications using the pivotal stack and EMC technology, with proven experience of delivering the ITOA Big Data Science play.
+We suggest a novel method for identifying suspect charges using the textual content of the discharge notes combined with the structured codes (ICD9/10) for enabling auditors to easily zoom in on the most likely candidates for overcharging. 
+
+This approach doesn’t replace the auditing experts but instead enables them to become much more effective than by randomly sampling or sorting the discharges solely on the price charged. Using an automated machine learning ranking system for choosing the most suspicious auditing candidates will raise the percentage of charging anomalies identified and have high impact for the HMO or Insurance spending.
+
+The system relies on state of the art Natural Language Processing techniques for identifying predictive features in the discharge notes and training on past discharge notes and the attached cost. It is designed to require minimal subject matter expert time for tuning and integration into the HMO’s business process.
+
+A detailed over view of our solution can be found here: 
+https://inside.emc.com/docs/DOC-155540
+
+EMC:
+Big Data Play for the health care market, integrating multiple EMC technologies (Isilon, BDL and Pivotal).
+
+Costumer:
+Save cost of auditing
+Increase auditing accuracy
+Much improved supplier management for the HMO

@@ -1,0 +1,5 @@
+Error message search in EMC support page gives relevant SR# as well
+
+We had this functionality in e-people which we were using to manage the cases and search KB articles before the Data Domain migration to Service centre. The tool was really very user friendly and this functionality to search the SR# was one of the best features in it. You may ask anyone from Data domain team about e-people, we miss those features like anything as it helped to solve so many cases in no time.
+Suppose we have an issue related to DD "unable to access CIFS". We go to EMC support page and search for a KB relating to the error message. What if there is another option in the drop down menu (scope by resource) to find SR# related to the error message which shows all the relevant SR# having the same error message, so that we can just refer the SR# for troubleshooting steps/solution provided.
+

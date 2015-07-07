@@ -1,0 +1,10 @@
+GSAP's to get trained & reduce the time gap to learn/deliver quickly
+NA
+Idea stuck my mind when i joined EMC and also along with me i had my colleauges who were looking for a scheduled training to be attended to support the product. I thought of submitting the idea somehow so this innovation portal seems to be the right place for this to be submitted
+Learning and development team should have a dedicated resource for every BU which would help the engineers to go live quickly as the trainer who has hands on experience working on the same product line will be able to deliver product & tools specific sessions much more efficiently than attending a ILT or VLT. By doing some brain storming session with existing engineers and getting suggestions management/trainer can create a training module which would help the new engineers to understand and support the product quickly and efficiently.
+Road MAP to successfully go live on job.
+-Engineers should be scheduled to complete basic training like (ISM)
+-Engineers should be trained on the specific product
+-Engineers should be trained on technical specifications of the product
+-Engineers should also be trained on tools being used and probably have a knowledge test at the end of the training.
+It would benefit both company and the new joinee.

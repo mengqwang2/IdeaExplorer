@@ -1,0 +1,7 @@
+Eliminate or reduce zero marking of Solid State Drives in ESS testing.
+
+Test time increases have been observed when new, larger capacity SSDs are introduced in ESS.  The zero mark step in ESS was identified as a way to reduce test time.  This step is performed after testing completes and only serves to meet the requirements of certain older USD products.
+Proposed solution #1 (eliminate): Eliminate the requirement that SSDs shipped from ESS need to be zero marked.  This could require changes to FLARE  and manufacturing Enclosure Test scripts.
+
+Proposed solutin #2 (reduce): If the zero mark requirement cannot be completely eliminated, reduce test time by only zero marking TLAs that require it.  This can be implemented  by adding a “zero mark” option to the GTR database .  Only TLA part numbers with the option selected will run the zero mark commands in ESS.  If there are no part numbers that require zeromark, that step will be completely skipped.
+

@@ -1,0 +1,9 @@
+Automated creation of DocumentTypes
+This idea will help to improve Captiva set up process for customers and Professional Services engineers.
+NA
+The document type creating process can be partially automated.
+Some document sources can be analyzed for this purpose.
+First of all document images can be recognized. We already have PAL, which creates templates for Advanced Recognition, but we can use it to extract existing fields from images.
+Another thing we can do, and this is actually simpler task as we don't need to do OCR, is to extract fields from existing documents, which are already converted to Excel, Word or PDF format.
+The extracted information can be used to create a draft for document type, which requires less configuration than one created manually.
+This idea is likely to reduce efforts required for setting up document types for administrators, which will improve customer satisfaction.

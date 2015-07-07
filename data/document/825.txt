@@ -1,0 +1,11 @@
+Supportability Advisor for CTD products
+This is mainly to address the faster turnaround time for customer issues and hence improve the serviceability.
+Improve predictability of customer issues found in the field.
+We came up with the idea based on the current challenges we go through with the VMAX BU products on daily basis and how this tool as an advisor can resolve the challenges and provide solutions to it. The idea came up part of brainstorming sessions we had within our group.
+It is a tool (can be integrated) into product which can advise PSE/CSE/Customers to proactively identify patterns of issues related to serviceability and provide suggestions, solutions & trends to enhance product quality as well as improve the overall turnaround time for addressing customers issues & support them in fast and efficient manner. 
+a) Deployment Patterns based on customer configuration study across solution/product stacks
+b) Improve analyzing/troubleshooting capability based on understanding overall workflow involved in addressing customer issues (what/when/how/why)
+c) Analysis on how fast & how many customer issues are we able to address & bringing in efficiency based on data points
+d) Prevent/Predicting customers issues and how best it can be resolved as lead measures within Engineering (or) Customer support groups  
+e) Provide root cause analysis of which bucket the customer issues are falling into and take corrective actions (ex:- Configuration, Usability, Documentation, Software Bug, Lack of feature understanding, Deployment not followed with reference arch)
+

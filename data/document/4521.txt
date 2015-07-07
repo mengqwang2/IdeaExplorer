@@ -1,0 +1,5 @@
+Translate test case to script automatically.
+
+Test dev need to automate the test when test case is ready and there is a time gap.
+Defined some key words at the beginning of test case desgin and use these key words to write test cases. Write a script to parse these key words to some method related to the library in automation framework. The translated script has the same format and it it easy to maintain. Maybe a few changed is needed for the translated script.
+

@@ -1,0 +1,12 @@
+Integrate the Agile-developing system "Rally" with the Microsoft "Surface Hub"
+This idea can help the engineering team to perform the agile-developing work more efficient.
+Our team (CTD->VNX->NPE) is running the agile-developing process, and we found that it's hard to track the scrum meeting status from the whiteboard to the online Rally system. However, when we know about this new Microsoft product, we think it's an ideal product for us to improve the existing process.
+
+BTW, the Surface Hub will be released in July 1st 2015. So we can order some Surface Hub to build a prototype for this solution.
+MicroSoft has introduced the "Surface Hub" in Jan 2015. It’s an interactive whiteboard with large screen size (55" or 84"). The idea is to deploy the "Surface Hub" to some of the conference room in the office site, and integrate the agile-developing system"Rally“ to the "Surface Hub". Thus the engineering team can use the "Surface Hub" to perform their daily scrum meeting.
+The New ”Surface Hub" solution has following advantages: 
+1. much easy for the user to input/share data during the scrum meeting (or other meeting).
+2. Different teams can share same "Surface Hub" for their scrum activities in different time slot.
+3. If we put the "Surface Hub" in some "open space” in the office, then it can show the project status or other information to the team. This can help the team members to know the project status more clearly.
+4. This solution can be also used by other conference scenarios.
+

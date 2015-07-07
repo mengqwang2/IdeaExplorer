@@ -1,0 +1,11 @@
+An effective approach to save Lync/OC conversation
+EMC is an international company. We depend on Lync/OC heavily everyday, discussing technical issues, and other commitments. We need to look up the memo frequently. The palest ink is better than the best memory.
+In 2013, one co-worker complained the OC history in Outlook was cleaned up. She lost a lot useful information. At that time, I thought we can solve the problem in program.
+My solution is to utilize the API exposed via Lync/OC to save the conversation to local disk.
+I developed a tool called OCH to record OC conversation to local disk. It provides the basic functions, such as group by contact, searching and encrypted message.
+
+Furthermore, the benefits include:
+1. It only consumes a few disk size.
+2. The conversation format is consistent with what you see from OC.
+3. You can place the conversation file to a syncplicity folder, so that you will never lose your conversation.
+4. If it is allowed, we can have a data minding on those conversation files, so we can know what is EMC employees interested in mostly, what EMC can make efforts on.

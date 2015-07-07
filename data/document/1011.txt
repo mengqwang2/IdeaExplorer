@@ -1,0 +1,16 @@
+Across Federation collaboration
+
+This idea is to create a collaboration system between all CS department across the EMC federation.
+
+I started working on this idea after having a case with a customer that I had to open a ticket for VmWare. It was much simpler for me to use a tool like moxie chat for collaboration, at the end we serve the same customer for the same federation.
+
+A new system for collaboration across the federation.
+This is a new tool that Technical support engineers will log into, it will be much like the moxie chat/collaboration tool we have at EMC. However it will take collaboration across federation.
+A VmWare technical support engineer will be able to select for example a Symmetrix support to assist him on the case and vice versa.
+Same as idea (2015001839) we will take into account the location for high priority cases if needs be.
+
+
+Other than being easy to implement, this idea will not only help us solve cases faster and more efficiently but it will also help us achieve a more of solution support.
+This solution support will not only be across one company's product but across the federation.
+
+All the benefits will increase costumer satisfaction and will add to the total customer experience as he will have one point of contact for an issue that involves several federation products.

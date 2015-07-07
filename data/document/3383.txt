@@ -1,0 +1,7 @@
+Panic button in bathrooms and other enclosed spaces
+
+I got locked in a room once, nobody was around to get me out. It was not a pleasant experience.  
+
+There should be a panic button in every enclosed room in EMC premises. If for exanple, you find yourself trapped in the bathroom or a meeting room by a faulty door knob or door lock, there's nothing you can currently do except bang ineffectually at the door until someone hears you, which might not happen for a while. Therefore, my idea is to implement a simple button to be installed in those places whose sole function is to alert security that someone is trapped somwhere, and show security where the person is.  
+
+

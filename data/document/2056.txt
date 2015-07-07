@@ -1,0 +1,25 @@
+eSharing
+1. This idea is target for "Community Involvement Challenge";
+2. This is to build up a place where employee in EMC can share their ideas, new technologies, etc.
+ 
+When we were starting to work on a new technology like elastic search for big data last year, we have no idea who to turn to  firstly although we were sure there are someone in EMC who has rick experience in this area.  But we don't have a good channel to get to them without asking people.
+
+There are similar hot forums like CSDN in China where you can find people who know similar technology and can contact to him while such kind of social network is not used inside EMC yet. Then it occurred to us we build up a web/mobile based APP where we can share and communicate with other people in EMC.
+
+It will be an app where you can:
+
+1. set my profile
+    1). My work/project experience. (Like linkedin)
+    2). My good-at technologies.(Like linkedin)
+    3). My hobbies or very short self introduction.
+    4). My Photos sharing series. (Like facebook or WebChat)
+
+2. People can post articles/pictures.
+
+3. People can comment or forward the articles.
+
+4. Provide a google like search technology where you search the technology keywords and then see articles/experience of other people.
+1. People will have a place to share technology that can be shared.
+2. People can have a place to find people who has the technology he needed.
+3. People can share pictures/ideas. Better communicated.
+

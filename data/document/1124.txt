@@ -1,0 +1,5 @@
+Keying in Automatic Text based on Title 
+This is an initiative to improve the existing process model.
+This was an idea that triggered in me while sending out a notice! I believe it is feasible. 
+This is a semi-automation of the process that exists in the Critical Incident Management space. A lot of time is invested while preparing and sending out notices. It is unique in the sense that it auto-completes certain portion of the text (Distribution lists to be notified) based on the Title text.
+It will optimize a process and reduce manual intervention for most of the part. 

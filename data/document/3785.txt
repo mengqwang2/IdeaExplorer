@@ -1,0 +1,7 @@
+Social Media Analytics for High School Students
+
+We came up with this idea recently. EMC is doing lot of charity work around EMC locations. This is mainly in the form of school material such as bags, notebooks etc. There is a proverb: "do not give fish. Show how to fish". EMC volunteers should take this to next level by educating EMC technologies and importance of STEM. We talked about how we can help communities around EMC and this challenge will help students to know the importance of STEM, how useful and exposure to EMC technolgies. 
+High school students are not exposed to EMC's technologies such as Big Data, Cloud and Trust. We are considering two areas: (1) EMC employees can visit local school around EMC locations and talk about what these technologies at student level so that they will understand. Employees should share details in the form of demostration and information material. Also, discuss importance of STEM and this challenge. (2) When ever EMC employees visit their native place, they should visit their school where they studied and discuss about STEM, EMC Technologies and about this challenge.
+
+We have to provide a small set of social media data to students. Let them disgest and understand how they can analyze using subjects such as mathematics they learn in school. The brainteaser is to analyze the given data and provide recommendation for the questions asked.    
+

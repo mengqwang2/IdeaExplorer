@@ -1,0 +1,5 @@
+Improved communication on parts under F/A at vendor
+
+Initial idea only.
+The "requester" for F/A opens a ticket against the vendor with the information to hand, along with the F/A request. The vendor would update the ticket on in the web page with progress on the analysis and eventually the final root cause report.  
+

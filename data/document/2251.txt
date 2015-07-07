@@ -1,0 +1,9 @@
+SMART HR INVITING Process tool 
+Currently when we raise a invitation request using a very user friendly tool https://emeahrssc.corp.emc.com/ we get a mail stating request raised.
+But we are not sure from how long its in same state what has to be done by us.
+
+
+I had raised an Inviting letter from a USA manager, HR guys works from evening 5pm to night IST and USA manager works 10pm to morning IST. Whenever i needed to track both of them it was really hard for me to get in sync with them.
+Instead of manually running around and following with HR and inviting manager, we can put up a reminder mail notification to all respective once every 12 hours about the status of the thread still its closed.
+Also in the same portal where we submit the request we can keep track of the logs what is happening on the request.
+It will make everybody life easy and maintain clarity of the whole process of it.

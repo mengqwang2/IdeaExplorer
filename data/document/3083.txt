@@ -1,0 +1,6 @@
+Partnership - way to explore Big Data Opportunities
+Global solutions is looking for ways to expand the Big data opportunties including tie up with partners. My idea is to colloborate or partner with OEM's like GE, Airbus, Siemens, etc.
+I worked with GE in the past and know the increasing importance of this solution.
+Also, it has to be timed quickly, before they build their own system and solutions. 
+Work with these OEMs as partner to handle the above said problem. Many OEMs have remote monitoring and diagnostics center, where we can contribute with our solutions.
+Success would be when we can connect to OEM systems and support in data driven decisions. Best part could be if we can connect to real time devices. Financial benefits are plenty. For example, 1% efficiency improvement in the engines due to right data dec

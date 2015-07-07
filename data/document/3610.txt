@@ -1,0 +1,11 @@
+EMC - A Life Saver ( Blood Bank )
+
+In past , several time, it has been observed, during crisis of blood, we are not able find right people who can save faster than anyone. We keep calling different people without knowing who can actually be a live blood donor for the moment.
+It takes lot our time, responsible to grow anxiety.
+- On EMC ICOE portal , separate page for all relevent details for quick search.
+- Field detail BLOOD GROUP|AREA|DONOR NAME|DEPT.|CONTACT ADDRESS|PHONE|LAST DONATION DATE
+- Quick application on smart phone as icon "EMC - A Life Saver" which connect & download online copy
+- Quick short by field
+- Periodic email alert to self update to that editable information for each employee
+- ICOE portal link for easy access from remote / office connected employee
+

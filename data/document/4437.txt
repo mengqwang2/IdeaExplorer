@@ -1,0 +1,9 @@
+An Intelligent method to use private Raid Group using Mixed Disk type
+
+This idea we have come up from the FAST suite in storage pool.
+-Storage Pool in VNX have mixed Raid type with chunk size of 256MB in VNX 2 series. 
+-Here our approach is to create private Raid Groups, for example in Raid 5(4+1) we can have one EFD drive and 4 SAS drives.
+-The data will be stripped across the disks in the RAID, and based on FAST Suite the chunk size of 4kb data should be moved to the EFD drive from the remaining 4 SAS drives.
+-In the production environment we can see different I/O size from the host.
+-The chunk size for the data movement within the RAID can be varied based on how the host frequently access the data.
+

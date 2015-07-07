@@ -1,0 +1,16 @@
+Corporate Mobile Application(CMA)
+This is a integrated framework to bring in all EMC related application in one mobile app. This can also be enhanced to a single Database moving forward.
+My experience in EMC Over the last six months opened up this idea.
+For Further details please visit https://inside.emc.com/docs/DOC-155876
+CMA is mobile based Web/WAP Application, designed based on mobile handset .This Application contains Office mail/communicator with voice transfer between CMA's using VOIP or SIP protocol (Like Android Skype) .It supports the below
+1.Video and audio conferencing.
+2.Incident management via Mobile.
+3.Time sheet/Leave request.
+4.Federated identity Management.
+CMA can be leveraged by all corporate employees and would help reduce system utilization and save energy/cost/maintenance. CMA will work via 2G/3G/4G/Wi-Fi independent of service and service providers.It can also track employee location based of GPS during an emergency. 
+
+For Further details please visit https://inside.emc.com/docs/DOC-155876
+1.Employee Time can be utilized better and 5000 man months saved every month approximately.
+2.Single window with mobility and SSO.
+3.Universal List of reference with all latest technology.
+4.Monitoring,tracking,notification - individual and group

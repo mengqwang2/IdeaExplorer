@@ -1,0 +1,36 @@
+Improve NetWorker's Backup Performance by Auto Tune the SaveGroup/Action Parallelism at Runtime
+Reducing the backup window is a biggest gain. In an enterprise product like NetWorker, there are various recommendations available to reduce to backup window. 
+As part of R&A team, we run 1024 concurrent sessions tests and also facing the performance challenge very often. We often tune all the parallelism settings (server, client, savegrp/Action, target sessions) and run the test to reach servers limit. 
+The proposed solution is very simple. If the server is having enough bandwidth available then auto tune the current running savegrp parallelism (if it is set to minimum/less) to maximum available and get the server's bandwidth (parallelism) used by savegrp efficiently. 
+
+For example: Assume two groups are currently running with parallelism 100 (say SG1 and SG2). If no other groups are currently running the nearly 80% of server bandwidth is available. I mean ~800 sessions of server is wasted simply. So the bandwidth of server can be shared with current running savegrps SG1 and SG2, now SG1 can be tuned to 500 (100 + 400) sessions and SG2 can get 500 (100+ 400) sessions - assuming it has enough target devices and sessions. 
+
+This may create an impact on savegrp that is going to trigger later. This can be avoided by implementing this solution
+by users input/selection.
+
+Along with Savegrp Parallelism attribute in NMC savegrp wizard:
+- New attribute can be added such as "Auto Tune - Enable / Disable". 
+- New attribute can be added with time based, "Auto Tune after [ 30 ] mins" - user configurable 
+
+By enabling the AutoTune option, if server is having enough bandwidth then the current running savegrp can be tuned to maximum available parallelism on server (bandwidth) automatically after 30 mins. If any new savegrp is triggered later then that group should get all the sessions specified as per his parallelism limit as and when the current running group has been releasing. All the available completed sessions to be given upto the savegrp parallelism limit with High priority. If server is having more bandwidth then that can be utilized by "Auto Tune" option at runtime. 
+
+Now lets review the same example: 
+Save Group : SG1
+Save Group Parallelism :  100
+Auto Tune : Enabled
+Auto Tune after [ 30 ] mins
+
+Save Group : SG2
+Save Group Parallelism :  100
+Auto Tune : Enabled
+Auto Tune after [ 30 ] mins
+
+Assume above two groups are currently running with parallelism 100. If no other groups are currently running and no other groups are not going to trigger / schedule for next 30 mins, then the 800 sessions of server can be shared with current running savegrps SG1 and SG2. Hence SG1 can be tuned to 500 (100 + 400) sessions and SG2 can get 500 (100+ 400) sessions - assuming it has enough target devices and sessions. This definitely boost the performance at runtime. 
+
+Here goes my recommendation: 
+1. Do not use the default savegrp parallelism (0), because the new "AutoTune" option enables the same.
+2. Set savegrp parallelism always (specify the guaranteed sessions to run) and use other two new options; AUTO TUNE and AutoTune after [ ] mins. 
+3. No new changes required. Use above two options. 
+
+Gain more performance than guaranteed by Savegrp Parallelism. 
+

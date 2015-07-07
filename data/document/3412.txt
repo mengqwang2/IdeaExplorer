@@ -1,0 +1,7 @@
+Feedback Collector Team 
+
+-	Engineers are always complaining from some issues that caused from opening a wrong SR info
+After each SR closed the team will contact the Engineer or the partner working on this SR to get their feedback about the work done through some questions that not take more than 2 min.
+  Then save this data on a database and do analysis on it and get action done globally to solve these issues.
+
+

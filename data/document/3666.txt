@@ -1,0 +1,15 @@
+Automatic Lun Delivery (ALD) 
+
+Knowing about new Datacenters and usage of OPC was looking for ways that makes our storages more relevant to these datacenters, and this was one feature I can see that can help.
+Idea is customer who have VMAX, VNX or VNXe and always building a new server or VM always goes through the trouble of configuring new luns then present the lun to Host to be configured, the idea is to have our storage detetcting new hosts  through specific ports forexample, and then it can assign a lun or number of LUNs  to this host automatically, and that LUN has for example Windows 2008 R2 installed with MS-SQL server installed already on it, Host only need to boot from the lun.
+
+This Mimics OLV in VMware but from storage side so customer can just plugin host connect it to storage using FC or ISCSI and storage directly makes the luns to that host ready for use and up and runing in much less time, which helps customers have a rapid deployment infrastructure.
+
+The idea depends on having these LUN images pre-loaded to storage and can be customized by customer as well, customer specifies this ALD feature on ports and Storage once finds a new wwn of a host or a new iscsi initiator, it will automatically prepare a new lun with the images burned or cloned to the new luns.
+
+This can be any OS or even file systems or HDFS and will decrease deploying new hosts or compute powers in the environment .
+
+Also the feature needs to rports on used and available resources and usage as well.
+
+
+

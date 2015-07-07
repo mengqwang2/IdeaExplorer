@@ -1,0 +1,12 @@
+User defined Virtual Tapes.
+accommodate huge saveset like example NMDP backup on Single Tape device, present which is not supported on Networker. we restrict to LTO6 standards 
+
+
+While testing we came across this limitation.
+our proposal is, we do have data domain box , which supports emulated tape devices or VTL which have tape of LTO2 to LTO5 till Now. From Networker GUI , there should be provision to set the size of tape by user as per his limitation. which can exceed more  than 2.5 tera which can name it as UDVT( user defined Virtual tapes).
+
+
+This will help in taking backup of huge backup of NDMP crossing more then 2.5 tera bytes
+easy to replicate 
+avoid too much of vaulting of tapes.
+Inventory of tapes will be simplified.

@@ -1,0 +1,19 @@
+Improve user experience for viewing resource history in VNXe
+This idea will improve customer experience when using the management interface of VNXe products (Unisphere). 
+Came up with this idea in 2014 third quarter. I felt the need for such a feature in Unisphere to be able to triage issues better. Developers/triage team will be able to find the history of a resource in the dc logs/db dumps easily, which will be helpful in reproducing the issue. For e.g 
+-	Lun snapshot creation fails on a lun. History shows that 3 snapshots of lun were created and deleted before it failed the 4th time. Now developer can use these steps to reproduce the problem.
+
+ It also improves customer experience when they want to look at a resource history for certain use cases. For e.g. - 
+a)	Admin wants to know what was the previous storage profile of a vVol for performance comparison
+b)	When did the last replication session on a filesystem complete in order to start a new one
+c)	If history of a lun resource shows multiple lun expansions in a short period of time, admin will want to use up all pool space for lun expansion as the lun is being consumed at a faster rate.
+
+Unisphere could be enhanced to provide the users/admins, information about the resource history on the details page of the particular resource. For e.g on the details page of Lungroup00 we could have a view history tab that lists the following historical information about the Lungroup – 
+9/18/2014 21:00:00 Lungroup00 went into degraded state
+9/12/2014 6:05:34 FastVP policy was changed to Highest Available Tier
+9/8/2014 4:03:45 Lun3 was added to Lungroup00 
+9/3/2014 14:00:12 Lun1 was expanded to 200 GB
+9/1/2014 12:00:00 Lungroup00 was created with Lun1 and Lun2
+
+There is scope to store history of each resource in a consistent manner. History can be stored for each resource at one place (say a separate table in cp database with the resource id as key). So all clients of the storage system ( uemcli, GUI, Rest) can query for the history of one resource and get the information. 
+The idea would be correctly implemented if we have a new history tab for each resource in Unisphere which shows atleast the last 10 events that occurred on the resource. It will improve the customer experience and will also improve the triage process for the developers and testers.

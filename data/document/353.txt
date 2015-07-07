@@ -1,0 +1,20 @@
+EMC Digital Manufacturing Initiative
+*
+*
+I propose an EMC Digital Manufacturing Initiative.
+
+Digital manufacturing is the use of an integrated, computer-based system comprised of simulation, three-dimensional (3D) visualization, analytics and various collaboration tools to create product and manufacturing process definitions simultaneously.
+
+By capturing data at every stage of the production process—and by deploying specially-designed software and other digital tools—EMC Manufacturing can;
+
+Efficiently share and revise their digital designs. 
+
+Connect different parts of the manufacturing life-cycle through data
+
+Utilize that information to make smarter, more efficient business decisions.
+
+Digital technologies have transformed communications, finance and entertainment, they are now in the process of transforming the way parts, components and complete systems are being manufactured.
+
+Let’s take that first step.
+
+*

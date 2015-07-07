@@ -1,0 +1,5 @@
+Consistency in Documentation across Platforms (Admin Guides, Product Guides, etc...)
+
+Having spent most of my time in the VNX documentation the past several years I can find and Information that I need. As I started working with more products I noticed that content was not consistent across titles.  This is specifically focus around the Produce guides and Installation Guides. While both documents for all products do seem to contain most of what you are looking for you have to remember with manual for each product has which information. So it takes time learning new products till you are familiar enough with where the data is located.
+Have a standards review of all documentation before publication to ensure it meets the content criteria for that title. This will save time knowing that all documentation based on Title will contain the same information regardless of the Product.
+

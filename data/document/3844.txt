@@ -1,0 +1,8 @@
+OS Based Manufacturing Final Configuration Testing
+
+The idea is part of a manufacturing OE initiative that is being worked on by:
+Apex TED: Bill Leonard, Todd Grenier
+EMSD: Greg Bertoni, Phil Leef, Andrew Kensmoe,Roko Peros 
+
+The VNX test process consists of diagnostic test section and an OS load/test section.  The total test time can be reduced by incorporating the diagnostic testing into the OS section of the test process.  A test time saving of 30-50% could be realized. 
+

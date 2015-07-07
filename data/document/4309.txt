@@ -1,0 +1,5 @@
+Automatic detect the CLI File Upgrade in USM for VNX
+
+This idea comes from the real upgrade failure found in current VNX/VNX2 product.
+The USM performs the VNX File upgrade via the "CUS" from the CS(Control Station). We need to add some new USM<->CUS communication interface to report the CLI File upgrade status from the CS to the USM, thus the customer can know the actual upgrade status and avoid unnecessary issue analysis time.
+

@@ -1,0 +1,6 @@
+Information of the Compatibility of EMC products with other products in support.emc.com
+
+I work in Documentum product support and these are Irrelivet SR that come to us for just checking the Compatibility Matrix. we can avoid these if we have a Upto date Online place where customers can see the Latest compatibility's.
+While creating the service request, they should be option for a Compatibility.
+If they select Compatibility then they should be able to select the products and see and compatibility Matrix.
+

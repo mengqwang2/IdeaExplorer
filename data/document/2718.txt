@@ -1,0 +1,30 @@
+Anonymous Forum (Forum features shown in the doc: https://inside.emc.com/docs/DOC-151907)
+HR Challenge - Brings 'genuine' opinions from employees without any bias; promotes cross-functional collaboration.
+Ireland Challenge - Brings in transparency and collaboration among federation members; Helps employees to build ideas from peers' insights.
+In our BU, a particular committee invited employees to a common place to ask for suggestions on improving workplace. They wanted employees to come forward and put across their opinions. Employees were hesitating to come forward. But the moment when they were asked to provide their suggestion in a paper chit (without mentioning their name), each of them did it! This tells that each of us has ideas but it is just that we hesitate to come forward. 
+After substantial analysis on the barriers in realizing the potential of diversity from multiple articles, we have come up with the following solution
+
+There has to be a forum created, with the following features, to facilitate discussions on the topic of interest. 
+# The identity of the Arbitrator (One who asks for opinions/ideas on a topic) will be known.
+# The contributors who provide their suggestions will be anonymous.
+# There has to be a moderator to review any content before being posted on the group. The Arbitrator or someone assigned by the arbitrator has to play this role. The identity of the moderator will not be revealed.
+# The smiley points can be given to contributors to encourage them. (optional). 
+We can create our own forum (in inside EMC) or use existing platform Socialcast (acquired by vmware) after proposing changes needed. 
+[Socialcast is the trusted enterprise social networking platform for social collaboration, ideation, and project management.]
+
+The steps involved:
+Step 1 : The Arbitrator creates a group to discuss on the concerned topic and notifies the required contributors. The contributors could be limited to specific team or BU or geographic location or can involve overall EMC employees.
+Step 2: The contributors will start posting their opinions/ideas on the forum. 
+Step 3: Each contributor will have an “anonymous ID”. The same ID will be allotted to him through-out the discussion, say contributor-1, contributor-2 etc.
+Step 4: The invited crowd has to be encouraged by awarding them a fixed amount of smiley points for their active participation. Say, each person has to be allotted a specified amount of smiley points as soon as he/she provides a valid content to the discussion. 
+Step 5: The moderator has to review the content before being posted on the group so as to prevent any offensive content in the forum. The contributors could knowingly or unknowingly offend the fellow employees, otherwise.
+Step 6: Each idea posted  will have reply and upvote options. This will make other contributors to pinpoint the negatives or to add further suggestion on the idea. This will help in bringing multiple perspectives on the idea. In fact this will provide an option for the arbitrator reply to the concerns then and there if he/she has to.
+Step 7: The arbitrator can close the discussion once he/she gets enough ideas or after particular timeframe.
+
+Have a look at the document which has the snapshot of the forum with the kind of discussion it can bring in:
+https://inside.emc.com/docs/DOC-151907
+
+#Brings in insights through intellectual discussion.
+#Arbitrator will treat all suggestions alike; He/she will multiple perspectives on topic posted.
+#Provides opportunities to introverts to put across their opinions. 
+#Accessibility through Mobile App.

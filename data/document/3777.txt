@@ -1,0 +1,9 @@
+Lync + Inside EMC = Awesome
+
+We we discussing how we like the interactivity of the new Inside EMC. Our group is part of the Unified Comms pilot, and a lightbulb went off when we started wondering how we can unify Inside EMC with the rest of our communications.
+1. The Inside EMC Connection Streams would be added to the Lync contact book under a special Streams section. The Lync user would be able to open a 'Streams' window that would show all chats in streams that the user has subscribed to.  All stream comments would appear in the same Lync window, but would be tagged by the Stream as the Lync 'user'.  Clicking on a entry would open a new chat window to that stream for replies.
+
+2. If the Lync user opens a chat window to a Stream, all comments inputted into the Lync window would be posted to the Inside EMC Connection Stream as a new topic on the website. The comment would be shared with other Lync users similar to other Stream comments as described in #1.  If an active chat window is open, it will show all replies to that specific topic.
+
+3. Alongside the "Reply" button on posts on Inside EMC, users will also have an option to chat directly at the poster, thus allowing private collaboration/discussion along with public discussion of content.
+

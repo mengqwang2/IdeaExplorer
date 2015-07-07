@@ -1,0 +1,5 @@
+Users vacation plan and resource utilization in Lab
+Bringing in more Lab efficiencies in terms of hardware resource utilization and optimized power management
+Many at time, there are situation where there will be reservation against an engineer but he will be on vacation and we are not in situation to use it or power it down without the consent of the user. 
+We should come up with a tool to link vacation application of employees and the hardware reservation of Lab. The tool should remind the users and also alert user's Managers about the planned vacation and remind users to release the reserved equipment. If users would like to continue the reservation but will not be using they should be provide with tool to shutdown equipment for specific time period. 
+If this is implemented, resources will be better utilized as every user would go on vacation at some point of time in the year and during his vacation resources will be available for others to use. If user is not able to release the resource then he, at least, would be shutting down the equipment and there by reduce power consumption. 

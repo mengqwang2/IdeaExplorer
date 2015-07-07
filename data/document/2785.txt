@@ -1,0 +1,15 @@
+Data Mill - Harvesting power from your Data Lake
+The idea behind the DataMill is to use data streams flowing into a FBDL to generate 'energy' (information), when that data is still hot. The component is based on Spark Streaming and Spark MLlib, both part of the huge Spark open source community.
+The 4 data scientists involved in this challenge came from academy and industry. They used to work with real time data streams. For the past months, the rise of Spark as the technology to deal with massive analytics changed our daily conversations at BRDC (Brazilian Research and Development Center). We know for a fact that Cloud Foundry proposes a series of built-in black-boxes to help the Data Lake user, but how does exactly it works with real-time massive analytics?
+To answer this question, we started scratching a solution to be used locally, and when this challenge appeared, we decided to propose it.
+Using one of the pillars of Spark, the Spark Streaming component, we may empower our DataMill with community-proven initiatives that will leverage a fast and painless analysis of real-time data streams. 
+
+Our model is based on the same premises as the FBDL and Cloud Foundry initiatives, but goes beyond when easing the arduous task of dealing with real-time data analysis:
+1- Easy connectors to Spark (native) and SpringXD 
+2- Components for time-series (continuous) and discrete events 
+3- Easy integration with the lower FBDL layers (storage)
+4- Built-in analytical dashboard 
+5- Subscription components to events or conditions (may trigger Twitter messages, emails, ...)
+6- Easy integration with Spark Machine Learning library (MLlib)
+1 Show commitment with the 2nd hottest Apache community, involving it in one big EMC's project (Data Lake).
+2 Create a professional tool to empower EMC Data Lake architecture, taking advantage of 3 of 4 Spark pillars (Streaming, MLlib, SparkSQL)

@@ -1,0 +1,5 @@
+Customer buying the pre-paid hours for support
+
+During one of the contract issue where customer was not entitled for support but we supported him bu mistake, he went ahead and bought the contract.
+Small customers who generally dont buy support contracts from EMC can be given those pre paid hours as trial/sell. EMC will be in better position to sell support contracts to these customers in future.
+

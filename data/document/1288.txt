@@ -1,0 +1,5 @@
+ HR Database Filter
+This will be used to help enhance the HR process when searching for applicants whenver there is an opened rack 
+ideation session
+Instead of checking all resumes and wasting a lot of time doing this, the HR stuff could simply login to the database, type in their requirements in checklists ( example, educational background, years of experience, requires certificates,required languages..etc) the new database will filter the database resumes and will get only top 5 most applicable resumes according to the requirements that were types in 
+this will improve the selection process,consume time

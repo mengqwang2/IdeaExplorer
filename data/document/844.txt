@@ -1,0 +1,21 @@
+INFINITE – INternational Future INdustrial Internet TEstbed
+INFINITE is a collaborative initiative with EMC partners and members of the Industrial Internet Consortium (IIC) (www.iiconsortium.org) to develop an IIC accredited state-of-art virtual cloud and network infrastructure testbed that will enable innovators to test and validate future Industrial IoT products and services. The testbed will be the most advanced end-to-end Industrial IoT platform of its kind, currently available in Europe, demonstrating EMC’s thought leadership in bringing together the organisations and technologies necessary to accelerate the growth of the Industrial Internet.
+The testbed idea came from the EMC Research Europe team based in Cork, in October 2014. It was seen as an opportunity to derive greater value from strategic collaborations by expanding the current lab capabilities. Vodafone was brought on-board, and with the support of the Office of the CTO Standards Team, an application was made to the IIC in November 2014.  The testbed was approved by the IIC in January 2015. The Testbed was formally launched on June 16, 2015 with very good publicity received https://fortune.com/2015/06/16/emc-industrial-internet/
+
+The next stage is to broaden the partner base and build, validate and drive use-case adoption of the testbed.
+
+The IIC was founded in March 2014 to bring together the organisations and technologies necessary to accelerate growth of the Industrial Internet by identifying, assembling and promoting best practices. Testbeds are a top priority of the IIC and it has an accreditation process that has broad industry recognition. EMC, VMware and Pivotal joined the IIC in June 2014.
+A partnership approach with equipment vendors, service providers, system integrators and innovative SMEs will be an ideal strategy to build and make available an Industrial IoT environment testbed platform to validate multi-sector use cases. Each partner will provide key infrastructure assets and crucially this collective approach will assemble the relevant domain specific expertise to drive breakthrough innovations.
+The scale and multi-domain architecture of the INFINITE testbed will enable the deployment of a broad range of use cases and drive innovations across many component areas of the Industrial IoT ecosystem including; trust / security, connectivity, analytics, applications and infrastructure.
+
+The INFINITE testbed will:
+•	Provide a new collaborative ecosystem for stakeholders in the EMC value chain.
+•	Enable participants to test and evaluate new industrial IoT business models
+•	Facilitate organisational transformation by identifying technology and business, skills and knowledge gaps.
+•	Identify Industrial IoT investment needs to deploy new products and services.
+•	Provide a horizontal innovation platform across multiple public and private sector verticals
+•	Stimulate the building of strategic partnerships with vendors and service providers in the industrial IoT ecosystem.
+•	Leverage and showcase EMC technology and services as core components in real world industrial IoT applications.
+•	Create opportunities to strengthen existing partnerships; the IIC membership has grown to 176 organisations, including large EMC customers and partners from around the globe. 
+•	Position EMC at the centre of the emerging Industrial IoT activities and developments; increasing our market intelligence and competitive advantage. 
+

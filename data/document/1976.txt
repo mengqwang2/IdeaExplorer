@@ -1,0 +1,5 @@
+Weekly support teams meeting
+My idea is about improving the supportability of those cross product solutions and this is what CTD supportability challenge requests.
+This idea can be applied whenever there is a filed of many contact points and this happens every day in the work place
+The idea is setting a meeting with the key leaders of the products that the cross product solution is made up from. This weekly meeting will assist all the product leads to understand the problems faced by the customer and to set the duties/responsibilities of each team for better customer support and to minimize the unnecessary contact points
+It will look like a weekly meeting among the team leads for example technical huddle tha will be discussed with the rest of the teams during the week

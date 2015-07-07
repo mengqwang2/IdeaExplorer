@@ -1,0 +1,27 @@
+Cloud provisioning of Datadomain backup and archive storage
+* EMC products in heavy Open Source environments
+* New business in cloud and footprint of EMC DD product in hybrid/private environment.
+This is proposed during the assessment for cloud integration for Datadomain.
+
+
+
+•	What we can do now? 
+                                                                   
+         Create DD drivers to provision DD tenant- mtrees/ storage units into the openstack storage        
+         provisioning framework using nfs/cifs.
+	 Prototype or get our hands dirty in moving private/hybrid cloud data into DD.
+
+•	How?
+	Use DD REST APIs 
+        REST APIs to prototype Openstack Cloud integration available from DDOS. 
+        o	https://iweb.datadomain.com/eweb/sm/docs/rest/rest_api_fs.php ( may require some more APIs )
+        o	Current EMC drivers in openstack -> VNX ( Isilon plugin under development )
+                 https://github.com/openstack/manila
+	Once we have the direct ingest available we can provide a switch in the drivers to move data directly into the archiver.
+•	Some info about the openstack file share service:
+        o	https://www.openstack.org/summit/openstack-summit-atlanta-2014/session-videos/presentation/manila-an-openstack-file-share-service
+
+•	Openstack market :
+       o	http://www.businesscloudnews.com/2014/09/10/openstack-market-to-quadruple-in-size-between-this-year-and-2018/
+
+It creates new business opportunity for Datadomain to have footprints in private and hybrid cloud which is expected to grow 4x in next 3 years.

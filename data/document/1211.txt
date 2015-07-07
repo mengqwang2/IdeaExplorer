@@ -1,0 +1,5 @@
+IoT Secruity
+IOT security design should enable an open, pervasive, interoperable yet secure infrastructure. So the IOT or smart objects must be capable of implementing  user set policies. 
+Idea came when I was checking a home automation solution, and I started thinking of the Secutity for all the device access 
+the idea is giving devices a token to use for the API calls. this could work for both device to cloud and cloud to app communication 
+Provide a more secured communication between the devices and the app

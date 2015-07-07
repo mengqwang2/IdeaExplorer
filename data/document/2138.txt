@@ -1,0 +1,5 @@
+Smart City and IoT challenge (Smart solution for the energy problems)
+The idea will help to reduce the amount of energy consumed and it will have a financial impact by saving money because of eliminating the amount of energy wasted.
+There is no history for the idea.
+We can use light intensity sensors inside the buildings in order to determine the amount of light in the rooms from the daylight as the idea of the green buildings is evoked which depends on designing the buildings to make the most of the daylight. The readings of these sensors are collected and we make analysis on them using big data tools (example:Pivotal tools) and according to the results and thresholds that are predetermined we can reduce the amount of lighting based on electricity automatically in the building which will reduce the amount of electricity and energy consumed.
+The idea will help us to reduce the amount of energy consumed for lighting the buildings which will save money. 

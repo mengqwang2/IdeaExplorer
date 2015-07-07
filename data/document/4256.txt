@@ -1,0 +1,5 @@
+Cloud enabled drive erasure process
+
+Cork APC brain-storming session
+Cumulus is EMC's next gen cloud-enabled mfg test environment allowing us to test any product with just a network drop and some inexpensive network-enabled test equipment. The drive erasure process could be modified to run under cumulus and could provide scaling to enable a much higher quantity of drives to be erased concurrently.
+

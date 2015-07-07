@@ -1,0 +1,6 @@
+Log server
+Logs of the all events are stored under particular server 
+Very tough to login and check the logs of the server if number of server, storage array is located in a particular network and very tough to grab those logs all time we need to run the script to collect the log which is most time consuming.
+We can install FLUME software in all assets, storage, server, switch.. etc
+And every time the generated logs are sent to FLUME server which is located remotely.
+We can reduce the work load, easily and fast collection of the logs, easy and fast analysis of the logs

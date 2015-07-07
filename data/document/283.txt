@@ -1,0 +1,28 @@
+Easy Link to EMC Federation & Social Media. 
+Below solution is proposed for “Ireland COE Challenge”, for developing a 3rd Platform responsive app which will promote collaboration and communication between Federation members to ultimately bring our service and product offerings to a new level.
+Link to presentation : https://inside.emc.com/docs/DOC-155951
+[NEVER FORGET TO SEE THE PRESENTATION]
+Link to presentation : https://inside.emc.com/docs/DOC-155951
+[NEVER FORGET TO SEE THE PRESENTATION]
+
+Proposal is to have Open Source Web Application built using 3rd platform micro services architecture which will integrate our “Inside EMC and EMC Career” site with external social media portals like Linked In.
+
+Functionally the App will be able to perform the below activities:
+
+1) To post any content from "Inside EMC" to Social Media, there will be flags provided to post additionally to Linked In and other portals as well, user can select any option and post it.
+
+2) We did analysis on integrating applications to social media and job portal, we found that Linked In is supporting to post contents from other applications through REST API.
+
+3) Once the content is posted to social media, interested EMC’s Federation partners can go through the post and can give their comments.
+
+4) This process can be automated to trigger notifications to the EMC’s Federation partners whenever any content is posted in Inside EMC.
+
+5) This system can be extended to pool talented resources by posting vacancies at EMC to socail media  through Rest API provided by LinkedIn and other social media. Once the content is posted to social media, interested users can go through the registration link and provide their skills, contact information. In this process we will collect the user data related to diversity (especially employee with different skill sets/women/disabled).
+
+6) Since users’ information available with us, whenever any requirement available in EMC, HR team can login to “Easy Link” and search for the suitable people, can send notification to diverse people based on their skill sets and other attributes like women/disabled candidate.
+
+7) This process can be automated to trigger notifications to the EMC’s Federation partners and users whenever any content is posted in EMC careers site.
+Improve communication across our multiple EMC and Federation sites
+• Deliver enhanced collaboration across EMC’s Federation partners, and across the COE Ecosystem
+• Build a workplace of the future, to demonstrate next generation thinking and showcase EMC as an employer of choice for new talent
+• Upskill our existing talent to lead, and to deliver excellence and relevance in the transformed IT industry that is Platform 3

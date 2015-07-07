@@ -1,0 +1,18 @@
+Installation of Solar systems for lighting load in ICOE buildings.
+
+None.
+Cost of electricity is one of the major expenses incurred by any institution; and EMC ICOE is not an exception. The most significant contributor for this, in general, is lighting load. Other electric loads such as inductive loads have complex requirements (high starting current, etc.) and hence it is difficult to supply them with alternate power source but to use government provided electricity. However the lighting load can be driven by alternate power source such as solar energy.
+
+Solar energy is free and inexhaustible. Though the initial cost of deployment is high, solar power is preferred because of its environment friendly model, cost saving on electricity bill and low running/maintenance cost.
+
+There are many ways in which we can deploy solar systems and there are many providers in India to provide right solution. The only caveat would be that the sizing should be done properly without compromising any aspect like cost, space, etc., since the possibility failure is huge hence the margin of error is very less.
+
+The solar panel deployment requires large area. The terrace of the building can be used for the same. However, there are advanced technologies such as thin-film panel which can be deployed in right-angle to the sun. It is possible to replace the glass windows of a building with such panels - this is a proven solution in real time as well.
+
+Also the type of lights used should be determined based on its power consumption. For example, the fluorescent lights consume more power than CFLs; and CFLs consume more power than LEDs. While doing sizing calculations, one should consider the type of lights as well.
+
+The deployment can be started with a single floor as a trial run to see the results and then expand it to the other floors. The solar power can be utilized for non-production data centres such as labs as well. 
+
+The benefits are manifold such as cost saving, no pollution, eco-friendly, etc.  
+
+

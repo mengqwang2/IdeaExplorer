@@ -1,0 +1,19 @@
+Unified Ultra Converged Software Defined Infrastructure Solution for Business Data Lakes
+The proposed product/solution is designed to address the need of high compute high IO intensive software defined solution for big data/BDL customers. Which will bring in great performance improvement and reduce the cost of infrastructure spent on big data
+The idea came out of a brain storm session involving both the Innovators. The idea is at the conceptual stage and we are eager and planning to take it to the next level.
+
+We propose a new solution by bringing together EMC Federation[Isilon + ScaleIO + Pivotal Suite + Any BD Analytcial Engine] that can be integrated easily to build a new product platform/solution to address the need. A new architecture with a unified node that runs ESX which houses both compute and storage components in the same node. Virtual Apps of Scale IO, Isilon(vOneFS) and any Object store running on the same node in a node cluster will provide block/file/object capabilities. 
+
+Additionally the same nodes would also house the compute elements (Pivotal Suite and/or other analytical engines) based on the customer need. Infiniband(IB) fabric is proposed to be used as the interconnect layer for the nodes, which delivers high speed access. Infiniband protocols for Storage access iSER/SRP will be used to access the targets through the compute VMs. This will reduce the latency to access storage since compute nodes are also the storage nodes. Cisco and Mellanox IB switches support iSER/SRP protocols for storage access. 
+
+
+This a scale-out solution leveraging the capabilites ScaleIO and OneFS architectures. VMWare automation can be leveraged to scale-up/down the storage/compute node arrangements based on the specific needs/policies. During the data ingestion phase the storage nodes can be beefed to handle the storage i/o rates and when data is at rest and data in ingestion comes down during off peak hours compute elements will kick in and run the analytics. 
+
+Based on the performance metrics and workload patterns the nodes can be optimized/provisioned based on software defined policies, for instance a couple of policies are mentioned below:
+
+a, All in one node for less workloads [Compute + Storage]
+b, Special compute only nodes for high compute workloads along with the all in one nodes
+c, Special storage only nodes for high data ingestion rates along with the all in one nodes
+
+The POC of the idea and the amount of performance improvement it bring in determines the success. The success of the idea will bring in more business for EMC in selling 
+a single hyper-converged compute-storage solution for Big Data Analytics.

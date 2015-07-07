@@ -1,0 +1,23 @@
+EMC’s All-New Data Center As a Service 
+
+The idea came to me while thinking about all the new "as-a-service" concepts like PAAS , SAAS, ITAAS
+Sales around the world are simplifying the sales process of all their products in innovative ways. The idea of bundling the company’s products stack into purpose-built bundles can bring new revenue streams to the company. Combining this bundling idea with the “As—A Service” concept which eliminates all the maintenance and complex setup of any environment, EMC with all its  technology stack and leading position in the market can do this through introducing the all new “Data Center-As-A-Service” (DCAAS).
+EMC can start stacking its products into bundles (e.g. ViPR for software defined data centers + VMAX Storage + nVidia Graphics processing server or IBG servers) and offer a ready-made data center service including the hosting and all the physical infrastructure setup, maintenance, and upgrades. EMC can offer specialized data centers (DCAAS) like:
+-	Graphics processing and movies post production DCAAS
+-	Music production DCAAS
+-	eCommerce DCAAS
+-	Banking DCAAS
+-	Gaming DCAAS
+The performance and features of each specialized data center is customized for each purpose it’s built for.
+Customers can rent a data center in the cloud, can choose the one fitting their purpose, and can pay in a pay-as-you-go model.
+The DCAAS will have a management software that sits on top of all its underlying products.
+The customers can use this software to manage and tune all the products included in their DCAAS.
+
+The benefits of this new concept will:
+-	create a totally new revenue stream for EMC 
+-	New customer segments looking for easy to use As A Service products that are quick to configure and deploy.
+-	Quick Go To Market (GTM) for EMC’s products and services
+-	Upgrades for each DCAAS bundle can be bought at extra charges
+-	EMC will lead a new customer segment and will leverage its 3rd platform products (Pivotal cloud solutions, VMWare products, ViPR) as well as Storage product stack, which in turn help drastically in growing our market share.
+
+

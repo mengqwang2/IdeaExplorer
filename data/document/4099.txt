@@ -1,0 +1,19 @@
+Next generation education experience, NGEduX
+
+1. I have undergone e-learning on EMC for few trainings, need for hands-on was felt on several occasions which was totally ignored.
+2. During internal trainings I realized, though the instructor promises to provide the slides later, it hardly materializes. During technical trainings a lot of time goes  copying required software to each participant’s laptop and trouble shootings.
+3. One of the institutes where I studied had concept of MGPTs. Also, various coding challenge websites also have it.
+
+Idea here is to create a state of the art education platform (with web, mobile and tablet interface) which provides its students with the necessary resources (presentations, audio/video lectures), a way to ‘provision lab environment’ for hands on experience (VMs), a schedule tracker and 3rd platform based collaboration portal based on each subject.
+1. Training/Course creation:
+To start with, a bare minimal Master VM (aka Appliance) needs to be created for each lab environment requirements for e.g.  lab appliance for Java, JEE, Dot Net, Linux, Networking, Analytics, etc. And while designing a curriculum,  EMC education service should tag this master VM along with the other study material such as presentations, video lectures.
+2. Schedule tracker:
+Schedule tracker is a could act as a tool to maintain the pace of the course as well as the motivation level of the students more importantly for eLearning courses.
+3. Training resources and lab access: 
+A student enrolled for the course can log into the class and access all the required resources. When they need to go for hands on, they can provision a lab by a single click, which internally will instantiate a dedicated VM cloning of the tagged master VM on EMC Cloud using VMware APIs and infrastructure. Students will get an IP address which they can access via a Secure Shell with the limited privilege user account and complete their hands on. These VMs will be active as long as the participant is logged-in to their account and will be taken offline, saving its data/state, once the user logs out thus releasing the hardware resources.
+4. Competitive edge via evaluations: 
+Weekly/daily quizzes can also be aligned with trainings to test students grasp over the subject. More importantly, programming assignment can be submitted to an automated test environment which will test the participant’s program on predefined Test Cases (Black Box testing) set up by the instructor, but not known to the participant, called Machine Graded Programming Tests (MGPT). Feedback collected via quizzes and MGPTs will not only be useful in evaluating a participant, but also used to increase the effectiveness of the training.
+5. Collaboration using the 3rd platform based forums:
+Collaborative forums for each session of the course where students can get into discussions using web, social and mobile devices. “Ask the expert” tagging can be used to get the instructor’s attention to the problem where solutions couldn’t be reached by discussion among the students.
+
+

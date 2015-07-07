@@ -1,0 +1,11 @@
+Control case time
+
+I had this idea while being asked why some cases were open for too long.
+If we had this functionality already working we could easily see where times was going.
+
+
+This idea would work by using the "Status" field we can control how many days we wait for someone action.
+That time would be count and presented in "History tab" so managers can see which actions are taking more time to be completed, waiting customer answer , waiting TSE,etc.
+Having this information we can have a general idea of case time and in long term we can have a customers historical time . Here we can control if usually customer takes more time to answer to our communication or actions requested.
+We could improve all processes involved in case resolution by using the time which group is taking to provide a new action.
+

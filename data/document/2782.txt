@@ -1,0 +1,6 @@
+Smart way to downgrade the array
+Every time when we need to do some AR verification on the low bundle, what we can do is just ICA the array back and re-configure the array. It cost a lot of time.
+Every time when we need to do some AR verification on the low bundle, what we can do is just ICA the array back and re-configure the array. It cost a lot of time.
+If we provide a smart way to do this downgrade without any more configuration, we can improve our efficiency.
+Develop a smart upgrade Technology to support both upgrade but also download
+It would have testing team to improve our efficiency and have more time to testing rather than  take time to ICA and configure arrays

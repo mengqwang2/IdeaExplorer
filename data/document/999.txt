@@ -1,0 +1,16 @@
+Application Content Platform as a Service
+Proposed solution uses ECD technology assets and integrates with EMC Core technologies. It also  provides cloud based content services for application development.
+This solution came while discussing the challenges and problems faced by ECD today in era of third platform
+We propose Platform as Service ecosystem where user can build UI/View on Wave maker SaaS cloud, and Model, controller and Content management on Documentum cloud. The developed application will be deployed on CF, this ecosystem contains cloud migration component which will help in migration of brownfield applications via template based model. It also provides ability to integrate with on premise and cloud based application through API Management tools.
+Template based Business Applications development can be accomplished with choreographing & orchestrating different micro services from search, sync/share, transformation, compliance/governance, security, integration and content management.On PCF cloud, application can consume services like Big data analytics, E-signature services, Tableau reporting, content Migration services
+
+UI+ Content Management+ Cloud = WaveMaker Cloud (aPaas) + Documentum + PCF
+
+https://inside.emc.com/docs/DOC-155778
+•	Easy to build and feel UI.
+•	No Programming Skills
+•	No Infrastructure
+•	Metered Charges
+•	One-click deployment
+•	Accessible anytime, anywhere, on any device
+

@@ -1,0 +1,11 @@
+Better Bengaluru through  technology
+
+I came up with these idea on a  Sunday Afternoon on 9th November while watching a television show on how mobile phone are harming human body and then had a discussion with my Dad on how we can or how we should solve it . 
+My Idea is to install sensor device's which senses radio waves in office spaces . These devices should have the flexibility to be set at various levels with 1 being minimum radio waves and say 10 being  maximum radio waves. These devices once installed in office spaces , should send an alarming signals when higher radio waves are detected.
+
+These works like a Fire alarm installed in office space and can control exposure to radio waves , which very slowly damages our body.
+
+We cannot avoid these devices as we are addicted to them , but we can avoid excessive exposure of radio waves emitted by these devices by sending alarming signal so that 
+1.) one can get away from those areas which might have limited connectivity or where signal strength is weak.
+2.) start using Headsets , instead of talking in phone directly or via bluetooth.
+

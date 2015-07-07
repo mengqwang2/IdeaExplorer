@@ -1,0 +1,8 @@
+Spring Data integration with xDB, xPlore
+Integrate ECD existing products with Spring Data, make Documentum content based services easy to use in Spring based projects.
+When developing xPlore, sometimes we want to use spring technologies, like spring batch. But due to lack of data access layer support, we feel a little difficult to integrate these technologies.
+We can contribute two community projects Spring Data xPlore and Spring Data xDB. The code is hosted in Github. 
+For xDB, like other databases, we should provide object mapping between documents and POJOs, Java based Query, and support multiple data operations.
+For xPlore, we can implement a xploreRepository, the functions includes finding document by metadata and text. User can add(index) document to the repository. 
+Spring has some projects that support big data, mobile, social network, SAAS solutions, if we can integrate xDB and xPlore as with Spring, more customer will consider use xDB as database server, and xPlore as search engine.
+Promote product visibility, improve project usability, improve customer satisfaction

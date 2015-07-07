@@ -1,0 +1,5 @@
+EMC shared library
+
+I got this idea because I saw it implemented in different universities and institutions and thought it would be very effective in the workplace too.
+A shared library is a library where any employee can give away the books that he doesn't need allowing another employee to borrow it for free. This will provide employees the opportunity to share a wide range of books and simplify the process of finding and buying books. 
+

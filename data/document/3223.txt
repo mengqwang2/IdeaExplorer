@@ -1,0 +1,13 @@
+Vipr & SRM as a service
+
+-
+Create a Vipr & SRM instance that is provided as a service.
+
+So people can manage their private cloud and private data center using a Vipr instance that is provided as a service from a service provider.
+
+Vipr and SRM could be reached globally, without any contraints. 
+High service guaranteed.
+Lower buying cost.
+
+The customer can request also the service provider to manage and monitor his private cloud . So this offloads the hassle of management and monitoring to a service provider at an extra cost.
+

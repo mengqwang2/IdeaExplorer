@@ -1,0 +1,9 @@
+Electrified Cloud
+
+Some one thought of railway reservation, so irctc.co.in came into existence. Some one thought of airway booking, movie ticket booking, bus ticket booking, so all that is there, but no one thought of selling electricity online. 
+I had been thinking of what could be today's critical problem. One cannot get power except from regular supply. So if we make a product for this, it can be an instant hit.
+
+Electricity will be given by electric company like NTPC, etc. The idea is to give NTPC a provision to sell electricity to direct consumes. What we need is to get the individual consumers electric meter numbers. Later these consumers can buy electricity over cloud.
+
+The interconnection between power transmission needs to be understood clearly.
+

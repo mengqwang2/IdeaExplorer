@@ -1,0 +1,16 @@
+Adding shortcut keys for VDP and VDPA web client based applications.
+
+Just a thought
+
+Solution:-
+
+Provide key board short cut keys for creating backup, restore, replication and reports.
+Users must be able to launch the respective wizards from any UI screen.
+For example if the user wants to create a new backup or edit a replication job and he is currently in the reports tab, a short cut key must immediately open up the corresponding wizard
+and provide access to users/admins to perform the action.
+Another use case can be viewing the reports from which ever tab the user or the admin is currently in. 
+A configurable or a per-configured short cut keys will really boost up the application in terms of customer UI experience.
+
+This idea can also be extended to all the EMC applications that run on web browsers.
+Clariion, VNX, DD, Avamar, Networker etc
+

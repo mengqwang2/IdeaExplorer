@@ -1,0 +1,7 @@
+refuse to remove user lun from filestorage group if a mapping file pool is in use state
+for better user experience in using VNX product.
+challenge for "CTD Supportability in 12 Months or Less"
+We usually have to manually reset the NAS DB and delete all related File System and check point and nas volums at file side if someone directly remove a user LUN from filestorage group without checking its NAS objects.
+It's hard to return to previous stable state even we take much time to do some cleaning up operations. 
+The operation should be refused and will show an error message like 'the LUN has a file pool and file system or checkpoint,it will not be allowed to remove directly.'
+Ensure VNX product's stability and correctnes and improve user's experience.

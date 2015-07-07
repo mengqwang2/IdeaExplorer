@@ -1,0 +1,5 @@
+The Power Of Automation
+n/a
+I came up with this idea when I was analyzing the cases in the Install Base Queue searching for a new way to enhance the daily operations of the Install Base Group.
+We should contact the GBS MCO SALES SUPPORT team first to get a list of all the contacts who assign cases to the Install Base Group. Then we will develop a Macro tool using JavaScript language to catch any new case in the Install Base Queue created by the one of the GBS MCO SALES SUPPORT contact list.The Macro will start analyzing and working on the targeted cases automatically on the Install Base portal. The macro will also close the cases and notify the requester that his case has been handled.
+n/a

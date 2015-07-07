@@ -1,0 +1,21 @@
+Smartphone Application to help alerting government with any faulty or problem in a specific neighborhood 
+This solution will create a Ticketing system wit the help of smartphone application and managing DB to help local government to be alerted with any faulty or a problem within their managed neighborhood. 
+During mind storming session in sub-tribe
+Creating an Smartphone application that will automatically open a case in the proposed system. Application will work as the follow
+
+1- in first installation , citizen will enter his basic information (name/address/contact number/ID)
+
+2- user will see a problem in a neighborhood.
+
+3- user uses the application to capture a photo of the issue and add a comment explaining the problem.
+
+4- application will create a Ticket that contains the following:
+a- user details
+b- picture of the problem with user's comment
+c- using GPS , get the location of the incident when capturing the photo
+d- time of the incident
+
+5- application will send the above 4 information to a server and based on GPS location , Ticket will be routed to the nearest local government 
+
+
+Creating a Reactive System that helps both citizens and government to easily report / solve problems.

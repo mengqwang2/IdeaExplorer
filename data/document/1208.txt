@@ -1,0 +1,10 @@
+Continuous integration optimization
+This solution is to optimize continuous integration, reduce development process time.
+Idea belongs to Alexander Maklakov.
+On June 19-20th in Russia COE passed Hackathon event where we created simple prototype.
+Solution is to analyze changes that developer makes, and run tests only for these changes.
+Solution includes 2 steps:
+1) Collect information about existing tests and source code once in some time (for example in nightly builds).
+2) Run tool to get list of tests to run based on developers changes before tests started.
+We found no analogs on market which means this idea is unique.
+If idea will be fully implemented in would optimize a development process and enhance developers productivity.

@@ -1,0 +1,17 @@
+Application for the available parking slots
+Application designed for parking platform for EMC COE in Egypt. 
+
+- its compatible with iOS and Android environments. 
+
+- Mock up for the home page (with the available parking slots in B2 and G (different parking levels))
+
+- Mock up for the parking layout
+Alot of times I'd go to the underground parking and not find any spot which lead me going around the building again to check if B1 is empty and worse the other side to G to find a parking spot. Alot of times cars park infront of other cars and consume time for me to get out of my parking spot
+o We need an application from which I would know the available parking slot in B1 or G floor (if any) while I am on my way to work. (This application could be part of the EMC IT project where all EMC employees would use this application to determine the availability of parking slots among many other things).
+o This application could also be used in big malls. Where we could find the nearest parking slot to our location.
+o Also this could be used in downtowns as we all know that the parking in downtown in any city is a challenge. 
+
+the Success of this idea is to find myself one day using my mobile phone to find the nearest parking slot on my way to work.
+
+Please find a link for the application design layout and everthing in this link
+https://inside.emc.com/docs/DOC-153703

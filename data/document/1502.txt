@@ -1,0 +1,8 @@
+Add a search bar in the Unisphere
+It's new feature, need pay a lot efforts of engneering and testing.
+
+Once I create a lun, I need go to different pages to create pool, create lun, config ISCSI setting, create host and create initiator. It's really complex. But if we provide a search bar in dashboard, we can use it to search and redirect to the interface.
+
+Add a search bar, so that we can use it to get the various functions we want fastly.
+
+More friendly and easy for customer to use.

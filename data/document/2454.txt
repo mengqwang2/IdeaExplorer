@@ -1,0 +1,28 @@
+Automatic scaling for storage Volumes
+The idea address the following challenges:
+Israel COE - as it present new usages for any software defined storage solutions (e.g. ScaleIO),
+APJ COE Solution platform - as it handles cost efficiency & workload elasticity (as a new cloud based storage model
+the various EMC articles about the cloud (and some various challenges presented in non EMC site – such as www.infoq.com) – in specific the problematic definition of 
+“Scaling” the world of Cloud computing and in addition the various abilities of ScaleIO(performance , robustness etc.) made me think of this idea.
+
+The only thing which I am familiar to this notion is the various “dropbox” which offer scaling (and not automatic) in the aspect of “capacity”
+However – I have my doubts that dropbox can offer a storage for a live production environment (for example DB server of a bank) – most likely due to high latency
+
+The use of SCaleIO as a software defined storage ( https://www.youtube.com/watch?v=WeO5QOTTsY0 ) with additional “scaling brain” for each storage volume will automatically provide all of the above.
+
+ScaleIO – a storage solution which implements both the storage provider (known as SDS) and the “driver” for the storage consumer (known as SDC) may
+- Identify high / low latency thresholds at the Storage consumer (SDC) and by that order the storage providers (the various SDS) to non-disruptively implement the Volume
+in a different manner in a more / less distributed manner – and by that provide scaling in the aspect of speed
+(for example – consider a single IO write composed of 100 blocks can be performed on 100 different physical devices concurrently or on a single device – this upon demand for the desired speed)
+
+- Identify the “virtual” (since it is software defined) volume reaching capacity limits and as such increase the volume size 
+(or alternatively – identify capacity is not been used and “shrink” the virtual volume size)
+
+- ScaleIO – as a software defined storage - can identify hardware malfunction on implementation of specific volumes and by that 
+automatically 
+      o Alert on the malformed hardware
+      o Transparently Implement the storage with more and more replication so that any “voting” / integrity  algorithm may easily decide the proper authentic copy of the data
+
+as I see it – any one of the below can be considered as a success of this projects
+- A new tool for better utilize private cloud / on premise data center storage
+- A new cloud model which will offer not just “storage” but the ability to (auto) scale it vi

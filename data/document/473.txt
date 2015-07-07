@@ -1,0 +1,9 @@
+Online compatibility matrix
+The compatibility information is now avilable to the customers in tabular format, which is cumbersome and confusing to use. 
+Internally, it is very difficut for the writers to comprehend all the possible compatible combinations during every release and add in the document. 
+From past experience.
+The proposed solution is to create a dynamic html page and add the required source and destination version(s) of the xCP product as required by the user. An online compatibility matrix is generated. 
+This is very comprehensive and easy to maintain as well.
+Comprehensive solution, easy to maintain regardless of the number of releases, uploading of source files to the server is a one-time activity.
+This largely improves customer satisfaction and also optimizes the involved process and thereby benefits the organization.
+

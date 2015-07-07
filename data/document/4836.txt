@@ -1,0 +1,5 @@
+About EMC Webpage
+
+Innovation Session
+We create a simple and i nformative web page about EMC. Basic to the point pieces of info that we would like to deliver to potential customers or potential employees. There should be a point system where each time a non emc employee checks it out, it has to refer the email of the employee who told him/her about it. This way the employee with the highest point and contribution to this webpage being viewed gets to win a prize.
+

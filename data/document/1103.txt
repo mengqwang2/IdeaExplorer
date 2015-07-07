@@ -1,0 +1,10 @@
+ASS for Software updates & Patches Qualification and enabling effective TCE improvement
+Field of invention is related to backup and recovery. We propose a Process and supporting architecture and design changes to the existing system. Process and supporting blocks are generic and can be applied to any product.
+The idea for invention has come to our mind when we were discussing about building an automated efficient Qualification system and how do we make use of that data to improve the Total Customer Experience of the product.
+Now the proposed idea here is to avoid such manual interventions and provide an automated system that shall be deployed along with the Backup Product or any EMC solution which will maintain, track and recommend latest Qualified Software and Hardware for that particular product/solution.
+Here we propose a new process with an automated process and with a Unified interface interact with the backup application and to provide TCE focused notification to the customer. We use REST interface to bridge the gap b/w customer site and product engineering group. 
+
+Advantage of the proposed solution
+1An Automated System for QUALIFICATION of patches and Software Update.
+2Solid Process and Unified Architecture to improve TCE of the backup product.
+

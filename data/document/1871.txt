@@ -1,0 +1,8 @@
+Meeting recorder
+IT Contemporary Workplace Challenge
+
+Irrespective of whether we have started recording on the webex this product records the meeting and puts the recorded file in a centralized server location.
+I had a personal experience when i missed recording a demo which i had to repeat again for next set of audience where the set up was tough for me to do and took lot of my time.
+That is when it clicked for me to have such product. During ideas mining session this ideas was further built up by the team.
+Meeting recoder records all the webex mettings irrespective of the choice on the webex. The recorded file will be saved under a folder which is named after the meeting title and timestamp of the meeting. This folder will be accessed only to the invitees of the meeting.
+The advantage of having this product will definitely enhance productivity.

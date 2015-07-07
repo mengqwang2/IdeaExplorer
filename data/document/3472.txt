@@ -1,0 +1,11 @@
+- Enhance Opening Service Request Process.
+
+- Idea came up to save the time of TSE and Customer in Hot Cases that has DU/DL Situations
+- When the customer opens any Service Request. He can just choose an option to send CODE RED email when he face DU/DL Situation.
+
+- If he selected this option. Email will be sent Automatically to the CODE RED Approval Team with some information about the issue and box.
+
+- When TSE will start to handle the issue. He will not need to send the CODE RED Email as it is already sent by the customer.
+
+- TSE can just send an updates.
+

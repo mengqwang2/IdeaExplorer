@@ -1,0 +1,7 @@
+Revamp ISD Manufacture Nodeburn Test to [Disk/Drive+NVRAM] as MVT Execution
+
+Key Take-A-Ways: Burn-in Chamber should be regularly/fully utilized, and NOT the bottleneck in the production flow. 
+
+AVT becomes FCT. (Skip LCD/NET Burn-in, very low failure rate).  Paybacks: No FCT part swaps/conversions; No MFG/Diag re-images.
+
+

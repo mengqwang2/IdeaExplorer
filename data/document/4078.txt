@@ -1,0 +1,5 @@
+An integrated tools for internal developer in VNX/VNXe
+
+When i tried to use some commands of the components i am not familiar with, it very difficult to find out how to use it or what's the meaning of each parameter since some of them don't have any manual, i think if there is a tool can help me to complete some job, it should save some time. 
+The integrated tools should has gui interface in each VNX/VNXe, and the gui only can be used by internal developer or EE, maybe it can be controlled by a special internal license or configure file. The gui can be very simple and just provide some buttons, each button can do a serial of commands to complete a well defined job, for example, if VNXe is in service mode, in order to restore it, we should run several commands in cli, with gui, we can just press the "restore sp" to do the same work. To develop the tool, engineers need to submit their requirements and the commands need to run to complete the job,  then we can decide which job can be integrated into the tool(usually, the job shouldn't depend on special input parameters, such as fsid, file name).
+

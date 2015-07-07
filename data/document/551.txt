@@ -1,0 +1,5 @@
+Live Dashboard for Customer
+My idea will help customer to check multiple assets in a single screen & they will be getting update on their assets status.
+In few instance we faced that customer asset is down & it didn't trigger any alert to us or customer so their was long delay to pick the issue & we had quite long downtime  
+It will reduce the downtime of the assets/product. It will help to minimize DU/DL impact. Also, it will help customer to take corrective action quickly.
+It will reduce downtime & DU/DL risk.

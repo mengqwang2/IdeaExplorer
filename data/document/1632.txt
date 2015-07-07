@@ -1,0 +1,49 @@
+ IoT Smart Cost-efficient Storage + Backup Solution
+ IoT is representing a huge promising market especially with potential market growth of smart cities. 
+This idea aims at putting EMC as a technology leader in this market by reinventing the storage and backup solutions in a novel way to suit this market demand at low cost
+
+
+We have been engaged in IoT researches as well as hands on experience with some EMC storage arrays serving nowadays workloads. We have been thinking about a way we can adapt to this new market by tailoring our offerings or proposing new approaches. Gap analysis helped us define the idea scope and opportunities. IoT researches helped us define IoT data nature, type and behavior.
+
+References:
+[1]- Paper by Prof. Madden from MIT comparing column and row stores: http://db.csail.mit.edu/projects/cstore/abadi-sigmod08.pdf 
+[2]- http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html 
+[3]- http://ireland.emc.com/storage/video-surveillance-storage.htm 
+
+Solution Operation: 
+
+ The solution utilizes main IoT data characteristics to capture opportunities:
+
+1-	IoT IO flow:  is represented in small chunks of data as a stream of constant flow. This leads to stable steady expected IO load. For example: a sensor in a vehicle reporting its location coordinates every 1 minute.  
+
+*Opportunity: This allows us to use storage types optimized for such IOs (like RAID 3 for steady writes) and we do not need other storage types that is optimized for random writes (save cost)
+
+2-	IoT Data Structure: is mostly represented in (key,value) pairs with constant format (such as a sensor reporting temperature over time). This makes us capitalize on “Column-based Stores” instead of “Row-based Store” as column-oriented databases are much faster and easier when it comes to data analysis [1]. For example getting average temperature reported by a sensor over one month can be done in one operation in column stores. 
+
+*Opportunity: Hence, we can use a basic storage array that has column store database integrated and neglect traditional storage protocols like file share (CIFS. NFS) and traditional databases like exchange.
+
+3-	IoT Data Correlation: IoT data are –by nature- correlated to each other meaning that the sensor data streams follow –somehow- a logical sequence. For example: a sensor in a car reporting its location coordinates (x,y) you will find that x,y are following certain sequence (x & y are increasing with certain rate depending on the car direction). Also for example: a temperature sensor is expected to transmit a stream of values within certain expected range and following certain trend (increasing or decreasing). But why is this useful for Storage?
+
+*Opportunity: This correlation allows us to capitalize less in protection of data in this solution as we can infer missing data from other data around it using trend analysis. Certain algorithms exist that accurately infer population from sample data.  For example: a temperature sensor send 4 readings for temperature within few minutes; The readings are (29, X,32, 35). By intuition we infer that the missing value X is most likely something between 30 and 31 at least we do not expect it to be 40 as temperature would not vary randomly. Hence, we can save cost by employing less protection in the infrastructure and save capacity/Money
+
+4-	Smart Compression: IoT data stream similarity and correlation allows us to use much less space in storage as well as backup by utilizing smart compression techniques:
+a.	Data Stream summarization: data stream with repeated data points can be stored using only one point and an integer number representing number of repetitions. For example, a car sensor that periodically sends its location as (x,y) coordinates; If the car is moving in y direction (north), then x will be the same value, then we only store X once and store Y as an increasing series. This will consume significantly less capacity in storage and backup platforms
+
+b.	Dictionary-index compression: if a sensor is sending data that have certain range and possibilities such as rankings (bad, neutral, good, very good). If the sensor is sending one word per minute, then we need to store 60 words per hour. However if we can replace this by an index (from 1 to 4) corresponding to the above words in order then we can save only the 4 words once in the storage and store 60 numbers per hour instead of 60 words which is a significant saving in capacity.
+dictionary compression techniques exist and can be integrated into the backup/storage intelligence [2] 
+
+Market Offering:
+
+EMC can offer this solution in two options:
+-	Software: as an IoT data intelligence module in ViPR leveraging commodity hardware. 
+-	Low cost HW array: to offer a dedicated appliance for IoT market at lowest cost presenting only needed features (in the same fashion like EMC VSS that is an appliance dedicated for video surveillance market [3])
+
+Target Customers:
+
+smart city market + IoT service providers
+
+1-	 Dominate IoT promising market
+2-	Providing cost efficient solutions
+3-	Generate revenue for EMC in platform 3
+4-	Reinventing EMC storage/backup and promote ViPR
+

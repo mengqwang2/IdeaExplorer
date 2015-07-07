@@ -1,0 +1,14 @@
+Bitcoin contest: Design/Utilize Electronic Cash system
+
+When talking to my team members
+The contest is around bitcoin algorithm, application, trade or business analyze. To design a digital payment system requires knowledge of math, computer science, engineering and financial knowledges. Mining on bitcoin like system also requires knowledge of Big Data, Cloud and/or Trust.
+
+Student can choose one of the following topic:
+1. Design a digital currency system, must consider its fairness, security, inflation. The system can be a modification to current Bitcoin system or a brand new one.
+2. Design/Implement mining machine to get bitcoin effectively, use of big data, distributed computing, parallel processing, and cloud technology is a plus.
+3. Design fun and innovative applications that incorporate digital currencies 
+4. Business analyze of bitcoin
+5. Design/Implement a bitcoin trading system
+
+We can give one or two sessions to introduce bitcoin and tools, and give one month for students to finish the challenge.
+

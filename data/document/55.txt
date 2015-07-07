@@ -1,0 +1,16 @@
+Key strokes KPI
+modernizing the internal systems
+ease of access for everyone
+better internal user experience, more efficient
+I see all employes doing repeat steps to open their systems in beginning of the day, users try to utilize macros due to repetitive clicks that they have to make
+Save time for employees, drive efficiency in daily tasks by: 
+
+-Introducing a KPI: # of keyboard strokes/clicks required to perform actions in internal systems.
+- All enhancements to system's frontends should prove reduction of keystrokes required by end users to perform action
+-Drive and prioritize all system changes and WRs based on efficiency/reduction to keystrokes required
+- Key strokes analysis for existing systems one by one based on usage widespread
+
+examples: 
+- programming keyboard to have a 1 button for locking PC saves 1 click for 70,000 employees at least 3 times a day, those seconds aggregate to days, which is money in salaries
+- simplifying logging in to systems, default for fields or giving up mandatory fields that aren't put into use could save seconds per user repetitively for every single employee
+EMC users will gain minutes per day x 70000 employee x 365 days, aggregating to millions of dollars in repetitive steps due to systems design 

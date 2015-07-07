@@ -1,0 +1,21 @@
+ VNX replication – avoid data loss situation using tiny GUI modification
+
+ The Idea came up from a real life scenario that happened with one of the customers in an SR
+
+
+The situation happened is as follows: 
+1-	during replication initial synchronization, the filesystem data is copied to the destination.
+2-	Pausing the replication during this initial sync means discard any data that is already written on the destination (delete data on destination) 
+3-	The customer though that pausing replication during initial sync will not delete data on destination as the GUI did not alert him
+4-	The customer then did failover test. The failover happened and the destination (with no data) became the primary and the old source (with data) became the new destination.
+5-	The customer then tested the failback. The failback lets the data on the current source (with no data) override the current destination (with data). In this case the empty file system on the current source (old destination) did override the filesystem with data on the current destination (old source)  and data is completely lost
+6-	In this situation a complete filesystem data loss happened already for the customer because the GUI did not alert him that pausing replication initial deletes data written to the destination filesystem.
+
+This situation can happen with any customer testing replication. Our idea is to avoid this situation using simple addition to the GUI of VNX, VNXe, Celerra and any similar array that does file replication 
+
+
+Solution :
+The idea is as simple as adding a notification alert to the GUI that is displayed to the customer when he tries to pause replication initial sync. The alert will clearly inform him that this will delete data written to the destination filesystem and lets the customer decide accordingly 
+
+
+

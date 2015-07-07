@@ -1,0 +1,5 @@
+Smart Elevators
+Make the 4 elevators be cotrolled by only 1 key pad so as not to make all 4 go up to the specified destination 
+N/A
+It saves energy and time of employees
+Saves Money, time, energy and electricity and inreases employee satisfaction

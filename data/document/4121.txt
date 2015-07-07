@@ -1,0 +1,10 @@
+Data Crush
+
+Having an idea generation session with the group on the innovator list - started drafting out slides as this would work with our CoderDojo and BTYS events.
+
+a. Contest structure? Simple highest score with in a time approach - or reach a target number Vs Time
+b. Timeline? Not fully thought through - but could be developed into a paper-based solution reasonably quickly
+c. Logistics? Simple on line or paper-based approached - preference long-term would be to develop an app or software solution 
+
+The layout would be similar to Candy crush however the children are given the next layers (any number of layers as the more layers would increased complexity). The objective then become what item they decide to "match"  that would lead them to getting the highest score. By knowing what the next layer of items are the challenge becomes how do you align the most items for the highest score. The scoring system could then be easily used towards managing a competition. The items could be customised EMC or IT-to be based icons  - the game could be made simpler by making it more "tetris" like
+

@@ -1,0 +1,45 @@
+Low cost Linux based Storage OS on x86 based platform
+
+We were thinking a low cost block storage solution for entry users. We identified Software solution is only low cost solution with more profit in nature. If we start investing on Hardware, the ROI will be low compared to any Software solution. Also, Performance is not a major constraint for such users. Also we can have some CTD(cut through driver) to improve performance in software solution itself.
+We propose a low cost and low maintenance iSCSI storage solution with flexible number of iSCSI ports. EMC will develop an Software called Storage OS which will run on any x86 server and use existing frontend and backend ports. No Hardware manufacturing cost required for EMC.
+
+This iSCSI Solution has two major parts:
+1. Storage OS
+2. Hardware
+
+Storage OS:
+EMC will develop a Linux based OS. This OS contains below components
+1. Software iSCSI server. 
+2. Web based application to create LUN, delete LUN, modify LUN, LUN migrate, LUN Mapping, Authentication and ACL(Access control List).
+3. Optional Cut through driver(CTD) to increase performance. This will skip multiple unnecessary OS application stack to provide better host to target connectivity.
+
+Hardware:
+EMC is not going to develop any specific hardware for this solution. But we will use the existing H/W available in market/OEM. EMC only gives compatibility matrix document to customer/OEM/Retailer to provide viable solution to end users.
+The hardware components contains:
+1. x86 server will minimum 4 PCIex4/x8/x16 slot. = approx. 1000 USD
+2. Backend Ports: 2 x LSI/PMC-Sierra SAS RAID PCIe Adaptor = approx. 1000 USD
+3. Frontend ports: 2 x 1 GB/10 GB NIC with each 4 ports = approx. 500 USD
+4. SAS JBOD with Drives = approx. 1500 USD
+
+Total market H/W cost is approx. 4000 - 5000 USD. [We have better ODM modeling, so we can leverage for pricing as well]
+
+How it works:
+The Storage OS will be running on the x86 Hardware. The iSCSI server is a major component in the Storage OS. An Web GUI(Mgmt Application) will be running in the Storage OS which is provided for user to create/delete/modify LUN on Storage Adaptor. Same Web GUI will be extended for other management operations as well.
+
+Hosts(iSCSI initiator) will be connected to NIC ports in x86 hardware and get the Storage connectivity. iSCSI server on Storage OS will use the data storage for SAS drives connected in backend. 
+
+Storage OS will read iSCSI packets from NIC ports and process it and keep the SCSI payload into SAS Adapter and vice versa. SAS Adaptor I/O will be talking to JBOD. All RAID logic will be in Storage Adaptor. 
+
+Topology:
+
+https://inside.emc.com/docs/DOC-100052
+https://inside.emc.com/docs/DOC-100053
+
+Enhancement Options:
+1. High Availability
+   We can provide High Availability in Storage OS level by adding additional storage OS cluster. We can leverage EMC Powerpath software in Storage OS and cluster service. This would be add additional price on product cost depends on user request.
+2. Scalability
+   We can provide scalability to this product with additional SAS JBOD's expanding it connectivity.
+3. Performance:
+   Depends on end user request, we can have better x86 processing capability and Software CTD(cut through driver) feature.
+

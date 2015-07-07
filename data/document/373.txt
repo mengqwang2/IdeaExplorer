@@ -1,0 +1,16 @@
+EMC Cirrus – Your Personal Cloud
+*
+*
+The Cirrus consumer device is small, smart, stylish and simple.
+It will back up ALL your data to the cloud.
+Cirrus has a direct secure (RSA) connection to EMC Cloud datacenters. 
+Cirrus can be installed and used by a systems expert or neophyte in a domestic or enterprise setting. 
+Cirrus has a unique IP address and can plug into a computer, connect by wire or by wireless to a home or office network.
+A simple interface allows the owner to select devices and data they wish to back up wirelessly.
+One device, one configuration, then walk away.
+Cirrus provides real-time data replication and storage.
+Cirrus connects to the cloud using trusted RSA security.
+Cirrus provides a safe and secure repository in the cloud for our developing digital footprints.
+Individuals, families, clubs, companies - Cirrus
+
+*

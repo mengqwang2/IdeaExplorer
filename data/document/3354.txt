@@ -1,0 +1,35 @@
+ EMC Smart Chat Support- use big data analytics to minimize chat abandons. 
+
+
+ I serve customers via chat and see many repetitive SRs. I was thinking about a model that automates most of the repetitive daily TSEs tasks so that we can achieve efficiency and serve our customers faster than ever. I was designing an approach that fits all EMC products using one solution.
+In VNXe support for example, I saw myself many customers do not want to search the support materials and rather prefer to open an SR.
+
+The idea works as follows :
+ 
+the chat service line will have mainly 2 stages: 
+
+1- Automatic service stage that will serve the customer without TSE involvement: will last for few minutes (e.g. 15 mins)
+2- TSE service stage : when the chat is routed to an available TSE
+
+the tool will be integrated to the chat to do the following :
+
+1- monitor the number of available TSEs when a chat comes
+2- if no TSE is available the chat will be routed to the automatic service stage.
+3- during the automatic service stage, if a TSE became available the chat will proceed to the next stage and get routed to him.
+
+The Automatice Service Stage will work as follows:
+
+1- automate a greeting and questions about the product model, code version..etc  (3 minutes for example).
+
+2- next we will make benefit of the “Self Support Engine” in the idea I proposed in this link : https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014005044 
+
+this stage will give tips for the customer from the previous SRs experience (say 10 mins). the customer will take his time now reading useful tips/proposed things to check. allowing a chance for an engineer to come available.
+
+3- customer can rate (0-5) how related was the information provided so that EMC can enhance it in future.
+
+a further improvement can be to couple the solution with Natural language processing with  real time text mining   you can analyze in real time the customers’ question and go look it up in a wiki or  knowledge base then automatically reply back to the customer with the proposed solution .
+
+VNXe is as a potential product that will benefit 
+
+
+

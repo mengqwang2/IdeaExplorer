@@ -1,0 +1,16 @@
+ Integrating Educational Services Lab-as-a-Service with EMC Proven Professional Program
+
+ The idea came up from the experience using EMC proven professional portals and services as well as Education labs (vdc)
+ 
+The idea works as follows : 
+
+-	Integrating Educational Services Lab-as-a-Service with EMC Proven Professional Program through points
+-	Each Student that will be certified in any EMC technology/product will have points added to his profile that can be translated to lab access
+-	Educational services proven professional profile will integrate with the lab-as-a-service booking profile to provide unified  experience
+-	For example: if a student/employee/customer got certified in VNX storage admin, he/she will earn points that can provide him with free access to “VNX booking” in the lab service so that he can book VNX for free or minimum charge
+
+This will promote a comprehensive education experience with our students/customers.
+
+
+
+

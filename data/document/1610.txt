@@ -1,0 +1,7 @@
+Let us go Green on IoT
+All gadgets around us are Inter-connected with one or other mode of Electro magnetic waves . These EMF pose serious health issues to human life.
+Recently I came to know about Kirlian Device Android app, that pictorially showed the strong radiation field we are living at. These EMF pollution in our home, office space & every where can potentially impact immune system of all of living beings.
+a. Use Optical light waves for wireless connection and data transfer
+b. With Light & EMF both are transverse waves and both exhibit similar physical properties so existing electronic infrastructure can be technically adaptable 
+c. Adequate filters can be integrated to avoid interference of other waves 
+On successful transformation from Electromagnetic  based wireless connections to Optimal Light waves based connections, We can establish 'A safe Green mode Internet of Things' across Corporate offices, Datacenters, Public spots  and in our houses.

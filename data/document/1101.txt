@@ -1,0 +1,11 @@
+Configuration template for different workloads, Ex, VDI, OLTP, etc
+Provide simple solution to provision storage to target different workloads
+The storage array, as a part of the IT infrastructure together with servers(virtualized or not), will be finally serving the applications
+The traditional way to provision storage resources normally contains many steps. My idea is to leverage pre-defined typical workload template on array, then provision the resources to server and applications by just few simple clicks.
+1, template for virtualized server workloads: scalable, high performance and low latency
+2, template for VDI environments
+3, template for ONTP workloads: high performance, replication and snapshots
+4, template for Oracle & SAP NetWeaver solutions: dNFS, etc
+
+Simplicity
+Tight integration with application and solutions

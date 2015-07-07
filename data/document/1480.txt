@@ -1,0 +1,11 @@
+More Self-sufficient Contemporary Meeting Room
+A more self-sufficient, modern meeting room to help meeting attender to be more efficient and flexible.
+Just popup my brain when I saw the challenge
+1. Sometime there're big groups having meeting in a meeting room and their laptop may run out of power. The number of power sockets may not be enough (e.g. for a 12 person room there'll be only 6-8 power sockets). An additional power drag board can be very useful. It can be automatically connected and fixed to a power socket to avoid being removed out of the meeting room.
+2. A laptop stand attached to the whiteboard (or the glassboard, similar to the little desk on the air plane seat), to allow those presenter who need more whiteboard than a projector to refer to their materials more efficiently. This will be especially useful if we are applying digital whiteboard to the meeting rooms.
+3. A wall socket or fixer for project controller, so that it won't get removed or mixed with attender's own assets.
+4. A stair like meeting room desk. The lower stairs are for those sitting for work and the higher stairs for those willing to stand for his work. The cables are lead out from the side of the higher stairs (just a rough thought, we need a new design here for our desk, maybe a slope instead of stair can be better).
+5. Wireless router in the meeting room so that we can get rid of those network sockets. A simple isolation solution (e.g. metal matrix) can prevent routers from interferencing with each other.
+The meeting room's capacity should be doubled with the solution (especialy when we can get rid of the center socket panel).
+People rely more on the whiteboards than legacy projectors, thus saving more power.
+People feel more flexible in the meeting room, they can stand or sit and have better power / network access.

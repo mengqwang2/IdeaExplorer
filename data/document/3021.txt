@@ -1,0 +1,16 @@
+EMC WebApp Cloud Desktop Service
+NA
+There were so many questions when I was planning to buy a laptop for myself. I wanted a good configuration with the best compute resources. But it was costing huge money and license cost on top of it. And I was not sure about the functionality and how to deal after the warranty expires. And also was worried about the data if the laptop was lost.
+Hence, these questions have led to this solution.
+
+The proposed solution is, EMC provides web based Desktop services to End consumers. EMC will host the desktop environments of the consumers using VDI. These desktop consoles can be accessed by the consumers using an app installed on their client devices. The consumer will be given an option to choose his desired operating system and a list of goody softwares like adobe, MS office Suite or any. The consumer will have an option to select the compute power, And disk space. The disk space has to be persistent and this has to be backed regularly and let the customer know that the last 2 backups are successful.
+
+Also, the webApp should also act as a cloud connector for the data transfer from local to  cloud and vice versa. User should be able to easily upload his data to cloud desktop.
+This solution needs a wide advertisement which should reach every common man. The ads should make them understand the benefits of opting a Web based cloud desktop rather than buying a laptop.
+
+The solution will use VDI solutions to integrate with vCAC or an IAAS solution to automate the user requests. This further can be integrated with EMC AVAMAR for backup and Datadeduplication.
+
+EMC in consumer market.
+Awareness in consumers about the solution will surely increase the number of users 
+                                                 
+

@@ -1,0 +1,9 @@
+Smart Grid
+Egypt COE Smart City and IoT Challenge
+The smart grid will allow consumers to better control their consumption which can result in lower energy costs. As more consumers take control of their consumption and costs,improved electric re-liability and environmental sustainability will bring more savings to the electricity system.
+Smart grid explores and exploits two-way communication technology, advanced sensing, metering and measurement technology, modern control theory, network grid technology,and machine learning in the power system to make the power network stable, secure, efficient, flexible, economical, and environmentally friendly. To support the smart grid, a dedicated two-way communications infra-structure should be set up for the power system. In this way, secure, reliable, and efficient communication and information exchange can be guaranteed.
+
+Smart Grid is implementing a secured Smart meter and AMI to maintain high privacy and security for customers data by using a suitable encryption algorithm, Smart Grid involves the installation of advanced metering systems and communications infrastructure. The project installs automated distribution grid equipment expected to enhance the reliability and quality of electric service delivery.
+
+
+New Product and Technology 

@@ -1,0 +1,5 @@
+Lagged file compression
+
+There was an innovation to write compressed logs through memory buffer which is compressed by portions developed in Russia COE. The approach is suffering of loss data in case of system crash or application coredump.
+The output is logged to the disk uncompressed as in case of ordinary log file. When the uncompressed block grows to certain size it is compressed and written in-place. In the end of compressed block special tag inserted. Then uncompressed logging continued after that tag till the size of uncompressed data reaches specified value. Comparatively to writing through compression buffer in memory (RAM) the advantage is that log data is not lost and disadvantage is that disk I/O rate is not decreased in comparison with compression through memory buffer.
+

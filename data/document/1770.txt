@@ -1,0 +1,5 @@
+Manage value-added appliance in dual-SP VNXe box
+Exploring value-added application solution opportunity in existing product line w/o HW cost increasement.
+asymmetric stack deployment on SPs often observed that one node resource is tight (master) and the other is not, thinking how we could leverage that resource on non-master side still (for compliance here which need cpu/memory resources) 
+VNXe box is dual SP arch and with bottom stack symmetric on dual SP but upper stack part (CP/GUI) not, where upper stack in fact just run on one of the SPs called "master". The solution would be simple and leverage the resource still available from the non-master node for the value-added appliance (like VSS in KVM or docker container). And we manage the value-added appliance running opposite side with regarding to the upper stack part (CP/GUI) in the dual node cluster. 
+Cost-effective solution opportunity before we are going to request upgrade HW resource for convergence appliance (like VSS) into VNXe storage box (thus increase cost).

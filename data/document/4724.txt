@@ -1,0 +1,12 @@
+Effective Warehousing and Distribution Channels
+
+I came up with the idea when my brother in law who owns a franchisee of a leading chemical and detergent product so i had involve along with my friend Rakshith Gundumane in getting the warehouse set up and the costs involved during transit. Hence i am putting together an idea to make little contribution towards betterment of logistics and warehousing at the global level.
+
+There are three main competitive advantage drivers dedicated through supply chain management including information system, internet, and supply chain software.
+Centralized distribution network with cross-docking warehousing method, which also reduced the holding cost extremely. However, this would be best for perishable goods.
+Bar-codes technology in the operations, especially, inventory management system makes inventory much easier to have control on the In-house stocks.
+This can be achieved through employing wireless scanning guns and supporting software that captures data relevant to stock holding and sales patterns. 
+Having warehouses in main cities would consistently reduce the cost of transportation and distribution of goods from production centers to different parts of the country.
+Local warehouses will reduce the time consumption to deliver the goods to the customer and helps in installation of the products once the goods receipt are done and products are ready for installation by employing the local engineer who can visit the customer’s site and complete the installation or issues at one call/ticket through SFDC.
+
+

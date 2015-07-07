@@ -1,0 +1,9 @@
+A unified BMC recovery framework by customized Protocol based on PECI/GPIO interface
+Many customer cases about BMC hang were reported, it takes us lots of time to find out the recovery method because the recover mechanism varies with platforms, what is more, there are some cases that even BMC’s own software watchdog and hardware watchdog can’t recover BMC hang in time.
+Both customers and I hit the case that Artemis's BMC hang and its BMC hardware watchdog was triggered, but the BMC didn't recover until several hours later, so I began to seek the improvement. During the process, I found DD's different platform has various mechanisms to recover BMC, even some of them didn't work well, furthermore, it is a heavy workload for engineer to investigate and slow process to know the correct step to take next.
+1. A customized protocol between BMC and Host based on PECI or GPIO interface, with this host can tell bmc what to do through this interface, and BMC can notice host its status;
+2. A recover operation rule table for host to follow based on the customized protocol. The table defines when to reset BMC's IPMI application server (fullfw)/reboot BMC's kernel/hard reset BMC/AC cycle system and do replacement and how to check whether these methods works.
+
+1. When BMC hangs, this framework will try to auto-recover itself according to the rule defined in the recovery operation rule table, and it can  covers partial hang/full hang/hardware defects and so on;
+2. When the SP/Chassis replacement is recommended by this framework, it is really the last effective method to recover BMC.
+

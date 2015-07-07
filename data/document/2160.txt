@@ -1,0 +1,5 @@
+Customer's raising Chat for EOSL Products in Networker Chat Line
+Elimination of such chat cases would help support to service customer products which are in support/valid
+After being in chat for a couple of years and pain points in working on EOSL products
+Some sort of filter on the Moxie tool using which engineer can close the session and survey will not get counted (An audit should be done for such cases as the cases being cancelled should be valid)
+Elimination of such chat cases would help support to service customer products which are in support/valid

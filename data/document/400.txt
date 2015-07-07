@@ -1,0 +1,25 @@
+Faulted HW Component early prediction – Maximize TCE and save money&time
+In this idea, we aim at improving EMC HW arrays by proposing a solution to early predict HW component failure using big data trend analysis. 
+
+This solution helps maximize TCE, save money and time
+
+the idea came from real life experience working in technical support and analyzing huge amounts of logs daily and from the experience with different data predictive models that can help here. 
+
+
+How it works: 
+
+1-	collect logs and analyze it using text analysis and parsing tool that converts it to structured data showing events for each HW component in timely order
+2-	each HW component will have a time series of timestamp + event + event severity. This data will be fed into Analytics engine running ‘Trend Analysis’ models and ‘time series analysis’ to predict the severity of the next event and expected time to fail (ETTF). 
+3-	HW components that are predicted to fail soon will be automatically reported to support (dial home) for logs investigation and to take proactive measurement
+4-	This way we can have tolerance for parts shipment times meaning that we can ship less frequently by grouping multiple parts together in one shipment for the same area (batch shipments instead of frequent single shipments).
+
+The solution can be implemented in the storage array operating environment or can be added as a separate module in storage management solutions like ViPR. 
+
+ViPR is a good environment to add our module to as it manages different storage arrays and collect logs from different systems.  The predictive engine we are proposing can be added as a solution pack in ViPR SRM or as a service running on ViPR controller.
+
+1-	Proactively predict failures
+2-	Maximize TCE
+3-	Save cost & time for customer service
+4-	Proactive approach to mitigate severe problems
+5-	Avoid frequent shipments of parts
+

@@ -1,0 +1,39 @@
+Open Source 3rd Platform STEM Education Community Quorum App @EMC
+Below solution is proposed for UTAH COE challenge, for developing an end to end Open Source application that can be used for communication between Schools, EMC employees & external partners for any queries related to STEM Education at EMC. 
+Quora is an awesome question & answer web site ( https://www.quora.com ) used by developers across the world. Functionalities suggested for the new App above is a result of using Quora. 
+
+Also we are a 3rd platform Open Source Application development team ( primarily using Spring framework ) in IT, having experience working with end to end application development & experience with microservices on Pivotal Cloud Foundry.
+
+Benefits 
+The App can be scaled to support EMC Community Involvement in other Geographic locations as well, other than Utah. 
+Proposal is to have a scalable role based Open Source Web Application built using 3rd platform microservices architecture. 
+
+Functionally the App will be able to perform the below activities,
+
+-	User will be able to register to the App 
+-	At the time of registry, User will be asked to choose his/her preferred topic 
+-	Any User will be able to post a question and tag a specific topic to the question
+-	Notification will be sent to the Users when a question is posted, based on their preferred topics 
+-	One or more notified Users can reply back to the forum with their inputs.
+-	Users will have the option to attach any documents required while posting or replying back
+-	App will be designed role based to have Admins that can provision/approve access for teachers from respective schools.
+-	Track time spent on the website for EMC employees to report on EMC Give Back days
+
+Integrations with other Applications 
+
+-	System can be customized to consume & search Inside EMC profiles for sending notifications for related questions.
+-	Can be built to consume any web services provided by external systems (like VeX Robotics)
+-	Can be integrated with SSO for EMC employees ( similar to other EMC apps )
+-	Can be built to track the distribution kits for Schools ( based on the requirements )
+
+The proposed technology stack involves developing a 3rd platform compatible, responsive web application with below components.
+-	Responsive bootstrap UI for cross device compatibility ( use in both laptop & mobile devices ) & Jquery for front end development ( along with HTML, CSS, Ajax )
+-	Use REST API backend development using Spring MVC & develop App using 3rd platform microservices architecture using PCF
+-	My SQL for database
+-              The App  can be hosted on IT Pivotal Cloud Foundry instance for speedy deployments & maintenance.
+
+MockUps are available at https://inside.emc.com/docs/DOC-156190 
+
+The team has Open Source reusable components that can be leveraged for developing this App for Utah.
+Employees spend a lot of time in Community Activities, providing a platform makes it measurable & help us improve any process gaps, at the same time benefits the school community looking forward to connect with EMC & learn about our technologies.
+

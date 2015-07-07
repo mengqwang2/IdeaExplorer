@@ -1,0 +1,8 @@
+HR Forum for EMC Employees
+
+Ask HR tool. What if I have poor internet Connection and I want to urgently  request for an HR letter. 
+Create an Application that enables EMC employees to ask HR using their mobile phones.Employees will have to register using their NT Logins to be able to connect to the app.
+
+In this forum, employees can ask their questions according to the topic that is related to their need. For each Topic there is a discussion board where employees will ask whatever they want in form of posted messages.
+
+

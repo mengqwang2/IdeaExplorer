@@ -1,0 +1,5 @@
+Hybrid Web App
+This idea will allow the engineers to work on their shared services more efficiently and flexibly.
+We have a similar tool "UnITy"  which is already in use. We page that you can access, manage, and control various aspects through it like Assets management, knowledge base, requests, tasks, incidents, changes, and … etc.
+Single sign on for these services. By creating a simplified and flexible web app interface for all of these services to facilitate the accessing and managing of them. Web interface has links in behind for those services. Each user has a specific privilege as per his needs on each service. Flexible: each user can modify the content of his home page as he want. I can add a specific service in the top of my home page, another one in the middle, and in the bottom and scroll down / up them vertically for example. It is like combining these services from the frontend.
+This will enable the engineers to be highly productive and react quickly to any situation. Save time.

@@ -1,0 +1,15 @@
+SmartCityStore (SCS)
+Egypt COE Smart City and IoT Challenge - This idea uses Fully Automated Store Tiering methodology with relevance and importance factors included. This helps to store, backup and retrieve data in effective and secured way. This addresses both structured and unstructured data.
+This idea came to my mind, when discussing about EMC Fully automated storage Tiering technique and software defined storage/networks. 
+1. SmartDataSeg – Data will be segregated with the help Interoperability devices and sent to central repository. Depending upon the type/nature/importance data will be stored in different type of storage devices (high cast/high speed to low cast/low speed devices). Hadoop will be used to deal with unstructured data and reduce cost. 
+1. SmartDataSec- Data sent using Interoperability devices will be encrypted at the source and decrypted at the destination.
+2.  SmartvNet – Different category of data (Air / Traffic / City events / Citizen Data / Municipal Services / Health Data / Household data), network will be allocated different network to help segregate data next level and store them accordingly. 
+3 - SmartCityStor – Segregated data can be stored in high-cost to low-cost storage devices accordingly to its Importance, criticality and nature. Also, one more copy of the data can be sent to Data Lake for future use. 
+4. SmartBack – Backup should be done at multiple levels, according to its importance and criticality. Financial information can be backed up on hourly basis on high cost device and other and non-important data can be backed up on daily basis in a low cost device. Even replication solution can be used for high critical and important data. Replication across smart cities suggested for very important and critical data
+5. SmartRetriv – Since data is stored centrally and backed up there, it can be made available when required with configured solution. Different methods can be used for different types of data. 
+6. SmartArch – With the help EMC Data Protection Suite data can be archived for long-term data retention, security and compliance with data regulation policies.
+7. Solutions like software defined network/storage and proxy softwares can be done, if the data from single society/cultural-place or area is same type and too small size, to reduce bandwidth and IP usage. 
+1. Proper design and implementation will help to reduce Capital Expenditure and increase ROI.
+2. We can achieve data segregation at the source and network level itself.
+3. Easy to replace existing devices or modify configuration where required. 
+4. Successful implementation will reduce fault alerts. 

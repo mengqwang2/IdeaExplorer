@@ -1,0 +1,5 @@
+Mobile app for customers to monitor and manage their datacentres
+
+This idea came to me while complete the BSC in cloud computing 
+By having a mobile application that would allow customers monitor their datacentres issues could be resolved remotely before they become critical. Administrators can remotely monitor their datacentre with out having to carry a laptop with them.
+

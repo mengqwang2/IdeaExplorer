@@ -1,0 +1,18 @@
+ EMC UCP – Unified Communication Platform leveraging Microsoft Lync2013
+
+ The idea came up while working in collaboration with other TSEs in which we need a unified reference to employees, customers’ contact information ..etc. we then discussed the needs and possible improvement in a brainstorming session.
+ The idea works as follows :
+
+-	Unified conferencing feature for internal employees and customers (no more webex)
+-	Customers Address book will be added to the existing employees address book feature of outlook.
+-	Integration with “Inside EMC” employees profiles to provide a unified place for : call, email, message or meeting with any employee. Each function has its own button and that’s it.
+-	Quick FTP feature allowing seamless file sharing 
+-	Create connections of employees I interact with the most for ease of communication in future.
+
+The UCP will include these features on top of Microsoft Lync:
+
+-	“Draw it Dashboard” feature for better collaboration as described in this Idea Link I proposed : https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014005245 
+-       ability to send voice recorded messages.
+-	Run a conference call instantly with few clicks.
+
+

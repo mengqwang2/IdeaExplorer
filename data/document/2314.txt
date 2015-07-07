@@ -1,0 +1,19 @@
+EMC Federation Product information portal  
+This idea addresses the Ireland COE Challenge by allowing EMC business units and federation partners to communicate and collaborate with EMC employees and COE Ecosystem through a learning platform/app.
+The team has experience collaborating with many EMC's BUs and product teams as part of our core business, and has very little exposure to wider EMC federation. 
+This challenge identified an opportunity to collaborate, communicate and make connections with EMC BUs and Federation partners. 
+Our central portal solution provides the ability for employees to make connections between EMC business units and Federation partners to share and request information. 
+*BUs and Federations partners can create their product or solution overviews and demos to allow employees understand EMC offered solutions
+*An employee can request an overview of existing or new product/solution from BUs and Federation partners
+*An employee can browse the portal for available training and overview modules to develop their understanding on EMC's products/platforms and solutions 
+*Some modules may be used for new hire training or as a new technology vision for teams working with specific product/solution.
+*Ability for employees to see technology trends and understand industry requirements
+*Great EMC BU and Federation collaboration opportunity though one central place
+
+This portal would become a central location for product/solution information, vision and strategy sharing, addressing collaboration and communication challenge across EMC BUs and Federation partners.
+
+Benefits: this is a win, win, win…
+*Win for the Ireland COE: 
+*Win for EMC Federation partners: 
+*Win for employees: 
+

@@ -1,0 +1,10 @@
+Real time feedback management using social platforms for EMC built apps
+
+Stepped on this idea during an ideation session with the team on the topic of integrating social platforms with xCP.
+Also observing that enterprises are re-actively moving towards social data for either order-processing, or feedback management or other process oriented activities.
+xCP will bundle popular social platform widgets (facebook/twitter) in the Designer. The app developer will use these widgets in their composed application. These widgets will expose the configurations to post configured messages (which can dynamically constructed using expressions and context data). Upon invoking these widgets, the messages will be posted in the corresponding social platform under the end user credential. The messages posted in the social platform can leverage the hashtags or mentions and can include errorcodes/snaphots as desired.
+
+Thus the feedback posted in the social platform with a particular hashtag can be monitored actively by the enterprise to provide quick resolution to end user issues.
+
+The social widgets can leverage the customization model to add integration to any third party social platforms that the enterprise wishes to use as a collaboration medium with the xCP app.
+

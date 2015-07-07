@@ -1,0 +1,5 @@
+Monthly Payroll system 
+
+idea came when I failed to retrieve very urgent payroll Xcel received 2 years ago.
+monthly payrolls should be added to the OOH application system to be able to review them instantly without going through emails and discover that some were deleted and you can’t retrieve them back. 
+

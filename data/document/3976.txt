@@ -1,0 +1,17 @@
+Cloud based connect and analytics with global EMC customer base.
+
+EMC Level 2 and 3 support have to gather lots of customer data online and have to analyze for a root cause. Often the data is huge and requires time to collect and analyze it. The issues happen in different geographies, needs continuous analysis round the clock and collaboration with different levels of escalation teams within the org. This process can be improved for faster analysis and response to a disrupted customer by leveraging data analytics deployed over a private cloud.
+EMC products install base has increased over few years across the globe. The product support needs to be automated and made faster to a certain level by leveraging cloud computing.
+
+EMC products are installed and are running in almost all continents of the globe. We have SYR and ESRS connect to get the live system reports and status. This can be enhanced and a cloud gateway be provided say EMC_Cloud_connect. This in turn fetches and stores the live system reports from all the products installed across the globe. Any time a service personnel from EMC can query this database.
+
+For any failure in EMC products, the corresponding diagnostic log data which can be huge is uploaded through this cloud gateway instead of ftp, by customer.
+
+The data can be mined by a custom developed dataAnalyzer (big data tool) which runs on distributed servers across globe deployed over EMC based private cloud and can give the report of one of the below category,
+
+1] Configuration Issue :- Component versions, connectivity issues or improper use of hardware.
+2] Known issue with recommended steps to correct it :- It can find any known issue and point to the primus for resolving the issue.
+3] New issue :- New issue can be redirected to alert EMC service personnel to further analyze the issue. Gets the feedback from service personnel and update the dataAnalyzer.
+4] Possible new patches/ hot fixes can automatically be downloaded and applied on the customer setup.
+5] The EMC product software versions within a customer install base can be known and alert the customer to upgrade a product to latest target code base.
+

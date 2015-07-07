@@ -1,0 +1,5 @@
+Online Encyclopedia 
+It provides a structure/design of the required App 
+I attended a speed dating event in Egypt COE that introduced all the challenges 
+The proposed structure is similar to the old Encarta or others Encyclopedia where it has the same frame work and index but online and empty. the content will be loaded online by anyone. So, Anyone would like to add a photo/scanned manuscript/..etc can open the online app and browse the index till he finds the relevant topic ex: countries-> Egypt then Cities -> Giza then monuments then someone can upload a photo for the pyramids with a caption that this is the pyramids of Giza. each content will then  have a flag to reflect if it was verified by an expert or not. 
+it's very easy to implement the online App as it's an empty online Index and but it's expected to use a huge storage in a cloud that can use EMC XIO boxes for fast search and load and also Big data analytics could be used to advanced analysis/reporting

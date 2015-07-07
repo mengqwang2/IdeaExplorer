@@ -1,0 +1,13 @@
+Extensible Software Defined Technical Support
+
+I worked on a product to improve the TCE of NetWorker but it was product specific and this idea is more generalized.
+Software defined tech support will automate the fault understanding and recoverability so that the TCE can improve. The proposed idea will be a set of API layer/Software component/ Web service which will give following set of services to its consumers:
+
+1. Data Collection - This service will have several sub-services to collect data related to OS, Network, SAN, Storage arrays etc. This should be extensible and should provide APIs to write new data collectors. This way product specific data collectors can be written by different product groups.
+
+2. Fault Analysis - This service will take the inputs and would would use rule engine to co-relate the data and fault conditions with possible causes. This should be extensible and should provide an XML based approach to write new rules. Also, this service would tell the calling product what remedial events can be generated.
+
+3. Fault Remediation - This service would provide the ability to run ACTIONS based on EVENTS. After the fault analysis, the product would get the possible list of events which can be given input to Fault Remediation service. The actions could be user scripts/predefined binaries etc.
+
+So any product could get the service from the above infrastructure and improve its TCE by automating the fault handling. This can be a good asset to Software defined data center.
+

@@ -1,0 +1,8 @@
+Web & Network Firewall Device in VCE V-Block
+
+During the initial configuration of a V-Block system, we see these challenges of co-ordinating with network security team to have the access settings configured as per different customer requirements. We have been discussing to find loopholes to the application layer and workaround/solution for this and understanding the network security standards.
+The concept may not be very sound but your comments/discussions will help to shape this idea.
+We see just a handful of DMZ environments, rest of world is on a cloud powered by internet. In a vulnerable digital world a "virtual or hardware firewall" will protect web applications & cloud contents hosted on a V-Block, from data breach and defacement. It will perform network monitoring, intrusion prevention, virus scanning, content filtering & reporting. Components like web and email security, web application security, and secure remote access integrate with the firewall, and can be centrally managed. This will be an added enhancement to the existing vmware service profiles, wherein you can have a unique custom firewall settings or policies to each customer or service profile based on their requirement. The other available licensed feature within vmware is vshield, which has some of the features that a firewall device would bring in. This is like a network security within the V-Block environment.
+
+Few advantages: 1. Ease of Administration Management of Storage, Platform & OS, Network & Security, Web & Apps. 2. Inclusion of Network Security into the existing Advanced Management Pod (AMP) 
+

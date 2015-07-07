@@ -1,0 +1,44 @@
+Auto-Zoning implementation and zoning view capability of VPLEX product
+
+When I was configuring a new VPLEX setup, was trying to see the pictorial connection of existing setup. Secondly, had to modify zoning for my host and arrays with manual process that was time consuming, erroneous and inefficient.
+Discussed with Mani Jangde on this problem and we came up with idea.
+The proposed solution entirely automates above manual process by single click.
+
+
+“AutoZone” capability of VPLEX helps user to create zones on switches just by “SINGLE CLICK” AND display all the Director’s , Host and Array  connected on switches on Site-1/Site-2.
+
+Currently VPLEX need minimum 2 Front End Switch (FE) and 2 Back End (BE) Switch for HA and for medium and large 2 LCOM switch is required.
+
+Below is work flow for “AutoZone” capability of VPLEX product:
+
+STEP 1: User has connected All 0s PORT of all Director’s FE/BE SLIC PORT to FE/BE switch-1 and All 1’s PORT of all Director’s FE/BE SLIC PORT to FE/BE switch-2
+
+STEP 2: If Medium/Large configuration has used then All 0’s of LCOM SLIC PORT to LCOM switch-1 and All 1’s of LCOM SLIC PORT to LCOM switch-2 are connected physically.
+
+STEP 3: VPLEX GUI displays pictorial view of all “Directors PORTs/Host/Array” connection of Switches (FE/BE/LCOM) using SMS; SMS running “AutoZone algorithm/code” that fetches these port information from switches using agent’s e.g SNMP MIBs. SMS access switches (FE/BE) using public connection (User needs to provide only IPs via script or any input method in SMS) and LCOM using private ports (which is already fixed 128.221.252.34/128.221.253.34 and known to SMS, no input required)
+
+STEP 4: User has to select only check box for the below zones
+FE Switch-1: Cluster1_FE_ZONE1 = [All Directors FE SLIC 0s PORT + First Host HBA WWPN]
+FE Switch-2: Cluster1_FE_ZONE2 = [All Directors FE SLIC 1s PORT + Second Host HBA WWPN]
+BE Switch-1: Cluster1_BE_ZONE1 = [All Directors BE SLIC 0s PORT + Array PORT WWPN]
+BE Switch-2: Cluster1_BE_ZONE2 = [All Directors BE SLIC 1s PORT + Array PORT WWPN]
+LCOM Switch-1: LCOM_ZONE1 = [All Cluster-1 Directors LCOM SLIC 0 PORT+ All Cluster-2 Directors LCOM SLIC 0 PORT]
+LCOM Switch-2: LCOM_ZONE2 = [All Cluster-1 Directors LCOM SLIC 1 PORT+ All Cluster-2 Directors LCOM SLIC 1 PORT]
+
+STEP 5: User has to only “SINGLE CLICK” on “CREATE ZONES” button that will do all above zoning.
+
+STEP 6: This will fire shell script on Switches using input provided by user, this will mainly contain common zone configuration commands:
+1.	Create Zone
+2.	Add Zone Members
+3.	Add Zones in effective zone config file
+4.	Save and Enable effective zone config file
+
+STEP 7: AutoZone page will now display only zoned components for your VPLEX setup.
+
+STEP 8: Generally only 2 ports/Director satisfies the HA for the VPLEX, if user wants to use another 2 PORTS for FE/BE/LCOM for redundancy they can re-launch this page using “MODIFY” button. This will add other ports to existing zones.
+
+STEP 9: After any creation/modification AutoZone GUI page will display most recent pictorial view of zoned components for your VPLEX setup.
+
+NOTE:  Above steps needs to be repeated on cluster-2 as well.
+
+

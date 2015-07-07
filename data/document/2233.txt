@@ -1,0 +1,12 @@
+Testing VM auto deployment
+It can simplify the management process and reduce manual work.
+I have VM's not used for a month for the project arrangement(VM have FC connection to BC array, but no BC releases currently.). I don't want to release the VM, because I have to find another VM and do the FC configuration once the BC release coming.
+If the VM deployment and FC configuration could be completed automatically, I don't have to keep the VM reservation for now.
+Create a website/APP allow user to deploy VM as user specified.
+Such as: VM type, subnet, storage/memory size .etc
+And user could choose how long will the VM used. When the time comes, VM could be destroyed automatically.
+Also, VM could be monitored during the process, if no activity in long time, notify user and destroy VM later.
+Load balance in a short term.
+Reduce the manual work of VM deployment.
+Save the storage resource.
+Simplify the VM managment process.

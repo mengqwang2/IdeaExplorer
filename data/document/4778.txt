@@ -1,0 +1,10 @@
+SAAS Charge System
+
+We tested SAAS system, Xchange application. We found that there's no ways to get the users' consuming conditions. So we think the cloud must be a sharing system. It is shared by a lot of customers even it is bought as a private cloud. Then the way to charge customers should be to have a system to get all the information for charging and calculate the prices basis on these parameters.
+This charging system will monitor users' consuming condition to gather the parameters for charging:
+1. Tenant used storage spaces.
+2. Tenant user number.
+3. Each user consumed storage spaces.
+4. Tenant used cpu and memory resources.
+5. Tenant used XDB, Cassandra and Swift instances.
+

@@ -1,0 +1,5 @@
+Docker Inside
+
+
+Combination of idea 2014000206 & 2014003174
+

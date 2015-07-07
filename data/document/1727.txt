@@ -1,0 +1,20 @@
+Re-constructing culture and building cross-cultural perspectives with digitization
+The solution is directly relevant to cultural digitization as we have proposed a method to collect/analyse digital cultural data and re-build the culture perspectives from the obtained data. Visually attractive rebuilding of the culture would attract more people to participate and thus better crowd sourcing. 
+The idea came out of a brainstorming session involving both the innovators and then refined with couple of sessions
+Sample Screen shots are provided here: https://inside.emc.com/docs/DOC-155871
+
+Culture is defined as a collection of various attributes like land, language, food, dress, construction, festivals, colours and much more. We propose to build an App 
+that will collect, analyse and re-build such information in a much more deeper level with more such defined attributes. The ability of the app to reconstruct in a visually
+impressive forms will attract more crowd sourcing. 
+
+1. The information collected can be text, images, sound and videos. A very detailed questionnaire to collect variety of information should be in place. For instance - taking food in to account - collect information on staple food, festive food, medicinal food and much more from them.
+2. The information collected is geo tagged to make sure to associate the location information to the data and thus to the culture. 
+3. All the collected information is categorized and analysed to find relational patterns
+4. Images can be processed to find unique objects/components as part of the culture. For instance a Chinese lantern or a lion dance dragon from a chinese new year image.
+5. Similarly all the collected sound can be processed to identify the unique usage of instruments/rhythms associated to the culture. For instance, an african Kalimba's image and sound
+6. All the image/sound processing can be done by ready made libraries available. 
+7. Re-constructing the culture again with the information collected. For instance, if somebody wants to look at an European festival -  the colours, the music, 
+the food and related information can be presented in digital images. 
+8. Cross-cultural rebuilding like a fusion - For instance, An Indian man residing in North America can celebrate/decorate with a mix of local and Indian flavours.
+9. Useful patterns can be brought out with the analysis of data - such a medicinal food for a particular ailment can result in interesting results from across the world. 
+The development of the App and widespread adoption determines the success of the idea. 

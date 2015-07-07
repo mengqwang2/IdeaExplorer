@@ -1,0 +1,8 @@
+Provide Remote Labs for all VMWare trainings conducted by External VMWare certified trainers.
+- Utilization of EMC Lab Infrastructure.
+- Reliable LAB infrastructure for all VMWare trainings
+I discussed with a VMWare trainer during VCP training and i came to know that some VMWare certified trainers also rent labs from outside sources (Third party). I thought since EMC and VMWare are closely related, EMC can tap this revenue stream.
+If EMC can discuss with VMWare since both are related and under same management, VMWare can notify that every VMWare Certified trainer has to use Remote LABs provided either by VMWare or EMC. This will ensure Utilization of EMC LAB infrastructure at a regular level and allow scaling of the LAB facility. This will also allow continuous revenue stream for EMC by allowing outside world to use EMC LAB infrastructure for VMWare trainings.
+- Continuous revenue stream for EMC every week.
+- Utilization of EMC Lab Infrastructure.
+- Reliable LAB infrastructure for all VMWare trainings

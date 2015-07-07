@@ -1,0 +1,11 @@
+Actively Inform Active Sync issue to the end-user.
+Mobility has become synonym to the User Convenience, Productivity. One cannot assume contemporary workplace without mobility. It facilitates business user remain connected to corporate resources, allows work from anywhere anytime. Users do not want to limit themselves to one device but uses multiple devices to access corporate resources including emails. Any disruption in Mobile communication to corporate infra, negatively impacts user experience.
+EMC IT Support team felt this as quite inconvenience to the enduser’s when Service desk handles 3000-5000 Active Sync issues. Which is not just a number but the loss productivity but hardship faced by significant no. of people in the event of no information of the real issue. While digging the solution I could see that event log  are generated with specific ID for each account lock and release case then I came across script which can pick up the event from logs & inform the respective user of such event via email (& SMS, which is yet to be tested) to facilitate them taking right action.
+Locked RADIUS account has a feature of auto-unlock in a stipulated time. If the user is just informed about the lock/unlock status message at the time of issue in addition to the instruction of verifying if the NT credential is updated & correct on user's Mobile Device(s). it will save them the time, hardship and calling help-desk. 
+RADIUS generates relevant event log of the locked and released account which can be integrated by simple script to send user the relevant information via Airwatch MDM or any of the EMC Mobile notification tools. The email in addition to SMS can alert user if there was any misuse of his account by other party in case of lost mobile device.
+
+1. Improves user experience, Avoid delays and improves productivity.
+2. It realizes savings in  Service desk support cost and efforts.
+3. Improves security posture as user gets to know the activity of its radius account via email.
+4. IT can act as showcase to Contemporary IT, delivering services using Third Platform.
+

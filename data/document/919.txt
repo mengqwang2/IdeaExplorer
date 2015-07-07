@@ -1,0 +1,27 @@
+Customer-Oriented View in EHC
+EMC's goal to offer better customer experience with EHC and gain an edge over competing cloud-vendors
+The user experience given by e-commerce websites..:)
+The idea is to give EMC Hybrid Cloud(EHC) users a personalized experience based on data we could collect from their different operations in EHC,
+allowing them to save their tasks as preferences.This idea is prevalent in most of E-Commerce sites. Inculcation of this idea into EHC would enable us to offer our customers a better user experience.Thus, EMC could gain an edge over competing cloud-vendors
+
+In EHC, we provide option to provision storage,to install software and check the operational status using various parameters.
+We have many users who use our cloud interface across different environments.
+We could harness information by monitoring the most common operations that are being performed by a user account and also from the Preferences/Save-List they have created.
+Based on the data obtained ,we should be able to analyse the users' operations and give them 'Quick-Links'.
+
+For instance, a customer wants to bring up a SAP landscape for a company domain.This entire task could be divided as:
+1)Follow basic SAP guide steps to bring up the SAP landscape
+2)Apply the specific storage customization,security policies,complying software etc, as per company guidelines.
+
+With our solution ,we intend to make the process hassle-free in each step mentioned above, for the customer who uses EHC.
+
+1)EHC should have collected storage configurations,Best practices followed for popular products/systems.This could be built as part of Data Lake of EHC users
+In the instance mentioned above,the specification for storage,host nodes required for a SAP System will be collected into the Data Lake.
+Now ,EHC could give user options about systems with the information collected.
+and give them "Datasheet" of the information we have.If satisfactory,he could bring up the environment in single click
+
+2)Most corporate users would ideally have their own set of customization for any setup,preferred software to be installed.
+Monitoring the user operations and storing the information could help us be eventually intelligent to make user-specific suggestions.
+
+1)Enables EHC users to have more personalized experience
+2)Makes the process hassle-free even for novice users 

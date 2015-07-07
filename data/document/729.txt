@@ -1,0 +1,5 @@
+SLA improvement 
+Meeting the SLA with the proper/documented solution for the effective management.
+Just to minimize the error which are leading to making SLA effect
+As we have Remedy ticketing system we have lots of option to automate the ticking system or to generate over all report, over the report we can put some SOP for common issue,however going forward we could make automated script to help the team met to met the SLA. 
+The automation is always a workaround but ofcourse it need little time to implement as it goes n number of testing phase.

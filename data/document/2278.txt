@@ -1,0 +1,13 @@
+Network Radar for virtual machine attestation
+The idea helps to authenticate a VM running in the public part of the hybrid cloud when it is trying to connect to the private cloud, improving the security of EHC. 
+The idea was born as one of potential responses to CloudLink customers' concern about the weakness (or lack of) of the authentication used to authenticate a client VM. Mikhail Karasik of CloudLink was a vocal critic of the idea. As a result of our discussions there emerged an alternative proposal which is now considered for implementation in the product. We have decided to submit the Radar idea as we now agree it has a merit as a complimentary technology that will make the authentication stronger.
+The solution uses network latency to determine the VM position on the network relative to other VMs (Helper VMs) whose identities are already verified in known network locations. Here is how it works:
+ 1. The VM in question issues a request for encryption key (or some other valuable goods) to the Manager
+ 2. The  Manager sends orders to perform a Radar Scan on the VM to Helper VMs H1...Hn
+ 3. Helper VMs send Radar Scan Requests to the VM (and optionally to each other)
+ 4. The VM (and optionally the Helpers) sends Radar Scan Responses to Helpers
+ 5. Each Helper sends the round trip latency calculated as difference in timestamps between Request and Response to/from the VM (and optionally between itself and other Helpers) to the Manager
+ 6. The manager uses round trip latency values to assess whether the VM runs from a legitimate location
+
+Manager that sees a request from a VM on a particular vLAN or VXLAN can pick other VMs on the same virtual nework as Helpers to see if the VM claiming to belong to this network is likely not there due to too large values of the latency. This can be used as an early indication of an ongoing attack, and shall be used in combination with other methods to give a positive authentication of the VM. Implementation of Carrier Ethernet OAM protocols can be used for Layer2 latency measurements. 
+The finished implementation would consist of a server software package that can be installed on a Linux VM running a Manager and client software for Windows and Linux. Client software can be made part of VMware tools to simplify installation and management on VMware platform. The solution will improve customer satisfaction with security of EHC, in particular with Data at Rest Encryption for VMs.  

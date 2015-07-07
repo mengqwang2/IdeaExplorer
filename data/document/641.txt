@@ -1,0 +1,12 @@
+Share Automation (A common Location/Portal for all generic tools/scripts/code developed with in EMC)
+According to Ireland COE challenge, This idea basically brings all technical engineers in one portal and make them to help each other by their skills. And they can communicate across EMC sites for seeking/providing help. And also we want to relate this to IT contemporary workplace challenge so that we've this facility from IT to provide some help to automation engineers.
+Got this idea while developing automation frameworks and seeking help from other automation engineers to resolve our issues. 
+“Share Automation” is the solution to reduce the Engineer’s effort and time in developing automation frameworks as per the product or organization requirement and help them to use existing solution with their framework. Engineers while working in automation or on any framework for testing of products they can use already existing solutions within EMC/Organization so that they can integrate to their framework and fasten their framework development.
+Currently, we do not have any common repository or location or portal to share the existing common or generic scripted solutions across team or BUs with in EMC. This solution will help in reducing time effort and development phase of Automation.
+
+-	We can cut down automation time
+-	Solid framework development with strong base line using generic solutions.
+-	Immediate help from authors to the seekers
+-	Users can ask for help from authors, as already expert in that solution.
+-	User can plan their framework by the guidance of the experts who have already posted their solutions
+

@@ -1,0 +1,10 @@
+Pre-paid model for selling more drives
+This idea brings a new business model that helps to sell more drives which remains a key revenue source for our company
+I have attend a session that a colleague from sales department introduced some stories from customer side. One thing he mentioned is that our sales love to sell drives, because the profit is good and this is still the key revenue for us. So I am thinking how we could help to sell more drives.
+This idea brings new business model for selling drives. Customer could sign a per-paid contract when they orders the array. The contract requests customer pay the charge based on future drives order. If the contract is signed then EMC will help to monitor the usage of the storage. When the free space hits a threshold then EMC will order and ship the drives to customer based on the detail requirement from the contract. We could promote this new business model by giving customer discount if they choose pre-paid mode. 
+There are some benefits from this new model:
+. The pre-paid mode helps revenue growth in early stage, not wait until customer really need more storage;
+
+. Customer's loyalty. Once they pre-paid the drives they need to stick to our product;
+
+. Ease customer's effort to monitor space utilization and simplify the process to order more drives;

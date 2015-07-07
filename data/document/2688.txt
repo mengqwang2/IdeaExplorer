@@ -1,0 +1,13 @@
+Supporting VMAX V3 Capabilities for Open Stack
+We are trying to move to platform 3 in the solution space. Open stack is the right direction which will provide a solution is to build an enterprise-class, scalable, and cloud infrastructure that support latest VMAX V3 array and capabilities.
+Was looking for Open stack solution which can utilize SMI-S for exposing the array capabilities on Cloud. Read about CINDER, which can be used to do the same. 
+Supporting VMAX V3 and its capabilities for Open Stack. This will help provide all the features like FAST, Work Load provisioning, latest SNAP VX features for applications on Cloud.
+
+We can use the existing CINDER framework enhance and support VMAX V3. CINDER Already provides "block storage as a service" and will bring in all its wonderful features like High Availability, Fault Tolerance, Open Standards and components based Archtecture into play.
+
+We will have to build API to communicate with CINDER. This can be done  using the latest SMI-S provider.
+OpenStack provides an Block-as-a-Service solution through a set of interrelated services.
+
+This solution enables customers to build an open-source cloud environment and validate the environment for performance, scalability, and functionality.
+
+Creating re

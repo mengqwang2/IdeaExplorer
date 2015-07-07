@@ -1,0 +1,13 @@
+Health Care Sharing tool
+
+This idea came to me because everyone before going to any doctor or hospital or get a medicine they ask the people around them if they know anything about it, some helps and some don’t as they might never tried it before. Also many employees ask if certain service is covered by BUPA many times so this portal will be beneficial and will combine all the answers of many asked questions regarding the health care and will be a perfect reference.
+We can make a portal for our EMC employees. This portal will be divided into categories and sub categories, the categories will include Hospitals, Clinics, Medicines, well known specialized doctors, etc...
+
+Inside each category of those there will be subcategories that includes the name of different hospitals, different recommended doctors, different clinics, popular surgeons, etc...
+
+Inside each subcategory there will be the history about it, why is it recommended, what type of services they provide, how to contact them  and a section for the reviews which will contains the reviews of any employee who used that service before which will be beneficial and a reference for any other employee who wants to use this service.
+
+In each category and subcategory there will also be a part for BUPA that contains how BUPA deal with this service and if it’s covered or not.
+
+For example, we open the portal we choose the hospitals category afterwards we will have many choices as Cleopatra Hospital, Ain Shams hospital, El Nada Hospital, Queens Hospital etc…, then we will choose Cleopatra Hospital we can read inside this category the history of this hospital, the services it provides, the reviews of other employees who tried It before and what services covered by BUPA in that Hospital and how BUPA deal with it.
+

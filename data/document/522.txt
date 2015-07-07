@@ -1,0 +1,8 @@
+Big Data backup
+While current EMC backup solutions(e.g. Avamar , Networker) are able to address most of the enterprise challenges, backing up large data (in order of 10s of Peta Byte) is a real challenge. It is practically difficult to fit such a huge amount of data in daily / weekly / monthly backup window.
+Faced challenges recently while designing a solution for ISILON containing 5 PB of data, being backed up using Networker & Data Domain
+A solution, which can provide continuous data protection (CDP) to the client OS/App, on a mounted LUN / NAS share from target backup device (e.g. Data Domain). Backup main server (e.g. Networker Server ) can either initiate / control CDP from source to target or initiate snapshot based backup, while maintaining backup catalog. Challenges related to different retention can be addressed by assigning different retention periods to snapshot. Customers can get rid of creating and monitoring daily schedules and policies. The solution of mounting target LUN / NAS share can either be embedded into storage (e.g. Protect point) or can be an external mount (e.g. CIFS / NFS) to OS and backup plug in can take care of CDP  / snapshots.
+1)Future ready for BIG data backup.
+2)Faster backups meeting business RTO / RPO by using CDP / Snapshot based backup policy.
+3)Ease of administration. No need to schedule backups as CDP will be an ongoing process. (However snapshots can be scheduled, if needed)
+4)FLR will be possible from snapshot  / CDP backups

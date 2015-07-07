@@ -1,0 +1,31 @@
+Real-Time Customer Issues Monitoring and Fix Service
+CTD Supportability in 12 Months or Less - This idea is an automated solution of customer issue monitoring, detection, and resolution that matches the criteria seeking ideas fulfilling “More successful deployment, improved troubleshooting speed/accuracy/scalability, preventing/predicting customer issues, or reducing the number of customer contact points”. It is based on existing support KBs and materials so implementable within 12 months or less.
+I usually received HR recruiting emails showing huge number of job openings in Customer Service BU. I think the reasons may include 1) we are selling more products so more customers need support, 2) our products and solutions are getting complicated so more issues would happen, and 3) relatively high attrition rate of CS BU asks for more hiring. No matter which one is the major reason, it would take long time to train new support engineers and EMC must take business risks due to the lack of support resources while more and more customer calls are coming every day.
+
+By searching EMC Online Support, we could find many well-documented troubleshooting, issue resolution, or environment recovery procedures and KB articles provided by support team. Many of them are actually automatable.
+This automatic monitoring and issue fix service is a daemon program deployed in customer production environments functioning in the following sequence.
+
+1. Issue monitoring - The daemon monitors typical system counters, keywords in log messages, and module status to compare them with patterns of the known customer issues. If seeing a match, it will either deliver a call home message to report “you may have an issue with <description> because the monitoring daemon has noticed <counter, message, or status pattern>”, or continue for the next step to fix the issue, depending on the settings.
+
+2. Issue fix - The daemon performs some steps that previously done manually by support engineers to resolve the issue. After each step, the daemon could do some verification to confirm that step is really in effect before continuing for the next steps. After the whole procedure is finished, a step of whole verification can be done to make sure the fix is successful.
+
+3. Logging - The daemon logs the timeline of the whole process from monitoring, pattern match, fix, and verification for later reference. It will also take necessary support materials for archive in case the issue and fix made need to be reviewed in future. Then the daemon continues for the 1. Issue Monitoring again.
+
+This service can be implemented by the following stages all of which could be finished within 12 months.
+
+A. Summarize all known customer issues that already have well-documented troubleshooting or fix procedures.
+
+B. Develop the monitoring logic by automating steps in support procedures which guide what counters, message logs, or module status support engineers should check and what criteria should be considered to confirm the issue has happened.
+
+C. Develop the fix logic by automating steps in support procedure which guide what commands or steps support engineers should run to fix the issue and verify the resolution is in effect.
+
+D. Develop the logging and call home logic.
+I. Do more with less
+Using an automated service to detect and fix issues will save a lot of time compared with traditional support calls made by customers and handled by support engineers. Such time saving not only improves customer satisfaction; more importantly, problems can be fixed much sooner before causing more severe damage to customer productions. CS won’t be busy on known and repeated issues; more resources can focus on high priority and complex issues, new methodologies, process optimization and any other areas that can improve customer satisfaction in long term.
+
+II. Avoid mistakes made by people
+It’s very possible that some steps of troubleshooting and resolution procedures were not performed completely, or some verification steps may not be done correctly. Also, people’s communication in customer calls may have different interpretation when describing or discussing the problem, or some important information might be overlooked. None of these would be a problem to the automated service.
+
+III. Starting point of issue prediction
+We could implement the functionality of issue detection based on analyzing the patterns and symptoms of existing problems. This could be a good starting point of issue predictive analytics by which future services could utilize big data analytics based on running status of thousands of customer productions and use pattern comparison to predict when and how a similar issue would possibly happen in local environment.
+

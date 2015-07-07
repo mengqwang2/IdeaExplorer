@@ -1,0 +1,9 @@
+Speed up initial replication for Thick LUNs
+The Lenovo partner complaint about the replication performance
+AR726300 BEARCAT CSE : Lenovo - Only actual data should be copied in full initial synchronization for thick lun replication. 
+Some customer may want to protect the LUN on the system at the beginning of creating it. So I have an idea to speed up the initial sync in this scenario:
+1. Reserve 1/1000 of the space for 'initial snapshot';
+2. When user create a Thick LUN, the system create a initial snapshot for the LUN at the same time. Meanwhile, block host IO to the LUN before the snapshot was created.
+3. Unblock the IO. If the size of the initial snapshot is less than 1/1000 of the LUN capacity keep the snapshot, otherwise delete it. This is to avoid occupying too much space for the LUN which the user may not want to create replication on at the begining.
+4. When the user create replication for the LUN, and it has 'initial snapshot', then the system can only replicate the snapshot data to the destination in the initial sync to save time and resource.   
+It can save a lot of time and resources when the user create replication for Thick LUN when it has none or only a little data on it.

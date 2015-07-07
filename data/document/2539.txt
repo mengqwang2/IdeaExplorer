@@ -1,0 +1,32 @@
+Storage aware containers
+Provide unmatched storage performance using XtremIO AFA for Cloud containters
+Played with it in the lab.
+I suggest using storage-side snapshots (specifically, XtremIO's) which are much more efficient and provide all the benefits that thin-dm provides.
+
+See Comprehensive Overview of Storage Scalability in Docker | Red Hat Developer Blog for some information and about the prevalence and importance of containers - Red Hat Launches Red Hat Enterprise Linux 7 Atomic Host, Advances Linux Containers in the Enterprise | Red Hat
+
+ 
+
+If anyone wants to play with Docker containers without the above (see how ugly it is to set it up, even though I'm setting it on XtremIO devices):
+
+ 
+
+dmsetup create docker-pool --table "0 209715200 thin-pool /dev/mapper/3514f0c5531e00007 /dev/mapper/3514f0c5531e00006 512 8192"
+
+dmsetup message /dev/mapper/docker-pool 0 "create_thin 0"
+
+dmsetup create thin --table "0 20971520 thin /dev/mapper/docker-pool 0"
+
+rm -rf /var/lib/docker/*
+
+mkdir -p /var/lib/docker/devicemapper/devicemapper/
+
+ln -s /dev/mapper/docker-pool /var/lib/docker/devicemapper/devicemapper/data
+
+service docker start
+
+docker pull centos
+
+docker run centos:centos6 yum –y update
+
+Much higher performance gained with the above over other methods I've tried (/var/lib/docker on top of either EXT4 or XFS)

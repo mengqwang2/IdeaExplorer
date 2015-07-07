@@ -1,0 +1,17 @@
+EMC’s Virtual Demo Platform
+
+We involve in many customer EBC demo @ India COE. Many times engineering has to get the setup built for such demo. If we can have this automated and customised, it would help many such demos. It can also be self driven by sales folks.
+Create a virtual platform that has videos/bites/customer references. All this information is granular @
+    Product Level – Example : NetWorker
+    Release Level  - NetWorker : Version 8.2 – What’s new ?
+    Solution Level – NetWorker with RSA lockbox or NetWorker with Vsphere
+    Workflow Level – NetWorker Licensing or NetWorker DataDomain BOOST
+User can browse at any level and get the video/references. We can also provide the information/videos in various category based on how much content is needed
+    Basic – High Level Info in the form of small content or quick demo
+    Advanced – All the information available in the form of all the relevant   
+    excerpts and a comprehensive demo
+Content/Demos are accessible (Access Controlled) to anybody on web/mobile 
+Hits will be recorded that will create the behavioral pattern and an input to PRD/Roadmaps
+Incase customer doesn’t find content/demo, we will have 48 hours SLA to come back to him with information. 
+
+

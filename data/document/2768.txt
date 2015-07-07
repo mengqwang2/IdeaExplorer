@@ -1,0 +1,10 @@
+Collaboration and communication between Federation members for better service and product offerings
+It is relevant to the challenges to address the communication improvement across our multiple Federation sites, and propose the process to enhance collaboration across EMC federation partners across COEs for product and delivery to customer. 
+The idea came in my mind when I was surfing net to learn more about cloud services and saw few clips those are really nice.
+- Build one common site which should be the main site of EMC Federation that gives an easy view to any layman about all the products and services. Create a storyboard of animated video clips to cover the services and products and the relevance for business cases that any non-technical person can understand, should be one point stop for all Federation Partner employees as well as potential customer CXOs. 
+
+- From the main page, icon links for detailing through the parts of products and services across EMC Federation those points to the related products through similar storyboard of animated video clips.
+
+- Implement seamless access through Lync for all employees across EMC Federation, for effortless communication through chat, desktop sharing and video preview, and invite others in discussion. This will enhance the collaboration and communication between federation members to provide better services.
+
+It will benefit the growing EMC Federation to have once common site and combination of all the products and services across federation. Also it will be once face of EMC to the customer for all the products and services its brings on the table for customer

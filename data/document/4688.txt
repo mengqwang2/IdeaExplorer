@@ -1,0 +1,8 @@
+VNX Storage System Aggregator using software define storage
+
+When desgin the data migration solution testing case, I just think we may regard the old system and new system as one larger capacity system.
+VNX Storage System Aggregator should be a native software on primary VNX, it should provide the functionalities:
+- Combine multiple arrays' capacity into one primary VNX array together
+- Can access other arrays' old data from the primary VNX array which installed the aggregator.
+- Can connect these arrays as a elastic storage array cluster using SDS
+

@@ -1,0 +1,21 @@
+Authentication Methods Rating Engine
+The idea solves an emerging problem in the security landscape.
+
+The idea mitigate problems in RSA fraud business and can be embedded in Via.
+During the developing of the RSA mobile SDK we found that the amount of authentication methods is much larger in the mobile world than traditional authentication methods such as secret questions, OOB SMS/Email and passwords.
+
+We found that it's hard to asses the strength of authentication method and usability and we wanted to create a system that will be able to automatically mitigate a variability in a specific authentication method if found (for example fraudsters who finds a way to override Samsung S5 fingerprint will not be challenged by fingerprint by the system after detecting that this method is 'weak')
+A rating engine, that would be able to rate authentication methods based on machine learning algorithm taking into account similar devices, environmental conditions, personal profile and feedback on the authentication results. 
+
+Solution flow: 
+1. Each authentication transaction will collect meta-data on the- Device, OS version, app ID, sensor data, geo location, time in day and user details, and send it to the rating engine. 
+2. The rating engine will return rating for each of the available authentication methods, based on previously calculated elements weights (see below).
+3. On authentication completion the following feedback (feedback can be optional) will be sent to the rating engine: 
+  a. Chosen authentication. 
+  b. Pass / fail. 
+  c. Fraud / Genuine marking.
+4. Periodically, the engine will run a machine learning classifier algorithm on the collected meta-data from all transactions, in order to assign weights to the different elements. These weights will be used to rate authentication methods of future transactions.
+
+Success will be building a stand-alone engine that will be implemented and used in RSA product to protect the 3rd platform.
+
+

@@ -1,0 +1,28 @@
+Scalable climate forecast and analytic system 'Swarm'
+The idea opens new market niche for EMC containing the description of the new solution built on EMC technologies (big data, cloud and storage systems) and addressing to the global market.
+The idea was born participating in the brainstorming session organized by Russia CoE.
+The ‘Swarm’ system is intended to provide high-precision climate forecasts (weather and sea forecast and a forecast of the air and water pollution) and analytics.
+ System structure:
+1.	Mobile devices and stations equipped with sensors;
+2.	Server for  preliminary data processing;
+3.	Cloud computing platform (Greenplum) with attached storage (VMAX, VNX, VNXe);
+4.	Cloud storage(ECS);
+5.	Communication channels (wired/wireless/satellite).
+Description:
+The atmosphere and the ocean parameters are gathered by sensors placed on stations, mobile devices (UAV, AUV) and satellites. 
+The data from the sensors are passed (wired/wireless/satellite connections) to the server for preliminary data processing.
+The processed data are passed to the storage system (VMAX, VNX, VNXe).
+The cloud computing platform (e.g. Greenplum) receives data from the storage, computes and analyses it.
+The results are provided to the customer.
+The gathered data and results are stored in the cloud storage(ECS).
+The system is scalable - it could be equipped and computing resources could be provided depending on the requirements:
+- region size; 
+- time period;
+- forecast precision required.
+Several ‘Swarms’ could be united becoming a ‘SuperSwarm’ system to solve global and resource-intensive tasks. 
+
+Value for EMC business:
+-	EMC can deliver ‘Swarm’ systems to customers (the government, scientific institutes and business);
+-	EMC can lease ‘Swarm’ systems;
+-	EMC can provide content based cloud services (archiving data, analytics and forecasts) to customers.
+All of these items will make money.

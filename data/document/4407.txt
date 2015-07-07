@@ -1,0 +1,8 @@
+Backup to data containers empowered with predictive analysis
+
+the thought for a unified data container is proposed looking into the current merits of storing the data in containers like VHDx etc and various application trying to address the big data requirements.
+
+1: Various applications including backup apps, write the data to containers, say VHDx, VMDK, proprietary forms etc.
+2: Software tools shall read these containers to analyze the data. This could be an independent app by itself which can be used across various products.
+3: A very basic analysis can start by analyzing the existing data for volume and the variety of data and be developed further to focus on specific business centric objectives
+

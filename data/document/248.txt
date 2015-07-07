@@ -1,0 +1,19 @@
+ Smart Public Transportation System for Smart City – data-driven approach 
+ The idea aims at providing the enabling technology to make use of IoT traffic data in transportation sector to provide value and achieve a Smart Transportation Plan with efficient resource allocation. 
+
+
+ The idea is inspired by MIT project in Singapore called sensual city lab that addressed taxi traffic data. 
+ 
+The idea is simply to 
+1-	Collect traffic IoT data in real time and store it in a distributed storage like HDFS on top of highly scalable storage like Isilon as a backend for ViPR. The data will show vehicle IDs (car Vs. bus ..etc)
+2-	Run real time and batch analysis on the collected data to detect the current transportation map Vs. the actual need (the actual traffic map). 
+3-	Data analysis can show areas that need more resources (for example an area that has all traffic as Taxi or private cars) and other areas that is fully covered (areas with good public transportation density)
+4-	The results will also show traffic trends and seasonality (how the transportation plan can be dynamically adapted based on the time of the year)
+5-	The analytical model will train and update itself with more data input to it to ensure accuracy and parameters update. 
+6-	Reports and graphs are returned to the transportation authorities providing insights and recommendations
+
+EMC will provide the storage infrastructure and the analytics power and logic. The whole application can be hosted over PaaS cloud offering
+
+1-	 More efficient transportation system
+2-	Market opportunity for EMC.
+

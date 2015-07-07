@@ -1,0 +1,25 @@
+ Lightweight IoT Distributed End-to-End Security – A new distributed application layer authentication approach using clustering with two-dimensional token 
+ With the advent of IoT, the number of connected devices goes overwhelming. This brings huge opportunities and risk as well, thus, we need to reinvent the way these devices or “Things” authenticate to each other.
+
+A smart city needs not to forget security to its huge number of Things/Sensor that scale up the risk as well as the benefit.
+
+ We were comparing the IP-based security techniques with the constrained devices need like IoT. We were grouping features that can be leveraged from different systems and tune them in one solution based on RSA secureID technology without the need for normal authentication (username and password) to make it M2M applicable. We came up with this idea.
+
+ 
+Our solution suggests a scalable distributed approach to authenticate devices in the IoT network achieving the following features:
+
+1-	Token Based: pre-set token for the devices (things). Devices need to have the same token clock to be able to communicate. Token clock will be two-dimensional to add more security and prevent breaches. Central security server will assign two tokens (using different algorithms) at the sensor/device installation time. RSA will offer secureID technology for this. Token is the same for one cluster allowing intra-cluster communication.  Token clock usage makes it distributed and offline (no need for central authentication point)
+
+2-	Session Resumption Method: less overhead and more secure communication by avoiding a full handshake between sensors in the operational mode. A sensor already has session initiated with its cluster and does not accept any handshakes from intruder devices.
+
+3-	End to end : offload the security to the application level end-to-end between devices to eliminate the dependency on the underlying infrastructure (IoT infrastructure is not fixed and can be 3rd party provided).
+
+4-	Application layer : Authenticate devices on the DTLS layer (Datagram Transport Layer Security) using the Public Key exchange technology led by RSA.
+
+5-	Gateway for new joiners: Communications cross clusters or handshake requests (can be intruder or new sensor joining the cluster) has to go through the IoT gateway that has more intelligence and powerful security.
+
+1-Promising Market for EMC/RSA
+2-Achieve Security in IoT network using lightweigh model
+3-Efficient method for constrained devices without the need for expensive infrastructure
+4-New Security solution for Smart Cities
+

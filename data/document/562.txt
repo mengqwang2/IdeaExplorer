@@ -1,0 +1,14 @@
+Networker Embedded with Data Domain Appliance 
+Opportunity to increase the Networker Sale and easy integration procedure between Networker and Data Domain 
+As a DPAD SA, i thought of this idea on my own to simplify the Networker integration with DD procedure & Easy Networker DR process  
+EMC Networker Software can be embedded with Data Domain Hardware
+Increase Hardware resource can able to handle the Networker
+Networker Software cab be invoked on Data Domain by Start a services as needed
+Customer can experience Networker trial version and get a license as desire 
+Primary focus on Small scale customers
+
+Simplify Networker integration with Data Domain 
+Improve Sales opportunity of Networker -  Data Domain Solution
+Easy process for Networker DR
+No Hardware & Software resource needed from customer end
+

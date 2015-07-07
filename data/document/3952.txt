@@ -1,0 +1,9 @@
+One EMC Remedy Tool
+
+The remedy tool we use currently using is slow and results in very slow production
+
+1. All customer for EMC can use one remedy ticketing tool
+2. Faster access to the tool and better performance
+3. prductivity will increase
+
+

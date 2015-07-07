@@ -1,0 +1,5 @@
+Team Tracker App
+
+Innovation Session
+Track team updates app which links team member with their team leads updating working from home, meetings, vacations, goals ..etc
+

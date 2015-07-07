@@ -1,0 +1,8 @@
+Redefining R & D with Federated EMC Hybrid Cloud
+Redefines R & D by providing a framework of building blocks to facilitate development of new products. This idea will improve product time to market.
+There is a concept within vLab to create this for the pre-sales community, and expanded during a Brain Storming with 11 members of the Singapore Proof of Concept, APJ vLab and Cloud Operations team.
+
+Use the Federated EMC Hybrid Cloud software defined features to provide flexible browser-based building blocks, resulting in a standardized framework for product development. Imagine a software developer having pre-defined network, compute and storage components, saving time as opposed to creating from scratch.
+Using the Federated EMC Hybrid Cloud to reduce costs, and provide elastic environment resulting in a smaller physical footprint, rapid solutions validation and improved product development cycle.
+This can also be used as a building block for the development of new products, synchronizing product development.
+

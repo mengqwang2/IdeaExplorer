@@ -1,0 +1,6 @@
+Lab Visit for Employees COE
+This idea will let Employees learn More about EMC product and have  architecture overview for them.
+NA
+My Solution is to organize a tour  for all the employees within all departments  for the lab located on the COE by the available SME within the COE for each product and explain briefly the components of each product and how it is wired.
+
+Employees will Learn Hardware of EMC Products.

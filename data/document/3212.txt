@@ -1,0 +1,18 @@
+Content based storage Video and Photo
+
+-
+Targeting storage of video and photos.
+Each image or video stored on the array is stored in 2 pools. An active pool that could be easily reached and read when the data is called and the second pool is a standy pool that is only activated after calling the data of the first pool.
+
+So basically we divide the video and image into 4 bands using the wavelet transform. 
+The LowLow band which is a smaller version of the image/video with lower quality is stored on the active pool. The other 3 bands are stored based on their importance and contribution to generate a full quality image/video , on the standby pool.
+
+So in case of a read, data is stored on both pools based on the previosuly mentioned criteria.
+
+In case of reads:
+If a mobile/tablet device is doing the read or low quality is chosen by the user, only the data from the active pool is called, leaving the standby pool in standby mode. This decreases the power consumtion and increase in the lifetime of the disks where the data is stored.
+
+If the full quality is required. The LowLow band is first called which creates the main image/video and gives time to load the remaining data from the standby pool. 
+
+Also Standby pools can have low performance disks which will decrease the overall cost.
+

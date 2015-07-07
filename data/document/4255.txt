@@ -1,0 +1,7 @@
+Tools & links Automatic updates
+
+When working for several years, some tools and sites that are used for everyday work are updated or new links are used instead of old ones. 
+Instead of having both old and new, the update should automatilally replace the old tool or site. 
+ 
+When you download a new tool replacing an old one, it should be linked to the old one to remove it. Same for a link that is used and will be updated to a new one, just replace the old link automatically. 
+

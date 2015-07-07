@@ -1,0 +1,11 @@
+Location Based Automation and Analytics Platform
+
+I came up with the idea playing with the IFTTT app.  I set up some simple scripts to tell my wife I'm on my drive home and realized that the location based services can have much broader implications.  
+
+I've also discussed and refined the idea with Navin Sharma
+IOS and Android already have the capability to support location based services built in.  Apps like IFTTT utilize these capabilities to enable location based services and automations.  For example, they have predefined recipes that can log the hours when you arrive/leave work or email your spouse when you are on the drive home.  EMC already knows our customer locations so using this information we can then build services that poll that database and then tie it to other contextual information.  
+
+For example, if we know the location of the customer Datacenter then when a field engineer arrives the app could poll the database, determine which customer it is, then query our SR database and identify potential SRs they are their to address.  They could then select the SR and log when they arrived at the customer and what SR they were there to address.  If the app logs when they leave the customer we now know how long it to to serve that customer.  We can also start to track how long it takes to address certain field tasks (great input for how to design our boxes to reduce service costs).
+
+There are a wealth of different contextually aware services that can be built on top of this innovation.  
+

@@ -1,0 +1,10 @@
+Voice to Text Entry and Voice Command Recognition- EMC Mobile Apps 
+
+From our knowledge of the EMC Support App Development, we feel that this added functionality will improve the total customer experience when they perform such tasks as 
+1)	Adding a New Note, 
+2)	Changing Status, 
+3)	Creating a new Service Request.
+Not only can Voice Recognition be used for text entry, but also for Command Initiation as in: “New Note”
+
+By integrating Voice to text capabilities users will be able to add text and initiate tasks more easily. This enhanced interaction will likely result in both customer delight and productivity.  
+

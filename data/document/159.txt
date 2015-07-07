@@ -1,0 +1,18 @@
+ ‘Report It’ Photo Cloud - Smart City Crowd-Sourced Issue Reporting
+ 
+The idea defines a solution providing the smart city with a direct link over the cloud allowing citizens to report issues and violations to authorities in real time. 
+
+ The idea came up from noticing the ineffectiveness of the social media approach for such issues
+ 
+The solution is as simple as a mobile app connected to a cloud platform to upload captured photos. Some features will exist like :
+
+1-	Access privacy: by authenticating users and defining multiple scopes inside this cloud (transportation authority, security..etc)
+2-	Auto alert to responsible authorities such as policemen through the mobile app at their side
+3-	GPS data encapsulation with the photo: to route reported incidents to the nearby authorities.
+
+EMC can provide the enabling technology for this solution and provide Pivotal CF for App development.
+
+1-	More reliable approach than social media
+2-	Higher security and efficient incident management
+3-	Potential for EMC in smart city market 
+

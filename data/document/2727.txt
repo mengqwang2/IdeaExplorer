@@ -1,0 +1,24 @@
+Enabling XtremIO solutions through better definition of storage efficiency 
+This is one such idea that does not need any changes to the architecture or integration with any other product. It is just a simple yet effective idea through which XtremIO as a product can be positioned strongly against competition.
+
+We work for GBS Sizing Desk. We provide storage recommendations based on performance data and requirements to the pre-sales community. We are currently in pilot mode for an offer incorporating XtremIO, both as standalone, and as a “blended” solution, incorporating it into heterogeneous storage solutions
+
+So what we have observed today & got a feedback from XtremIO prod group is that, there is no way of capturing the Host Written data from VNX Arrays. This led our group to think of an alternative that will help extract the Host Written Capacity quickly & accurately
+My solution to the problem can be resolved by updating the current code on Unisphere Host Agent.
+
+So, what is Unisphere Host Agent?
+Unisphere Host Agent is software that is shipped along with each VNX Array on the support CD. Currently the Unisphere Host Agent does the following:
+1.Registers the server’s HBA  with the attached storage system
+2.Send drive mapping information to the attached VNX storage systems.
+3.Monitor storage-system events and can notify personnel by email, page, or modem when any designated event occurs.
+4.Retrieve LUN WWN (World Wide Name) and capacity information from VNX storage systems.
+
+What is my idea/solution?
+The code for the Unisphere Host Agent needs to be updated so that:
+1.Host can send the actual Written capacity information to the Storage System
+2.The Unisphere Analyzer interface should have a field that with display “Host Written Capacity”
+3.This information should also be included in the performance data (.nar) & array configuration data collection (SP Collects). Therefore the data can be read straight away using the engineering tools through offline processing.
+1. Results in Lower TCO for the Customers
+2. Helps SE position XtremIO strongly against competition
+Please refer the link for the elaborative Success & Benefits
+https://inside.emc.com/docs/DOC-151715

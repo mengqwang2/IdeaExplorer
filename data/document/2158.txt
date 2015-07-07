@@ -1,0 +1,61 @@
+Advanced Search for Isilon/VNX powered by xPlore + CIS (PoC Ready)
+•	Enterprise Content Division (ECD) Challenge
+This idea integrates ECD technology assets with EMC Core ecosystem, focus on search related features.
+
+•	Global Solutions Challenge
+This idea uses EMC products to help customers to efficiently manage and explore their data through rich search features.
+
+•	Skolkovo R&D Center Challenge
+This idea provides better storage products with common customer demands of search.
+We are developers of xPlore and CIS, we did an investigation on searching Isilon/VNX via xPlore and delivered a PoC as mentioned above.
+Slides: https://inside.emc.com/docs/DOC-155866
+PoC URL: http://10.62.43.253:9300/askui  (access in EMC and without proxy)
+
+Search is an enabling technology. Users will demand this technology, because search helps end users be more productive, and opens new possibilities and uses for NAS.  
+At present, search feature in NAS product is a differentiator with competitors. In the future, NAS solutions that do not support search will be seen as deficient.  
+
+The Documentum xPlore search engine is deployed to provide a centralized, always up-to-date index of the files on a NAS device.
+Here is architecture of our idea:
+
+ _____________________________________________________________
+|                        NAS (Isilon/VNX)                     |
+|_____________________________________________________________|
+|      CEPA     |                  |        Storage           |
+|_____________________________________________________________|
+        |                                    |
+        |CEE event                           |CIFS Mount
+ _______|______             _________________|________________
+|   RabbitMQ   |           |              xPlore              |
+|______________|           |__________________________________|
+| | | | | |... | Subscribe |                      |           |   REST
+| | | | | |... |---------->| AMQP Index Pipeline  |   Search  | -------> UI
+|______________|           |______________________|___________|
+
+
+
+# Indexing:
+    - When files are created, modified, or deleted on a shared folder, there will be real time file system event notification using the EMC CEE (Common Event Enabler) file event notification framework, the generated event will be persist in RabbitMQ. xPlore will process the events in the queue and updates the index immediately. During the process, CIS will be leveraged to do intelligent classification for further easier search and data mining.
+
+# Search:
+   - xPlore provides rich fulltext search features, exposed by a REST service, this is an integration point for search UI.
+   - Search results are returned with highlighted hit text and the file location.   
+
+#  Search UI, there are multiple options to direct the queries entered by the user to the REST search services:
+- Web-based search interface, like the demo in http://10.62.43.253:9300/askui/index.html 
+- Integrated OS native search interface, like Spotlight on Mac or Windows search bar.
+
+# Security, we need to provide security aware search in the Enterprise environment:
+    - Search API/UI fully integrated with LDAP, map to internal security model
+    - Index ACL attached to directories/files and do efficient security filtering on search results
+
+# Packaging: 
+    - xPlore could be packaged as a virtual appliance and be sold as an optional add-on to Isilon and VNX. 
+
+
+Here is a brief introduction of the products we put in the architecture:
+xPlore is the home-grown offering for enterprise search in ECD, supports dozens  of languages, hundreds of file formats, efficient security filter and many other advanced search features, e.g. dynamic facet, thesaurus, spell check, wildcard.
+Content Intelligence Services (CIS) provides the content analytics capability to analyze the textual content of documents, like intelligent categorization, entity detection, metadata extraction, this will bring easier filter criteria for further document processes.
+
+Search feature in NAS product is a differentiator with competitors.
+Integrate ECD technology assets with EMC core technology.
+This will generate a revenue stream for xPlore.

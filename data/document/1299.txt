@@ -1,0 +1,23 @@
+IOT Architecture for Security
+BUSINESS+DOTCOM+IOT = SUCCESSFUL ORGANIZATION 
+
+This is the mantra for our design, data center and appropriate security is where all future magic is expected to happen for IOT/ubiquitous than any other area. IOT is nothing without the inetrnet actually supporting the distribuion of information
+
+Our thought process --> Problem statement-->existing EMC/RSA technologies including recently launch INFINITE IOT OS platform -->Solution(to address typical threats such us spoofing identity, tampering data and lack of matured/standards of technology in this area.
+
+Please visit the following link for more details https://inside.emc.com/docs/DOC-155565
+https://inside.emc.com/docs/DOC-155565
+
+Our solution:
+
+1. RF+RSA authentication/authorization framework. 
+2.Datacentric approach routed via EMC access point(location based) 
+3.Security with easy authentication and identity protection 
+4. Scalable to things identity, 5 sense identity enabled with redefined RF/Wireless technology.
+
+
+1. Redefined IOT security + data centric IOT solution -> Enabler for existing Storage business in new area such as Smart cities, health care and etc.
+2. Future Potential business in $ bn.
+3. Security solution for IOT world - Redefined RF + with existing RSA technology solution.  
+4. Unique and early advantage for EMC/RSA in this business segment.
+

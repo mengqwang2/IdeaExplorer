@@ -1,0 +1,5 @@
+Wireless Data Storage Device
+
+Idea came to us in a brain storming session 
+by connecting the device and the users to the same Wifi network they will be able to transfer data from the connected devices.
+

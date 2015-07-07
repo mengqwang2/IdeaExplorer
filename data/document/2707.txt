@@ -1,0 +1,9 @@
+Cloud based backup for EMC internal staff
+EMC is big time player in cloud based services. However, internally we still seem to be far away from cloud based on demand backup solution. Implementing such a solution for each employee will further strengthen EMC's commitment towards cloud based servic
+Recently, while discussing on EMC's BaaS solutions with a customer, I was asked about the solution being used internally to EMC. Though I answered to customer's question saying that the implementation is in progress, in reality we don't have any such information internally. 
+Implementation cloud based backup solution (BaaS), based upon EMC's BaaS v3 (or something similar)
+This will help
+1. Flexibility for backing up individual data.
+2. Easy upgrades for IT.
+3. Possibly showback / chargeback for various business gains related to IT (as a cost center)
+3. Showcase to EMC's customers / partners (we do what we say / we use what

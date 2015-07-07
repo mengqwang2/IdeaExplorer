@@ -1,0 +1,22 @@
+Automated Customer support assisted with Cloud
+An automated method to alert to administrators and provide help to solve the issues with the available data of EMC products from customer.
+
+For CTD, multiple products are deployed at customer site and have dependency on each other to function effectively and beyond customer expectations.
+
+Total Customer Experience in terms of support and solutions for the issues.
+There are vendors who are providing similar type of support to customers for fast and cost effective solution, e.g. Pure Storage provides a similar kind of support.
+EMC has support infrastructure via Call Home for it's products like VMAX, VNX, Recover Point etc., which continuously feeds the hardware and software health information and generate alerts in case something goes bad. Once supports gets an alert, they analyze the customer data and provide solutions. Many times, support engineers has to search manually on the solutions  they provided to the customer for similar kind of problems.
+
+This Cloud Assisted Customer Support application will allow EMC Support organization to collect EMC product health information for multiple customers and analyze the data automatically for any problem encountered in the past.
+
+As the data is continuously coming to EMC Support cloud, data can be analyzed further for predicting any issue in advance based on patterns seen for other customers and nature of data.
+
+With "Call Home" and "EMC Grab" utility, this can be easily implemented adding a analytic engine.
+
+Few examples:
+1. If storage is near it's capacity, application can suggest customer for additional storage, or archival of data.
+2. Another example is if application analyze that hard disk is going to be bad in few days based on it's health data, it could suggest customer to order a new hard drive or even order by itself.
+3. Another example is information to customer on any new patch available which was used for other customer. 
+Faster resolution for issues with software and hardware will bring more customer confidence in EMC products.
+Automated system will learn from the customer issues by analyzing the logs continuously and provide better and effective solutions to customers.
+ 

@@ -1,0 +1,22 @@
+Enhanced knowledge center support via online tool and mobile app.
+
+We have faced similar issues in EMC IT and several CSI initiatives have been driven to improve TCE and efficiency.
+Mobile App to include: 
+Library which will have all support documents, recent issues and its resolution,
+Warranty status - Current status of the services and if any offer on warranty,
+New product launches and New Mergers & Acquisitions,
+Creation of SR in mobile application can be considered as well.
+
+News Feed (on products and services)can be incorporated in the mobile app and the online tool based on "whats trending in Facebook EMC page and Twitter EMC page".
+
+Data analysis can be performed based on the existing customer queries: 
+
+How many specific issues are logged by customer and the Number of occurrences - which will help us improve the product and services.
+
+Feedback on support docs can be included to both mobile app and online tool:
+Rate the article
+Provide feedback. Useful/not useful
+No of times it has been reviewed.
+Flag - >  Article requires immediate attention
+
+

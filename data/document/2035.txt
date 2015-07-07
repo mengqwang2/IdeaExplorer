@@ -1,0 +1,17 @@
+Customer Troubleshooting Guides (TSG) Proactive Tool
+New business process that will positively impact TCE as customer will have self help tool that will assist him in resolving the small problems without intervention, moreover will impact cost savings as it will reduce number of Service Requests which will free support resources to focus on critical cases.
+I am leading Isilon support team. Many of the SRs are opened for trivial issues where customer could have solved on his own without contacting the support. Such service requests take some time to be accepted and resolved as per Severity and queue volume where it could have been solved by the customer quicker. Moreover such service requests increase queue volume which consume time and effort from support engineers.
+- Create tool/application (Mobile) that will be available for customer (free of charge or low cost)
+- Monitor the number of installations 
+- Whenever tool is opened, customer will add the problem description through mandatory fields to be filled
+- Tool will proactively search the Troubleshooting guides database and make a flow chart of troubleshooting for the customer
+- Customer will follow the steps and add a comment at the end of the process
+- Every time tool will be used and comment is added will be counted as reduction of 1 Service Request opened with CS
+- Team should be responsible of this tool to maintain as well as working with SME's to ensure DB is up to date
+- Moreover data analytics will be used to check the major issues faced by customers in order to be elaborated more in TSG DB, also linking customer comments to Engineering database to be added to enhancement requests
+- Account teams should promote this tool in order to increase the frequency of usage by their accounts
+- Impact on TCE as well as cost savings should be continuously monitored in order to ensure continuous improvement of TSG application 
+- TCE improvement (NPS score)
+- Increase usage of TSG tool per customer
+- Cost savings (reduction in SR volume * average time of TSE work * average salary)
+- Branding idea of self-serviced products

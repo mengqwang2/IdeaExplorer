@@ -1,0 +1,5 @@
+Short message remind for EMC products
+
+Short message notification for weather from China Mobile.
+The customer can configurate a notification list. If any warning/error occur, a short message will be sent to them. 
+

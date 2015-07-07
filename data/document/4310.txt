@@ -1,0 +1,5 @@
+Sentimental analysis towards the data collected from the social networks like Facebook, Twitter via EMC owned Federated Search Services
+
+This idea was discussed internally in IIG China COE technical committee
+Documentum FS2 is EMC developed Federated Search Services which can provide a search bridge towards Enterprise software like Microsoft Sharepoint, social networks like Twitter, web search engine like Google and Yahoo, we can leverage FS2 to search towards Twitter or Facebook, and do Sentimental analysis(also known as opinion mining) towards the results.
+

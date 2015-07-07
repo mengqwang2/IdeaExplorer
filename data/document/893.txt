@@ -1,0 +1,20 @@
+Intelligent and Mobile Devices Enabled Video Surveillance 
+This idea proposes to enable the mobile and intelligent IoT devices to supplement the existing traditional video surveillance systems to enhance the security of a smart city.
+ 
+Besides, this idea employs the prevalent EMC Business Data Lake and builds a novel new vertical solution “mobile video surveillance”. 
+
+The idea comes out an internal team brainstorming. In addition, we have a project of video surveillance last year, from the project we also get the idea to enable mobile device to join the system, it can provide even more capabilities and enhance the system flexibility. 
+This idea was built with the front-end intelligent mobiles devices with the backend big data video data lake. 
+
+(1) The mobile video surveillance devices can be a mobile phone, intelligent handset camera, or any other mobile special equipment. 
+(2) We build the backend big data lake video surveillance platform with EMC Business Data Lake, which can store, analyze, and manage the front-end mobile devices. 
+(3) When a front-end mobile device join into the system via wireless network, the video stream are real-time streaming to the backend and shown in the backend. 
+(4) The data transmission can be 3G or WLAN or other wireless Ethernet. 
+(5) All the mobile devices can form a private/small group to work together to monitor a given place by the users. 
+(6) Mobile device can also has the basic analytics ability, e.g, object detection, video transforming, etc. the backend can send basic analytics instructions to the front-end devices to have them do analytics. 
+(7) The backend is powered by the business data lake, we have designed the video surveillance solution architecture and PoC has been built. (can be referred in the following URL: https://inside.emc.com/docs/DOC-155861). 
+
+1. With this idea, we can achieve the even more security by this solution. 
+2. The government is not required to build plenty of video monitoring infrastructure but have the citizen to use their own device to provide support to the city security.
+3. The idea provides a new vertical solution for video surveillance which utilizes the EMC storage and BDL, which can boost and improve the sales of EMC BDL solutions. 
+

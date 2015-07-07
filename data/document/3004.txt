@@ -1,0 +1,11 @@
+Ondemand Teleconference Line
+IT Contemporary Workplace Challenge
+
+This would improve the communication and encourage employees to have calls involving required stakeholders without depending on emails.
+Optimization and pooling of resources is a very standard solution and can be applied to any place where resources are used and utilization is low.
+Provide two kinds of Teleconference lines
+1. Heavy - for heavy users(Sales, Marketing teams etc). A dedicated conference line will be allotted to them
+2. Normal - Any employee should be able to login to an application and raise a request for a teleconference line with 1 day validity(as an example). The application will give a line from the pool. This is done instantly and doesnt need any approval.
+1. Saves cost
+2. Every employee can get a conference line for scheduling discussions
+

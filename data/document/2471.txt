@@ -1,0 +1,5 @@
+Smart City Solution
+My idea helps to get a solution to help to empower the use of the internet and the data solutions to improve services and infrastructure management for cities
+No specific history for the idea
+My solution is to divide the city into sectors and in each sector there's a centralized system and this system get real-time data from sensors and cameras to monitor different services like traffic patterns, public transport usage, road density, utilities usage, mobile and internet coverage and crime activity; after that we collect these data in a central location after gathering these from each sector and analyzing it to get results to improve the services or predict the bottlenecks to coup with it before it happens, then citizens can access to see these results to help them with their daily life like traffic or mobile coverage or crime activity with their national ID number through a mobile app 
+If the idea is fully implemented it'll help to have an integrated solution to implement in a city scale especially with the increase of using 3rd platform solutions to improve city infrastructure and services, so it will increase our work with public sect

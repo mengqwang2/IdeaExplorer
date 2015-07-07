@@ -1,0 +1,17 @@
+Automated Approval for pending requests
+My idea is an improvement to how business processes are conducted in a business unit. It's about cutting down the time needed to approve any business related pending request by means of adding a new step in the process flow that goes between the person in
+I have thought about the idea after I had noticed that some simple requests can be completed in shorter time.
+The approval action will be done automatically by an app that is already previously informed by the person in charge of the approval.
+
+This application contains a database which simply contains the requests that are needed to be approved. The database is filled by the person in charge of approving the request in case that they won't be available in person to approve the request when it's needed. So by automating this whole procedure, once the request needed to be approved is filed, it will be approved automatically regardless of the approval's status.
+
+
+Solution in details:
+
+what is needed from the person in charge is to submit keywords for the request to be matched once it appears on the system and had come to the step of his approval
+Key words will depend on the type of request as an example
+Token request: (Candidate name:, candidate Position:, starting date )
+ and as a confirmation this matching could be approved by the responsible team that initiated the request.
+This will automate the process and cut down a lot of time wasted in the business process.
+
+This idea is implemented in the IT system as this application is embedded in the approval step within the request process.

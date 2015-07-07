@@ -1,0 +1,5 @@
+Script to automate the process to get migration report in centera via dial home 
+there are many customer who wants the migration report in every 5 hours to track migration progress. this automatic process will reduce the manpower required and  also create more satisfied customers
+I Came up with this idea while working with CSC. I got the Idea couple of days back and approaching couple of resource to work on scripting part.
+This solve both customer and business need requirement. It is completely new approach and have not heard any automation process regarding this. The Idea of automation in centera itself is unique as the work in centera is quite manual so something like automation will be a great option to have .
+this Idea needs to go through proper planning phase of scripting. we will decide  what all we are going to include in the report and use dial home or email notification to send out report to the customer.

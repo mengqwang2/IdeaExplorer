@@ -1,0 +1,18 @@
+Intelligent Self-healing Upgrade Solution
+
+We are working on the VNX/VNX2/VNXe install & upgrade. We saw many upgrade failures on the customer machines and EMC internal ones, and many of these failures are easily to be fixed at the first time. Hence, we want to propose this new upgrade solution to benefit both the customers and the EMC internal usage.
+For this new idea, we will introduce following new functions into our upgrade framework in the VNX/VNX2/VNXe:
+1.     Self-healing mechanism for the upgrade failure
+The self-healing for the upgrade failure means the upgrade process itself fix the problems intelligently and automatically. 
+
+The upgrade failures occur in the customer machine can be caused by various problems. And currently our customer and support engineers have to search and perform the problem resolution manually from the Primus or Knowledgebase. However, a successful fix totally depends on the individual experience. 
+As many of the resolutions are consisted of some commands run on the machine, so our idea is to decompose those “problem resolutions” in the Primus or Knowledgebase into multiple atomic symptom-resolution pairs; and implement all these atomic pairs in code and store them into a “resolution repository”.
+On the other hand, once an upgrade task fails, the upgrade process will run the post-failure system scan to detect the “symptoms” in the machine, and then find out and perform the correct resolutions automatically based on such symptoms.
+
+2.     Predictive failure detection before the critical upgrade milestone
+The predictive failure detection before the critical upgrade milestone means before some critical upgrade milestones (e.g. system reboot, DM failover …) the upgrade process will perform some special system health checks to ensure that the system can avoid getting in trouble and  not to be stuck in some “DU/DL” states. If the health check fails, then the upgrade process can use the above self-healing mechanism to repair the system. The special system health check” can be sub-set of  the  existing pre-upgrade health check based on different critical upgrade milestones.
+
+3.     Self-diagnostic information generating
+If there is any upgrade task failures which cannot be fixed by self-healing mechanism, then upgrade process will obtain the failure symptoms, the excerpted failure logs, the action which self-healing mechanism took, the commands sequences which the support engineers performed and the environmental information, which will help the developers pinpoint the issue quicker and more precisely. 
+
+

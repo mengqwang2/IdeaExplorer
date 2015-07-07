@@ -1,0 +1,7 @@
+Proactive Support from Product Engineering and QA teams on escalated and Code Red SRs 
+More time spend on administrative work instead of actual problem solving,High TTR, lots of time spend on internal/external stakeholders updates and understanding customer problem and coarse of actions
+ 
+Proactive Support Challenges, High number of escalation  
+SME/Coach/Engineers spend lots of time on logs collections, Quick Proactive supports from Engineering/QA helps to understand problem and address resolution steps and save lots administrative work and time  
+Enable Engineering and QA team for Proactive Support 
+Many outcomes on Proactive Support,  Reduce TTR for Escalated SRs, Better TCE Experience, Engineering and QA team gets deeper understanding on Product usages at customer side, Product Quality, Serviceability enhancement opportunity

@@ -1,0 +1,31 @@
+The BigData App Interface ( Solutions using PivotalHD, VMware BDE,Vipr etc) 
+
+We have our POC environment where we have deployed Pivotal HD clusters, viper etc
+Have worked with Cloudera hadoop distributions
+
+I find that the front end app stack for bigdata is missing or lacks a lot of features
+
+We want to bring the power to he front end application while the back end is automated using puppet/chef manifest
+
+Also while an application like this deploys it will have features based on different industries like Retail, health etc. Only the front end changes whereas
+the back end automation and cluster creation are the same and varies according to
+workload.
+ 
+For a basic hadoop cluster to roll out and for all the set up to be done is time
+consuming and took us time in our POC. Also we didnt find the front end that gives us a clear picture of Master nodes, Worker, Name nodes, data nodes which makes it more complex. We want all this come in our application under monitoring tab which brings everything under one umbrella
+
+ By this idea we want to give a front end that makes the back end work easy and also the analytics/ETL can be more focused using the application interface.
+
+Our application is solely designed to work on YARN (hadoop's OS framework)
+
+The idea is to come with an application packaged to handle big data analytics needs. When the deployment of the application happens,One can select the distribution (pivotal/Hadoop/cloudera/Mapr). The application deploys with that specific distribution and can scale later too. 
+This way the application is both agile and scalable too. 
+
+The application interface will have component specific to Retail, health, Social (twitter/FB/google..) . If there are analytics needed for a particular 
+Industry say Social, the application will deploy with the interface that is specific to social and it will have the big data platform as the underneath
+Layer. The application will in turn be tied with the big data cluster (master nodes/data nodes/ secondary name node ). If the need of more
+Resources are needed the clusters can be increased or decreased. The user will have to just look at the front end and take decision, all that
+Happens in the back ground will be taken care by the automation that we could trigger from the front end. 
+
+
+

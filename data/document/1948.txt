@@ -1,0 +1,7 @@
+Mobile Apps. for Data Protection Advisor
+By introducing mobile Apps. for DPA, EMC can leverage to their customer's and give them hudge befinite towards business. It will also provide a step ahead from other competitors in the market. 
+While working on a Data Protection Advisor POC, customer informed that they are using ViPR-SRM for their storage and they are using Mobile Apps. for the same to perform storage provisioning, LUN assigning, Capacity increase etc. 
+
+They wanted to know why EMC doesn't have Mobile Apps. for DPA.
+Companies are offering their customers more ways to interact with their products by developing mobile applications that allow users a new way to interact with their product or service. This could be a mobile application that allows users to view similar data as they would on their website or even a product that directly connects to hardware/software and opens up easier ways to connect and control the same.
+This will leverage & provide benifits to all our customers and their top management.

@@ -1,0 +1,5 @@
+Water Timer
+
+I can sit for hours on the desk without drinking water and I actually forget to drink water, which is very unhealthy. That's why I need an alarm to remind me of drinking water.
+The bottle cap will have a timer. Whenever you open it to drink water then close it, it will start counting time. When it reaches for example 1 hour it beeps or flashes in order for you to drink water again.
+

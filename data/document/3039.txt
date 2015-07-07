@@ -1,0 +1,10 @@
+Use other cloud object storage in our cloud product
+NA
+My manager Kevin Cai has this idea called distributed mozy which will use AWS S3 API as data path and store object in S3 compatible cloud.
+I extended this idea to general case.
+Mozy is EMC product which provide cloud storage to our customer.
+It use hard disks as local data store.
+Why not use other cloud storage to replace hard disks?
+We might save a lot if cloud storage is better than hard disks.
+success: cheap storage, make profit from service rather than hardware
+benefit to EMC: more income, less cost

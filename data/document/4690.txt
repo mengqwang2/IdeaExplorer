@@ -1,0 +1,13 @@
+Improve EMC support mobile App
+
+Sometimes, I need to view or make a quick change to an SR,I couldn't have a quick access to the Service center. However, I could only view the SR from the support app, its becoming very useless to have an app with no features.
+The app is already available in EMC app store. Basically you can view the Service Requests in this app, and that is it.
+
+The improvements I am looking to address:
+1. Logging notes.
+2. Open and closing Service requests.
+3. Re-queuing the service requests when needed.
+4. Receiving notifications if any change happened in the SR.
+5. Changes can be done by employees and customers.
+  
+

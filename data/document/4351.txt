@@ -1,0 +1,6 @@
+Compute Power
+
+This idea came about from reading many different articles about how you can allow your home PC help in many research projects. see the following article
+http://www.networkworld.com/article/2247149/data-center/12-cool-ways-to-donate-your-pc-s-spare-processing-power.html
+Allowing availability to be powered up and made available to research projects. These may be EMC's own projects, local colleges or big International projects such as  CERN's Large Hadron Collider or SETI (Search for Extraterrestrial Intelligence)  
+

@@ -1,0 +1,13 @@
+Internal File System migration tool for VNX File
+Meets Global Product Operations Challenge and Engineering Operations and Services Challenge- Enhancement in the product, making the migration simpler, time saving and easier to user.
+
+I came up with the idea while handling the migration projects and after studying the challenges we have currently with the EMCopy tool.
+Since this idea came to  my mind I have been planning possible ways to leverage the VNX GUI and how the interface would look and what options it would support
+1)Integrate EMCopy or add a feature on the VNX GUI for file level migrations other than existing replicator as it isnt capable of partial file system migrations.
+2)The inbuilt migration tool could work as what EMCopy does however within the GUI we could have options to select the target path , target device .
+3)It should be able to read folder level permissions and copy those permissions to the target paths as well.
+4)Would have options on the GUI to run incrmental copies and switches etc that is being used currently in EMCopy. 
+5)Would make the migrations simpler and easier to manage.
+
+1)If this idea is successfully implemented the VNX OE will have to have a new option for Migrating, it would have options to select the type of migration we would like to perform.
+2)The success of this idea would enhance productivity as we would be avoidi

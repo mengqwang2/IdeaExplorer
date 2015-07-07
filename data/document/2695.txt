@@ -1,0 +1,18 @@
+Programming Courses
+Increase awareness of what can be automated and how easily. This allows for more testing to be done faster at the same or lower cost...eventually.
+I am a programmer by college education who became a system admin (where I learned to script), then came to EMC as a member of E-lab. My knowledge of how to program a computer allows me to script things for my co-workers which save them a huge amount of time. In talking with my co-workers I realized that many of them don't realize automation of certain tasks is even possible because they don't know that Expect exists, or they don't understand how to make a computer 'think', rather than simply perform the same set of commands.
+
+Programming is not a simple skill to learn and it does take years of work to master. However, the very basic concepts can be taught over the course of a week, or broken up into day-long discrete courses for self-consumption as time permits. The greatest value would be to have a mentor or teacher to help the student solve an automation challenge and then iterate on that challenge as they learn more about programming.
+
+While it is possible to learn programming at college, the idea behind this course would be to throw out a lot of the fluff that comes in college courses dedicated to programming. The fluff is useful, don't get me wrong, but a cut-down, condensed version is more practical for a busy, experienced, engineer.
+The idea is for a course which would be available through EMC University. It would teach a few key programming concepts, present them in the C programming language, and offer a way for students to learn a new way to solve problems.
+
+Key concepts to be covered:
+-Functional programming (Realizing when and how to pull a section of steps out so you don't need to constantly maintain the same code in 15 places).
+-Brief overview of Computer Memory from a programmer perspective: What are pointers? Stack vs Heap. How arrays are represented in memory. How variables passed into functions work.
+-Data structures: How arrays (single and mulch-dimensional) are represented in system memory, how a linked-list works.
+-How to visualize the problem you are solving; literally 'program by drawing a picture first'.
+-Touch on performance analysis: Provide a few examples of how a simple command, like calling "echo", can slow a script down dramatically due to all the steps the OS must take to create, execute, and tear down the echo command hundreds of times a second.
+-Regular Expressions: A brief overview of how to create at least simple versions of these.
+-How to create and read a stack trace.
+The goal is not to train new software developers, but to increase awareness of what is possible. By teaching the concepts of programming you allow them to learn scripting *much* more easily while also making any script produced far higher quality. By maki

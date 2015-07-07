@@ -1,0 +1,27 @@
+Improve customer satisfaction with easy application software
+Present application software needs lot of enhancement to improve customer satisfaction and make user friendly .Because of more manual effort in current application software, customer feels it is a tedious and time consuming process. It also leads to error and debugging will be difficult. Due to this customer will mess up with wrong configuration and finally hit with a problem and call to service team. So, it is not cost-effective.There is no quick setup wizards,discovering,monitoring,notification and search mechanisms.
+As a user, I felt application software is not user friendly.Present application software needs lot of enhancement to improve customer satisfaction and make user friendly .For eg. In Networker Management Console, there are lots of wizards to do single operation. If customer wants to add 1000 clients to a Networker server, need to add 1000 clients detail through wizard. There is a copy group or copy client option but not user friendly. Even customer can use CLI , but customers prefer easy GUI. 
+
+More information available in this document https://inside.emc.com/docs/DOC-155865
+1)Discover objects through quick setup wizard.
+2)Monitor the health status of objects, the capacity utilization and performance characteristics.
+3)User Alert/Alarm/Event notification/System tray notification i.e Windows notification area icon and balloon notices.
+4)Auto Discover and Auto Destruction.
+5)Upload or save configuration information through MS excel.
+6)Improve monitoring
+7)Search Mechanism
+
+Provide license key to have this facility in customer environment. Make this GUI and CLI based.
+
+After installing this software on Management software with proper license, it should start discovering, monitoring, collecting and saving information about objects into its database.
+
+1.Provide a single wizard to make “Quick setup”, which helps the customer to make configuration in faster way in an automated approach.
+2.As soon as object adds to configuration, use an “Intelligence health check” to check basic things.
+3. Set notification using SNMP
+4. Auto discovery and auto destruction.
+5.Upload or save configurations using MS Excel.
+6.Monitoring
+7.Searching.
+
+More information available in this document https://inside.emc.com/docs/DOC-155865
+Fast and easy configuration. Discovering , monitoring , troubleshooting ,searching will be easy.

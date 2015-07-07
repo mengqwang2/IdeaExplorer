@@ -1,0 +1,19 @@
+Profile based consolidated service request system
+Addresses the "Durham Data Center Elastic Labs Challenge" by refining a service that would significantly cut down turn-around time for a service request through consolidation
+The idea was developed during discussions with the following members from the eNAS QE team: Abu, Ramesh, Bharadwaj, Srikrishna and Binu while trying to address some solutions for the "Durham Data Center Elastic Labs Challenge". This idea when clubbed together with the idea <TBD> <URL> would provide an even better solution for an efficient, on-demand and fully automated lab request provisioning system.
+Instead of the current system where individual service requests need to be made (such as cabling, zoning, VM creation, masking, SLIC configuration, IP allocation etc.) in order to simply use a host to run block IO to storage, for example, the existing ticketing system could be improved by providing a profile/template that one could simply request to deploy. This ticket when serviced would provide the submitter a complete environment that he/she needs which he would have otherwise requested through multiple requests.
+
+Many of the internal test and development teams would require this entire environment rather than an individual storage array, for example, and almost all these teams often have predictable and repeatable requests each time with only minor changes in the underlying environment In such cases, it would save a tremendous amount of time for these teams as well as the lab service personnel to avail of a readily available "environment profile" in the service request form instead of servicing isolated and individual requests.
+
+The solution could also leverage ViPR eventually to achieve the above objectives more easily.
+
+Sample template:
+1 SLES host/VM with IP assigned
+1 VMAX-400K with eNAS
+eNAS Data Mover IPs
+EFD (platinum profile) disks
+Cabling and zoning the SLES host to the V3
+
+1. The lab service request form would have a readily deploy-able template that is a consolidation of commonly repeated tasks that together create a fully usable test/development environment for internal teams.
+2. Success for this idea is readily measurable by looking at the following metrics: Number of individual tickets raised formerly to deploy a test environment which now requires only a single ticket (Profile request). This relationship is easy to map and additionally will be useful in evaluating the amount of $/time saved as the average service time for individual requests are easily quantifiable as they are known.
+3. This idea when combined with <TBD> <URL> would translate to freeing up lab personnel from a number of manual tasks and their time could be better spent on other priority items.

@@ -1,0 +1,11 @@
+Collaboration platform for developers
+This solution will leverage one of the ECS products to make use of the cloud capabilities.
+I used to be a software developer before joining EMC. Sometimes,I want to share my code with other developers and need to work from anywhere on my code.
+Instead of writing code on your own local machine.your code will be placed in cloud.
+This solution will provide many features:
+1-you can have your own virtual machine vm with your preferred os to build a windows app or an open source one (Platform as a Service PaaS)
+2-run code quickly
+3-multiple programmers can works on the same code
+4-share your code with others by specifying accessibility levels(editing,viewing,...)
+1-EMC will enter the open source area which will show its capabilities in this area
+2-Cloud based solution which is easy to use fro any device

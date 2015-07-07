@@ -1,0 +1,5 @@
+Cost savings by not accepting damaged Drives from Supplier
+Why should EMC consume the cost of damaged drives received in transit from Supplier (Hub)?
+Implemented by the Apex GDE Team in 2014.
+Implement a Rejection back to the Suppler /RMA credit process when a pallet of Drives arrives in receiving with visible damage
+These actions resulted in $30K in hard savings for 2H2014. 

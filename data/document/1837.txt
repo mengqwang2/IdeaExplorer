@@ -1,0 +1,17 @@
+Community Involvement Challenge
+Since the challenge is to create platform independent mobile app, we are providing solution which will be easy to build using latest web technologies HTML5,CSS3 ,Javascript/Jquery , UI frameworks etc.
+Currently I am working  on HTML5 mobile app development. This challenge resembles to what I am working on. My colleague Nihar and I decided to work on this . We first thought of SAPUI5 based app .so that it can be easily integrated to EMC Fiori launchpad.But because of UI limitation in SAPUI5 we switched to HTML5 based solution.
+
+Rich user experience, platform independent , easy to develop, latest open source technologies which will be fast since we are concentrating on client side technologies .
+
+For more information
+
+https://inside.emc.com/docs/DOC-155258 
+
+•	Since it is the powerful UI framework we can build a great UI design using HTML5 CSS3 and UI framework
+•	We are using more open source technologies and hence no licensing cost involved .
+•	It has great re-usability and we can build on top of it very easily.
+•	The user experience is responsive. So that if I run it in different resolution like iPhone,iPad ,android it will provide the different layout with rich User experience.
+
+
+

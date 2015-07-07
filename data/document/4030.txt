@@ -1,0 +1,9 @@
+Install Base <<Item Instance>> Structure
+
+we always search for ways to automate our process
+Changing the structure of  Install base item instance to differentiate the Software Items from the Hardware so it could be automated once the case is received.
+
+for ex SW Item instances to start with 02-XX and Hardware to start with 01-XX.
+
+that will help to easily automate the SW cases once it come in.
+

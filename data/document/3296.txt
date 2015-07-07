@@ -1,0 +1,5 @@
+Lab-as-a-Service: SAN-Boot Automator for Rack Mount Servers
+
+Mike Hancock came up with the idea in a service planning session for XBU LaaS.
+The solution builds on the LaaS PXE provisioning service used by XBU to deploy a stripped down Linux build loaded with the appropriate vendor utilities for the HBA (configurator OS). Once deployed the configurator OS is instructed to set the HBA to boot from a target LUN configured by previous activity in the workflow.
+

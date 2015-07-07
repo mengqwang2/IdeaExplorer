@@ -1,0 +1,15 @@
+Roaming user profiles
+The sponsor is looking for a new feature that can be implemented to facilitate our environment to be more flexible.
+This idea will improve the user data access to be more flexible, reliable, secured and maintained.
+A roaming user profile is a Microsoft concept.
+The idea is implemented in many organizations and the reviews are very positive.
+In our environment the implementation of this will be very useful and easy. Each user already have his private home drive, we just will apply the feature on the user's profile to redirect his/her folders "desktop and document...etc" on his/her home drive.
+ 
+My idea is "User Profiles Folder Redirection".
+The user's profile folders like " Desktop and Document" will be stored on a centralized file server accessible from the network.
+The redirection can be on the user's home drive.
+When the user logs in and the domain login is successful, the roaming profile is copied to the user's device "Laptop or Desktop".
+When the user logs off, the user's roaming folders are synchronized with the local folders data. The synchronizing process repeats with every logs in or off.
+Prevent the data loss in case of hard-disk corruption, failure or device theft.
+Save time: time consuming in copying, backup and restore the data in case of windows re-imaging.
+Helps the business units and teams to maintain their employees data in case of employee resignation.

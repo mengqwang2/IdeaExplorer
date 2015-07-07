@@ -1,0 +1,7 @@
+Real-Time Product Availability Tracking System
+My idea is to help build a workplace of the future, to demonstrate next generation thinking and showcase EMC as an employer of choice for new talent.
+I came up with the idea by observing the current process in place today and thinking that there has to be a better way of doing this.
+To have each slot in the Availability area barcoded so when a product is placed there it is scanned in and displayed on a screen. The system also keeps track of how long the product is in the Availability area. When a CTO order comes in, the screen highlights which product to be used based on a FIFO basis.
+Optimize the current process.
+Improve inventory control and usage.
+

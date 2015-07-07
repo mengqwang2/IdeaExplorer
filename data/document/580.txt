@@ -1,0 +1,27 @@
+Log Analytic tool
+This idea improves CTD supportability of solutions with efficient and precise troubleshooting tool that would:
+1. Reduce customer calls 
+2. Increase customer support response time 
+3. Reduce back and forth between various engineering groups within CTD for cross-functional issues.
+
+Many times working with customer issues, I realize that it would be nice to have tool that could lower down my redundant efforts for analyzing similar customer issue again.
+Idea is to develop a log analytical tool that would analyze logs and finds out, if this is one of the existing problem. Idea works like this:
+
+For example, customer has reported a issue on viplex with VNX configuration. Customer support analyze issue and then contact subject matter experts in Viplex and VNX. After extensive analysis, it found to be Viplex issue. At this point, viplex  expert needs to provide complete analysis of this problem, this include various logs snippet (in order of analysis) and corresponding log files. If experts run some commands then those needs to be provided as part of analysis 
+
+Tomorrow, if the same issue reported on Viplex with VMAX then customer support feeds log files to this tool, which will attempt to match logs with the previous issue, if log snippet matches then it will be same issue.
+
+This process continues and over the period of time tool will have good database of the issues.
+ 
+This will eliminate redundant efforts of analyzing same issue with different configuration and thus experts and support always focuses on new issues.
+
+Success:
+1. Customer support capabilities increased in analyzing customer issues.
+2. Engineering capabilities increased in analyzing internal development issues
+3. Customer support and engineering will always analyze new problem
+
+EMC Benefits"
+1. Reduce support cost
+2. Increase customer experience by addressing customer issues quickly
+3. Software development time can be reduced (as engineers can use tools during development for identifying issues)
+

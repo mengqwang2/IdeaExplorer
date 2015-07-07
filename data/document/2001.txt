@@ -1,0 +1,22 @@
+Write plugins or support the development of Open Source projects
+Challenge is to help IT engineers that use open source projects combined with solution provided by EMC.
+XtremIO can be used for any solution below to improve performance.
+Just by discussing the innovation challenge
+Write plugins and support famous open source projects that are used by commercial companies that will make users aware of solutions provided by EMC.
+E.g.
+- Wireshark – A plugin that can communicate with EMC arrays and display additional information about the packets.
+- Jenkins/Hudson – Plugin to easily configure the job to work with EMC solutions, e.g.
+      - Assist in extending/creating the volumes on which the artifacts reside  (in case they are in an EMC storage)
+      - Alert in cases the allocated storage is running out.
+      - Provide data analytics on build and test results.
+- Open Source Databases Systems: MySQL, MongoDB, etc.:
+      - provide tools for the user to visually mark Hot data to allow the storage system to put it on the desired tier.
+      - provide migration tools from these databases to EMC GreenPlum
+- Docker: We can create a containers for configuring and communicating with various EMC products  which other containers can interact with. E.g:
+      - Allocate a dedicated LUN for their execution.
+      - Retrieve statistics from DPA.
+      - Create a snapshot in VMAX.
+
+
+People choosing the above open source products will know they have EMC's support and help
+People choosing these products but wasn't aware of EMC will get acquainted with it

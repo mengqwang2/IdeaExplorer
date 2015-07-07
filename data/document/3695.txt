@@ -1,0 +1,9 @@
+KB Matcher Application
+
+I work as an RP support engineer and analyzig logs and then checking it in KB article takes a long time especially that not all problems can show as an error they can be an informational log line, and memorizing them will be impossible, so I scripted this tool using perland some files instead of DB astesting and so far i very promising in the KB articles we tested and can help decrease timeof resolution and speed up analysis.
+I used a logic to translate KB articles into a relational database and then use small script that can run through the logs and check the probabiltiy of each KB in the DB against the logs presented to the script, it can search for specific errors or events in logs as well as version of product and then based on what it finds in logs it prints out the probabilty of each KB to your logs, ifyou get 100%probability then you match the KB if 50% then maybe you haven't hit but you canbe subject to it, or if it is 0% which means that KB is notsomething you should worry aboutor consider.
+
+This is much suited for Break and fix KBs and for both re-active situations were customer, partner or EMC Support need toresolve a problem, and for pro-active where customercan avoid possible bugs or ETAs by checkig his log using KMatcher tool periodically.
+
+The logic of the script can span all EMC products,I have proto type ready for Recoverpoint Product and will try to add other products to the prototype
+

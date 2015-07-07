@@ -1,0 +1,38 @@
+Detection and healing of Noisy Neighbour problem in cloud SAN environment 
+
+This idea evolved during discussion with some EMC PowerPath customers using EMC multipathing solution on their data centers, especially data center has cloud infrastructure. Since they have extremely heterogeneous environment with different OS and storage infrastructure, they are looking for solution from EMC PowerPath which can solve huge effort spent in different OS to diagnose and optimize noisy neighbor problem
+The proposed solution will do the following:
+
+1. Monitors IO traffic and raise alarms with proper diagnostic
+2. Control IO bandwidth per host to avoid clogging (Noisy neighbor problem)
+3. Prioritize IO traffic depending on Class of Service
+4. Flexible Restful API for easy integration with cloud storage management components like ViPR
+
+Following are some assumptions before we discuss the solution 
+
+1. Every host in the SAN has some IO Path filter driver (Similar to EMC PowerPath) installed in SCSI IO path.
+2. The solution assumes the existence of a central application, which would be able to extract performance information from  the managed hosts. (We call this this powerApp in this document)
+3. A mechanism to extract performance related storage policy information from cloud orchestrator e.g. ViPR for each SLA level like gold, silver, etc.. These performance thresholds are Max latency threshold, Max Bandwidth limit for that particular class of service. 
+
+The central application powerApp collects SLA requirement for performance for each LUN from ViPR. Then powerApp will set these values to each host driver (e.g. EMC PowerPath).  The powerApp application will collect performance data from each host filter driver (e.g. PowerPath) in a regular interval (say 20 sec).The performance data will be consisting of  mean, standard deviation, high and low latency as well as bandwidth and IOPS at each second level granularity. 
+
+Analyzing at these data, powerApp will conclude abnormalities in latency (continues or spikes). The collected matrices give a clear picture the following
+
+1. Which host-to-LUN connectivity is not meeting latency SLA
+2. What amount of IO is generated from other host or VM to the affected Storage Ports
+3. Is there any other factor affecting the performance like connectivity of certain IO path is slower than others? e.g. slow Inter Switch Link (ISL)
+4. If the LUN is slow itself (because of some internal activity like raid rebuilding), or an application using lower spindle speed disks than that of mentioned in the SLA
+5. If certain storage ports are overly busy with IO traffic form neighboring host, VM?
+6. If HBA port is occupied with IO traffic from other VM/application?
+7. If maximum bandwidth SLA threshold is exceeded for certain LUNs?
+
+The noisy neighbour detection process will not trigger if max latency requirements are met in all hosts for all LUNs.
+
+From all those analytics following decisions are derived
+
+1. Is this a noisy neighbor problem? 
+2. If the latency of the LUN (that was below SLA requirement) can be brought down by throttling IO of some other LUNs but still meeting the SLA? 
+
+Once powerApp detects noisy neighbors, it calculates a 'reduction factor' for noisy LUN in host, depending on current I/O traffic and SLA level. This reduction factor per LUN in each host will be used by filter driver like EMC PowerPath to regulate traffic for a LUN or a VM. Once powerApp senses IO control “reduction factor “ needs be changed – analyzing current IO traffic , it sends a revised “reduction factor”.
+
+

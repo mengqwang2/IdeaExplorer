@@ -1,0 +1,7 @@
+Busmart
+The idea aims at making public/touristic buses smarter; something I believe contributes to having a smarter city. 
+I saw in the news recently that car wind shields can now be turned into displays and I wanted to take that a step further with applying the same idea in an area where the public can benefit from it. 
+Transparent LED screens are now available and are being used in cars. I want to turn the windows of buses into screens that can be used to display important public information or warnings. With the bus connected to the internet, the bus windows can also be used to display information relevant to the location of the bus. In other words, buses can be used as an augmented reality medium that engages passengers in a user experience that informs them more about the local news, stores, directions, points of interest in town, history, public initiative, public announcements, etc.
+Benefits: a better bus experience, hours of commuting better utilized, a more-aware well- informed public. More people will want to use buses this way leaving their cars at home which helps reduce CO2 emissions; a global goal that everyone should try to contribute to achieving.
+
+In addition, tour operators can use this idea to provide an interesting tourist experience in sight seeing tours. 

@@ -1,0 +1,14 @@
+Total customer satisfaction using Big Data
+Using structured data as different reports and unstructured data like voice data or social media data and running different analytical tools will be able to come up with a graph representing customer loyalty and level of satisfaction
+Big data and data lakes course
+- Solution will start by collecting different kinds of Data
+1) Reports from Sales department
+2) customer surveys
+3) random data from the SRs
+4)unstructured data from the marketing camaigns and social media over the customers' comments
+
+- Applying Big data analytics using the appropriate tools of structured and structured data and then having visulaized reports using Pivotal Suite will give the company a hint of the customers loyality in some sort of figures or Charts
+
+- Relating this Figures with employees performance we would be able to appoint the most qualified employee to support ceratin users upon their degree of loyality ensuring maximum degree of satisfaction is reached to the user
+- Will have Physical visulaized figures of the customer satisfaction
+- will be able to relate my employeed performance to the customers satisfaction which will help in filling the gap between high and low performers within different teams

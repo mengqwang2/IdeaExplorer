@@ -1,0 +1,12 @@
+Software Defined Network Data Centre in EOS2 Lab
+1.Administration, Management & Maintenance of the Network will be improved 
+2.Allows IT departments to incrementally implement virtual networks at whatever pace they choose (without impact to existing applications and network configurations)
+
+In lab, currently it takes 14 working days to get the new network/VLAN creation and 14 working days to reconfigure the changes in the firewall, with VMware NSX
+Network provisioning/reconfiguration time reduced from days to mins.
+Network Virtualization can be incorporated across the existing lab environment using the SDN Software-VMware NSX
+1.Cost savings in terms of procuring physical and expensive routers/firewalls
+2.Automated network provisioning
+3.Multi-Tenant Networks
+4. Also easier to perform the changes in the existing network configuration
+5. capex/opex savings in managing physical network infra (routers/firewalls)

@@ -1,0 +1,12 @@
+Internal Job Postings web site
+
+Just a thought
+Solution:-
+
+Provide a employee IJP portal which is transparent and is easy to track information.
+Every employee must have his profile in the system and must be easy to apply at any time.
+An automated way of mailing to all the peers with what ever subject line it needs to be.
+Every employee's profile must be updated wrt his duration in the company and different BU's he has worked etc etc
+
+The idea of having a separate IJP portal look more systematic and transparent.
+

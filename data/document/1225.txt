@@ -1,0 +1,19 @@
+Securing IoT Devices through Central IoT Control Appliance
+> The widespread adoption of IoT/ Conected Devices is increasing by the day, and as security is one of the major challenges being posed. The need for a good architecture is vital for its sustained use.
+> This idea directly targets at the heart of IoT infrastructure.
+->This idea is been presented based on various challenges exhibited currently in the IoT World.
+->Also an inspiration from Real Time Operating System(RTOS) and Application Specific Operating Systems(ASOS)
+->Introduce a Central IoT Control Appliance, typically a medium sized computing device, which generates instructions on the fly (ie, As in Real Time Operating Systems) and directly injects instructions on to the physical devices's RAM/Memory Space.
+->A new device should be initially registered to the appliance though the process of probing. This reveals all the operations that can be performed by the device.
+->No pre-installed operating environment is made available.
+->The edge device has a basic FTP/TFTP enabled to receive  instructions from the appliance.
+->Users identity information and role is maintained within the appliance, and as the edge devices are TPM enabled, unique identity is captured for each of them.
+->When generating instructions both device identity and the instruction itself are communicated to the edge devices.
+
+TAKE A LOOK AT THE ARCHITECTURE URL: https://inside.emc.com/docs/DOC-155627 
+
+->Targets security from the ground up.
+->Easier lifecycle management of edge devices through a lightweight virtualization.
+->Reduced risk of infrastructure breaches, privacy, and data integrity issues.  
+
+ARCHITECTURE LINK: https://inside.emc.com/docs/DOC-155627 

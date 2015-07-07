@@ -1,0 +1,19 @@
+Introduce RSA Adaptive Authentication to Millions of Websites in All Industries via Identity Management for both Single Sign-On and Risk-Based Authentication
+- Significantly improve the distribution and installation of our products across the globe
+- Innovations that will make information infrastructure more relevant/useful today, and/or in the future
+About a year ago at a team meeting. Mockups and a demo were developed for a Hackathon a few months ago.
+Facebook and Google+ are popular single sign-on providers. RSA Adaptive Authentication is a popular risk-based authentication provider, typically implemented to reduce fraud in the financial sector. "Identity Management for both Single Sign-On and Risk-Based Authentication" combines the 2 approaches by allowing federated sign-on with a single sign-on.
+
+Websites would allow users to login via Facebook, Google and RSA. Not all websites would be willing to do this, but many would. Our selling point as opposed to the other two is that:
+a) We prevent fraud more effectively with our risk-based decision making, as opposed to simple credentials
+b) Facebook and Google are overly tempted by the trove of user data to which they have access, and thereby can and often do violate user privacy with this data in support of their core operations. RSA’s core operation is security, and so we have a vested interested in NOT misusing customer data. We would commit to the end-user to exclusively use their data to protect their security. This privacy angle is compelling in the consumer space.
+
+The amount of business that RSA and EMC can capture by becoming the household trusted name in security is enormous.
+o	Outsource from IT the hassle of managing credentials
+o	Outsource from IT the danger of maintaining critical PII that is susceptible to breach.
+o	Risk-based authentication is the necessary and sufficient solution to stop the greatest portion of fraudster
+o	Provides website visibility into level of genuine vs. fraudulent login attempts into their site (in addition to other useful business metrics?)
+o	Provides website control via Policy Management console, allowing the site to fine-tune what scenarios should result in automatically allowing the user to proceed, automatically rejecting the login, presenting the user with step-up authentication (e.g. challenge questions) and when to flag a login for review.
+o	By becoming a household trusted name in the consumer sector, RSA will win even more business in the commercial sector. Enterprise decisions are made by people who are also consumers. The more RSA becomes synonymous with fraud-detection, the better positioned our sales teams with our portfolio of security solutions.
+
+This strategy indirectly but significantly affects Enterprise marketshare. In fact, a significant reason why those competitors have done so well in the Enterprise is because they previously built a reputation with consumers. In order to succeed in the enterprise, RSA and EMC should consider the importance of growing in the consumer space.

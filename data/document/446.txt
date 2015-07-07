@@ -1,0 +1,38 @@
+EMC Cool!
+This idea would make the User experience better.
+Also the analysis will protect the unauthorized usage.
+Reduce the total hop on the incidents for port issue.
+Cost saving.
+
+This ideas came to mind, when we had trouble in booking conference room. When we had trouble to use the to resolve the network port issues. Also when logging each time to VPN.
+Our solutions are on three problems.
+
+1)	Conference room booking
+
+a)	Currently there is no tool to check which conference room is free seamlessly      (Unless checked in outlook looking for each conference room).
+b)	We propose a tool which will interact with the conference connect to fetch the information of all the conference room.
+c)	After which this solution will be integrated with the outlook, which would give the details of each conference rooms availability and seating information, just by entering the Floor and Time details. This would enhance the USER EXPERIENCE.
+
+2)	Automation / Self-Healing of Error Disabled Network Switch Ports
+
+   a)	Whenever user network ports gets disabled due to Duplex Mismatch, Loopback Error ,Link Flapping (up/down),Port Security Violation, Unicast Flooding, UDLD Failure, Broadcast Storms, BPDU Guard etc.
+   b)	The user has to open a ticket and that would have multiple routs and the use has to switch to wireless if one available.
+   c)	We suggest a self-healing for this issue, where Global configuration command on all Access switch [ User switches ] - errdisable recovery interval  <30-86400>  timer-interval(sec) can be exercised to have given the time for all errdisabled ports to come back to Operations without Manpower like a first line of support. If this doesn’t help to recover and ports goes to errdisbaled state again then there exist a problem and that can be dealt with NOC operations.
+   d)	This solution would reduce the no of incidents and save DOLLARS per incident basis. As there will be no incidents and man hours required.
+   e)	This solution will also enhance the USER EXPERIENCE.
+
+3)	Security enhancement
+
+   a)	Analyzing the trend of user login to VPN/Seamless/network.
+   b)	Based on the analysis tracking the user logging information.
+   c)	Once this is don we can add the user details and provide seamless access to VPN as well.
+   d)	This would also help is finding any security breach. Example:  If the user was logged in from     Bangalore and after few minutes if he logs in from Singapore, then that’s the security threat and necessary action can be taken based on it.
+
+The major benefits
+
+1) Better user experience.
+2) Saves cost
+3) Security enhancement
+4) Faster conference room booking
+5) Faster action on the security issues.
+6) Lesser incidents.

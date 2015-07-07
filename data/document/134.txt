@@ -1,0 +1,13 @@
+Made with code initiative
+many aspects of the Made with Code scheme – which is also adopted by other organizations like Girls Inc., Girl Scouts of the USA, MIT Media Lab and the National Center for Women & Information Technology to attract the girls towards the computer science and information systems which will create a diversity at the IT companies.
+There is a very obvious gender gap between male and female programmers for whatever reason and it has been very discouraging to witness. With an appreciation for the skill, learning to program is quite possible for both genders given the proper instruction. Thankfully, EMC can recognize the issue and start these types of initiatives that bring awareness to the problem and hopefully, a solution.
+EMC to build an APP - with the help of some academies like Codecademy or any local one based on the country- that are specialized in teaching the computer science to make a competition for girls with significant prizes "cash prizes" to encourage them learn coding and win the prizes. Through the App EMC can track the total number of the participants and also the ages, interests.....etc.
+
+
+The App will be a collaborative one. The App will contain sections for knowledge exchange and photo uploads.
+
+
+More diversity in the field of CS
+More inclusion for the girls
+successful environment
+More revenue for EMC 

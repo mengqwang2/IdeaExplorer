@@ -1,0 +1,5 @@
+Introducing EMC in school
+
+Back in school, We have course about business and computer science but since the concept of cloud computing and 3rd platform is a new idea, it will have an impact on students to help that decide to work at EMC once they graduate.
+Introducing EMC in school and opening a lab to help students learn more about EMC and create there own small virtual environment. It will help the students to get to know about the third platform and the new technology of cloud computing
+

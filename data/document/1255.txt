@@ -1,0 +1,21 @@
+xCP ScanWidget
+Currently xCP doesn't support scanning documents directly to xCP.
+The idea came up last year and POC was even implemented by Russia interns. Although due to lack of resources it has never been productized. We need just couple months of development and QA to release the product on the market.
+Currently there is no way to scan documents directly in xCP web applications. ScanWidget will allow to add this functionality with just drag & drop scan widget on web form.
+
+Usage scenarios is looks like following
+xCP developer
+1.	xCP developer starts xCP designer
+2.	xCP developer adds scan widget on web form
+3.	xCP developer configures output format for scan widget, for example PDF (or TIFF)
+4.	xCP developer bind the widget with data model to point out where document should be uploaded to.
+
+xCP user
+1.	Login to xCP application
+2.	Go to scan page (page with scan widget)
+3.	Select scanner
+4.	Configure scanning
+5.	Scan documents
+6.	Upload scanned document to server
+
+If customers can add scan functionality into their xCP web applications with just couple clicks this will push them to purchase Captiva Cloud Toolkit which is used underneath of ScanWidget. 

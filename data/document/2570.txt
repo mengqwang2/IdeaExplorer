@@ -1,0 +1,28 @@
+Simplify framework Parser Tool across CTD-DPSG
+CTD has quite a few products and troubleshooting root cause like hangs, crash, etc. has been a challenge for support. Support organization would benefit with one single universal parser tool to troubleshoot the product across the BU.
+This idea came to us (Gururaj Kulkarni and Harish Jayaram) as we worked with multiple customers and support team over webex. The details like architecture and the layout of this idea is captured at: https://inside.emc.com/docs/DOC-153674
+Illustration with NetWorker product for this idea and can be enhanced to others as well.
+How does this tool work?
+CLI – Run the utility against the daemon.raw file as an argument
+C:\> cpe-parser <daemon.raw>
+Parser
+Make use of Nsr_render_log utility and redirect the output to daemon.log file
+Parse daemon.log file to read line-by-line and segregate along with msg_id.
+Depending upon the msg_id – Category can be determined and positioned.
+Category can be Error, Warning, Notification, or Alerts in different tabular format.
+Category
+Error: All the error messages are listed 
+Warning: All the warning messages are listed
+Similarly for Notification and Alerts
+Cause and Solution
+After determination of problem we list down the cause and solution in tabular column
+Solution / Tabular section is divided into 4 rows
+Row-1: Message identifier (Msg id)
+Row-2: Error Message are listed 
+Row-3: Any KB article present /* This needs searching mechanism from support or other sites */
+Row-4: Any escalation id available  /* Help to list the existing escalation if fixed – This need searching Esczilla */
+Fill in the tabular column with the possible recommended solution for support to fix the issues
+If you click on the url or message id would provide granular information.
+1. All the support organization would rely on one single tool to troubleshoot the product issues across the BU.
+It display information with various category to troubleshoot quickly.
+2. If support resource are shuffled across the organization; they can lev

@@ -1,0 +1,13 @@
+Template generator for support
+Proposing a unified application for support to enhance the time of sending (code reds, Escalations, Turnovers..) to be simpler and more efficient.
+My idea history came when sending warm TO (VNXe process) while in webex with customer, and need to fill template with information like ( site name, customer e-mail, issue description) that could be easily self extracted from SR.
+
+
+My solution would be a unified application for all the used templates in support, when entering the service request number alongside with necessary action (Escalation, code red, TO,..)
+It will fill the template with the necessary info from SR and prepare the e-mail with appropriate DL.
+
+Already created and using a chrome extension to use for VNXe TO process that extract the needed info and fill the template and prepare the e-mail with the correct DL, just leave us to edit any info not updated in service request.
+Idea was LSS yellow belt.
+
+I am aiming for a unified application for all products with all necessary templates.
+As per the experience in the TO tool created, it will save much time and allow the TSE time to be focused with the customer in webex, hence improving Customer overall satisfaction.

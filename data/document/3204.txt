@@ -1,0 +1,18 @@
+Predicting Behavioral Science for Quality Service and Employee Productivity
+
+In customer support services currently the engineer are gauged on the behaviour manually.
+By understanding the behavioral science of an employee helps his productivity and which in turn results in customer satisfaction. The idea is to classify an employee behavior based on his chat and video data analysis. This can be used mainly in CSS (customer support services) and other services that make use of chat to serve their customers. 
+How it works,
+We use a SVM (support vector machine) machine learning technique to classify the behavior of the person. This is a multi-classifier predictor, for example an employee can be rude, soft spoken, laconic etc..
+The classifier takes chat transcript as ‘x’, we need to convert the chat transcript to feature vector ‘x’   
+
+The chat transcript will be normalized in the preprocessing step. As shown in the PPT figures. Preprocessed chat transcript, vocabulary list, word indices, are explained in the PPT. Features from the chat transcript extraction is explained in the PPT.
+The step explained is taken by the words used. As in English if we go just by the words used our model will terribly fail, In order to successfully predict the behavior we will have to analyze other features also from the chat. The other features are partly covered in the PPT.
+The other features like opening, Paraphrasing and assurance, Grammar, Tone, Permission to transfer, Apology, empathy, Sympathy can also be gauged with combining other models.
+
+To take this model further a video analysis will give a higher prediction rate.
+
+
+https://inside.emc.com/docs/DOC-100224
+
+

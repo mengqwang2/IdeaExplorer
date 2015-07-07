@@ -1,0 +1,7 @@
+Use ViPR to move data to across arrays to save power
+
+I went thought some basic elearning for ViPR and thought on how ViPR can be used to save power.
+1. ViPR solution can be used to move unused LUNs or poorly used LUNs to arrays that support storage pools that have Green Drives enabled for power saving.
+2. If a LUN has no read or write hits for a long duration (days) it should be moved to Green Drives (NL-SAS) to save power.
+
+

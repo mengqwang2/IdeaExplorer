@@ -1,0 +1,20 @@
+Cloud based build and test environment
+
+Compared to the time taken to fix and build source code, developers spend more time in configuring test environment. This idea occurred while we were discussing on ways to improve productivity by solving the above mentioned problem.
+A cloud based application is built for building the source code of a product. 
+User can submit his jobs to this cloud based application.
+The cloud based application provisions the VMs and the resources required to build the source code and provides result to user.
+
+Similarly developers face a lot of issues to get the test machines, configure test environment and test their product. This activity is very time consuming and sometimes it takes weeks at a time to configure the correct test environment. This is a problem specially in products which span across multiple platforms.
+
+A cloud based testing application can be developed to resolve this issue.
+This application takes the following input from the user.
+ - Product that needs to be tested.
+ - Os on which the product needs to be tested.
+ - Storage and Networking requirements.
+
+This information is submitted as a job to the Cloud application. The Cloud application provisions the required resources, creates the VM, executes the test cases and provides result to user. 
+
+This not only improves the productivity of the Engineer but is also cost effective.
+
+

@@ -1,0 +1,8 @@
+UI based utility to migrate the snapshots
+This idea is to address the TCE challenge with respect to EMC NetWorker while using the ProtectPoint Solution. Currently in this product there are different ways of migrating the ProtectPoint savesets from AppAgent solution to the NetWorker using a CLI binary which expects a file as input in a specific way. Also to migrate a snapvx snapshots to DataDomain through ProtectPoint Solution there are lots of manual steps involved. The current way of migration is tedious for customer.
+
+We were responsible to test the migration CLI utility and also V3-DD migration . During this lots of manual steps involved and User need to know internals how snapshot works.
+
+The UI will be self explanatory so that user need not to go through the document to migrate their snapshots. Also snapshots from all 3 types will be discovered so that user can select the specific snapsets to migrate.
+
+By implementing this idea, user can do all 3 types of migration in a very easy manner without using any documentation and the migration will be done in a single 

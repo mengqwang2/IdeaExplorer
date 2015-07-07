@@ -1,0 +1,5 @@
+Switch from EVALS to an EHC Service Catalog Model
+Establish an alternative model for customer evaluations by presenting a comprehensive service catalog in EHC leveraging “Real World” configurations.
+Idea developed in response to the EOS2 challenge
+The idea provides an alternative delivery model for “Real World” customer evaluations versus the default of shipping HW to site. While there will always be a need for onsite evaluations I do believe that a percentage of these could be serviced leveraging EHC as a delivery platform.
+The idea if implemented and funded correctly could help reduce the amount of physical HW being shipped to customers. Success is seeing the platform being leveraged and measured in terms of cost avoidance and providing faster access to evaluation environme

@@ -1,0 +1,21 @@
+Cloud –Based VPS - "Virtual Patient Simulator" using Big Data to boost Medical Education and Healthcare sector. 
+
+
+The idea is from a real life experience. I was working with a pharmacy professor to help in automating clinical pharmacy exam composing process in a nice interesting way. after suggesting building such tool and starting working on its design. the professor faced the challenge of composing big number of realistic test cases. we were also limited to her personal clinical experience. then Big Data and cloud came into the picture. 
+
+The idea works as follows : 
+
+-	 build a tool that we can call "Virtual Patient Simulator". It displays for the medical student test cases for a patient providing the symptoms, history and all relevant information. the student can choose from possible questions to ask the patient or tests to get the result of. 
+-	the student should diagnose the disease and recommend medicines in a quiz manner. a big challenge here is to get the real data that we will test the student against. professors can waste much time inputting a good number and variety of test cases (model answers) to the tool. However the huge amount of data about patients' real scenarios is there already in hospitals but in unstructured manner. here comes the role of big data to structure and classify these data then shape it into a format that can be fed to that tool.
+
+Application and benefits :
+
+this way students in different locations can greatly benefit from the experience of many hospitals while being at home or at college. 
+the double edge of this idea is to simplify the  task of professors to compose exams that simulate the reality as much as possible.
+
+another edge of this solution is that it makes education more aligned to the reality and makes learning and exams more interesting for students.This cloud-based tool is Highly recommended for trainee doctors to boost their experience. Test cases feeding to the system can be offline or online using cloud services.
+
+Win-win for both healthcare and education. This solution can be provided by EMC for both ministry of health and Ministry of education.
+ 
+
+

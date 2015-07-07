@@ -1,0 +1,5 @@
+Spare Kits
+It involves improving and adding a new option to existing products
+i came up with it after having to do donkey work every other day because the SE wants to include a spares kit for a customer out of Radius so i came up with the idea why not automate it and that way we can save time and effore and be more efficient
+When the SE wants to configure a new or an upgrade system for a country that shall be out of radius of 24/7 support then the SE should be able to find a simple check box to include a spare kit so that it calculates what spares shall be needed and quote it with the system itself.
+i would call success once i see a check box in every product configuration page that indicates "Include Spares Kit" and then after clicking that the summary shows that a spares kit for this specific configuration has been added to the configuration

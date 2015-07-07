@@ -1,0 +1,15 @@
+STEM education Community Involvement app
+STEM is a curriculum based on the idea of educating students in four specific disciplines — science, technology, engineering and mathematics — in an interdisciplinary and applied approach. Rather than teach the four disciplines as separate and discrete subjects, STEM integrates them into a cohesive learning paradigm based on real-world applications.
+and as the challenge is STEM education Community Involvement app so we need to Create an app which connects employees with opportunities in nearby schools where teachers & advisors are looking for mentors or presenters on STEM-related topics, including VEX Robotics. Leverage data from our VEX Robotics partnership in addition to data offered by the schools and the employees. Leverage employee profiles on Inside EMC to gather details on skills, location, etc. Leverage this for ease of reporting on EMC Gives Back days for Community Involvement. 
+I have been working as one of the Egypt COE Sustainability leaders since September 2014,we have been working with STEM schools for 3 years in a row.we have been looking for for methods to involve more Employees engagement.which will be covered once this app is created. so we wont be only supporting and funding but will be putting more efforts to help out with these amazing schools and genius students.
+the app would be as follows:
+
+interface: each EMC employee would have a profile either filled when registering or the data would be pulled directly from EMC data base which includes the skills,years of experience,interests, courses,educational background,EMC office location,business trips...etc
+as well as all the STEM Schools all over the world locations,Curriculum headlines,Vacancies or Mentors needed,number of students,Projects (titles,brief introduction,number of students participating,if its a capstone project or not,mentors..etc)
+
+input:the app will be designed to match the STEM school needs with the employees profiles to find the best 5 matches (more than one in case one of the matches wont be interested or available at the time needed),so once the school updates the needed criteria we will get the matches and will be able to contact them through the same app.
+
+output:once the perfect matches are located and contacted ,through the app we could assign the resources to the schools and the school will be notified so that they could get to arrange for further details with the interested matching employee
+
+why would we ad the business trips for the employees,as there might be a best match located in a different country while there is a school that needs his/her as a mentor and at the same time he/her would be on a business trip near by,or if the business trip would make the match not available when needed so that the matching process would exclude him/her from the output.
+if this app gets to the implementation stage it would be a great success for EMC,as there will be a better chance for EMC's community involvement and Sustainability as well as EMC could adopt these students genius ideas as new solutions or products which will make huge revenues as well

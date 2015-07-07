@@ -1,0 +1,10 @@
+Time spent on chat to be updated automatically to the SR
+Currently we need to manually track the time spent on the customer's / internal chat, sometimes we are so busy that we only get time at the end of our shift to update the case notes and add the time spent on the chat session which increases inaccuracy and sequential over logging.
+
+
+I came up with the idea as our team was reminded again and again to reduce the sequential over logging by our managers in the weekly team meetings.
+It would be great if the time spent on the live chat session gets automatically updated in the SR notes the time spent could be calculated by calculating the time between the below 2 updates 
+(Agent 146943 entered the chat session / Chat session closed and added as a related object.)
+> making this process automated will improve the accuracy and will also save TSE's time.
+
+> Will reduce the sequential over logging. 

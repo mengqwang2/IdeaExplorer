@@ -1,0 +1,9 @@
+Microsoft Lync 2013 enhancements for improving productivity and deployment
+
+The idea came up suddenly exploring the drawbacks of Microsoft communicator, outlook,etc
+?More obvious and centralized places for the security settings
+?A better file transfer restriction approach
+?A way to implement a second-factor authentication or an integration of 3th party second-factor tools
+?Better possibilities to identify and restrict Lync client devices
+
+

@@ -1,0 +1,19 @@
+Employee's Advanced Search-Engine
+This idea relates to both challenges, as it's about creating a tool or a solution using open source software that would leverage structured and unstructured data for use in text analytics. this tool will help mainly TSEs as well as many employees be fast, productive, accurate and efficient in solving issues that they have no prior experience dealing with. 
+and will help managers gain customer insights from social media.
+well this was inspired by Adobes reader's advanced search engine, searching through different folders all PDF documents 
+- Creating a unified, objective search engine.
+- during the installation and afterwards through editing the user will add the links that he/she normally uses example: (https://innovationcentral.corp.emc.com/#menu_view_challenges) and give them a name as for example:(innovation road-map challenges or KB articles ) any thing that will refer to what the link is about.
+- using the tool: - in a searching bar the user writes what he/she is looking for,
+                         - choose from options to (match the exact words or find a video ...etc)
+                         - then checks the boxes of the links that will be used in the search.
+                         - after the search is completed a list of the results will appear.
+- this can also be used to enter the serial number of a part to search its status or availability.
+- also you can search with a product name the (social media ) and see a sample of posts about it and gather valuable  customer insights and recommendations.
+- this will make work much easier rather than having many tabs opened at the same time and getting confused with which is which and for what, you will only have your customized search engine.
+- improving customer experience by faster, more accurate responses.
+- increasing productivity.
+- save time and effort.
+- employee customize the tool to be more convenient and efficient.
+- use of text analytics and social media.
+- gaining customer recommendations.

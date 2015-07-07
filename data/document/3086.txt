@@ -1,0 +1,7 @@
+Data Domain tape out function and with networker embeded 
+Nowdays,there are still lots of customers would like to copy the data from data domain to physical library as a second copy.But it requires reading data from DD to their backup servers then writing to physical library.
+During my collabration with Avamar team,it is interesting to know that Avamar support tape out function,so why DD can't?
+And DD is also a linux based OS,I believe it can install networker storage node.
+My idea is to install addtional FC cards working as a initiator mode,so data domain can detect and manage the physical library attached to the same fabric. Our development then can write the code to support the tape out function directly from DD.Like from DD,to create a same barcode and size as physical tape.
+Also,it would be great if data domain can install networker storage package as a embeded application,so data domain also can act as a storage node,with that said customer can save their at least one addtional backup server cost.
+I think DD with 'direct tape out' and 'embeded networker storagde'function,it can not only improve customer satisfaction,but also it can make DD a more perfect product in this industry.It can be lisenced also,so in this way it can make money.

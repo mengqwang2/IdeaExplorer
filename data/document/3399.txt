@@ -1,0 +1,6 @@
+Vehicle electronic tag
+
+-
+Logging the arrival and departure timing of transportation vehicles at the facility through vehicle electronic tag, this would provide better tracking and monitoring to the transportation efficiency, through analyzing the data collected and the trends realized dynamic changes could be done to the transportation plan like changing the pickup timing or routes in certain days due to traffic jams, this should save employees time and raise their satisfaction level.
+The solution would be based on an electronic tag including the vehicle data and an electronic tag reader on the premises that should collect and record all the vehicle data and the time of arrival and departure from the premises.
+

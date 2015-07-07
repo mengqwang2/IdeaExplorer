@@ -1,0 +1,13 @@
+Free up floor space in the Incoming Material storage area in the Mid-Tier manufacturing cell.
+
+This idea is a mix of several suggestion from the team during the Mid-Tier Cell IGS brain storming session that took place in April. 
+The Mid-Tier cell employees suggested that it would be beneficial to double stack pallets or change the storage to more vertical in order to free some space on the floor but it wasn’t possible with the type of packaging used at the moment. 
+
+At the moment only Centera nodes are stored in the bulk packaging that is supplied and recycled back to the supplier (NEI) by the company called Unicom.
+The rest of the servers and switches are packed individually in non-reusable cardboard boxes. 
+De-trashing empty cardboard boxes take a lot of time and also some of the space. 
+In result the area looks untidy and crowded with the packaging.
+These pallets with individual cardboard boxes are delivered to EMC from our warehouse - IEC. 
+It would be a great benefit for EMC if our logistic provider - IEC can de-trash these non-reusable cardboard boxes and place the servers and the switches in CMR racks or other reusable equipment, suitable for vertical storage. 
+
+

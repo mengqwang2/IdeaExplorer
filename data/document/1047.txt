@@ -1,0 +1,14 @@
+A solution for better and easy management of the IaaS env
+This solution provide lower TCO for managing the IaaS, it also improves customer experience by simplifying performance/failure troubleshooting in an environment involves so many components/layers in the IaaS
+I continuous research on the infra monitoring/management solutions used in web 2.0 industry. for key players in this industry, they usually have large/complex infra env to manage, and they have a good solution that make the troubleshooting more easier, for example, Google has Dapper, and TaoBao has EagleEye. For a complex IaaS env such EMC EHC, we need similar solution to make the management more easier.
+For that reason, I propose a solution which leverages Mesos, Kafka, Storm, and Spark to provide Event/Performance Correlation analysis.
+1.In this solution, the Mesos act as the resource manager for the rest of the components (Kalfa, Storm, Hbase, Spark). 
+2.Kafka is responsible for gathering logs and performance stats from various IaaS components, and send the log files to Storm
+3.Storm process the logs files/performance stats sent from Kalfka in a realtime manner, and correlate the various events/performance issues happened in a given IO path, then store the output in Hbase built on VIPR for later presentation.
+4.Kafka also sends the log files to HDFS built on VIPR for archive purpose.
+5.Spark is responsible for running the ML jobs on the logs/performance stats and predicts potential failures/performance issues that will happen in the whole environment. It also provide performance/workload trends analysis for various IO paths and predict the performance in near future.
+Generally, this solution provides the follow benefits:
+1.For a given time, this solution is able to show the various events happened in a given IO path, which make troubleshooting easier.
+2.It will provide failure/performance issue correlation analysis, find out a given failure/issue is the preemption of other failures/issues, thus warns the administrators to take corresponding actions before the failures happen.
+3.By analysis the logs and performance stats, this solution can find out configurations that do not align with best practices, and provide commendation accordingly.
+

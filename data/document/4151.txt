@@ -1,0 +1,11 @@
+Value based management scorecard enabled by Mobileapp
+
+The idea came up while brainstorming
+The MyVoice data is always available to the HR and comparisons can easily be made (as they are doing now). This is a yearly data and it does not tell us where we stand at a given time. So the proposed approach is as below:
+Managers take some actions based on the “My Voice survey” results (ideal scenario?) – and there is no way that they could measure improvement until next survey results are published.
+Our idea is to have a mobile application which will act as a library and self-evaluation tool for the Managers to know where exactly they stand from values perspective at that point in time.
+The Library can contain self-help materials /videos (articles from HBR, forbes.com etc) on building your value system, self-development, awareness on implicit bias and diversity and inclusion. And the mobile application will also have an inbuilt survey on self-evaluation which can be taken by the Managers on the go anytime, anywhere. The Managers will get a predicted graphical representation of their score for upcoming year which will consider the “scores of My Voice data available for past years + the scores received by the Manager based on his/her self- evaluation surveys”.
+And every employee will have to take a simple survey (2-3 minute survey) while clicking the “Submit” button of a goal sheet, which will rank their Managers based on the values. This way the employee is mandated to give their feedback on their Managers and there is no need to follow up on participation as the goal sheet will get submitted only after the survey is completed. The result of the survey can be consolidated per Manager and made visible in the mobile application. This allows the Manager to compare his scores based on the self-evaluation and the employees ranking on him/her, giving him/her an opportunity for improvement. 
+The employee feedback can also act as a source for HR to evaluate promotion of Managers/retention of employees. 
+
+

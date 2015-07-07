@@ -1,0 +1,17 @@
+Integrating an application with Service Center website
+It idea is relevant to applications that is being used daily by support as well as customers
+No specific history
+When customer opens a ticket, he is being asked every time same questions by a different TSEs, for example, Could you please elaborate more about your environment? what is you version of Content Server, How many Content Servers are installed?
+
+One of the main questions is do you have customization, what is being customized, what modules do you integrate with? Any special configuration/architecture?  For example failover/load balancing..
+
+Many questions, that are repeated by each TSE to understand about customers environment to start troubleshooting. 
+
+The idea is to make a tool/plugin to integrate with the service center, where each TSE will update accordingly and check/review as well so as not to ask the customer again and again same questions about his environment, so the tool should have the full picture, or schematic which demonstrates current installed products at customer side, it will help the TSE to start the investigations immediately.
+
+If I were a customer, and I have all my environment/setup cached by the service center, I will be so happy with EMC.
+
+-Time to restore will be minimized
+-A nice graphical user interface about customer architecture will be helpful for TSE to start investigation
+-Eliminate one step from emails going forward and backward between customers asking them about their environment structure
+-Customer satisfaction

@@ -1,0 +1,11 @@
+Agile firmware validation decision making system
+
+In industry, firmware validation is using black-box methodology and basing on waterfall model, and the average industrial firmware validation cycle duration is about 2 man/week.
+This idea intend to apply agile model into firmware validation area, together with targeted testing for code changes base on defect data analysis, we can shorten test cycle during within 1 man/week.
+With this quick turned firmware test cycle, we can expedite the firmware development and validation cadence, and shift firmware quality goal left.
+In order to solve above two problems, the firmware validation decision making system should have below features:
+1. Add link between test case and defect system, such as OPT system. So that we know which test case revealed defect.
+2. Add link between defect and firmware code management system, such as Git or SVN. So that we know what code change fixed the defect.
+3. With above two link setup, then we know which test case should be executed for a certain code change. Once a new firmware is released for validation, we can get the code change, and find related test case.
+4. Tag test case with firmware feature which categorize the test case, and generate the most vulnerable firmware feature list base on the link setup in step 1. So that we can optimize test plan base on pareto law, the test plan only contain related test cases for most vulnerable features.
+

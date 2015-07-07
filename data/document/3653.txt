@@ -1,0 +1,5 @@
+CT$ - Metering in the Cloud
+
+CTS has always been a server based product charged for the most part per CPU and support.  That type of billing needs to be augmented in a cloud environment.  Charging at a transformation level is an simple way to do this.
+CTS uses plugins to perform the individual document transformations.  Hooks can be added to the plugins to record the transformation detail required for billing purposes for each tenant based on the subscription type – free, regular or premium.  This information can then be captured in a database or other system to keep track of the transformations performed.  This information can be made available externally for customers to review and adjust their transformation accordingly if they are approaching their limits
+

@@ -1,0 +1,39 @@
+License reusability  for  maximum utilization and cost savings across EMC
+This idea has  significant cost saving potential by integrating licensing usage of EMC procured software that includes concurrent local ,cloud licenses and also standalone licenses
+This is based upon my personal experience where  we purchased one license of worth 10K dollars, without checking the availability of licenses within in EMC .At that point of time, we do not have a system/channel to know the unused/available  licenses within EMC for the software which we procured
+
+Several  teams across the BUs use software's like HP Quality Center, QTP,Load runner for their regular testing activities.All these licenses are floating type licenses which can be shared
+Not all the licenses are with 100% utilized due to obvious reasons.
+
+Other BUs also use same software and would do procurement for these software's separately. Due to budget constraints, they might get approval for limited number of licenses though they  requirement is more number of licenses. These teams live with the limitations which would effect the productivity/results/project delivery
+
+Highly expensive tools:
+
+Tools like HP  Load runner is used for performance testing and will not be used all the days  . Same tool can be leveraged to do performance testing of other projects/applications across the EMC
+
+SOLUTION IN a NUTSHELL
+------------------------------
+At the heart of the solution, EMC internal procurement system would query  enterprise SAP  SRM system to  get the existing inventory  for the  software product/licenses being procured  and would trigger a email notification to the procurer (in this case procurer is the  team/person who originally place this request)
+  This would  help the teams/BUs collaborate  to  find actual  product/license usage and if possible
+REUSE .
+
+Detailed implementation:
+  1.Implement simple web based dashboard  to  enter details around  the software required
+
+  2.Procurement teams gets an email for purchasing the  product/additional licenses. Here we  introduce      STEP 1 as extra process  to enters details  about the product been purchased
+
+  3.System sends an email notification to the procurer/requester about the availability of software/licenses else where in other BUs
+   4.Procurer can negotiate with owner of the licenses (within EMC)before placing the order  with external vendor
+   5.If  there is no availability of licenses,still procurer can  purchase additional licenses and append to the existing license base where the cost of "additional licenses" is less when compared with "procurement of brand new license"
+Achieving the 100%  license utilization of products procured by EMC
+              -By reusing the un used licenses
+
+Cost saving by avoiding  procurement of software/addional licenses
+          -Cost saving as we reusing existing license base instead of purchasing anew license
+
+Agility by cutting down the procurement time
+   -Software will be available to the EMC teams in less time
+
+Bulk licensing benefits
+   -Great discounts  as we  buy/append  the licenses in bulk
+   -Better customer support and greater priority  for the  issues/concerns raised by EMC

@@ -1,0 +1,5 @@
+Mobile App for end to end SR Management for Customers
+
+When everything else can be in mobile, then why not something which is closure to our customers. When the customer is in need of us, he should be able reach us in an Agile way. VICWEB, CHAT, Dial Home & Phone
+With this Mobile App, a customer should be able to Open & update an SR with EMC customer Service. Post Closure this app can also be tuned for our customers to fill the Survey. So it could perhaps help us in increasing the survey return.  
+

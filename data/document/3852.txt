@@ -1,0 +1,5 @@
+Bupa App
+
+Innovation Session
+Mobile portal application that an EMC Employee could send bupa claims to bupa through copying the stuff with the mobile camera send it directly with the mobile application through bupa's web based system so it does not have to be an app by bupa. EMC EMployee can just register with their bupa credentials and the app fetches and sends all the details.
+

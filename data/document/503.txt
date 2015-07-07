@@ -1,0 +1,5 @@
+User friendly FreeForm  Designer Interface
+we need to refresh Captiva FreeForm Designer to improve the perception of the product
+Many PoC's provided for customers and questions from customers during meetings.
+today's application interfaces are intuitive like photoshop , indesign and so on. most of operations using mouse. so it's good idea to improve interface of freeform designer.
+improve customer satisfaction, optimize a process

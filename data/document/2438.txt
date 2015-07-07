@@ -1,0 +1,40 @@
+3rd platform Central Hub App for Cultural Digitization @EMC
+The Community Challenge is about coming up with a solution for a Mobile App for Cultural Digitization. This idea primarily focusses on,
+
+-	Functional View of the App
+-	Proposed Design for the solution
+-	Mock ups 
+
+We are a 3rd platform Application Development group in IT, having experiences working on end-to-end Application development primarily using Open Source technologies & developing microservices using Pivotal Cloud Foundry.
+Proposal is to build the App using Open Source technologies (mentioned below). 
+
+Functionally the App will be able to perform the below activities,
+
+-	All EMC employees will be authenticated into the App using SSO Authentication
+-	When the User logins in, he/she will be able to view a tile of pictures uploaded into the App by all other Users
+-	Each User will have a profile page to view all the content, pictures posted & uploaded by him/her
+-	Users will be provided with an option to choose the language they would prefer in their profile page
+-	The User will be provided with an option to Upload pictures from his/her mobile device ( or a laptop ). User will be provided with an option to provide short description before Upload.
+-	The User will be provided with an option to Delete his/her pictures 
+-	All Users will be able to Like the posted pictures 
+-	The number of Likes against a post will be displayed ( as in facebook )
+-	User will be able to search pictures using keywords
+-	Social enablement for the App, so users will be provided with an option to share the pictures on Facebook & Twitter ( also any intranet site like Inside EMC, based on the access given to us )
+
+Technology Stack 
+
+The solution can be implemented using 3rd platform micro services architecture using pivotal cloud foundry. The proposed technology stack involves developing a 3rd platform compatible, responsive web application with below components.
+
+-	Responsive bootstrap UI for cross device compatibility ( can be used in both laptop, iOS, Android & other mobile devices as well) & Jquery for front end development ( along with HTML, CSS, Ajax )
+-	Use REST API backend development using Spring MVC 
+-	My SQL for database
+-              Application can be wrapped using Open Source Mobile SDKs for a Native Look & Feel
+-              Developed microsservices can be hosted on the IT Pivotal Cloud Foundry for easier deployments and maintenance of the App
+-              The mobile App can be hosted on the EMC App Store
+
+The mock ups are located at Inside EMC for quick view of look & feel of the App - 
+
+https://inside.emc.com/docs/DOC-155870
+This solution provides cross device compatibility. Can be used both in laptop & all mobile devices (including iOS, Android, Windows etc.)
+
+Scalable architecture using 3rd platform solutions.

@@ -1,0 +1,21 @@
+Big Data Store
+A web-based worldwide marketplace for Big Data tools, algorithms, architectures, white papers and best practices – call it the Big Data Store. A new EMC business and service.
+Submitted similar idea for 2012 Innovation program. No formal work completed at this time.
+This web presence is called Big Data Store. It is EMC branded throughout the store. 
+
+A worldwide central marketplace for:
+- Analytical tools and software packages for Big Data (these can be sold in the store and EMC can realize sales commission)
+- Search algorithms and techniques posted
+- Architecture designs, white papers and best practices can be posted. Suggest contracting with rock star Data Scientists to post monthly articles and white papers
+
+Users can sign up for monthly newsletters, blog post articles, and other information.
+
+All tools, algorithms, etc. can be reviewed by users and rated. With postings to social accounts like Facebook, Twitter, Google+, etc.
+
+Other app features:
+- Job board for Data Scientist to bid on job opportunities
+- Job board for Data Scientist to post qualifications for consulting work, or link to LinkedIn for bio
+- Big Data training and certification marketplace
+
+As an alternative, much like VMware is set up to be independent and a standard across the industry, this Big Data Store may be better set up not as an EMC branded store but as a independent coalition of EMC Partners in the Big Data marketplace.
+EMC (and Partners if set up this way) can realize revenue from tool sales and advertising, and added value by branding Big Data and EMC/Partners together. This is a new market opportunity for EMC.

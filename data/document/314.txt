@@ -1,0 +1,41 @@
+An IoT Platform for Data Center Management
+3rd platform SDS Predictive Maintenance - ETD (EMC Code): Use ViPR Controller to provide integrated analytical platform for modern data-center.
+Environmental Stewardship Challenge: Our solution addresses energy savings in a large scale infrastructure using the unique solution using the concept of IoT integrated with ViPR.
+APJ COE "Solutions Platform" Challenge: Our Idea uses Business Data Lake (BDL) to improve the cost efficiency & optimize data center resource utilization. It is made out of modern data center architecture using IoT platform.
+IoT platform is the future and the platform bring more value and insights in the way the products and services are delivered by manufacturers, service providers and used by user. Out thoughts to create a IoT platform for the purpose of gaining insight in to the function of a data center, so that EMC could deliver better.
+· Our solution uses IoT model to monitor and manage the data-center by introducing Soft-sensors.
+· Soft-sensors can be implemented as micro services on Hosts, Storage Arrays and Networking Switches to collect the  information related to the software components .
+· Soft-sensors can collect the following information
+	· Generic OS level sensors like CPU utilization, Memory consumption, Network monitors, IO statistics information, Disk utilization, etc
+	· Product Specific sensors - information emitted by the respective products about the product specific information
+		? Module Specific sensors - Each product can further emits data about individual modules
+· Also, we can make use the  hard-sensors embedded in the hardware components and gathers health information of respective hardware.
+· Hard-sensors can collect the following information from the Data Center
+	· Temperature
+	· Fan speed
+	· Power resources
+	· Disk characteristics like RPM
+	· Cache characteristics -
+	· Network 
+· This  information collected by these sensors can be published to any listening services which have subscribed for this data. The Data can be in any format either as a Key/value pair , in JSON , XML, Software Logs, Alarms and Events  etc
+· Any Software products can include these software sensors running as  micro-services to push information at any level of module or sub-module or various smaller pieces of their product.
+For eg.,
+	· A Host based multipath software like PowerPath can choose to push information about its various modules like, Filter driver information, Multipath extension (Mpx), and information about various daemon used by Mpx.
+	· A storage virtualization product like VPLEX could push information about its various modules, like port layer, com layer, front-end scsi layer, cache layer, array management layer, back-end scsi layer, various management services, etc
+	· A modern storage like XtremeIO, could emit information about XIO, Cache, data, Com, Routing, Clustering, Metadata services, disk health, etc
+	· Emit various utilization patterns and attributes of containers and Virtual Machines.  
+· A  scalable storage system created of commodity hardware can be used for  storing the sensor data and as well analytics to be run on the data. It would ideal if storage system supports computation as well. Therefore this would help in scaling when required when scale of sensor data collected increases. Ideal storage solution could be ScaleIO which provides both compute and distributed storage. 
+· On ScaleIO storage Hadoop distributed file system(HDFS) can be deployed to store the sensor data which could be used by Analytical solutions natively. 
+· The Analytical solution would internally use Message Queues like RabbitMQ  to collect huge Sensor data being published. 
+· Analytical Solution EMC Pivotal HD can be used to perform data analytics.
+· The analytical module of the data-center IoT platform, able to precisely diagnose and pin-point the issue to a specific product, its moudle/sub-module level, thus eliminating tremendous amount of engineering cycle in term of Root Cause Analysis. Thus it enables predictive maintenance to a high degree of precision up to lowest possible module of a product in a data-center.
+· Further, this data could form input to Business Data Lake (BDL), that EMC so that EMC could leverage the data to optimize the product better and deliver superior customer experience.
+· When this integrated to ViPR as the ViPR rule engine, this can be provide orchestration opportunities for proactive and automatic maintenance. Thus it helps to optimize the resource utilization in the data-center and reduce the power consumption and enables Green Data Center.
+
+Please refer the InsideEmc link for more details: https://inside.emc.com/ideas/3484
+· The use of software sensors helps bring the entire datacenter monitoring and management under any IoT platform. Thus provide better control over data center resource utilization and proactive/predictive maintenance
+· Identifying and analyzing the issues of software and hardware are automated through IoT platform. Therefore saving time and money required for support.
+· The data collected from various software components can be provided to the developers who can use the data to fine tune and improve the product, at the module/sub-module level. Developers rarely get the opportunity to understand the actual data centers deployment , these logs can help improving the features which get used more often.
+· Power is one of most expensive  expense in the Data Center. Automated systems to power off  equipment can be developed using the input from this solution to reduce cooling when not required. Thus reducing the Power Consumption and indirectly decreasing the Green House gases emitted to produce Power. It is estimated that Automated cooling can help in saving 37 billion dollars over the period of next 5 years. 
+· The data provided to orchestration engine in optimally using the hardware whether hosts or arrays by understanding various patterns related to utilization.  
+

@@ -1,0 +1,10 @@
+Wearable device to prevent Child Abuse
+
+Due to recent incidents of child abuse in Bangalore city schools, I was thinking of how we can prevent the children from any abuse using technology.
+Develop a wearable device in the form of a wrist watch or an electronic student identity cards, which would have a panic button and a GPS tracking system. This device will be linked with School Child monitoring system and a web based application or Mobile application for parents.
+
+As a safety and preventive measure, each child is given with a wrist watch type wearable device or their identity card is capable of this. In case a child sensed or forced into some abuse, he/she can press the panic button to raise alarm. Child Monitoring system will show the alerts with the identity of child and location of Child. School authority can immediately take the action by reaching the location and save the child from any abuse.
+
+This will also notify the parent as well and they can also take the appropriate action. This wearable device not just used in school but can be used outside the school for example if child is in play area or outside home, parents gets the alert and location and save the child from any abuse.
+
+

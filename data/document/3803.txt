@@ -1,0 +1,9 @@
+Highlight\Differentiate Customer updates on a SR(Service Request)  
+
+It's often difficult to read the long SR notes with repeated information and would be good if we have some way to know if a customer has put an update on a SR, automated emails does not work as their are too many to filter and distinguish. 
+
+Using a different color or making it bold for customer updates would help us in a lot of ways and also easy for people to review SR for quality.
+Highlight the customer updates either with a different colour or making the updates in bold.
+
+Currently all updates on a Service Request has common font, colour and format, making it difficult to distinguish.
+

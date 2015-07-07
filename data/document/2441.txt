@@ -1,0 +1,19 @@
+TCE - Customer Centric Testing
+This idea is to address the needs of TCE. This is to say that, the QE testing should be revised and more to be Customer Centric rather than the "Pre-Defined Testing Scopes". 
+Work Experience
+Solution: There has to be a team that identifies the reason for the need of this new feature to the existing product. There would have been talks happened before between the Marketing Team and the Customers to arrive at the needs of the feature. So, there has to be a concrete steps behind adding this new feature.
+
+The Marketing team discusses the need for the new feature to the Product Owner / LEPO's.
+The LEPO's discuss this with the team that handles this feature. 
+The customer should interact with the development team here to better understand their needs. Like how do they use the product. What is their original requirement.
+Request the customers to share their use cases [ar higher levels]. 
+There has to be a detailed information behind implementing the use case. This needs to be captured as an Abstract or EA and circulated within the team that does this work.
+Hence, based on that the development team can work on it to assure the feature.
+Even if some one leaves the dev team, the EA or the abstract can be used to understand the needs in a crystal clean manner. 
+
+Today, there is no such incident happening. This will resolve so much of "unknowns" and help every one to have a better TCE.
+
+
+
+
+This proposal will benefit the company by improving the TCE.

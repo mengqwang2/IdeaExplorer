@@ -1,0 +1,26 @@
+Egypt COE Smart City and IoT Challenge
+As we know water is most importance natural element in earth. Every city needs water. So if we can save, measure, avoid wastage and make best use of water by using technology in the city then it can be called as smart city .this idea/implantation can start from a house/society up to industries and city.
+Idea is to save, to measure and to monitor the water flow throughout the city by using technologies. This is going to need storage, servers, internet, sensors to sense water in pipes etc.
+Storage: this idea will need a centralized/distributed storage to store raw data gathered from various points in city about water like which place/area is having water leakage problem and wastage , which areas is having recurrence of water leakage, about measurement of water consumption in specific area . And using this data we can forecast the data about water for future and new development/construction.
+Networking: This idea will need networking in terms of network on pipelines .these pipelines will have sensors which can sense pressure in case of leakage and send data to centralized monitoring system so that immediate remediation can be taken to avoid wastage. Apart from it sensors can measure the water supply for specific area of industry or construction and send/save data to storage for records.
+Data analytics: DA can use the data stored in servers and can come up with conclusions. What and where can be best use of water. This can calculate the consumption of water and forecast the future us water for specific area or and specific occasion or daily basis.
+This idea came to my mind 4-5 years back when I was in college; I used to go by college bus. one day I saw pile line broken and a lot of water was spilling on the road but no was caring and this was as respective authority was not aware of this and nobody cared to inform them to fix this. Then it came mind as being Computer science how we can utilize technology to save natural resource from wastage. And then father tried to enhance it and I prepared a formal road-map for this. 
+I gave this idea to my first company but nothing happened (may be it couldn’t reach to concerned person).and I couldn’t do anything as this can be done by one man. It needs a proper plan and experts in respective domains to plan and proceed. 
+
+Idea is to Development of a tool, like a monitoring tool in which, there will be an interface in which (let's take example of a society) a graphical map or topology of pipe lines spread in the Society. This tool would be programmed in such a way that it will indicate directly that particular point of leakage in the GUI. Also we can set a threshold value for time period i.e. if any water flow crosses that time limit then an alert would come on the interface, So that, instant action could be taken to fix it.
+All such details like , amount of water travelling for that point or for that specific entity (house/industry/city), any damage in pipeline causing the water wastage and billing etc. can be stored in servers and can sent to respective authorities for further action. 
+It will need networking to transmits data from devices/sensors to servers, storage to store this data, Backup for archiving the data to be used in future for any kind off analysis and DA to analyze the data related water to make decisions for future. 
+Along with this it may require Electronics ,Mechanical Engineering,technology of Embedded Systems. 
+For leakage point across the pipes: There would be a special material or electronic chips which would be coated over the pipes which will be recognized by the system (like sensors in an elevator) and that will be programmed and will generate alerts for leakage.
+For water taps: There can be a pressure detector which would be attached to the taps and this pressure detector would be programmed in such a way that if tap has been left open for x minutes and x > threshold value then it will give an alert.
+In addition we can also add a functionality of measurement of water consumption.
+We can add many more features that is up to our thoughts going further.
+First, we should develop it for small scale, after successful results we can move to larger scales.
+
+1.	This product or mechanism can sold to government of all countries so that they can do proper water management in their country and city. And so will make money for the company.
+2.	it will create more jobs for people if it will need many hands to implement it in large scale
+3.	for society , this product will do good management of water so water will be available for long future. 
+
+I can understand this is going to need so much cost , so we can implement it at small scale like a society or town. If all goes well then it can be enhanced for city or country. 
+Along with that we can include several other features in this if we think. 
+

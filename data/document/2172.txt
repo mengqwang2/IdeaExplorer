@@ -1,0 +1,18 @@
+Collect, Colloborate, Compile, Collate and Analyze
+Support of multiple products of CTD in a collaborative way with customer, EMC support, engineering, product management etc.
+Submitted this idea in 2013 as well. This idea has come up while seeing EMC and EMC executives, EMC people are reaching Customers, Universities via Facebook, Twitter, Linkedin but do not see if customer are sharing their information with EMC or not. Also, there are several EMC product mailing list and do not know if everyone in EMC have access to them and they connect with customer effectively.
+EMC creates a Customer Networking platform, and provide access to it's customers by invitation or advertisement. Customers creates their profile on the platform same as they create with social networking platforms. Primarily this platform will be open for existing customers or potential customers for the privacy of the data. Customers can create their groups specific to the products they are using, customers can also create groups with other EMC customers, support engineers, engineering, sales engineering etc. Customers can share their experience on EMC products or can also share the issue they are having or suggestion on the products. Customers will be allowed to provide comments, preferences, likes or dislikes option about the product, information, comments etc. Platform will also allow customer to share pictures or videos of their product usage. Customer will be able to colloborate with other customers to discuss about EMC products, issues they are having or socializing the improvement ideas they have for EMC products.
+
+EMC personal share education videos, demos, marketing material on this platform to bring awareness and educate customers through a single platform.
+
+EMC personals can interact with customers on the Customer Networking platform and reach out the customer easily and quickly and can solve their problems quickly. EMC personal can share the feedback between customers which will help customers to use EMC products more effectively.
+
+All this data and information can be stored on EMC Greenplum platform and can further be used to analyze customer usage of EMC products, testimonials, issues and suggestions. All this data can be further utilized to report the issues to specific product engineering team, suggestions or product enhancement requests to Product Management, Product Marketing; potential customer data can be fed to product marketing, pre-sales engineering to reach out the customers and speak about their specific requirements. This data can be used to advertise EMC products to potential customers specific to their needs based on the data they shared on platform. 
+
+How to build this platform?
+
+There are several tools, programming languages related to web technology can be used along with Greenplum database as the backend. Initial cost for the Customer Networking Platform will be high but cost will start coming down with the usage of customer and EMC personals as collection, resolution and analysis will be done by click of a button which will eventually reducd customer calls, customer visits, social networking expenses etc.
+
+For more details with architecture, follow PPT on: http://one.emc.com/clearspace/docs/DOC-78723
+Winning customer confidence in EMC products, less customer issues, customer knows each other, their use cases and connect to EMC faster then before.
+

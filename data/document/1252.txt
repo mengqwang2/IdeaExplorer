@@ -1,0 +1,25 @@
+Open Compute Platform(OCP) based Hardware for EMC CI and also for EMC arrays
+Eases managing and orchestrating hardware elements in a CI environment with use of OCP for our EMC CI products. Solution can also can be explored further to build existing EMC arrays using OCP hardware to bring down cost and pass on power savings benefits to customers using the efficient hardware design of OCP. OCP hardware can be further customized to our requirements and can be built to our needs by collaborating with OCP solution providers.
+Was reading about OCP and thought why can't we customize it for EMC products and also build a CI using OCP for use with EMC offerings for any cloud related. 
+OCP has various specs and designs shared which can be explored for design of our new CI and can also be considered for building our existing EMC arrays such as VMAX,VNX using these open source hardware components which are: Server Design, Networking,Storage, Hardware Management etc.,  
+
+Server Design:
+Server Design supports mother boards based on ARM,AMD and Intel processors which provides opportunity for us to explore the cheaper, low power consuming processor based models which can be alternates for servers in our CI
+Example: A lower end server can be based out of cheaper processor compared to Intel
+They also have system on chip micro-server which can be installed on slots on a baseboard
+
+Networking:
+Open Compute Networking Project is creating a set of technologies that are disaggregated and fully open, allowing for rapid innovation in the network space. They aim to facilitate the development of network hardware and software – together with trusted project validation and testing – in a truly open and collaborative community environment.
+
+Storage:
+Currently OCP incorporates FusionIO, Hyve, OpenNVM and OpenVault storage. This can be replaced with EMC arrays for our converged infrastructure
+
+Hardware Management:
+Scale computing requires a small and stable set of tools to remotely manage machines. The hardware management specification incorporates a set of existing tools and best practices that leverages existing tools for remote machine management.
+
+The completed CI product will incorporate server, networking and hardware management components from OCP which will need to seamlessly integrate to existing EMC arrays for storage which could be VMAX, VNX, XtremeIO etc.,
+
+We can also collaborate with existing ocp solution providers to prototype our products and can also customize OCP hardware to our requirements to test the POC of a CI based on OCP.
+
+We could also use VMware EVO:RAIL with this new CI product to further create a hyper CI to create a simple, easy to deploy, all-in-one solution for our customers.
+Rapid adoption by customers due to significant cost benefits since the hardware cost will be cheaper due to the support of various processors such as AMD and ARM.Also, due to efficient design of the hardware, there is significant power savings due to less power consumption by the OCP components which will increase savings for customers. Facebook has reportedly consumed 38 percent less energy to do the same work as their existing facilities, while costing 24 percent less. So, it is worth an attempt for us.

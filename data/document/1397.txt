@@ -1,0 +1,14 @@
+EMC DataCenter Resource Management System (EDRMS)
+Modern Data Centers are very complex world with varieties of hardware, software being deployed and managed. Add to that situations like lack of information/inventory on resources availability, under utilization, who is using what, allocation/reclamation of resource. These leads to inefficient data centers, delayed project completion time, lost market opportunity.
+Each team faces challenges mentioned above and ours is no different. Idea germinated when facing issues in finding and getting resources for team/project, though there were some resources lying idle with other teams. Lack on information on who owns the resource, how long it’s in use lead to this idea.
+EMC DataCenter Resource Management System (EDRMS), Cloud based Self-serving web portal to deploy, manage, report resources in multiple datacenters across geographies in EMC. EDRMS manages all types of resources in a data center ranging from Physical servers, Virtual servers, Storage hardwares, Network devices. 
+
+Power point https://inside.emc.com/docs/DOC-155534
+
+Maintains inventories of all hardware, softwares and their versions, licenses,  Users of the system like admin, project groups, end users. System provides agility in allocation/de-allocation of resources by automating much of the process through micro service based framework. This micro service based framework enables extending support for any new type of resources fast and simple bringing agility.
+
+Provides various reports like resource utilization by user, by project group, by resource type, etc. Monitoring and reporting failures, end-of-life hardware, Operating system, software versions deployed, license expiry etc.
+
+
+Having EDRMS will enable us to have real time visibility into various resources in a data center. What resources are available?, Who is using what, since when and how long they will? What resources are lying idle and can be utilized by project groups, Which Hardware are approaching EOL, license expiry? New software, firmware upgrades. Automation in deployment and Self-serving  features will ensure timely availability of resources to project teams which is critical for Go-to-Market. Productivity will increase as lots of energy and time can be saved and channeled in more productive work than to manage and access desired resources. Such a system will help towards efficient utilization of resources getting best value for each $ invested in data center.  
+

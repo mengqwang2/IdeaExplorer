@@ -1,0 +1,5 @@
+Monitor as a service
+Customer service improvement
+ The uses doesn't know the system status accurately even if the minor issue has happened. It lacks of an effective method to fix issues before it gets worse.
+Setup a system to monitor all systems in the data center for 7*24.  The system will analyze the collected info intelligently and send the warning messages to uses via different method such email, message etc. 
+Reduce the possibility of system downtime.

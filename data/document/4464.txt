@@ -1,0 +1,37 @@
+Customer installable storage software system allow customer use their own hardware
+
+After Windows Storage Server 2012 released with storage space rich features, 
+EMC build a storage software to provide generic storage features, like:
+A.Storage pool
+B.RAID Group
+C.Snapshots
+D.Thin provisioning
+....
+And provides optional features for connecting to EMC upper level storage system, like:
+I.Replication
+II.Deduplication
+III.Recoverpoint spiliter
+....
+This storage software can base on current KittyHawk(VNXe3200) code, make it customer installable after input a few configuration parameters:
+a.Managment IP
+b.Which FC/NIC for which purpose, etc..
+And software itself can
+c.Install hardware drives to pre-configured Linux image
+d.Enable EMC storage software
+c.Provide block or file service as to different edition.
+
+Then EMC cans ships software to customer with a price <$15k and limited remote support. Then customer can install the software by itself or other EMC vendors.
+1. EMC ships storage software only.
+2. Customer need buy their own server to run storage software with EMC's recommendation, like:
+2.1 How many 10GbE, or 8Gb FC?
+2.1 How much CPU/Memory
+3. Customer need buy JBOD attaching to the server
+4. Customer load EMC software from CD/DVD and input a few configuration questions to enable EMC storage software.
+5. After EMC storage software configured, customer can start using it as VNXe
+
+With above solution, the new EMC product can
+1. Cost less than $15k to customer, and EMC can still make profit from it
+2. EMC don't need provide services to those server/HDD which is normally expensive. 
+3. Customer can buy HW from vendors they like, they can even buy HDDs for home users to reduce the cost.
+4. Most of current servers support hot-plug, user can change disk by theirself, storage software only need tell them which hard drive to replace by SN.(Users can tag SN in front of each HDD for easily locate)
+

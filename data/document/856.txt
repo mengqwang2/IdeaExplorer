@@ -1,0 +1,6 @@
+Thinking Engine for Smart Cars
+Current Challenge is looking for a new Product Range where EMC can enter and what better can be thought of in the era of Driverless Cars other than the products related to Driverless Cars.
+With Google Car already making 400,000 miles and Apple Car in the making, technology companies are entering the Automobile Sector. Since this is still at incubation stage, EMC, which started from various product range can also think of entering the race indirectly.
+EMC and venture companies like Pivotal, RSA can together develop a "smart thinking engine" for Driverless Cars or even an operating system without the hardware. This can be then sold to various global car manufacturing companies. Collobarating with successful companies like Toyota / Honda would fetch billions of dollars especially in the US where economy is "Auto" industry oriented. It would be even more beautiful if we can develop a prototype which can just plug in to an existing running car.
+Success in the first step is in developing the prototype on standard cars. Second would be to get car manufacturers to go for EMC's thinking engine for their cars.
+Third step would be to be in a similar position as that of Google or Apple down the line when the Driverless Cars becomes normal.

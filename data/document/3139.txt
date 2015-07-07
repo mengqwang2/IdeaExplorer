@@ -1,0 +1,12 @@
+Lync Integration for the IT Service Desk 
+
+Benefits : 
+Increased productivity for employees and service suppliers
+Improved service and increased support capacity
+Direct reduction in corporate support and service costs
+Improved communication and internal customer service
+Improved overall user and technician experience
+
+Develop an integrated IT support solution using Microsoft Lync, improving the overall support experience. Lync is available on all network-connected devices and is "always on". Leveraging Lync's native capabilities, built an easy-to-navigate User Interface (UI) to replace the interactive voice response (IVR). Users can read helpful self-service articles, access resources, and—if necessary—contact the IT Service Desk, all within the solution UI. As part of this solution, an Agent Portal provides Support Technicians with faster access to support tools and visibility to relevant user information for every call or service request.
+
+

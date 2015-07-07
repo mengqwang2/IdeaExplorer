@@ -1,0 +1,7 @@
+IBG_Installation mobile Application
+The challenge is searching for ideas to shorten and simplify the End to End process. This idea should eliminate the install process at the IBG team as it will be handeled by the engineer through mobile application. It is easier to be handled by the engineer just after the machine installation at the customer site. The time consuming by the engineer to open the case will be almost the same time taken to completed the installation through this aplication.
+N/A
+A mobile application to be installed on the engineer mobile phone allowing him to scan the serial of the installed part, update the machine status to Install after completeing Installation at the customer site.
+The status of the machine will update the IB through system interface between the application and IB.
+This application should have the ability to connect with the parties database to be able to detect the location of the machine in order to make sure that the party in IB matches the real installation location.
+If this idea is implemented, installation and admin move requests will be decreased or eliminated which will save alot of man-hour in the IBG Team.

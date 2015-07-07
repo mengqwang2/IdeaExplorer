@@ -1,0 +1,20 @@
+Intelligent Analytic for CSAT feedback
+The ask is to gather and analyze the feedback and to identify strategic business  priorities to improve the customer and partner experience. Normally business looks Into feedback's on services/ products based on the 4 major parameters and  they are Professionalism (services), time (both services and products), Technical ability(both services and products) and Communication (both services and products). 
+
+This tool is designed to review the text feedback's provided by users and categorize them as positive, negative and neutral feedback's and in turn further breaks the negative feedback under four major categories i.e. communication, professionalism, Technical ability and time. Further this will be even divided based on Support group, by users location, configuration item etc. which will help us to understand customer sentiments in a better fashion.  This can be easily utilized for the feedback's what we are obtaining from social media as well since we get good user insights on improving either service or product. This tool is customizable and can be used globally across EMC for text analytics.
+EMC IT Service Desk is operated by an MSP and they handle approximately a million contacts per year through phone, chat, email and IT Online. For each ticket opened by IT Service desk, a survey gets triggered to user during the ticket closure asking for their feedback for improvement in a 1 to 7 point scale (1 being lowest and 7 being highest) along with an option for text feedback. Users need to rate their experience through the radio buttons (1-7)as well as the open text box.
+
+So we developed this tool which will go through the text feedbacks from users, categorize them as positive, negative and neutral feedbacks and in turn further breaks the negative feedback under four major categories i.e. communication, professionalism, Technical ability and time. Further this will be even divided based on Support group, by users location, configuration item (product), service desk location (4 locations across globe for language based support) through which we can clearly understand the user sentiments more effectively and make corrective and preventive actions. Ankita Rathi from the ITLP team worked with me to develop this tool and her contribution is extraordinary.
+
+There is no EMC inbuilt text analytic tool available to analyze the survey text Feedback's for IT Service desk. This is done manually which consumes ~>100 Hours /month which reduces the productivity and prone to errors due to manual intervention. We used ~ 5000 keywords in programming whether the feedback is positive, negative or neutral and used ~5000 keywords to further breakdown the positive, negative and neutral feedbacks. 
+This tool which will go through the text feedback's from users, categorize them as positive, negative and neutral feedback's and in turn further breaks the negative feedback under four major categories i.e. communication, professionalism, Technical ability and time. Further this will be even divided based on Support group, Support group location, by users location, configuration item (product), service desk location etc. This will help us to understand user sentiments based on products, knowledge (support) and geography through which we can perform effective decision making. 
+
+We used "R" programming and used Nexical analysis algorithm for the logic and Shiny for the visualization. This tool is customizable and can be used globally across EMC for text analytics.
+Precise customer feedback regarding services / products.
+Understanding customer sentiments
+Effective decision making through sentiment analysis for corrective and preventive actions. 
+Reduce time by reducing manual intervention
+Make customer feedback more transparent.
+Better customer centricity.
+Intelligent analytic's.
+Customizable for any type of surveys with text comments.

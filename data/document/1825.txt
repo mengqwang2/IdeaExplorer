@@ -1,0 +1,15 @@
+Information Management
+relevant to actually whole EMC but COE Ireland set focus on improving communication
+no history here, I just noticed that it is hard to know the person to contact to get the info you need
+- put order to all the information we have
+- currently I get most information from the knowledge of other persons directly
+- for example finding out who knows a lot about a specific product, who can help me out in my tasks or what do Service Account Managers do or who do I need to talk to when I need a previously approved code made available again
+- another example: I am using a tool to analyse log files and people who need to approve the project (CCA) were actually asking me how I did that (a html output as a summary)
+- or this challenge website here, I was not able to find it without the direct link from an email
+
+-> this means we need to re-work our Inside EMC website to make it relevant to us with a decent search engine included
+-> if this is good then people will start using it and putting there knowledge in there as well for others to use
+-> a person in charge of information might be worth a thought, someone who puts order to the chaos. If you have an idea and don't know who to approach you go to this Information Manager. You want to know something and having trouble getting the right info, go to the Information Manager.
+- managing data / information is challenging so having a dedicated person in charge of that would help
+- employees will use our Intranet way more
+- employees will save time looking for job relevant information

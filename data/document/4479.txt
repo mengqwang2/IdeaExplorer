@@ -1,0 +1,8 @@
+Integrated test case management with Bugzilla, Unit tests, Test cases and build system
+
+During development execution unit of test was tedious and time consuming for the following reasons.
+1. No guarantee to execution order
+2. Manual identification of dependency unit tests and execution
+3. No unit test coverage report for the release/bugs
+A test framework integrated with unit test, bugzilla. For detail refer https://inside.emc.com/docs/DOC-99978
+

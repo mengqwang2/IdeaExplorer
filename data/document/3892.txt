@@ -1,0 +1,6 @@
+Wear your Backup
+
+the idea came up due to my interest to the wearable device technology, and after using different kinds of wearable devices.
+ 
+The wearable device will have its own storage that can be synced through wireless technologies. Data will be stored on the wearable storage and/or downloaded to it and can be viewed through your mobile. Beside the data storage, the device will be socially aware and can have a fitness tracking feature 
+

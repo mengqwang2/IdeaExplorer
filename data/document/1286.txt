@@ -1,0 +1,6 @@
+Global Unified Team Code Red Process Enhancement Project
+Unified Support Engineers take long time to fill out the Code Red Template and submit an E-mail to the Code Red Approval Team
+Came up with the idea in February 2015 when I thought of why not creating a tool that extracts data needed for Creating Code red mail from the Service request and an automatic mail is created including all data needed for the CR mail,correct Code Red Approval distribution list, and Service request number and Customer name, instead of filling out the Code Red mail manually and waisting some Admin work and Customer's satisfaction.
+Decrease the average cycle time taken to send the Code Red mail in the Global Unified Team Code Red process from average 5 minutes with a maximum of 9 minutes to 1 min with a maximum of 2 minutes.
+
+Average cycle time will be reduced dramatically, causing less Admin work for Engineers, avoiding risking customer satisfaction, and dramatic business cost savings.

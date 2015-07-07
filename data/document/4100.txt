@@ -1,0 +1,5 @@
+environment friendly gym
+
+it will create avairness of the electricy in employees. and they will save power in office and other places
+The intention of this project is to build a straight forward human powered generator from a used bicycle and to use it to power light bulbs, blenders, cell phones, laptops, and other small appliances. This project will help one develop engineering skills while learning about a clean way of generating electricity.
+

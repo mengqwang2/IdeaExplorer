@@ -1,0 +1,5 @@
+Networker Language compatibility 
+Its tough to use as the remote admin to browse through networker GUI from client side if the server is in local language 
+while performing restores of different languages we are facing this issue 
+we need to add a language button/tab on the application GUI so we can switch between the languages 
+it can be admin friendly 

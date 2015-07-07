@@ -1,0 +1,11 @@
+IoT Secure Chip
+The idea address IoT security for RSA ToT challenge.
+The idea came after joining a lot of conversations regarding security with IETF and IEEE standards communities, and I believe we can simp;y invovles as EMC to solve and provide solution to end IoT security concerns.
+users will build their connected things wither connecting their devices from home or smart city, that mean the user will have the ability to control who will access the devices and things, what they are allowd to do and what information they can view, starting with hardware.
+
+The recent development with silicon chips to empower IoT, the new suggested embedded architecture models will raise the bar on IoT security and privacy, the idea is to have hardware-based encryption via an embedded secure element and integrated anomaly detection features that can spot attempts to hack the devices connecting to each other. The hardware will have a secure element that will acquire unique address and encrypted  certificate keys which is locked in each model as its made,so alldevices will have its own keys hidden and inaccessible from hackers or man in the middle attacks, a segregated Trust zone and excecutional authenticated services will make sure that non authorized access to the devices.
+
+addin analytics on local and global gateways will acquire real time visibility of the attacks too.
+
+
+We will add security models for Telecom sector either its an M2M services or IoT as a Service, having a powerful secure model will attract talks with telecom adding more chances and oppertunities for EMC market growth with IoT.

@@ -1,0 +1,11 @@
+Restructuring of storage blocks by keeping related-data in close affinity, to increase the speed and efficiency of storage systems (Data analytics can specify the relativity of data to be used by the storage processor for data restructuring)
+
+While analyzing more on FAST and other storage methodologies, I could not find any thing that can keep related that in close affinity. This is triggered me to search more on this to find out if any such adjustment currently done in storage arrays
+This above mentioned problem can be addressed by storing related data in continuous blocks by defragmentation of storage blocks when there is very less I/O activity in the storage array. 
+
+The meaning of related data  can be any thing like data from same table-space in a DB, data from  transaction of a same application or  data with similar context and this can be extended to any analytical system that can guide the relationship of related data. 
+
+For this, the system need to maintain a data-structure(table) to identify which blocks/tracks are related and to be considered for defragmentation. This need to be done in the fly so that the it can be referenced to do the defragmentation activity.
+
+This idea can be extended to Big data systems where the HDFS(Hadoop) file system data blocks can be restructured to increase the data transfer rate. (If the data blocks are scattered the data access rate will directly impact on the system performance.)
+

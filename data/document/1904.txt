@@ -1,0 +1,35 @@
+Platform for process automation using Software Robotics and Machine Learning
+The platform can be used inside EMC in GBS(Global Business Services) to save cost and improve efficiency. The same applies to other divisions of EMC. The platform can be made as a new business line, product or service offering
+The idea came from a discussion for solving one of the GBS(Global Business Services) problems and then further reading the literature on Software Robotics
+
+http://www.wired.com/2014/01/software-robots-long-tail-automation/
+http://www.blueprism.com/knowledge/faqs.php
+http://archive.wired.com/wired/archive/12.10/tail.html
+http://blueprismblog.com/tag/software-robots/
+
+Manual workers through automation had achieved a 50x increase in productivity, whereas office jobs have remained static. Robots could change this.   - Peter Drucker
+Low skilled IT and Back office processes are good candidates for Automation
+The commonness between most of these systems is they are web based
+Building robots which would crawl/scribe these applications would let us abstract different technical challenges
+
+The solution is to build a platform with following components(See the following ppt for details on the components)
+https://inside.emc.com/docs/DOC-155161
+
+Software Robotics – Writing robotics programs to automate manual tasks
+Portal - to program and to manage the robots and also see different metrics
+Robot Brain -  to execute the program(task) using worker bots and to aggregate their results
+Learner bots - run as a background task and understand human actions 
+Knowledge Base - includes rule based robot execution methods and machine learning applied to the learning from learner bots
+Worker bots – leverages the KB, can run on any machine(on the cluster)
+Interpreters - Email and Excel parsing, OCR and other capabilities available to Robot Brain
+A sample demo is attached here
+https://inside.emc.com/docs/DOC-155189
+
+Robotic Automation can be used in places of process automation, Data collection in projects and programs(PMO offices) or in any place where a standard task needs to be done
+multiple times
+Robotic Automation extends and complements BPMS and SOA
+Speedier and much cheaper than other ways
+Can be built in house, by developers with basic programming skills 
+Robots can be programmed to make intelligent decisions(Machine Learning)
+Operation can be scaled in a few seconds – by creating few more robots in a VM
+Low Operation cost/cost of management

@@ -1,0 +1,11 @@
+“Outside EMC” Social Network
+
+This is inspired by these popular social networks and “Inside EMC” website. According, “Outside EMC” should bring lots of values in providing knowledge sharing, peer to peer support, and increase the satisfaction of customers.
+1. Setup a “Outside EMC” social network platform. (similar to Inside EMC), it will be nice if it has both web client and mobile client.
+2. Support social network features, such as following and followers relationship, view latest update, peer to peer messaging\chatting, topic-oriented discussion forums, etc.
+3. EMC setup an operation team (or outsource to an outside team) to promote, administrate and measure its usage of this platform.
+4. This social network will form a group of EMC Fans and bring a lot benefits to them.
+5. This social network is able to integrate/communicate with existing social networks (twitter, linked-in, etc) in the world. 
+6. EMC gives award to the active users who contribute high quality sharing. 
+
+

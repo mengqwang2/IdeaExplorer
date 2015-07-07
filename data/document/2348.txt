@@ -1,0 +1,5 @@
+EMC Software Updater Tool 
+N/A
+I have been in a situation where the customer came back and questioned that why they were not informed for the potential bugs filed against particular EMC software's they were using in their environment. Customer being busy maintaining their setup and taking backups doesn't get time to look for timely updates available in EMC Support websites. This is a major concern for the customer as they can run into any sort of bug that can effect their environment and if the customers are aware of such bugs or updates they them self can resolve the issue which in turn will also help in reducing the number of tickets being opened for support and will save time as well.
+This Software needs to be installed on a host that can remotely query servers added to it for its versions of EMC Softwares like Unisphere for VMAX/VNX, PowerPath, Replication Manager, RecoverPoint etc and then check the updates available for them in Support.emc.com. This Updating Software will chceck for critical updates and patches for the EMC Softwares mentioned above and will provide recommendations to the customers.
+N/A

@@ -1,0 +1,11 @@
+Improving communication and collaboration using the existing IT infrastructure with minimal cost
+This idea is a simple yet effective improvement of the communication platform by introducing data from the org-chart.
+Roi Gamliel, who heads the DPA organization at the Beer-Sheva COE, discovered that the onboarding process for new team members is much better if you define all the organization in their Lync lists from day one. Together with Dr. Raphael Cohen and Amihai Savir from the Data Science team the idea was developed, leaning on Amihai's expertise with EMC's Lync in his current Lync sound quality improvement project.
+We propose a very simple solution: a tool for importing a branch of the org-chart into Lync as a group. This Lync plugin will import an entire org chart group with one click and name the group according the org chart title, for example: “VPLEX Performance Bangalore”. 
+Extensions of the tool can be made: 
+1)	Auto update – go back to the org chart tree and update the group
+2)	Recommend – usually I ask Mike but he is offline, who has a similar profile that I can approach on Lync? 
+3)	Import only on role – who in facilities and services is in charge of my company cell phone? Update me as the role is transferred to a new person
+The plugin can be built easily and cheaply. People recommendation can be based on the Lync collaboration history or the org chart. Smarter recommendation can be based on a collaborative filtering engine, a statistical machine learning algorithm used for recommendations, a similar technology is already used to route service requests in the Service 360 project.
+
+It will enhance the value provided by the Lync collaboration platform. It will allow employees to find the relevant person to collaborate with in seconds instead of minutes. Save time on approaching the wrong person once they move on to a new role. Smart recommendation will aide in making new connections which were otherwise impossible without the relevant introduction.

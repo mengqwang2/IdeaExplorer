@@ -1,0 +1,27 @@
+Gamification in Employee Onboarding
+Frequently we see that there is a gap between the acceptance of offer and the actual joining which may vary from 2 weeks to 2 months. 
+
+The lack of engagement could create a drift between the employee and company resulting in the employee choosing a diffe
+Survey on Onboarding (done on couple of new joiners)
+Improving the new hire on-boarding experience can reduce that first-year turnover rate and increase retention.
+Gamification could be one solution if implemented in the right way. 
+Also engage the new hire to follow company updates from a social media point of view.
+Provide a gamification model which helps the employee to understand the following better
+History
+Vision
+Products
+Branding
+Culture
+Initiatives
+Policies
+
+Once the offer acceptance is completed, employee will be provided access to a portal where he can start using the “EMC Onboarding Portal”. This will be a one stop shop for onboarding. 
+
+
+We need to identify the tasks that can be completed during the pre-hire period, onboarding and start week. The tasks before the joining date should contain non- proprietary trainings and information. This will help the new hire to understand more about the company before the actual onboarding.
+
+
+Points, Challenges, Leader Boards, Levels, Progression, Feedback are the various gamification concepts that can be applied to the dashboard to improve the engagement.
+
+
+Once the portal is implemented we can conduct a survey on the new hires and get their feedback on the onboarding process. This will save money, time and employee satisfaction

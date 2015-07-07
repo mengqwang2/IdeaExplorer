@@ -1,0 +1,34 @@
+"Secure IoT" to provide IoT with security
+The idea is to create a special IoT device ( virtual or real ), named "Secure IoT" whose main functionality is to provide security. Like an IoT for light provides light similarly Secure IoT will provide security. This rightly addresses the 'RSA IoT Challenge', 'Israel COE Challenge' and 'Egypt COE Smart City and IoT Challenge', since the main/one among the main focus in all these challenges is to bring security to the Internet of Things.
+
+We are part of security team working for an EMC product. As we deal with the vulnerabilities and their critical patches, security is our main concern which prompted us to think of something like this.
+To create an "Secure IoT" device which is specialized in security and helps the other devices in the infrastructure to achieve it.
+NOTE: In  no means it is designed to lower the importance of security on each device level and each device should have its own standard of security measures taken.
+
+The main functionality of our new device, named "secure IoT" is to provide security coverage to all the devices under its operation. These special devices will have a operational level security feature which can provide following funtionality.
+- Detecting the IoT devices.
+- Zoning of IoT devices.
+- Detecting the level of security provided by the IoT.
+- Detecting and verifying the security signature of the IoT.
+- To provide critical security patches within the SLA to other IoT.
+- To close down the vulnerable IoT devices in its zone i.e isolating a compromised device from the rest of the devices in its zone to curtail the damage by the attacker.
+- Restrict communication to only known devices/parties and over known channels.
+- Route the sensitive information from Smart devices through highly secure channels.
+
+This special device will monitor , zone, isolate, detect, upgrade and will perform other heavy task in the area of security which can not be done by the other IoT on its own.
+Currently, there is no such evidence in the market which satisfies the security concerns of IoT. This never before implemented secure IoT device will free the other connected devices from security concerns. In a way this strategy is better than posing daunting security tasks on to the embedded devices which are not designed for this.
+Possible use case:
+1.     Today customer is worried about the security of all the devices present in his premises.. 
+2.	He looks  for a mechanism to secure all the devices.
+3.	He installs "Secure IoT" in his infrastructure which perfoms the following:
+      a.	IoT detects and registers all the devices.
+      b.	Provides recommendation
+      c.	Monitors
+      d.	Automatically upgrades security patches.
+      e.	Create a secure Zone.
+      f.	Can control the communication protocol.
+      g.	Detect the vulnerable or old devices and sub-zone it  or remove it.
+      h.	Can communicate to other "Secure IoT" and replicate itself in any manner.
+4. A heart monitoring smart device is not expected to send information to unknown devices, Secure IOT will address many of such concerns.
+
+The idea on its implementation will be a revolutionary in the field of security to IoT apart from money making and improving customer satisfaction

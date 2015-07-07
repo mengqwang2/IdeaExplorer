@@ -1,0 +1,8 @@
+Epidemic forecast by big data analysis
+Epidemic forecast
+some epidemic always come in some months of each year, it can be forbidden for families if we take care in advance
+By big data analysis from below ways:
+1. historic data
+2. data from hospital
+3. season and weather 
+It can benefit the government and family

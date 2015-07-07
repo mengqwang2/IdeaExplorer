@@ -1,0 +1,6 @@
+Taxation guidance portal for employees.
+Employees will save more money adding points to Great Places to Work.
+Many employees new and old do not have a clear understanding of the Indian Taxation process, this will increase their understanding enabling them to save on tax.
+A EMC employee tax portal integrated with EMC India Payrolls website, which will guide the employee based on his pay, giving him options to automatically calculate and show results on tax savings achieved with various tax saving instruments. Employees may get an idea of where and how much to declare / invest to save on tax based on their pay, thereafter they may or may not choose to declare / invest based on their immediate requirements.
+Tax Saving for employees.
+Employee Satisfaction.

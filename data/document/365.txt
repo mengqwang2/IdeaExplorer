@@ -1,0 +1,56 @@
+Integration of Device Mapper dm-cache feature for XtremeIO
+This is use case which provides integration options for XtremIO.
+dm-cache feature on Linux integration for XtremIO.
+
+We had taken this task for our Dev Goal and successfully proved
+the performance gain for File System IO on VMAX lun with dm-cache
+on XtremeIO lun.
+
+We can share the results if interested.
+The device mapper is Linux kernel's framework for mapping physical block devices onto higher-level virtual block devices. It is available by default as kernel module from 3.10 version.
+
+Dm-cache is a component (target) of the Linux kernel's device mapper, which is a framework for mapping block devices onto higher-level virtual block devices.
+It allows one or more fast storage devices, such as flash-based solid-state drives (SSDs), to act as a cache for one or more slower storage devices, such as hard disk drives (HDDs), this effectively creates hybrid volumes and provides secondary storage performance improvements
+
+The slower device could be for example VMAX lun on HDD.
+
+Simple setup could be as given below. But our solution is to provide ready
+to use software which would automate the below steps. After these steps there is
+more explanation on how to achieve the same.
+
+Ex: Steps below. Values are from one of the actual setup.
+Create device mapper with dm-cache target. X-IO luns acts as cache for VMAX.
+
+First create a metadata volume on the XtremeIO lun
+dmsetup create xio-metadata --table '0 8448 linear /dev/sdb 0'
+
+Next create the actual storage for the cache
+dmsetup create xio-cache --table '0 4185856 linear /dev/sdb 8448'
+
+Lastly create the dm-cache using vmax and xteremeIO lun
+dmsetup create xio-vmax-cache --table '0 6291840 cache /dev/mapper/xio-metadata /dev/mapper/xio-cache /dev/sdf 512 1 writeback default 0'
+
+We have already tested this scenario and it provides huge performance
+benefit to File System on VMAX lunu, if they use XtremeIO lun as cache.
+
+Solution for this idea:
+
+Use Case: User would give just a slower storage device as input
+and he expects the device mapper path as output. This mapper path
+is ready to use dm-cache setup path. He can create FS and start using
+it for performance gain.
+
+The solution would take care of above steps with slower storage device host path;block device path.
+1. Calculate the storage required for metadata
+2. Calculate the storage required for cache
+3. Create XtremeIO lun
+4. Perform the device mapper paths for metadata and cache on XtremIO lun.
+5. Finally create the dm-cache target for slower storage device.
+6. Give final device mapper path for User to create further setup like Filesystem.
+
+
+
+If the solution is easy enough to hide all the complexities of
+creating lun, device mapper path for metadata and dm-cache then
+it helps customers to leverage XtremeIO in one way. It also helps
+EMC customers to use multiple EMC storage.

@@ -1,0 +1,9 @@
+Autonomous Customer Support System
+
+N/A
+We have a huge amount of data indicating what requests customers submitted, what problems they have come across and which support engineer has managed to resolve this case.  With all this data, an intelligent case dispatch system can be built on that.  
+Firstly, each case or request has its description and those resolved ones have their resolution summary.  We can apply certain algorithms, such as Clustering Analysis and Classification Analysis to these information, extracting certain features of every case and request and labeling them with characteristic tags.
+Secondly, support engineers have records of their successfully resolved cases and transferred cases.  We can well take advantage of these data to build an engineer-knowledge database, somewhat like a talent pool.  As like as we do with cases and requests from customers, we make good use of data mining to attach characteristic labels to each engineer.  What's more, we can clearly find out those who lack certain area of knowledge and offer them with pertinent training courses.  
+Thirdly, as we have tags on customer requests and our support engineers, we can crossmatch these tags to find out the most suitable engineers for the specific cases.  Time is well saved and efficiency is highly improved brought by this smart system because we assign the right case to the right person.  
+
+

@@ -1,0 +1,14 @@
+Energy Saving Engineering Strategy (ESES) for EMSD Storage Products
+
+This Idea emerged during EMC VNX2 (Rockies) product development cycle. We were using more than 500 storage systems to qualify product features There were many groups involved in design, development, and testing of this product across globe including Hopkinton, Southborough, RTP North Carolina, Durham Data Center, China Center Of Excellent, Cork Ireland, and Mumbai, Bangalore India, etc., one or two groups were testing Storage System Power saving/disk spin down feature rest of the groups are not using this feature. We thought it is a good idea to enable this option in the storage operating environment or at least engineering builds which will help to save electricity, money, carbon footprint as well as exercise feature. Presently we are working on implementing this in our own small groups and planning to take it to all the other groups in EMSD.
+
+https://inside.emc.com/docs/DOC-99820
+
+Currently we are looking into the following methods to enforce the use of powersaving feature on storage systems:
+1.	We need to collect all storage arrays credentials from multiple groups across the globe and develop a tool to enable power saving option on all arrays, storage pools and RAID Groups. 
+2.	Work with other EMC divisions such as Advanced Storage Division [ASD], Data Protection and Availability Division [DPAD] and Isilon Storage Division [ISD], as they are using EMSD products to enable power saving feature.
+3.	Work with Lab Operation groups to enable power saving option in their best practice guideline.
+4.	We need to work with development/release engineering groups to enable power saving option by default without user intervention on all engineering/release builds so that it forces everyone to use power saving option
+If powersaving was in disabled state for 500 VNX arrays with 91750 spinning drives (3.5 Inches & 2.5 Inches) it would cost more than million dollars per year for electricity. If we enable powersaving option it would only cost approximately half a million dollars per year. For details on the calculations please go through the power point presentation available at the URL given below.
+
+

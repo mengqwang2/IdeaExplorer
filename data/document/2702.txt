@@ -1,0 +1,11 @@
+C# library to access the mainframe
+implementing the feature will:
+* increase value of EMC products (providing more up-to-date way to use 'em);
+* increase the usability of external and internal applications;
+* Will do great under the GPL due to relatively small area of mainframe spread.
+I've got touched the problem a few times, since I've realized that existing mainframe terminals are quite awkward and inconvenient. In my humble opinion, people continue to use it because no other alternatives exist. 21st century require other solutions, with possible use of GUI techniques for control. For that, a reliable terminal library is needed, designed to use with Windows GUI apps.
+My idea is to build the universal interface library with the C# and .NET framework, emulating access through TN3270. We have some similar projects, but they're heavily specialized and built with Java. Building it with .NET increases speed (due to design for Windows from the start), and, strangely, portability -- because our Java apps have serious issues when using it with newer version (1.8), for example. Other unique part is targeting for universality: the library should become unified platform for TN3270-based apps.
+If the idea would be fully implemented, we would got the base platform for mainframe interfacing applications, such as:
+- host control systems (like Hardware Management Console, but more contemporary designed);
+- testing automation systems
+and so on.

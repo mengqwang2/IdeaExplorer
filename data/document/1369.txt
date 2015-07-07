@@ -1,0 +1,22 @@
+Smart workplace ... smart chairs
+The idea presented here will help design a modern, smart and cool workplace.
+These are the situations we face quite frequently -
+
+1. Seeing one's chair missing from his/her working desk. One would try to 
+   find another unused chair, spend 15-20 mins adjusting settings as per one's preference.
+
+2. Finding one's chair being used by someone else in neighbouring conf room and 
+   later on getting the chair returned back with all your settings changed.
+
+3. When in a conference rooms or different work location, spending time on setting the chair 
+   as per one's preference.
+Right ergonomic chair setting is very important for ones health and comfortable working condition. Some times, incorrect settings can hamper your day’s work and may even further damage an existing condition forcing you to take time off work, at the very least make your
+day start on a grumpy note.
+
+Idea is here to make all office chairs as electrically adjustable seats – similar to the ones found in high end cars. Also, chairs should have memory settings based on user’s badge authentication. So, anyone should be able to set it once and the info will be saved in the cloud. 
+
+User should be able to pick any chair, flash his/her badge to the RFID detector attached to the chair and should get his settings within few seconds. RFID authentication device should, in the backend connect to a cloud service which will store all users memory settings in cloud. 
+
+Any user should be able to get his settings in any EMC location all over the world :-)
+Once the idea is implemented, it would be a flash to change the setting to one's preference, so no worries
+if your chair is missing, someone else used it etc :-)

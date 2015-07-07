@@ -1,0 +1,13 @@
+Reaching extream performance by InfiniBand host connectivity to X-brick
+Performance enhancement to XtreamI/O X-brick to accommodate current/future world performance demand for data. 
+Got this idea when I was looking at the current performance demand for Storage solutions in market.
+InfiniBand host interface!
+
+This performance improvement can be achieved by InfiniBand host interface.
+Currently no Storage solutions provides InfiniBand host interface.(Most of the storages using it for internal communications ex. VMAX, X-Brick).
+
+InfiniBand supports 100Gb/s interface today. Xtream I/O extremely unmatchable  performance If X-brick provides InfiniBand interface.
+
+
+Trendsetter for performance demand growth. 
+X-brick Cluster free performance demand.

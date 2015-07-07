@@ -1,0 +1,12 @@
+VPLEX LUN Modification update at Host
+Current Challenges: When we expand a Virtual Volume in a VPLEX environment, the host will not be able to recognize the additional changed size, till the time file system expansion at the host end is completed, which is a difficult task depending on variou
+During Product Solution and Implementation this idea came up.
+Solution Approach:
+Developing a feature at the VPLEX level, which will automatically update the new sized Virtual Volume with just a rescan at the host end, would reduce the various tasks performing at the OS level.
+Since we already have a feature in VPLEX, to update the LUN information while the migration is in progress to some other array LUN, approach towards developing this new feature can be done.
+This could be achieved also by running a agent at the host end, which will be generic for various platforms.
+However approach towards developing agent less will be more impact in terms of VPLEX as a product.
+
+Result and Product Impact: 
+As this feature is not available in the market with any of the competitor product for VPLEX, this will be a USP for VPLEX market.
+It would save the critical administration task for the customer,  so Sales will be helped in term

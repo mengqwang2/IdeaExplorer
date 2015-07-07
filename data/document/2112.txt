@@ -1,0 +1,14 @@
+OnRack Continuous Integration, Deployment with Jenkins, Docker and Ansible
+Help OnRack continue improve quality,efficiency and time to market
+When I am working on HW simulator project for OnRack large scale testing , I have chance to setup OnRack from scratch and unfortunately it needs around 2 hours due to lots of package needs to be downloaded from US mirror(ubuntu package) as well as many manual steps to execute so I am thinking ways to improve ,based on my experience with docker/jenkins/ansible , I come out this idea   
+Our solution process is:
+1 Developers check-in code to git repository
+2 Jenkins kick off a build per checkin
+3 Running test
+4 Once tests are passed , use Dockerfile to build a docker image with latest source code
+5 Push OnRack docker image to Docker hub(China and US)
+6  After OnRack docker image is available , Ansible will run playbook to deploy docker image to one or more OnRack appliances 
+7 Developers and QA can run like "docker run onrackDocker" to get latest OnRack version without many manual steps
+
+here is deck to show architecture https://inside.emc.com/docs/DOC-155949
+Once this is implemented , it will significantly improve efficiency ,time to release as well as quality improvement  for OnRack project

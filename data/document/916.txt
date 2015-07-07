@@ -1,0 +1,5 @@
+Authentication on Sodexo Cards
+This is not specific to the sponsor challenge but would in specific benefit the India COE
+Having used the Sodexo card for a few months, I realized that authenticating the card would be good
+Enabling a pin/password on Sodexo card would prevent unauthorized access
+It would benefit the employees as they can prevent unauthorized access on Sodexo card

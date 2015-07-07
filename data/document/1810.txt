@@ -1,0 +1,7 @@
+Remote Proactive Roster Auto Update
+Process improvement, automation and user experience enhancement.
+Being a user, I check the roster and find that people are available while they're away because of a meeting and they got too busy to update the roster and block their hours for example.
+Remote Proactive Roster to be in synch with: EDU services (Registered Trainings), Outlook Clendar (Meetings),...etc
+This integration will minimize conflicts and help engineers work efficiently without missing any commitments.
+
+In addition to, it helps all users find the actual engineers' availability.

@@ -1,0 +1,14 @@
+Geo based LUN Tag
+
+It was a idea that evolved during discussion towards the innovation challenge and also 
+
+revolving across the value add to be provided to the VMAX array. 
+
+In data center or cloud deployments, the storage LUNS utilization can be monitored for 
+
+predictive analysis to provision for scalability, serviciablity. 
+
+By having another element in the storage array management software the application software 
+
+can direct their I/O to specific GEO tagged LUN based on the buisness case. `
+

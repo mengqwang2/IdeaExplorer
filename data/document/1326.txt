@@ -1,0 +1,7 @@
+EMC app for smartphone users to store data to EMC cloud
+EMC has wide range of products that support data storage,access to big data. We can also have an app that supports storage,access and data management to smartphone users by hosting storage onto EMC Atmos.
+As we have many other cloud service providers supporting storage of data onto their storage, EMC can go one step ahead and develop a mobile app so that smartphone users can download and use the app to access EMC cloud storage
+Introduce an EMC app that is available to smartphone users, using which they can gain secure login to EMC cloud storage. We can provide free storage access upto certain capacity and make it paid after user reaches a certain limit. App can be provided to Android, IOS , Windows and Blackberry users
+
+Suggested name:  EMC Répono!
+EMC cloud storage will be accessible to large number of users. EMC can also provide robust and enhanced storage capacity along with advanced security features as compared to other vendors

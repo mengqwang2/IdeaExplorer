@@ -1,0 +1,5 @@
+Detecting user movement for authentication
+
+
+Both of the combined ideas rely on the device being able to identify when it is with the user and measure user movement to perform authentication.  Although you came at the idea from very different viewpoints, the underlying challenge is the same.  This idea needs to be further fleshed out and more thought put into how it can be leveraged best in making authentication decisions.
+

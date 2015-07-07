@@ -1,0 +1,5 @@
+Tower or Practice Structure in GS
+
+I have come across this idea from the previous company, wherein each technology people were tagged under tower with a resource manager. When there is a need for hiring resource manager can be contacted first. This works mostly for the service based or managed services engagement, but considering the utilization for any employee this also cater in up-skill each resource of EMC in multiple arena.   
+Each employee will have mapped by top 5 technical skill with a 1-3 rating. 1 being highest.Resource manager keeps the track of the employees under his tower. When there is a need arises, each tower or practice manager can be contacted. This not only facilitate in hiring, when we are stuck in a customer troubleshooting skills, we can approach highly skilled folks in that area across GS for higher customer satisfaction and TCE. As of now, employees do not know who are the other folks in my company who is good at what technology.
+

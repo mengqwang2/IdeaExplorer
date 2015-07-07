@@ -1,0 +1,24 @@
+Market driven  workload management in Software Defined Datacenter
+
+I am toying with this idea for a long time to create an algorithm to  characterization and  optimization of the workload 
+Our solution is based on market based resource pooling and characterization. Our solution proposes an autonomic resource manager to manage the resource pools of SDDC to optimize the workload distribution.  
+
+The characterization of load is discretely done based on preferences, demands and the resources to run the workload and is computed by minimizing the cost. The resource manager aims to optimize a global utility function which integrates both the degree of SLA fulfillment and the operating costs.  Our algorithm is based on constraint programming to optimize the global utility function to optimize the workload across the resource pools.
+
+Each workload can be optimized with discrete preference (e.g. Power optimized / Performance optimized / Location optimized etc..).  Each optimization maps to a complex global utility function with summarization of set of weighted parameters.
+	fn( ri ) = ? (wi * pi)
+Where –
+ri ? set of resources on which this functions need optimization 
+pi ? set of parameters which  characterizes the behaviors  of resources  
+wi ? weight of parameters to provide the non-linear characterization
+
+The demand / supply and priority will drive the economy of resources and will be bid by individual contenders.  Cost of resources will be driven by market conditions and factors.   
+
+Cost of acquiring resources = MAX  [? fn(ri * bi)]  
+Where –
+ri ? set of resources  in market place  
+bi ? bid of  acquiring the resources
+
+The highest bidder for resources will acquire the resources. 
+
+

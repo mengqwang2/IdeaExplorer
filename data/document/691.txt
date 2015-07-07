@@ -1,0 +1,18 @@
+Secure EMC products by restricting OS/shell access and file transfers mechanisms.
+EMC linux based products will have secure OS interactions by restricting users to access only the deployed application and not the entire shell. User's shell access is a security hole which can be exploited to extract sensitive EMC configuration data residing in the products. Secure IOT (with EMC linux based products).
+This is being developed as part of role based access control (RBAC) implementation for EMC VPlex. VPlex runs SuSe linux on its management server. The SSH/ SCP/ SFTP and RSYNC access to this linux box needs to be restricted based on the user roles and rights.
+The idea is to modify ssh (openssh) code to invoke a custom developed shell script e.g. restrictshell.sh instead of the usual bash. The restrict shell filters the users and redirects them based on their access rights. 
+E.g. A normal user should have only access to the intended product application rather than the entire OS though the shell. And a privileged user say administrator should get access to bash/ OS as well as the application.
+For normal users the file transfer mechanisms are also restricted which allow only SCP (secure copy) to upload or download to specific share folder only. This prevents illegal file transfers to various OS folder locations.
+
+Some instances,
+Privileged user e.g. product administrator is allowed to access all.
+
+A normal local user is allowed only the intended EMC applications and not the bash/ OS.
+Only SCP is allowed as file transfer mechanism to transfer files to a specified folder e.g. transfer of inbound files only to /usr/share/in/*
+transfer of outbound files only from /usr/share/out/*
+This prevents the normal users to transfer scripts/ files to other locations which may prove to be detrimental if read/ write or executed there.
+
+
+This idea enhances a linux based product security as it restricts the access and the file transfers to/ fro. This disallows the lesser privileged users not to transfer illegal/ unnecessary scripts which can manipulate normal product behavior, extract critical data, hack storage/ information etc.
+

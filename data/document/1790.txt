@@ -1,0 +1,12 @@
+Viber Style Communication
+Use technology to enhance communication.
+The idea came about from a idea generating session in the Ireland COE. Dealing with large volume of daily emails is a challenge for everyone. 
+Many emails could be transformed into short, concise messages or pictures, that could be sent to hand held devices. The interface would be simple and well-designed.
+
+Lync could be expanded to include some of the features that exist in applications like Viber:  
+  - Each person could set up their own favourites. 
+  - Messages could be sent to groups .
+  - Messages would be organised by group and date. 
+  - The system would also maintain a history that would be synchronized with you email or Lync on your PC. 
+
+This idea will help to reduce the amount of emails, by using a simple, well-designed interface to promote shorter communications, while at the same time being too the point. 

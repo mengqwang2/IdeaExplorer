@@ -1,0 +1,22 @@
+Implementing security for Internet of Things
+The challenge talks of implementing security for internet of things, in our idea we discuss about implementing the security at various levels for internet of things
+
+Security implemented at the
+
+a)  individual device level
+
+b) at the network level
+
+c)  at the entire system level that constitutes
+   one or more IoT devices with software in cloud controlling it.
+We thought of this idea few months back while discussing about security issues for IoT devices, but we did not implement any of these idea.
+We discuss about how our idea solves the security problem at network level, device level and system level
+in the below document
+
+https://inside.emc.com/docs/DOC-156209
+
+
+
+Some of the idea discussed are general security principles that are used in computer industry but we have implemented few new ideas that will create a secure echo system and detect a abnormal state.
+
+EMC would have a secured IoT implementation if the idea was completed and deployed in field.

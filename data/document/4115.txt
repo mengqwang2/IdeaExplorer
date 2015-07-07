@@ -1,0 +1,5 @@
+TVs in work area
+
+we can play floor tvs , pantry tvs for good cause. 
+it should linked with sensors.  when person in floor pantry. it should run. when no one in pantry it will not run.
+

@@ -1,0 +1,5 @@
+Centralized Dashboard for cases from customers 
+
+The idea came to me when I was working on xPlore customer cases. One example is customer is working with D2 which xPlore is the underlying full text search engine for it. It's a bit hard to investigate the issue without knowing the whole picture/architecture
+The dashboard can include the architecture of these products deployed in the customer side, the hot cases they have reported, and the dashboard can be published to a wiki page so that everyone can access it.
+

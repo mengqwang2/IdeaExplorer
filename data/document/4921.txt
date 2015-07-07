@@ -1,0 +1,5 @@
+Facility to Watch Your Child Live(Live Streaming) at IndiaCOE day care
+
+Sometimes my kid will be cranky and when I drop her at day care she will be crying badly, it is really hard for me to come out. Even after reaching to cubicle, I will be worried about her. I can’t go back and check after sometime, because she will be more irritated if she sees me. Then the only option is call them up and check but how many times we can call?...I was thinking about it and live streaming sounded like a plan to mitigate this
+Live streaming is already implemented at few day cares & pre-schools across India.  Implementing similar solution at icoe daycare won’t be tough task as there is already a camera in every room at day care. By using the services like watchlive(http://www.watchlive.in/) or similar(just a suggestion), can  build secured system which provides access to  authorized users.  Or EMC can just give parents access watch only those cameras which are placed at daycare (EMC already has system to monitor all security cameras placed across). Parents can watch the kids anytime. Seeing our little ones will boost each of us which will help us to do better quality work
+

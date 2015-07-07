@@ -1,0 +1,20 @@
+Neural network based Self Healing framework for EMC II hardware platforms
+
+The idea was born during our work to build a similar framework for predicting File system fragmentation in Vnx boxes using logs from different types of workloads. Thus, we are currently working on building an optimization node which can learn and predict file system fragmentation
+Self Healing systems promise the following features:
+1. Auto configuration
+2. Auto healing
+Our framework uses a neural networks based approach to provide the above mentioned features. A typical neural network is composed of neuron(s). Each neuron acts as a compute node which transforms the inputs into an output. Thus a neural network can be defined as a system of interconnected neurons which can compute values from the provided inputs. Neural networks are one of the most favoured models for building adaptive learning systems. 
+
+Our framework defines two types of neurons namely Configuration neurons and optimization neurons. These two definitions symbolize two different problem flavours that we envision. Configuration problems would basically involve identifying the correct configuration from a host of all possible configurations. This is very useful when we consider the number of interconnected components in a typical PaaS platform. Similarly, the optimization problem involves identifying an event or an error state and automatically mitigating it. These neurons would learn patterns which would cause such error states and predict the error state beforehand.
+
+The configuration neurons taken in as input the different possible configurations of a hardware platform. This could be provided as a list or we provide an API wherein the h/w is connected to this neuron and the neuron iterates over all possible configurations. 
+The optimization neuron on the other hand is given as inputs the observables in the system which we think could be responsible for the erroneous states. Using this, the neuron will figure out (of course initially with a little training) what is responsible for the error states and take pre-defined steps to mitigate such issues.
+
+
+Thus, using our framework, scaling up PaaS infrastructure or optimizing current infrastructure would involve plugging in or associating specific neurons with the individual components. 
+Eg:
+1. Say there is a VNx box which shows lower performance because of file system fragmentation, we could plug in logs from the Vnx into an optimization neuron alongwith historic logs of when a fragmentation scenario occurred. The features that could cause the error like LUN utilization, read/write logs etc will be marked in the logs and provided as an input. The optimization neuron identifies tell tale patterns from the old logs i.e features and predicts such scenarios if they occur again. The optimization neuron could either alert the administrator thus enabling a manual mitigation step or the administrator to could assign mitigation steps which should be taken and the neuron can act automatically upon them.
+2. Consider that our PaaS infrastructure comprises of VNXs, Isilons, VMAXs etc. Now consider the case wherein a new application is hosted on our PaaS infrastructure. The type or nature of the workload needs to be understood well for provisioning the right storage box. Secondly, consider the case wherein the appication’s nature can change with time. Thus, our platform will have to adapt and provision the right type of H/w platform. Using our framework, each of the storage boxes will be assigned to a configuration neuron. Based on the application characterization that is learnt by the neuron, we will automatically provision the right type of hardware for the application. Thus, if the application starts generating a streaming workload from a transactional workload our framework will adapt and understand that Isilon should be used instead of maybe the previously used VNX.  
+
+

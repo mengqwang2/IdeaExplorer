@@ -1,0 +1,11 @@
+Cellular business advisor
+
+-
+Collect data from BTS stations of mobile operators. 
+This data gives the number of cell phones connected to each BTS within periods of the day. The movement of the cell phones from one BTS to another BTS could then be monitored and analysed.
+The analysis of this data could then be used to estimate the population in certain regions. 
+
+By feeding into this database the business in those regions, business proposal could be suggested. 
+So if we have a populated area with only 1 small supermarket. The analytics could suggest the optimal location where a new supermarket could be established with the average population serving.
+With this data investors can calculate their margin of success and loss and get encouraged to open new business.
+

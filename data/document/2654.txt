@@ -1,0 +1,5 @@
+IoT – Scalable Authentication & Authorisation
+This idea is relevant to the scale and security challenges faced with the number of devices now communicating on the internet identified in the RSA challenge.
+Idea  generated in response to the RSA challenge
+My Solution allow enterprises or consumer customers to define and implement security polices for device to device to communications. The solution approach is similar to the challenge with security SSL traffic for e-commerce sites and leveraging trusted 3rd parties to validate certificates. The solution is looking to adopt similar cloud based service to support a scalable and secure communication model. The service can also extend to monitor traffic flows and provide data analytics to identify security risks or issues. To overcome the lack of security in devices RSA could develop a virtual appliance to manage devices within a communication domain and be an interface to the cloud service.
+RSA becomes the industry leader for securing device to device communications, this would generate a new service and revenue stream for EMC

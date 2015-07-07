@@ -1,0 +1,5 @@
+Use Green Plum Database in EMC product Data Protection Advisor (DPA)
+
+Pivotal Greenplum Database manages, stores and analyzes analytic data warehouses with better performance over traditional RDBMS products and supports the developed analytics using preferred toolsets and languages.
+Replace the embedded PostgreSQL Database that ships with Data Protection Advisor with Pivotal Greenplum Database to allow DPA to to extract business value from Big Data using advanced analytics that can help EMC/customers to identify the opportunities of DPAP products usage.
+

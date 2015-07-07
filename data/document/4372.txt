@@ -1,0 +1,5 @@
+Smartphone Friendly Plant Interaction Points
+
+Having walked through the plant and across the manufacturing floor the idea came to me when I began noticing the various different processes in manufacturing the product and the assortment of equipment and technology used in the process. In a moment of curiosity I thought it might be a good idea to have a means of being able to discover and learn more about EMC there and then.
+QR codes or NFC points placed around the plant that users could interact with using their smartphone that will result in them being shown a video clip, web site or snippet of interesting information about the area they are currently standing in. 
+

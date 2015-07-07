@@ -1,0 +1,5 @@
+Targeted information on CST lines while on hold
+
+Often customers are looking for simple information and it is easier call and open a SR rather than search through documentation.
+Collect information on the types of calls that are coming into the CST phone lines and determine what types of calls can be deflected. Use this to create messages to play automatically while the customer is on hold. These information messages would also be more interesting than regular hold music and the canned your call is important to us messages. It can also advertise forums and online support sites.
+

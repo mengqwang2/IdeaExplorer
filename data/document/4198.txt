@@ -1,0 +1,5 @@
+Start EMC's own Public Cloud Services
+
+EMC products and services are trusted by the largest enterprises and the hottest start-ups to power a wide variety of workloads including: web and mobile applications, data processing and warehousing, storage, archive, and many others. Why not we leverage these technologies to expand a new market?
+We can study from our competitor Amazon that already offers a broad set of global compute, storage, database, analytics, application, and deployment services. EMC is at a better position as we have more expertise in information infrastructure, more allies in virtualization and data analysis, and also security. EMC may create another sub-company for this purpose.
+

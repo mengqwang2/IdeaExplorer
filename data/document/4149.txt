@@ -1,0 +1,8 @@
+Employee Desk Sharing Policy
+
+Sharing of Desk helps in efficient workspace management.
+If an employee is in a regular shift (for Ex: 9AM to 6PM), we can have his desk along with phone and monitor shared to another Employee making sure shift time will not overlap(may be from 9PM to 6AM). 
+Also our Cisco phones support multiple extension configurations. In this way we can avoid costs on extra seats/phone/monitors. 
+We can have some mobile seats for backup if any employee has any planned activity or extends their shifts.
+With this, every employee feels they have a dedicated seat and also dedicated extension.
+

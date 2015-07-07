@@ -1,0 +1,7 @@
+Canteen Cashless System
+In the workplace of the future, the implementation of this idea would result in faster processing of canteen payments and faster movement of queues in the canteen. 
+When I worked in Intel, this is the system that they used to manage payments in the canteens. 
+I noticed that this idea has also been raised in the past, similar ideas have been suggested by Andrew Cullen, Orla O'Brien, Jack Butler, Gareth O'Driscoll, Fergal O'Farrell, Marie Effler and Fergal Moloney. 
+
+The solution is to use existing technology to introduce a cashless system in the canteen. Machines outside the canteen and/or an intranet site would enable employees to pre-load cash onto their I.D. badges. When the canteen staff at the register calculate the total bill for the employee meal, the employee would swipe their card and the payment would be transacted. 
+If this idea was implemented, it would help to speed up the payment process in the canteen, reduce queues during busy periods and reduce the canteen overhead needed to handle cash. It would also enable companies to decide who receives subsidised food.

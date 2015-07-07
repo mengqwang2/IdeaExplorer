@@ -1,0 +1,11 @@
+'Big Data' Solution for unified DPAD information
+
+Being part of DPAD IT organization, i interact with sales, marketing, product development , operations, finance and customer service organization . Common problem faced by all these groups is no single source of reliable DPAD data to their operational & strategic decision making ,customer service and improve productivity.   This makes me to think about 'unified DPAD' data concept.
+We have done some internal assessment and ground work . But no real implementation is started or no firm plan to start this project at this point of time. 
+
+Greenplum is EMC's own( Pivotal)  big data platform. Greenplum is advanced platform for any(and all) data. Structured and unstructured data. 
+Currently DPAD uses various transactions processing  systems such as SFDC , SAP , oracle 11i , various SaaS tools ,web based applications / systems , Wiki , for product development , sales , marketing , planning and customer service. 
+Bringing all the different sources of DPAD data 'directly' GP's enterprise ready flexible platform is the  first step in this direction.
+Using Greenplums inbuilt ETL, advanced analytics , Data Mining and  reporting tools, DPAD's disjointed transaction data can be converted in to powerful decision making  tools for all the departments. This is IT 3rd platform solution will radically redefine data into powerful knowledge for decision making process
+Our current approach is half backed solution using multiple first platform and second platform tools to address this issue. Multiple point of failures, cater only structures data and limited analytical and dashboarding capabilities.
+

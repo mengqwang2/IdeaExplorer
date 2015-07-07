@@ -1,0 +1,5 @@
+Share a syncplicity link when sending an email with big attachment instead of attaching it to message body
+
+Everyday I will receive the message said: You mailbox is full, most of the time, this is caused by massive emails with large attachments and in most cases, these messages are from Publication team or HR team who will share some news, in this case, it's useful to put these attachments in a shared server.
+Syncplicity provides file sharing and permission control capacity, if a sender wants to send an email to a group, he can allocate the permission to each one in the group, or Syncplicity can provide this feature by integration with outlook.
+

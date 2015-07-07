@@ -1,0 +1,31 @@
+Graphical Logs For Troubleshooting
+
+Troubleshooting the issue at customer setup is always painful with huge pages of log messages. It drives to think about this idea.
++ IPMI DASHBOARD CAPABILITY onto the existing idea from last year: 
+With the Transformer family of products we have enhanced our SP designs by adding a Baseboard Management Controller (BMC). With this new device, we have increased our ability to service and monitor systems locally as was as remotely via IPMI standard.
+
+Application software is integrated with AOP (Aspect Oriented Programming). 
+•	Pointcuts will be defined in AOP for a package/subpackage/method based on the criticality of the module
+•	At runtime when the pointcut matches, AOP interceptor captures the object state and executes the advice action that will create the Graphical Logger Object with the necessary parameters such as class name/method name/method parameter value and timestamp of execution using Graphical Logger Framework.
+•	Graphical Logger Framework API is designed in layered approach where each layer provides different object which performs different tasks. This makes design flexible and very much extendable in future based on need. 
+•	Filter Object in Framework API makes decision on whether  the logging should be done or not based on the selection of AOP Logging by user.
+•	If Graphical Logging has been enabled, Graphical Logger Object created with the data using Graphical Object Renderer.
+•	Graphical Object Renderer is specialized in providing a graphical representation of different objects passed to the framework by AOP with the help of Graphical plug-in such as Neo4J and etc.. This object is used by Graphical Layout object to prepare for final logging information.
+•	The Graphical Log Manager object manages the  graphical logging framework. It is responsible for reading the initial configuration parameters from a system-wide configuration file or a configuration class.
+•	The Graphical Logger Object feed the data to File Appender object which will append the graph to log file.
+•	The log file will show the execution flow in blocks with the data passed by AOP.
+
+BENEFIT:
+
+•	With the pictorial representation of application execution flow, easy to troubleshoot the issue.
+•	Flexibility to enable/disable the graphical logs via configuration during runtime. Configuration to be flexible on mentioning which modules or class files, they need the graphs on.
+•	Quick Turn around time to resolve the issue by CS/Escalation Engineering teams
+•	Supreme Customer Satisfaction by resolving the issue in a shorter period and hence better TCE
+•	Messages with pictorial representation leads the support/PS/Engineering team better resolve the issue and guide in right direction  rather than analyzing text messages and getting scattered around the assumptions.
+•	Reduction in number of CQs raised by Support / CS Engineering
+•	1 month effort by 1 person to implement this solution completely. So easy to incubate
+
+
+
+Please find the deck at http://one.emc.com/clearspace/docs/DOC-79227
+

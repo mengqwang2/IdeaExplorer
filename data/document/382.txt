@@ -1,0 +1,35 @@
+Real time data analytics of telemetry information to predict performance issues and failures 
+The idea targets HW products within the datacenter, CI solutions or as backend to ViPR. The target is to deliver value to the customer and enhancing our HW solutions by predicting HW faults and performance problems from logs and telemetry information in real time 
+
+We will use big data techniques like correlation and trend analysis as well as time-series
+Predictions to convert telemetry data into valuable insights in real time. 
+
+Real life experience in supporting storage arrays and fixing these two issue types by manual log analysis which used to take much time and effort while a simple big data engine can do it in real time.
+
+
+How it works: 
+
+1-	collect logs and analyze it using text analysis and parsing tool that converts it to structured data showing events for each HW component in timely order
+2-	collect telemetry data showing configuration and structure it the same way & store in the database
+3-	collect performance data/reports and aggregate with the above two data sources.
+4-	Run correlation models to analyze relations between different factors and the performance. 
+5-	Use Multivariate time series analysis to see the trend of the different variables (components, performance, configurations and services) over time. 
+6-	Run HW component failure prediction module:
+a.	each HW component will have a time series of timestamp + event + event severity. This data will be fed into Analytics engine running ‘Trend Analysis’ models and ‘time series analysis’ to predict the severity of the next event and expected time to fail (ETTF). 
+b.	HW components that are predicted to fail soon will be automatically reported to support (dial home) for logs investigation and to take proactive measurement
+c.	This way we can have tolerance for parts shipment times meaning that we can ship less frequently by grouping multiple parts together in one shipment for the same area (batch shipments instead of frequent single shipments).
+
+7-	Highlight the highest factors affecting performance and return a visualized report in the Unified management GUI of the CI system like AMP in VBlock.
+
+The solution can be implemented in the storage array operating environment or can be added as a separate module in storage management solutions like ViPR. 
+
+ViPR is a good environment to add our module to as it manages different storage arrays and collect logs from different systems.  The predictive engine we are proposing can be added as a solution pack in ViPR SRM or as a service running on ViPR controller.
+
+1-	Report system performance in real time 
+2-	better monitoring and problem resolution
+3-	Proactively predict failures
+4-	Maximize TCE
+5-	Save cost & time for customer service
+6-	Proactive approach to mitigate severe problems
+7-	Avoid frequent shipments of parts
+

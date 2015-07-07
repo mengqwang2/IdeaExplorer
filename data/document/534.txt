@@ -1,0 +1,10 @@
+WebApp for customer communications
+In Todays EMC environment, we have Teams supporting multiple customers by same set of resources and Outlook is being used as their primary mode of communication with customers. When we are using Outlook for email communications with customer, we are definitely exposed to risk of sharing confidential data of one customer with Other.
+My idea would help EMC to safeguard interest of customers data, by protecting confidentiality, availability and integrity of customers data.
+In my Team we are supporting more than 30 customers, and outlook is the primary mode of communication to interact with all customers. The kind of service that we provide to all customers are almost similar and there is always a chance that we may accidentally share data of one customer with another. During one of the discussion with my Management on customer communication improvement process, I highlighted the risk that we are currently having in our communication space and I also proposed the solution of having WebApp with macros configured to prevent us in doing so.
+Develop a “WebApp / Portal” that would act as the email client for the EMC team (instead of using Outlook). This application would use credentials to read the mailbox from Exchange (using EWS for example). It would also be able to read LDAP to get email addresses and distribution group membership. And it could read a SQL DB where customer data could be stored. Logic would then be developed to ensure that only messages to certain addresses could contain certain information.
+•Primary benefit is to protect the interest of customer confidential information, by allowing Tool to pick appropriate customer email ID’s as per the SOP.
+•To ensure MS is adhering to compliance and standards of ISO, in terms of customer communications.
+•Reduction of human intervention and time involved in manually selecting customer email ID’s and drafting subject line.
+•Providing ability for MS / OTS Teams, to accommodate more customers under one pool, by clearly segregating communication channel with respect each customer.
+

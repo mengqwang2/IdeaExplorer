@@ -1,0 +1,5 @@
+Employee Availability System mobile application
+
+I was thinking about this idea a long time ago and I thought it will be very useful to have this mobile apps as it will help us to submit and check our leaves whenever we are out of the office 
+As many of us now are having smart phones, it will be much better to submit our leave and check our balance through a mobile application, also notification to send to out manager to approve/reject our request.
+

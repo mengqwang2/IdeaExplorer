@@ -1,0 +1,19 @@
+Automated email acknowledgement for monthly bills submission in FBP
+
+1.I got this idea when one of my colleague faced an issue. The previous month bill was not credited in the salary and neither did the person get an intimation that the bill was rejected.
+
+2.So to avoid the complexity of having to track the bills reimbursed via the pay slips and portal updates, setting up acknowledgements would help in a better way.
+1.The conventional approach that is  followed regularly is that we update the bill amount in the portal in FBP and then click for a copy of the submission.
+We submit the amount declaration copy and the original bills in the drop box.
+Once we are done with the process we don’t get any updates regarding the FBP’s status :i.e. if the bill was received or validated until we get our pay slips for the month.
+
+2.In some cases the bills are missed,some cases the amount is not credited.
+To solve this problem we can set an acknowledgement for the bills that are declared and submitted in the drop box.
+
+3.We need to receive an automated email stating that the bill is acknowledged once the bills are submitted in the drop box and after the bills are taken from the drop box;i.e.7th of each month as and when the bills are verified and amount sanctioned. 
+
+4.This helps in maintaining a clear track of the bills and eventually your pay for the month.
+
+5.To make the process less tedious for the payroll team we can set a common automated email to be sent out to all employees who have submitted the bills,stating that the bills for the corresponding month has been received,validated and the amount would be credited in the salary of the particular month. 
+
+

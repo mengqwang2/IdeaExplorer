@@ -1,0 +1,5 @@
+Moxie time capture in Service Center.
+Saves time and increases automation of Service Center tool.
+Every time while updating the moxie chat note in the SR, I feel that this will help in reducing the step of entering the time in SR and 
+Moxie chat is any ways attached in the SR once the chat closes, why not an automatic update on the time spend on the chat also happens in the SR, this will remove the manual entering of time after completion if the Moxie chat. 
+Reduces manual work and reduces errors in entering time in the Service Center tool. Saves Time.

@@ -1,0 +1,6 @@
+EMC Events App
+
+brainstorming session
+We will create a mobile application where we will find all annual events details of EMC, and we can find in it all the details for each and every activity and event for EMC for example "charity events, Fit classes, Ramadan packing, blood donation ,, etc"
+any new activity will be posted on the app and users can follow the type of activity they prefer.
+

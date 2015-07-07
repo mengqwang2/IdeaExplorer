@@ -1,0 +1,5 @@
+A suggestion  add-on for JIRA
+Usually as a first step of investigation of a issue/question/bug , we go and search related issues/questions/bugs in JIRA based on some keywords. And some time search results are not useful at all . And this consumes  a considerable amount of time. The pr
+This is part of Innovation Mining workshop
+Build a JIRA add  on to pick up keywords from the Ticket name/Body/Project/Version/Type/Reporter/other important fields and bring up the best related issues. For example : If I am assigned an issue to fix/debug. I can just open go to the add-on, provide the ticket number. I will get the best and closest matches after parsing all the fields and searching in the existing DB.
+The proposed add-on will definitely improve the productivity and will save a considerable amount of time in resolving the issue/question/bug.Also this add-on will be a generic ,so could  be used across products by anyone.

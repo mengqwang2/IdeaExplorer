@@ -1,0 +1,8 @@
+Ideas Rating and rewarding - With Pointing System
+N/A
+Ideas quality is more important than their count, this is why suggesting a pointing system for the ideas submitted.  
+Why not, after ideas got reviewed, they got rated (scored) also, the rating can be from 1 to 10; following a defined pointing system.
+Any idea with a score above 8, the submitter should be considered to be rewarded, and the idea should be implemented.
+
+Each individual will have a score (points) that shows his contribution to EMC with his own ideas.
+Ideas Quality will increase because they got scored. 

@@ -1,0 +1,15 @@
+Predictive and Self Healing Data Center Management
+
+THis was one of the top 10 Software defined data centre challenge idea in 2013
+Please refer Idea no 2013002782 : 
+Predictive and Self Healing Data Center Management.
+
+Only enhancement to this idea would be to integrate the suggested predictive application in the earlier layer with ViPR layer 
+
+This idea is more relevant now due to the below challenges :
+
+APJ < 15K Challenge
+APJ COE "Future of EMC II" CHallenge
+APJ COE "Future of EVP(EMC Federation)" Challenge
+EMSD Innovation Challenge
+

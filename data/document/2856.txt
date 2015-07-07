@@ -1,0 +1,5 @@
+Leverage existing open-source software for communication 
+allow for crowd sourcing cultural digitization project ideas from employees
+The idea comes from my experience with Trello
+Use existing software, such as Trello, Wrike or Wunderlist. They have many good tools to satisfy most of employees’ requirements, and available for iOS, Android, Windows and Web. Additionally, leveraging the existing software avoid costing extra effort of our employees to maintain the app.
+it succeeds if employees would like to use the software to share cultural digitization project ideas. It avoids employees’ effort to maintain the app and improve the community involvement

@@ -1,0 +1,5 @@
+Webex Chat Time Stamp
+
+This is a daily challenge faced when communicating with the customer and trying to set a certain level of expectation for example when providing the customer with periodic updates or certain business critical operations such as reboots or scheduled downtime activities.
+Can be simply embedded in the webex toolbar source code; retrieving the time from the machine controlling the webex and printing the time stamp below every chat message sent. 
+

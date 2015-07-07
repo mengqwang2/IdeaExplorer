@@ -1,0 +1,12 @@
+Integrate Screenshot Capturing for Error Handling
+The idea is to integrate common behaviour to troubleshoot customers’ issues for ECD products.
+The idea came up on Captiva brainstorming session.
+“Screenshot Button” on exception screen can solve this problem – if something unusual happened, customer can press the special button and screenshot will be automatically saved to the special folder. 
+The Button can be available from any screen, not only from screens with exceptions.
+The functionality of this button can be extended by additional functions for DLL listing and for System Information (.nfo file).
+“Screenshot Button” can be added to any module or screen in any ECD product.
+This solution will save a lot of time (and as a result, money):
+- It is easy to make screenshot in 1 click
+- Additional information about the issue is saved; sometimes it will be enough for starting investigation, as a result, the customer will take answer/resolution earlier
+- If issue is hardly reproducible, it is not necessary to reproduce the issue again immediately
+As a result, the customer is happy, support is happy, engineering is happy.

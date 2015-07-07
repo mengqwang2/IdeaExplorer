@@ -1,0 +1,23 @@
+Drive GPO to cloud via our ace application - EMC Supplier Exchange
+Our idea matches the Global Product Operations Challenge because the proposed way is to use EMC supplier exchange in our products supplier chain and manufacturing operations, it doesn't only can provide centralized system to manage products' deliverables processes, documents management, and approval workflow control and so on, but also built on cloud. It is able to improve the globe product operations process, and drive GPO to platform 3 with low cost of our own ace cloud product.
+The idea came out because we saw the supplier chain and manufacturing operations requirement of GPO challenge, and we are all very familiar with the abilities of EMC Supplier Exchange, which is very well fitting for resolving GPO’s challenges, so we gathered together to discuss and summarize this idea on 26th of June.
+We propose our solution basing on EMC Supplier Exchange.
+EMC Supplier Exchange is the first SAAS solution from ECD, which is cloud based application. It is an "extended enterprise structured collaboration" product, and it targets at engaging in collaboration, content management, and workflow interactions with teams inside and partners outside.
+It is deployed in Cloud Foundry, stored via xDB, Cassandra and swift, which insurances its high availability, stability and extensibility. And its data structure very well settled the structured and non-structured data during the products supplier chains management process.
+Supplier exchange follows a rigid data hierarchy in which Engagement Spaces (aka capital projects) contain Projects (aka contracts) which contain Checklists (aka deliverables lists) which contain checklist items (aka deliverables) which contain documents.
+This hierarchy is represented in the xCP application as a case model, with each engagement space being a case instance.  Containers in the model such as spaces or projects are all case container nodes.  Documents in the model are case leaf nodes.
+Access to various areas of the case instance hierarchy is determined by roles stored in the case instance
+
+And now we are already running our own cloud platform in Santa Clara, EMC Supplier Exchange is the SAAS solution in it that we are promoting. So to achieve this solution, there are several millstones:
+The first one is establishing GPO tenant in EMC Supplier Exchange to POC existing GPO business:
+1.  Add a tenant for GPO POC in our first maintaining SAAS solution in Santa Clara.
+2. Create the corresponding data structure of the businesses that will be planned to migrate to SAAS. Using its processes management feature and approval processes to achieve the existing businesses of supplier chain and manufacturing operations.
+3. Run part of the daily tasks in Supplier Exchange to summarize the advantages and disadvantages.
+The second one is to confer with Supplier Exchange team to improve the application’s features to support GPO’s business better. 
+Then after the changes happen, we can have a more completely and detailed plan to share the corresponding features to partners, internal teams and customers to gain much better customer TCE.
+
+1. It is using our own SAAS solutions, which will great help GPO to involve into 3rd platform.
+2. Centralized end to end management of supplier chain will make GPO’s operations more efficient and effective.
+3. Using our own SAAS solutions to improve existing businesses will greatly reduce the cost and drive the cost out of our operations to enable investment in Platform 3
+4. EMC Supplier Exchange is the first SAAS solution for "extended enterprise structured collaboration" product, the collaboration involves teams internal, partners and customers, it will improve the customer TCE.
+

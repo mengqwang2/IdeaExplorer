@@ -1,0 +1,11 @@
+Bring your own device
+
+Bringing BYOD concept to EMC.
+Best Place to Work.
+moving into 3rd Platform.
+Employee can buy their own laptop/tablet of choice whether it is Mac, Windows or Ubuntu and company will reimbursed the cost. Will login to the network through VPN via RSA or will directly connect to the VDI.
+Employee will take care of their laptop including warranty/gaurantee.
+You can have two to three devices registered for each employee depending upon the grade. So it can include your laptop, tablet or smart phone. Ready to access from anywhere anytime. 
+
+
+

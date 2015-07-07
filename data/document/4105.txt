@@ -1,0 +1,11 @@
+E-Receipts for Concur  - Eliminate printed bills and promote electronic receipts@ EMC
+
+I do that often, wait in the print queue, print bill, same time attach e-receipt and wonder why both are needed. 
+Currently we send printed copy of telephone bills.
+Whereas most of the telecom service providers have moved on from printed bills to eBills.
+
+@EMC, we should also embrace the same. it should not be mndatory for the users to attach the printed bill, rather an eBill should suffice. At times the printed bills can span multiple pages for any itemized bills.
+This results in considerable personal productivity loss for the user, significant printing cost and overhead for the Payroll team. With the audit process and compliance methods still be possible with the unprinted, e-Receipts, I would think this is a Win-Win for all. 
+
+Beyond concur, this should be replicated for all areas where there is scope for eliminating paper printing.
+

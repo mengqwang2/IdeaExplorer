@@ -1,0 +1,29 @@
+Heidi Matrix visualization of My voice data
+
+We are a ‘Data center blueprinting and data visualization’ team who helps in consolidating multiple data centers. We are also part of a My Voice Strategy planning team and have worked closely with the Managers/HRs in tracking the progress and completion of actions. The idea came up when we saw the reports presented this year and brainstormed on how to use these data for data analysis.
+We would like to propose a design and architect a solution that would correlate the three years data that’s available and also project different dimensions of the data. The USP of this solution is pattern recognition, in depth analysis and projection of the data for every level of the company.
+
+A Data Integrator is used to capture the data from multiple source systems and integrates it into a single persistent data store. This helps to synchronize all the Myvoice survey results to a single database.
+
+De-synthesize the data to form a cluster of Correlated data: Categorize the Survey results to derive meaningful information.
+
+Data visualization to abstract the data contained within a variety of correlated datasets, so that they may be accessed without regard to their complexity and their outgrowing quantity.
+We would like to use a Heidi Matrix approach for the Data Visualization if the dataset suits for it. Heidi is a high dimensional data visualization system that captures and visualizes the closeness of points across the dimensions; thus, helping to understand the data. 
+
+Data Analysis Algorithms: (Mentioning few of them)
+Result Adjustment - adjust low-level parameters
+Set a Threshold to normalize the biased survey results, for example: Low hike given to the employee may result in a complete negative survey result from him. 
+Predictive Analysis based on the pattern recognition: Combine the available issue logs and the action taken to predict the future survey results.
+
+Decision support system: Output of the Data Analysis Algorithms can form a Management DSS.
+
+We have a High level design diagram for this solution here.
+https://inside.emc.com/docs/DOC-100210
+
+How to implement this solution:
+
+Either have a Team with in EMC to develop this 
+Or
+Leverage existing tools like “Twister Data Framework” to get a quick response.
+
+

@@ -1,0 +1,5 @@
+Email access to every phone
+
+Emails are enabled in Few employee's cell phone(depending on their Role). If it can be done to all, it will help.
+We need to enable emails in all the employee's phone. In this way, Employee need not to connect to laptop in case of emergency and can answer using his phone. This will increase mobility, response time and faster communication.
+

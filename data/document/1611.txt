@@ -1,0 +1,24 @@
+Server and Storage Consolidation using Scale I/O, VSAN and VPLEX
+Durham Data Center Elastic Labs Challenge - Allows consolidation of storage and server and creating virtual lab out of it, and offer on-demand service
+Environmental Stewardship Challenge: Solutions proposed here will help EMC to reduce HW , lab equipment - which will ultimately help in energy saving.
+
+IT Contemporary Workplace Challenge: Provides a seamless experience from anywhere with device flexibility and less restrictions.
+At very low scale level, I tried this solution for my team, where using Scale I/O & VSAN I created a storage pool from the different Servers, and used that storage for deploying virtual machines for testing. 
+1. Create Storage Pool by pulling un-used storage, disk-space from all Servers in DataCenter. Use EMC Scale I/O or VMWare VSAN to pull all the storage space from Server and create a common Storage Pool. That storage pool can be used for hosting Virtual Machines & Applications required by R&D, Engineering Organization to support their day to day work.
+
+2. Use VPLEX to consolidate all the un-utilized storage space from different Storage Systems present in the DataCenter. In order to maintain continuous availability, set-up VPLEX Metro solution. 
+
+
+3. Integrated Management, Provisioning and Monitoring System using VIPR 
+
+
+4. Commoditise the lab / equipment and enable - "TEST AS SERVICE". Depending on Testing needs (Performance/Scale, Interoperability, Resiliency tests) user can select HW equipment, configuration types and tests to be run.
+
+1. Huge saving on Lab Equipment Exchequer, the saved $$ can be spent by EMC on new R&D or acquiring new technologies.
+
+2. Hassle free, commoditised Lab Environment - BU pays only for what they use. Reduced Capitial Expenses on HW Equipment. 
+[On an average each BU in EMC spent > $ 10 m on HW/lab equipment]
+
+3. Effective and efficient utilization of Lab equipment, will result into saving of electricity/power in DataCenters.
+
+4. R&D and Test Organization will get benefited by Industry standards / Customer Configuration to test their software/deliverable, which will help in finding critical defects in early development cycles.

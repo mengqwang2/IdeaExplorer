@@ -1,0 +1,5 @@
+Geological/seismic data specific compression algorithm for storage systems
+It's relevant for Skolokovo challenge because this idea applies EMC products and competence to a new area.
+I have presented this idea at one of the brainstorming sessions in RCOE.
+Develop a domain-specific fast data compression algorithm to compact the data near the place it gets generated. Create an API which would allow data processing applications to work with this data format directly, thus eliminating the need to store the data decompressed at all.
+By including this algorithm in its storage systems, EMC may move the competitors out of the market of geological data storage systems.

@@ -1,0 +1,26 @@
+Business data lake with powerfull lakes and ponds
+
+during business datalake architecture discussion this was been suggested by me as a thought to avoid duplication of data.
+Business data lake needs data to be copied/moved to a single location which is HDFS and on top of HDFS utilize tools like sqlfire/Gemfire to get realtime reporting benefits
+greenplum for MPP and also act as playground for data scientist 
+and other database and analytics tools integration which can utilize all the data from a single location which is HDFS.
+
+instead for realtime reporting we can have a agent designed which will be proprietary designed for EMC hardware.
+
+This big data agent will have its own analytics engine which is configurable and have capability to analyze only EMC hardware specific data. This will bind customers to EMC federation product ecosystem.
+
+The big data agent will process and push the required/desired results in incremental manner wherein the data will not be processed at a specific time, it will be processed  in an incremental manner which would put negligible load on the server. 
+
+
+1) customers don't have to duplicate their data and bring to a central location 
+
+2) if customer already have EMC, VMWare and Pivotal products, existing hardware will take care of analyzing there data in near real-time.
+
+3) if customer has only VMware solutions then we can suggest EMC hardware and Pivotal to fill the gaps by providing all EMC federation stack or vice versa.
+
+4) this will boost EMC existing product lines to be utilized in an efficient/elastic manner
+
+5) All EMC hardware's in customer location are not been utilized fully due to which customer has a second thought of going to elastic cloud, 
+
+6) this solution would utilize their existing hardware in analyzing whatever data they need and bring them closer to EVP federation products. 
+

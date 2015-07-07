@@ -1,0 +1,13 @@
+A "Simplified" Paddle Card for Drive Assembly 
+
+From the competitor analysis it can be seen that many of our competitor's product has adopted a paddle-less design, which moves all the paddle card functions to the control board and backplane. 
+
+However, adding many active components to the backplane would compromise significantly the system reliability and violate EMC design philosophy, and therefore we'd hope to keep the part-less backplane design practice and continue using the paddle card.
+
+The idea of the simplified paddle card can be considered a hybrid of the advantages of both design philosophy - it doesnt impact the backplane reliability, but we can get some substantial cost saving out of it. 
+The drive paddle card carries three major functions: inrush current limiting / fault isolation / power generation for 5V. As a result there are efuse and voltage regulators present on each paddle card.
+
+The idea of a simplified paddle card would be designed with a dual channel load switch plus two fuses for the main 12V bus and 5V bus. The control board will carry the burden of generating 5V and distribute it to each drive. 
+
+This centralized regulator approach has better cost efficiency over the distributed regulator approach we are designing nowadays.
+

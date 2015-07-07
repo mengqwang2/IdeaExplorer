@@ -1,0 +1,41 @@
+Real Time Synchronous Cloud – a Star Topology Based Replication over the cloud to enable real time replication over high latencies using Stretched Clusters
+
+
+
+ I was comparing between distributed database synchronization and comparing it to EMC cloud solution like EMC Atmos and VPLEX . I also started  to study different network topologies and how can they help reduce the total latency needed for broadcast/sync of data.
+
+
+The idea works as follows :
+
+We will use EMC cloud based solutions such as VPLEX to offer :
+•	Seamless data mobility
+•	Stretched clusters 
+Different nodes will replicate its data over the cloud to a central EMC cloud solution (VPLEX). This central node will then synchronize the data with other ends in real time.
+The sync process will go as follows :
+•	Each workstation has its access to file system on the cloud
+•	Sync happens between the changed files (locally) and the cloud filesystem (this step is subject to latency and will be optimized below)
+•	The updated filesystem on the cloud will then be used to copy changes to the cloud filesystems of other nodes locally on the VPLEX  (this step happens localy on the VPLEX with no latency)
+•	All the filesystems on the cloud are now updated. Sync with the remote nodes begins 
+•	VPLEX (the central node) now pushes the updates to the remote nodes over the cloud (this step is subject to latency and will be optimized below)
+•	This way data is copied once in one way between the remote node and the central node and vice versa
+•	Star Topology offers less number of links (N links instead of sum from 1to N) where N is the number of nodes.
+•	The sync process between the cloud and the remote node (workstation that has openGL application) is the bottle neck in this approach and can be optimized using the following steps :
+o	Deduplication on source : A software layer is tied to the scientist’s workstation and will keep track of the copied data. It will utilize EMC smart deduplication techniques (source based deduplication) to detect the modifications in the files sent. It will only send the changes + the new metadata. This will help reducing size of data sent 
+o	Compression on source : Before sending the data, it will be compressed to achieve minimum size before sending 
+o	Clustered workstations : The data will be sent using more than one source workstation (as one node) at the same time to maximize the performance.
+o	WAN Optimization : The solution will make use of famous WAN accelerators and optimizing tools such as SilverPeak to add better performance.
+•	VPLEX as an EMC cloud solution adds the following built in benefits :
+o	Advanced data caching utilizing large scale SDRAM to improve performance and reduce latency
+o	Distributed cache coherence for automatic sharing of data and IOs
+•	This means that we need minimum modification to existing EMC solution (VPLEX) to equip it with the software layer for deduplication and compression ad well as coupling it with EMC RecoverPoint as a replication solution
+•	The solution can be scaled up to have a core-edge topology or using EMC ATMOS as a high end solution.
+•	Distributed Database Synchronization concept can be added as an implementation example
+
+
+REFERENCES :
+
+1-	http://www.emc.com/storage/vplex/vplex.htm 
+2-	http://solacesystems.com/solutions/distributed-database-synchronization?gclid=CIC2hYOzg78CFTSVMgodrWgAog  
+
+
+

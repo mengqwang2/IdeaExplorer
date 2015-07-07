@@ -1,0 +1,5 @@
+Process Improvement for iCOE FBP Claims
+Existing process for FBP claim is not so modern. There is lot of paper used. Manual tracking, processing. No confirmation to the employee if the claim is reached the relevant teams, processed etc..
+I have seen this working efficiently with my previous organization. Claims received, Claims verified, Claims processed -  automated e-mail acknowledgements are sent to employees. Transparent process.
+This will reduce a lot of Paper. Manual effort to verify. Avoid human errors (while verifying, processing)
+This idea will benefit the employees and Payroll team's experience, GPTW

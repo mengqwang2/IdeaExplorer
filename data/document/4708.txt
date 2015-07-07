@@ -1,0 +1,16 @@
+Build a cloud-based central lab resources management platform to simplify and automate lab resources management
+
+This idea of thought was evolved during brainstorm with Guo, Xiaoyan and Cao, Yu of CTO team as their team. To meet some resource problems and speed up OS/network environment deployment, building a cloud platform using one of the multi-tenant cloud platforms like OpenStack/vCD is necessary.
+
+The idea uses multi-tenancy cloud platform like OpenStack/vCD as clouded based infrastructure. It will integrate all kinds of lab hardware into one cloud platform. 
+
+OpenStack is a collection of open source software projects that can be collectively utilized to operate a cloud network infrastructure in order to provide IaaS. The utilization of OpenStack in this idea is elaborated as follows: 
+
+•	Use OpenStack Orchestration service(or similar service ) provides a template-based orchestration for describing a cloud application by running OpenStack API calls to generate running cloud applications. Integrates some components of OpenStack into a one-file template system. The templates enable user to create most OpenStack resource types, such as server, floating IPs, volumes, security groups, users, and so on. 
+•	Use RESTful API exposed by OpenStack to write scripts to automate common tasks in SW lab for user conference. If necessary, develop hardware simulators integrated with server/ template-based orchestration.
+•	Use Open vSwitch integrated with cloud platform to simulate complex network environment, like VLAN, load balance, etc..
+•	Provide standard OS template or customized template in cloud platform provide by BU users to speed up infrastructure deployment in developing/testing environment.
+
+ 
+
+

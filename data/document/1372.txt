@@ -1,0 +1,44 @@
+workspace.next
+The given idea is helping to make communication and collaboration easy and more real. We are proposing a unique application which simplify the sharing and provide new technology touch.
+New application will integrate with existing communication channels for better use of existing tools.
+While discussing about current communication issues and challenges we got this idea.
+We are proposing a unique application tool which will help to create virtual communication simple, real and delightful. The tool will provide following panes,
+
+EMC Dashboard:
+    - gives latest communication pop-ups
+    - personal page where people can upload their details including expertise, hobbies,
+      interest or even nickname.
+    - able to add notes, daily tasks list or important points
+HiBuddy:
+    - team pane where people can share team specific activity like tasks/bugs updates,
+      milestone, releases etc. Even this pane will show team events, birthdays, any
+      celebration, Anniversaries. This will be virtual team for distance team/people.
+    - virtual whiteboard which will support normal typing with hand written text and
+      "voice to text" conversion also.
+    - Lync and WebEx integration : people can connect directly from this tool rather going
+      through mail details. this is a new way to setup meetings.
+    - People should be able to post queries, requirements or problems with tags and
+      based on tags, tool will send the post to the people who are interested in the given
+      tag area.
+      This is a easy to way to reach to concern/expert person.
+    - feature to give virtual gifts to others and recognize it in team page.
+      easy to celebrate or appreciate any small thing done by buddy.
+Services:
+    - single pane to point to all EMC workplace sites like inside EMC, ADP, Concur,
+      Amex, etc. Even facility to store username/password secure way to avoid
+      login pain. Just ask for NT credentials to enable auto login. This interface should
+      help to create/delete selected accounts.
+    - visual map of floor and parking to find washroom, conference room, pantry,
+      cube location of employee and free parking slots. search support to find free
+      conference room, food menus of cafeteria, free cube, etc.
+    - software as a service : share paid software’s hosts/VMs based on requests like
+      video recording, MS Visio, UML tools etc.
+Funtime:
+    - ability to create group based on people interest. People can share their views.
+      group voting features.
+    - suggestion box
+    - quiz games 
+
+All these features will be plugins and in future there should be provision to add custom plugin as per team/department requirement. The tool must be customizable as per employee need i.e. remove or shift page, color or theme change, etc. and available on mobile and laptop. Currently there is no tool like this and existing communications tools are spread  and time consuming.
+	The application tool can looks like VMware vSphere GUI (http://docs.hol.vmware.com/HOL-2013/hol-sdc-1318_html_en/). We will add mockups if required.
+The tool will simplify the communication and bring the company employees together. This will save employees time and increase the productivity. This will help to improve diversity, employee satisfaction, better use of expertise for product improvement and better use of existing tools/resources.

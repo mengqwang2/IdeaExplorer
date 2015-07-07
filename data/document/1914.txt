@@ -1,0 +1,24 @@
+Global Business Services(GBS) process re-engineering and automation using Software Robotics
+Our idea was to automate existing business processes with simple scripts in very short time(2-3 weeks). This perfectly aligns with the E2E Horizon – End to End Business Process Challenge. The idea is simple to implement and will get huge savings in cost
+Software Robotics was suggested as one of the ways for addressing a GBS problem. Selenium was chosen the tool from our past experience in automation.
+The proposed solution which is currently in UAT is built using Software robotics approach.
+All data sources associated with the manual process are identified and configured.
+Using data sources from step1, simple open source robotic framework ( Selenium in this case), each step in the process is defined configured and coded. Please note: These steps are nothing but web crawling and screen scrapping processes. 
+
+A demo of screen scrapping can be seen here
+https://inside.emc.com/docs/DOC-155189
+
+A reusable auditing and exception framework is used to provide  to capture the information related to process execution flow.
+END 2END process automation is triggered using a simple web app that runs all the steps configured in point:2 above.
+Example USE CASE ( in testing phase): Email Notification 
+
+A demo can be seen here
+https://inside.emc.com/docs/DOC-155189
+
+A detailed architecture is available in the following document
+https://inside.emc.com/docs/DOC-155232
+Process automation can be achieved in 2-3 weeks
+Basic Java programming skills is sufficient
+Normal PC like machines would be sufficient to execute robots
+Easy to change the robot code
+Very high RoI(Return of Investment) thanks to huge savings achieved in very short time

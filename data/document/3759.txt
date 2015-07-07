@@ -1,0 +1,8 @@
+computer program for automated test case design and test scenario generation
+
+This idea came up while brainstorming about how to solve our regular manual and automation challenges. The idea was submitted to the patent committee but yet to hear a response on the same. It is under internal evaluation. We have worked on POC and it is ready for demonstration.
+https://inside.emc.com/docs/DOC-100125
+The proposed invention will allow the manual tester to write the automation script while designing the test case for the first time of a particular module. 
+The utility will generate desired input file for the framework at the time of writing the framework.
+The proposed system will follow the defined standard which will be consumed by the multiple projects thereby adhering to one common style or approach of automation.
+

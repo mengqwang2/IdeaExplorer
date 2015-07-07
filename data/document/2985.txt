@@ -1,0 +1,13 @@
+EMC Cloud Space App
+
+- Not much non-IT and non-storage people know about EMC, even though it is a market leader in its domain. EMC does not have direct reach to wider range of users as opposed to other companies like Google,IBM,HP,Amazon etc who deliver end-user products lik
+- Felt that not much people are aware of EMC. 
+- Initial step to enter in "Business to Consumer" market.
+- An android application can be developed similar to existing app "DropBox" which will provide a nominal amount of storage for free to users. Additional storage space can be charged accordingly.
+- For this Cloud based solution old/legacy boxes can be used with latest cloud based tools, devices and software. This set up can be a model setup for EMC Cloud based Customers, will help sales with this LIVE implementation. 
+- We can make better use of Lab boxes available across the globe by integrating ViPR in the environment.
+- If we are giving free space, pro-active customer services won't be needed. New EMC products can also be advertised on this app.
+- Social acceptance can help EMC to grow in other regions and functional domains as well. We have seen that socially popular startups like Flipkart, PAYTM, FreeCharge have grown like anything and setup new benchmarks. 
+- Social Popularity
+- New step for bigger market.
+- Will be a model for EMC Cloud based Implementations by using old boxes and new technology.

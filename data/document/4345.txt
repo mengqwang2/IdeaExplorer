@@ -1,0 +1,21 @@
+Customer Feedback via webportal/App/social media
+
+We dont hear back from all  our customer inspite of shooting surveys to them so we lack feedback and chances of improvement .Directly or indrectly  it impacts customer satisfaction.
+Observed that feedback/escalations/product delivery details all sort of communication from our end primarily  happen via emails or verbal communications and customer has no mechanism to track it.Customer has to wait for email reply or a call back.
+Idea: Need of web portal/App which would improve customer and EMC engagement.
+
+1. Track progress of ongoing engagement with EMC Sales/project management/Implementation/licensing in the form of alerts via sms/email/portal Alerts, Given customer a choice of communication he or she prefers.
+
+2.  Customer should be able to provide Feedback to EMC at any given point of time rather than waiting for a survey. Feedback should be visible to all the parties involved .Covering sales/project management/Implementation/Operations/Support 
+
+3. Transparency in feedback may be in verbal or email communication. Feedback should be uploaded to provide transparency to all stakeholders.
+
+4. Transparent Escalation mechanism for the customer for each and every engagement with EMC.Availbility of escalation matrix linked with SLA.
+
+Features can be added to the social media plugin portal SR tracking, Licensing information, Hardware/Software details of customer environment can be made visible to the customer keeping in mind EMC confidential information.
+
+We can link our EMC existing tools to the web portal/app to provide information to the customer for tracking, providing feedback and escalation while keeping our confidential information secure.
+
+Note:Customer refers to End user/customer, Field, Partner
+
+

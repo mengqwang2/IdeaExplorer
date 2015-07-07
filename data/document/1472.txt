@@ -1,0 +1,20 @@
+Sustained Cross Enterprise Collaboration across dispersed networks using EMC 3rd platform.
+
+This idea focuses on building a connected Ecosystem  to demonstrate enhanced and effective collaboration platform across EMC’s Federation partners, and across the COE Ecosystem
+The idea is in incubation stage.
+Our idea is to empower EMC to strengthen its network across boundary and create a powerful culture in transformed IT industry by reorienting the solution toward the revenue and productivity benefits that interactions generate and opportunities to improve connectivity at the points that create the greatest economic value.
+To achieve above solution , we will use existing EMC tools i.e Inside EMC integrated with other existing tools Share and ECN more focused towards utilizing network analysis model where each team member will observe a value in collaborating across different teams
+
+ - Create integrated network using all existing tools, putting a security layer in place to determine the blogs/posts/initiative which cannot be shared with in the outside world. 
+
+  -Every individual will have some #tags defined for their skills,inspirations,roles and technologies they would like to mentor etc.EMC has different projects running in different spaces. Also EMC could introduce some projects/priorities where they chose/need members from their subscribed interests. For e.g, Identify gap in on boarding Processes.
+- Based on the interest of employees they can subscribe for their involvement in the different projects, at least one.
+- Senior Management teams could ensure that employees at least opt for one project/ initiative where there interest matches.
+- Notifications based on user interest and team participation can also be pushed to outlook and Lynch.
+- To Market this Network model , EMC can organize a Federation day where employees from different federation groups will interact for EMC identified priorities.
+- EMC federation leadership can analyze the value that is flowing across networks and can replicate high-performing networks. Other employees can be trained to emulate the collaborative approaches of successful colleagues This will enable to have valuable expertise and advice more readily available to reflect mutual accountability of BU's and EMC Federation better.
+- The above measure could be measured by a collaborative score where each metrics of user collaboration i.e. defining their skills, opting for different projects, sharing their outlook, meeting the different team, Lunch with different members will be measured and converted to monitory points.
+
+Involvement of diverse, global people enable EMC federation to provide quality Solution and quick resolution. 
+Improves Work efficiency and enables to Innovate faster and better by exploring different approaches from cross cultural network.
+Enable EMC to map and analyze the value created deep within employee networks and replicate high performance networks.

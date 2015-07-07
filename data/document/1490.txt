@@ -1,0 +1,5 @@
+Disk Image import and export application
+This idea is to enable faster and more secure product development through expanded, more efficient, and higher quality Engineering Shared Services. 
+In Elab,the storage arrays changed a lot. I have to reinstall the OS every time to verify "Boot from SAN" after the array rotated. Then I think there should be application which could read the whole image of the external lun and write it into a image file. and we could reuse it on the new external array.
+I would like to develop a software, it could read the whole external lun image to a file. I the external storage is removed or reinstalled, we could import the image file into the new luns. There is no other similar solution.
+It improve the work effeciency. It would be a software on OS.

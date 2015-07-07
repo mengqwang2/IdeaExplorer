@@ -1,0 +1,5 @@
+Remote Proactive specific system image
+
+Other departments within EMC maintain their own system images, it would simply be a huge time saver.
+Create a Remote Proactive system image and store it locally with the Remote Proactive supervisors
+

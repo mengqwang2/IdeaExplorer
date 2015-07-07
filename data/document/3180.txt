@@ -1,0 +1,17 @@
+To commoditize the labs for the Engineering teams
+
+This idea came in the brainstorm sessions that we held within our team
+This is a very broad strategy and not necessarily tied to the specific challenge
+
+The idea is to create a complete lab as a service. This includes from planning with the engg early in their development to working with GAME, working with hardware CSPO team, working with IT for backend support, providing complete support for remote QE teams etc
+
+The current state is procurement is different from early planning which is different from support
+
+The idea is to bring all these teams under one roof and one management and create hybrid processes that consists of adhoc(organized chaos) support and standard support
+
+The early development of the product will provided support from the adhoc support model which is "Do now with less documentation because we are experimenting philosophy" and once the product becomes stable, it'll be pushed into the standard support model like IT.
+
+With this approach, there will be predictability for the results and support at the same time provide what engineering needs.
+
+This will be value based support than service based support
+

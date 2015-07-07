@@ -1,0 +1,14 @@
+PaaS Workload Optimization Engine
+This idea is about workload efficiency in PaaS infrastructure.
+Our project is already deployed in PCF infrastructure, we got this idea of optimizing workload during large number of micro services.
+
+Develop a system that periodically monitors applications in PCF and collect the usage metrics for each application. 
+
+System will use of java agents like CA Willy to collect application memory statistics and will do a data aggregation to generate metrics.
+
+The current usage metrics will be compared with configured memory of each application and this can be reported in dashboard and notified to application owners/platform admins.
+
+Based on the report, app owners/platform admins can take a conscious decision to reduce the application memory configuration.
+1. Business Unit will be able to reduce the running cost of the project as the infrastructure is effectively utilized.
+2. Cloud infrastructure is optimally used.
+3. This component can be packaged as a product and a solution that can be provisioned by EMC consulting team. 

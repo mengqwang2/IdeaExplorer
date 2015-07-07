@@ -1,0 +1,10 @@
+Multi Millions SAP-IB Revenue Enablement
+NA
+Leading the communication with contracts to understand the way they generate the quotes for Data Domain and fix the install base accordingly
+Leading the communication with IT and SAP team to identify and resolve the root causes of the issues
+Manage and close green belt project and document all measurements, tips, troubleshooting and resolution details
+
+By generalizing the process under known sponsorship to identify the different ways contract and renewal teams are generating quotes for all hardware products and software licenses, we will be able capture more and more revenue and to prevent further breakdown of customer satisfaction, as an example, we have tried to extract the DCA (Green Plum) licenses that are belonging to the same non shippable category and found out that $65M licenses are not in install base as well, i get back to contracts team to make sure they are in scope for quoting and they replied back ( yes with 18% discount), Accordingly we have extracted all HW components that belong to the same non shippable item category and found out that over $97M of contractible Atmos and DCA assets are not in IB and accordingly not quoted.
+Currently we are in a process to justify those new enabled revenues with contracts through new project ref, 6S04074.
+
+The project will prevent further breakdown of EMC revenues and customer satisfaction

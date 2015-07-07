@@ -1,0 +1,49 @@
+CTD - Integrated DevOps Framework (IDF): A Gateway to enhance TCE & Supportability
+CTD Supportability in 12 Months or Less: This idea proposes a common DevOps Framework, which can be utilized across multiple product lines and will help in delivering product and solution with more agility and speed. 
+
+We got this idea while exploring usage of DevOps in VPLEX Scrum Teams.
+We propose a solution called "Integrated DevOps Framework (IDF)" for CTD Product Line, IDF will work using the following guidelines/principles:
+
+
+1. Across CTD Product line, identify the set of practices/activities which Engineering & Operation Teams perform on day-to-day basis during a Release Cycle. These activities can be categorized into one of the following category:
+
+A. Feature Development [By Scrum/Development Teams]
+
+B. Build Generation & Configuration Management [Operations related work]
+
+C. Defining Test Planning and Strategy
+
+D. Deployment & Configuration: This involves deployment of CTD products under Test/Development environment, and configuring  required network, SAN/Host resources.
+
+E. Creating Different SUT, Profiles - depending on Testing Needs (such as performance/scale, Interoperability, Mission-Critical)
+
+F. Running Different Types of Tests such as - Nightly Sanity, Regression, Continuous Regressions, Must Pass Tests etc.
+
+G. Repeat C to E on different Labs, Configurations & Deployment (for example, Customer Configuration Deployment, Mission-Critical Lab, Interop Lab)
+
+H. Self Healing, Repair after failure introduction, when test is complete.
+
+
+2. Create a generic framework using available Dev-Ops tools in market,in Open-Source. 
+
+3. Use the Framework, across different product lines. Adapt, learn and modify as per the Business Need.
+
+
+To start with, we plan to develop and make this Dev-Ops Framework "VPLEX" & "VPLEX/VE" specific, once developed, implemented and tested we can roll this out across different product BUs within CTD & EMC.
+
+For PoC/Demo we plan to have the following features in VPLEX - IDF:
+
+a. Automated VPLEX (VPLEX/VE) Deployment & Configuration
+
+b. Automated Soft Configuration Creation depending on Test Needs
+
+c. Run time - Fault/Failure Injections 
+
+d. System Recovery & self healing/diagnosis
+
+e. Front/Back-end (Storage Systems) Related Configuration 
+
+
+
+With IDF, overall time to market and release cycle will get reduce, as it helps in automating day to day operations, activities and tasks. Once end-to-end Automation framework in place, the chances of defect escape (because of human error) will reduce.
+Once this framework is developed, validated and rolled out within VPLEX, then it can be consumed by other Product Lines under CTD, 3rd platform products and same Framework can be used by EMC Support & Services teams to automate many of the day-to-day activities performed at customer place.

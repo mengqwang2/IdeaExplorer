@@ -1,0 +1,7 @@
+No more Air pollution with EMC controller 
+N/A
+More healthy life, no pollution for green environment 
+Application to use remotely a device that can control of carbon dioxide emissions of factories, pollution emitted by cars and toxic gases generated in farms. This device can detect the air pollution and calculate its percentage, also can be put on each output of those things to control the emission and filter all those toxic gases 
+IoT
+Healthy life
+Green Environment 

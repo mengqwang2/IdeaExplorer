@@ -1,0 +1,5 @@
+Data Crossword
+
+Having an idea generation session with the group on the innovator list. Generating ideas that were relevant with todays teenagers. 
+You are presented with a typical crossword puzzle/challenge but your clues are data related. For example the user can be given a string of binary or hex code and has to decode in order to fill in the crossword. Other clues can be data storage related, for example "Data sets whose sizes are beyond the ability of commonly used software tools to capture, store, manage and process".....BIG DATA!!
+

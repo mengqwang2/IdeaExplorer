@@ -1,0 +1,8 @@
+Laptops power management system
+Electricity wasted because large number of laptops/computers were not turned off after employees left office.
+Most of time, my laptop starts so slow, and I have to wait the initialization for up to 10min even 20min. this is tough. 
+So I choose make it be always on to avoid the long booting issue, which waste a lot of electricity.
+Create a system to control the power of computers/laptops in office, provide below functions:
+1. Turn off the computers/laptops which last the inactive status for a specific duration after working time.
+2. Turn on the computer/laptops before employees arrive at office, additionally auto launch some specified applications, so the employees can easily start to work as soon as they arrive. 
+It will save the cost on electricity and extend the life of our computers/laptops which also saved the cost of IT indirectly.

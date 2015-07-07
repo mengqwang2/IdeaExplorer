@@ -1,0 +1,38 @@
+HowTo: GoToMarket-Quickly
+This is a proposal to introduce the key  methodologies and practices from Continous Deliver (CD) model along with with Kubernatics and Docker Containers for faster delivery of products to market.
+Faster turnaround time
+Quicker cycles
+Dominate the 3rd platform
+Use of Micro Service Architecture
+We in CTD - DPC team are following this model for our very first release.
+We see a lot of value add and benefits to this methodology and believe it will be of great benefits to other EMC products as well.
+Refer to this ppt for diagrams and details.
+https://inside.emc.com/docs/DOC-156104
+
+The idea and the solution is that through constant iterations, “systems of innovation” can more successfully address difficult business problems. Improved iteration from product-to -market can increase faster user adoption and faster feedback, which in turn makes the system more relevant to its users and the business. Stability and reliability eventually become dominant attributes of the new approach. To be successful, however, this innovation lifecycle requires development and IT operations to work closely to bridge the gap between constant change and stability.
+
+The primary elements of our solution are as follows:
+Service Delivery Pipeline (Compete Today, Enable Teams, Deliver Quality) – 
+By following a few standards, a team can use the Service Delivery Pipeline (Pipeline) to integrate and deploy their service to the cloud without being bottlenecked by the timelines of other products and teams.
+
+High-Availability, Managed Microservice Architecture (Enable Teams, Unify the Experience, Lower Overhead, Deliver Quality) –
+We are delivering a self-healing, microservice architecture that encourages rapid delivery, scale, and availability.
+
+Self-service operations with infrastructure support (Enable Teams, Deliver Quality) – 
+We have designed a self-service operations model so that as the system scales into dozens of services. Those with the most knowledge can address and improve the system. This is done through a delivery pipeline, centralized logging, and shared monitoring and alerting systems.
+
+Console UI with a plugin architecture and CMS-like delivery solution (Compete Today, Unify the Experience, Lower Overhead, Enable Teams, Deliver Quality)
+The UI SDK we provide allows teams to work in parallel, with the confidence that their local environment matches production. We provide an integrated approach to managing UI updates ensuring consistency and easing required approval processes.
+
+Microservices help us have small self-organized teams around independent deliverables. This allows us to accomplish much in parallel and with limited resources. The system puts certain constraints around the contribution of these teams so that they fit within the whole. It also empowers teams to own and apply DevOps principles to their work. Teams will be able manage the entire lifecycle of their components within the overall architecture without having to go through a central bottle-neck group. We also organize around actual Architecture work-streams to help these teams and further a common architecture path.
+On top of that Dockerization helps virtualize the lab into Cloud where no service is dependent on another service. 
+https://docs.docker.com/introduction/understanding-docker/
+
+	1) Accelerate Time To Market  strategy of EMC products
+	2) Build the right Product: Quicker feedbacks from customers
+	3) Staying cutting edge in Technology by introducing latest features and improvements faster
+	4) Improve Product Efficiency
+	5) Continuous improvement of products 
+	6) Improve Product Quality : Quicker bug fix cycles
+	7) Improve Customer Satisfaction
+

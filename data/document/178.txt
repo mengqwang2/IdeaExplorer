@@ -1,0 +1,6 @@
+Lync Conference Call
+This idea will ease the process of creating Bridge Call
+A part of my job is joining Bride Calls with SAMs , SMEs , Managers or Field Engineers , To ease this process it will better to use the option of Lync Conference Call. 
+My idea is to Enable a new Feature in Lync , is that by just creating a Group Conversation by a button Click all of it's Participants can Join a Conference Call.
+1-The Ease of creating a Conference Call.
+2-Saving the Time to create a bridge Call.

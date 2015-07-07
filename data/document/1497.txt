@@ -1,0 +1,18 @@
+Highly Efficient, Intelligent Converged Resource Provisioning Solution with Cumulus + OnRack
+Enable more BUs to do as much as possible automation in data center/Labs/MFG to replace manual work.
+Further integrate and apply GPO's technology and platform with 3rd platform. 
+Makes more BU to install & use the OnRack and Cumulus product.
+Identifies a way to handle CI solution provisioning with our owned solution & technology.
+We've raised some other ideas separately (#2015000470, #2015001668) for Cumulus and OnRack and then thought of integrating them together as a converged solution for MFG automation, management and orchestration of all hardware resources in MFG/Lab/data centers.
+Cumulus is designed to handle automation & orchestration of all hardware resources in the MFG (including products and test equipment), while OnRack is the GHE M&O solution. Integrated together, they can provide the power of MFG automation, management and orchestration of all hardware resources in MFG/Lab/data centers.
+
+please see this introduction of GHE OnRack in EMC world 2015: http://virtualgeek.typepad.com/virtual_geek/2015/05/emc-world-day-3-onrack.html
+
+Please see this introduction of Cumulus on GTAT Wiki page: http://corpusapcwiki/index.php?title=Cumulus
+1 Automatically deploy OS/hypervisor against bare metal server to replace manual work, OS/hypervisor is replacable based on the product type
+2 Automatically update firmware for servers in Lab/data centers/MFG 
+3 Environment setup & verification
+4 Environmental Monitoring
+5 Configure BIOS setting through REST API to replace manual work
+6 Provide remotely power on/power off and virtual console to compute nodes
+..

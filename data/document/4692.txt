@@ -1,0 +1,17 @@
+snap replication
+
+snap replication functionality help our customer to prevent from data loss in the case where they need to failover their application to another VNX/VNXE. This idea is based on the principle of VNX snap which could easily find out the different data between snaps.
+Based on existing lun replication, we could find out the common base of the lun. Based on the similar principle of lun replication, we could transfer delta data based on common base to implement snap transferring.
+
+
+For example, there are lun_local, intsnap2_local, intsnap1_local,snap2_local and snap1_local(from new to old, snaps are based on lun_local) in local rig. The lun_local is replicated to a remote rig via replicationV2.The corresponding lun and internal snaps are: lun_remote, intsnap2_remote, intsnap1_remote.
+
+Say intsnap1_local and insnap1_remote contains the same data(common base). To transfer snap2_local to remote rig, it will do the following steps:
+1. create a copy against intsnap1_local with name 'snapCommon_local' in local VNX/VNXE.
+2. create a copy against intsnap1_remote with name 'snapCommon_remote' in remote VNX/VNXE. (The data from snapCommon_local and snapCommon_remote would be same)
+3. create a snap copy against snapCommon_remote with name 'snap2_remote'.
+4. calculate the different data between snapCommon_local and snap2_local.
+5. transfer the different data in step 4 to snap2_remote. (snap2_local and snap2_remote would contain same data)
+
+With similar steps, snap1_local would be replicated to remote rig.
+

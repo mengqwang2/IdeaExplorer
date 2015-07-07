@@ -1,0 +1,13 @@
+'ESS Optimization Process' Manager Tool
+
+I have been looking into the ESS Optimization process for the last number of weeks. Mainly concentrating on time savings from individual stages. This idea, which is in the development stage, looks at the process as a whole.
+A new SSD or SP requires full ESS for a certain volume of product before a script optimization can be considered. Once this volume is reached a time to to fail analysis (TTF) is performed to specify which parts of the script (patters/power cycles) induce the least failures and hence can be removed. The results of this analysis are submitted for approval and a request to reduce the script is submitted to GATE for development. This whole process requires extensive engineering involvement and delays  the implementation date of an optimization which means ESS are running full scripts for longer than necessary.
+
+My proposal is to develop a comprehensive tool that performs this optimization process rapidly in the background by:
+- Predicting when TTF analysis can begin based on the latest planning forecasts.
+- Performing automatic TTF analyis.
+- Automatically removing certain patterns from the script based on the TTF results.
+  (not before prompting a request to engineering for approval)
+
+This tool is now possible to develop because planning are now releasing forecasts by part number, an automated TTF tool has recently been developed by engineering and the script builder Python has the ability for the user to add/remove script patterns from the new Platypus code.
+

@@ -1,0 +1,9 @@
+Usage of Dynamic Cubicle Allocation
+
+I got this idea when I see most of the desk cubicle are empty.
+We can consider in using the Dynamic cubicle Allocation. The solution works by dynamically allocating seats based on employee reservations. For example, if an employee is traveling to a local office, the user can find office space to work in usinghis smartphone or the building kiosk. Once space is found that meets the user’s criteria, the user can reserve the space for a single use or over multiple days. When the user checks into the space, his personal preferences and settings take effect. For example, the phone extension is applied, comfort settings are established, and so forth. This personalization helps provide a familiar and comfortable environment.
+
+Dynamic cubice Allocatiom needs to be well planned so that a group of Buisness units can share on the same floor on that facility. If employees get the seat allocation in the same floor, it becomes more accessible for the employees to interact with their Team members
+
+By using Dynamic Cubicle Allocation, Organization can save unnecessay cost.
+

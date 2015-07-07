@@ -1,0 +1,16 @@
+Customer EMC product upgrades
+
+This idea came up during my working with customer and by checking that some upgrades where made by non-authorized partners.
+This installations when made in wrong way can create big problems and damage EMC image as a company
+My idea is to track all upgrades-installations customer do in EMC products.
+When customer buys our products we should know where this products are installed and which version is being used.
+This information should be recorded in "Environment" tab and every time customer create a SR for certain EMC product he can provide if any changes was made in his system.
+When TSE first get the case he should check the EMC product version and if is different from what we have in our system customer needs to tell us if he made the upgrade or if was any partner.
+
+If the upgrades are made by our PS services or authorized partner once they finish the upgrade they need to upgrade customer EMC product version in Service Center .
+
+With this information we can distinguish who made upgrades and relate in long term SR with bad installations.
+
+This information should be available in SR fro TSE to confirm. 
+
+

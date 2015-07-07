@@ -1,0 +1,13 @@
+Efficient processes to deliver and support open source projects at EMC
+EMC is invested in supporting community-driven development for technologies like Project CoprHD (ViPR Controller) to continue enabling innovation. EMC's strategy is to promote open source model of open, collaborative development is crucial to help drive b
+The idea came up when we were preparing to release first Open Source project to the community - Project CoprHD (ViPR Controller). There was disconnect between different stakeholders during this project. We saw many inefficiencies, unaddressed problems and risks.
+
+It is a first open source project developed by EMC, however it is high visibility/impact project for the company and we need to minimize errors and risk to the lowest possible amount.
+An independent party will come to review existing processes that were used for Project CoprHD and identify  gaps and improvements to prepare EMC for next open source project as well as successful support of Project CoprHD.
+The effective end-to-end process will:
+1. Save time and money
+2. Identify and mitigate the risk to existing customers
+3. Identify and mitigate the risk to the company
+4. Increase overall success of the project
+5. Promote the brand of the company
+6. Suppor

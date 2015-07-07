@@ -1,0 +1,18 @@
+Finding a person who can answer a given technical question that cannot be found in available documents - extending search for info from documents to people's brains
+The idea is about collaboration and information finding
+Brainstorming session
+An organization like EMC is hierarchical, everybody is in a team which is in a department etc.
+Everybody has a manager and typically has his/her peers.
+The information about the teams a person belongs to over time is stored.
+
+While working on something, people work on different types of documents - code, different type of text documents, spreadsheets etc. 
+Each document has an owner and it's contributors.
+
+All documents in EMC can get indexed. So, all the contents of information can be queried by a keyword or a phrase.
+A query result returns a document that is more or less related (and subject to confidentiality), but, more important, it returns the owner of the document and its contributors.
+In this case, the goal of the search is not the document itself but a (not too long) list of people who might be subject matter experts.
+
+Even if the people, who owned the document, where moved to other teams or left the company, it is possible to find their peers who worked with them at that time on the subject matter.
+It is also possible to find their managers who might be in the position to point to someone.
+
+Ability to ask quick question or do a longer discussion (if possible) with a subject matter expert on a technical subject not described in detail in any document (for example discussing feasibility of an innovative application of existing product).

@@ -1,0 +1,7 @@
+Barcode Reader Authentication
+
+ The idea did stem from reading different papers that links physical security to analytics security for maximum benefit
+This reader will detect the user’s unique signature (eye print) and will identify the users identity subsequently. A second layer of security is added by using linking the user’s unique print to its behavior across all mobile devices. A user behavior profile can be obtained using different social portals.
+
+
+

@@ -1,0 +1,8 @@
+Build up EMC Docker Hub for resource sharing and cost saving
+
+Come out the idea when using development VM and think of docker's capability.
+1. We can build our own EMC Lab Docker Hub which hosts template development image.
+2. User/developer can search for and find an image another user built and shared in the Docker Hub Registry, a cloud-based collection of applications.
+3. The images can share one central cloud environment which will save the computing resources.
+4. If there is needs, the user can modify this image/development environment/test environment and push the image back to Docker Hub for sharing.
+

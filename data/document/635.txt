@@ -1,0 +1,28 @@
+Containers as a Service (CaaS) based DDVE
+This idea matches APJ COE "Solutions Platform" Challenge. Both "Cost Efficiency" and "Customer Experience" requirements could be addressed by this Caas Based Storage proposal.
+When hypervisor vendors announced new products based on container. I realized DDVE need to be Caas ready solution.
+The key point of Caas is let adminisrator to focus on the application instead of guest OS and VM. In order to acchieve this goal, we need make sure all Datadomain software stack is from user space. For long term, we need have a virtual out scale out solution.
+This solution has following parts,
+
+1. Porting Data Domain storage stack from DataDomain OS to a generic Linux OS
+
+   a. Porting Datadomain file system
+
+   b. For short term, re-implement DD-RAID-ON-LUN from user space.
+
+   c. For long term, redesign scale out data protection solution
+
+2. Integrate DD storage stack with VMware Caas solution
+
+   To make sure VMware could deploy and manage DD container seamlessly.
+
+3. Redesign DDMC VM to make it ready for Caas management
+New solution will make DDVE has following features,
+
+1. DDVE will be released as docker/container image instead of VM appliance
+
+2. DDVE deployment is a docker deployment operation at hypervisor
+
+3. DDVE management are fully container aware
+
+This will make DDVE be a cloud born solution. That give customer very good user experiences for could management. Also saving the administration cost.

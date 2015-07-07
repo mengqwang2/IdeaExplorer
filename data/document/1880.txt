@@ -1,0 +1,5 @@
+Amending RP
+NA
+I came up with this idea once I have joined the licensing team as this cause alot of problems to us and make the company lose alot of money in return.
+There is a problem with RPSE, that the locking id is not efficient. The license can be locked to any model. However this cause alot of problems as customer can have the license for another model and this affect compliance as each VNX model is different.By amending the software to lock properly, this will help to increase the revenue of EMC.
+Customer will be compliant as he is using the license he has paid for. And in return, this will help in increasing the revenue.

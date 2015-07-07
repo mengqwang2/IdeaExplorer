@@ -1,0 +1,5 @@
+Search engine for old SRs
+
+Brainstorming for customer service challenge.
+Search engine that has all old SRs (and ARs) as a database and yields similar cases once TSE enters search keywords.
+

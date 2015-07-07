@@ -1,0 +1,24 @@
+Enterprise Grid Computing Solution using PCF
+For the 2015 Innovation Roadmap, the Office of the CTO is looking for ideas which represent new business opportunities for EMC - More specifically, disruptive innovations that will make information infrastructure more relevant/useful today, and/or in the future.
+We thought about how to utilize standalone employee systems in Idle state to make IT  of an organization more efficient. 
+
+And we arrived at a solution wherein the use of grid computing with PCF is possible.
+A Enterprise grid computing solution which can leverage PCF for compute requirements.
+
+We propose :
+
+- A new component on cloud foundry like vSphere.
+- This component would provide agents which can run on all EMC devices and users can decide how much compute and memory to allocate from their system for grid computing during idle time.
+- The component on cloud foundry will act as a central monitoring and resource management tool where we will have consolidated view of all the resources available and online.
+- The component will break down the computation requirement into smaller computational packets which will be downloaded by each of these agents.
+- The component will also have an aggregation mechanism which will be used to aggregate the resultant packets into the solution. 
+- Businesses which have a requirement wherein substantial computing space is required on a need basis can provision the infrastructure from the cloud and run there jobs on it.
+- This will be similar to hadoop infrastructure and the employee laptop resources (when idle) will be used to achieve this.
+- The agents will start computing once the devices are in idle state.
+
+A similar approach was used by SETI project, this could be matured as enterprise solution
+Most of the times the resources on employees laptops and computers are not utilized efficiently.
+
+With a solution like this, existing infrastructure (employee laptops) could be leveraged  for complex computations and rather then investing on additional infrastructure.
+
+This can also serve as a computational platform for various labs that have been setup in EMC for experimental purposes, rather than having VMs dedicated for this purpose.

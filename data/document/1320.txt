@@ -1,0 +1,29 @@
+Enable Stateful Application in Containerized Environment by Magnum and Manila
+Containerized platform to host stateful applications, provide a reliable data storage and easy programming is a hot topic in opensource world. Opensource projects such as Docker and Flocker brings us solutions powerful and quickly evolving. We propose an opensource solution targeting to solve it.
+CTO office have long time been exploring the potential of opensource and container technology. Stateful applications are always the hottest problem in the new emerging cloud platforms. We have been thinking what the best model is and how to leverage EMC technologies.
+There are two approaches to solve the problem.
+
+The first approach is to leverage what we have in Magnum (the containerized application PaaS incubated in Openstack) and Manila (the shared filesystem service in Openstack). The solutions needs
+
+    1) Connect Manila provided share filesystem to Magnum node (i.e. hosts)
+    
+    2) Support tenant separation in Magnum side and the filesystem side
+    
+    3) Orchestrate the managed lifecycle of shared filesystem in Magnum
+
+    4) Launch containers with correct mount option
+
+We can then bring Lattice (the lightweight CloudFoundry) into Magnum, to acquire the power of stateful storage. We can introduce Isilon as the shared filesystem. We can install the filesystem actually on the VM host node, to achieve data locality and the hyper-converged architecture. 
+
+The second approach is to implement a separated project similar to Flocker. The project needs to
+ 
+    1) Provide a driver architecture to bridge into shared filesystems from heterogeneous vendors
+    
+    2) Manage the lifecycle of shared filesystems. Handle the mount process to host and container.
+
+    3) Allow the filesystem to be installed on container host, thus a hyper-converged architecture.
+
+Most things have been mentioned in the “Problem solved”.
+
+Besides, if we find what Flock misses (you know how hot Flock is), and raise the correct project. Can’t EMC be the new steering pilot in the opensource container world? (And then the cloud & datacenter market.) We have accumulated so much in storage and data.
+

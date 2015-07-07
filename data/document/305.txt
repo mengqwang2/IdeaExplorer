@@ -1,0 +1,7 @@
+Data Trend
+Redefines how backups and snapshots are done for sensory data
+A bulk of sensory data is saved and takes a lot of storage and is not necessary 
+
+we just need the trend of data to know how to utilize it 
+Backing up just the trend of the sensory data , to be able to know and predict the behavior of this sensory readings in the future
+optimize the storage space 

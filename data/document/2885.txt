@@ -1,0 +1,8 @@
+EMC Part Tracking
+-Enhancing the process of part replacement or ordering in each department.
+-Enhancing supply chain for new sold products.
+In CS, We always get new calls from customers inquiring about parts being shipped to them or complaining about having the wrong part shipped.
+Having a tool/application to let customers track the parts to make it easier for them to get the information they want such as: ETA, Destination and Attention information.
+If tool is being used by customers or EMC departements, They will be saving a lot of time and effort to track parts, add comments or to increase priority of shipment.
+
+Not only this but also Workflow managers won't need to allocate available TSEs to work 

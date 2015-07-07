@@ -1,0 +1,15 @@
+big volume, block only, small, fast storage box for China market
+
+China start-up market quickly grows but EMC have never got a chance to help that. By combine matured technologies and release product quickly, EMC can take a active role to help Chinese enterprises to grow up. 
+I talked to some start-ups and they use common low cost PCs with lots of disks as their storage system. We can do better and deduce the cost of maintaining such manual system.
+There are many facts that appeal the start-up but a combination of following feature will be a game killer:
+1. big volume and can be easily extend if need
+2. block only and iSCSI is preferred or only option
+3. RAID is not default option. Application level solution may provide solution.
+4. as small as possible. Office or lab size is critical to start-up
+5. fast enough. It should provide average or a little higher performance than high end storage service
+6. Management (nearly) free, buy and forget is expected. 
+7. Very simple license mode
+
+We need cut most of components from I/O stack to provide those basic requirements and make sure they are robust enough. And use brand new but very simple GUI to provide minimum management interface. As an option, a rich management API is needed.
+

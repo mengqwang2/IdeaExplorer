@@ -1,0 +1,28 @@
+Open Education Platform for EMC Products
+We propose an education platform based on popular open source cloud platforms and open hardware. The platform leverages open source, feeds to it and increase EMC influence.
+CTO Office we have been long time study what open source cloud technologies can bring to EMC products. Different to commercial staff, open source community provides tons of learning material and spend great effort for learners to quickly spin out a dev environment. We try to influence how people learn rather than how good a product is.
+The system divides EMC products into two parts
+
+    1) Pure software based products
+
+    2) Hardware based products (with/without software part)
+
+We provide learning environments for both categories based on a combination of different technology.
+
+For (1), we choose Openstack + Magnum + Murano to provide a container based virtualized cloud where tutorial EMC products can be quickly boot up. Choose ScaleIO as an example. We write the multi-node deployable template for ScaleIO. Publish it on public Murano catalog. We wrap ready-to-use ScaleIO docker image for different node type. A learner who can access private or public Openstack cloud can quickly boot up a distributed ScaleIO learning environment using the template. He/she plays with the different setup, re-boot when he/she like and quickly get the look-and-feel for EMC products.
+
+The solution is not locked in Openstack/Magnum/Murano. Any cloud that supplies template engine can do it. We use deployable templates and ready-to-use containers to wrap up all tutorial software products, making them easy-to-access for learners. The templates and containers, especially the Openstack ecosystem, can be further extended by the community.
+
+For (2), it is hard to a learner to buy a real expensive piece of hardware. But we may be able to build simulator devices based on customizable open hardware such as Raspberry Pi. Each hardware products can provide its Raspberry Pi simulator device. It is then affordable for a learner to build one or more to create a distributed learning environment.
+
+The device is not lock on Raspberry Pi. But by leveraging such customizable open hardware, the community may be able to further extend what we provided and make it prosper.
+
+The above solution makes learners easy to get and feel EMC products. We can further provide tons of tutorials and education programs around it. Since the whole solution is based on open source, suppose that one day that a professor wants to teach his students what is storage. But he is worried that real proprietary storage products are so expensive to purchase for his students. Later he finds out our easy-to-access simulation environments, even hardware pieces can be acquired in low price. He teaches his students with that, and EMC brand broadcasts.
+
+Till here the whole solutions forms its technology and non-technology ecosystem which continuously increase EMC influence.
+
+
+The core part is to provide easy, quick and public accessible learning environments for EMC products, both software and hardware. Then base on it we provide tutorials and programs to build the learning community. Finally we make the learning environment solution top 1 to choose in school when they want to teach storage. Because it’s cheap, fast and open. EMC brand roots there.
+
+Learners feel happy, more people choose to learn EMC products, and we influence people from their education.
+

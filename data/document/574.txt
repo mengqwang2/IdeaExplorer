@@ -1,0 +1,5 @@
+Use OpenSource reporting instead of removed Crystal Reports
+N/A
+the idea is obvious : recover functionality that customers use many years. 
+Recover reporting functionality by using OpenSource reporting tools.Also, as the alternative it would be good to provide an API for building reports.
+retain customer satisfaction

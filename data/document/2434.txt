@@ -1,0 +1,9 @@
+Consumption based data-assets management
+Our solution is relevant to the challenge since it presents a data-driven approach for managing the storage of FBDL data assets.
+In recent years, many companies try to find frameworks for data assets valuation. We believe that data valuation is context dependence and hence, has to be related to a specific business problem. In addition, as data scientists, we are seeking for data-driven approaches for non-trivial business problems. As a result, we came up with this data-driven approach. 
+In order to address this subject, we suggest storage components management based upon consumption of FBDL data assets. The idea is to analyze and to model interactions of users with data assets in order to identify frequently used, moderately used and rarely used data-assets so we can match an appropriate storage policy for each data asset. For example, highly accessed data will be stored in flash drive while rarely accessed data will be stored in HDFS or will be deleted. The framework for implementing this idea consists of the following components:
+1.	Data collection – for each data asset, collect data of relevant features such as number of users’ interactions, data asset size, number of distinct users, number of distinct business units that use this data assets etc.
+2.	Cluster data assets by using common machine learning approaches (e.g k-means, LSH etc)
+3.	Generate recommendations for data assets’ storage policy. 
+
+The Federation business data lake can be benefited by this idea implementation by enabling more efficient storage policy and therefore, to supply a solution with higher qualities.

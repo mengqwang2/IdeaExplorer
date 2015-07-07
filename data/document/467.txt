@@ -1,0 +1,7 @@
+Avamar & ADMe integration simplify
+Today the integration of Avamar & ADMe is very complex. We get lot of projects to migrate Avamar only grid to Avamar+Data Domain griffin grid. Currently there is no simple solution to migrate from Avamar only to AvDD griffin grid.We have to install ADMe and run the commands manually and then backup from other AvDD grid. This ADMe piece is very tedious.
+While working on ADMe, I found it very difficult and thought to try some different approach to simplify it.
+https://inside.emc.com/docs/DOC-156051
+We could deploy an ADMe appliance in VMware environment and install some ADMe plugins in the Avamar only grids.
+We could run the ADMe commands from the ADMe appliance as a proxy and then pull the data from Avamar grids to the ADMe proxy or other VM/host and then backup that data to other AvDD griffin grids. No need for any complex installation or commands on the Avamar grids.
+This approach will provide a solution to migrate from Avamar only to Avamar+DD griffin grids. Currently there is no solution available but with current ADMe approach it is very complex and only a handful are experienced. This solution will provide easier methods to migrate with reduced complexity. Time and money saved. This can be a PS service.

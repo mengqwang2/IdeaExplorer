@@ -1,0 +1,12 @@
+EMC Language App.
+Making use of crowd sourcing technology to let employees enhance their languages and invest their free time helping other employees.
+-Having diversity of users who will cooperate and work with each other in groups to teach languages.
+Some internet app involves this language exchange such as italki and it would be good idea to have it internally for employees
+-Having an app that can be accessed from multiple platform (iOS and android).
+-Each employee will have a profile with details of his language skills.
+-Each employee will have to enter their preferred time to learn/teach languages to others
+-Employees will be able to search for specific language and see if someone has matching time slot to assist both of them practice specific language or learn some basics.
+-Forming groups can be done as well through the application
+-Allow employees to enhance their languages and practice it with native speakers
+-Allow employees to learn good basics in new language and it could help them in the future.
+-Improve quality of business as employees will be more confident with new language

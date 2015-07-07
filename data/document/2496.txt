@@ -1,0 +1,14 @@
+Increasing Customer Satisfaction
+Customer Satisfaction is a key metric for Customer Services, There was scope for our team to have done better on this aspect this quarter.
+How: We have seen surveys where customer did not sound dissatisfied on the call, but expressed dissatisfaction when surveyed, which has resulted in the entire team not meeting CSAT goals.
+
+Introduce Heat Check after every SR is resolved.
+
+Heat Check: To understand how the customer feels about the experience through the SR by asking the following questions:
+1) Are you Satisfied with the service provided to you through this SR?
+2) Do you feel there is anything that could have been done additionally to improve your experience?
+
+Once the customers answer the questions, the Engineers will have a fair idea about whether the customer is happy or not. Depending on the assessment of the engineer, the manager engages with the customer to convert these negative experiences to positive ones.
+Implementing this will help us increase our CSAT numbers at least by 10% overall, which will help us move from a current score of 81% and enable us to meet targets.
+Success, in this case, would be "Meeting CSAT goals for the business".
+This will bring us 

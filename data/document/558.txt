@@ -1,0 +1,5 @@
+EMC support application
+save time for customers to open SRs for small queries
+lots of cases are opened for just a small question and customer get frustrated for not having them solved quickly
+an application for customer to enter and write the query they have, application should be linked to salesforce articles and once customer wrote a question all relevant articles would appear for customer to help him and TSE should have access on cases created to help customers through their queries.
+it will improve the customer experience with support received from EMC

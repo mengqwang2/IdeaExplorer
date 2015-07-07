@@ -1,0 +1,20 @@
+Effective usage of Skills Using ‘Resource Pool Tool’ from Global Employees
+The idea is to building a diversified tool called ‘Resource Pool Tool’ which will address the sponsor challenge technically enriched with diversity. Effective utilization of the existing resources talent on different technology, tools and SME knowledge on many domain areas need to be considered across the globe during rapid requirement request which intern helps that EMC has chosen to make it a successful diversity corporate LEADER.
+Idea is based on personal experience like even though having a specific skills, interest, and available bandwidth to contribute in other project, but most of the resources are don’t know where exactly the skills can be contributed/utilized within the organization and across the globe. 
+A Working flow PPT document of Resource Pool can be seen in the below path
+
+https://inside.emc.com/docs/DOC-155831
+
+Implement a web based application called Resource pool tool for which give access to all the employees across the globe. Employee will be register to the site with his specialization of tools and skills. Whenever a rapid requirement occurs for any project, Project manager will visit the Tool and raise the request on the tool. The tool will automatically trigger an email to respective employees who all registered with those specific skills. Irrespective of any geographic location he belongs to, with available bandwidth the resource will respond to PM and accepts the assignment and completes it. Which will helps improves the diverse workforce and helps individual growth of employee as well of the organization.
+Below are the few Benefits of 'Resource Pool' tool:
+
+•	Tangible advantage in identifying right skilled professionals at right time that can prevent on hiring new resources from outside organization.
+•	Skill enhancement of individual resources with latest technology along with his regular commitments for the current project activities.
+•	This skill information can also be used to tag the upcoming requirements from the different projects.
+•	As part of recognition program reward the resource considering the number of assignments completed on the Resource Pool tool as a motivation factor for employees.
+•	Employee will be given options to share his skills on other project requirements/technology with available bandwidth along with his regular activities.
+•	Knowledge/Skills sharing across different geographic location which indicates diverse workforce.
+•	For HR team it’s very easy to keep track of number of skills/technology resources present in the organization across the globe.
+•	Short term project requirements can be handled quickly without waiting for the IJP selection or external hires.
+•	Knowledge gained during the assignment can be aligned to IDP for the personal career growth.
+

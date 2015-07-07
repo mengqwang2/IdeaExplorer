@@ -1,0 +1,13 @@
+"Look Through" System Management Utilizing Augmented Reality (AR) From a Tablet or Phone
+3rd Platform systems will require a simple, flexible, and intuitive user experience to make advance system architectures possible and accessible.
+I went to a Lego store where they had a "mirror", and when you held up a product box in front of it the box would come to life, animated and in 3D: https://www.youtube.com/watch?v=PGu0N3eL2D0.
+
+I then saw an Ikea example where you could put the catalog down on the floor and select a piece of furniture to visualize in the room: https://www.youtube.com/watch?v=vDNzTasuYEw
+
+This sparked the idea to solve the common service problems we have with our systems around management and user interaction. During an internal CI product development meeting I brought up this idea as many new concepts where being dismissed as too complex for servicing using existing techniques. My belief was that new service models needed to be developed in order to unlock great new potential for CI platform development. Service models were not the core focus of our group so the idea was set aside.
+"Look Through" tablet or phone using camera and screen to provide live image overlays on the system in front of you. Provides a more literal "Pane of Glass" for management in order to provide a simplified, flexible, and intuitive user experience customized to the user's preferences. Idea utilizes existing technologies known as Augmented Reality (AR) being developed for other industries (Google glass, heads-up car displays for navigation, games, advertising).
+1. Improve customer experience through intuitive interactions with systems
+2. Unlock new advance hardware design possibilities by breaking down service and customer support barriers
+3. Reduce the learning curve and allow our customers to get the most out of their systems 
+4. Avoid and reduce costly human error made by customer, service, and support. 
+5. Reduce wasted design efforts on compromised, "Lowest common dominator" design practices

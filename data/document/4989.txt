@@ -1,0 +1,9 @@
+Solution: How to save bandwidth for Oracle database disaster recovery using EMC SRDF or RecoverPoint
+
+Oracle is always diminishing the value of storage based replication, saying it's not application aware, simplely replicate all data and transfer to remote site. Data Guard only transfer logs, saving huge bandwidth.
+
+My solution solves the problem,  SRDF or RP only need replicate logs, and with a simple script, apply logs to remote database to syncronize with source. The remote database can be opened read-only at any point of time, without disrupting the replication.
+Just like Oracle Data Guard, EMC SRDF or RP only need to replicate archived logs to remote site, and regularity create a snapshot of the archived log LUNs on remote site, for example, every 15 mins. Then use RMAN to mount Oracle database and apply the snapshot archived logs to move the database forward to a newer state. In the meantime, because we are using Snapshot to apply archived log, the archived log replication is not interrupted. In addition, remote database can be opened read-only at any point of time, without disrupting the replication.
+
+With this solution, Oracle Data does not need to replicate between the two sites, only logs are transferred, saving great bandwidth.
+

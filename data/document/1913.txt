@@ -1,0 +1,24 @@
+IoT based Predictive, Collaborative & Connected SCM Solution
+This solution addresses challenges for Manufacturing operations using third platform and EMC Converged Infrastructure technologies
+Idea came through multiple collaboration among us while exploring solution for business problems in GPO organization
+Proposed solution is based on Pivotal Cloud Foundry & Data Lake.
+
+Solution contains three layers 
+1.	Infrastructure layer 
+2.	IoT Layer
+3.	Cloud Collaboration layer
+4.	Big Data Lake layer
+
+Infrastructure Layer contains compute / storage and IoT Layer contains sensors, RFIDs, QR and handheld devices. This layer enables location tracking, remote inventory level monitoring and automatic reporting of material consumption as they move through the supply chain.
+
+Pivotal Cloud Foundry based Collaboration layer connects the production line to suppliers so that all stakeholders can understand interdependencies, the flow of materials and process cycle times. This will be one place for customer, supplier and manufacturing to collaborate. 
+Big Data lake layer is used to perform predictive analytics on real-time data with R & Madlib. This will help EMC manufacturing to identify issues before they happen and it will lower inventory costs and potentially reduce capital requirements.
+All the solution components will be hosted in EMC powered hybrid cloud.
+
+-	Can be offered as service 
+-	Rapid and real-time sensing of unpredictable conditions and instantaneous responses
+-	Stakeholders can understand interdependencies , flow of material and manufacturing cycle time
+-	Real-time tracking of movement of products
+-	Hybrid cloud enablement
+-	Prediction enablement
+

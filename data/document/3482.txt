@@ -1,0 +1,17 @@
+ Multilingual ViPR ! – is a ViPR that speaks traditional storage and cloud !
+ViPR-OpenStack Integration - towards scalable on-demand application-aware storage by EMC
+
+
+ The idea came up while preparing a ViPR awareness presentation with one of my colleagues. I started to think of the concept of abstraction and aggregation over heterogeneous storage sources and vendors
+ 
+
+ The idea works as follows: 
+
+-	Equip next Generation ViPR with an enabler/Plugin that allows it to communicate with and provision storage from Cloud Storage Services.
+-	Use aggregation and abstraction to allow the user to provision storage with few clicks
+-	This feature can be a separate license the customer can buy and install.
+-	Allow ViPR to manage and move data between “Tiers” between the physical storage and the cloud
+-	Allow a unified management interface for the whole environment through ViPR GUI interface
+
+
+

@@ -1,0 +1,12 @@
+Scalable Life Science Big Data Analysis Platform
+
+none
+I propose a combination of existing, best-of-breed products within the EMC Federation:  Pivotal’s GreenPlum, VCE’s Vblock and VMware’s Vcloud.  
+
+AS a brief background, GreenPlum combines database technology with a variety of built-in, efficient analysis tools including machine learning algorithms and statistical anslysis.  GreenPlum also has the capability to scale with more nodes.  While GreenPlum generally exists as a standalone server, there are versions that exist as a VM, which enables scaling and movement to the cloud.  Vblock is basically a platform for running VMs with preconfigured storage and networking.  Vcloud is a product to create local/remote VMs and migrate local VMs to the cloud as necessary.
+
+The proposed solution is to package GreenPlum, Vblock, and Vcloud.  Most targetd customers will purchase a Vblock system configured with GreenPlum VMs that support Life Science analysis.  Vcloud will be used as the tool to create more VMs on the Vblock as more/larger VMs are needed.  Vblock already supports scalable growth that can handle the demands of most customers.  For customers that prefer working in the cloud, Vcloud can be used to either migrate VMs from a local Vblock to cloud providers or create new VMs with GreenPlum directly in the cloud.
+
+As compared to AWS and other cloud providers, we provide an on-site solution using Vblock for customers concerned about the privacy/security of their data.  Also, GreenPlum is designed for data science analysis as compared to more generic tools available from competitors.  Since the underlying products in this solution already exist, the overall idea can be productized rapidly.  
+
+

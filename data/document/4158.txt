@@ -1,0 +1,26 @@
+Green Revolution - Let's Start Everywhere
+
+These ideas are very common and in everyone's mind. I am just pointing it out...
+Every EMC Office should start Green Programs / Contests / Create Selfiees  and make the employees always think Green and peenalize the offenders. 
+
+For instance, Bangalore is a highly congested and polluted city. EMC has provided an excellent transportation facility at a very reasonable almost 1/2-1/10th the cost of a personal car transportation. Still 2000+ EMC Employees bring their own cars, polluting and congesting EMC Campus and Bangalore as a whole. EMC should stop Car Leasing programme, stop FBP for car lease / maintenance if they are bringing the car to the office more than x number of days in a Month. This would encourage car pooling / public transit. Those who are using shuttles do not get any incentive, whereas fuel guzzlers are getting incentives.
+
+Across the Globe, EMC should have shuttles to pick employees and drop them back to avoid the Carbon Foot Print as well as Land Foot Print.
+
+Offices are now encouraging 'Bring your own device' and hosting the secured employee's laptop/desktop image on the cloud. This saves one laptop which would have taken thousands of natural resources to build. We cannot ask every employee to do so. But whoever who does that, should get 'Green Miles'.
+
+Datacentres and EMC offices, wherever possible/available should take energy from renewable sources such as Windmill / Solar. For instance, new Wind Power is being generated which is as wide as Rhode Island in Massachussets. 
+
+http://www.treehugger.com/renewable-energy/massachusetts-open-area-size-rhode-island-offshore-wind-power.html
+
+Hopkinton datacentre and EMC offices if possible, should get energy from these renewable energy sources.
+
+Greener Backup Generators using alternative fuel technologies like CNG / LPG.
+
+Having Data Centres in Cold areas would require less cooling by heat exchange.
+
+Usage Internet of Things to Understand and Get the Data Centre Metrics and Control Systems which works based on that.
+
+Less power consuming EMC Products with newer generation processors like the processors from ARM which generates less heat and consumes less power compared to Intel based. 
+
+

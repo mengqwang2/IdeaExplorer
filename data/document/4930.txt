@@ -1,0 +1,5 @@
+Automated selection of array on Auto-X
+
+Tester need to do a lot of configurations in Auto-X if there are several testset and testbed and sometimes the testset running on the array will be complete very fast and the array is idle. We should start a job for this idle array manually.
+If we have a lot test suite to run for regression testing, and we have serveral arrays(array pools) for testing. We just need to select the test suites and submit it.The jobs(test suites) are queued in the background and it will be executed if there is available array from the array pools. It will select the array dynamically and make full use of the array pools. The array will be free if the job is completed and it can be used for the next job.
+

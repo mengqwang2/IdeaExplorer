@@ -1,0 +1,5 @@
+Mobile Cloud Computing
+Focus on defining novel methods, policies and mechanisms for efficiently leveraging the services of cloud data centers for mitigating resources constraints in mobile devices.
+Modeling the application processing capabilities of Smart Mobile Devices.
+Simulation based approaches in evaluating the deployment mechanism for accessing distributed services and application behaviors offer significant benefits, as they allow mobile application developers to test performance of the operational logic of distributed deployment in a repeatable and controllable environment free of cost 
+Easy to configure simulation environment for modeling application processing attributes

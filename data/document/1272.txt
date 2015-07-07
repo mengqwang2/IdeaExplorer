@@ -1,0 +1,17 @@
+Egypt COE Skills Matrix project
+In the efforts of connecting employees across different functions and geographical locations at EMC there should be a single portal that has enhanced search criteria along with full employee details to reach out for the diverse talents at EMC
+
+In Egypt COE Skills Reporting Process, currently the time to search for a specific skill is 11 mins on average, and the percentage of Egypt COE employees with recorded skills is zero%.
+
+Currently, we don't have a tool to deliver complete & updated information about all EMC employees, prompting users to search different portals to find the right information. This creates a disconnect in communication amongst different functions & geographical locations   
+
+Developing a tool to enable the employees in Egypt COE to record their skills.
+
+
+More info about the project in this PPT.
+
+https://inside.emc.com/docs/DOC-155580
+
+
+Decrease the time to search for a specific skill from 11 mins to 2.75 mins on average and raise the percentage of employees with recorded skills from zero% to XX% in Egypt COE Skills Reporting Process by 1st of November, 2014.
+

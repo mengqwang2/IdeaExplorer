@@ -1,0 +1,29 @@
+Bangalore Solid Waste Management System
+
+I thought about this idea when our apartment complex received a notice from BBMP to segregate and manage our solid waste by ourselves.
+BBMP develops and deploy a Web based and Mobile application system which perform following things to do the efficient solid waste management for Bangalore City for a cleaner and greener Bangalore:
+
+1. System allows bulk generators to register themselves with BBMP as solid waste generators and create the schedule for waste pickup.
+
+2. System sends periodic alerts, notifications and guidelines to all bulk generators on methods of waste segregation and solid waste management.
+
+3. System receives the SMS based alerts sent by sensors installed in bulk generator garbage yards / garbage bins. This helps in scheduling the garbage pickups from the bulk generators.
+
+4. System can also get waste pickup request via call center or email. 
+
+5. When system receives the pick up request, it locates the nearest GPS enabled Truck / Tractor and send them to the bulk generators waste pickup location. BBMP can track the trucks whether they reached the location, time to reach the location and time and location to dump the waste so that it can schedule next cycle for another bulk generator.
+
+6. System also provides the location and information of the pick-up truck / tractor to the bulk generator so that they can monitor the vehicle for timely pick-up. If vehicle reaches late or wrong location then it gets notified to BBMP system.
+
+7. All dump yards are equipped with sensors to monitor the amount of waste is dumped, it sends notification to BBMP system when they get filled and sends notification to BBMP system that it can not take more waste. BBMP system then redirects trucks to another location for dumping the waste.
+
+8. System provides the location and guidelines for wet waste compositors and bulk generators can themselves takes the wet waste their. System also provides guidelines on how to pick up wet waste and sent to compositors.
+
+9. BBMP system provides automated billing system for waste pick up service.
+
+10. BBMP system also provides cash / credit facility for the dry waste based on the weight of the dry waste.
+
+11. BBMP system also provides facility for private vendors for waste management registration.
+
+
+

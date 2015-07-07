@@ -1,0 +1,14 @@
+"Power It"
+This idea matches the challenge by addressing EMC product energy efficiency improvement
+This is the output of combined thoughts
+Our idea is to offer a new cooling system attached to any EMC product that increases EMC products energy efficiency.
+
+Hardware:
+The system will consist of two cooling methods:
+1- Heat sucking fan that works by a battery that gets charged by the server produced heat
+2- Water pipes cooling cycles with compressor that will only operate when the fan is not getting enough heat to operate or in case the battery is empty of charge.
+
+Software:
+1- Manager to the fan and water systems.
+2- Develop an independent software that analyses EMC product usage (I/O, storage usage, Network usage,...) and to match the server capacity with the actual load
+This system will increase energy efficiency and eliminate waste in addition to create a new opportunity for EMC to help customers with other servers in their Data Centers.

@@ -1,0 +1,7 @@
+Tool
+We should have some tool; so that, Implementation team can update complete customer environment details before handing over the customer to support.
+There were plenty of incidents were support didnt have any information of customer environment and support use to sturggule to get the information from the end user. 
+As soon as Implementation team submit the request; it has to come to support and support will check all the details which is avialable in check list and take the handover after confirmaing from customer. 
+1) Saves support engineer time.
+2) Easy to pin point the issue. 
+3) We will have all the information (Customer contact, Account manager, SAM) 

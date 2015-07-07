@@ -1,0 +1,13 @@
+Using Data Analysis Approach to get Maximum Performance
+
+- Idea came up after seeing multiple issue are opened for the same issue and sometimes those issue due to system and code.
+
+- if we resolved these issue after getting multiple analysis about it,Customer will be happy when he doesn't face any issue like that again
+- Just Get the information for each box under the site name and store it at Big Data Analysis Solution.
+
+- Information will be like Operating System, No. of Cases that opened for this box, Issues, Repeated issues and Time duration.
+
+- Will analyze this information to know the behavior of this box or this Code.
+
+- This will help to make everything under the perfect conditions all the time to get maximum performance all the time and gain customer satisfaction
+

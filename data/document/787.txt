@@ -1,0 +1,78 @@
+ EMC to meet future demand gap of 4 vertical markets in one packaged solution using Hybrid Cloud – a complete solution (prototype implemented)
+
+The idea highlights a huge promising market that is missing EMC technologies in which EMC can maximize revenue. We describe a complete solution putting blocks together from EMC portfolio to have a packaged solution. The idea addresses four different vertical markets:
+1-	Telecom Industry: as a future provider for IoT technology [1]
+2-	Healthcare, Energy and Oil&Gas industries: they are common in using IoT and sensor technology in their line of operation, monitoring or value adding. 
+
+The idea uses EMC portfolio of Software defined datacenter, Enterprise Hybrid Cloud (EHC) and ViPR and Big Data Pivotal Stack.
+
+#Note: Presentation Slides are prepared to illustrate visualized solution diagrams and results. Specific slide number is use for referencing throughout the idea.
+Presentation link: https://inside.emc.com/docs/DOC-155894  
+ 
+*Opportunity and Challenge:
+ IoT technology is increasingly booming transforming huge vertical markets like Healthcare, Energy, Oil and Gas as well as telecom industry. There is a huge gap between the demands of such applications and what technology is offering nowadays. Thus, Many IT market leaders (including EMC) are trying to fill this gap. Slide 2 of the presentation shows expected IoT Market growth in 2020: https://inside.emc.com/docs/DOC-155894 
+
+
+*Mission:
+Our mission here is to provide a complete IoT data platform over EHC that reinvents storage, networking and analytics to enable EHC to answer emerging demands of different vertical markets and dominate IoT Market. Our end goal is to make EHC the platform of choice for all IoT providers/industries. Visual high level architecture view is demonstrated in slide 3 of the presentation: https://inside.emc.com/docs/DOC-155894   
+
+
+*Prototype and Implementation done:
+We defined a complete Roadmap with milestones to build this IoT Smart Data Platform. We have already implemented a prototype (Proof of Concept) for storage and networking part of the solution in which we defined, implemented and tested a novel algorithm we called ‘Storage Path Optimization or SPO’ (Approved Patent Number: ‘EMC-15-0420’). We put a proposed roadmap for the Analytics part.
+
+I have been thinking about the IoT and sensors market enabling technology almost 1 year back. I had the SPO algorithm idea at that time inspired by a completely different field which is finance! When payment happens by credit card transaction that just gives orders to banks and does not include a real tangible cash flow. The bank here for me was the cloud (cloud of money!) and the credit card is the end device. I presented the idea to executive sponsors in 2014 and ensured alignment with EMC 3rd platform strategy for 2014. Then decided to implement a proof of concept and may be file part of it as a patent in EMC CTO office. I worked on this with a team –for almost 10 months- and filed the algorithm part of the idea (SPO) as a patent that was accepted. Some other blocks of idea are currently underway.
+
+*References:
+
+[2]- http://qz.com/179980/the-plans-for-5g-to-power-the-internet-of-things/ 
+[1]- http://postscapes.com/internet-of-things-award/smart-city-application/
+ [3]- http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6380493 
+[4] - http://www.contiki-os.org/ 
+Idea presentation link on InsideEMC: https://inside.emc.com/docs/DOC-155894
+
+*Solution Structure and Operation:-
+
+IoT-Smart Layer resides between the ‘Sensors Network’ and cloud doing the following logic: 
+
+1-	Storage Path Optimization: The engine will send large data chunks on the storage layer than sending it on the devices layer. For example if I will send data from one “Sensor” to the other over the internet, then just send the data on the underlying storage layer (inside the same datastore) and send just the metadata and pointers over the network to save time and battery. This means that if all the storage is cloud based, why to send the data (if I do not want to process/read it now) if we can just change the “Data ownership” from one device to the other and copy data internally inside Data Center!
+Visualized figures for the algorithm operation are in slide 10,11 and 12 of the presentation: https://inside.emc.com/docs/DOC-155894 
+
+#Note: Why is the above approach best suited to M2M communication especially sensors in smart city?  Because 1- sensors tend to work as data generators and aggregators, they do not consume or process data instantly. Instead, they just need to store it for further processing by central servers. 2- sensor are very critical constrained devices in energy (battery) and bandwidth and require minimum traffic possible over the network/internet
+
+Visualized figures for the algorithm flow chart are in slide 8 and 9 of the presentation: https://inside.emc.com/docs/DOC-155894 
+
+We have Implemented the above algorithm (SPO) using environment simulation (MATLAB) and tested its performance over the current storage and networking approaches (for TCP and UDP). Results showed up to 25% improvement for the average delay per user. 
+
+test result graphs are illustrated in slides 13 and 14 of the presentation: https://inside.emc.com/docs/DOC-155894 
+
+2-	Cluster-Aware Resource allocation: Data in IoT tend to move between a set of devices “Cluster” that belong to certain profile such as same user or between sensors in the same area reporting data to an aggregator point. Hence, the engine will locate data for the same “Cluster” in the same datastore to get maximum performance as data mobility inside the cluster is high. Copying data inside same datastore or same array is much faster than copying data between sites or different arrays.
+
+We have provided a demo for Resource Management Database doing this allocation on the compute level (VMs) and storage level (Pool). Example of this database is illustrated in slide 7 of the presentation: https://inside.emc.com/docs/DOC-155894 
+
+3-	IO profiling: Some IoT devices tend to send more than receive data while other devices tend to receive data more than send. For example: health monitor sensors or production line sensors in Oil and gas industry connected to the internet are more likely to send data (reports and notifications) to other devices such as mobile phones. Hence:
+a.	Locate data for the “Send intensive Devices” in a storage/RAID type that is suitable for high read performance such as RAID 5.
+b.	Locate data for the “Receive-intensive Devices” in a storage/RAID type that is suitable for high Write performance such as RAID10
+Visual illustration in slide 5 of the presentation: https://inside.emc.com/docs/DOC-155894
+
+
+Our solution integrates  Iot-SMart Analytics module that will do the following:
+1-	Smart database allocation: dynamically choose the suitable data base type to used based on data, sensors and application types (for ex. Column stores Vs. row stores or in-memory databases for real time analysis (water system sensors) Vs Hadoop for batch analysis (surveillance videos))
+2-	Pre-data preparation: do in-storage early data preparation for batch processing depending on application type. For example:
+a.	Camera Data: do pre-structuring for the data making it ready whenever batch processing is required
+b.	Traffic data: do data cleaning, summarization and storing it ready for batch processing anytime.
+3-	This module can also benefit from a packaged Data Analytical module I proposed to the same challenge in Idea number: ‘2015002139’for “Time-Series Analysis)
+
+*Solution Offering & Customers:
+
+1-	Service: IoT-Smart Layer will be introduced as a service on top of the cloud offering (Pivotal CloudFoundry (CF) or Open Source IaaS like OpenStack. This is targeted for vertical markets that does not want to buy a complete solution 
+
+2-	Solution on EHC & ViPR:  the IoT Smart Data Platform can be integrated to EHC allowing it to be powerful solution in IoT industry especially that most telecom enterprises are adopting IoT-5G technology now [2]. EHC is a ready platform to host this solution as the Storage intelligence module can be integrated in ViPR offering IoT Data Service as part of ViPR Data Services. Such offering is better suited for telecom operators as they are trying to be IoT provider for the future.
+
+This IoT-Platform will be compatible to IoT standards stack [3] (different applications) and will talk to IoT operating system such as “contiki” [4]
+
+1-	Allows EMC to dominate top niche market of IoT
+2-	Aligns EMC more with 4 main vertical markets needs 
+3-	Adds competitive advantage to EMC EHC and ViPR in the platform 3 market
+4-	Promotes EMC cloud solutions like Pivotal CF
+5-	Positions EMC as the infrastructure provider of choice for all cloud service providers and telecom operators investing in IoT.
+

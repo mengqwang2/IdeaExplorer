@@ -1,0 +1,15 @@
+An Automated Method for Installing Software Updates Remotely.
+Engineering Operations Services & Solutions (EOS2) Challenge is addressed here as the idea attempts to enhance the engineering process on how we respond when it comes to keeping a deployed product up to date.
+We are part of security team of VPLEX. In EMC (especially in case of VPLEX), currently we wait for a GA release/ patch release in spite of having a vulnerability fix available, as there is no provision to apply just the updates. This resulted in a need for remote software updates before a product patch or a release is made available for upgrade. most of the times its OS related updates which need no intervention of EMC engineering but still we end up waiting for a GA.
+The idea is to have a service or a server whose software store is up to date containing all the updates and patches that could be applicable for the products.
+This provides products in the field with our customers an ability to update the software. a embedded client in the software product must be able to download and update/apply software updates/patches. This is better than most approaches where an update is made available along with a product patch or a new release.
+
+Automation of this remote software updates would be an added advantage. The major milestone in automation is authentication of the service provider which can be addressed by adapting existing authentication mechanisms.
+
+This idea is really a saver in case of applying critical security patches. Any product is vulnerable throughout its life cycle right from its inception to the sustenance. Dealing with vulnerabilities and threats that constantly emerge is an inevitable activity to assure the security of a product. Idea that is being proposed reduces the time that takes for providing vulnerability fixes on the existing products in market. Through this idea higher release frequency of critical security patches and other updates can be accommodated.
+This idea on implementation would result in:
+1. EMC will have proven infrastructure for all its software upgrades
+2. It is economical to prefer updates over expensive manual upgrades.
+3. It is cost saving as it avoids the tedious trip of a customer to the service provider or the other way to keep the product up to date.
+4. Assurance of service delivery well within the SLA!
+

@@ -1,0 +1,20 @@
+Connecting – The EMC WAY (Bringing the World Together)
+
+
+Came together to help come up with the platform to solve this specific challenge posed at Innovation Conference.
+Leverages following EMC solutions
+EMC Solutions: Can create an end to end package that constitutes of following
+	Cloud Infrastructure – Storage and Accessibility
+	Green Plum - Data Analytics for Profiling / Data Mining / Trending
+	Data Protection – DPAD portfolio
+	Security – RSA
+
+3 C Philosophy of this idea
+	Connect – Get the students across the World virtually over the cloud
+	Concept – Teaser on STEM, Probe folks on the basic fundamentals
+	Collaborate – Work together as team to break through the puzzle
+
+Please find more details @
+https://inside.emc.com/docs/DOC-99813
+
+

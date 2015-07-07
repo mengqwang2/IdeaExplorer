@@ -1,0 +1,40 @@
+Federation Hybrid Cloud Accelerator - repeatable & structured approach to selling EMC Federation cloud solutions
+APJ COE "Solutions Platform” Challenge
+- Customer Experience - help our Customers to better understand and test/try our cloud solutions in their environment, before they buy.
+
+E2E Horizon – End to End Business Process Challenge - accelerate cloud solutions sales cycle, improve tracking of cloud opportunities, making the EMC strategic goal of 2000 well-run hybrid clouds BHAG by 2016 easier to achieve.
+
+Global Product Operations Challenge
+- transform across the end to end supply chain in terms of cost, quality, availability and time to market
+Shorten the sales cycle for EMC cloud solutions.
+I’ve came up with this idea back in October 2014 when we were exchanging the ideas within the Cloud Readiness Accelerator (CRA) Core Team, on how to develop CRA methodology further and align or differentiate from IT Transformation Workshop.
+
+Since then:
+- I’ve implemented the prototype of the Federation Enterprise Hybrid Cloud deployment tool and shared that with Cloud Solutions Engineering;
+- I've discussed my idea for the Hybrid Cloud Accelerator workshop with Radomir Bordon, EMC Presales Manager in Poland and agreed to spend some time on developing further this idea and pilot that with Customers in Poland. 
+Create a standarized workshop package for Presales, to help them to execute on FEHC / cloud solution opportunities.
+
+The goals of the workshop would be:
+1. Educate Customer on EMC Federation cloud offerings;
+2. Collect information about Customer’s IT environment and their requirements for a cloud solution;
+3. Demonstrate the capabilities of EMC Federation cloud solution in a PoC environment (potentially implement the solution in Customer’s environment), covering few use cases agreed with the Customer and relevant to their needs;
+3*. Optional: leverage other tools, such as Adaptivity Light to demonstrate our consulting services capabilities, regarding for instance application placement analysis & recommendations;
+4. Prepare gap analysis and present an initial / estimated sales offer for the demonstrated cloud solution, that would meet Customer’s requirements and fit Their IT environment.
+
+An integral component of this workshop, besides a set of presentations, demos, spreadsheet for collecting data and delivery guide, would be an automated deployment tool for Federation Enterprise Hybrid Cloud solution, that would allow to make a PoC-type install of the Foundation of this solution in a matter of hours at the Customer premise; 
+
+Download the demo of a prototype of such a tool from this location: https://my.syncplicity.com/share/uecumrsbk78ajy3/20150216-EHC-Automation-Prototype
+
+I would be happy to share more details of the work I’ve done so far via a WebEx meeting.
+Success:
+- Create a virtual team to further develop and maintain both the Federation Hybrid Cloud Accelerator workshop package and the automated FEHC deployment tool;
+- Execute the workshop on a group of selected pilot Customers;
+- Gather feedback, measure success and implement necessary changes after the pilot phase;
+- Roll-out globally.
+
+Benefits:
+- Accelerate sale of FEHC solutions by shortening the sales cycle;
+- Educate our Customers in EMC Federation cloud solutions & services offerings;
+- Reduce field PoC efforts with a streamlined, automated and more repeatable approach;
+- Clear way to report impact on EMC business by tracking workshop execution in Salesforce.com;
+- Possibility to introduce better measurements on our execution in selling cloud solutions.

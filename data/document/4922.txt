@@ -1,0 +1,5 @@
+Build an EMC open platform
+
+Perl module
+We build an EMC open platform and open some interface for all developer, they can deliver their tools on it. And It may help us to occupy the market
+

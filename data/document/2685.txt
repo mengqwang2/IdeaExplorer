@@ -1,0 +1,32 @@
+SAP HANA as a service on Virtustream/FEHC and HANA application marketplace
+This idea would combine SAP HANA Multitenant Database Container feature (MDC)  and FEHC/Virtustream cloud platform to develop a new solution on Virtuastram/FEHC.
+As SAP is moving towards cloud, EMC together with VMware and SAP could build a new eco system for HANA platform on top of FEHC and Virtustream, which simplifies the building of HANA environment and lowers the cost of HANA platform thus attracts more and more people to contribute to eco system and share the profit from the marketplace, just like what Apple App store did.
+This idea will build a solution to quickly provision SAP HANA database on FEHC/Virtustream in the form of private,managed and public cloud, which enables end users to:
+- Quickly build HANA environment in the cloud.
+- Provision business suite and applications on top of HANA MDC
+- Automatic scale out and scale in of HANA system
+
+The next step is to build an eco-system and application market on HANA cloud platform, where:
+- Independent developers will be easily build their development environment at low cost and publish their applications
+- Partners will be able to build POC, develop their own solutions on HANA and publish their applications
+- Enterprise users can consolidate their HANA applications and SAP business suite on HANA MDC, browse and purchase the applications published by developers and partners.
+
+Here is a typical scenario:
+- Company A provides SAP HANA cloud services in a managed cloud and public cloud.
+- Company A first provisioned several empty SAP HANA systems with MDC enabled.
+- Partner B is a startup company that builds HANA solutions. Partner B does not want to invest too much to build their own infrastructure for HANA environment.
+- Partner B subscribes HANA database services from Company A and requests a HANA database with medium size.
+- The cloud platform picks up an available SAP HANA system and provisions a new tenant database. Firewall rules are created automatically to make sure the tenant database can only be accessed by Partner B.
+- An independent developer C also subscribes Customer B subscribes HANA database services from Company A and requests a HANA database with small size
+- However all the existing SAP HANA systems are full. The cloud platform triggers automatic scale-out first, which provisions a new HANA host to provide more compute resource. Then create a new tenant DB for developer C.
+- Partner B and developer C publish their HANA applications and demos on the HANA application marketplace.
+- Enterprise D subscribes HANA database services in a managed cloud and provisions HANA databases to consolidate their business suite applications for HANA. 
+- Enterprise D also browses the application catalog, tries one of the applications published by Partner B and finally decides to purchase it. Then Enterprise D provisioned a new HANA database together with the purchase of application from Partner B. The cloud platform provisions a new tenant database and XS engine. Then the application is automatically deployed on the new HANA database and XS engine.
+- EMC/SAP and Company A also gain revenue sharing from each purchase.
+
+New simple chargeback model should be available for different groups of customers. For example, Pay as you go for developers in public cloud and monthly package price for partner or enterprise in managed cloud. 
+
+In additional, EMC could provide advanced services, for example, data protection services and professional SAP consulting and migration services to generate additional revenue.
+- Lower cost for independent developers and partners.
+- Add value to FEHC and Virtustream portfolio
+- Bring new revenue from EMC with HANA cloud platform, data protection services, professional consulting services and HANA application market.

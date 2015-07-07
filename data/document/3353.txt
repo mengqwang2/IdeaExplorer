@@ -1,0 +1,7 @@
+Reduce reboot time of VNX(CS and SP) for in Lab
+
+All VNX developers are affected if the idea is implemented.
+We can introduce a mechanism like disabling unrelated features to developer and accelerate the reboot of CS and SP.
+Windows 8 also has such mechanism and support 2 mode: quick restart and common restart.
+
+

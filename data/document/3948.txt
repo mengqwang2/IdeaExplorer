@@ -1,0 +1,5 @@
+Customer environment aut-discovery : EMC agent
+
+We have attender various customer escalations and we realize all environments are different and complex. If there was a easy way to know not manual but automated way to understand the environment it would help.
+Idea here is to have a EMC agent which scans the entire customer environment and gives a pictorial diagram with all the components involved like - Servers, network, routers, physical/virtual hardware , etc. Based on the agent output its very east to show customer which EMC products fits in where. Various EMC solutions can be put in place like - which all host need to be protected - use EMC backup , where EMC storage will fit in, etc.
+

@@ -1,0 +1,11 @@
+Create an internal Website for repository of all the technical documents for all products
+This innovation idea will 
+- reduce the time to get upto spead for any Engineer whether from Customer Services or Professional Services or Field teams to install/troubleshoot any EMC product.
+- Increase Total Customer Satisfaction
+- Save Cost since the customer issue will be resolved in less time
+Being in customer service, we get service requests opened by Professional services and they share the documents with steps and all the screenshots they are following and then facing the issue. Similarly we also have our troubleshooting documents that are not available to professional services. I thought of a portal if we can leverage all the value content that is spread across GEOs and in different teams and bring them at one place.
+We create an internal website wherein create categories for all EMC products. We can invite all the teams from all the GEOs from Customer Support(CS), Professional Service(PS), Managed Services(MS) and all the value content created in the form of installation Steps with Screenshots over last several years can be uploaded for each EMC product. 
+This idea will 
+- reduce the time to get upto spead for any Engineer whether from Customer Services or Professional Services or Field teams to install/troubleshoot any EMC product.
+- Increase Total Customer Satisfaction
+- Save Cost since the customer issue will be resolved in less time

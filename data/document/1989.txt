@@ -1,0 +1,8 @@
+Multilingual Knowledgebase
+Currently EMC knowledgebase articles are all in English and search results are also in English. In a growing marketplace there are several non-English customers. Though our products support other languages, our support site does not provide knowledgebase articles in other languages.
+
+Even the support engineer has to manually translate (google translate) and provide a resolution even though the solution exists.
+We see many customers come in chat or vic web who does not know English. Every time we have to translate the solution into their language, this is time consuming. Time lost because of language barrier.
+Translate high value knowledgebase articles into other major languages. Filter the customer base according to the country and language they speak. Translate KB's into particular language which most of the customers follow.
+When a solution is readily available in a customer's native language, customers can easily identify a solution.
+

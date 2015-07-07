@@ -1,0 +1,12 @@
+Improve energy efficiency by Dockerizing the EMC products
+By dockerizing the EMC apps we can save energy
+By exploring
+Docker is an open-source project that automates the deployment of applications inside software containers, by providing an additional layer of abstraction and automation of operating-system-level virtualization on Linux. Docker uses resource isolation features of the Linux kernel such as cgroups and kernel namespaces to allow independent "containers" to run within a single Linux instance, avoiding the overhead of starting and maintaining virtual machines
+
+By Dockerizing the EMC apps, the amount of energy required to run the server reduces. All the apps runs on the docker container, hence saves the power.
+
+Docker advantages:
+a) Containers can be created almost instantly – as quickly as spawning a new Linux process. This is excellent in scenarios where many transient, temporary instances need to be created and eliminated.
+b) Containers are “lightweight”, sharing the same kernel and libraries and taking very little additional memory and disk space.
+
+Saves power energy to the organization and hence save in dollars

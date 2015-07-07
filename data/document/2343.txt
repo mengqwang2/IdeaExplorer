@@ -1,0 +1,11 @@
+Providing stronger security for EMC storage management with CA cerificates
+Some of the EMC storage support storage encryption (Data@Rest), for example VNX, VMAX and XtremeIO, but user/administrator management simple use user/password, LADP or windows domain. It is not enough for safety-critical customers.
+I talked with some data safety-critical  customers, they all use the CA technologies for the user permission management, they would like for storage management, beside data encryption, EMC can support CA for more secure user and key management.
+CA server will manage the certificate distribution, USB key will be used for different user permissions. CA server should distribute key for normal user, storage administrator and security administrator. 
+1.	Users only can access the user data with permissions.
+2.	Storage administrator with USB key can manage the storage, i.e. they must insert the USB key to management GUI server and pass the CA authentication, then storage management is open for them.
+3.	Security administrator can audit all operations and distribute the keys.
+With this solution, key management is more easy for storage, key distribution, key lifecycle management and key destroy will be efficient and secure.
+
+1. Help EMC wins the data safety-critycal customers
+2. More secure for data in EMC storage

@@ -1,0 +1,12 @@
+Test Plan Time Estimation Tool
+This tool will provide users the estimate they are looking to put in the test plan document for subsequent testing cycle of a product by analyzing the generated logs and suggesting the estimates.
+Whenever we write our test plan for subsequent release in a product testing phase, we need quantify our estimates so that we can forecast the time the testing cycle will take. We need to check the older logs manually and come about a decision on the estimates, which is a very tedious task.
+The tool will comprise of following components:
+
+1.Log Collection Engine
+This engine will collect the logs generated on different platforms while testing a particular product. We can have a plugin distributed with the product which should have read & copy access to the logs and in turn, it will copy the logs to the Estimation Engine.
+
+2.Estimation Engine
+This engine will analyze the logs based upon features or test-cases or platforms and generate a report based upon user selection feature of test-cases.
+
+We can provide better and closer estimates in our test plan, which will help the product to take a faster route to market.

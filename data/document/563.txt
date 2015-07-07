@@ -1,0 +1,27 @@
+Containerized real-time big data analysis powered by XtreamIO 
+Create new use case for XtremIO; build new creative tech differentiation over other AFA
+We come out this idea during our brainstorm 
+To address the challenge and opportunity, we'd like to propose containerized real-time data analysis powered by XtreamIO.
+
+The solution is composed of 3 important parts, that are container, big data analysis component and XtreamIO.
+
+- Container technology (Docker)
+We will leverage container technology, e.g. Docker as the infrastructure to hold the data analysis component. Docker is a kind of layered architecture. Each layer can be customized with specific packages.It is easy to to scale out as we can boot tens of hundred of docker instance at short interval and have them start the data analysis job. They will not cost additional storage as the same docker image's finger print would be the same and XtreamIO's in-line deduplication will help avoid the disk space waste.
+
+- Real-time data analysis engine (Spark)
+
+Apache Spark is an open-source cluster computing framework originally developed in the AMPLab at UC Berkeley. In contrast to Hadoop's two-stage disk-based MapReduce paradigm, Spark's in-memory primitives provide performance up to 100 times faster for certain applications.By allowing user programs to load data into a cluster's memory and query it repeatedly, Spark is well suited to machine learning algorithms. 
+
+As we know regardless of how busy XtreamIO is, and regardless of storage capacity utilization, latency and throughput remain consistent, predictable and constant. Latency within the array for an I/O request is typically far less than one millisecond(ms). XtreamIO's superb performance partner with Spark's violent process speed can definite generate tremendous data analysis efficiency.
+
+- XtreamIO
+
+XtreamIO's powerful data service will add additional value for this big data real-time analysis solution. 
+
+a. The constant high-performance will definitely benefit Spark's real-time data analysis. 
+b. The inherent in-line de-duplication co-work with Docker can help reduce storage consumption and  increase storage efficiency.
+c. The encryption can help protect customer data security
+d. The scale out capability will help the solution to process even large amount of data.
+1. The solution will create promising opportunity for XtreamIO in big data analysis and analytic market
+
+2. EMC will strength it's position the big data era as well

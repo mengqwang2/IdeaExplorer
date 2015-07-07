@@ -1,0 +1,5 @@
+Update array version like Windows update
+Learn advantages of Windows update, and apply them into current VNX software update.
+n/a
+Windows update method to update software version is much smooth, easy and effective.
+Learn advantages of Windows update, and apply them into current VNX software update.

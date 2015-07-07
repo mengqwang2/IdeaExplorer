@@ -1,0 +1,22 @@
+Real Time Feedback Analytic system leveraging EMC 3rd Platform.
+This idea is to bring the aspect of real time feed back to resolve/act upon the customer issues immediately.
+
+Real Time Feedback mechanism brings a better satisfaction to the Customers as their thoughts/grievances could be answered quickly and effectively.
+
+We work in a global team where every team member face certain kind of issues with representatives and their timely actions. We observed that there was a huge time gap in the action/improvement resulting from Customer feedback.
+Data inputs required: Customer Survey feedback, tweeter feeds, LinkedIn data, text feedback,Internal employees feedback.
+
+Methods to obtain feed backs:
+• Real Time gathering of customer survey data (historical), the tweeter feed and LinkedIn data 
+•Feed backs can also be obtained through internal sites such as Unity, InfinIT, Emc one etc.
+•The customers can be handed a Tablet(I PAD) after a executive briefing to enter the feedback instantaneously.
+•The text feedback obtained by customers/employees from various survey data sources are then analyzed using Sentimental Analysis and categorized as positive,negative,neutral and some can be categorized as
+urgent where sales rep is required to act immediately.
+ The data could be feed to greenplum database and the solution built over it can be integrated with Salesforce to aid the sales representative to act by the previous customer feedback.
+•A graphical dashboard in Tableau can be also be provided to show the customer experience and feed backs across products and divisions.
+
+Please refer the details in the URL Link : https://inside.emc.com/docs/DOC-155908
+- Improve Customer Experience as the timely response will be provided to Customers based on their feedback.
+- - Derive better Customer Insights through Analytics 
+- Customer Centric Sales and Service Offerings
+- Quick wins and Quick resolution of Customer Tickets

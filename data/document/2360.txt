@@ -1,0 +1,5 @@
+EOSL Dates information to be reminded to customer's
+N/A
+I have many customer's who has to go through the complete SR procedure to get details only for EOSL products and then s, we will have to ask our engineering/Development/ QA team and they will provide us the information if they have. when I thought that we can an  
+ We can actually have a link every time in our signature which will give them all these details in one click and they need not reach us every time while creating SR's also that will act as a reminder to customers and keep them up-to-date with the EOSL details.
+if we can have these details handy and have a proper link attached with our signature which customer can look in as and when they want.

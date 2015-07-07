@@ -1,0 +1,33 @@
+Auto Tiering of Data Based on ScaleIO and ViPR Analytics
+Enhancement to ScaleIO to support new product capabilities and use-cases using ViPR.
+Interest in ScaleIO and ViPR technologies. 
+According to a Gartner report published in April 2013,
+
+“The access patterns, value and usage characteristics of data stored within storage arrays varies widely, and is dependent on business cycles and organizational work processes. Because of this large variability, data stored within storage devices cannot be economically and efficiently stored on the same storage type, tier, format or media.”
+
+Our solution consists of two parts:
+
+1) In addition to the existing back-ends supported by ScaleIO today, our idea proposes an enhancement to ScaleIO to support Object Storage and NAS. By doing so, ScaleIO can leverage any storage back-end available in the data center, be it block, file or object based to present virtual block storage to hosts.
+
+    a. An advantage of using Object Storage or NAS is that these storage types can function as a tier which can be used for storing data which are WORM oriented such as VM images.
+
+2) ScaleIO currently supports block based storage from Internal or Array based resources. We propose classifying the storage based on service levels. For instance, the flash storage can be of Platinum level, SAS can be of Gold level, SATA can be of Silver level, Disk Array can be of Bronze Level, NAS storage and Object Storage can be of other service levels. Internally for ScaleIO, each of these service levels would mean different Tiers of storage. 
+
+    a. When the administrator wants to provision storage to a host through ViPR controller, a request is made to ScaleIO to provision the storage based on the service level desired such as Platinum, Gold etc. ScaleIO can then provide the required storage from the desired service level.
+
+    b. ViPR can query ScaleIO for stats or reports on the performance and usage of the provisioned storage and perform analytics on those stats or reports, thereby providing guidance to ScaleIO to Auto-Tier the data. ScaleIO would then position the data on the appropriate storage tier. Thus, based on access frequency and workload patterns ScaleIO determines which disk blocks should be moved into each tier. 
+
+For example, let us consider ViPR provisioning a volume to a host from ScaleIO’s flash pool. Later as the volume gets into use, ViPR can query ScaleIO to learn the performance and usage patterns of the volume in question. The stats or reports obtained from ScaleIO are analyzed by ViPR to provide guidance to ScaleIO to Auto-Tier the data if required. For instance, assuming that the data on the volume shows a trend of being used less frequently, ScaleIO can migrate the data to another tier of storage thereby relinquishing the expensive flash storage to other demanding workloads requiring faster tier of storage. 
+
+    c. Alternatively, ScaleIO itself can take decision to automatically tier the data based on the usage and workload performance of the volume. 
+
+
+
+1. Data centers wanting to deploy ScaleIO are not limited to just block storage based back-ends as now they can use the storage from all types of storage such as file and object storage as well. This is particularly useful for customers who consume huge object storage from the cloud and data centers which have invested heavily on NAS.
+
+2. Administration overhead is significantly reduced as the application workload is automatically and transparently distributed among the various storage tiers because of Auto-Tiering.
+
+3. ViPR and ScaleIO enabled Auto-Tiering helps the utilization of all types of storage efficiently and the need to invest heavily on expensive Flash technology is significantly reduced. Industry statistics show that, on average, only 15-20% of a company’s entire data footprint benefits from Flash storage since the remaining percentage is considered largely dormant.
+
+4. Superior application performance and lower total cost of ownership across the entire storage architecture.
+

@@ -1,0 +1,16 @@
+Enhanced Serial Console to access the VPlex directors!
+
+Prior Work experience
+Build a USB access to the serial console to the directors (one for each director in the engine). Have a "MOXA" serial console device connected to the director via USB. Assign a IP to the MOXA device. 
+
+And now, we can access the director easily via serial mode using Moxa IP. Reboot the director and see what's happening during the mode of reboot. 
+
+This helps in during the critical stages to understand what's happening when a director reboots. 
+
+16 port Moxa will be perfect for the Clustered VPlex systems. 
+
+Current approach to have serial access is cumbersome for debugging!
+
+
+
+

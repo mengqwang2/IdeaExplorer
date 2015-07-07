@@ -1,0 +1,17 @@
+Intelligent Lab inventory Management and efficient utilization 
+Each team is maintaining its own list of inventory, there is no dash board which will help the team to look at the summary of servers, storage box, VM, other hardware/software resources team owns. Dashboard will help the team to optimize the resource utilization.
+We get lot of requests for box with exclusive access to test NDU, FRU replacement, system test, replication. But there are lot of other teams which do not need exclusive access to the box. Also the boxes which are required for exclusive access will not be used 24x7, Dashboard will enable the people who are looking for shared resources to choose from the resources which can be shared.
+we are proposing to develop a web based application with minimal data entry and tool will be intelligent enough to discover the inventory details.  Tool will be capable of providing reports on storage, host, various other lab components utilization at a granular level, and also on user based utilization to enable the management to take appropriate steps immediately.
+
+1) Each team will get better understanding of the resources and there utilization, based on the data team will optimize the resource utilization.
+2) Providing locking methodology will reflect who is using the resource, in case the resource is idling we can auto release the lock.
+3) For management and senior management they can view the Dashboard and reuse the resources across the product portfolio.
+4) Most of the application products does not need exclusive access to the resource, this Dashboard will enable them to better allocate hardware.
+5) Access control to enable only the teams under the same functional group to access there resource pool.
+1) symprd is used to maintain the inventory, but this does not provide the snapshot of the all resources used, Dashboard will enable 
+2) Teams will not face shortage of resources
+3) Not all teams require exclusive access to resources they can be part of shared pool and can utilized across the product portfolio.
+
+Financial impact:
+1) Better lab inventory management will result in cost saving
+2) Identifying all the idle resources, will help decommissioning as early as possible.  

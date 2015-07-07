@@ -1,0 +1,9 @@
+Design CRM(Customer Relation Management) software for our Hardware and Software products
+Idea related to customer experience for EMC products and to track/identify the issues.
+EMC offers wide variety of products/software and hardware to our customers. We need CRM software to make an analysis of how the products being used.
+Some of the key features are,
+1. CRM software web interface helps customer to enter their issues related to hardware/software,so that 
+service provider,support/sales and engineering teams can identify and solve issues earlier. 
+2. Design CRM enterprise software to help businesses meet the overall goals for customer input, one to one solutions.
+3. Make a strategic decision on what problems the CRM is to address,what improvements or changes it should bring in the EMC business organization.
+It will improve customer satisfaction/enhance productivity/improve a product.

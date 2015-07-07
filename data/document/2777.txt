@@ -1,0 +1,25 @@
+Generic big data architecture for high velocity time-series analysis of log data
+Brazil: this solution can provide a Generic big data architecture based on the pivotal stack (Spring-XD, Redis, PivotalHD) and open source for the visualization (the ELK solution) that can deal with massive execution of machine learning algorithms for tim
+we are all part of the Data Science team located in Israel and based on our experience with Machine learning and data science methodologies over Time series data we thought about the suggested idea and we also implemented it for the EMC IT.
+
+IT systems generate millions of log entries per second from a large number of subsystems (EMC’s internal IT authentication environment alone for example, generates 10,000 events per second from more than five major components). This log data provides valuable information on various layers of the systems, and thus can be leveraged to different uses cases that can benefit from this type of data.
+Monitoring current IT systems is a complicated task as it requires integration of several applications (each specialized in a specific subsystem) and may rely on rule based policies (e.g., alert on event ID 1400 or alert if user accessed the system more than 500 in the last 15 minutes). Tuning these policies is time consuming (up to months of expert time) or even dangerous if the user chooses a bad policy.
+
+One of the major transformations in IT monitoring and managing solutions is the use of statistical methods to improve accuracy, and reduce the false positive level compared to rule based systems. 
+
+Our approach extends the approach used for the alerting engine for monitoring Exchange servers within IT has successfully reduced false alerts by over 50% while providing earlier warning times on real events. This system is currently in use by the IT Global Command Center and is offered as a Big Data play by Professional Services (see patent request EMC-13-0902, included in the additional material). 
+We introduce a novel modular framework enabling real-time time series analysis of IT event data by utilizing pivotal stack products (we tested the system - to monitor the authentication system of EMC. we can provide the results and demo of the solution if needed.
+ 
+The architecture is composed from the following components:
+1.	Stream processing – The processing component is based on Spring-XD. this component will provide the following abilities:
+a.	Pre-processing: transform the raw data into structured data in real-time, and allow filling missing values in the data (enrichment of data).
+b.	Time series analysis: predict and forecast massive time-series signals using statistical models(we tested the system with Holt-winter model that updates the parameters on each sample).
+c.	Probability mass function: A model that evaluates the probability of event to appear (used to detect rare and anomalous events and / or combinatorial combinations(we tested the solution using GMM, we trained the model every day and using it on each sample).
+2.	High performance memory sharing: A component based on Redis, in-memory data store, to allow fast and stable memory sharing between the stream processing modules. This will allow scale-out capabilities for the modules as the data is stored externally and is shared between all the instances of each module.
+3.	Distributed File system: A component based on Pivotal-HD to allow storing the raw, parsed, and analytic outputs and parameters. The advantage of using HDFS is that it allows both backup and for future analysis via batch processing (e.g. Map-Reduce jobs). 
+4.	Visualization - A component based on the ElasticSearch and Kibana (both are part of the ELK open source).
+All of the components listed above support cluster-mode, this allows the system to scale out linearly and monitor complex systems with high velocity and volume of data. 
+
+Main advantages:
+1.	The architecture and all its components are fully compatible with the idea of the federated data lake. 
+2.	Highly modular and extendable pipeline for digesting and analyzing real-time data e.g. we could leverage the results and preproc

@@ -1,0 +1,9 @@
+Lab Energy conservation
+Save energy, save cost of lab facility.
+Long time I observed our system, servers and arrays, consumed a lot of power even in night and weekend. It consumed a lot of power.
+A sniffer tool is developed to monitor and sniff the traffic and loading of target system. If system is determined to be idle over some specific time threshold, it should be power down or put to sleep. This could significantly reduce power consumption in Lab. The key ideas of the algorithm to determine a system is idle are:
+1. Network traffic. 
+2. Acitive console and ssh session
+3. CPU utilization
+Above are the key factors to determine if a system is idle. These data are collected that also could be used to model how system is used, like when it is heavily used and its frequency.
+Save power, that means to save cost , save money.

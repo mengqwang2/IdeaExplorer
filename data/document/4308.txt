@@ -1,0 +1,60 @@
+a model towards 100% test coverage -- randomized orthogonal testing
+
+I implemented randomized testing serveral years ago with a general purpose test case generator I developed in 2005, which was focusing on utilizing different test runs to expand test coverage dynamically, not aware of orthogonal in the first place.
+
+When I tried to collect tech topics last month, I took the opportunity to re-think the testing model I had implemented before and realized that in every single run the test coverage could be extended further with better test design. Not on purpose though, there was primitive orthogonal ideas built in that implementation. Inspired by that implementation, I came up with this randomized orthogonal testing model.
+
+
+A test case is actually a combination of interesting values of a set of testing points, and it's usually impossible to exercise all possible combinations of all interesting values of a set of testing points for a feature or product.
+
+The randomized orthogonal testing is a test model to maximize test coverage, trying to exercise all possible combinations of all interesting values of a set of testing points via:
+
+1) maximize test coverage for each test run via orthogonal testing, apparently, for a given set of test cases, an orthogonal set covers most.
+    Here we propose to apply nearly orthogonal array with strength n (also known as n-way testing) in test design to create the most orthogonal set of test cases to achieve maximum test coverage in a single run, where n will be determined by the number of test cases we can afford to run in a single run.
+    A generator to produce nearly orthogonal array with given strength will be developed for this purpose.
+
+2) expand test coverage utilizing different test runs via randomized testing, as all tests are designed to be run again and again till the product EOL'ed, we should always take advantage of this fact to expand the test coverage.
+    Here we propose to apply contolled randomized testing to create a different set of orthogonal test cases in different test run to expand test coverage utilizing test runs. The test coverage in terms of combinations of all interesting values of a set of testing points then could reach 100% as runs going on.
+    The generator above will be enhanced to produce nearly orthogonal array in a seeded randomized manner to get controlled randomness.
+
+For instance, a feature has 3 testing points (A, B and C), each testing point has 3 intersting values, and we can afford to run less than 10 test cases in each run due to resourcing limitation.
+I.E., the whole combinations set is 3^3 = 27 and only less 10 test cases can be run each time.
+
+With the testing model above, we use an orthogonal array of strength 2 (or 2-way testing) to get an orthogonal set of 9 test cases as followed:
+
+# tp, test point
+# tc, test case
+ _____________________
+|tp/tc |A   |B   |C   |
++------+----+----+----+
+|1     |A1  |B1  |C1  |
++------+----+----+----+
+|2     |A1  |B2  |C2  |
++------+----+----+----+
+|3     |A1  |B3  |C3  |
++------+----+----+----+
+|4     |A2  |B1  |C2  |
++------+----+----+----+
+|5     |A2  |B2  |C3  |
++------+----+----+----+
+|6     |A2  |B3  |C1  |
++------+----+----+----+
+|7     |A3  |B1  |C3  |
++------+----+----+----+
+|8     |A3  |B2  |C1  |
++------+----+----+----+
+|9     |A3  |B3  |C2  |
++------+----+----+----+
+
+In the orthogonal array above, it's basically a full combination of test point A and test point B, and the values of test point C are iterated in orthogonal aligning with the number of combinations
+If we iterate the values of test point C with a random starting point in each test run, we will get 9 orthogonal test cases randomly in each run and could cover the whole combinations set as time goes on.
+Say, we have had a run with the orthogonal above;
+in another run, value of test point C starts with the 2st value, test seq for test point C is
+(C2 C3 C1 C3 C1 C2 C1 C2 C3)
+ in another still run, value of test point C starts with the third value, test seq for test point C is
+(C3 C1 C2 C1 C2 C3 C2 C3 C1)
+
+Now we get 100% test coverage in terms of combinations of all interesting values of a set of testing points
+
+
+

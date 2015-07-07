@@ -1,0 +1,13 @@
+Gantt Application
+
+I was working on the construction work on my flat, and I really felt that this app is missing from the market, I wanted something that is easy to use on my portable device and can easily be modified to suit the new requirements and specs.
+
+Create an application that can be used by the member to plan the resources and sub-tasks working on the project by using Gantt charts, no need to use MSP or any bulky software, the app is light and the charts can be exported to any format
+
+Benefits:
+-Have the ability to plan all the tasks and resources fast and efficiently.
+-Have access to all your resources and tasks easy and from anywhere.
+-Have the ability to modify the same Gantt chart from anywhere and from any device.:
+-Organize the tasks efficiently and from anywhere and time
+-Increase the customer satisfaction, as the users will have a solid plan of the project and would be easily able to show these plans to the customers.
+

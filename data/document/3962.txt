@@ -1,0 +1,7 @@
+Desktop Recording sessions
+
+Getting customer queries to help them execute the KB workaround.
+Idea :-
+
+Record desktop sessions for all the major and frequent issues customer faces, where customer needs to execute straight commands. A visual KB will have more impact to customers that a text KB.
+

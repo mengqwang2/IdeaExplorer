@@ -1,0 +1,10 @@
+Lightweight Search service for Syncplicity
+Integrate Syncplicity with search service.
+Brainstorm xPlore new feature.
+Syncplicity is a hybrid-cloud storage solution. Customers have the requirement to search the repositories on Syncplicity. Our solution is implementing an on-premise lightweight search engine based on Lucene, and LDA keywords extract.
+1. Base on Lucene. To meet the lightweight and fast requirement, SyncSearch will be implemented based on basic Lucene. File adding, updating, or removing event will notify SyncSearch to update index.
+2. Keywords/Full-text Search dual modes. LDA can extract keywords from articles, in topic mode, SyncSearch use those keywords instead of full-text to index article, so customer can find the document with the topic faster.
+3. Secure Search. This search engine has the secure search ability, inherit ACL information from Syncplicity Rights Management Server.
+
+
+Customers can deploy high-quality and high-performance topic/full-text on-premise search service.

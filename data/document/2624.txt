@@ -1,0 +1,20 @@
+Save time and money through enhanced customer experience with intuitive UI
+Nowadays we have seen that many customers face problem while configuring or using new features, because of lack of understanding about the new configuration of product and its usage. Due to this customer will mess up with wrong configuration.
+1) Many companies provide product support document, CD or presentation etc. to customers. But they are printed or sometimes not available on time. Customer does wrong configuration and finally hit with a problem and call to service team. For this customer has to log a ticket, provide required information, problem steps in detail. Then, support team need to understand it as well. So, it is a time and money consuming process.
+2)New joiners face the problem while exploring the product.By providing info graphic videos ,user will have look and feel experience on the console.
+
+Detailed document is available in https://inside.emc.com/docs/DOC-153463
+
+Find “What is new?” in particular release. 
+a)	Develop videos in such a way that customer has look and feel of the console.
+b)	Add a Use case while explaining that product feature.
+c)	Develop audios and animated texts in international language.
+d)	Track whether video resolved customer problem through feedback.
+e)	Should be very simple as new customer should understand.
+f)	Highlight any pre-requisites are needed for that setup.
+g)	Highlight doc bugs related to that workflow.
+
+For eg:-  Networker 8.5 release has new feature called “Policy”. It has pre-defined policies like Gold ,Silver,Platinum. Customers can also create user defined policies by creating workflows, groups and required actions like backup,clone,vsf etc.
+
+Detail Idea can be found it here :https://inside.emc.com/docs/DOC-153463
+It will help customers to understand new feature in better way and minimize the service requests.This will also enhances the customer experience and improves the quality of the product.So with our Intuitive UI, CTD supportability can save time and money.

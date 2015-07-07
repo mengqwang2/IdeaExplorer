@@ -1,0 +1,21 @@
+ESXi hosts for each CS BU 
+Making use of IT resources and enhancing the daily operations for each TSE.
+Having troubles running large amount of VMs on our laptops as resources aren't enough
+Model:
+#######
+-Each BU will have their ESXi hosts and access will be granted from each manager to the employees if needed.
+
+-Employees will have the ability to create/host their own virtual machines on the ESXi hosts.
+
+-Employees will be able to reach out to specific team in case there is something wrong with network configuration or access.
+
+
+Important points to be taken into consideration:
+#################################################
+-Not all CS BU requires virtual environment or labs so each manager has to check with his BU before requesting number of ESXis
+
+-Virtual machines will have grace period in order not to run out of space (Something like 3-5 months for each new implemented VM).
+-Saving employees time
+-Utilizing lab resources
+-Making it easy to reproduce customer's issues
+-Decreasing TTR

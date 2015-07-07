@@ -1,0 +1,9 @@
+EMC Big Data lake Solution to include/integrate/partner with SAP HANA 
+SAP HANA integration or partnership would further enhance the tools in the EMC Big DATA portfolio delivering value to joint EMC and SAP customers.
+internal team brainstorming
+The idea would be to integrate with SAP HANA or partner with SAP to get the benefit of both the EMC Big Data Solution and SAP HANA Big data solution capabilities.  SAP HANA is strategic direction for SAP and EMC has a very large customer base with SAP.  SAP HANA is the platform for SAPs big data solution. Make tools like pivotal and VIPR compatible to integrate with SAP HANA.
+Further adoption of EMC Big DATA solution with EMC's existing and New SAP Customers. 
+Increase deployment of HANA TDI with EMC storage arrays.
+Compliments EMC solution with additional HANA capabilities such as Dynamic storage tiering and predictive analysis.
+Simplify solution and customer choice with a collaborative and complimenting Big DATA solution rather than compete.
+Could generate incremental service and product revenue.

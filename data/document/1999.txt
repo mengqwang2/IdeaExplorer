@@ -1,0 +1,18 @@
+KB search enhancement
+current algorithm used for "Knowledge Base" search has lots of troubles
+as it Shows a huge number of un-related KBs, misleading information,
+wasting Engineers' Time and slowing down problem resolution
+While searching for KBs to support resolution of customer inquiries 
+
+a Small enhancement to the search Algorithm to refine results:
+Solution has two parts:
+
+1- Adding a new search tab "Skill Group" tab to filter results
+Example: for VNX Product, there are many different Subgroups 
+"Hardware - Software - Connectivity/Replication - Performance - etc"
+
+2- Adding a category  to Submitted KBs "type of skill group(s)" 
+which will show which Sub-Group the KB is related to
+It will provide Finer search results, as it will remove many unwanted results
+ Decreasing Engineer wasted time, enables Engineer to reach resolution faster
+also, overall Better customer satisfaction

@@ -1,0 +1,6 @@
+Documentum flavors
+Documentum is a generic enterprise content management platform that many enterprises in different fields use.
+An add value service EMC can provide various flavors of documentum tweaked and customized to meet the needs of specific work sectors.
+N/A
+Customizing Documentum to meet various work sectors (ex: health service providers, utilities) needs perfectly rather than providing one generic solution
+Increasing the value of documentum and promoting it as the leading enterprise content managment platform

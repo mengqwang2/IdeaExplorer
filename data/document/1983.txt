@@ -1,0 +1,25 @@
+Smart Tasks Remainder by mining Emails and applying Natural Language Processing/Text Analytics
+My idea is related to the IT Contemporary Workplace Challenge. This idea improves employee productivity and this is an unconventional(smarter) way of looking at enterprise applications. 
+The inspiration for the idea is from Google Now which creates remainders from my GMail records.  
+http://googleresearch.blogspot.in/2015/06/new-ways-to-add-reminders-in-inbox-by.html
+The proposed idea is to build a smart reminder app which read the users mail box and adds remainders based on text analytics
+1. The application runs on a server and every user will have a client
+2. The program would login to the userss exchange server account and reads mails sent by applications(PlanIT, Concur, SAP etc) 
+3. Parsing the text in the email, the application would understand a remainder is required for this and created a remainder with the following information
+	a. What is to be reminded(Approving xxxx's request in Concur)
+	b. Due Date
+	c. Created Date
+	d. Link(link to directly go to the application eg Concur) 
+	c. Approve/Reject buttons for approval claims - if possible
+	
+4. The remainders would be pushed to the clients running in the laptop and mobile
+5. There would be an option to snooze a remainder
+6. The entire system can be built in three phases
+	a. Phase I - Deploy the system as is using the emails current sent by the systems(Low accuracy)
+	b. Phase II - Make the systems to generate emails which can be easily understandable by Smart Reminder(High Accuracy)
+	c. Phase III - Build APIs and wherever possible let the systems directly send remainders using APIs(Highest accuracy)
+7. The system can be enhanced to create reminders in mails sent by humans users(for eg: a mail from the build manager to complete checkins by 6 PM would create a remainder) 
+1. Quicker to build than trying to build an aggregator for all applications
+2. Accuracy improved with learning and by applying better models
+3. With good accuracy improves productivity across organizations
+4. This would push our EMC's capabilities text analytics which can be leveraged in other ways

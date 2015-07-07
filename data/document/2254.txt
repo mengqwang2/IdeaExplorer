@@ -1,0 +1,7 @@
+Make the unisphere GUI support more browsers
+
+Currently when we use the unisphere to launch the array,we just have to use the the IE.It does not support the others like the firefox.
+
+I always met this issue when launch the unisphere, so I have to switch the browser.
+Expand the supported browsers to support the Unisphere.
+It would make the unisphere more easy to use and improve the popularity for unisphere.

@@ -1,0 +1,5 @@
+Easy Parking
+In order to have a smart environment, everything should be automated with the least human interaction and the most accurate results. This idea will automate the process of finding a parking slot in or around the COE.
+We came up with the idea as Menna and I keep calling each other everyday while parking to inform the other if there is a parking slot or not so we thought it would be easier if there is an automated way to do it. 
+A mobile application that shows the number of available spots in each parking area. There should be sensors and red/green lighting on top of each slot indicating if it is free or there is a car parked. These sensors collect the data and update the mobile app constantly. 
+The idea would be a success if it helps the employees to find a parking slot easily and not to waste time in going around the building. This would improve the employee experience and will increase their satisfaction with the place they work in. 

@@ -1,0 +1,5 @@
+Living EMC-Wide Glossary
+CTD Supportability in 12 Months or Less - For example, any Challenge that's time-specific, a common document that unites engineers is a must. This idea can only help organizations within EMC to speak on the same wavelength instead of isolating engineers w
+At first the purpose was to define acronyms specific to the Clariion group. As time progressed, I decided to branch out to discover acronyms used in other groups and industry-wide. "If you can't find it elsewhere, try this!" is my motto.
+I've grown a glossary for the past 3 years almost, initially to train engineers at the new COE in ChengDu. Since then, it has grown to 800+ terms where the acronyms are not only defined, but the term meaning is also included, if it's readily available. I've advertised it as a "living glossary" as it grows weekly, if not daily as I search new websites and data-mine databases and old websites. 
+This idea could grow into an EMC pamphlet or booklet, for distribution at EMC events. Online, it could be incorporated onto the EMC site. An overall goal is to bring engineers together, speaking the same language, knowing acronyms that are widely used.

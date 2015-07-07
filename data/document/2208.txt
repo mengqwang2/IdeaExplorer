@@ -1,0 +1,10 @@
+DragoNet
+DragoNet is a project in which WiFi offloading occurs.
+its a solution for better communication networks.
+
+that idea was my graduation project idea , it came to my mind when i was in New York in 2012 where i found AT&T network in public and it was only authorized for AT&T users.
+the idea was implemented theoretically on a small scale on Alexandria - Cairo railway road in which the user will pay extra fee + the ticket to use the Internet service . 
+A solution for that is transferring all the mobile data usage over WiFi network to reserve the bandwidth available for phone calls.
+Through high power antennas , transmitting WiFi signal , people connect to that wifi in the city automatically without permission , all the mobile data is on the wifi network, reserving all the bandwidth for the main function of the bandwidth which is phone calls.
+Voip calls may then be added to the application to save money paid for the phone calls.
+the service provider will benefit from the fees paid by the users (the user will pay less than he/she pay for the mobile data service) , more customer satisfaction (save money, no calls interruption, high mobile data rate through high power WiFi network)

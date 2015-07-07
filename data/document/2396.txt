@@ -1,0 +1,5 @@
+ESRS - Security enhancements 
+Global Product Operations Challenge - delivering world beating products and improving customer TCE. This idea for enhancing the security and auditability of ESRS to meet customer audit requirements. Cyber security is in the forefront of today's news with 
+US Security and Exchange Commission routinely audits customer.  Number 1 item on audit is who has access to equipment and provide an audit log of who, when, and why. 
+My recommendation would add required data/fields that provides identification prior to completing access to vendor premise equipment.  Additional security and information concerning equipment access keeps EMC ahead of new and existing government rules regarding cyber security.  I would require employee ID, SR# (if no SR open, then a generic account specific code), reason for access, and what was performed during session.
+Provide an option where the customer can easily produce ESRS access logs with all information describing the access session.   This would improve customer satisfaction with the knowledge of being able to produce access reports to management and auditors. 

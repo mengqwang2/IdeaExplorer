@@ -1,0 +1,40 @@
+Simplified configuration for achieving a specific RPO and RTO in VMAX3
+In every upcoming release of VMAX we are moving towards automating the configuration. We are trying to decrease the configuration time and effort for our customers. 
+From VMAX2 to VMAX3 we have made a major change in making FAST simpler. We have provided easy controls to manage things in form of SLO and SRP. 
+
+SG is now being used for RDF and SnapVX but still the effort was required to setup local replication and remote replication. It could well be simplified by providing preset configurations that could guarantee certain RPO and RTO and that could be applied on an SG. Same as in autoprovisioning, merely adding device in an SG does mapping and masking (provided it is in a view), and this solution will create local and remote replica along with mapping and masking.
+I propose to abstract the setup procedure of the replication from the customer and provide them with preset options to achieve particular RPO and RTO.
+Also we could have archiving and backup policies in these preset options.
+We can use existing SLO mechanism and add RPO and RTO to it.
+SLO works with Storage Groups. Once SLO is associated with an SG all the devices will be setup for Local replication and/or Remote Replication according to the SLO definition. Also externally configured Data Domain could take backups at the pre-set intervals. 
+If the requirements have changed over a time one should be simply able to switch to the different SLO. 
+
+For example:
+Diamond SLO Definition – 
+•	2 ms response time.
+•	~0 RPO with High Availability - at least 5 copies of data.
+•	~0 RTO.
+•	Incremental backup every 6 hours  and full backup every 2 days.
+
+Bronze SLO Definition-
+•	14 ms response time
+•	15 minutes of RPO with 1 copy of the data
+•	10 min RTO.
+•	Full backup every 15 days.
+
+
+Same way there can be multiple SLOs defined which can cater major common requirements. Also we can provide some custom SLO that customer can define if his requirement is not fulfilled from the available SLOs.
+
+To view SLOs in a tabular form  please refer link : https://inside.emc.com/docs/DOC-155546
+
+What will happen to a device in SG or when a device is added to SG that has one of the SLO set?
+•	Assuming the SG is part of autoprovisioning view it gets visible to the Host.
+•	Device gets managed by FAST and it will ensure it is bound to the pool with appropriate RAID level that will serve the SLO response time.
+•	Local replication frequency is set up according to the RPO.
+•	Remote replication is set up (Sync /Async /multisite etc) that suits the RPO ,RTO and response time required. 
+•	Archiving/Backup policy is set up.
+Same things could be used for an SRP having external disks so that the external array can also use the feature
+SRP used in the container for the VVols can also use this feature. 
+
+Achieving a specific RPO and RTO becomes easier without worrying about underlying configurations.
+ 

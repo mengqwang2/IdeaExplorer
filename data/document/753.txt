@@ -1,0 +1,21 @@
+Cloud based Customer Intelligence (CI) and support for EMC customers.
+This idea improves customer satisfaction and hence TCE.
+This idea leverages 3rd platform to enable build customer intelligence by collecting customer installations and field data.
+EMC support have to gather lots of unstructured customer data and have to analyze for a root cause. Often the data is huge and requires time to collect and analyze it. The issues happen in different geographies, needs continuous analysis round the clock and collaboration with different levels of escalation teams within the org. 
+
+This process can be improved for faster analysis and response to a disrupted customer by leveraging cloud computing/ data analytics deployed over a private cloud.
+
+EMC products install base has increased over few years across the globe.            The product support needs to be automated and made faster by leveraging cloud computing. EMC products are installed and are running in almost all continents of the globe. We have SYR and ESRS connect to get the live system reports and status. 
+The systems live configuration data can be collected in a secure centralized cloud.
+This is data is mostly unstructured and can be structured using cloud computing.
+This data can be used to build Customer Intelligence (CI) which will help in following ways,
+       1. Structured data of all the installations E.g. the past/ present storage utilization. This can be used
+       2. Data can be built to keep track of disruptions in EMC products and the corresponding diagnostic log data which can be huge and unstructured is uploaded to EMC through a cloud gateway instead of ftp and other transfer means by customer.
+       3. The data can be mined by dataAnalyzer (big data tool) which runs on distributed servers across the globe deployed over EMC based private cloud and can give the report of one of the below category,
+              a. Configuration Issue :- Component versions, connectivity issues or improper use of hardware.
+              b. Known issue with recommended steps to correct it :- It can find any known issue and point to the primus for resolving the issue.
+              c. New issue :- New issue can be redirected to alert EMC service personnel to further analyze the issue. Gets the feedback from service personnel and update the dataAnalyzer.
+              d. Possible new software patches/ hot fixes, security patches can automatically be downloaded and applied on the customer setup.
+              e. The EMC product software versions within a customer install base can be known and alert the customer to upgrade a product to latest target code base.
+
+This provides business value by building customer intelligence by collecting customer installation data and analysis using cloud computing. This is similar to Data as a service (Oracle DaaS). This customer installation intelligence improves quality and customer satisfaction by providing faster response to issues, track and predict the customer storage utilization/ sales opportunities.

@@ -1,0 +1,12 @@
+iWellness Health Report tracking tool
+Addresses iWellness program in a effective way
+EMC does annual general health drives at various COEs. It is noted that all the employees tend to lose their wellness report after a month or so. It is critical for every person to keep track of their well-being and other health reports which are confidential and also very important.
+1] A link/tab to the wellness summary of every employee under "icoe.corp.emc.com" site under their icoe profile. 
+1a] The tab will have the respective employee's wellness summary and access to all reports. 
+1b] Health related documents or live feeds can be linked to this so that employees can track  health related information regularly and keep their wellness profile up to date. 
+1c] The employee should be able to query/download their recent health summary before he/she proceeds to health consultant for further investigation. The solution can also be used by the Doctors/Physicians at our wellness center/Health insurer as reference for their further evaluation on the employee.
+1d] Employees/EMC Wellness consultants/Health Insurers all can access the health summary at a single place
+
+2] Provide an Mobile App to capture the same discussed above.
+This gives the option for EMC employee to access his medical history or reports at anytime and anyplace.
+The solution will put in place all the associated health, and wellness related tests/reports of every employee. The solution can be efficiently be used by all the employees to keep a check on their deficiencies/ailments in a smart way.

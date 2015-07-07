@@ -1,0 +1,14 @@
+Auto Monitoring and self-healing applications for Hardware/Software
+We believe IT systems should be able to manage themselves, rather than rely on support staff. Systems should be more intelligent and be able to react to a changing IT environment as the human body adapts to avoid potential problems.
+Most of the times when customer faces an issue they reach out to support team to resolve the issue which takes lot of time. In some cases escalations are done by customer which will give a negative impact of the product. 
+ The self-healing software focuses on four areas: self-healing, self-optimization, self-configuration and self-protection. 
+    We propose a new approach for reacting to a wide variety of software/hardware failures.  Our emphasis is in creating “self-healing” software that can protect itself against a recurring fault until a more comprehensive fix is applied. Our system consists of a set of sensors that monitor applications for various types of failure and an instruction-level emulator that is invoked selectively. Such an emulator allows us to predict recurrences of faults,and recover program execution to a safe control flow. Using the emulator , as directed by the sensors, allows performance impact on the immunized application.
+1)Maximizing Availability: 
+     Application is designed to maximize the availability of the system and application services by automatically diagnosing, isolating, and recovering from faults. This helps to reduce not only hardware failures but also the impact of application failures, leading to increased system and application availability.
+2)Automatic Diagnosis and Recovery from Failures:  
+     Application will automatically diagnoses faulty components and  can reduce analysis time from days to seconds. Once diagnosed, the system can quickly take corrective action and automatically restore application services.
+3)Simplified Administration:
+     Application reduces complexity by abstracting problem diagnosis, simplifies common administrative tasks and significantly reduces human errors associated with system failures that can lead to service downtime and inefficient system management.
+4)Fast and Easy Recovery:
+     Application generates easy-to-understand diagnosis messages  with unique event id's which will enable system administrators understand the failure that occurred and what the system did to fix it.
+

@@ -1,0 +1,44 @@
+Medical data analysis using Cognitive Computing
+
+None
+Watson is a cognitive technology that processes information more like a human than a computer—by understanding natural language, generating hypotheses based on evidence and learning as it goes. We can train watson using 1000's of medical literature books, voice, video materials, historical analysis data etc. Watson is a cloud service and exposes all the info using REST APIs (QAPI). So we can develop an enterprise adapter app that will talk with watson using REST APIs to get the answers - https://developer.ibm.com/watson/docs/developing-watson-apis/using-question-answer-api-access-watson-capabilities/ . Each answer has a confidence factor as well. 
+
+ EMC will collect all the medical literature and feed to the watson. So along with the cloud, big data, this out of box medical trained component can be sold as a service to medical science startups as a full solution. This helps in lots of cost savings for startups to get their own content provider / building cognitive computing part. See how Watson is helping in training a medical students - http://www.gizmag.com/ibm-supercomputer-watsonpath/29415/
+
+According to 2014 Gartner predictions, 'Cognitive Computing' has seen up trend. It will be good for EMC to pick this technology in order to pioneer in this market space. 
+
+Eg:
+QUESTION:
+=========
+Accept: application/json
+Content-Type: application/json
+X-SyncTimeout : 30
+
+
+{
+    "question":{
+        "questionText":"Are homologous chromosomes present in a diploid cell ?"
+    }
+}
+
+
+
+ANSWER:
+======
+{
+    "question": {
+        ...
+
+        "answers": [
+            {
+                "id": 0,
+                "text": "Yes they are ",
+                "confidence": 0.82276
+            }
+        ],
+        "errorNotifications": [],
+        "passthru": ""
+    }
+}
+
+

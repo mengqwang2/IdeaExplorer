@@ -1,0 +1,5 @@
+My Array Doctor--App on mobile 
+
+HTML5, REST API, mobile
+Using REST to access Health status on array, get latest 100 alerts, and run health check scripts remotely from App. 
+

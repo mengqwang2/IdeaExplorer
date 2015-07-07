@@ -1,0 +1,8 @@
+Credit Card Protection
+
+I got several transactions on my credit card that do not belong to me.
+Have a tocken integrated to the credit cards in one of the following ways for internet payement:
+1) have the credit card number change periodically
+2) have the security code change
+3) have a mobile app where you enter your credit card details during online payement and the application generates a security code for authentication.
+

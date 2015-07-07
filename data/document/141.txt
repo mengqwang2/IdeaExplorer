@@ -1,0 +1,13 @@
+Improve the experience of using EMC 3rd platform products - PCF
+It helps with provide a path for using EMC 3rd platform products against using AWS or Openshift for Application deployment.
+
+
+I had good knowledge on AWS. But when I started to looking at PCF, I searched material on how AWS architecture compares to PCF architecture. But couldn't find any relevant material.
+
+For example:- PCF containers vs Amazon VMs requirement is a big difference.
+AWS doesn't have multiple docker container deployment and management on same VM etc...
+
+Write an article and provide a sample application for architecting/migrating the apps deployed in AWS and Openshift architecture to PCF. Make a Strong case for Cloud Foundry in terms of cost, ease of deployment, private cloud deployment, and scaling.
+
+Also provide sample app for showcasing ease of deployment on cloud foundry.
+Attracts developers focused on other clouds like aws and openshift. Improves the productivity of the developers with knowledge in other clouds and new to cloud foundry.

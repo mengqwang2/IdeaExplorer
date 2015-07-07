@@ -1,0 +1,17 @@
+Advancements or changes to Enterprise hybrid cloud
+Our idea matches the Sponsor challenge as it discusses the improvements that should be made to EMC's enterprise hybrid cloud to have a competitive edge and to bridge gap with the competition
+We came across this idea after comparing the needs of several enterprise application, database programs to the offerings available in private/public cloud. We found that there is a room for bringing in the machine learning capability, newer technology like dockers, and alternative hardware that can offload CPU workload in improving the EMC's hybrid cloud solution and make it more customer friendly.
+  Our solution aims to  reduce the cloud offering cost for EMC by usage of
+
+   - new hardware type
+   - use of off the shelf components
+   - Provide better reporting tool for the customer to monitor the health of hybrid cloud and cost saving
+   
+  Details of the idea can be found in the below link;
+
+   https://inside.emc.com/docs/DOC-156106
+Success will be defined with better user experience of the new EMC's hybrid cloud solution that aims to;
+
+- Reduce the customer's IT budget and providing better asset utilization and be scalable
+- Be more sticky and the best IaaS solution in market
+- Have better analytics on IT infrastructure that public/private cloud offering 

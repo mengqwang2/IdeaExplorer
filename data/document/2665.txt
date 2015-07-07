@@ -1,0 +1,10 @@
+De-duplication and compression in replication and migration
+Existing product improvement.
+I'm from MRQE Data Migration CTC and focusing on migration solution/system testing.
+During testing we found out the migration is really time-consuming and highly depending on the networks as well as many other infrastructure staffs.
+So I hope to boost the migration/replication by transferring smaller data.
+Boost replication and migration speed by dedupe and compress the data, as such only deduped and compressed data(normally has smaller size) would be replicated and migrated.
+Improve performance of the replication/migration.
+Not heavily occupy the network resources as before.
+Storage arrays can recover faster than before in the event of the disaster.
+

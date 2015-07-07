@@ -1,0 +1,8 @@
+Storage distribution based on pattern
+
+-
+Data is stored in binary format. 
+Patterns of binery bits that are frequenty used could be stored on pools that are always active. 
+
+While patterns with less frequency are stored on other pools that could be set to standby to minimize the power consumtion and increase the disk life time.
+

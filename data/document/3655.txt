@@ -1,0 +1,7 @@
+Visualize the GPTW for Managers 
+
+I am woking on a protoype for a winning Idea regarding education cloud and was working on Education Big Data and when I saw the Ted Talk it was really inspiring as everything ends by a report with some numbers in them, and as said we must see data more.
+People think of Big Data as a big box were they ask questions and they get back great feedback they never knew before and will give them a clear and direct solution, but it's not that easy as many expect or keep hearing, I believe that one important puzzle Big Data users need to have is how to graph results and relations, this TED Talk speaks about that and how presentation of Data is equally important : http://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization#
+
+I wouldlike toexplore the data visualizations options that we canoffer managers to make them see the data in best way
+

@@ -1,0 +1,24 @@
+RSA  Smart car lock
+A new product idea for RSA security. 
+One day I forgot my jacket in the car and I was too lazy to go downstairs to get it.At the same time my sister was already heading home but she had no car key.
+That's when I thought how amazing it would be if there's a trusted secured way for her to open the car and get me the jacket without any of us doing any extra effort.
+
+Too many cars get hijacked these days which leads some people to thinking why get an expensive car if it will get stolen in the end.This affects the big car makers.At the same time RSA Secure ID already exists so why not combine both technologies .
+
+EMC could develop a car lock system protected with a token security. Car owners can use RSA Secure ID on their mobile phones to lock/unlock cars and permit/deny profiles from driving. 
+
+A mobile phone application integrating with car computers can be implemented, the application will allow the car owner unlock his car after entering a secret code followed by the RSA Secure ID token number. 
+
+Car owner can also invite their friends or family members to unlock their car.Different profiles will be added to the application and only those profiles will have access to lock/unlock the car.
+
+Notifications will be sent to car owner upon trials to unlock the car. 
+
+
+
+This will be very successful if a deal could be made directly with car makers during vehicle design. RSA will contribute in the design phase of the Car computer lock.  
+
+The car manufacturer could use the partnership with RSA as a selling point. Cars will be marked with "Secured by RSA" on the side windows. 
+
+RSA will benefit from the income from the corporate deal with car makers, as well as from a huge marketing opportunity. 
+
+It's a win-win situation for car makers selling expensive secured cars and for RSA with the first smart car lock in the world,not to mention the convenience for the car owners themselves.

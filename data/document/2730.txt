@@ -1,0 +1,8 @@
+VMs for Employees to be used for Business continuity 
+This idea will guarantee Business continuity and customer satisfaction.
+The idea came up from Network speed latency so that this solution can provide us to be on a different network that has a higher speed so that we can maintain the same workload and performance. 
+The idea will guarantee business continuity by installing a pool of Virtual Machines that can be accessed remotely that has all the tools we use installed on it,These VMs can be allocated in different GEOs. 
+This can be implemented using Desktop Visualization instead of Remote Desktop connection so that every employee can make full utilization of the computing power.    
+1. Guarantee Business Continuity.
+2.Improve Customer Satisfaction.
+3.Having Redundant machines with all our tools installed for disaster recovery. 

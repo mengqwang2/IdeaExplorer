@@ -1,0 +1,7 @@
+SLA breach avoidance measures
+It will help in avoiding SLA breach 
+When we had many breaches, Went throught ITAM carefully and came up with this idea
+When incident comes in ITAM(remedy)we dont get any notification. But with certain permutations and combinations of reports and mails in ITAM. We can receive report or mail when new incident occurs
+We will ensure SLA will not be breached as we get notification
+We can also have a count on number of incidents received per day.
+

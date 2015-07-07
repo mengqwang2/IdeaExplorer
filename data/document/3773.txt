@@ -1,0 +1,5 @@
+Web Portal/ Mobile App. to monitor Real time performance of EMC products
+
+During working on service requests of SAN switches, Vplex and RDF links on Symmetrix reactive support had figured out that many performance issues can be addressed and solved before causing troubles if was noticed earlier.
+Collecting data from product at site and send readings via call home to database on private cloud that can be accessed by this Portal/Mobile app. and  provide real time graphs for customer to monitor their devices and take proactive action before performance issue occurs. 
+

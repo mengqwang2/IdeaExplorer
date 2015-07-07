@@ -1,0 +1,6 @@
+EMC's Products data base
+
+most of employees that are not working in a technical business unit are not aware of EMC products and if they have any awareness it wouldn't exceed knowing the names and very brief introduction,and gaining this knowledge isnt easy
+a data base that cotains everything about EMC Products for ex : How it looks like,history,configuration,upgrade,parts..etc,and the data base will include live chat with SME's and experts
+all employees over the world will have access to it so that they could learn easily and gain more experience abot the products
+

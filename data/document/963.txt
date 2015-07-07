@@ -1,0 +1,12 @@
+Unique number of each street or colony in smart cities like Adharcard 
+Framework for swacha Bharath Program and smart cities
+N/A
+How TEMPLATES work for Water Manageme
+we should maintain a street Currently there is no way of deciding how much water is needed for a  particular area accurately. Using Street or coloney Unique number(Street or colony Adhar Number) number of citizens we could accurately determine how much is needed for each area
+
+How TEMPLATES works for Swatch Bharath
+
+people login on system and can give ratings to colony about how the area maintaining
+
+There could be number of use cases to solve City Problems with the integration of data in a city with street or Colony aadhaar identification. 
+N/A

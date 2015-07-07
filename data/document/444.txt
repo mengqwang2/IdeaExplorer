@@ -1,0 +1,10 @@
+Streamline Tax billing process on EMC invoices:
+Customers usually reject EMC invoices due to tax charged on them when they are tax exempt. Collectors spend lot of their time following up with customer for tax certificates. 
+Implementing this new idea, I think we can save a lot of time along with reducing EMC DSO.
+While conducting tax project for the EMC North America credits and collections, I had to work with a lot of customers for tax certificates and customers were not happy about repeated follow ups. The process at least took 7 to 10 working days and sometimes more than a month. Every request I had to go through EMC order package and look for customer contact through their PO. Even though PO described they are tax exempt, there was no tax certificate submitted in the order. By implementing 'one extra step', I am sure we can make a lot of difference. 
+EMC system bills tax according the 'Ship To' point on the customer's PO. By making the process of tax certificate inclusion a mandatory task, EMC Credits & Collections can easily extract tax certificate from the order package and work with sales tax group to code customer as tax exempt for next 3 years. This will stop billing tax on future invoices. 
+1. Customer will receive a perfect invoice without tax in the first delivery and invoice gets paid per their NET terms. 
+2. No short payments due to tax. Easy 60+ reduction over tax balances.
+3. No withholding payment of the entire invoice due to tax issues. Easy rectification in the first phase.
+4. More productivity, less hassle, great customer satisfaction, streamlined taxation.
+5. No need to refer invoices to third party, identify in the first phase. Save some cost!

@@ -1,0 +1,13 @@
+Management tool for all Service Requests
+We will be providing a tool that will help customers to manage and keep record of their EMC service requests.
+
+This is going to increase customer's satisfaction and experience with EMC.
+Some customers complains about the frequent number of SRs and that they get confused between products.
+Creating a stand-alone app which is connected to EMC Service Center. Application will be filtering SRs based on the product type.
+For example: 150 SR for Isilon, 60 SR for Networker and 30 SR for Connectrix.
+
+This will include status of each SR, Severity, creation date and closure date. Product can be listed as well per serial number if needed.
+
+Note: Customers can get scheduled monthly report for their EMC SRs.
+-Saving customers time and effort
+-Making customers have great experience dealing with EMC support cases.

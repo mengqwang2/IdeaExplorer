@@ -1,0 +1,5 @@
+Business KPI and Trend Analysis Tool
+Team/Product wise key performance indicator tracking system. Usually we do not maintain a single tool or application to maintain the trend of a team or a business unit. The tool helps in keeping the data in a central repository wherein each of the team member has access to. 
+Experience from the features of the Archer product. 
+Archer based tool to do a KPI trend analysis and delegating the responsibility for individual team members to own each KPI and drive towards success. Answering the why part of the objectives and deeper understanding of the business goals.
+Transparency, better tracking, team ownership, task delegation. 

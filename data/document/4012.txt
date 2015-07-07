@@ -1,0 +1,7 @@
+Data Mining the Innovation Roadmap
+
+Have been impressed with the analytics on the innovation roadmap data - would like to see this help raise or bubble up other ideas that could enhance the overall quality of finalists and winners.
+Look at the characteristics of finalists and winning ideas and identify what they have in common, what makes them different from the majority etc. Much of this has already been done by work from John Cardente and Stephanie Zhao 
+Mine the innovation central database for ideas that have possibly some of the characterstics (maybe an idea is along a similar theme as a finalist) but may simply not have been as well crafted and therefore was overlooked.
+Rather than relying on judges to see connections between ideas and thereby help propose potentially even stronger collaborative ideas, Innovation Central should be capable of searching to recommend ideas with similar characteristics.
+

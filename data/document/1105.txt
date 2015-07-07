@@ -1,0 +1,5 @@
+Tier Feature enable XIO to integrated with low level arrays
+This new solution will expand the market for XIO. 
+N/A
+Add a new feature "Tier" to XIO, and open the integration APIs. Any array that integrates the "Tier" APIs can be integrated into XIO. XIO will detect the cold data and transfer them to the low level arrays with "Tier" feature.
+With this feature, XIO will be more powerful. The customer will be happier for the efficiency of XIO.

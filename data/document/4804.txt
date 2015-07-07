@@ -1,0 +1,22 @@
+Augmented Reality Smart Glasses solution to improve productivity in EMC Data Centers and Manufacturing
+
+While I was on the trip in the states during the first two week of June, my colleague John Wyatt introduced a smart wearable 'Vuzix' to me, it's like a cheaper version of Google glass, and you can develop Apps based on their Android SDK and API. 
+
+As he has worked in EMC Data Center before, we think a smart wearable is quite efficient for EMC warehouse works to find the right things. We also find that SAP teamed up with Vuzix and developed an App and has release a demo on Youtube (http://www.youtube.com/watch?v=9Wv9k_ssLcI) to show how their warehouse works tracking data and using the smart glasses for shipping and scan. We think this has great opportunity for EMC workers to increase business efficiency. 
+
+When I came back to Shanghai, I teamed up with Charlie and Ding from IIG, and discussed the implementation plan. We think if we can build a database on the backend, and use QR code for scan information, with my experience on user interface design, and leverage my team member's experience on Android SDK, we can totally create an Smart Glass App for EMC Data Center.
+
+And moreover, since I have worked on an AR iPhone App before, which gives us great confidence and interest to incubate this idea.
+This solution can be used in the following areas but not limited to:
+1. Manufacturing and supply chain
+2. Hardware troubleshooting in EMC Data Centers
+3. Assembling and testing assistance
+
+Take manufacturing and supply chain for example,
+a. The smart glasses connect with a smartphone to access data, which is then display on a screen in front of the wearer's eyes. 
+b. The wear interacts with the device using voice commands. Used this way, the glasses can guide warehouse workers to the products on their pick lists. 
+c. Workers can scan the barcode or QR code to make sure they have the correct item and confirm in the system that it has been picked. 
+d. Data Center workers can also use the glasses to request help or instructions on how to resolve a technical problem.
+
+And since all the data are displayed on the Smart glasses instead of print all the information on paper, it saves a lot paper waste and thus protect our environment.
+

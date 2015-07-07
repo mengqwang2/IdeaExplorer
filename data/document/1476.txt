@@ -1,0 +1,12 @@
+Cooling, more transistor per chip and alternate energy source
+Environmental Stewardship Challenge
+
+We are proposing here three ideas which when implemented will increases the energy efficiency of an EMC product by more than 60% by 2020.
+This idea was thought as a part of 2015 innovation challenges
+In the labs, to cool the systems we have centralised Air conditioners to cool the entire room. Instead we can have ducts to the systems which cools just the machines and not the entire room. Thereby we will have huge reduction in power to cool these labs.
+
+As the processors evolve with high number of cores per cpu, increased RAM, buses and storage, we can integrate the logic of many components to a single chip and we have more transistors per chip. This will result in small devices and result in huge power savings.
+
+We can think about alternate source of power which will result in cheaper energy. Actually energy obtained from solar farms are pretty cheap when compared to conventional energy. Also we can think about fuel cells as alternate source of energy which can provide cheaper power.
+
+If our idea gets implemented, there is a significant reduction in power usage for EMC products. Huge cost benefits can be obtained and increase energy efficiency.

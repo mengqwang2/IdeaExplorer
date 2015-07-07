@@ -1,0 +1,7 @@
+Improve FAST VP feature rellocation algorithm
+
+Considering FAST VP algorithm.
+FAST VP reallocates LUNs parts (slices) based on their "temperature", the more frequent slice is accessed, the bigger its "temperature" it. Slices with bigger temprerature go to the tier with faster storage (for example, FLASH). It is done on per storage pool basis. One pool is process by another now.
+Instead of it it could order all slices in the system by temperature and process their reallocation on the temperature order, not pool order. As the result the system will process to the better state faster. If the total reallocation window is limited it will use the time in the most efficient (from system view) way.
+This will lead to the better TCE as the system will operates better.
+

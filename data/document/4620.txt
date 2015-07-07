@@ -1,0 +1,22 @@
+Solving Global Financial Regulatory Retention Challenges with the 3rd Platform
+
+RFP opportunity at Credit Suisse for a global regulatory retention platform.  Worked with Ron Tozzie to develop the idea as it became clear that EMC had a ton of intellectual property across different federated businesses in the regulatory space (i.e. archer, kazeon, sourceone, infoarchive, cube, etc), but no common way to deliver those services in an integrated fashion, and no common roadmap to infuse each with HDFS capabilities to enable next gen data lake analytics.
+The EMC Regulatory private cloud platform would support a robust 3rd party development ecosystem, leveraging a PaaS approach to provide a common operating system which would expose Federated infrastructure and baseline application cloud services for SI's & consulting partners to rapidly deploy process & workflow intellectual property as new "business apps" into the marketplace, all accessible from an EMC supported "application store". 
+
+The platform would consist of the following Federated elements:
+
+1.  Cloud Foundry - PaaS functionality that would serve as the common "OS" for all application development on the platform, and would expose all baseline platform services to 3rd party developed applications(i.e. query, hold, tag, HDFS services, etc...)
+
+2.  VMware (vCACm vCOPS,vSphere) & EMC ViPR - The combination of these two Federated elements would form the basis of the necessary infrastructure management & intelligent provisioning required for the platform to deliver compute, storage, and network services in a cost effective manner at scale, and on demand.
+
+3.  EMC Isilon - Scale Out NAS used as landing zone for "data lake" with native support for HDFS services, and integrated Rainstor support for WORM compliance and compression
+
+4.  Pivotal Enterprise Data Fabric -  Modern data fabric that facilitates real time event monitoring services (Gemfire In-line memory) and multi-parallel processing for advanced analytics services (Pivotal HD or Greenplumb).
+
+5.  Middleware for Open Archive Support (does not currently exist) -  Middleware capability would need to be developed to integrate SourceOne, InfoArchive, and other 3rd party Archive software into the platform to facilitate data ingestion and archive functions.
+ 
+6. VCE Converged Infrastructure - V-Blocks serve as the pre-packaged infrastructure elements of the platform. 
+
+7.  EMC Data Domain - Integrated disk based deduplication
+
+

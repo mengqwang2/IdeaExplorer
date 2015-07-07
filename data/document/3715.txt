@@ -1,0 +1,9 @@
+Centralized apps for EMC VPN access
+
+while travelling to customer location, where they have their own setup, if I have EMC network in my phone, I dont need laptop and can easily do timecard/goals submittion through phone.
+Porvision of Virtual machine (on demand)to all the employees who spend most of the time travelling and limited access to Laptop to connect to VPN.
+An app will be installed to the PDA phones which will have a VM provitioned and that will have emc network configured - with the emc public IP range so that alll teh applications and single sign on links can work and should have the provition of requesting cab and rescheduling cab instead of sending emails.
+
+Most of the client they dont prefer giving access but only VPN and that can work being on EMC network, Imagine if we can access customer network without opening our laptop, and just through our Phones, it makes our work much easier.
+
+

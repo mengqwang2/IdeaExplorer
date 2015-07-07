@@ -1,0 +1,24 @@
+Replacing security questions with social footprint data
+
+Brainstorming session.
+A user can link his social networking account(Facebook, Twitter, Google+, Foursquare etc) to the service. The server will fetch the user data and his activities from the social web using the APIs provided by social networking sites (APIs from Facebook, Twitter, Google + etc). This data will be collected by our service to build the user profile and will be continuously updated. The data collected may include:
+1. Friends/ followers.
+2. Liked/shared/+1 posts and articles.
+3. Life events.
+4. Group memberships/circles.
+5. Tweets posted/re-tweeted/favourited.
+6. Hashtags used.
+7. Events created/went-to/going-to
+8. Games played.
+9. Places visited
+10. Status updates...................... and many more.
+
+From the list of data collected form the social networking accounts, the system would select the relevant ones. Also the system would get a confirmation from the user to add it to the list of security challenges. The system can create a security profile for the user using these data. User can optionally select the success criteria(M of N) for these challenges. i.e, the system would consider that the user has successfully passed the challenge only when the user has answered M out of N challenges successfully. The challenge need not necessarily be in form of text question it can also be in visual or audio form. 
+
+To add extra layer of security, the challenge can be sent to an eMail or a trusted mobile device, whose answer the user need to input in the web portal (for a web based application)
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+Software Intelligence in Networker
+This topic addresses the challenge of reducing the number of cases generated for Networker and also increasing customer's satisfaction by helping the customer identify the issues himself rather than opening a case with support.
+
+Supporting n customers with almost the same issues.
+Proactively helping the customer using the information captured by logs. 
+
+There can be an additional tab on NMC which can read the information stored in Networker servers logs and alert the customer about the issues in his environment.
+
+As Networker is very Network sensitive, any small change on it's clients may trigger a backup failure. Example client machine installed a security patch during downtime which blocked it's communication with Networker server. Networker won't adjust to the change unless support is involved. 
+
+This can be avoided if we used the information stored in logs, so the customer get's to know what is wrong before reaching to EMC support. The chances are likely that the customer can fix the issue himself. Chances are more likely that this would be very useful to EMC Partners who manage multiple environments and  generate significant support volume. 
+Reduced support cases, Increased customer satisfaction, Reduced cost, competitive advantage

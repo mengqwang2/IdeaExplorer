@@ -1,0 +1,11 @@
+A new Labman website based on cloud
+
+Daily work. We have so many useful tools to configure our arrays. However, most of they are hidden in the internal of various teams. 
+We can establish a new labman website based on cloud technology.  EMC engineer can login with NT id. Each account would reserve some private space. Labman website can define a format of script which operates predefined actions and provide the ability of executing those scripts. Engineers can upload their own internal tools or scripts and publish them.  
+
+For example, a BLOCK engineer uploads his tool "autoica.exe" & a script/plugin executing this tool to his private space, then he can share all of those to others with a tag "reimage" or "ICA". Another engineer (who wants to reimage his SP but doesn't know how to do that) could search one of this tag and find this tool to make himself satisfied without involving any manual action. 
+
+In this way, we can speed up our labman service with leveraging the strengths of all the teams.  
+
+
+

@@ -1,0 +1,17 @@
+IoT enabled smart homes/buildings
+Intelligent Buildings (IB) in smart cities are facility-wide systems that connect, control, and monitor the plant and equipment of a facility. The aim of IB is to ensure a facility is more efficient, productive, and safe, at a reduced cost. A typical IB integrates diverse subsystems into a common and open data communication network, using both software and hardware
+I thought about the approach when I noticed that we need to have more control on the energy consumption and reduce the time and money of automating the energy consumption.
+- Will implement smart meters that report the consumption remotely to the providers.
+- Domestic customers will get an in-home display (IHD) as part of their installation and at no cost. This will show near real time information on the gas and electricity being used, including how much it is costing and the related CO2 emissions. This information could help lower your energy use.
+
+- Customer to have a smart mobile app with the accurate energy consumption for every equipment in the home/building" in case of being a company or small enterprise" based on IoT application.
+- Suggestions from the App for the best ways to reduce and optimize the consumption.
+- historical data to be gathered for future predictions.
+- Based on the IoT analytics the App will give useful information on the status of the installed equipment in the home, this will include " Operating hours", linking the information with the warranty status and recommendations for renewing the equipments.
+
+
+- More control on the smart home component.
+- Accuracy of energy " Gas & electricity " bills.
+- Remotely collected data "Elimination of manual readers"
+- Predictive analysis and enhanced continuity of the smart home components.
+- We will approach the concept of an Intelligent building  which integrates technology and processes to create a facility that is safer, more comfortable and productive for its occupants, and more operationally efficient for its owners and operators. Many of the building functions operate automatically with minimal human intervention.

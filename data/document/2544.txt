@@ -1,0 +1,15 @@
+XtremIO Automation
+Introduce a Presentation Layer with XtremIO for End-Users/Customers to easily manage the cluster through a menu driven template system.
+Started thinking about an Automation Process with XtremIO in a better way so that our customer's investment should give back agood returns in terms performance after I am done with the XtremIO training.
+We can use OpenStack Dashboard Service (Openstack API) as a backend which Provides a web-based self-service portal to interact with underlying OpenStack services and could also
+deploy Script/Software Binary files to interprets with web based application and backend XtremApp. Front-end of OpenStack is a web based application which will give a template system for customers to enter their storage administrative task as an input.In backend Shell/Perl Script based software logic should be deployed that will convert the customer tasks into appropriate XtremApp commands to manage the XtremIO cluster.
+
+We should design this in such a way that capable of handling multiple XtremIO clusters in backend at the same time. When customer selects the host application type the provisioning task must go to the decided cluster the way we defined in the infrastructure.
+
+eg. 10TB X-Brick Cluster for VDI Environment
+    20TB X-Brick Cluster for SQL Environment
+    40TB X-Brick Cluster for ESX/Virtual Prod Environment
+
+Openstack repository can be hosted on 2*900GB internal FC HDD in the XMS Server. Also should add more CPU resource/core on XMS server's processor to handle the automated layer processing 
+work loads.
+This solution would help to automate storage related administrative tasks such as volumes creation, expansion, mapping and IG/Initiator creation/registration etc.by few clicks.

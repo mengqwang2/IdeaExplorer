@@ -1,0 +1,5 @@
+Expertise portal
+
+On one side the frequent hiring of external consultants and the other, many employees with skills and talents that are unknown to their peers as they are not part of their EMC work requirements.
+An application that contains a database with all EMC employees, listing all their skills and experiences. This database is searched by anyone in EMC who is in need for a specific set of expertise, so if someone at EMC fits the criteria he is searching for, they get offered the task instead of pursuing an outside consultant.
+

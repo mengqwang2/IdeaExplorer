@@ -1,0 +1,7 @@
+EMC Free Cloud for students
+
+EMC in Egypt for example donated many labs to schools and universities as part of CSR and as part of university relationship. instead of having private labs in specific schools and specific universities that cost money and time to implement, we can use one public cloud that can provide free cloud services to the subscribes schools/universities. linking a new school/university to the cloud will take just minutes versus months as it currently takes. it will also minimize the cost as well as the cloud will be already avaialble. it's almost a one time investment.
+Going to the third platform, students can benefit from cloud services in their projects and tests. EMC can help them by sponsoring a puble cloud that offer that free service to the subscribed schools and universities.
+
+we might also open the cloud service for the rich university/schools that doesn't need our sponsorship using an annual fees that can serve in maintaining the free cloud for the other schools/universities that needs the service for free.
+

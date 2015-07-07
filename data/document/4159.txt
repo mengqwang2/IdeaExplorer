@@ -1,0 +1,7 @@
+Replace Sodexo Card and Coupons with Food Card
+
+Pain-points in counting the coupons. Its also very sad to see lot of paper wastage because of the paper coupons.
+We can replace the existing Sodexo cards with other food card that can be used within EMC as well as outside EMC in any departmental store for food items. 
+
+This will make the transaction hassle free and will help us making a paper-less and environment-friendly workspace.
+

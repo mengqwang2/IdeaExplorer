@@ -1,0 +1,7 @@
+OpenStack over multiple hypervisors 
+
+I have used OpenStack to build VDI, and find it is a very friendly IaaS. I extend many functions on it.
+Currently Education Services only offer video playing, if use VM as a service, can provide environments which match the content of video. 
+Use RESTful api can extend many new functions, and through it can control vCenter or other hypervisors. OpenStack’s dashboard uses django, it is so easy to customize. And existing VMs can migrate to OpenStack.
+
+

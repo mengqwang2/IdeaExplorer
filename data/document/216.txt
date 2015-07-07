@@ -1,0 +1,5 @@
+Egypt COE SOP Library
+The idea covers the improvement of all inefficiencies in processes in Egypt COE operations
+The idea came from the discussions done under the TCE Program at Egypt COE with our main sponsor Magued Mahmoud (Egypt General Manager) and we talked about the importance of filling the gaps in all process documentation and improvements for all operations under Egypt COE
+All Egypt COE Business Units should have their processes reviewed and documented in SOPs so that they can be shared in a SOPs Library (web application)
+The big aim is to certify ISO 9001 under this initiative

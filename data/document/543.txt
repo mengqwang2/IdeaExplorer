@@ -1,0 +1,9 @@
+EMC magazine
+This is relevant to the challenge because it focuses on the idea of diversity and inclusion in EMC around the globe.
+N/A
+Every month we can release a digital magazine for public use for anyone concerned with the field.This magazine will cover different topics:technical,business,news related to customers , big deals or news related to EMC around the globe,EMC and the community and a section for diversity and inclusion where we will show stories for employees with some disabilities , female employees and stresses on their success stories.This magazine may also include some testimonials from customers.
+This solution
+1-It will be a sort of branding for EMC
+2-Employees from EMC around the globe will share in writing to this magazine,we may encourage employees to write by a rewarding system
+3-EMC employees will know each other
+

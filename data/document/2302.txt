@@ -1,0 +1,5 @@
+Mechanical Drive breakdown EOQ by Celestica Galway
+Up skilling of internal people in EMC to complete this task.Enhances EMC abilty to build exactly waht the customer wnats without having to purchase and build more drives from the vendors.
+Only doing drive mech conversions for about 4-5 quarters now so this was idea floated during one of the prep meetings for this quarters rework.
+Give Emc more fexability in not alone doing Drive mech breakdowns at end of quarter but anytime throughout the quarter as EMC would have personnel onsite all the time.
+Success would be that no personnel from Celestica Galway would be needed inhouse to covert a drive mechaically, i.e. change paddle card and carriers.

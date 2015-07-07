@@ -1,0 +1,16 @@
+Enhancements for devices reimaging- Prototype in house 
+This Idea will improve the re-imaging processes for those who need to refresh their OS, because of a bad performance or OS errors…etc by adding the USMT “User state Migration Tool” in the capture processes in the task sequence to preserve the endpoint encryption files and user data without decrypting the disk. 
+
+The current re-imaging processes start with formatting the hard-disk, so before we start we have to take the user data “Backup” manually by copying the data to another device or place then restore it after the new OS image have installed. This manual processes consume a long time, as much as the user data size
+
+We thought about the idea when we found out that most of the users loose at least one working day to refresh the OS which affect the productivity and make EMC loose money from this process.
+Our solution is to refresh  the operating system while the hard-disk is encrypted a new operating system installed by laying an image using a tool that works on file level and not on sector level.
+By adding the USMT in our re-imaging process to preserve the user data and the endpoint encryption files. It creates a second pointer to files inside a protected folder. Then, during refresh process, at the point that the disk is cleared, all files are deleted apart from the ones that have hard links created “User data and Endpoint encryptions files”. This will reduce the time consuming with at least 20 minute per time, if the user data size is 10 GB for example.
+
+
+Each BU has certain apps which are used by the employees to complete their workflow. By add new process “Build Apps process” in the end of the task sequence. Each BU has a collection of apps. These apps will be added to the BU active directory group by the SCCM. By the user first login or by using the user active directory account in the build apps process, the recommended apps will be pushed to his machine and installed automatically.
+
+
+
+
+Save employees time, and save IT staff efforts and shorten the time need on both parties by tuning the current process.

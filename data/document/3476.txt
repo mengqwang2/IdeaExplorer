@@ -1,0 +1,31 @@
+ Lab on the Cloud Service for educational purpose
+
+ The idea came in from the experience with EMC-University relations projects in which students need lab access which is unfortunately not there. There is no centralized near-reality lab experience offered to students and it is a great initiative by EMC to consider this.
+ The idea defines the new generation of educational labs will leverage VMware + Pivotal CloudFoundry using the following technologies :
+
+1-	Leverage VMware virtualization technologies to imitate different EMC products as well as switches,hosts..etc
+2-	Lab reservation will be Environment-based rather than product-based meaning that the student will be able to book a whole environment connected to each other then it will be presented ready and pre-loaded to the student.
+3-	The management suit will be web-based and will have a “Dashboard” showing the environment components and the underlying technologies and products (VMs, storage types..etc)
+4-	The management suit will have a mobile app for easier management and mobility. 
+5-	A New Visualized Simple web-based application can be used for booking using drag and drop. This app is illustrated in detail in the idea title “Drag-and-Drop Lab Booking Application” I proposed in the same challenge.
+6-	The student’s data and configurations are securely protected using specific “student profile”
+7-	The student profile defines his permissions and set of products/technologies he is entitled to use
+8-	The lab will be booked for certain period of time then all configuration/data will be reset for security and reuse purposes.
+9-	 Scalability will be maximized by using the cloud services such as EMC’s Pivotal CloudFoundry (EMC’s arm in 3rd platform) or by integration by open sourced cloud services like OpenStack
+10-	EMC will market for this virtualized cloud-based Lab-as-a-Service environment that is ready to serve :
+a.	Students
+b.	EMC employees
+c.	Customers
+11-	EMC will integrate this service with EMC courses taught in universities. For example EMC ISM course is being taught in different universities in Egypt. This approach will achieve 3 dimensional win with :
+a.	EMC university relation
+b.	EMC lab services market
+c.	Educational development and EMC branding
+12-	Promote EMC education services as a whole by having a “marriage” between EMC Cloud-Based Lab-as-a-Service and EMC Proven Professional Program. This means that when a “student” (can be anyone) gets certified in certain EMC product/technology, this will add points to him and may lead to free access to book this certain product in lab services in future.
+13-	Offer High performance and seamless experience by allocating the nearest resources available to the student location 
+
+
+This idea will then enable EMC to define a new era of education services using near-reality lab offerings.
+
+
+
+

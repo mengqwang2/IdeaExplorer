@@ -1,0 +1,16 @@
+Building e-Schools - Education Aide Across Geography and Age
+
+Last year, I toured (with an NGO) the disaster-ravaged sites in and around Kedarnath in state of Uttarakhand. While I witnessed severe damage and loss of property and human life, one thing that stood out in my survey was the perennial difficulties of students and lack of their means to quality education. I was amazed though at the way infrastructure like telephone cabling (BSNL, Reliance) was being repaired through landslides. Mobile connectivity was robust at most places and we regularly connected to internet. This made me wonder why cant we use connectivity and EMC’s technology to join the dots, to boost education across geographical boundaries.
+Most of such places are however on GPS tracking and have means to connect to public internet.  Under EMC’s charter of CSR towards children and education, we can use cloud technology, technology alike “second life”, and EMC’s storage resources for hosting affordable aide to mainstream education, across all levels.
+1.	Build a network with schools/NGOs for hosting EMC-aided e-schools.
+2.	Build a cloud-based platform for public domain to support the following:
+a.	Dynamic and new-age curriculum aide/materials.
+b.	Virtual exams and workshops.
+c.	Recorded sessions on subjects directly relevant to curriculum.
+d.	Virtual ILTs to connect teaching enthusiasts to students anywhere. 
+e.	Enable “offline” means of using these resources.
+3.	Augment the effort by supplying used IT HW to schools in this network.
+4.	Assign CSR volunteers for field visits and tracking performance and efficacy.
+Can be created as a prototype and replicated across as required. Has potentials of (or may need) partnering with education boards (eg: CBSE, ICSE, state boards in India) and Ministry of Education. Can be an exemplary social outreach program at many levels, boosting brand EMC within a nation and abroad, not to mention yet another example of relevance of “cloud technology” in day-to-day life.
+
+

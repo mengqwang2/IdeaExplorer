@@ -1,0 +1,8 @@
+Moxie real time language translation.
+Will result in achieving better TCE and customer satisfaction. 
+Whenever I see MLS / CSC Japan /China etc. customer it comes to mind to have a real time language translation integrated tool.
+Moxie / customer support chat tool to have real time language translation capabilities, thus a customer typing queries in Spanish (or any other supported languages) in Moxie would still be able to work with a tech who can get the translation to English in real time at his end. Once the tech responds in English, customer is able to see the same in his language, due to real time language translation. This will help us achieve faster resolution and improve TCE. This option to be used only if a MLS / CSC tech is not available to help the customer in local language.
+Multi lingual support possible via any support tech.
+Better CSAT.
+Better utilization of available resources.
+Will result in better internal collaborations as well.

@@ -1,0 +1,16 @@
+Automation Code Evaluation for define test prioritization.
+N/A
+This idea originated while working on a REST based project in EMC in automation test case development, in order to define the optimum use of a common automation framework that can be utilized across a division or globally all across the EMC.
+
+	
+Purpose of bringing the code coverage for code that is developed for automation testing is to bring in. Policies for automation code evaluation need to be defined using certain set of rules.
+Set of rules nothing the filter those will be defined in the JSON file that defined the policy which will define syntax validation, test prioritization and annotations.  Automation code evaluation tool will be integrated with development platform/IDE. Evaluation policy will report violation policies, control flow graph, coding defect etc.  and extract the abstract syntax tree. It generates classes and Association between those classes and functions dynamically during compilation of code.
+For e.g . While Testing a REST API , user can defined the REST testing policies first for a method, and using the same code evaluation following merits to the test efforts with certain annotations in coding technique.  This is how it can be implemented tool user can validate the all the use cases with this REST method.
+Based on the annotations and code evaluation will help us to identify frequently used and called methods, functions, classes.  Using the processed information from code evaluation tool, tester can obtain the high priority test cases over the low priority test cases. Coverage of test case code can be defined at these levels: statement, function, class and branch.
+Following approach could be used:
+a. For uncovered code blocks, develop new cases to cover.
+b. For covered code blocks, refine cases with overlapped code coverage.
+c. For covered code blocks, deduplicate cases with same code coverage.
+
+1] The purpose of automation code evaluation is to trace out the automation code coverage using static code analysis tool that will help to define the test prioritization. 
+2] The purpose this evaluation method is to create code adherence standard for aut

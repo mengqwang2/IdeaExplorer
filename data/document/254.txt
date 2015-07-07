@@ -1,0 +1,18 @@
+Modular logging System to allow hot-swappable limited-subsystem and limited-time configuration changes
+o	Broadly applicable
+o	Increases security
+o	original and feasible
+o	secure data management
+o	Cross platform global solution
+o	can be combined into EMC Solutions (RSA AA etc)
+o	allows Potential Financial Gain
+o	has a significant customer impact
+Team meeting a couple months ago
+o	Often, there is a need to change the logging level of a running application.
+?	e.g. upon encountering a problem on an important, highly-available Production system
+o	Use case: In Production, can’t make code changes to turn on a higher logging level, for example. Also, server restarts are disruptive, often unacceptably so.
+o	Logging can be dynamically changed to a higher (or lower) level for specific components and for a set amount of time
+o	Its limited nature prevents a common disastrous effect of emergency logging in Production – admins turn it on for a wide scope (perhaps the entire application), at too high of a level (e.g. DEBUG), and/or for too much time (e.g. if they forget to turn it off). This would cause disk space to be depleted, causing Production issue that are potentially worse. Therefore, this is a certain improvement over the status quo.
+o	Provides smooth and convenient troubleshooting technique
+o	Doesn’t affect running system availability/stability
+o	Limited by time

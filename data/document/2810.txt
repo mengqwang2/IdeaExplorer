@@ -1,0 +1,5 @@
+Email Archiving and Individual Organization Management
+This idea will save storage space and future expansion of the data center used to manage email.
+The idea was discussed during a group brainstorming session.
+Allow each organization to manage the amount of storage for email archiving.  Set an organization limit and provide access and training for select individuals to manage.  Establish storage guidelines for how long emails will be retained and when auto-delete functions will be activated.
+A successful implementation of the idea would result in a reduction of storage space and increased accountability by each organization to manage to a storage budget.

@@ -1,0 +1,27 @@
+Talent-On-Click
+This APP will enable all employees to make their skills ,show to the entire organisation.
+We have brainstormed around this & then met with this idea.
+Our solution:
+1.Every employee in organisation registers in this APP by providing 
+  a. skills like C,C++,JAVA etc. & also he/she can mention extra curricular things.
+  b. Name of the team
+  c. Region they work in.
+  
+2.Also this APP will have facility to drag data from LinkedIn platform for getting technical skill-sets & Facebook,twitter for extra curricular, interests.
+
+3. Using above technique ,we can create  database for employees.
+
+How we are going to use this:
+
+1.We can categorise employees depending on their skills like C,C++. lets make them  closer & any one faces any problem he/she can file queries to this categorised skill -set people's forum.
+2.Same way,any activities happening we can connect with people on similar forum ( such as  Anyone has other extra curricular activity to do like trekking,bike-riding,social awareness campaign etc)
+
+3.Make a forum depending on skill-sets,hobbies,interest of people.
+
+4.To take this on bigger level with diversity & fresh talent, we can add college students on this APP so that they can get right guidance from correct/appropriate people so that their carrier will go on right track.
+
+5.Through this Employee can upload their presentations or practical tutor lectures etc. which will help others
+It will save Employee time for finding right people.
+If this APP built & successfully works for our organisation then we can sell  this to other companies to make money out of it.
+We can achieve diversity through this app by floating it to the different colleges.
+

@@ -1,0 +1,5 @@
+Ask an Expert
+N/A
+N/A
+"Ask an expert" is an application/website/tool that lets an implementation engineer inquire about problem he/she is having in the field. Instead of only asking colleagues from the same office, "Ask an Expert" allows  posting questions for other technical expert to jump in for help and gain credits. Furthermore, if an expert answered a question and it was proven helpful, he/she will gain points and will be recommended for answering field questions related to the same topic and awarded later on.
+The major benefit is to reduce the time needed to debug a problem and thus improve the Total Customer Experience (TCE). 

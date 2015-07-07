@@ -1,0 +1,26 @@
+layered communication model for IoT security
+Due to the fast evolution of microprocessors, embedded systems are not only becoming more intelligent, but also becoming more ubiquitous. Some of the devices we use today will start to make decisions for us and even protect us from danger someday. And it is the time to think about the security of these devices today.
+I thought about the idea when I was discussing the IoT security topic with one of the PHD students and how can we mitigate the risks.
+The solution includes two protocol suites to guarantee unit IoT and ubiquitous IoT. In the scheme, six protocols are proposed as follows:
+The in-group hybrid authentication protocol in unit IoT (P1)
+The out-group centralized authorization protocol in unit IoT (P2)
+The centralized authentication protocol in ubiquitous IoT (P3)
+The distributed authority transfer protocol in ubiquitous IoT (P4)
+The centralized authority transfer protocol in ubiquitous IoT (P5)
+The distributed authority sharing protocol in ubiquitous IoT (P6)
+
+
+Therein, P1 to P2 and P3 to P6 are jointly applied to realize hybrid authentication and authority management in unit IoT and ubiquitous IoT. In the attached figure, we illustrate the interrelation of the six protocols, and the verification points (marked as black dots). For instance, in P1, T and S verify each other to establish the mutual authentication, and MC as a trusted entity only verifies S without being verified by S. Assume that the channel between {T, S} belongs to the sensor-actuator–based networks, and the channels among {MC, lMC/iMC, nMC} belong to computer networks.
+
+
+For the trust model, nMC is an only entity trusted by all the other things (i.e., T, S, MC, lMC/iMC), and there are no other direct trusting relationships. In unit IoT, MC is regarded as a trusted entity by {T, S}, which are under MC's default jurisdiction. {lMC, iMC} have relatively independent jurisdictions on the corresponding {MCls, MCis} in ubiquitous IoT.
+The attacker may (1) impersonate a legal entity (except the trusted entity, e.g., nMC) to modify the intercepted messages, (2) eavesdrop and record the exchanged messages in the former sessions, and replay them in the current session, and (3) perform tracking and traffic analysis to monitor the ongoing communication.
+
+Note that the proposed security scheme mainly considers the open security challenges of authentication and authorization in U2IoT, and it is a security draft solution based on typical cryptographic operators (e.g., timestamp, pseudonym, and hash function). Other detailed cryptographic algorithms can be directly applied in the scheme to support enhanced security efficacy.
+
+https://inside.emc.com/docs/DOC-155729
+The attacker cannot 
+(1) obtain preshared secrets, keys, or identifiers, and distort the timestamp of the exchanged messages; 
+(2) extract the pseudonym via the intercepted messages, and generate the consistent pseudonyms; or 
+(3) acquire the pseudorandom generation algorithm, hash function, and encryption/signature algorithms.
+

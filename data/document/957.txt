@@ -1,0 +1,6 @@
+Identify Call Volume Drivers and their Trends using Natural Language Processing
+Understanding Call Volume Drivers and their trend for the service of different products is a key to alleviating customer pains. 
+This is the product of 3 years collaboration between the Data Science team, TCE and CS.
+We suggest using an existing Text Analytics engine for service request (SR) free text analysis to identify the underlying topics of each SR (based on a state of the art NLP system - explained in this video at a text analytics conference: https://www.youtube.com/watch?v=yO57IKCWqGo). These labels can then be consumed by analysts and business executives using a specialized BI dashboard which is specialized for combining free text visualization and analytics with structured data included in the SR data. 
+This innovation frees the information from the unstructured free text and enables analysts to study the data, combining the existing structured data with text derived labels and search capability. It is also useful for creating new reports with deep meaning in the existing reporting tools (Tableau/BObj) by extracting the data using these combinations of features, such as “all VMAX Service Requests, relating to non-disk drive hardware replacements which required a CE on site”.
+For further information: https://inside.emc.com/docs/DOC-155825

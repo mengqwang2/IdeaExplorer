@@ -1,0 +1,8 @@
+vipr control path simulators
+rapidly reproduce customer usecase,reproduce problems by injecting fault conditions/delays/locks , execute large scale tests, by mimicing SMIS or REST I/F or cli, for arrays /switches/hosts interface in the control path, for example : create a VMAX volume,export to a host or  create a 3 site rp metropoint vplex/vmax  protected volume.
+
+quick overview : https://inside.emc.com/docs/DOC-155416
+
+This idea was brain stormed 20013 and implemented within Vipr QE and used succesfully in EMC World 2014/15 to demonstrate Vipr features. Its used extensively for performance and scale , fault ingection, concurrent tests , also used for daily build qualification. Developers use it daily to check regression. Demo for customers on a laptop has been very successful.
+Current approach to procure hardware lab and configure takes too much time and money. also several fault conditions cannot be easily introduced even if hardware is available. large Scale configuration to mimic customer datacenter can be configured with ease. Its unique because all the dependency on hardware layers are abstacted away and focus is on the vipr controller layer. Its innovative because of the ease with which provisioning operations can be tested , lab reconfigured in software , fault or delay inject can be done easily. 
+Next steps would be to make it easy to configure SAN assets easily to duplicate customer datacenter and reproduce reported problems and root cause issues. Enhance simulated assets like Vcenter/ESC , data migration , replication products.   Large amounts of time spent in configuring real lab , back and forth with customer can be reduced. Integrate to other products like Vipr SRM for reports would be another benefit.

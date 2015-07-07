@@ -1,0 +1,10 @@
+Automation of Validation reports in MAD
+N/A
+The manual process of generating reports used to take more time and was prone to human errors. It used to involve a lot of human efforts, which eventually led to delay in delivery. The manual process has been automated when the frequency of generating reports increased and the scope has been observed.This has been implemented in our current project to generate validation reports.
+Our Solution is to automate the manual process of generating the reports to the extent of reducing the human intervention to a single click. The initial splash screen for the MAD Database file has dedicated buttons for all the workbooks to be generated. As and when required or on-demand, if we click the button for a validation workbook, the corresponding report gets generated automatically, with all the required formatting, highlighting, colors, and any company logos, ready to be emailed to the customer.
+1) Reduces the time to generate reports by 90%
+2) Reduce manual efforts
+3) Avoid human errors
+4) Increase accuracy and efficiency
+5) Stay compliant with the customer timelines
+

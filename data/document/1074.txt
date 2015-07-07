@@ -1,0 +1,17 @@
+Effective log analysis for triaging issues faster
+This idea proposes a tool for effective log analysis of logs of various CTD products.
+As of now, when we run into customer issues, we go through the log files, one by one, making notes of findings. Search for specific patterns in log files, collect stats of read/write operation etc. Check if certain events are happening too many times etc. 
+All of the above mentioned are done manually !
+We are proposing a tool, which work on text parsing techniques, to parse various log files and collect the information in more structured way, in easily consumable format and provide the information to user of the tool.
+
+For example, the tool can parse log files to see, how many file opens/lookup have happened, what is the time window, how much time its taking. What are stats of read/write operation. How much time specific operations, such as snapshot expose, is taking.
+
+We have already implemented a tool for DDFS, lot more to be done yet to harness the possibilities.
+
+The idea presented here, however, applies to and can be implemented to other CTD products.
+
+This tool can also be used to support engineers, it would come handy to analyse log files, so no need to
+worry while opening a big size log file.
+If the idea gets implemented, it would be way easy to analyse log files. We won't be missing on checking for something in the log files. 
+
+This would make customer case analysis faster and will result in customer satisfaction !

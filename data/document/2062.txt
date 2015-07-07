@@ -1,0 +1,10 @@
+Multipath on Switches
+It's a disruptive for current mutipath softeware.
+Currently, we have many multipath vendors with different versions for different OS platform. Configurations on hosts are complex and time-consuming. If we can centralize the variety steps on a core device such as switch, it will definitely reduce the TCO.
+1.	Install a multipath plug-in into switches;
+2.	Configure zoning as usual;
+3.	Multipath plug-in retrieves information from hosts and storage array. 
+4.	Multipath plug-in set up virtual paths on switches between corresponding host port and storage port automatically.
+5.	Perform multipath management tasks on switches just like PowerPath on hosts.
+
+It will improve customer satisfaction

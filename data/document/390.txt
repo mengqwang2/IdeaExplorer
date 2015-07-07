@@ -1,0 +1,10 @@
+Unstructured Data | Bigdata Solution in FEHC CLOUD using ViPR 
+This is an approach to provide a solution to store BIG DATA (unstructured data) onto object based storage into FEHC Cloud.This idea is thus related to provide solution to store,create and manage BIG DATA LAKE in EHC.
+This solution will include the use of ViPR data services along with virtual ATMOS solution.
+understanding storage for unstructured data has been a difficult solution to understand the object storages with application integration with SDK (API)from production applications.
+This approach is about ViPR Software defined datacenter with dataservices providing backend support on VMware environment with Virtual ATMOS. This simplifies the datacenter where we do have reduced footprint,lesser power consumption, reduced infra costs.
+
+Thus it's only the compute providing us object storage to create repository for unstructured data with automated provisionling using ViPR. 
+This solution will provide software defined datacenter with common platform for file, block and object support to store structured and unstructured data in FEHC with Big data lake solution.
+
+Thus will save money, Efficient use of resources, simplified software defined datacenter.

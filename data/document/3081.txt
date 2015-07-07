@@ -1,0 +1,11 @@
+Predictive Printer Support 
+There is a monthly average of 400 Tickets for Printer issues in EMC . 
+Those 400 Tickets are opened by Service Desk what is operated by a an MSP who is charging EMC $ 6.5 per each Ticket . In addition those 400 Tickets are dispatched to Client Services th
+N/A
+Implement a proactive printer monitoring and route Printer calls directly from the IT Service Desk Phone menu to Xerox as we pay them already for this Service .  
+Productivity: 
+Total potential  return of productivity for the business ~ 33k Impacted User minutes per Year  
+
+Financials   :
+There are in average 544 monthly Ticket opportunities to reduce. 
+Currently there 544 contacts made to the Service Desk and 544 

@@ -1,0 +1,35 @@
+Automatic backup configuration tool - cloud automation plugin
+It is a new product.
+It is a new market opportunity.
+It is a gap in functionality in existing products.
+It is aligned with EMC Cloud + 3rd platform vision.
+It improves time to service & time to market for backup systems serving Cloud and multilocation environments.
+Unified aproach for all cloud stacks and virtualization technologies.
+It improves TCE and EMC PS productivity.
+Original idea was created by me for a project in ING Bank in Poland last year.
+ING required full automation of backup system provisioning with private Cloud Portal.
+Private Cloud was based on Hyper-V.
+Idea was partially implemented by EMC and local partner (ISCG) with powershell scripts.
+Implemented solution was limited to NetWorker backup system and "create", "change", "delete" actions.
+My solution is a software or virtual appliance that automates lifecycle of backup configuration.
+Software delivers following actions:
+- create (backup definition is creataed) - virtual machine is provisioned by Cloud portal
+- change (target pool, target device, different cluster, cloning & replication direction) - virtual machine is moved between locations/clusters, protection class is changed
+- restore/recover (advanced & optional) -  virtual machine or part of it is restored from backup
+- retire (backup definition is deactivated) - virtual machine is decomissioned
+- delete (backup definition is deleted, backups are deleted) - retention period of backup data is reached
+Software product has 3 intereaces:
+- command line interface for scripting
+- REST API for external system (cloud orchestrator)
+- bulk input interface by CSV, text file
+Backup systems that can be covered:
+- EMC NetWorker
+- EMC Avamar
+- Symantec NetBackup
+- HP Data Protector
+Fully implemented - software product or virtual appliance.
+It could make money by providing additional value for Service Providers, Cloud providers, Private/Hybrid Cloud customers.
+It would improve TCE by shortening Cloud automation implementation time.
+It would save customer money by limiting PS hours necessary.
+It would improve TCE by serviceability of software product by EMC as opposed to scripted solution (cumbersome & inflexible scripts).
+It would improve PS productivity/margins by allowing PS delivery to implement bulk amounts of backup clients in short time.

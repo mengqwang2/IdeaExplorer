@@ -1,0 +1,20 @@
+Technical contests
+Allowing employees from different culture and places to participate in technical contests with recognizable rewards.
+Seeing code challenges in other companies.
+Idea:
+Organizing online technical contest where employees can apply for it. Contest can be regarding a code challenge or troubleshooting specific product issue in complex environment.
+
+Procedures:
+-Event being invited to all EMC employees.
+-Interested employees will apply for the contest.
+-Information of contest will be sent after application period is over to only the employees who applied.
+-Contest will be held online.
+
+Note: Contests can be done in teams as well.
+
+Rules:
+-EMC Committee will be auditing the contest, if an employee get caught cheating, he will not be able to participate in any contests for specific period of time
+-Top 3 winners will be awarded with recognizable rewards.
+
+-Allowing employees to enjoy their environment as we are targeting Great Place to work.
+-Having diversity in teams.

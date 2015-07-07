@@ -1,0 +1,6 @@
+More options ofr SR closure - Resolution Codes/Sw Component and Sw function
+We dont have much options while closing the SR also some times it happens that the resolution or the problem does not match the actual component and we need to take up the common option
+
+I came up with this idea because I believe that we should have the proper option matching the component or at least should match customer's problem .
+We have lot many issues which is related to customer modification with in the product and we dont have proper component to select while closing the SR. We can have a set of components which should match the actual root cause and the issue seen
+We will at least have a proper resolution component /option available matching customer's  issue

@@ -1,0 +1,5 @@
+Adopt a single RS-232 Baud Rate for VNX2 manufacturing testing 
+
+The project is part of the 2014 Manufacturing OE initiatives.  Don Hon is the project lead. Phil Leef has initiated many of the meetings that have resulted in the standardization. $40K in Hard Savings 
+This project is to standardize on a baud rate of 115200 for all diagnostic and OS communications.
+

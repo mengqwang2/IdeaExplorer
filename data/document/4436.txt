@@ -1,0 +1,5 @@
+Team members should be able to rate the immediate supervisors performance during EPAS
+
+This process is followed in one of my friends organization.
+Team members would be in a better position to evaluate the supervisors performance within the team and pass the feedback to the senior management. This will help the senior management to gauge the supervisors performance apart from other metrics.
+

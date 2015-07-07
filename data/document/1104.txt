@@ -1,0 +1,9 @@
+Dump log automated analyze system
+VNX, VNXe testers, developers and customers
+when the System dumps, we will create an AR and not sure to assign it to which team. We usually assign it to some team, and it may be not the correct one, several days may be wasted before it get to the correct team.The system can help us analyze the root cause of the dump and give advices.
+The system can fulfill the requirements by below ways(VNXe for example):
+1. analyze triage logs.
+2. analyze data collections logs.
+3. analyze system configurations such as pool, lun utilization, pressure etc
+The system need developer provide keywords and according possible issues.
+It can save time to fix AR and can even help us or customers fix some problems by ourselves.

@@ -1,0 +1,8 @@
+VNXe Team Turnover Process Enhancement
+My idea addresses process enhancement by eliminating admin work which may lead to customer dissatisfaction
+In VNXe we work on chat support until our shift ends, and we usually Turnover cases to next shift for continuous support.
+Filling the Turnover template and preparing the e-mail was such a headache that inspired me to create this tool. 
+My solution was developing chrome extension that generate the Turnover template and fetches the necessary information from case notes ex.(Next action, site name, customer contact,..)
+It will also prepare the e-mail with the correct DL to be send.
+ 
+The success of this tool was minimizing the average time to submit the approval mail for Turnover from average 5 mins 31 sec.

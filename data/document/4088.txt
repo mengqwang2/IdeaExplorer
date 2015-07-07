@@ -1,0 +1,18 @@
+Inbuilt Clone Feature in VPLEX.
+
+Clone feature in VPLEX.
+With Databases/critical environments hosted on luns allocated from VPLEX (with VMAX back-end), we always face a challenge to clone/create a copy of the data for any testing purpose.
+
+Currently, we have 2 options:
+Option 1:
+- Remove storage volumes from Storage views of VPLEX.
+- Run symclone in VMAX.
+
+Option 2:
+- Run the clone in VMAX.
+- Run the cache-invalidate command in VPLEX for target volumes.
+
+We need a feature which does the clone internally in VPLEX (with source and target as VPLEX luns).
+
+Having this feature is always an advantage as we can clone any luns Irrespective of Technology.
+

@@ -1,0 +1,6 @@
+Remote Pro-active Team
+
+Solution support, X-BU Collaboration
+We have been talking about X-BU collaboration and solution support. Can we have a Remote Pro-active team, that will perform a check on customer environments and alert the customer of possible threats in future and inturn prevent a critical situation.
+Team can have engineers from CS,PS and MS that will enable them to exchange their knowledge and skills to help customers.
+

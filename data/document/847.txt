@@ -1,0 +1,11 @@
+Service to analyze VMAX issue using vVMAX in QE/Production environments
+This idea would improve Supportability and troubleshooting speed. This is also lead to better resource utilization
+During Volga release time frame, due to initial development phase, boxes were held for triage by developers for long duration leading to resource crunch.
+This idea can help recreating the scenario using vVMAX, so that the actual VMAX box can released ASAP.
+Come up with a service that could analyze the various dumps that are collected in a VMAX and recreate the exact scenario or sequence of steps that had occurred in order to hit the issue. In this case we can leverage a vVMAX in order to recreate the scenario so that the time to resolve the issue shortens.
+
+
+High resource utilization
+Issue recreation and testing in a controlled environment
+No additional investment required as vVMAX is a software component
+This gives additional flexibility to developers to resolve the issue once it is recreated in lab environments

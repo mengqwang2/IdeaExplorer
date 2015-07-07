@@ -1,0 +1,12 @@
+EMC-powered public incubator cloud
+Fact #1 : In the long run, IT will be offered as a service by service providers, we all know that. The companies who are now consuming IT from Google or Amazon still have a fee (even if supposedly very low). 
+Fact #2 : software is eating the world and developers are the new kingmakers. We need to be closer to them and have them embrace our EMC culture.
+New solution : offer access to an EMC-powered free cloud to the early software startups. But, actually, it would not be free, we would put a price on this access and ask for shares/participation in the newly-formed startup rather than sending them an invoice.
+This idea came after reading "The new Kingmakers"-How developers conquered the world (Stephen O'Grady). This book basically states that software will rule the world even more predominantly in the years to come and that startups will be acquired not only for their products but for their developers. We need to quickly emphasize our efforts in marketing ourselves to this developers world.
+Combine Federation EHC, Pivotal capabilities (CloudFoundry and Pivotal Labs), VirtuStream hosting, open-source projects, in order to create a public incubator cloud aimed at software startups. This "public incubator cloud" would be managed by community managers who would act as facilitators, potentially helping the startups when they face development issues or acting as networking go-to people to be put in contact with other startups.
+Benefit 1 : get the developers back from AWS or Google
+Benefit 2 : get them to develop on our products, the day they are successful and build their own datacenter they will most likely come to EMC first
+Benefit 3 : get early access to bright minds/ideas and acquire them to complement our existing portfolio of solutions
+Benefit 4 : build our brand as the company who powers developers
+
+Success would be measured rapidly : it would only take 2-3 successful startups getting out of stealth mode, having an IPO or just getting acquired (either by EMC or another company) to prove success.

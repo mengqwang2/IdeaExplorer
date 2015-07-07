@@ -1,0 +1,14 @@
+VSPEX Intelligence Automation Solutions for Private Cloud
+
+VSPEX Intelligent Automation for Private Cloud is a unified solution that supports automation of VSPEX private cloud. Its purpose is to enable IT organizations to quickly and cost effectively deploy an infrastructure as a service (IaaS) solution as they learn how to best design and manage their private cloud. 
+What if VSPEX can develop unified tool / portal which can get IT organizations started with in-house private cloud automation which can implement an organization’s initial private cloud, with automation / policy driven / modular stack template capability that can be fully integrated with current VSPEX solutions.
+
+So here is what we need: VSPEX Intelligent Automation for Private Cloud.  Once customer deployed the VSPEX infrastructure into their organization, they can install this unified VSPEX tool which is part of VSPEX bundle. This unified VSPEX tool offers a cost-effective option for implement an IT organization’s initial private cloud. 
+
+Customer can either install the tool in the local computer or access online self-service provisioning web portal to provision virtual machines or order physical VSPEX stack infrastructure within their IT organization.
+
+With the VSPEX sizing tools for applications, policy-driven profile and modular stack template fully integrated into the VSPEX unified tool, users and IT administrators within the organization can easily determine the optimal service profile configuration for specific VSPEX modular infrastructure based upon workload needs and then automate the provisioning of VSPEX private cloud.
+
+In addition, we can develop build-in orchestrator which automates service delivery predefined workflows to request the appropriate physical, virtual, network, and operating system resources.
+
+

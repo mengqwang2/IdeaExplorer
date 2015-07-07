@@ -1,0 +1,10 @@
+ Smart Collaboration using a “Draw it” Dashboard shared between TSEs for effective collaboration
+
+ The idea comes to my head each time I use “share screen” to show any technical design or something to my colleages. I thought about having such “draw it” service
+ The idea works as follows :
+-	Add the shared drawing dashboard feature to the Office Communicator (OC).
+-	When two employees are collaborating with each other, they will use this dashboard to draw drafts about the environment structure and setup.
+-	The dashboard can also be integrated with webex to enable visual communication with the customer and a higher TCE and CSAT.
+
+
+

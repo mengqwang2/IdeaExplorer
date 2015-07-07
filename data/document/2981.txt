@@ -1,0 +1,15 @@
+PowerPath Migration Enabler ODX support and migration optimization
+PowerPath Migration Enabler performance improvement, deep integration with different storage systems.
+EMC PowerPath Migration Enabler is a migration tool that enables non-disruptive 
+or minimally disruptive data migration between storage systems or between logical 
+units within a single storage system.
+
+While doing data migration with PPME HostCopy, users don't have to care about storage system types and migration technologies as PPME is host-based. However, the shortage of PPME HostCopy is obvious, it consumes host resources and the migration could be very slow as there are lots overheads.
+Meanwhile, if perform PPME migration in between 2 empty LUNs(Ex, all zero), PPME still stupidly copy data block by block. 
+
+Based on my observation(2 500GB LUNs on a VNXe 3200, 1 Win host with iSCSI connect to the VNXe), PPME take approximately 20 hours to migration a 500GB LUN to another, it is really time consuming.
+According to current PPME implementation, data to source LUN will be redirected to destination LUN by host. As such, there are lots overhead on the host side. My idea is to improve the performance of PPME HostCopy by offload data copy in SAN.
+For example, Use array based SAN migration technologies instead, Ex, SANCopy can be leveraged by VNX, OpenReplicator can be leveraged by VMAX(already has this). With it, data transfer will bypass the host, SAN migration has higher throughput.
+
+Another improvement is to optimize the PPME algorithm. Currently PPME still migrate block by block even when source LUN is empty. My suggestion is PPME should definitely recognize the LUN empty situation and optimize the migration process.
+Reduce overhead and greatly boost PPME data migration speed.

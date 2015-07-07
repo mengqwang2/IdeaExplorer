@@ -1,0 +1,9 @@
+Troubleshooting guide should be customer facing
+As a support engineer, we spend plenty of time in following  internal troubleshooting guide for most of the common issues. 
+As a support engineer, we are facing this issue daily,  as we are not eligible to share the internal troubleshooting guide, so all the time we need to take webex for the most common issues and help them to fix it by just following troubleshooting guide.
+As a support engineer, we spend plenty of time in following  internal troubleshooting guide for most of the common issues.
+Troubleshooting guide should be customer visible, so that they can follow the same before coming to support and thus it will save plenty of time for support.
+Customer facing troubleshooting guide will help customer to resolve the issue on their own, so we will have below benefits:-
+>> We can avoid plenty of SRs, so incoming volume will get reduced.
+
+>> We can also save plenty of time, as for every common issues we are taking webex and investing lot of time in following troubleshooting guide.

@@ -1,0 +1,8 @@
+Fast Cache support R_10
+
+I came up with the idea when considering the advantage and disadvantage between different raid type .
+Support R_10 have following advantages:
+1. Improve throughput performance without lose reliability from R_1. 
+2. Have little effect on data process capacity even one disk is broken.
+3. This is very suitable for both capacity and reliablity are need field. Such as finance .
+

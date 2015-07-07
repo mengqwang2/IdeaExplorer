@@ -1,0 +1,8 @@
+Design hardware with off-the-shelf cables and connectors
+Two of the challenge criteria are to:
+Make GPO/EMC’s supply chain and manufacturing operations more efficient and effective.
+Drive cost out of our operations to enable investment in Platform 3.
+I believe this idea would meet these two criteria.
+An example is an off the shelf cable designed in an Isilon product versus the exact same cable that has to meet more stringent EMC design requirements.  In March 2015, the contract manufacturer was charging EMC $.78 for the OTS cable (003-0076-01) and $1.03 for the same cable with EMC requirements (039-000-028).
+Evaluate the cost versus benefit of the custom cable and connector design specification requirements.  If an off the shelf cable or connector meets the functional requirements in the product design, we should be able to structure that AMPL without the additional EMC custom design requirements which add cost and reduce availability.
+Reduce product cost and improve supply chain material availability because EMC could use readily available material rather than material with custom requirements.

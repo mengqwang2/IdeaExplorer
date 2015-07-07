@@ -1,0 +1,5 @@
+Slot Location tool for availablity
+
+History of this idea is born out of the frustration of not having inventory in the correct slots, particular during busy E.O.Q.period. Allow access via personal mobile phones would make it easier to maintain 
+Allow personal mobile phones access internal sites by using the users NT login. Create/Modify sites to make them mobile friendly, e.g. having an mobile friendly site to track slot locations of inventory in avail, this would be quick an easy way to maintain the slot location of inventory in avail, without the need to purchase more hardware
+

@@ -1,0 +1,5 @@
+Add pre-health check function before doing fresh install
+N/A
+We always do the install operation on VNX/VNX2, or inyo system. Some system machines have problerms originally, If we do the check before install, it may save lots of time to complete the work finally and even without disrupting System , rather than find issues in the progress of the install.
+Add the health check fuction before doing install.
+N/A

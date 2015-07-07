@@ -1,0 +1,5 @@
+Service defined Cloud Cell--converged Computing and Storeage by Docker in Docker
+
+Docker, mini-service, elastically scale
+Every layer of the service, from Cloud Computing in Pivotal to Storage, a very unique service should host in a mini-core Linux in a Docker container, communicated with REST or unified protocols, then by Docker in Docker, and with Mesos or another cluster management framework to elastically control. Customer need a service, but not a VM actually. Provisioning Service to Customer by EMC App Management, then inside it will create the service container by creating a mini Linux in Docker.
+

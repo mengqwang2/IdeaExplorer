@@ -1,0 +1,7 @@
+Shrink the VMAX / VNX. Portable storage using SD/Mirco SD cards.
+
+Solid State Storage offering same performance in smaller & smaller sizes.
+Offers almost the same storage space and occupies much less space as HDD will be replaced with SD cards. Large capacity SD cards are already available now a days.
+No mechanical parts as in HDDs will save on power and generate less heat.
+Why stick to regular Rack design (though standard Rack size may be made available), offer radical design which is portable. This may let EMC product penetrate a totally untapped potential in the market.
+

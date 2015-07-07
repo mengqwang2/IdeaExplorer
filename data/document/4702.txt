@@ -1,0 +1,7 @@
+Internet of Things (IoT) monitoring EMC hardware components to predict failures in real time
+
+There are more and more applications around IOT involving sensors and data analytics.  Scott Joyce and I were discussing this and thought it would be a great application for monitoring and predicting hardware failures in advance.  There are some studies done on disk drives, for example, that show some correlation between temperature and vibration to failure rates, although the results are not consistent  (https://www.usenix.org/legacy/event/fast07/tech/full_papers/pinheiro/pinheiro_html/index_bak.html).  We need to do more analysis over a large data set.
+EMC adds sensors to hardware components such as disk drives, enclosures, LCCs, etc. to measure environmental parameters such as vibration and temperature.  The sensor information is uploaded to the EMC cloud every minute using a standard IoT application platform such as Iobridge.com.  Component failures are tracked and standard statistical models are used to correlate sensor variables with component failures.  Once these thresholds (e.g. temperature above N degrees for M minutes or vibration above a threshold for H hours) are exceeded, we can notify the end user of a possible component failure, ship a replacement part, and provide installation directions or a service call depending on service agreement.
+
+In addition, we can add GPS for location / elevation & general temperature of room to compare individual hardware tempurature vs. rack tempurature.  
+

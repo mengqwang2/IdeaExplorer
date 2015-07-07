@@ -1,0 +1,16 @@
+Application consistent backup of VMware virtual volume based VMs using SnapVx technology.
+
+Today more and more customers have moved towards virtualized infrastructures to significantly reduce IT cost and increase efficiency. Virtualizing servers using VMware Infrastructure maximizes server utilization while providing many other unique benefits like provisioning", availability and manageability. EMC storage product symmetrix has been tightly integrated with VMWare vSphere and its cloud operating systems. A large number of customer environments involve applications such as Exchange Server and SQL server hosted on virtual machines. These Virtual machines require a regular backup as part of backup strategy so that VMs can be restored at a later point of time. The idea that is being proposed here is related to image level backup, where all the vmdk files related to a VM are backed up using a replication technology like snapshot. Since these VMs can host applications like Exchange server, SQL server etc, it is essential that the backups taken are application consistent and are taken using VSS service
+
+.VMWare allows software snapshots of an entire VM which guarantees application consistency as well. But it is utilizes the same storage resources and server resources there by affecting the performance of the ESX server. 
+
+It is possible to take an array based snapshot of an individual VM which shares datastore with other VMs using array based snapshot with a limitation. We can create a snapshot for a single VM, but the snapshot will include data for other VMs which were not prepared for backup. And in a setup where a datastore hosts 6-8 VMs this use a lot of storage space , as backup will be initiated for each and every VM in the lun/datastore
+The idea is to make use of the concept of both Vvols, from Vmware Technologies ,VSS  from Microsoft & EMC Replication Technologies. 
+
+A VMWare Virtual Volume [Vvol] is an ordinary VMAX thin device which is to be used to create a virtual machine using VASA provider. A virtual machine has one meta-data vvol plus one vvol for each virtual disk. This granularity offered by Vvols can be used to leverage Symmetrix Array features such as local and remote replication on a per VM basis.
+
+So the idea is to develop a VSS requestor tool that can interact with the VSS services on the VMs hosted on  Vvols & using a VSS hardware provider,  quiesce  the VM, create  snapshot of Vvols using symmetrix replication technology(SnapVX) and then commit VSS snapshot. Restoring data from the snapshot will be manual.Note that this idea is applicable only to microsoft windows operation systems that provide VSS service
+
+
+Advantages : It reduces the ESX server resource utilization. It makes use of EMC symmetrix replication technology. It provides application level consistency on VMs hosted on Vvols.
+

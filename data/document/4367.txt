@@ -1,0 +1,23 @@
+COE Challenge - Process Innovation
+
+Being a change manager ,this is a challenge what I myself face.Currently there is no tool to reduce or minimise human efforts to track the change records .Things are to be done manually rather than getting a summarised report or list.
+Triage tool should pick it from the inventory for any emergency or normal changes, to nullify human errors and reduce the time consumption by creating a change record/RFC.CMDB will be more useful for pulling out list of changes that happened for the previous quarter .Current status of any CI can be consistently recorded and kept updated.This can even enable report extract as well when it comes to auditsthereby ensuring data is accuarate.
+Build and Maintain a Single System of Record
+-Store and manage information only once
+-Reduce duplication of effort and cost
+-Ensure information accuracy
+-Accelerate process execution
+Shape the Enterprise Service Model
+-Get an end-to-end view of configuration item lifecycles and relationships
+-Maintain data integrity through workflow, escalations and scheduling
+-Trust validated configuration data when making decisions about change
+Gain Actionable Insight
+-Use data visualization to provide context
+-Understand the impact of incidents, problems and changes on configuration items
+Enable IT Service Processes
+-Speed resolution of incidents and problems
+-Reduce risks associated with change
+-Improve the speed and quality of change
+-Make better decisions around how assets are used
+
+

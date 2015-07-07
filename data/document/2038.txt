@@ -1,0 +1,15 @@
+Support_Tools as a service
+delivering Support_Tools as a service for each new hire/GSAP through web portal to facilitate the process of downloading /installing the tools which saves a lot of time and a lot of money as well, also facilitate the collaboration between managers and GSAP/new hires to ask for access, the Web Tools may used for automatically updates for the installed tool instead of doing it manually.
+I'm a Technical support Engineer joined EMC since year, me and my colleagues had to stay two days installing tools for Support and some of them need to be updated from time to time, every tool existed on different location, either on website or installed locally on one of our machines, having a bit knowledge of cloud services and cloud deployment models made me think of Tools portal which provides the tool aggregated for every new hire by his credentials and sorted by product, instead of downloading it from local website, we can make use of cloud services just by using one server for website hosting, two clicks : one for selecting the product , the another for installing the tools as one bundle and two days were saved.. 
+centralized web Portal for new hires which provides multiple features:
+
+1-Support Tools per every product and the new TSE will choose the required product after authenticating his credentials.
+2- automatically updating the Tools and announcements.
+3- the ability to open a service request with global it incase of having any issue which enhance the communication in a professional way.
+4- collaboration between managers and TSE to ask for access for their tools.
+5- listing details about each tool and manual to how to use it
+6- raise employee satisfaction . 
+7- dashboard for suggestions and questions.
+8-open channels for talented developers to develop new tools and hosting it after getting approval and votes from TSEs in a global centralized portal anyone can access. 
+
+Facilitate the process for new hires to get introduced to Support Tools , Time saving and capacity saving , increase awareness of 3rd platform and widen the chance for cloud services , one time process instead of repetitive process every GSAP/new hire.

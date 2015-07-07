@@ -1,0 +1,9 @@
+Isilon Spill over of the data to other Nodes in the Cluster
+
+There could be instances that the data which is latest will be accessed more frequently and the data which is old will be accessed less. 
+In this scenario the node pool which is designated to write the data got filled up and the data which is incoming will be spilled over to the 
+node pool which is low in performance. As this is the latest data which is written on the lower performance node will be impacted when there are 
+many read hits coming and there is a performance impact. For this there could be a policy which can be set that the latest data will be written on the
+high performance node pool and pro-actively calculating the data which is old and less accessed will be dumped to the lower performing node pool.
+
+

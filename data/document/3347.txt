@@ -1,0 +1,35 @@
+BioScience Informatics approach using Pivotal CF - Big Data is fighting diseases - using big data in better healthcare planning and medical research.
+
+the idea came up from talking to many researchers in the medical field as well as doctors. 
+
+Doctors are everywhere. Medical reports are generated every day. 
+these reports indicate the disease, its symptoms and cause. most of these reports are not used after few days. We can make use of such huge amount of data collected from medical reports to run Big Data analytics techniques to derive value and insights of it in the following aspects:
+
+1- know what the most common diseases in certain regions/cities creating disease map.
+2- relating the disease map to the environmental, social and health conditions for certain regions (using data analytics association techniques)
+
+
+Such approach will achieve two dimensional win :
+
+first dimension : 
+
+this will help the healthcare organization to :
+
+1- proactively plan the need for doctors with certain specialities in certain regions to better meet the demand.
+2- analyze the main causes of common diseases.
+3- predict certain epidemics (by monitoring its causes and conditions) and proactively fighting it. for example if certain conditions and causes that are used to accompany this epidemic in the past re-occured again, the application will alarm the healthcare ministry to investigate the issue.
+
+2nd dimension:
+
+this will help in Research and education organization to:
+
+1- improve the medical research by helping knowing information about causes of certain diseases hence helping in developing ways to cure it.
+2- help medical researchers process huge amount of data (medical reports) they want to analyze. this can be done in not time.
+3- help research student to be aligned with any new disease or epidemic that appear.
+
+
+This solution will combine big data with cloud services to the good of healthcare, educational and public governmental sector.
+
+EMC can provide the solution as a big data service or provide the enabling technology.
+
+

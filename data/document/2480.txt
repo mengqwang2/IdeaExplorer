@@ -1,0 +1,20 @@
+Connected Car DataCenter ShowCase
+Leveraging EMC Federation Products and Solutions and adding Automotive specific flavor to build an Industry unique Solution Showcase. Solution is built on Prof. Michael Porter (Harvard) reference architecture of "Smart Connected Products" 
+I'm co-leading the Automotive affinity Group and working with all German OEMS and be aware of plans of European and US OEMS. Most of the OEMs are currently investigating in how to build a new Stack for Connected Cars. The time is now to present them an award winning solution. 
+
+Building this solution we would be able to leverage some experience from real customer Projects at e.g. Daimler and VW.
+The solution would be based on EHC incl. pCF and a DataLake. RSA is taking care of all levels of Security and VMware Airwatch is focusing on distributing SW to the Car. DCTM to notify drivers about upcoming issues and receiving their confirmations, ... 
+As frontend we would use a Head Unit supported by an OEM or Tier-1 Supplier. 
+
+We would be able to demo: 
+- Agile SW Dev., 
+- Deploying Apps from Private & Public Cloud, 
+- Pushing SW Updates into the car, 
+- Collecting data from the Car and demo value adding services on top of them such as Predictive Maintenance,
+- Showing the identification of cyber attacks and potential corrective actions
+- Building an electronic Customer/Car file incl. all confirmations for legal purposes.
+The solution could 
+- be presented at every Automotive (related) Show e.g. IAA, CES
+- be used in from of every Automotive customer to increase the reliability
+- be leveraged for all other Smart Connected Product demos/showcases
+and pushes us to a Sol Prov

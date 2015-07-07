@@ -1,0 +1,13 @@
+Intelligent Storage Management System
+3rd Platform SDS predictive maintenance - We propose a solution which is based on software defined storage and to use analytics for prediction of critical future events.
+Group discussions and brainstorming sessions
+When it comes to storage, analytics is primarily used to improve TCO and to have a good customer experience(TCE) for storage admins. The array continuously collects tons of data from sensors that are then sent to a scale-out object storage system, aggregated and organized with the goal of giving information and insights about heterogeneous storage arrays across EMC and 
+3rd party arrays possibly. 
+
+We can run large scale data processing using map-reduce and/or machine learning algorithms using a framework provided by Apache Spark, to gain valuable insights of the data. The spark framework can be deployed through Apache Mesos and Apache Hadoop via Yarn . It offers a simple programming abstraction that provides powerful cache and persistence capabilities. This analyzed data sets  
+can be used in the automation of management and maintenance of arrays and provides a self-service dashboard like interface for monitoring and service-level managements. 
+
+Software defined storage is the virtualization of data as well as providing a control path as a service for monitoring, automation and service levels. The control path API will be integrated with the ViPR controller for transparently managing the entire storage infrastructure as a single pool of storage resources by virtualizing all the heterogeneous storage entities. This will allow us to set policies and service level objectives based on the business requirements and which can be provisioned to customers based on the data services available for the specific storage entity.
+
+A single pane of glass view will allow us to see the entire storage infrastructure and also allow us to analyze the generated data using tools and infrastructure software using hadoop/spark . The analysis will help in predictive maintenance and ensure reliability and service level agreements with customers.
+This will let EMC give a better service experience and increased customer satisfaction and retention.

@@ -1,0 +1,11 @@
+Intelligent data distribution and migrate in distributed storage systems with mixed hardware
+related to the main business of EMC, saving the cost and improve performance, very attractive for customer;
+N/A
+In a storage system, we always have some data is “hot” but others are “cold”, which is dynamically changing according the data access frequency.
+
+Intelligent storage system should be able to allocate and migrate those “hot” data to hardware with better performance and “cold” date to hardware with relatively poor performance to achieve better performance in general.
+
+For example, a lot of distribute storage system use consistent hash ring to position the specific node where is date will be store. The system should be able to update the ring and migrate the data according the data “temperature”.
+• Get balance between performance and cost of storage product. 
+• Upgrade old storage system to get performance benefit with low cost to make customer happy.
+

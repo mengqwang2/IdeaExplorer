@@ -1,0 +1,13 @@
+Analytics and Big Data
+
+This innovation excercise
+1) Build Bots/applications which will troll the internet looking for EMC products related words and capture them and dump them in a database. this will be across bulletin boards, support forums, blogs, websites etc.
+2) Take all the data from the cases logged with EMC and put them in the same database
+3) Dump the data from the existing knowledge base into this database as well
+4) Use Big Data and Analytics to mine this data and make sense of it including issues logged and the possible solutions among them.
+5) make sure the existing indexes are correct and each of the document has correct tags.
+6) validate that only right solutions are pulled when an issue is put.
+7) this should be used continuously and the knowledge base kept updated.
+
+
+

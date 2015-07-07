@@ -1,0 +1,19 @@
+Desktop as a Service (DaaS) for employees
+
+Some of my colleagues are getting hardware failure on their laptops and they end being with no access their tools/resources till laptop is either replaced or fixed.
+
+Having a method like VDI will address these issues and make everything more flexible.
+Benefits:
+-By using the resources of EMC's hybrid cloud, We can remove the headache of infrastructure issues.
+
+-This will help IT units to be able to handle isuess quickly through using a centralized cloud platform.
+
+-It will also save money because we won't need to spend money buying new laptops with high qualifications every while or replacing one of the broken devices with new one
+
+-Having centralized platform to manage everything
+
+Method:
+-Each employee will have thin client on their laptops/desktops that connects through ip portal to access their Windows OS.
+
+-Portal can be accessed through tablets also to make it more handy if the employee is outside the office.
+

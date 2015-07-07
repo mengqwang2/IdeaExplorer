@@ -1,0 +1,5 @@
+EMC Product Price Portal
+This will Help EMC Employees to Know the price of the products it sells.
+One of my friends that has Start up company and want to buy a Storage solution from EMC, There is no tool that provide prices for the products  and explains the functionally of each product and the difference between them.
+A portal for EMC Employees where it have all the Products that EMC sells with its corresponding Price , with a catalog that explains the difference between available storage types for the customers.
+Getting to know Price of everything that EMC Sells.

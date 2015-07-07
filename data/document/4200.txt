@@ -1,0 +1,13 @@
+Routine Job rotations with other teams
+
+Came up with the idea when I was working with the customer which involved other products and had to reach out to another resource within CSS to work on the issue. This resulted in delays in providing a resolution to the customer
+If there are more number of cases related to another product.
+There should be a system in place where in there should be job rotation where in an engineer would buddy up with another SME engineer to work on his cases for 2 weeks or more. 
+We do not have a job rotation program at the moment in CSS.
+Job rotation would result in knowledge transfer and the development of individual employees, to advance the employees career options and to avoid job boredom.
+This would result in employee satisfaction.
+There should be a set of criteria to nominate an engineer for job rotation with another team-
+It should be mandatory for an engineer to do a certification on the product before he is eligible for a job rotation to another team.
+This will enable him to understand and grasp things quickly and will make the job of the SME easier to train him with the product.
+This should limit to just one engineer on a quarterly basis so this should not affect the productivity of the team.
+

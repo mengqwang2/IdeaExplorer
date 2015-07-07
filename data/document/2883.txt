@@ -1,0 +1,16 @@
+New candidates Hiring experience (Enhancing)
+By Applying this model we will be able to enhance the process of recruiting new candidates, saving their time as well improving Image of EMC and make candidates experience more professional.
+As a receptionist I face a lot of these issues with candidate who are not sure of even the interviewers name and sometimes the location of the premises so it costs him and us more time to find out where to go and whom to talk, as well it provide negative image to the candidate towards EMC and sometimes it causes re-schedule of the interview. 
+Simply during the initial call by the interviewer to invite the candidate for a personal interview, interviewer will send a similar template like the following:
+Welcoming statement. 
+Interview date and time.
+Interviewer name. 
+Dress code. 
+Full detailed location with google maps link.
+Contact number in case of emergency.
+
+-Saving time for both the candidate and the interviewer
+-providing professional image towards EMC from the candidate 
+-enhance overall process.
+-no money cost at all as interviewer is just sending a template during the phone call.
+

@@ -1,0 +1,19 @@
+Content based storage allocation and maintenance for EMC Syncplicity 
+Sync and share tools like EMC Syncplicity  which offer  support for versatile data set  ( Support for various file formats – productivity , multimedia , office etc) , with varied deployment models like on-prem, hybrid and cloud should utilize storage which is as versatile . EMC ECS seems to be a suitable solution for the need. This addresses the challenge’s attempt to leverage EMC technology for ECD products.
+EMC ECS provides an option to interop File and Object storage and use commodity hardware . This can potentially help to solve Syncplicity's problems of namespace unification and help customer utilize his hardware better . 
+EMC’s ECS provides an ideal solution which has multiple heads providing  Object , HDFS and NFS ( to be implemented soon ) interfaces for storage . 
+We have EMC Syncplicity which has client presence on hosts like computers, mobile devices etc . It can be used to flag which head of ECS can be used based on the type of the data .
+Eg : Images like JPEGs ,PNGs etc can be stored in Object store which can be built on top of commodity hardware pre-existent  in the data center 
+Office files like Word files, PPTs etc can be stored using NFS interface of ECS which can be created on top of the existing NAS servers 
+
+Files provide maximum performance for cases in which data is frequently modified and simultaneously modified  . Object store is best suited for data multimedia, images ,data with lot of context and is generally read-only . 
+
+The administrator can dynamically provision the type of storage he needs based on the usage and maximize utilization of his existing infrastructure . 
+
+In hybrid deployments where the data which is frequently modified and not public is stored in premise can  utilize spare capacity of the NAS filers present in data center via ECS. 
+
+The unique ability of ECS to convert between Object to File and vice versa can be readily used . 
+
+While the solution is suggested with EMC Syncplicity as the Sync and Share tool other products utilize ECS in a similar fashion .
+
+Syncplicity as the front end on mobiles and computers . Syncplicity backend engine running as an application on top of EMC ECS SDS . This can help customer use tools which are more tuned  to the type of data as well eg : backup applications, dedupe applications etc 

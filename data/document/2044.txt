@@ -1,0 +1,5 @@
+Allow test case developer import files in automatos-x
+After some modifications on test cases, such as fix a script AR, the test case developer cannot import files to automatos-x immediately. They can only wait the automatos-x server import at the every day's fixed time or ask someone help to import manually. Obviously test case execution engineer also cannot run at once.
+This idea came from my daily work after updating test case files. Sometimes, the test case exevution engineer worried to run cases. So I need to sent out a liveware or ask somebody online help me to import. If this idea become real, it will ease test case developer and make test case execution more effiency.
+Add a module in automatos-x which will allow test case developer import his own test case files. This module should work with Accrev, it can detect those promoted files. Test case developer will import those promoted files from automatos-x. 
+It will ease automation work and make test case execution more effiency.

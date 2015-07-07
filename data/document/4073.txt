@@ -1,0 +1,6 @@
+LED Test –sitting waiting user intervention- Highlighting APC Viewer usage
+
+This idea was submitted following a Module test IGS.
+generally work is allocated to ESS technicians via Whiteboards, printed out excel sheets and guesstimates of run finish time. We already have a very use full tool that does this work for us. We need to highlight awareness to it and use it.
+We currently have APC online; a detailed web portal that summarises all on going testing (ESS/FC/DAE etc) across GMO. Estimate test run finish times and notification of "user interaction needed" test steps are displayed. a notification email service could easily be set up to notify ESS supervisors when test runs are ready for sign off/ need attention
+

@@ -1,0 +1,19 @@
+ Log to GUI translator – easier and consistent troubleshooting
+
+ The idea came up from the daily log analysis tasks that take huge time and effort 
+ The idea works on automating the process of combining information from different log files together and form a GUI representation of the current array setup that will help investigating the issues especially performance issues.
+For example, in VNXe logs carry information about :
+
+-	Filesystems created
+-	Storage servers created
+-	What silesystems reside on which server
+-	Host access to different filesystems
+-	How filesystems are spread into the storage pools
+-	Disk and raid level configuration
+
+All these information are spread into different text files and are difficult to extract. The GUI translator tool will extract all information and display a hierarchical representation of the storage configuration that will help the TSEs.
+
+
+
+
+

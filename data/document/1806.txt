@@ -1,0 +1,6 @@
+Automating the syslog collection process using Saltstack
+In an Elastic Lab one of the most frequent operations in troubleshooting or investigating the behavior of a product is collecting its logs. in an environment with a lot of products an automation of this process will help in speeding up this operation.
+Came to this idea while watching "Getting Started with Puppet - PuppetConf 2013" video on the youtube
+Using Saltstack as a configuration management tool to automate the syslog collection operations 
+The complete automation of the Durham Data Center infrastructure using Saltstsack
+

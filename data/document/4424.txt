@@ -1,0 +1,7 @@
+Mobile App for Transport Sheet
+
+When I saw for every other thing we are using different Apps. So why not for our main barrier in Go Green initiative. We should think for saving the tress and save our environment
+The idea will work on a simple theory. We have to create an App which includes the roster as we are using it from EMC server so we can easily select our login and logout time. Along with that once we get into the cab we have to acknowledge that we are using the cab service. So they can also easily track how many employees have been used the cab on particular day. Also for double check they are always asking the cab driver about the employee.  
+In this way they do not have to dependent on Paper sheet. This is being used from a long time in EMC. As our initiative is GO green, we should think in this way
+
+

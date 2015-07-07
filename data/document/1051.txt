@@ -1,0 +1,9 @@
+A table that can be maintained by both field/CS/RCM etc.
+Something added to TOE. 
+-Sometimes profile didn't provide correct customer information, if in some case, the SR owner finally got the right contact information
+-If customer has a slow network environment, logs can't be uploaded when size is big, they may have some way out 
+-Some customer's configuration information can only be provided by headquarter admin, while the SR submission is in branch office
+Maintain a table for customer environment/schedule event/customer preference/HOT SRs history, could be update by IDS/CE/CS, could be easily checked in any SRs of the same product, like any profile information. 
+
+
+To make the communication more smoothly and transparent between EMC and customer, valuable customer related information can be reused, achieve better customer service experience, and more efficient communication to achieve shorter TTL. 

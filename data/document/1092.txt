@@ -1,0 +1,6 @@
+Tool to suggest the scenario based best backup product 
+My idea matches the Office of the CTO 'New Business' Challenge as it is about developing a tool which would help in deciding a customer to choose the backup product which best suits their business environment.
+
+The idea came into my mind while working on different backup products namely EMC Networker, EMC Avamar, Symantec Netbackup & TSM. It also came up in different discussion with clients when they were comparing different features of different products.
+The tool once developed would give the option of selecting among the bset available backup products, based on the requirement. 
+This product can become a salable point to the customer for EMC as well as it will also be an eye opener in the scenarios when it will suggest product other than EMC's. It will give EMC the opportunity to update its products to cater to maximum scenarios of the customer. 

@@ -1,0 +1,42 @@
+SAND "Storage Architect Next Door” 
+NA
+Companies hire storage consultants for designing their storage architecture and suggest them solutions. This software can act as a virtual storage consultant. It will have the capability to design the storage for the customers based on their requirements.
+It will only support EMC products
+Companies hire storage consultants for designing their storage architecture and suggest them solutions. This software can act as a virtual storage consultant. It will have the capability to design the storage for the customers based on their requirements. 
+
+This software will re-use two of our widely used tools “EMC Power Calculator” and “Procedure Generator". We would modulate the power calculator tool interface to suite getting customer storage requirement. 
+
+For Example: 
+If the customer wants a Storage solution. There would be drop downs for the customer to select the protocols he wants to use. 
+
+1. Approximate total storage space required 
+
+2. Type of access 
+
+a. file level 
+b. Block level 
+
+3. Protocols to be used in case of file level access 
+NFS, CIFS, ISCSI 
+
+4. Budget for the complete setup. 
+
+
+Based on the budget and total space required the software can decide whether to use enterprise level or mid-tier storage solutions. 
+
+Once this is done and customer selects a product which suites him from the options provided and then click on the “configuration” Button which will then call the “procedure generator” macros and will generate the complete layout for the installation of the product.
+
+SAND will  generate an architecture document on how to setup the box and also how connections can be made.
+
+
+This software will be one of its kinds and the Unique selling proposition for the product is its reusability. 
+
+Advantages:
+
+1.	Automation for the sales team. 
+2.	Less amount of manual work, once the customer is satisfied with the solution he has got he needs to submit it to the sales team for getting the quotation and the deal can be taken further.
+3.	Customer can buy the license for this software which would be usable for certain number of times.
+4.	Customer doesn’t have to pay the third party storage consultants for their data center designing.
+5.	EMC will have an edge over the competitors if it gives this software at some minimum cost or complimentary with its product.
+6.	Customer can keep the setup ready based on the architecture diagram he has got from the software. This will help reduce installation time.
+Save money and Man hours

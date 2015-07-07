@@ -1,0 +1,22 @@
+What’s Happening "Inside MY EMC Federation!"
+The idea is to get out of silos and collaborate seamlessly between all companies in the EMC federation. Be aware and updated about what’s happening and leverage the technologies and products to be more relevant with customer demands and 3.0
+While visiting the http://emcfederation.com/ website, a discussion came across our minds as to what do we know about these Federation companies in our region or how best could we collaborate or learn from each other. A common platform for discussion locally will make create better competencies.
+Leveraging Inside EMC website to best utilize the federation advantage for employees and partners:
+- Add a new feature to Inside EMC ? “ Inside My EMC Federation”
+- It could have 5 major modules ? EMC 2 , VCE , Pivotal, VMWare and RSA
+- Capture user profiles for different  BU users, Federation users etc based on their region or COE 
+- This way the different groups in a particular region will be able to communicate and connect to “Inside My EMC Federation” discussions better.
+- This should instigate people to talk, blog, create announcements [technologies / organizational] and relate to it better. Closer groups will definitely make better dwelling place for newer talents and innovation as they can better relate to what’s happening in their COE ecosystem!
+- Encourage users to tag discussions to most relevant module
+- Encourage people to follow or like discussion that are most relevant to them. 
+- On the next return to the website, input feeds to the user like[ Based on the past preferences]
+  : what was happening when you were away ;
+  : what major discussions are currently trending ;
+  : latest updates , if any on what you were following ; 
+  : new technology additions in a particular module of user preference ;
+
+- This will give a holistic view of EMC and Federation companies with in a COE ecosystem.
+- Create and nurture newer talents within a region.
+- Enhance collaboration between the federation company employees and partners and hence driving TCE.
+- Run a big data analytics talks on discussions and blogs in a region and sense the most trending technology/ achievements in various regions in EMC federation companies…
+

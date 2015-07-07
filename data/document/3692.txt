@@ -1,0 +1,23 @@
+EMC LINK
+
+We receive separate emails for every EMC events, happenings, updates or quiz, which is actually difficult to track among the others. Due to which sometimes a person might miss out on some important mail.
+  Also there is no ways to communicate globally and instantly to every employees. Came up with this idea to bring about a unified communication, which also helps in increasing productivity, reduce the time to process, exiting to employees and simplify processes.
+Detailed demonstration of the idea available in the Power point presentation attached: 
+https://inside.emc.com/docs/DOC-100137
+
+1.All employees are connected through EMC LINK.
+2.LINK app is active when linked with Microsoft Lync 2013.
+3.Integration with Lync is done using the APIs provided.
+4.It has a news feed column, where in the admin controlling the app conveys new developments, policies of the company or any other updates to all employees at once, which helps in maintaining unified communication.
+5.Employees login to the app using their NT id and password.
+6.Topic specific groups could be created by managers/ admin for knowledge sharing and support.
+7.Managers are given unique passwords to update the activities of their teams which requires global attention and appreciations.
+8.EMC Link can be accessed on smartphones, tablets, IPhone, desktop or laptops.
+9.A feature of LINK app is that, a presenter could share his views in a meeting by adopting different modes provided by the app such as power point/ white board presentations etc.
+10.With EMC LINK, Every EMC portal will now have a chat option for people involved in a particular thread to instantly interact with others for any kind of clarifications, without having to open communicator / portal to know the details. Thereby reducing the time to process, avoids routing through various levels .
+11.Exciting games such as business / general knowledge quiz and puzzles are conducted on a regular basis with certain time limits. Points are credited to those who submits right answers. This makes the employees access EMC LINK regularly.
+
+
+
+
+

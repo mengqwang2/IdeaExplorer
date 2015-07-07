@@ -1,0 +1,7 @@
+Using RSA to secure everything around us!
+It is relevant to the future of IoT
+No history for the idea
+Using RSA to authenticate against almost everything, if your home door is locked and you don't have the Key you can use the RSA smart card to unlock it, as well as the Car. Everything should be over the Internet and authenticated in seconds against specific database, with RSA high secure technology standards
+Using IoT to authenitcate with RSA high technology standards aganist everything around us, such as your house doors, your Money safe, your Car... etc
+
+It should be through a smart card and over the IP or using smart phones scanners software. 

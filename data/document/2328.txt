@@ -1,0 +1,5 @@
+Electricity Consumption
+The electricity consumption rate data of the smart city inhabitants would be fed into a central storage/cloud where data would be analyzed in order to reach an accurate figure of the typical consumption rate of electricity while also taking into account consumption  rate increase due to expected rise in population (which would also be determined via a similar mechanism). 
+Inspired by the fuel initiative 
+The goal of the idea is to set a consumption threshold which if breached, the extra consumption would be charged at a different rate other than than one set by the government 
+Ensure that money is well spent and resources well planned

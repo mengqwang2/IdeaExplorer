@@ -1,0 +1,12 @@
+Power Heat isolation
+
+-
+Power supplies and converters generate a good amount of heat that increases the temprature within the rack and requires more cooling power.
+
+So the idea is to isolate the power supplies from the racks.This could be done in 3 ways:
+1) Place all power supplies in a room together that would be cooled diffrently than the remaining of the datacenter. Cables connecting the racks to the power supplies room will then be needed. This way the racks where storage and compute are placed are less heated which will decrease the power used for the cooling of all the racks and will increase the lifetime of the components.
+
+2) have a dedicated part in the rack for power supplies. This part is kind of isolated from the remaining of the rack and have high speed fans pumping the heat in exhaust tunnels in the ground. The powersupply racks are isolated from the remaining components using thermal isolating material.
+
+3)Have a power supply room that would convert the power from AC to DC. Have all devices work with DC power that would decrease the heat generated in the racks.
+

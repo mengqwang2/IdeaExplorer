@@ -1,0 +1,28 @@
+Nextgen supportability - Quick turnaround time for customer issues
+Nowadays EMC is providing customers with cross product solutions and our sales team is strategizing ways to sell products one another (for instance Data domain is sold along with Networker), thereby increasing the revenue and building a market share for our diverse products. As the cross product solutions started to evolve, CTD and other business units are finding difficulty in serving the customers, with their problems, in a timely manner. As we are all aware that, when the system’s complexity increases, the troubleshooting measure in finding an issue and fixing it takes a ton. Approaching such an issue requires diverse engineering teams to collaborate with one another in understanding the issue and coming up with a solution. Customers would find difficulty in explaining the issue to the support engineers which would in turn lead to various assumptions and deviation from the actual issue. Also, many of the products don’t provide enough information to support engineers for debugging the issues which would make the work of support engineers cumbersome and increases the TTR.
+Based on our experience and the discussions that we had with support engineers, we got to know that they are finding difficulty in recreating a customer issue as sometimes it also involves simulating the customer environment. It also causes considerable amount of delay in root cause analysis. To avoid this situation, it would be wise to provide customer with technical information regarding the issue and steps which they can try to resolve themselves. Even if the issue is complex the support engineers will have logs from all the appliances readily available which would help them to go ahead with the investigation.
+Approach one – Historic issue tracker:
+•A self-service package has to be installed prior to the product installation, which could evaluate the underlying system resources.
+•Based on the system resources and inputs from customer (anticipated load/usage) the package would provide the following information which would ease the deployment.
+  –Prerequisites for the product
+  –Scalability information
+  –Network information
+  –Appropriate configuration details
+•When the customer is facing any issues with the product, the self-service package would get the error details; send it to a centralized server (useful for cross product solutions) for analysis.
+•Based on the analysis, Centralized Automation server would match the error code/ text obtained from the customer environment with the Dev/QA/historic customer tickets from the defect/customer ticket management suite.
+•If the customer issue has already been identified in any part of the product life cycle, the resolution from the defect report has to be available readily for customer to try hands-on.
+
+Approach two – Support friendly log reader:
+•A standalone application would ping all the applications corresponding to a cross product solution at regular intervals to gather logs.
+•The logs will be structured in such a way that all the process/daemons information will be arranged in a sequential manner for a respective time frame.
+•As the reader application will only be gathering the logs from other applications, there wouldn’t be considerable overhead to both the product and the reader application.
+•When the application hangs/crashes, the time frame will be captured by the reader application along with the error code.
+•The logs details for all the applications corresponding to the cross product solution along with the root cause application will be gathered and a report will be generated using a predefined template and the same will be provided to support engineers during service request creation.
+1.The above approaches will reduce the turnaround time for customer issues. 
+2.In the 1st approach customer is provided with steps to resolve the issue, even before contacting the support engineers. 
+3.In the 2nd approach when a complex issue occurs, the support engineer doesn’t need to simulate the issue and look for logging information. Support engineers readily have the log information from the reader application which would help them in resolving the issue in a quick pace.
+4.Saves engineering efforts by 50% and improves customer satisfaction.
+
+Please find the attached document from below location for more details and architecture diagrams:
+https://inside.emc.com/docs/DOC-155130
+

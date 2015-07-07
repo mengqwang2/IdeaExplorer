@@ -1,0 +1,5 @@
+VIA should be integrated into Unisphere GUI of VNX series
+
+It comes in my daily work, I found that our function of VNX Unisphere GUI is not so powerful. Always, we need to download another management tool to do initialize, why have these tools integrated. So that customer just only need to open Unisphere GUI to do all the operations what he wants. 
+When customer use Unisphere GUI to login a uninitialize VNX, it should decide whether we will need to do initialize, and then open the management page to supply to initialize VNX.
+

@@ -1,0 +1,6 @@
+Cloud Authentication
+N/A
+used by Sedicii providing a secure authenticated cloud using java 
+Using randomized challenge-based system, using a server encrypted on a server is not the only secured way that can be used, where you can get all the passwords of the users who chose you to help them and make use of all passwords as a credential anonymous platform with no can crack it which will be encrypted back  out of the server
+Security 
+

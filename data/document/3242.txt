@@ -1,0 +1,7 @@
+The Hangout-Hobby Portal
+
+-
+Create a portal where the employees of each country can post about an outing , a sport or a hobby and get other colleagues join.
+
+
+

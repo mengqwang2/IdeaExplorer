@@ -1,0 +1,6 @@
+Data Science Analytics for ESA
+Implemtnting data science on the ESA(Event stream analytics) for better scalability.Stream analytics on ESA would provide great decision support and realtime warning/Alerts for users.
+While working with ESA,understood that it was not a fully scalable solution.
+The idea was sugggested to ASOC Architect.Currently we have Stream Data Mining algorithms which can be incorporated to mine the live data
+The idea tries to solve the problem of manually inputing rules.There are lmits on the number of rules  an anlayst/operator can come up with.Many threats goes undetected beacause it matches none of the existing rules.If we can implement streaming analytics on ESA to automatically  detect outliers and generate outliers based on the data being streamed in,then we can identify much more advanced threats and will be able to provide realtime warning for the anlalyst/operator
+"Huge sucess".Since we already have Data Science for Warehouse.ie static data mining..Implelenting Data Science for stream Data would thrill customers and would provide them better decision support and advance warning.

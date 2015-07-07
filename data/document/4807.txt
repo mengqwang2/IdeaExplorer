@@ -1,0 +1,5 @@
+Remedy can expose an interface/window for search by AR NO in a floating window
+
+All remedy users are affected.
+Users can type in AR number in the floating window, then type Enter go navigate to designated AR.
+

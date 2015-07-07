@@ -1,0 +1,13 @@
+“EMC portfolio track “ – 100% awareness of EMC products for all employees – build the EMC Ambassador 
+
+The idea came up from an initiative we launched locally in Egypt COE in the “Development and Operations” virtual team. We hold frequent awareness sessions covering all EMC products. I was thinking about bringing this idea to the macro level across all EMC COEs/Offices 
+My idea is to reach 100% awareness among EMC employees about all products using our own calibers in all areas.
+The idea works as follows :
+-	Within a COE : use the calibers in different teams to deliver a quick presentations to the whole COE about certain product and its key functions
+-	For example : an engineer working in the support team for VNX can present a 20 mins presentation about what VNX is and what its benefits are
+-	The presentation sessions can be expanded to allow employees to join from different countries/GEOs over webex 
+-	Sessions can be be recorded and shared with other COEs/ Areas that does not have local sessions. For example, one COE does not have support team for some product (such as ViPR), then the knowledge and awareness session can be delivered from another COE using Webex/recorded sessions.
+-	Another dimension of this approach is to include an e-learning path in the education services that consists of a series of quick (20-mins) awareness trainings for each EMC product. This education path can be assigned to new hires as well.
+
+
+

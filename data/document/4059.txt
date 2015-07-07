@@ -1,0 +1,6 @@
+Do you LIKE it ...
+
+Vkontakte and facebook has Likes for photos, music etc. And it is very popular.
+I suggest to have a special "I like" and "I don't like" controls in the EMC's GUI. The control will be like _heart_ or _thumb up_. 
+How it works? When user really likes the product or has some concerns he will click on the appropriate control in GUI. The information will be sent to EMC immediately. Also user is able to add comments about his concerns/ideas and these notes also will be sent back to EMC.
+

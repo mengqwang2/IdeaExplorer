@@ -1,0 +1,6 @@
+Backup using smart devices by a simple search
+This idea provides flexibility of using multiple devices at the front-end for initiating the desired operation 
+The idea came up as there are too many tasks to configure before we start 
+any operation
+Advantages on the proposed Idea: a.The backup operation is initiated by a communication device through browser. This provides flexibility of using multiple devices at the front-end for initiating the desired operation. b.Since the browser is used to connect to the backup engine, there is no dependent of backup software in the front end \ communication device. c.The proposed solutions are flexible and ease to use in Cloud environment. d.Through the search engine, the end user instead of navigation to the multiple windows, can go directly to the required operation (through Keyword search) and perform the desired operation. e.This model works well and Flexible for the data zone spawned across the On-Premises and Cloud environment.  
+If this idea gets implemented the ease of use will be to max and customer satisfaction will be to par .

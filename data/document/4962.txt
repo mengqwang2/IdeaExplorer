@@ -1,0 +1,5 @@
+Meeting Room Reservation Tool
+
+sometimes employees are facing some issues in the process of reserving a room so this will drive things more faster and in an accurate way.
+To have an automatically updated tool with all the available rooms in each floor and once any employee reserve through this tool it is automatically reflected at once.
+

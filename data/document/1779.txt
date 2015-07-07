@@ -1,0 +1,6 @@
+TLC Flash Data Cache
+XtremIO Challenge: This leverages the always-on dedupe capability to reduce the overall flash cost.
+Global Product Operations Challenge:  This technique allows the use of lower cost flash modules and SSDs
+We were discussing ways of reducing the cost of flash drives, and I thought up this idea independently.  I have previously submitted a patent (currently submitted by EMC) on using RAID 4 with mixed speed drives, so have some background in this area.
+This innovation suggests placing the deduped data on TLC drives after it has been in the primary drives for a period of time and is stable, essentially tiering the data not for lighter access patterns, but instead moving this heaviest read data to the 1-write per day or less drives. The write log, which contains the pointers, remains on MLC drives. The write reserve in the TLC drives can be minimized as the write to the drive happens in the background.
+This would reduce the cost of our flash products, making them more competitive in the marketplace.  Several of our competitors (HP 3PAR, NetApp) are attempting to use lower quality flash drives and compete on price as they are behind in the marketplace. We need to keep lowering costs to retain our advantage.

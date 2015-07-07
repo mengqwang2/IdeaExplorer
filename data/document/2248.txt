@@ -1,0 +1,32 @@
+Implementation of Read/Write optimized data protection XDP in Vplex
+Israel COE Challenge
+Results of the idea will provide tangible added value for EMC in these areas.
+1. Big data and data science solutions to enhance EMC products
+2. Innovation around SW defined storage and Flash 
+
+XtremIO Challenge:
+Using XtremIO's unique capabilities (xtremio.com), define new integration points with EMC/Federation products.
+while studying the competitive analysis of xtremIO with other traditional arrays, the XDP stands out as one of unique feature. leveraging such mechanism to vplex will benefit Vplex/XtremIo in long run.
+VPlex architetcure usually makes use of storage LUN from underlying Storage arrays (such as VNX or HDS arrays). and most of the traditional arrays use various RAID algorithms [RAID0,R1, R5, R6 etc.] to enforce redundency type and create storage group. Once LUN is created from storage Group, it will be exposed to Vplex.
+Vplex acts as Initiator to Arrays and Targets to Hosts and inbetween creates extents, devices an dvirtual volumes on exposed LUNs. preferable mode if 1:1 LUN:extent configuration.
+
+DDSP Mechanism:
+1) From the underlying storage array or from particular JBOD/SBOD, expose the unconfigured or free hard drive or Flash drive (instead of RAID based LUN) directly to vplex. the number of drives required is clearly defined in the XDP architecture. usually minimum 6 and maximum is N+2 drives.
+2) Vplex director firmware will have the XDP based dynamic data protection called DDSP. DDSP will make use of unconfigured drives of underlying storage array/JBOD/SBOD to create large storage pool. 
+since the DDSP resides in Vplex, it will be vendor independent and can be applied to any storage arrays irrespective of whether they have mechanism similar to XDP or not [ex: Netapp has Dynamic disk pool] 'DDP'.
+3) From the DDSP pool, 'N' number of storage volumes can be configured as LUNs. each volumes be configured with extents in 1:1 ratio. using extents devices/virtual volumes be configured as vplex opertaions for HA and Mobility purpose..
+
+DDSP can be implemented as an add-on feature and based on customer requirements can be enabled or disabled in the Vplex Firmware.
+Underlying storage arrays can function with Vplex in their existing mode but once this feature is enabled. vplex can configure drives from underlying arrays/JBOD/SBOD as DDSP pool. 
+
+Also, if in a scenarios where the underlysing array is traditional and does not boost much of performance due to slow hard drives or old architetcure. the Vplex cannot maintain optimal QoS and the high availability/mobility process will be of long durations. storage array vendor hardware refreshes may or may not resolve such performance issues.
+To overcome and to provide a consistent data protection along with faster rebuilds, read/write performance, in such cases, the implementation of DDSP will be beneficial for Vplex and customers. 
+
+
+Vplex based "Distributed dynamic storage pool (DDSP)" will distributes data, parity information, and spare capacity across a pool of drives. and gives following advantages compared to traditional RAID algorithms.
+* provides "self-healing" double-parity data protection with a very high efficiency.
+* N+2 data protection
+* Performance superior to any RAID algorithm.
+* Automatic rebuild in case of drive failure and faster rebuild times than traditional RAID algorithms.
+* System throughput is consistent because one volume or 100 volumes are active, every drive/spindle will be contributing to performance.
+

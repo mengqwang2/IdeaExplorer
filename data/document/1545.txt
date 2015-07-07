@@ -1,0 +1,11 @@
+Adaptive Storage Resource Management with ViPR-SRM Analytics
+Software defined storage (SDS) and Software defined data center (SDDCs) approach to virtualized cloud environments will enable businesses to transform their data centres to operate with greater agility, speed and value than ever before. However, this fundamental shift introduces new challenges as well as opportunities in the emerging software defined datacenter. SDDC is key enabler technologies for analytics in data center. Advance analytics over metrics provides insight for on demand capacity planning, forecasting and workload distribution for storage resources.
+This idea was incubated during internal discussion on how to make data centre more intelligent. Since then, it evolved with frequent discussion and took a shape which can be implemented.
+We are proposing an intelligent system to detect and correct the abnormal behaviour. The high level concepts to realize such system are - 
+1.Behaviour model – capture the behaviour of entity as a linear function of direct and latent stimulus influencing the resulting outcome.
+B(x) = Summarization of  (Wi * Ai *)  : where the behaviour (B) is defined as Sum of  weighted set (W) of Attributes (A).  The attributes are a set of direct or derived inputs with complex logical or sequential constructs.
+2.Anomaly analyzer – The abnormal behaviour of system is driven by several unrelated stimulus in past. The behaviour model can predict the abnormal behaviour of entity based on early stimulus and surrounding factors. For example, we can predict if the performance of system may be degraded in future (With current trends).
+3.Anomaly Resolver – Once analyzer detects abnormal behaviour, resolver can take actions to correct it. It maps the anomaly to set of possible actions to correct the current trends.    It can refers to knowledge base to  identify set of action items.
+4.SDS -  Maps the action items to reconfigure the resources.
+Today most of the solutions are reactive in nature and lacks intelligence. Our proposed generic solution can predict the abnormal behaviour of based on early stimulates and surrounding factors.
+This solution will improve the product and also improve customer satisfaction.

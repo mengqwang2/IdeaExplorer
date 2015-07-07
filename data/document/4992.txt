@@ -1,0 +1,11 @@
+Automated AR Report Tool
+
+N/A
+- Use default setting
+- Or use customized setting
+---- Collect all members under her/his team
+---- Customize the member list if needed
+---- Select report types from the pre-defined list (All opening, all closed, newly entered, etc.)
+---- Select report format (Excel, Html, Xml, etc.)
+- Click 'generate report'
+

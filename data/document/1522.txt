@@ -1,0 +1,29 @@
+Creating Collaboration Web Application Framework
+This web application framework will help in data collection and data change monitoring made by multiple teams on the same data set without corrupting the data.
+Key Features:
+Improve data collaboration.
+Accept\Reject other teams change.
+
+I am working in PS App solution -> Adaptivity team. Our product helps customers in making decisions on cloud suitability and creating data center blueprints. All this decisions sometime require around 100-200 data inputs. Most of the time, the required data had to be collected from different stakeholders (Business, Architect...etc.). Currently we have a shared excel which will be sent to the client who in turn will pass it around between different stake holders. After completing the data collation it is uploaded into DB.
+The idea was to create one web application based on collaboration framework so that multiple can work on the same form. Each one can change the data without stepping on other user’s foot.
+
+Solution
+
+Create a web application framework based on two solutions:
+1) Websocket: This will ensure that any change made by one user is propagated to other user’s web page application. All of them can see the change made by others.
+https://en.wikipedia.org/wiki/WebSocket
+
+2) Compare and Swap: Ability to accept or reject others change based on your current data state
+https://en.wikipedia.org/wiki/Compare-and-swap
+
+A POC has been completed:
+
+POC: I have completed a POC based on the above listed solutions.
+http://52.74.97.46:8080/presalescolab/view/index.html#/login   (User should be outside EMC ntw)
+To see it in action two people should login with different personas:
+
+Persona 1:  User ID presales / Password: presales
+Persona2: User ID sme / Password: sme
+After logging in select both should select and start editing the same project. User 1 can see change made by User 2 also has the ability both of them do not update the same data.
+
+This idea was never implemented as we are still waiting for sufficient customer base.

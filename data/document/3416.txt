@@ -1,0 +1,30 @@
+Logistics RMA Automated Billing and Part Warranty status Solution
+
+There was no system to track and bill for RMA orders for EMC International Logistics. Our partners were not able to track their RMA orders.
+Our partners submit a large numbers of RMA requests to our Logistics department. An RMA request is a part order request that our partners submit in order for them to get replacement parts and return defective parts. The RMA request submission process is manual and based on emails. Once an email request is submitted, the EMC RMA team has to perform a part warranty status check manually against the Installed Base for every part returned by the customer to determine whether it’s covered under warranty or not. If it’s under warranty, then the partner will get the order at no additional charge. However, if the part is out of warranty; then the customer has to accept the repair charges for the returned parts in order to get their order.
+This whole process is manual which takes a long time and is prone to human error when doing the analysis.
+The idea presented here is about automating this whole process through implementing the following:
+1-	Creating a web ordering form to allow our partners to submit their RMA requests
+2-	The solution implemented will analyze the order submitted including the returned serial numbers and will automatically assess the returned parts warranty status and will determine the appropriate course of action:
+a.	If the parts are under warranty, the system will route the order to the RMA team for processing
+b.	If the parts are out of warranty, the system will calculate the repair charges required to process the order and will send automated quotation emails back to the partners 
+c.	The partner can then reply back by accepting or rejecting the repair charges and cancelling the order
+
+The benefits out of this system are:
+-	Help EMC Logistics recognize more hard revenue out of the RMA part ordering process by automatically detecting out of warranty parts returned by EMC partners and requesting charge acceptance by our partners.
+-	Prior to the system, all orders used to be fulfilled regardless of the warranty status of the returned parts. After implementing this system, whenever the partners rejects the repair charges, EMC will not ship the parts and will avoid parts standard costs as well as freight charges paid to fulfill the RMA order. 
+-	The system also increases the TCE as the system will track the fulfilled orders and will send automated system notifications to our partners via email once the order is booked and once every parts ships form our warehouses.
+-	Decreasing the order turnaround time since the analysis and communication parts have been automated which has a positive impact on TCE
+-	Also, the quality has been improved since the human error factor has been eliminated which also has a positive impact on TCE
+-	Increasing EMC maintenance renewal contracts as partners and customers are now leaning more and more towards renewing their maintenance contract instead of paying repair charges per defective part.
+The system is currently implemented and documented under a Lean Six Sigma Green Belt project “” for the International RMA team and has a recognized financial impact of $80,000 and cost avoidance of $2000 since its launch in January 2014 (the benefits are ongoing). Also, a survey has been conducted and showed improvement in customer satisfaction from 50% to 88% 
+
+
+This idea has been implemented and the solution is currently live.
+Web ordering form is at: http://emcgs.force.com/rma/Partrequest
+the rest of the solution is currently live on Salesforce.com
+I can show a full demo if needed.
+
+Link to the LSS Green Belt project presentation:
+https://psxl.psteering.com/EMC/project/Summary1.epage?sp=Ufs000080000k049j9280000000
+

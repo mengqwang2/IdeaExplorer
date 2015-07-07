@@ -1,0 +1,6 @@
+Disk failure prediction using Deep Learning
+Global Solutions Challenge: Helping our Customers by analyzing the disk failure data and providing proactive measures to customers before the failures occur.
+Xtreme I/O: This will be a new capability provided on the array to predict disk failures proactively.
+Many disk failures are seen in the customer sites causing data unavailability and/or data loss( DU/DL). 
+Storage systems will be able to predict disk failures using Deep learning technology along with historic disk failure data, and operational charesteristics of disks with other components and services. The current way of dealing with disk failures is reactive and not proactive, so this solution will help the customer in avoiding catastrophic failures. 
+By predicting disk failures before the failure occurs we can prevent downtime for customers. This will increase customer satisfaction and reduce support calls.

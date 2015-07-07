@@ -1,0 +1,18 @@
+Network structure visualization as a component for EMC systems
+When implemented, this new product/component may expand EMC business, make the existing products more attractive, help with everyday lab management. Network visualization is especially interesting for the software-defined storage, as in virtualized environment it's easy to collect the network data about the whole infrastructure.
+A working prototype was build at the EMC Hackday 2 at RCOE. Won two prizes.
+
+It gets the config from VNXe, builds model, visualizes the network, allows dynamic interaction with user and is integrated in VNXe HTML5 GUI. 
+To create a software component consisting of:
+
+1. Easy to use network description language.
+2. Network object model with an API.
+3. Converter to get the network config from the EMC systems (REST-based for VNXe).
+4. HTML5 GUI module visualizing the network model, based on the existing graph visualization open-source frameworks.
+5. Data domain-specific layout for the visualization module, based on the classical force-driven algorithms but better suited to the network area.
+6. Interactive support for the visualization module to allow system configuration by GUI, ping/trace/etc. tool invocation.
+7. Network schema validation module, based on the easy to put connectivity/isolation/performance constraints (like "A should ping B"); the module should work by static analysis as well by dynamic tests if the hosts remote control is possible.
+
+The component should run both standalone and as a piece of EMC systems Web GUI.
+
+Adding of such a module to EMC products will make them more easy to use, increase the system administrator productivity. It will move the products to the leading positions of network configuration user experience rating. Sold as a separate product or licensed to other companies it will expand the EMC business.

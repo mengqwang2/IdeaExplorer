@@ -1,0 +1,16 @@
+Intellgent analysis on debug
+Usually when we hit an issue or receive an AR we had to face some problems during investigation.
+
+1. there is no sufficent data to root cause the issue.
+2. there is no quick method to analysis this data.
+
+
+each time when we see some ARs without sufficent data for further analysis we have to reproduce this issue. this is time comsuming and also not guarantee to able to be reproduce. so we think if we can get all the memroy data maybe we can root cause the issue.
+for problem 1: 
+    add memory dump on the DC process. this step can be achieved by each module.
+    each module can use debug extension to do the memory dump and save the dump.
+
+for problem 2:
+    each module can develop an tools/algorithem to analysis this memroy according some information like relationship between structures, the semantics  on the context ,the logic of the design and etc.
+can investigate/root cause issue more quicklly.
+save time.

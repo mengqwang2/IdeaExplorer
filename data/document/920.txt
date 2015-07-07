@@ -1,0 +1,5 @@
+Proxy Profiling
+Our idea results in high availability & business priority Internet and by reducing the Internet downtime and related incidents
+This idea came in as part of our discussion after the Internet slowness caused by Cricket world cup streaming.
+The idea is to monitor the IronPort group utilizations and if it goes above 85% the IronPort group should activate a new profile which has restricted bandwidth for the segments like Entertainments, cricket, politics etc. and prioritize the business traffic segments. 
+With this idea implementation we can improve the availability of business resources, reduced number of Internet incidents and downtime. 

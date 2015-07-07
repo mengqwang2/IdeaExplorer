@@ -1,0 +1,14 @@
+Empowering HR’s through analysis of my voice data
+
+This idea was developed by studying the challenge. Also personal experience with My voice committee helped too.
+Certain analysis reports for managers which can be produced are as below.
+•	Analysis of manager’s Performance every year suggesting any improvement or deterioration. This shall include detailed description on each of the five Aspects mentioned in my voice survey
+•	Data base should have predefined training , e-learning and suggestions attached to each of the five aspects. These can further be included in the manager’s IDP.
+•	This system can enhance the focus of the HR and the system can pinpoint the areas of development. It will also enable the HR to know which area requires immediate attention of the HR like if the manager has consistent drop in performance in one of the five aspects. Or his focus is shuttling between different aspects then this system can suggest where immediate attention is required.
+•	The system can analyze all BU’s data and find good and consistent performance in one or more of the aspects so that HR can organize a healthy discussion among the good and bad performers.
+•	Best practices can be fetched from the best performing BU and broadcast to other BUs for improvement.
+•	Relating the performances of manager and the BUs and finding out if the manager’s performance has changed depending on BUs .This system can analyze if the BU and leadership has any impact on the manager’s performance.
+
+Note: If we are provided access to my voice data we can work on a analysis system that can work with above idea.
+
+

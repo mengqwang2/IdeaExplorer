@@ -1,0 +1,10 @@
+Technical Skill gaps on EMC Federation, Cloud Computing / Third Platform Technology
+EMC All Teams like GS/PS/CS are working in silos and there are collaboration issues on product level as well as most of Tech Engineers are unaware on EMC Federation, Cloud / Third Platform product/ solution 
+
+Engineer to understand how to leverage existing skills and learn new skills as per EMC Federation, Cloud / Third Platform technology  in their skill domain 
+(Skill domain of Engineer from Storage Support, DPAS Product, OSAPI, Database skill, OS and Application administrators  etc)
+
+Technical challenges on Transforming to platform three
+Innovative Training to fix skill gaps, Engineer to develop associated training as per Federation/Third Platform Technology 
+Engineer to scale up to new roles like Cloud Support Admin, Cloud Architect, Cloud Support Engineer, Cloud Capacity Planner, IT Automation Engineer etc nad develop skills how Cloud Solution can be used as "Database as Service", "Application as Service", "Platform As Service", "Infrastructure as a service" 
+Technical competency/ Support reediness for  EMC Federation, Cloud / Third Platform Technology

@@ -1,0 +1,13 @@
+Build fulltext plugin for perforce or other revision software and even build Enterprise Revision Control Software upon Documentum 
+ECD Chanllenges
+https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2012000347
+Take perforce as an instance, we may build a plugin to download code from perforce according to a mapping file. By the way, we can get all the history of the file in perforce and save it to Documentum with different versions.  Then xPlore will index all the files with all its history files as well.
+
+After the bridge plugin is built, xPlore or xCP can gain the ability to execute full-text query on the code and documents in perforce. And the query scope is including code history as well.
+
+Secondly, if we build a RCS software upon Documentum, it would have similar feature of running fulltext search on code history or document history. 
+1. the full-text search plugin for revision control software can help our engineer in daily life for search upon code and document in perforce or other software. 
+
+2. the search scope is including all histories of the code and every branch if needed. 
+
+3. if we build the RCS upon Documentum, we may save a lot of money in using other revision control software like perforce.

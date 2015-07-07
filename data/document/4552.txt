@@ -1,0 +1,12 @@
+Online Game to make Employees Excited and Funny
+
+EMC Employees in different business units in different EMC Locations doesnt talk to each other a lot.
+
+- We'd like to increase the relation between employees and make them delighted.
+- Select an online that can be played on Computers or any Device to be common within all EMC all over the world.
+
+- Create a Competition between Employees for this game.
+
+- Design web portal for EMC Employees only to put the rank, Likes and comments from the others.
+
+

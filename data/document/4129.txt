@@ -1,0 +1,12 @@
+Heterogeneous Cloud Infrastructure for Data Analysis
+
+
+I have worked on several projects that design PaaS/IaaS solution for local customers, there are increasing interests in customers that gain balance b/w economic and features through heterogeneous OpenStack deployment.
+
+Without doubt, OpenStack is the most popular star in IT industry.  Almost all big IT players already join in the OpenStack community and make sure their product can works well with OpenStack.  OpenStack can build a heterogeneous cloud, that means that OpenStack can manage more than one virtualization platforms in same time.  For example, we already deploy a heterogeneous OpenStack that manage both KVM servers and VMware ESX servers.  Its heterogeneous capability is implemented by deploying computing nodes with different drivers.  In our deployment, there are several compute nodes run KVM driver and others run VMware driver.  The design philosophy makes it easy to extend to other virtualization technology like AWS.  What’s we need do is to implement a nova-driver for AWS, there are already some similar works are working on progress in the community.
+With the OpenStack heterogeneous deployment cross KVM and AWS:
+1.	The initial invest is limited, since the OpenStack is open source software;
+2.	The existing AWS invest is protected;
+3.	Customers can leverage popular OpenStack community for advanced OpenStack features like Sahara which provides Hadoop as a Service on OpenStack.
+
+

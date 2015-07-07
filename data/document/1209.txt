@@ -1,0 +1,10 @@
+Different Captiva Capture configurations
+This idea will let to attract more customers by offering them "easy-to-deploy" configurations. On the other hand, it will let to reduce the time, which is required for our service engineers to provide working system for customer.
+N/A
+It is possible to implement each of the typical workflows (e.g. for HR, insurance companies, medical organizations) as a configuration and to offer them for customer as a little bit cheaper alternative.
+Customer will be able to choose between:
+- implementing all from scratch 
+- buying the required configuration and make some specific modifications (possible with help of our engineer)
+- hiring our engineer and implementing any unique logic
+
+Service engineer will be able to deploy existing configuration and make customer-specific changes rather than implement all from scratch again.

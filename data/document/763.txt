@@ -1,0 +1,8 @@
+Using XtremIO cluster for virtualized Hadoop systems installed on ESXi.
+This can be seen an use case of XtremIO for virtual HDFS nodes and big data environments.This will also provide flash storage access for big data extensions.
+This idea was contemplated while reading the Deployment of Virtualized Hadoop Systems
+with VMware vSphere Big Data Extensions.
+When using vSphere for virtualized Hadoop, we can leverage the XtremIO cluster using iSCSI ports to connect to existing IP infrastructure.To store the data for these Hadoop scale-out nodes virtual machines, a shared-storage mechanism can be provided by XtremIO.
+Hadoop MapReduce function can work together with XtremIO de-duplication and compression features to provide efficient data processing along with high IOPS. With the iSCSI ports, we can utilize the exiting 10Gig network.
+
+The success factor of this idea would be the integration of XtremIO and VMware for Hadoop, bigdata and data analytics.This can be sold as a viable solution for Hadoop on flash storage.

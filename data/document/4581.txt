@@ -1,0 +1,5 @@
+Isilon Tearing
+
+Came across this idea ,when customer experienced difficulty during transferring the data which is TB from one directory to other directory
+Usually customers want to transfer cold(which is not accessed frequently) data from one directory to other directory and create a file pool policy for this directory and place it in low storage teir(NL node)
+

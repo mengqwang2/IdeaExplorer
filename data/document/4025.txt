@@ -1,0 +1,5 @@
+RFID eKanban
+
+The Franklin Process Engineering group has been developing RFID capability for the use in the factories over the past year.  RFID is an excellent technology for reliably marking when something arrives/leaves.  eKanban is used across multiple departments in manufacturing, so this would be a great opportunity to leverage this technology.
+Use RFID to automate the eKanban system.  RFID tags can monitor when material needs to be replenished and when orders have been fulfilled.  Kanban cards can be equipped with a RFID tag.  When the material is consumed the employee would place the card in a specified spot, equipped with an RFID reader, which would send a signal to the supplier.  Currently, when the supplier goes to pick the order they go into ekanban multiple times to flag the order status as Picked, InTransit, and Closed.  The supplier can print the “traveler” on a RFID tag and attach it to the material.  The eKanban system could be automatically flagged as the “traveler” RFID tag is recognized by RFID readers in strategically placed locations, such as loading and receiving docks.  
+

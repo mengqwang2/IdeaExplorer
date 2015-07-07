@@ -1,0 +1,7 @@
+VNX2 - Automatic generating of SP collects and attaching to SR in special call home events
+to help our support to fix problems faster (no more waiting for SP collects),
+better service to our customers
+customer asked me several times to make our support processes better; Thomas Rosenberg and Matthias Benz from German customer Service team were involved;
+VNX people told me that there is already a comparable solution implemented, but limited to unified VNX systems only
+for special defined cases (for instance not initiated hang or reboot of an SP), where a SR is generated (Call Home) it would be helpful to start a process for generating the SP collects automatically, with attachment of the files to the SR (if possible)
+better customer satisfaction (not asking them to do the collecting process manually), faster solution for issues

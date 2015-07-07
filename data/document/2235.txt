@@ -1,0 +1,52 @@
+Robo chat system using Cognitive Computing
+Provides a new way of solving the IT issues
+Own thought process
+At present chat system technical issue is attended by a technician. So a technician needs to have good understanding of the already solved problems/ need to refer the manuals for new issues/other ways. As a human he may make a mistake as well. Instead of using the manual process, we can solve this problem by integrating with a Cognitive Computing System (IBM Watson).
+
+Watson is a cognitive technology that processes information more like a human than a computer—by understanding natural language, generating hypotheses based on evidence and learning as it goes. We can train watson using common questions/answers in a number of ways like product manuals, troubleshooting guides, historical issues etc. Watson is a cloud service and exposes all the info using REST APIs (QAPI). So we can develop an enterprise adapter app that will talk with watson using REST APIs to get the answers - https://developer.ibm.com/watson/docs/developing-watson-apis/using-question-answer-api-access-watson-capabilities/ . Each answer has a confidence factor as well. According to 2014 Gartner predictions, 'Cognitive Computing' has seen up trend. It will be good to pick this technology in order to pioneer in this market space. Following are the advantages of this system:
+
+1. Improves the solution accuracy
+2. Reduces the time to solve an issue.
+3. Reduces the OPEX.
+
+Eg:
+QUESTION:
+=========
+Accept: application/json
+Content-Type: application/json
+X-SyncTimeout : 30
+
+
+{
+    "question":{
+        "questionText":"How do I take mail pst backup ?"
+    }
+}
+
+
+
+ANSWER:
+======
+{
+    "question": {
+        ...
+
+        "answers": [
+            {
+                "id": 0,
+                "text": "Taking PST backup is against the company policies. consider storing on the mail server itself",
+                "confidence": 0.82276
+            },
+            {
+                "id": 1,
+                "text": "Refer to EMC policies guide",
+                "confidence": 0.22121
+            }
+        ],
+        "errorNotifications": [],
+        "passthru": ""
+    }
+}
+1. Improves the solution accuracy
+2. Reduces the time to solve an issue.
+3. Reduces the OPEX.

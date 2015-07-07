@@ -1,0 +1,13 @@
+IT Forum for EMC Employees
+
+whenever I want to open the IT ticket, laptop is needed. Making requests through the mobile phone
+create a mobile application that enables EMC Employees to open IT tickets and ask whatever questions through their mobile phones.
+
+Employees will need to use their NT logins to be able to get connected to the application
+
+EMC Employees  will have full time access to this IT portal. there will be many sections in this application where every discussion board addresses specific IT Topic
+
+when Employees get connected to the application, they could navigate through the discussion boards to look for the topic they would like to ask about
+
+
+

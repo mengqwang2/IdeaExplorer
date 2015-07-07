@@ -1,0 +1,14 @@
+SRM upgrade through GUI
+This Idea would help in clearing all the SRM backlogs by reducing the time of upgarde.
+When doing a SRM upgrade,We are facing this issue often,Especially when it is large environment the upgrade will go to hours which would be tedious and time consuming.
+Trying to do the SRM upgrade through GUI,would solve this problem.Through GUI changing the path is just a click away.We need not type the path or command, everything can be done through a click which would need only half of the time we use while doing through CLI and clear all the backlog that we have.
+
+Using the GUI will also make sure that the step we are following to upgrade the SRM are accurate and followed as per the instructions.
+
+Another important task would be perform the pre-reqs to compile it as a report and give us a go no-go status.
+
+Also, GUI will provide an interface to review the logs in single screen to monitor the progress of the task instead of monitoring the PS -EF command.
+All the SRM upgrade backlogs can be completed in much advance than the expected time.
+Reduced effort via simpler process guided by the GUI
+Efficiency.
+

@@ -1,0 +1,6 @@
+Chat tool Moxie should be Language compatible
+
+Faced this issue recently in chat. So thought if this idea gets implemented, it would be helpful for us & customers.
+Sometimes customer is not comfortable to chat in English, rather he prefer someone who can chat with him in his native language.So Moxie tool should have a language conversion feature which actually help customer to chat in his native language.
+For eg. If customer is chatting in French, Moxie should convert his statements in English before it comes to the TSE other end and vice versa. This will save loads of time to arrange native speaker for customer & transferring the chat. Hence it increases the probability to resolve the issue quickly & satisfy the customer.
+

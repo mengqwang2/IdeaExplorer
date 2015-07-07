@@ -1,0 +1,20 @@
+ Environment Friendly EMC Arrays Lifecycle -  Energy Efficient EMC product process using  less HW array shipments
+ The idea highlights a current process drawback that causes huge energy waste and is not environment friendly. It proposes a clear alternative process enhancement that can save energy and the environment as well.
+ 
+The idea is applicable to all EMC storage products like VNX, VNXe and Isilon
+
+ 
+The idea came up from different customer issues in which VNXe replication was corrupt and needed complete rebuild over WAN which ended up by array shipment. I have been thinking about enhancing such end to end process in a way we can eliminate such waste
+
+ 
+The idea is to address this using the following solution:
+
+1-	Change replication algorithm to be ‘Modular’ meaning that it replicates data in chunks (having smaller concurrent replication sessions; one for each chunk). This way, when a session corruption happens, we need to replicate only this chunk data (which is faster than the whole filesystem). This targets the replication session corruption issue
+
+2-	Ship one Smart Disk instead of the whole HW array: This works by having a smart disk of certain size (for ex. 4 TB) that can store data for the whole filesystem as well as metadata and configuration (like USB stick concept). it can then replicate the same filesystem when injected in the destination array. It will provide a clone that is exactly same as source filesystem. Shipment of one disk is much more efficient in terms of time, money and energy than a complete array.  This targets the initial replication setup sync issue.
+
+1-	Energy saving and environment friendly 
+2-	Cost saving 
+3-	Time saving 
+4-	Maximized TCE
+

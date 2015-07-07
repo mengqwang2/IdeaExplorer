@@ -1,0 +1,6 @@
+Docker and Microservice based architecture for predictive monitoring of ViPR infrastructure.
+Our idea provides easy and scalable solution to monitor various events to predict failure in datacentre based on open-source technology. This is a scalable solution based on Microservice and Docker engine. This can also be easily extended by customers and partners. 
+We came up with the idea after understanding the problem, importance of the issue and availability of technology to solve the problems. We have internal discussion and gone through various articles on how companies with large data such as facebook maintain there datacentres.
+Our idea solves this problems by automating monitoring of issue using current and historical data and hence learning from failures. This solutions collect historical data and uses algorithm specific to hardware and software. These algorithms run in Microservice and can be modified without much effort and are scalable.
+https://inside.emc.com/docs/DOC-155464
+This solution will help to predict failures in data centre, improve uptime and availability, planned maintenance. This will in turn will help in cost saving, allow concentrating more on solution and customer service.

@@ -1,0 +1,26 @@
+Upscale the social collaboration semantics and moving to mobile computing
+The idea promotes to improve collaboration between federation sites with currently available social networking options like http://inside.emc.com . To bring the service offering to the new level and help employees stay connected on go, creating a mobile version of the application is also proposed.
+We stumbled upon this idea during attempts to reach out to the correct QA contacts or the respective program manager for a particular feature or a sales representative or the IT. This is an analogous enough since we are all time trying to integrate products and software across people, organizations and geographies. It all boils down to how well we communicate, connect and collaborate to convey our messages.
+Our solution is not to reinvent the concept of collaboration, but to make minor adjustments to existing social, information infrastructure, so that a robust solution can be built keeping in mind – time and scale of economies. The solution can be conducted in phases.
+?	Phase-1:    Create information source & let social profiles pull feeds  (Subscription model)
+Phase-1A:
+Create information source (RSS feed server) among the federation company sites (knowledge.rsasecurity.com, community.vmware.com, support.pivotal.io and http://www.vce.com/support etc.) with required security consideration. The information sources will let feeds be pulled @regular interval by subscribers - detailing about the newer/updated/delete KB articles, customer issues (SR), best practices, white papers etc.  
+
+Phase-1B:
+Various information publishers may be listed on inside.emc.com and employees of federation will have capability to subscribe onto required information sources based on interest and work. Once subscribed, the feeds arrive on user’s profile similar to newer Facebook posts.
+
+Some information sources like community.emc.com already have capability to give out RSS feeds, which is infact ready for integration with social profiles. Other information sources can be improved to send feeds/information updates if already not available.  
+
+?	Phase-2:   Solve key challenges in social collaboration semantics               
+•	Provide ability to create custom groups for one and every user of inside.emc.com
+•	Integrate user status & calendar on inside.emc.com web page using Lync SDK.
+•	Provide capability to launch chat or conduct desktop share with all members on discussion group with a single click.
+•	By default, provide subscription to friends/followers activities on the inside.emc.com
+•	Encourage employee participation on inside.emc.com by awarding blogger points/feed points/badges onto the user profiles depending on the activity and frequency of usage. 
+
+?	Phase-3: Lack of an mobile application for the viewing updates/respond on go:
+•	Create an Android or iOS application which can represent the web paradigm concisely onto the mobile context. 
+
+
+
+Our solution is not to reinvent the concept of collaboration, but to make minor adjustments to existing social, information infrastructure, so that a robust solution can be built keeping in mind – time and scale of economies.. The better and faster we communicate, leveraging our federation connect abilities, easier the transition to the 3rd platform wherein dependency on network and hardware is at a minimal level.

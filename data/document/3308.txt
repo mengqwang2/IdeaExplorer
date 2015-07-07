@@ -1,0 +1,9 @@
+Facility Management App
+
+Ideation session
+
+
+This app can be downloaded on iphones or android phones, and provides a simple interface for employees to submit any problem, complaint, or suggestion they may want to present to the heads of facilities. It can be something as small as "please fix power socket" or"more tissue paper needed" to  a major suggestion like "open a rooftop garden to use the unused space". 
+
+
+

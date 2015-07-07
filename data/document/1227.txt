@@ -1,0 +1,8 @@
+The Universal License Key for ELA Customers/ Specific Software 
+This idea needs to be discussed with product management for each product to see how it will be possible to create this. 
+Several issues with ELAs and adding new products to existing ELAs. 
+Ex: SRM and adding new part numbers of SRM on that ELAs for new platforms > instead we would create one universal SRM license key. 
+Create universal licensing keys for the products that do not lock for ELAs. There are some software products that do not lock to a specific hardware. For ELAs, we can create one part number that would generate one license key used on all. 
+Saves time and effort.
+Less upgrade ELAs manually. 
+Better customer service and less issues with ELA customers. 

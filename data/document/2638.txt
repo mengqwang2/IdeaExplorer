@@ -1,0 +1,7 @@
+Fingerprint Mobile Authentication
+When you need to access remotely the network from anywhere (Inside or outside EMC), Instead of using the SecureID token, you can use your fingerprints on mobile devices. That will be much faster and also very secure. It will also save a lot of time since 
+While brainstorming, I was thinking of iPhone Authentication using fingerprint.
+And with my mobile and web development experience, I came up with the idea of integrating the RSA and the fingerprints APIs. 
+- Through integration between RSA soft token and mobile fingerprints APIs (iOS, Android,...), you can access the network easily by just passing your fingerprint to your phone.
+- Then your phone will take your fingerprint, check it, sends confirmation to RSA soft token generator (which will generate your full password + RSA token) and will be sent automatically to be authorized.
+Just put your finger on your smart phone and the magic will do the rest.(You will find yourself connected to the network)

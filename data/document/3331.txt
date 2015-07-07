@@ -1,0 +1,10 @@
+"Patient’s Smart Guide" Mobile app. Big Data can help making health care easier than ever - Create potential EMC sales opportunities and markets. 
+
+ The idea came up from real experience with the situation
+
+•	using big data techniques, we can gather huge amount of information about doctors (including their specialities and addresses) and pharmacies (including their addresses and stock information) in a huge database . 
+•	the application will be available for both the patient and the doctor. the patient will use it to find the nearest doctor and his address (it will use the patient current location by GPS). the doctor also can use the application in recommending the address of the nearest pharmacy that has the needed medicines available.
+•	the application can be a thin mobile application (to be used anywhere) while the huge processing can be on the server side (probably by EMC Greenplum).
+•	EMC can be the provider for such System and application and sell it to big medical organizations or the governmental healthcare ministry.
+
+

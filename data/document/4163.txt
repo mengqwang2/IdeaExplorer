@@ -1,0 +1,6 @@
+Virtual Shopping software for e-commerce web site
+
+This idea came into my mind when my spouse wanted to go for a day long shopping for purchasing a dress.
+To avoid the issue in online e-commerce web sites, virtual shopping software should be created. This virtual software would first take the image or picture of the shopper who is shopping online through their webcam. It creates 3 dimension image of the person and it also shows the various ready dresses. Once the shopper selects a particular ready made dress and select "Virtually Wear" button, the software should fits the dress into the 3 dimensional image of the shopper.
+The shopper can look at the virtually worn dress using the 3 dimensional image and can check the fittings like length, waist fitting etc. and then decide to buy online.
+

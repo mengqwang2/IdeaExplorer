@@ -1,0 +1,7 @@
+Browser Extension for EMC Syncplicity
+
+I was analyzing the existing extensions application of Chrome and Firefox browsers. But I couldn’t find a single extension app from EMC. 
+
+    Actually there are extensions to store files directly from the webpage into Google drive/Drop box. Why can’t we also create extensions for our EMC Syncplicity?
+A EMC syncplicity icon will be created in the browser. We can store the file directly by simplt clicking the icon.
+

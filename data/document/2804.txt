@@ -1,0 +1,6 @@
+APJ COE "Solutions Platform" Challenge
+I hope my idea can help with the challenge needed as Big data is any attribute that challenges constraints of the system capability for business need and for me big data is the way where the Information technology business needs in the future, simply our 
+N/A
+Many universities now are starting to deliver masters degrees and adding related subjects in their courses tree of this particular subject in the Computer engineering field, I think before understanding the whole story of the big data, you need at least to read about the cloud computing to know the basics and how this idea works and how it is being implemented and it becomes essential for the rapid growth of technology. So, Courses should be given in that field, teams should be made and to be divided into sub teams with some basics roles such as:
+"Data Scientist, Project manager, Data Engineer, Data base Administrators, Business user, Project sponsor and Bi-analyst"
+N/A

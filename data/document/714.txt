@@ -1,0 +1,11 @@
+Smart card with GPS chip (tracker) and bio-metric enabled.
+Smart city can be built based on the intelligent techniques which can be applied on various platforms such as Transport, food, natural and human resources management etc, lot can be accomplished when all these are well secured and tracked accordingly.The objective is to accommodate the ability of an ample tracking application to provide the 24-hour, year-round security and safety.
+We see a lot of people migrating to a developed city for livelihood, as the city develops further it provide a lot of opportunities for lot of people as well as the city becomes a hot spot for most of the brutal activities like terror attacks, abduction etc.
+
+This smart card should be made as an mandatory proof identification document in all the public transport vehicles and all the shops as well as an Electronic Data Capture (EDC) machine should be used to facilitate this card to authorize the person to use the service.
+My solution is a simple portable smart card which is unobtrusive and does not violate a person's limited privacy rights, which should be issued to everyone who enters or lives in the city, if only the card is bio-metric enabled for identification and will possess a GPS tracker (either a signal transmitter or a receiver) for tracking and monitoring the movements.
+
+Movements of any person can be entered by authorized govt security staff from any one of multiple distributed display/entry stations located at key points throughout the city in accordance with what is required or appropriate identification documents.
+By using this application we can track almost all of the unauthorized activities and provide a possible better solution ASAP.
+
+it works as a major useful application in investigating evidences for a crime.

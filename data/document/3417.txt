@@ -1,0 +1,5 @@
+Embracing Docker in Next Gen Cloud solution by EMC
+
+next gen of Cloud, VM based solution v.s. micro-service based
+Put API and solution to allow user seemless deploy service into Docker container based Computing+Storage infra, allow computing+Storage provisioned end to end by Service level, with QoS leveled. 
+

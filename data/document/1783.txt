@@ -1,0 +1,23 @@
+Packaging Management Fulcrum
+Ireland COE Challenge: The Packaging Management Fulcrum (PMF) will be able scalable and accessible to all Federation members, allowing EMC to receive the maximum benefit from the Federation’s combined purchasing power. 
+
+E2E Horizon – End to End Business Process Challenge: The end result of this program will be to capitalize on cost savings opportunities while maintaining or improving the performance of packaging that EMC interacts with (inbound, outbound, intra-EMC, RMA, etc.). This will be achieved through the establishment of a single EMC packaging governance system framework with clear policies and procedures that will result in improved accountability and efficiency. 
+
+Global Product Operations: This project will result in a groundbreaking holistic approach to manage the packaging that EMC interacts with – driving out unnecessary costs, and expanding and strengthening our sustainability performance. In addition to cost and sustainability savings, this program will improve efficiency on the manufacturing floors by considering labor and space when optimizing packaging.
+
+In the past, EMC has recognized and enacted opportunities for inbound packaging improvements ad-hoc. As EMC has grown, the limitations of this ad-hoc approach have become clear this team. 
+
+The seed was planted during in a packaging supplier quarterly business review. This concept was then expanded by the EMC team to its current state.
+
+Similar systematic initiatives at other technology companies have yielded significant results:
+    •Dell was able to cut costs by more than $18M by focusing on reducing packaging size, using recycled or sustainable materials, and making packaging easily recyclable (2008-2012) (Dell 2012 Corporate Responsibility Report)
+    •Pilot program alone at Cisco would lead to $24M annual savings in material and transportation costs by focusing on three areas: eliminate, right size, and sustain. (http://www.greenbiz.com/blog/2010/03/10/how-ciscos-packaging-diet-saves-24-million-year)
+    •IBM’s implementation of 50 inbound and outbound packaging redesigns in 2012 yielded annual savings of $17.3M in material and transportation costs. (http://www.ibm.com/ibm/responsibility/2012/environment/product-stewardship.html)
+
+The PMF is a novel approach to managing packaging at EMC (powerpoint deck available at https://inside.emc.com/docs/DOC-155335). It defines a strategy and framework for a multidisciplinary group to influence, control, systematically identify opportunities, and tactical implementation of solutions. The PMF will be the central clearing house for all packaging decisions, while being strategically steered by the Packaging Commodity Management Team. EMC will be able to substantially expand our packaging sphere of control by leveraging the resources of our packaging suppliers.
+A successful PMF will allow EMC to:
+    •Manage EMC’s “Total Cost of Packaging.” This includes direct cost of materials, logistics costs, floor space, labor costs, waste hauling fees
+    •Extend and improve sustainability initiatives
+    •Improve customer relations with packaging users – both internal and external
+    •Implement standards and controls for inbound, RMA, and CMs’ packaging
+

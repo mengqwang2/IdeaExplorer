@@ -1,0 +1,5 @@
+IOP-Integration Of Products 
+N/A
+Business continuity, availability 
+Integration with some products may help with the rapid technology which is moving fast for example: integration with VMAX3 and recoverpoint will be one of the main solutions that will offer availability and protection with high recovery and security, also VMWare integration and concept of the Hypermax OS to create a VM that can handle and to be a simulator for another product such as VPLEX or avamar 
+Availability 

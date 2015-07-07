@@ -1,0 +1,11 @@
+Configurable cipher algorithm on VNX/VNXe software
+CTD Supportability in 12 Months or Less
+TCE Challenge
+Speed up the response time for security volubility issue
+Came up the idea during the security summit on 6/11/2015. 
+Just discussed with Xuan Tang briefly.
+Make the cipher algorithm configurable. Customer can modify the configuration file, and avoid the software rebuild/deploy cycle. 
+The encryption cipher algorithm is configurable by customer.
+Can avoid one patch delivery due to the cipher algorithm security volubility issue.
+Speed up the response time to handle the cipher algorithm security volubility issue.
+It will improve customer 

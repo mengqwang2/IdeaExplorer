@@ -1,0 +1,6 @@
+Ease in Data mobility Jobs on VPlex using GUI.
+
+
+I got this in VPlex Migration Project for Customer name Thomson Reuters (HDS Tech Refresh) where customer has servers which consists of 100+ volumes per server and getting migrated using VPlex from HDS to VMAX storag Array.
+If we have some kind of algorithm which can fetch the next available device ID on VPlex it would make the VPlex data mobility much simpler and fast using GUI. Overall it would reduce the amount of time spend on creation of data mobility jobs.
+

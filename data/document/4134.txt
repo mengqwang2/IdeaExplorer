@@ -1,0 +1,14 @@
+Multi-utility USB Disk drive for VPLEX/VE product
+
+while working with VPLEX/VE system found that we can use USB disk drive for multiple usecase. One of them is currently RAM reservation on vDirectors. It can also be used for many others requirement
+This proposed solution helps above problems using USB disk drive:
+
+1. USB disk drive attached to ESX host can be used as RAM booster for vDirectors. This will avoid RAM resource crunches on VPLEX/VE system.
+
+2. USB disk drive can be used as log collection space for C-D tool. If user starts C-D and there is no space left on /diag/collect-diagnostic directory then instead of failing C-D run it will dump the logs at this USB provided storage space.
+
+3. USB storage space can be used as non-volatile for nvol in-memory copy image of metavol. This will help in case of metavol inaccessibility and director reboot scenario.
+
+4. USB Disk drive can have “Powered By VPLEX/VE” logo that can have good visibility and good marketing strategy.
+
+

@@ -1,0 +1,17 @@
+Introduce GHE OnRack to EMC data centers/Labs/MFG
+Make more BUs in EMC to adopt GHE OnRack HW M&O solution
+Enab more BUs to do as much as possible automation in data center/Labs/MFG to replace manual work
+When I am working with people from VSPEX PLUS to learn how they use qualisystem,basically they need to deploy OS/APP to bare metal server and currently they setup an own PXE server to do OS installation  from scratch then FW update . Obviously this work can be done by GHE OnRack
+In GHE HW Lab ,If we want to install OS ,we need to go to lab to insert a CD or USB to manual install OS and if we want to upgrade FW , we need to find another tools to help us , If there is HW failure ,we can't get notification until we spend much efforts to figure out
+
+If we look at Durham COE data center challenge ,they also need "bare metal provisioning a physical host, and allowing remote control of the devices (power on/power off, remote console and etc)" , this is exactly what OnRack is doing 
+Leverage GHE M&O solution (please see this introduction of GHE OnRack in EMC world 2015 http://virtualgeek.typepad.com/virtual_geek/2015/05/emc-world-day-3-onrack.html)  to manage all HWs in data center/Labs/MFGs ,for example in MFG, we can integrate OnRack to Cumulus environment 
+
+1 Automatically deploy OS/hypervisor against bare metal server to replace manual work
+2 Automatically update firmware for servers in Lab/data centers/MFG
+3 Environmental Monitoring
+4 Configure BIOS setting through REST API to replace manual work
+5 Provide remotely power on/power off and virtual console to compute nodes
+..
+last one is OnRack is RESTful API based so it is very easy to integrated to your end to end automatic solution , for example , if you have a global material sharing system to share your material to people/team etc ,you can call OnRack RESTful API to get  material configuration,HW rev,FW reversion etc so people can easily to know whether the available material can meet their request 
+For GHE, it will significantly increase OnRack install base

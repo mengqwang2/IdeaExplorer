@@ -1,0 +1,5 @@
+XIO performance reports
+Improvement in XIO GUI and reports
+Customer complaining that they want to know how efficient is the XIO and how is it performing
+Let the XMS collect performance logs for a long duration and the user is able to select the period over which a pdf report is generated.
+with XIO numbers, a lot of customers will get attracted to the performance it handles which could open new opportunity for hardware upgrade. 

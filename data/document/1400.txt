@@ -1,0 +1,12 @@
+Credit Approval Eroom to SFDC Migration
+This is a very crucial part when it comes to the Customer satisfaction issues. 
+Since all the activities are moving to SFDC cases. So there should be a single platform controlling the activities of business.
+
+There are so many system glitches in the currect credit approval E room. Also currently EMC is moving all the activities into SFDC platform. Hence this idea was generated to move this activity to SFDC. 
+By upgrading the credit approval e room to SFDC case, there can be more efficient in the processing time, and the approver gets all the information since the case is linked to the original request.
+
+The user can experience the SFDC more effectively compared to e room.
+
+Since EMC is migrating into SFDC, there will be a centralized control and access to the users.
+
+Better productive in the process. Efficiency can be increased. As mentioned. SFDC will be the single Platform for all the users. No mannual email or the alert to the approvers.

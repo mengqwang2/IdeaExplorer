@@ -1,0 +1,44 @@
+Innoversity Profiling - A System for Contributing the Advantages of Diversity and Inclusion to Innovation
+This idea is a direct response to the "HR Challenge - Diversity and Innovation at a Great Place to Work", in that it serves to address the challenge of ensuring that "EMC is getting diversity of thinking and ideas as we continue to innovate". Innoversity Profiling is a concept that could:
+- fit into existing internal HR/employee oriented systems and processes within EMC globally
+- take advantage of expertise that EMC would be able to engage from within or outside the organization to inform the modeling and profiling process
+- become a repeatable process that could evolve as 'self-learning' over time to suit every-changing needs within the sphere of innovation within EMC
+- encourage and contribute increased involvement in innovation across the EMC employee population
+This idea formed as a direct result of reading the HR Challenge description. It is influenced by my familiarity, as a manager and employee, with EMC internal systems as well as with innovation efforts and processes. It appeals to my interest in seeing more diversity and inclusion at EMC, as both an individual in the workplace-community and in support of the EMC objectives in this area. This idea has not been documented elsewhere or developed in any way.
+Innoversity Profiling provides a method for building a unique and confidential (encrypted) profile that encapsulates and quantifies unique aspects of an individual. This diversity shows itself in many forms, not only ethnicity and gender (for example, physical stature, tendencies, behaviors, lifestyle, social activities, skills, eating habits, family situation, education, etc.). A multitude of variables give each of us our unique perspective on the world, a perspective that can be potentially harnessed as a valuable contribution to innovation. 
+
+This is a 'straw man' description of how Innoversity Profiling could work:
+1) Experts in the areas of diversity, innovation, profiling, usability, etc. are identified within EMC, and/or invited from outside EMC, to pool their expertise in a think-tank environment in order to build profiling and modeling mechanisms that would consider information about an employee (as provided voluntarily by the employee) for the purpose of building a unique profile for that person in terms of innovation potentials in relation to the requirements of an innovation project. For example, if a person has an attention deficiency disorder, is color blind, at a young age had to support his/her family, or has a certain native language, those 'attributes' could transform into unique perspectives and desirable skills within an innovative environment.
+2) Once the profiling mechanism and approach to modeling are developed, they would go through testing for validity.
+3) The intranet collection device (e.g. online form, survey, or app) would be go through user experience testing to help ensure users would be fully engaged in and trusting of the system. 
+4) Each employee would have the opportunity to voluntarily submit information into the system which would be used to create a unique Innoversity Profile, encrypted for confidentiality and available within the  EMC system (e.g. for the purpose of forming innovation teams via the Innoversity Profiling system).
+5) A person who wants to form a group for innovation, would use an interface (e.g. online form, survey, or app) to enter the requirements of the innovation project (such as the innovation objectives, required skills, and project timeline) and to 'request' a team for that project.
+6) The system would produce 'results' in the form of recommendations for the optimal team(s), based on correlated profiling and modeling within the Innoversity Profiling system.  To protect potentially sensitive information and uphold privacy, there would be no visibility into individual attributes that contributed to the recommendation.
+
+Additional features within the interface used by the user requesting recommendations for an innovation team could include, for example: 
+- an option to include or remove a specific member from a recommended team and to then 'refresh' the recommendation in relation to the revised team.
+- a rated list of recommended teams (e.g. different combinations of individuals), according to a configurable number of teams
+- information about potential advantages and disadvantages of a specific recommended team (e.g. could be scored in relation to categories such as potential agility, discipline, dedication, etc.).
+- availability and dependency information re/recommended individuals within a recommended innovation team
+- the system could suggest other members who could potentially fit a team if the organizer doesn't want to include a particular person.
+
+Additional features within the interface used by the user entering his/her profile could include, for example:
+- an option to be notified, and to grant approval before being included within a recommended team
+- an option to allow certain types of innovations to take his/her profile into account
+- an option to include comments that would be visible to the person requesting an innovation team
+- an option to make his/her location visible within innovation team recommendations
+
+A scenario might be that a person wants to organize a team from within the employee population. The organizer knows that the project will require working under pressure on a short timeline, and that the solution is expected to involve big data and hardware.  The Innoversity Profiling system would recommend optimal team(s) that could accomplish this type of innovation project, based on an ideal combination of profiles and the factors within the innovation project.
+
+There wouldn't be visibility into why a certain person was recommended; rather, the system would recommend at a group level based on a combination of pooled individual skills and qualities, and group dynamics created by the combination of individuals within the group, that result in a 'best match' for the requirements of the innovation project.
+
+Innoversity Profiling could be an annual EMC process. Each year, an employee would be asked to update the input that produces the Innoversity Profile (so that any changes in that individual's life situation, skill set, etc. would be updated). Participation would not be mandatory.
+
+Such a system could eventually be expanded to include consideration of outside participants (for example, students, interns, community program members, etc.) and in that way enable expansion of innovation and diversity at EMC in a highly dynamic and inclusive way, reaching out beyond the company itself into academia, the general community, partner organizations, charitable organizations, etc.
+In the event that "Innoversity Profiling" is established at EMC, it could:
+- provide a system for taking diversity and inclusion into account as a key advantage within innovation 
+- broaden the EMC approach to innovation and enrich the forming of teams for innovative undertakings 
+-increase opportunities for employees and become an organic way of involving EMC employees who might not proactively become involved in innovation
+- remove potential biases of individuals towards embracing diversity and inclusion, by using encryption and using complexity within diverse combinations. 
+- prove to be groundbreaking in terms of how a large corporation approaches diversity, inclusion, and innovation. 
+- potentially involve use of 'big data' from outside studies of diverse populations to inform modeling and profiling.

@@ -1,0 +1,23 @@
+Device authentication for securing IOT enabled systems 
+Office of CTO: The solution described in the idea can be productized. RSA already has cryptography and device identification capabilities required for building this solution. The best part is that these capabilities are not very resource intensive.  A low footprint product with  these capabilities can be built easily.
+
+RSA IOT: This idea is about securing the IOT systems which is the primary focus area for this challenge.
+
+Israel COE: This idea is about securing the IOT systems which is the one of the focus areas for this challenge.
+
+We thought of this idea only recently. We are planning to involve the senior technical folks from the Via team to explore the merit and feasibility of this solution. Via team because the concepts and solution aligns with Via's vision.
+
+We will use an IOT enabled home automation system to demonstrate the solution but the solution can be extended to other IOT systems too.  The average size of household is typically between 3-5 members. This would translate to 6-10 laptop/mobile/tablet devices per household. The attack vector can be reduced to a large extent if the access to the system is restricted only to these devices. This is practical since we are talking about just 6-10 access devices(laptop/tab/mobile).  The biggest factor in analyzing the strength of authentication solutions is the provisioning flow and how secure it is ?
+
+The solution is about restricting the provisioning of devices and users. Provisioning should be allowed only via Bluetooth protocol or by a wired connection from the device to home automation system. This will ensure that provisioning can happen only when the device is physically close to the automation system. Further controls that can strengthen the solution like - the head of the household has  to key in the provisioning password or the system sends an OTP that completes the provisioning to the head of the household could be employed.  
+
+FIDO like technique can be used for validating device authenticity. It would involve generating RSA or ECC key pair during provisioning and securely vaulting the private key on the device. The key can be securely stored on the device using the secure element or  trusted execution environment for android devices, IOS key chain for apple devices and TPMs for laptops s. The device would use private key to sign all its requests and the home automation system would verify the signature using the corresponding public key to verify the authenticity of the request.
+
+This is a fairly strong solution. It will be very hard for the attackers to get themselves provisioned into the system since provisioning would need physical proximity to the home automation system. But if the attacker targets the private keys of the provisioned devices then his job is relatively easy. There are already tools and techniques to break some of the techniques we have discussed above to securely vault the private key.
+
+To plug this gap, device attributes validations can be employed. For laptops -  attributes like browser versions, plugins installed on the browser, screen resolution, color depth, canvas fingerprint etc can be collected each time there is a request from the device. For mobiles attributes like browser vendor, browser version, applications installed,  application versions , screen size, device model etc can be collected. These attributes can be compared with attributes from the same device from previous request. Only allow access if there is a match. If not, challenge the users with higher level of authentication methods. When it comes to attributes like browser version, plugins installed - they can change frequently and hence it makes sense to look for a near match(weighted) instead of an exact match. 
+
+
+Though the solution is strong, its strength  shouldn’t be used as a justification to do away with user authentication. User authentication has its role to play and it is still required to compensate for risks like device theft, weak mechanisms to unlock devices etc.
+The biggest threat as perceived by the end users is the possibility of remote exploits on their objects if connected to the internet. This solution tries to address this problem and may contribute in a big way in accelerating the adoption of IOT. We believe this is a secure solution and built around RSA's core strengths like cryptography and device identification(FRI) . Since IOT is still in its infancy, a good solution at this stage by RSA will help it gain a firm foothold in the IOT space.
+

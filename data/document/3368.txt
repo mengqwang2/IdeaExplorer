@@ -1,0 +1,6 @@
+Video knowledgebase
+
+Whenever I have faced any issues or wanted to learn something new, YouTube has always been very helpful. YouTube being the largest video sharing website have a large video collection posted by users. People can easily search for troubleshooting issues and application tutorials.
+Though all issues cannot be converted into videos but there are parts like implementation or installation instructions of our product can be converted into videos. Most issue are because of wrong implementation of product only. Also, there are always some issues which have simple troubleshooting steps and can be converted into videos.
+Videos are also more understandable, interesting and easy to go through.
+

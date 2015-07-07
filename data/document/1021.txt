@@ -1,0 +1,17 @@
+Multi-Level Logging Methodology
+This Idea Addresses Serviceability and TCE Challenges by Troubleshooting Product Issues in a more Enhanced Way.
+The Idea took Shape when a solution was thought for limitations with current Implemetations,   
+-	Logging is skewed and scattered all over the place
+-	It doesn’t factor in personas, not everybody needs same level of information. For example a CEO needs different level than a DBA
+-	Logging is very hard to parse making it sometime very difficult to reach to the conclusion
+-	In case of distributed/federated environment even though centralized logging is available nowadays, but it lacks the visual interpretation. Why would we need user to go through the logs and spend hours and hours? There should be easier way to depict the information faster/reliable/secured/easily comprehendible
+
+All the applications write logs in certain ways life for Example: Application writes logs in multiple levels – Level 0, Level1, Level 9 with very less details in Level 0 and increase the details as we increase the Levels. Similarly, we do have applications writing the logs as ERROR/ALERT/WARNING/CRITICAL etc... Most of the applications also writes logs with some level of details which helps finding the hosts/node which is the cause of the event being generated. We would leverage those logs and created logging that would be presented to end user in a tree structure.
+
+After backup completion, everything is presented in pictorial/visual representation for the user.It is upto user to decide at what depth he/she would like to see the logs and based on that he/she can expand or collapse the tree. 
+
+Please see the attached document which has a detailed pictorial representation of the proposed idea. It will give more information. Also,the example taken in the document is related to the module we work. However, it can be expanded and supported for any product.
+
+Link to the Document : https://inside.emc.com/docs/DOC-155811
+
+The Idea will address the TCE Challenge with Better Serviciablity.

@@ -1,0 +1,12 @@
+Dedicated console VM Cloud for VNX array
+
+We experienced chaos sharing console between arrays before. For recent several months, we have setup such a console VM virtualization infrastructure through KVM for several local arrays and have very good experience.
+We can create a VM cloud that has a VM configured as console for each array. Each VM would have 2 serial ports connected to each SP of corresponding array and 2 network interface - one management LAN for user login and one service LAN connected to array service port.
+	For serial port virtualization, they are multiple solutions:
+		1. Use digi realport driver to virtualize corresponding digi terminal server ports as VM local serial ports;
+		2. Use IPMI Serial over LAN functionality to get serial access through BMC of SP.
+		3. Directly connect serial cable from SP serial port to VM physical machine via USB_to_Serial cable.
+	For network virtualization:
+		1. For Management LAN, all VMs on the same physical machine are bridged to the same management interface of physical machine;
+		2. For Service LAN, each VM is bridged to a dedicate NIC on the physical machine(USB_to_RJ45 converter connected to corresponding array's service port).
+

@@ -1,0 +1,6 @@
+Drone Delivery
+Involves using technology to build a workplace of the future.
+I have been watching new reports of drone deliveries as the technology is emerging into the commercial market. Companies like Amazon, DHL, Alibaba and Google, are running trials and running into complications, like aviation authorities, long distance delivery, charging, accessing buildings, package theft, weather, etc. Many of these challenges would not exist for within factory deliveries and there is an opportunity to use this technology to try something new in the factory. The technology is available and it is running successfully for companies like SF Express in China. 
+Use unmanned aerial vehicle (UAV), i.e. drones, to deliver small parts and mail, above our heads, to offices and drop off locations throughout the factory. The drones would need to navigate around the factory and return to charging locations when not in use. 
+EMC could lead the way in using this emerging technology in a factory.
+It would be really cool.

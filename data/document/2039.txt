@@ -1,0 +1,10 @@
+ViPR for fog computing
+This idea provides a platform for executing distributed analytics in IoT using software defined storage
+The idea is new for this contest.
+ViPR is EMC Software Defined Storage.
+It manages storage platforms and provides storage pools and centralized management for heterogeneous storage devices.
+ViPR Services include Object, HDFS, and Block that can run on ViPR-managed file arrays and commodity platforms.
+I propose we use ViPR to create the infrastructure for distributed analytics in fog computing, for example by providing every city/neighborhood with local HDFS for executing local map/reduce algorithms.
+Smart "Thing" manufacturers interested in fog computing would come to EMC for analytics solutions. EMC federation can provide easy to manage distributed storage and provide analytics applications via Pivotal.
+
+EMC can partner with Cisco (who coined the term Fog Computing) to provide the optimal infrastructure for fog computing.

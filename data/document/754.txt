@@ -1,0 +1,9 @@
+Runtime Operator define and Sorting at runtime in xCP
+ECD challenges
+As xCP developer, this idea came when I use other products of Documentum. 
+
+It would make customer more convenient experience.  
+1. solution would be a configure page for query or changeable operator at runtime.
+
+2. sortable API at client in result list. It would enable when all results are returned to client. 
+Improve customer satisfaction.

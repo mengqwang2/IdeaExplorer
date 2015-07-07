@@ -1,0 +1,33 @@
+On Demand, Searchable & Centralized (NMC UI) Logs for NetWorker
+
+EMC NetWorker is one of the high customer base product in CTD. NetWorker is an enterprise backup recover product, hence it has so many logs; NW Server itself has logs like daemon.log, clone log, policy log, recover log, auth log, migration log, rap log, license log, security log etc. In addition, NMC has gstd log and clients and Storage nodes has their own logs. Because the product has bunch of logs, it is always a challengeable task to troubleshoot and analyze any funtional / non functional issues and to corelate the problem. 
+
+Collecting multile logs from server and other hosts (such as NMC,SNs, Clients) is a time consuming task for backup administrator/QA engineer, where in he has to login to respective system, render the logs and later troubleshooting and do the analysis; if requested by support then provide the same. 
+
+Current challenges in enterprise backup recover product (NetWorker) is that it comes with various logs for various operations such as backup/clone/recover or migration etc, and some more logs for various services such as authenication, licesnse, rap etc. 
+
+There is no centralized way of getting the logs for NetWorker on demand. Also easy to use, searchable, parsing ofthe logs is a key limitation. 
+Emc NetWorker is having multiple logs such as daemon/policy/recover/migration etc. we always need to collect all logs at one place and render it before do the analysis for any troubleshooting. Above solution will save lot of time and energy.
+
+
+The proposed idea is to get the logs on demand, quickly and easily accessible in a centralized location such as NMC. 
+
+Please refer the docs for architecture diagram and the sample UI design @ https://inside.emc.com/docs/DOC-155917
+
+NMC should have another tab named as "Logs", which should be able to 
+- Collect all the logs from backend in one place
+- Provide option to get server side logs, client side logs, NMC logs, SN logs
+- Logs should be viewable in a table format, sortable, searchable, parsable as per user need
+- Fetch only the required logs when requested
+- Fetch only the specific portion of logs (given time period)
+- Archive older logs with user preference and easy access by NMC for later need
+- Export log for future use
+- Customer will get first level of log information at centralized NMC page.
+- User will be able to understand setup issue easily with the quickly available info at one place.
+- Supportabily will improve as it will get less no of call as customer will be able to help themselves quickly and will be able to get faster responce from customer with all needed logs..
+- This approach will improve TCE
+- Improves productivity
+- Easy to troubleshoot of issues with centralised log access.
+
+This approach can be implemented across DPAD / EMC products. 
+

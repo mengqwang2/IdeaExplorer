@@ -1,0 +1,10 @@
+Use LYNC SDK to develop embedded LYNC service everywhere
+
+I come up with this idea when I saw IT challenge, and I did some search, finding out there is lync sdk for further development.
+Now office communicator and outlook has some synergy, but they are still separated. With lync SDK, we can make them seamless work together. For example, for IT service desk, once you open a conversation, you could try audio, video, and do demos, after that, IT can save this chat as a email and open ticket and send it out.
+
+Another example is, when we open outlook and want to write/reply an email, and we found him/her online, then without opening office communicator, we could have a embedded chat window that we can start talk immediately. When we want to reply email, we could also show the email content when we are chatting, so people can know what are we talking about, and once finished, we could save them and simply reply them.
+
+With lync sdk, we can have more synergy with microsoft software.
+
+

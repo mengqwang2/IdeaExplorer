@@ -1,0 +1,7 @@
+xCP application Portal
+N/A
+N/A
+Provide new wep portal to small xCP developers for build and publish new application with different business. 
+
+
+N/a

@@ -1,0 +1,7 @@
+Integrating Docker in EHC solution
+Not just containerzing, but to provide more robust environment for developers in a very cost effective solution
+Usage of Docker will benefit the development environment.
+We have to create/bundle a docker image with all the development tools/software's/packages. Use that docker image to create a machine blueprint and add it to the service catalog. This provides a robust environment to business units to create a complete package of the tools required for developers to use, with very less resources/servers. The reason we say less resources/servers is that the developers can connect to the same server and use their individual container to access the application/software.
+
+The solution will take the advantages of Docker and attract the test & Dev environments in addition to the production workloads.
+

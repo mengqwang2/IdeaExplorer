@@ -1,0 +1,16 @@
+Real Time remote power monitoring and power control using Intelligent Rack PDU 
+The idea is an automated solution for taking control of the equipment power on/off procedure independent of the type of equipment racked up . This solution is vendor agnostic. Will help reduce the time power consumption and assist in monitoring of the usage trends 
+One of my previous company was using this model as a go green initiative which helped us planning shutdowns and save lot of costs incurred due to powered on but unused equipment but those were earlier models of KVM and configurable PDUs
+
+On following Intelligent rack PDU progress online I read about this solution which has more powerful remote control features and advanced monitoring and reporting
+The Intelligent Rack PDU units when used along with the KVM provides greater control of remote systems both for on/off procedures and setup bring ups using remote installs . This solution eliminates the dependency on lab personnel to setup things like trivial installs and monitoring. 
+
+Raritan’s Power IQ energy management software consolidates power data from individual IT devices and racks and transforms it into useful information so you can
+
+1.Make informed capacity planning decisions
+2.Efficiently utilize power resources, while saving power and money
+3.Measure PUE (Power Usage Effectiveness) and drive green data center initiatives
+
+The thing that makes it unique is it has all the real time monitoring , secure sessions  reporting and remote iso installs generation as one solution while other solutions that I am aware of didn't have all these features as a single one stop solution 
+
+Reduced lab support dependancy, Remote setup bringups , Planning capacity and outages better, Monitoring equipment being unused but consuming power , cut costs

@@ -1,0 +1,38 @@
+Redefining Cloud Core - Durham CoE Service (A solution pertaining to ViPR Rest API, NSX Endpoints, vCloud Suite, Puppet Automations & Pivotal App Stack)
+
+This proposal is an outcome of a wonderful brainstorming session with VMware, Pivotal, ViPR, UnITy & Cisco UCS domain experts.
+If required, we are ready to provide a demo available in stage environment.
+This build solution provides application developers/architects/systems administrators the operational agility, efficiency, and insight they need to manage dynamic infrastructure, on-premise or in the cloud.
+
+Currently, "Cloud Core Self - Service Portal" renders cloud services to end users on Infra layer, which can be extended further, better, efficently on Middleware stack, Storage stack, DB stack & Application stack with the help of API web services call & automation engine, specially vCO/Puppet services.
+
+The ViPR Controller REST API describes the programmatic interfaces that allow you to create, read, update, and delete resources in a ViPR data center.
+For example - GET https://<ViPR_VIP>:4443/tenant
+Each ViPR storage resource class has a pair of /bulk APIs - a GET and a POST call.ViPR resources are not deleted, but are marked as Inactive. Inactive resources are periodically collected and removed permanently from the database by an internal process called garbage collection.
+
+NSX brings together the best of Nicira NVP and VMware vCloud Network and Security (vCNS) into one unified platform providing a full-service L2-L7 overlay virtual network for any hypervisor, any cloud platform, deployed on top of any general purpose IP network hardware.
+
+Puppet is a declarative, model-based approach to IT automation, helping you manage infrastructure throughout its life cycle, from provisioning and configuration to orchestration and reporting. Using Puppet, you can easily automate repetitive tasks, quickly deploy critical applications, and proactively manage change, scaling from 10s of servers to 1000s, on-premise or in the cloud.
+
+Uses Pivotal big data suite Or Splunk to gather customer feedback its pain points/usage to enhance the capability of cloud core services.
+Provides a user friendly display of service catalogue, to give a transparent/non-redundant/easy to access format. So that user can easily construct their customized lab solution.
+
+
+The Pivotal Tracker API allows client software to retrieve and operate on a user's data by making HTTP requests to transfer JSON-encapsulated data.
+export TOKEN='your Pivotal Tracker API token'
+export PROJECT_ID=100
+curl -X GET -H "X-TrackerToken: $TOKEN" "https://www.pivotaltracker.com/services/v5/projects/$PROJECT_ID"
+This API will help Cloud Core consumers with project management capabilities if required!
+Which will certainly reduce time to market, the solutions built or defined.
+
+
+Benefits:
+Cloud Core - Will provide extended services to customer via API Calls, which can be consumed in application deployment, implementation or testing phase.
+Cloud Core - Will gain self-healing workflows via vCO/vCAC.
+Cloud Core - Will push cloud notifications via RSS Feeds to all customers on services availability or disruptions.
+Cloud Core - This solution will help in displaying the availability of Cloud services in a single pane of glass.
+Cloud Core - Can provide extended RCA to end users via vCOPS, vCenter Hyperic & LogInsight.
+Cloud Core - Will further enhances UnITy service management to all customers by better integration & status update.
+Cloud Core - Better go-to-market approach with new functional model.
+
+

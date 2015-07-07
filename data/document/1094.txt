@@ -1,0 +1,21 @@
+A recruitment solution to improve diversity based on Documentum NGIS, CIS, FS2
+Extract candidates characteristics from resumes that will help to bring/identify diversity, also make improvement to recruitment process.
+This idea was generated during our group discussion. 
+Using xCP to build a talent recruitment application(by Michael, Dingmeng, etc) was once selected as finalist in xCP xCelerator Challenge, and this time we improve the original idea by identifying candidates' traits through resume and social network, that will help to improve company diversity.
+Our solution leverages Documentum NGIS to store and manage candidate information in cloud, CIS(Documentum Content Intelligent Service) to extract candidate traits from resume, relate external resources(social network), and categorize candidates by different facets, xCP to build and control the workflow. 
+
+The whole process can be:
+1. Resumes are added to SAAS content management system.(NGIS)
+2. CIS analyzes the resumes to extract metadata such as phone number, personal email, education, skills, experience, and social network account such as linkin, twitter, blogs, github, etc. 
+3. CIS also analyzes content from the external social network, extract the gender, region, skills, rewards, patent, judgement, or interest.
+4. The extracted metadata are saved as categorized tags associated with candidate resume.
+5. Use the identities(like emails, phone number, or other account) to retrieve the candidate from NGIS, incorporate the comments of previous reviewers.
+6. HR can view the categorization result based on the facets extracted, for example, Female(2), male(30), consider the diversity, the higher priority may be given to the 2 Females.
+7. HR can also make some filters based on facets.
+8. HR send a list of candidates to hiring manager.
+9. Hiring manager reviews the resumes combined with social network information, make comments on the candidates and assigns resumes to phone interviewer and onsite interviewer
+9. Interviewer are able to see all the information about the candidate. After interviewing, make comments and ratings on the candidates.
+10. Hiring manager gets notification when the candidate status change and rating based on the interview results. 
+11. HR and Hiring Manager generate team diversity reports for each hirable candidates, and make the final decision.
+
+Improve diversity of the company, identify exsting diversity, improve recruitment process

@@ -1,0 +1,51 @@
+CTD – One Click Support Application
+Common problem faced by customers for contacting support
+
+•	No direct option to contact support.
+o	Customer has to search the web page
+o	No Mobile app for live chat 
+•	Time taken to contact support team takes longer period. 
+o	Time taken for contacting appropriate support teams consumes more amount of time.
+o	Due to this the resolution of the problem also takes longer period.
+•	Complex tasks
+o	Customer has to search through different option to contact support. 
+o	Customer has to raise SR ticket and wait for support team to reply.
+o	More complex settings in the currently available Live chat mechanism.
+The proposed solution is addressing the customer problems when contacting the appropriate support team. The implementation of proposed idea also enables the customer to contact support team in much easier way. The idea proposes to build a new chat messenger (web application and mobile application) with menu driven option; hence customer can easily select the product from options and get access to the correct support team in single select operation.
+This web app/mobile app will provide customer to interact with EMC support quickly and efficiently. It will be like a chat messenger between the customers and the concerned support team. The proposed solution will not only act as messenger, it will also as smart application where customer can check the SR status, search product article and etc. 
+
+Reference: https://inside.emc.com/docs/DOC-155869
+
+Idea came into the paper when we try to get the information related to escalations from support and effort involved to contact support.
+We thought it will good if we get one menu solution for EMC product [ At least CTD product line , it will be easy to access information or contact the support] 
+The proposed solution is to build a menu driven chat application (web and mobile) which allows customer to contact EMC support team easily. This helps customer to contact support in single click/type operations. From the menu option available in the chat windows customers can directly contact support team with no further search or navigations. The proposed solution will be implemented as web application and a mobile application. Solution will mainly act as chat messenger for customers to contact support team easily
+The proposed solution will give following benefits,
+•	Menu driven chat access
+o	All the CTD products will be listed for the customer choice
+o	Enable quick access portal 
+•	Reduces TTR
+o	Since enable faster communication to customer, the TTR time will get reduced. 
+o	No more time consuming activity [Defect fix and solution]
+o	Instant contact.
+•	Improve the product TCE
+o	Will improve customer experience 
+o	Provides confidence to customers
+o	Improve the customer collaboration and relationship
+
+Pleae refer the documentation for the same. The document is placed under following link:
+https://inside.emc.com/docs/DOC-155869
+
+
+The proposed solution will give following benefits,
+•	Menu driven chat access
+o	All the CTD products will be listed for the customer choice
+o	Enable quick access portal 
+•	Reduces TTR
+o	Since enable faster communication to customer, the TTR time will get reduced. 
+o	No more time consuming activity [Defect fix and solution]
+o	Instant contact.
+•	Improve the product TCE
+o	Will improve customer experience 
+o	Provides confidence to customers
+o	Improve the customer collaboration and relationship
+

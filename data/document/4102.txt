@@ -1,0 +1,5 @@
+ONE GS Webpage
+
+this came from the innovation challenge
+Create a one GS page and then in that have sub pages for Football, cricket, bikes, cars, formula one, baseball, photography, cycling, yoga, technology and based on the feedback get more such pages. Each such page should also allow chats among whoever is logged into the page.
+

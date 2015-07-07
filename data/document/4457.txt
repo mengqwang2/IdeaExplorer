@@ -1,0 +1,7 @@
+Official EMC account on Line and WeChat
+
+Lots of the banks have already use this kind of account to provide services such as credit card consumption alert, account balance inquiry, etc. And all of these services are provided by software and available 24x7. This could also reduces the cost of maintaining the hotline services.
+The solution I proposed for this is to utilize the popular communication mobile apps such as Line or WeChat. These apps support official account which is a public account everyone could add. User added this kind of account can not only get latest information from the company, and also take self-service by interacting with the account.
+Certain commands can be sent through this account to get different response, which we could use for accepting the feedback/requirement/concern and dispatching to the right channel.
+The customer facing person could help promote this official and also use it to keep contact with the customer. 
+

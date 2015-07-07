@@ -1,0 +1,11 @@
+Integrate RSA VIA for improved security
+adding a security layer by adding step up authentication for sensitive data 
+
+participating in the RSA VIA master program
+
+Integrate RSA VIA access with applications specially it supports hundreds of them
+
+RSA Via Access evaluates each access request based on a gathered set of Identity Intelligence—who is the user and what is their role? How sensitive is the application or resource they are attempting to access? And what is the context of the request? To make the experience both secure and convenient
+SECURE & CONVENIENT ACCESS FOR ANY USER, ANYWHERE, FROM ANY DEVICE
+SECURE ACCESS CONTROLS WITH CONVENIENT SINGLE SIGN-ON
+

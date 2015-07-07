@@ -1,0 +1,28 @@
+NAS Automation & Life Cycle Manager (NALM)
+1.New product
+2.New business solution to the day to day infra management challenges of the global customers.
+3.New business opportunity and revenue generation.
+4.Increased TCE.
+The idea was generated while analyzing the day to day challenges of NAS administrators in the context of discussing some of the challenges we faced in a recent large file storage migration project. 
+
+Krishna Prasad- Co-author
+
+The idea has gone through internal evaluation. 
+1.Develop an application/product that can  end-to-end manage the 
+NAS provisioning and lifecycle.
+2.Automate not only the provisioning  tasks but also the  complete       management cycle  using an unique interface irrespective of the different NAS vendors in an infra.
+3.Enable end user capability to carve out the required file storage  without administrative intervention but with the supervision of administrator.
+4.Optimize the management process by being able to track the  file  share ownership and utilization at the business level. 
+5.Optimize the reporting process and have a unique reporting mechanism across the whole file storage infrastructure and automate CMDB updates.
+
+Note: Please refer to the presentation available on this page for more details on the idea and how it works.
+
+         https://inside.emc.com/docs/DOC-156020 
+
+1.Management of data according to its relevance
+2.Enables End-user’s visibility to their file storage world.
+3.Offers a better understanding of your data 
+4.Policy based automation and management process reduces administrative overhead.
+5.Multi-vendor NAS platforms support at the backend to accommodate the data based on its business nature.
+6.Unified monitoring and reporting capability across different NAS systems on the backend.
+

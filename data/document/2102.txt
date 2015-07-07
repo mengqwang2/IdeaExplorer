@@ -1,0 +1,8 @@
+Chat Application Tool Moxie Enhancement
+Reduction in Chat Abandons and decrease in Chat Wait times
+Through Moxie,there is an existing way (Servicelines)to check if a Chat is waiting or not, however it is not always easy for a TSE who is already working on multiple chat to keep checking the Servicelines queue. Hence, if there is an alerting mechanism like a simple pop up that shows up on screen as soon as a chat has waited in queue for 10 seconds , it will greatly help in reducing abandon rates.  
+
+As soon as a waiting chat(both Live Chat and Internal Chat) exceeds 10 seconds, a pop up should automatically show up on the Moxie screen, alerting the Chat TSEs of a waiting chat. 
+Majority of Chat abandons happen due to TSEs busy on multiple Chats and not noticing when a new Chat came in queue. If this idea were implemented, we can greatly reduce the Abandon rates on Chat and also reduce WAIT times.This will lead to better TCE and greatly enhanced Customer Satisfaction . 
+Type of Innovation
+

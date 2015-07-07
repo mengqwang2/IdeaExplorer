@@ -1,0 +1,15 @@
+NAS - File system Sizing Calculator
+Global Solution Challenge:- My idea would eradicate the challenges globally because it involves in customer satisfication.It would mean a lot for customers business which would help customer to maintain his data in a fast and reliable way.
+TCE:- My idea w
+I have come up with this idea when working with NAS file system split up Projects.This idea is just taken its form. It is not entered into POC and testing phase. Sujith from TSS team also shouldered himselves to this thought.
+My idea is to embed a feature in the existing Unisphere for File GUI which would do the Job of doing the capacity calculation of the existing file system and would just allow an administrator to get the reports the moment he submits the Data without any waste of time and sweating out the resources. It would give the existing data growth trend and the power users and the size of the folders in it which would help the Administrators to easily start splitting the existing file system and moving it to other File systems within the array or to another array.
+
+This feature would allow a NAS administrator to submit the .xls or .xml file into it and will calculate all the necessary Manual work and produce the output .
+It will Calculate the existing File system Data and let you know the need of how many  target Data movers and File system requirements.
+It will tell the Administrator how much of subfolders are under that share and also will categorize the Data according to the applications, Groups and Users.
+It will give how many Target file systems are required to accommodate the existing file system data.
+It will also help the administrator to load balance the data on to the Data movers  if the target NAS is capable of having more than 2 data movers.
+Reduces the Excel work and most of the application teams co-ordinations.
+Produce beautiful reports with File system sizes and sub-folder sizes and Data validation reports to quantify the existing data and the Target file system requirements.
+
+If my idea takes its wings . It would solve half of the migration and File system split up pre-works. It would benefit the company by improving customer satisfication,Improve a existing product and would save a lot of time to customer and then company.

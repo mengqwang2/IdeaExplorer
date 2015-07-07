@@ -1,0 +1,5 @@
+SAP HANA on XtremIO with VMAX3 FAST.X
+Accelerates adoption of SAP HANA TDI deployments on VMax 3 and XtermIO storage arrays while also taking advantage of the VMax3 high performance and availability for critical applications. 
+This idea was first thought of when carrying out the XtermIO SAP HANA TDI certification, during the certification we were unable to document the impact of running an SAP HANA DB and SAP application together on the same XtremIO on performance.
+The solution would be to use the FAST.X feature within VMax3 to move XtremIO luns to the VMax and use the SLO functionality to gurantee performance. Using the XtremIO in-line data reduction and low latency in conjunction with the VMax3 features to guarntee some level of performace on there applications. 
+This solution would lead to further adoption of XtremIO and V3 arrays as well as allow the XtremIO to use V3 features such local/remote replication, storage tiering etc...

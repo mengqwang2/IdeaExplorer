@@ -1,0 +1,7 @@
+Pothole Reporter and analyzer
+This idea this is to make our city smart with identifying trend and using general public to report issues.  
+use the biggest resource available which is Human. Also it will benefit company with storage system sell as green plum and Pivotal to give App option
+The solution is to have a free app which with GPS enabled . if the person is near pothole , he can just tap on app and app sends coordinates to central system (which can be emc storage with analysis capability ) . This system can do 2 kind of trending: 
+1) how close potholes are there so government can plan filling easily 
+2) how many people are reporting so they can prioritize the work 
+For me access is to put a trending report which shows after reporting , how many days it took to fill the pothole.  it will make money for EMC by building App which Pivotal can do and hosting in EMC storage solution  . 

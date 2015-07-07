@@ -1,0 +1,5 @@
+Application Life cycle - Add Accessibility
+This idea will ensure that EMC products are in alignment with industry standards around Accessibility requirements and will improve the overall customer experience especially in the federal space.
+This was discussed as part of the brainstorming exercise done by PSRC Team.
+The solution is to have a common accessibility framework that defines, how to design and test for accessibility with the right set of tools, this should be self-service and guided. The output of the testing should be plugged into a tool which then outputs a VPAT and a accessibility rating which then should be fed into the Application Life cycle. This tool should store all versions and their rating.
+The benefits are: 1) holistic view of how our product teams are doing with regards to accessibility 2) consistency methodology for all teams to follow 3) integrating into the application life cycle for tracking. This will improve customer satisfication an

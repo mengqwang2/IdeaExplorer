@@ -1,0 +1,7 @@
+Accident reporting  Car
+
+After an Accident the time of arrival of an ambulance is one of the most important aspects that can determine the life or death of the people involved.
+
+N/A
+a Car integrated reporting system that will call 911 reporting the accident time and coordinates and calling for the ambulance
+The adoption of this product by all major car manufacturers 

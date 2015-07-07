@@ -1,0 +1,8 @@
+SR Alarm -  "Service Requests Notifier" mobile app for TSE 
+
+Real work experience in CS department  
+We will have a mobile application "Service Requests Notifier" and integrate it with EMC service center, TSEs can set this application to receive notifications about time-sensitive SRs.  The notification will include updates highlights in the SR 
+
+Wins : this can save a lot of time achieving faster resolution for the problem. this can help in better TCE. 
+
+

@@ -1,0 +1,10 @@
+OBIEE Training Course & Catalogues
+E2E Horizon: This Training Course would leverage the data mining techniques for our team, & provide custom made dashboards for our team.
+Already provided sessions for my Team, on how to use OBIEE & its basics, also created OBIEE translation sheets for the different subject areas in OBIEE. These sheets hold all the fields that our team uses regularly with their full path destinations.
+-Provide an OBIEE Training Course (Oracle Business Intelligent - Enterprise Edition), that is tailored to both the non-technical EMCians & the Technical ones (SQL, functions,...). 
+-Provide the columns' fields with their respective descriptions, that way EMCians would know which fields to use.
+
+-Enable the teams to extract emense amounts of data with ease, using their very own custom made dashboards.
+-Enable the teams to share their dashboards with each other, thus unifying the data extraction methods.
+-Enable Big Data analytics on the extracted data, thus providing useful insights, & enabling projects.
+

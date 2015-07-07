@@ -1,0 +1,5 @@
+Get rid of backend daisy chain for VNX
+
+We had dual power supply failure on CX960 which caused DU/DL and the subsequent DAE's were also powered OFF. If we have Infiniband kind of setup atleast the subsequent DAE's can be survived.
+Rather than daisy chain, introduce Inifini band or fabric inter connect similar to Isilon or VCE for VNX backend. We can have a point to point connection where every DAEs is within one hop to another.
+

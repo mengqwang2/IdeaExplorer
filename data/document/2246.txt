@@ -1,0 +1,11 @@
+Dealing with multiple authentication sources and non-binary authentication decisions
+Proper handling of modern authentication needs is relevant to RSA Via Access product.
+This idea was born in May 2015, during Via-related discussions.
+The suggestion is based on the idea of authentication proxy (US 8,949,953 - https://www.google.com/patents/US8949953). 
+
+The extension of this idea is in two-folds: 1) The authentication proxy is connected to multiple authentication sources, where the sources can be both local modules and remote servers. The proxy will dynamically decide which authentication sources to invoke for specific authentication request and in what order (sequentially, in parallel or any combination of the above). 2) The proxy will be able to accept both binary (0=accept, 1=reject) and non-binary responses from authentication sources. The examples of non-binary responses are risk score coming from risk-based authentication, assurance level of biometric authentication or response timeout from authentication source that did not respond in a timely manner. 
+
+The proxy will use static or dynamic authentication policies to combine authentication responses into authentication decision - accept, reject or proceed to another authentication sources, potentially requiring additional input from the end user. The logic of calling out to the authentication sources, as well as the decision based on their response will be customer-specific and can be tuned automatically with machine learning capabilities. A simple example of decision logic can be "accept if 2 out of 3 servers accepted", more complex one can be "calculate weighted average of the results, accept only if the total is > 0.8 and server X accepted, step up if total is between 0.5 and 0.8". 
+
+[ This idea was filed as an invention disclosure EMC-15-0515. ]
+I would like to see this implemented in Via Access. This will make Via product more flexible so it will be able to meet changing customer needs better.

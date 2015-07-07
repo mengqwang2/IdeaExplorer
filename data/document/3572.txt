@@ -1,0 +1,9 @@
+“Career Meter” – your career track meter and advisor
+
+ We have seen many employees wondering if they are progressing towards their dream career inside EMC. Some are seeking managerial tracks and others are seeking technical development instead. We have been thinking of a tool that tells me my current status and what I need to proceed.
+ The “Career Meter” is a tool that measures how far is the employee progressing towards his career target. Each employee will have a next step target while the meter will show him/her in points how far he/she is from his/her target. For example it will say : “you are 20% on the way to your target”. The meter will add points for each activity or training that is relevant to the career target. For example If I would like to be an SME in Symmetrix, then every symmetrix-related training/course I attend will add points to me.
+
+This Career Meter can be integrated with education services different tracks to provide unified way of seeking certain set of skills.
+
+
+

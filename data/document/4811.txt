@@ -1,0 +1,5 @@
+EMC OnCommand Management Portfolio for cloud computing
+
+Article
+automates storage processes with workflows based on standard building blocks and Workflow Automation to integrate with third-party orchestration solutions. OnCommand Insight enables cost management, rationalization, and optimization for cloud and virtual storage service providers  OnCommand Performance Manager brings automated performance troubleshooting and monitoring to clustered Data environments. Performance Manager profiles baseline operational conditions for a storage environment in order to identify and alert management to unusual workload and performance patterns. OnCommand Unified Manager provides users a centralized management console; with Unified Manager 6.1 users can now use a streamlined alert system to monitor and prioritize issues according to ratings from critical, error, and warning down to informational alerts.
+

@@ -1,0 +1,5 @@
+UnITy improvements
+
+I have got this idea when I reading the challenges.
+In UnITy tool each CI should be properly linked with the business owner, application owner, support group(s). Also, need to develop a mechanism to update/review the all CIs by the respective stake holders in a regular interval to avoid whenever there is a change in the CIs stakeholders status changes. Whenever there is a change of status / availability to the CI, monitoring tools should be tightly integrated with UnITy and send intimation to all the stake holders and support group about the status with different criticality of the status. This will enormously reduce the down time of the applications and increase SLA’s drastically. By adopting the Big Data Analytic to analyze the status of the CI and intelligent decisions could be taken to intimate the stakeholders with the appropriate issue and could be automated enough to self heal the issue to reduce SLA and to increase the customer satisfaction.
+

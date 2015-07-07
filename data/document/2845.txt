@@ -1,0 +1,9 @@
+Direct Chat/Phone Connect Via SRs
+Implementing a new system would greatly increase customer satisfaction and save EMC the cost associated with multiple resources being contacted just to get the customer through to the right person.
+I've seen other companies use the system and it made me think "Wow this is good customer service and why isn't EMC doing this"
+Simply ask customers to provide an SR when they have one already open when contacting us over the phone or chat. (this would require a new call routing and chat system)
+
+Then based on the SRs status the call or chat can be directly routed to an engineer if they are already assigned. The engineer can then hit the ground running as its already a case they are working on.
+
+If the customer has no SR or the SR is closed/unassigned then the chat/call is routed following existing process
+It will improve customer satisfaction as they get through to the right person first time and also saves time (money)

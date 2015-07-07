@@ -1,0 +1,5 @@
+Mobile VPN
+
+Usually we receive e-mails with important links and new links, and most of them doesn't work unless you are connected to a VPN or in the Office. When receiving such links on mobile, and your not in office or don't have a VPN access, you forget to get back to these links later. So, I think its useful to have a VPN installed on your phone.
+Creating a mobile EMC VPN, so you can access all the EMC links on the go.
+

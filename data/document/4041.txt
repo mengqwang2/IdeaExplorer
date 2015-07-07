@@ -1,0 +1,6 @@
+COMM BADGE
+
+The pedometer method of tracking a person reminds me of a way I used to code character movement and AI in a game I made back at the end of my first year in college. I discovered it was more efficient to make an object that tracked the position of an object and possible destinations without caring what the object is. 
+The idea here is to make hand free phone option more readily accessible,The main motto of this instrument is to save the time, when phones are in silent mode and we are doing some other work if we forget important meeting are any other things to do it will remaind us either if cell is in silent mode.Place and answer calls ears-free . Send and receive text messages (“text-to-speech” through CommBadge). Use your phone's native voice commands, such as Siri, Google Now, or S Voice to set calendar events and reminders, get sports news, and search for information. Receive an alert from the Wireless Tether feature that you left your smartphone behind .Be notified of incoming calls, texts, calendar and social media events with customizable vibration, sound, and LED's .And more, all handsfree!
+
+

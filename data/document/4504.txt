@@ -1,0 +1,7 @@
+Big Data Driven Elevator based on EVP solution
+
+Everyday I suffered a lot for the ThyssenKrupp Elevator, I hope this situation can be improved a little bit.
+Leverage the internet of things to enables the operation information being collected and gathered: statistics, power usage, load, average waiting time, tracks, etc.
+
+Leverage the EVP solution, big data, could computing to study the behaviors of the elevator for this specific building and finding out patterns. Afterwards, the elevator can be scheduled in a more optimized way to alleviate the pressure when load is high.
+

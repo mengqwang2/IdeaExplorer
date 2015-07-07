@@ -1,0 +1,5 @@
+Tool to remind about the un-authorized and illegal software installation
+
+We received lots of emails about EMC Security Strategy asking us to uninstall the un-authorized software. And in the mail, it mentioned that the un-authorized software list will be uploaded to the wiki. People need to go to the wiki and check which software should be removed from his/her laptop. This is not efficient enough. Since we already got the un-authorized software list and why not sending an reminding email to the employee to ask he/she to uninstall the software directly. I believe this will help employee to adhere to EMC Security Strategy much better.
+The tool should start itself and scan the laptop periodically. It should has the ability to check whether the software installed by users are un-authorized or not. If it's un-authorized, put it in a list. After the scan finished, send out an remind email to the employee and attached all the un-authorized software on the employee's laptop and ask he/she to uninstall it. 
+

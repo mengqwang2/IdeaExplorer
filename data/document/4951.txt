@@ -1,0 +1,5 @@
+Enhance Backup efficiency and Performance in EMC SaaS
+
+Even though the application data is stored in EMC Storage arrays.  Currently the backup\recoverey process don’t use the EMC storage resources efficiently. Also, there are many hops in data movement during backup\recovery.
+The VIPER  shall expose the Storage space to the Application Server for storing the data. During the backup\recovery process, the application host passes the appropriate request (example: Backup, Recovery, Data integrity check) to the VIPER layer. For every operation requested by the Application host, the VIPER send the request to the appropriate Storage System ( example: EMC Symmetrix, VNX, Clarrion) and then the Storage System directly pushes the application data directly to the backup device (example Data domain). In some cases where the Consistency check of Exchange \ SQL database, the same is done using the Storage System resource.
+

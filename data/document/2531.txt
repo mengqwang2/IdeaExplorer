@@ -1,0 +1,13 @@
+Data Science, Employee and Organization
+The solution will ensure great place to work by providing lots of satisfaction to the employee and to the organisation, it will reduce the cost of the company and indeed will provide a great customer experience.
+I was just thinking how one can get to know their interests faster, acquire skill set faster few days back and when I came across Big Data for data lakes training this week I thought why cant we apply this inside EMC as EMC Federation is already working on Bid Data solutions.
+By applying the trending Data Science within the organization for the employees.
+
+Everyone has some interest in some work, and interested work is delivered more faster and in accurate way. People miss out which technology they learn faster and their potential in that because of busy schedule.
+
+Forming a PORTAL Using the data science: Using Data Science we can analyse (based on web searches, previous deliverable s, time taken, sentiment towards execution of project, time taken to deliver the project etc) the performance levels of an employee, predict their interests, provide their probable goals in an portal to them, suggest their paths so that they can choose one and enhance their skill set accordingly. The portal is secured (Data of the respective employees is only known to him and is not shared even with the organisation except is skill set and in what is he good at.
+
+In this way we can assist employee to find their talent at work, guide them to grow and tune themselves in whatever aspect is possible. Automation in growth!!
+
+There will be a portal for an organisation where it analyzes the best and optimum resource seeing into the satisfaction of both the resource and the employer and also various factors. Its similar to automating the resource management using various analytic tools.
+Both the Employee and the organisation is benefited, as the time is managed efficiently, skill set is used effectively, Project is delivered with accuracy and speed,and also best place to work is achieved.

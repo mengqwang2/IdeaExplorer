@@ -1,0 +1,29 @@
+Car Pooling in EMC COEs –  Environment friendly and energy saving solution  
+
+the idea came up when I saw some of my friends are travelling to their home town (same city) on nearly the same time. they were using different resources (eg. cars).I suggested that they can get to know each other and travel together.
+this can be applied by creating a local portal for an EMC COE on which employees can log in and record their journeys for the day/week and their available free seats. another employee who wants to go to the same destination can then contact the driver/journey owner who made this posting. the driver can then accept this and they can go together.
+
+For example, if employee "X"in some department in a COE is driving today from office to his home town to spend the weekend. 
+
+1- he goes now to the portal and posts that he is driving to certain city after the working day and that he has 3 free seats in his car. 
+
+2- another Employee "Y" in another department is having the same situation and wants to go for the same journey. 
+
+3-"Y" can then subscribe to this journey and add his comment. 
+
+4- "X" can now accept Y's request and they can contact each other.
+5- they arrange and travel together and probably return back together.
+6 - EMC can monitor this portal somehow and check how much energy is saved every quarter.
+
+this scenario has 3 wins :
+
+1- EMC employees being very environment-friendly by saving cars' petrol that is harmful to the environment.
+2- Cost saving for EMC employees (instead of using many resources for the same task, they used on resource )
+3- chances for EMC employees from different departments to get to know each other. this will make EMC a friendly place for all employees.
+
+
+
+Note:  the idea can be done on a large scale all-over the country. for example: after certain EMC COE implement the idea internally we can show its success to the public sector and mobile operators to adopt the idea.
+
+
+

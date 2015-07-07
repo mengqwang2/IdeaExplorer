@@ -1,0 +1,10 @@
+Internal database
+
+As a relative newcomer, it was a bit confusing at first given that there are different websites and different source of documents (both technical and managerial) to go through. In my previous work, I would upload all of my work data on google drive so that the rest of my team can share it
+Given the sensitivity and severity of technical data being shared between team members, we can't use a non EMC source to store this type of information for security and data integrity reasons. Hence the concept of the internal EMC database 
+Think dropbox app but created and supported by EMC.
+This would be a database app created by EMC and provided to each team within EMC
+Team can then customize the database according to his usage. It can be used to store useful technical tips and team related documentation which would be accessed easily than being sent via mail.
+If you find a useful salesforce article for example, you can download it and upload it in your database, thus the rest of your team can access it afterwards with relative ease.
+Work related process can now be organized and uploaded so that they are more accessible to new hires 
+

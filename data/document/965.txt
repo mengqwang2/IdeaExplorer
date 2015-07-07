@@ -1,0 +1,54 @@
+Big/Fast data architecture for explorative data analysis
+TCE Challenge - We are proposing to use the generated data from multiple sources and to gain valuable insights for predictive analytics.
+
+3rd Platform SDS predictive maintenance - We can leverage the same infrastructure and tools discussed for 3rd platform predictive maintenance.
+
+Russia COE Open Source Challenge - Since we are proposing a solution using open-source infrastructure components this is in relevance to the 
+From reading multiple articles and research papers , following industry trends and news and smart-storming on the proposal to come up with something which might be of significance to EMC as a whole.
+In most cases, data will flow from web/logs/social/mobile etc. to a massive data lake which can leverage a scale-out file-system and/or VMAX with cloud integration. After some massaging for the data it will move to a different and specific data storage and processing entity.
+
+Based on the different classes of data , the data might get moved to the appropriate place :-
+
+1. Structured and semi-structured data - Will be moved to a data warehousing application for processing and analytics.
+
+2. Unstructured data with SQL interface - There has been a lot of development happening around providing a SQL interface to unstructured data stores. SQL is still the best way to get at data
+
+  2.1. Big (Vast) Data based on Hadoop - This data which is characterized by volume and variety which is the perfect work-load for hadoop/map-reduce kind of jobs. Data is batch processed for analytics.
+
+  2.2. Fast (Big) Data - This data is characterized by velocity and variety . We need a fast data architecture for analyzing such data. There are various open-source stream processing frameworks for analyzing the data in real-time using stream analytics. Twitter calls this a live data-mart where we analyze a portion of the data in real-time.
+
+The real-time data is analyzed with the perspective of the historical data analysis to gain meaningful insights and to generate predictive analysis to help businesses. 
+
+We can leverage below open-source infrastructure products/tools:
+
+Data Stores
+------------
+1. Apache Hadoop   – Cloud Foundry (VMware), Hortonworks, Hadapt
+
+2. NoSql Databases – MongoDB, Cassandra, Hbase
+
+3. SQL Databases   – MySql (Oracle), MariaDB, PostgreSQL, TokuDB
+
+Development Platforms
+----------------------
+1. On Apache Hadoop – Impala (Massively Parallel Processing (MPP) query engine that runs natively); Lingual (ANSI SQL); Pattern (analytics); Cascading (an application framework for Java developers for data analytics 
+                       and data Management app’s)
+2. On Apache Lucene and Solr – Search from LucidWorks and ElasticSearch
+
+3. OpenStack (open source software for building private and public clouds.)
+
+4. Red Hat (Hadoop Servers’ standard Linux distro)
+
+5. REEF (Microsoft’s Hadoop development platform)
+
+6. Storm (integrates with any queuing system and any database system)
+
+7. Apache spark - general framework for large-scale data processing that supports lots of different programming languages and concepts Map-Reduce , in-memory processing , stream processing , graph processing or machine learning.
+
+Development Tools
+------------------
+1. Apache Mahout (programming language for machine learning)
+
+2. Python and R (programming language for predictive analytics)
+
+This should give us the required infrastructure to help across different businesses in analyzing and coming up with insights and predicting consumer events to influence business decisions.

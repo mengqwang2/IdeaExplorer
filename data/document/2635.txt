@@ -1,0 +1,40 @@
+EMC centralized inventory monitor
+Offers solution for EMC inventory federation.
+As an IBG Agent we always deal with logistics to ask about SN's if they are shipped or still in the warehouse.
+
+Sometimes we ask for a picture of the box running a the customer to ensure that we able to install the SN on IB.
+Mobile app on Android an IOS to centralize all EMC Inventories around the world, 
+Adopting new way of accessing real-time information.
+You can just search for the Part or Serial Number to locate the part and its status.
+
+Any part or SN will have 3 statuses 
+1.	At the Warehouse
+2.	In Transit
+3.	At the Customer Site
+
+  •     At the warehouse:  showing the status of the part or SN status at the warehouse 
+
+- Defective.
+- Awaiting install.
+
+  •	In Transit: showing the carrier company , shipping address , expected delivery date/time ,and the waybill number.
+
+  •	At the customer site : showing the status of the part or SN at the customer’s site :
+
+- Shipped
+- Awaiting customers install
+- Installed or installed T&M
+- De-installed
+- Terminated
+
+
+To ensure that the install base is accurate, we should not do any transactions in IB on any part or SN unless it is physically at the customer’s site or received at EMC premises.
+
+If the part or SN is sent back to EMC as defective it has to be scanned in the warehouse to flip it to defective "At the warehouse".
+
+If this app is implemented:
+
+- We will have a centralized real-time system to know the actual location and status of any part.
+
+- Save  a lot of time wasted in the communication between logistics and CE's to know information about the part and its status
+

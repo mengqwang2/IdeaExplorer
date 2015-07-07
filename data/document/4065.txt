@@ -1,0 +1,18 @@
+Automated and Intelligent service requests assignment system to shorten problem resolution time.
+
+Talked with work flow manager and found this issue with case assignment. 
+Why should we ask customers to judge which queue he should put his case into? There are already 63 million cases in our system with issues successfully resolved, so using data mining algorithm like clustering and classification algorithm, we can extract patterns from those enormous data to make case assignment more accurate and intelligent, which consequently shortens the resolution time and improve customer’s satisfaction. 
+
+Problem description and case notes which include solution description normally will be some paragraphs of human language. We can use Nature Language Processing (NPL) and Topic Model to find the special words to characterize and categorize each case. For instance, hardware issues would tend to have many occurrences of words like “port”, “power”, “cable” etc, host issues tend to have words like “exchange”, “SQL” etc. This measurement that we will use called TF.IDF (Term Frequency times Inverse Document Frequency)
+
+After each case is characterized and categorized, we can use inherent attributes of cases to analyze which team is the key contributor for the issue. The attributes are the queue name of each team, case time logged by each team, support engineer’s name, which team is engaged in the collaboration, etc. For example, if for one type of issue, it usually goes into host queue, but within very short of time, it goes to hardware queue or host support initiates collaboration with hardware team, we can know for this type of issue, it needs to be handled by hardware support instead of host support although it looks like a host issue at first glance. (It's just one example to make it better be understood, we can use common data mining algorithm like "association rule learning" and "clustering" algorithm to analyze.) 
+
+Eventually we can categorize these 63 million cases into certain types of issues, with each type of issues has its prime problem solver. So when a service request is submitted, the problem description will be processed by our system to calculate which type of the issues is mostly similar to this service request, then it will be routed to the related team. If there is not enough problem description input by customer, we can design some simple questions to let customer choose the answer, so that the system will know more to categorize the issue.  
+
+Apart from making the case assignment more accurate, a whole lot of intelligence can be added later towards a finer granularity, for instance:
+
+Automatically find which supports are good at solving what type of technical problems.
+(A feature to support Skill Base Routing Model) 
+Automatically find the similar cases which were already provided with solutions.
+Automatically find the solutions as soon as customer enters problem description.
+

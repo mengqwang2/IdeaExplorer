@@ -1,0 +1,12 @@
+Cars Copilot plugin
+This idea depends on, how to use IoT to facilitate our life.
+The output data can be centralized and managed by the government and this will help it in the highways maintenance...etc.
+I had been in a car accident, a really horrible one on the desert road. There was a curve and the driver did not take it in the recommended speed.
+With this new smart plugin it will calculate the car speed and the next curve from the GPS and give us an alert with the maximum speed that the car should run with to survive the curve.
+My idea is a car plugin with a software integrated with the GPS .It reads the output data from car sensors which explains the car current situation.The plugin analysis them relating to the GPS output data then prints alerts to a screen.
+For example: If I have 10 liter of fuel and I am driving on highway.The next petrol station is far away so it calculates the remaining distance based on my speed and RBM automatically then alerts me that i cannot reach the next petrol station with this speed and RBM hence i have to drive on 3 RBM on the fifth gear to reach the petrol station for example.
+* Reduce car accidents.
+* Save our lives.
+* Provide the optimum solution for the safe driving.
+* Save energy.
+* Save money.

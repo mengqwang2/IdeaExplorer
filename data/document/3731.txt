@@ -1,0 +1,5 @@
+Suggest when it's a best time to talk across time zones
+
+new idea
+"traffic" service in Yandex.ru maps (or google.maps?) have ability to predict traffic by extrapolating: statistical data for each working day to today + today's data of busy/free time. I want minimal disruptions across time zones for communicating with a network of key stakeholders for my projects. The IT communication system should know when those stakeholders are usually online and suggest (fuzzy) based timing for my regular communications so they can be more efficient.
+

@@ -1,0 +1,7 @@
+New EAS :Employee logging time System 
+Every one face sometimes problems trying to logging his work time 
+And it is also sometimes difficult for the managers ,the supervisors to ensure the compliance of every employee entry 
+In everyday we face problem that we don't achieve the compliance of the EAS .
+Due to the user interface and his latency which consume a lot of time 
+By making the EAS more friendly and having more compatibility to add entries and several more options it will ensure that every employee will ensure his compliance
+Every manager will ensure that each employee will achieve the compliance target

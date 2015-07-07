@@ -1,0 +1,15 @@
+Live-in Datacenter - Walk through Datacenter
+N/A
+one of my favorite movie is minority report, futuristic and evolutionary. 
+Guess what? we are still building solutions in 2D, and the what movies like "avengers" etc show us what more could be done. The idea comes from the fact that we need to change the way we design usability. Move to a 3D world, make it more user friendly.
+What if then, we create a solution, that integrates, provisioning, monitoring and provides solutions that are physical visible in the form on 3D views. 
+Users can then see 
+1) Discover and views of the datacenter 
+2) Know the location , view and logical placement 
+3) Know where data resides the most
+4) Move data, monitor the data via integration with various solutions. 
+5) See the datacenter view in real-time
+6) Let the users get the virtual experience of navigating through in a Datacenter 
+
+It would look like a 3D simulation of the flooring plan/blueprint. What that means is real-time view mapping of the datacenter and accessibility in terms of datacenter monitoring with ease with simpler actions. 
+This would mean customers can view and navi

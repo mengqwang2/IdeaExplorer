@@ -1,0 +1,69 @@
+Federation Business Data Lake with EMC Isilon Array, Open Source Infrastructures (Apache Mahout, Apache Spark, Apache OpenNLP library,Gephi) and Greenplum DCA for TimeSeries prediction
+Architecture to predict time series
+
+Provided the following with respect to the architecture
+
+* Hardware elements
+* Software elements 
+* Open Source infrastructures for 
+
+   # Statistical Analysis and Data Mining 
+   # Analytical Framework and NoSQL
+   # Natural Language processing
+   # Visual analytics
+
+We are preferring Open Infrastructures rather than Commercial components
+We have recently attended "Data Lakes for Big Data" online training, we came up with this idea on seeing the success and benefits of the Data Lakes
+Federation Business Data Lake with EMC Isilon Array , Apache Mahout, Apache Spark, Apache OpenNLP Library and Greenplum Hadoop Distribution for TimeSeries prediction 
+
+* Federation Business Data Lake approach provides rapid access to data, timely analytics while minimizing storage and compute costs, and agility for mission-critical workloads in industries.
+
+*Greenplum Database is the industry-leading massively parallel processing (MPP) database, regarded as the most scalable mission-critical analytical database available. The Greenplum Database architecture provides automatic parallelization of data loading tasks and query workloads.
+ Greenplum Database delivers lightning-fast query processing for analytics 
+
+Components:
+-----------
+
+Hardware:
+----------
+Why EMC Isilon?
+---------------
+
+XtremIO, Isilon, ECS can be integrated with FBDL 
+
+EMC Isilon is a Scale out NAS storage platform that eliminates inefficient storage silos and integrates natively with HDFS. Isilon enables big data applications to share the same data through multiprotocol support that adapts elastically to changing I/O demands.
+
+Software : Tools and Technologies
+---------------------------------
+
+# Statistical Analysis and Data Mining 
+--------------------------------------
+
+This can be done using R, NumPy, SciPy, Weka, Mahout, Octave etc 
+
+We are choosing "Mahout" for our architecture as "Mahout or Apache Mahout is a suite of machine learning libraries designed to be scalable and robust over Hadoop"
+
+# Analytical Framework and NoSQL
+---------------------------------
+This can be done using Hadoop,mongoDB,SciDB,HBase, Spark etc 
+
+We are choosing Spark as Apache Spark is a fast and general-purpose cluster computing system designed for processing data in parallel at a large scale
+
+# Natural Language processing
+------------------------------
+
+This can be done using CMUSphinx, Apace OpenNLP Library, StanfordNLP etc 
+
+We are choosing Apache OpenNLP library, as it is a Java-based machine learning toolkit for processing natural language text
+
+# Visual analytics
+------------------
+This can be done using Gephi, Weave ,D3 etc
+
+We are choosing Gephi, as it is an open-source graph visualization platform that provides interactive visualization and exploration for complex networks
+
+Parallel Processing Component:
+------------------------------
+Greenplum Data Computing Appliance (DCA) brings together SAS Grid Computing and Greenplum Database to offer the fastest loading and analytical performance 
+We would call it as Success when this architecture is implemented and successfully predict the time-series as no one can predict.
+

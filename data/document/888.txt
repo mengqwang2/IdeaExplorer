@@ -1,0 +1,28 @@
+Security for the internet (social network) of things.
+In recent years people go for Online Social Networks (OSNs) to share their personal information using popular social networking sites like Facebook, Myspace and Mylife.
+
+OSNs allow user to enforce privacy concerns over shared data with single user only but an approach to enable the protection of shared data associated with multiple users called Multi Party Access Control model came into existence. 
+
+This MPAC model allows collaborative management of shared data in OSNs,In this MPAC model some users collude with one another so as to manipulate the final access control. 
+
+In this model data sharing among multiple users is seen in three scenarios as below:
+	
+                                     1.Profile sharing
+                                     2.Relationship sharing
+                                     3.Content sharing
+
+
+A profile sharing pattern where a disseminator can share other’s profile attributes to an accessor. Both the owner and the disseminator can specify access control policies to restrict the sharing of profile attributes.
+	
+A relationship sharing pattern where a user called owner, who has a relationship with another user called stakeholder, shares the relationship with an accessor.
+	
+A content sharing pattern where the owner of a content shares the content with other OSN members, and the content has multiple stakeholders who may also want to involve in the control of content sharing.
+
+Social Networks
+
+RSA secure id can be used to prove that access control model is valid.
+
+To enable a collaborative authorization management of data sharing in OSNs, it is essential for RSA secure id to be in place to regulate access over shared data, representing authorization requirements from multiple associated users. 
+
+To enable a collaborative authorization management of data sharing in OSNs, it is essential for RSA secure id to be in place to regulate access over shared data, representing authorization requirements from multiple associated users. 
+

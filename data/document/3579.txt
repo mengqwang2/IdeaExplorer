@@ -1,0 +1,5 @@
+Cross functional surveys should be available for internal teams
+
+We have many instances in our team having a Diss Sat surveys for the reasons that the license team did not provided proper licences in timely manner and the Product team removing the existing features with the new releases
+When ever a team raises a case internally with Licensing or Engineering/product and they provide a resolution which did not accepted by the customer. As a result of a CS or any person from any Org unit gets a bad survey then that needs to get cascaded to the responsible teams as well.
+

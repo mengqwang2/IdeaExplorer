@@ -1,0 +1,34 @@
+Customer Service Order Information Tool 
+The Customer Service Order Information Tool is most useful to Maintenance contract Operations team (ISSC MCO Team Bangalore).
+
+Tool Link:- http://csapps.isus.emc.com/cstonsite/
+
+This tool helps easily to activates(Bookings) the warranty contracts (Warranty contracts like lease process, De-book/Re-book process.To be worked group process, Dig activities, 1079 reports and Entitlement process)
+
+
+
+
+While working on the Entitlement process, onshore team member showed me how to find out all the details for particular sales order number in this Tool(Customer Service Order Information Tool).
+This help to Maintenance contract Operations team(MCO Team). never used MCO team till date, since i joined 3.4 years.
+
+
+we can check the serial numbers/customer details directly in this tool instead of SAP, so that we can save the time. 
+
+improve customer satisfaction/enhance productivity/optimize a process/improve a product or technology/etc
+
+I got the useful information tool for particular sales order like Purchase order number, quantities, Price, Bill to address, ship to address, Deal number, Quote number etc.
+
+The following heads also helps for this tool:-
+
+Order Information Report:-  Contains information about an order/shipment including shipped/unshipped lines, PS Order Information, and RMA information. 
+
+Order Inventory Report:- Report formatted for taking inventory on-site. 
+
+Shipment Notification Report :- Contains general order information for all shipments to specific region/district from SAP over the past 28 days.
+
+ Order Details - Packing Slip View :- Similar to Oracle Packing Slip - line items displayed by model number with all it's associated serial numbers
+
+This tool increases the process quality.
+
+It help only SAP sales order numbers
+

@@ -1,0 +1,65 @@
+Hybrid Cloud Based Retail Recommendation and perceptual predictions services
+As per Gartner: Digitalization of the retail industry is already underway, enabled by digital business processes and propelled by the ubiquity of information propagated across the Internet of Things (IoT). Retailers are being challenged to generate new customer value propositions and new business models,
+
+Retail market has huge potential where the user base is growing exponentially, which creates opportunity to utlize EMC /Federation products for storage, analytics by enabling cloud based services.
+
+
+As a customer of eCommerce retailers we expect to have a single recommendation across all eCommerce retailers with reference to our profile. Ideating this thought process we came across this solution of having a centralized recommendation system capturing our buying pattern from the complete eCommerce ecosystem.
+The Idea is to explore a new vertical business opportunity (eCommerce/Retailers) for EMC by providing the new product solution for the potential eCommerce/retailers which are around 110,000 in number globally which could enable high returns to EMC.
+
+Our Approach is to create a Smart Hybrid Cloud Based Retail Recommendation System. This system operates as follows:-
+
+•	The recommendation is provided to the customers using the eCommerce site, so the companies        pursuing eCommerce business could embed/consume our service offering to their site across different channels to provide smart recommendations.
+•	EMC hybrid Cloud  captures the information like user profile, purchase history, browsed/interested products, offers endorsed by the users etc across different eCommerce sites and channels
+•	Retailers connected to the cloud should contribute by providing data,
+Information captured based on the user preference be globally shared if the user opts for it.
+•	Machine Learning Algorithm Supervised & Unsupervised learning will be applied to identify the patters, user cluster/segmentation on the data specific to the user and also co-relate with similar profiles matching the user category.
+
+Potential recommendations provided to the Retailers and end users:-
+
+1.	Potential Customers for whom the retailers should target for promotion
+2.	Shopping: Context aware recommendation - ex users birth day, wedding anniversary, etc: suggest items to be shopped
+3.	Seasonal recommendations, based on the buying patterns
+4.	Even based recommendation: Ex: user is traveling to country where its a winter season 
+5.	Comparison of products across different eCommerce sites and recommend  best options
+
+Data Sources for the Recommendation Engine:-
+
+•	User Profile
+•	Similar User Profiles
+•	GPS Location
+•	User Purchase history
+•	Calendar
+•	Social Media
+•	Weather/seasonal Forecast
+•	Google maps
+•	User History
+•	Product Details/Promotions
+
+
+Technology Stack:-
+1.	EMC hybrid cloud storage.
+2.	VMAX
+3.	Pivotal Analytics
+4.	Hadoop ,HDFS
+5.	Solution could be built on micro service architecture and deployed on Pivotal Cloud Foundry (Pass).
+
+
+This approach is better and unique as it could be provided as a service to many Business customers and in turn their customers globally.
+The back end products used are EMC's products so the charge back, maintainability and metering could bring profit to EMC.
+
+Idea ppt URL Link : https://inside.emc.com/docs/DOC-155785
+From Solutions perspective:-
+•	The solution can be offered as Business to Business service models.
+•	The solution targeted customers are eCommerce/retailers which are approximately 110,000 globally.
+
+From EMC’s perspective:-
+•	EMC’s hybrid cloud solution can be leveraged for data store.
+•	Pivotal analytic stack can be leveraged for the recommendation analytics.
+•	New business opportunity for EMC.
+
+From customer’s perspective:-
+•	One time stop shop for complete recommendation to the customers.
+•	Easier maintainability and reliability of data.
+•	Global buying profile of their customers which would help them provide better service.
+

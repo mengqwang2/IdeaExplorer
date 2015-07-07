@@ -1,0 +1,5 @@
+Automated Break fix incidents using Health reports
+
+While performing the health check on basis in the shifts it was tedious every time verfying the report and raise break fix incidents and do follow up with vendor. It flashed to my mind and submitting this idea.
+Using Health check reports and automating the raise of Break fix incidents pulling fault alerts from reports would reduce manual effort of verfying the report every time and raise break fix incidents. We can use the saved time on other activities and follow ups with the vendor support would be done effectively.
+

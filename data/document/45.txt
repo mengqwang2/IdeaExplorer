@@ -1,0 +1,15 @@
+Do Care (IoT Smart City)
+The idea address IoT challenge for Smart City providing a comperhansive connected solution using IoT reference architecture to provide end user smart services.
+
+It also address Global Solutions as it empower local providers to have IoT as a Service (IoTaaS).
+
+Not only this but it also provides predective analytics and address TCE challenge as well.
+
+I was inspired by the ideas that I saw with local providers as such Vodafone, Verizon, etc... about M2M solutions and how to make a city smarter since early 2011. I had a full view about the solution end to end and developed some standards regarding the protocols, architecture, The infrastructure and platforms to be used,The solution business model and value chain as well. 
+
+When an object (person, car, truck or other mobile object) is moving in a specific area (e.g., an unsecure area, a city, or other locale), can provide monitoring by utilizing the available resources along its route. Resources delivering some level of tracking could be simple (e.g., proximity objects, RFID tags or sensors that simply mark a moving object as it passes by) or more complex, such as cameras that can record the object passing by or even be movable and able to record an object for a short period of time. If the route is known in advance, resources could be ready to track an object without needing to guess where it might be moving next. For particularly casual routes, a more dynamic allocation of resources could be provided based on predicting the possible movements and pre-allocation of resources (predective path allocation).
+
+In general, Do Care offers a set of tracking functions, where users can view a moving object’s path and can also recommend or command the object to alter course. In addition, the tracking function can show the object’s predicted route and users can, once again, suggest alternative routes. In case a monitored object is lost, the last identified position is recorded and an event is generated, such as an alarm in a security related service offering. The event contains all relevant information available about a moving object up until its last monitored position.
+EMC strategy is to empower Telecom the next period of time heavily as its a huge area of growth with NFV and SDN, analytics and IoT, all of those areas will stop at the service providers and Telecom companies to provide the services (Cloud, Platforms, Infrastructure) and connectivity to end users and enterprises. 
+
+Empowering the telecom sectors to have solutions more than having products, will increase the revenue stream as the solution mainly will be build on a specific integrated EMC infrastructure, which means more sell for the product lines, more support and more professional services and consultations to ask for.

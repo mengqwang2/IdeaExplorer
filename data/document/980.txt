@@ -1,0 +1,13 @@
+EMCBot-Solving your issues/questions faster 
+All the challenges selected have an element of how customer support can be improved in today's world where customers want fast response and waiting on an issue resolution degrades customer experience.
+This idea have crossed our mind multiple times when waiting in the queue for the turn in IT helpdesk chat or if we need some quick answers on a particular product. Same we believe is applicable for customers. 
+
+If we had an intelligent BOT which use the vast knowledge base of products and issue trackers along with the pattern of customer support looking for answers it could have reduced the waiting time considerably as well as would have solved issues/questions for customers. 
+EMCBot would be the first point of contact for any issues. EMCBot would analyze the issue and provide the recommendations on solutions. In cases Chatbot is not able to provide a solution the query could be passed to the traditional support system. 
+
+The issues and their resolutions can be present in multiple sources (KB's, previously answered question in online community, Chat history with problem and solution, Issue trackers). The first level of grouping is to be performed on this data. For that it is passed to a classification algorithm so that the data gets segregated into various sets. For e.g. if we consider the IT support data the groups that can be formed are EAS issues, Laptop issues, Timesheet issues etc. Then a second level of grouping has to be applied to this grouped data to further narrow down the issue. Like in case of EAS the second level of grouping can be Login issue, installer location, usage help etc. Then taking the grouped data we can apply some logic to prioritize the data and get top 5 solutions.     
+
+When someone reports an issue in the chat, the EMCBot firsts identifies the first and second level group with the help of keywords specified. Then using relevance ranking it  tries to get the corresponding top 5 solutions. Customer would then try the solution and provide the feedback/rating so that the priority and relevance of the solution can be improved. In case the provided solution is not able to solve the issue a support person would get involved for the resolution.
+
+Another dimension to this is adding a recommender system to it so along with the result the Bot would also show newer products that a customer might be interested in depending on their search history and products they have been using.
+This would reduce burden on customer support as well as improve the overall customer satisfaction. 

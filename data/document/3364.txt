@@ -1,0 +1,9 @@
+Knowledge base enhancements
+
+1.Can not have a folder of containing the favorite articles.
+2.Can not send the whole article to email directly.
+3.Can not search the artile by skill group by each product.
+1.Suggest to have a function of adding the article to one folder or the favorite for the next time to review the most used articles.
+2.Suggest to have the function of sending the whole article to the email.
+3.Suggest to have the function of searching the articles not only by product, also have technical skills group under the product. For example, performance technical skills under VNX.
+

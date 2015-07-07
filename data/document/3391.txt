@@ -1,0 +1,7 @@
+Build your own Data Center
+
+Working with the powercalculations reports made us think how to improve this tool
+With this virtual datacenter you add the space of the area you’ll be adding the arrays. You’ll also add all the different products in the arrays and dividing them according to how you’d like them to be added. For example, If you will be adding the VNX with switching and RPAs and so on. After arranging the datacenter you get a generated power/heat/space calculation giving you accurate and closest results to your real datacenter.
+
+
+

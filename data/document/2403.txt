@@ -1,0 +1,11 @@
+Use syncplicity to allow easy data collection from EMC products (SYR/Call Home)
+Integrating SyncP in EMC core products
+Brainstorming the challenge in the Data Science as a Service team, we came up with the concept for using SyncP  for collecting a large number of telemetry and log data from EMC product
+Since Syncplicity is an EMC product, we thought we can leverage the ease of use of SyncP and install it on each one of  EMC products, this will allow us easily to allocate shared folder in each product and configure the product to write all the metrics,  log and any other data snippet required to be collected into that folder. Consequently this data will be moved into the Business Data Lake (using an ETL script perhaps),
+Once the data resides in the BDL, we could apply advanced analytics on the collected data as well as fast issues investigation without the need to make the trip to the customer site. 
+As Data scientist we see a lot of opportunities that can come from this data for example, reliability analysis, time series analysis, root cause (for burning issues) analysis, etc. and since currently it is hard to get this data we are missing all of these opportunities to improve our customer experience and our products.
+
+* improve TCE by increasing the automation of the Call home feature.
+* Making this feature an automated feature, with the support of advanced analytics, would allow to build a predictive support mechanism.
+* Save cost to EMC by having the data in the cloud, no need to travel to the customer site.
+

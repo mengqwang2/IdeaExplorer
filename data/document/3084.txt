@@ -1,0 +1,12 @@
+Unified IT Support Interface 
+User Experience for IT Support is fragmented with no single view of IT Support for users or a ‘one stop shop’.
+Users are bypassing the IT Service Desk and reaching out to Client Services Techs, at a much greater cost than being solved via the IT Service D
+N/A
+Business Vision: Provide users with a consolidated, mobile enabled, UI that combines the various support channels and Portals into one interface
+Strategic:
+a) TCE
+b) Aligns with Unified Communication vision and strategy 
+
+Measurable : 
+a) Implementing self-help features can potentially reduces save $600k annually, by avoiding calls to the desk @ $5.5 a call 
+b) Potential man hours saving: 250K ann

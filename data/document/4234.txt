@@ -1,0 +1,9 @@
+Lab as a Service
+
+This is a typical issue in CS - Networker.
+Almost regularly engineers have to reproduce issues based on customer environment. By the time engineer sets up a test machine & do the testing & update the customer a considerable amount of time(in days) is lost. With such or similar automated solution in place, we will be better positioned in dealing with our customers.
+If we can automate (virtual) labs to be used a service.
+Engineer updates the test machine requirements: For example: 64 bit windows 2008 R2 n 2012 R2 + RHEL + 8 GB RAM + 200 GB.
+
+Based on SLA corresponding to the Service request, the Lab is made available to the CS engineer. Once work is complete OR SR is closed, this VM can be dismantled. This will help us considerably in reducing SR TTR/backlog & eventually improve TTR.
+

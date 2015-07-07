@@ -1,0 +1,18 @@
+Unified Interface for managing multiple Data Protection Software
+We sell product by providing solution to the Business need or Customer requirement. This leads managing multiple products, where customer need to learn multiple user interface for managing multiple product. This demands Customer learning multiple product UI (example: NetWorker, Avamar, VDP and App agent) and impact user experience.
+we test multiple backup Product and observed the bad user experience. 
+The learning requirement was high.  
+The naming convention used (for the same functionality) in User Interface is different from one product to another. 
+The above was the driving factor for generating the idea.
+The User Interface has options to select the EMC backup Product for manage.
+
+The UI which is exposed to customer (Front end) remains the same irrespective of any backup product type. 
+
+Depending upon the product selection, the backend layer intelligently displays the relevance option of particular backup product.
+
+Consistent naming convention used across the products.
+
+Good user experience.
+Good Customer feedback on Usability.
+Customer will love to use the product and will recommend to other. 
+ 

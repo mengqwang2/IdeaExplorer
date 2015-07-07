@@ -1,0 +1,29 @@
+Dashboard (Features, ARs, tasks, immportant announcement) for dailywork for every developers/Manager
+
+Everyday I need to handle various kinds of tasks, sometime important items may be ignored. And it's time consuming to check all the status in different system. So I want to a single central application to get all the information.
+A simple web based application could provide such service to aggregate information from different sources and present it to users within EMC. User can pick up whatever he is interested in to his customized dashboard, then he can easily get all the information he care about from a single application. Followings are what I think useful to me and my team, but now they exist in different system and need to open them one by one to read.
+1. ARs information, can be retrieved from Remedy Server, or Radar
+  a. AR assigned to me/my team
+  b. AR in different area, different release, with different priority, etc.
+2. Feature information, can get from Radar
+  a. All the features involves me or my team
+  b. Testing progress of every feature.
+3. Program information, can get from Ping or Radar
+  a. Milestone
+  b. Current status.
+  c. Any important change on milestone or release date
+4. Equipment information, from Swarm
+  a. Equipment health status
+  b. Reservation status
+5. Important announcement from different source.
+  a. Department
+  b. Site
+  c. Company
+  d. team
+6. Build information, from buildforge
+7. New bundle or package release information, from midrange.
+8. EAS information/Concur information, any HR or finance related.
+9. Any other information you care about...
+  
+
+

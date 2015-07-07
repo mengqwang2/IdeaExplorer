@@ -1,0 +1,11 @@
+SP Collect Analyzer
+
+We proposed this idea in brainstorming session of EMSD SSIE Endurance CTC team in June 2014.
+The tool parses the zipped support material package and outputs the following items.
+
+(1) A Unisphere-like GUI output showing the status of the system. End users can click the GUI output just like checking a live system to see the configuration information, such as WWPN of FC ports, iSCSI IP addresses and server iqn names, host initiators logged-in at the time when taking this support material, the list and usage of storage pools, the list of LUNs/FS and the allocation status on thin objects, etc. This output would be extremely helpful when trying to understand the configuration and usage scenarios of storage arrays, especially when analyzing customer issues.
+
+(2) A human-readable report showing the performance and health status of the system including CPU/memory usage, the history (e.g. past 24 hours) of IO workload, and density of IOs on pools, RAID groups, filesystems and LUNs.
+
+(3) A human-readable report showing more detailed event list with timestamp than the Unisphere. For example, the events like reboot, user login/logout, initiator login/logout, LUN/FS expansion, LUN/FS creation/deletion, trespass, SP failover/failback, creation/deletion of snapshots and schedules, kick-off of dedup, FC link errors, etc. This part can be implemented based on a set of regular expressions with log keywords, and mapping table from log words to human-readable words.
+

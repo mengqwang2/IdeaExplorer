@@ -1,0 +1,14 @@
+database to update customer's contacts
+it's an idea to facilitate TSE job reaching customers 
+1- issues reaching customers
+2- when i ask a cst to change a primary contact in the SR it's not reflected in the customer profile, it's only a change in the current SR.
+
+build a database accesible for all the TSEs to update the customer contacts instead of sending mails to ASR or DSM or dispatch the case to provide a valid contact.
+
+allowing TSE to edit and update customer contacts.
+
+it could even be a part of the SYR tool  
+
+and it could be synchronised with the contact list provided in the SR so i can switch it to a primary contact to help sending surveys to the right person and get more CSAT instead of contacting the CST to request a primary contact change.
+consum time and effort, to get a valid contact.
+TSEs will be able to change a primary contact and increase CSATs number

@@ -1,0 +1,16 @@
+Smarter VPlex Solution
+This proposal is relevant to the following Challenges:
+TCE
+Work Experience
+Proposal:
+
+VPlex to have the following component/features built in to the software.
+
+Integrate the Storage inside the VPlex box. VPlex box should have the ability to hold the storage(s) aka disks such as FDE, SAS, etc., Hence, the customers can make use of the built-in storage disks to use the VPlex Solution as a Storage Array. Thereby reducing the need of an external storage array.
+
+Integrate the Virtual OS component to the VPlex software. VPlex box should have the ability to build and run the operating system such as RHEL, Windows , etc., from the VPlex box. This is more related to the SAN-BOOT concept where the operating system is built using the SAN BOOT storage provisioned from the storage array. Thereby the user does not need the physical server.
+
+
+This is more likely a VE inside PE.
+
+The customer would not need anything outside VPlex to start with. The goal is to utilize VPlex for everything that the customer wants.

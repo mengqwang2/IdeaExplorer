@@ -1,0 +1,5 @@
+Smart App to Monitor IOT Devices
+Monitoring IOT devices is a challenge to manage security for devices
+This is part of Innovation Mining workshop
+Smart App solution should be in place where users can detect IOT devices deployed @ Home/Office network and also check Health metrics of the devices
+Above solution is not yet available to manage/monitor IOT devices.This would also benefit Smart cities program for effective device management

@@ -1,0 +1,5 @@
+Smart Meeting Rooms
+the challenge requires to create a smart city 
+New Idea
+the idea is about synchronizing smart phones with the projector for better control and monitoring 
+ my idea will look like a simple application that uses the concept of VPN to securely sign in to the projector. The technique is same as (smart phone controlling television) 

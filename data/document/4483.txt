@@ -1,0 +1,5 @@
+IO based Load balancer for OpenStack
+
+Since I dived in OpenStack Cinder driver development, I found Cinder only have the ability to distribute volumes via available capacity on cinder node or user have to specify Cinder node on which they want to create volume, thus cause in cloud environment, many Cinder node are very busy with IO processing, while other Cinder node are not. with this feature, customer of cloud service get higher performance; cloud admin are rescued from daily HW rescheduling work; HWs are made the best use of.
+In OpenStack, there are Compute node(Nova), Storage Node(Cinder), Network Node .etc., VM in Nova node need to access volumes in Cinder Node. we could start a plugin/daemon in OpenStack to calculate the IO to each Cinder Node, and get the IO specified statistics, IOPS, speed, load of storage node and so on. next time, when user try to create a volume, our plugin/daemon will help to make decision, an select a Cinder Node then create the volume on it, based on it's service capability of Cinder Node and statistics already got
+

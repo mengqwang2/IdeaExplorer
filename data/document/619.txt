@@ -1,0 +1,19 @@
+DHOME & CLM_SRM Duplicate Microcodes in IB
+The idea was addressed as a Lean Six Sigma project in order to capture the value it brings in terms of time and cost savings.
+The results are impacting many entities, and thereby affecting CSAT.
+The idea came after realizing the issue is recurring in the Install Base (on daily basis in massive amounts) and discussing its impacts with BTG team.
+After brainstorming with BTG team and system developers, we decided to correct the logic of the  Backend package emccsi_bb_instance_pkg through Work Request#  372488 and running a cleanup project on the current duplicate microcodes in IB through Work Request# 371951 
+
+A cleanup activity was run for the data until December 2014, the results were:
+66727 duplicate microcodes were deleted from IB
+9050 TLA microcodes are configured correctly with 100% accuracy and 0% errors.
+
+Time Saving: 
+Avg Microcode Terminate trx handling time = 1.7 mins
+66727 x 1.7 = 113435.9 mins = 1890.6 man-hours (globally)
+
+Cost Saving: 
+- 1890.6 x $36 = $68,061 
+
+
+The root cause fix is to be implemented in August 2015 as well as another wave of cleanup to ensure the issue is completely resolved

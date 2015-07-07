@@ -1,0 +1,37 @@
+Centralized 3rd Platform Vendor Management Solution
+E2E is looking forward for ideas on Business Process improvements, this idea is focused on addressing the gaps in managing Vendors at EMC and how to improve them.
+The idea is evolved from our experience in working with end-to-end Open Source Application in the 3rd Platform IT Team, having experience building microservices on Pivotal Cloud Foundry. This solution could be implemented within EMC at a very low budget and with help from our open source team members. 
+
+Benefits: 
+As vendors are paid on an hourly basis, cross utilizing their time effectively using a centralized system, across EMC could save us a lot of dollars. Say every 100 hour saved per day across EMC, maps to a million dollars in a year. Even if we can leverage couple of hours for testing purposes is better than not utilizing them.
+The proposed solution is to have a centralized 3rd platform vendor management system, that each of the Business groups can adopt, which can track the vendor skills, their utilization, available bandwidth, so they can be cross utilized across the organization and help save EMC a lot of money.
+
+The solution is a simple Open Source application that tracks all the EMC contractor on-boards, manages their timesheets & gives a view on how their bandwidth is utilized across EMC. 
+
+Functionally the system should be able to perform the below activities,
+
+-	Onboarding of contractors, their duration of the contract, cost factors, more importantly their skills sets
+-	Contractors to be able to enter their timesheets on a weekly basis, based on which invoices can be processed & approved. Have an approving mechanism when a timesheet is submitted it goes to the EMC Manager for approve/reject. 
+-              The scope could be extended to automating the invoices as the system matures & integrate this with other EMC systems used for invoicing
+-	Have a utilization metric ( say 40 hrs a week is fully utilized )
+-	Ability for all the EMC Managers to view contractors that are underutilized 
+-	Publish the underutilized bandwidth in a Dashboard, for consumption by other groups. 
+
+Technology Used: 
+
+This will be implemented as an Open Source Web Application which is role based, with Admin, EMC Manager, and Contractor logins. 
+
+Web Application can be built using responsive Bootstrap UI, Jquery for the Front end development and uses Spring MVC & My SQL Database for the backend. 
+
+The application can be implemented using 3rd platform microservices architecture using IT Pivotal Cloud Foundry for deployments and maintenance of the solution
+
+The above functionalities mentioned, can be developed a web services using REST APIs so that they can be consumed by other applications as well. 
+
+
+We have a prototype App with the above technology stack that can be leveraged for this purpose. 
+
+The system can be adopted by Business Groups across EMC for effective Vendor management, well first one being Global IT.
+
+The solution improves the current Vendor Management process that is adhoc. Almost all EMC Business Groups engage with Vendors, having a common solution that can be used across EMC is inevitable.
+
+The solution is end-to-end and is scalable, Open Source & can be customized to include other processes needed for better Vendor Management.

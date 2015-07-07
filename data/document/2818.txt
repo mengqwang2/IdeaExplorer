@@ -1,0 +1,7 @@
+EHCaaS
+Offer EHC-as-a-Service will enable organizations to adopt a private cloud with lower risk and lower CAPEX.
+
+Talking with customers, some of them asked us to create a model like that.
+Using EMC and/or Partners, we can offer EHC+Managed Services, and charge customer per VM, considering some minimum number of VMs distributed in a timeline.
+Increase EHC sales.
+

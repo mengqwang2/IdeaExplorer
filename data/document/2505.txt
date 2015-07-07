@@ -1,0 +1,7 @@
+Micro Test Bundle for Cumulus
+This Idea addresses the 'Global Product Operations' challenge. The Idea is to deliver lightweight tester bundle that can be attached to any trolley / CMR supplying power and communications to products being tested in the cumulus environment.
+As manufacturing moves to cumulus, various iterations of 'tester-less' testers have been built. This idea is a evolution of all of these previous designs, from  fixed 'sit-on-top' testers to CMR's with integrated power and communication cable assemblies and 'wrap around' trolleys. The Idea here is to deliver power and comms in a bundle that is not fixed or integrated. 
+Tester Bundle Design consists of a 1U, Rackmount (Serial comm's + PDU) combo device paired with a network switch. This assembly weighs ~8Kg and can be hooked on to any trolley. The bundle has sufficient communication and power outlets to satisfy 4UP testing. This idea is unique in that the testers are neither integrated to a trolley assembly or in a fixed position. All this solution needs is a power outlet 'drop' and comms 'LAN DROP" connection.
+Low Cost Tester...that can be deployed to existing rolling stock of trolleys. Fluid deployment and scale up of capacity to meet surge demands. Zero spatial overhead. Low cost test equipment solution.
+Low maintenance costs.
+Enables rapid setup of test cell

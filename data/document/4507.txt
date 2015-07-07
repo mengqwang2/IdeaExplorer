@@ -1,0 +1,8 @@
+GUI ability for the Log Analysis Tool  - (Automate the LAT)
+
+Prior Work Experience
+Build a GUI that has the ability to analyse the CD that is provided as the input. The UI picks up the CD and assigns a unique ID for itself. Later, the tool goes through the CD in depth and generates the required output. This avoids the space at the customer system also there is no need to install this application at the system.
+
+The UI will display all the required output that is needed. This will be very flexible for the tester/customer using the tool and helps identifying the issues faster. Also include pictorial representations of the tool, which reaches out to the user easily rather than having explained via folder or text approach.
+
+

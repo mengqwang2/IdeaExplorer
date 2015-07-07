@@ -1,0 +1,14 @@
+3rd platform with Continuous Protection
+
+The CTO has worded on VIRP , Cinder and Cloud Foundry. We know the power of EMC’s product such as Recovery Point , But the 3rd platform cannot leverage them directly.  So we are finding a way to expose our products ability.
+The Recovery Point should provide am API. And the VIPR/OpenStack/VMware can leverage the API to support a Software Defined Storage with Continuous Protection. Then the 3rd platform Application can use the Software Defined Storage to support advanced recovery feature. And with Cloud Foundry, we even can provide a PaaS with recovery feature in Cloud.
+
+So the solution depends on 2 integrations.  One is to provide Software Defined Storage with Continuous Protection, another is let Cloud Foundry support eh recovery feature. 
+
+The recovery feature can be easy added to the VIPR. We can also integrate it with OpenStack Cinder. The Cinder’s API and the Cinder Driver can be extended with the feature.
+
+The Cloud Foundry architecture is now forced on the Elastic Runtime. It provides the Service Gateway Interface to support 3rd party service. So we can provide a service Gateway to achieve the Goal. And it also talks to Recovery Point API directly.
+
+There is a Slide to describe the Idea https://inside.emc.com/docs/DOC-99982
+
+

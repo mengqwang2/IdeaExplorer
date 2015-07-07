@@ -1,0 +1,33 @@
+A knowledge based machine learning approach to Dynamic Data Center Management and tuning
+
+While brainstorming how to bridge the gaps between dynamic nature of application needs and static data center infrastructures
+Application usage specific awareness can be better achieved via a knowledge based machine learning system rather than static information/policies. Such a self-learning system can benefit Compute, Storage and Network elements of the data center.  This will help, for e.g., to remediate,
+    - Performance issues by load balancing, re-provisioning…
+    - Capacity problems by re-provisioning, thin provisioning, reuse/reclamation...
+    - Concerns regarding data protection by reevaluation of protection schemes 
+
+The system is envisioned as host resident agents, which contain a knowledge base of policies and parameters that has been proven to work better for different applications and systems to begin with. When it is started for the first time, the agent recommends most appropriate policies/parameters  based on the current state of the system. Administrator will have an option to override or augment these settings. These user choices will also be added to the knowledge base as additional learning.
+
+From this point onwards, agent will monitor and learn schedules, work load patterns, failures, faults etc. to re-evaluate existing policies and apply modified policies automatically while at the same time expanding knowledge base for more learned feedback to the system in future. 
+
+An orchestrator that can talk to all the agents can gather the knowledge from an agent to apply it on another systems intelligently. Alternatively, these agents can be built to work as a lightweight loosely coupled distributed system that can talk to each other without central component that co-ordinates and orchestrates the actions.
+
+System will also have reasoning abilities analyze the feedbacks and to detect if a newly applied policy turns out to be counter-productive i.e. if there is a negative deflection from the anticipated trends. In that case it will perform corrective actions. 
+
+A few examples of self-learning/healing  that can be achieved are,
+    -  System backup starts every day at 10PM. A multipathing load balancing policy 
+       optimized for sequential IOs is better during this period instead of adaptive load 
+       balancing policy meant for the OLTP workload seen during work hours.
+    -  Database has been migrated to an all flash array. So it makes sense to 
+       switch the IO scheduler of the Linux system that hosts the database to ‘NOOP’, 
+       a scheduler better suited for low latency devices.
+    -  The Linux system has many disks and heavy mixed read write database 
+       work load; switch the IO scheduler to ‘deadline’ a scheduler that imposes a 
+       deadline on all I/O operations to prevent starvation of requests.
+    -  Data mining operation overlaps backup operation and affects backup window; 
+       reschedule jobs.
+    -  Tune buffer limits or HBA transfer size based on the present workload of an Oracle 
+       database running on an AIX server.
+    -  Implement application consistent protection schemes
+
+

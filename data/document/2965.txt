@@ -1,0 +1,9 @@
+BYOD Solution for IT Contemporary Workplace Challenge
+The BYOD solution meets the following challenges. 
+Trusted WLAN Access to the network 
+Seamless access to the the network and applications without SecureID
+increased VoIP UC experience
+
+Its a workplace transformation solution that increases user experience and productivity. 
+In today’s competitive world, People need access to the applications and data from all sorts of devices. That helps them to deliver the solutions fast, collaborate with team and show better efficiency.   With the BYOD solutions, organizations can publish their virtual desktops and applications which can be accessed from any device regardless of who is where.  A NetScaler can be deployed in the network to optimize, secure and control the delivery of all enterprise and cloud services, and to maximize the end user experience for all users including mobile clients. Through the NetScaler, you can get seamless access to the applications inside and outside of EMC without any VPN or Secure ID. NetScaler has the bandwidth optimization capability which allows users to have VoIP without any disruption even in the low bandwidth. with the combination of VDI + NetScaler, EMC can provide users the BYOD solution to improve the overall productivity and user experience. 
+it increases overall productivity as users can work on devices of their choice with seamless and secure access to the applications and data. it increases effective collaboration between the employees. It removes the barrier of being in office or use offic

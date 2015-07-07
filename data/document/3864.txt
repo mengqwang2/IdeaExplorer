@@ -1,0 +1,5 @@
+Service Center RCM schedule Status
+
+The idea came to mind as we often take ownership of SRs that have been previously owned by a different engineer.  These requests often have activities already scheduled but the notes do not specify of the existence of such activity thus, duplicating activities in RCM schedules. Also, providing the current status through out the ownership of the SR will assist us to reduce error and be more efficient.
+The idea is to have a small section in service center that reflect the current status of the RCM scheduled activity or activities, allowing the pre-check engineer to click on that activity and be taken to the actual schedule.  It will also show if activities are scheduled or reserved before taking or during ownership of SR.
+

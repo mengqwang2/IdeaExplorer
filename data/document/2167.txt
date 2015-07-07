@@ -1,0 +1,5 @@
+Shop easily with EMC 
+N/A 
+Upselling our EMC Products, increase EMC Customer and Partners awareness about our products and other product functionality with the one they already purchased
+In CXP where partners are allowed to shop through our Channel Express site, upon selection of a certain product such as VNX, a window will appear with the related items to that product such as RecoverPoint, same idea applies for BRS products to allow the customer to buy the BRS family all from EMC and not only take the core product and use Non EMC S/W or Product for BRS on top of it
+N/A 

@@ -1,0 +1,14 @@
+Product Interactive Tool
+
+Many times it has happened that customer approaches support for very simple issues which can be resolved at their level ( like the DH alerts ), but since they would not be aware that it is simple enough to do it themselves they approach support .
+This tool should be user friendly and  customer should be given access once the product is purchased .
+This tool should include many links and segregate topics such as hardware , software , information on product and other useful links for customer .
+This should include questions on specific topics or area of concern for customer  similar to the troubleshooting flowcharts that we have in place and based on answers [in form of yes/no ] resolution should be provided to customer also it should link service center to contact support through chat or vic/web.
+
+Service center and moxie tool for chat should be enhanced relating to this tool which should make customer support representative aware that customer has gone through the tool and where exactly is customer stuck and need assistance from support to proceed .
+
+This will help us in getting the information from customer such as OneFS version , area of concern in the product and what has customer tried (steps )to resolve the problem and we can quickly take the next step to assist customer further and avoid wasting time in asking few basic questions to customer .
+
+This will also make customer aware of the product , how to resolve simple issues themselves and will help in reducing our work to explain customer on such issues ,this  will also help us improve customer service. 
+
+

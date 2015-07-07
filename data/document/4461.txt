@@ -1,0 +1,50 @@
+Automated Storage Provisioning and Application aware data Migration for VPLEX and VPLEX/VE 
+
+When working on the VPLEX VE Verison 1 product , we identified bottlenecks in the product and created a list of items that are hampering current daily activities. We wanted to provide a solution to these problems in a way that assists customers implement and work with VPLEX faster 
+We are proposing an Automated Engine which has  2 parts to address the 2 issues above 
+
+Part1 :  Automated Storage Provisioning 
+
+1.	IQN’s generated on VPLEX are automatically registered on the BE Array (User input on VLAN ID and IP Addresses)
+2.	User is asked for x amount of capacity and atleast 2 Spare Disks  – User can tweak this by selecting combination of values and select what disks he wants to use
+
+a.	VPLEX will create a Storage Pool across the disks from which this 
+capacity is to be provisioned [This can be further enhanced to have Storage Pools with Tier1 (Fastest) , Tier 2 (Fast) , Tier 3 (Archive) ] 
+b.	VPLEX will create MetaVol , Logging Vol and DDS Luns automatically from 
+        this storage Pool 
+c.	VPLEX will expose this to the Hosts identified in Step 1.
+3.	In case of user wants to increase the size of any of the LUNS created in 
+        Step 2a – the capacity of the storage pool will be used .
+4.	In case of failures VPLEX will initiate the following :
+a.	Disk Failure – VPLEX will consume the disks (2 spare) to recover from 
+        this failure
+b.	In case of any LUN Failures, VPLEX can attach a new LUN
+c.	In case of High Latency on Any LUN, VPLEX will detect the latency problem 
+        and provision new LUN from this storage Pool 
+
+Part2 :  Application Aware Data Migration 
+
+                       Data Migration based on R/W Access :
+
+1.	A IO engine module will track the incoming writes/reads for the DDS 
+        Devices
+2.	Based on the incoming data – VPLEX will move the DDS Devices to the 
+        various Tiers [Fastest > Fast > Archive]
+3.	If data on DDS 1 (Fastest Tier)  is NOT being accessed i.e read/write for “X” amount of time then the data on this DDS device will move from Tier 1 to Tier 2 
+4.	A stub will be created , to track that DDS device has moved from Tier 1 
+        to Tier 2 and any future access for DDS 1 will be sent to Tier 2
+5.	In case the IO engine module detects that DDS 1 is now being accessed 
+        regularly for “Y” amount of time , then DDS 1 will move from Tier 2 back 
+        to Tier 2 
+6.	In case the IO engine module detects that DDS 1 is not being accessed for 
+        “X + Z” amount of time then DDS 1 will move from Tier 2 to Tier 3 
+7.	The IO engine module will do this operation across DDS Devices , the 
+        movement of data from one tier to another will be scheduled at a time 
+        when the Array has amount of CPU cycles to spare. 
+
+	      Migration in case of Leg Failures:	
+
+DDS Leg Failure – VPLEX can be configured to try attaching to the same leg for “X” amount of time , and after this “X” is elapsed , VPLEX will automatically create a new Leg and attach it to the DDS Device , and start rebuild 
+               (This is useful in the case the Application is facing high latency, slow R/W access because of a DDS Leg going away)
+
+

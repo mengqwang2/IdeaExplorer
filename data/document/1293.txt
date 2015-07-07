@@ -1,0 +1,10 @@
+ITaaS- Storages Automatic Configuration & Performance Assistance Plugin
+We all know that the purpose of Software defined data center is the focus on the high-value IT outcomes that boost the data center efficiency and drive innovation, which is a core feature of the modern data centers.
+I came up with the idea after closely involved in implementation and operation projects and identified in most cases after the implementation completed and the systems become live major modifications occurred and new configurations added to the existing infrastructure and this caused major storage/backup systems performance degradation.
+The idea target build Automatic Configuration & Performance Assistance tool (Storage/Backup Intelligent Analyzer - IA) embedded in the Storage and preferred to be in ViPR, this solution to Eliminate and minimize the human mistakes during the implementation phase or the day-to-day operation by reducing the steps/time/cost to configure the systems for the large Databases & Applications and this by showing on storage level and interactively through wizard the best available configuration options can fit and comply within the detected environment including compatibility dashboard that contains each host on the storage level and represents the end-to-end configuration health status and evaluates online the recommended action to be performed by the administrator. 
+
+This solution will show immediate warnings messages during the storage configurations/operational actions by highlighting all misconfiguration actions or abnormal behaviors that can impact the system performance as well on hosts level. Also this can include quality control feature in this tool to verify that EMC products configuration matching the standard criteria and using predefined checklist.
+
+- Will make Data center services as easy and inexpensive to configure and manage with the minimum number of mistakes.
+- Unified, policy-driven technology automates and manages IT services across heterogeneous clouds.
+- Dramatically higher efficiency and Error free configurations.

@@ -1,0 +1,19 @@
+Integrate Lync with Selected Office Meeting Room to Boost the Communication
+•	IT Contemporary Workplace Challenge
+This idea provides a cooler meeting environment inside EMC, by selecting meeting rooms to install cameras and linking them with Lync account for better communication.
+
+
+•	HR Challenge - Diversity and Innovation at a Great Place to Work
+This idea helps the communication with different EMC sites as we could place some cameras in public areas, these cameras are Linked with a Lync account.
+when thinking about challenges to have meetings with colleagues in remote sites
+We propose a solution to integrate Lync with office meeting room.
+
+In each meeting room, there will be camera, which is associated with a unique Lync account, which can be queried from a global registry. 
+
+When you want to send meeting request, you can put the meeting room's Lync account in the invitation list. 
+
+When the meeting starts, the Lync will start automatically, everyone in the meeting room will be captured and be viewed by other invited Lync users.
+
+BTW. We can even add Lync in dinner room or public area, for colleagues among different sites to communicate with each other randomly.
+1. When we have meeting with remote colleagues or team, it will be easier for us to see their faces.
+2. We can even add Lync in dinner room or public area, for colleagues among different sites to communicate with each other randomly.

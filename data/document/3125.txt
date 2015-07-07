@@ -1,0 +1,11 @@
+A cell phone accessory that would allow emergency from anywhere in the world. 
+
+
+I was watching a survival show about a week ago.  I was thinking about how my hiking buddy is going to get me lost someday.  Since it wouldn't be the 1st time I was lost in the wild, how nice it would be to just be able to plug something in my phone to call for help. 
+
+I have started some investigation on if the product would be marketable and to what markets.  I have done a little but very little in the engineering aspect of the product but still in the working stages.
+Cell phone accessory that you could plug in to your cell phone that in an emergency situation that where cell phone reception is not available (sucks as hiking, camping, hunting, sailing and many other activates that a person could need emergency help)  This accessory can plug in to any cell phone that would allow you to make a satellite emergency call.   
+The thought is to have a satellite receiver that with a mobile application can make and emergency call for help from anywhere in the world.   This could also be used for things such as military, researchers and even emergency responders where cell service is not an available to be used.
+Right now there is still a large gap in cell phone coverage area and this would allow many to have an affordable safeguard in areas that currently a person cannot make an emergency call from. 
+
+

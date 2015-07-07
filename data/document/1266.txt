@@ -1,0 +1,25 @@
+ViPR SRM--A single tool for pre and post data center transformation and Integration with VROps to unlock power of federation  
+CTO office relevance /Skolkovo R&D Center Challenge --
+Data Center Transformation is a major revenue generator for EMC Consulting. At this point ViPR SRM is used only to monitor and report data center infrastructure. If we can use ViPR SRM for data center assessment, it is a new business case.
+Ireland CoE Challenge/Skolkovo R&D Center Challenge --
+Introducing solution pack for vROps  on ViPR SRM platform will provide single pane view for monitoring and reporting of entire data center and realize power of federation solution in FEHC especially in Telco.
+1. Customers are complaining about multiple discovery tools and it triggered us to think of a single tool preferably something which exists within EMC portfolio (than reinventing the wheel) and we came across ViPR SRM
+2. EMC Solution Principals complained about the time & effort required in current Data Center Migration offering in comparison to competition in Mid Market segment.
+3. We suggested Portfolio team highlighting the need of a single agile discovery process to be reused in different offerings.
+4. We decided to pilot ViPR SRM with certain customers in EMEA region and prototype
+Solution Architecture:
+Solution 1 :Problem 1 Perspective:
+1.Enhance the application discovery adapter of ViPR SRM to read custom application
+Solution 2: Problem 2 Perspective:
+1.Create an adapter which select data elements from both the tools (ViPR SRM & vRealize Operations) and create a single data base which is updated dynamically 
+2.Create visualization form out of the previous data base 
+----
+Solution 1 :
+Present Approach today is using multiple/ different tools for assessment. We are proposing single tool for assessment.
+Solution 2:
+Present approach is static data analysis and manual mode where as our approach is making it dynamic and real time.
+
+1. These use cases certainly enhance market penetration of ViPR SRM and Federation with VMware in FEHC ,which gives top line growth in revenue
+2. Considerable increase in customer satisfaction because of single tool in place of multiple tools
+3. Reliability of solution is higher for real time and dynamic updates
+4. A good platform to show case EMC & VMWare products and market creation for federation where customers can license and use  these products (ViPR SRM, vROps) before, during and after data center transformation

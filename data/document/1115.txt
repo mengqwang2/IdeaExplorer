@@ -1,0 +1,23 @@
+online case triage system
+online case triage system is a system which can easily triage problem in component level. It is especially efficient for cross-product solutions. It could be easily implement within 12 months.
+I came up with this idea when I saw the challenge.
+We have support team for each product line, it is very efficient for single product line. But when it comes to cross-product solutions, it won’t be sufficient: there is no efficient way to tell where the real problem is. Usually people who triage the customer issues only know a small piece of the whole system—for cross-product solutions this is even worse.
+Based on above description, the solution for this would be:
+1)	Have someone who know the whole stack of the solution to triage customer issues, or
+2)	Have a team which covers all stacks of the solution sit together so that they can triage the cross-product solution bugs efficiently, or
+3)	Have an auto triage tool which can figure out where the problem is.
+For solution 1 it is not likely to happen. For solution 2, it is doable, but extra engineering resource is required, so it may not be ideal. Solution 3 is the most cost-effective way.
+To achieve this, each components should at least do two things: 1) Being able to tell whether the objects managed by it are good or problematic 2)  Being able to tell whether the service provided by it  is good or problematic. With the help of above two things, the whole solution can now provide a real time health status report for the whole system.
+Let’s call this “online case triage system”. Here is the proposed implementation details:
+1)	Framework part.
+The framework part is the brain of the bug triage system, it is the initiator of bug triage. It is built on top of the solution(in our case, cross-product solution). It should be able to communicate with every product(of course, CTD product) of the solution. When doing case triage, the framework will collect stats from each components (The status of the objects managed by each components and the service provided by each components). It will correlate the stats and provide suggestions to the user(support or customer).
+The correlation part should be able to be upgraded anytime(which can decide the correlation efficiency). We can add new rules to the framework anytime so the system could become more smart as time goes by.
+2)	Change for each Component
+Each component should provide at least 2 interfaces which could tell people 1) the status of the objects which are managed by this component 2) The stats of the service that are provided by this components(including correctness and performance) . We should define a standard format for above 2 items so that common interface could be used across the solution.
+
+Time estimation: For framework part, we definitely need someone to work on it. But it should be a small project(which means we should be able to finish it with in certain release). For the component level change, most components already have this kind of capability, we just need to export it, so no big effort is required either, we should be able to complete it within a release.
+
+It will help to triage more than 80 percent of the customer cases without the help of Customer Support/Engineer.
+It will reduce the bug triage time dramatically 
+It will make sure the cases go to right component
+It will save money, improve customer satisfaction.

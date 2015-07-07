@@ -1,0 +1,6 @@
+Big data for better customer satisfaction
+
+
+Thinking about how to provide better customer satisfaction using big data.
+Using the big date to come up with insights to be used to provide customized service for our customers for ex. (Analyzing Customers Behavior) an angry customer to be routed to special agent with special qualification to handle angry customers.
+

@@ -1,0 +1,9 @@
+Using Big Data Approach to enhance Customer Knowledge
+
+- Customer opens many SRs for the same issue from time to time with the same product as well.
+- using Big Data Analysis solution to monitor the data base about the Case opened for this site and make analysis on it from time to time.
+
+- We can detect that the customer needs training and knowledge session in certain topics.
+
+- at this time, We can deliver it to him to make his knowledgeable.
+

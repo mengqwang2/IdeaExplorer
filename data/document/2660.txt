@@ -1,0 +1,9 @@
+End-to-End Disk Drive Data Consolidation
+Disk drives are fundamental to EMC’s product roadmap; however, critical information is siloed within functional units.  We propose a collaborative enterprise wide lifecycle information system that; integrates data, provides reliability analytics and predi
+The need for a data source representing the different views on disk drives came in different projects of the data science team with GS and TCE.
+The particulars of this solutions were hatched with David Dionisio, a reliability expert from TCE, and Dr. Raphael Cohen and Shiri Gaber from the IT data science team.
+A PoC limited to VNX data was built in the Data Science lab and showed promise for predicting disk drive failures in advance by combining the VNX SP-Collect informaiton with TCE Historical Install Base
+Our proposal is a documented coalesced disk drive table capturing the best of breed disk drive data across the EMC enterprise.  While conceptually simple, implementation requires overcoming business logic and discrepancies between units: data validation rules, filtering, timing of data feed and source system.  These issues have never been resolved. With that said, we have already explored a VNX specific solution to connecting all the data from Manufacturing, Total Customer Experience, Global Services and Engineering. 
+See https://inside.emc.com/docs/DOC-152752 for more information
+
+Success is an integrated information platform utilized across multiple business units to report consistent metrics, develop common analytics and research disk drive behavior.  Operationally, it will provide a single source of truth for all things disk dri

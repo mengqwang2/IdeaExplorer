@@ -1,0 +1,48 @@
+Predictive Analysis and Data Visualization on Student Data
+
+I teach robotics to the students of this age group and has tried out this with them a lot of times. I have seen them coming up with wonderful patterns and analysis every time they work on it.
+Contest frame work:
+
+Form a team of four with one student each from grade 9,10,11,12.
+ 
+The responses and the ideas formed by the different age group  is varied from the ideas formed by same age group.  
+
+With this contest we are trying to draw an analogy of big data and cloud from the IT world to the school environment what the student’s best understood.
+
+Provide the following Datasets to the students:
+
+Dataset 1-  The attendance report of 10 students for 10 consecutive years. from Grade 5 to grade 12 and 3 years of college.(This data can be manually generated or could be obtained from any school's student Information system)
+
+Dataset 2-  A list of important events for a year. (Student Birthdays, Parent Birthdays, major exhibitions, school parties, important sports days like fifa world cup finals, Major exams date, some important movie release dates such as harry porter - this data can be manually generated )
+
+Downsize the dataset to reduce the complexity.
+
+
+1. Visualization Challenge.
+
+This Challenge goal is to visualize the attendance data to provide in a informative, beautiful, or surprising way.
+We are particularly interested in visualizations that contrast or compare.
+Visualizations may include  animations, interactive websites or static graphics and ideally should reveal new or interesting trends and patterns.
+
+2. Prediction Challenge. 
+Here the goal is to find out a behavioral pattern about a student’s tendency to miss the school, also to understand how it changes from when he/she was at grade 5 until he/she is in a college.
+
+This dataset could be manipulated / changed based on its ease of generating them. 
+
+Another example of dataset could be student score cards for grade 10,11,12 and the their choice of subjects in the college.
+
+Logistics:
+
+A laptop / desktop with internet connection. (We can leverage school labs for this.)
+
+Datasets
+
+Dataconverter tool: http://shancarter.github.io/mr-data-converter/   - this tool helps in converting the data to useful html/json/php/xml formats to use with any data visualizaton tools.
+
+Data visualization tool: IBM's Many eyes - http://www-958.ibm.com/software/analytics/manyeyes/page/create_visualization.html
+
+or 
+
+any other tools such as google chart tools or wolfram Mathematica which the school and the students are familiar with.           
+
+

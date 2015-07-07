@@ -1,0 +1,16 @@
+Provide intermediary agent service for cross-BU resources pooling
+
+Discussed with other BUs, we find that they have many spare and un-used servers in the lab. Some of these servers are not be used for several years, but they had to put them in the lab. The lab still charges the cabinets/maintaining fee for these servers. It is somehow a big waste of money/resources. So we come up the idea that if these BUs can rent the servers to other BUs who need it, it will be win-win to two BUs. 
+This idea involves two matters for us to consider: one is to build a platform to enable the idea technical feasibility; the other one is to settle the policies and the charging model for resource pooling. 
+
+1. Building a platform to enable the renting, one the following two alternatives can be chosen: 
+
+    a. IaaS: to organize all the spare resources under an IaaS platform, such as OpenStack/vCD. When BU has spare resources, he can put the resources into the IaaS platform. OpenStack/VCD can manage all the resources and provide a resource pool for other BU or team to rent and use the corresponding resource. 
+    b. P2P deal/transaction platform: build a intermediary web site or platform for BUs, in which BU can publish their spare resources on it. Hence, the other BU can rent the resource in the platform. All the transactions/trades are P2P-based. That’s to say, all the transaction/renting are directly made by the rented BU and renting BU. 
+
+2. Settling policies and fixing charging model: 
+
+    a. The resources pooling service should align with EMC’s policies, such as security, facility, etc.. So these policies should be settle down in the first time. 
+    b. How to charge the renting fee between the two BUs should also be fixed. There are two kinds of charging models: the one is that the fee or price is settled by the BU who provide the spare resources;  the other one is that the lab team provide a reference price model to all the BUs to employ. 
+
+

@@ -1,0 +1,5 @@
+Security: No More Hard token 
+N/A
+N/A
+No more hard Token, system to be implemented digitally and automatically also every 60 seconds, in each laptop or mobile with no need for hard token. Just open this system with your Network password or any other password
+Availability, saves time, more efficient 

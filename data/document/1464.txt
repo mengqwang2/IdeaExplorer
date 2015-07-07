@@ -1,0 +1,28 @@
+Controlling public transportation behavior in Egypt.
+This idea does not only tackle the idea of using the IoT in smart cities, but it specifically addresses using the IoT in solving issues for the COE's own country.
+
+This idea started with only a system to stop buses to stop in the middle of the  road, then we added the emergency feature. At the end came the big data analysis to determine the location of the stops.
+
+Creating a system that will only allow the doors to be opened of these vehicles in their specific stops.
+How will this system work ?
+Each bus will be equipped with a device that only allows door to open when they are in the bus stops.
+There will be an exception in case of emergency, the logic will be as follows:
+
+Emergency || Inside Bus Stop Zone || Door Open Signal || Door Open
+On        || On                   || On               || On
+On        || On                   || Off              || On
+On        || Off                  || On               || On
+On        || Off                  || Off              || On
+Off       || On                   || On               || On
+Off       || On                   || Off              || Off
+Off       || Off                  || On               || Off
+Off       || Off                  || Off              || Off
+
+Once the emergency is turned, the bus door will be opened, however a signal will be sent to the authorities informing them that said bus is facing an emergency.
+
+To make this solution applicable we will have to use big data analytics to determine the places to construct these new bus stops so that people won't feel that this solution is making their life harder.
+We will monitor bus stops in terms of frequency, duration, timing and determine where to locate the bus stops to be closer to places that people are used to ride the bus from.
+
+
+This idea started with only a system to stop buses to stop in the middle of the  road, then we added the emergency feature. At the end came the big data analysis to determine the location of the stops.
+

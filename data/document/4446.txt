@@ -1,0 +1,14 @@
+The Family Cloud
+
+Bob Yan, Rui Liao and Adam Zhang are involved. We proposed this idea in brainstorming session of EMSD SSIE Endurance team in June 2014.
+
+Here are some typical components of the whole system:
+1. The Family Cloud. The cloud is the core platform integrated with too many services/resources such as telecommunications service, taxi-calling service, virtual machines, kinds of software, management of smart Apps for houses and etc.
+
+2. The Agent Device. The agent device is the key to the cloud, working as one enhanced Power Line Communication. It's just plugged into the power line through the socket. After the configuration, it could provide the services/resources from the cloud to the users by the power line. It also help the users to move the service to any place. Where the agent is, there the cloud is.
+
+3. The Terminal Devices. PC, mobile phone and Xpad could be the terminal device. The users could get their IT services/resources by them. What's more, the users also can monitor and control the smart equipments in their houses.
+
+4. The smart equipments in the houses. The smart equipments could periodically send their information to the cloud by the agent device through the power line and response the request sent from the users by the cloud system.
+
+

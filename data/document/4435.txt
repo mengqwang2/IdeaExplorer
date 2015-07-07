@@ -1,0 +1,14 @@
+LAB On Demand
+
+Every release of SMART product we support management of state of the art devices and various newly marketed feature of existing devices. Testing of our code becomes a daunting task as the devices are rarely available for destructive testing. It becomes a risk for our timely delivery. The “Lab on demand” platform will definitely help us to circumvent the challenge as the lab will be available on demand.
+"LAB on demand" provides the centralized interface for creating the customized virtual lab, which includes  VM,vSwitch,Network Devices and Storage like VMAX,VNX. 
+
+This platform will be built on top of cloud platform. This cloud platform will involve NVP. Workhorse of this idea is openflow enabled network devices and Storage arrays. Using these openflow enabled devices vitual resource pool will be created. The virtual pool provide different service to its user. For example "switching  Service" ,"routing service" , "tunneling service" , "connection service[APCON]" and "storage service". The service may be distributed across geography. But the distributed nature of the platform will be transparent to the user.  
+Now this virtual layer lab  will provide APIs to its user. So  using the APIs  user should be able to  create tailor made virtual topology for his development needs. The platform should support various programming language such as C,C++,Java, Python. The platform should provide Jars , libraries to  its user. 
+The user needs to use specific jars and libraries to use the APIs provided by the system to create his required topology. The user should be given flexibility to add different service to the virtual devices such as SNMP,CLI , REST etc. The APIs should be very simple to use.  For example, creation of switch should be achieved using CreateSwitch () call. 
+
+Example Use Case:
+
+CISCO UCS device is costly for testing. The Cisco UCS roughly comprised  of  functionality such as  switching and storage . So using the storage service and Switching service of the platform we will be able to create emulation of Cisco UCS in spite of the real hardware not  being present which can be used for testing. 
+
+

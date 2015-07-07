@@ -1,0 +1,18 @@
+Code coverage and change set based regression test
+  Lots of full regression test in branch team, regardless of scope of changes.
+  This challenge makes test effort remain high for each full regression test.
+  Our solution matches the challenge in that it can alleviate the pain, 
+  by reducing test effort and preserving test efficiency
+  1. small changes for a release will lead to a full regression test
+  2. Branch QA team manager Henry Deng concieved that if we can utilize gcov data
+     to reduce the sum of test cases run in regression test
+  3. Henry orgnized a virtual team to do a POC
+  4. After some investigation, we find it possible to do so
+  1. run full regression test for a release
+  2. collect function level code coverage for each test script
+  3. store the mapping data collected in step 2
+  4. get code change from given change set
+  5. select test script by functions changed in change set
+  6. run test script selected in step 5
+  largely reduce the full regression test set to a small affected set.
+  improve test efficiency and reduce effort on regression test

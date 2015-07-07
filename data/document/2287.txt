@@ -1,0 +1,7 @@
+Id Badge Scan station at Fire assembly point
+The idea is to get all employees out of the Plant in a calm and safe manner to a designated Assembly point where they'd use their ID Badge to register that they vacated the building safely.
+This idea came to me recently at a recent evacuation of the plant where we all left the building, but there wasn't any indication that all employees may have exited the building.
+Once you've arrived safely at the Fire Assembly point, you would use your EMC ID badge and swipe it against a login station. This would then register that you vacated the building safely and are no longer at risk. A list of names that DIDN'T swipe their ID badge would then be compiled & made available to the Fire Marshall who then would relay this info to a supervisor, where he/she can update of their whereabouts.
+The idea would consist of a number of login scan stations around the plant located at the nearest Fire exits and designated Assembly points.
+It could potentially save lives and unnecessarily stop a Fire Marshall having to renter a danger zone.
+

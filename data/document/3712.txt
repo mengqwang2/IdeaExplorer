@@ -1,0 +1,30 @@
+Administrative Mobile App for VNX Monitoring and Report application and other related applications
+
+When I was Browsing through the EMC App Store all the Mobile Application we provide right now is only wrt engaging the customers on Products, documentation, connecting them with support, information on Trends in technology or solutions. There was not any apps which was related to managing or administering any of the products remotely through the Mobile applications. So I was looking at the generic Solutions we have other than the Product level admin options. So got to see the VNX -MR application. So this context can be applicable to individual Product based administration applications and also for VNX -MR or VIPR- SRM
+When the key administrative operations like Monitoring usage statistics and alerts and events, are made to be accessible via the Mobile app the admin user gets easy access to the information at any time and can change the settings, escalating any issues, and send email and to alter the concerned department for essential remediation, etc can be done as soon as an incident occurs or if few scenarios can be predicted ahead of time, system availability can be maintained at 99.999% with a stable and desired performance conditions almost always. Considering the usage and available capacity the storage disk addendum can be planned and ordered ahead of time. Any optimizations and tweaking can be done to meet the SLO & SLA and can possibly attain it without missing it even one time.
+
+When providing these apps with appropriate security considerations and allow the administrators to connect to their respective product URL, the mobile apps can host the real-time data sync /push notifications from the server where the Product GUI are hosted and running. The mobile client can authenticate itself to the server and serve as another tye of device receiving all the major features as similar to the hosted web application.
+
+Also a possible use case to integration this app to the EMC support App (which is existing currently) can also be looked at.
+
+Key Benefits: It enhances the Customers success in achieving their SLA and better availability, and might help gain a marketing and competitive edge.
+
+Feasibility:
+The web applications have the well defined admin usecases, just the corresponding key settings, alerts, stats, etc has to be made available in the Mobile app and enable sync options and Push notifications. This should be fairly easy to achieve technically. Most of these application use J2ee technology on the Web Interface.
+ 
+
+ 
+Background on the product application:
+
+VNX Monitoring and Reporting software provides basic monitoring and reporting capabilities for VNX customers. The software collects storage statistics, configuration data, and presents information on storage performance and capacity through reports and dashboards.
+VNX Monitoring and Reporting software provides performance and capacity trending capabilities for storage systems including CLARiiON, Celerra, and VNX systems:
+
+•	Ease of Use: The web portal allows administrators to quickly navigate pre-configured reports for easy troubleshooting and planning for growth.
+
+•	Unified: Collects statistics from block and file storage, including details of virtual provisioning, FAST Cache, FAST VP, and file-level deduplication.
+
+•	Versatile: A single solution supports several VNX storage systems, including legacy CLARiiON and Celerra systems.
+
+For enhanced monitoring and reporting functionality, including support for multiple arrays, custom dashboards and reports, and end-to-end visualization, ViPR SRM offers broader scope and scale.
+
+

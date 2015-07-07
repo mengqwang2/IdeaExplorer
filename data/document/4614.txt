@@ -1,0 +1,5 @@
+Introduction of handheld mobile PCs in manufacturing. 
+
+The Franklin Process Engineering team recently introduced this technology for cycle count. An application was developed to meet the requirements to perform cycle count accurately and efficiently.  This technology is successfully used by UPS, FedEx, Home Depot, and other competitive companies for efficient transactions.  
+Our proposal is to introduce handheld mobile PCs that would be loaded with the applications necessary to facilitate the transactions required within SAP.  
+

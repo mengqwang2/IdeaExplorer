@@ -1,0 +1,19 @@
+Web Based Identification of Networker Support for Modules
+Ideas will improve the support ability of a CTD product NetWorker
+
+There is no document or support webpage available which gives mapping between Backup product NetWorker Modules and NetWorker versions supported.
+E.g:IF customer is running with NMM3.0 if h
+While  preparing Test Completion Report for a NMM cumulative release, I was asked by the support manager to include the compatibility table as the support team is facing a huge challenge with compatibility issues seen at the customer end.
+       To include this table in my report, I went through various documents and spoke to many people to get the right information.Had to invest so much of time just to include a table which has high importance.I even came across huge mails chains just to know the compatibility of NetWorker with the Modules.
+       This lead to this idea of having a webpage where anybody can quickly know about the right combination of NW server/Client with NW Modules.
+Below is the solution :
+
+1. Website should be created.
+2. 'Select the Module' drop box should be there for the user to select the required module with version
+3. 'Select the version of the NW Module' drop box should be there for the user to select the right version of the NW Module.
+4. 'Generate report' button should be there which displays a table containing all the NW Server and Client versions  which support the particular version of the NW Module.
+
+Currently we have compatibility guide which is not so clear and also confusing.It does not specifically mention about the NW Server and Client versions.It gives a generic answer for the query which leads to many questions again.
+
+->If my idea is successful,there will be a one stop source for all the Networker Modules to check the Compatibility with Networker server/Client.
+->I would call it as success if there were no more calls to the support regarding the Compatibility check.

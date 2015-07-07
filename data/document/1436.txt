@@ -1,0 +1,7 @@
+VNX enhanced NAS backup/recovery solution
+this idea align to CTD Challenge which could improve VNX NAS backup/recovery solution.
+this idea has been implemented by some software vender in market like double-take
+and I2.
+the core of this idea is to realize NAS file system backup by incremental backup based on file system character changed.  it take less bandwidth that block level
+and easy to implement over customer Ethernet network configuration.
+improve the EMC VNX competition in market. 

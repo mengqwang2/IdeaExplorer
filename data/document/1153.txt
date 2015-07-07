@@ -1,0 +1,13 @@
+Franchise Cloud
+This is a natural extension of EMC's cloud infrastructure efforts, but enables us a new revenue stream via cloud partners.
+I got the idea from Microsoft's Azure Pack, which is a Azure compatible set of equipment but one that does not have an explicit franchise.  This idea takes it to the next level.
+The solution is to explicitly create a franchise system for EMC clouds using Virtustream as a foundation similar to franchises in fast food or hotels. Franchisees would need to buy in a minimum set of equipment and provide the same set of services, although they are free to provide custom, non-branded services on top of the minimum set, ideally targeting specific solutions or verticals.
+
+EMC would provide a specification including an API for the set of services that must be met, including IaaS and PaaS services.  This guarantees that applications targeting just this API set could migrate between franchise services providers. There would be facilities for copy and migration across the providers, and EMC would centrally manage authentication and authorization to help enable cross communication.
+
+EMC would own the shared roadmap, setting the pricing models and owning the service APIs. It goes beyond Cloud Foundry in that EMC would build higher level services such as data warehouses that include requirements for backup and replication. The actual software would be open source, with EMC making its money by selling appliance pods required to run the franchise clouds.
+
+There would be a single marketplace for applications that run anywhere on the franchise.  Franchisees could choose to accept or reject applications, but not change the terms of the marketplace application, including value added prices from the independent software vendor (ISV)..  Both EMC and the franchisee would get a fixed percentage of revenue from the ISV.
+
+By strengthening the interoperability guarantees between service providers, this creates a shared target for independent software vendors and application owners to target on the scale of Amazon or Microsoft.  This would help EMC gain a foothold in fast growing areas such as IoT, where manufacturers can OEM the EMC cloud for use with their specific applications, opening it to their customers to add end-user applications, without having to develop advanced services or negotiate marketplace deals.
+

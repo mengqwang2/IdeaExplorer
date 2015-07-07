@@ -1,0 +1,5 @@
+LaaS with Big Data focus
+
+Especially in the context of Big Data Project or dicussions with the customer you come across a point where it is all about legal frame of Data handling, processing, where to store, what to use and privacy rights plus many other concerns. Many organizations do either not have an own legal department or just contract specialists not too familiar with personal data economy from legal perspective. There is a huge potential that Legal as a Service can become a successful building block in our Consulting offering towards big data.
+Legal as a Service will work like a security concept. The Consulting will either work towards recommendation or even to a kind of legal Audit. Certification of Projects or enabling of customers' legal organization could extend this Service element.
+

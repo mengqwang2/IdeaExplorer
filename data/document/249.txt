@@ -1,0 +1,15 @@
+EMC unity
+EMC federations are very strong each on its own.It is time where we unify the federations to better serve our customer and provide better solutions and services
+The idea will focus on leverage the presence of EMC federations in the same area
+
+Having VMWARE team within Cairo CoE has been of  a great help whenever we had a customer facing problem that involved some products form EMC II and Vmware solution
+So had the idea that in order to provide the best we had toe communicate more often abd build strong network between different federations 
+1.Start having a rotation on supervisor levels between the different federations for a 6 month period,it will help in creating better communication and networking on the support level as well as understanding the work done by each federations
+2.Creating VM stations instead of fixed desktop stations, where every could of months we can encourage some employees to physically move between different EMC federations and work from there without having to worry about the stations, the tools and all the logistics requirements
+3.Creating a portal that combine EMC federations and having champions from each federation .The portal will be used to have employees discussing several ideas and informations about each federations.The portal Champions will be responsible on answering and providing data,where each time they assist with knowledge sharing it add points to there account and being rewarded at the end of the year 
+
+Build strong network between EMC federations
+Utilize the knowledge
+Reduce TTR for customer facing problems
+working on new package solutions for the customer 
+Strengthen EMC presence in the market 

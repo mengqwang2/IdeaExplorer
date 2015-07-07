@@ -1,0 +1,8 @@
+Mainframe: CLAY IDE as client workplace
+idea is Mainframe-specific, therefore I am expecting to have some challenges devoted to Mainframe.
+Currently, simple FTP pluguns for VIM editor are functioning just fine, allowing user edit files, compare/update versions of a file, submit a job and receive result into the same workplace, or just into PC local filesystem.
+This approach makes it possible to use any preferable editor for programming on mainframe.
+What needs to be done is to replace FTP approach with a specialised service program, which will solve the problem.
+Traditionally, clients on z/OS connect using telnet protocol which emulates 3270 terminal. This makes possible to use only limited range of tools that exist on z/OS, e.g. there is no alternate editor except which is provided by ISPF. CLAY session is even worse. 
+I suggest to develope a simple server program that connects to some traditional IDE on PC (e.g. Eclipse or any other configurable IDE) which will allow to execute any actions on CLAY (or Mainframe)
+Users of mainframe and CLAY users will have convenient developer or user workplace. Proof-of-concept implementation exists (which uses FTP)

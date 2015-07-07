@@ -1,0 +1,17 @@
+Community Involvement
+Community Involvement Challenge - This idea suggests how to use EMC Community Network and Social Media channels for improving relationship and communication between customers and engineers. 
+Customers post their queries on ECN. These are mostly answered by non-EMC'ers and they build a better relationship with customers. Many a times, customers mention them whenever they are looking for help. Our responses in a timely manner help increase customer satisfaction and help build a personal relationship.
+
+Once a customer who was disappointed with support, posted his query on ECN "EMC support is not providing a proper solution". ECN moderators observed this and engaged the customer immediately on ECN and started working with him. This is a real example on how we can sustain customers faith.
+This idea can be implemented at minimal or nil cost. 
+
+1. All TSE/SME are to follow in ECN, a community depending on the product they work on. This will automatically send a customer query notification to their inbox. If any TSE/SME finds the query interesting, they may reply to the post.
+2. All SMEs to spend at-least 30 mins daily on ECN forums to answer customer's queries as per their product knowledge. Once an SME responds to a query with complete information, it can be viewed and reused multiple times by customers. A post marked as answered will reduce a significant number of incoming SRs as these posts will be Google searchable.
+3. Whenever TSEs/SMEs responds to a query, they receive points for it. Currently these points show how many queries they have responded to. More points meaning more responses. We suggest to add a value of these points. It can be an award or ECN points could be converted into smiley points.
+4. All employees should be encouraged to follow various EMC accounts on Twitter and try helping customer if required.
+1. Increases Customers and Engineers involvement in the community network & social media.
+2. Increases opportunity for more communication without an SR.
+3. Helps customers to resolve issues on their own.
+4. Creates a friendly relationship between customer and engineer.
+5. EMC engineers get a medium to know more about customer's issues/concerns/feedback and helps to understand how to serve customers better.
+6. Helps to improve TCE.

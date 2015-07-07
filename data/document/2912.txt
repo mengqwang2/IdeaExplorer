@@ -1,0 +1,12 @@
+Switch to LED's 
+This idea addresses "Environment Stewardship challenge " in office workplace in every EMC premise.  
+I was using CFL's at home, after changing to LED's the difference was noticed. It improved lighting ambiance at home and also the electricity consumption has reduced. I came up with this idea based on the observation made at Bangalore EMC office and implies wherever applicable.
+Presently CFL lighting system consists of 2/3 CFL's in a single enclosure, light is focused in one direction. Controlling brightness of individual CFL's is not possible. Solution for this problem is to replace CFL's with LED lights which resolves the problem listed. As no additional circuit is required, LED modules fit into current fittings. 
+Other changes which can use LED lighting are 
+1. Solar Street lights in EMC premises
+2. Sensor based lights which can turn OFF during day and turn ON in evenings
+3. Motion activated lights on floors which turns ON when some one enters the floor and turns OFF when there is no movement. 
+By implementing this, EMC benefits with 
+1. Improved lighting, better control and ambiance on the floors, meeting rooms
+2. Reduction in power consumption which saves cost to company, promotes Green environment.
+3. Reduces maintenance cost of replacement

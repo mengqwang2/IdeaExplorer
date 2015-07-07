@@ -1,0 +1,11 @@
+EMC platform to build a data pivot and Analytic services for the IOT
+
+NA
+The idea is to build a data hub/pivot using EMC platforms such as Atmos. Atmos solves the constraints of the rigid mount point based interaction between the storage and the consumer.
+
+Once the data is with in this data hub, 
+Use Pivotal Bigdata suites to offer analytics as a service.
+Use RSA Archer eGRC to offer Compliance as a service.
+This would help EMC to stretch its reach to the Low end consumer based market. The stats say that an average home with 40 to 50 intelligent devices would generate a data of 200 TB per year (Courtesy: IDC Predictions).
+
+

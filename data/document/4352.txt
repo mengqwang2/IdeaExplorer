@@ -1,0 +1,9 @@
+Collaboration web portal for CS - India COE
+
+Whenever there is a collab, there is a challenge. 
+I figured that I didn't know my own Geo folks. I didn't know who sits 2 bays across where I sit. Which team or who is the WFM/Manager for that team.
+If only I'd known, I would have saved so many customer's time.
+This is specific to CS team in India COE. We should come up with a collaboration portal that consists of Names of SMEs, Managers, WFMs, Shift times, Queue names for all products. 
+Its easier to reach out to people who are available locally.
+This helps when customers have opened an SR with one product and is also looking for help on another related product.
+

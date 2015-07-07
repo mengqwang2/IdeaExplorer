@@ -1,0 +1,78 @@
+ “EMC-SAW” - EMC Smart Active Workplace – Boost Employees engagement and motivation leveraging 3rd platform technologies combining (social + Employee Activity Analytics+mobile)
+
+ The idea came up from participating in different EMC activities and initiatives. We have been always seeing that they are not yet connected and not tracked. We have been thinking for a way to aggregate and profile the whole story. We wanted to create our own portal for this purpose or integrate it to the old “EMC One”. Once Jeremy Burton’s email came announcing “Inside EMC” we were shocked with the huge enhancements made which has the answer to some of what we had in mind. We started to think in a win-win scenario for utilizing “Inside EMC” and promote this new website in the same time. Finally we came up with this packaged solution after one-to-one brainstorming meetings. 
+
+*STRUCTURE:
+--------------
+
+The idea works as follows :
+
+•	EMC Egypt COE will use a unified central web portal for activities and events announcement, tracking and “Wall of Fame”.
+•	This web portal will be a one-stop shop for all what is related to activity tracking, engagement and recognizing. The good news is that we have “Inside EMC” portal launched on 2nd of June. We will leverage this portal to serve our needs
+•	We will promote and use this portal’s mobile app for maximum ease of use, mobility and reachability to our employees.
+
+•	Egypt COE will have its active zone on this portal and the story will go  as follows in the Use Case : 
+
+
+1.	COE management will have access to this portal to launch announcements for events, activities or initiatives.
+2.	The announcement will be published on the “Announcements Dashboard” and a notification will be sent to a group of or all employees depending on the targeted audience. Mobile app announcement will enable maximum reachability and mobility.
+3.	The employees can vote as “Participating” or “not participated”. Votes will be collected automatically for the “Event admin” responsible for this specific activity and for COE management.
+4.	Each employee is having a profile including all information about him/her. This feature is already there in inside EMC.
+5.	The portal will be divided into different interest areas such as: an area for “EMC Belmasry” and another area for “Egypt COE innovation” …etc
+6.	An employee can subscribe to more than one interest areas to get updated with its news and highlights. 
+7.	Each employee’s activity in different initiatives is automatically tracked by the “Activity” tab in his profile.
+8.	Participation and engagement to different events/activities will add to the employee’s “Diversity Points”. Diversity Score measures how much the employee is engaged in different and diverse activities.
+9.	Big effective participation and engagement in certain activities will add to the employee’s “Vertical Success Points”. Success Score measures how much the employee is successful in certain activity or family of activities.
+10.	Each quarter “Diversity Champs” and “Vertical Champs” are recognized in the “Wall of Fame” of the portal welcome page. Another physical wall of fame will be displayed in the B1 or the cafeteria showing the activity champs pictures and brief success story.
+11.	The physical wall of fame will be something similar to the one implemented in CS KPIs wall of Fame but on a more social way and for all the COE.
+12.	The champs will be awarded with a symbolic prize denoting their achievement such as : 
+
+   ?	T-shirts with “EMC activity champ” Logo or “EMC charity champ” 
+   ?	A suit brooch with similar logos 
+
+13.	The employee profile in “Inside EMC” will have a stamp denoting his achievement/award as well as “Awards Dashboard” inside his activity tab.
+14.	We will make sure employees use this portal by putting vital announcements to it such as the Fun Day timing ..etc
+15.	Employee activity on “Inside EMC” is already measured by ranks such as “NanoBlogger “. Egypt COE employees will be the most active members on “Inside EMC” by using it in the daily activities tasks.
+16.	When internalComms want to track the participation per activity, all what they need to do is to login to the portal, click on the activity link and click on the “participation” tab (no need to check outlook emails and attendance sheets..etc)
+17.	If a manager/employee would like to track the activity of certain employee, all what he/she needs to do is to click on the employee profile and click on activity tab or the activity score.
+18.	COE management will use the comprehensive activity scores to take corrective actions like approaching employees with lowest activity scores and have an orientation or the like.
+19.	Privacy and security considerations are already there in inside EMC built in features and will be considered in the added features. (for example a manager can see the activities of his/her direct reports..etc)
+
+
+•	If a second layer needed for tracking (to make sure that those who voted already attended) then we can use access card reader that scans the employee access and updates the “inside EMC”
+•	We will run Data Analytics on the employees’ activities history as well as posts to see what they like the most and what they subscribe to the most.
+•	“Employee Activity Analytics” is now unlocked, meaning that it is now at few clicks as we already have the data tracked and aggregated per employee and per activity. Also data is made quantitative using numbers and scores. Such scores are also useful in GPTW analytics.
+
+•	“Jeremy Burton” announcement for “Inside EMC” release on June 2nd was to be unified portal for social activity, announcements and collaboration. We will be aligned with the global vision automatically by migrating to this platform instead of usual emails.
+
+•	On-the-go while we are solving our internal challenge and boost employees engagement, Egypt COE’s rank will go high when it comes to active members on “Inside EMC” and we can be a success model for the whole EMC federation.
+
+
+
+*COMPETETIVE ANALYSIS:
+----------------------
+
+
+•	Email announcement Vs. mobile and web centralized announcements: Tracking the participation manually using old method is time and effort consuming, tracking is never made easier (unified view per employee) so no use for aggregation of information together again.
+•	Physical wall of fame Vs. Emails : On premises physical wall-of fame and announcement boards proved to be very effective when it comes to raising employees’ awareness and engagement. It is much more effective than emails sent announcing the achievement. I am more likely to watch the wall of fame in the cafeteria while eating than while I am tied to my desk checking customers’ important emails. The website wall of fame is still there as well.
+•	Tracking the participation manually using old method is time and effort consuming, tracking is never made easier (unified view per employee + participation summary per activity ) so no use for aggregation of information together. No need to look in old emails or manually extract data from paper sheets.
+
+•	I am more likely to check the announcement/notifications anywhere using the mobile app than checking my emails.
+
+•	Why inside EMC global site not specific site for Egypt COE: we want to be aligned with the global vision + leverage many existing features + we do not want to invent the wheel + “Inside EMC” will have focus globally and will continuously be improved so no need for us to have our own portal and maintain it.
+
+•	POC example is ECN (EMC Community Network) which is a technical forum. It has profile for each employee and “Awards” as well as points coupled with your profile for motivation.
+
+*IDEA PILLARS:
+-------------
+
+“Employee Activity Analytics”, “Centralized Activity Portal”, “Activity wall of fame”, “Mobility”, “Social Networking”
+
+*REFERENCES :
+---------------
+
+-	https://inside.emc.com/welcome 
+-	Jeremy Burton’s email announcement for Inside EMC sent on 2nd of June.
+-	https://community.emc.com/welcome 
+
+

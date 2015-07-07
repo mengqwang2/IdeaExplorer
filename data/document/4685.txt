@@ -1,0 +1,19 @@
+Automatic stream setting for replication to scale up/down without manual intervention
+
+1.Currently there is an upper bound on the number of streams that a replication context can use and this is set by default based on the DDR model. It is not a function of the amount of data that needs to be replicated or the change rate. If a customer DDR has a lot of streams available and a lot of data to replicate, but is bottlenecked by this upper bound, he has to split the data to be replicated amongst two or more contexts (so that we can replicate more in parallel). This is a pain point for the customer as we have observed in multiple cases. 
+
+2.Directory replication is a log based form logical replication provided by DD and we suggest customer to move to Mtree replication, which is a snapshot based replication.  Log based replication has bottlenecks caused by serialization enforced by the log and more contexts need to be created to achieve parallelism. We suggest customers to move to Mtree replication which is faster. 
+
+To solve the pain point 1 and to help customer move to Mtree replication, it would be ideal if we automate the replication sizing. 
+The proposed solution monitors the DDR to observe: the amount of data that needs to be replicated from a replication context, the stream usage in the DDR and predictively scales up a replication context to use more streams. 
+1.	Remove the upper bound on the number of streams a replication context can use. 
+2.	When a replication context is set up, gather information on the amount of data to be replicated  from the filesystem.
+3.	Obtain the number of streams supported for replication on the DDR. 
+4.	Obtain information on what other replication context exists and how many streams they are using. 
+5.	Dynamically calculate the number of streams that the replication context can use. 
+6.	Periodically gather information on the data that gets replicated by the DDR. 
+7.	And when the data to be replicated by a particular replication context goes above a threshold, dynamically recalculate the number of streams that are used by the context. (The data to be replicated is a function of the amount of data ingested into the replication source and the change rate). 
+8.	With this new prediction on the number of streams needed scale up the replication context as necessary to replicate more data in parallel. 
+9.	Number of streams would be set back to lower number if the data to be replicated comes down(automatically re-adjusting).
+
+

@@ -1,0 +1,10 @@
+Platform for Workload and Configuration Analysis
+
+The idea was generated based on the author's experience with workload analysis.
+We have different sources of information about workloads and configurations, e.g. sizing tools (VMAX Sizer and VNX Sizer), Workload Planning Services and health checking tools. We can build the platform for storing and analyzing (using machine learning technics) of different configurations and workloads. This platform can be used for:
+1. Finding similar workloads, identifying applications. Checking application specific best practices.
+2. Comparing configurations from different boxes but servicing similar workloads. Finding configurations which fit the workload in the best way.
+
+This platform will help us to provide deeper health checks and give users proactive recommendation how to improve the system configuration.
+
+

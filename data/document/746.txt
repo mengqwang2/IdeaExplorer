@@ -1,0 +1,5 @@
+Smart Traffic
+Introducing smart sensor system that can control the traffic.
+.
+introducing a smart cloud based system that is mainly connected with a set of sensor that are installed on the roads just before the traffic light, to measure how frequent is the cars passing by this traffic, then all the data gathered in this system will be stored on the cloud and then develop an algorithm that work hard to make the traffic overall movement smooth by working to open and close road and reroute traffic based on the real time analysis.
+this will help to decrease the traffic jam that all of us are suffering from, decrease the road accidents.

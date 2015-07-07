@@ -1,0 +1,7 @@
+Control your electricity bill!
+Instead of relying on traditional metering of electricity in Egypt,Our government can use this integrated solution for gathering,storing,processing,visualizing and finally analyzing data coming from sensors measuring power consumption at citizens home
+The idea was inspired from the problem we face every summer in Egypt.Because of high temperatures,many citizens use fans and air conditioners excessively which makes the government cuts off the power for long hours because they couldn't handle this huge consumption due to lack of energy resources.
+
+The data will be gathered by sensors placed on citizens home which will transform traditional readings into digital ones,will be sent to EMC storage on cloud based servers, analysed by an analysis solution supported by Pivotal the according to this analysis an SMS will be sent by a mobile vendor informing the citizen that he exceeded the limits of consumption and he/she needs to close some electrical devices in order to adjust the overall consumption.This solution will also provide the government a broaden overview about the consumption to be ready in peak times and predict shortage times by doing analysis.The citizen can also specify his own list of devices by order of priority that can be shut down if he exceeds the thresholds.
+
+This will definitely help the government to save a lot of money and energy.This will also build a customer satisfaction because he will continuously monitors his consumption and he can also control it by setting thresholds.

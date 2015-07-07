@@ -1,0 +1,5 @@
+Unisphere for VMAX should prompt when customer adding more than 255 devices to a Storage group.
+Proactive issue evasion. Better customer SAT. Better product design. Better TCE.
+Unisphere for VNX already has this in place.
+A pop-up or a message which would indicate to customer that he is over the 255 limit and there are possibilities that his host may not see the device. If customers could see something like that, they would rethink before committing the change.
+Proactive evasion of issue. Better customer SAT. Product stability.

@@ -1,0 +1,11 @@
+Bangalore ground water heat map
+
+First thought about it from the Innovation roadmap 2014
+The solution I propose is to come up with a water heat-map of available ground water resource. The way it works is
+1. Adding a IP/GSM enabled sensors to the water pump that pumps water from these water tables. These will measure couple of things
+a. The Water Pressure
+b. The depth of the water table in the region
+2. Transmit this data to the central server.
+3. The server provides a real time heat map of the region based on the above metrics.
+
+

@@ -1,0 +1,5 @@
+Provide essential training when developers work in a new field.
+
+When I was just in EMC, I had a mentor to help me get familiar with Inyo Simulator. When I am working in Dart/Storage, there is no such person, I am not comfortable then.
+Just assign a mentor to the developer. The mentor should be a experienced developer. Let the mentor organize training. The manager should monitor the whole process.
+

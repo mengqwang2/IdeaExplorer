@@ -1,0 +1,15 @@
+EMC Top Trumps
+
+Was as a result of a brain storming session where a twist was put on the original idea to incorporate the challenge set out
+Just like the game, each product will have a rating out of 10 under different headings. For example (more headings can be used)
+
+Xtreme I/O Charger
+Cloud 10
+Speed 9
+Security 9
+Big data 5
+ 
+The player then picks the heading that they think will score higher than the equivalent heading on the opposite players card.
+
+This will then educate the player on the best EMC product for a particular heading
+

@@ -1,0 +1,18 @@
+Compute Tiering
+
+Working with HA applications and GOS. IOs have relationship with CPU performance.
+The idea is to classify compute based on CPU & Memory performance with an additional plus factor for high availability. The below example illustrate how compute can be classified based on compute benchmark and SLO
+
+1) CPU PassMark Score above 17,000 with HA - Gold Plus
+2) CPU PassMark Score above 17,000 – Gold 
+3) CPU PassMark Score 15k to 16999 with HA – Silver Plus
+4) CPU PassMark Score 15k to 16999 – Silver
+5) CPU PassMark Score below 13k with HA – Bronze Plus
+6) CPU PassMark Score below 13k – Bronze
+
+With Compute and Storage SLOs users can anticipate the performance that gives better planning, management and performance capabilities including transactional protection.
+
+This could be achieved through a Management Software (similar to vCenter) could be developed to discover hosts and GOS instances based on their compute capability. Administrators can configure HA for some of them through cluster software and classify them as HA ready. Now for example if an application that requires an uptime of 100% and maximum performance it could run one of the Cluster Nodes that meets the above compute criteria. One such example would be Guest Operating System (GOS) with HA that is made to run inside the Symmetrix. 
+ 
+
+

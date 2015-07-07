@@ -1,0 +1,21 @@
+SMART APPLICATION CONVERTER
+Implementation of this idea will ease/automate technical drawing every EMC Sales SE does while generating proposal/solution doc to customer. 
+I was thinking of different options to enhance PreSales service and was looking at different pain points current SEs are facing. One of major time consuming task for Presales TechDrawing team/ EMC SEs is the problem mentioned above.
+Presales TechDrawing team is internally evaluating options proposed.
+
+Upload BOM which is in text format to Application which automatically converts BOM to Drawing in customer presentable format.
+First, Drawings/Stencils repository will be made for all possible line item configurations of BOM. Eg: For EMC VNX storage product all combination of Disks, Disk array enclosure, Storage Processor enclosure etc will be made as a repository in a standard format.
+Each stencil repository will have one Stencil repository ID which will be used by Application to pull final drawing. Each stencil repository will be unique to a particular drawing.
+
+Step1: Application reads and analyses each line item of BOM
+Step2: After analyzing, Application decides which Stencil Repository ID is required for BOM analyzed
+Step3: Application pulls drawing from the Stencil Repository ID and paste in Visio/PPT/PDF format.
+To add-on, above mentioned solution is positioned as Drawing-as-a-Service where any sales engineer uploads their BOM and gets drawing report.
+
+Process Flow & Sample Input/Output attached for your reference.
+https://inside.emc.com/docs/DOC-153892
+
+Quick selling for EMC. 
+It will save SE’s time on proposal generation leading to more sales with Customers. – Money, Enhance productivity
+Quick response to customer requirement – Improves Customer Satisfaction
+Ease tech drawing process – Optimizes Process

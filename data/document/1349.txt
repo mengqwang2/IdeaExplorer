@@ -1,0 +1,7 @@
+Streamline the Meeting Room reservation process
+The idea is to streamline the current searching and reservation process for booking a meeting room with in specific building/office.
+The idea came up when a new user(new joiner) who is completely unaware of the working office infrastructure, has to go through many challenges to find a available room with in a building.
+1)The idea is to innovate a filter within outlook in order to skip the meeting rooms which are not in same zone/network/Location. The system should only display the meeting rooms which are relevant to a particular building/office.
+
+2)We will come up with a UI portal which will connect to existing exchange server through web service and poll data. The portal will display the available and busy rooms with different color, There will be option to book a room from portal by clicking on the room so the user don't have to use search using outlook.
+This idea will benefit the new users and ultimately this will reduces the time spent on the current effort towards room booking and enhance the productivity as well.

@@ -1,0 +1,8 @@
+Bracelets detector for Heart rate and blood pressure
+
+What better action can a person take but to be there for their family in real times of need. 
+My idea here is to create a bracelet that is linked to a software application that can be installed on any Smart Phone and tablet that can detect and Measure Heart Rates and Blood Pressures, and display them on portable devise remotely. 
+The elder family member could just simply wear the bracelet on their wrists and it will automatically detect their Heart Rate and Blood Pressure. Once the Bracelet detects that the elder member has unstable or low heart rates and blood pressure, the bracelet will automatically send a notification to the member’s Relative Smart Phone or Tablet, notifying them that there might be a problem or to take action..
+This will help People to be there to their elder family members in real times of need, and to be more proactive to tack instant action in unexpected situations. 
+
+

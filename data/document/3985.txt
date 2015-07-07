@@ -1,0 +1,5 @@
+Power Saving
+
+It came to me when i was thinking that the Battery was always charging and consuming a lot of energy for no logical reason while for example locking the laptop at the office till the next day and such
+While Laptop is docked at the office it only starts to charge when it hits 50% and when it reaches 100% it stops charging until it reaches 50% again.
+

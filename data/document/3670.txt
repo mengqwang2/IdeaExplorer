@@ -1,0 +1,9 @@
+Remote Proactive Mobile App
+
+Customers and Remote proactive engineers alike need an easier way of checking the assigned activities along with all the details. 
+A simple mobile app that will be installed on the mobile phone and can be used to provide access for the customer or engineer.
+
+Provide real time updates to customers and engineers alike so that they are able to check what activities are scheduled along with all the associated details.
+
+Different levels of access can be implemented to provide tiered access for managers, engineers, field, partners, and customers.
+

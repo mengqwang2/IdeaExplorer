@@ -1,0 +1,20 @@
+Better Service Tiers with k-means clustering
+Challenge: advances the “Art of the Possible” in managing and orchestrating hardware elements in a Converged Infrastructure environment ...
+
+Response: you can't manage and orchestrate until you define service levels.
+This draws back to EMC ILM services days, where I observed multiple storage service catalogs being created.  The same problem exists, one a larger scale, for IAAS customers.
+
+Some big data training from Coursera helped me understand the simplicity of k-means clustering and how this might be applied to the catalog development problem.
+We propose building a service level decision tool using modeling of Vcenter performance data.  Using k-means clustering to determine demand-based service tiers.
+
+Our enterprise customers have 10's of thousands of VMware guests.  Managing the capacity requirements and service tiers for this much resource screams for applying automation.
+
+By using clustering techniques, we will analyze VMware performance data and help the customers plan for current and future service catalog offerings.  We will review this data to see where the natural boundaries are for CPU, memory, and I/O demand.  Through clustering, we can offer a draft service catalog that is based on real-world data, rather than politics, perception, hopes, rumor, and tribal knowledge which forms the basis of typical service catalogs .
+
+The ease of tiering and resultant capacity management savings will significantly differentiate EMC in the CI and hyper-converged makertplace.
+
+Initially, customers would engage our consultants who would deploy a tool to assist in service catalog definition.
+
+Then we'd enable the customer to perform their own analysis using a tool, probably delivered as SaaS.
+
+Finally we'd build capacity planning

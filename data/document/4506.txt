@@ -1,0 +1,5 @@
+Integrate Mozy cloud backup into OpenStack to provide enterprise level data protection for both image and storage
+
+OpenStack is a hot project among cloud industry. But it lacks some enterprise level features. If we can enhance OpenStack with EMC products' enterprise-level features, then EMC can have more share on cloud market.
+The implementation is that we add some interfaces and drives for communication between OpenStack and Mozy online backup. Then the OpenStack can backup all the images and data in a regular period of time without users' attention. And at the same time, advanced feature of Moze oline backup such as file sync and data shuttle can be leveraged as well.
+

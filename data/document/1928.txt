@@ -1,0 +1,20 @@
+EMC IT Hosted EMC Certificated Docker Hub
+Docker/ container technology is a rising star, more and more employee will use Docker/ container in their daily work. But it’s not effective and efficient to use Docker inside EMC today, thus it is quite important if IT department could support the EMC certificated Docker ecosystem inside EMC to make our life easier.
+We encountered some performance issue when using public Docker hub and spent a lot of efforts to operate our own private Docker registry server. We also found that some other development have the same issue and requirement, thus we think IT could provide such Docker Hub to make our life easier.
+Docker provides an official guide to deploy a registry server (https://docs.docker.com/registry/deploying/). 
+
+Our idea will provide enterprise features by leveraging EMC proven hardware and solutions:
+1) Distributed to improve access efficiency from different geo-locations.
+2) High Availability.
+3) Resilience.
+4) Performance.
+
+Also a certification process would be carefully defined to provide EMC certificated Docker image with guaranteed quality.
+Benefits:
+1) BU don't need to spent resource to stage their own Docker hub.
+2) Docker image could be shared with guaranteed quality.
+3) Development efficiency could be improved.
+
+Success:
+1) An enterprise Docker Hub is staged inside EMC.
+2) A certification process is well defined.

@@ -1,0 +1,5 @@
+PDM SLA Meter
+Adding a new procedure for the approval process in TEAM SQC.
+When requests take a long time, this effects the booking deal on the other end of sales. Sometimes we get blamed for not booking the deal in time. Also It effects the SLA of our cases which may dis-satisfy the customers who send us requests (System Engineers). 
+When PDM's have an SLA time for replying back to our requests, this will save time, energy and not to mention that this will effect the booking time and rush during end of quarters.
+This will be successful when PDM's answer back to our approval emails in time. We will save time, energy, phone calls and deal bookings.

@@ -1,0 +1,5 @@
+Introducing variable deduplication in xtreamio
+In xtreamIO we have fixed deduplication on 8KB blocks we can have variable deduplication
+While learning xtreamIO i have come across xtreamIO dedupe .In xtreamIO video ILT i have realised regarding fixed dedupe.While i already worked on DD and avamar i started comparing this dedupe with BRS products hence I think if we have variable dedupe we can make most out of it which will make our customer happy 
+We already have avamar and DD in deduplication race.While all our storages are in fixed dedupe race ...It will be first product which will come with stronger dedup . We can have inline varibale dedupe and it will run on entire array so it will be a global dedupe
+We can get more out of SSD and this will improve dedup ratio and hence data reduction ration in xtreamIO

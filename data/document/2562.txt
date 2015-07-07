@@ -1,0 +1,21 @@
+QRcode for every EMC machine
+Customer Services Challenge
+Global Product Operations Challenge
+TCE Challenge
+as a DSM for Africa, I have lots of machines installed in nowhere and Install Base is wrong about it. some machines were installed by partners that don't hear about PNT tool (the mandatory tool using Excel file to be sent to Install Base team to manually edit partners' entries about a machine).
+Some machines are drop down [sold in a country and installed in another country without local EMC knowledge] that's why I ask to have a GPS coordinates feeding in the smart phone [sometimes we will need to avoid coordinates as confidential customers don't allow to unveil their locations].
+In case machine is installed by the customer, he's responsible of scanning this code and sending it to Partner Manager, DSM or as an attachment in an SR for the Install Base Group to tackle the machine to be approved by DSM or Partner Manager.
+
+QRcode sticked on the machine and another one on a paper inside the main rack of it.
+4 people should use it:
+1- PM (Project Manager) of the project, 
+2- CSE (Customer Service Engineer) who installs the machine,
+3- Service Partner [Partner] who installs the machine if not installed by EMC.
+4- DSM (District Service Manager) as accountable of the support in that area/district.
+
+Installing Engineer scans the QR code with smart phone (iPhone or Android) through a developed App that will be created to feed the Install Base,
+an added editable cell reflecting the GPS coordinates of the QR code place is taken.
+Then nothing will be reflected in Install Base until it's reviewed by the DSM and/or Partner Manager.
+1- On the spot real status of every machine or rack: Installed / Deinstalled.
+2- Accurate addresses of customers' machines with exact Postal codes to improve CSEs' time to/from customer visits.
+3- Better management of racks replacements in case of damages

@@ -1,0 +1,6 @@
+Searching purchasing spec. & functional spec. in SAP
+In existing SAP, it’s complex and time consuming for us to find the purchasing spec. or functional spec. Even get the purchasing spec. or functional spec., it's very hard to know if they are the latest version or not.;
+As we using Winchil, it's very easy for us to get the latest version purchasing spec. or functional spec. by searching their part number.
+Every time, as I am trying to get the purchasing spec. or functional spec. in SAP, the existing way is to search them by their part number, but there will be a very long list of CR, I have to open each of CR to looking for the purchasing spec. or functional spec., even I get the purchasing spec. or functional spec. eventually but sometimes they are not the latest version, this induce to a lot of confusion and time consuming.
+To create a website or creatig a functional botton in SAP for us to search by the part number of purchasing spec. or functional spec.(similar as Winchil EMC used before), to let us get the purchasing spec. or functional spec.;
+Time saving for the users of purchasing spec. and functional spec., and also increase the working effeciency for them, and help EMC on continuous success.

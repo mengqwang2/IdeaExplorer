@@ -1,0 +1,8 @@
+Federated Embedded Data Transformation Servers with in-memory storage object framework
+
+NA
+The solution is to deploy such B2B data transformation appliance inside EMC II storage platform so that data transformation could done without sending the volume of raw data outside of the storage servers.  This could be done by embedding the data transformation engines from third party vendors like informatica. These component contain pre-built transformation rules that significantly reduce the cost and time to market of deploying standards based data transformation engines. 
+
+When embedded, these libraries could be extended to federate across multiple EMSD and other EMC II platforms in a seamless manner using a notion of object federation.   The embedded environment could be extended to provide in-memory key-value based storage access to minimize the storage interface access overhead between the embedded guest and the container infrastructure.
+
+

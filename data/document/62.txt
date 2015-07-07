@@ -1,0 +1,31 @@
+A generic framework design of predictive analytics in data center
+EMC has a wealth of storage products available to the cloud infrastructure and data center. Certainly we would get a large number of data, for example, device running status information and performance data with various benchmarking tools. This provides a strong support for us to build our own analytics design and platform; also, the analytics results supply a wider perspective and decision support for product optimization.
+This idea is come from the OCTO projects Triangulum Heliosphere and Supernova. Our team’s job is focusing on the predictive analytics in the cloud environment. OpenStack is used as the reference cloud platform.
+We propose an extensible framework design supporting predictive analytics in data centers and cloud environment. 
+
+1)  Top Level Architecture
+=========================================
+
+The framework consists of several independent functional modules, including monitor, analytics, prediction and execution, and one data module providing a unified data store for each functional module.
+
+• Monitor: The monitor module is responsible for periodically collecting information on such as resource configuration, capacity, consumption, throughput, events, status and logs of applications. For example, resource costs and application performance can be calculated based on data collection.
+
+• Analytics: The module is performing data analytics by leveraging machine learning methods, in order to build historical behavior patterns and prediction models, which are stored in the repository as the knowledge. 
+  Suitable learning candidates aiming to prediction include linear regression, non-linear regression, enforcement learning, ensemble learning, and etc. Patterns identified are helpful to adjust training time window, set stop criteria of learning iterations, and accelerate convergence.
+
+• Prediction: The module generate predictions for the future time intervals, so as to provide users an anticipation view of outcomes, eventually help to make decisions on changing resource configuration. Incremental learning also can be applied to deal with changing characteristics over time in real-time data series.
+
+• Execution: The module is to visualize analysis results, to generate decisions based on predictions, with satisfying user-specified requirements of capacity, performance and reliability.
+
+• Repository of data and knowledge: It is to provide a unified data store of monitoring data collections and statistics, patterns and prediction models learnt from monitoring data, warnings and decisions generated. The repository takes a role in interacting with each module, so as to decouple dependencies between modules.
+
+2)  Delivery Model
+=========================================
+
+The analytics framework can be appended to the current EMC data center solutions as an advanced service. The software functionality is implemented as the analytic service in the PaaS, for example, the Pivotal Cloud Foundry.
+
+3)  Hardware Acceleration for Prediction
+=========================================
+
+A few more things about hardware acceleration applied to prediction tasks. The processes of training and building prediction model are completed offline with historical data set; while the prediction and incremental learning are performed online with real-time data. The online task of prediction can be implemented with FPGA board, for example, NetFPGA board, in order to get hardware acceleration. The NetFPGA board is a Xilinx Virtex-5 FPGA design from Stanford University, focusing on high-speed networking prototype. The learned prediction model can be converted to the logic design to burn into the FPGA board. The input data is sent to the board in the form of packets via 4 x 10 Gigabit Ethernet ports, and the prediction is send out via the Ethernet port, too. The online task of incremental learning, however, is too complex to convert to the hardware logic implementation.
+The success of predictive analytics relies heavily on the quality of data collection. With the rich data set and dedicated learning model selection, the design is capable of producing reliable predictions. Also, the flexibility and extensibility of design gives deep insights into the data and supports to eventually real-time decisioning.

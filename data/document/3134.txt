@@ -1,0 +1,5 @@
+NetWorker capable of scanning virus 
+
+I came across this idea when i recovered a backup which was infected by virus and my hard disk got corrupted.
+NetWorker should poses the inbuild ablity of Anti-virus . Just before the data is written on the target device ,the scan operation should be enabled to virus check and if any are detected , they should be logged and tracked for further investigation . So that the backup is virus free .
+

@@ -1,0 +1,29 @@
+Innovation through Diversity - Creating Pods of Cross Cutting Role People in the Entire Product Chain
+This approach allows people who have the same basic interest in a product or EMC service to come together and create a pod/network between them. These are people who would otherwise mostly not know each other, but through their shared belonging to a product line or other business unit would have shared business goals. This pod of people could then both network as well as innovate in solving interesting problems.
+I got this idea in response to reading the challenge.  As a VPLEX Architect, I have noticed how often I (and many others) am frustrated by my/our lack of access to customer facing people, manufacturing people, sales people and others. The more I know about what customers and customer facing people, the more that I can make sure that our solutions address their problems and opportunities. This would help all of us to both create a cross-cutting (more horizontal) set of people to connect with, as well as a vehicle to consistently hear related, yet different perspective viewpoints.
+My suggestion is that every employee who wants to be, be part of a POD that meets twice a year. The pod will include others who are in the same part of the business (product, service, IT, ..) but who rarely directly interact with each other.
+
+For example, for a product, this pod may include a software engineer, architect, a software tester, a hardware engineer, some people who provide consulting services to customers, possibly a product management person, a sales person, a pre-sales person, other business person (such as a pricing person), an "installer" of the product, etc.  This cross functional pod would share one thing.. an interest/employment in the particular product or service.
+
+This pod of people would meet twice a year to discuss a "problem". One or more of the participants would propose a problem to be discussed a month in advance and the pod would vote on the actual topic to be discussed. In addition, one or more people would be trained to be "facilitators" of such an event.
+
+As all the pod participants have an interest in the same product or service (for example, for me it would be VPLEX), there would be a common language and common understanding of the goals of the product. But, because most of us see different aspects of the product (the proverbial six people sensing an elephant from different perspectives), there would be the opportunity for addressing a problem and finding creative solutions.
+
+We'd meet twice a year !!
+
+This twice a year pod would last half a day or a day each time. And then, if something interesting happened, the pod could ask to be allowed to meet more often to work on their idea.
+
+As the typical pod would have 10-12 or so people, it is likely that a product like VPLEX may have 50-100 pods.  Some of these pods would create great ideas, while others would not. All is OK.  Each pod would report its results.   We'd have to work out how often could switch pods. However, the idea is to start making friendships and collaborations that span space and time.
+
+The pod meetings would be via WebEx, as they would typically include people in different geographies.  The key is to have the "problem to be addressed" and a "somewhat trained facilitator" as well as video training for everyone to get a sense of the pod-process and how the pod-session would proceed.
+
+In addition, every product/service line could have its own inside.emc.com page where interesting questions and observations could be published.
+
+Management would have to agree that providing a half a day or a day twice a year creates real value for them, both in the quality of the person-to-person networks and the diversity of innovation that truly addressed multiple perspectives.
+Create a proof of concept for this process.
+
+We'd create a few 10 pods pods throughout the company.  Have at least one person per pod be trained in basic facilitation (and be the actual facilitator) and have a skilled professional facilitator guide/mentor that acting facilitator (and be the mentor). Some of the pods would be for product lines, others would be for other areas of interest (such as consulting services or IT).
+
+The actual pod meetings would occur, led by the actual facilitator. The mentor could whisper suggestions to the actual facilitator or provide other mentoring both during and after the pod meeting. 
+
+Based on the results for these 10 pods, we could fine tune this idea and decide if it should be rolled out in greater numbers.

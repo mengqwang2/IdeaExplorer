@@ -1,0 +1,20 @@
+Lync as the Platform for EMC Internal Apps
+
+We saw the requirement of many EMC divisions to use mobile App to improve the user experience, but there is no good platform to link PC-Mobile-Web-Social, we want to leverage the powerful Lync platform to win on all these areas. 
+Our target is to leverage Lync as the platform to server all kinds of Apps for all divisions. 
+
+Unified platform to server both PC and Mobile:
+Lync has a very big App eco-systems, and there are many mature Apps on the Appstore. 
+We can also develop our own Enterprise Apps according to our specific requirements, Microsoft opens its API - Microsoft Unified Communications Web API (UCWA),  a REST API that exposes Lync Server 2013 Instant Messaging and Presence capabilities.
+
+As Lync 2013 supports mobile platform and has mobile App, we can extend these Apps on PC to Mobile easily.
+
+Credit System:
+In order to improve the social capability, we propose to add a credit system to the platform, for example, if the Admin sends a survey to employees, he can set a credit (usually it’s controlled by the platform) to the survey, if the employee submits the survey, he/she will get the credit. Every year, each division can promote those employees with the highest score.
+
+Another typical activity which needs the credit the system is community support or environmental events, for example, if you attends one community event, you can get 10 credits for the participant, if you do one good thing to benefit the environment, we can also give proper credits as an encouragement.
+
+Intranet Integration:
+Lync can integrate with many internal resources, especially Inside EMC (our new social Intranet), we can publish user activities to the social site according to user’s setting, for example, for the environmental event - Sustineo, when they register the activity to Lync App, they can also be shown on “Inside EMC”.
+
+

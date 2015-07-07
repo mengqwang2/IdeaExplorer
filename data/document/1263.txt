@@ -1,0 +1,16 @@
+Delivery:E2E Horizon 
+Create a single Intuitive all-encompassing data store for every element of a Managed Service engagement lifecycle from initiation until project closure.
+Ideal business lifecycle flow in Managed Services: 
+Pre Sale /Due-diligence -> Solution -> Sale -> Transition -> Delivery -> Reverse Transition -> Closing of project
+
+Coffee table discussion and day to day particle challenges.
+Detail View:
+
+https://inside.emc.com/docs/DOC-155603 
+https://inside.emc.com/docs/DOC-155604
+
+Summary
+
+Develop an IT service management toolkit that integrates all the aspects of business and encourages collaboration between various business phases. This is will ensure that we get holistic overview of all the business aspects. Support executives get to view the entire business lifecycle. Pre Sales and the sales team get to see the financial implications in terms of workload analysis. Solution Architect can validate efficiency and effectiveness of their solutions. Since all the business activities are tracked in a centralized tool, a holistic business performance can be seen and unbiased decisions can be made. This approach will bridge the gap between Process metrics, service metrics, technology metrics, and financial metrics. Integration of this tool with an analytics engine and correlate various aspects and scenarios. This will assist in data driven decisions and lot less probability of hampered TCE. Another key aspect is correlation of lessons learned across business phases and customers. To make sure, we do not repeat the same mistakes. This can be achieved by masking the key customer specific information for security reasons.
+
+Better connection and traction between different phases of business.

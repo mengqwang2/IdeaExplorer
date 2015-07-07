@@ -1,0 +1,9 @@
+Errors and Faults Prediction Solution for EMC Products
+Idea revolves around the challenges to predict when a product would stop functioning. When production could go wrong due to any issues in the environment or in product etc. This idea is well inline with sponsor's challenges.
+This is new idea and easy to implement
+Solution is to make use of machine learning algorithms. This will be a centralized solution in the environment. Learning from one product or system would be used in other products. All products in the environment will be part of this solution. Solution learns from all the possible sources of information and uses it for the prediction for any issues in the environment.
+This is common solution for any product and is a kind of framework for EMC products.
+https://inside.emc.com/docs/DOC-156075
+If implemented, it will provide a framework for all EMC products. Issues and learning from one product could be applied to other products as this is centralized solution. It will be a great TCE.
+Errors can be detected in well advance and it will develop more customer trust in EMC product and technologies.
+

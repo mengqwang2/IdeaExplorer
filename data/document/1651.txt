@@ -1,0 +1,35 @@
+E2E - Reengineering of current processes within the O2C cycle to increase Cash Flow and reduce DSO
+Various processes & work flows within the O2C cycle need to be relooked at with an efficiency stand point. There are many tasks and activities than can either be automated or eliminated based on the scope of existing applications compatibility.  
+There are opportunities that can be explored with low cost add-on solutions to existing ERP applications that will lead to positive impact on the overall end to end cycle with increased cash flow.
+
+A couple of Quarters ago I took up a project to analyze customer pay pattern by manually pulling data from SAP. I categorized customers based on how late were they paying EMC ( Historical data for a year)and then assigned a risk category according.
+When High risk customers were contacted their feedback was taken in to account and again sub -defined as issues Internal to EMC (Controllable) or External to EMC (Un Controllable)
+
+A deep dive in to the internal issues showcased that there were a lot of internal processes that could either be streamlined or enhanced to avoid Invoice rejection, Customer dissatisfaction on Shipment delivery/installation, effective contact strategy by collection team.
+
+The past 6 months have been all about Data collection and identification of issues. The approach has been end to start of the O2C cycle. ( When invoice was closed tracing it back to how Order was booked)
+In order to enhance the overall efficiency of the O2C cycle, each delay factor will need a new strategy to minimize or eliminate error. Also there could be a real time visual display of the entire workflow starting from Order booking to cash application on a single window to track progress of each order.
+
+A possible solution to the top delay factors are 
+
+1). PO Lines not matching Invoice – Research has showed that customers reject invoices as their PO lines do not match EMC invoices. OCR (Optical Character Recognition) technology can be used for extracting PO line item data and mirror that data on to the invoice. This can be done at the time of order booking. These OCR add-ons solutions can be embedded within SAP.Data validation can be introduced at various levels in the workflow.
+Through this, a lot of manual work and errors can be eliminated not just at the GRO level but at the invoicing level too.
+
+2). POD’s /Shipment delays/Installation issues/PPW not found – The average time taken to secure a missing Paper Work or Proof of delivery from respective teams is 24-48 hours. If current SAP functionality can be enhanced to add/attach documents in the system then analysts can retrieve this PPW in SAP itself. 
+Hence the time taken to raise SFDC case for PPW and sending emails to distribution team can be eliminated. Also the legacy DMS application that currently holds all PPW can be decommissioned leading to faster access through SAP. By eliminating SFDC/email cases for PPW, Booking team and Distribution Analysts can utilize time on core activities. This gives Collections analyst the visibility and access to PPW at a much faster rate that in turn can be sent to customer hence increasing customer satisfaction.
+
+3). E invoicing – This process will help lower manual cost like print , human error, helps easier tracking and most importantly has a major impact on DSO 
+
+4). Collection Strategy – Currently there are no tools that advice the best strategy to approach a portfolio and no Risk Classification for customers, the risk classification is only on a Credit Level. 
+
+There is a need for Risk classification based on Payment pattern.
+The strategy has to be based on who should I contact? When should I contact? 
+Effective collection strategy should be based on pay pattern. How has the customer paid in the past, is the customer High risk ( Days late in payment ) are his payments influenced by external or internal factors.
+Data analytics tools like SAP Lumira, Tableau ( Which are currently in POC stage ) should be incorporated to assist, predict and analyze data.
+
+5). Reporting - There is need for a centralized reporting structure/team, currently each team within the O2C cycle across various Geo's have their own reporting mechanism with restricted access to common data. There has to be standard automated publishable reporting structure in place for visualization and effective decision making.
+
+Partnership program – Even though this is outside the scope of O2C, there is opportunity to explore and encourage a partnership program between customers ( High Value accounts) and O2C teams. This will help understand their pain points leading to TCE and possible increase in cash flow . This will have to be done in conjunction with sales.
+
+The idea would be successful when we see a sequential reduction in DSO Quarter on Quarter. 
+This would not only have an positive effect on the Cash flow but will help in elimination on manual work, cost saving by consolidating all applications, customer satisfaction and realignment of workforce to perform core activities.

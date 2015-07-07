@@ -1,0 +1,5 @@
+The field representative contact name to be put in the SR "case owner" blank once dispatched to the field avoiding putting field group names. 
+..
+I came up with the idea due to my severe experience with customers and service requests and this problem is causing a-lot of trouble to customers
+When the contact of the field team is put in the SR , the customer will have a single person to contact who will handle all his inquiries which will improve overall customer satisfaction 
+If my idea is implemented once the SR is dispatched to the field , a contact representative for example a CE from the certain district will have his name as the new case owner and responsible for the field activity avoiding group names such as 201000 CM t

@@ -1,0 +1,5 @@
+Unified Elevator Management at EMC Cairo
+N/A
+Seeing people using the 2 buttons at the same time, and elevators just do duplicate work
+Have a single controller controlling all 4 elevators so that it routes the next available, all the user have to do is press up or down button and the controller will route the next available elevator from the 4 we have.
+N/A

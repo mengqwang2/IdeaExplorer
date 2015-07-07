@@ -1,0 +1,9 @@
+Plugin for Customer Feedback
+
+Finding the feedback and solution
+First Method:
+We need to develop a plugin which consumes data from different popular social media sources with necessary information like owner and product name which can be easily retrieve from social media. Corroboration of this information can help to solve the issue.Run the Sentiment Analysis over the feedback to understand more on the data.
+
+Second Method: 
+TollFree Number, where anyone can text any problem/suggestion to number and that takes care of the recording and analyzing.
+

@@ -1,0 +1,8 @@
+Some advices for service-now improvement
+N/A
+during work or do tests on remote machine, met many questions need to use service-now to get help. so we want to propose this solution to promote convenient and efficiency.
+The solution is:
+1.In case submit failed cuased by long time in which we have not completed and not submit, can do automatic save at specified time intervals, can be sevral minutes.
+2.To submit without filling in the "Building" and "Lab", we can use the system name to search which Building or Lab it belongs to. or we can submit only fill with the system name, not need to fill in the "Building" and "Lab".
+3.After submit, assign it to anyone who belongs to the assignment group directly, if urgent, we can contact with them immediately, rather than wait to assign, to promote convenient and efficiency.
+N/A

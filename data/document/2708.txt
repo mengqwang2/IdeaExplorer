@@ -1,0 +1,23 @@
+Presales TechHelp Express
+Implementation of this idea will ease/automate the full End to End Presales cycle.
+Idea will change the way how GBS PreSales Shared Services work. 
+
+I was thinking of different options to enhance PreSales service and was looking at different pain points current SEs are facing. Best way according to me to help SEs work closely with Customers on Sales rather than working on proposals at office.
+
+I have shared this idea to my Manager and Lead for Presales TechHelp but is not yet implemented or incubated.
+
+Instead of following our current process of Sales/SE contacting six different teams with multiple steps involved, new idea will reduce it to just 4 steps
+
+1.	Customer Shares requirement to EMC Sales/SE
+2.	If EMC SE needs assistance on any of the 6 PreSales services mentioned above they will contact New TechHelp Express service
+3.	TechHelp Express Service gives resolution and send customer presentable proposal to Sales/SE
+4.	Sales/SE presents proposal to Customer
+
+TechHelp Express team contacts other six Presales Team to get resolution and is cross trained on all services to generate consolidated proposal.
+
+Flow chart attached for reference on below link.
+https://inside.emc.com/docs/DOC-152119
+
+Result - Single case number to track, Quick & Easy Response, Single Point of Contact, Ready to present upon case resolution, Single SLA
+
+Quick selling.Saves time on proposal generation leading to more sales with Customers-Money&Enhance productivity.Quick response to customer requirement–Improves Customer Satisfaction.Automating and consolidating Presales Services to One–Optimizes Process

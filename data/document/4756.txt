@@ -1,0 +1,5 @@
+DXP / Power Calculator / Visio ©
+
+- 
+To make the DXP produce not only quote but also power calculator and visio stencils (open rack) ready to use.
+

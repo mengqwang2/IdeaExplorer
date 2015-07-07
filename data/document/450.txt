@@ -1,0 +1,35 @@
+Innovative & Interactive Kiosk @ CoE Offices (Redefine EMC IT's Self-Services)
+Kiosks have changed. What used to be bulky, awkward units taking up valuable floor space are now self-service solutions available in sleek forms in a range of sizes and configurations that can be customized to better meet business needs.  No longer just for the retail environment, self-service solutions are 
+popping up in industries including travel and transportation, communications, 
+financial, government and healthcare.
+
+For example, travelers use kiosks to check in at airports, and human resources departments are deploying kiosks to screen potential employees and provide existing personnel with access to forms and information.
+
+We are going to discuss the benefits of true, integrated self-service solutions, describe best-in-class kiosk solutions and designed to be the optimal self-service technology for cross-business unit (x-BU) environments/departments.
+We are part of EMC IT's Digitization & Automation group, working towards end user automations. This idea is been logged based our self services discussions happening with various BU leaders.
+>>>  Today’s self-service solutions, available in a variety of form factors, offer increased opportunities. High levels of customization among kiosk solutions may result in delivering end user services by providing standard solutions.
+Different applications, such as an access to UnITy, VoIP phone requirements, RSA fobkey token, AD password resets, Accessing floor plan maps can be delivered
+ via use of a wide range of form factors (including floor, counter or wall mounts, or custom enclosures) for self-service solution deployment.
+
+
+>>> Onboarding Automations -- End user experience is the new front line. These kiosks can be designed in a fashion that provides new joinees to consume EMC IT's apps and services by clicking tabs in Kiosks arena. Requirement of an AD account, Mailbox creation, Extended Monitor request, Submission/Downloading forms for EMC transport facilities, Downloading lunch coupons can be addressed via these Kiosks.
+
+>>> Innovation @ Kioks Arena -- These kiosks can also can by designed for displaying Innovation Challenges along with Sponsor videos along with aligned products within EMC. This helps employees to understand Innovation challenges better and delivering EMC's eLearning modules on various EMC's products will be an added advantage for quality innovation. Provides greater visibility into 
+Innovation culture, xBU collobaration & can be used for submitting an idea to Innovation conference or competition happening within a specific BU.
+
+>>> HR & Finance Services - EMC IT's Kiosks can be designed in such a fashion, which can extended service of HR & Finance departments. Understanding EMC HR benefits to new joinees, videos from BU leaders welcoming new joinees, access finance department forms for applying a new bank account, accessing finance related forms with an integrated print options. If print job fails, he need not run again to his desk for re-triggering print jobs.
+
+
+>>> Providing Global Service Desk Services via Kiosk'touch tabs -- Reduces unwanted calls been made to GSD for simple requirements. These kiosks can be leveraged for installing Avamar client on a PC, requesting IT client services for a laptop health check, latest software updates happening to end user PC's and provide release notes in these Kiosks, videos can be embedded that talks about 
+safeguarding EMC assets and maintaining integrity with provided access.
+
+>>> Value Added Services - These kiosks can be leveraged for booking a meeting conference room, applying to EMC Gym facility, applying for EMC transportation facility, payment of personal telephone bills or internet bills, providing EBC 
+documents, EMC introduction videos to new customers attending EBC's across all CoE offices will enhance end user or customer experience without contacting various peoples. Let's display important numbers pertaining to GSD, Facilities, Security depts, Mail Room services or Taxi booking facilities via embedded Uber or Ola apps.
+>>> Innovative Kiosks for Persons with Disabilities - This innovative solution can be debuted in EMC IT department on understanding and validating how useful these solution would be in helping them independently to consume these services with one click options. Embracing DERG initiatives within EMC offices.
+
+
+>>> Integrated kiosk solutions are purpose optimized — comprising hardware, software and services designed to work together. These best-in-class, self-service solutions revolve around the customer experience and take into account the user interface, the enclosure and the applications themselves and how they will be used in an organization’s specific self-service environment.
+
+>>> Compelling interactive experience - A full range of screen sizes, bright image quality, outstanding graphics and audio support exciting multimedia content and applications. Plus, a presence sensor activates the kiosk when a user approaches.
+
+>>> All-in-one integrated design -  Helps enable business owners to avoid purchasing separate pieces, parts or accessories and to take advantage of features and hardware that are designed to work together.

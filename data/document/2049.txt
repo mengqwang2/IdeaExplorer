@@ -1,0 +1,31 @@
+Dynamic System-Level Underclocking based on Real-Time Workload
+Environmental Stewardship Challenge
+
+This idea is a practical and effective solution to the goal that “increases the energy efficiency of an EMC product by more than 60% by 2020” by providing system-level workload monitoring and hardware underclocking mechanism through combining and coordinating distinctive underclocking technologies of multiple hardware units.
+We are familiar with spin-down and CPU underclocking which can save power usage of such individual hardware units, but there seems no smart enough system-level feature to make them work together in automatic and dynamic manner. We could try to make the whole system act like a huge CPU/disk supporting higher level of “spin-down” to save much more power.
+An automatic, dynamic, and system-level hardware underclocking control daemon based on real-time workload monitoring and analysis.
+
+Hardware components in EMC product system which have power-saving or underclocking feature may include but not limited to: CPU, RAM, Chipset, IO Module, and hard disks. A system-level daemon will interact with the underclocking logic of all components by the following step sequence by certain interval:
+
+1. Monitor workload of the system
+
+Once the workload dropped below specific threshold, the daemon will decide to underclock the system by subsequent steps.
+
+2. Identify which components will participate in the underclocking by analyzing workload
+
+Is the workload CPU-intensive, backend-intensive, IO-module-intensive, or RAM-intensive? The daemon analyzes the workload first and sort each component’s weight to determine which ones will underclock more, which ones less, and which ones won't be underclocked yet.
+
+3. Trigger the underclocking
+
+By some platform software interfaces, the daemon kicks-off the underclocking action toward all attending hardware components by the sorting result made by Step 2. It can also do some verification to check if the underclocking is actually in effect and how much power usage has been reduced and log such info in human-readable format for end user’s reference.
+1. Power-Saving Efficiency
+
+Datacenter research communities have proposed or developed tremendous approaches to increase power efficiency, yet many of them are focus on how to handle or recycle waste heat after it’s been generated. In contrast, our solution is dealing with what can be improved before heat gets generated for the first time.
+
+2. 100% Automatic
+
+Our solution could be just a checkbox to “enable” the system-level dynamic underclocking daemon then everything is all set. The monitoring, underclocking, and resume from underclocking will all maintained by the daemon with full transparency to the end user who will only see power saved and production intact.
+
+3. Time to Delivery
+
+This solution is not a fancy technology pending on in-concept design or new hardware but based on existing power-saving or underclocking features of hardware components. It could be implemented in estimated time schedule and our customers can have its benefits probably sooner than 2020.

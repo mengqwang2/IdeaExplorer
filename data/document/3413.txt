@@ -1,0 +1,5 @@
+Cloud Application Performance Analyser
+
+Trying to use the VMware SPBM in the generic non-vvol based environments.
+Use the knowledge of SRM and ViPR to analyse the application data access and understand the run time behaviours, SLA requirements and the storage access patterns. ViPR can be enhanced to expose the array's COS/LOS and analyse the SRM output of application requirements to suitable place the data with in the array and across the array in the federation.
+

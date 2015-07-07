@@ -1,0 +1,7 @@
+Better and Happier Communte
+This idea is to make the co-ordination for the transport hazel-free.
+While travelling in a cab, every time employee has to sign on a trip sheet while dropping off the cab. And many times seen the struggle of the transport department in terms of assigning cab and communicating the same to the employees.
+An application to be developed which can be used on android devices which can route the employee names into respective cabs as per the route. Once the routing is done, list of employee names to be displayed on the driver's device.
+The hazel of calling all the cab drivers and tiring assigning work for the transport department. 
+Employees need to sign off digitally on the application once they drop off the cabs. This would in turn save all the paper work for the cabs, which again would reduce the work of submission of paper bills to finance department.Hence, saving paper and time.
+

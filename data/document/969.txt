@@ -1,0 +1,31 @@
+EMC Ireland visitor app
+The EMC Ireland challenge is looking for ways to build the workplace of the future and improve communication across the federation. This idea looks to improve the experience of visitors to any of the EMC Ireland federation offices and give a more positive and productive experience for those people.
+This idea came out of an IGS session at the Ireland COE (facilitated by the Ireland COE PMO) comprised of a cross-EOS2 functional team with participants from CSQL, Information Experience, Lab Ops & PMCT but it was inspired by ads for a Dublin airport App seen recently while travelling via Dublin airport.
+The idea is for an EMC visitors app that could be downloaded by visitors either ahead of time or on arrival. It could include information for all EMC Ireland offices and also those of our federation partners. For example in Cork it could have specific information for each of the EMC Ovens, Ballincollig and CityGate offices as well as the VCE and VMware offices. 
+
+This would contain features such as:
+•	Maps of each office highlighting the location of reception, canteen, coffee docks, bathrooms and meeting rooms
+•	Transport information including car parking information, public transport options and timetables as well as company bus timetables and route maps.
+•	Useful information and advice on areas such as which of the EMC approved hotels is most convenient for each office location, what the best transport option is between that hotel and office, which restaurants are recommended near each hotel
+
+The look and feel could be similar to the “Tripit” app.
+
+From a security point of view, login could be comprised of three different types:
+1.	Visitor
+•	Basic features
+•	Recommendations for Hotels, transport, maps, dining, parking contacts etc.
+
+2.	Customer
+•	The EBC organise all logistics -> hotel, chauffeur to EMC  and also agenda for the duration of their stay (Briefing, POC, tours), evening meals etc. All this information would be available via the app and also ties into a greener environment preventing agenda printouts.
+
+3.	Internal/Employee
+•	Useful aid for new hires
+•	Plant Map 
+•	Meeting room locator.
+•	Push notifications for (All-Hands, canteen closures, cars with lights on etc!)
+
+
+As well as making access to relevant practical information on arrival to the office, it would be useful for forward planning. For example we have a recent visitor to the City Gate office was accommodated in a Little Island hotel and had to pay for expensive taxis. If they had access to advice beforehand and knew there was a free company bus, they could have chosen a city centre hotel close to the bus route, which would have been more economical and more convenient.
+
+This app would provide key information to make visits to our offices more efficient and enjoyable for external visitors as well as our federation partners.
+

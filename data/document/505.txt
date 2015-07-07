@@ -1,0 +1,7 @@
+EMC Public Cloud Service
+We are loosing the large customer base to other public cloud providers like AWS and Azure.
+Similar to the offerings from Amazon, Vmware's vCloud Air, etc., EMC will provide IaaS/PaaS/SaaS on the Pay-As-You-Go model with the help of EMC Federation .
+
+Deploy EHC in a replicated setup and provide self-service portal to access/consume the resources on PAYG model. EMC to create an abundant list of services in the service catalog to choose from. EMC can also use its managed services and professional services team to build and manage the entire solution in the back end . Also it will give a very good platform for EMCs new and existing products which is well known for its stability , reliablity  and performance.Customer can choose various customisation / automation from the existing catalog  which can be readily deployed.
+EMC  Global services  will handle the infrastructure management and the operations of the entire solution.
+

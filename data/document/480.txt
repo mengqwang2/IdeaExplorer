@@ -1,0 +1,18 @@
+Intelligent strategy to reduce wearing of flash memory in XtremIO
+New capabilities to XtremIO which improves its efficiency when used with VPLEX and ScaleIO. 
+Using VPLEX with XtremIO for day-to-day work and knowledge of ScaleIO, interest in all flash arrays and their challenges.
+
+
+Today, EMC’s VPLEX and ScaleIO are integrated to work with XtremIO. Although XtremIO has intelligent wear leveling algorithms to handle wear out of the flash memory, there is always more scope for reducing the wearing. Adding to the existing capabilities of XtremIO’s integration with VPLEX and ScaleIO, in this idea, we propose a novel technique to even further reduce the flash memory wear out problem and improve its performance. This is accomplished by absorbing the write operations using the Caching system of VPLEX or ScaleIO. Through this idea, we propose an enhancement to the cache subsystem of VPLEX and ScaleIO.
+
+The workflow with the enhanced VPLEX and ScaleIO Cache subsystem would look something like this:
+
+When a Host Write IO is to be submitted to XtremIO through VPLEX, instead of writing to XtremIO immediately, the Write would be deferred and cached at VPLEX layer. This could be imagined as a variant of “Delayed Write”. The Write would be cached in VPLEX until the enhanced cache subsystem of VPLEX decides to flush the Write to XtremIO. The parameters which would decide the flushing at VPLEX would be:
+
+1) A predefined watermark level after which the actual write to the XtremIO would be performed. 
+2) Knowing that the Writes are the ones which contribute to the wearing, the cache pages that are continuously being accessed for Writes are retained in the Cache until the watermark level is reached. The pages that are accessed infrequently are the candidates which would not contribute to wearing and so they can be flushed to XtremIO.
+ 
+It must be noted that the data which is cached in VPLEX is safe, protected and recoverable thanks to the robust battery backup and vaulting mechanism of VPLEX. 
+Analogous to the approach mentioned for VPLEX, similar mechanism can be implemented for ScaleIO as well.
+
+If this solution is implemented, the existing and new customers using XtremIO along with VPLEX or ScaleIO stand to benefit significantly as the life span of the XtremIO array increases substantially. This being a solution that would be implemented in VPLEX or ScaleIO, will complement XtremIO’s own wear leveling algorithms without requiring any changes in XtremIO itself. The ROI for the customer is increased tremendously as the MTBF is significantly improved. The solution proposed would not compromise the performance of XtremIO and rather would enhance it as the writes and reads are satisfied from VPLEX or ScaleIO cache.

@@ -1,0 +1,16 @@
+Real Time analytic and anomaly detection as a service using distributed log collection and processing framework
+
+We have implemented the similar POC for EMC India Mash-A-Thon contest to show how distributed log collection and pattern detection can be done by performing Hadoop (MapReduce jobs) analytic. Also, we have shown a case study,where a particular issue raised by a customer was resolved in 13 days, but with this approach to reach to the same conclusions it just takes couple of minutes. 
+Also, in 2013 EMC Knowledge Sharing competition the paper on the same idea "Analytics on BIG Fast data using real time stream data processing architecture" was awarded and published.
+The proposal is to have a real time log collection pipeline to collect logs from various clusters/modules and perform real time analytic for immediate error/anomaly detection. We suggest distributed fault tolerant log collection framework which can collect logs from various sources(various products/servers). We can perform mainly two actions on this log stream. 
+
+1. Perform co-relation across different logs from different sources. Perform distributed time range search to find any potential issues in collected data (Manual Detection).
+
+2. Perform automatic classifications of the stream to find anomaly . ( Automatic Detection)
+ 
+There are various technologies available for log collection and storage , indexing & search and also for various classification use cases. Based on that we can have either Push or Pull collection framework , where for push cases , source system can push log streams and in Pull cases, Logs stream can be pulled from Source.
+
+Having a collection system in place, we can build a parallel indexing and search infrastructure which will enable us to perform Manual detection of errors and can be used as learning for real time fault detection. Also we can have a real time or offline classification system in place to classify the log files based on known error patterns(sequence based/threshold based/Threshold based/Time based) in the data. This will take care the Automatic detection of anomaly. There could be a feedback loop from Manual detection to Automatic Detection(feeding the learning to the real time prediction system) which will enrich the classification process further to detect with better accuracy.
+
+The architecture diagram is uploaded @ https://inside.emc.com/docs/DOC-100138
+

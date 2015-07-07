@@ -1,0 +1,19 @@
+EMC Online Analytics Service
+
+Many customers hate but hit performance issue and they highly need our instant support, however performance diagnose is also quite challenging to EMC engineer, usually have many back and forth. This inspires me a good opportunity to provide such online service to resolve customer painpoint and also enable more deeper understanding on product use and efficient customer support.
+Take performance issue as an example, it's a very good selling point as customer has the paintpoint but lack of system internal knowledge and highly need our help.
+
+The proposal include array integrated policy and public access cloud.
+1. Monitor and alert by policy:  The policy is much like AWS CloudWatch, customer selectively enable array integrated triggers with throttles such as CPU usage over 80%, and/or write latency exceeds 1sec, once enabled, system keep monitoring the metrics, when closing to the throttle, detail traces start working to collect data, Once hit, system auto alert Admin, meanwhile pack all relevant data to EMC powered cloud and the system now is in EMC radar. 
+- Metrics supports CPU, disk, cache and network, policy could be flexibly defined or combined.  The eventual uploaded materials also include system config, healthy, and wider environment info if they’re EMC footprint or data could be retrieved via orchestration APIs such as EMC Rep destination, or VM info (if with EMC plugin). Data will be compressed and encrypted. 
+
+2. Analytics cloud: the cloud is powered by EMC platform (such as GP+Isilon+HDFS) and analytics engine and public access portal. 
+- Analytics engine: include data transformation, modeling and correlation analysis and leading factors analysis to identify bottleneck, this could leverage most of existing analytics offering such as Watch4Net, M&R, Unisphere Analyzer/QoS. Meanwhile it analyzes the historical trends for performance and capacity prediction.
+- Portal and report: once analyzed done, customer is notified, summary and detail reports can be accessed via HTTPs anytime anywhere. So all complex analysis is hidden to customer. 
+
+3. Link to EMC info center, such as knowledge center and bug DB, so that we could interact and point to potential root causes and make proper recommendations to customer. IF customer open ticket, that also greatly help EMC support to understand the situation and provide concrete guidance.  
+
+Such framework can further expand to capacity or configuration analysis, but performance analysis is a good start point, with plenty of data collected, we could make more statistical analysis on system config, use pattern, bug trend etc to know customer/product deeper
+
+about delivery, such service could be free in warranty period to promote
+

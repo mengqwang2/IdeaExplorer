@@ -1,0 +1,10 @@
+Automated updates notification and licensed installation to EMC product(s) software
+Customers would know the latest updates on the products/software they purchased. Increase business/revenue and keep them intact to EMC software.
+Current Situation: When we are attending customer issues sometimes we suggest new version update/upgrade. Customers are not aware of what is new for the software. We announce new products on a larger forum but nothing like very specific to a product customer purchased.
+If we give a notification service to customer with information that current version is nearing EOL or latest version is available or would be available with the details of the changes in new version then we may have chances of customers asking/buying new versions. 
+We provide information/package of upcoming/latest updates for our software that customer  purchased/interested in. By using a notification service that runs on customer's machine. 
+Not just the new versions/packages we notify them with the detailed changes for upcoming version. If interested in the new version they would download the file/package/update and then we provide license. 
+Customer Impact: This potentially increases the chances of customer being aware of our changes in detail in advance and keeping the customer intact to EMC and help avoid competition in some cases.
+Reminder: We could notify the customer that product is nearing End of Lifecycle for a version. 
+Revenue: Giving greater chances of increasing revenue by making customer know the benefits of upgrading to new version. In cases of EOL, we may get some RPQ to extend EOL.
+Analysis: This will help us know how many customers are looking actively in new version available. 

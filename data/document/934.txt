@@ -1,0 +1,5 @@
+EMC GPS Navigation mobile application 
+It is very hard to find meeting rooms for the new joinees and sometimes even for everybody. Sometimes we ourselves find difficult to locate the meeting room or cubicle number when required. 
+We find very hard to locate rooms on all the floors. Its hard to find finance departments , HR departments, Payroll departments and other business units.
+Lets develop a GPS application which is handy on all the platforms with complete info of all the floors. We run this , it should guide us to the proper location in office.
+It will make everybody's life easy.

@@ -1,0 +1,21 @@
+Federation Enterprise Hybrid Cloud Marketplace
+"Idea that innovates around and improves the capability of Enterprise Hybrid Cloud (EHC)."
+"EMC Solutions that will help our customers to achieve key aspects of the goals above quickly and effectively."
+The EMC Enterprise Hybrid Cloud Solution is growing rapidly and also the number of services EMC provides with it. This drives a great demand for us to build a platform where EMC can officially publish all their services, scripts, templates, etc. (aka EMC secret sauce) on customer's EHC instance. At the same time give power to customers to add more customize services which suites their needs, and allow them to share these services with their entire organization.
+
+With new vRealize Automation 6.1 REST APIs it’s possible to automate the deployment process of a pre-configured tenant (EHC Marketplace). Now vRealize Automation 6.1 also support vRealize Application Services, this open-up great opportunity to deploy and manage sophisticated machines (blueprints/templates) via vRealize Automation.
+
+The EHC Marketplace is a vRealize Automation Tenant, which is pre-configured and automatically deployed on EMC Enterprise Hybrid Cloud (EHC). It’s a new face of Hybrid Cloud and a part of EHC foundation package which is deployed on Private cloud side of EHC. This solution:
+
+    • Enable users to create, publish and host new services within their community (organization).
+    • Allow all corporate users (community) to view and request published services.
+    • Gives power to Management and Finance Groups to securely approve requested services.
+    • Deploy and Manage vRealize Application Services blueprints on vRealize Automation.
+    • Integrate Cloud Foundry Platform As A Service with vRealize Automation.
+    • Acts as a platform to provide scripts that can be used to perform maintenance or governance activities.
+
+improve customer satisfaction
+enhance productivity
+optimize a process
+improve a product or technology
+

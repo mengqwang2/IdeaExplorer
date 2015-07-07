@@ -1,0 +1,26 @@
+Forecasting possible root causes for defects based on rules discovered from data mining
+Improve the supportability
+Improve the customers’ support experience within the next calendar year
+Provide data analytic to management and there by help in obtaining appropriate  decisions
+preventing customer issues
+
+Observed during Root cause of analysis (RCA) that fix area is different from heading and key component.
+To solve this problem, we shall extract data from the bugszilla mysql database, mine the data for association rules and to store them in a searchable database from which users can access the possible root causes via a web app.
+
+In the first step, we will extract data from the commit logs and resolution given by the developer for existing bugs in Bugzilla database. We shall do this via a scripting language like python or perl. We shall access the Bugzilla database and apply the term frequency to inverse document frequency algorithm on the commit logs to extract relevant keywords which correspond to symptoms caused by the bug. We shall also extract the root cause from the resolution field. We will store this data in a CSV file and use it for data mining.
+
+In the next stage, we shall analyze the CSV file using R language, since it contains many in-built analytical functions. Once we load the CSV file into R, we shall use the A priori Association rules algorithm for data mining rules in the data set. A description of a priori algorithm can be found here: 
+
+https://en.wikipedia.org/wiki/Apriori_algorithm   
+
+Since we expect to have a large data set for mining, we shall initially set a lower value for support and confidence, and then gradually increase them to maximize lift and leverage of the discovered rules. The final format of the rules is expected to be:
+
+(symptom1, symptom2,..)=>root cause
+
+Finally, we shall store the discovered rues into a database and build a web app to search for root cause based on keywords entered by the user.
+
+Superb. It would lead to Big Data Analytic's. On similar way we can consider as support logs and do the analysis which intern help to identify problematic area and fix the problem.
+Eg: 10 out of 9 are configuration issue  then it clear that fix the configuration issue and reduce the support call in this area.
+Improve the technology
+Enhance productivity
+Improve customer support

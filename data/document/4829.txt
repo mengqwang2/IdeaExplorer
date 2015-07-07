@@ -1,0 +1,15 @@
+IB config issues system (SAP-IB)
+
+I have been working with SAP team to resolve those issues since more than a year
+we have thousands of HW and SW products incorrectly transferred to IB from SAP caused by several reasons for example wrong value set on SAP, SW identified as HW on SAP, SAP manufacturing issue, third party issues, part setup issue…etc, these configurations should be adjusted to ensure data integrity and IB reliability , first step is to find out the issue and analyze it before sending it to IT and SAP team through BTG. finding issues are multiplying so we need to set a process and encourage people to find out, report and work to fix them. 
+ 
+We would like to add the IB configuration issues, (mainly SAP-IB) issues to the knowledge base adding new option to the below list specifically for the “IB CONFIG ISSUE”. 
+
+Benefits for new approach,
+
+-People will have visibility to check and review all issues in different statues (on track, resolved ,pending, rejected,..) to avoid double work caused when someone works to resolve already known and reported issue.
+-Encourage people to report easily any weird or unusual configuration they might found while navigating on IB.(this should increase the reporting , fix, cleanups and yellow belt projects)
+-Engage more people on troubleshooting and fix loop through BTG and IT.
+-Enhance the analysis skills of the team by having heads up to spot any unfamiliar configuration and through fixing the backlog and navigating between SAP, IB, data express and sales order tool.
+
+

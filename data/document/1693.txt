@@ -1,0 +1,7 @@
+Download multiple logs from Service centre in Single shoot option, Provide direct share access where're logs uploaded 
+TSE/Engineers spending more time on downloading logs, No direct access to Share upload location 
+If the logs are in huge size, TSE not having disk space to download and analyse logs 
+Support Challenges working on SRs where too many logs uploaded, SME/Coach getting disk space issues when logs are in huge size  
+Provide direct share access path for logs uploaded and Provide download all multiple choice options 
+TTR reductions, save TSE/Engineers time and disk space for logs download 
+

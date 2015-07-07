@@ -1,0 +1,6 @@
+Single Avamar Hardware for TapeOut, Utility & NDMP
+
+We have come across many situations where customer's are frustrated with the fact that they have to keep the Inventory of Multiple Hardware just for One Product. 
+Currently we have different Hardware to work as Utility Node, Media Access Node and NDMP Accelerator Node. 
+Why not include the functionality of Extended Retention & NDMP Accelerator to the Utility node itself. With this approach customer's have to purchase a Single Hardware for Operations like Tape Out and NDMP Backup
+

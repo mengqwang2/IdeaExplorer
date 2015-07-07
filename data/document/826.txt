@@ -1,0 +1,5 @@
+EMC FEHC Cloud Portal
+A unified portal that could sit in front of all EMC Solutions and Products that leverage the 3rd platfrom (Cloud and Big Data)
+This idea was conceived from working with vRealize Automation Suite and spending an inordinate amount of time having to work around limitations with the GUI's provided. 
+A modern stateless GUI that fits the Third Platform can hook into the restful api's that are provided in the vRealize suite of tools. This GUI could be the portal for all EMC 3rd Platform, platforms!. 
+Single look and feel across all EMC 3rd Platform portals. Familiarity with one layout, ability for users to change the look and feel not the layout could give them a sense of brand ownership. 

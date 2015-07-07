@@ -1,0 +1,12 @@
+ ScaleIO as a low cost solution low-end storage serving video surveillance 
+
+ The idea came up from different competitive solutions to the low-end market
+ EMC to introduce customization to scaleIO features depending on the customer needs to offer scaleIO benefits such as scalability, good performance and availability to the low-end market.
+
+Further improvements and scalability can be offered by EMC ECS (Elastic Cloud Storage)
+
+Use virtualized software feature rather than hardware modules to enable using commodity hardware at low cost
+
+
+
+

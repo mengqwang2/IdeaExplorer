@@ -1,0 +1,6 @@
+kerberos SSO configuration and troubleshooting tool
+This is more relevant to ECD and many business units how are configuring SSO (single sign on) for their products 
+In support I used to work with many cases for Documentum product family where SSO issues are time consuming which leads to customer dissatisfaction 
+This can be implemented by utility that can analyze what is wrong (in term of configuration ) and at which layer should be corrected ( KDC , Keytabs , Krb5.ini , encryption used , network , client configuration .... etc) as this utility will use certain algorithm following the correct sequence used to troubleshoot the issue . 
+Also this utility can be used and embedded in other EMC products as well .
+This utility can be used for EMC products and also used by our professional services and support team . 

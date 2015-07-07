@@ -1,0 +1,17 @@
+On-Demand Backup Solution for OpenStack
+
+Thie idea was raised during the investigation for DDVE use cases in OpenStack environment. 
+The basic idea is to create DDVE on-demand driven by backup jobs and data volume. DDVEs created on-demand run as other normal VMs in OpenStack.  It mainly includes 3 functional VMs:
+1.	DDBoost VM: This VM is created during a volume backup procedure. It works as a DDBoost client. For data streams read from  volumes, it does anchoring, fingerprint computing and local compressing and then send data to DDVE.  This not only offloads a lot of computing jobs to Nova node, but also ensure only unique data is sent to DDVE thus very few data consume less networking bandwidth.
+2.	DDVE VM: This VM is created on-demand if more backup computing resource or capacity is required.   It dedups incoming data before storing them to disks.  
+3.	Backup Proxy VM:  The VM works as a backup controller node.  Its responsibility mainly includes new DDVE provision, searching available DDVE for new backup jobs and load balancing for backup jobs.
+
+When user requests a backup job, a very light-weighted DDBoost Client VM is provisioned dynamically.  Backup Proxy VM will tell DDBoost Client VM which DDVE will be used to send backup data.   The detail request flow of a volume backup could be found:
+https://inside.emc.com/docs/DOC-99790
+
+Benefits for EMC:
+1.	Fill in gaps for Data protection in OpenStack using EMC/DPAD solution. 
+2.	Resource/Cost Efficient:  Since backup windows in production environment usually occurs during off-peak hours, resources consumed by functional VMs could be shared with other applications during peak hours.  
+3.	Scale-out Well:  Since backup resources could be allocated dynamically, scale-out could be better than physical backup servers.
+
+

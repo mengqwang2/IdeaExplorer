@@ -1,0 +1,5 @@
+Park Safely 
+combining safety and IoT in creating a better work environment. This idea helps identify the people accessing the parking of the COE or any premises using RSA products. 
+we came up with the idea as we are facing difficulties finding a suitable parking slot and as we receive a lot of emails asking for the owner of a specific car to move his/her car for various reasons. 
+having sensors in the parking that shows on each parking slot if it is available or taken, collecting the data and updating it on a mobile application accessible to all employees to be able to know if there is an empty parking slot or not. In addition, it would enable employees to reserve an empty slot 5 mins prior to their arrival. Finally, to access the parking and the app, the employees shall have a 2 factor authentication credentials to ensure the safety and to identify the employee along with their respective cars without having the need to have security guards documenting every entry. 
+the success of the idea would be when parking becomes safely automated and secured

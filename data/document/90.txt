@@ -1,0 +1,26 @@
+EMC Smart City
+EMC Smart City uses a Range of Products from EMC to make a City Smart ranging from RSA iot Security to VMAX Storage.
+Being part of Platforms Team and working on Enterprise Business Data Lakes and a smart city fan, this thought process was revolving around my mind.
+
+Enterprise Business Data Lakes is already a proven concept within EMC and needs to be deployed for smart city.
+
+Smart City uses e-Governance. 
+A Software Defined Datacenter utilizing :
+Federation Platform-as-a-Service : Pivotal Cloud Foundry can be leveraged for faster developments and deployments. VMAX storage can be leveraged for OLTP and Disaster Recovery.
+
+Federation Virtualized Data Lake: Pivotal Hadoop, Pivotal Greenplum, SpringXD, Spark and Storm can be leveraged to do Data Analytics. Isilon Storage can be leveraged to store the IOT Data from various sensors across the city. Data from Social Media can be loaded again using SpringXD to Isilon. e-Governance Structured Data in OLTP databases to be loaded to Greenplum / Hawq for Business Intelligence. Realtime reporting using Spark and Storm.
+
+
+Federation End-User Computing:  VDI deployment on storage that delivers efficiency and performance. Depending on your scale and requirements, the right solution would be VMware Virtual SAN, EMC ScaleIO or EMC XtremIO.
+
+Federation Security Analytics: RSA's Security Analytics platform on top of the Data Lake solution.
+
+Governance, Risk and Compliance platforms to ensure you are acting in accordance with best practices, your policies and regulations.
+
+Finally, RSA provides adaptive identity and access management, that let you perform higher levels of authentication as users exhibit riskier behavior and/or access more valuable information.
+
+IOT plays a major role here and RSA Security for Platform 2, 2.5 and 3.0 can be leveraged to ensure security while collecting data from sensors.
+ 
+EMC SRDF Technology can be leveraged for Site Disaster Recovery Solution. Datadomain can be used to backup the data in the Cloud.
+
+This Solution leverages lots of products from EMC, Pivotal and VMWare Federation Products showcasing end to end delivery of solution.

@@ -1,0 +1,6 @@
+Innovation Roadmap Filtering tool 
+This idea will facilitate the process of filtering the Showcase ideas for the Innovation Roadmap.
+The idea came up from reading other submitted ideas from the innovators that is irrelevant to the challenge or that is very poor and don't count as an idea.
+This idea will use sentiment analytic technology to filter all the ideas and exclude the ones that has poor wording or quality or that is irrelevant to the challenge , instead of going through each idea one by one.
+1-Facilitate the process for the sponsors to filter the ideas.
+2-Decrease the time spent to filter the ideas.

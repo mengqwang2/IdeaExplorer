@@ -1,0 +1,27 @@
+SerMon : Comprehensive IT Service Portfolio Management Web Based Solution
+
+The GSOC CIM team provides 7X24X365 coordination for any event which impacts EMC’s Mission/Business Critical apps, Infrastructure, sites and services adversely. A well defined Mission Critical Infrastructure view will be a great armour for the quicker mitigation of service interruptions.
+Web Based : Comprehensive IT Service Portfolio Management Solution
+SerMon 
+
+Clear profiling of the IT Service & Application landscape under a single umbrella.
+
+- Architecture View
+- IT Service Definitions
+- IT Service Ownership & Escalation : RACI 
+- IT Service Catalogue
+- Underlying Applications, Supporting Infrastructure Details
+- Service Interrelation
+- Dependency Mapping
+- Mission Critical Documentation
+  Monitoring Methods, Plans & procedures: primitive runbooks & playbooks for support
+- Robust Access Control
+- SLA definitions, Availability Expectations
+- Service Assets & Configuration Details (CI's)
+- Centralized management 
+- Established Review & Control measures
+- Converged, continual commitment from Business and Top leadership for sustenance, compliance and governance.
+- Integrate with enterprise wide ITSM solution
+
+This centralized profiling will drastically increase visibility, accountability and will result in greater service availability. This will also positively impact the Mean Time To Resolve during unplanned Service Interruptions as the engagement and information are readily available in a crisp and clear manner.
+

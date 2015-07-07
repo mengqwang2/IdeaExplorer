@@ -1,0 +1,7 @@
+Programming Workshops for Employees 
+The idea will enhance the programming skills for the Employees 
+Idea came up from doing the same redundant work every day that can be automated by a script , Thinking of that some of the employees got a good programming skills that can be shared among other employees.
+Creating a tool where employees that have advanced skills in a certain programming language can share this in that tool. Employees from different Business units of the COE can have access to that tool and people who are interested in learning this programming language can contact the person who got that advanced skill. 
+1.Adding a new value to the Employees.
+2.Employees can develop a script or any program that automates their daily work and that is developed by themselves.
+3.Employees from different Business units get to know each other.

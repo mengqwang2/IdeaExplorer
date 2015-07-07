@@ -1,0 +1,14 @@
+Design a system for implementing ViPR controller for notification  of issues
+We have tried to address the problems for the challenge to design ViPR controller to notify admins of issues and should be customizable in the below link;
+
+
+https://inside.emc.com/docs/DOC-156224
+The idea was discussed as a part of challenge details of the idea can be found in the below link
+
+https://inside.emc.com/docs/DOC-156224
+We have discussed our solution in the below attached document
+
+https://inside.emc.com/docs/DOC-156224
+A successful implementation will help in triaging the issues in ViPR environment
+
+Support will have a better triaging tool to diagnose and trouble shoot the issue in ViPR environment

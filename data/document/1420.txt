@@ -1,0 +1,17 @@
+"Source-it"
+New Business opportunity for EMC 
+Challenges faced everyday by going through manual work, in addition to the difficulty of sponsoring an app.
+My idea is to provide a solution for companies who are looking for crowd sourcing apps (Aaas) - it can be mobile
+
+The solution can be a platform where EMC gets the request ---> gathers data ---> performs data analysis ---> provide the app tailored and ready for the customer to be used.
+
+Example:
+An NGO requesting an app to update volunteers and keep them connected.
+
+The app will allow people to create profiles with their skills and interests where the app admin can easily connect the event needs with the best fit to finally organize the event with pre-decided volunteers.
+
+How:
+EMC will provide the interface, where data processing will be EMC servers.
+Software upgrades and troubleshooting will be offered.
+Many companies can overcome challenges by converting manual work to applications.
+When EMC offers this application as a service, it will be an appealing service to many customers whether to solve a problem, increase efficiency or even start a new opportunity.

@@ -1,0 +1,8 @@
+Car Ad-Hoc Network
+auto connect neighboring cars and communicate with other cars.
+
+The idea is discussed at a group meeting.
+1.auto create network with neighboring cars.
+2. sharing information, for example, can get your front car information(car speed),is there a car at the front of your front car? what type of the car?
+3. communication, if you want turn left, you can notify your front, left and behind of your car. Also you can direct talk to one car which in your network.
+This is for smart city and can avoid traffic accidents

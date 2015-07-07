@@ -1,0 +1,60 @@
+ECD Technology Assets Integrated Business Data Lake - Search/Share/Classification
+This idea proposes to enhance the capabilities of EMC Business Data Lake by integrating EMC Documentum products into BDL, such as xPlore (search engine), InfoArchive (import the data from inactive systems), xDB (XML database), Syncplicity (Sync/share), CIS (intelligent classification and entity detection). By this way, BDL will provide new functionalities of enterprise content management and analytics. 
+
+•	APJ COE "Solutions Platform" Challenge
+This idea integrates ECD products into Business Data Lake (BDL) for better customer experience and richer features in low cost.
+
+•	Enterprise Content Division (ECD) Challenge
+This idea makes ECD products more close with EMC ecosystem.
+
+•	Global Solutions Challenge
+This idea combines EVP products into a EMC Solution that will help our customers to monetize their data quickly and effectively.
+This idea comes out from an internal cross-BU brainstorming. 
+Our idea proposes to modify and integrate ECD technology assets(search, sync/share, classification, etc.) into Business Data Lake to provide fulltext search and more analytics capabilities.
+
+There are many other ECD products which could fix into the BDL architecture, like InfoArchive, transformation(CTS), retention (RPS), we only provide the most-fit products firstly, the integration could be done step by step when we get some achievement.
+
+Here is architecture of our idea:
+
+ ________________       _______________       ________________ 
+|      APPS      |     |      APPS     |     |     APPS       |
+|________________|     |_______________|     |________________|
+ _____________________________________________________________
+| DATA & ANALYTICS CATALOG  |  FULLTEXT SEARCH  |  SYNC/SHARE | <= xPlore, Syncplicity
+|_____________________________________________________________|
+ _____________________________________________________________
+|                    PIVOTAL CLOUDFOUNDRY                     |
+|_____________________________________________________________|
+ _____________________________________________________________
+|                     ANALYTICS MANAGER                       |
+|_____________________________________________________________|
+ _____________________________________________________________
+|                      VMWARE VCLOUD SUITE                    |
+|_____________________________________________________________|
+ _____________________________________________________________
+|                         DATA MANAGER                        | <== Orchstration
+|_____________________________________________________________|
+|   DATA INGEST ENGINE       |  DATA INDEXING ENGINE          |
+|   XPLORE INDEXING ENGINE   +    CIS CLASSIFICATION          | <== xPlore Indexing, CIS
+|_____________________________________________________________|
+|             STORAGE WORKFLOWS & AUTOMATION                  |
+|_____________________________________________________________|
+|               DATA LAKE STORAGE FOUNDATION                  |
+|        ISILON, ECS, XTREMIO, VNX, DSSD, 3RD PARTY           |
+|_____________________________________________________________|
+
+
+
+The core problem is to deploy and run the mentioned products on top of current BDL architecture, and connect them to enable collaborative working, here are the integration points in above architecture:
+    - 1. In DATA MANAGER layer, XPLORE INDEXING ENGINE will be integrated into DATA INDEXING ENGINE, run as an independent system; CIS CLASSIFICATION (as well as entity detection) will be in the pipeline of xPlore indexing, the categories assigned to the data can be used for further filtering
+    - 2. In DATA & ANALYTICS CATALOG layer, FULLTEXT SEARCH capability will be provided by xPlore for APPS to use, or even be exposed to the BDL users, who can find the documents basing on document content
+    - 3. In DATA & ANALYTICS CATALOG layer, SYNC/SHARE capability will be provided by Syncplicity, BDL users can share data from the data lake.
+
+Here is a brief introduction of the 3 products we put in the architecture:
+    - Syncplicity is the flexible, scalable and secure way to share and sync your files for any size business. It has been used widely inside EMC.
+    - xPlore is the home-grown offering for enterprise search in ECD, supports dozens  of languages, hundreds of file formats, efficient security filter and many other advanced search features, e.g. dynamic facet, thesaurus, spell check, wildcard.
+    - Content Intelligence Services (CIS) provides the content analytics capability to analyze the textual content of documents, like intelligent categorization, entity detection, metadata extraction, this will bring easier filter criteria for further document processes. 
+
+If we marry the two platforms and integrate EMC Documentum into BDL platform, the BDL will be greatly improved with better user experience.
+
+This will also make ECD products more close with EMC ecosystem.

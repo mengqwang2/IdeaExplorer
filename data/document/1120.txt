@@ -1,0 +1,9 @@
+Use of SYR in IBG daily procedures
+E2E Horizon – End to End Business Process Challenge
+
+It aims to use an already existing tool to enhance the IBG process for more date accuracy and integrity in the install base
+I work in the IBG and i noticed that some requests are opened to change the default values that we've used in previous requests to configure the Box in IB. I think that this is double work.
+Checking the SYR tool while completing the request can help us know many information about the box installed at the customer's site. Using these information from our side would ensure that the install base is reflecting the exact physical configurations.
+* Data accuracy in the install base
+* Other business units will benefit since alot of BUs use the CSI (install base) to extract the data about EMC products at customer's sites
+* Decrease the number of cases opened to change these default values

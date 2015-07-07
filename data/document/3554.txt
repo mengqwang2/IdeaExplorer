@@ -1,0 +1,11 @@
+ “Reply All Notifier” – save employees’ time
+
+ The idea came up when we saw some incidents in which reply all to large distribution lists caused some issues and huge waste of time
+
+
+The idea is to equip the outlook with a notify function linked to the “reply all” button to allow the user to be alerted that his messages will be sent to all.
+
+This notifier can be enabled or disabled by the user depending on his preference.
+ 
+
+

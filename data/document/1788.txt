@@ -1,0 +1,5 @@
+Analyse replicated data 
+-
+Idea occurred to me on the innovation brain storm meeting few month ago.
+Storage for replication might used for analytic and data process after replication operation. We can integrate different frameworks for data process like Spark, Kafka etc. There a lot of different frameworks for process different types of data, for example for logs.
+Integrated storage with data process frameworks

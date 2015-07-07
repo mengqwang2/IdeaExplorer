@@ -1,0 +1,16 @@
+Automated VIPR Monitoring and Maintenance (AVM2)
+The challenge is about developing a system and methodology to utilize VIPR for conducting predictive maintenance and serviceability of physical storage devices managed by the VIPR controller. The solution proposed makes use of open-source software combine
+Brainstorming the challenge in the Data Science as a Service team, we came up with the concept for using Isilon and HDFS for collecting a large number of telemetry and log data to monitor multiple aspects of the physical storage components
+VIPR collects data from storage devices and stores the data into HDFS. The data includes telemetry measurements such as CPU, memory, network utilization, IO performance etc. as well as log data for each of the storage devices.
+Once the data is pushed into HDFS it is collected by Elastic-Search for indexing, visualization and alerting. The data is also processed by a computation environment such as Map-Reduce or Spark to extract insights about the operations of the storage devices:
+?	Behavioral modeling for telemetry data to identify and alert on anomalies
+?	Log data analytics to identify rare and unusual events and alert on these as well as analyzing the behavior of common log events
+?	Configuration changes 
+?	SLA monitoring and development of prescriptive approaches to optimize and improve the SLA
+?	IO monitoring for individual LUNs 
+?	Health and reliability assessment of disk drives and drive arrays
+
+For more details: https://inside.emc.com/docs/DOC-154133
+Fully implemented the idea can take two forms:
+1. Embedded in the VIPR product to provide insights to individual customers
+2. Service offering by EMC to collect performance and log data and provide a broad view of the installed base behavior that can then

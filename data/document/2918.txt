@@ -1,0 +1,8 @@
+Reverse engineering of XtremIO algorithm to generate unique code.
+This will come under XtremIO challenge. If we implement this, it would reduce the foot print of the storage and will amazingly promote the product and would lead to new technology altogether.
+I got this idea while I was going through the XtremeIO document and the way that it works. My basic idea was why can't we reverse the process of generating the unique code.
+If we get succeeded in reversing the algorithm, we would be able to generate the data on the fly by just storing unique code. This would avoid the storage needed for the actual data.
+
+The reverse algorithm will play a crucial role here.
+This would really solve problems related to exponential growth of data.
+If we can scale XtremeIO to an extent so as to store all the unique codes of 8kb this can store whole world data.

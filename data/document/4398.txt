@@ -1,0 +1,17 @@
+Cloud storage accelerator which can bring hot data to host memory
+
+From working with VDI/EUC with different storage platform, I realize that leverage host memory to speed up storage read IO, even write IO, is much affordable and cost effective comparing to do it inside storage box. 
+To make the transition to cloud environment, this idea introduce a 'Cloud Storage Accelerator' component sitting on each physical host/hypervisor to bring tranditional SAN to cloud playbook. It works as below:
+
+The 'Cloud storage accelerator' exists as a component of PowerPath in virtualized environment like VMware or Hyper-V. It provides features:
+1 Monitor activies to LUNs
+2 Use assigned memory as read cache
+3 Do some inline-dedup function to reduce network transfer bandwidth consumption
+4 Work with SP FAST technology to read data into memory before storming comes.For example, read the master image of VDI to memory before windows boot storm.
+5.Writes are deduplated and write to storage with efficiency.
+6.Leverage local SSD as write persistent protection. Write reachs componement memory and SSD and directly return ACK to application. 
+
+This idea can leverage server memory to accelerate the read IO, and enhance EMC's VNX/VMAX supporting much more scale than ever.
+
+
+

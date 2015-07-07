@@ -1,0 +1,9 @@
+Viper product enhancement
+1. Netgroup update
+New group creation is not available in ViPR. The current re-export of NFS file shares are causing I/O issues: runtime activities that are actively using the file share could be interrupted. For example, database transactions could be terminated.
+2. VDM (Virtual Data Mover – may be already in product backlog)
+	ViPR does not have a Create VDM feature. VDMS are being created manually from VNX.
+	Only one VDM in the complete VNX array can be ingested in ViPR. As a result, managing VDMS in a VNX array are primarily done manually. ViPR should either ingest all the VDMS or provide a feature to specify which VDMS should be ingested. 
+day to day work
+ADD netgroup feature in viper
+it will make NFS file share automation end to end.

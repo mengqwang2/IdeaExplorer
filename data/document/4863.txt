@@ -1,0 +1,7 @@
+Hawk eye - Surveillance of dieseases
+
+Ideation was driven by need for such a tool/app, when we see flash news on tv channels whenever such break outs happen. We see a report on how many have lost lives and how many fighting in hospitals but we do not see action  by civic bodies in taking preventive measures.
+The data collected by civic bodies and pathology labs will be subjected to analytics module. We can use k-means algorithm, that finds clusters given one or more dimensions. By looking at density of cluster and we can put up a mashup that drills down to specific area using google/yahoo map APIs.
+
+We can extend the app to clinical trials that pharamceutical companies carry out during drug testing process. Documentum stack is used by many Fortune-500 pharma companies to record clinical trials data. 
+

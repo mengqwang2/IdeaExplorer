@@ -1,0 +1,21 @@
+Make existing hardware simulator programs run in Docker to facilitate open source players to participate CoprHD development
+Russia COE Open Source Challenge
+
+Dockerize the simulator programs will help the CoprHD(open sourced version of ViPR Controller) contributors for their development/testing.
+The idea comes up from my daily work with ViPR running environment. We have simulators but the current OVF VM deployment make it difficult to tailor different types of simulators combinations. If we can leverage the Docker technology, it will be much more flexible to use the simulators.  
+ViPR QE team is maintaining some hardware simulator programs such as:
+
+    1. ECOM simulator(array);
+    2. HDS simulator(array);
+    3. XIO simulator(array);
+    4. CISCO simulator(switch);
+    5. Windows simulator(host).
+
+We can create "Dockerfile" for each of them. After that, each simulator program is converted into a Docker image. If we submit them into the offical DockerHub website, they will be available to everyone online. Everyone can run a single Docker command to make a simulator program run on his/her local machine. It's very useful for the developers of CoprHD(open sourced version of ViPR Controller): array/switch/host are required to run CoprHD, since the hardware is very limited for most developers, the simulator programs is a good choice to run basic functions of CoprHD.
+
+We can also provide "Docker Compose" solutions based on the simulator Docker images, to provide different types of simulators combination environments, such as "ECOM + CISCO + Windows", "HDS + CISCO + Windows", and "ECOM + HDS + XIO + CISCO + Windows". This is useful for different development/testing scenarios.
+
+1. Simplify simulators environment setup;
+2. Make different simulators combination environment setup more flexible;
+3. Easy for CoprHD contributors to get from DockerHub. 
+

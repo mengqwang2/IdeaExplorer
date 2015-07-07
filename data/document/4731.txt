@@ -1,0 +1,7 @@
+Create EMC-own companies to develop internally created technologies
+
+Russia CoE has a number of technologies developed (C-EDRS and WAN Optimization library as examples), which are not directly related to the business of the Business Unit where they were developed. However, these technologies are better than existed products of third companies and protected by IPs. 
+So it is bad to lose them, but there is no resources to further develop them inside the BU. Creating EMC own start ups could be an approach to develope them and to benefit from them.
+For example, there is C-EDRS compression library or WAN optimization library developed in Russia CoE. These technology partly used inside EMC. However, we lost some advanced opportunities, for example, to create compression board using C-EDRS algorithms. As this is not direct EMC business, we could create a start up working on this product - compression boards with C-EDRS compression algorithms.
+This will lead to further andancing of algorithms (which are used in EMC products), ability to use these company boards instead of third-party, selling the boards or selling the company. 
+

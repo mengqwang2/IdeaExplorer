@@ -1,0 +1,26 @@
+Improving IT experience in ITaaS model using OpenCPU/R Analytics:
+The idea uses open source tools like OpenCPU and R and solves some of the problem of the IT administrators. 
+We were using OpenCPU and R for some other analytics project and thought that is a good fit for this challenge
+We have good experience in R programming and have applied different models like linear regression,bayesian model on the data using R programs
+
+Increasingly the IT services are provided as a service to the Business Users and the IT administrators does not have much information on the usage pattern of different Users. Below set of information will make the IT administrators life easier 
+1.	What set of users are not using their VM’s at all( resources) after getting the service 
+2.	Is there any pattern to the usage pattern ( Month End – Pay slip portal is heavily used ) Based on that increase the serving capacity for that portal
+3.	Cluster analysis  - get a list of similar set of application  based on their usage pattern, this will help in putting those infrastructure in one place and optimizing it further 
+
+
+Analytics can be applied on the different databases in the IT datacenter systems and the above set of information can be derived for the IT administrator.
+For example for doing the cluster analysis, we can get the each application’s usage pattern ( no of GB storage, CPU, RAM requested, maximum latency allowed for their I/O ) and using similarity matrix to find the similar applications 
+Implementation: 
+An Ubuntu Box with OpenCPU and R packages will be built in as an OVA and published in the emc.gihub opensource site where customer can deploy the OVA and start using the analytics using the “HowToDo” page.
+
+detailed description in the below attached doc 
+
+https://inside.emc.com/docs/DOC-155758
+Criteria for Success:
+
+No of downloads of the OVA by the IT administrators
+Amount of benefit they get by using the tool
+
+Benefits :
+IT administrator can clearly see the capacity usage of different resource by different applications and based on that take corrective actions  

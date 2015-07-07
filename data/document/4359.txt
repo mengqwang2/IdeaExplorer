@@ -1,0 +1,10 @@
+Unified and Central Lab Help Desk Service
+
+We get the idea when we have a project discussion meeting with the lab manager William. Lots of colleagues ping him directly via OC during the meeting. We think it is not the most efficiency way to get help service from lab team. A huge blood of workload can directly go to this lab manager. He may be not able to prompt during this meeting. That's a problem. 
+The idea is to provide a platform like IT help, AskHR, etc., to set a unified entry and channel for all the lab users. When lab users have a question or problem, he will first remember to submit an issue in this central entry. 
+
+The platform does the following two things: first, the service or platform automatically assigns the tickets lab users submitted to the corresponding available lab managers who can solve this issue. Second, the platform has the statistics function that the workload and performance of a lab manager can be monitored and aggregated according in this platform. It is very helpful. Since if we directly ask help to lab managers, they may be not very happy to help you since it does not add to their job KPI. 
+
+The approaches to build such a platform can be very flexible. The following ways can be utilized: a mail-list, a unified OC account like IT Help, a hot-line like 1234, a web-service, etc…
+
+

@@ -1,0 +1,5 @@
+Virtual and Enhanced Customer Tour
+Customers regularly tour the Cork COE. One idea to emhance this is a web app that will lead customers around the plant in their own language. Also this app could be used to provide a virtual tour to online customers.
+I was part of setting up the ESS customer station. One of the issues we faced was the noise and differeing languages customers will have. 
+An app customers can use on mobile devices which give a commentary of the area they are in, in the langiuage they are most familiar with. Also, using GPS, a self lead customer tour might also be a possibility. And for customers not able to come to the COE, a virtual tour could be available.  
+This idea is about enhancing the customer experience when here in EMC, and raising the profle of EMC and the COE. 

@@ -1,0 +1,23 @@
+PHASER (Patient History Archiving System with Electronic Recovery)
+Well my idea is simply applying archiving and recovery within the smart city, but in a beneficial way and impact on mainly health problems in Egypt.
+I believe that as much people and problems we have in this country, the most important concern is healthcare in a technological way that would make it really efficient.
+I came up with this idea two years ago in my software project at the college, and I also had 3 more colleagues in the team.
+We have an implemented interface with the NFC card and a database (small example).
+
+1- Having a well-documented database will help a lot of doctors who face big problems in  
+   preparing their medical researches and studies in Egypt.
+
+2- Engaging an NFC ship to our national ID so whenever it's scanned we get accurate 
+   information on patient history and here are examples where it could be used:
+
+    a) On a first appointment with a doctor that would have access from the ministry of   
+       health for example on the system, that would avoid misdiagnosing or prescribed   
+       wrong treatment plans.
+    b) When accidents occur and we have a patient lying down the road, you can easily 
+       scan his id on the system installed on the ambulance.
+    c) The doctor could save the prescriptions on the patient profile, so there would be 
+       more control on drugs from pharmacies side.
+
+This is actually more related to the Egypt COE smart city and IoT challenge.
+
+I believe this idea would enhance productivity, optimize the process of healthcare  well documentation and decrease misdiagnosed cases in Egypt. (which affected a lot of Egyptians throughout the previous years)

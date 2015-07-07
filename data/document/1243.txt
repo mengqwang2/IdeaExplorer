@@ -1,0 +1,6 @@
+Tiered Data Lake
+Combining EMC products into a solution giving particular customer environments the best of multiple technologies.
+Working with VNX for a long time, I got the idea from the FAST-VP feature.
+Using XtremIO as a 'warm' data tier to an Isilon data lake. Less frequently accessed data to stay on the low/cold tier on Isilon, while one or more XtremIO arrays (for multiple sites) are set up to have the throughput-intensive data. HDFS support enables using analytics tools. 
+
+Customers with multiple sites can have most of the data in one data lake, on which analytics can be performed, while a Flash array on each site provides excellent performance. It's a solution which could suit many customers.

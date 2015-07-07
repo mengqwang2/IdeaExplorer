@@ -1,0 +1,7 @@
+FAST Cache using FLASH drives for VPLEX
+
+From Flash technology experience
+Moving towards VS3/VS4 architecture for VPLEX, director will have a  enclosure (Internal drives) comprise of fewer drives. Few of these drives (SSD) can be part of a pool which will be configured as secondary cache when compared to actual cache of Vplex DRAM.
+
+These FLASH Cache (secondary cache) will reside between OS drives and DRAM cache. Any Virtual volume having frequently accessed data chunks  will be moved to FLASH cache for frequest access by servers.Subsequent access to same data chunk is served by FLASH drives thus boosting VPlex performance.
+

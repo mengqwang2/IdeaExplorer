@@ -1,0 +1,14 @@
+Common Database Tracking EMC CMs' MFG Yields and Failures Worldwide
+A Global CM Yield/Failures Database will:
+* make GPO/EMC’s supply chain and manufacturing operations more efficient and effective
+*  position EMC’s hardware platforms, manufacturing and supply chain to be competitive in a 3rd Platform environment (includi
+With the addition of 3rd Party Contract Manufacturers across the globe, it was almost impossible to keep everyone "in sync" on the quality of 3rd Party suppliers and products due to lags and frequency of updating. This was a collective effort from the 3rd Party GSCE Team with me leading the project and/or implementation.
+A new database for all 3rd-Party suppliers’ yields and failures tracking worldwide
+* Structured to allow real-time access from all EMC locations and suppliers worldwide
+* EMC SAP “back-end” linked to custom MS Access/HTML “front-end” application
+* Information exchange with suppliers via “flat files”
+* Automatic posting and/or retrieval to suppliers’ FTP sites/web portals
+* Suppliers don’t need to access EMC internal network – no Network Access Agreement (NAA) required!
+* Provide quality data in a timely manner to internal/external customer
+* Centralized MFG yield and failure data to assess/monitor the quality of 3rd Party suppliers and products
+* Easier to incorporate with EMC MFG yield data without the need for EMC and

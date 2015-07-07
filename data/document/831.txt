@@ -1,0 +1,6 @@
+Xterm IO as a backend for air traffic monitoring systems
+One of the areas that could benefit from the fast i/o speed of Xtrem IO is airports and Air traffic monitoring centers.
+
+N/A
+Xterm IO as a backend storage array for air traffic monitoring systems
+making EMC the top vendor to airports and air traffic monitoring centers

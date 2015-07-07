@@ -1,0 +1,14 @@
+Fault Tolerant data services at scale
+VMware delivers extremely high availability with VMware/FT, as long as you need 4 or fewer cores.
+
+Build Greenplum on this to deliver database availability, in the cloud, at scales beyond what is otherwise possible in the cloud.
+This idea resulted from internal brainstorming around how to compete with the HA strengths of Oracle RAC.
+Customers buy Oracle RAC for availability.  VMware FT provides better availability than RAC but is limited to 4 CPU cores.   
+
+Provide fault tolerant availability (best on the market) at scale, in the cloud, by layering Greenplum RDBMS on VMware FT.
+
+Greenplum adapted a Postgres RDBMS for horizontal scale.  Unlike traditional databases that scale up, this scales out.  Take advantage of this to keep the workload per node lower than 4 cores so we can use VMware for fault tolerance.
+This elevates PostgreSQL to the highest levels of availability that can be delivered.  We would evolve an existing market (HA database) by taking the high-end of the market.
+
+This would be delivered in cloud environments such as the Federation Enterprise Hybrid Cloud.
+

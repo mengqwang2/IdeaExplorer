@@ -1,0 +1,31 @@
+Vertical Solutions using ViPR Abstraction
+The idea is to integrate the storage solution for different Industry verticals outlined in the challenge using the best of breed EMC products that are available off the shelf and integrating with the ViPR to provide software defined Storage.
+We understand that the vertical solutions have different workload types & require multiple products to satisfy their needs. Managing multiple arrays is a cumbersome task, so why not utilize the benefits of ViPR.
+ViPR controller will be used at the core of the solution, this will abstract the underlying storage products and provision the storage tailored for specific verticals or application workloads like 
+Social&Media, Healthcare&LifeSciences, Oil&Gas, Finance
+
+Physical layer will consist of array of EMC storage offerings like – Isilon, XtremIO, VNX, VMAX3, 
+Individual Virtual Arrays are created for specific verticals and workloads. These virtual arrays are configured with the storage pools from the underlying hardware that match the workload requirements
+With VIPR Individual Virtual Arrays can be created for specific verticals and workloads, these virtual arrays are configured with the storage pools from the underlying hardware that match the workload requirements.
+Benefits of VIPR can be benefits of centralized provisioning, management, reporting, self-service access and Integration with RP for data Protection.
+
+Also, the ViPR can be made available to have pre-defined templates for each industry vertical. This will help ViPR scan the underlying storage arrays & provide recommendations for the best fit storage array for each vertical. 
+
+Furthermore the VMware stack above the ViPR will help extend these services to the Cloud for a self-service catalog
+
+The following link has an elaborate representation of the grouping of storage arrays pertaining to each application. 
+
+https://inside.emc.com/docs/DOC-155620 
+
+Each industry vertical has mix of workload characteristics & there are multiple storage arrays from EMC & other vendors that satisfy each need.
+For Example: 
+In the Healthcare vertical: Isilon can be used for archiving the medical records & XtremIO for Real-time reporting & analytics
+For an elaborate pitch of this ides, please use the following link
+
+https://inside.emc.com/docs/DOC-155664
+
+1) Open new Markets for EMC Products in fields of Social & Media, Healthcare&LifeSciences, Oil & Gas and Finance using the benefits of VIPR Solution.
+2) The predefined templates will ease the job of administrator to group the storage arrays for each industry vertical
+3) Provide flexibility to the Customers in case an existing 3rd party Arrays are to be used.
+4) Decrease storage management costs and Reduce storage complexity
+

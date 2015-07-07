@@ -1,0 +1,23 @@
+Mobile app for parking in EMC's garage
+
+We spend a lot of time trying to find a free parking slot in the garage and we end driving in circles till we give up.
+A mobile application for EMC employees that shows them:
+
+-Number of parking slots that are free in the garage
+
+-Location/coordinates of the free parking slots so they can save time.
+
+Requirements:
+
+-Each parking slot in the garage should have a sensor which detects if there is a car occupying the slot or if its empty.
+
+-The sensors send the info to a server while the mobile application is connected to the server and getting live updates.
+
+-Garage should have screens showing the coordinates/numbers of each slot so it can be easy to navigate inside the garage and find the exact place of free parking slot after checking the application.
+
+Extra:
+
+-Application can be integrated with my other idea (no. 2014003779) that involves a mobile application for the new Inside EMC.
+
+-EMC Parking can be one of the services that you can get if you use the Inside EMC app on your phone or tablet 
+

@@ -1,0 +1,5 @@
+BBB for Non-windows operating system
+Block based backup s, as of now are only there for Winfdows based clients.
+BBB ( for non-wind OS _ wil reduce the backup time and the network utilization
+BBB for RHEL, Solaris, openVMS, AIX etc
+BBB ( for non-wind OS _ wil reduce the backup time and the network utilization

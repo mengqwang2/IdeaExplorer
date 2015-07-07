@@ -1,0 +1,26 @@
+Migration Wizard for automating migration in a VMAX
+
+
+The idea spawned while working on a storage refresh project for Thomson Reuters. There were about 5000 hosts which needed migration from multiple EMC arrays to VMAX arrays. We took over an year to complete this and were off taget by atleast 6 months. About 50 hosts were bundled together in to a single migration event. For each migration event the lead time was 4 weeks. Too much time was spend in to migration planning like creation of runbooks, technical documentation, manual validations and checks etc. If there was online automation in place, the additional time could have been utilized for mitigating risks and reducing human errors. The overall migration time would have marginally reduced. 
+The same idea can also be integrated with other block array products like VNX and VPLEX.
+Add in a feature called "Automate Migration" inside the Unisphere GUI for VMAX. The feature can be launched to multiple data migration events. Each migration event should launch a wizard to initiate the migration planning and execution. The migration events should support different migration types like - SRDF, Open Replicator Pull, FLM and FTS migration types.
+Prerequisite
+ - The source/target arrays should prepared for each of these migration types with any bin changes, zoning for SRDF/OR etc
+ 
+The feature should have the following capabilities:-
+1. The ability to simultaneously launch multiple migration events
+2. Each migration event should be managed as a wizard broken up in to 3 phases - i. Pre-Migration ii. Migration Cut-over & ii. Post-Migration
+3. Each phase should be broken up in to enough steps with prompts in each step for inputs, manual actions and automated configuration changes 
+4. The wizard should be flexible to stop at any completed step and resume from the next step at a later time
+5. The wizard should be able to take the host/cluster name and the HBA wwns as input, discover the volumes on the source array and automate the creation of the target volumes/masking/attributes on the target VMAX
+6. The wizard should be able to simulate a target volume/masking layout for each host and create customized reports to simplify the efforts required to raise migration change requests in customer environments
+7. The wizard should have automated checks to validate migration requirements, configurations before going to the next step
+8. The wizard should have options for selecting a common migration type for each event
+9. The wizard should have status reports for tracking and reviewing the progress of each migration event
+10. The wizard should have the options for feeding in the host layout like - OS,Path Mgmt, LVM & Cluster Software. The wizard should create a standard run book for each host/cluster which should also include generic host level steps for pre-checks, lun discovery, VG export/import, post-checks etc
+11. The wizard should be able to completely automate the migration configuration on the target VMAX, for e.g.:- SRDF creation/query , OR Session create start/stop/query etc
+12. The wizard should be able to automate clean up tasks on the source array, post migration
+13. The wizard should be able to pro-actively and reactively analyse and report any risk on the target array which needs to be mitigated in any phase of the migration, for e.g.:- FA performance thresholds, Pools running out of capacity, cache ceilings etc
+14. In every step there should be enough options for customization to increase the flexibility of execution
+15. There should be back out options for each host that is being migrated, at every step of the migration
+

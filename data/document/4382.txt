@@ -1,0 +1,5 @@
+Manage the cloud storage like the social networking tool
+
+This idea is come up with the ViPR 2.0 release and is not implemented. We want to make customer use the Software-defined storage more conveniently.
+Either you use web or portable application as the Software-defined storage management tool, we can use the real time message framework in the system like Facebook. One administrator can send message to other administrators what he has done in the system.  e.g. Tom can send a message to Frank like this “@Frank, I have used all size of storage pool sp1, please leave them” after he used all size of that storage pool.  Of course, the system can broadcast the message to each administrator about the resources usage and also can give the estimation of what left resources each administrator can use. In other side, administrators can use this way to notice the information to users. Also when users use the size, the system can send message about the status to administrators.
+

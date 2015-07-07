@@ -1,0 +1,10 @@
+Migrating data from OLD laptop to NEW laptop 
+
+This i come across when employee get new laptop and he/she start searching for External hard drive to copy the data from OLD laptop to new laptop... 
+
+This can be avoided if you have some tool. which copies the old data to new...
+We could build some tool or through LAN connection. We can migrate the OLD data to NEW data...  This will be done in the background. Where don't have to carry external hard disk or dont have to remember what data to copy..
+
+Pros: Time saving , Don't need any external hard disk, Don't need to remember what data to copy, Can work parallaly.
+
+

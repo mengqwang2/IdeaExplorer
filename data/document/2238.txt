@@ -1,0 +1,5 @@
+Improve Campus Wi-Fi Service
+Improve communication across our multiple EMC and Federation sites and deliver enhanced collaboration across EMC’s Federation partners, and across the COE Ecosystem.  
+The idea was meted by several people during an Innovation Brainstorming sessions conducted by members of PC Starts and Inventory Control in Cork COE.
+Create a tool to manage the login to SAP that would allow the user to move between network mediums without disruption. This tool could be expanded to cover similar issues for other EMC tools.
+Success would be an end to disruption for staff workflow as they move around the campus. Benefits would include greater productivity, ease of collaboration and less need to book meeting rooms as staff would be able to meet anywhere on campus.

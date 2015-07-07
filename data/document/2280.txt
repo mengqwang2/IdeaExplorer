@@ -1,0 +1,5 @@
+Better PaaS patterns using Infrastructure as Code
+Provide performance, quality of result and faster time to market for onboarding existing workloads to Hybrid Cloud Platforms. 
+Failure to onboard existing workloads proved that the standard approach to define patterns for an existing complex ecosystem has limits and that a better approach to this problem is needed.
+Using the reporting facility of the Puppet agent, extended with custom Ruby facts, we can extract a JSON view of the whole infrastructure. This can be programmatically processed to produce an set of patterns appropriate for the existing workloads.
+A programmatic approach to pattern definition would be a sharp competitive edge as a consulting tool. It would be a deal closer and would enable faster and better design & delivery, thus optimizing revenue and ensuring customer satisfaction. It would also kickstart the use of Infrastructure as code, thus enabling the clients to move to a modern model with devops, continuous delivery, containers.

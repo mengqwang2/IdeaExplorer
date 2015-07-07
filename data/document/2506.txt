@@ -1,0 +1,8 @@
+Mobile App Presenter
+Reaching for your laptop each time you want to navigate through your PPT while presenting is annoying and time consuming.
+
+IT Contemporary Workplace Challenge
+I have been using them for a while.
+Using one of several iOS or Andriod free apps that converts your smartphone to a presenter, through bluetooth or wifi, instead of buying a presenter.
+Examples: Mouse Kit (iOS), PowerPoint controller (Android)
+It takes no time to implement, it's free, and it will make presenting easier.

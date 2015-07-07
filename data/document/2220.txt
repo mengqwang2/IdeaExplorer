@@ -1,0 +1,6 @@
+Better usage of GCC infrastructure
+N/A
+Constant interaction with GCC team and how they work for the work assigned, compared to the infrastructure alloted to them at present, clearly shows a glaring gap between the requirement and the infrastructure provided. Hence came up with this idea, since sharing of the seats has been mentioned as one of the key areas, where in Managed Services are saving revenue on day to day basis.
+Better management of seats and infrastructure = better output and utilization.
+Currently GCC team is monitoring the SMARTS Alerts via laptop provided and there is no usage of the 3 monitors provided per workstations. So a separate sitting arrangement can be made, eg a desk in front of the screen, where in 2-3 team members can sit comfortably during a shift and work as usual, rather than make no use of the workstation and the monitors provided. Hence better utilization of the infrastructure provided within GCC, which can be alloted to some other team in future or currently
+Better utilization of GCC infrastructure

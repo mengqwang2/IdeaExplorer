@@ -1,0 +1,18 @@
+Social Driven Ideation Platform (EMC IdeaBook)
+
+Getting diverse opinions/ideas for Innovation can only be possible if we provide opportunities for people to come together through platforms they are comfortable in- In today’s age of social readiness, what better than using a collaborative and social platform for ideas generation
+Boddhayan and I have worked on Knowledge management systems extensively. Using our past knowledge of KM systems, and social media marketing , we brainstormed to arrive at this solution
+This solution can easily integrate with the current sytems we have, viz Inside EMC, Idea portal etc to make it truly a one portal experience
+
+In EMC, we already have the Idea Portal, but what we lack is a centralized collaborative platform where people can scout for solutions to individual ideas (more like a crowdsourcing model ) and pitch in together to come up with a solution for work challenges
+
+Social Driven Ideation Platform ( suggested name: EMC IdeaBook) will provide an opportunity for every EMC employee to pitch an idea and take the help of the very talented and diverse workforce of 60,000 plus EMC network. The platform will have modules like Talent locator (expertise locator), RSS feeds, and a KM module (Wiki/blog/ forums/ microblogs/ Messenger) which are fully integrated with Upvote/ gamification options to ensure the most effective ideas are captured.
+
+This model will leverage the social tools that employees are most comfortable with and ensure that every idea gets captured, irrespective of where the idea is originating from (cross country collaboration) and the channel that is being used. 
+
+An additional requirement for this platform would be to be accessibility and local language  friendly ( Auto-translator/ speech to text/ text to speech / utilize color control/ braille integration/ subtitles and transcripts  etc.) for it to be truly inclusive
+
+PPT uploaded here: https://inside.emc.com/docs/DOC-155281
+It will make for fantastic employee experience. having the capability of finding funding and resources for your innovation projects, getting diverse perspectives and using the next gen tools and making it truly inclusive through accessibility friendly features makes this a great portal and will give EMC the competitive edge to be a great place to work
+
+PPT uploaded here: https://inside.emc.com/docs/DOC-155281

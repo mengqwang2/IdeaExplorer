@@ -1,0 +1,6 @@
+Economic Routing for IP Telephony - Eliminate Long-Distance Call Charge
+
+This model is what my previous employer had deployed, and it has already saved a big cost for the company.
+We have already deployed Cisco/Avaya IPT system, and we have some voice gateways on some of the offices. When we make internal call between offices, we have zero charge due to the voice data transferred via existing internal IP network. When we make a long-distance outside call, it passes the request to local voice gateway/PBX and does an long-distance call through ISP network.
+This idea is to suggest that each EMC office should have a voice gateway(which connecting with ISP's phone network), when we make a long-distance call to customer, for example, Hopkinton to London, it goes through IP network first(request passed to London's voice gateway), and then makes an outside call from London's voice gateway. In this way, we eliminate the long-distance call charge.
+

@@ -1,0 +1,9 @@
+Course Registration and Availability
+I believe the task is achievable.
+The idea came to me when I was registering for a course and found that not only was the course itself booked out but the wait list was also full with the result I couldn't register for it.
+Courses that have full wait lists could be scheduled for a second time for that particular quarter.
+This would ensure that the courses are more readily available and IDP’s could be updated immediately, otherwise a person will have to wait for another scheduling of that course the following quarter. 
+I'm assuming the wait list is a substantial one in that the numbers on it would make it viable to schedule a course a second time. Course popularity would also be a factor contributing to the wait lists.
+I'm not aware of another way to get around this over booking.
+
+Success would be measured by the fact that if when booking a course it is fully booked that you can attend the next offering of that course either within the same quarter of early in the following quarter.

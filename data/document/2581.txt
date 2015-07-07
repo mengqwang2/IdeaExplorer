@@ -1,0 +1,36 @@
+A New Market Opp through an Open, Proven, Decentralized and Secure IoT Platform 
+Blockchain
+Office of CTO 'New Business':
+Market opportunity around blockchain tech is expanding rapidly with many new applications & business models to be defined.  
+RSA IoT Challenge:
+blockchain has redefined decentralized, scale out trust & security.
+My interest in the blockchain began in November 2013 when the mass media hype around bitcoin was at a peak.  I built three virtual currency transaction (miner) nodes in my basement and have been following the space since that time.  The specific idea (link below) of leveraging the blockchain as a platform for IoT devices/content evolved from my personal interest, industry activity (links below) and "platform 3" SE training in our local EMC office.  I worked with Jeff Korte (STL SE) to build out the conceptual prototype of embedding and retrieving IoT healthcare device data into the blockchain for the purpose of a decentralized Healthcare Exchange, similar in concept to the real estate MLS system. 
+
+IoT Health Exchange
+https://inside.emc.com/docs/DOC-153609
+
+NASDAQ Announces Blockchain Stock Transactions
+http://finance.yahoo.com/news/nasdaq-s-bitcoin-plan-183125709.html
+
+Overstock Bond Offering and Medici Platform
+http://finance.yahoo.com/news/overstock-issue-digital-corporate-bond-162129626.html;_ylt=AwrC1TGQNntV_G0AnYyTmYlQ;_ylu=X3oDMTByMDgyYjJiBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzYw--
+
+Overstock Medici Platform
+http://t0.com/
+
+IBM Blockchain for IoT Scale Conceptual Whitepaper
+http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=XB&infotype=PM&appname=GBSE_GB_TI_USEN&htmlfid=GBE03620USEN&attachment=GBE03620USEN.PDF#loaded
+
+IBM ADEPT Project IoT Blockchain Architecture Paper
+https://pdf.yt/d/esMcC00dKmdo53-_/download
+
+IBM/Samsung Blockchain IoT Smart Device at CES Trade Show
+https://www.theprotocol.tv/adept-demo-ibm-samsung/
+
+NOTE:  I believe the applications are too vast to propose one solution.  My primary proposal is that we (EMC Federation) explore the blockchain/sidechain technology with the intent of integrating it into our existing technologies and/or creating a new product/market/company to monetize it.  That said, the blockchain use case I've spent the most time on is modeled around the ability to embed content in a transaction.  My prototype was based on the idea that much of the data produced by consumer wearable devices (fitbit, apple watch, etc.) are stored in device manufacturer data silos or corporations trying to drive data aggregation into their platform.  Even though some of these silos/platforms are open from an API perspective their is no universal way for a person to enable/provide data access to a healthcare entity and that entity to in turn subscribe.  There are multiple applications for this use case across the healthcare industry with many benefits to both provider and subscriber.   
+Success defined by one of the following:
+- Enhance existing product for competitive advantage
+- Create new product or market
+- Participate in funding round for one of many startups
+- Partner with IoT manufacturer for industry specific solution 
+

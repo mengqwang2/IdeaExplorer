@@ -1,0 +1,5 @@
+Create analytic driven knowledge base system for HW diagnostic testware in MFG
+Improve efficiency for technician operation  when handling issue reported from testware in MFG
+Lots of issues are not new issues however technician still need time to handle so we are wondering how can we do this better
+Create an analytic driven knowledge base system for HW diagnostic testware in MFG and connect to testware . If there is an issue which happen , it can automatically search it in our analytic driven knowledge base system ,if find it ,then automatically close this issue,if there is a new issue ,cant' find it in current system ,then search this in other knowledge base system like in GHTS/GAME ,if still can't , we can  add a new knowledge base in this system
+If we implement this , it will significantly reduce error deposition for technician and achieve time to test 

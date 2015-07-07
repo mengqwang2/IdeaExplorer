@@ -1,0 +1,7 @@
+Large Scale Storage Configuration Automation via Puppet
+Puppet is a popular open-source configuration tool. It can manage large scale machines and the software running on them. We can leverage it to reduce manual operations on building and configuring storage system.
+We have done a Puppet Module for VNX, which is used for cloud administrators to setup VNX backend for OpenStack Cinder. We design to extend it to support multi storage systems.
+Our solution is to abstract storage entities (such as storage pool, LUN, domain, etc.) into Puppet types, then use these types to manage (create/configure/delete) the resources.
+Puppet support user defined types. Like a class, each type can have its own parameters and behaviors. Moreover, types can define different realizations. For example, both VNX and ScaleIO have storage pools. In Puppet, we can define one storage pool type and two providers. One call VNX command line and the other call ScaleIO API. Once used, users could specify which provider they want to use.
+
+Manage large scale storage systems efficiently and reduce duplicated works.

@@ -1,0 +1,9 @@
+Vertical ViPR (vViPR), a Software Defined Administration - Automates and translates SLA/SLO to Application, Compute, Network and Storage configurations, independent of underlying technologies.
+
+I have been reading about Open stack and ViPR and attending few sessions on these. But found that this was a missing link. Then disussed with my manager to further refine this idea.
+Introduce a vertical layer that will interface with Application, Compute, Network and Storage and translate the global SLA/SLO requirements to layer specific SLA/SLO requirements. Experts from each level can concentrate on their specific layer and develop interfaces rather than understanding the layer above and below.
+
+Link for details:
+================
+https://inside.emc.com/docs/DOC-100070
+

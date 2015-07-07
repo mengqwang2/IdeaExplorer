@@ -1,0 +1,6 @@
+Automatic saving of note in Service Center.
+Service Center optimization.
+Every time I lost my work due to such issue, I used to think of making changes into the way Service Center saves notes.
+As we type a note in Service Center under 'Log Note', many a times it happens that the note does not gets updated after we submit and we loose all what we typed. This leads to a lot of efforts being lost and the effort needs to be reworked. 
+By adding a feature in Service Center which will keep on automatically saving the note as a draft after every line typed will never let us loose our hard work of entering the analysis in the note. It will anyways save the final note after we press the submit button, as it does now.
+This will save a lot of effort time & frustration while working on Service Center.

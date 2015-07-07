@@ -1,0 +1,5 @@
+Component failure analytic tool
+
+I have got this idea when I reading the challenges.
+Develop a tool for analyzing all the component failures of the EMC storage products applying BIG Data analytic on customer issues, EMC Knowledge base, incident/change/problem management tools data, etc to find more opportunity to find the exact root cause based on the regional/geographical/environmental effects for failures. This will definitely open up a new thinking or redefine the existing product to reduce the future failures and bring up robust products, increase the Total Customer Satisfaction, to reduce the SLA.
+

@@ -1,0 +1,19 @@
+customizable log bundle analyzer tool
+reduce the need to involve multiple groups to solve a problem.
+Automate answering simple questions where the answer is a known issue.  this can be done for new TSE's, TSE's in need of help from another group, or even for customers as a self service tool t
+I thought of this after working many collaborations with unified groups. I often get asked the same question.  I thought that if we could automate answering easy questions then it would make both their work and mine more efficient.
+
+I've discussed this idea with my manager who was interested, and I've started work on implementing a basic RUBY framework to implement it.
+a programmed plugin into the notepad++ advanced text editor that will allow a TSE to point to a log bundle, such as an EMCgrab or spcollect and have it search that bundle for a series of text patterns that match to a list of known problems that are common.
+
+the search behavior and list of problems should be configurable using an xml file.  this allows each group to modify and add to their log analyzer.  Each known problem should have a salesforce KB associated with it, and the search would tell you that kb along with the output.  the ability for a group to add to their list of problems allows the tool to stay current with the most common issues of the day.  
+
+The log analyzer configuration files for a particular group can be presented to other groups so they can use it as a way to avoid the need for a collaboration.
+
+the entire tool can also be made available to customers over a web interface as a way to avoid the need for opening a case when dealing with common problems.  The log analyzer could look at the log, find any common problems and present the customer with the appropriate salesforce KB based on a pattern matching search of the error logs in the bundle.
+reduced cost for technical support by:
+
+speed time to resolution for many cases.
+help new TSE's solve cases quickly
+reduce the need for involving multiple engineers from multiple groups in a case.
+case avoidance by allowing customers access to better self

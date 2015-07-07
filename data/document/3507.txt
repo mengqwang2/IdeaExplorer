@@ -1,0 +1,14 @@
+ Big Data Guard - Big Data in Network Security
+
+ The idea came up from studying Big data related papers 
+ 
+The idea works as follows:
+
+-	Utilize the huge amount of logging produced by the network nodes such as switches in the 
+-	Periodically move these data to a centralized warehouse for analysis 
+-	Run big data analytics techniques such as temporal analysis on the collected data to detect possible threats. For example if w user logs in to the network with his credentials from one place (e.g US) and after 5 minutes the same user is logged in using same credentials from China then there is a possible security breach
+-	Corrective actions can be taken like : blocking the user temporarily till further authentication
+-	 The tool will analyze the access behavior and spot any uncommon/suspected activity and report it 
+
+
+

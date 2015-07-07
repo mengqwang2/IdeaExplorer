@@ -1,0 +1,5 @@
+Modernize Badge System
+Move beyond the outdated badge id.  
+Brainstorming session with PSRC Team.
+Use fingerprint recognition software to grant access in and out of buildings/labs. 
+Cost savings.

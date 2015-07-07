@@ -1,0 +1,6 @@
+IOT syslog cloud
+Security of smart devices using IOT technology is very important and one of the most important tools forensics will need to look at after a security breach is the logs of this device which may have been damaged or tampered with
+A cloud service that would host smart devices logs will make accountability and forensics more easily 
+N/A
+a cloud based syslog service where subscribed smart devices is able to send and store it's logs on
+providing a new business model for cloud service and a new business opportunity for EMC

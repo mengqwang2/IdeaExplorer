@@ -1,0 +1,15 @@
+SECaaS for IoT
+This idea provides cloud security services for IoT devices allowing incorporation of security features into devices at device creation time.
+New for this challenge
+Create Security as a Services (SECaaS) providing solutions to the above problems.
+securely.
+
+1. The cloud service has the compute and storage capacity to establish behavioral profiles and a cloud service has visibility to many devices and can establish "normal" behavior of similar devices.
+2. The cloud service uses analytics to provide on-going, always updated device reputation
+3. The cloud service provides advanced security services such as encryption, secure key management and key rotation and removes this burden from the device creators.
+4. The cloud service provides a holistic view of incidents for the customer if the devices he owns uses the RSA SECaaS.
+5. The cloud service constantly gets updated.
+This idea allows IoT devices to do social networking, eCommerce, etc. by storing sensitive data.
+It would be a cloud service operated by RSA.
+The APIs would be used by IoT manufacturers as a feature for enterprise customers.
+Enterprise customers will enable the security features by purchasing a subscription directly from RSA and get access to the incidents dashboard.

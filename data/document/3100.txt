@@ -1,0 +1,21 @@
+Aadhaar enabled City Smartness
+
+Thinking about the idea for sometime, still naive.
+Intergrating data collected all over the city from various means with the help of aadhaar number of citizens give us  meaningful insights to take and enforce various decisions.
+
+The idea is not to create a complete new system, but to used the existing systems like Greenplum to integrate the data, and have Ready to use "TEMPLATES" for data integration using aadhaar number and utilize it for making and enforcing decisions.
+
+1) How TEMPLATES work for Water Management 
+
+Currently there is no way of deciding how much water is needed for a  particular area accurately. Using aadhaar number of citizens we could accurately determine how much is needed for each area. If water usage is more than what is determined by the system, officials from BWSSB could be questioned and corrective measures taken. Leading to better water management.
+
+2) How TEMPLATES work for Traffic Rules enforcement
+
+integrates data from across all states, so we know, how many vehicles are owned by a citizen across states. Benefit is  currently if a vehicle crosses a Red signal, particular vehicle is fined rather than the owner of the vehicle. 
+
+If we have an integrated platform, traffic laws enforcement becomes very efficient, leading to better traffic rules enforcement
+
+There could be number of use cases to solve City Problems with the integration of data in a city with aadhaar identification. 
+
+EMC should create ready to use TEMPLATES for data integration with Aadhaar number to solve few of the city problems, so the value of EMC products in creating SMART BENGALURU/PUNE is well positioned.
+

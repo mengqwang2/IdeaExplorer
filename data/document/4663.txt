@@ -1,0 +1,5 @@
+Shift Cell Phone required for Receiving message for Sev1 and Sev2 ticket or  
+
+We have Shift Cell available in which we receive the SMS for Sev1 and Sev2 ticket which we can configure through Ticketing toll easily and this will be helpful for us to save the SLA . This will also help to increase the CSAT if we respond the ticket in Proper timeline ,
+We have Shift Cell available in which we receive the SMS for Sev1 and Sev2 ticket which we can configure through Ticketing toll easily and this will be helpful for us to save the SLA .
+

@@ -1,0 +1,9 @@
+Vipr Controls
+
+-
+Ammend to Vipr an interface that generates code to be integrated in customer websites.
+From this code, certain embedded controls can be used where users submit their requests. 
+The requests flows to the administrator. Once approved the implementation of the request is automatically done with vipr. 
+
+Automating the whole request process would fasten the process and make it less prune to human error.
+

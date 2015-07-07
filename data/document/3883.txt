@@ -1,0 +1,6 @@
+SP Board Reconfiguration and Retest Elimination
+
+My idea is build and test all SP boards at the same part number and use memory dimm across all baords. A software install to designate the type of board that board will be, eg physically a 64gb and 128gb sp baord would be the same but the software on the board would control the amount of memory/ resources that the 64gb version v's the 128gb version, A cusotmer could even upgrafe their board by b" buying access" to the rest of the memeory resouerces by purchasing an ELA whci could be used to unlock the baords remainig memeory.
+In manufacturing operations, we frequently are required to convert SP boards from one version to another version by adding or changing the memory dimm type on the board, this dimm swap requries a full retest of ESS for the convereted.
+This dimm swap and board covnersion process us utilssed in most ESD and USD product lines.
+

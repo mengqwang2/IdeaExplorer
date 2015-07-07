@@ -1,0 +1,5 @@
+Implement Customer Communication Management platform in EMC
+In order to improve Net Promoter Score within whole EMC implement EMC xPression for Customer Communication Management. This will give new customers excellent experience during on-boarding with EMC. EMC xPression will provide brilliant personalized communi
+during sales meeting with customers I've got an idea that vision of ideal future we're selling would be more realistic if it will be implemented in our organization
+Customer success framework, use every reason to communicate with customer with pre-call, 'during the call' of follow-up templates filled with personalized information making customer journey with EMC more enjoyable.
+NPS improvement, more customer satisfaction which will lead to more leads and further sales

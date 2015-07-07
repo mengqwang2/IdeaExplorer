@@ -1,0 +1,5 @@
+Enhance the Global Reporting Dashboard.
+
+Anytime when I'm analysing specific SOEs associated with our Manufacturing Test Processes, most especially in FC, this idea crosses my mind and I say to myself If only I had this as an option it would make issues easier to identify. Because it should be simpler  to associate errors with configurations.
+Add to the 'Slice by' at level 2 an option to: display configurations. The output when this option gets selected would be a chart showing the number of similar configuration (Number of Back End buses, Number of SLICs, Control Stations, Number of Data Movers etc.) associated with specific errors.
+

@@ -1,0 +1,23 @@
+Parking in Smart City
+-Parking nowadays is one of the most difficult challenges we face in our lives these days. So finding a smart solution for this challenge is an important step in a smart city and to use the internet of things solving this challenge making it much easier finding a solution for this challenge.
+	
+-Solving this challenge will help us eliminate wasted GAS and time looking for a free parking slot near to your destination. By saving GAS this will help in reducing the environmental impact done by cars nowadays.
+
+-The idea came up by the challenge we have in each and every day finding a free parking slot to park the car in near my destination.
+
+-How easy we could solve this challenge using internet of things.
+
+-This will help in improving quality of life, using less GAS in the car and reduce environmental impact.
+
+-The idea is to enter your destination to the navigation system (Car navigation system or your mobile phone navigation system) and when you enter a circle of 200 meter around this destination an application will go to a database where we reflect the status of each parking slot in the street through sensors. And automatically calculate the nearest free parking slot to your destination. 
+
+-To do this idea we need sensors in all the public parking slots in the streets. Those sensors send the status of each parking area in the street to a database on a storage system. Then we could use this system to track which parking slot is free and send it to the user. The user enters his destination on a navigation through his car navigation system or his mobile phone and it automatically calculate the nearest free parking slot to your destination once you were nearby your destination. 
+
+-If there is no free parking slot in a circle around your destination of 200 Meter will calculate a bigger distance (double the circle diminution around 400 meter) and research for other free slots.
+
+-If no free parking slot within 400 meter the application will calculate bigger distance and so on with a feature of suggesting to the user a transportation to take to his destination.
+
+-Succession of this idea by implementing it tracking all parking slots in the streets by sensors.
+
+-The company will benefit from this idea by giving a solution for the big data we will have from this sensors. EMC2 will make money by entering with its storage system in such a smart idea for a smart city.
+

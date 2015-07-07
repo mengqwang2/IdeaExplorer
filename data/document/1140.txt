@@ -1,0 +1,13 @@
+Managing Docker Containers with ScaleIO and Kubernetes
+Russia COE Open Source Challenge - Makes ScaleIO easy to use with open-source Docker by contributing a module to the open-source Kubernetes orchestration software.
+
+Israel COE Challenge - Provides better orchestration for hyperconverged solutions built on ScaleIO and Docker.
+
+APJ COE "Solutions Platform" Challenge - Improves customer experience when using ScaleIO as underlying storage for Docker containers.
+I read about Kubernetes when it was released, and immediately thought of ScaleIO support as a natural extension.
+Kubernetes is an open-source orchestration framework for Docker containers. One of its key features is the ability to automatically make a container's required data accessible on whichever node of a cluster is going to run the container. It is built to be extensible, with modules allowing it to manage different kinds of storage.
+
+ScaleIO is a natural storage solution for a cluster of container servers, since it allows the servers' built-in storage to be aggregated into storage that is shared across the cluster. There's never any need to copy data onto a new server with ScaleIO: a volume is simply presented to a server, making the data required to start a container available immediately.
+
+Extending Kubernetes to manage ScaleIO storage will make it easy for customers using Kubernetes to manage their Docker containers to try ScaleIO. Combined with ScaleIO's free availability for non-production use, this should help drive adoption of ScaleIO by customers who are moving their applications to Docker.
+If successfully implemented, this idea would result in a contribution by EMC to the Kubernetes open source project, allowing users of Kubernetes to easily leverage ScaleIO as storage for their Docker environments. This would help drive adoption of ScaleIO among customers who are running applications in Docker containers. Kubernetes and Docker could also be integrated into EMC's own hyperconverged solutions, allowing EMC to sell an easy-to-manage Docker solution built from well-known existing software.

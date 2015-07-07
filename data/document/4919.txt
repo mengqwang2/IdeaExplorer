@@ -1,0 +1,7 @@
+Elevator cancel button
+
+Time wasted waiting for the elevator.  
+o	We often press on the wrong floor button in the elevator by mistake. Why not introduce a mechanism where pressing it again would cancel the initial order/button press. This option is not new and it is available in a lot of companies and universities in Egypt, so it should be quite simple to implement. 
+o	Also why can’t we control the 4 elevators from one button not from different buttons in each floor?
+
+

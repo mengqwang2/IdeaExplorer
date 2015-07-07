@@ -1,0 +1,7 @@
+Security Cloud Based Platform for (IOT)
+With the growing demand on IOT enabled services and automation of various aspects of our life the traditional security models didn't prove adequate for providing the level of security that's needed.
+A security platform that is vendor independent to verify
+I came up with this Idea during Challenges Fast Track! event
+Every user will register his devices to the platform from now on every time one of the devices send a data to another device it also send a signal to the platform informing it that it did so when the signal reach the destination device it will check with the security platform to see wither it was sent from an authentic device or not
+The vendors supporting connecting to this security platform in their products.
+The platform will increase the security of the user environment and can be a new business profitable business model   

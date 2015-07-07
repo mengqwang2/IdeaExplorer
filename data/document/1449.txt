@@ -1,0 +1,6 @@
+Better elevators availability and reducing electricity
+N/A
+Some times a mass of people are ordering both sets of elevators denying service for other requester and the elevator would be making more trips consuming more power and electricity
+Both sets of elevators' software can be connected together. Thus they can have a smart decision of which one to reach the person's request floor.
+Reaching the requester can be based on the 4 resources (2 pairs of elevators) and the nearest elevator to the requester.
+N/A

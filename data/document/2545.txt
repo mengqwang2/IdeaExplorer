@@ -1,0 +1,8 @@
+IB Move process enhancement/ Automation
+E2E Horizon: it is process enhancement through automating part of the process, this will increase the enabled revenue to EMC, save operational costs through saving man hour of employees submitting the case and solving the case.
+When we had process update for Datadomain (move SW related instances manually with moving the TLA)
+Then we have been receiving huge amount of requests to move SW to HW party ID for other products
+The the idea came to solve the problem from its source, thus to make sure we always have the HW and their related SW at the same party#.
+Make the related SW products move with the movement of the HW instances automatically, the same way the remote connection are moved with moving the TLA, through a pop-up that asks the user whether he/she wants to move the related SW instances as well.
+1. Eliminate human error, all related instances will be moved together, therefore increase the money enabled out of SW products at the right party# significantly when contracts team quote the customers. 
+2. Decrease the number of cases opened to move SW t

@@ -1,0 +1,49 @@
+EMC Global Heritage
+Enabling Crowd sourcing through a mobile application can definitely overcome Data lake problem for Big Data needed, so we provided a solution for employees for saving culture and digitizing it
+
+- Kindly review the link for an APK file for an application which will be used for cultural digitization for employee’s ideas or heritages. 
+https://inside.emc.com/docs/DOC-156113
+- This application support Android environment (attached in the link APK and screenshots for it). The mockups support iOS (same Photoshop pages could be used by the iOS developers).
+- The Graphical user interface of the application also attached as a pictures for your review.
+- The application can support multiple languages.
+- How to use the application and its services is illustrated in the solution field.
+- Users could upload photos, videos and audios if needed. 
+
+The idea came to us by understanding what the challenge sponsors needed form this application. How important could this application be for EMC and for the whole world as it save ideas and heritages from all over the world for other people now and for new generations it will show them a digitization of the history and heritage of the whole world. Also how hard it is now to get a cultural movie or picture for one of the historical places and how it used to be like in a certain age. 
+- Our solution is based on the requirement the Challenge sponsors asked for, so to make things clear we submit an APK application which could work for android platform and a mockup for iOS platform. This application is supporting multiple language we could upload multiple photos, videos or even audios.
+
+- To illustrate more the application in details:
+
+	o Login page with EMC credentials
+	o The application will support the mobile language by default, still the user could change the language from the application.
+	o User could create lists or even save and categorize some ideas.
+	o User could submit an idea (heritage), by
+		* Adding Title, Overview, Main Picture, Description.
+		* Optionally the user could add .. Address, phone number, more images, videos and audios related to the idea.
+	o Each idea can be categorized under one or more country or activity.
+	o Activities may include
+		* Food and cuisine, festivals, late outings, history, art, summer vacation, traditions, kids and family, friend gathering, legends, movies, sports, parks and monuments 
+		* If no suitable activity/country user could add new activity or country.
+	o An Auditing team will review the submitted idea/heritage and will publish it after approving on it.
+	o How could a user review an idea
+		* User could follow some countries and activities, so this user could get a notification when a new idea is added related to a country or an activity he is following.
+		* User could also like or comment on any idea.
+		* User could save some ideas to his favorite list.
+		* User could search for an idea by keyword either in a country or under any activity.
+	o Home page in the application
+		* Recommended ideas, based on the countries and activates the user is following. For new users this will show most liked ideas.
+		* Nearby ideas, based on user location will show the ideas submitted in places nearby his current location.
+		* Popular ideas, will show the most searched for, have a lot of comments or likes or even shared by other users.
+	o How to encourage employees to use this application:
+		* We suggest offering some points on the employee participation.
+		* For example: when an employee submits an idea, automatically a 5 points will be added to his profile. A 10 points more will be added after the idea is reviewed and published. Also a point will be added when the idea have a like, comment or shared by other users. Also when an employee comment on other idea a point could be added to his profile. Finally this point could be translated monthly (so the target won’t be high for the employees to participate) to a kind of reward.
+	o Finally to make things easier for in reviewing the ideas
+		* Employees contributions could be used by giving the idea a rank from 1 to 10, state if this heritage is true, clear, completed and integrated or not.
+		* Could allow the employees improving the idea.
+		* And the community could publish the heritage with the best ranking values.
+- Kindly review some screen shots and the application APK in the link provided in EMC|One page.
+https://inside.emc.com/docs/DOC-156113
+- Succession of this idea by implementing this application and use it to save history or heritages all over the world. Such an application needs a big storage system to save all the submitted idea analyze it and show it to other users. This will lead on an up to date database for all heritages all over the world, giving a source to the people for a digitized ideas. This will lead in saving a new history for the world.
+
+- The company will benefit from this idea by giving a solution for the big data to save a the submitted ideas in it and analyze it, save it and it could be part of the world history after 20 or 30 years. EMC2 will make money by entering with its storage system to store idea from each user with those data could be used after years to show the history of countries and culture of areas that will be changed by time. Those picture and culture could return a huge benefit to EMC2 by showing the whole world how EMC2 saved part of the world history and culture to other generations.
+

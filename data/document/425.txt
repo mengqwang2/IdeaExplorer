@@ -1,0 +1,42 @@
+Big Data to power new ELA deals
+Enterprise License Agreements (ELA) are a key part of EMC’s overall strategy with an estimated run rate to exceed $850M in 2015. One of the keys to securing new ELA deals is the ability to have an accurate overview of an existing customer’s install base and being able to provide this overview within tight deadlines. This idea proposes to transform the existing process for obtaining this IB information and replace it with a solution that is scalable, repeatable, cost-efficient and which will help drive revenue opportunities in new ELA sales and renewals
+This idea evolved as a result of an ask from Renewals Sales to develop a new tool that would help them to enable new ELA deals. The deliverable requested was a comprehensive overview of an existing EMC customer Install Base and an estimate of future Maintenance costs, as well as including some basic information about Frame capacity and SW titles.  The key requirements of this overview were that it should be quick to create (ideally same business day), in a format that was consumable by a Renewals Sales Rep and also that the underlying process to create the overview was scalable and flexible.
+
+Since the initial ask and requirements gathering, the Renewals Operations team has done the following:
+
+- Developed and tested an excel based tool that meets the overview requirements
+- Developed the underlying process for creating the tool utilizing OBI/GDW source data
+- Identified and trained resources to perform the process of creating the tool
+- Kicked off an initial pilot of the tool with external groups that is currently ongoing and feedback is being collated
+
+
+Initially, the results of this new tool/process have been positive with average cycle times to create the tool running at 90 minutes (compared to 4 weeks) and the initial feedback on data accuracy being positive too.
+
+This process and excel based tool would provide the foundation for the new data-driven application with most of the logic already defined.
+This solution proposes to utilize the Business Data Lake (BDL), to create a self-service application that will enable users to get existing EMC customer Install Base information and estimated future maintenance costs in real-time.
+
+For this idea to be successful the application will need to have access to real-time data that can be queried and with the ability to be presented in a format that is easy to consume and available on mobile devices (Laptop, Tablet & mobile).
+  
+Some of the key aspects of the BDL that will enable this solution are:
+
+All of the data in one place and accessible – our solution this will remove the need for resources to research multiple databases and use numerous tools, which in turn will mean significant process efficiency and cost-savings
+
+Real-time data integration – the solution will provide an overview of the customer install base data which is accurate and timely, and which will help to enable strong business decisions. This will help to remove the issue of ‘good work’ being undermined by source data that is not current.
+
+Enables use of unstructured and semi-structured data using standard query tools – the solution will replace existing manual and resource heavy process steps and decision points with standard queries that will ensure data accuracy and remove human error risks. The solution will be repeatable, scalable and deliver consistent results.
+
+Utilise existing visualization toolkit – the solution could leverage existing visualization tools (BOBJ or Tableau) to provide a holistic overview of a customer’s install base and future maintenance cost.
+
+This data-driven application would transform an existing process that can take weeks and months into a solution that can be available in real-time and on the move.
+If successfully implemented, this solution would be a fully data-driven, self-service mobile application that would be available to Renewals Sales Reps on any device, and would provide a detailed overview of EMC’s customers install base information and future maintenance costs. 
+A Renewals Rep would be able to quickly and easily access detailed customer install base and maintenance info, by inputting basic search and filtering criteria.
+
+Over 90% of EMC’s Enterprise customers today do not have a current ELA agreement so the potential opportunity in this area is huge as EMC aims to help customers transform their IT infrastructure. A crucial part of any successful ELA deal is having an accurate overview of a customer’s install base and the current process of obtaining this overview can delay ELA deals and may also negatively impact pricing decisions. As the focus on ELA deals increases and the number of potential ELA opportunities grows, the potential demand for IB overviews will increase to volumes that cannot be supported by existing processes and resources.
+
+This self-service application would allow Renewals Sales being to quickly provide existing install base information to inform new ELA deal pricing and negotiations. This application would allow this overview to be provided in close to real-time with up-to-date and accurate data, and ensure that the pipeline of potential ELA opportunities is fed with valuable IB and maintenance info.
+
+Benefits:
+
+-Enable Renewals Sales to provide timely and accurate IB overviews to support new ELA deals
+-As the number of ELA opportunities grow, this solution will be scalable and be able to support growth in this area without any additional resource cost to EMC
+-Significant cost-savings, as the existing internal process would be replaced by the self-service application. This would remove the need for requests to be sent to internal EMC groups which would free-up internal resources for other value-add activities

@@ -1,0 +1,5 @@
+EMC Customer Management Console
+
+..
+Customer will have an EMC portal with a unique customer ID, so can open a ticket or a chat right away using mouse clicks without the need to open a browser and look for the link to do so. Also can monitor the update of the SRs open from one place too. the console can include access to EMC communities right away without the need to search for them. it might be like a technical social space for asking questions. EMC can use the space in introducing the new products and even virtual lab tour to those products and can provide a button that would send a request to sales if customer is interested in that product. 
+

@@ -1,0 +1,7 @@
+Fish Bowl
+Excellent Use Case for XtremIO
+Going through college and using these fish bowls always were a challenge. Logging into the VDI always took forever and if you had a lot of people entering the room at a time it caused a huge issue. 
+Market XtremIO as a back end environment for this. Since it is a sandbox environment the data is consistent and will be high deduplication. XtremIO will also be able to provide fast enough processing that it can handle boot storms and upgrades to the environment very quickly. Pair this is VMware and it can be marketed as a bundle.
+
+This can also be used in testing centers. When taking the ISM the testing center has a setup very similar to the student labs. This would lower foot print, provide the ability to use dumb terminals and also provide an easier monitoring service for proctors and lab admins.
+This will open a new market that I haven't seen used yet. It will also add the ability for partnership with company's beyond VMware that provide software that can operate the sandbox environment.

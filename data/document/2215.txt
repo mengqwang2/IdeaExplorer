@@ -1,0 +1,8 @@
+Elegant Service Center with inline images support
+the idea makes the handling of SRs that involve screenshots and images more simple and efficient, which simplifies investigation in consulting and ownerchange 
+The idea came to me when i had an SR with lots of screenshots in different time during and before the issue. I needed to consult so i had to upload all the screenshots to 2 SR with the same customer and to email them to coach. also whenever i copy the customer's complain without screenshots it doesn't feel right 
+My idea is to include the support of inline images in the Service Center. If the screenshots can be inserted and viewed inline with text, tracking them will be easier and they will be organized where they should be. eliminating the need to download all screenshots and re-arranging them makes it easier for TSEs to consult more quicker, and if the SR ever turned over, this will reduce the time for the newly assigned TSE to understand the issue and act more quickly. 
+- More elegant and easier view and order in the SR 
+- Saves download and upload time 
+- Makes it easier to consult 
+- Faster comprehension of the issue in case of ownership change 

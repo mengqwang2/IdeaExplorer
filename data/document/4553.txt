@@ -1,0 +1,5 @@
+Mobile Application Idea (Know your product)
+
+The idea came to me because some new employees find some difficulties in getting information about the product they support especially at the start of their career so I think that this application will decrease the wasted time and effort in getting information about any product .
+Our idea will be a mobile application on which the employee will register his EMC ID and this application will be based on a database that contain all the information about the employee ,so we will know the product that is supported by the employee's team and we will send any news or updates about the product to the employee on the application which will keep the employee's information about the product updated .
+

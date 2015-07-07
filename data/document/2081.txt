@@ -1,0 +1,39 @@
+Intelligent Management for Inactive Virtual Resources in Data Center
+Our solution is to automate the management for inactive resources, could optimize the usage of shared resources, this matches Durham Data Center Elastic Labs Challenge.
+
+Our solution reduces the power cost, may be up to 30%+, with deeper optimization, we could achieve 60% energy efficiency increase for Data Center, this matches Environmental  Stewardship Challenge.
+In the group discussion we identified a solution for automated deployment of those virtual machines inactive in a regular manner. In later discussion we decide to use suspension as it's quicker and possible to support real-time wake-up.
+Our approach is based on the function of suspending / resuming (or waking up) of a virtual machine. A suspended virtual machine will only take up disk space but will save memory, CPU resource and most importantly, the energy.
+
+The idea is to allow automated suspension / waking up of these virtual machines following a predefined policy. As examples, we list three useful policies, which are automated:
+
+
+Policy 1 -- suspend / wake up on user-defined schedule:
+• Suspend virtual machines at a scheduled time point. E.g. 6 pm every working day (leaving office time) and weekends.
+
+• Wake up an auto-suspended virtual machines at a scheduled time point. E.g. 8 am every working day.
+
+NOTE: the wake-up on request can be implemented as a feature in the network virtualization layer of the data center controller.
+
+
+Policy 2 -- suspend / wake up on activity status:
+
+• Suspend virtual machine inactive (e.g. No in-coming request) for a certain period (e.g. 1 hour).
+
+• Wake up an auto-suspended virtual machine when there is access from outside (e.g. There is HTTP or RDP request to the virtual machine).
+
+NOTE: since resuming a virtual server from suspension status is quick, we can support real-time wake-up. 
+
+
+Policy 3 -- suspend / wake up on the specific requirement of tasks running on the machine:
+
+• Suspend virtual machine when the task finishes running (need to get the notification from the task).
+
+• Wake up an auto-suspended virtual machine when the task needs to be run.
+
+NOTE: the notification can be implemented by the SDK of virtualization technology.
+
+
+
+The auto-suspension / wake up need to be provided by a controller module in the data center controller software.
+If this idea is implemented, the power cost could be reduced.

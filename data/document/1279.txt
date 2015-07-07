@@ -1,0 +1,16 @@
+Desktop as a Service (DaaS)
+Utilizing resources and making everything virtualized
+VDI
+Brief:
+-By using the resources in Durham Lab, We can remove the headache of infrastructure issues.
+
+-This will help IT units to be able to handle issues quickly through using a centralized cloud platform.
+
+-It will also save money because we won't need to spend money buying new laptops with high qualifications every while or replacing one of the broken devices with new one
+
+
+Implementation:
+-Each employee will have thin client on their laptops/desktops that connects through ip portal to access their Windows OS.
+
+-Portal can be accessed through tablets also to make it more handy if the employee is outside the office.
+Making it easy for employees to use virtual environment 

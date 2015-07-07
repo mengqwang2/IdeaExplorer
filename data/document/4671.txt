@@ -1,0 +1,12 @@
+Finance Application
+
+*
+Create an application that consists of a Forum addressing employees asking questions related to the Finance. 
+
+Employees will get connected to this application using their NT Logins and will have access to it at any time. 
+
+Once connected to the application, Employees would check if they got paid or not (Salary Status), the Claims they submit got paid or not ( Gym, Doctors, TE data..etc)
+
+there might even be a schedule for Bank representatives visit in the Premises, how to take loans through EMC..etc
+
+

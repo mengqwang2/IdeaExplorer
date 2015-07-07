@@ -1,0 +1,30 @@
+Asset floor plan mapper mobile app
+IT contemporary  workplace needs a smarter solution to 
+transform office floor plans into an interactive office map. Search and locate employees, meeting rooms and printers.
+Practical problem faced in the past finding conference rooms
+Extremely simple solution based on landmark[ known location] to asset routing.
+The application doesn't try automatically  to identify the location of the person who is trying to search and locate, rather does the following:
+
+1.Gets the information about the asset being searched and locates it.
+2.Gets information about his/her location and directs him to landmarks nearby.
+3.Upon confirming the landmark being reached, the system will provide precise instructions to locate the asset(employees, meeting rooms and printers) .
+ 
+Example use case: 
+1> User types " Alexandra Conference room" in search field.
+2>System know that this is located in 7th floor Bldg2 ICOE Bangalore" based on query results from EMC Exchange server.
+3>System asks you to select your floor and the building you are in
+4> based on the inputs eg 8th floor, the system directs you a nearby known landmark that is easy to spot example: 8th floor lobby.
+5>Upon reaching the lobby, the system will give you precise instructions to reach the destination with asset pinned and highlighted on  2D floor plan of  7th floor.
+
+
+Technical implementation:
+
+The system's backed  is implemented using a simple graph database like Neo4J or Cassandra. Each asset with rich mete data is connected to other assets via landmark nodes. 
+
+The front end is implemented as an HTML5 app. 2D floor plans of all EMC buildings are digitized  using an image map component solution  with all assets plotted with 
+their coordinates for mouse over and zoom functions.
+
+
+
+Improve employee satisfaction/enhance productivity
+enable smart workplace

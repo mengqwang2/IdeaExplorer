@@ -1,0 +1,15 @@
+VPLEX re-engineered with XtremIO Capabilities
+XtremIO capabilities as we know are unlimited like inline dedupe, compression, deliver high performance etc. On the other hand VPLEX has been another great seller from EMC for its Storage Virtualization & Data Mobility capabilities. My idea is how do we u
+We work on XtremIO Sizing solutions for the field. We get 2 kinds of requests, when it comes to a tech refresh of an existing array.
+1) Full Replacement using XtremIO & 
+2) Blended solution (Top 30% volumes on XtremIO & remaining volumes on new VNX or VMAX)
+- For the Full replacement using XtremIO it is very obvious that the Effective Capacity required post compression & dedupe is realized thus reducing the floor space.
+- For the Blended solutions the new VNX/VMAX that is modeled for the remaining volumes is based on the total capacity of these volumes.
+In general the Blended solutions (XtremIO+VNX/VMAX) will be managed through VPLEX, then why not both the XtremIO & the VNX/VMAX arrays gain the advantage of inline dedupe & compression.
+
+Embed XtremIO intelligence into VPLEX & make it a powerful & robust Virtualization Hardware.
+This will help achieve compression & dedupe for all the arrays under VPLEX abstract. 
+The VPLEX distributed cache involving distributed algorithm coupled with XtremIO intelligence, ensures coherency & consistency is achieved.
+
+1. For a Blended solution kind of approach, this helps provide VNX & VMAX solutions at a better customer footprint.
+2. In General, all the arrays under VPLEX abstract can realize the benefit of dedupe & compression. This results in a significant cost savi

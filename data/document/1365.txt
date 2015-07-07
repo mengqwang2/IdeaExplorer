@@ -1,0 +1,9 @@
+Mini SR
+Helps improve the supportability and collaborations in the wake of the new cross-products presented by EMC
+Being part of symmetrix support team, we often collaborate with several other team (connectivity, host team, etc...)
+Very often during these incidents, we end up opening several collabs and keep going in circles due to owner of previous collab wasn't very clear with his update or because the new collab owner didn't check previous collab carefully
+Introduce the concept of mini SR. This would be similar to that of a task created for a CE. Meaning that if you need to collaborate with another team, you create a mini SR which will be linked to your main SR. This SR is then either dispatched to the intended team queue or via the moxy chat system.
+After an engineer accepts the mini SR, he becomes then the owner of this mini SR till the issue is resolved. 
+This concept helps to add even more stability and enhance the flow to the SR as the person who first worked the problem is the owner and keeps assisting till issue is resolved or proven that issue is outside of his scope.
+
+This also helps with the concept of persistent which EMC regularly strives to  

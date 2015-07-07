@@ -1,0 +1,12 @@
+Pivotal HR system for OOH and EAS systems
+
+We thought about the idea during an ideation session while we were thinking about consolidating the HR systems and make them handy for all the departments.
+
+The OOH system is a robust system already developed within EMC Egypt COE and we can see that it can replace the EAS or enhance its performance as the EAS is very slow and full of bugs and not connected with the SSO of the company, however the OOH one is SSO application.
+We already have a website for the Out of office hours that help calculate the extra working hours or extra days that the employees have spent.
+
+We can enhance this website by integrating the annual leave balance which is generated from the EAS system for each employee to be all calculated and measured through a unifies site for all these ones. 
+
+The website should be part of the HR portal for a pivotal integrated system
+
+

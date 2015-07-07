@@ -1,0 +1,5 @@
+Adding an expand button in the IB 
+it will make search easier
+i got the idea while working in the IB
+sometimes it is needed to expand the whole SN configuration to make search easier
+enhance productivity and optimize a process

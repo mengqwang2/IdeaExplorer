@@ -1,0 +1,8 @@
+Intelligent power saving by utilizing batteries to full potential
+We are addressing here the challenge for Environmental Stewardship by doing power saving at EMC and EMC products. We are sure the power saving will be high and have great returns when the idea is implemented.
+Thought of this idea as a part of 2015 innovation challenges 
+In order to utilize the batteries to their greatest potential, an effective software should be installed which will safely and efficiently charge the batteries only on need basis.Most of the hardware that we have starting from office laptops, desktops to hardware arrays DD, VMAX, VPLEX all can have this solution implemented. 
+
+For Example:
+The software should be installed on the laptop which will monitor the battery charged percentage - once the battery is charged to 100% the power is cut off and then the laptop has to run on the battery until it reaches say 20%. Once 20% threshold is reached the battery charging should kick in again. By doing so we can efficiently utilize the battery in a hardware and also power saving when electricity charging is cut off for that duration.
+Sure shot power saving will be high when deployed across all hardware which run on battery

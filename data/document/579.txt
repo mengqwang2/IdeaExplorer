@@ -1,0 +1,10 @@
+TLA Upgrade Program 
+The idea was addressed as a Lean Six Sigma project in order to capture the value it brings in terms of time and cost savings.
+The results are impacting many entities, and thereby affecting CSAT.
+
+The idea came after realizing the issue is recurring in the Install Base and discussing its impacts with BTG team.
+After brainstorming with BTG team and system developers, Work Request 396975 was raised to fix the root cause issue and Work Request 396974 was raised to perform a clean up activity on the current data 
+Work Request 396975 raised for the fix and Work Request 396974 raised for the clean up activity were both implemented in Q2 2015
+The TLA upgrade program currently nests Upgrade Parts to their TLA/s and replicate the TLAs’ Owner party details in the Install Base. 
+This increases the data accuracy, reduce workload and save man-hours as well as increase CSAT
+

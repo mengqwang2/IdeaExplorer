@@ -1,0 +1,6 @@
+Openning Service Request during SBR2 call transfer
+Eliminates Human mistakes during the SR transfer for SBR2 calls
+NA
+-Add a feature in the BT so the CST can add the SR number when he is transfering the call; so it will be directly visible for the TSE when he picks the phone
+-An autolaunch feature can be added also to automatically open the SR when the call is picked.
+Decrease the waiting time for the customers if any issues occured during the call transfer from CST to support.

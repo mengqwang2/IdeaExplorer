@@ -1,0 +1,28 @@
+Solutions Platform – Unlock more value for our customers
+For the solutions challenge, we are looking for different ways to enhance and adding more capabilities to existing EHC platform to keep our leading edge over our competition. The idea will focus on providing the telecom operators mainly (and service providers generally) with a full customized end-to-end Cloud solutions with the proper automation that let them maximize the value from the resources they have and also allow them to introduce new products/bundle to the market that match the end customers growing demand.
+I am coming with 8 years of experience in telecom business from both technology solution delivery and marketing side focusing within the last 4 years on Cloud business and how to push its revenue generation.
+I was a solution architect while choosing EMC to provide a multinational telecom provider in Egypt with its first public cloud solution in Egypt and managed with the cooperation with all the teams from this operator and EMC to build a strong foundation for Cloud SaaS services mainly. This solution was delivered since 2 years and generating a strong revenue for our customer currently as their base increasing everyday.
+EMC already delivered fully automated Cloud SaaS offerings for a multinational operator in Egypt where this cover the following components:
+1-	Frontend cloud Self Service Portal (SSP)/marketplace: This portal is depending currently on hybris eCommerce solution and capitalizing on the different capabilities. (i.e. customer use it to purchase products, manage payment, administrate product)
+2-	Backend Business Administration Portal (BAP): this tool used by the service provider to manage the existing products over the SSP (i.e. create new bundles, new products, hide products, limit products settings…etc) and to manage the SSP layout and change it when needed.
+3-	Standard Integration interface with both Microsoft Exchange and Sharepoint. (Most of the telecom operators provide mail services to their customers but stops after while due to challenge in the environment and lack of bundling capabilities)
+4-	Generic APIs: These APIs are defined to let any third party software solution to be integrated with the service provider cloud portal/marketplace without having to worry about the integration with the billing/CRM backend system of the provider. This unlocks different values for the service provider to enrich his portfolio and generate more revenue by these revenue share agreements.
+If we considered this design/implementation and encapsulated it as part of our global offering, we will have an edge against our competition mainly for the following:
+1-	More competitive and cost efficient: EMC will be more cost efficient as we will be using almost the same code/methodology with minimal modifications. Most of our competition lack of this advantage already.
+2-	Allow service providers to have better time to market: EMC will allow the service provider with a very critical tool for letting them having faster time to market. This includes the ability to bundle it with voice, data and dedicated fixed connections even. And this means more value for EMC as the platform will expand strongly.
+3-	Maximize the value of service provider existing assets and the existing base on it: EMC will capitalize on the service provider existing platform(s) (Ex: Exchange, Sharepoint) and help them to Re-launch it in different shape which will allow them to have more customers. 
+We already consider this solution for other opportunity in the region. 
+
+For Telecom operator:
+1-	Have a preconfigured market place (Cloud Self Service Portal) in short time and integrated with the backend systems with minimal effort.
+2-	Ability to bundle different cloud solutions and change the pricing anytime to meet the market changes (Fast time to market).
+3-	Ability to change the cloud portal/marketplace layout when needed from a content management editor.
+4-	Ability to offer as many services from the small software companies with minimal integration as the application doesn’t to be worry regarding the billing, money collection. Plus, having a new source of revenue by doing a revenue share agreements for these companies.
+
+For EMC:
+1-	Unique Offering: EMC to provide a multitenant Cloud solution that avail both SaaS & IaaS to the provider where it can be installed in shorter timeline and utilize their existing investments. (Note: Most telecom operators provide email services already for their enterprise customers and we will offer them a new way to utilize it and resell it bundled with new services)
+2-	By considering this as part of EHC product, we will accelerate the customer’s movement to platform 3.0 as we will help in creating a community for each operator and develop future plans based on it.
+3-	Initiate another source of revenue as there will be always a need to involve in more integration and expansion after having the platform.
+4-      Guide the provider/operator regarding the benefit of bundling the different products to generate more revenue and have more customer stickness.
+5-      The platform should be have out of the box capability later to sell IaaS over vCloud-Air.     
+

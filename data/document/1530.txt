@@ -1,0 +1,9 @@
+Auto patch upgrade to Backup/Storage appliances.
+The idea improves the process of the support team.
+Idea got germinated due to current process of applying patches and service packs and the need to improve this process. All the leading software and firmware out there do this automatic updates to send in their critical upgrade to their software.
+With Auto patch upgrade escalation hotfixes and Service packs can be automatically pushed to the backup/storage appliances. 
+The backup/storage appliances can have a open port to download this updates from our emc site. Once the patches are downloaded, our software can identify that there are patches that should be installed and applies these updates during maintenance phase to the appliance. A release notes can also list the bug fixes which were applied during this auto update, so the customer is aware of improvements made to the software. 
+There can be an option provided to customer to automatically download the updates or do it manually.
+This will help support team to service better. The turnaround time is reduced. 
+It will improve customer satisfaction with a quick turn around time. The process would be optimized by reducing the dependency of support team. 
+The current  technology of manually application of patches and hot fixes would be improved by automatically applying them. There will be a felling given to the customer that we are constantly evolving with technology and process to give a better customer satisfaction.   

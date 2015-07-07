@@ -1,0 +1,10 @@
+WeChat integration with storage product management on mobile device
+Make life easier in array management.
+Now we are in mobile internet era. We have multiple channels, including PC, Phone and Pad, to access the IT infrastructure. So IT administrator does.
+WeChat is featured with a function of Corporation ID subscription. Any administrator can subscribe to EMC corporation ID where WeChat could push a alert message to administrator whenever critical system event happens.
+1. A plugin is developed in WebChat server that keeps communication with our array.
+2. Array determines what message should be sent out to WebChat server.
+3. WebChat server filter and format the message that is pushed to WebChat client. 
+4. Administrator could take action from WebChat client menu and Tab whenever it receives the altert. 
+IT administrator don't have to login Laptop and load heavy Unisphere to manage the array.  Because we have mobile devices that is easier to access.
+

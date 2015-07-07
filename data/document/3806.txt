@@ -1,0 +1,5 @@
+Lync 2013 phone
+
+Lync Phone--product from Microsoft.
+Lync is fully integrated with Exchange address book, the Lync Phone is just like the phone with building (and real time update) address book, people don't need to remember ext numbers, just find by name and call, and people can use Lync client in computer or Lync Phone to answer.
+

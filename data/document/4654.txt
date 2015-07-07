@@ -1,0 +1,11 @@
+Free online storage for all data
+
+Recent stories of viruses such as the CryptoLocker virus hijacking colleagues, and other peoples, PCs and causing major disruption.
+The current trend with online storage applications, e.g. EMC's Syncplicity, Dropbox, etc., is that you get a small amount of online storage for free but you have to pay for any practical amount that would allow full data backup.
+With free full backup, EMC would be changing the model for online storage. If users are encouraged to use this free storage, the virus hijackers  no longer have a hold on the users data.
+EMC can sell this as part of the EMC Gives Back initiave. If pushed correctly, EMC becomes the no.1 in online backup.
+A pay structure can be built in when backup is overused, but it should still be much cheaper to use than to pay the hijackers.
+A model for business use can also be looked at that encourages full online databackup for small businesses at minimal upfront cost, e.g. all data can be downloaded for free but recovery access may be charged on a sliding scale depending on number of times used and amount recovered. 
+Like most insurance, people hate paying upfront for something they may never use, but will gladly pay for a service whereby their data is recovered.
+The main aim is to remove the advantage of the hijackers, whereby the user of the hijacked data has no other options other than to pay the ransom to recover their data.
+

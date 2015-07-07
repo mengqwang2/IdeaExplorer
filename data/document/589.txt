@@ -1,0 +1,6 @@
+Activity Reminder
+E2E Horizon – End to End Business Process Challenge
+Seeing that people in the COE are so active and moving all the time and with the amount of work in busy days, the majority of times people will get distracted and lose track of their assigned activities and their times hence resulting in customer frustration.
+The solution for the problem would be a mobile app that would integrate with our scheduler and send reminders of the activities 15-30 minutes prior to their start time.
+This app if implemented will definitely improve customer satisfaction as the probability of missing a scheduled activity with a customer will decrease as well as increase productivity and help preserve the good energy the employees are characterized with as the concern of missing a scheduled activity will vanish and will allow employees to move freely in the COE and get involved in other COE related activities in some of their spare time.
+

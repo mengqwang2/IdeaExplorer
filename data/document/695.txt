@@ -1,0 +1,14 @@
+Data migration utility to migrate data from VMAX/VNX to XtremIO Array
+Our idea addresses common industry wide problem faced while migrating data from 512 to 4k sector size and vice versa. By solving this we will be providing new capability and efficiency for end users.
+
+We chanced upon this idea while brainstorming PowerPath features to enhance XtremIO experience
+Provide a data migration utility which can provide seamless data migration from 512 to 4k sector size or vice versa.
+This tool will have the ability to migrate data between VNX/VMAX to XtremIO array. 
+EMC has a well-established product (PowerPath) capable of host copy migrations.
+The same tool can be enhanced to provide this functionality across different sectors.
+
+If this idea is implemented it can provide
+1. Distinguishing feature for Xtremio 
+2. Improve customer experience 
+3. Increase revenue by selling more PowerPath liscences.
+

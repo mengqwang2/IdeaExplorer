@@ -1,0 +1,8 @@
+Storage Replication Adapter(SRA) environment verification tool
+
+As part of SRA qualification this test suite was conceived and developed.
+Tool is provided to the implementation team which executes a set of  tests which verifies the environment configured.
+Verification tool executes TestFailover/Cleanup, Recovery(Planned Migration)/Reprotect operations.
+This enables implementation team to confidently deploy the solution in the customer environment.
+This verification tool could be run against different replictaion configurations - 2-Site, Star and Non-Star configurations.
+

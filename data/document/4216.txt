@@ -1,0 +1,13 @@
+Analyze  Voice of Work data through xPlore
+
+This idea comes from a feature of Chinese biggest E-Commerce website, TaoBao. TaoBao provides the automatic tagging feature for each comment of product.
+1. Survey's results could be imported to xPlore through data crawler.
+Next, consider following two scenarios:
+a. The question's answers could be predicated. For example, the answer is "Flexible work time" or "More salary". xPlore's CIS component could put tag to each answer by it's text categorizing feature. The tags are predefined such as "salary low", "salary high", "flexible work", "need shuffle bus".
+b. The question's answer could not be predicated. For example, the question is "Please give us some suggestions". xPlore's CIS component can perform text cluster feature for these kinds of questions. 
+
+Finally, a GUI will provide the categorizing/clustering results of each answers. HR could easily see the tagging distribution of each answers. Also for the clustered answers, HR could manually analyze these answers through the GUI which gives the HR insight to categorized the answers
+
+
+
+

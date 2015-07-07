@@ -1,0 +1,8 @@
+Networker Server migration tool
+These days we get a lot of Networker Server migration projects. Especially migrating from old NW version / old platforms to new NW versions and newer supported platforms.Most customer on NW 7.6.x & earlier should migrate to newer versions since the old NW 7.6.x is EOL.The NW Server migration effort is currently manual and prone to human error.
+Since NW 7.6 is EOL and require to upgrade to new versions and newer OS. Lot of manual process required.
+https://inside.emc.com/docs/DOC-156107
+Why can’t we develop a tool that will allow migration of NW Server without so much of manual process.
+The tool can have options like migrate to different hostname or same hostname, enter the Client ID during migration, in the background it can update client ID, stop start services etc.. (as of now we do that manually and it causes lot of issues if someone missed a step - very useful for customer)
+The Networker server migration tool will be very handy for PS & customer. This will save a lot of time and avoid all human prone error during migration.
+Time can be utilized for customer KT and benefits/enhancements of new NW versions rather than troubleshooting.

@@ -1,0 +1,56 @@
+Unified REST API Security for all EMC products
+
+We were learning REST APIs and then we started thinking about its security aspects. Thanks to my team where we have discussed OAuth and OpenID connect in Consumer world, and from there the idea clicked to take it in service world.
+Solution:
+It should be an open standard so that in future we can expand our security model to achieve federation with Cloud APIs and Third party APIs.
+
+OAuth and OpenID connect standards cater to REST API security needs. Broadly there are two kinds of grants -
+1. Consumer based grants – Here end users own some resource(accessible via REST API). End user authenticates to Authorization server and authorizes third party client to use the APIs. The client uses the granted Access Token to call REST Resources.
+
+2. Client based grants – Here it is all about sevices calling REST APIs. These caller services are the trusted clients to our APIs. 
+   This grant is suitable for machine-to-machine authentication and is used when the Client is requesting access to protected resources under its control (i.e. there is no end user). Here the Client uses its own Access Token to call REST Resource. 
+   There is another grant type available for trusted clients: Resource Owner Password Credentials grant. Here the Client itself will ask the user for their username and password (as opposed to being redirected to an IdP authorization server to authenticate) and then send these to the authorization server along with the client’s own credentials. If the authentication is successful then the client will be issued with an access token.
+
+The Client based model suits our needs as most of the time our clients are limited admin users & trusted clients.
+
+If APIs need information about the authenticated user, then we should look at OpenID connect standard. OpenID connect is an Identity layer on top of OAuth 2.0. It gives access token plus an id token. The id token contains information about the authenticated user. It is more suitable for Consumer based Authentication+Authorization model; it does not support resource owner password credentials and client credentials flows.
+
+So depending upon our API users, we may evaluate both specs and then standardize & unify our Security framework to work across EMC (Cloud/On-Prem) products and also enable them for future integration with 3rd party/Could REST APIs.
+
+Implementation model: Generic OAuth flow
+  +--------+                                           +---------------+
+  |        |--(A)------- Authorization Grant --------->|               |
+  |        |                                           |               |
+  |        |<-(B)----------- Access Token -------------|               |
+  |        |                                           |               |
+  |        |                            +----------+   |               |
+  |        |--(C)---- Access Token ---->|          |   |               |
+  |        |                            |          |   |               |
+  |        |                            | Resource |   | Authorization |
+  | Client |                            |  Server  |   |     Server    |
+  |        |                            |          |   |               |
+  |        |                            |          |   |               |
+  |        |<-(D)- Protected Resource --|          |   |               |
+  |        |                            +----------+   |               |
+  |        |                                           |               |
+  +--------+                                           +---------------+
+
+
+Refer OAuth 2.0 spec: http://oauth.net/2/ 
+Refer OpenID Connect spec: http://openid.net/connect/ 
+
+OAuth2.0 highlevel flow reflecting clients is attached.
+
+We already have expertise in open standard technologies such as SAML, WS-Trust, WS-FED etc. We can leverage that expertise to get it developed in RSA division. There are third party SDKs available for implementation in many languages. Refer http://oauth.net/code
+
+For OAuth, we need to implement 
+- Authorization server endpoint to issues tokens, 
+- Resource Server (Our APIs) endpoint which consumes the token to give allow/deny API access, and 
+- All API clients shall implement Client role in its authentication layer.
+
+Benefit for EMC:
+- Robust security
+- Open standards based & wide acceptance
+- Extensible to allow third party APIs, federation also possible.
+
+

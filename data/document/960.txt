@@ -1,0 +1,20 @@
+Packaged DevOPS Services added with container orchestration frame work for EHC
+The proposed solution is directly relevant to the Challenge in terms of optimizing the lab resource usage 
+We brainstormed on utilizing the Docker containers for devOps on demand provisioning and came up with the proposed design
+This solution proposes setting up DevOps with Docker Container integration and automation framework.  The docker container storage can be provisioned through scale-out COTS product ScaleIO. The EHC portal can be integrated to Cloud foundry and with vagarant, packer tools along with Docker Container orchestration. 
+
+Apps and data instances can begin quickly and agile. Life cycle management for resources and Governance can be achieved with the help of orchestration.
+
+Multi container orchestration can help with Live migration and HA for microservices.
+
+Benefits
+
+- Fewer SAN connections as the containers can share the same connections
+- faster time to deployment
+- lower failure rate of new releases
+- shortened lead time between fixes
+- faster time to recovery
+- maximize the predictability, efficiency, security, and maintainability of operational processes
+
+
+EMC infrastructure can be very much integrated and optimized by leveraging Docker technology. 

@@ -1,0 +1,12 @@
+CPU Power Donation from EMC
+
+I donate my CPUs horse power for "Boinc", during the idle moments.
+http://boinc.berkeley.edu/
+The Idea is to sponsor this project and sponsor these types of projects, and provide the necessary computational power to the regular users for a specific SMALL fee...The user would simply logon to an EMC Virtual Machine through a tool and use the required processing powers required at EMC.
+The user can access the tool from his laptop/tablet or even their mobile devices, and gain access to CPU power from anywhere at anytime.
+
+Benefits:
+-Increased recognition of EMC in the processing and analytical fields globally.
+-People with low budgets that are working on high computational projects, would receive the necessary specs at a small fee. This will dramatically increase the Revenues generated for EMC, as more and more people would use this service.
+-Solving many problems that are striking our communities, and paving the way for the technological breakthroughs.
+

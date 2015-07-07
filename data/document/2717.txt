@@ -1,0 +1,14 @@
+Analytics Based Predictive Maintenance for Data Centre (based on ViPR SRM/Controller)
+The idea is to leverage the information provided by the ViPR SRM/controller and identify the KPI parameters related to issues with arrays, drives and hosts and use Machine Learning o determine the rule and parameter definitions for the predictive model.
+The authors are now learning the Data Science & Analytics Course provided by EMC, and have been associated with SRM products in the past. Some part of the idea is inspired by the following article, which talks about predictive maintenance.
+http://www.sciencedirect.com/science/article/pii/S2212827112002119
+
+ViPR SRM already collects a lot of information related to performance of disks, Storage Processors (SPs) and provide alerting functionality. When this information is collected from multiple data centres, it will help us to identify the Key Performance Index (KPI), which will help us to apply different analytics model to predict fault rates and hardware performance degradation.  We could capture key information like
+a) Predicting top issues associated with Array, drives and hosts based on its past pattern.
+b) Avg Drive Lifetimes/ Read-Write frequencies
+c) Host Lifetimes/ Uptimes etc
+With Internet of Things (IoT) coming along in the near future, EMC will be able to capture information like lab temperatures, power fluctuations etc. which will further refine the predictions.
+
+Improve customer satisfaction/enhance productivity: Predictive maintenance will bring down costs for the customer by prevent data loss and down time.
+Revenue Model: This Model can be cross-sold as ViPR analytics suite to the existing ViPR Customers.
+

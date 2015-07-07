@@ -1,0 +1,12 @@
+Advanced Parking Space Detectors (APSD)
+
+I was trying to park in the EMC Garage and wasn't able to find any space, in the end I had to park outside the company premises. I saw several cases where this system was implemented, but not to the extent that employees/commuters could actually see on their Navigation systems or their smartphones the location of the empty parking spaces and the closest entrance to this location.
+"The APSD would solve the above main problems, by following the below steps:
+1-Sensors would be placed above the parking spaces, to detect the empty parking spaces in the Parking plot.
+2-Signals would be sent to the Main-system, identifying the empty locations.
+3-The Main-system would would perform big data analytics, to identify the best route to this empty parking space from the closest entrance, and displays the number of empty spaces and their direction on the main screens above the entrances.
+4-The system then notifies the incoming commuters/travelers on their Navigation systems or Smartphones of the location of the empty spaces and nearest main entrance they should take to get to this parking space.
+
+This system could be implemented on a small scale in EMC, by having a site or an APP that provides the total number of empty spaces in the parking lots. 
+Also a board before we enter the garage, indicating the total number of empty parking spaces."
+

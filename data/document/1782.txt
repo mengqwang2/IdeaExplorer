@@ -1,0 +1,7 @@
+Smart Stairs Lightning System
+Reducing electricity usage and making step towards smartcity
+n/a
+Each stair step will have a sensor attached where it will detect the movement and then lights a small light for each stair while someone is moving.
+
+This system can be controlled through a computer where it can be automatically initiated if we want to reduce energy consumption or left on when consumption is moderate.
+Implementation of idea will save energy and help towards having smart city.

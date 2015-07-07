@@ -1,0 +1,15 @@
+Tester Auto-configure Tool
+1. make GPO/EMC’s supply chain and manufacturing operations more efficient and effective
+2. advance the performance of our designs, and supporting processes
+3. transform across the end to end supply chain in terms of cost, quality, availability and time t
+In Q3 of 2014, GHTS needs to deliver more than 30 SLIC testware packages leveraging 4 testers, each release costs 2 weeks'qual. That means a strong need of Auto-Config tool. GAME also runs into similar situation.
+Tester environment issue trouble shooting costs a lot of time. 
+GHTS QA team identified these improvement opportunities. 
+1.	The tester auto-config tool will automatically configure tester to support testing multiple products of same type (like SLICs) at a time within a couple of simple button clicks. 
+It will enable each product to automatically discover desired UUTs and load desired diag and testware to test. Products run without interference.
+2.	It can check test environment health status and report tester environment issues.
+
+For #1, existing approach is a set of manual steps for SLIC config in lab in small scale. It’s inefficient, error prone. No existing approach for #2.
+
+1. It can improve improve tester productivity by 2-8 times in testing a product depending on UUT amount in a the tester. It can greatly enhance tester productivity.
+2. Enlarge tester capability means same amount of testers can test more products within sa

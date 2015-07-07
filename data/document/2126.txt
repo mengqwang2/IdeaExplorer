@@ -1,0 +1,7 @@
+Big Data for better TCE
+The use of structured/unstructured data to (mass-customization)our services to our customers.
+Thinking about how to provide better customer satisfaction using big data.
+The World now is going towards (mass-customization) applying big data solutions to record customers behavior & priorities. also to predict customers issues according to the history\pattern & frequency of contacting our technical teams to pro-act & react with customized service.
+
+
+Increase customer satisfaction and provide world class customer experience.

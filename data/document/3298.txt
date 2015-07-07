@@ -1,0 +1,5 @@
+Integrating Webcast feature into Lync
+
+Found youtube has the webcast feature for live events, then came up with the idea. 
+If we integrate Webcast feature into Lync, we can attend events like "EMC world" or join any tech talk remotely, which is definitely an beneficial experience enhancement for EMC employees. 
+

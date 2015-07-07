@@ -1,0 +1,7 @@
+Predictable and traceable cooperation model
+Propose a cooperation model with specific tools to obtain efficient, simpler, scalable business practices with clear governance and measurable achievements
+This idea sparked to me when reviewing colleague’s idea: https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2015000897. Besides software programming API change level detection, I think we also can extend this model to more items of in cooperation process cross BU, even companies. So this idea was generated and submitted.
+1.	At one BU internal, Using JIRA (https://www.atlassian.com/software/jira/) or other similar issue tracking system to track any non-trivial issues raised in any channels between BUs in the cooperation.
+2.	For crossing BU issues, Using issue tracking system to collect and expose any changes which might have impact to external consumers/BUs in the very earlier stage to notify and limit its impact. 
+3.	For the cooperation mainly in API level, leverage idea of 2015000897 to propagate any API level change when developers commit their code to repository to allow first time notification to API consumers. 
+By following this model, any cooperation between different BUs can be conducted in a traceable and predictable manner to ensure final business success and efficiency. 

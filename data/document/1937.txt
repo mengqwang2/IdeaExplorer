@@ -1,0 +1,5 @@
+Scan cellphone to enter office
+It is an idea about IOT;
+Discussed in the innovation discussion
+Some cellphone has NFC feature. if we can use NFC of cellphone to get the permission of entrance, it may be another way to replace the badge card.
+It will bring more convenient way for employee. And bring the value to GPTW.

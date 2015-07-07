@@ -1,0 +1,32 @@
+Crowd Sourcing Culture Digestion based on Mobile technology
+For the challenge 'Community Involvement Challenge', this idea provides an effective basic way to support crowd sourcing cultural digitization, as it facilitates the power of mobile and social network for the content input and digestion. It is just a start and will stimulate further innovation over accumulated and well-strucutred materials of culture objects. 
+It initially popup to me as a way to share learning notes between different reader of the same book, but eventually developed into a more generic way to digitizing and sharing ideas of a culture objects in a social network
+The idea involves several steps to digitization:
+1. Take photo of the material and upload to a portal with your mobile phone
+2. Make 'comments' on the material including its name, category, role, history, condition, social status and whatever makes sense for its digitization.
+3. Optional, an OCR request can be submitted to the portal to analyze any literal contents from the photo of the material. The literal content can be reviewed by the submitter and stored as comments to the material.
+4. Share your digitized contents with others so that everyone can benefit from the information
+
+As these steps are simple, the most important part is the sharing of the 'comments'. A collection of useful comments effectively makes a 'digestion' of the culture object. A 'digestion' contains information of a culture object from different sources, regarding its meaning, history, condition, protection, etc. Differen comments can be tagged to specify its purpose.
+
+A 'comment' can target a specific part of a culture object. E.g. for a rural ceremony, a specific player can have a personal photo and comments, to tag his role, name, age, experience, career history, etc. Therefore, for each part, we'll have a 'digestion' as well.
+
+Certain 'moderation' or 'starring' mechanism will be useful to filter out useless or offensive contents, to make the 'digestion' objective and friendly. The 'moderation' or 'starring' can be crowd sourcing as well, but an experienced commentor can be promoted to a 'moderator' to help improve the quality of 'digestion' of a specific culture object.
+
+A 'digestion' can be filtered by tag easily, so that user can view the information he's mostly interested.
+
+A user can also search the digestion(s) with keywords to find most relevant information. The search need not be limited to a single culture object, instead it can span several culture objects.
+
+A comparison system can be established on similar culsture objects (e.g. historical buildings in different countries), to stimulate knowlege and experience sharing.
+
+A image reverse search engine is useful as well to find relationship between a specific scene and its culture background.
+
+Many other ideas can be submitted, a social platform like we-chat or BBS will be associated with the system to allow discussions and ideas around a specific culture object (or a group of them).
+
+All the content uploading, digestion viewing, searching and discussion can be done through mobile devices with support of iPhone and Android technology.
+
+The basic technology here involves (but not limited to), social network, mobile, document management, searching.
+It would look like a huge online portal with mobile support. The mobile will be very important for content providing (photo taking, uploading, commenting) and consuming.
+It will also become a major source for any potential culture projects of the public media and publisher. This will become a major earning point.
+Of course it will bring potential opportunity for coorperation with goverment around culture advertising and protection.
+After all, if we simply bulid a technical solution here, we can sell it to goverments and public media as a standard platform for culture digitizing projects.

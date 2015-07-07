@@ -1,0 +1,18 @@
+automate and preserve QA test environments
+
+Since we are working on a software which involved various supported configurations and environment with limited resources, we invest huge amount of time to bring up the setup mutiple times. By automating the setup steps and preserving test bed we can save huge effort and invest the same effort for delivering high quality product.
+this solution works in 2 parts.
+
+a. Automating the manual steps involved while bringing up a new test bed.
+
+1. identify the components needed to build the test bed.
+2. check the current hardware configurations of the server through a automated script and see whether the required components can be installed in the current hardware and OS configurations.
+3. Identify all the manual steps for configuration and seggregate manual and automation tasks. 
+4. For the steps which can be automated and write script.
+
+b. preserving the working setups for future requirements.
+
+ Part A : if the test beds are in virtual environment use the vendor specific snapshot technology to snapshot the current environment and preserve it for later use.
+
+Part B: If test beds are in physical environment, all the configuration files related to each component will be identified and backed up/replicated  to a secondary storage/mirrors.
+

@@ -1,0 +1,15 @@
+ASC Revenue Calculations (EMEA) Project
+This idea was mainly implemented to fit the revenue calculations within our team, & have the ability to deliver our teams' enabled revenue metrics with ease. Previously the ASC EMEA Revenue calculations process covered 16.16% of the completed accounts with maximum time taken to perform Revenue calculations of 53.33 days. Currently this project increased calculations to cover 100% of the completed accounts & reduced the time taken to less than a day.
+NA
+The Project was implemented & received the Green Belt certificate as per LSS measures. This was done by performing the following:
+-Acquired the Revenue Calculations Process from the Contracts team.
+-Modified the Process to fit our process, by adjusting the Inputs/Outputs as per our processes.
+-Converted all the manual steps into automated macros for the data extraction phase from OBIEE, & for the Revenue calculations performed on excel.
+-Shared the knowledge & tools with several members to distribute the work load.
+
+-The developed tools enhanced the ASC revenue calculation breakdowns by multiple criterias.
+-The tools enabled us to realize our teams' enabled revenues; from 1-Jan-2014 to 31-Mar-2015 are $15,373,281 (booked amount), $12,458,794 (quoted amount awaiting customer confirmation for payment).
+-Annual man-hour savings = 545 hrs.
+-Corresponding Cost Savings = $19,620.
+-Reduced the overall Revenue calculations for our team from a mean of 32 days to 0.00168 days.
+-Revenue calculations covered 100% of our accounts' cleanups.

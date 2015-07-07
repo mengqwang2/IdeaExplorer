@@ -1,0 +1,21 @@
+Reduced accidents and smart maintenance in the Smart City  by real time analysis for car sensed data 
+in a smart city, cars generate huge number of sensor data that can be leveraged to address accidents and maintenance in the same time. EMC comes into the picture by providing real storage and real-time analytics for such data assets. this extends an existing market (car Manufacturers)
+ 
+The idea came up from different real life scenario in which we saw that even a small piece of information could have given insights that prevent an accident. 
+
+ 
+The solution is to collect and analyze sensor data to report any potential issues/failures in real time and allow for customized proactive maintenance plan by the car manufacturer. 
+
+The solution consist of the following parts:
+
+A.	The sensed data: will be collected in real time from different car parts 
+B.	Real Time Analysis: This is the real time analysis and reporting issues immediately “short term goal” This can be done in a distributed manner inside the car itself without the need to aggregate data centrally for analysis
+C.	Trend Analysis: This is a deeper analysis module that will be done centrally in central points managed by the maintenance company. It will collect large sets of sensor data over long time periods for “Trend Analysis”. It will also take as an input the recent services/product used and maintenance history then will return the following:
+a.	Customized maintenance plan for this specific vehicle depending on the usage pattern and needs
+b.	Recommendations for the best suited services/products (e.g. oil type) based on the car history and correlations with car performance by applying correlation algorithms.
+EMC business will come to play in the central points that will deal with large data sets storage and analysis using EHC and Business Data Lake (PDL).
+
+1-	 Proactively reduce accidents and save lives
+2-	Smart maintenance plans save cost to the consumer and makes the car manufacturer more aligned to customer needs with data-driven decisions
+3-	Extends a huge market for EMC (Car Manufacturers) and positions EMC as the consulting partner for data management and analytics to monetize the data assets. Promotes EHC and Business Data Lake
+

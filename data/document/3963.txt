@@ -1,0 +1,6 @@
+Encourage Customer and Partner to Create KB Article
+
+There are lots of technical documents online for Microsoft technology and Cisco technology, many of them are wrote by the users. If we enable our customer to do this, it saves a lot of resources for us.
+Use the existed service center platform, grant the registered account authorization to create knowledge sharing articles. Desinated article directories by product and solutions. Allocate people from corresponding support team as the auditor. If the article is qualified, then we publish it.
+To encourge customer and partner to do this, we can grant points as an award by the number of qualified article. When the points reach a certain level, we can send gift or EMC exam voucher to the author.
+

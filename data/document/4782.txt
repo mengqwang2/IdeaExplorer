@@ -1,0 +1,5 @@
+Use soft phones
+
+Every new employee has to go through a request process. IT team and facility team should identify employee location. These things can be avoided if this idea is implemented. This would enhance the voip availability for employees who work outside office location as well.
+Cisco has soft phone software. Anyone's laptop with that software installed and with headphone, will help to acheive the purpose of a desk phone.
+

@@ -1,0 +1,20 @@
+Uber like app and operation model for STEM education challenge
+This idea wants to leverage effective and efficient design and operation model of Uber to make EMC STEM education Community contribution more effective and efficient.
+When discussing the challenge several days ago (June 23), we think Uber could be leveraged. Uber is quite hot at everywhere, it could dramatically improve the effectiveness and efficiency to match service and customer. 
+Our idea has three main roles:
+1) Customer. Teachers & advisors who want mentorship will be the customer.
+2) Service contributor. Employee who has certain knowledge & skills and wish to provide mentorship is service contributor.  
+3) Sponsor. EMC or anyone who could contribute money, place and any other resource to help service contributor to deliver mentorship to customer.
+
+Major functionality:
+1) Customer request mentorship service in the app. Location, time (frequency), topic and other requirement will be fulfilled for each mentorship request.
+2) Service contributor registers his/her location, time for service, skills and other detail profile information in the system.  Insider EMC, Linkedin and other public profile could be leveraged to automatically generate employee’s profile.
+3) Our intelligent matching algorithm will try to match the request with service contributor’s profile based on time, location, skills and other related attributes. If only some attributes are not satisfied, our matching algorithm will involve sponsor to provide some sponsorship, for example if the distance between customer and service contributor are larger than certain threshold, sponsor could provide some cash support to cover the additional cost.
+4) Service contributor could accept or reject the offer.
+5) Customer could give reviews of service contributor’s mentor service.
+
+Success:
+An app and backend operation model is implemented.
+
+Benefits:
+Our idea provide an intelligent way to match right service contributor to customer and introduce sponsorship to support certain request to make a match.

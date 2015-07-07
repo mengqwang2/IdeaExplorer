@@ -1,0 +1,10 @@
+Automatic verification after equipment change(cable running,HBA installation, etc)
+The Durham challenge require "Automations that will replace manual work done in R&D labs today",  my idea stremline the equipment verification after equipment change (cable running,HBA installation, etc), thereby reduce Lab ticket resolving time
+The challenge remind me the solution
+We can develop some short automation script to perform the automatic verification work, we can have a library to store these script such as “check port connection”, “check HBA installation”, ”check  harddisk installtion”
+Chinese engineer can take some effort to develop these script, and test them. After testing, these script will be stored into a library.
+After Durham Lab engineer complete hardware change,  they can use these script to check if the hardware change work, this doesn’t require Lab engineer to be equipped product knowledge, only how to use script is needed  which is easy.
+If the script pass, that means  the hardware change work,  if it fail,  then the lab engineer should to check the connection or installation .
+With this,  we don’t need 1 more day for the Chinese engineer to verify the hardware change
+
+enhance productivity

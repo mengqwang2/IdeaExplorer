@@ -1,0 +1,22 @@
+Cross Product supportability
+Its relevant to the challenge as the suggestions are aimed at improving the supportability of CTD products.
+Talking to internal folks who deal with cross product deployments.
+Customer-facing documentation
+-----------------------------
+When a customer wants to deploy multiple CTD products, there are few things that he may be interested in knowing:
+- Other successful deployment references
+- Cross product Compatibility info
+- Best practice documentation
+- Knowledge Briefs, if a problem is encountered
+
+I believe we have all this info and documentation, but, not in a easily searchable central location. So, linking these and providing a sophisticated 'search' functionality could be beneficial to both Customers as well as Sales folks. I think former 'powerlink' portal tries to achieve this, but, suffers badly performance-wise. So, some efficient algorithms (hadoop etc.) may be required to improve the overall efficiency and usability of such a system.
+
+
+Internal Escalation management
+------------------------------
+One common thing in all products is 'bug'. It is very tricky to find the root-cause when multiple products are deployed. The matter results in worse TCE when we know solution to a problem, but, the routing through multiple hoops result in delayed response to the customer. There are few ways in which we could improve this situation, apart from the 'searchable' data base. They are:
+- Create a portal @ inside.emc.com from each product group with email ids of SPOC for escalations
+- Use REST API interface within inside.emc.com to query multiple product bug reporting system so that anyone inside the organization can help self.
+
+It is my belief that these are small steps that can be attained (at least partially) within 12 months period.
+It will certainly improve customer satisfaction and internal efficiency.

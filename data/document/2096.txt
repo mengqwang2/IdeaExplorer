@@ -1,0 +1,9 @@
+"network analyzer as a service" for Hybrid Cloud
+Network traffic analyzing is very important for IT system daily operation,monitoring, troubleshooting. Network analyzing tools such as WireShark are widely used in traditional physical network.
+When building EHC solution, we found it is difficult to troubleshooting the cloud network issue. So, I decide to develop such tool.
+In this ideal, the solution will try to solve above issue based on WireShark:
+1, Implementing network packet capture process in virtual network environment;
+2, Automating the packet capture operation process;
+3, Integrating with hybrid cloud, define "network analyzing" as a self-service catalog in cloud portal;
+
+If the idea is fully implemented, it can be packaged as a tool for all hybrid cloud admin . And if this solution works fine, more traditional network tools(such as scanner,DPI) can be integrate into this solution. And make it a  useful toolbox for cloud admin.  

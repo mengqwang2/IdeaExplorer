@@ -1,0 +1,9 @@
+One Single EMC Software to Handle Smart City's Data Completely
+To Make a City Smart enough in Handling Data across wider Platforms for efficient Collaboration 
+Too Many deaths Happening on Roads because of bad Traffic Management
+Using EMC Documentum to manage all the data of a particular city keeping EMC Xtreme I/O as a Backend,including information on the Health Care,Traffic Management etc  and creating a network between all the data collected .
+
+We can prevent Patient Deaths on Road due to ambulances getting stuck in Traffic by trying to clear Traffic well in Advance looking at the Data collected in Healthcare Management,. 
+
+We may also use EMC SRM to generate reports of the city periodically so as to analyse them in future.
+Save Life using EMC Technology.

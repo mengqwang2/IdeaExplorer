@@ -1,0 +1,38 @@
+Power Efficient Documentum platform 
+We are thinking towards decreasing the energy consumption of Documentum platform.
+
+
+We use many SQL servers in our customer environments as well as in the internal Cloud we have for customers and were thinking on how to reduce the CO2 footprint. We went through this article where the power consumption was discussed and thought of this idea
+https://msdn.microsoft.com/en-us/library/dd393312.aspx
+The current idea we have is for the environment where Documentum is installed on Windows server platform (would be applicable to other platforms also). So for a small deployment of Documentum we would assume one would have in minimum:
+1 Server for Documentum
+1 Application server (Tomcat, Jboss others)
+1 Database server
+ 
+There are multiple parts of the solution:
+1.	Usage pattern – Capture the usage pattern of the application. Seeing the usage pattern we would be able to figure out how the documentum application is being used.   
+Assuming the application consumption is average for 8 hrs and there is and is idle for rest 16 hrs the total power consumption would be:
+10*425(Power Usage at Average Load) = 4250 Watts/Day
+14*304(Idle Power Usage) = 4256 Watts/Day
+Total/Server  = 8506 Watts/Day
+For 3 servers = 3*8506 = 25.5 KW/Day
+ 
+From the usage pattern we can determine a pattern like:
+8am to 6pm – Average usage of the platform = 10 hrs
+6pm to 10pm & 4am to 8am– Sporadic usage = 8 hrs 
+10pm to 4am – No usage = 6 hrs = 0 Watt/Day
+ 
+When the platform is sporadically used the platform should be sending a Sleep signal to all the servers being used so some power is saved and during the “No usage” hours the platform should send a hibernate signal. So the power consumption in “No Usage” is 0. Using Wake on LAN  the platform also then wakes all the servers at appropriate times.
+So the energy consumption would be:
+10*425(Power Usage at Average Load) = 4250 Watts/Day
+8*200 (Idle Power Usage) = 1600 Watts/Day (Assuming that 200 Watts are used in sleep mode. Was not able to find any supporting document for this)
+6*0(No Power Usage-Hibernate) = 0 Watts/Day
+ 
+Total/Server  = 5850 Watts/Day
+For 3 servers = 3*5850 = 17.6 KW/Day
+ 
+This is around 30 % saving
+ 
+2.	Installation – Disable all the unrequired services which are running by default on a windows server (Indexing service, Audio, Wireless Configuration, Print etc.) during installation. This would save some watts definitely but we don’t have any numbers. 
+
+If we are able to reduce the energy consumption by 50% for Documentum platform we would say we have achieved success in our goal. This would mean saving operational costs for the customer as well as for EMC (for our internal Customer cloud as well as our internal Cloud used for testing and development)

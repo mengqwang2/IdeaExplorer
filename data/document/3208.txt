@@ -1,0 +1,5 @@
+Joining second cabinet without connecting Root switches in Centera cluster.
+
+There was a huge escalation  from EMC customer as they are out of capacity and need to do addition of storage as they are out of space and not having Root switches to connect new cabinet and cube and later we ordered new root switches but this solution could have been implemented  by direct connection of Cube.
+First it will be quick new storage capacity without ordering Root switches or if it is missed if not ordered earlier.
+

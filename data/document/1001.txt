@@ -1,0 +1,15 @@
+Infectious disease prediction, trending and prevention via Big Data / Data Lake Analysis (SMART CITY)
+Using Big Data / Data Lake Analysis for data storage, archiving, backup and recovery, networking and Data Analytic to better handle a Smart City with millions of internet-connected sensors geographically distributed across different locations across the city, in order to achieve efficiency and eliminate waste.
+This is known worldwide issue faced by Healthcare and govt. officials while dealing with Infectious disease
+The above mentioned challenges can be addressed by integrating the digitized medical records in databases configured as a proper Big Data Lake architecture with Big Data mining tools.
+
+Solutions to the challenges:
+1.)	The manual computation of patient zero which is one of the most important aspect of finding the infectious disease spread pattern is generally done manually. Instead of that if the medical records are mined via big data then the turnaround time is dramatically cut short. It can save precious time and resource. Here while determining the patient zero multiple factors come in to play the earliest affected patient and the one or more patients infected by that person.
+
+2.)	If we have the details of addresses of patients properly mapped from different hospitals suffering from infectious disease then it can be used by Big Data mining tools like Hadoop to give a pattern of infection over a large area. It can be also sampled at frequent interval to give a rough prediction / forecast of the infection spreading.
+
+3.)	Whenever an infectious disease starts, govt. officials dispatch / targets to provide equal resource to the entire region. However from the step 2. if we can analyze and forecast the infection spread, the resources can be concentrated more on the affected areas. This can save precious resource which can be utilized where it is needed more.
+
+4.)	Last but not the least the case studies from the patients can be compared via Big Data mining to provide a rough estimation on which medications are most effective or whether they are ineffective. It can also give an estimate on whether the disease is completely getting cured or remaining in dormant form and reoccurring after some days.
+
+For implementation of this idea we need Big Data / Data Lake Analysis. This will open up new markets for EMC tools like ECS and Scale IO on a global level.

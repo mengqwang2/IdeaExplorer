@@ -1,0 +1,5 @@
+Call Out Notification app
+efficient app to report call out , delays , etc before shifts start
+N/A
+a little mobile app an employee can use to report delays,absence ,etc
+efficiency in process

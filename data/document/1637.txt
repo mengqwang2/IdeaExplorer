@@ -1,0 +1,16 @@
+Effective way of customer reporting the issue and finding the step0 solution for an issue 
+TCE improvement. 
+While working with escalations and getting them resolved for external or internal customer
+This proposed solution would keep the above mentioned customers in sync and help them to find report of early reported issues. Also this would avoid the duplication of issue reporting. 
+Solution implants an escalation/issues tree structure in any application that is in force. This tree structure can be synced to central database where the constant update of issue resolution is updated at regular intervals. 
+In a given time all the customer will be aware of all the issues and the state and details of all the information.
+
+This would help each customer in different ways
+-	This will improve the customer TCE
+-	Help customer to avoid getting in to any such problem, since the database already have the problem stated and if there any workaround or temporary solution or to avoid such path, he is aware upfront 
+-	Unlike without this solution, Different customer might try out different workaround that leads to different problems [In a way good for increasing the product stability – to avoid future break downs]
+-	Also track on the what’s happening on this issue, when the fix is available etc
+-	If the fix made available and needy customer deploys. Others can be in sync by updating to this fix. 
+-	Instead of support helping, the customer might help in mutual with their knowledge base.  If it is easy configuration or documentation issues or simple fix, these can be solved in quick time. 
+-	This database will grow as other issue databases, which will help in future also. 
+

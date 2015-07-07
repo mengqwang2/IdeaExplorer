@@ -1,0 +1,19 @@
+Global Hardware Sharing system integrated with OnRack
+GPE: expand the usage of OnRack for Lab hardware management.
+Durham: Provide the opportunities for sharing equipment in a central pool, or between product development groups
+GMS system (https://ghtsgsm.corp.emc.com:9090/) has been used in GHTS for years and has gained ver y good feedback in hardware sharing.  And we have submitted this system as an idea before:https://innovationcentral.corp.emc.com/#menu_view_ideas?id=2014000917
+
+
+With OnRack project on, we see opportunities to do more things like automatically discovery hardware, detect hardware configuration, detect hardware errors. 
+
+1. Provide a central hardware sharing and reservation system to store/manage all hardware. We already have one: https://ghtsgsm.corp.emc.com:9090/
+
+2. Integrate onRack on hardwares and this system to enable automatically discover, register hardware in the system. Report broken hardware if there is any.
+
+3. Customized power saving policy could be applied on hardware. Can automatically shut down hardware  if no one uses it.
+
+4. Web API exposed for other automation usage.
+1. Cost saving. No need to ship hardware across sites. Power saving policy.
+2. Efficiency improvement. 
+3. Save manual effort to maintain hardware.
+

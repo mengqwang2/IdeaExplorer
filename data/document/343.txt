@@ -1,0 +1,14 @@
+New IB/Contracts Database And Software To Update Automatically
+This will serve the challenge/s listed below.
+
+
+We have major issues with the IB/contracts team as we deal with them when we have software download cases. 
+
+Create a software that would identify the contact person for a specific SO/Contract number/customer and possibly update the contract status automatically. 
+less people work - automation 
+speedy responses 
+customer satisfaction 
+faster replies 
+more profit 
+easy working process - utilization 
+less errors 

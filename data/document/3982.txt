@@ -1,0 +1,10 @@
+Reference Architecture for VPLEX Virtual Edition Product
+
+We had faced multiple issues while ordering the hardware for VPLEX Virtual Edition product and ordered the hardware which is not being optimally utilized.
+Its alarming us to work and find out the best combination of hardware & software to achieve the better performance of the product.
+We can divide into three parts to achieve how does it will be going to work-
+1. Compute Resources: Suggest the best hardware/software for required compute resources for VPLEX/VE product for better performance
+2. Network Resources: Suggest the best hardware/software for required network which can provide the maximum throughput
+3. Storage Resources: Suggest the best hardware/software for required storage on which VPLEX/VE will get installed 
+Being the Metro-HA product we can provide our best finding to the customers for achieving the better performance.
+

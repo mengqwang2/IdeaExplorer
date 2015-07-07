@@ -1,0 +1,12 @@
+Wireless connectivity  of Storage, Fabric and servers,
+As datacenter grows and number of servers and storage arrays increasing , There is a complexity in Cable management ,which looks odd and tough job for datacenter admin to manage it with proper cabling
+As we are moving into 3rd , 4th Platforms ,there is a necessity in simplifying the storage operations at the datacenter by using the innovative methodology and removing the barriers interms of 
+physical cables limitations
+Experience from Datacenter management of big environments
+Use of High Secure Wireless Digital Data Transfer mechanism to perform data transfer without any physical medium from storage to switches to storage array and vice versa. Zoning can be still done at the SAN switches
+through Wireless fabric login and fabric data transfers will happen.
+
+We need to have High Secure Wireless Digital Data Master equipment installed in the site and we need to have servers , Switches , Arrays acts as the clients installed with wireless communication device.
+All clients will be registered with this Master Equipment to communication.
+Datacenter Free from Physical cabling complexity .
+This will be applicable to Small sites and also for long distance connections for data connectivity with no physical connection limitations

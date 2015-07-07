@@ -1,0 +1,6 @@
+Smart 3rd Platform Task Manager
+Enhancing a day-to-day operational challenge that face each and every employee at EMC
+I always struggle between applications and sheets to try to manage my tasks and I see many many employees have the same challenge, and this made me think of this app.
+Develop E-2-E process by developing a mobile app which allows the user to speak the task he/she want to add to his/her task list. The app recognize it and turn it to written text on the tasks list.
+Then the app asks 2-3 questions (based on the preferred questions the user set on the app settings). The questions are used to classify the urgency, importance, due date, how long the task takes...etc. Then the app places the task according to the answers provided by the user in the right category and in the right available time slot on the user calendar. The app synchronizes with the user's calendar to see the available slots on which it can place the tasks.
+It will definitely reduces 5%+ from the employees time and will make the outputs more efficient and more productive.

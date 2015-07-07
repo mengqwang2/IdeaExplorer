@@ -1,0 +1,5 @@
+Travel Approvals/Payments
+Making the life of employee's who travel often easier instead of going through the pain of going through so many undocumented approvals.
+I went through the same process for booking as well as missing the deadline to pay AMEX bills.. 
+can create a separate portal for travels.. Upon submitting, it should trigger auto emails to the necessary approving authorities. They can login to the same portal to authorize it. Once all the approvals (BU head, AMEX, Finance, Manager), tickets/visa appointments can be made. This saves lots of time wasted on approval emails. Also for travel instead of giving AMEX cards, a pre loaded debit card can be given which for which employees can submit proofs..
+EMC saves money and everything is automated and easily documented.. 

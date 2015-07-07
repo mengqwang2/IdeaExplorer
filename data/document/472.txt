@@ -1,0 +1,11 @@
+Increases the energy efficiency by more 60% by using LCD  Monitor
+Challenge is to reduce power by more than 60% by 2020
+After seeing photos of Pivotal offices in San Francisco
+Currently we are using more 10000 conference rooms in EMC which are connected with projector.
+Each projector utilizes  150 to 300 Watts of power. On day basis if 5hrs is used 200*5=1000 W of power used
+So replace this LCD or LED monitors which utilizes with 15-60watts of power. (50*5=250 W) There by reducing power utilization by >5x times.
+2. Easy to plug and play 
+3. No extra screen required to display 
+4. Natural colors can be displayed 
+Superb
+Improve the technology

@@ -1,0 +1,5 @@
+Robotics in the Data Center
+The integration of robotics to create a lights-out,fully automated data center environment.
+Save time engineer will take to be on site
+ It’s about producing more with less cost and time.
+Will save money and time

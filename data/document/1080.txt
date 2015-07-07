@@ -1,0 +1,7 @@
+Analytics on Customer storage data for proactive support
+NA
+it has been observed that we don't have any centralized portal that has access to customer to see all his products well structured and recommendations for the mishaps on their boxes.
+Pull out the data from storage's and analyse the same, publish the results analyzed.
+Which should include best practices that are missing, optimization suggestion etc.
+There can be some recommendations that can bring us business, some can be used to gain confidence in customer so that he comes back to us; 
+Even the data polled out of the storages world wide can help us test our new Hadoop products, DWH capable stuff

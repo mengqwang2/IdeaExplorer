@@ -1,0 +1,7 @@
+Employee Self Reminder Application
+
+The idea came to me when I found many cases missed their NCC or engineers forgot to update their Service Requests for more than 7 days.
+Although we are focusing on this two targets, they are so hard to be achievable all the time due to the workload.
+Create an application that can be installed on the Employee's mobile phone, this application generates an alarm when one of the service requests in his backlog is about to miss the NCC (before missing the NCC by 5 hours) or when Service Request has not been updated for more than 7 days (on the 6th day).
+The alarm is generated with the Service Request number to be easier for the employee to know which specific Service Request needs to be updated.
+

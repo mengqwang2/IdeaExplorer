@@ -1,0 +1,19 @@
+Predictive maintenance of Data Store
+This challenge is to develop a system that addresses the need for a continuous monitoring of data stores that are managed by VIPR controller.
+Automated management would be the key for near future. We were going through a few research papers when this idea struck upon us. Also discussion with peers made us realize that such a solution would be a huge saver of time and cost.
+- VIPR would collect various parameters pertaining to CPU, network utilization, memory management and I/Os performed. These data would then be pushed into HDFS.
+
+- HDFS can be queried using indexing to extract data and we can use Map-Reduce paradigm to gain insight about the data. We can use RESTAPI for transferring huge bandwidth of data.
+   
+- A predictive analysis module based on naïve Bayes classifier would be integrated into the system. The classifier would be based on multiple-instance framework model. In this model, we have a set of objects that generate multiple instances of the data. All the data from one object is known as a bag. Each bag has a single label {0,1}, which is assumed to be known (and given during training), while each instance also has a true label {0,1} which is hidden. The label of a bag is related to the correct labeling of the instances as follows: if the label of each instance is 0, then the bag label is 0; if any of the instances is labeled 1, then the bag label is 1.Because the instance labels are unknown, the goal is to learn the labels, knowing that at least one of the instances in each 1 bag has label 1,and all the instance labels in each 0 bag should be 0.
+
+- This system would then trigger alerts in case of any anomalies. These triggers can be directly sent to the users having the VIPR app and has the appropriate authority. Simultaneously alerts would be sent to the administrator. 
+
+- This system would also provide behavioral model of the hardware, hence providing new insight to the customers. The log information can be retained by customers to troubleshoot any rare anomalies. 
+
+- The user interface can be modified to provide "views" to the users depending on their privilege level. This non-uniform view would ease the view of the end user as not everyone needs to view all the information.
+We would consider it a success if this module is integrated to VIPR controller.
+If implemented, then it would have the following benefits:
+- Save time and cost in cases of impending failures.
+- Would allow the customer to gain insight about their performance data.
+- This feature can earn new revenues as this space is having cut-throat competition at the moment.

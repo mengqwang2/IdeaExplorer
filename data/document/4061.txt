@@ -1,0 +1,7 @@
+ScaleIO feature enhancement: Thin Pool Provisioning & Zero Page Reclaim
+
+The initial idea came while working with ScaleIO/PowerPath coexistence & interoperability.
+ScaleIO will allow creating thin-pools in its domains. When volume creation requests come for a thin-pool, the volume will be created with minimal storage space to accommodate metadata as well as some user data. Storage to the volume will be allocated in either fixed chunk size (i.e. 2 GB) or user defined size, as and when the need arises. The allocation algorithm may be designed to be triggered either reactively or proactively. Reactively, when a write request for the thin volume arrives and the requested block has no storage space allocated, a chunk of storage space will be allocated. OR proactively, when percent of free space remaining in the allocated storage for the volume is less than specific amount 50% for example. Exposed volume will appear as full size volume to upper layers whereas actual size is less.
+	When a volume seems to have more than certain amount of free space (e.g. >80%) then ScaleIO can reclaim the unused space (zero blocks) back to thin pool making actual volume leaner. The reclaim process can be invoked periodically during non-pick hour or triggered by events like thin pool reaching threshold allocation limit or new thin volume create request.
+	Based on set policy, ScaleIO may choose to defragment a volume during reclaim process so that more space can be reclaimed.
+

@@ -1,0 +1,7 @@
+Power Calc. new tool
+it will make it easy on the Field SE and the Sales to provide the customer will all power and environment report 
+there is exiting tool powercalc.emc.com but its not updated with the new EMC products and its not accurate. Also its not working on MAC laptops
+
+my idea is to implement a new GUI tool with drop down menu which takes the input from the user and provides him with the option to generate a heat and power report that have all details needed by the customer
+
+have this tool implemented and being used by wide range of the field SE and Account managers to provide there customer with all details on the spot.

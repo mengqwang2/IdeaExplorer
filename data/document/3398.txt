@@ -1,0 +1,16 @@
+Big Data On-Demand Solution: All-in-One Solution for Big Data Projects
+
+The idea came to me after taking the Data Science course and thinking how a lot of tools and human effort is needed to complete a Big Data project with all its complexities
+Big Data is very complex concept at the meantime. The complex efforts required to complete a big data project are still confusing and require the collaboration of different subject matter exerts (Statisticians, data scientists, implementation delivery engineers …).
+This new concept will enable EMC to implement a solution that can be sold as COTS (Commercial Off The Shelf) product for Big data.
+The Solution will have easy to follow wizard like steps to implement a big data project:
+-	Complete infrastructure for storage (EMC Hadoop or Greenplum for example) 
+-	Data loading tools to load the data
+-	Ready-made data models that can be categorized per data type such as:
+o	Natural language Analysis
+o	Social Analysis
+o	Statistical models
+-	Analytics and reporting tools that can be used to represent the data analysis performed by the solution for each project
+This solution will leverage different EMC 3rd platform products like pivotal cloud, EMC Hadoop, ViPR and will boost our 3rd platform sales through streamlining the Big Data project process.
+In addition, this will create a breakthrough in the Go To Market for big data projects by having an end-to-end one-stop shop solution for big data projects from data loading until data analytics and representation.
+

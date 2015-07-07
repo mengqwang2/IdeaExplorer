@@ -1,0 +1,12 @@
+Engineering ESS services for Qualification 
+
+Cork ESS has in the past been very proactive in HALT and HASS testing product. We have experience in the Early life product and how getting early life right benefits our customers. BTE have been involved in a number of projects to qualify Software and have extensive expertise with ESS profiles. Now that we are no longer ESS testing SSDs we have the opportunity to use this capacity along with our experience.
+Engineering Cork BTE would feed into the current GHTS GATE and GAME groups to provide services to them in a mutually beneficial manor. BTE can leverage ESS chamber availability and extensive hardware/software expertise to provide Qualification services. 
+
+BTE using the ESS Chamber Environment could provide access for Package testing for both E3 and Platypus across all the environmentals  and provide all the engineering support that would involve.
+BTE could also facilitate a sandbox deployment of full packages for testing in a production environment, a service currently not available.
+
+Increased complexity of the hardware has increased the need for valid qualified test coverage leading to increased time pressure to get code released for new introductions and for code changes on older products.
+Increasing Engineering involvement would have a direct positive effect on the qualification timelines and speed up overall roll out.
+
+

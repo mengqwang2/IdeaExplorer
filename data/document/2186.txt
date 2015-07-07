@@ -1,0 +1,24 @@
+Integration of XtremIO QoS with PowerPath
+Since enterprise storage moving towards cloud quality of service becoming more and more prominent requirement. XtremIO  arrays planning to have SLO within the array. Such that IO performance becomes predictable within a storage network. On the other hand, OS vendors include "service level objective" while provisioning storage. All this thing are static in nature, based on IO workloads there are situations when SLOs are not met since available bandwidth are not utilized optimally. There is a need of a single software solution (receding in each hosts) that can optimize IO bandwidth across hosts and arrays and thus help XtremIO perform optimally and meets QoS.  
+This idea evolved while discussing with big cloud provider who wants QoS adherence and monitoring from a single pane of control for a heterogeneous environment. This solution must work across OS and should not have any IO performance hit. PowerPath being supported and installed in all Virtual and Physical OS platform is capable providing an unique proposition that would make XtremIO 
+The solution proposes a central application called ppApp (PowerPath App). This application will collect SLO requirement from user input (Or from OS e.g. SPBM in case of VMware) and then calculate SAN latency and sets necessary QoS on array. ppApp periodically collects IO performance information from different host connected to different XtremIO arrays (also from other Arrays) and monitors QoS. ppApp analyzes performance information and send alert when QoS not met along with performance data. Then ppApp send instruction to each PowerPath host to do necessary bandwidth optimization based on traffic pattern.  
+
+Summary of what PowerPath can do to make the best use of QoS of XtremIO
+1.Detect latency bottleneck across host based on IO characterization in every host connected to XtremIO
+
+2.Raise alarm with correct root cause analysis – For example Application experiences higher latency but performance in consistent within array. PowerPath can detect which all connectivity performance issues.
+
+3.ppApp Collects XtremIO health information through REST and take action if necessary.
+
+4.Prioritize IO within host to achieve the minimum bandwidth requirement defined with QoS of XtremIO – Hence minimum band width is guaranteed end-to end
+
+5.Start throttling IO on the host side for IO traffic on volumes from other Arrays (slower) connected to the host.  Throttling other Arrays would allow the IO bandwidth to be used for XIO arrays. 
+
+6.Hot add CPU/memory on high performing VM if PowerPath detects shortage of computational resource (optional)
+
+7.Trigger a Dynamic zoning change when SAN congestion is detected. Some of the SAN switches are capable of supporting dynamic zoning change. Dynamic zoning change would allow XIO volumes to get more bandwidth.
+
+8.Data collected in ppApp nodes using NoSQL Database (e.g Cassandra) over time build a data repository. Analytic applications can be build on this database to predict correct QoS setting on arrays which would give optimal performance to data center over a period of time.
+
+detail design can be found at https://inside.emc.com/ideas/3513
+Once PowerPath and XtremIO collaboratively implements QoS, then alerting and auto adjustment would take place based on dynamicity of traffic in a data center.  XtremIO & PowerPath can solve an unique problem in data center which no one attempted to solve yet. Self optimized storage fabric would bring a big value to customer. 

@@ -1,0 +1,14 @@
+EMC buying an Air conditioning company beside the IT business
+Having a new business as backup for EMC as an IT company
+Going into EMC Cairo lab and freezing in there thinking how essential an AC in a data center is.
+At the same time living in an IT war made me realize how crucial it is to have a backup plan, not just depend on R&D, management and cost reduction to keep a company going.
+Richard Branson is the founder of Virgin Group .He opened a chain of record stores known as Virgin Megastores. Richard also set up Virgin Atlantic,a British Airline. If you look at this idea the first moment it came to light,you would automatically reject it thinking it’s not our area of expertise.
+But actually this is what lead Richard to be the seventh richest citizen of the United Kingdom according to the Forbes 2014 list of billionaires
+
+We could buy any big AC company and provide our own air conditioners to the customers.
+Whether we are building a new data center or we are taking care of existing ones, there’s always a factor called the temperature in the room. Any data center has to be extremely cold to take care of any storage devices heating up.
+An important factor of the design consists of how many ACs we need in the room, the horsepower of each AC, the location of them and if they are directed on the rack or not.
+
+If we buy an AC company, we could offer the customer the services of our ACs and make them a discount perhaps if they buy storage as well as ACs from us. Since they will buy ones anyway or renew the ACs they have or do maintenance for them, they will probably agree.
+Thinking outside the box is always considered odd in the beginning but I believe having a backup plan in an IT world is essential and mandatory. The rate of changing technology for the IT world is very fast which is considered a very risky field that requires constant attention. Selling ACs to customers in data centers, to people at home, to universities and hospitals is considered a safe, backup plan that will market EMC’s name as well as bring a constant reliable income.
+

@@ -1,0 +1,6 @@
+Refresh SAP system by AppSync 
+
+AppSync can protect oracle/SQL, but it can not protect SAP directly.
+I started to test the scenario 2 months ago. now the problem is how to umount the previous copy created by the AppSync automatically. 
+SAP protecting/refreshing can be worked by Appsync directly.
+it will be a new solution between Appsync and SAP

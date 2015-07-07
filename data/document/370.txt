@@ -1,0 +1,21 @@
+Big Data Analytics approach for EMC products continuous enhancement
+ The idea aims at monetizing EMC infrastructure log and config data to provide actionable insights and to achieve continuous product improvement
+
+ The idea did stem from the application of big data analytics in social media to process the customer reviews. I started to visualize EMC arrays as the customer and the logs to be their reviews describing the status, errors and events happening to them.
+ The idea works as follows:
+
+-	EMC arrays logs and configuration files are periodically collected and moved to a central warehouse
+-	The warehouse will be divided into data marts. Each data mart will be specialized to one EMC product (for example: warehouse for VNX logs and data)
+-	Big Data analytics techniques will run centrally on the huge amount of logs and data collected from thousands of arrays.
+-	Big data techniques used are like :
+o	association techniques to detect relations between different issues and problem triggers
+o	time series analysis to monitor array behavior over time and detect seasonality of the issues (if any)
+-	after processing the data, a report will be returned to the Subject Matter Experts (SMEs) team and the product engineering team denoting the possible issues/bugs 
+-	the engineering and development team do their tests and take corrective action.
+
+
+1.	Early detection of issues and bugs
+2.	Prompt issue resolution 
+3.	Automation of the issue reporting makes life easier
+4.	The ability to monitor huge amount of arrays data at the same time 
+

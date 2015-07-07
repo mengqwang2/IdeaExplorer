@@ -1,0 +1,22 @@
+Navi Poll performance enhancement
+
+We were reported lots of slow client response and provider time out issues. We could not RCA the issue from the logs and dumps. It seemed OK of everything, but Admin poll was poor performance a period of time, it took more than 10 seconds to complete a poll request. If it spent 30 seconds completing a poll request, and there are more than 2 incoming poll requests in a minute, then the system has no bandwidth to serve those request in time, the waiting queue is becoming more and more long, then slow response occurs, provider time out happens.
+Before an inner method served for a client request is executed, a subsystem poll is issued to get a fresh value of the system.
+                
+Current:
+If no poll is executing, then we issue a new subsystem poll to Admin; If a poll is executing, then we add this poll request to a FIFO queue, then handle it one by one after previous poll accomplishment.
+
+Proposal:
+The reason to issue a poll is to get a snapshot of the subsystem at that time. If the subsystem has been updated to a latest value, then those “old” polls should not be issued. This is the key point of this enhancement. Here are some time frame we used, in a poll cycle, T1 < T2.
+TX: The time frame of the subsystem value.
+T1: The time frame we send a poll to Admin last time.
+T2: The time frame the subsystem was updated last time.
+
+In a multi thread environment, there are multi threads wanting to poll the subsystem. 
+1. If a thread finds its wanted TX0, and TX0 <= T1, then it should not poll the subsystem again. 
+2. If a thread finds its wanted TX1, and T1 < TX1 < T2, then it should go to the FIFO queue.
+3. If the thread n finds its wanted TXn, and T1 < TXn < T2, then it should go to the FIFO queue too.
+4. If the thread m find its wanted TXm, and T2 <= TXm, then a new poll is needed.
+
+So, when a poll is executing, there are n threads waiting in the FIFO queue “TX1, TX2, …, TXn”. After the poll is completed, the FIFO queue becomes “TX1, TX2, …, TXn, TXm1, TXm2, …, TXmm”.  All requests of “TX1, TX2, …, TXn” only need to issue a new poll because the new poll time frame is later than those requests, they are sharing a poll request. Then, the FIFO queue is changed to “TXm1, TXm2, …, TXmm”, they are in next cycle.
+

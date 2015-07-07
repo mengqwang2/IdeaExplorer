@@ -1,0 +1,7 @@
+Cloud Based Office System
+The idea will greatly help saving cost in IT investment.
+Protect EMC data better.
+With development of cloud and virtualization technologies, so I come up with an idea of more advanced office system.
+Cloud Based Office System can be a more portable end device than personal PC and provides access to a cloud. All computing or storage are in cloud services. It guarantees data safety and saves HW cost. 
+save money, avoid data loss due to HW, avoid vicious data disclosure.
+

@@ -1,0 +1,8 @@
+Better usage of our digital displays in the office
+Enhanced use of our display screens would encourage a more contemporary cooler workplace. Depending on how far the solution can go, it could create a very modern and fun workplace with new and cutting edge ways to communicate and collaborate.
+
+This idea was formed as part of an Idea Generation Session in Cork on 25th June.
+Displaying relevant information to staff makes better use of the screens. Displaying a simple "Hello, Happy Friday" message would improve the staff morale in the office. 
+If the screen is located near a swipe at a door, a personal message would provide a super cool user experience in the workplace. For example, if thee screen greeted the user directly (e.g. "Morning John") - it can tell who walked through the door from the badge swipe.
+You could take this a step further and show a personalized dashboard to that specific user, e.g. show a view of their calendar for the morning / show their first meeting or show dashboard of SLAs on Apps they own, or simply a view of their team (e.g. Mary is on vacation today; Joe is celebrating 5 years at EMC today etc...) 
+To increase the morale while also reaching a super UX in the office, a personal greeting and non-work related would be super cool.

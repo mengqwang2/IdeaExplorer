@@ -1,0 +1,5 @@
+XtremIO Virtualized
+Innovation! This will XtremIO with Sales/engineering/support.
+I have always been frustrated with sharing labs for destructive tests and feel more than just my self would benefit from this.
+A virtual XtremIO would solve this problem that EMC employees can run from their workstation and run behavior tests to answer customer questions and be more exposed with how it works. You can also easy test power and hardware disconnections without bothering others also using the lab. (that would also allow an ISCSI host virtualized of course)
+enhanced productivity and customer show cases. 

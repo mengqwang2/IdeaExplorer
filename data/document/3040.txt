@@ -1,0 +1,14 @@
+Mainframe: add more SCLM versioning using z/UNIX GIT
+idea is Mainframe-specific, therefore I am expecting to have some challenges devoted to Mainframe.
+I realized that z/UNIX fully capable to re-build most Opensource distributions, as long as it has full build toolchain. E.g. I rebuild perl and was happy with it... Then I realised that we could run GIT or SVN binaries just at the moment of SCLM promote triggers.
+SCLM is a standard source control tracking system on z/OS, and have limited possibilities to keep tracks on historical changes. (to overcome this, people insert tags and comments into source files, so to track history manually, but this does not fully cover developer's needs.)
+During "promote", old version is overwritten, so the system keeps track on 4 or 5 versions of files.
+On the other hand, z/Unix have possibility to run unix commands, and these commands have instant access to z/OS datasets.
+The idea is:
+ 1. build the "GIT" (or "SVN") on z/UNIX using standard way "./configure" and then "make"
+ 2. write SCLM triggers which call "GIT COMMIT" at the time of promote
+ 3. profit
+While simple and fully automated, the system will allow to keep all versions of the code.
+At any time it will be possible to seek for any changes where it appeared and who did it.
+No maintenance, no nothing. Just profit! :)
+Full source code history is what developer need from time to time. Add this to SCLM by using standard GIT.

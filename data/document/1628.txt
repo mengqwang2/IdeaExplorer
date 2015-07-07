@@ -1,0 +1,5 @@
+RMA issuance 
+the RMA process of us as engineers are something that is quite easy and fast.
+.
+the idea to create a little stronger RMA approval system that include the approval of the product senior engineers or the SME of the product to make sure that the engineer is following the process and taking the right decision.
+the benefits is lots of time saving which will lead to faster solution to the customer and increasing the CSATs.

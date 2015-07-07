@@ -1,0 +1,36 @@
+Innovate through Diversity
+The ideas mentioned here proposes ways to improve diverse focus to various innovation process at company level.
+I got these thoughts after reading the referenced article and thinking more about this topic.
+Innovation Roadmap could be a good place to trying something to improve cross-collaboration across geographies and among diversified employees. 
+
+Today, though the challenges are open to all, there is no way to advertise for like-minded folks (who are interested in solving a specific challenge) and get them to collaborate on a problem.
+
+Now, how do we go about this? 
+
+First, there should be a portal (inside.emc.com or else where), where someone can place an advertisement, seeking collaborators for a specific challenge.
+Then, there should be a way for others to go to that portal from innovation central, through a simple link. For example, look for all folks interested in brainstorming about this problem.
+There could be a limit on the group size as well.
+Once a set of individuals decide to form a group and explore a common challenge, there should a provision (may be a mobile app) to connect with each other and share all notes, research papers, interesting links etc. in one place.
+(A moderator could be chosen by the group to ensure timelines, forward progress of idea and conflict resolution.)
+
+
+Q: Is your solution scalable across Platform 2.0 to Platform 3.0 innovations? 
+
+Of course, most of this is based on social (internal) & mobile app collaboration!
+
+Q: Have you proposed a way to measure the impact of the diverse innovation team versus a non-diverse innovation team? 
+
+Say, we try this for various company-wide innovation event for a period of 1-3 yrs, then we could use that data to see whether 'diversified' teams are reaching the 'Finalists' level more than 'non-diversified' teams or individuals.
+
+Q: How does your recommendation include the global nature of EMC, if applicable?
+
+The solution proposed here, mainly aims at improving collaboration across geographies.
+
+
+Few side notes:
+
+- A similar thing could be tried for other company-level events as well. Basically, call for teams with various diversity parameters. This will automatically enable people form new connections within the organization.
+
+- This kind of collaboration could also be tried by creating 'Common Interest Groups' and enabling them with small projects from time to time.
+
+This will result in more collaboration, GPTW scores and general employee satisfaction.

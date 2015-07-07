@@ -1,0 +1,8 @@
+Mobile Whiteboard
+sharing knowledge and facilitate the peer to peer collaboration during conferences and instant messaging.
+
+
+while giving training sessions, a whiteboard is needed for some explanations and it's easier when you draw with your hands instead of a mouse while delivering remote sessions or collaborations
+Design a mobile application, on which you can draw freely with your hands and the other peers can watch it live while you are drawing it and explaining. 
+This app will be integrated with Office communicators ( example: lync ) and online conferencing tools
+whiteboard mobile application to facilitate the way of communication between peers remotely and easy in delivering online sessions which would save time

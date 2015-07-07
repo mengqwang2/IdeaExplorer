@@ -1,0 +1,54 @@
+Centralized LAB service by Consolidation of Visualization Infrastructure with controlled IP addressing.
+
+We use Durham LAB for Avamar QA testing purpose. Some of the most common LAB problem we see is the availability of enough space to create VMs for project need and availability of free IP addresses for those VMs. We see some project team ESX servers are underutilized but  we can’t share because it belongs to different project, also manageability becomes complex.
+Also In many cases the IP addressed allocated to one team is being used by other teams randomly and creates an confusion that we are running of IP address.
+So we feel that a centralized LAB infrastructure by consolidating the virtualization infrastructure (ESX servers) & a controlled IP addressing system can efficiently serve the need of development & QA teams & also save the hardware expenditure.
+
+Case#1 - Implementation:
+Virtual Infrastructure resource consolidation & optimum utilization
+1.	Create a server farm by adding all the ESXi servers used in Centralized LAB. Let’s call it as VM resource pool
+2.	Have centralized storage system which can be shared among all the ESX servers in the centralized LAB. So that there can be a common data store for all ESXi server. 
+3.	VMWare tools like Vspehere & VMotions can be used for High availability , fault tolerance & load balancing the VMs within the server Farm.
+4.	Create 2 types of  VM Resource Pool
+1.	Resource Availability Pool
+2.	Resource Usage Pool
+5.	There can be 2 types of users to access the entire VM resource pool
+a.	Administrator – The user who can grant permission to use the VM & also can set lease period for VMs to be used
+b.	User – Who can Request to use certain resources in VM resource pool.
+6.	Develop an UI interface to access & manage the overall VM source pool.
+7.	Establish a Service usability model/Process :
+a.	In UI interface User can check in the VM Resource Availability pool and request for the particular resource (VM’s).
+b.	The tool should have inbuilt capability to create requested VMs from templates.
+c.	Once the resource been allocated to the User, it should be removed from the Availability pool list and added to the Usage Pool list.
+d.	Once the resource allocated time(lease period) is elapsed for allotted VMs, it should automatically been removed from “Usage Pool” added to  “Availability Pool” for further usage by the same/different user or also can be destroyed.
+e.	If required user can request for the renewal of lease period to extend the usage of those resources.
+
+Case#2 Implementation
+
+IP Address reservation & management
+Solution Approach:
+1.	Process & tool for Controlled IP allocation.
+2.	Reserve the IP pool to restrict unauthorized use of LAB IP (free IP)
+3.	Track free/used IP addresses.
+
+Proposed Tool & process for LAB:
+1.	Take a dedicated Linux host. (Let’s call it IP reserve pool - IRP)
+2.	When an IP range is allocated to team, let’s configure all the IP address on the virtual interfaces of a Linux box. So that no one can use it unless it is freed-up. This way we can control the IP reservation. 
+Note: We can configure thousands of virtual interfaces on a Linux box.
+
+3.	When we allocate IPs to engineers, let’s remove those IP from IRP. Then IPs would not be pingable , so that he/she can configure them on required hosts.
+
+4.	To reduce the administrative burden and to make the above procedures efficient we can use simple scripts & also possibly a simple web portal to manage the entire process.
+
+5.	We need following few things to make it happen.
+1.	A python script to configure & un-configure IPs on IRP Linux box.
+2.	An open source web portal framework – XAMPP
+3.	Create following provisions in web portal
+a.	Users with different previledges (Engineer, Manager, Admin)
+i.	Engineer – can use, reserve & see respective IPs
+ii.	Manager: Can reserve the IPs , release the IPs from respective allotted range, can view entire teams’s IP usage.
+iii.	Admin: Can see & manage entire IRP , including engineer’s & manager’s  IP reserve and usage.
+b.	PHP script to submit OS commands in order to configure / Un-configure IP address on IRP Linux box. Also the Integration between PHP form & python script can do the same.
+c.	A simple web portal with couple of forms, edit & submit buttons.
+
+

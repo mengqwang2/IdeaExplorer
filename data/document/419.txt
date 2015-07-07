@@ -1,0 +1,21 @@
+Next-Gen Social enabled Interactive Engine for Increasing Collaboration
+This idea focusses on providing a solution to the Ireland team, to create an Interactive Social Enabled engine for increasing & improving collaboration across different groups & which will help in attracting new talent to EMC.
+Idea is a result of brainstorming with the team and also due to our high exposure to social networking sites and its technologies. 
+The idea is to send email notification to employees to participate in any social discussions like Twitter, Facebook, EMC Community Network etc, when there is any trending discussions going on in Social Media that requires the skills matching that of the employee.
+
+How can we do this ?
+
+First part is to create a mapping of Employee & Skills,
+
+-	Use Linked In API to retrieve the required skills for each of the employees. Since not all users have LinkedIn accounts, rest of them we can pull the data from the IT systems and Inside EMC profiles as available. 
+-	Create a mapping of each of an EMC employee to the retrieved SKILL SET and maintain the relationships using the Graph DB like Neo4j ( Just like in LinkedIn )
+
+Second part of the solution involves, 
+
+-	Use streaming Social APIs, say from LinkedIn, Twitter, Quora, Stack Overflow, ECN, etc, ingest the data into a Hadoop cluster, and using text analytics like OpenNLP, search for all the trending discussions that match with the EMC Product & solutions in the Social Media. 
+-	Use this input to the First part of the solution (mentioned above) to lookup the GraphDB and  list the employees that have skills similar to the trending discussions. This can done using Cypher query language used by the Neo4j. 
+-	Once the list of employees are retrieved, trigger email notification to them for participating in the discussions. 
+-	Use Java Mail APIs to trigger notifications to the required employees ( can use Peoplesoft data)  that matches with the Skill Set required for the discussions. 
+
+-	Maximizes the participation of EMC employees in Social Media. LinkedIn also has a social forum, having more Employees participating in LinkedIn Forum, leads to attracting new talent due to the connections that get built during interactions. Not only in LinkedIn but also on other Social platforms.
+-	It’s a trigger to improve Employee collaboration outside of EMC. This can be used for welcoming conversations on Inside EMC & ECN .

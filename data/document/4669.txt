@@ -1,0 +1,6 @@
+Analysis as a Service (AaaS)- 3rd Platform Readiness
+
+The idea emanates from the need for EMC in becoming a 3rd platform ready company ( IT ) 
+The intelligence will have the capability to identify product issues, performance issues, maintenance issues etc proactively. The integration / installation of such a system will generate real time data that would be stored & analyzed by EMC tech technology & product wise. This would help EMC to predict a unplanned downtime in the customer environment and help action / avoid that downtime by appropriate decision making. This proactive approach will also help in automating the problem analysis, identification, resolution ( including supply chain management ) across EMC platforms and a better sense of integration across EMC PBUs and an efficient sense of readiness for the 3rd platform. 
+Such a system when expanded to support other vendor technologies can also help position EMC as a consultant to offer AaaS
+

@@ -1,0 +1,10 @@
+Avamar : Re-running Failed jobs from activity window	
+
+Customers need to go to policies  or backup  and restore window to re- run failed backup
+While working with customers new to avamar take time to  find polies and groups or find difficulty in running backups from there  
+enabling  backup re-run option in activity window ,
+
+By enabling run backup from activity window , helps users not go to specific client policy and re-running backup .
+Helps L1 team or a person new to avamar  to re-run the backup .
+Saves time in finding current policy  and group
+

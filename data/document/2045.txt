@@ -1,0 +1,27 @@
+Optimizing printing process
+This makes the work place more eco-friendly and saves money
+Makes printers more Paper,Ink efficient
+
+Similar softwares/drivers already exist in the market.
+We can either make use any of such product in our organization or can build a custom driver which is more effective.
+What the software does
+
+-Select between black&white and color options (quite basic)
+
+-Turning to dark grey instead of pure black font to reduce the ink to be used .(Options of multiple ink levels)
+
+-Make use of "multiple print"option available on printers which reduces the size of pages    to print, and arrange them on a single sheet, in a smaller size (Up to four reduced pages on a single sheet of paper).
+
+-It gives print preview and user can check/uncheck pages they don't want.
+
+-Adjust fonts, margins and spacing to fit more text on a standard sheet.(especially web pages)
+
+-Easy to choose duplex mode option
+
+-Selective printing:Print settings which exclude graphics and images to save ink. 
+
+The software also has
+-Options to save as PDF
+-Copy to cloud drives or send as an email
+-One click copy to users mobile phone
+This initiative will be a value add both to EMC and environment.

@@ -1,0 +1,5 @@
+Ransomware Protection
+Using existing products (with perhaps a tweak) in an innovative way.
+I was at the RSA conference and heard about the growing problem of ransomware and thought how our backup tools could help protect users from this fairly easily.
+Mozy current offers a backup product with version history.  If we added intelligence to detect that large volumes of files have been changed (i.e. due to encryption) and alerted the user that they may be a victim of ransomware and ask if they would like to continue to backup, we could add ransomware protection to the marketing of Mozy.
+It would help society have a defense against this type of malware and enable Mozy sales.

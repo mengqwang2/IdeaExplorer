@@ -1,0 +1,18 @@
+W4N - Improve Report Performance
+TCE Challenge - Reports matter most to customers (that's why they purchased W4N/ViPR SRM). If we can't get it quickly to show what they want, we lose the market.
+Customer Services Challenge - Finding hard to debug any issue related to reports' performance
+In 2 years of career with Watch4Net, I have seen numerous cases with report performance or slow reports and realized that matters most to any end user is how quickly they get the data; doesn't matter how complex internal is the underlying architecture or processing. Looking at the behavior of usual search engines like Google, I think it's better if we follow the same approach.
+
+If customer is requesting for a report which has 10 pages, we can show the first page at least as soon as we get data, and keep querying the DB for rest of the data in background. Also, we can show a loading icon which would mean we are still getting more data. This holds good for any report which does not need whole data to be available first to show up a single entry in report. Some will disagree but no one would like to wait for 1 minute or so to see even the 1st page of Google Search so that it gets all the 10 million search results first.
+
+This is human nature that when they see at least something getting populated on page, they are ready to wait for more, but it's hard to wait when we say that report will show up only when everything is done, so that you don't have to wait more for anything else.
+
+So, this solution would involve breaking down the query into smaller queries to get result subset and show up. Again, a loading icon on the top right corner of page should be present to show the status (it can show % also that how much data is still left to be loaded). Simply waiting on a blank page indefinitely affects the product quality and fails to impress customers.
+
+This is just an idea. We can build more theories on top of it to improve the performance of reports and customer satisfaction.
+If idea is implemented in product, it will definitely:
+a) improve customer's satisfaction
+b) reduce number of SRs drastically
+c) improve overall product quality
+d) will help in POCs and in sales in demonstration
+

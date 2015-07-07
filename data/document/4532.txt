@@ -1,0 +1,5 @@
+Expert Pool App
+
+.
+The Expert Pool Application will contain information about various technical and product related skills present in the organization. The application will categorize people into different areas of technical or product related expertise.This will help people who have doubts or clarifications, know, whom to contact and where.The tool will basically foster quick and rapid communication and problem resolution. 
+

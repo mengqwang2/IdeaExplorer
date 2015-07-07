@@ -1,0 +1,12 @@
+Project details in Propel
+Challenge here is looking for every details of a PS project in propel. Most time this leads to insufficient information about deals and product sold.
+In big project I need to keep asking various information and documents to PM now and than. This make me to look for an idea.
+Solution Approach:
+Below information should be make mandatory in resource request.
+Sales order number
+SE name
+Account Rep Name
+RPQ / Qualifier if required
+Customer contact details
+As a result, delivery team and PM team can save time and reduce email back and forth for details required from Sales.
+

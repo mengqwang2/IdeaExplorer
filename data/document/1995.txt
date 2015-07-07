@@ -1,0 +1,20 @@
+Internet of things at EMC - Location based sensors
+Creating a contemporary workplace of the future by automating the way we work using the 'Internet of Things'.
+Idea came after the announcement by EMC on the Internet of things investment they are making and how we could leverage this technology with the company
+Internet of things at EMC - Location based sensors
+
+My idea is not one idea but a foundation on which many ideas can be created. How might the workplace 'internet of things' take shape in the future?
+
+In EMC this technology could be used to automate the way we work based on location based sensors installed throughout the office.
+
+In the future, I’m imagining I walk out of my front door with my device. My device locks the door behind me. It starts my car. It pays for my coffee at Starbucks. It knows that when I get in my car that I am going to work. It recognizes that I’m late for a meeting and changes my meeting because it knows — by my location — that I’m not going to be at the office in time to be there for my video conference meeting and it changes it to a voice call and dials out to my mobile phone. As soon as I get into the building and closer to my desk, my laptop automatically joins the video call and I can take it from there.
+
+It could be used to automate meetings in the office. . As soon as I walk into the 'DaVinci' meeting room, my video call is automatically started because my device knows by my calendar that I have a video call scheduled at 2pm from the Davinci VC room. 
+
+This location based info could also be used as targeted communication to users. If I walk through the hall, the digital signage changes to match my persona ie. IT folks get IT related information. If I am giving a customer walk-through of the facility, the signage could change to welcome that particular customer as we walk through-out the building, providing a more "connected experience" to that customer.
+
+It could also be used by IT to provide a more "connected experience". Lets say for example a user logs a ticket looking for some IT support. We could automatically route this ticket to the nearest IT person in his vicinity. The IT support tech will be alerted to problems that are closest to him to allow him to react more efficiently and faster to the incident.
+
+We could easily put a sensor on the EMC Bus to provide real-time tracking. As soon as the bus pulls up outside, users who chose to be notified are alerted. No more waiting around for the bus to come when you could have spent 15 minutes extra at work!
+
+It would be based on sensors that are harvesting data and using the data in a meaningful and interesting way.
