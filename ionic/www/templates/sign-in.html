@@ -1,6 +1,8 @@
 <ion-view view-title="Sign-In">
-        <ion-content>
-          <center><h1>EMC</h1></center>
+        <ion-content class="signin-bg" scroll="false">
+        <center><img src="../img/logo.png" height="180px"></center>
+        <br>
+        <br>
           <div class="list">
             <label class="item item-input">
               <span class="input-label">Username</span>
@@ -13,12 +15,12 @@
           </div>
           <div class="row">
       <div class="col">
-        <button class="button button-block button-positive" ng-click="signIn(user)">
+        <button class="button button-block blue-bg round" ng-click="signIn(user)">
               Sign-In
             </button>
       </div>
       <div class="col">
-        <button class="button button-block button-stable">
+        <button class="button button-block button-stable round">
           Forgot Password
         </button>
       </div>

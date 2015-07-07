@@ -1,6 +1,6 @@
 
 <ion-view>
-<ion-content>
+<ion-content class="page-bg">
 <div class="list list-inset" ng-repeat='item in data.Ideas | filter: {id: currentPage}' >
 	<div class="item item-divider" href="#/app/playlists/{{item.id}}">{{item.Title}}
 		<p>By {{item.Author}}</p>
