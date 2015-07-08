@@ -1,9 +1,9 @@
 # Generate a dictionary / vocabulary from a text dataset.
-
 import gensim
 import nltk
 import argparse
-from nltk.tokenize.punkt import PunktWordTokenizer
+import codecs
+#from nltk.tokenize import PunktWordTokenizer
 
 argparser = argparse.ArgumentParser()
 argparser.add_argument("dataset", type=str, help="Input dataset filename.")
@@ -13,10 +13,19 @@ args = argparser.parse_args()
 
 def generate(f, outfile, t):
 	print "Tokenizing file."
-	toks = PunktWordTokenizer().tokenize(open(f).read())
+	sentToks=nltk.tokenize.load('tokenizers/punkt/english.pickle')
+	wordToks=nltk.tokenize.TreebankWordTokenizer()
+	text=unicode(codecs.open(f).read(),'utf-8')
+	sents = sentToks.tokenize(text)
+	toks=[]
+
+	for s in sents:
+		toks.extend(wordToks.tokenize(s))
+
 	
 	print "Generating word counts."
 	dictionary = gensim.corpora.dictionary.Dictionary([toks])
+	#print dictionary
 	bag_of_words = dictionary.doc2bow(toks)
 	
 	print "Filtering words with less than {0} occurrences.".format(t)
@@ -26,8 +35,8 @@ def generate(f, outfile, t):
 	print "Writing output to {0}.".format(outfile)
 	with open(outfile, 'w') as of:
 		for word in dictionary.values():
-			of.write("{0}\n".format(word.lower()))
+			of.write("{0}\n".format(unicode(word.lower()).encode('utf-8')))
 	
 	print "Done."
-
+	
 generate(args.dataset, args.outfile, args.threshold)
