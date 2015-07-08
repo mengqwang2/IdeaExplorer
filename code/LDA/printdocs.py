@@ -32,7 +32,8 @@ def main():
     #vocab = str.split(file(sys.argv[1]).read())
     topicN = sys.argv[1]
 
-    topiclist=range(1,int(topicN))
+    topiclist=range(0,int(topicN))
+    #print topiclist
 
     testgamma = numpy.loadtxt(sys.argv[2])
 
@@ -40,11 +41,11 @@ def main():
         gammak = list(testgamma[k, :])
         gammak = gammak / sum(gammak)
         temp = zip(gammak, range(0, len(gammak)))
-        print len(temp)
+        #print len(temp)
         temp = sorted(temp, key = lambda x: x[0], reverse=True)
         print 'Document %d:' % (k)
         # feel free to change the "53" here to whatever fits your screen nicely.
-        for i in range(0, 29):
+        for i in range(0, 5):
             print '%20s  \t---\t  %.4f' % (topiclist[temp[i][1]], temp[i][0])
         print
 

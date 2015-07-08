@@ -413,7 +413,6 @@ alphabetical
 alphabetically
 already
 als
-also
 altai
 altar
 alter
@@ -550,12 +549,7 @@ antony
 anxiety
 anxious
 anxiously
-anybody
-anymore
-anyone
 anyplace
-anything
-anytime
 anyway
 anyways
 anywhere
@@ -5162,14 +5156,11 @@ furiously
 furnish
 furnished
 furniture
-further
-furthermore
 fury
 fut
 future
 futuristic
 fw
-g
 ga
 gabriel
 gadget
@@ -7887,8 +7878,6 @@ moral
 morale
 morality
 morals
-more
-moreover
 morgan
 morn
 morning
@@ -8561,8 +8550,6 @@ others
 otp
 ought
 oui
-our
-out
 outage
 outages
 outbound
@@ -8571,7 +8558,6 @@ outcome
 outcomes
 outdated
 outdoor
-outer
 outing
 outings
 outlet
@@ -13525,7 +13511,6 @@ wherein
 whereof
 wherever
 whether
-which
 whilst
 whip
 whipped
