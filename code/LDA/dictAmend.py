@@ -37,13 +37,22 @@ def dictImport():
 
 if __name__=="__main__":
 	dictlist=OrderedDict()
+	with open("ideasVocab.txt","r") as fo:
+		for line in fo:
+			wd=line[:-1].lower()
+			wd = re.sub(r'\W+', '', wd)
+			dictlist.update({wd:1})
+	fo.close()
+
 	with open("dictnostops.txt","r") as fo:
 		for line in fo:
-			dictlist.update({line[:-1]:1})
+			wd=line[:-1].lower()
+			wd = re.sub(r'\W+', '', wd)
+			dictlist.update({wd:1})
 
-	#print sorted(dictlist)
-	#print len(dictlist)
-	fo=open("dictnostops.txt","w+")
+	fo.close()
+
+	fo=open("vocabulary.txt","w+")
 	
 	for k in sorted(dictlist):
 		fo.write(k+"\n")

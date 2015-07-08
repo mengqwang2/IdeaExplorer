@@ -29,22 +29,23 @@ def main():
     (expected) most prominent words in the topics, the second column
     gives their (expected) relative prominence.
     """
-    vocab = str.split(file(sys.argv[1]).read())
-    testlambda = numpy.loadtxt(sys.argv[2])
+    #vocab = str.split(file(sys.argv[1]).read())
+    topicN = sys.argv[1]
 
+    topiclist=range(1,int(topicN))
 
-    for k in range(0, len(testlambda)):
-        lambdak = list(testlambda[k, :])
-        #print lambdak
-        lambdak = lambdak / sum(lambdak)
-        #print len(lambdak)
-        temp = zip(lambdak, range(0, len(lambdak)))
-        #print temp
+    testgamma = numpy.loadtxt(sys.argv[2])
+
+    for k in range(0, len(testgamma)):
+        gammak = list(testgamma[k, :])
+        gammak = gammak / sum(gammak)
+        temp = zip(gammak, range(0, len(gammak)))
+        print len(temp)
         temp = sorted(temp, key = lambda x: x[0], reverse=True)
-        print 'topic %d:' % (k)
+        print 'Document %d:' % (k)
         # feel free to change the "53" here to whatever fits your screen nicely.
-        for i in range(0, 10):
-            print '%20s  \t---\t  %.4f' % (vocab[temp[i][1]], temp[i][0])
+        for i in range(0, 29):
+            print '%20s  \t---\t  %.4f' % (topiclist[temp[i][1]], temp[i][0])
         print
 
 if __name__ == '__main__':

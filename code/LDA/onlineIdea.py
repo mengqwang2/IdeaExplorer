@@ -38,7 +38,7 @@ def main():
     # The total number of documents in Wikipedia
     D = 5000
     # The number of topics
-    K = 50
+    K = 30
 
     # How many documents to look at
     if (len(sys.argv) < 2):
@@ -47,13 +47,13 @@ def main():
         documentstoanalyze = int(sys.argv[1])
 
     # Our vocabulary
-    vocab = file('dictnostops.txt').readlines()
+    vocab = file('vocabulary.txt').readlines()
     W = len(vocab)
     #print W
 
 
     # Initialize the algorithm with alpha=1/K, eta=1/K, tau_0=1024, kappa=0.7
-    olda = onlineldavb.OnlineLDA(vocab, K, D, 1./K, 1./K, 1024., 0.7)
+    olda = onlineldavb.OnlineLDA(vocab, K, D, 1./K, 1./K, 1024., 0.1)
     # Run until we've seen D documents. (Feel free to interrupt *much*
     # sooner than this.)
     for iteration in range(0, documentstoanalyze):
