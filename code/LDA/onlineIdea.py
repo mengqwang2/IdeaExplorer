@@ -33,12 +33,13 @@ def main():
     #des=dp.fieldParse("description")
     des=dp.concatedField("../../data/fieldList.txt")
 
+    
     # The number of documents to analyze each iteration
     batchsize = 100
     # The total number of documents in Wikipedia
     D = 5000
     # The number of topics
-    K = 30
+    K = 100
 
     # How many documents to look at
     if (len(sys.argv) < 2):

@@ -30,13 +30,9 @@ aber
 abide
 abilities
 ability
-able
-abled
 abnormal
 aboard
 abode
-about
-above
 abraham
 abroad
 abrupt
@@ -72,7 +68,6 @@ acceptance
 accepted
 accepting
 accepts
-acces
 access
 accessed
 accessibility
@@ -2695,8 +2690,6 @@ cots
 cottage
 cotton
 couch
-could
-couldnt
 council
 counsel
 count
@@ -3634,7 +3627,6 @@ done
 donne
 donner
 donors
-dont
 doom
 doomed
 door
@@ -3798,7 +3790,6 @@ e2e
 e2e_horizon
 e74880
 eaa
-each
 eager
 eagerly
 eagerness
@@ -5272,9 +5263,6 @@ germans
 germany
 gerrit
 gesture
-get
-gets
-getting
 ghastly
 ghe
 ghost
@@ -5805,7 +5793,6 @@ hire
 hired
 hires
 hiring
-his
 hisher
 hist
 historian
@@ -5924,7 +5911,6 @@ householders
 households
 housekeeper
 houses
-how
 howard
 however
 hp
@@ -7700,7 +7686,6 @@ midst
 midtier
 mieux
 mig
-might
 mighty
 migrate
 migrated
@@ -7989,7 +7974,6 @@ mutual
 muy
 mvc
 mvp
-my
 mylearn
 myself
 mysql
@@ -8063,8 +8047,6 @@ necessary
 necessity
 neck
 ned
-need
-needed
 needful
 needing
 needle
@@ -11434,7 +11416,6 @@ solves
 solving
 som
 sombre
-some
 somebody
 somehow
 someone
@@ -13388,7 +13369,6 @@ warren
 warrior
 warriors
 wars
-was
 wash
 washed
 washing

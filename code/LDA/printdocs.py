@@ -45,7 +45,7 @@ def main():
         temp = sorted(temp, key = lambda x: x[0], reverse=True)
         print 'Document %d:' % (k)
         # feel free to change the "53" here to whatever fits your screen nicely.
-        for i in range(0, 5):
+        for i in range(0, 1):
             print '%20s  \t---\t  %.4f' % (topiclist[temp[i][1]], temp[i][0])
         print
 
