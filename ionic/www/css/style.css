@@ -53,6 +53,10 @@
 	border-radius: 10px;
 }
 
+.circle {
+  border-radius: 40px;
+}
+
 .blue-bg {
 	color: white; !important;
 	background-color: #2C95DD; !important;
