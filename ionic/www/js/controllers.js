@@ -33,7 +33,7 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
-.controller('home', ['$scope', '$rootScope', '$http', '$stateParams', '$ionicModal', function($scope, $rootScope, $http, $stateParams, $ionicModal) {
+.controller('home', ['$scope', '$rootScope', 'Idea', '$http', '$stateParams', '$ionicModal', function($scope, $rootScope, Idea, $http, $stateParams, $ionicModal ) {
 
   // $scope.doRefresh = function(){
 
@@ -55,7 +55,7 @@ angular.module('starter.controllers', [])
 
   $scope.like = function(id, input){
     if (!$scope.toggleLikes){
-      input.Ideas[id].Likes+=1;
+      input.Ideas[id].likes_count+=1;
       $scope.toggleLikes= !$scope.toggleLikes;
     }
       
@@ -63,21 +63,60 @@ angular.module('starter.controllers', [])
 
     $scope.unlike = function(id, input){
     if($scope.toggleLikes){
-    input.Ideas[id].Likes-=1;
+    input.Ideas[id].likes_count-=1;
     $scope.toggleLikes =!$scope.toggleLikes;
-  }
+    }
   };
 
   $scope.toggleLikes = false;
 
   $scope.checkComplete = function(text, limit){
     if (text.length <= limit)
-      return;
+      return text.length;
     while (text.charAt(limit)!= ' '){
       limit+=1;
     }
     return limit;
   }
+
+  $scope.tagProcessor = function(text){
+    var returnTag ="";
+
+    if (text){
+      var tagArray = text.split(", ");
+      for (i = 0; i < tagArray.length; i++){
+        returnTag = returnTag.concat("#" + tagArray[i] + " ");
+      }
+      return returnTag.substring(0, returnTag.length-1);
+    }
+
+  }
+
+  $scope.data = Idea.get();
+
+
+  $scope.doRefresh = function(){
+
+    $scope.data = null;
+    $scope.data = Idea.get(function(){
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+    
+   };
+
+   $scope.findArray = function(id){
+    for (i=0; i< $scope.data.Ideas.length; i++){
+      if ($scope.data.Ideas[i].id ==id){
+        console.log(i);
+        $rootScope.currentIndex = i;
+      }
+    }
+    
+
+  }
+
+
+
 
   
 
@@ -124,30 +163,19 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 })
 
 
-.controller('ideaRest', function($scope, $stateParams, Idea){
-
-
-  $scope.data=null;
-
-  $scope.data = Idea.get(function(){
-
-      for (i=0; i< $scope.data.Ideas.length ; i++){
-        $scope.data.Ideas[i].id = i;
-      }
-  });
+.controller('searchCon', ['$scope','Idea', function($scope, Idea){
 
 
 
-  $scope.doRefresh = function(){
+    $scope.search = function(){
+      var jsonF = {'Hi':'Hello'};
+      Idea.save(jsonF, function(content1){
+        console.log(content1);
+        $scope.searchResult = content1['Result'];
+      });
 
-    $scope.data = null;
-    $scope.data = Idea.get(function(){
+    }
 
-      for (i=0; i< $scope.data.Ideas.length ; i++){
-        $scope.data.Ideas[i].id = i;
-      }
-  });
-    $scope.$broadcast('scroll.refreshComplete');
-   };
 
-});
+
+}]);
