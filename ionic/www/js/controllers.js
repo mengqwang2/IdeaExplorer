@@ -168,7 +168,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 
     $scope.search = function(){
-      var jsonF = {'Hi':'Hello'};
+      var jsonF = ["Hi","Hi"];
       Idea.save(jsonF, function(content1){
         console.log(content1);
         $scope.searchResult = content1['Result'];
