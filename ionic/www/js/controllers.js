@@ -18,21 +18,6 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', ['$scope', '$state', function($scope, $state) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-  $scope.whichplaylist = $state.params.playlistId;
-}])
-
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-})
-
 .controller('home', ['$scope', '$rootScope', 'Idea', '$http', '$stateParams', '$ionicModal', function($scope, $rootScope, Idea, $http, $stateParams, $ionicModal ) {
 
   // $scope.doRefresh = function(){
@@ -159,6 +144,16 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     <!--console.log('Sign-In', user);-->
     $state.go('app.home');
   };
+
+   $scope.forgotPw = function(user) {
+    <!--console.log('Forgot-pw', user);-->
+    $state.go('forgotpw');
+  };
+
+  $scope.register = function(user) {
+    <!--console.log('Register', user);-->
+    $state.go('register');
+  };
   
 })
 
@@ -176,6 +171,8 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
     }
 
-
+$("#autocomplete").autocomplete({
+source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
+});
 
 }]);

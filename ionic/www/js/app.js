@@ -29,6 +29,16 @@ angular.module('starter', ['ionic', 'ngResource','starter.controllers', 'starter
       controller: 'SignInCtrl'
     })
 
+   .state('forgotpw', {
+      url: '/forgot-pw',
+      templateUrl: 'templates/forgot.html',
+    })
+
+   .state('register', {
+      url: '/register',
+      templateUrl: 'templates/register.html',
+    })
+
   .state('app', {
     url: "/app",
     abstract: true,
