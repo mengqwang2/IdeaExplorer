@@ -100,7 +100,13 @@ angular.module('starter.controllers', [])
 
   }
 
+$scope.sections = [['Background', 'relevance_to_challenge'], ['Details','description'], ['Practical Problems Solved', 'practical_problem_solved'],['Success Benefits','success_benefit']];
 
+ $scope.show_section = { "relevance_to_challenge": false, "description": false , "practical_problem_solved": false, "success_benefit" : false};
+    $scope.section_select = function(section, $event) {
+      $scope.show_section[section] = !$scope.show_section[section];
+      $scope.$broadcast('scroll.resize');
+  };
 
 
   
