@@ -71,7 +71,23 @@ angular.module('starter', ['ionic', 'ngResource','starter.controllers', 'starter
           controller: "home"
         }
       }
-    });
+    })
+      .state('app.about', {
+    url: "/about",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/about.html"
+      }
+    }
+  })
+      .state('app.feedback', {
+    url: "/feedback",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/feedback.html"
+      }
+    }
+  });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/sign-in');
 
