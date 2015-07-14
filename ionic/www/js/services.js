@@ -59,7 +59,8 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
     return $q(function(resolve, reject) {
       if (name !== '' && pw !== '' ) {
         // Make a request and receive your auth token from your server
-        var data = { "Username": name, "Password": pw};
+        var data = { "Username": name, "Password": hex_md5(pw)};
+        console.log(data["Password"]);
         authentication.save(data, function(content1){
         	console.log(content1);
         	storeUserCredentials(name + '.' + content1['Token']);

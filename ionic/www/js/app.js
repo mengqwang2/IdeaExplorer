@@ -115,14 +115,14 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
   $rootScope.$on('$stateChangeStart', function (event,next, nextParams, fromState) {
  
  
-    if (!AuthService.isAuthenticated()) {
-      console.log("notAuthenticated");
-      if (next.name !== 'signin') {
-        $rootScope.$broadcast(AUTH_EVENTS.notAuthenticated);
-        event.preventDefault();
-        $state.go('signin');
-      }
-    }
+    // if (!AuthService.isAuthenticated()) {
+    //   console.log("notAuthenticated");
+    //   if (next.name !== 'signin') {
+    //     $rootScope.$broadcast(AUTH_EVENTS.notAuthenticated);
+    //     event.preventDefault();
+    //     $state.go('signin');
+    //   }
+    // }
   });
 
   $rootScope.logout = function(){

@@ -176,9 +176,12 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 .controller('SignInCtrl', function($scope, $rootScope, $state, $ionicPopup, AuthService) {
   
   $scope.signIn = function(user) {
-    console.log('Sign-In', user);
+
     AuthService.login(user.username, user.password).then(function(authenticated) {
+      user.username = "";
+      user.password = "";
       $state.go('app.home', {}, {reload: true});
+
       $scope.setCurrentUsername(user.username);
     }, function(err) {
       var alertPopup = $ionicPopup.alert({
@@ -186,7 +189,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
         template: 'Please check your credentials!'
       });
     });
-
+    $state.go('app.home', {}, {reload: true}); //temporary
   };
 
    $scope.forgotPw = function(user) {
