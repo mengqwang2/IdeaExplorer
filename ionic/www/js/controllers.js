@@ -280,6 +280,21 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
         $scope.searchResult = content1['Result'];
       });
     }
+.controller('CategoryController', ['$scope', '$http', function($scope,$http) {
+  $scope.data = null;
+  $http.get('js/data.json').success(function(abcd){
+    $scope.data = abcd;
+  })
+  $scope.items=[];
+  $scope.items[0] = "#E19D65";
+  $scope.items[1] = "#737373";
+  $scope.items[2] = "#079DD9";
+  $scope.items[3] = "#A8D95F";
+  $scope.items[4] = "#F25C5C";
+  $scope.colorInitialize= function(){for (var i=5;i<100;i++){
+    $scope.items[i] = $scope.items[Math.floor(Math.random()*5)];
+  }}
+}])
 
     $("#autocomplete").autocomplete({
       source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]

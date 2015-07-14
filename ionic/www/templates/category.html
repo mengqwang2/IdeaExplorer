@@ -1,15 +1,5 @@
 <ion-view view-title="Category">
-  <ion-content class="padding page-bg">
-    <center><button class="button circle button-light">#emc_superapp</button>
-    <button class="button circle button-positive">#coolit</button>
-    <button class="button circle button-light">#consumerdriven</button>
-    <button class="button circle button-light">#dpa</button>
-    <button class="button circle button-positive">#cloud</button>
-    <button class="button circle button-assertive">#emc</button>
-    <button class="button circle button-positive">#auto</button>
-    <button class="button circle button-light">webx</button>
-    <button class="button circle button-light">#recorder</button>
-    <button class="button circle button-positive">#app</button>
-    <button class="button circle button-light">#consumer</button></center>
+ <ion-content data-ng-init="colorInitialize()" class="padding centerize page-bg">
+      <ion-button style="color: white; text-decoration: bold; background-color: {{items[$index]}}" ng-repeat= "item in Category" class="button round category-button" >{{item}}</ion-button>
   </ion-content>
 </ion-view>
