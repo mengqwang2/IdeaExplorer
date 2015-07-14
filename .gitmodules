@@ -1,0 +1,6 @@
+[submodule "ionic/www/lib/ionic-bower"]
+	path = ionic/www/lib/ionic-bower
+	url = c:/Users/ngy2/Documents/GitHub/IdeaExplorer/ionic/www/lib/ionic-bower
+[submodule "c:/Users/ngy2/Documents/GitHub/IdeaExplorer/ionic/www/lib/ionic-service-analytics"]
+	path = c:/Users/ngy2/Documents/GitHub/IdeaExplorer/ionic/www/lib/ionic-service-analytics
+	url = c:/Users/ngy2/Documents/GitHub/IdeaExplorer/ionic/www/lib/ionic-bower
