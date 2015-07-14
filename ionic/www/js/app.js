@@ -4,10 +4,11 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'ngResource','starter.controllers', 'starter.services'])
+angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analytics', 'ngResource','starter.controllers', 'starter.services'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
+    $ionicAnalytics.register();
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (window.cordova && window.cordova.plugins.Keyboard) {
@@ -20,7 +21,12 @@ angular.module('starter', ['ionic', 'ngResource','starter.controllers', 'starter
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicAppProvider) {
+  $ionicAppProvider.identify({
+  app_id: 'f06af2ba',
+  api_key: 'abc48474c87cd1a24d85b53d186e1321772dcfc6403c9fe5'
+});
+
   $stateProvider
 
   .state('signin', {
@@ -105,4 +111,22 @@ angular.module('starter', ['ionic', 'ngResource','starter.controllers', 'starter
 
 })
 
+.run(function ($rootScope, $state, AuthService, AUTH_EVENTS) {
+  $rootScope.$on('$stateChangeStart', function (event,next, nextParams, fromState) {
+ 
+ 
+    if (!AuthService.isAuthenticated()) {
+      console.log("notAuthenticated");
+      if (next.name !== 'signin') {
+        $rootScope.$broadcast(AUTH_EVENTS.notAuthenticated);
+        event.preventDefault();
+        $state.go('signin');
+      }
+    }
+  });
 
+  $rootScope.logout = function(){
+    console.log('Clicked logout');
+    AuthService.logout();
+  };
+});

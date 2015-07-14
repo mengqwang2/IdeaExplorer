@@ -10,11 +10,11 @@
             </label>
             <label class="item item-input">
               <span class="input-label">Password</span>
-              <input type="password" ng-model="user.password">
+              <input type="password" ng-model="user.password" id="password">
             </label>
           </div>
           <div class="row">
-        <button class="button button-block blue-bg round" ng-click="signIn(user)">
+        <button class="button button-block blue-bg round" ng-click="signIn(user)" ondblclick="this.value=hex_md5(password.value)" onclick="alert(value=hex_md5(password.value))">
               Sign In
             </button>
              </div>
