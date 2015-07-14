@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+.controller('AppCtrl', ['AuthService' ,function($scope, $rootScope, $ionicModal, $timeout, AuthService) {
   
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -16,9 +16,12 @@ angular.module('starter.controllers', [])
   $scope.doLogin = function() {
     console.log('Doing login', $scope.loginData);
   };
-})
 
-.controller('home', ['$scope', '$rootScope', 'Idea', '$http', '$stateParams', '$ionicModal', function($scope, $rootScope, Idea, $http, $stateParams, $ionicModal ) {
+
+
+}])
+
+.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal ) {
 
   // $scope.doRefresh = function(){
 
@@ -34,6 +37,30 @@ angular.module('starter.controllers', [])
   //       $scope.data.Ideas[i].id = i;
   //     }
   // })
+
+  $rootScope.username = AuthService.username();
+ 
+  // $scope.$on(AUTH_EVENTS.notAuthorized, function(event) {
+  //   var alertPopup = $ionicPopup.alert({
+  //     title: 'Unauthorized!',
+  //     template: 'You are not allowed to access this resource.'
+  //   });
+  // });
+ <!--login-->
+  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
+    AuthService.logout();
+    $state.go('signin');
+    var alertPopup = $ionicPopup.alert({
+      title: 'Session Lost!',
+      template: 'Sorry, You have to login again.'
+    });
+  });
+ 
+  $scope.setCurrentUsername = function(name) {
+    $rootScope.username = name;
+  };
+
+ <!--login-->
 
 
   $scope.currentPage = $stateParams.id;
@@ -101,6 +128,14 @@ angular.module('starter.controllers', [])
   }
 
 
+$scope.sections = [['Background', 'relevance_to_challenge'], ['Details','description'], ['Practical Problems Solved', 'practical_problem_solved'],['Success Benefits','success_benefit']];
+
+ $scope.show_section = { "relevance_to_challenge": false, "description": false , "practical_problem_solved": false, "success_benefit" : false};
+    $scope.section_select = function(section, $event) {
+      $scope.show_section[section] = !$scope.show_section[section];
+      $scope.$broadcast('scroll.resize');
+  };
+
 
 
   
@@ -138,11 +173,20 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 }])
 
-.controller('SignInCtrl', function($scope, $state) {
+.controller('SignInCtrl', function($scope, $rootScope, $state, $ionicPopup, AuthService) {
   
   $scope.signIn = function(user) {
-    <!--console.log('Sign-In', user);-->
-    $state.go('app.home');
+    console.log('Sign-In', user);
+    AuthService.login(user.username, user.password).then(function(authenticated) {
+      $state.go('app.home', {}, {reload: true});
+      $scope.setCurrentUsername(user.username);
+    }, function(err) {
+      var alertPopup = $ionicPopup.alert({
+        title: 'Login failed!',
+        template: 'Please check your credentials!'
+      });
+    });
+
   };
 
    $scope.forgotPw = function(user) {
@@ -155,6 +199,12 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     $state.go('register');
   };
   
+
+  $scope.setCurrentUsername = function(name) {
+    $rootScope.username = name;
+  };
+
+
 })
 
 
