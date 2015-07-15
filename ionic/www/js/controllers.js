@@ -221,11 +221,15 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
         console.log(content1);
         $scope.searchResult = content1['Result'];
       });
-
     }
 
-$("#autocomplete").autocomplete({
-source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
-});
+    $("#autocomplete").autocomplete({
+      source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
+    })
+
+    $('input').keyup(function(){
+      this.value = this.value.toLowerCase();
+    });
+
 
 }]);
