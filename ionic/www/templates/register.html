@@ -2,10 +2,13 @@
         <ion-content class="page-bg" scroll="false">
         <center><img src="../img/logo.png" height="180px"></center>
         <br>
-        <br>
           <div class="list padding">
             <label class="item item-input">
-              <span class="input-label">Username</span>
+              <span class="input-label">Badge ID</span>
+              <input type="text" ng-model="user.username">
+            </label>
+            <label class="item item-input">
+              <span class="input-label">Name</span>
               <input type="text" ng-model="user.username">
             </label>
             <label class="item item-input">
@@ -14,6 +17,10 @@
             </label>
             <label class="item item-input">
               <span class="input-label">Password</span>
+              <input type="password" ng-model="user.password">
+            </label>
+             <label class="item item-input">
+              <span class="input-label">Confirm Password</span>
               <input type="password" ng-model="user.password">
             </label>
             <div class="row">
