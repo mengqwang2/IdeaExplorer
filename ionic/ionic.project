@@ -1,4 +1,12 @@
 {
   "name": "ideaExplorer",
-  "app_id": "f06af2ba"
+  "app_id": "f06af2ba",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
