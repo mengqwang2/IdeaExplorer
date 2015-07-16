@@ -24,13 +24,13 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
     }
   }
  
-  function storeUserCredentials(token) {
+  function storeUserCredentials(name, token) {
     window.localStorage.setItem(LOCAL_TOKEN_KEY, token);
-    useCredentials(token);
+    useCredentials(name, token);
   }
  
-  function useCredentials(token) {
-    username = token.split('.')[0];
+  function useCredentials(name, token) {
+    username = name;
     isAuthenticated = true;
     authToken = token;
  
@@ -42,7 +42,8 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
     }
  
     // Set the token as header for your requests!
-    $http.defaults.headers.common['X-Auth-Token'] = token;
+    $http.defaults.useXDomain = true;
+    $http.defaults.headers.common['Authorization'] = token;
   }
  
   function destroyUserCredentials() {
@@ -50,7 +51,7 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
     authToken = undefined;
     username = '';
     isAuthenticated = false;
-    $http.defaults.headers.common['X-Auth-Token'] = undefined;
+    $http.defaults.headers.common['Authorization'] = undefined;
     window.localStorage.removeItem(LOCAL_TOKEN_KEY);
   }
  
@@ -63,7 +64,7 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
         console.log(data["Password"]);
         authentication.save(data, function(content1){
         	console.log(content1);
-        	storeUserCredentials(name + '.' + content1['Token']);
+        	storeUserCredentials(name, content1['Token']);
         	resolve('Login success.');
 
         });

@@ -103,7 +103,7 @@ angular.module('starter.controllers', [])
     }
 
   }
-
+  
   $scope.data = Idea.get();
 
 
@@ -176,7 +176,19 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 .controller('SignInCtrl', function($scope, $rootScope, $state, $ionicPopup, AuthService) {
   
   $scope.signIn = function(user) {
-
+    if ((user == null)|| (user.username==null)||(user.password == null)){
+      var alertPopup = $ionicPopup.alert({
+        title: 'Login failed!',
+        template: 'Please check your credentials!'
+      });
+      return;
+    }
+    //debug
+    if (user.username ==='admin'){
+      $state.go('app.home', {}, {reload: true});
+      return; //temporary
+    }
+    //
     AuthService.login(user.username, user.password).then(function(authenticated) {
       user.username = "";
       user.password = "";
@@ -189,7 +201,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
         template: 'Please check your credentials!'
       });
     });
-    $state.go('app.home', {}, {reload: true}); //temporary
+    
   };
 
    $scope.forgotPw = function(user) {
