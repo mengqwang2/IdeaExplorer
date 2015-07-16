@@ -3,16 +3,25 @@
         <center><img src="../img/logo.png" height="180px"></center>
         <br>
         <br>
-          <div class="list">
+          
+          <div class="list padding">
+            <p>Please enter the email you provided when you register. A new password will be sent to your mailbox.</p>
             <label class="item item-input">
               <span class="input-label">Registered Email</span>
               <input type="text" ng-model="user.username">
             </label>
           </div>
           <div class="row">
-        <button class="button button-block blue-bg round">
+            <div class="col">
+        <button class="button button-block button-positive round" onclick="forgotpw()">
               Send
             </button>
+          </div>
+          <div class="col">
+             <button class="button button-block button-stable round" onclick="cancel()">
+              Cancel
+            </button>
+          </div>
       </div>
           
         </ion-content>

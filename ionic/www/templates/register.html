@@ -3,18 +3,32 @@
         <center><img src="../img/logo.png" height="180px"></center>
         <br>
         <br>
-          <div class="list">
+          <div class="list padding">
             <label class="item item-input">
               <span class="input-label">Username</span>
               <input type="text" ng-model="user.username">
             </label>
             <label class="item item-input">
+              <span class="input-label">Email</span>
+              <input type="text" ng-model="user.email">
+            </label>
+            <label class="item item-input">
               <span class="input-label">Password</span>
               <input type="password" ng-model="user.password">
             </label>
-          </div>
-          <button class="button button-block blue-bg round">
+            <div class="row">
+            <div class="col">
+        <button class="button button-block button-positive round" onclick="register()">
               Register
             </button>
+          </div>
+          <div class="col">
+             <button class="button button-block button-stable round" onclick="cancel(user)">
+              Cancel
+            </button>
+          </div>
+      </div>
+          </div>
+          
         </ion-content>
       </ion-view>
