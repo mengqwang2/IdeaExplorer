@@ -259,10 +259,16 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 .controller('searchCon', ['$scope','Idea', function($scope, Idea){
 
+    function keywordSplit(keyword){
+      var kw = keyword;
+      var splitedArray = kw.split(" ");
+      return splitedArray;
+    };
 
-
-    $scope.search = function(){
-      var jsonF = ["Hi","Hi"];
+    $scope.search = function(search){
+      var splitedArray = keywordSplit(search.keyword);
+      alert(splitedArray);
+      var jsonF = splitedArray; //change this to splited array
       Idea.save(jsonF, function(content1){
         console.log(content1);
         $scope.searchResult = content1['Result'];

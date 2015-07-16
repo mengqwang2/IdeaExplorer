@@ -4,11 +4,11 @@
 <ion-list class="list-inset">
   <ion-item class="item-input">
     <i class="icon ion-search placeholder-icon"></i>
-    <input type="text" placeholder="Search" id="autocomplete">
+    <input type="text" placeholder="Search" id="autocomplete" ng-model="search.keyword">
   </ion-item>
   <ion-item class="item-input item-select">
   <div class="input-label">Upload Date</div>
-    <select>
+    <select ng-model="search.date">
       <option>No Filter</option>
       <option>Last hour</option>
       <option>Today</option>
@@ -19,7 +19,7 @@
   </ion-item>
   <ion-item class="item-input item-select">
   <div class="input-label">Category</div>
-    <select>
+    <select ng-model="search.category">
       <option>No Filter</option>
       <option>Infrastructure and Storag</option>
       <option>Data Protection and Availability</option>
@@ -33,7 +33,7 @@
   </ion-item>
   <ion-item class="item-input item-select">
   <div class="input-label">Sort By</div>
-    <select>
+    <select ng-model="search.order">
       <option>No Filter</option>
       <option>Relevance</option>
       <option>Upload Date</option>
@@ -43,7 +43,7 @@
   </ion-item>
 </ion-list>
 
-  <button class="button button-block round button-positive" ng-click="search()">Search</button>
+  <button class="button button-block round button-positive" ng-click="search(search)">Search</button>
 
   </ion-content>
 </ion-view>
