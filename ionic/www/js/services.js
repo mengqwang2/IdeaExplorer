@@ -9,6 +9,9 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
 .factory('authentication', function($resource){
 	return $resource('http://localhost:port/api/login', { port: ':5000' });
 })
+.factory('forgetService', function($resource){
+  return $resource('http://localhost:port/api/login/forget', {port: ':5000'});
+})
 
 .service('AuthService', function($q, $http, USER_ROLES, authentication) {
   var LOCAL_TOKEN_KEY = 'yourTokenKey';

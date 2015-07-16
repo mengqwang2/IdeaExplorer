@@ -222,6 +222,40 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
+.controller('forgetController', function($scope, $ionicPopup, forgetService){
+
+
+  $scope.mailValidation = function(text){
+    console.log("Mail is " + text);
+    if (text ==null){
+      var alertPopup = $ionicPopup.alert({
+        title: 'Error!',
+        template: 'Please input your email!'
+      });
+      return;
+    }
+    forgetService.save(text, function(response){
+      if (response[success]){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Email is accepted!',
+        template: 'A new password has been sent to you.'
+      });
+      }
+      else
+        var alertPopup = $ionicPopup.alert({
+        title: 'Error!',
+        template: 'Unsuccessful'
+      });
+    });
+    
+
+
+  }
+
+
+
+})
+
 
 .controller('searchCon', ['$scope','Idea', function($scope, Idea){
 

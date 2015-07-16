@@ -38,6 +38,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
    .state('forgotpw', {
       url: '/forgot-pw',
       templateUrl: 'templates/forgot.html',
+      controller: 'forgetController'
     })
 
    .state('register', {
