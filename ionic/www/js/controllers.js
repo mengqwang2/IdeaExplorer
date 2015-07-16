@@ -222,7 +222,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('forgetController', function($scope, $ionicPopup, forgetService){
+.controller('forgetController', function($scope, $ionicPopup, $state, forgetService){
 
 
   $scope.mailValidation = function(text){
@@ -234,8 +234,9 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       });
       return;
     }
-    forgetService.save(text, function(response){
-      if (response[success]){
+    Tjson = {"Email": text};
+    forgetService.save(Tjson, function(response){
+      if (response['success']){
         var alertPopup = $ionicPopup.alert({
         title: 'Email is accepted!',
         template: 'A new password has been sent to you.'
@@ -250,6 +251,11 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     
 
 
+  }
+
+  $scope.cancel = function(){
+
+    $state.go('signin');
   }
 
 
