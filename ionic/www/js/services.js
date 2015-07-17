@@ -13,6 +13,18 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
   return $resource('http://localhost:port/api/login/forget', {port: ':5000'});
 })
 
+.factory('QueryService', function($resource){
+  return $resource('http://localhost:port/api/ideas/query=:queries', {port: ':5000', queries: '@_querystring'});
+})
+
+.factory('QueryIDService', function($resource){
+  return $resource('http://localhost:port/api/ideas/queryid=:id', {port: ':5000', id: '@_id'});
+})
+
+.factory('RegService', function($resource){
+  return $resource('http://localhost:port/api/reg', { port: ':5000' });
+})
+
 .service('AuthService', function($q, $http, USER_ROLES, authentication) {
   var LOCAL_TOKEN_KEY = 'yourTokenKey';
   var username = '';

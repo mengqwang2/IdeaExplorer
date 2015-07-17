@@ -262,8 +262,22 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
+.controller('registerController', function($scope, $ionicPopup, $state){
 
-.controller('searchCon', ['$scope','Idea', function($scope, Idea){
+
+
+
+  $scope.cancel = function(){
+
+    $state.go('signin');
+  }
+
+
+
+})
+
+
+.controller('searchCon', ['$scope','QueryService', 'QueryIDService', function($scope, QueryService, QueryIDService){
 
     function keywordSplit(keyword){
       var kw = keyword;
@@ -271,14 +285,32 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       return splitedArray;
     };
 
+    function keywordJoin(array){
+      var String = array[0];
+      for (i = 1; i<array.length; i++){
+        String = String + '&' + array[i];
+      }
+
+      return String;
+    }
+
     $scope.search = function(search){
       var splitedArray = keywordSplit(search.keyword);
-      alert(splitedArray);
-      var jsonF = splitedArray; //change this to splited array
-      Idea.save(jsonF, function(content1){
+      var joinedArray = keywordJoin(splitedArray);
+      QueryService.get({queries: joinedArray}, function(content1){
         console.log(content1);
-        $scope.searchResult = content1['Result'];
-      });
+        $scope.searchID = content1['QueryID'];
+        QueryIDService.get({id: $scope.searchID}, function(ideas){
+          console.log(ideas);
+          $scope.searchResult = ideas;
+        });
+      } );
+
+      // var jsonF = {"Query": splitedArray}; 
+      // Idea.save(jsonF, function(content1){
+      //   console.log(content1);
+      //   $scope.searchResult = content1['Result'];
+      // });
     }
 .controller('CategoryController', ['$scope', '$http', function($scope,$http) {
   $scope.data = null;

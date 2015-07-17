@@ -44,6 +44,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
    .state('register', {
       url: '/register',
       templateUrl: 'templates/register.html',
+      controller: 'registerController'
     })
 
   .state('app', {
