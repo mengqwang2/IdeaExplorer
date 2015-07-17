@@ -3,3 +3,4 @@ relevance_to_challenge
 idea_history
 description
 success_benefit
+practical_problem_solved
