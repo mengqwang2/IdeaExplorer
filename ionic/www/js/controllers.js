@@ -262,9 +262,27 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('registerController', function($scope, $ionicPopup, $state){
+.controller('registerController', function($scope, $ionicPopup, $state, RegService){
 
+  //validation
 
+  $scope.register = function(info){
+    if (info == null){
+      return;
+    }
+    if (info.userid ==""|| info.username=="" || info.email==""||info.password==""){
+      return;
+    }
+    var data = {'UserID': info.userid, 'Username': info.username, 'Password': info.password, 'Email': info.email};
+    RegService.save(data, function(content){
+      console.log(content);
+        var alertPopup = $ionicPopup.alert({
+        title: 'Registration is successfully!',
+        template: 'You can now log in the applcation.'
+      });
+    })
+
+  }
 
 
   $scope.cancel = function(){
