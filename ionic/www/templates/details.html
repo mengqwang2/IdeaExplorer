@@ -41,7 +41,7 @@
 		<button class="button icon-left ion-android-star-outline" ng-if="!toggleLikes"
 		ng-click="like(currentIndex, data);">{{data.Ideas[currentIndex].likes_count}}</button>
 				<button class="button icon-left ion-android-star button-assertive" ng-if="toggleLikes" ng-click="unlike(currentIndex, data)">{{data.Ideas[currentIndex].likes_count}}</button>
-		<button class="button icon-left ion-compose" ng-click="openModal()">Comment</button>
+		<button class="button icon-left ion-compose" ng-click="loadComments(0)">Comment</button>
 	</div>
 
 </div>

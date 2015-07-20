@@ -21,7 +21,7 @@
           <div class="row">
 
             <div class="col">
-        <button class="button button-block blue-bg round" ng-disabled="myForm.email.$dirty && myForm.email.$invalid" ng-click="mailValidation(email.text)">
+        <button class="button button-block blue-bg round" ng-disabled="(myForm.email.$dirty && myForm.email.$invalid) || !myForm.email.$dirty" ng-click="mailValidation(email.text)">
               Send
             </button>
           </div>

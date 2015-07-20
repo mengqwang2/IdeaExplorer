@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
-.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal ) {
+.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService ) {
 
   // $scope.doRefresh = function(){
 
@@ -142,6 +142,22 @@ $scope.sections = [['Background', 'relevance_to_challenge'], ['Details','descrip
 
   $scope.changePage = function(id){
     $scope.currentPage = id;
+  }
+
+  //load comments into CommentController
+  var commentRetrieve = function(Postid){
+    if (postid==null)
+      return;
+    CommentService.get({postid: Postid }, function(content){
+      //need to do sth
+      $rootScope.currentPost = Postid;
+      $rootScope.allComments = content['Comment'];
+    })
+  }
+
+  $scope.loadComments = function(Postid){
+    $commentRetrieve(Postid);
+    $scope.openModal();
   }
 
 $ionicModal.fromTemplateUrl('templates/comment.html', {
@@ -330,6 +346,26 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       //   $scope.searchResult = content1['Result'];
       // });
     }
+
+
+.controller("CommentController", function($scope, $rootScope,CommentService){
+
+  $scope.commentSubmit = function(comment, postid){
+    var userid = $rootScope.username;
+    if (comment==null || comment ==="")
+      return;
+    var commentsS = {"UserID": userid, "Postid": postid, "Comment": comment};
+    CommentService.save(commentsS, function(content){
+      console.log(content);
+    });
+
+  };
+
+  $rootScope.allComments = "";
+
+
+})
+
 .controller('CategoryController', ['$scope', '$http', function($scope,$http) {
   $scope.data = null;
   $http.get('js/data.json').success(function(abcd){

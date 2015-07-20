@@ -25,6 +25,10 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
   return $resource('http://localhost:port/api/reg', { port: ':5000' });
 })
 
+.factory('CommentService', function($resource){
+  return $resource('http://localhost:port/api/ideas/comment/:postid', {port: ':5000', postid: '@_id'});
+})
+
 .service('AuthService', function($q, $http, USER_ROLES, authentication) {
   var LOCAL_TOKEN_KEY = 'yourTokenKey';
   var username = '';

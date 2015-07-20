@@ -4,17 +4,19 @@
         <br>
         <br>
           <div class="list">
+            <form name='myForm'>
             <label class="item item-input">
               <span class="input-label">Email</span>
-              <input type="text" ng-model="user.username">
+              <input type="text" ng-model="user.username" name="userfield" required>
             </label>
             <label class="item item-input">
               <span class="input-label">Password</span>
-              <input type="password" ng-model="user.password" id="password">
+              <input type="password" ng-model="user.password" id="password" name="pwfield" required>
             </label>
+          </form>
           </div>
           <div class="row">
-        <button class="button button-block button-positive round" ng-click="signIn(user)" >
+        <button class="button button-block button-positive round" ng-click="signIn(user)" ng-disabled="(!myForm.userfield.$dirty || !myForm.pwfield.$dirty)">
               Sign In
             </button>
              </div>
