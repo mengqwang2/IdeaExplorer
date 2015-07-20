@@ -347,6 +347,15 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       // });
     }
 
+    $("#autocomplete").autocomplete({
+      source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
+    })
+
+    $('input').keyup(function(){
+      this.value = this.value.toLowerCase();
+    });
+    }])
+
 
 .controller("CommentController", function($scope, $rootScope,CommentService){
 
@@ -380,15 +389,9 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   $scope.colorInitialize= function(){for (var i=5;i<100;i++){
     $scope.items[i] = $scope.items[Math.floor(Math.random()*5)];
   }}
-}])
 
-    $("#autocomplete").autocomplete({
-      source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
-    })
 
-    $('input').keyup(function(){
-      this.value = this.value.toLowerCase();
-    });
+
 
 
 }]);
