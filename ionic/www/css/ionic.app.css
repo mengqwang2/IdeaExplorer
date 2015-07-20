@@ -7783,3 +7783,10 @@ a.button {
 .cssSlideUp.ng-hide {
     height:0px;
 }
+
+.errorMsg {
+  font-size: 10pt;
+  line-height: 20px;
+  padding: 0;
+  border-top: 0;
+}
