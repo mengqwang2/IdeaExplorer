@@ -106,6 +106,16 @@ angular.module('starter.controllers', [])
   
   $scope.data = Idea.get();
 
+<!--infinite scroll, load more-->
+  $scope.loadMore = function() {
+    var params = {};
+    if ($scope.data.length > 0){
+      params['after'] = $scope.data[$scope.data.length - 1].name;
+    }
+    $scope.data = Idea.get();
+    $scope.$boardcast('scroll.infiniteScrollComplete');
+  }
+
 
   $scope.doRefresh = function(){
 
