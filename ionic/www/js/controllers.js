@@ -388,10 +388,39 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   $scope.items[4] = "#F25C5C";
   $scope.colorInitialize= function(){for (var i=5;i<100;i++){
     $scope.items[i] = $scope.items[Math.floor(Math.random()*5)];
-  }}
+}}
+}])
+
+.controller('RatingController', ['$scope', function($scope) {
+  $scope.rating = 0;
+  isRated = false;
+  $scope.changeRating = function(number){
+    $scope.rating = number;
+    isRated = true;
+  }
+  $scope.getStarColor = function(id){
+    if (id <= $scope.rating){
+      return "gold";
+    }
+    else
+      return "grey";
+  }
+}])
+
+.controller('UnchangeRatingController', ['$scope', '$http', function($scope,$http) {
+  $scope.rating = 3;
+    $scope.changeRating = function(number){
+    $scope.rating = number;
+    isRated = true;
+  }
+  $scope.getStarColor = function(id){
+    if (id <= $scope.rating){
+      return "gold";
+    }
+    else
+      return "grey";
+  }
+}])
 
 
-
-
-
-}]);
+;
