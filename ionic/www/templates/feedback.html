@@ -3,12 +3,12 @@
     Drop us a note if you have any comment about this app.
     <div class="list card">
     <label class="item item-input">
-      <input type="text" placeholder="Title"></input>
+      <input type="text" placeholder="Title" ng-model="feedback.title"></input>
     </label>
     <label class="item item-input">
-      <textarea placeholder="Details" rows="15"></textarea>
+      <textarea placeholder="Details" rows="15" ng-model="feedback.details"></textarea>
     </label>
   </div>
-  <button class="button blue-bg button-block">Send</button>
+  <button class="button button-positive button-block round" ng-click="feedback(feedback)">Send</button>
   </ion-content>
 </ion-view>

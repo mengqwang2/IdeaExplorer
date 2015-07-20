@@ -1,5 +1,5 @@
 <ion-view view-title="Category">
  <ion-content data-ng-init="colorInitialize()" class="padding centerize page-bg">
-      <ion-button style="color: white; text-decoration: bold; background-color: {{items[$index]}}" ng-repeat= "item in Category" class="button round category-button" >{{item}}</ion-button>
+      <ion-button style="color: white; text-decoration: bold; background-color: {{items[$index]}}" ng-repeat= "item in Category" class="button round category-button" ion-track-tap="select category" ion-track-data="{Category: item}">{{item}}</ion-button>
   </ion-content>
 </ion-view>

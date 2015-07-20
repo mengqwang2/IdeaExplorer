@@ -329,6 +329,10 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     }
 
     $scope.search = function(search){
+      if (search.keyword == null){
+        return;
+      }
+
       var splitedArray = keywordSplit(search.keyword);
       var joinedArray = keywordJoin(splitedArray);
       QueryService.get({queries: joinedArray}, function(content1){
@@ -422,5 +426,17 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   }
 }])
 
+.controller('feedbackController', function($scope, $ionicPopup, $state){
+
+  $scope.feedback = function(feedback){
+    var data = {'Title': feedback.title, 
+      'Details': feedback.detail};
+    
+    var alertPopup = $ionicPopup.alert({
+      title: 'Sent',
+      template: 'Your Feedback is well received.'
+      });
+    }
+  })
 
 ;
