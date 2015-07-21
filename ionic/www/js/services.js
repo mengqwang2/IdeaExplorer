@@ -34,6 +34,10 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
   return $resource('http://localhost:port/api/ideas/rating/:postid/:email', {port: ':5000', postid: '@id', email: '@email'});
 })
 
+.factory('HabitService', function($resource){
+  return $resource('http://localhost:port/api/user/habit', {port: ':5000'});
+})
+
 .service('AuthService', function($q, $http, USER_ROLES, authentication) {
   var LOCAL_TOKEN_KEY = 'yourTokenKey';
   var username = '';
@@ -84,7 +88,7 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
     return $q(function(resolve, reject) {
       if (name !== '' && pw !== '' ) {
         // Make a request and receive your auth token from your server
-        var data = { "Username": name, "Password": hex_md5(pw)};
+        var data = { "Email": name, "Password": hex_md5(pw)};
         console.log(data["Password"]);
         authentication.save(data, function(content1){
         	console.log(content1);

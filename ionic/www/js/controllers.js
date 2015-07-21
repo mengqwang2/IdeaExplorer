@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
-.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService','RatingGetService', '$interpolate','$q', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService, RatingGetService, $interpolate, $q ) {
+.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService','RatingGetService', '$interpolate','$q', 'HabitService', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService, RatingGetService, $interpolate, $q, HabitService ) {
 
   // $scope.doRefresh = function(){
 
@@ -152,6 +152,10 @@ $scope.lastRecord = 9; //start from 0
     console.log(id);
     console.log(username);
     <!--pass to API-->
+    var data = {"Email": username, "Postid": id};
+    HabitService.save(data, function(content, value){
+      console.log("Habit recorded");
+    });
   }
 
 
@@ -390,7 +394,7 @@ $scope.interpolation = function(value){
 })
 
 
-.controller('searchCon', ['$scope','QueryService','$rootScope', 'RatingGetService', '$q', function($scope, QueryService, $rootScope, RatingGetService, $q){
+.controller('searchCon', ['$scope','QueryService','$rootScope', 'RatingGetService', '$q', 'HabitService', function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService){
 
     function keywordSplit(keyword){
       var kw = keyword;
@@ -466,7 +470,7 @@ $scope.interpolation = function(value){
       if ($scope.data.Ideas[i].id ==id){
         console.log(i);
         $rootScope.currentIndex = i;
-        $rootScope.currentID = id;
+        $rootScope.currentID = id;//same as currentPost
       }
     }
     
@@ -477,6 +481,11 @@ $scope.interpolation = function(value){
     console.log(id);
     console.log(username);
     <!--pass to API-->
+    var data = {"Email": username, "Postid": id};
+    HabitService.save(data, function(content, value){
+      console.log("Habit recorded");
+    });
+
   }
 
     $("#autocomplete").autocomplete({
@@ -495,7 +504,7 @@ $scope.interpolation = function(value){
     var userid = $rootScope.username;
     if (comment==null || comment ==="")
       return;
-    var commentsS = {"UserID": userid, "Postid": postid, "Comment": comment};
+    var commentsS = {"Email": userid, "Postid": postid, "Comment": comment};
     CommentService.save(commentsS, function(content){
       console.log(content);
     });
