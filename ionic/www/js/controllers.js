@@ -148,6 +148,12 @@ $scope.lastRecord = 9; //start from 0
 
   }
 
+  $scope.track = function(id, username){
+    console.log(id);
+    console.log(username);
+    <!--pass to API-->
+  }
+
 
 $scope.sections = [['Background', 'relevance_to_challenge'], ['Details','description'], ['Practical Problems Solved', 'practical_problem_solved'],['Success Benefits','success_benefit']];
 
@@ -467,7 +473,11 @@ $scope.interpolation = function(value){
 
   }
 
-
+  $scope.track = function(id, username){
+    console.log(id);
+    console.log(username);
+    <!--pass to API-->
+  }
 
     $("#autocomplete").autocomplete({
       source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
