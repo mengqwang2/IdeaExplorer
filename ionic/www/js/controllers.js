@@ -104,19 +104,25 @@ angular.module('starter.controllers', [])
 
   }
   
-  $scope.data = Idea.get({id:"test"},function(content){
+  $scope.data = Idea.get({id:"test"},function(content, code){
     console.log(content);
+    console.log(code);
     getAllRating();
 
   });
 
 <!--infinite scroll, load more-->
+$scope.recordsPerRequest = 10;
+$scope.lastRecord = 9; //start from 0
+
   $scope.loadMore = function() {
-    var params = {};
-    if ($scope.data.length > 0){
-      params['after'] = $scope.data[$scope.data.length - 1].name;
-    }
-    $scope.data = Idea.get();
+    // var params = {};
+    // if ($scope.data.length > 0){
+    //   params['after'] = $scope.data[$scope.data.length - 1].name;
+    // }
+    // $scope.data = Idea.get();
+
+
     $scope.$boardcast('scroll.infiniteScrollComplete');
   }
 
@@ -200,7 +206,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     // Execute action
   });
 
-$rootScope.ratings = [];
+
 
 
 //rating
@@ -213,6 +219,7 @@ var getAllRating = function(){
 
 
   var promise = [];
+  $rootScope.ratings = [];
   angular.forEach($scope.data.Ideas, function(idea){
     var pm = RatingGetService.get({postid: idea.id, email: '0'});
     promise.push(pm.$promise);
@@ -316,12 +323,13 @@ $scope.interpolation = function(value){
       return;
     }
     Tjson = {"Email": text};
-    forgetService.save(Tjson, function(response){
+    forgetService.save(Tjson, function(response, code){
       if (response['success']){
         var alertPopup = $ionicPopup.alert({
         title: 'Email is accepted!',
         template: 'A new password has been sent to you.'
       });
+        console.log(code);
       }
       else
         var alertPopup = $ionicPopup.alert({
@@ -376,7 +384,7 @@ $scope.interpolation = function(value){
 })
 
 
-.controller('searchCon', ['$scope','QueryService', 'QueryIDService', function($scope, QueryService, QueryIDService){
+.controller('searchCon', ['$scope','QueryService','$rootScope', 'RatingGetService', '$q', function($scope, QueryService, $rootScope, RatingGetService, $q){
 
     function keywordSplit(keyword){
       var kw = keyword;
@@ -402,11 +410,9 @@ $scope.interpolation = function(value){
       var joinedArray = keywordJoin(splitedArray);
       QueryService.get({queries: joinedArray}, function(content1){
         console.log(content1);
-        $scope.searchID = content1['QueryID'];
-        QueryIDService.get({id: $scope.searchID}, function(ideas){
-          console.log(ideas);
-          $scope.searchResult = ideas;
-        });
+        $scope.data = content1;
+        getAllRating();
+
       } );
 
       // var jsonF = {"Query": splitedArray}; 
@@ -416,6 +422,53 @@ $scope.interpolation = function(value){
       // });
     }
 
+  $scope.checkComplete = function(text, limit){
+    if (text.length <= limit)
+      return text.length;
+    while (text.charAt(limit)!= ' '){
+      limit+=1;
+    }
+    return limit;
+  };
+
+
+  var getAllRating = function(){
+
+
+
+
+  var promise = [];
+  $rootScope.ratings = [];
+  angular.forEach($scope.data.Ideas, function(idea){
+    var pm = RatingGetService.get({postid: idea.id, email: '0'});
+    promise.push(pm.$promise);
+  });
+
+  $q.all(promise).then(function(values){
+    angular.forEach(values, function(value){
+      $rootScope.ratings.push(value.rating);
+      // console.log(value.rating)
+    });
+
+  });
+
+
+};
+
+   $scope.findArray = function(id){
+    for (i=0; i< $scope.data.Ideas.length; i++){
+      if ($scope.data.Ideas[i].id ==id){
+        console.log(i);
+        $rootScope.currentIndex = i;
+        $rootScope.currentID = id;
+      }
+    }
+    
+
+  }
+
+
+
     $("#autocomplete").autocomplete({
       source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
     })
@@ -423,7 +476,7 @@ $scope.interpolation = function(value){
     $('input').keyup(function(){
       this.value = this.value.toLowerCase();
     });
-    }])
+}])
 
 
 .controller("CommentController", function($scope, $rootScope,CommentService){

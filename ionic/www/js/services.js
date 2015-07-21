@@ -17,9 +17,6 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
   return $resource('http://localhost:port/api/ideas/query=:queries', {port: ':5000', queries: '@_querystring'});
 })
 
-.factory('QueryIDService', function($resource){
-  return $resource('http://localhost:port/api/ideas/queryid=:id', {port: ':5000', id: '@_id'});
-})
 
 .factory('RegService', function($resource){
   return $resource('http://localhost:port/api/reg', { port: ':5000' });
@@ -37,7 +34,7 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
   return $resource('http://localhost:port/api/ideas/rating/:postid/:email', {port: ':5000', postid: '@id', email: '@email'});
 })
 
-.service('AuthService', function($q, $http, USER_ROLES, authentication) {
+.service('AuthService', function($q, $http, USER_ROLES, authentication, $ionicHistory) {
   var LOCAL_TOKEN_KEY = 'yourTokenKey';
   var username = '';
   var isAuthenticated = false;
@@ -80,6 +77,8 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
     isAuthenticated = false;
     $http.defaults.headers.common['Authorization'] = undefined;
     window.localStorage.removeItem(LOCAL_TOKEN_KEY);
+    $ionicHistory.clearHistory();
+    $ionicHistory.clearCache();
   }
  
   var login = function(name, pw) {

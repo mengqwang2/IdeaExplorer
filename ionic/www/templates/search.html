@@ -49,24 +49,21 @@
 
 <!--need to change source for query instead of all-->
   <div class="list list-inset" ng-repeat='item in data.Ideas' ng-hide="AdvancedShow">
-        <a class="item item-divider" href="#/app/home/{{item.id}}" ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}">{{item.Title}}</a>
-        <a class="item item-body" href="#/app/home/{{item.id}}" ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}">
-
-    {{item.Description| limitTo: checkComplete(item.Description, 150)}} ... 
-    <br>
-    <p>     
-      <span ng-controller="UnchangeRatingController" style="float:right">
-        <i class="icon ion-android-star" style="color:{{getStarColor(1)}}"></i>
-        <i class="icon ion-android-star" style="color:{{getStarColor(2)}}"></i>
-        <i class="icon ion-android-star" style="color:{{getStarColor(3)}}"></i>
-        <i class="icon ion-android-star" style="color:{{getStarColor(4)}}"></i>
-        <i class="icon ion-android-star" style="color:{{getStarColor(5)}}"></i>
-      </span></p>
-    <p><span>{{tagProcessor(item.tags);}} </span></p>
+          <a class="item item-divider" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);" ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}">{{item.title}}</a>
+        <a class="item item-body" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);" ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}">
+          
+      {{item.description| limitTo: checkComplete(item.description, 150)}}... 
+          <br>
+    
+          <p><span>{{tagProcessor(item.tags);}}</span></p>
+          <rating info='$index'></rating>
           
         </a>
 
     </div>
+
+<ion-infinite-scroll on-infinte="loadMore()" distance="1%">
+</ion-infinite-scroll>
 
   </ion-content>
 </ion-view>
