@@ -5,7 +5,7 @@
 	<div class="item item-divider">{{item.title}}
 		<p>By<span ng-repeat="innovator in item.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a></span>
 		</p>
-		<p><span style="float:left">Submitted on {{item.submit_date | limitTo: 10}}</span><span style="float:right">Hit rate: {{item.HitRate}}</span></p>
+		<p><span style="float:left">Submitted on {{item.submit_date | limitTo: 10}}</span><rating info='2'></rating></p>
 	</div>
 	<div ng-repeat="title in sections">
 	<div class="item item-divider item-icon-right" ng-click="section_select(title[1])">{{title[0]}}
@@ -37,12 +37,15 @@
 
 </ion-content>
 <div class="bar bar-footer">
-	<div class="button-bar">
-		<button class="button icon-left ion-android-star-outline" ng-if="!toggleLikes"
-		ng-click="like(currentIndex, data);">{{data.Ideas[currentIndex].likes_count}}</button>
-				<button class="button icon-left ion-android-star button-assertive" ng-if="toggleLikes" ng-click="unlike(currentIndex, data)">{{data.Ideas[currentIndex].likes_count}}</button>
-		<button class="button icon-left ion-compose" ng-click="loadComments(0)">Comment</button>
+	<div class="row row-center">
+	<div class="col">
+		<individual-rating info="4"></individual-rating>
 	</div>
+	<div class="col">
+		<button class="button button-small ion-compose button-block button-clear button-dark" style="font-size: 21px" ng-click="loadComments(0)">&nbsp Comment</button>
+	</div>
+	</div>
+</div>
 
 </div>
 

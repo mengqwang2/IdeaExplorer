@@ -15,4 +15,29 @@ return {
         });
       }
     };
-  }]);
+  }])
+
+
+.directive('individualRating', function() { 
+  return { 
+    restrict: 'E', 
+    scope: { 
+      info: '=' 
+    }, 
+    templateUrl: 'js/directives/individualRating.html' 
+  }; 
+})
+
+
+.directive('rating', function() { 
+  return { 
+    restrict: 'E', 
+    scope: { 
+      info: '=' 
+    }, 
+    templateUrl: 'js/directives/rating.html',
+    controller: 'UnchangeRatingController',
+    controllerAs: 'unRatCon',
+    bindToController:true
+  }; 
+});

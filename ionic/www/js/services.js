@@ -29,6 +29,14 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
   return $resource('http://localhost:port/api/ideas/comment/:postid', {port: ':5000', postid: '@_id'});
 })
 
+.factory('RatingPostService', function($resource){
+  return $resource('http://localhost:port/api/ideas/rating', {port: ':5000'});
+})
+
+.factory('RatingGetService', function($resource){
+  return $resource('http://localhost:port/api/ideas/rating/:postid/:email', {port: ':5000', postid: '@id', email: '@email'});
+})
+
 .service('AuthService', function($q, $http, USER_ROLES, authentication) {
   var LOCAL_TOKEN_KEY = 'yourTokenKey';
   var username = '';

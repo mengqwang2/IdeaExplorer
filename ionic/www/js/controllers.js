@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
-.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService ) {
+.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService','RatingGetService', '$interpolate','$q', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService, RatingGetService, $interpolate, $q ) {
 
   // $scope.doRefresh = function(){
 
@@ -104,7 +104,11 @@ angular.module('starter.controllers', [])
 
   }
   
-  $scope.data = Idea.get();
+  $scope.data = Idea.get({id:"test"},function(content){
+    console.log(content);
+    getAllRating();
+
+  });
 
 
   $scope.doRefresh = function(){
@@ -121,6 +125,7 @@ angular.module('starter.controllers', [])
       if ($scope.data.Ideas[i].id ==id){
         console.log(i);
         $rootScope.currentIndex = i;
+        $rootScope.currentID = id;
       }
     }
     
@@ -146,7 +151,7 @@ $scope.sections = [['Background', 'relevance_to_challenge'], ['Details','descrip
 
   //load comments into CommentController
   var commentRetrieve = function(Postid){
-    if (postid==null)
+    if (Postid==null)
       return;
     CommentService.get({postid: Postid }, function(content){
       //need to do sth
@@ -156,7 +161,7 @@ $scope.sections = [['Background', 'relevance_to_challenge'], ['Details','descrip
   }
 
   $scope.loadComments = function(Postid){
-    $commentRetrieve(Postid);
+    commentRetrieve(Postid);
     $scope.openModal();
   }
 
@@ -185,7 +190,57 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     // Execute action
   });
 
+$rootScope.ratings = [];
 
+
+//rating
+var getAllRating = function(){
+
+  // RatingGetService.get({postid: 1, email: $rootScope.username}, function(data){
+  //   $rootScope.temp = data;
+  //   console.log($rootScope.temp.rating[0]);
+  // });
+
+
+  var promise = [];
+  angular.forEach($scope.data.Ideas, function(idea){
+    var pm = RatingGetService.get({postid: idea.id, email: '0'});
+    promise.push(pm.$promise);
+  });
+
+  $q.all(promise).then(function(values){
+    angular.forEach(values, function(value){
+      $rootScope.ratings.push(value.rating);
+      // console.log(value.rating)
+    });
+
+  });
+
+//break
+  // var promise = [];
+  // for (i = 0; i < $scope.data.Ideas.length; i++){
+  //   promise[i] = RatingGetService.get({postid: $scope.data.Ideas[i].id, email: $rootScope.username });
+  // };
+  
+  // $q.all(promise).then(function(data){
+  //   console.log(data);
+  //   for (j = 0; j< $scope.data.Ideas.length; j++){
+  //     $scope.rating2[j] = data[j];
+  //   }
+  //   console.log($scope.rating2[0]);
+
+  // });
+
+  // for (i = 0; i < $scope.data.Ideas.length; i++){
+  //    promise[i].then(function(data){
+  //     $rootScope.ratings[i] = data;
+  //   })
+  // };
+};
+
+$scope.interpolation = function(value){
+  return $interpolate(value)($scope);
+};
 
 }])
 
@@ -391,13 +446,37 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 }}
 }])
 
-.controller('RatingController', ['$scope', function($scope) {
+.controller('RatingController', ['$scope', '$rootScope','RatingGetService','RatingPostService', function($scope, $rootScope, RatingGetService, RatingPostService) {
   $scope.rating = 0;
+  RatingGetService.get({postid: $rootScope.currentID, email: $rootScope.username }, function(data){
+    $scope.rating = data.rating;
+  });
+
+  $scope.star = ["grey","grey","grey","grey","grey"];
+  
   isRated = false;
+
   $scope.changeRating = function(number){
     $scope.rating = number;
     isRated = true;
+    RatingPostService.save({'Email': $rootScope.username, 'Rating': number, 'PostID': $rootScope.currentID}, function(content, status){
+      console.log("rating changed");
+    });
   }
+
+  $scope.$watch(function(){return $scope.rating}, function(nV, oV){
+   
+    // console.log($rootScope.ratings[controll.info]);
+    var i = 0;
+    for (; i < nV; i++){
+      $scope.star[i] = "gold";
+    }
+    for (; i <5; i++){
+      $scope.star[i] = "grey";
+    }
+    // console.log($scope.star);
+  });
+
   $scope.getStarColor = function(id){
     if (id <= $scope.rating){
       return "gold";
@@ -407,9 +486,29 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   }
 }])
 
-.controller('UnchangeRatingController', ['$scope', '$http', function($scope,$http) {
-  $scope.rating = 3;
-    $scope.changeRating = function(number){
+.controller('UnchangeRatingController', ['$scope', '$http', '$rootScope', '$timeout', function($scope,$http, $rootScope, $timeout) {
+  
+  var controll = this;
+  // $scope.rating = $rootScope.ratings[controll.info];
+
+  $scope.star = ["grey","grey","grey","grey","grey"];
+
+  $scope.$watch(function(){return $rootScope.ratings[controll.info]}, function(nV, oV){
+   
+    // console.log($rootScope.ratings[controll.info]);
+    var i = 0;
+    for (; i < nV; i++){
+      $scope.star[i] = "gold";
+    }
+    for (; i <5; i++){
+      $scope.star[i] = "grey";
+    }
+    // console.log($scope.star);
+  });
+
+
+  
+  $scope.changeRating = function(number){
     $scope.rating = number;
     isRated = true;
   }
