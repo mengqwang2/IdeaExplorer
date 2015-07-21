@@ -1,11 +1,11 @@
 
 <ion-view>
 <ion-content class="page-bg">
-<div class="list list-inset" ng-repeat='item in data.Ideas | filter: {id: currentPage}' >
-	<div class="item item-divider">{{item.title}}
-		<p>By<span ng-repeat="innovator in item.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a></span>
+<div class="list list-inset">
+	<div class="item item-divider">{{datum.title}}
+		<p>By<span ng-repeat="innovator in datum.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a></span>
 		</p>
-		<p><span style="float:left">Submitted on {{item.submit_date | limitTo: 10}}</span><rating info='2'></rating></p>
+		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='2'></rating></p>
 	</div>
 	<div ng-repeat="title in sections">
 	<div class="item item-divider item-icon-right" ng-click="section_select(title[1])">{{title[0]}}
@@ -13,16 +13,16 @@
 		<i class="icon ion-android-arrow-dropup" ng-if="show_section[title[1]]"></i>
 	</div>
 	<div class="item item-body" ng-show="show_section[title[1]]">
-		{{item[title[1]]}}
+		{{datum[title[1]]}}
 	</div>
 	</div>
 	<div class="item item-body">
-		<p><span>{{tagProcessor(item.tags);}}</span></p>
+		<p><span>{{tagProcessor(datum.tags);}}</span></p>
 
 	</div>
-	<div ng-show="item.Comments">
+	<!--div ng-show="item.Comments">
 		<div class="item item-divider">
-			{{item.Comments.length==1? 'Comment': 'Comments'}}
+			{{datum.Comments.length==1? 'Comment': 'Comments'}}
 		</div>
 		<div class="item item-body" ng-repeat="Comment in item.Comments">
 			<div class="item item-avatar"><img src="http://placehold.it/100x100" alt="Avatar">
@@ -31,7 +31,7 @@
 			</div>
 			
 		</div>
-	</div>
+	</div-->
 
 </div>
 

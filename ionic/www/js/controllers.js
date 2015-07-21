@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
-.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService','RatingGetService', '$interpolate','$q', 'HabitService', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService, RatingGetService, $interpolate, $q, HabitService ) {
+.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService','RatingGetService', '$interpolate','$q', 'HabitService', 'DetailIdea', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService, RatingGetService, $interpolate, $q, HabitService, DetailIdea ) {
 
   // $scope.doRefresh = function(){
 
@@ -65,22 +65,22 @@ angular.module('starter.controllers', [])
 
   $scope.currentPage = $stateParams.id;
 
-  $scope.like = function(id, input){
-    if (!$scope.toggleLikes){
-      input.Ideas[id].likes_count+=1;
-      $scope.toggleLikes= !$scope.toggleLikes;
-    }
+  // $scope.like = function(id, input){
+  //   if (!$scope.toggleLikes){
+  //     input.Ideas[id].likes_count+=1;
+  //     $scope.toggleLikes= !$scope.toggleLikes;
+  //   }
       
-  };
+  // };
 
-    $scope.unlike = function(id, input){
-    if($scope.toggleLikes){
-    input.Ideas[id].likes_count-=1;
-    $scope.toggleLikes =!$scope.toggleLikes;
-    }
-  };
+  //   $scope.unlike = function(id, input){
+  //   if($scope.toggleLikes){
+  //   input.Ideas[id].likes_count-=1;
+  //   $scope.toggleLikes =!$scope.toggleLikes;
+  //   }
+  // };
 
-  $scope.toggleLikes = false;
+  // $scope.toggleLikes = false;
 
   $scope.checkComplete = function(text, limit){
     if (text.length <= limit)
@@ -104,12 +104,18 @@ angular.module('starter.controllers', [])
 
   }
   
-  $scope.data = Idea.get({id:"test"},function(content, code){
+  $scope.data = Idea.get({id:$rootScope.username},function(content, code){
     console.log(content);
     console.log(code);
     getAllRating();
 
   });
+
+  $scope.loadDetails = function(ids){
+    DetailIdea.get({id: ids}, function(returndata){
+        $rootScope.datum = returndata;
+    });
+  }
 
 <!--infinite scroll, load more-->
 $scope.recordsPerRequest = 10;
@@ -476,6 +482,15 @@ $scope.interpolation = function(value){
     
 
   }
+
+    $scope.loadDetails = function(ids){
+    DetailIdea.get({id: ids}, function(returndata){
+        $rootScope.datum = returndata;
+    });
+  }
+
+
+
 
   $scope.track = function(id, username){
     console.log(id);
