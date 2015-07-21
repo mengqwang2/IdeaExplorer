@@ -1,60 +1,69 @@
 <ion-view view-title="Register">
-        <ion-content class="page-bg" scroll="false">
-        <center><img src="../img/logo.png" height="180px"></center>
-        <br>
-          <div class="list padding">
-            <form name="regForm">
-            <label class="item item-input">
-              <span class="input-label">Badge ID</span>
-              <input type="text" ng-model="user.userid" name="idfield" required>
-               <span style="color:red" ng-show="regForm.idfield.$dirty">
+  <ion-content class="page-bg">
+    <center><img src="../img/logo.png" height="180px"></center>
+    <br>
+    <div class="list padding">
+      <form name="regForm">
+        
+        <label class="item item-input">
+          <span class="input-label">Badge ID</span>
+          <input type="text" ng-model="user.userid" name="idfield" required>
+        </label>
+        <ion-item class="errorMsg" ng-show="regForm.idfield.$dirty && regForm.idfield.$error.required"><span style="color:red; float:right" ng-show="regForm.idfield.$dirty">
               <span ng-show="regForm.idfield.$error.required">ID is required</span>
-            </span>
-            </label>
-            <label class="item item-input">
-              <span class="input-label">Name</span>
-              <input type="text" ng-model="user.username" name='namefield' required>
-              <span style="color:red" ng-show="regForm.namefield.$dirty">
+          </span>
+        </ion-item>
+        
+        <label class="item item-input">
+          <span class="input-label">Name</span>
+          <input type="text" ng-model="user.username" name='namefield' required>
+        </label>
+        <ion-item class="errorMsg" ng-show="regForm.namefield.$dirty && regForm.namefield.$error.required"><span style="color:red; float:right" ng-show="regForm.namefield.$dirty">
               <span ng-show="regForm.namefield.$error.required">Username is required</span>
-            </span>
-            </label>
-            <label class="item item-input">
-              <span class="input-label">Email</span>
-              <input type="email" ng-model="user.email" name='mailfield' required>
-               <span style="color:red" ng-show="regForm.mailfield.$dirty && regForm.mailfield.$invalid">
+          </span>
+        </ion-item>
+        <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="email" ng-model="user.email" name='mailfield' required>
+        </label>
+        <ion-item class="errorMsg" ng-show="regForm.mailfield.$dirty && regForm.mailfield.$invalid"><span style="color:red; float:right" ng-show="regForm.mailfield.$dirty && regForm.mailfield.$invalid">
               <span ng-show="regForm.mailfield.$error.required">Email is required</span>
-              <span ng-show="regForm.mailfield.$error.email">Invalid email address</span>
-            </span>
-            </label>
-            <label class="item item-input">
-              <span class="input-label">Password</span>
-              <input type="password" ng-model="user.password" name='pwfield' required>
-              <span style="color:red" ng-show="regForm.pwfield.$dirty">
+          <span ng-show="regForm.mailfield.$error.email">Invalid email address</span>
+          </span>
+        </ion-item>
+        
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="user.password" name='pwfield' required>
+        </label>
+        <ion-item class="errorMsg" ng-show="regForm.pwfield.$dirty && regForm.pwfield.$error.required"><span style="color:red; float:right" ng-show="regForm.pwfield.$dirty">
               <span ng-show="regForm.pwfield.$error.required">Password is required</span>
-            </span>
-            </label>
-             <label class="item item-input">
-              <span class="input-label">Confirm Password</span>
-              <input type="password" name='pw2field' ng-model="user.password2" required compare-to="user.password">
-              <div style="color:red" ng-show="regForm.pw2field.$dirty">
+          </span>
+        </ion-item>
+        
+        <label class="item item-input">
+          <span class="input-label">Confirm Password</span>
+          <input type="password" name='pw2field' ng-model="user.password2" required compare-to="user.password">
+        </label>
+        <ion-item class="errorMsg" ng-show="regForm.pw2field.$dirty && regForm.pw2field.$error.compareTo"><span style="color:red; float:right" ng-show="regForm.pw2field.$dirty">
               <span ng-show="regForm.pw2field.$error.compareTo">Must match the password</span>
-            </div>
-
-            </label>
-          </form>
-            <div class="row">
-            <div class="col">
-        <button class="button button-block button-positive round" ng-click="register(user)" ng-disabled="regForm.$error.required || regForm.$error.email || regForm.$error.compareTo">
-              Register
-            </button>
-          </div>
-          <div class="col">
-             <button class="button button-block button-stable round" ng-click="cancel()">
-              Cancel
-            </button>
-          </div>
+          </span>
+        </ion-item>
+      </form>
+      
+      <div class="row">
+        <div class="col">
+          <button class="button button-block button-positive round" ng-click="register(user)" ng-disabled="regForm.$error.required || regForm.$error.email || regForm.$error.compareTo">
+            Register
+          </button>
+        </div>
+        <div class="col">
+          <button class="button button-block button-stable round" ng-click="cancel()">
+            Cancel
+          </button>
+        </div>
       </div>
-          </div>
-          
-        </ion-content>
-      </ion-view>
+    </div>
+
+  </ion-content>
+</ion-view>

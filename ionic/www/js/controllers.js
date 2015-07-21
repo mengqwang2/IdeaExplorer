@@ -110,6 +110,16 @@ angular.module('starter.controllers', [])
 
   });
 
+<!--infinite scroll, load more-->
+  $scope.loadMore = function() {
+    var params = {};
+    if ($scope.data.length > 0){
+      params['after'] = $scope.data[$scope.data.length - 1].name;
+    }
+    $scope.data = Idea.get();
+    $scope.$boardcast('scroll.infiniteScrollComplete');
+  }
+
 
   $scope.doRefresh = function(){
 
@@ -384,6 +394,10 @@ $scope.interpolation = function(value){
     }
 
     $scope.search = function(search){
+      if (search.keyword == null){
+        return;
+      }
+
       var splitedArray = keywordSplit(search.keyword);
       var joinedArray = keywordJoin(splitedArray);
       QueryService.get({queries: joinedArray}, function(content1){
@@ -521,5 +535,17 @@ $scope.interpolation = function(value){
   }
 }])
 
+.controller('feedbackController', function($scope, $ionicPopup, $state){
+
+  $scope.feedback = function(feedback){
+    var data = {'Title': feedback.title, 
+      'Details': feedback.detail};
+    
+    var alertPopup = $ionicPopup.alert({
+      title: 'Sent',
+      template: 'Your Feedback is well received.'
+      });
+    }
+  })
 
 ;

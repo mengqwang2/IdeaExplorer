@@ -1,11 +1,14 @@
 <ion-view view-title="Search">
   <ion-content class="padding page-bg">
   
-<ion-list class="list-inset">
+<ion-list class="list-inset" ng-click="AdvancedShow=true">
   <ion-item class="item-input">
     <i class="icon ion-search placeholder-icon"></i>
     <input type="text" placeholder="Search" id="autocomplete" ng-model="search.keyword">
   </ion-item>
+</ion-list>
+<br>
+  <ion-list class="list-inset cssSlideUp" ng-hide="!AdvancedShow">
   <ion-item class="item-input item-select">
   <div class="input-label">Upload Date</div>
     <select ng-model="search.date">
@@ -41,9 +44,29 @@
       <option>Rating</option>
     </select>
   </ion-item>
+  <button class="button button-block round button-positive" ng-click="AdvancedShow=false; search(search)">Search</button>
 </ion-list>
 
-  <button class="button button-block round button-positive" ng-click="search(search)">Search</button>
+<!--need to change source for query instead of all-->
+  <div class="list list-inset" ng-repeat='item in data.Ideas' ng-hide="AdvancedShow">
+        <a class="item item-divider" href="#/app/home/{{item.id}}" ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}">{{item.Title}}</a>
+        <a class="item item-body" href="#/app/home/{{item.id}}" ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}">
+
+    {{item.Description| limitTo: checkComplete(item.Description, 150)}} ... 
+    <br>
+    <p>     
+      <span ng-controller="UnchangeRatingController" style="float:right">
+        <i class="icon ion-android-star" style="color:{{getStarColor(1)}}"></i>
+        <i class="icon ion-android-star" style="color:{{getStarColor(2)}}"></i>
+        <i class="icon ion-android-star" style="color:{{getStarColor(3)}}"></i>
+        <i class="icon ion-android-star" style="color:{{getStarColor(4)}}"></i>
+        <i class="icon ion-android-star" style="color:{{getStarColor(5)}}"></i>
+      </span></p>
+    <p><span>{{tagProcessor(item.tags);}} </span></p>
+          
+        </a>
+
+    </div>
 
   </ion-content>
 </ion-view>

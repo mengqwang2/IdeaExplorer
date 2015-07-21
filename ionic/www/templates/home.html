@@ -23,8 +23,8 @@
 </ion-list-->
 
     <div class="list list-inset" ng-repeat='item in data.Ideas' >
-        <a class="item item-divider" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);">{{item.title}}</a>
-        <a class="item item-body" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);">
+        <a class="item item-divider" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);" ion-track-tap="Click Home Document" ion-track-data="{ID: item.id}">{{item.title}}</a>
+        <a class="item item-body" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);" ion-track-tap="Click Home Document" ion-track-data="{ID: item.id}">
 
       {{item.description| limitTo: checkComplete(item.description, 150)}}... 
           <br>
@@ -36,7 +36,8 @@
 
     </div>
 
-
+<ion-infinite-scroll on-infinte="loadMore()" distance="1%">
+</ion-infinite-scroll>
 
 
 

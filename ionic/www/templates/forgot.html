@@ -1,36 +1,41 @@
 <ion-view view-title="Forgot Password">
-        <ion-content class="page-bg" scroll="false">
-        <center><img src="../img/logo.png" height="180px"></center>
-        <br>
-        <br>
-          
-          <div class="list padding">
-            <p>Please enter the email you provided when you registered. A new password will be sent to your mailbox.</p>
-            <label class="item item-input">
-              <span class="input-label">Email</span>
-              <form name="myForm">
-              <input type="email" name="email" required ng-model="email.text">
-                <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+  <ion-content class="page-bg" scroll="false">
+    <center><img src="../img/logo.png" height="180px"></center>
+    <br>
+    <br>
+
+    <div class="list padding">
+      <p>Please enter the email you provided when you registered. A new password will be sent to your mailbox.</p>
+
+      <form name="myForm">
+        <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="email" name="email" required ng-model="email.text">
+        </label>
+        <ion-item class="errorMsg" ng-show="myForm.email.$dirty && myForm.email.$invalid"><span style="color:red; float:right" ng-show="myForm.email.$dirty && myForm.email.$invalid">
               <span ng-show="myForm.email.$error.required">Email is required.</span>
-              <span ng-show="myForm.email.$error.email">Invalid email address.</span>
-            </span>
-            </form>
-            </label>
-          </div>
+          <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+          </span>
+        </ion-item>
+      </form>
 
-          <div class="row">
-
-            <div class="col">
+    </div>
+    
+    <div class="row">
+      
+      <div class="col">
         <button class="button button-block blue-bg round" ng-disabled="(myForm.email.$dirty && myForm.email.$invalid) || !myForm.email.$dirty" ng-click="mailValidation(email.text)">
-              Send
-            </button>
-          </div>
-          <div class="col">
-             <button class="button button-block button-stable round" ng-click="cancel()">
-              Cancel
-            </button>
-          </div>
+          Send
+        </button>
       </div>
-          
-        </ion-content>
-      </ion-view>
+      
+      <div class="col">
+        <button class="button button-block button-stable round" ng-click="cancel()">
+          Cancel
+        </button>
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>
