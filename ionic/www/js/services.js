@@ -34,7 +34,7 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
   return $resource('http://localhost:port/api/ideas/rating/:postid/:email', {port: ':5000', postid: '@id', email: '@email'});
 })
 
-.service('AuthService', function($q, $http, USER_ROLES, authentication, $ionicHistory) {
+.service('AuthService', function($q, $http, USER_ROLES, authentication) {
   var LOCAL_TOKEN_KEY = 'yourTokenKey';
   var username = '';
   var isAuthenticated = false;
@@ -77,8 +77,6 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
     isAuthenticated = false;
     $http.defaults.headers.common['Authorization'] = undefined;
     window.localStorage.removeItem(LOCAL_TOKEN_KEY);
-    $ionicHistory.clearHistory();
-    $ionicHistory.clearCache();
   }
  
   var login = function(name, pw) {

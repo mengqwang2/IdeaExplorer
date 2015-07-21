@@ -127,13 +127,14 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
     // }
   });
 
-  $rootScope.logout = function(){
+
+})
+
+.run(['$ionicHistory', 'AuthService', '$rootScope', function($ionicHistory, AuthService, $rootScope){
+    $rootScope.logout = function(){
     console.log('Clicked logout');
+    $ionicHistory.clearHistory();
+    $ionicHistory.clearCache();
     AuthService.logout();
   };
-  // $rootScope.testing = function(){
-  //   console.log("testing");
-  //   console.log($rootScope.ratings);
-  // };
-
-});
+}]);
