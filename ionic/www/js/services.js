@@ -97,9 +97,16 @@ angular.module('starter.services', []).factory('Idea', function($resource) {
         console.log(data['Email']);
         authentication.save(data, function(content1){
         	console.log(content1);
-        	storeUserCredentials(name, content1['Token']);
-        	resolve('Login success.');
-
+          if (content1['state'] !== "Login successfully"){
+            reject('Login Failed');
+          }
+          else{
+            storeUserCredentials(name, content1['Token']);
+            resolve('Login success.');
+          }
+        	
+        }, function(error){
+          reject('Login Failed');
         });
 
       } else {

@@ -107,12 +107,13 @@ angular.module('starter.controllers', [])
   $scope.data = Idea.get({id:$rootScope.username},function(content, code){
     console.log(content);
     console.log(code);
-    getAllRating();
+    // getAllRating();
 
   });
 
   $scope.loadDetails = function(ids){
     DetailIdea.get({id: ids}, function(returndata){
+        console.log(returndata);
         $rootScope.datum = returndata;
     });
   }
@@ -164,10 +165,10 @@ $scope.lastRecord = 9; //start from 0
     });
   }
 
+//needs attention
+$scope.sections = [['Background', 'rtc'], ['Details','description'], ['Practical Problems Solved', 'pps'],['Success Benefits','success_benefit']];
 
-$scope.sections = [['Background', 'relevance_to_challenge'], ['Details','description'], ['Practical Problems Solved', 'practical_problem_solved'],['Success Benefits','success_benefit']];
-
- $scope.show_section = { "relevance_to_challenge": false, "description": false , "practical_problem_solved": false, "success_benefit" : false};
+ $scope.show_section = { "rtc": false, "description": false , "pps": false, "success_benefit" : false};
     $scope.section_select = function(section, $event) {
       $scope.show_section[section] = !$scope.show_section[section];
       $scope.$broadcast('scroll.resize');
@@ -594,7 +595,7 @@ $scope.interpolation = function(value){
 
   $scope.star = ["grey","grey","grey","grey","grey"];
 
-  $scope.$watch(function(){return $rootScope.ratings[controll.info]}, function(nV, oV){
+  $scope.$watch(function(){return controll.info]}, function(nV, oV){
    
     // console.log($rootScope.ratings[controll.info]);
     var i = 0;

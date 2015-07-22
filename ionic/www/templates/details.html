@@ -5,9 +5,9 @@
 	<div class="item item-divider">{{datum.title}}
 		<p>By<span ng-repeat="innovator in datum.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a></span>
 		</p>
-		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='2'></rating></p>
+		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='datum.rating'></rating></p>
 	</div>
-	<div ng-repeat="title in sections">
+	<div ng-repeat="title in sections | ">
 	<div class="item item-divider item-icon-right" ng-click="section_select(title[1])">{{title[0]}}
 		<i class="icon ion-android-arrow-dropdown" ng-if="!show_section[title[1]]"></i>
 		<i class="icon ion-android-arrow-dropup" ng-if="show_section[title[1]]"></i>
