@@ -595,7 +595,7 @@ $scope.interpolation = function(value){
 
   $scope.star = ["grey","grey","grey","grey","grey"];
 
-  $scope.$watch(function(){return controll.info]}, function(nV, oV){
+  $scope.$watch(function(){return controll.info}, function(nV, oV){
    
     // console.log($rootScope.ratings[controll.info]);
     var i = 0;
