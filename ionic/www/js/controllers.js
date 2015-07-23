@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
-.controller('home', ['$scope', '$rootScope', '$state','$ionicPopup', 'AuthService' , 'AUTH_EVENTS','Idea', '$http', '$stateParams', '$ionicModal', 'CommentService','RatingGetService', '$interpolate','$q', 'HabitService', 'DetailIdea', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $http, $stateParams, $ionicModal,CommentService, RatingGetService, $interpolate, $q, HabitService, DetailIdea ) {
+.controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService) {
 
   // $scope.doRefresh = function(){
 
@@ -63,7 +63,7 @@ angular.module('starter.controllers', [])
  <!--login-->
 
 
-  $scope.currentPage = $stateParams.id;
+
 
   // $scope.like = function(id, input){
   //   if (!$scope.toggleLikes){
@@ -106,17 +106,12 @@ angular.module('starter.controllers', [])
   
   $scope.data = Idea.get({id:$rootScope.username},function(content, code){
     console.log(content);
-    console.log(code);
+    // console.log(code);
     // getAllRating();
 
   });
 
-  $scope.loadDetails = function(ids){
-    DetailIdea.get({id: ids}, function(returndata){
-        console.log(returndata);
-        $rootScope.datum = returndata;
-    });
-  }
+
 
 <!--infinite scroll, load more-->
 $scope.recordsPerRequest = 10;
@@ -144,13 +139,13 @@ $scope.lastRecord = 9; //start from 0
    };
 
    $scope.findArray = function(id){
-    for (i=0; i< $scope.data.Ideas.length; i++){
-      if ($scope.data.Ideas[i].id ==id){
-        console.log(i);
-        $rootScope.currentIndex = i;
+    // for (i=0; i< $scope.data.Ideas.length; i++){
+    //   if ($scope.data.Ideas[i].id ==id){
+    //     console.log(i);
+        // $rootScope.currentIndex = i;
         $rootScope.currentID = id;
-      }
-    }
+      // }
+    // }
     
 
   }
@@ -165,35 +160,69 @@ $scope.lastRecord = 9; //start from 0
     });
   }
 
-//needs attention
-$scope.sections = [['Background', 'rtc'], ['Details','description'], ['Practical Problems Solved', 'pps'],['Success Benefits','success_benefit']];
 
- $scope.show_section = { "rtc": false, "description": false , "pps": false, "success_benefit" : false};
+
+
+
+
+
+
+//rating
+// var getAllRating = function(){
+
+
+
+//   var promise = [];
+//   $rootScope.ratings = [];
+//   angular.forEach($scope.data.Ideas, function(idea){
+//     var pm = RatingGetService.get({postid: idea.id, email: '0'});
+//     promise.push(pm.$promise);
+//   });
+
+//   $q.all(promise).then(function(values){
+//     angular.forEach(values, function(value){
+//       $rootScope.ratings.push(value.rating);
+
+//     });
+
+//   });
+
+
+// };
+
+// $scope.interpolation = function(value){
+//   return $interpolate(value)($scope);
+// };
+
+})
+
+.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService){
+
+  $scope.datum = DetailIdea.get({id: $rootScope.currentID}, function(returndata){
+      console.log(returndata);
+      $rootScope.datum = returndata;
+  });
+
+  $scope.sections = [['Background', 'rtc'], ['Details','description'], ['Practical Problems Solved', 'pps'],['Success Benefits','success_benefit']];
+
+  $scope.show_section = { "rtc": false, "description": false , "pps": false, "success_benefit" : false};
     $scope.section_select = function(section, $event) {
       $scope.show_section[section] = !$scope.show_section[section];
       $scope.$broadcast('scroll.resize');
   };
 
+   <!--login authentication-->
+  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
+    AuthService.logout();
+    $state.go('signin');
+    var alertPopup = $ionicPopup.alert({
+      title: 'Session Lost!',
+      template: 'Sorry, You have to login again.'
+    });
+  });
 
-
-  
-
-  $scope.changePage = function(id){
-    $scope.currentPage = id;
-  }
-
-  //load comments into CommentController
-  var commentRetrieve = function(Postid){
-    if (Postid==null)
-      return;
-    CommentService.get({postid: Postid }, function(content){
-      //need to do sth
-      $rootScope.currentPost = Postid;
-      $rootScope.allComments = content['Comment'];
-    })
-  }
-
-  $scope.loadComments = function(Postid){
+<!--comments related-->
+$scope.loadComments = function(Postid){
     commentRetrieve(Postid);
     $scope.openModal();
   }
@@ -223,60 +252,18 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     // Execute action
   });
 
+    //load comments into CommentController
+  var commentRetrieve = function(Postid){
+    if (Postid==null)
+      return;
+    CommentService.get({postid: Postid }, function(content){
+      //need to do sth
+      $rootScope.currentPost = Postid;
+      $rootScope.allComments = content['Comment'];
+    })
+  }
 
-
-
-//rating
-var getAllRating = function(){
-
-  // RatingGetService.get({postid: 1, email: $rootScope.username}, function(data){
-  //   $rootScope.temp = data;
-  //   console.log($rootScope.temp.rating[0]);
-  // });
-
-
-  var promise = [];
-  $rootScope.ratings = [];
-  angular.forEach($scope.data.Ideas, function(idea){
-    var pm = RatingGetService.get({postid: idea.id, email: '0'});
-    promise.push(pm.$promise);
-  });
-
-  $q.all(promise).then(function(values){
-    angular.forEach(values, function(value){
-      $rootScope.ratings.push(value.rating);
-      // console.log(value.rating)
-    });
-
-  });
-
-//break
-  // var promise = [];
-  // for (i = 0; i < $scope.data.Ideas.length; i++){
-  //   promise[i] = RatingGetService.get({postid: $scope.data.Ideas[i].id, email: $rootScope.username });
-  // };
-  
-  // $q.all(promise).then(function(data){
-  //   console.log(data);
-  //   for (j = 0; j< $scope.data.Ideas.length; j++){
-  //     $scope.rating2[j] = data[j];
-  //   }
-  //   console.log($scope.rating2[0]);
-
-  // });
-
-  // for (i = 0; i < $scope.data.Ideas.length; i++){
-  //    promise[i].then(function(data){
-  //     $rootScope.ratings[i] = data;
-  //   })
-  // };
-};
-
-$scope.interpolation = function(value){
-  return $interpolate(value)($scope);
-};
-
-}])
+})
 
 .controller('SignInCtrl', function($scope, $rootScope, $state, $ionicPopup, AuthService) {
   
@@ -309,8 +296,8 @@ $scope.interpolation = function(value){
     
   };
 
-   $scope.forgotPw = function(user) {
-    <!--console.log('Forgot-pw', user);-->
+   $scope.forgotPw = function() {
+    console.log('Forgot-pw');
     $state.go('forgotpw');
   };
 
@@ -401,7 +388,7 @@ $scope.interpolation = function(value){
 })
 
 
-.controller('searchCon', ['$scope','QueryService','$rootScope', 'RatingGetService', '$q', 'HabitService', function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService){
+.controller('searchCon',function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService, DetailIdea, AUTH_EVENTS, AuthService, $state, $ionicPopup ){
 
     function keywordSplit(keyword){
       var kw = keyword;
@@ -428,7 +415,7 @@ $scope.interpolation = function(value){
       QueryService.get({queries: joinedArray}, function(content1){
         console.log(content1);
         $scope.data = content1;
-        getAllRating();
+        // getAllRating();
 
       } );
 
@@ -449,45 +436,39 @@ $scope.interpolation = function(value){
   };
 
 
-  var getAllRating = function(){
+//   var getAllRating = function(){
 
 
 
 
-  var promise = [];
-  $rootScope.ratings = [];
-  angular.forEach($scope.data.Ideas, function(idea){
-    var pm = RatingGetService.get({postid: idea.id, email: '0'});
-    promise.push(pm.$promise);
-  });
+//   var promise = [];
+//   $rootScope.ratings = [];
+//   angular.forEach($scope.data.Ideas, function(idea){
+//     var pm = RatingGetService.get({postid: idea.id, email: '0'});
+//     promise.push(pm.$promise);
+//   });
 
-  $q.all(promise).then(function(values){
-    angular.forEach(values, function(value){
-      $rootScope.ratings.push(value.rating);
-      // console.log(value.rating)
-    });
+//   $q.all(promise).then(function(values){
+//     angular.forEach(values, function(value){
+//       $rootScope.ratings.push(value.rating);
+//       // console.log(value.rating)
+//     });
 
-  });
+//   });
 
 
-};
+// };
 
    $scope.findArray = function(id){
-    for (i=0; i< $scope.data.Ideas.length; i++){
-      if ($scope.data.Ideas[i].id ==id){
-        console.log(i);
-        $rootScope.currentIndex = i;
+    // for (i=0; i< $scope.data.Ideas.length; i++){
+    //   if ($scope.data.Ideas[i].id ==id){
+    //     console.log(i);
+    //     $rootScope.currentIndex = i;
         $rootScope.currentID = id;//same as currentPost
-      }
-    }
+    //   }
+    // }
     
 
-  }
-
-    $scope.loadDetails = function(ids){
-    DetailIdea.get({id: ids}, function(returndata){
-        $rootScope.datum = returndata;
-    });
   }
 
 
@@ -511,7 +492,19 @@ $scope.interpolation = function(value){
     $('input').keyup(function(){
       this.value = this.value.toLowerCase();
     });
-}])
+
+       <!--login authentication-->
+  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
+    AuthService.logout();
+    $state.go('signin');
+    var alertPopup = $ionicPopup.alert({
+      title: 'Session Lost!',
+      template: 'Sorry, You have to login again.'
+    });
+  });
+
+
+})
 
 
 .controller("CommentController", function($scope, $rootScope,CommentService){
