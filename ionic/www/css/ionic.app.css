@@ -7790,3 +7790,8 @@ a.button {
   padding: 0;
   border-top: 0;
 }
+
+.logo{
+  content: url(../img/logo.png);
+  height: 180px;
+}
