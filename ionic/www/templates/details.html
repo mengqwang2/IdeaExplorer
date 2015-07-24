@@ -17,7 +17,7 @@
 	</div>
 	</div>
 	<div class="item item-body">
-		<p><span>{{tagProcessor(datum.tags);}}</span></p>
+		<p><span ng-repeat="tag in datum.tags">#{{tag}} </span></p>
 
 	</div>
 	<!--div ng-show="item.Comments">
@@ -42,7 +42,7 @@
 		<individual-rating info="4"></individual-rating>
 	</div>
 	<div class="col">
-		<button class="button button-small ion-compose button-block button-clear button-dark" style="font-size: 21px" ng-click="loadComments(0)">&nbsp Comment</button>
+		<button class="button button-small ion-compose button-block button-clear button-dark" style="font-size: 21px" ng-click="loadComments(currentID)">&nbsp Comment</button>
 	</div>
 	</div>
 </div>
