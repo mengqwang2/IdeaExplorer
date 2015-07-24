@@ -4636,13 +4636,13 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .loading-container .loading {
     padding: 20px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #fff;
     color: #fff;
     text-align: center;
     text-overflow: ellipsis;
     font-size: 15px; }
     .loading-container .loading h1, .loading-container .loading h2, .loading-container .loading h3, .loading-container .loading h4, .loading-container .loading h5, .loading-container .loading h6 {
-      color: #fff; }
+      color: #fff;}
 
 /**
  * Items

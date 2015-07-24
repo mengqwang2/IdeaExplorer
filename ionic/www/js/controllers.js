@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
-.controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService) {
+.controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService, $ionicLoading) {
 
   // $scope.doRefresh = function(){
 
@@ -88,6 +88,8 @@ angular.module('starter.controllers', [])
   
   $rootScope.data = Idea.get({id:$rootScope.username},function(content, code){
     console.log(content);
+  $ionicLoading.hide();
+
     // console.log(code);
     // getAllRating();
 
@@ -140,7 +142,14 @@ $scope.lastRecord = 9; //start from 0
 
 
 
-
+  $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
 
 
 
@@ -174,11 +183,21 @@ $scope.lastRecord = 9; //start from 0
 
 })
 
-.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService){
+.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService, $ionicLoading){
+
+  $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
 
   $scope.datum = DetailIdea.get({id: $rootScope.currentID}, function(returndata){
       console.log(returndata);
       $rootScope.datum = returndata;
+      $ionicLoading.hide();
   });
 
   $scope.sections = [['Background', 'rtc'], ['Details','description'], ['Practical Problems Solved', 'pps'],['Success Benefits','success_benefit']];
@@ -365,7 +384,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 })
 
 
-.controller('searchCon',function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService, DetailIdea, AUTH_EVENTS, AuthService, $state, $ionicPopup ){
+.controller('searchCon',function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService, DetailIdea, AUTH_EVENTS, AuthService, $state, $ionicPopup, $ionicLoading){
 
     function keywordSplit(keyword){
       var kw = keyword;
@@ -383,6 +402,16 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     }
 
     $scope.search = function(search){
+      
+    $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
+
       if (search.keyword == null){
         return;
       }
@@ -392,6 +421,8 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       QueryService.get({queries: joinedArray}, function(content1){
         console.log(content1);
         $rootScope.qdata = content1;
+        $ionicLoading.hide();
+
         // getAllRating();
 
       } );
