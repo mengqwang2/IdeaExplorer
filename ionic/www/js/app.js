@@ -135,6 +135,9 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
     console.log('Clicked logout');
     $ionicHistory.clearHistory();
     $ionicHistory.clearCache();
+    $rootScope.data = {};
+    $rootScope.datum = {};
+    $rootScope.qdata = {};
     AuthService.logout();
   };
 }]);

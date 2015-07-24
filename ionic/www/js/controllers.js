@@ -64,24 +64,6 @@ angular.module('starter.controllers', [])
 
 
 
-
-  // $scope.like = function(id, input){
-  //   if (!$scope.toggleLikes){
-  //     input.Ideas[id].likes_count+=1;
-  //     $scope.toggleLikes= !$scope.toggleLikes;
-  //   }
-      
-  // };
-
-  //   $scope.unlike = function(id, input){
-  //   if($scope.toggleLikes){
-  //   input.Ideas[id].likes_count-=1;
-  //   $scope.toggleLikes =!$scope.toggleLikes;
-  //   }
-  // };
-
-  // $scope.toggleLikes = false;
-
   $scope.checkComplete = function(text, limit){
     if (text.length <= limit)
       return text.length;
@@ -104,7 +86,7 @@ angular.module('starter.controllers', [])
 
   }
   
-  $scope.data = Idea.get({id:$rootScope.username},function(content, code){
+  $rootScope.data = Idea.get({id:$rootScope.username},function(content, code){
     console.log(content);
   $ionicLoading.hide();
 
@@ -120,11 +102,7 @@ $scope.recordsPerRequest = 10;
 $scope.lastRecord = 9; //start from 0
 
   $scope.loadMore = function() {
-    // var params = {};
-    // if ($scope.data.length > 0){
-    //   params['after'] = $scope.data[$scope.data.length - 1].name;
-    // }
-    // $scope.data = Idea.get();
+
 
 
     $scope.$boardcast('scroll.infiniteScrollComplete');
@@ -133,8 +111,8 @@ $scope.lastRecord = 9; //start from 0
 
   $scope.doRefresh = function(){
 
-    $scope.data = null;
-    $scope.data = Idea.get(function(){
+    $rootScope.data = null;
+    $rootScope.data = Idea.get(function(){
       $scope.$broadcast('scroll.refreshComplete');
     });
     
@@ -277,7 +255,6 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       return;
     CommentService.get({postid: Postid }, function(content){
       //need to do sth
-      $rootScope.currentPost = Postid;
       $rootScope.allComments = content['Comment'];
     })
   }
@@ -462,8 +439,9 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       var joinedArray = keywordJoin(splitedArray);
       QueryService.get({queries: joinedArray}, function(content1){
         console.log(content1);
-        $scope.data = content1;
+        $rootScope.qdata = content1;
         $ionicLoading.hide();
+
         // getAllRating();
 
       } );
@@ -559,17 +537,25 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 .controller("CommentController", function($scope, $rootScope,CommentService){
 
   $scope.commentSubmit = function(comment, postid){
+    console.log("Going to submit comments");
     var userid = $rootScope.username;
     if (comment==null || comment ==="")
       return;
-    var commentsS = {"Email": userid, "Postid": postid, "Comment": comment};
+    var commentsS = {"Email": userid, "PostID": postid, "Content": comment};
     CommentService.save(commentsS, function(content){
       console.log(content);
+      $scope.newComments = content['Comment'];
+      if ($scope.newComments.length >= $rootScope.allComments.length){
+        for (i = $rootScope.allComments.length; i<$scope.newComments.length; i++ ){
+          $rootScope.allComments.push($scope.newComments[i]);
+        }
+      }
+
     });
 
   };
 
-  $rootScope.allComments = "";
+
 
 
 })
@@ -605,6 +591,30 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     isRated = true;
     RatingPostService.save({'Email': $rootScope.username, 'Rating': number, 'PostID': $rootScope.currentID}, function(content, status){
       console.log("rating changed");
+      //get average rating
+      RatingGetService.get({postid: $rootScope.currentID, email: "0" }, function(data){
+        $rootScope.datum['rating'] = data.rating;
+        if ($rootScope.data){
+          for (i = 0; i < $rootScope.data.Ideas.length; i++){
+            // console.log($rootScope.data[i].id);
+            // console.log($rootScope.currentID);
+            if ($rootScope.data.Ideas[i].id == $rootScope.currentID){
+              $rootScope.data.Ideas[i].rating = data.rating;
+              console.log("Found data in home");
+              break;
+            }
+          }
+        }
+        if ($rootScope.qdata){
+          for (i = 0 ;i <$rootScope.qdata.Ideas.length; i++){
+            if ($rootScope.qdata.Ideas[i].id == $rootScope.currentID){
+              $rootScope.qdata.Ideas[i].rating = data.rating;
+              break;
+            }
+          }
+        }
+
+      })
     });
   }
 

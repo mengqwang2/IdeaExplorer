@@ -31,7 +31,7 @@
       {{item.description| limitTo: checkComplete(item.description, 150)}}... 
           <br>
     
-          <p><span>{{tagProcessor(item.tags);}}</span></p>
+          <p><span  ng-repeat="tag in item.tags">#{{tag}} </span></p>
           <rating info='item.rating'></rating>
           
         </a>

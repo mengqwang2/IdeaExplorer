@@ -8,8 +8,8 @@
 		</p>
 		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='datum.rating'></rating></p>
 	</div>
-	<div class="item item-body item-button-right">
-		<p><span>{{tagProcessor(datum.tags);}}</span></p>
+	<div class="item item-body item-bottom-right">
+		<p><span ng-repeat="tag in datum.tags">#{{tag}} </span></p>
 	</div>
 	<div ng-repeat="title in sections">
 	<div class="item item-divider item-icon-right" ng-click="section_select(title[1])">{{title[0]}}
@@ -21,7 +21,7 @@
 	</div>
 	</div>
 	<div class="item item-icon-left">Find Similar<i class="icon ion-arrow-right-b"></i></div>
-	
+
 
 	<!--div ng-show="item.Comments">
 		<div class="item item-divider">
@@ -44,7 +44,7 @@
 		<individual-rating info="4"></individual-rating>
 	</div>
 	<div class="col">
-		<button class="button button-small ion-compose button-block button-clear button-dark" style="font-size: 21px" ng-click="loadComments(0)">&nbsp Comment</button>
+		<button class="button button-small ion-compose button-block button-clear button-dark" style="font-size: 21px" ng-click="loadComments(currentID)">&nbsp Comment</button>
 	</div>
 	</div>
 </div>
