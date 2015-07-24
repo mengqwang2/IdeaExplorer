@@ -20,10 +20,11 @@
 </ion-content>
 <div class="bar bar-footer item-input-inset bar-light">
   <label class="item-input-wrapper">
-    <input type="text" ng-model="comments" placeholder="Comments">
-
+    <form id="commentsForm">
+    <input type="text" ng-model="comment" id="commentfield" placeholder="Comments">
+    </form>
   </label>
-  <button class="button button-clear ion-paper-airplane" ng-click="commentSubmit(comments, currentID)">
+  <button class="button button-clear ion-paper-airplane" ng-click="commentSubmit(comment, currentID);">
 
   </button>
 

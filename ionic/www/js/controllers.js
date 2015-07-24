@@ -75,10 +75,12 @@ angular.module('starter.controllers', [])
 
   $scope.recordsPerRequest = 5;
   $scope.startRecord = 0; //start from 0
+  $scope.terminate = false;
 
   $rootScope.data = Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
     console.log(content);
-  $ionicLoading.hide();
+    $ionicLoading.hide();
+    // $scope.startRecord = content[]
 
 
   });
@@ -532,12 +534,14 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
   $scope.commentSubmit = function(comment, postid){
     console.log("Going to submit comments");
+
     var userid = $rootScope.username;
     if (comment==null || comment ==="")
       return;
     var commentsS = {"Email": userid, "PostID": postid, "Content": comment};
     CommentService.save(commentsS, function(content){
       console.log(content);
+      $scope.comment = null;
       $scope.newComments = content['Comment'];
       if ($scope.newComments.length >= $rootScope.allComments.length){
         for (i = $rootScope.allComments.length; i<$scope.newComments.length; i++ ){
