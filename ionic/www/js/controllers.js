@@ -196,6 +196,11 @@ angular.module('starter.controllers', [])
       $scope.show_section[section] = !$scope.show_section[section];
       $scope.$broadcast('scroll.resize');
   };
+  $scope.similartopic = function() {
+    $state.go('app.similartopic', {}, {reload: true});
+    //<!--console.log('Similartopic');-->
+    //$state.go('similartopic');
+  };
 
    <!--login authentication-->
   $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
@@ -663,6 +668,157 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       return "grey";
   }
 }])
+
+.controller('similarTopicController', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService, $ionicLoading) {
+
+  // $scope.doRefresh = function(){
+
+  //     $http.get('js/data.json').success(function(data){
+  //     $scope.data = data;
+  //     $scope.$broadcast('scroll.refreshComplete');
+  //    })
+  //   };
+
+  // $http.get("js/data.json").success(function(data){
+  //     $scope.data = data;
+  //     for (i=0; i< $scope.data.Ideas.length ; i++){
+  //       $scope.data.Ideas[i].id = i;
+  //     }
+  // })
+
+  $rootScope.username = AuthService.username();
+ 
+  // $scope.$on(AUTH_EVENTS.notAuthorized, function(event) {
+  //   var alertPopup = $ionicPopup.alert({
+  //     title: 'Unauthorized!',
+  //     template: 'You are not allowed to access this resource.'
+  //   });
+  // });
+ <!--login-->
+  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
+    AuthService.logout();
+    $state.go('signin');
+    var alertPopup = $ionicPopup.alert({
+      title: 'Session Lost!',
+      template: 'Sorry, You have to login again.'
+    });
+  });
+ 
+  $scope.setCurrentUsername = function(name) {
+    $rootScope.username = name;
+  };
+
+ <!--login-->
+
+
+
+  $scope.checkComplete = function(text, limit){
+    if (text.length <= limit)
+      return text.length;
+    while (text.charAt(limit)!= ' '){
+      limit+=1;
+    }
+    return limit;
+  }
+
+  $scope.recordsPerRequest = 5;
+  $scope.startRecord = 0; //start from 0
+
+  $rootScope.data = Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
+    console.log(content);
+  $ionicLoading.hide();
+
+
+  });
+
+
+
+<!--infinite scroll, load more-->
+
+
+  $scope.loadMore = function() {
+
+
+
+
+
+    $scope.$boardcast('scroll.infiniteScrollComplete');
+  }
+
+
+  $scope.doRefresh = function(){
+
+    $rootScope.data = null;
+    $rootScope.data = Idea.get(function(){
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+    
+   };
+
+   $scope.findArray = function(id){
+    // for (i=0; i< $scope.data.Ideas.length; i++){
+    //   if ($scope.data.Ideas[i].id ==id){
+    //     console.log(i);
+        // $rootScope.currentIndex = i;
+        $rootScope.currentID = id;
+      // }
+    // }
+    
+
+  }
+
+  $scope.track = function(id, username){
+    console.log(id);
+    console.log(username);
+    <!--pass to API-->
+    var data = {"Email": username, "Postid": id};
+    HabitService.save(data, function(content, value){
+      console.log("Habit recorded");
+    });
+  }
+
+
+
+  $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
+
+
+
+
+//rating
+// var getAllRating = function(){
+
+
+
+//   var promise = [];
+//   $rootScope.ratings = [];
+//   angular.forEach($scope.data.Ideas, function(idea){
+//     var pm = RatingGetService.get({postid: idea.id, email: '0'});
+//     promise.push(pm.$promise);
+//   });
+
+//   $q.all(promise).then(function(values){
+//     angular.forEach(values, function(value){
+//       $rootScope.ratings.push(value.rating);
+
+//     });
+
+//   });
+
+
+// };
+
+// $scope.interpolation = function(value){
+//   return $interpolate(value)($scope);
+// };
+
+})
 
 .controller('feedbackController', function($scope, $ionicPopup, $state){
 

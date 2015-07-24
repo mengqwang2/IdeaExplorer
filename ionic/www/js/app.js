@@ -98,6 +98,15 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
       }
     }
   })
+      .state('app.similartopic', {
+    url: "/similartopic",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/similartopic.html",
+        controller: 'similarTopicController'
+      }
+    }
+  })
       .state('app.feedback', {
     url: "/feedback",
     views: {
