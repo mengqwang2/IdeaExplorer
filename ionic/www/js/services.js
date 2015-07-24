@@ -1,7 +1,7 @@
 angular.module('starter.services', [])
 
 .factory('Idea', function($resource) {
-  return $resource('http://10.43.76.119:port/api/ideas/:id', { port: ':5000', id: '@_id' }, {
+  return $resource('http://10.43.76.119:port/api/ideas/id=:id&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', sind: '@start', capacity: '@capacity' }, {
     update: {
       method: 'PUT'
     }

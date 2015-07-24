@@ -73,35 +73,24 @@ angular.module('starter.controllers', [])
     return limit;
   }
 
-  $scope.tagProcessor = function(text){
-    var returnTag ="";
+  $scope.recordsPerRequest = 5;
+  $scope.startRecord = 0; //start from 0
 
-    if (text){
-      var tagArray = text.split(", ");
-      for (i = 0; i < tagArray.length; i++){
-        returnTag = returnTag.concat("#" + tagArray[i] + " ");
-      }
-      return returnTag.substring(0, returnTag.length-1);
-    }
-
-  }
-  
-  $rootScope.data = Idea.get({id:$rootScope.username},function(content, code){
+  $rootScope.data = Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
     console.log(content);
   $ionicLoading.hide();
 
-    // console.log(code);
-    // getAllRating();
 
   });
 
 
 
 <!--infinite scroll, load more-->
-$scope.recordsPerRequest = 10;
-$scope.lastRecord = 9; //start from 0
+
 
   $scope.loadMore = function() {
+
+
 
 
 
