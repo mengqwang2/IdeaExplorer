@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
-.controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService, $ionicLoading) {
+.controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService, $ionicLoading, $timeout) {
 
   // $scope.doRefresh = function(){
 
@@ -142,7 +142,13 @@ angular.module('starter.controllers', [])
     //duration: 1000
   });
 
-
+  // $timeout(function() {
+  //   $ionicLoading.hide();
+  //   $ionicPopup.alert({
+  //     title: 'Timeout',
+  //     template: 'Please check your network.'
+  //   });
+  // }, 10000);
 
 
 //rating
@@ -271,14 +277,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   });
 
     if ((user == null)|| (user.username==null)||(user.password == null)){
-      $ionicLoading.show({
-    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
-    animation: 'fade-in',
-    showBackdrop: true,
-    maxwidth: 200,
-    hideOnStateChange: true
-    //duration: 1000
-  });
+      $ionicLoading.hide();
       var alertPopup = $ionicPopup.alert({
         title: 'Login failed!',
         template: 'Please check your credentials!'

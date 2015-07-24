@@ -2,12 +2,12 @@
 <ion-view view-title="Details">
 <ion-content class="page-bg">
 <div class="list list-inset ">
-	<div class="item item-divider"><div class="item-text-wrap"> {{datum.title}}</div>
+	<div class="item item-divider"><div class="item-text-wrap">{{datum.title}}</div>
 	
 		<p>By<span ng-repeat="innovator in datum.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a></span>
 		</p>
 		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='datum.rating'></rating></p>
-		<p><span ng-repeat="tag in datum.tags">#{{tag}} </span></p>
+		<p><div class="item-text-wrap"><span ng-repeat="tag in datum.tags">#{{tag}} </span></div></p>
 	</div>
 
 	<div ng-repeat="title in sections">
@@ -19,7 +19,7 @@
 		{{datum[title[1]]}}
 	</div>
 	</div>
-	<div ng-click="similartopic()" class="item item-icon-left">Find Similar<i class="icon ion-arrow-right-b"></i></div>
+	<div ng-click="similartopic()" class="item item-icon-right">Find Similar<i class="icon ion-android-arrow-dropright"></i></div>
 
 
 	<!--div ng-show="item.Comments">
