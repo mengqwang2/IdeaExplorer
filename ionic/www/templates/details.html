@@ -1,11 +1,15 @@
 
 <ion-view view-title="Details">
 <ion-content class="page-bg">
-<div class="list list-inset">
-	<div class="item item-divider">{{datum.title}}
+<div class="list list-inset ">
+	<div class="item item-divider"><div class="item-text-wrap"> {{datum.title}}</div>
+	
 		<p>By<span ng-repeat="innovator in datum.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a></span>
 		</p>
 		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='datum.rating'></rating></p>
+	</div>
+	<div class="item item-body item-button-right">
+		<p><span>{{tagProcessor(datum.tags);}}</span></p>
 	</div>
 	<div ng-repeat="title in sections">
 	<div class="item item-divider item-icon-right" ng-click="section_select(title[1])">{{title[0]}}
@@ -16,10 +20,9 @@
 		{{datum[title[1]]}}
 	</div>
 	</div>
-	<div class="item item-body">
-		<p><span>{{tagProcessor(datum.tags);}}</span></p>
+	<div class="item item-icon-left">Find Similar<i class="icon ion-arrow-right-b"></i></div>
+	
 
-	</div>
 	<!--div ng-show="item.Comments">
 		<div class="item item-divider">
 			{{datum.Comments.length==1? 'Comment': 'Comments'}}
@@ -34,7 +37,6 @@
 	</div-->
 
 </div>
-
 </ion-content>
 <div class="bar bar-footer">
 	<div class="row row-center">

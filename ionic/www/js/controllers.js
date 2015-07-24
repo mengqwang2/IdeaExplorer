@@ -284,10 +284,28 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('SignInCtrl', function($scope, $rootScope, $state, $ionicPopup, AuthService) {
+.controller('SignInCtrl', function($scope, $rootScope, $state, $ionicPopup, AuthService, $ionicLoading) {
   
   $scope.signIn = function(user) {
+    
+    $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
+
     if ((user == null)|| (user.username==null)||(user.password == null)){
+      $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
       var alertPopup = $ionicPopup.alert({
         title: 'Login failed!',
         template: 'Please check your credentials!'
@@ -307,6 +325,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
       $scope.setCurrentUsername(user.username);
     }, function(err) {
+      $ionicLoading.hide();
       var alertPopup = $ionicPopup.alert({
         title: 'Login failed!',
         template: 'Please check your credentials!'
