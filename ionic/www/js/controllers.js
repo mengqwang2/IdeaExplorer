@@ -80,9 +80,15 @@ angular.module('starter.controllers', [])
   $rootScope.data = Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
     console.log(content);
     $ionicLoading.hide();
-    // $scope.startRecord = content[]
+    $scope.startRecord = content["eind"] +1;
+    $scope.size = content["size"]; //total number of records
 
 
+  }, function(error){
+    var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
   });
 
 
@@ -91,12 +97,25 @@ angular.module('starter.controllers', [])
 
 
   $scope.loadMore = function() {
+    console.log("Trying to load more");
+    console.log($scope.startRecord);
+    if ($scope.startRecord < $scope.size){
+      Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
+        console.log(content);
+        angular.forEach(content.Ideas, function(record){
+          $rootScope.data.Ideas.push(record);
+        })
+        $scope.startRecord = content["eind"] +1;
+        $scope.capacity = content["capacity"];
+
+
+      })
+    };
 
 
 
 
-
-    $scope.$boardcast('scroll.infiniteScrollComplete');
+    $scope.$broadcast('scroll.infiniteScrollComplete');
   }
 
 
@@ -557,11 +576,13 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('CategoryController', ['$scope', '$http', function($scope,$http) {
+.controller('CategoryController', ['$scope', '$http', function($scope,$http, CategoryService) {
   $scope.data = null;
-  $http.get('js/data.json').success(function(abcd){
-    $scope.data = abcd;
+
+  CategoryService.get({}, function(content){
+    $scope.data = content;
   })
+
   $scope.items=[];
   $scope.items[0] = "#E19D65";
   $scope.items[1] = "#737373";
