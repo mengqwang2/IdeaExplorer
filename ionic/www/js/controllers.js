@@ -76,12 +76,14 @@ angular.module('starter.controllers', [])
   $scope.recordsPerRequest = 5;
   $scope.startRecord = 0; //start from 0
   $scope.terminate = false;
+  $scope.displayButton = false;
 
   $rootScope.data = Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
     console.log(content);
     $ionicLoading.hide();
     $scope.startRecord = content["eind"] +1;
     $scope.size = content["size"]; //total number of records
+    $scope.displayButton = true;
 
 
   }, function(error){
@@ -97,6 +99,7 @@ angular.module('starter.controllers', [])
 
 
   $scope.loadMore = function() {
+    $scope.displayButton = false;  
     console.log("Trying to load more");
     console.log($scope.startRecord);
     if ($scope.startRecord < $scope.size){
@@ -107,10 +110,13 @@ angular.module('starter.controllers', [])
         })
         $scope.startRecord = content["eind"] +1;
         $scope.capacity = content["capacity"];
+        $scope.displayButton = true;
+
 
 
       })
-    };
+    }
+
 
 
 
@@ -229,6 +235,42 @@ angular.module('starter.controllers', [])
     //$state.go('similartopic');
   };
 
+
+
+
+  $scope.findKeyword = function(word){
+      //   $ionicLoading.show({
+      //   template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+      //   animation: 'fade-in',
+      //   showBackdrop: true,
+      //   maxwidth: 200,
+      //   hideOnStateChange: true
+      //   //duration: 1000
+      // });
+
+    //   if (word == null){
+    //     $ionicLoading.hide();
+    //     return;
+    //   }
+
+    //   $scope.startRecord = 0;
+    //   $scope.recordsPerRequest =5;
+    //   QueryService.get({queries: word, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
+    //     console.log(content1);
+    //     $rootScope.qdata = content1;
+    //     $ionicLoading.hide();
+    //     $scope.startRecord = content1["eind"] +1;
+    //     $scope.size = content1["size"]; //total number of records
+    //     $scope.displayButton = true;
+
+
+
+    //   } );
+    // console.log(word)
+    $rootScope.keyword = word;
+    
+  }
+
    <!--login authentication-->
   $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
     AuthService.logout();
@@ -304,10 +346,10 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       return;
     }
     //debug
-    if (user.username ==='admin'){
-      $state.go('app.home', {}, {reload: true});
-      return; //temporary
-    }
+    // if (user.username ==='admin'){
+    //   $state.go('app.home', {}, {reload: true});
+    //   return; //temporary
+    // }
     //
     AuthService.login(user.username, user.password).then(function(authenticated) {
       user.username = "";
@@ -324,6 +366,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     });
     
   };
+
 
    $scope.forgotPw = function() {
     console.log('Forgot-pw');
@@ -384,7 +427,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('registerController', function($scope, $ionicPopup, $state, RegService){
+.controller('registerController', function($scope, $ionicPopup, $state, RegService, AuthService, $rootScope){
 
   //validation
 
@@ -395,17 +438,38 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     if (info.userid ==""|| info.username=="" || info.email==""||info.password==""){
       return;
     }
-    var data = {'UserID': info.userid, 'Username': info.username, 'Password': info.password, 'Email': info.email};
+    var data = {'UserID': info.userid, 'Username': info.username, 'Password': hex_md5(info.password), 'Email': info.email};
     RegService.save(data, function(content){
-      console.log(content);
+        console.log(content);
         var alertPopup = $ionicPopup.alert({
         title: 'Registration is successfully!',
         template: 'You can now log in the applcation.'
+        });
+        alertPopup.then(function(res){
+          AuthService.login(info.email, info.password).then(function(authenticated) {
+          $state.go('app.home', {}, {reload: true});
+          $scope.setCurrentUsername(info.email);
+          }, function(err) {
+          // $ionicLoading.hide();
+          var alertPopup = $ionicPopup.alert({
+            title: 'Login failed!',
+            template: 'Please check your credentials!'
+          });
+        });
       });
+
+    }, function(error){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Error!',
+        template: 'Cannot register!'
+        });
     })
 
   }
 
+  $scope.setCurrentUsername = function(name) {
+    $rootScope.username = name;
+  };
 
   $scope.cancel = function(){
 
@@ -417,7 +481,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 })
 
 
-.controller('searchCon',function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService, DetailIdea, AUTH_EVENTS, AuthService, $state, $ionicPopup, $ionicLoading){
+.controller('searchCon',function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService, DetailIdea, AUTH_EVENTS, AuthService, $state, $ionicPopup, $ionicLoading, $stateParams){
 
     function keywordSplit(keyword){
       var kw = keyword;
@@ -434,38 +498,73 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       return String;
     }
 
+    //search settings
+    $scope.recordsPerRequest = 5;
+    $scope.startRecord = 0; //start from 0
+    $scope.terminate = false;
+    $scope.displayButton = false;
+
+
     $scope.search = function(search){
-      
-    $ionicLoading.show({
-    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
-    animation: 'fade-in',
-    showBackdrop: true,
-    maxwidth: 200,
-    hideOnStateChange: true
-    //duration: 1000
-  });
+      $scope.displayButton = false;
+      $scope.startRecord = 0;
+        $ionicLoading.show({
+        template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+        animation: 'fade-in',
+        showBackdrop: true,
+        maxwidth: 200,
+        hideOnStateChange: true
+        //duration: 1000
+      });
 
       if (search.keyword == null){
+        $ionicLoading.hide();
         return;
       }
+      console.log($stateParams.pass);
 
       var splitedArray = keywordSplit(search.keyword);
-      var joinedArray = keywordJoin(splitedArray);
-      QueryService.get({queries: joinedArray}, function(content1){
+      $scope.joinedArray = keywordJoin(splitedArray);
+      QueryService.get({queries: $scope.joinedArray, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
         console.log(content1);
         $rootScope.qdata = content1;
         $ionicLoading.hide();
+        $scope.startRecord = content1["eind"] +1;
+        $scope.size = content1["size"]; //total number of records
+        $scope.displayButton = true;
 
-        // getAllRating();
+
 
       } );
 
-      // var jsonF = {"Query": splitedArray}; 
-      // Idea.save(jsonF, function(content1){
-      //   console.log(content1);
-      //   $scope.searchResult = content1['Result'];
-      // });
     }
+
+<!--infinite scroll, load more-->
+
+
+  $scope.loadMore = function() {
+    $scope.displayButton = false;  
+    console.log("Trying to load more");
+    console.log($scope.startRecord);
+    if ($scope.startRecord < $scope.size){
+      QueryService.get({queries: $scope.joinedArray, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
+        console.log(content);
+        angular.forEach(content.Ideas, function(record){
+          $rootScope.qdata.Ideas.push(record);
+        })
+        $scope.startRecord = content["eind"] +1;
+        $scope.capacity = content["capacity"];
+        $scope.displayButton = true;
+
+
+
+      })
+    }
+
+
+    $scope.$broadcast('scroll.infiniteScrollComplete');
+  }
+
 
   $scope.checkComplete = function(text, limit){
     if (text.length <= limit)
@@ -475,6 +574,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     }
     return limit;
   };
+
 
 
 //   var getAllRating = function(){
@@ -576,11 +676,12 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('CategoryController', ['$scope', '$http', function($scope,$http, CategoryService) {
-  $scope.data = null;
+.controller('CategoryController', function($scope,$http, CategoryService) {
+  $scope.Category = null;
 
-  CategoryService.get({}, function(content){
-    $scope.data = content;
+  CategoryService.query( function(content){
+    console.log(content);
+    $scope.Category = content;
   })
 
   $scope.items=[];
@@ -592,7 +693,9 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   $scope.colorInitialize= function(){for (var i=5;i<100;i++){
     $scope.items[i] = $scope.items[Math.floor(Math.random()*5)];
 }}
-}])
+})
+
+
 
 .controller('RatingController', ['$scope', '$rootScope','RatingGetService','RatingPostService', function($scope, $rootScope, RatingGetService, RatingPostService) {
   $scope.rating = 0;
@@ -857,4 +960,78 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     }
   })
 
-;
+.controller("tagSearchCon", function($scope, QueryService, $rootScope, $ionicLoading){
+
+    //search settings
+    $scope.recordsPerRequest = 5;
+    $scope.startRecord = 0; //start from 0
+    $scope.terminate = false;
+    $scope.displayButton = false;
+
+    QueryService.get({queries: $rootScope.keyword, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
+        console.log(content1);
+        $ionicLoading.hide();
+        $rootScope.qdata = content1;
+        $scope.startRecord = content1["eind"] +1;
+        $scope.size = content1["size"]; //total number of records
+        $scope.displayButton = true;
+
+
+
+      } );
+
+
+  $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
+
+
+    <!--infinite scroll, load more-->
+
+
+  $scope.loadMore = function() {
+    $scope.displayButton = false;  
+    console.log("Trying to load more");
+    console.log($scope.startRecord);
+    if ($scope.startRecord < $scope.size){
+      QueryService.get({queries: $rootScope.keyword, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
+        console.log(content);
+        angular.forEach(content.Ideas, function(record){
+          $rootScope.qdata.Ideas.push(record);
+        })
+        $scope.startRecord = content["eind"] +1;
+        $scope.capacity = content["capacity"];
+        $scope.displayButton = true;
+
+
+
+      })
+    }
+
+
+    $scope.$broadcast('scroll.infiniteScrollComplete');
+  }
+
+
+  $scope.checkComplete = function(text, limit){
+    if (text.length <= limit)
+      return text.length;
+    while (text.charAt(limit)!= ' '){
+      limit+=1;
+    }
+    return limit;
+  };
+
+   $scope.findArray = function(id){
+
+    $rootScope.currentID = id;//same as currentPost
+
+  }
+
+
+});

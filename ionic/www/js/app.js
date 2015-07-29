@@ -60,15 +60,18 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
       'menuContent': {
         templateUrl: "templates/search.html",
         controller: 'searchCon'
+        
       }
     }
+    
   })
 
   .state('app.category', {
     url: "/category",
     views: {
       'menuContent': {
-        templateUrl: "templates/category.html"
+        templateUrl: "templates/category.html",
+        controller: "CategoryController"
       }
     }
   })
@@ -114,7 +117,18 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analyti
         templateUrl: "templates/feedback.html"
       }
     }
-  });
+  })
+
+
+      .state('app.searchpage',{
+        url: "/tagSearch/:id",
+        views: {
+          'menuContent':{
+            templateUrl: "templates/pageOfresult.html",
+            controller: 'tagSearchCon'
+          }
+        }
+      });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/sign-in');
 

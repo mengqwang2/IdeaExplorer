@@ -37,7 +37,7 @@
         </a>
 
     </div>
-    <button class="button button-positive button-block round" ng-click="loadMore()">Load More</button>
+    <button class="button button-positive button-block round" ng-click="loadMore()" ng-if="displayButton">Load More</button>
 
 <!--need ID, title, description and tags-->
 <!--ion-infinite-scroll on-infinte="loadMore()" distance="1%" ng-if="(startRecord > size)">

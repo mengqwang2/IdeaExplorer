@@ -16,7 +16,7 @@ angular.module('starter.services', [])
 })
 
 .factory('QueryService', function($resource){
-  return $resource('http://10.43.72.71:port/api/ideas/query=:queries', {port: ':5000', queries: '@_querystring'});
+  return $resource('http://10.43.72.71:port/api/ideas/query=:queries&start=:sind&cap=:capacity', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity'});
 })
 
 

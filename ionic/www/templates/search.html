@@ -47,13 +47,15 @@
   <button class="button button-block round button-positive" ng-click="AdvancedShow=false; search(search)">Search</button>
 </ion-list>
 
+
+<div search-result ng-hide="AdvancedShow"></div>
+
 <!--need to change source for query instead of all-->
-  <div class="list list-inset" ng-repeat='item in qdata.Ideas' ng-hide="AdvancedShow">
+<!--   <div class="list list-inset" ng-repeat='item in qdata.Ideas' ng-hide="AdvancedShow">
           <a class="item item-divider" href="#/app/home/{{item.id}}" ng-click="findArray(item.id); track(item.id, username);">{{item.title}}</a>
-          <!--ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}"-->
+
         <a class="item item-body" href="#/app/home/{{item.id}}" ng-click="findArray(item.id); track(item.id, username);">
-          <!--ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}"-->
-          
+
       {{item.description| limitTo: checkComplete(item.description, 150)}}... 
           <br>
 
@@ -63,7 +65,7 @@
         </a>
 
     </div>
-
+    <button class="button button-positive button-block round" ng-click="loadMore()" ng-if="displayButton">Load More</button> -->
 
 <!--ion-infinite-scroll on-infinte="loadMore()" distance="1%">
 </ion-infinite-scroll-->

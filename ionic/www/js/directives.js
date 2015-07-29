@@ -40,4 +40,14 @@ return {
     controllerAs: 'unRatCon',
     bindToController:true
   }; 
+})
+
+
+.directive('searchResult', function(){
+  return{
+    restrict: 'A',
+    templateUrl: 'js/directives/searchResult.html',
+
+  };
+
 });

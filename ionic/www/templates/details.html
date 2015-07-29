@@ -7,7 +7,7 @@
 		<p>By<span ng-repeat="innovator in datum.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a> </span>
 		</p>
 		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='datum.rating'></rating></p>
-		<p><div class="item-text-wrap"><span ng-repeat="tag in datum.tags">#{{tag}} </span></div></p>
+		<p><div class="item-text-wrap"><span ng-repeat="tag in datum.tags">#<a ng-click="findKeyword(tag)" href="#/app/tagSearch/{{tag}}">{{tag}}</a> </span></div></p>
 	</div>
 
 	<div ng-repeat="title in sections">
