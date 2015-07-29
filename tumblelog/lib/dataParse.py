@@ -21,11 +21,16 @@ class dataParse():
 		fo.close()
 
 	def fieldParse(self,fname):
-		docList=[]
-		for ind in self.__ideas['data']:
-			docList.append(ind[fname])
-
-		return docList
+		if fname!='id':	
+			docDict=dict()
+			for ind in self.__ideas['data']:
+				docDict[ind['id']]=ind[fname]
+			return docDict
+		else:
+			docList=list()
+			for ind in self.__ideas['data']:
+				docList.append(ind['id'])
+			return docList
 
 	def concatedField(self,fList):
 		fieldList=[]

@@ -19,16 +19,17 @@ class DocDetail(MethodView):
 		punc = ["(", ")", ":", ";", ",", "-", "!", ".", "?", "/", "\"", "*","#","_"]
 		word = word.lower()
 		for p in punc:
-		    word = word.replace(p, " ")
+			word = word.replace(p, " ")
 		return word
 
 	def getTags(self):
 		raw_tag=self.ideaObj.tags
 		if raw_tag=="":
 			raw_tag="na"
-		word=unicode(raw_tag).code("utf-8")
+		word=unicode(raw_tag).encode("utf-8")
 		word=self.wordTrim(word)
 		wordList=word.split()
+		wordList=list(set(wordList))
 		return wordList
 
 	def getUpdatedDate(self):
@@ -48,12 +49,9 @@ class DocDetail(MethodView):
 			innoDict["name"]=i.name
 			innoDict["email"]=i.email
 
-			innoList.append(i)
+			innoList.append(innoDict)
 
-		inno=dict()
-		#inno["innovators"]=innoList
-		#return inno
-		return inno
+		return innoList
 
 	def getStatus(self):
 		return self.ideaObj.status

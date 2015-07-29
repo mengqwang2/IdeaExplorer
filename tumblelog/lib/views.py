@@ -2,17 +2,16 @@ from flask import current_app, flash, Blueprint, request, redirect, render_templ
 from flask.views import MethodView
 from tumblelog.models import *
 from flask.ext.mongoengine.wtf import model_form
+from User import Users
 from flask.ext.login import (current_user, login_required, login_user, logout_user, confirm_login, fresh_login_required)
 from jinja2 import TemplateNotFound
 from tumblelog import login_manager,flask_bcrypt
-import forms
+import forms, keywordSearch
 from hashlib import md5
 import sys
 sys.path.append('/Users/mengqwang/Documents/IdeaExplorer/tumblelog/flask-tumblelog/tumblelog/DBUpdate')
-sys.path.append('/Users/mengqwang/Documents/IdeaExplorer/tumblelog/flask-tumblelog/tumblelog/lib')
 import DBSim,DBGamma,DBLambda,DBVocab
-import category, docRecommend, keywordSearch
-from User import Users
+import category, docRecommend
 
 posts = Blueprint('posts', __name__, template_folder='templates')
 

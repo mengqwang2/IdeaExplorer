@@ -84,5 +84,43 @@ class UserPost(db.DynamicDocument):
         'ordering': ['docid']
     }
 
+class DocTag(db.DynamicDocument):
+    docid = db.IntField(required=True)
+    tags = db.ListField(db.StringField(max_length=255))
 
+class TagDoc(db.DynamicDocument):
+    tag = db.StringField(max_length=255)
+    docid = db.ListField(db.IntField(required=True))
+
+class GammaDT(db.DynamicDocument):
+    docid=db.IntField(required=True)
+    gamma=db.ListField(db.FloatField(required=True))
+
+class DocGamma(db.EmbeddedDocument):
+    docid=db.IntField(required=True)
+    gamma=db.FloatField(required=True)
+
+class GammaTD(db.DynamicDocument):
+    topicid=db.IntField(required=True)
+    gam=db.ListField(db.EmbeddedDocumentField('DocGamma'))
+
+class Similarity(db.DynamicDocument):
+    docid=db.IntField(required=True)
+    sim=db.FloatField(required=True)
+
+class DocSim(db.DynamicDocument):
+    docid=db.IntField(required=True)
+    similarity=db.ListField(db.EmbeddedDocumentField('Similarity'))
+
+class LambdaTW(db.DynamicDocument):
+    topicid=db.IntField(required=True)
+    lam=db.ListField(db.FloatField(required=True))
+
+class LambdaWT(db.DynamicDocument):
+    wordid=db.IntField(required=True)
+    lam=db.ListField(db.FloatField(required=True))
+
+class Vocab(db.DynamicDocument):
+    vid=db.IntField(required=True)
+    word=db.StringField(max_length=255, required=True)
 

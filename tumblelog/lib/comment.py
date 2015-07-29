@@ -13,10 +13,9 @@ import logging
 class Comment():
 	def __init__(self,postid):
 		self.postid=postid
-		self.email=email
 
 	def commentGet(self):
-		comList={}
+		comList=[]
 		postAll=UserPost.objects.all()
 		fd=0
 		for p in postAll:
@@ -30,7 +29,7 @@ class Comment():
 			comDict={}
 			comDict["user"]=c.user.email
 			comDict["content"]=c.content
-			comDict["date"]=c.created_at
+			comDict["date"]=c.created_at.strftime('%H:%M %Y-%m-%d')
 			comList.append(comDict)
 
 		return comList

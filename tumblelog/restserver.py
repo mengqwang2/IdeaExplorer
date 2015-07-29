@@ -6,10 +6,27 @@ from itsdangerous import (TimedJSONWebSignatureSerializer
 from flask.ext.httpauth import HTTPBasicAuth
 import logging
 from flask import request, jsonify
-import register,login,docList,docDetail,rate,comment
+import sys
+sys.path.append('/Users/mengqwang/Documents/IdeaExplorer/tumblelog/flask-tumblelog/tumblelog/DBUpdate')
+sys.path.append('/Users/mengqwang/Documents/IdeaExplorer/tumblelog/flask-tumblelog/tumblelog/lib')
+import register,login,docList,docDetail,rate,comment,docRecommend
+from tumblelog.models import *
+from tumblelog import cache
+from flask import current_app, flash, Blueprint, request, redirect, render_template, url_for
+from flask.ext.login import (current_user, login_required, login_user, logout_user, confirm_login, fresh_login_required)
+import flask
+import urllib
+
 
 api = Api(app)
 auth = HTTPBasicAuth()
+
+def cache_key():
+    args = flask.request.args
+    key1 = flask.request.path
+    keyList = key1.split("&")
+    print keyList[0]
+    return keyList[0]
 
 
 class Utility:
@@ -95,11 +112,12 @@ class UserHabitAPI(Resource):
 
 class IdeaAPI(Resource):
     decorators = [auth.login_required]
-    def get(self, email):
-        print "IdeaAPI"
-        dl=docList.DocList(email)
-        kwList=dl.getKeywords()
-        dlist=dl.doRetrieveDoc(kwList)
+
+    @cache.cached(timeout=50,key_prefix=cache_key)
+    def retrieveIdeaList(self,email):
+        userObj=UserProfile.objects.get_or_404(email=email)
+        dl=docList.DocList(userObj=userObj)
+        dlist=dl.doRetrieveDoc()
         data=list()
         ideasDict={}
         for d in dlist:
@@ -110,11 +128,34 @@ class IdeaAPI(Resource):
             dd=docDetail.DocDetail(d)
             d_detail["title"]=dd.getTitle()
             d_detail["description"]=dd.getDescription()
-            d_detail["tags"]=" "
+            d_detail["tags"]=dd.getTags()
             d_detail["rating"]=rt
+            d_detail["innovators"]=dd.getInnovator()
             data.append(d_detail)
+        return data
 
-        ideasDict["Ideas"]=data
+    def get(self, email, sind, capacity):
+        print "IdeaAPI"
+        self.email=email
+        data=self.retrieveIdeaList(email)
+        ideasDict={}
+
+        size=len(data)
+        if (sind>=size):
+            ideasDict["Ideas"]=[]
+            ideasDict["eind"]=size-1
+            ideasDict['size']=len(data)
+            return ideasDict
+        
+        if (sind+capacity>size):
+            data1=data[sind:size]
+            ideasDict["eind"]=size-1
+        else:
+            data1=data[sind:sind+capacity]
+            ideasDict["eind"]=sind+capacity-1
+        
+        ideasDict["Ideas"]=data1
+        ideasDict['size']=len(data)
         return ideasDict
 
 
@@ -134,8 +175,10 @@ class DetailAPI(Resource):
         data["pps"]=dd.getProbSolved()
         data["success_benefit"]=dd.getSuccessBenefit()
         data["rating"]=rt
-
+        data["tags"]=dd.getTags()
+        data["innovators"]=dd.getInnovator()
         return data
+
 
 class QueryAPI(Resource):
     decorators = [auth.login_required]
@@ -145,28 +188,48 @@ class QueryAPI(Resource):
 
         super(QueryAPI, self).__init__()
 
-
-    def get(self, queries):
-        print "QueryAPI"
-        kwList=queries.split("&")
-        email=" "
-        dl=docList.DocList(email)
-        dlist=dl.doRetrieveDoc(kwList)
+    @cache.cached(timeout=50,key_prefix=cache_key)
+    def retrieveIdeaList(self,kwList):
+        dl=docList.DocList(kwList=kwList)
+        dlist=dl.doRetrieveDoc()
         data=list()
-        ideasDict={}
+        
         for d in dlist:
-            rateObj=rate.Rate('0',d)
+            rateObj=rate.Rate(d,'0')
             rt=rateObj.rateGet()
             d_detail=dict()
             d_detail["id"]=d
             dd=docDetail.DocDetail(d)
             d_detail["title"]=dd.getTitle()
             d_detail["description"]=dd.getDescription()
-            d_detail["tags"]=" "
+            d_detail["tags"]=dd.getTags()
             d_detail["rating"]=rt
+            d_detail["innovators"]=dd.getInnovator()
             data.append(d_detail)
+        return data
 
-        ideasDict["Ideas"]=data
+    def get(self, queries, sind, capacity):
+        print "QueryAPI"
+        kwList=queries.split("&")
+        data=self.retrieveIdeaList(kwList)
+        ideasDict={}
+
+        size=len(data)
+        if (sind>=size):
+            ideasDict["Ideas"]=[]
+            ideasDict["eind"]=size-1
+            ideasDict['size']=len(data)
+            return ideasDict
+        
+        if (sind+capacity>size):
+            data1=data[sind:size]
+            ideasDict["eind"]=size-1
+        else:
+            data1=data[sind:sind+capacity]
+            ideasDict["eind"]=sind+capacity-1
+        
+        ideasDict["Ideas"]=data1
+        ideasDict['size']=len(data)
         return ideasDict
 
 
@@ -209,7 +272,16 @@ class RatingGetAPI(Resource):
         rt=rateObj.rateGet()
         return {'rating': rt};
 
-class CommentAPI(Resource):
+class CommentGetAPI(Resource):
+    #decorators = [auth.login_required]
+
+    def get(self,postid):
+        comObj=comment.Comment(postid)
+        comList=comObj.commentGet()
+        return {'Comment': comList}
+
+
+class CommentPostAPI(Resource):
 
     #decorators = [auth.login_required]
     
@@ -225,14 +297,11 @@ class CommentAPI(Resource):
                                    help='Password required',
                                    location='json')
 
-        super(CommentAPI, self).__init__()
+        super(CommentPostAPI, self).__init__()
 
-    def get(self,postid):
-        comObj=comment.Comment(postid)
-        comList=comObj.get()
-        return {'Comment': comList}
 
     def post(self):
+        print "Enter the comment API"
         args = self.reqparse.parse_args()
         email=args["Email"]
         content=args["Content"]
@@ -242,11 +311,11 @@ class CommentAPI(Resource):
             comObj=comment.Comment(docid)
             msg=comObj.commentPost(content,email)
             if (msg=="Comment successfully!"):
-                return 201
+                comList=comObj.commentGet()
+                return {'Comment': comList},201
             return 203
         except:
             return 203
-        
 
 class UserRegAPI(Resource):
     def __init__(self):
@@ -277,8 +346,6 @@ class UserRegAPI(Resource):
         
 
 class UserAuthAPI(Resource):
-
-
     def __init__(self):
         self.reqparse = reqparse.RequestParser()
         self.reqparse.add_argument('Email', type=str, required=True,
@@ -288,8 +355,6 @@ class UserAuthAPI(Resource):
                                    help='Password required',
                                    location='json')
         super(UserAuthAPI, self).__init__()
-
-
 
     def post(self):
         print "UserAuthAPI"
@@ -304,16 +369,15 @@ class UserAuthAPI(Resource):
         else:
             logging.warning("Login failed")
             return {"state":msg},203
-        
-        
 
-
-api.add_resource(IdeaAPI, '/api/ideas/<string:email>')
+api.add_resource(IdeaAPI, '/api/ideas/id=<string:email>&start=<int:sind>&cap=<int:capacity>')
+#api.add_resource(IdeaAPI, '/api/ideas/<string:email>')
 api.add_resource(UserAuthAPI, '/api/login')
 api.add_resource(PasswordRecoveryAPI, '/api/login/forget')
-api.add_resource(QueryAPI, '/api/ideas/query=<string:queries>')
+api.add_resource(QueryAPI, '/api/ideas/query=<string:queries>&start=<int:sind>&cap=<int:capacity>')
 api.add_resource(UserRegAPI, '/api/reg')
-api.add_resource(CommentAPI, '/api/ideas/comment/<int:postid>')
+api.add_resource(CommentGetAPI, '/api/ideas/comment/<int:postid>')
+api.add_resource(CommentPostAPI, '/api/ideas/comment')
 api.add_resource(RatingPostAPI, '/api/ideas/rating')
 api.add_resource(RatingGetAPI, '/api/ideas/rating/<int:postid>/<string:email>')
 api.add_resource(UserHabitAPI, '/api/user/habit')
