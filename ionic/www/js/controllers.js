@@ -216,7 +216,7 @@ angular.module('starter.controllers', [])
     //duration: 1000
   });
 
-  $scope.datum = DetailIdea.get({id: $rootScope.currentID}, function(returndata){
+  $scope.datum = DetailIdea.get({id: $rootScope.currentID, email: $rootScope.username}, function(returndata){
       console.log(returndata);
       $rootScope.datum = returndata;
       $ionicLoading.hide();
