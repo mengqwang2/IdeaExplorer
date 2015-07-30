@@ -4,11 +4,11 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'ionic.service.core', 'ionic.service.analytics', 'ngResource','starter.controllers', 'starter.services','starter.directives', 'ngAnimate'])
+angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.controllers', 'starter.services','starter.directives', 'ngAnimate'])
 
-.run(function($ionicPlatform, $ionicAnalytics) {
+.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
-    $ionicAnalytics.register();
+    // $ionicAnalytics.register();
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (window.cordova && window.cordova.plugins.Keyboard) {

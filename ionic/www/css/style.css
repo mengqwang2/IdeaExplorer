@@ -75,3 +75,6 @@
 	background-color: #7F7F7F;
 }
 
+.body{
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}

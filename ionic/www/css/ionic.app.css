@@ -7795,3 +7795,7 @@ a.button {
   content: url(../img/logo.png);
   height: 180px;
 }
+
+.body{
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
