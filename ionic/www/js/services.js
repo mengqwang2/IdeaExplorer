@@ -1,11 +1,7 @@
 angular.module('starter.services', [])
 
 .factory('Idea', function($resource) {
-  return $resource('http://10.43.77.30:port/api/ideas/id=:id&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', sind: '@start', capacity: '@capacity' }, {
-    update: {
-      method: 'PUT'
-    }
-  });
+  return $resource('http://10.43.77.30:port/api/ideas/id=:id&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', sind: '@start', capacity: '@capacity' });
 })
 
 .factory('authentication', function($resource){
@@ -46,6 +42,10 @@ angular.module('starter.services', [])
 
 .factory('CategoryService', function($resource){
   return $resource('http://10.43.77.30:port/api/category', {port: ':5000'});
+})
+
+.factory('SimilarService', function($resource){
+  return $resource('http://10.43.77.30:port/api/ideas/relevant/:postid', {port: ':5000', postid: '@_id'});
 })
 
 .service('AuthService', function($q, $http, USER_ROLES, authentication) {
