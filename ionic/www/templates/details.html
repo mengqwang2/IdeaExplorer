@@ -19,8 +19,11 @@
 		{{datum[title[1]]}}
 	</div>
 	</div>
-	<div ng-click="similartopic()" class="item item-icon-right">Find Similar<i class="icon ion-android-arrow-dropright"></i></div>
-
+	<div ng-click="similartopic()" class="item item-divider item-icon-right">Similar ideas
+		<i class="icon ion-android-arrow-dropdown" ng-if="!showSimilar"></i>
+		<i class="icon ion-android-arrow-dropup" ng-if="showSimilar"></i>
+	</div>
+	<div search-result ng-if="showSimilar"></div>
 
 	<!--div ng-show="item.Comments">
 		<div class="item item-divider">

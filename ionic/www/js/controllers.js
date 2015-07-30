@@ -114,6 +114,11 @@ angular.module('starter.controllers', [])
 
 
 
+      }, function(error){
+        var alertPopup = $ionicPopup.alert({
+          title: 'Error',
+          template: 'Unable to retrieve the content!'
+      });
       })
     }
 
@@ -205,7 +210,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService, $ionicLoading){
+.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService, $ionicLoading, SimilarService, $ionicHistory){
 
   $ionicLoading.show({
     template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
@@ -216,10 +221,20 @@ angular.module('starter.controllers', [])
     //duration: 1000
   });
 
+  $scope.displayButton = false;
   $scope.datum = DetailIdea.get({id: $rootScope.currentID, email: $rootScope.username}, function(returndata){
       console.log(returndata);
-      $rootScope.datum = returndata;
-      $ionicLoading.hide();
+      $rootScope.datum = returndata
+      
+      SimilarService.get({postid:$rootScope.currentID}, function(content){
+        $scope.qdata = content;
+        $ionicLoading.hide();
+      }, function(error){
+          var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
+      });
   });
 
   $scope.sections = [['Background', 'rtc'], ['Details','description'], ['Practical Problems Solved', 'pps'],['Success Benefits','success_benefit']];
@@ -229,46 +244,39 @@ angular.module('starter.controllers', [])
       $scope.show_section[section] = !$scope.show_section[section];
       $scope.$broadcast('scroll.resize');
   };
+
+$scope.showSimilar = false;
   $scope.similartopic = function() {
-    $state.go('app.similartopic', {}, {reload: true});
+    
+    $scope.showSimilar = !$scope.showSimilar;
     //<!--console.log('Similartopic');-->
     //$state.go('similartopic');
+  };
+
+    $scope.checkComplete = function(text, limit){
+    if (text.length <= limit)
+      return text.length;
+    while (text.charAt(limit)!= ' '){
+      limit+=1;
+    }
+    return limit;
   };
 
 
 
 
   $scope.findKeyword = function(word){
-      //   $ionicLoading.show({
-      //   template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
-      //   animation: 'fade-in',
-      //   showBackdrop: true,
-      //   maxwidth: 200,
-      //   hideOnStateChange: true
-      //   //duration: 1000
-      // });
-
-    //   if (word == null){
-    //     $ionicLoading.hide();
-    //     return;
-    //   }
-
-    //   $scope.startRecord = 0;
-    //   $scope.recordsPerRequest =5;
-    //   QueryService.get({queries: word, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
-    //     console.log(content1);
-    //     $rootScope.qdata = content1;
-    //     $ionicLoading.hide();
-    //     $scope.startRecord = content1["eind"] +1;
-    //     $scope.size = content1["size"]; //total number of records
-    //     $scope.displayButton = true;
-
-
-
-    //   } );
-    // console.log(word)
+    $ionicHistory.nextViewOptions({
+      disableBack: true
+    });
     $rootScope.keyword = word;
     
+  }
+
+
+     $scope.findArray = function(id){
+
+        $rootScope.currentID = id;//same as currentPost
   }
 
    <!--login authentication-->
@@ -319,8 +327,13 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     CommentService.get({postid: Postid }, function(content){
       //need to do sth
       $rootScope.allComments = content['Comment'];
-    })
-  }
+    }, function(error){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+        });
+      }
+  )}
 
 })
 
@@ -535,6 +548,11 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 
 
+      }, function(error){
+            var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
       } );
 
     }
@@ -558,6 +576,11 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 
 
+      }, function(error){
+            var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
       })
     }
 
@@ -676,7 +699,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('CategoryController', function($scope,$http, CategoryService) {
+.controller('CategoryController', function($scope,$http, CategoryService, $ionicPopup) {
   $scope.Category = null;
 
   CategoryService.query( function(content){
@@ -697,10 +720,16 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 
 
-.controller('RatingController', ['$scope', '$rootScope','RatingGetService','RatingPostService', function($scope, $rootScope, RatingGetService, RatingPostService) {
+.controller('RatingController', function($scope, $rootScope, RatingGetService, RatingPostService) {
   $scope.rating = 0;
   RatingGetService.get({postid: $rootScope.currentID, email: $rootScope.username }, function(data){
     $scope.rating = data.rating;
+  }, function(error){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
+
   });
 
   $scope.star = ["grey","grey","grey","grey","grey"];
@@ -735,6 +764,12 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
           }
         }
 
+      }, function(error){
+    var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
+
       })
     });
   }
@@ -759,7 +794,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     else
       return "grey";
   }
-}])
+})
 
 .controller('UnchangeRatingController', ['$scope', '$http', '$rootScope', '$timeout', function($scope,$http, $rootScope, $timeout) {
   
@@ -856,6 +891,11 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   $ionicLoading.hide();
 
 
+  }, function(error){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
   });
 
 
@@ -978,6 +1018,12 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 
 
+      }, function(error){
+
+            var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
       } );
 
 
@@ -1010,6 +1056,11 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 
 
+      }, function(error){
+            var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to retrieve the content!'
+      });
       })
     }
 

@@ -1,8 +1,8 @@
 
 <div class="list list-inset" ng-repeat='item in qdata.Ideas'>
-          <a class="item item-divider" href="#/app/home/{{item.id}}" ng-click="findArray(item.id); track(item.id, username);">{{item.title}}</a>
+          <a class="item item-divider" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);">{{item.title}}</a>
           <!--ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}"-->
-        <a class="item item-body" href="#/app/home/{{item.id}}" ng-click="findArray(item.id); track(item.id, username);">
+        <a class="item item-body" href="#/app/home/{{item.id}}" ng-click="findArray(item.id);">
           <!--ion-track-tap="Click Search Document" ion-track-data="{ID: item.id}"-->
           
       {{item.description| limitTo: checkComplete(item.description, 150)}}... 
