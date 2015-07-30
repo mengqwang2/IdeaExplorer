@@ -720,7 +720,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 
 
-.controller('RatingController', function($scope, $rootScope, RatingGetService, RatingPostService) {
+.controller('RatingController', function($scope, $rootScope, RatingGetService, RatingPostService, $ionicPopup) {
   $scope.rating = 0;
   RatingGetService.get({postid: $rootScope.currentID, email: $rootScope.username }, function(data){
     $scope.rating = data.rating;
@@ -737,6 +737,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   isRated = false;
 
   $scope.changeRating = function(number){
+    console.log(number);
     $scope.rating = number;
     isRated = true;
     RatingPostService.save({'Email': $rootScope.username, 'Rating': number, 'PostID': $rootScope.currentID}, function(content, status){
@@ -744,6 +745,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       //get average rating
       RatingGetService.get({postid: $rootScope.currentID, email: "0" }, function(data){
         $rootScope.datum['rating'] = data.rating;
+        console.log($rootScope.datum['rating']);
         if ($rootScope.data){
           for (i = 0; i < $rootScope.data.Ideas.length; i++){
             // console.log($rootScope.data[i].id);
