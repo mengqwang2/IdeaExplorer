@@ -1,4 +1,4 @@
-<ion-view view-title="Search">
+<ion-view name="menuContent" view-title="Search">
   <ion-content class="padding page-bg">
   
 <ion-list class="list-inset" ng-click="AdvancedShow=true">
@@ -10,10 +10,9 @@
 <br>
   <ion-list class="list-inset cssSlideUp" ng-hide="!AdvancedShow">
   <ion-item class="item-input item-select">
-  <div class="input-label">Upload Date</div>
+  <div class="input-label">Update Date</div>
     <select ng-model="search.date">
       <option>No Filter</option>
-      <option>Last hour</option>
       <option>Today</option>
       <option>This Week</option>
       <option>This Month</option>
@@ -21,27 +20,13 @@
     </select>
   </ion-item>
   <ion-item class="item-input item-select">
-  <div class="input-label">Category</div>
-    <select ng-model="search.category">
-      <option>No Filter</option>
-      <option>Infrastructure and Storag</option>
-      <option>Data Protection and Availability</option>
-      <option>Operating Model</option>
-      <option>Cloud</option>
-      <option>Big Data</option>
-      <option>Applications</option>
-      <option>Training and Certification</option>
-      <option>Customer Service</option>
-    </select>
-  </ion-item>
-  <ion-item class="item-input item-select">
   <div class="input-label">Sort By</div>
     <select ng-model="search.order">
       <option>No Filter</option>
       <option>Relevance</option>
-      <option>Upload Date</option>
-      <option>View Count</option>
+      <option>Update Date</option>
       <option>Rating</option>
+      <option>Number of Comments</option>
     </select>
   </ion-item>
   <button class="button button-block round button-positive" ng-click="AdvancedShow=false; search(search)">Search</button>

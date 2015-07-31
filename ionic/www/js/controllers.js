@@ -38,6 +38,10 @@ angular.module('starter.controllers', [])
   //     }
   // })
 
+  $scope.test = function(){
+    $state.go('app.search');
+  }
+  
   $rootScope.username = AuthService.username();
  
   // $scope.$on(AUTH_EVENTS.notAuthorized, function(event) {
@@ -699,12 +703,23 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
 })
 
-.controller('CategoryController', function($scope,$http, CategoryService, $ionicPopup) {
+.controller('CategoryController', function($scope,$http, CategoryService, $ionicPopup, $ionicLoading) {
+  
+  $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+    //duration: 1000
+  });
+
   $scope.Category = null;
 
   CategoryService.query( function(content){
     console.log(content);
     $scope.Category = content;
+    $ionicLoading.hide();
   })
 
   $scope.items=[];
