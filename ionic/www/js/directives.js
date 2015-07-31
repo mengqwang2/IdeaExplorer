@@ -24,7 +24,10 @@ return {
     scope: { 
       info: '=' 
     }, 
-    templateUrl: 'js/directives/individualRating.html' 
+    templateUrl: 'js/directives/individualRating.html',
+    controller : 'RatingController',
+    controllerAs: 'RatCon',
+    bindToController:true
   }; 
 })
 

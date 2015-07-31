@@ -5,8 +5,6 @@
 
 <ion-content class="page-bg" on-infinite-scroll="loadMore()">
 
-<button class="button" ng-click="test()">test to search</button>
-
 <ion-refresh on-refresh="doRefresh()">
 </ion-refresh>
   <!--ion-list> 
@@ -23,12 +21,12 @@
 </ion-list-->
 
     <div class="list list-inset" ng-repeat='item in data.Ideas track by item.id' >
-        <a class="item item-divider" href="#/app/home/{{item.id}}" ng-click="findArray(item.id); track(item.id, username);">{{item.title}}</a>
-        <!--ion-track-tap="Click Home Document" ion-track-data="{ID: item.id}"-->
-        <a class="item item-body" href="#/app/home/{{item.id}}" ng-click="findArray(item.id); track(item.id, username);">
-          <!--ion-track-tap="Click Home Document" ion-track-data="{ID: item.id}"-->
+        <a class="item item-divider" ng-click="findArray(item.id);">{{item.title}}</a>
 
-      {{item.description| limitTo: checkComplete(item.description, 150)}}... 
+        <a class="item item-body" ng-click="findArray(item.id);">
+
+
+      {{item.description| limitTo: 150}}... 
           <br>
     
           <p><span  ng-repeat="tag in item.tags">#{{tag}} </span></p>
@@ -38,6 +36,7 @@
 
     </div>
     <button class="button button-positive button-block round" ng-click="loadMore()" ng-if="displayButton">Load More</button>
+
 
 <!--need ID, title, description and tags-->
 <!--ion-infinite-scroll on-infinte="loadMore()" distance="1%" ng-if="(startRecord > size)">

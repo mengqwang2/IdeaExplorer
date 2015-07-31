@@ -101,15 +101,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
       }
     }
   })
-      .state('app.similartopic', {
-    url: "/similartopic",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/similartopic.html",
-        controller: 'similarTopicController'
-      }
-    }
-  })
+
       .state('app.feedback', {
     url: "/feedback",
     views: {
@@ -163,4 +155,134 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
     $rootScope.qdata = {};
     AuthService.logout();
   };
+
+  $rootScope.dataSource =[];
+  $rootScope.detailSource=[];
+  // helper function
+  $rootScope.pushDatum = function(extData){
+    var mykey =-1;
+    angular.forEach($rootScope.dataSource, function(datum, key){
+      if (datum.id == extData.id){
+        mykey = key;
+      }
+    });
+    if (mykey == -1){
+      $rootScope.dataSource.push(extData);
+      return ($rootScope.dataSource.length-1);
+    }
+    else
+      return mykey;
+  };
+
+  $rootScope.pushData = function(extArray){
+    var list = [];
+    angular.forEach(extArray, function(inputItem, key){
+      list.push($rootScope.pushDatum(inputItem));
+    })
+
+    return list;
+
+  }
+
+  $rootScope.listOfReference = function(extArray){
+    var listOfIdeas =[];
+    var templist = $rootScope.pushData(extArray);
+    angular.forEach(templist, function(num){
+      listOfIdeas.push($rootScope.dataSource[num]);
+    });
+    return listOfIdeas;
+
+  }
+
+
+  $rootScope.allComments = [];
+  $rootScope.insertAllComments = function(passcom, passid){
+    var inserted = false;
+    angular.forEach($rootScope.allComments, function(comment){
+      if (comment.id == passid){
+        comment.content = passcom;
+        inserted = true;
+        return;
+      }
+    });
+    if (!inserted)
+      $rootScope.allComments.push({'id': passid, 'content': passcom});
+  }
+
+  $rootScope.retrieveComments = function(id){
+    var commentCon;
+    angular.forEach($rootScope.allComments, function(comment,key){
+      if (comment.id == id){
+        commentCon = comment.content;
+        return;
+      }
+    });
+    return commentCon;
+
+  }
+
+
+
+  $rootScope.pushDetail = function(extData){
+    var mykey = -1;
+    angular.forEach($rootScope.detailSource, function(datum, key){
+      if (datum.id == extData.id){
+        mykey = key;  
+      }
+    });
+    if (mykey==-1){
+      $rootScope.detailSource.push(extData);
+      return $rootScope.detailSource[($rootScope.detailSource.length-1)];
+    }
+    else{
+      return $rootScope.detailSource[mykey];
+    }
+    
+  };
+
+  $rootScope.changeARating = function(postid, rate){
+    console.log(postid);
+
+    angular.forEach($rootScope.detailSource, function(detail){
+      console.log(detail.id)
+      if (postid == detail.id){
+        console.log("changing detail's rating");
+        detail.rating = rate;
+      }
+    });
+
+    angular.forEach($rootScope.dataSource, function(datum){
+      if (datum.id == postid){
+        datum.rating = rate;
+      }
+    });
+
+  }
+
+  $rootScope.inRateSource = [];
+  $rootScope.changeInRating = function(postid, rate){
+    var found = false;
+    angular.forEach($rootScope.inRateSource, function(record){
+      if (record.id == postid){
+        found = true;
+        record.value = rate;
+      }
+    });
+    if (!found){
+      $rootScope.inRateSource.push({id: postid, value: rate});
+    }
+  }
+
+  $rootScope.getInRating = function(postid){
+    var rate = 0;
+    angular.forEach($rootScope.inRateSource, function(record){
+      if (record.id ==postid){
+        rate = record.value;
+      }
+    });
+    return rate;
+  }
+
+
+
 }]);
