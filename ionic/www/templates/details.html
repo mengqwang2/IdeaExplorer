@@ -7,7 +7,7 @@
 		<p>By<span ng-repeat="innovator in datum.innovators"> <a ng-href="mailto:{{innovator.email}}">{{innovator.name}}</a> </span>
 		</p>
 		<p><span style="float:left">Submitted on {{datum.submit_date | limitTo: 10}}</span><rating info='datum.rating'></rating></p>
-		<p><div class="item-text-wrap"><span ng-repeat="tag in datum.tags">#<a ng-click="findKeyword(tag)" href="#/app/tagSearch/{{tag}}">{{tag}}</a> </span></div></p>
+		<p><div class="item-text-wrap"><span ng-repeat="tag in datum.tags"><button class="button button-clear button-positive" ng-click="findKeyword(tag)">#{{tag}}</a> </span></div></p>
 	</div>
 
 	<div ng-repeat="title in sections">
@@ -25,25 +25,14 @@
 	</div>
 	<div search-result ng-if="showSimilar"></div>
 
-	<!--div ng-show="item.Comments">
-		<div class="item item-divider">
-			{{datum.Comments.length==1? 'Comment': 'Comments'}}
-		</div>
-		<div class="item item-body" ng-repeat="Comment in item.Comments">
-			<div class="item item-avatar"><img src="http://placehold.it/100x100" alt="Avatar">
-				<h2>{{Comment.User}}</h2>
-				<p>{{Comment.Content}}</p>
-			</div>
-			
-		</div>
-	</div-->
+
 
 </div>
 </ion-content>
 <div class="bar bar-footer">
 	<div class="row row-center">
 	<div class="col">
-		<individual-rating info="4"></individual-rating>
+		<individual-rating info="currentID"></individual-rating>
 	</div>
 	<div class="col">
 		<button class="button button-small ion-compose button-block button-clear button-dark" style="font-size: 21px" ng-click="loadComments(currentID)">&nbsp Comment</button>
@@ -51,7 +40,6 @@
 	</div>
 </div>
 
-</div>
 
 </ion-view>
 

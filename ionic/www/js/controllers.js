@@ -21,6 +21,7 @@ angular.module('starter.controllers', [])
 
 }])
 
+
 .controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService, $ionicLoading, $timeout) {
 
   // $scope.doRefresh = function(){
@@ -78,12 +79,16 @@ angular.module('starter.controllers', [])
   $scope.terminate = false;
   $scope.displayButton = false;
 
-  $rootScope.data = Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
+  Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
     console.log(content);
     $ionicLoading.hide();
+    var temp = $rootScope.listOfReference(content.Ideas)
+    console.log(temp);
+    $scope.data = {'Ideas': temp};
     $scope.startRecord = content["eind"] +1;
     $scope.size = content["size"]; //total number of records
     $scope.displayButton = true;
+
 
 
   }, function(error){
@@ -105,8 +110,9 @@ angular.module('starter.controllers', [])
     if ($scope.startRecord < $scope.size){
       Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
         console.log(content);
-        angular.forEach(content.Ideas, function(record){
-          $rootScope.data.Ideas.push(record);
+        var temp = $rootScope.listOfReference(content.Ideas)
+        angular.forEach(temp, function(record){
+          $scope.data.Ideas.push(record);
         })
         $scope.startRecord = content["eind"] +1;
         $scope.capacity = content["capacity"];
@@ -130,36 +136,29 @@ angular.module('starter.controllers', [])
   }
 
 
-  $scope.doRefresh = function(){
+  // $scope.doRefresh = function(){
 
-    $rootScope.data = null;
-    $rootScope.data = Idea.get(function(){
-      $scope.$broadcast('scroll.refreshComplete');
-    });
+  //   $rootScope.data = null;
+  //   $rootScope.data = Idea.get(function(){
+  //     $scope.$broadcast('scroll.refreshComplete');
+  //   });
     
-   };
+  //  };
 
-   $scope.findArray = function(id){
-    // for (i=0; i< $scope.data.Ideas.length; i++){
-    //   if ($scope.data.Ideas[i].id ==id){
-    //     console.log(i);
-        // $rootScope.currentIndex = i;
-        $rootScope.currentID = id;
-      // }
-    // }
-    
-
+   $scope.findArray = function(ids){
+        $rootScope.currentID = ids;
+        $state.go('app.details', {id: ids}, {reload:true});
   }
 
-  $scope.track = function(id, username){
-    console.log(id);
-    console.log(username);
-    <!--pass to API-->
-    var data = {"Email": username, "Postid": id};
-    HabitService.save(data, function(content, value){
-      console.log("Habit recorded");
-    });
-  }
+  // $scope.track = function(id, username){
+  //   console.log(id);
+  //   console.log(username);
+  //   <!--pass to API-->
+  //   var data = {"Email": username, "Postid": id};
+  //   HabitService.save(data, function(content, value){
+  //     console.log("Habit recorded");
+  //   });
+  // }
 
 
 
@@ -222,13 +221,17 @@ angular.module('starter.controllers', [])
   });
 
   $scope.displayButton = false;
-  $scope.datum = DetailIdea.get({id: $rootScope.currentID, email: $rootScope.username}, function(returndata){
+  DetailIdea.get({id: $rootScope.currentID, email: $rootScope.username}, function(returndata){
       console.log(returndata);
-      $rootScope.datum = returndata
+      $scope.datum = $rootScope.pushDetail(returndata);
+      // $scope.datum = $rootScope.datum;
+      $scope.currentID = $rootScope.currentID;
       
-      SimilarService.get({postid:$rootScope.currentID}, function(content){
-        $scope.qdata = content;
+      SimilarService.get({postid:$scope.currentID}, function(content){
+        var temp = $rootScope.listOfReference(content.Ideas);
+        $scope.qdata = {'Ideas':temp};
         $ionicLoading.hide();
+
       }, function(error){
           var alertPopup = $ionicPopup.alert({
         title: 'Error',
@@ -245,7 +248,7 @@ angular.module('starter.controllers', [])
       $scope.$broadcast('scroll.resize');
   };
 
-$scope.showSimilar = false;
+  $scope.showSimilar = false;
   $scope.similartopic = function() {
     
     $scope.showSimilar = !$scope.showSimilar;
@@ -253,24 +256,22 @@ $scope.showSimilar = false;
     //$state.go('similartopic');
   };
 
-    $scope.checkComplete = function(text, limit){
-    if (text.length <= limit)
-      return text.length;
-    while (text.charAt(limit)!= ' '){
-      limit+=1;
-    }
-    return limit;
-  };
+//   //   $scope.checkComplete = function(text, limit){
+//   //   if (text.length <= limit)
+//   //     return text.length;
+//   //   while (text.charAt(limit)!= ' '){
+//   //     limit+=1;
+//   //   }
+//   //   return limit;
+//   // };
 
 
 
 
   $scope.findKeyword = function(word){
-    $ionicHistory.nextViewOptions({
-      disableBack: true
-    });
+
     $rootScope.keyword = word;
-    
+    $state.go('app.searchpage', {id: word}, {reload:true})
   }
 
 
@@ -301,6 +302,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   }).then(function(modal) {
     $scope.modal = modal;
   });
+
   $scope.openModal = function() {
     $scope.modal.show();
   };
@@ -326,14 +328,41 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       return;
     CommentService.get({postid: Postid }, function(content){
       //need to do sth
-      $rootScope.allComments = content['Comment'];
+      $rootScope.insertAllComments(content['Comment'], Postid);
+
+      $scope.allComments = $rootScope.retrieveComments(Postid);
+      console.log($rootScope.retrieveComments(Postid));
     }, function(error){
         var alertPopup = $ionicPopup.alert({
         title: 'Error',
         template: 'Unable to retrieve the content!'
         });
       }
-  )}
+  )};
+
+$scope.commentSubmit = function(comment, postid){
+    console.log("Going to submit comments");
+
+    var userid = $rootScope.username;
+    if (comment==null || comment ==="")
+      return;
+    var commentsS = {"Email": userid, "PostID": postid, "Content": comment};
+    console.log(commentsS.PostID);
+    CommentService.save(commentsS, function(content){
+      console.log(content);
+      $scope.comment = null; //clear the field
+      // $scope.newComments = content['Comment'];
+      // if ($scope.newComments.length >= $rootScope.allComments.length){
+      //   for (i = $rootScope.allComments.length; i<$scope.newComments.length; i++ ){
+      //     $rootScope.allComments.push($scope.newComments[i]);
+      //   }
+      // }
+      $rootScope.insertAllComments(content['Comment'], postid);
+      $scope.allComments = $rootScope.retrieveComments(postid);
+    });
+
+  };
+
 
 })
 
@@ -534,13 +563,14 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
         $ionicLoading.hide();
         return;
       }
-      console.log($stateParams.pass);
+
 
       var splitedArray = keywordSplit(search.keyword);
       $scope.joinedArray = keywordJoin(splitedArray);
       QueryService.get({queries: $scope.joinedArray, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
         console.log(content1);
-        $rootScope.qdata = content1;
+        var temp = $rootScope.listOfReference(content1.Ideas);
+        $scope.qdata = {"Ideas": temp};
         $ionicLoading.hide();
         $scope.startRecord = content1["eind"] +1;
         $scope.size = content1["size"]; //total number of records
@@ -567,8 +597,10 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     if ($scope.startRecord < $scope.size){
       QueryService.get({queries: $scope.joinedArray, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
         console.log(content);
-        angular.forEach(content.Ideas, function(record){
-          $rootScope.qdata.Ideas.push(record);
+        var temp = $rootScope.listOfReference(content.Ideas);
+
+        angular.forEach(temp, function(record){
+          $scope.qdata.Ideas.push(record);
         })
         $scope.startRecord = content["eind"] +1;
         $scope.capacity = content["capacity"];
@@ -624,38 +656,31 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 // };
 
    $scope.findArray = function(id){
-    // for (i=0; i< $scope.data.Ideas.length; i++){
-    //   if ($scope.data.Ideas[i].id ==id){
-    //     console.log(i);
-    //     $rootScope.currentIndex = i;
+
         $rootScope.currentID = id;//same as currentPost
-    //   }
-    // }
-    
-
   }
 
 
 
 
-  $scope.track = function(id, username){
-    console.log(id);
-    console.log(username);
-    <!--pass to API-->
-    var data = {"Email": username, "Postid": id};
-    HabitService.save(data, function(content, value){
-      console.log("Habit recorded");
-    });
+  // $scope.track = function(id, username){
+  //   console.log(id);
+  //   console.log(username);
+  //   <!--pass to API-->
+  //   var data = {"Email": username, "Postid": id};
+  //   HabitService.save(data, function(content, value){
+  //     console.log("Habit recorded");
+  //   });
 
-  }
+  // }
 
-    $("#autocomplete").autocomplete({
-      source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
-    })
+    // $("#autocomplete").autocomplete({
+    //   source: ["c++","c++","java","php","coldfusion","javascript","asp","ruby"]
+    // })
 
-    $('input').keyup(function(){
-      this.value = this.value.toLowerCase();
-    });
+    // $('input').keyup(function(){
+    //   this.value = this.value.toLowerCase();
+    // });
 
        <!--login authentication-->
   $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
@@ -671,35 +696,8 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 })
 
 
-.controller("CommentController", function($scope, $rootScope,CommentService){
 
-  $scope.commentSubmit = function(comment, postid){
-    console.log("Going to submit comments");
-
-    var userid = $rootScope.username;
-    if (comment==null || comment ==="")
-      return;
-    var commentsS = {"Email": userid, "PostID": postid, "Content": comment};
-    CommentService.save(commentsS, function(content){
-      console.log(content);
-      $scope.comment = null;
-      $scope.newComments = content['Comment'];
-      if ($scope.newComments.length >= $rootScope.allComments.length){
-        for (i = $rootScope.allComments.length; i<$scope.newComments.length; i++ ){
-          $rootScope.allComments.push($scope.newComments[i]);
-        }
-      }
-
-    });
-
-  };
-
-
-
-
-})
-
-.controller('CategoryController', function($scope,$http, CategoryService, $ionicPopup) {
+.controller('CategoryController', function($scope, CategoryService, $ionicPopup, $rootScope, $state) {
   $scope.Category = null;
 
   CategoryService.query( function(content){
@@ -715,15 +713,25 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   $scope.items[4] = "#F25C5C";
   $scope.colorInitialize= function(){for (var i=5;i<100;i++){
     $scope.items[i] = $scope.items[Math.floor(Math.random()*5)];
-}}
+}};
+
+  $scope.findKeyword = function(word){
+    $rootScope.keyword = word;
+    $state.go('app.searchpage',{id: word}, {reload:true});
+    
+  }
 })
 
 
 
 .controller('RatingController', function($scope, $rootScope, RatingGetService, RatingPostService, $ionicPopup) {
+  console.log(this.info);
+  $scope.currentID = this.info;
   $scope.rating = 0;
-  RatingGetService.get({postid: $rootScope.currentID, email: $rootScope.username }, function(data){
-    $scope.rating = data.rating;
+  //get individual rating
+  RatingGetService.get({postid: $scope.currentID, email: $rootScope.username }, function(data){
+    $rootScope.changeInRating($scope.currentID, data.rating);
+    $scope.rating = $rootScope.getInRating($scope.currentID);
   }, function(error){
         var alertPopup = $ionicPopup.alert({
         title: 'Error',
@@ -734,37 +742,39 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
 
   $scope.star = ["grey","grey","grey","grey","grey"];
   
-  isRated = false;
+  var isRated = false;
 
   $scope.changeRating = function(number){
     console.log(number);
     $scope.rating = number;
     isRated = true;
-    RatingPostService.save({'Email': $rootScope.username, 'Rating': number, 'PostID': $rootScope.currentID}, function(content, status){
+    RatingPostService.save({'Email': $rootScope.username, 'Rating': number, 'PostID': $scope.currentID}, function(content, status){
       console.log("rating changed");
       //get average rating
-      RatingGetService.get({postid: $rootScope.currentID, email: "0" }, function(data){
-        $rootScope.datum['rating'] = data.rating;
-        console.log($rootScope.datum['rating']);
-        if ($rootScope.data){
-          for (i = 0; i < $rootScope.data.Ideas.length; i++){
-            // console.log($rootScope.data[i].id);
-            // console.log($rootScope.currentID);
-            if ($rootScope.data.Ideas[i].id == $rootScope.currentID){
-              $rootScope.data.Ideas[i].rating = data.rating;
-              console.log("Found data in home");
-              break;
-            }
-          }
-        }
-        if ($rootScope.qdata){
-          for (i = 0 ;i <$rootScope.qdata.Ideas.length; i++){
-            if ($rootScope.qdata.Ideas[i].id == $rootScope.currentID){
-              $rootScope.qdata.Ideas[i].rating = data.rating;
-              break;
-            }
-          }
-        }
+      RatingGetService.get({postid: $scope.currentID, email: "0" }, function(data){
+        $rootScope.changeARating($scope.currentID, data.rating);
+        console.log($rootScope.detailSource);
+        // $rootScope.datum['rating'] = data.rating;
+        // console.log($rootScope.datum['rating']);
+        // if ($rootScope.data){
+        //   for (i = 0; i < $rootScope.data.Ideas.length; i++){
+        //     // console.log($rootScope.data[i].id);
+        //     // console.log($rootScope.currentID);
+        //     if ($rootScope.data.Ideas[i].id == $rootScope.currentID){
+        //       $rootScope.data.Ideas[i].rating = data.rating;
+        //       console.log("Found data in home");
+        //       break;
+        //     }
+        //   }
+        // }
+        // if ($rootScope.qdata){
+        //   for (i = 0 ;i <$rootScope.qdata.Ideas.length; i++){
+        //     if ($rootScope.qdata.Ideas[i].id == $rootScope.currentID){
+        //       $rootScope.qdata.Ideas[i].rating = data.rating;
+        //       break;
+        //     }
+        //   }
+        // }
 
       }, function(error){
     var alertPopup = $ionicPopup.alert({
@@ -833,161 +843,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
   }
 }])
 
-.controller('similarTopicController', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService, $ionicLoading) {
 
-  // $scope.doRefresh = function(){
-
-  //     $http.get('js/data.json').success(function(data){
-  //     $scope.data = data;
-  //     $scope.$broadcast('scroll.refreshComplete');
-  //    })
-  //   };
-
-  // $http.get("js/data.json").success(function(data){
-  //     $scope.data = data;
-  //     for (i=0; i< $scope.data.Ideas.length ; i++){
-  //       $scope.data.Ideas[i].id = i;
-  //     }
-  // })
-
-  $rootScope.username = AuthService.username();
- 
-  // $scope.$on(AUTH_EVENTS.notAuthorized, function(event) {
-  //   var alertPopup = $ionicPopup.alert({
-  //     title: 'Unauthorized!',
-  //     template: 'You are not allowed to access this resource.'
-  //   });
-  // });
- <!--login-->
-  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
-    AuthService.logout();
-    $state.go('signin');
-    var alertPopup = $ionicPopup.alert({
-      title: 'Session Lost!',
-      template: 'Sorry, You have to login again.'
-    });
-  });
- 
-  $scope.setCurrentUsername = function(name) {
-    $rootScope.username = name;
-  };
-
- <!--login-->
-
-
-
-  $scope.checkComplete = function(text, limit){
-    if (text.length <= limit)
-      return text.length;
-    while (text.charAt(limit)!= ' '){
-      limit+=1;
-    }
-    return limit;
-  }
-
-  $scope.recordsPerRequest = 5;
-  $scope.startRecord = 0; //start from 0
-
-  $rootScope.data = Idea.get({id:$rootScope.username, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
-    console.log(content);
-  $ionicLoading.hide();
-
-
-  }, function(error){
-        var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-      });
-  });
-
-
-
-<!--infinite scroll, load more-->
-
-
-  $scope.loadMore = function() {
-
-
-
-
-
-    $scope.$boardcast('scroll.infiniteScrollComplete');
-  }
-
-
-  $scope.doRefresh = function(){
-
-    $rootScope.data = null;
-    $rootScope.data = Idea.get(function(){
-      $scope.$broadcast('scroll.refreshComplete');
-    });
-    
-   };
-
-   $scope.findArray = function(id){
-    // for (i=0; i< $scope.data.Ideas.length; i++){
-    //   if ($scope.data.Ideas[i].id ==id){
-    //     console.log(i);
-        // $rootScope.currentIndex = i;
-        $rootScope.currentID = id;
-      // }
-    // }
-    
-
-  }
-
-  $scope.track = function(id, username){
-    console.log(id);
-    console.log(username);
-    <!--pass to API-->
-    var data = {"Email": username, "Postid": id};
-    HabitService.save(data, function(content, value){
-      console.log("Habit recorded");
-    });
-  }
-
-
-
-  $ionicLoading.show({
-    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
-    animation: 'fade-in',
-    showBackdrop: true,
-    maxwidth: 200,
-    hideOnStateChange: true
-    //duration: 1000
-  });
-
-
-
-
-//rating
-// var getAllRating = function(){
-
-
-
-//   var promise = [];
-//   $rootScope.ratings = [];
-//   angular.forEach($scope.data.Ideas, function(idea){
-//     var pm = RatingGetService.get({postid: idea.id, email: '0'});
-//     promise.push(pm.$promise);
-//   });
-
-//   $q.all(promise).then(function(values){
-//     angular.forEach(values, function(value){
-//       $rootScope.ratings.push(value.rating);
-
-//     });
-
-//   });
-
-
-// };
-
-// $scope.interpolation = function(value){
-//   return $interpolate(value)($scope);
-// };
-
-})
 
 .controller('feedbackController', function($scope, $ionicPopup, $state){
 
@@ -1009,11 +865,13 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     $scope.startRecord = 0; //start from 0
     $scope.terminate = false;
     $scope.displayButton = false;
+    $scope.keyword = $rootScope.keyword;
 
-    QueryService.get({queries: $rootScope.keyword, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
+    QueryService.get({queries: $scope.keyword, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
         console.log(content1);
         $ionicLoading.hide();
-        $rootScope.qdata = content1;
+        var temp = $rootScope.listOfReference(content1.Ideas);
+        $scope.qdata = {'Ideas':temp};
         $scope.startRecord = content1["eind"] +1;
         $scope.size = content1["size"]; //total number of records
         $scope.displayButton = true;
@@ -1047,10 +905,11 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
     console.log("Trying to load more");
     console.log($scope.startRecord);
     if ($scope.startRecord < $scope.size){
-      QueryService.get({queries: $rootScope.keyword, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
+      QueryService.get({queries: $scope.keyword, sind: $scope.startRecord, capacity: $scope.recordsPerRequest},function(content, code){
         console.log(content);
-        angular.forEach(content.Ideas, function(record){
-          $rootScope.qdata.Ideas.push(record);
+        var temp = $rootScope.listOfReference(content.Ideas);
+        angular.forEach(temp, function(record){
+          $scope.qdata.Ideas.push(record);
         })
         $scope.startRecord = content["eind"] +1;
         $scope.capacity = content["capacity"];

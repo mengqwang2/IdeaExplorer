@@ -1,4 +1,4 @@
-  <ion-modal-view ng-controller="CommentController">
+  <ion-modal-view>
   <ion-header-bar>
   <button class="button-clear" ng-click="closeModal()">Close</button>
   <h1 class="title">Comment</h1>
@@ -24,7 +24,7 @@
     <input type="text" ng-model="comment" id="commentfield" placeholder="Comments">
     </form>
   </label>
-  <button class="button button-clear ion-paper-airplane" ng-click="commentSubmit(comment, currentID);">
+  <button class="button button-clear ion-paper-airplane" ng-click="commentSubmit(comment, currentID); comment=null;">
 
   </button>
 
