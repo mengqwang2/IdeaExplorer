@@ -93,6 +93,16 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
         }
       }
     })
+
+      .state('app.setting', {
+    url: "/setting",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/setting.html",
+        controller: "SettingCtrl"
+      }
+    }
+  })
       .state('app.about', {
     url: "/about",
     views: {
