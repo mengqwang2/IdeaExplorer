@@ -847,20 +847,9 @@ $scope.commentSubmit = function(comment, postid){
 
 
 
-.controller('feedbackController', function($scope, $ionicPopup, $state){
-
-  $scope.feedback = function(feedback){
-    var data = {'Title': feedback.title, 
-      'Details': feedback.detail};
-    
-    var alertPopup = $ionicPopup.alert({
-      title: 'Sent',
-      template: 'Your Feedback is well received.'
-      });
-    }
-  })
 
 .controller("tagSearchCon", function($scope, QueryService, $rootScope, $ionicLoading, $ionicPopup, $state, listenStatus, fireStatus){
+
 
     //search settings
     $scope.recordsPerRequest = 5;
@@ -944,4 +933,52 @@ $scope.commentSubmit = function(comment, postid){
   }
 
 
+})
+
+.controller('SettingCtrl', function($scope) {
+
+  $scope.onItemDelete = function(item) {
+    $scope.items.splice($scope.items.indexOf(item), 1);
+  };
+  
+  $scope.items = [
+    { id: 0 },
+    { id: 1 },
+    { id: 2 },
+    { id: 3 },
+    { id: 4 },
+    { id: 5 },
+    { id: 6 },
+    { id: 7 },
+    { id: 8 },
+    { id: 9 },
+    { id: 10 },
+    { id: 11 },
+    { id: 12 },
+    { id: 13 },
+    { id: 14 },
+    { id: 15 },
+    { id: 16 },
+    { id: 17 },
+    { id: 18 },
+    { id: 19 },
+    { id: 20 }
+
+  ];
+  
+})
+
+.controller('FeedbackCtrl', function($scope, $ionicPopup) {
+  $scope.sendEmail = function(subject, body) {
+      var link = "mailto:test@123.com"
+               + "?subject=New%20email " + escape(subject)
+               + "&body=" + escape(body); 
+               
+      window.location.href = link;
+
+      var alertPopup = $ionicPopup.alert({
+      title: 'Sent',
+      template: 'Your Feedback is well received.'
+      });
+   };
 });

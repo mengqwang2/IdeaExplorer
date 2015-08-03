@@ -10,9 +10,9 @@
 <br>
   <ion-list class="list-inset cssSlideUp" ng-hide="!AdvancedShow">
   <ion-item class="item-input item-select">
-  <div class="input-label">Update Date</div>
+  <div class="input-label">Upload Date</div>
     <select ng-model="search.date">
-      <option>No Filter</option>
+      <option select="selected">No Filter</option>
       <option>Today</option>
       <option>This Week</option>
       <option>This Month</option>
@@ -22,8 +22,8 @@
   <ion-item class="item-input item-select">
   <div class="input-label">Sort By</div>
     <select ng-model="search.order">
-      <option value="relevance" selected>Relevance</option>
-      <option valeu="upload_date">Update Date</option>
+      <option value="relevance" select="selected">Relevance</option>
+      <option value="upload_date">Upload Date</option>
       <option value="rating">Rating</option>
       <option value="no_comments">Number of Comments</option>
     </select>

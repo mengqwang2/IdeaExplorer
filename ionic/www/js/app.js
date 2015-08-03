@@ -98,6 +98,16 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
         }
       }
     })
+
+      .state('app.setting', {
+    url: "/setting",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/setting.html",
+        controller: "SettingCtrl"
+      }
+    }
+  })
       .state('app.about', {
     url: "/about",
     views: {
@@ -111,7 +121,8 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
     url: "/feedback",
     views: {
       'menuContent': {
-        templateUrl: "templates/feedback.html"
+        templateUrl: "templates/feedback.html",
+        controller: "FeedbackCtrl"
       }
     }
   })
