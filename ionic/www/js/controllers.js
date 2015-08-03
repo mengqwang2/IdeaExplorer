@@ -861,20 +861,6 @@ $scope.commentSubmit = function(comment, postid){
 }])
 
 
-
-.controller('feedbackController', function($scope, $ionicPopup, $state){
-
-  $scope.feedback = function(feedback){
-    var data = {'Title': feedback.title, 
-      'Details': feedback.detail};
-    
-    var alertPopup = $ionicPopup.alert({
-      title: 'Sent',
-      template: 'Your Feedback is well received.'
-      });
-    }
-  })
-
 .controller("tagSearchCon", function($scope, QueryService, $rootScope, $ionicLoading){
 
     //search settings
@@ -996,4 +982,19 @@ $scope.commentSubmit = function(comment, postid){
 
   ];
   
+})
+
+.controller('FeedbackCtrl', function($scope, $ionicPopup) {
+  $scope.sendEmail = function(subject, body) {
+      var link = "mailto:test@123.com"
+               + "?subject=New%20email " + escape(subject)
+               + "&body=" + escape(body); 
+               
+      window.location.href = link;
+
+      var alertPopup = $ionicPopup.alert({
+      title: 'Sent',
+      template: 'Your Feedback is well received.'
+      });
+   };
 });
