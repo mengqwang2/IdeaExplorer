@@ -12,7 +12,7 @@
     <ion-nav-view name="menuContent"></ion-nav-view>
   </ion-side-menu-content>
 
-  <ion-side-menu side="left">
+  <ion-side-menu side="left" ng-controller="AppCtrl">
     
     <ion-content class="menu-bg">
       <ion-list>
@@ -24,30 +24,30 @@
         </ion-item>
         <ion-item class="item-divider blue-bg"> Fuctions
     </ion-item>
-        <ion-item menu-close href="#/app/home" class="item-icon-right item-dark">
+        <ion-item menu-close class="item-icon-right item-dark" ui-sref="app.home">
           Home
           <i class="icon ion-home light"></i>
         </ion-item>
-        <ion-item menu-close href="#/app/search" class="item-icon-right item-dark">
+        <ion-item menu-close class="item-icon-right item-dark" ui-sref="app.search">
           Search
           <i class="icon ion-search light"></i>
         </ion-item>
         </ion-item>
-        <ion-item menu-close href="#/app/category" class="item-icon-right item-dark">
+        <ion-item menu-close class="item-icon-right item-dark" ui-sref="app.category">
           Category
            <i class="icon ion-ios-keypad light"></i>
         </ion-item>
-        <ion-item menu-close href="#/app/category" class="item-icon-right item-dark">
-          Category
-           <i class="icon ion-ios-keypad light"></i>
+        <ion-item menu-close class="item-icon-right item-dark" ui-sref="app.setting">
+          Settings
+           <i class="icon ion-settings light"></i>
         </ion-item>
         <ion-item class="item-divider blue-bg"> Information
     </ion-item>
-        <ion-item menu-close href="#/app/about" class="item-icon-right item-dark">
+        <ion-item menu-close class="item-icon-right item-dark" ui-sref="app.about">
           About Us
           <i class="icon ion-person-stalker light"></i>
         </ion-item>
-        <ion-item menu-close href="#/app/feedback" class="item-icon-right item-dark">
+        <ion-item menu-close class="item-icon-right item-dark"  ui-sref="app.feedback">
           Feedback
           <i class="icon ion-ios-paper light"></i>
         </ion-item>

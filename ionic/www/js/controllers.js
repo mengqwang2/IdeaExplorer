@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', ['AuthService' ,function($scope, $rootScope, $ionicModal, $timeout, AuthService) {
+.controller('AppCtrl',function($scope, $rootScope, $state, $ionicHistory) {
   
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -17,9 +17,45 @@ angular.module('starter.controllers', [])
     console.log('Doing login', $scope.loginData);
   };
 
+  // function ionichelper(){
+  //   $ionicHistory.nextViewOptions({
+  //     disableBack: true,
+  //     historyRoot:true
+  //   });
+  // }
+
+  // $scope.clickSearch = function(){
+  //   ionichelper();
+  //   $state.go('app.search');
+  // }
+
+  //   $scope.clickHome = function(){
+  //   ionichelper();
+  //   $state.go('app.home');
+  // }
+
+  //   $scope.clickCategory = function(){
+  //   ionichelper();
+  //   $state.go('app.category');
+  // }
+
+  //   $scope.clickSetting = function(){
+  //   ionichelper();
+  //   $state.go('app.setting');
+  // }
+
+  //   $scope.clickAbout = function(){
+  //   ionichelper();
+  //   $state.go('app.about');
+  // }
+
+  //   $scope.clickFeedback = function(){
+  //   ionichelper();
+  //   $state.go('app.feedback');
+  // }
 
 
-}])
+})
 
 
 .controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q,  $ionicLoading, listenStatus, fireStatus) {
@@ -195,7 +231,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService, $ionicLoading, SimilarService, listenStatus, fireStatus){
+.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService, $ionicLoading, SimilarService, listenStatus, fireStatus, $ionicHistory){
 
   $ionicLoading.show({
     template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
@@ -205,6 +241,8 @@ angular.module('starter.controllers', [])
     hideOnStateChange: true
     //duration: 1000
   });
+
+  console.log($ionicHistory.viewHistory());
 
   $scope.displayButton = false;
   DetailIdea.get({id: $rootScope.currentID, email: $rootScope.username}, function(returndata){
@@ -254,13 +292,14 @@ angular.module('starter.controllers', [])
   $scope.findKeyword = function(word){
 
     $rootScope.keyword = word;
-    $state.go('app.searchpage', {id: word}, {reload:true})
+    $state.go('app.searchpage', {id: word})
   }
 
 
-     $scope.findArray = function(id){
+     $scope.findArray = function(ids){
 
-        $rootScope.currentID = id;//same as currentPost
+        $rootScope.currentID = ids;//same as currentPost
+        $state.go('app.details', {id:ids});
   }
 
   //  <!--login authentication-->
@@ -544,7 +583,7 @@ $scope.commentSubmit = function(comment, postid){
         return;
       }
 
-
+      search.keyword = search.keyword.toLowerCase();
       var splitedArray = keywordSplit(search.keyword);
       $scope.joinedArray = keywordJoin(splitedArray);
       var sortingMethod = sort;
@@ -634,9 +673,10 @@ $scope.commentSubmit = function(comment, postid){
 
 // };
 
-   $scope.findArray = function(id){
+   $scope.findArray = function(ids){
 
-        $rootScope.currentID = id;//same as currentPost
+        $rootScope.currentID = ids;//same as currentPost
+        $state.go('app.details', {id:ids});
   }
 
 
@@ -928,7 +968,7 @@ $scope.commentSubmit = function(comment, postid){
    $scope.findArray = function(ids){
 
     $rootScope.currentID = ids;//same as currentPost
-    $state.go(app.details, {id:ids}, {reload:true});
+    $state.go('app.details', {id:ids});
 
   }
 

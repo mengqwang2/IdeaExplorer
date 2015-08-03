@@ -58,7 +58,6 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
   })
 
   .state('app.search', {
-    cache: false,
     url: "/search",
     views: {
       'menuContent': {
@@ -161,9 +160,10 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
 
 })
 
-.run(['$ionicHistory', 'AuthService', '$rootScope', '$state', function($ionicHistory, AuthService, $rootScope, $state){
+.run( function($ionicHistory, AuthService, $rootScope, $state){
     $rootScope.logout = function(){
     $state.go('signin', {}, {reload:true});
+    $rootScope.$broadcast("logoutClear");
     $ionicHistory.clearHistory();
     $ionicHistory.clearCache();
     $rootScope.data = {};
@@ -302,4 +302,4 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
 
 
 
-}]);
+});
