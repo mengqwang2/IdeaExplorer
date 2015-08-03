@@ -22,7 +22,7 @@ angular.module('starter.controllers', [])
 }])
 
 
-.controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q, HabitService, $ionicLoading, $timeout) {
+.controller('home', function($scope, $rootScope, $state, $ionicPopup, AuthService, AUTH_EVENTS, Idea, $ionicModal, $q,  $ionicLoading, listenStatus, fireStatus) {
 
   // $scope.doRefresh = function(){
 
@@ -32,16 +32,7 @@ angular.module('starter.controllers', [])
   //    })
   //   };
 
-  // $http.get("js/data.json").success(function(data){
-  //     $scope.data = data;
-  //     for (i=0; i< $scope.data.Ideas.length ; i++){
-  //       $scope.data.Ideas[i].id = i;
-  //     }
-  // })
 
-  $scope.test = function(){
-    $state.go('app.search');
-  }
   
   $rootScope.username = AuthService.username();
  
@@ -51,21 +42,22 @@ angular.module('starter.controllers', [])
   //     template: 'You are not allowed to access this resource.'
   //   });
   // });
+  
  <!--login-->
-  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
-    AuthService.logout();
-    $state.go('signin');
-    var alertPopup = $ionicPopup.alert({
-      title: 'Session Lost!',
-      template: 'Sorry, You have to login again.'
-    });
-  });
+  // $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
+  //   AuthService.logout();
+  //   $state.go('signin');
+  //   var alertPopup = $ionicPopup.alert({
+  //     title: 'Session Lost!',
+  //     template: 'Sorry, You have to login again.'
+  //   });
+  // });
+  listenStatus($ionicLoading, $scope);
  
   $scope.setCurrentUsername = function(name) {
     $rootScope.username = name;
   };
 
- <!--login-->
 
 
 
@@ -96,10 +88,7 @@ angular.module('starter.controllers', [])
 
 
   }, function(error){
-    var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-      });
+    fireStatus(error.status);
   });
 
 
@@ -125,16 +114,9 @@ angular.module('starter.controllers', [])
 
 
       }, function(error){
-        var alertPopup = $ionicPopup.alert({
-          title: 'Error',
-          template: 'Unable to retrieve the content!'
-      });
+        fireStatus(error.status);
       })
     }
-
-
-
-
 
     $scope.$broadcast('scroll.infiniteScrollComplete');
   }
@@ -213,7 +195,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService, $ionicLoading, SimilarService, $ionicHistory){
+.controller('DetailController', function($scope, $rootScope, DetailIdea, AuthService, AUTH_EVENTS, $ionicPopup, $state, $ionicModal, CommentService, $ionicLoading, SimilarService, listenStatus, fireStatus){
 
   $ionicLoading.show({
     template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
@@ -237,10 +219,7 @@ angular.module('starter.controllers', [])
         $ionicLoading.hide();
 
       }, function(error){
-          var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-      });
+        fireStatus(error.status);
       });
   });
 
@@ -284,15 +263,17 @@ angular.module('starter.controllers', [])
         $rootScope.currentID = id;//same as currentPost
   }
 
-   <!--login authentication-->
-  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
-    AuthService.logout();
-    $state.go('signin');
-    var alertPopup = $ionicPopup.alert({
-      title: 'Session Lost!',
-      template: 'Sorry, You have to login again.'
-    });
-  });
+  //  <!--login authentication-->
+  // $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
+  //   AuthService.logout();
+  //   $state.go('signin');
+  //   var alertPopup = $ionicPopup.alert({
+  //     title: 'Session Lost!',
+  //     template: 'Sorry, You have to login again.'
+  //   });
+  // });
+listenStatus($ionicLoading, $scope);
+
 
 <!--comments related-->
 $scope.loadComments = function(Postid){
@@ -337,10 +318,7 @@ $ionicModal.fromTemplateUrl('templates/comment.html', {
       $scope.allComments = $rootScope.retrieveComments(Postid);
       console.log($rootScope.retrieveComments(Postid));
     }, function(error){
-        var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-        });
+      fireStatus(error.status);
       }
   )};
 
@@ -363,6 +341,8 @@ $scope.commentSubmit = function(comment, postid){
       // }
       $rootScope.insertAllComments(content['Comment'], postid);
       $scope.allComments = $rootScope.retrieveComments(postid);
+    }, function(error){
+      fireStatus(error.status);
     });
 
   };
@@ -391,15 +371,11 @@ $scope.commentSubmit = function(comment, postid){
       });
       return;
     }
-    //debug
-    // if (user.username ==='admin'){
-    //   $state.go('app.home', {}, {reload: true});
-    //   return; //temporary
-    // }
-    //
+
     AuthService.login(user.username, user.password).then(function(authenticated) {
       user.username = "";
       user.password = "";
+      console.log("logging in");
       $state.go('app.home', {}, {reload: true});
 
       $scope.setCurrentUsername(user.username);
@@ -527,7 +503,7 @@ $scope.commentSubmit = function(comment, postid){
 })
 
 
-.controller('searchCon',function($scope, QueryService, $rootScope, RatingGetService, $q, HabitService, DetailIdea, AUTH_EVENTS, AuthService, $state, $ionicPopup, $ionicLoading, $stateParams){
+.controller('searchCon',function($scope, QueryService, $rootScope, RatingGetService, $q, DetailIdea, $state, $ionicPopup, $ionicLoading, listenStatus, fireStatus){
 
     function keywordSplit(keyword){
       var kw = keyword;
@@ -551,7 +527,7 @@ $scope.commentSubmit = function(comment, postid){
     $scope.displayButton = false;
 
 
-    $scope.search = function(search){
+    $scope.search = function(search, sort){
       $scope.displayButton = false;
       $scope.startRecord = 0;
         $ionicLoading.show({
@@ -571,7 +547,12 @@ $scope.commentSubmit = function(comment, postid){
 
       var splitedArray = keywordSplit(search.keyword);
       $scope.joinedArray = keywordJoin(splitedArray);
-      QueryService.get({queries: $scope.joinedArray, sind: $scope.startRecord, capacity: $scope.recordsPerRequest}, function(content1){
+      var sortingMethod = sort;
+      if (sortingMethod ==null){
+        sortingMethod = "relevance";
+      }
+      console.log(sortingMethod);
+      QueryService.get({queries: $scope.joinedArray, sind: $scope.startRecord, capacity: $scope.recordsPerRequest, sortMethod: sortingMethod}, function(content1){
         console.log(content1);
         var temp = $rootScope.listOfReference(content1.Ideas);
         $scope.qdata = {"Ideas": temp};
@@ -583,10 +564,7 @@ $scope.commentSubmit = function(comment, postid){
 
 
       }, function(error){
-            var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-      });
+        fireStatus(error.status);
       } );
 
     }
@@ -613,10 +591,7 @@ $scope.commentSubmit = function(comment, postid){
 
 
       }, function(error){
-            var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-      });
+        fireStatus(error.status);
       })
     }
 
@@ -686,15 +661,16 @@ $scope.commentSubmit = function(comment, postid){
     //   this.value = this.value.toLowerCase();
     // });
 
-       <!--login authentication-->
-  $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
-    AuthService.logout();
-    $state.go('signin');
-    var alertPopup = $ionicPopup.alert({
-      title: 'Session Lost!',
-      template: 'Sorry, You have to login again.'
-    });
-  });
+  //      <!--login authentication-->
+  // $scope.$on(AUTH_EVENTS.notAuthenticated, function(event) {
+  //   AuthService.logout();
+  //   $state.go('signin');
+  //   var alertPopup = $ionicPopup.alert({
+  //     title: 'Session Lost!',
+  //     template: 'Sorry, You have to login again.'
+  //   });
+  // });
+  listenStatus($ionicLoading, $scope);
 
 
 })
@@ -703,7 +679,7 @@ $scope.commentSubmit = function(comment, postid){
 
 
 
-.controller('CategoryController', function($scope, CategoryService, $ionicPopup, $rootScope, $state, $ionicLoading) {
+.controller('CategoryController', function($scope, CategoryService, $ionicPopup, $rootScope, $state, $ionicLoading, listenStatus, fireStatus) {
 
   $ionicLoading.show({
     template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
@@ -720,7 +696,9 @@ $scope.commentSubmit = function(comment, postid){
     console.log(content);
     $scope.Category = content;
     $ionicLoading.hide();
-  })
+  }, function(error){
+    fireStatus(error.status);
+  });
 
   $scope.items=[];
   $scope.items[0] = "#E19D65";
@@ -736,7 +714,9 @@ $scope.commentSubmit = function(comment, postid){
     $rootScope.keyword = word;
     $state.go('app.searchpage',{id: word}, {reload:true});
     
-  }
+  };
+
+  listenStatus($ionicLoading, $scope);
 })
 
 
@@ -752,7 +732,7 @@ $scope.commentSubmit = function(comment, postid){
   }, function(error){
         var alertPopup = $ionicPopup.alert({
         title: 'Error',
-        template: 'Unable to retrieve the content!'
+        template: 'Unable to retrieve the rating!'
       });
 
   });
@@ -796,10 +776,15 @@ $scope.commentSubmit = function(comment, postid){
       }, function(error){
     var alertPopup = $ionicPopup.alert({
         title: 'Error',
-        template: 'Unable to retrieve the content!'
+        template: 'Unable to retrieve the rating!'
       });
 
       })
+    }, function(error){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Error',
+        template: 'Unable to save the rating!'
+      });
     });
   }
 
@@ -825,7 +810,7 @@ $scope.commentSubmit = function(comment, postid){
   }
 })
 
-.controller('UnchangeRatingController', ['$scope', '$http', '$rootScope', '$timeout', function($scope,$http, $rootScope, $timeout) {
+.controller('UnchangeRatingController', function($scope,$http, $rootScope) {
   
   var controll = this;
   // $scope.rating = $rootScope.ratings[controll.info];
@@ -858,7 +843,7 @@ $scope.commentSubmit = function(comment, postid){
     else
       return "grey";
   }
-}])
+})
 
 
 
@@ -875,7 +860,7 @@ $scope.commentSubmit = function(comment, postid){
     }
   })
 
-.controller("tagSearchCon", function($scope, QueryService, $rootScope, $ionicLoading){
+.controller("tagSearchCon", function($scope, QueryService, $rootScope, $ionicLoading, $ionicPopup, $state, listenStatus, fireStatus){
 
     //search settings
     $scope.recordsPerRequest = 5;
@@ -896,11 +881,8 @@ $scope.commentSubmit = function(comment, postid){
 
 
       }, function(error){
+        fireStatus(error.status);
 
-            var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-      });
       } );
 
 
@@ -913,6 +895,7 @@ $scope.commentSubmit = function(comment, postid){
     //duration: 1000
   });
 
+  listenStatus($ionicLoading, $scope);
 
     <!--infinite scroll, load more-->
 
@@ -935,10 +918,7 @@ $scope.commentSubmit = function(comment, postid){
 
 
       }, function(error){
-            var alertPopup = $ionicPopup.alert({
-        title: 'Error',
-        template: 'Unable to retrieve the content!'
-      });
+        fireStatus(error.status);
       })
     }
 
@@ -956,9 +936,10 @@ $scope.commentSubmit = function(comment, postid){
     return limit;
   };
 
-   $scope.findArray = function(id){
+   $scope.findArray = function(ids){
 
-    $rootScope.currentID = id;//same as currentPost
+    $rootScope.currentID = ids;//same as currentPost
+    $state.go(app.details, {id:ids}, {reload:true});
 
   }
 
