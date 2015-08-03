@@ -21,11 +21,14 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider, $ionicAppProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicAppProvider, $ionicConfigProvider) {
+
+  $ionicConfigProvider.views.maxCache(10);
+
   $ionicAppProvider.identify({
-  app_id: 'f06af2ba',
-  api_key: 'abc48474c87cd1a24d85b53d186e1321772dcfc6403c9fe5'
-});
+    app_id: 'f06af2ba',
+    api_key: 'abc48474c87cd1a24d85b53d186e1321772dcfc6403c9fe5'
+  });
 
   $stateProvider
 
@@ -55,6 +58,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
   })
 
   .state('app.search', {
+    cache: false,
     url: "/search",
     views: {
       'menuContent': {
@@ -76,6 +80,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
     }
   })
     .state('app.home', {
+      cache: false,
       url: "/home",
       views: {
         'menuContent': {
@@ -156,9 +161,9 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
 
 })
 
-.run(['$ionicHistory', 'AuthService', '$rootScope', function($ionicHistory, AuthService, $rootScope){
+.run(['$ionicHistory', 'AuthService', '$rootScope', '$state', function($ionicHistory, AuthService, $rootScope, $state){
     $rootScope.logout = function(){
-    console.log('Clicked logout');
+    $state.go('signin', {}, {reload:true});
     $ionicHistory.clearHistory();
     $ionicHistory.clearCache();
     $rootScope.data = {};
@@ -166,6 +171,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
     $rootScope.qdata = {};
     AuthService.logout();
   };
+
 
   $rootScope.dataSource =[];
   $rootScope.detailSource=[];

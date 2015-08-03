@@ -22,10 +22,10 @@
   <ion-item class="item-input item-select">
   <div class="input-label">Sort By</div>
     <select ng-model="search.order">
-      <option select="selected">Relevance</option>
-      <option>Upload Date</option>
-      <option>Rating</option>
-      <option>Number of Comments</option>
+      <option value="relevance" select="selected">Relevance</option>
+      <option value="upload_date">Upload Date</option>
+      <option value="rating">Rating</option>
+      <option value="no_comments">Number of Comments</option>
     </select>
   </ion-item>
   <button class="button button-block round button-positive" ng-click="AdvancedShow=false; search(search)">Search</button>
