@@ -9,6 +9,6 @@
       <textarea placeholder="Details" rows="15" ng-model="feedback.details"></textarea>
     </label>
   </div>
-  <button class="button button-positive button-block round" ng-click="feedback(feedback)">Send</button>
+  <button class="button button-positive button-block round" ng-click="sendEmail(feedback.title, feedback.details)">Send</button>
   </ion-content>
 </ion-view>
