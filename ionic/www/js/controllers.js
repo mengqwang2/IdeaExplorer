@@ -808,7 +808,9 @@ angular.module('starter.controllers', [])
       QueryService.get({
         queries: $scope.keyword,
         sind: $scope.startRecord,
-        capacity: $scope.recordsPerRequest
+        capacity: $scope.recordsPerRequest,
+        sortMethod: $scope.sortingMethod,
+        filter: $scope.filterMethod
       }, function(content, code) {
         console.log(content);
         var temp = $rootScope.listOfReference(content.Ideas);
