@@ -12,11 +12,12 @@
   <ion-item class="item-input item-select">
   <div class="input-label">Upload Date</div>
     <select ng-model="search.date">
-      <option select="selected">No Filter</option>
-      <option>Today</option>
-      <option>This Week</option>
-      <option>This Month</option>
-      <option>This Year</option>
+      <option select="selected" value="all">No Filter</option>
+      <option value="1month">Within 1 month</option>
+      <option value="6months">Within 6 months</option>
+      <option value="1year">Within 1 year</option>
+      <option value="5years">Within 5 years</option>
+      <option value="10years">Within 10 years</option>
     </select>
   </ion-item>
   <ion-item class="item-input item-select">

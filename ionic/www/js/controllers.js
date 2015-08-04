@@ -62,7 +62,7 @@ angular.module('starter.controllers', [])
   });
 
 
-//load more ideas when the users click the button
+  //load more ideas when the users click the button
   $scope.loadMore = function() {
     $scope.displayButton = false;
     console.log("Trying to load more");
@@ -90,7 +90,7 @@ angular.module('starter.controllers', [])
     $scope.$broadcast('scroll.infiniteScrollComplete');
   }
 
-//prepare for loading a detailed idea
+  //prepare for loading a detailed idea
   $scope.findArray = function(ids) {
     $rootScope.currentID = ids;
     $state.go('app.details', {
@@ -100,7 +100,7 @@ angular.module('starter.controllers', [])
     });
   }
 
-//show the loading icon while the app is accessing the server
+  //show the loading icon while the app is accessing the server
   $ionicLoading.show({
     template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
     animation: 'fade-in',
@@ -135,20 +135,9 @@ angular.module('starter.controllers', [])
     $scope.datum = $rootScope.pushDetail(returndata);
     // $scope.datum = $rootScope.datum;
     $scope.currentID = $rootScope.currentID;
+    $ionicLoading.hide();
 
-    SimilarService.get({
-      postid: $scope.currentID
-    }, function(content) {
-      var temp = $rootScope.listOfReference(content.Ideas);
-      $scope.qdata = {
-        'Ideas': temp
-      };
-      $ionicLoading.hide();
-
-    }, function(error) {
-      fireStatus(error.status);
-    });
-  }, function(error){
+  }, function(error) {
     fireStatus(error.status);
   });
 
@@ -171,9 +160,35 @@ angular.module('starter.controllers', [])
   };
 
   $scope.showSimilar = false;
+  $scope.loadedSimilar = false;
   $scope.similartopic = function() {
-
     $scope.showSimilar = !$scope.showSimilar;
+    if (!$scope.loadedSimilar) {
+      $ionicLoading.show({
+        template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+        animation: 'fade-in',
+        showBackdrop: true,
+        maxwidth: 200,
+        hideOnStateChange: true
+          //duration: 1000
+      });
+
+
+
+      SimilarService.get({
+        postid: $scope.currentID
+      }, function(content) {
+        var temp = $rootScope.listOfReference(content.Ideas);
+        $scope.qdata = {
+          'Ideas': temp
+        };
+        $ionicLoading.hide();
+        $scope.loadedSimilar = true;
+
+      }, function(error) {
+        fireStatus(error.status);
+      });
+    }
 
   };
 
@@ -186,6 +201,7 @@ angular.module('starter.controllers', [])
     $rootScope.keyword = word;
     $rootScope.processWord = word;
     $rootScope.sortingMethod = 'relevance';
+    $rootScope.filterMethod = 'all';
     $state.go('app.searchpage', {
       id: word
     })
@@ -487,11 +503,19 @@ angular.module('starter.controllers', [])
     if (sortingMethod == null) {
       sortingMethod = "relevance";
     }
+    var searchFilter = search.date;
+    if (searchFilter == null){
+      searchFilter = "all";
+    }
     $rootScope.sortingMethod = sortingMethod;
+    $rootScope.filterMethod = searchFilter;
     $rootScope.processWord = $scope.joinedArray;
     console.log(sortingMethod);
-        $state.go('app.searchpage', {
-      id: $scope.processWord
+
+    var d = new Date();
+
+    $state.go('app.searchpage', {
+      id: $scope.processWord + d.toLocaleTimeString()
     });
   }
 
@@ -551,10 +575,6 @@ angular.module('starter.controllers', [])
     });
   };
 
-
-
-
-
   listenStatus($ionicLoading, $scope);
 
 
@@ -601,6 +621,7 @@ angular.module('starter.controllers', [])
     $rootScope.keyword = word;
     $rootScope.processWord = word;
     $rootScope.sortingMethod = 'relevance';
+    $rootScope.filterMethod = 'all';
     $state.go('app.searchpage', {
       id: word
     }, {
@@ -669,7 +690,7 @@ angular.module('starter.controllers', [])
     });
   }
 
-//display the changes when the value of rating changes
+  //display the changes when the value of rating changes
   $scope.$watch(function() {
     return $scope.rating
   }, function(nV, oV) {
@@ -697,7 +718,7 @@ angular.module('starter.controllers', [])
 
   $scope.star = ["grey", "grey", "grey", "grey", "grey"];
 
-//display the changes when the value of rating changes
+  //display the changes when the value of rating changes
   $scope.$watch(function() {
     return controll.info
   }, function(nV, oV) {
@@ -736,15 +757,17 @@ angular.module('starter.controllers', [])
   $scope.terminate = false;
   $scope.displayButton = false;
   $scope.keyword = $rootScope.keyword; //for display
-  $scope.sortingMethod = $rootScope.sortingMethod; 
+  $scope.sortingMethod = $rootScope.sortingMethod;
   $scope.processWord = $rootScope.processWord;
-
-//invoke the api to get the search result
+  $scope.filterMethod = $rootScope.filterMethod;
+  console.log($scope.filterMethod);
+  //invoke the api to get the search result
   QueryService.get({
     queries: $scope.processWord,
     sind: $scope.startRecord,
     capacity: $scope.recordsPerRequest,
-    sortMethod: $scope.sortingMethod
+    sortMethod: $scope.sortingMethod,
+    filter: $scope.filterMethod
   }, function(content1) {
     console.log(content1);
     $ionicLoading.hide();

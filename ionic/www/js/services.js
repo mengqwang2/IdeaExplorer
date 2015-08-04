@@ -12,7 +12,7 @@ angular.module('starter.services', [])
 })
 
 .factory('QueryService', function($resource){
-  return $resource('http://10.43.76.192:port/api/ideas/query=:queries&start=:sind&cap=:capacity&sort=:sortMethod', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance'});
+  return $resource('http://10.43.76.192:port/api/ideas/query=:queries&start=:sind&cap=:capacity&sort=:sortMethod&filt=:filter', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance', filter: 'all'});
 })
 
 
@@ -173,6 +173,7 @@ angular.module('starter.services', [])
             break;
       case 404: $rootScope.$broadcast(AUTH_EVENTS.notFound);
             break;
+      case 405: break;
       case 450: $rootScope.$broadcast(AUTH_EVENTS.requestError);
             break;
       case 500: $rootScope.$broadcast(AUTH_EVENTS.internalError);
@@ -194,42 +195,44 @@ angular.module('starter.services', [])
       console.log(1);
       if (loading != null)
         loading.hide();
-      var alertPopup = $ionicPopup.alert({
-      title: 'Session Lost!',
-      template: 'Sorry, You have to login again.'
-      })
-      alertPopup.then(function(res){
-        $rootScope.logout();
-      });  
+
+        var alertPopup = $ionicPopup.alert({
+        title: 'Session Lost!',
+        template: 'Sorry, You have to login again.'
+        })
+        alertPopup.then(function(res){
+          $rootScope.logout();
+        });  
+      
     });
 
     scope.$on(AUTH_EVENTS.notFound, function(event){
       console.log(2);
       if (loading != null)
         loading.hide();
+
       var alertPopup = $ionicPopup.alert({
       title: 'Error!',
       template: 'Unable to retrieve the content.'
-      }) ;
+      }); 
     });
 
     scope.$on(AUTH_EVENTS.internalError, function(event){
       console.log(3);
       if (loading != null)
         loading.hide();
+
       var alertPopup = $ionicPopup.alert({
       title: 'Internal Server Error!',
       template: 'Please contact the administrator.'
-      })
-      alertPopup.then(function(res){
-        $rootScope.logout();
-      });  
+      }) 
     });
 
     scope.$on(AUTH_EVENTS.requestError, function(event){
       console.log(4);
       if (loading != null)
         loading.hide();
+
       var alertPopup = $ionicPopup.alert({
       title: 'Error!',
       template: 'Unable to handle the request.'
