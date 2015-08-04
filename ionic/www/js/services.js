@@ -1,51 +1,51 @@
 angular.module('starter.services', [])
 
 .factory('Idea', function($resource) {
-  return $resource('http://10.43.75.70:port/api/ideas/id=:id&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', sind: '@start', capacity: '@capacity' });
+  return $resource('http://10.43.76.192:port/api/ideas/id=:id&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', sind: '@start', capacity: '@capacity' });
 })
 
 .factory('authentication', function($resource){
-	return $resource('http://10.43.75.70:port/api/login', { port: ':5000' });
+	return $resource('http://10.43.76.192:port/api/login', { port: ':5000' });
 })
 .factory('forgetService', function($resource){
-  return $resource('http://10.43.75.70:port/api/login/forget', {port: ':5000'});
+  return $resource('http://10.43.76.192:port/api/login/forget', {port: ':5000'});
 })
 
 .factory('QueryService', function($resource){
-  return $resource('http://10.43.75.70:port/api/ideas/query=:queries&start=:sind&cap=:capacity&sort=:sortMethod', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance'});
+  return $resource('http://10.43.76.192:port/api/ideas/query=:queries&start=:sind&cap=:capacity&sort=:sortMethod', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance'});
 })
 
 
 .factory('RegService', function($resource){
-  return $resource('http://10.43.75.70:port/api/reg', { port: ':5000' });
+  return $resource('http://10.43.76.192:port/api/reg', { port: ':5000' });
 })
 
 .factory('CommentService', function($resource){
-  return $resource('http://10.43.75.70:port/api/ideas/comment/:postid', {port: ':5000', postid: '@_id'});
+  return $resource('http://10.43.76.192:port/api/ideas/comment/:postid', {port: ':5000', postid: '@_id'});
 })
 
 .factory('RatingPostService', function($resource){
-  return $resource('http://10.43.75.70:port/api/ideas/rating', {port: ':5000'});
+  return $resource('http://10.43.76.192:port/api/ideas/rating', {port: ':5000'});
 })
 
 .factory('RatingGetService', function($resource){
-  return $resource('http://10.43.75.70:port/api/ideas/rating/:postid/:email', {port: ':5000', postid: '@id', email: '@email'});
+  return $resource('http://10.43.76.192:port/api/ideas/rating/:postid/:email', {port: ':5000', postid: '@id', email: '@email'});
 })
 
 .factory('HabitService', function($resource){
-  return $resource('http://10.43.75.70:port/api/user/habit', {port: ':5000'});
+  return $resource('http://10.43.76.192:port/api/user/habit', {port: ':5000'});
 })
 
 .factory('DetailIdea', function($resource){
-  return $resource('http://10.43.75.70:port/api/ideas/details/:id&:email', {port: ':5000', id: '@id', email:'@email'});
+  return $resource('http://10.43.76.192:port/api/ideas/details/:id&:email', {port: ':5000', id: '@id', email:'@email'});
 })
 
 .factory('CategoryService', function($resource){
-  return $resource('http://10.43.75.70:port/api/category', {port: ':5000'});
+  return $resource('http://10.43.76.192:port/api/category', {port: ':5000'});
 })
 
 .factory('SimilarService', function($resource){
-  return $resource('http://10.43.75.70:port/api/ideas/relevant/:postid', {port: ':5000', postid: '@_id'});
+  return $resource('http://10.43.76.192:port/api/ideas/relevant/:postid', {port: ':5000', postid: '@_id'});
 })
 
 .service('AuthService', function($q, $http, USER_ROLES, authentication, $rootScope) {

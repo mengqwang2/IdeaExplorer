@@ -58,6 +58,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
   })
 
   .state('app.search', {
+    cache: false,
     url: "/search",
     views: {
       'menuContent': {
@@ -160,15 +161,10 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
 
 })
 
-.run( function($ionicHistory, AuthService, $rootScope, $state){
+.run( function(AuthService, $rootScope, $state){
     $rootScope.logout = function(){
     $state.go('signin', {}, {reload:true});
     $rootScope.$broadcast("logoutClear");
-    $ionicHistory.clearHistory();
-    $ionicHistory.clearCache();
-    $rootScope.data = {};
-    $rootScope.datum = {};
-    $rootScope.qdata = {};
     AuthService.logout();
   };
 
@@ -212,10 +208,10 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
   }
 
 
-  $rootScope.allComments = [];
+  $rootScope.allStoredComments = [];
   $rootScope.insertAllComments = function(passcom, passid){
     var inserted = false;
-    angular.forEach($rootScope.allComments, function(comment){
+    angular.forEach($rootScope.allStoredComments, function(comment){
       if (comment.id == passid){
         comment.content = passcom;
         inserted = true;
@@ -223,14 +219,17 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
       }
     });
     if (!inserted)
-      $rootScope.allComments.push({'id': passid, 'content': passcom});
+      $rootScope.allStoredComments.push({'id': passid, 'content': passcom});
   }
 
   $rootScope.retrieveComments = function(id){
     var commentCon;
-    angular.forEach($rootScope.allComments, function(comment,key){
+    console.log(id);
+    angular.forEach($rootScope.allStoredComments, function(comment,key){
+      console.log(comment.id);
       if (comment.id == id){
         commentCon = comment.content;
+        console.log('found match');
         return;
       }
     });
