@@ -43,9 +43,11 @@ angular.module('starter.controllers', [])
   Idea.get({
     id: $rootScope.username,
     sind: $scope.startRecord,
-    capacity: $scope.recordsPerRequest
+    capacity: $scope.recordsPerRequest,
+    cache: $rootScope.cacheSignal
   }, function(content, code) {
     console.log(content);
+    $rootScope.cacheSignal = 0;
     $ionicLoading.hide();
     var temp = $rootScope.listOfReference(content.Ideas)
     console.log(temp);
@@ -71,7 +73,8 @@ angular.module('starter.controllers', [])
       Idea.get({
         id: $rootScope.username,
         sind: $scope.startRecord,
-        capacity: $scope.recordsPerRequest
+        capacity: $scope.recordsPerRequest,
+        cache: $rootScope.cacheSignal
       }, function(content, code) {
         console.log(content);
         var temp = $rootScope.listOfReference(content.Ideas)
@@ -852,6 +855,7 @@ angular.module('starter.controllers', [])
     InterestService.delete_tag({mail: $rootScope.username, tag: item}, function(content){
       $ionicLoading.hide();
       $scope.items.splice($scope.items.indexOf(item), 1);
+      $rootScope.cacheSignal = 1;
     }, function(error){
       $ionicLoading.hide();
       fireStatus(error.status);

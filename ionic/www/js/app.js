@@ -169,6 +169,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
     AuthService.logout();
   };
 
+  $rootScope.cacheSignal = 0; // 1 is to refresh
 
   $rootScope.dataSource =[];
   $rootScope.detailSource=[];

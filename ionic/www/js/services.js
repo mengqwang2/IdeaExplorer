@@ -1,7 +1,7 @@
 angular.module('starter.services', [])
 
 .factory('Idea', function($resource) {
-  return $resource('http://10.43.74.245:port/api/ideas/id=:id&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', sind: '@start', capacity: '@capacity' });
+  return $resource('http://10.43.74.245:port/api/ideas/id=:id&ca=:cache&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', cache: '0', sind: '@start', capacity: '@capacity' });
 })
 
 .factory('authentication', function($resource){
