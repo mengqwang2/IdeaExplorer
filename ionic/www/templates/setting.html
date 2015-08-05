@@ -3,11 +3,11 @@
     <ion-list>
       <ion-item ng-repeat="item in items" 
                   item="item" class="item-remove-animate">
-          <ion-option-button class="ion-close-round button-assertive"
+          <ion-option-button class="ion-close-round  button-assertive"
                              ng-click="onItemDelete(item)">
            
           </ion-option-button>
-          Item {{ item.id }}
+           {{ item }}
           <span class="item-note">
             Swipe left to delete
           </span>

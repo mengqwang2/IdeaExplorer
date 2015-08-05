@@ -100,6 +100,7 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'ngResource','starter.
     })
 
       .state('app.setting', {
+        cache: false,
     url: "/setting",
     views: {
       'menuContent': {

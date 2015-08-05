@@ -520,39 +520,8 @@ angular.module('starter.controllers', [])
   }
 
 
-  <!--infinite scroll, load more-->
 
 
-  $scope.loadMore = function() {
-    $scope.displayButton = false;
-    console.log("Trying to load more");
-    console.log($scope.startRecord);
-    if ($scope.startRecord < $scope.size) {
-      QueryService.get({
-        queries: $scope.joinedArray,
-        sind: $scope.startRecord,
-        capacity: $scope.recordsPerRequest
-      }, function(content, code) {
-        console.log(content);
-        var temp = $rootScope.listOfReference(content.Ideas);
-
-        angular.forEach(temp, function(record) {
-          $scope.qdata.Ideas.push(record);
-        })
-        $scope.startRecord = content["eind"] + 1;
-        $scope.capacity = content["capacity"];
-        $scope.displayButton = true;
-
-
-
-      }, function(error) {
-        fireStatus(error.status);
-      })
-    }
-
-
-    $scope.$broadcast('scroll.infiniteScrollComplete');
-  }
 
 
   $scope.checkComplete = function(text, limit) {
@@ -751,6 +720,7 @@ angular.module('starter.controllers', [])
 .controller("tagSearchCon", function($scope, QueryService, $rootScope, $ionicLoading, $ionicPopup, $state, listenStatus, fireStatus) {
 
 
+
   //search settings
   $scope.recordsPerRequest = 5;
   $scope.startRecord = 0; //start from 0
@@ -767,10 +737,20 @@ angular.module('starter.controllers', [])
     sind: $scope.startRecord,
     capacity: $scope.recordsPerRequest,
     sortMethod: $scope.sortingMethod,
-    filter: $scope.filterMethod
+    filter: $scope.filterMethod,
+    mail:$rootScope.username
   }, function(content1) {
     console.log(content1);
     $ionicLoading.hide();
+    if (content1.Ideas.length ==0){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Info',
+        template: 'No ideas are found.'
+        });
+        $scope.displayButton = false;
+        return;
+
+    }
     var temp = $rootScope.listOfReference(content1.Ideas);
     $scope.qdata = {
       'Ideas': temp
@@ -810,7 +790,8 @@ angular.module('starter.controllers', [])
         sind: $scope.startRecord,
         capacity: $scope.recordsPerRequest,
         sortMethod: $scope.sortingMethod,
-        filter: $scope.filterMethod
+        filter: $scope.filterMethod,
+        mail: $rootScope.username
       }, function(content, code) {
         console.log(content);
         var temp = $rootScope.listOfReference(content.Ideas);
@@ -854,57 +835,84 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('SettingCtrl', function($scope) {
+.controller('SettingCtrl', function($scope, InterestService, $rootScope, fireStatus, $ionicLoading, listenStatus) {
+
+  $ionicLoading.show({
+    template: '<ion-spinner icon="lines" class="spinner-positive"></ion-spinner>',
+    animation: 'fade-in',
+    showBackdrop: true,
+    maxwidth: 200,
+    hideOnStateChange: true
+      //duration: 1000
+  });
+
 
   $scope.onItemDelete = function(item) {
-    $scope.items.splice($scope.items.indexOf(item), 1);
+    
+    InterestService.delete_tag({mail: $rootScope.username, tag: item}, function(content){
+      $ionicLoading.hide();
+      $scope.items.splice($scope.items.indexOf(item), 1);
+    }, function(error){
+      $ionicLoading.hide();
+      fireStatus(error.status);
+    });
   };
 
-  $scope.items = [{
-      id: 0
-    }, {
-      id: 1
-    }, {
-      id: 2
-    }, {
-      id: 3
-    }, {
-      id: 4
-    }, {
-      id: 5
-    }, {
-      id: 6
-    }, {
-      id: 7
-    }, {
-      id: 8
-    }, {
-      id: 9
-    }, {
-      id: 10
-    }, {
-      id: 11
-    }, {
-      id: 12
-    }, {
-      id: 13
-    }, {
-      id: 14
-    }, {
-      id: 15
-    }, {
-      id: 16
-    }, {
-      id: 17
-    }, {
-      id: 18
-    }, {
-      id: 19
-    }, {
-      id: 20
-    }
+  InterestService.query({mail: $rootScope.username},function(content){
+    console.log(content);
+    $ionicLoading.hide();
+    $scope.items =content;
+  }, function(error){
+    console.log(error);
+    fireStatus(error.status);
+  });
 
-  ];
+  listenStatus($ionicLoading, $scope);
+  // $scope.items = [{
+  //     id: 0
+  //   }, {
+  //     id: 1
+  //   }, {
+  //     id: 2
+  //   }, {
+  //     id: 3
+  //   }, {
+  //     id: 4
+  //   }, {
+  //     id: 5
+  //   }, {
+  //     id: 6
+  //   }, {
+  //     id: 7
+  //   }, {
+  //     id: 8
+  //   }, {
+  //     id: 9
+  //   }, {
+  //     id: 10
+  //   }, {
+  //     id: 11
+  //   }, {
+  //     id: 12
+  //   }, {
+  //     id: 13
+  //   }, {
+  //     id: 14
+  //   }, {
+  //     id: 15
+  //   }, {
+  //     id: 16
+  //   }, {
+  //     id: 17
+  //   }, {
+  //     id: 18
+  //   }, {
+  //     id: 19
+  //   }, {
+  //     id: 20
+  //   }
+
+  // ];
 
 })
 
