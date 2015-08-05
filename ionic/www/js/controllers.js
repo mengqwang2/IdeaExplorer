@@ -404,7 +404,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('registerController', function($scope, $ionicPopup, $state, RegService, AuthService, $rootScope) {
+.controller('registerController', function($scope, $ionicPopup, $state, RegService, AuthService, $rootScope, $ionicHistory) {
 
   //validation
 
@@ -429,6 +429,9 @@ angular.module('starter.controllers', [])
       });
       alertPopup.then(function(res) {
         AuthService.login(info.email, info.password).then(function(authenticated) {
+          $ionicHistory.nextViewOptions({
+            disableBack: true
+          });
           $state.go('app.home', {}, {
             reload: true
           });
@@ -470,13 +473,14 @@ angular.module('starter.controllers', [])
   function keywordSplit(keyword) {
     var kw = keyword;
     var splitedArray = kw.split(" ");
+    splitedArray.sort();
     return splitedArray;
   };
 
   function keywordJoin(array) {
     var String = array[0];
     for (i = 1; i < array.length; i++) {
-      String = String + '&' + array[i];
+      String = String + '%' + array[i];
     }
 
     return String;
@@ -787,9 +791,14 @@ angular.module('starter.controllers', [])
     $scope.displayButton = false;
     console.log("Trying to load more");
     console.log($scope.startRecord);
+    console.log($scope.keyword);
+    console.log($scope.sortingMethod);
+    console.log($scope.recordsPerRequest);
+    console.log($scope.filterMethod);
+    console.log($rootScope.username);
     if ($scope.startRecord < $scope.size) {
       QueryService.get({
-        queries: $scope.keyword,
+        queries: $scope.processWord,
         sind: $scope.startRecord,
         capacity: $scope.recordsPerRequest,
         sortMethod: $scope.sortingMethod,
@@ -872,63 +881,27 @@ angular.module('starter.controllers', [])
   });
 
   listenStatus($ionicLoading, $scope);
-  // $scope.items = [{
-  //     id: 0
-  //   }, {
-  //     id: 1
-  //   }, {
-  //     id: 2
-  //   }, {
-  //     id: 3
-  //   }, {
-  //     id: 4
-  //   }, {
-  //     id: 5
-  //   }, {
-  //     id: 6
-  //   }, {
-  //     id: 7
-  //   }, {
-  //     id: 8
-  //   }, {
-  //     id: 9
-  //   }, {
-  //     id: 10
-  //   }, {
-  //     id: 11
-  //   }, {
-  //     id: 12
-  //   }, {
-  //     id: 13
-  //   }, {
-  //     id: 14
-  //   }, {
-  //     id: 15
-  //   }, {
-  //     id: 16
-  //   }, {
-  //     id: 17
-  //   }, {
-  //     id: 18
-  //   }, {
-  //     id: 19
-  //   }, {
-  //     id: 20
-  //   }
 
-  // ];
 
 })
 
 .controller('FeedbackCtrl', function($scope, $ionicPopup) {
-  $scope.sendEmail = function(subject, body) {
-    var link = "mailto:test@123.com" + "?subject=New%20email " + escape(subject) + "&body=" + escape(body);
-
-    window.location.href = link;
-
-    var alertPopup = $ionicPopup.alert({
-      title: 'Sent',
-      template: 'Your Feedback is well received.'
+  $scope.sendEmail = function(subject1, body1) {
+    window.plugin.email.open({
+      subject: subject1,
+      body: body1
     });
-  };
+
+  }
+
+
+    // var link = "mailto:test@123.com" + "?subject=New%20email " + escape(subject) + "&body=" + escape(body);
+
+    // window.location.href = link;
+
+    // var alertPopup = $ionicPopup.alert({
+    //   title: 'Sent',
+    //   template: 'Your Feedback is well received.'
+    // });
+
 });

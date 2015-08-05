@@ -12,7 +12,7 @@ angular.module('starter.services', [])
 })
 
 .factory('QueryService', function($resource){
-  return $resource('http://10.43.74.245:port/api/ideas/query=:queries&start=:sind&cap=:capacity&sort=:sortMethod&filt=:filter&email=:mail', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance', filter: 'all', mail: '@mymail'});
+  return $resource('http://10.43.74.245:port/api/ideas/query=:queries&sort=:sortMethod&filt=:filter&start=:sind&cap=:capacity&email=:mail', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance', filter: 'all', mail: '@mymail'});
 })
 
 
