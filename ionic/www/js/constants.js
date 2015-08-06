@@ -14,4 +14,9 @@ angular.module('starter')
 .constant('USER_ROLES', {
   admin: 'admin_role',
   public: 'public_role'
+})
+
+.constant('NETWORK',{
+	IP: "10.43.76.44",
+	PORT: ":5000"
 });

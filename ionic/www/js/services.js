@@ -1,39 +1,39 @@
 angular.module('starter.services', [])
 
-.factory('Idea', function($resource) {
-  return $resource('http://10.43.74.245:port/api/ideas/id=:id&ca=:cache&start=:sind&cap=:capacity', { port: ':5000', id: '@_id', cache: '0', sind: '@start', capacity: '@capacity' });
+.factory('Idea', function($resource, NETWORK) {
+  return $resource('http://:ip:port/api/ideas/id=:id&ca=:cache&start=:sind&cap=:capacity', { ip: NETWORK.IP ,port: NETWORK.PORT, id: '@_id', cache: '0', sind: '@start', capacity: '@capacity' });
 })
 
-.factory('authentication', function($resource){
-	return $resource('http://10.43.74.245:port/api/login', { port: ':5000' });
+.factory('authentication', function($resource, NETWORK){
+	return $resource('http://:ip:port/api/login', {ip: NETWORK.IP ,port: NETWORK.PORT });
 })
-.factory('forgetService', function($resource){
-  return $resource('http://10.43.74.245:port/api/login/forget', {port: ':5000'});
-})
-
-.factory('QueryService', function($resource){
-  return $resource('http://10.43.74.245:port/api/ideas/query=:queries&sort=:sortMethod&filt=:filter&start=:sind&cap=:capacity&email=:mail', {port: ':5000', queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance', filter: 'all', mail: '@mymail'});
+.factory('forgetService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/login/forget', {ip: NETWORK.IP ,port: NETWORK.PORT});
 })
 
-
-.factory('RegService', function($resource){
-  return $resource('http://10.43.74.245:port/api/reg', { port: ':5000' });
+.factory('QueryService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/ideas/query=:queries&sort=:sortMethod&filt=:filter&start=:sind&cap=:capacity&email=:mail', {ip: NETWORK.IP ,port: NETWORK.PORT, queries: '@_querystring', sind: '@start', capacity: '@capacity', sortMethod: 'relevance', filter: 'all', mail: '@mymail'});
 })
 
-.factory('CommentService', function($resource){
-  return $resource('http://10.43.74.245:port/api/ideas/comment/:postid', {port: ':5000', postid: '@_id'});
+
+.factory('RegService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/reg', {ip: NETWORK.IP ,port: NETWORK.PORT });
 })
 
-.factory('RatingPostService', function($resource){
-  return $resource('http://10.43.74.245:port/api/ideas/rating', {port: ':5000'});
+.factory('CommentService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/ideas/comment/:postid', {ip: NETWORK.IP ,port: NETWORK.PORT, postid: '@_id'});
 })
 
-.factory('RatingGetService', function($resource){
-  return $resource('http://10.43.74.245:port/api/ideas/rating/:postid/:email', {port: ':5000', postid: '@id', email: '@email'});
+.factory('RatingPostService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/ideas/rating', {ip: NETWORK.IP ,port: NETWORK.PORT});
 })
 
-.factory('InterestService', function($resource){
-  return $resource('http://10.43.74.245:port/api/user/interest/email=:mail&interest=:tag', {port: ':5000', mail:'@email', tag: '0'},
+.factory('RatingGetService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/ideas/rating/:postid/:email', {ip: NETWORK.IP ,port: NETWORK.PORT, postid: '@id', email: '@email'});
+})
+
+.factory('InterestService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/user/interest/email=:mail&interest=:tag', {ip: NETWORK.IP ,port: NETWORK.PORT, mail:'@email', tag: '0'},
     {
       delete_tag:{
         method: 'DELETE'
@@ -41,16 +41,16 @@ angular.module('starter.services', [])
     });
 })
 
-.factory('DetailIdea', function($resource){
-  return $resource('http://10.43.74.245:port/api/ideas/details/:id&:email', {port: ':5000', id: '@id', email:'@email'});
+.factory('DetailIdea', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/ideas/details/:id&:email', {ip: NETWORK.IP ,port: NETWORK.PORT, id: '@id', email:'@email'});
 })
 
-.factory('CategoryService', function($resource){
-  return $resource('http://10.43.74.245:port/api/category', {port: ':5000'});
+.factory('CategoryService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/category', {ip: NETWORK.IP ,port: NETWORK.PORT});
 })
 
-.factory('SimilarService', function($resource){
-  return $resource('http://10.43.74.245:port/api/ideas/relevant/:postid', {port: ':5000', postid: '@_id'});
+.factory('SimilarService', function($resource, NETWORK){
+  return $resource('http://:ip:port/api/ideas/relevant/:postid', {ip: NETWORK.IP ,port: NETWORK.PORT, postid: '@_id'});
 })
 
 .service('AuthService', function($q, $http, USER_ROLES, authentication, $rootScope) {
